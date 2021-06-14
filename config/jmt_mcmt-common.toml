@@ -1,0 +1,71 @@
+
+[general]
+	#Globally disable all toggleable functionality
+	disabled = false
+
+	[general.parallelism]
+		#Other modes for paraMax
+		#Override: Standard but without the CoreCount Ceiling (So you can have 64k threads if you want)
+		#Reduction: Parallelism becomes Math.max(CoreCount-paramax, 2), if paramax is set to be -1, it's treated as 0
+		#Todo: add more
+		#Allowed Values: Standard, Override, Reduction
+		paraMaxMode = "Standard"
+		#Thread count config; In standard mode: will never create more threads
+		#than there are CPU threads (as that causeses Context switch churning)
+		#Values <=1 are treated as 'all cores'
+		#Range: > -1
+		paraMax = -1
+
+[world]
+	#Disable world parallelisation
+	disableWorld = false
+	#Disable world post tick parallelisation
+	disableWorldPostTick = false
+
+[entity]
+	#Disable entity parallelisation
+	disableEntity = false
+
+[te]
+	#Use chunklocks for any unknown (i.e. modded) tile entities
+	#Chunklocking means we prevent multiple tile entities a 1 chunk radius of eachother being ticked to limit concurrency impacts
+	chunkLockModded = true
+	#Disable tile entity parallelisation
+	disableTileEntity = false
+	#List of tile entity classes that will always be fully parallelised
+	#This will occur even when chunkLockModded is set to true
+	#Adding pistons to this will not parallelise them
+	teWhiteList = []
+	#List of tile entity classes that will always be chunklocked
+	#This will occur even when chunkLockModded is set to false
+	teBlackList = []
+
+[misc]
+	#Disable environment (plant ticks, etc.) parallelisation
+	disableEnvironment = false
+	#Disable parallelised chunk caching; doing this will result in much lower performance with little to no gain
+	disableChunkProvider = false
+
+[debug]
+
+	#Here is where all the wierd diagnostic and hack options go to live
+	[debug.load-forcing]
+		#Enable chunk loading timeouts; this will forcably kill any chunks that fail to load in sufficient time
+		#may allow for loading of damaged/corrupted worlds
+		enableChunkTimeout = false
+		#Ammount of workless iterations to wait before declaring a chunk load attempt as timed out
+		#This is in ~100us itterations (plus minus yield time) so timeout >= timeoutCount*100us
+		#Range: 500 ~ 500000
+		timeoutCount = 5000
+		#Attempts to re-load timed out chunks; Seems to work
+		enableTimeoutReload = false
+
+	[debug.ops-tracing]
+		#Enable ops tracing; this will probably have a performance impact, but allows for better debugging
+		opsTracing = false
+
+	[debug.logcap]
+		#Maximum time between MCMT presence alerts in 10ms steps
+		#Range: > 15000
+		opsTracing = 720000
+

@@ -1,0 +1,55 @@
+
+[General]
+	#
+	############################################
+	#Enable this to see debug messages
+	#Added
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Debug" = false
+
+["Test Group"]
+	#
+	############################################
+	#Test Comment
+	#-------------------------------------------
+	#Default: 5
+	#-------------------------------------------
+	"Test Integer" = 5
+	#
+	############################################
+	#Test Single-line comment
+	#-------------------------------------------
+	#Default: 10.0
+	#-------------------------------------------
+	#Range: 0.0 ~ 100.0
+	"Float: Test Float" = 10.0
+	#
+	############################################
+	#Test Multi-line comment
+	#This is the second line
+	#-------------------------------------------
+	#CARD: Just a Card
+	#WILD: Turns Into a Wild Animal
+	#Default: CARD
+	#-------------------------------------------
+	#Allowed Values: CARD, WILD
+	"Enum: Test Enum" = "CARD"
+	#
+	############################################
+	#
+	#Default: Default String Value Wtihout Coment
+	#-------------------------------------------
+	"String: Test String" = "Default String Value Wtihout Coment"
+
+[Group]
+	#
+	############################################
+	#comment
+	#-------------------------------------------
+	#Default: 10
+	#-------------------------------------------
+	#Range: 0 ~ 1000
+	"Long: Test Long" = 10
+

@@ -1,0 +1,23 @@
+#0: top-left, 1: top-middle, 2: top-right, 3: bottom-right, 4: bottom-middle, 5: bottom-left
+#Range: 0 ~ 5
+oxygenGuiAnchor = 4
+#No comment
+oxygenGuiEnabled = true
+#No comment
+#Range: -1000 ~ 1000
+oxygenGuiOffsetX = 62
+#No comment
+#Range: -1000 ~ 1000
+oxygenGuiOffsetY = -32
+#0: top-left, 1: top-middle, 2: top-right, 3: bottom-right, 4: bottom-middle, 5: bottom-left
+#Range: 0 ~ 5
+seamothGuiAnchor = 3
+#No comment
+seamothGuiEnabled = true
+#No comment
+#Range: -1000 ~ 1000
+seamothGuiOffsetX = -4
+#No comment
+#Range: -1000 ~ 1000
+seamothGuiOffsetY = -8
+

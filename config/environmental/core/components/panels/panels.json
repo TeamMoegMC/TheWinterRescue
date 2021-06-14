@@ -1,0 +1,16 @@
+{
+  "ma:panel": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  },
+  "ma:clear_panel": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  }
+}

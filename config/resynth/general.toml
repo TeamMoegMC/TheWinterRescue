@@ -1,0 +1,218 @@
+
+[enhancers]
+	#The mineral concentration percentage increase that a Calvinite
+	#Enhancer block gives the Mineral Soil block it's placed under.
+	#(type=double, min=1.0, max=40.0, default=10.0)
+	calvinite-mineral-concentration-increase = 10.0
+	#The mineral concentration percentage increase that a Sylvanite
+	#Enhancer block gives the Mineral Soil block it's placed under.
+	#(type=double, min=2.0, max=50.0, default=25.0)
+	sylvanite-mineral-concentration-increase = 25.0
+
+[mineral-stone]
+	#The amount of extra Mineral Rocks Mineral Stone will give
+	#when mined (based on [chance-of-extra-drops]).
+	#(type=integer, min=0, max=64, default=2)
+	number-of-extra-drops = 2
+	#The chance of Mineral Stone giving extra Mineral Rocks when mined (0% to 100%).
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	chance-of-extra-drops = 20.0
+	#The minimum number of experience orbs Mineral Stone will drop when mined.
+	#(type=integer, min=0, max=100, default=3)
+	minimum-experience-dropped = 3
+	#The minimum number of Mineral Rocks dropped by Mineral Stone when it's mined.
+	#(type=integer, min=0, max=64, default=1)
+	number-of-base-drops = 1
+	#The maximum number of experience orbs Mineral Stone will drop when mined.
+	#(type=integer, min=0, max=100, default=7)
+	maximum-experience-dropped = 7
+
+	[mineral-stone.ore-generation]
+		#The average number/frequency of ore veins in a chunk.
+		#Set this number higher to increase the number of ore veins.
+		#(type=integer, min=1, max=64, default=20)
+		vein-rarity = 20
+		#The minimum height (Y-level) that the ore blocks will generate.
+		#(type=integer, min=1, max=254, default=0)
+		minimum-vein-height = 1
+		#The maximum height (Y-level) that the ore blocks will generate
+		#(type=integer, min=1, max=255, default=15)
+		maximum-vein-height = 15
+		#Allows enabling or disabling generating the ore block in the world.
+		#Set this to false to prevent the ore block from spawning in the world
+		#(type=boolean, default=true)
+		generate = true
+		#The average size of the ore veins. Set this number
+		#higher to increase the amount of ore blocks in an ore vein.
+		#(type=integer, min=1, max=64, default=7)
+		vein-size = 7
+
+[mineral-crystal]
+	#Enable this (set to true) to allow turning dirt or grass into
+	#Mineral Soil directly by using the item on the dirt or grass block
+	#without having to use the Mineral Hoe. Use this mode when the Mineral
+	#Hoe is broken or cannot be used.
+	#(type=boolean, default=false)
+	enable-emergency-conversion-mode = false
+
+[mineral-hoe]
+	#When enabled, the Mineral Hoe will spawn flame particles whenever
+	#tilling a block.
+	#(type=boolean, default=true)
+	show-particles = true
+	#The maximum amount of charges a single Mineral Hoe can store.
+	#(type=integer, min=1, max=640, default=64)
+	maximum-number-of-charges = 64
+	#The amount of charges a Mineral Hoe will have when first crafted.
+	#(type=integer, min=0, max=2, default=2)
+	number-of-initial-charges = 2
+	#When enabled, the Mineral Hoe will play a sound when trying to
+	#till a block without enough charges.
+	#(type=boolean, default=true)
+	play-failure-sound = true
+	#When enabled, the Mineral Hoe will play a sound whenever a charge (Mineral
+	#Crystal) is added to it.
+	#(type=boolean, default=true)
+	play-charge-sound = true
+	#Set to false to prevent the Mineral Hoe from being used
+	#to turn dirt or grass into Mineral Enriched Soil.
+	#(type=boolean, default=true)
+	enable-mineral-hoe = true
+
+[mystical-seed-pod]
+	#The frequency (or the number of times) that patches of Mystical Seed Pods will generate in a chunk.
+	#Setting this to a higher value will generate more patches of Mystical Seed Pods.
+	#(type=integer, min=1, max=64, default=5)
+	flower-patch-rarity = 5
+	#The average amount of Mystical Seed Pods that will generate in a flower patch.
+	#Setting this to a higher value will generate more Mystical Seed Pods per patch.
+	#(type=integer, min=64, max=1, default=4)
+	flower-patch-size = 64
+	#Allows enabling or disabling the generating of Mystical Seed Pods in the world.
+	#Set this to false to prevent Mystical Seed Pods from generating in the world.
+	#(type=boolean, default=true)
+	generate-in-world = true
+	#Set to true to make the Mystical Seed Pod drop a random Biochemical (mob drop)
+	#seed when broken. This can be useful for players playing on peaceful mode who can
+	#otherwise not get mob drops
+	#(type=boolean, default=false)
+	enable-drops-from-seed-pod = false
+
+[calvinite]
+
+	[calvinite.ore-generation]
+		#The average number/frequency of ore veins in a chunk.
+		#Set this number higher to increase the number of ore veins.
+		#(type=integer, min=1, max=64, default=17)
+		vein-rarity = 17
+		#The minimum height (Y-level) that the ore blocks will generate.
+		#(type=integer, min=1, max=254, default=0)
+		minimum-vein-height = 1
+		#The maximum height (Y-level) that the ore blocks will generate
+		#(type=integer, min=1, max=255, default=126)
+		maximum-vein-height = 126
+		#Allows enabling or disabling generating the ore block in the world.
+		#Set this to false to prevent the ore block from spawning in the world
+		#(type=boolean, default=true)
+		generate = true
+		#The average size of the ore veins. Set this number
+		#higher to increase the amount of ore blocks in an ore vein.
+		#(type=integer, min=1, max=64, default=4)
+		vein-size = 4
+
+[general-resynth-config]
+	#The maximum amount of characters allowed on a single line in an item or block tooltip.
+	#(type=integer, min=20, max=100, default=60)
+	tooltip-character-limit = 60
+	#Allows enabling (or disabling) the addition of various crafting recipes that can be used to craft Resynth's core resources:
+	#Mineral Rocks, Calvinite Crystals, Sylvanite Crystals, ect. These resources are NOT normally craftable, instead, they need
+	#to mined or otherwise obtained from the world.
+	#Enable this config option if the ores/resources are not generating naturally, or if the resources cannot otherwise be obtained.
+	#(type=boolean, default=false)
+	enable-core-resource-recipes = false
+	#Enables features related to debugging and development.
+	#It's unlikely you'd want to enable this.
+	#(type=boolean, default=false)
+	enable-debug-help = false
+	#Determines if the lighting in the world affects the growth rates and chances of planted crops.
+	#When 'true', the growth rates of plants change slightly based on the amount of ambient light
+	#and brightness on the plant. Low to moderate amounts of light negatively affect growth, while
+	#very bright light  positively affects growth.
+	#(type=boolean, default=true)
+	is-growth-affected-by-light = true
+	#The percentage (in decimal form: 0.04 = 4%) each level of light (above or below the zero point) is worth.
+	#Each level of light will change the multiplier by this value - minimum. So, at a worth of 0.04, 3 levels
+	#above the zero point will add +0.12 to the multiplier, increasing growth by 12%. This works the same way in
+	#the reverse direction.
+	#(type=double, min=0.001, max=0.1, default=0.04)
+	worth-of-light-level-as-growth-multiplier = 0.04
+	#The amount of interest added to the worth of a light level, for each light level above or below the zero
+	#point. Put more simply, it's the amount each additional light level adds to the worth of a light level. 
+	#This value controls the exponential growth of the cost per light level.
+	#(type=double, min=-1.0, max=1.0, default=0.01)
+	interest-increase-on-worth-per-level = 0.01
+	#Allows auto-farming using hoppers when true, where plants will drop their
+	#produce in a hopper underneath the plant when fully grown, starting the
+	#growth cycle over.
+	#(type=boolean, default=true)
+	allow-hopper-auto-farming = true
+	#Set to true to show detailed and descriptive tooltips on all Resynth blocks & items.
+	#(type=boolean, default=true)
+	enable-descriptive-tooltips = true
+	#The light level at which the growth multiplier is 0 (zero), making any lower light levels decrease the
+	#multiplier while any higher light levels increase the multiplier. Said in layman's terms: sets the point
+	#where light levels change from decreasing the growth multiplier to increasing the growth multiplier.
+	#(type=integer, min=9, max=13, default=11)
+	light-level-zero-point = 11
+	#Enables or disables all the analytical features of the mod.
+	#Including usage and error reports (all sent reports are anonymous).
+	#False to disable, true to enable.
+	#(type=boolean, default=true)
+	enable-analytics = true
+	#All Crystalline type plants and plant sets offer the ability to directly craft
+	#the resource grown by this plant by placing the plants seeds in a crafting table.
+	#This option is available if you wish to be able turn seeds mined from ores into the
+	#resource that would normally drop, without having to grow it, or for any other reason.
+	#Set this option to 'true' to enable the functionality.
+	#(type=boolean, default=false)
+	enable-crafting-crystalline-seeds = false
+
+[sylvanite]
+
+	[sylvanite.ore-generation]
+		#The average number/frequency of ore veins in a chunk.
+		#Set this number higher to increase the number of ore veins.
+		#(type=integer, min=1, max=64, default=15)
+		vein-rarity = 15
+		#The minimum height (Y-level) that the ore blocks will generate.
+		#(type=integer, min=1, max=254, default=0)
+		minimum-vein-height = 1
+		#The maximum height (Y-level) that the ore blocks will generate
+		#(type=integer, min=1, max=255, default=126)
+		maximum-vein-height = 126
+		#Allows enabling or disabling generating the ore block in the world.
+		#Set this to false to prevent the ore block from spawning in the world
+		#(type=boolean, default=true)
+		generate = true
+		#The average size of the ore veins. Set this number
+		#higher to increase the amount of ore blocks in an ore vein.
+		#(type=integer, min=1, max=64, default=3)
+		vein-size = 3
+
+[mineral-soil]
+	#The Mineral Content a single Mineral Rock is worth. WARNING: Setting this value to one that
+	#does not eventually add up to 50 (taking into account the starting mineral content), will
+	#cause Mineral Rocks to be lost when breaking Mineral Soil blocks with a high/full Mineral
+	#Content.
+	#(type=double, min=0.1, max=50.0, default=1.0)
+	mineral-rock-worth = 1.0
+	#When enabled, a chat message containing the Mineral Content of
+	#the Mineral Soil block will be displayed, when adding Mineral Rocks
+	#to the block
+	#(type=boolean, default=false)
+	enable-chat-message = false
+	#The initial/starting Mineral Content of every Mineral Soil block when it's
+	#first placed/created.
+	#(type=double, min=0.1, max=50.0, default=1.0)
+	initial-mineral-content = 1.0
+

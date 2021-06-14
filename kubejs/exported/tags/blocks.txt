@@ -1,0 +1,6359 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 12, 2021 8:09:13 PM
+
+#forge:glass_panes/magenta
+- minecraft:magenta_stained_glass_pane
+
+#forge:storage_blocks/rose_metal
+- rankine:rose_metal_block
+
+#forge:ores/biotite
+- quark:biotite_ore
+
+#quark:planks_vertical_slab
+- quark:black_stained_planks_vertical_slab
+- quark:blue_stained_planks_vertical_slab
+- quark:brown_stained_planks_vertical_slab
+- quark:cyan_stained_planks_vertical_slab
+- quark:gray_stained_planks_vertical_slab
+- quark:green_stained_planks_vertical_slab
+- quark:light_blue_stained_planks_vertical_slab
+- quark:light_gray_stained_planks_vertical_slab
+- quark:lime_stained_planks_vertical_slab
+- quark:magenta_stained_planks_vertical_slab
+- quark:orange_stained_planks_vertical_slab
+- quark:pink_stained_planks_vertical_slab
+- quark:purple_stained_planks_vertical_slab
+- quark:red_stained_planks_vertical_slab
+- quark:white_stained_planks_vertical_slab
+- quark:yellow_stained_planks_vertical_slab
+
+#forge:storage_blocks/rutherfordium
+- rankine:rutherfordium_block
+
+#forge:storage_blocks/meitnerium
+- rankine:meitnerium_block
+
+#quark:stools
+- quark:black_stool
+- quark:blue_stool
+- quark:brown_stool
+- quark:cyan_stool
+- quark:gray_stool
+- quark:green_stool
+- quark:light_blue_stool
+- quark:light_gray_stool
+- quark:lime_stool
+- quark:magenta_stool
+- quark:orange_stool
+- quark:pink_stool
+- quark:purple_stool
+- quark:red_stool
+- quark:white_stool
+- quark:yellow_stool
+
+#forge:ores/bituminous
+- rankine:bituminous_ore
+
+#forge:storage_blocks/netherite
+- minecraft:netherite_block
+
+#forge:glass_panes/white
+- minecraft:white_stained_glass_pane
+
+#forge:storage_blocks/lithium
+- better_diving:lithium_block
+- rankine:lithium_block
+
+#biomesoplenty:hellbark_logs
+- biomesoplenty:hellbark_log
+- biomesoplenty:hellbark_wood
+- biomesoplenty:stripped_hellbark_log
+- biomesoplenty:stripped_hellbark_wood
+
+#forge:glass_panes/light_gray
+- minecraft:light_gray_stained_glass_pane
+
+#forge:stones/ringwoodite
+- rankine:ringwoodite
+
+#forge:storage_blocks/nickel
+- immersiveengineering:storage_nickel
+- rankine:nickel_block
+
+#forge:storage_blocks/tiger_iron
+- rankine:tiger_iron_block
+
+#forge:ores/native_tin
+- rankine:native_tin_ore
+
+#forge:stones/troctolite
+- rankine:troctolite
+
+#tconstruct:harvestable/stackable
+- immersiveengineering:hemp
+
+#forge:ores/titanium
+- rankine:ilmenite_ore
+
+#quark:candles
+- quark:black_candle
+- quark:blue_candle
+- quark:brown_candle
+- quark:cyan_candle
+- quark:gray_candle
+- quark:green_candle
+- quark:light_blue_candle
+- quark:light_gray_candle
+- quark:lime_candle
+- quark:magenta_candle
+- quark:orange_candle
+- quark:pink_candle
+- quark:purple_candle
+- quark:red_candle
+- quark:white_candle
+- quark:yellow_candle
+
+#rankine:movement_modifiers/polished_stone
+- #forge:polished_stone
+- #forge:polished_stone_slabs
+- #forge:polished_stone_stairs
+
+#minecraft:dragon_immune
+- minecraft:barrier
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:end_gateway
+- minecraft:command_block
+- minecraft:repeating_command_block
+- minecraft:chain_command_block
+- minecraft:structure_block
+- minecraft:jigsaw
+- minecraft:moving_piston
+- minecraft:obsidian
+- minecraft:crying_obsidian
+- minecraft:end_stone
+- minecraft:iron_bars
+- minecraft:respawn_anchor
+- quark:biotite_ore
+- quark:basalt
+- quark:polished_basalt
+- quark:basalt_stairs
+- quark:polished_basalt_stairs
+- quark:basalt_slab
+- quark:polished_basalt_slab
+- quark:basalt_vertical_slab
+- quark:polished_basalt_vertical_slab
+- quark:basalt_wall
+- quark:basalt_speleothem
+- quark:basalt_bricks
+- quark:basalt_pavement
+- quark:chiseled_basalt_bricks
+- quark:basalt_bricks_slab
+- quark:basalt_bricks_stairs
+- quark:basalt_bricks_vertical_slab
+- quark:basalt_bricks_wall
+- quark:basalt_pillar
+- quark:myalite
+- quark:polished_myalite
+- quark:myalite_stairs
+- quark:polished_myalite_stairs
+- quark:myalite_slab
+- quark:polished_myalite_slab
+- quark:myalite_vertical_slab
+- quark:polished_myalite_vertical_slab
+- quark:myalite_wall
+- quark:myalite_bricks
+- quark:myalite_pavement
+- quark:chiseled_myalite_bricks
+- quark:myalite_bricks_slab
+- quark:myalite_bricks_stairs
+- quark:myalite_bricks_vertical_slab
+- quark:myalite_bricks_wall
+- quark:myalite_pillar
+- quark:duskbound_lantern
+- quark:duskbound_block
+- quark:duskbound_block_stairs
+- quark:duskbound_block_slab
+- quark:duskbound_block_vertical_slab
+- quark:myalite_crystal
+
+#forge:storage_blocks/neodymium
+- rankine:neodymium_block
+
+#forge:storage_blocks/bohrium
+- rankine:bohrium_block
+
+#forge:glass/pink
+- minecraft:pink_stained_glass
+
+#forge:chests
+- #forge:chests/ender
+- #forge:chests/trapped
+- #forge:chests/wooden
+- quark:nether_brick_chest
+- quark:purpur_chest
+- quark:prismarine_chest
+- quark:mushroom_chest
+
+#forge:storage_blocks/emerald
+- minecraft:emerald_block
+
+#forge:ores/redstone
+- minecraft:redstone_ore
+- rankine:cinnabar_ore
+
+#forge:storage_blocks/uranium
+- biggerreactors:yellorium_block
+- immersiveengineering:storage_uranium
+- rankine:uranium_block
+
+#forge:sheetmetals/nickel
+- immersiveengineering:sheetmetal_nickel
+- rankine:nickel_sheetmetal
+
+#forge:storage_blocks/fluorine
+- rankine:fluorine_block
+
+#forge:storage_blocks/dubnium
+- rankine:dubnium_block
+
+#forge:glass/red
+- minecraft:red_stained_glass
+
+#forge:sheetmetals/steel
+- immersiveengineering:sheetmetal_steel
+- rankine:steel_sheetmetal
+
+#ftbchunks:interact_whitelist
+- minecraft:crafting_table
+- #tombstone:graves?
+- waystones:waystone?
+- waystones:mossy_waystone?
+- waystones:sandy_waystone?
+
+#forge:ores/iridium
+- libvulpes:oreiridium
+
+#rankine:herbicidal
+- minecraft:grass
+- #minecraft:small_flowers
+- #minecraft:tall_flowers
+- minecraft:fern
+- minecraft:tall_grass
+- minecraft:large_fern
+- minecraft:vine
+- minecraft:weeping_vines
+- minecraft:twisting_vines
+- #minecraft:crops
+- #minecraft:coral_plants
+- #minecraft:wall_corals
+- minecraft:tube_coral_fan
+- minecraft:brain_coral_fan
+- minecraft:fire_coral_fan
+- minecraft:horn_coral_fan
+- minecraft:bubble_coral_fan
+- minecraft:lily_pad
+- #minecraft:saplings
+
+#forge:glass_panes/green
+- minecraft:green_stained_glass_pane
+
+#forge:ores/bismuth
+- rankine:native_bismuth_ore
+- rankine:bismuthinite_ore
+
+#minecraft:prevent_mob_spawning_inside
+- #minecraft:rails
+- #passablefoliage:passables
+
+#forge:chests/trapped
+- minecraft:trapped_chest
+- quark:oak_trapped_chest
+- quark:spruce_trapped_chest
+- quark:birch_trapped_chest
+- quark:jungle_trapped_chest
+- quark:acacia_trapped_chest
+- quark:dark_oak_trapped_chest
+- quark:warped_trapped_chest
+- quark:crimson_trapped_chest
+- quark:nether_brick_trapped_chest
+- quark:purpur_trapped_chest
+- quark:prismarine_trapped_chest
+- quark:mushroom_trapped_chest
+
+#forge:storage_blocks/peridot
+- rankine:peridot_block
+
+#forge:ores/kamacite
+- rankine:kamacite_ore
+
+#forge:fence_gates
+- #forge:fence_gates/wooden
+- quark:nether_brick_fence_gate
+
+#forge:storage_blocks/titaniumaluminide
+- advancedrocketry:blocktitaniumaluminide
+
+#forge:storage_blocks/stainless_steel
+- rankine:stainless_steel_block
+
+#rankine:sedimentary_stones
+- #forge:stones/sandstone
+- #forge:stones/limestone
+- #forge:stones/dolomite
+- #forge:stones/breccia
+- #forge:stones/mudstone
+- #forge:stones/shale
+- #forge:stones/siltstone
+- #forge:stones/chalk
+
+#forge:storage_blocks/technetium
+- rankine:technetium_block
+
+#forge:storage_blocks/francium
+- rankine:francium_block
+
+#forge:sandstone
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
+- biomesoplenty:black_sandstone
+- biomesoplenty:cut_black_sandstone
+- biomesoplenty:chiseled_black_sandstone
+- biomesoplenty:smooth_black_sandstone
+- biomesoplenty:orange_sandstone
+- biomesoplenty:cut_orange_sandstone
+- biomesoplenty:chiseled_orange_sandstone
+- biomesoplenty:smooth_orange_sandstone
+- biomesoplenty:white_sandstone
+- biomesoplenty:cut_white_sandstone
+- biomesoplenty:chiseled_white_sandstone
+- biomesoplenty:smooth_white_sandstone
+
+#forge:storage_blocks/hassium
+- rankine:hassium_block
+
+#forge:storage_blocks/copper
+- immersiveengineering:storage_copper
+- better_diving:copper_block
+- libvulpes:blockcopper
+- rankine:copper_block
+
+#forge:stones/porphyry
+- rankine:red_porphyry
+- rankine:purple_porphyry
+
+#forge:glass_panes/colorless
+- minecraft:glass_pane
+
+#forge:stone_bricks_stairs
+- rankine:granite_bricks_stairs
+- rankine:andesite_bricks_stairs
+- rankine:diorite_bricks_stairs
+- rankine:basalt_bricks_stairs
+- rankine:gray_granite_bricks_stairs
+- rankine:granodiorite_bricks_stairs
+- rankine:hornblende_andesite_bricks_stairs
+- rankine:tholeiitic_basalt_bricks_stairs
+- rankine:pyroxene_gabbro_bricks_stairs
+- rankine:anorthosite_bricks_stairs
+- rankine:rhyolite_bricks_stairs
+- rankine:comendite_bricks_stairs
+- rankine:troctolite_bricks_stairs
+- rankine:black_dacite_bricks_stairs
+- rankine:red_dacite_bricks_stairs
+- rankine:red_porphyry_bricks_stairs
+- rankine:purple_porphyry_bricks_stairs
+- rankine:pegmatite_bricks_stairs
+- rankine:peridotite_bricks_stairs
+- rankine:kimberlite_bricks_stairs
+- rankine:komatiite_bricks_stairs
+- rankine:pumice_bricks_stairs
+- rankine:scoria_bricks_stairs
+- rankine:white_marble_bricks_stairs
+- rankine:black_marble_bricks_stairs
+- rankine:gneiss_bricks_stairs
+- rankine:mica_schist_bricks_stairs
+- rankine:phyllite_bricks_stairs
+- rankine:slate_bricks_stairs
+- rankine:quartzite_bricks_stairs
+- rankine:mariposite_bricks_stairs
+- rankine:skarn_bricks_stairs
+- rankine:ringwoodite_bricks_stairs
+- rankine:wadsleyite_bricks_stairs
+- rankine:bridgmanite_bricks_stairs
+- rankine:ferropericlase_bricks_stairs
+- rankine:perovskite_bricks_stairs
+- rankine:tufa_limestone_bricks_stairs
+- rankine:dolostone_bricks_stairs
+- rankine:chalk_bricks_stairs
+- rankine:carbonaceous_shale_bricks_stairs
+- rankine:siltstone_bricks_stairs
+- rankine:quartz_sandstone_bricks_stairs
+- rankine:arkose_sandstone_bricks_stairs
+- rankine:mudstone_bricks_stairs
+- rankine:breccia_bricks_stairs
+- minecraft:polished_blackstone_brick_stairs
+
+#forge:storage_blocks/argon
+- rankine:argon_block
+
+#forge:storage_blocks/aquamarine
+- rankine:aquamarine_block
+
+#forge:storage_blocks/cast_iron
+- rankine:cast_iron_block
+
+#forge:stone_bricks_vertical_slabs
+- rankine:granite_bricks_vertical_slab
+- rankine:diorite_bricks_vertical_slab
+- rankine:andesite_bricks_vertical_slab
+- rankine:basalt_bricks_vertical_slab
+- rankine:gray_granite_bricks_vertical_slab
+- rankine:granodiorite_bricks_vertical_slab
+- rankine:hornblende_andesite_bricks_vertical_slab
+- rankine:tholeiitic_basalt_bricks_vertical_slab
+- rankine:pyroxene_gabbro_bricks_vertical_slab
+- rankine:anorthosite_bricks_vertical_slab
+- rankine:rhyolite_bricks_vertical_slab
+- rankine:comendite_bricks_vertical_slab
+- rankine:troctolite_bricks_vertical_slab
+- rankine:black_dacite_bricks_vertical_slab
+- rankine:red_dacite_bricks_vertical_slab
+- rankine:red_porphyry_bricks_vertical_slab
+- rankine:purple_porphyry_bricks_vertical_slab
+- rankine:pegmatite_bricks_vertical_slab
+- rankine:peridotite_bricks_vertical_slab
+- rankine:kimberlite_bricks_vertical_slab
+- rankine:komatiite_bricks_vertical_slab
+- rankine:pumice_bricks_vertical_slab
+- rankine:scoria_bricks_vertical_slab
+- rankine:white_marble_bricks_vertical_slab
+- rankine:black_marble_bricks_vertical_slab
+- rankine:gneiss_bricks_vertical_slab
+- rankine:mica_schist_bricks_vertical_slab
+- rankine:phyllite_bricks_vertical_slab
+- rankine:slate_bricks_vertical_slab
+- rankine:quartzite_bricks_vertical_slab
+- rankine:mariposite_bricks_vertical_slab
+- rankine:skarn_bricks_vertical_slab
+- rankine:ringwoodite_bricks_vertical_slab
+- rankine:wadsleyite_bricks_vertical_slab
+- rankine:bridgmanite_bricks_vertical_slab
+- rankine:ferropericlase_bricks_vertical_slab
+- rankine:perovskite_bricks_vertical_slab
+- rankine:tufa_limestone_bricks_vertical_slab
+- rankine:dolostone_bricks_vertical_slab
+- rankine:chalk_bricks_vertical_slab
+- rankine:carbonaceous_shale_bricks_vertical_slab
+- rankine:siltstone_bricks_vertical_slab
+- rankine:quartz_sandstone_bricks_vertical_slab
+- rankine:arkose_sandstone_bricks_vertical_slab
+- rankine:mudstone_bricks_vertical_slab
+- rankine:breccia_bricks_vertical_slab
+
+#forge:storage_blocks/potassium
+- rankine:potassium_block
+
+#forge:polished_stone
+- rankine:polished_gray_granite
+- rankine:polished_granodiorite
+- rankine:polished_hornblende_andesite
+- rankine:polished_tholeiitic_basalt
+- rankine:polished_pyroxene_gabbro
+- rankine:polished_anorthosite
+- rankine:polished_rhyolite
+- rankine:polished_comendite
+- rankine:polished_black_dacite
+- rankine:polished_red_dacite
+- rankine:polished_red_porphyry
+- rankine:polished_purple_porphyry
+- rankine:polished_pegmatite
+- rankine:polished_peridotite
+- rankine:polished_troctolite
+- rankine:polished_kimberlite
+- rankine:polished_komatiite
+- rankine:polished_pumice
+- rankine:polished_scoria
+- rankine:polished_white_marble
+- rankine:polished_black_marble
+- rankine:polished_gneiss
+- rankine:polished_mica_schist
+- rankine:polished_phyllite
+- rankine:polished_slate
+- rankine:polished_quartzite
+- rankine:polished_mariposite
+- rankine:polished_skarn
+- rankine:polished_ringwoodite
+- rankine:polished_wadsleyite
+- rankine:polished_bridgmanite
+- rankine:polished_ferropericlase
+- rankine:polished_perovskite
+- rankine:polished_tufa_limestone
+- rankine:polished_dolostone
+- rankine:polished_chalk
+- rankine:polished_carbonaceous_shale
+- rankine:polished_siltstone
+- rankine:polished_quartz_sandstone
+- rankine:polished_arkose_sandstone
+- rankine:polished_mudstone
+- rankine:polished_breccia
+- minecraft:polished_granite
+- minecraft:polished_diorite
+- minecraft:polished_andesite
+- minecraft:polished_basalt
+- minecraft:polished_blackstone
+
+#forge:storage_blocks/nobelium
+- rankine:nobelium_block
+
+#forge:storage_blocks/cinnabar
+- rankine:cinnabar_block
+
+#forge:stones/andesite
+- minecraft:andesite
+- rankine:hornblende_andesite
+
+#forge:sheetmetals/stainless_steel
+- rankine:stainless_steel_sheetmetal
+
+#forge:ores/native_gold
+- rankine:native_gold_ore
+
+#rankine:juniper_logs
+- rankine:juniper_log
+- rankine:juniper_wood
+- rankine:stripped_juniper_log
+- rankine:stripped_juniper_wood
+
+#forge:ores/strontium
+- rankine:celestine_ore
+
+#forge:ores/native_copper
+- rankine:native_copper_ore
+
+#forge:storage_blocks/lapis
+- minecraft:lapis_block
+
+#minecraft:beds
+- minecraft:red_bed
+- minecraft:black_bed
+- minecraft:blue_bed
+- minecraft:brown_bed
+- minecraft:cyan_bed
+- minecraft:gray_bed
+- minecraft:green_bed
+- minecraft:light_blue_bed
+- minecraft:light_gray_bed
+- minecraft:lime_bed
+- minecraft:magenta_bed
+- minecraft:orange_bed
+- minecraft:pink_bed
+- minecraft:purple_bed
+- minecraft:white_bed
+- minecraft:yellow_bed
+
+#forge:stone_bricks_slabs
+- rankine:granite_bricks_slab
+- rankine:andesite_bricks_slab
+- rankine:diorite_bricks_slab
+- rankine:basalt_bricks_slab
+- rankine:gray_granite_bricks_slab
+- rankine:granodiorite_bricks_slab
+- rankine:hornblende_andesite_bricks_slab
+- rankine:tholeiitic_basalt_bricks_slab
+- rankine:pyroxene_gabbro_bricks_slab
+- rankine:anorthosite_bricks_slab
+- rankine:rhyolite_bricks_slab
+- rankine:comendite_bricks_slab
+- rankine:troctolite_bricks_slab
+- rankine:black_dacite_bricks_slab
+- rankine:red_dacite_bricks_slab
+- rankine:red_porphyry_bricks_slab
+- rankine:purple_porphyry_bricks_slab
+- rankine:pegmatite_bricks_slab
+- rankine:peridotite_bricks_slab
+- rankine:kimberlite_bricks_slab
+- rankine:komatiite_bricks_slab
+- rankine:pumice_bricks_slab
+- rankine:scoria_bricks_slab
+- rankine:white_marble_bricks_slab
+- rankine:black_marble_bricks_slab
+- rankine:gneiss_bricks_slab
+- rankine:mica_schist_bricks_slab
+- rankine:phyllite_bricks_slab
+- rankine:slate_bricks_slab
+- rankine:quartzite_bricks_slab
+- rankine:mariposite_bricks_slab
+- rankine:skarn_bricks_slab
+- rankine:ringwoodite_bricks_slab
+- rankine:wadsleyite_bricks_slab
+- rankine:bridgmanite_bricks_slab
+- rankine:ferropericlase_bricks_slab
+- rankine:perovskite_bricks_slab
+- rankine:tufa_limestone_bricks_slab
+- rankine:dolostone_bricks_slab
+- rankine:chalk_bricks_slab
+- rankine:carbonaceous_shale_bricks_slab
+- rankine:siltstone_bricks_slab
+- rankine:quartz_sandstone_bricks_slab
+- rankine:arkose_sandstone_bricks_slab
+- rankine:mudstone_bricks_slab
+- rankine:breccia_bricks_slab
+- minecraft:polished_blackstone_brick_slab
+
+#forge:sheetmetals/aluminum
+- immersiveengineering:sheetmetal_aluminum
+- rankine:aluminum_sheetmetal
+
+#forge:ores/diamond
+- minecraft:diamond_ore
+- rankine:diamond_ore
+- rankine:lonsdaleite_ore
+
+#forge:ores/lead
+- immersiveengineering:ore_lead
+- rankine:native_lead_ore
+- rankine:galena_ore
+
+#minecraft:doors
+- #minecraft:wooden_doors
+- minecraft:iron_door
+- engineersdecor:metal_sliding_door
+- rankine:brass_door
+
+#cfm:fence_gates/picket
+- cfm:white_picket_gate
+- cfm:orange_picket_gate
+- cfm:magenta_picket_gate
+- cfm:light_blue_picket_gate
+- cfm:yellow_picket_gate
+- cfm:lime_picket_gate
+- cfm:pink_picket_gate
+- cfm:gray_picket_gate
+- cfm:light_gray_picket_gate
+- cfm:cyan_picket_gate
+- cfm:purple_picket_gate
+- cfm:blue_picket_gate
+- cfm:brown_picket_gate
+- cfm:green_picket_gate
+- cfm:red_picket_gate
+- cfm:black_picket_gate
+
+#forge:stones/granodiorite
+- rankine:granodiorite
+
+#minecraft:infiniburn_overworld
+- minecraft:netherrack
+- minecraft:magma_block
+
+#minecraft:flower_pots
+- minecraft:flower_pot
+- minecraft:potted_poppy
+- minecraft:potted_blue_orchid
+- minecraft:potted_allium
+- minecraft:potted_azure_bluet
+- minecraft:potted_red_tulip
+- minecraft:potted_orange_tulip
+- minecraft:potted_white_tulip
+- minecraft:potted_pink_tulip
+- minecraft:potted_oxeye_daisy
+- minecraft:potted_dandelion
+- minecraft:potted_oak_sapling
+- minecraft:potted_spruce_sapling
+- minecraft:potted_birch_sapling
+- minecraft:potted_jungle_sapling
+- minecraft:potted_acacia_sapling
+- minecraft:potted_dark_oak_sapling
+- minecraft:potted_red_mushroom
+- minecraft:potted_brown_mushroom
+- minecraft:potted_dead_bush
+- minecraft:potted_fern
+- minecraft:potted_cactus
+- minecraft:potted_cornflower
+- minecraft:potted_lily_of_the_valley
+- minecraft:potted_wither_rose
+- minecraft:potted_bamboo
+- minecraft:potted_crimson_fungus
+- minecraft:potted_warped_fungus
+- minecraft:potted_crimson_roots
+- minecraft:potted_warped_roots
+- immersiveengineering:potted_hemp
+- biomesoplenty:potted_origin_sapling
+- biomesoplenty:potted_flowering_oak_sapling
+- biomesoplenty:potted_rainbow_birch_sapling
+- biomesoplenty:potted_yellow_autumn_sapling
+- biomesoplenty:potted_orange_autumn_sapling
+- biomesoplenty:potted_maple_sapling
+- biomesoplenty:potted_fir_sapling
+- biomesoplenty:potted_redwood_sapling
+- biomesoplenty:potted_white_cherry_sapling
+- biomesoplenty:potted_pink_cherry_sapling
+- biomesoplenty:potted_mahogany_sapling
+- biomesoplenty:potted_jacaranda_sapling
+- biomesoplenty:potted_palm_sapling
+- biomesoplenty:potted_willow_sapling
+- biomesoplenty:potted_dead_sapling
+- biomesoplenty:potted_magic_sapling
+- biomesoplenty:potted_umbran_sapling
+- biomesoplenty:potted_hellbark_sapling
+- biomesoplenty:potted_rose
+- biomesoplenty:potted_violet
+- biomesoplenty:potted_lavender
+- biomesoplenty:potted_wildflower
+- biomesoplenty:potted_orange_cosmos
+- biomesoplenty:potted_pink_daffodil
+- biomesoplenty:potted_pink_hibiscus
+- biomesoplenty:potted_glowflower
+- biomesoplenty:potted_wilted_lily
+- biomesoplenty:potted_burning_blossom
+- biomesoplenty:potted_sprout
+- biomesoplenty:potted_toadstool
+- biomesoplenty:potted_glowshroom
+- quark:potted_beetroot
+- quark:potted_berries
+- quark:potted_blue_blossom_sapling
+- quark:potted_carrot
+- quark:potted_chorus
+- quark:potted_cocoa_bean
+- quark:potted_glowshroom
+- quark:potted_grass
+- quark:potted_large_fern
+- quark:potted_lavender_blossom_sapling
+- quark:potted_lilac
+- quark:potted_melon
+- quark:potted_nether_sprouts
+- quark:potted_nether_wart
+- quark:potted_orange_blossom_sapling
+- quark:potted_peony
+- quark:potted_pink_blossom_sapling
+- quark:potted_potato
+- quark:potted_pumpkin
+- quark:potted_red_blossom_sapling
+- quark:potted_rose
+- quark:potted_sea_pickle
+- quark:potted_sugar_cane
+- quark:potted_sunflower
+- quark:potted_tall_grass
+- quark:potted_twisting_vines
+- quark:potted_vine
+- quark:potted_weeping_vines
+- quark:potted_wheat
+- quark:potted_yellow_blossom_sapling
+- rankine:potted_black_walnut_sapling
+- rankine:potted_cork_oak_sapling
+- rankine:potted_cinnamon_sapling
+- rankine:potted_sharinga_sapling
+- rankine:potted_maple_sapling
+- rankine:potted_cedar_sapling
+- rankine:potted_coconut_palm_sapling
+- rankine:potted_magnolia_sapling
+- rankine:potted_pinyon_pine_sapling
+- rankine:potted_juniper_sapling
+- rankine:potted_balsam_fir_sapling
+- rankine:potted_black_birch_sapling
+- rankine:potted_yellow_birch_sapling
+- rankine:potted_eastern_hemlock_sapling
+
+#forge:ores/pentlandite
+- rankine:pentlandite_ore
+
+#forge:ores/lithium
+- rankine:petalite_ore
+
+#forge:bricks_stairs
+- minecraft:brick_stairs
+- rankine:clay_bricks_stairs
+- rankine:refractory_bricks_stairs
+- rankine:high_refractory_bricks_stairs
+- rankine:ultra_high_refractory_bricks_stairs
+
+#forge:storage_blocks/tourmaline
+- rankine:tourmaline_block
+
+#forge:storage_blocks/invar
+- rankine:invar_block
+
+#forge:ores/columbite
+- rankine:columbite_ore
+
+#forge:sheetmetals/platinum
+- rankine:platinum_sheetmetal
+
+#minecraft:jungle_leaves
+- primalwinter:snowy_jungle_leaves
+- primalwinter:snowy_jungle_leaves
+
+#forge:storage_blocks/rhodium
+- rankine:rhodium_block
+
+#forge:ores/malachite
+- rankine:malachite_ore
+
+#forge:storage_blocks/blue_gold
+- rankine:blue_gold_block
+
+#forge:ores/tin
+- libvulpes:oretin
+- rankine:native_tin_ore
+- rankine:cassiterite_ore
+
+#forge:ores/sphalerite
+- rankine:sphalerite_ore
+
+#forge:storage_blocks/xenon
+- rankine:xenon_block
+
+#rankine:movement_modifiers/sand
+- #minecraft:sand
+
+#notreepunching:cobblestone
+- notreepunching:granite_cobblestone
+- notreepunching:andesite_cobblestone
+- notreepunching:diorite_cobblestone
+
+#forge:storage_blocks/nickel_superalloy
+- rankine:nickel_superalloy_block
+
+#forge:glass/white
+- minecraft:white_stained_glass
+
+#minecraft:signs
+- #minecraft:standing_signs
+- #minecraft:wall_signs
+
+#forge:glass_panes/red
+- minecraft:red_stained_glass_pane
+
+#biomesoplenty:willow_logs
+- biomesoplenty:willow_log
+- biomesoplenty:willow_wood
+- biomesoplenty:stripped_willow_log
+- biomesoplenty:stripped_willow_wood
+
+#minecraft:wither_summon_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#forge:storage_blocks/boron
+- rankine:boron_block
+
+#rankine:logs_lava
+- #minecraft:crimson_stems
+- #minecraft:warped_stems
+
+#forge:storage_blocks/osmium
+- rankine:osmium_block
+
+#minecraft:hoglin_repellents
+- minecraft:warped_fungus
+- minecraft:potted_warped_fungus
+- minecraft:nether_portal
+- minecraft:respawn_anchor
+
+#forge:stones/perovskite
+- rankine:perovskite
+
+#forge:sheetmetals/brass
+- rankine:brass_sheetmetal
+
+#forge:storage_blocks/rhodonite
+- rankine:rhodonite_block
+
+#rankine:movement_modifiers/ice
+- minecraft:ice
+- minecraft:packed_ice
+- minecraft:blue_ice
+- minecraft:frosted_ice
+
+#tetra:scannable
+- tetra:core_extractor
+- tetra:extractor_pipe
+- tetra:extractor_piston
+- tetra:forged_container
+- tetra:forged_crate
+- tetra:forged_pillar
+- tetra:forged_platform
+- tetra:forged_platform_slab
+- tetra:forged_vent
+- tetra:forged_wall
+- tetra:forged_workbench
+- tetra:hammer_base
+- tetra:hammer_head
+- tetra:transfer_unit
+- minecraft:ancient_debris
+
+#forge:storage_blocks/iridium
+- libvulpes:blockiridium
+- rankine:iridium_block
+
+#forge:ores/tellurium
+- rankine:native_tellurium_ore
+
+#forge:coils/gold
+- libvulpes:coilgold
+
+#forge:stones/gneiss
+- rankine:gneiss
+
+#forge:storage_blocks/samarium
+- rankine:samarium_block
+
+#forge:storage_blocks/sapphire
+- rankine:sapphire_block
+
+#forge:sand/colorless
+- minecraft:sand
+
+#forge:storage_blocks/amalgam
+- rankine:amalgam_block
+
+#forge:ores/native_tellurium
+- rankine:native_tellurium_ore
+
+#forge:ores/galena
+- rankine:galena_ore
+
+#minecraft:blocks
+- envirocore:litherite
+- envirocore:litherite_brick
+- envirocore:litherite_brick_small
+- envirocore:litherite_cobble
+- envirocore:litherite_polished
+- envirocore:litherite_tile
+- envirocore:litherite_tile_small
+- envirocore:erodium
+- envirocore:erodium_brick
+- envirocore:erodium_brick_small
+- envirocore:erodium_cobble
+- envirocore:erodium_polished
+- envirocore:erodium_tile
+- envirocore:erodium_tile_small
+- envirocore:kyronite
+- envirocore:kyronite_brick
+- envirocore:kyronite_brick_small
+- envirocore:kyronite_cobble
+- envirocore:kyronite_polished
+- envirocore:kyronite_tile
+- envirocore:kyronite_tile_small
+- envirocore:pladium
+- envirocore:pladium_brick
+- envirocore:pladium_brick_small
+- envirocore:pladium_cobble
+- envirocore:pladium_polished
+- envirocore:pladium_tile
+- envirocore:pladium_tile_small
+- envirocore:ionite
+- envirocore:ionite_brick
+- envirocore:ionite_brick_small
+- envirocore:ionite_cobble
+- envirocore:ionite_polished
+- envirocore:ionite_tile
+- envirocore:ionite_tile_small
+- envirocore:aethium
+- envirocore:aethium_brick
+- envirocore:aethium_brick_small
+- envirocore:aethium_cobble
+- envirocore:aethium_polished
+- envirocore:aethium_tile
+- envirocore:aethium_tile_small
+- envirocore:nanorite
+- envirocore:nanorite_brick
+- envirocore:nanorite_brick_small
+- envirocore:nanorite_cobble
+- envirocore:nanorite_polished
+- envirocore:nanorite_tile
+- envirocore:nanorite_tile_small
+- envirocore:xerothium
+- envirocore:xerothium_brick
+- envirocore:xerothium_brick_small
+- envirocore:xerothium_cobble
+- envirocore:xerothium_polished
+- envirocore:xerothium_tile
+- envirocore:xerothium_tile_small
+- envirocore:litherite
+- envirocore:litherite_brick
+- envirocore:litherite_brick_small
+- envirocore:litherite_cobble
+- envirocore:litherite_polished
+- envirocore:litherite_tile
+- envirocore:litherite_tile_small
+- envirocore:erodium
+- envirocore:erodium_brick
+- envirocore:erodium_brick_small
+- envirocore:erodium_cobble
+- envirocore:erodium_polished
+- envirocore:erodium_tile
+- envirocore:erodium_tile_small
+- envirocore:kyronite
+- envirocore:kyronite_brick
+- envirocore:kyronite_brick_small
+- envirocore:kyronite_cobble
+- envirocore:kyronite_polished
+- envirocore:kyronite_tile
+- envirocore:kyronite_tile_small
+- envirocore:pladium
+- envirocore:pladium_brick
+- envirocore:pladium_brick_small
+- envirocore:pladium_cobble
+- envirocore:pladium_polished
+- envirocore:pladium_tile
+- envirocore:pladium_tile_small
+- envirocore:ionite
+- envirocore:ionite_brick
+- envirocore:ionite_brick_small
+- envirocore:ionite_cobble
+- envirocore:ionite_polished
+- envirocore:ionite_tile
+- envirocore:ionite_tile_small
+- envirocore:aethium
+- envirocore:aethium_brick
+- envirocore:aethium_brick_small
+- envirocore:aethium_cobble
+- envirocore:aethium_polished
+- envirocore:aethium_tile
+- envirocore:aethium_tile_small
+- envirocore:nanorite
+- envirocore:nanorite_brick
+- envirocore:nanorite_brick_small
+- envirocore:nanorite_cobble
+- envirocore:nanorite_polished
+- envirocore:nanorite_tile
+- envirocore:nanorite_tile_small
+- envirocore:xerothium
+- envirocore:xerothium_brick
+- envirocore:xerothium_brick_small
+- envirocore:xerothium_cobble
+- envirocore:xerothium_polished
+- envirocore:xerothium_tile
+- envirocore:xerothium_tile_small
+
+#forge:base_stone_end
+- minecraft:end_stone
+- rankine:meteorite
+- rankine:enstatite
+- rankine:gray_granite
+- rankine:granodiorite
+- rankine:hornblende_andesite
+- rankine:tholeiitic_basalt
+- rankine:pyroxene_gabbro
+- rankine:anorthosite
+- rankine:rhyolite
+- rankine:comendite
+- rankine:black_dacite
+- rankine:red_dacite
+- rankine:red_porphyry
+- rankine:purple_porphyry
+- rankine:pegmatite
+- rankine:peridotite
+- rankine:troctolite
+- rankine:kimberlite
+- rankine:komatiite
+- rankine:pumice
+- rankine:scoria
+- rankine:white_marble
+- rankine:black_marble
+- rankine:gneiss
+- rankine:mica_schist
+- rankine:phyllite
+- rankine:slate
+- rankine:quartzite
+- rankine:mariposite
+- rankine:skarn
+- rankine:ringwoodite
+- rankine:wadsleyite
+- rankine:bridgmanite
+- rankine:ferropericlase
+- rankine:perovskite
+- rankine:tufa_limestone
+- rankine:dolostone
+- rankine:chalk
+- rankine:carbonaceous_shale
+- rankine:siltstone
+- rankine:quartz_sandstone
+- rankine:arkose_sandstone
+- rankine:mudstone
+- rankine:breccia
+
+#forge:ores/stibnite
+- rankine:stibnite_ore
+
+#forge:ores/antitaenite_ore
+- rankine:antitaenite_ore
+
+#minecraft:soul_speed_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+- quark:soul_sandstone
+- quark:soul_sandstone_slab
+- quark:soul_sandstone_stairs
+- quark:chiseled_soul_sandstone
+- quark:cut_soul_sandstone
+- quark:cut_soul_sandstone_slab
+- quark:smooth_soul_sandstone
+- quark:smooth_soul_sandstone_slab
+- quark:smooth_soul_sandstone_stairs
+- quark:soul_sandstone_bricks
+- quark:soul_sandstone_bricks_slab
+- quark:soul_sandstone_bricks_stairs
+- quark:soul_sandstone_vertical_slab
+- quark:cut_soul_sandstone_vertical_slab
+- quark:smooth_soul_sandstone_vertical_slab
+- quark:soul_sandstone_bricks_vertical_slab
+- quark:soul_sandstone_wall
+- quark:soul_sandstone_bricks_wall
+
+#rankine:balsam_fir_logs
+- rankine:balsam_fir_log
+- rankine:balsam_fir_wood
+- rankine:stripped_balsam_fir_log
+- rankine:stripped_balsam_fir_wood
+
+#forge:storage_blocks/charcoal
+- quark:charcoal_block
+
+#forge:stone_slabs
+- rankine:gray_granite_slab
+- rankine:granodiorite_slab
+- rankine:hornblende_andesite_slab
+- rankine:tholeiitic_basalt_slab
+- rankine:pyroxene_gabbro_slab
+- rankine:anorthosite_slab
+- rankine:rhyolite_slab
+- rankine:comendite_slab
+- rankine:troctolite_slab
+- rankine:black_dacite_slab
+- rankine:red_dacite_slab
+- rankine:red_porphyry_slab
+- rankine:purple_porphyry_slab
+- rankine:pegmatite_slab
+- rankine:peridotite_slab
+- rankine:kimberlite_slab
+- rankine:komatiite_slab
+- rankine:pumice_slab
+- rankine:scoria_slab
+- rankine:white_marble_slab
+- rankine:black_marble_slab
+- rankine:gneiss_slab
+- rankine:mica_schist_slab
+- rankine:phyllite_slab
+- rankine:slate_slab
+- rankine:quartzite_slab
+- rankine:mariposite_slab
+- rankine:skarn_slab
+- rankine:ringwoodite_slab
+- rankine:wadsleyite_slab
+- rankine:bridgmanite_slab
+- rankine:ferropericlase_slab
+- rankine:perovskite_slab
+- rankine:tufa_limestone_slab
+- rankine:dolostone_slab
+- rankine:chalk_slab
+- rankine:carbonaceous_shale_slab
+- rankine:siltstone_slab
+- rankine:quartz_sandstone_slab
+- rankine:arkose_sandstone_slab
+- rankine:mudstone_slab
+- rankine:breccia_slab
+
+#forge:sheetmetals/copper
+- immersiveengineering:sheetmetal_copper
+- rankine:copper_sheetmetal
+
+#forge:storage_blocks/hydrogen
+- rankine:hydrogen_block
+
+#minecraft:walls
+- minecraft:cobblestone_wall
+- minecraft:mossy_cobblestone_wall
+- minecraft:brick_wall
+- minecraft:prismarine_wall
+- minecraft:red_sandstone_wall
+- minecraft:mossy_stone_brick_wall
+- minecraft:granite_wall
+- minecraft:stone_brick_wall
+- minecraft:nether_brick_wall
+- minecraft:andesite_wall
+- minecraft:red_nether_brick_wall
+- minecraft:sandstone_wall
+- minecraft:end_stone_brick_wall
+- minecraft:diorite_wall
+- minecraft:blackstone_wall
+- minecraft:polished_blackstone_brick_wall
+- minecraft:polished_blackstone_wall
+- charcoal_pit:sandy_wall
+- biomesoplenty:black_sandstone_wall
+- biomesoplenty:orange_sandstone_wall
+- biomesoplenty:white_sandstone_wall
+- biomesoplenty:mud_brick_wall
+- envirocore:litherite_wall
+- envirocore:litherite_brick_wall
+- envirocore:litherite_brick_small_wall
+- envirocore:litherite_cobble_wall
+- envirocore:erodium_wall
+- envirocore:erodium_brick_wall
+- envirocore:erodium_brick_small_wall
+- envirocore:erodium_cobble_wall
+- envirocore:kyronite_wall
+- envirocore:kyronite_brick_wall
+- envirocore:kyronite_brick_small_wall
+- envirocore:kyronite_cobble_wall
+- envirocore:pladium_wall
+- envirocore:pladium_brick_wall
+- envirocore:pladium_brick_small_wall
+- envirocore:pladium_cobble_wall
+- envirocore:ionite_wall
+- envirocore:ionite_brick_wall
+- envirocore:ionite_brick_small_wall
+- envirocore:ionite_cobble_wall
+- envirocore:aethium_wall
+- envirocore:aethium_brick_wall
+- envirocore:aethium_brick_small_wall
+- envirocore:aethium_cobble_wall
+- envirocore:nanorite_wall
+- envirocore:nanorite_brick_wall
+- envirocore:nanorite_brick_small_wall
+- envirocore:nanorite_cobble_wall
+- envirocore:xerothium_wall
+- envirocore:xerothium_brick_wall
+- envirocore:xerothium_brick_small_wall
+- envirocore:xerothium_cobble_wall
+- notreepunching:granite_cobblestone_wall
+- notreepunching:andesite_cobblestone_wall
+- notreepunching:diorite_cobblestone_wall
+- quark:andesite_bricks_wall
+- quark:basalt_bricks_wall
+- quark:basalt_wall
+- quark:blackstone_bricks_wall
+- quark:blue_nether_bricks_wall
+- quark:brimstone_bricks_wall
+- quark:brimstone_wall
+- quark:charred_nether_bricks_wall
+- quark:cobbedstone_wall
+- quark:cobblestone_bricks_wall
+- quark:diorite_bricks_wall
+- quark:dirt_bricks_wall
+- quark:elder_prismarine_wall
+- quark:granite_bricks_wall
+- quark:jasper_bricks_wall
+- quark:jasper_wall
+- quark:limestone_bricks_wall
+- quark:limestone_wall
+- quark:magma_bricks_wall
+- quark:marble_bricks_wall
+- quark:marble_wall
+- quark:mossy_cobblestone_bricks_wall
+- quark:myalite_bricks_wall
+- quark:myalite_wall
+- quark:netherrack_bricks_wall
+- quark:permafrost_bricks_wall
+- quark:permafrost_wall
+- quark:red_sandstone_bricks_wall
+- quark:sandstone_bricks_wall
+- quark:sandy_bricks_wall
+- quark:slate_bricks_wall
+- quark:slate_wall
+- quark:snow_bricks_wall
+- quark:soul_sandstone_bricks_wall
+- quark:soul_sandstone_wall
+- quark:twisted_blackstone_bricks_wall
+- quark:vanilla_basalt_bricks_wall
+- quark:weeping_blackstone_bricks_wall
+- engineersdecor:clinker_brick_wall
+- engineersdecor:slag_brick_wall
+- engineersdecor:rebar_concrete_wall
+- engineersdecor:gas_concrete_wall
+- rankine:gray_granite_wall
+- rankine:polished_gray_granite_wall
+- rankine:gray_granite_bricks_wall
+- rankine:granodiorite_wall
+- rankine:polished_granodiorite_wall
+- rankine:granodiorite_bricks_wall
+- rankine:hornblende_andesite_wall
+- rankine:polished_hornblende_andesite_wall
+- rankine:hornblende_andesite_bricks_wall
+- rankine:tholeiitic_basalt_wall
+- rankine:polished_tholeiitic_basalt_wall
+- rankine:tholeiitic_basalt_bricks_wall
+- rankine:pyroxene_gabbro_wall
+- rankine:polished_pyroxene_gabbro_wall
+- rankine:pyroxene_gabbro_bricks_wall
+- rankine:anorthosite_wall
+- rankine:polished_anorthosite_wall
+- rankine:anorthosite_bricks_wall
+- rankine:rhyolite_wall
+- rankine:polished_rhyolite_wall
+- rankine:rhyolite_bricks_wall
+- rankine:black_dacite_wall
+- rankine:polished_black_dacite_wall
+- rankine:black_dacite_bricks_wall
+- rankine:red_dacite_wall
+- rankine:polished_red_dacite_wall
+- rankine:red_dacite_bricks_wall
+- rankine:red_porphyry_wall
+- rankine:polished_red_porphyry_wall
+- rankine:red_porphyry_bricks_wall
+- rankine:purple_porphyry_wall
+- rankine:polished_purple_porphyry_wall
+- rankine:purple_porphyry_bricks_wall
+- rankine:peridotite_wall
+- rankine:polished_peridotite_wall
+- rankine:peridotite_bricks_wall
+- rankine:kimberlite_wall
+- rankine:polished_kimberlite_wall
+- rankine:kimberlite_bricks_wall
+- rankine:komatiite_wall
+- rankine:polished_komatiite_wall
+- rankine:komatiite_bricks_wall
+- rankine:pumice_wall
+- rankine:polished_pumice_wall
+- rankine:pumice_bricks_wall
+- rankine:scoria_wall
+- rankine:polished_scoria_wall
+- rankine:scoria_bricks_wall
+- rankine:white_marble_wall
+- rankine:polished_white_marble_wall
+- rankine:white_marble_bricks_wall
+- rankine:black_marble_wall
+- rankine:polished_black_marble_wall
+- rankine:black_marble_bricks_wall
+- rankine:gneiss_wall
+- rankine:polished_gneiss_wall
+- rankine:gneiss_bricks_wall
+- rankine:mica_schist_wall
+- rankine:polished_mica_schist_wall
+- rankine:mica_schist_bricks_wall
+- rankine:phyllite_wall
+- rankine:polished_phyllite_wall
+- rankine:phyllite_bricks_wall
+- rankine:slate_wall
+- rankine:polished_slate_wall
+- rankine:slate_bricks_wall
+- rankine:quartzite_wall
+- rankine:polished_quartzite_wall
+- rankine:quartzite_bricks_wall
+- rankine:mariposite_wall
+- rankine:polished_mariposite_wall
+- rankine:mariposite_bricks_wall
+- rankine:skarn_wall
+- rankine:polished_skarn_wall
+- rankine:skarn_bricks_wall
+- rankine:ringwoodite_wall
+- rankine:polished_ringwoodite_wall
+- rankine:ringwoodite_bricks_wall
+- rankine:wadsleyite_wall
+- rankine:polished_wadsleyite_wall
+- rankine:wadsleyite_bricks_wall
+- rankine:bridgmanite_wall
+- rankine:polished_bridgmanite_wall
+- rankine:bridgmanite_bricks_wall
+- rankine:ferropericlase_wall
+- rankine:polished_ferropericlase_wall
+- rankine:ferropericlase_bricks_wall
+- rankine:perovskite_wall
+- rankine:polished_perovskite_wall
+- rankine:perovskite_bricks_wall
+- rankine:tufa_limestone_wall
+- rankine:polished_tufa_limestone_wall
+- rankine:tufa_limestone_bricks_wall
+- rankine:dolostone_wall
+- rankine:polished_dolostone_wall
+- rankine:dolostone_bricks_wall
+- rankine:chalk_wall
+- rankine:polished_chalk_wall
+- rankine:chalk_bricks_wall
+- rankine:carbonaceous_shale_wall
+- rankine:polished_carbonaceous_shale_wall
+- rankine:carbonaceous_shale_bricks_wall
+- rankine:siltstone_wall
+- rankine:polished_siltstone_wall
+- rankine:siltstone_bricks_wall
+- rankine:quartz_sandstone_wall
+- rankine:polished_quartz_sandstone_wall
+- rankine:quartz_sandstone_bricks_wall
+- rankine:arkose_sandstone_wall
+- rankine:polished_arkose_sandstone_wall
+- rankine:arkose_sandstone_bricks_wall
+- rankine:mudstone_wall
+- rankine:polished_mudstone_wall
+- rankine:mudstone_bricks_wall
+- rankine:breccia_wall
+- rankine:polished_breccia_wall
+- rankine:breccia_bricks_wall
+- rankine:uncolored_concrete_wall
+- rankine:bamboo_wall
+- rankine:bamboo_culms_wall
+
+#forge:storage_blocks/iodine
+- rankine:iodine_block
+
+#rankine:movement_modifiers/grass_path
+- minecraft:grass_path
+
+#minecraft:coral_blocks
+- minecraft:tube_coral_block
+- minecraft:brain_coral_block
+- minecraft:bubble_coral_block
+- minecraft:fire_coral_block
+- minecraft:horn_coral_block
+
+#forge:coils/copper
+- libvulpes:coilcopper
+
+#forge:stones/chalk
+- rankine:chalk
+
+#forge:glass/green
+- minecraft:green_stained_glass
+
+#forge:storage_blocks/lead
+- immersiveengineering:storage_lead
+- better_diving:lead_block
+- rankine:lead_block
+
+#forge:stones/quartzite
+- rankine:quartzite
+
+#forge:ores/interspinifex
+- rankine:interspinifex_ore
+
+#minecraft:underwater_bonemeals
+- minecraft:seagrass
+- #minecraft:corals
+- #minecraft:wall_corals
+
+#ftbchunks:edit_whitelist
+- gravestone:gravestone?
+
+#minecraft:impermeable
+- minecraft:glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+- quark:dirty_glass
+- quark:framed_glass
+- quark:black_framed_glass
+- quark:blue_framed_glass
+- quark:brown_framed_glass
+- quark:cyan_framed_glass
+- quark:gray_framed_glass
+- quark:green_framed_glass
+- quark:light_blue_framed_glass
+- quark:light_gray_framed_glass
+- quark:lime_framed_glass
+- quark:magenta_framed_glass
+- quark:orange_framed_glass
+- quark:pink_framed_glass
+- quark:purple_framed_glass
+- quark:red_framed_glass
+- quark:white_framed_glass
+- quark:yellow_framed_glass
+
+#minecraft:sand
+- minecraft:sand
+- minecraft:red_sand
+- biomesoplenty:black_sand
+- biomesoplenty:orange_sand
+- biomesoplenty:white_sand
+- rankine:black_sand
+
+#forge:end_stones
+- minecraft:end_stone
+
+#forge:storage_blocks/fluorite
+- rankine:fluorite_block
+
+#forge:ores/tantalum
+- rankine:tantalite_ore
+
+#biomesoplenty:fir_logs
+- biomesoplenty:fir_log
+- biomesoplenty:fir_wood
+- biomesoplenty:stripped_fir_log
+- biomesoplenty:stripped_fir_wood
+
+#forge:storage_blocks/bismuth
+- rankine:bismuth_block
+
+#forge:sandstone/colorless
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+
+#forge:ores/sulfur
+- rankine:native_sulfur_ore
+
+#forge:wg_stone
+- minecraft:granite
+- minecraft:andesite
+- minecraft:stone
+- minecraft:diorite
+- rankine:gray_granite
+- rankine:granodiorite
+- rankine:hornblende_andesite
+- rankine:tholeiitic_basalt
+- rankine:pyroxene_gabbro
+- rankine:anorthosite
+- rankine:rhyolite
+- rankine:troctolite
+- rankine:comendite
+- rankine:black_dacite
+- rankine:red_dacite
+- rankine:pumice
+- rankine:scoria
+- rankine:white_marble
+- rankine:black_marble
+- rankine:gneiss
+- rankine:mica_schist
+- rankine:phyllite
+- rankine:slate
+- rankine:quartzite
+- rankine:mariposite
+- rankine:tufa_limestone
+- rankine:dolostone
+- rankine:chalk
+- rankine:carbonaceous_shale
+- rankine:siltstone
+- rankine:quartz_sandstone
+- rankine:arkose_sandstone
+- rankine:mudstone
+- rankine:pegmatite
+- rankine:breccia
+
+#forge:treated_wood
+- immersiveengineering:treated_wood_horizontal
+- immersiveengineering:treated_wood_vertical
+- immersiveengineering:treated_wood_packaged
+
+#forge:fences/wooden
+- minecraft:oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- biomesoplenty:fir_fence
+- biomesoplenty:redwood_fence
+- biomesoplenty:cherry_fence
+- biomesoplenty:mahogany_fence
+- biomesoplenty:jacaranda_fence
+- biomesoplenty:palm_fence
+- biomesoplenty:willow_fence
+- biomesoplenty:dead_fence
+- biomesoplenty:magic_fence
+- biomesoplenty:umbran_fence
+- biomesoplenty:hellbark_fence
+
+#rankine:luck_pendant
+- #forge:stone
+- #forge:dirt
+- #forge:sand
+- #minecraft:logs
+- minecraft:gravel
+
+#forge:wg_sediment
+- minecraft:sand
+- minecraft:gravel
+
+#forge:storage_blocks
+- #forge:storage_blocks/coal
+- #forge:storage_blocks/diamond
+- #forge:storage_blocks/emerald
+- #forge:storage_blocks/gold
+- #forge:storage_blocks/iron
+- #forge:storage_blocks/lapis
+- #forge:storage_blocks/quartz
+- #forge:storage_blocks/redstone
+- #forge:storage_blocks/netherite
+- immersiveengineering:storage_copper
+- immersiveengineering:storage_aluminum
+- immersiveengineering:storage_lead
+- immersiveengineering:storage_silver
+- immersiveengineering:storage_nickel
+- immersiveengineering:storage_uranium
+- immersiveengineering:storage_constantan
+- immersiveengineering:storage_electrum
+- immersiveengineering:storage_steel
+- #forge:storage_blocks/biotite
+- #forge:storage_blocks/charcoal
+- libvulpes:blockcopper
+- libvulpes:blocktin
+- libvulpes:blocksteel
+- libvulpes:blocktitanium
+- libvulpes:blockaluminum
+- libvulpes:blockiridium
+
+#minecraft:campfires
+- minecraft:campfire
+- minecraft:soul_campfire
+
+#forge:storage_blocks/californium
+- rankine:californium_block
+
+#forge:storage_blocks/arsenic
+- rankine:arsenic_block
+
+#forge:storage_blocks/antimony
+- rankine:antimony_block
+
+#forge:sheetmetals/uranium
+- immersiveengineering:sheetmetal_uranium
+
+#minecraft:infiniburn_nether
+- #minecraft:infiniburn_overworld
+
+#forge:glass_panes/orange
+- minecraft:orange_stained_glass_pane
+
+#forge:storage_blocks/erbium
+- rankine:erbium_block
+
+#forge:ores/quartz
+- minecraft:nether_quartz_ore
+- rankine:quartz_ore
+
+#forge:ores/cobalt
+- rankine:cobaltite_ore
+
+#forge:storage_blocks/garnet
+- rankine:garnet_block
+
+#forge:glass/blue
+- minecraft:blue_stained_glass
+
+#rankine:glass_cutter
+- #forge:glass
+- #forge:glass_panes
+- rankine:lead_glass
+
+#minecraft:wooden_trapdoors
+- minecraft:acacia_trapdoor
+- minecraft:birch_trapdoor
+- minecraft:dark_oak_trapdoor
+- minecraft:jungle_trapdoor
+- minecraft:oak_trapdoor
+- minecraft:spruce_trapdoor
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- biomesoplenty:fir_trapdoor
+- biomesoplenty:redwood_trapdoor
+- biomesoplenty:cherry_trapdoor
+- biomesoplenty:mahogany_trapdoor
+- biomesoplenty:jacaranda_trapdoor
+- biomesoplenty:palm_trapdoor
+- biomesoplenty:willow_trapdoor
+- biomesoplenty:dead_trapdoor
+- biomesoplenty:magic_trapdoor
+- biomesoplenty:umbran_trapdoor
+- biomesoplenty:hellbark_trapdoor
+- rankine:cinnamon_trapdoor
+- rankine:sharinga_trapdoor
+- rankine:black_walnut_trapdoor
+- rankine:cork_oak_trapdoor
+- rankine:cedar_trapdoor
+- rankine:pinyon_pine_trapdoor
+- rankine:juniper_trapdoor
+- rankine:coconut_palm_trapdoor
+- rankine:balsam_fir_trapdoor
+- rankine:magnolia_trapdoor
+- rankine:eastern_hemlock_trapdoor
+- rankine:bamboo_trapdoor
+- rankine:bamboo_culms_trapdoor
+- rankine:maple_trapdoor
+
+#minecraft:wooden_fence_gates
+- rankine:cinnamon_fence_gate
+- rankine:sharinga_fence_gate
+- rankine:black_walnut_fence_gate
+- rankine:cork_oak_fence_gate
+- rankine:cedar_fence_gate
+- rankine:pinyon_pine_fence_gate
+- rankine:juniper_fence_gate
+- rankine:coconut_palm_fence_gate
+- rankine:balsam_fir_fence_gate
+- rankine:magnolia_fence_gate
+- rankine:eastern_hemlock_fence_gate
+- rankine:bamboo_fence_gate
+- rankine:bamboo_culms_fence_gate
+- rankine:maple_fence_gate
+- rankine:cinnamon_fence_gate
+- rankine:sharinga_fence_gate
+- rankine:black_walnut_fence_gate
+- rankine:cork_oak_fence_gate
+- rankine:cedar_fence_gate
+- rankine:pinyon_pine_fence_gate
+- rankine:juniper_fence_gate
+- rankine:coconut_palm_fence_gate
+- rankine:balsam_fir_fence_gate
+- rankine:magnolia_fence_gate
+- rankine:eastern_hemlock_fence_gate
+- rankine:bamboo_fence_gate
+- rankine:bamboo_culms_fence_gate
+- rankine:maple_fence_gate
+
+#forge:sheetmetals/tungsten
+- rankine:tungsten_sheetmetal
+
+#rankine:movement_modifiers/wooden
+- #minecraft:planks
+- #minecraft:wooden_slabs
+- #minecraft:wooden_stairs
+
+#forge:ores/native_lead
+- rankine:native_lead_ore
+
+#forge:storage_blocks/coal
+- minecraft:coal_block
+- rankine:lignite_block
+- rankine:subbituminous_coal_block
+- rankine:bituminous_coal_block
+- rankine:anthracite_coal_block
+
+#tetra:nailed
+- #minecraft:banners
+- #minecraft:beds
+- #minecraft:planks
+- #minecraft:rails
+- #minecraft:signs
+- #minecraft:wooden_buttons
+- #minecraft:wooden_doors
+- #minecraft:wooden_fences
+- #minecraft:wooden_pressure_plates
+- #minecraft:wooden_slabs
+- #minecraft:wooden_stairs
+- #minecraft:wooden_trapdoors
+- #forge:fence_gates/wooden
+- #forge:fences/wooden
+- #forge:chests/wooden
+- tetra:basic_workbench
+- minecraft:bookshelf
+- minecraft:trapped_chest
+- minecraft:ladder
+- minecraft:jukebox
+- minecraft:note_block
+- minecraft:daylight_detector
+- minecraft:scaffolding
+- minecraft:crafting_table
+- minecraft:loom
+- minecraft:barrel
+- minecraft:smoker
+- minecraft:blast_furnace
+- minecraft:cartography_table
+- minecraft:fletching_table
+- minecraft:grindstone
+- minecraft:lectern
+- minecraft:smithing_table
+- minecraft:stonecutter
+- minecraft:bell
+- minecraft:composter
+- minecraft:lantern
+
+#forge:glass/light_blue
+- minecraft:light_blue_stained_glass
+
+#cfm:fences/picket
+- cfm:white_picket_fence
+- cfm:orange_picket_fence
+- cfm:magenta_picket_fence
+- cfm:light_blue_picket_fence
+- cfm:yellow_picket_fence
+- cfm:lime_picket_fence
+- cfm:pink_picket_fence
+- cfm:gray_picket_fence
+- cfm:light_gray_picket_fence
+- cfm:cyan_picket_fence
+- cfm:purple_picket_fence
+- cfm:blue_picket_fence
+- cfm:brown_picket_fence
+- cfm:green_picket_fence
+- cfm:red_picket_fence
+- cfm:black_picket_fence
+
+#forge:polished_stone_stairs
+- rankine:polished_gray_granite_stairs
+- rankine:polished_granodiorite_stairs
+- rankine:polished_hornblende_andesite_stairs
+- rankine:polished_tholeiitic_basalt_stairs
+- rankine:polished_pyroxene_gabbro_stairs
+- rankine:polished_anorthosite_stairs
+- rankine:polished_rhyolite_stairs
+- rankine:polished_comendite_stairs
+- rankine:polished_black_dacite_stairs
+- rankine:polished_red_dacite_stairs
+- rankine:polished_red_porphyry_stairs
+- rankine:polished_purple_porphyry_stairs
+- rankine:polished_pegmatite_stairs
+- rankine:polished_peridotite_stairs
+- rankine:polished_troctolite_stairs
+- rankine:polished_kimberlite_stairs
+- rankine:polished_komatiite_stairs
+- rankine:polished_pumice_stairs
+- rankine:polished_scoria_stairs
+- rankine:polished_white_marble_stairs
+- rankine:polished_black_marble_stairs
+- rankine:polished_gneiss_stairs
+- rankine:polished_mica_schist_stairs
+- rankine:polished_phyllite_stairs
+- rankine:polished_slate_stairs
+- rankine:polished_quartzite_stairs
+- rankine:polished_mariposite_stairs
+- rankine:polished_skarn_stairs
+- rankine:polished_ringwoodite_stairs
+- rankine:polished_wadsleyite_stairs
+- rankine:polished_bridgmanite_stairs
+- rankine:polished_ferropericlase_stairs
+- rankine:polished_perovskite_stairs
+- rankine:polished_tufa_limestone_stairs
+- rankine:polished_dolostone_stairs
+- rankine:polished_chalk_stairs
+- rankine:polished_carbonaceous_shale_stairs
+- rankine:polished_siltstone_stairs
+- rankine:polished_quartz_sandstone_stairs
+- rankine:polished_arkose_sandstone_stairs
+- rankine:polished_mudstone_stairs
+- rankine:polished_breccia_stairs
+- minecraft:polished_blackstone_stairs
+
+#forge:storage_blocks/fermium
+- rankine:fermium_block
+
+#forge:storage_blocks/flerovium
+- rankine:flerovium_block
+
+#rankine:cedar_logs
+- rankine:cedar_log
+- rankine:cedar_wood
+- rankine:stripped_cedar_log
+- rankine:stripped_cedar_wood
+
+#forge:storage_blocks/redstone
+- minecraft:redstone_block
+
+#forge:stones/bridgmanite
+- rankine:bridgmanite
+
+#minecraft:stairs
+- #minecraft:wooden_stairs
+- minecraft:cobblestone_stairs
+- minecraft:sandstone_stairs
+- minecraft:nether_brick_stairs
+- minecraft:stone_brick_stairs
+- minecraft:brick_stairs
+- minecraft:purpur_stairs
+- minecraft:quartz_stairs
+- minecraft:red_sandstone_stairs
+- minecraft:prismarine_brick_stairs
+- minecraft:prismarine_stairs
+- minecraft:dark_prismarine_stairs
+- minecraft:polished_granite_stairs
+- minecraft:smooth_red_sandstone_stairs
+- minecraft:mossy_stone_brick_stairs
+- minecraft:polished_diorite_stairs
+- minecraft:mossy_cobblestone_stairs
+- minecraft:end_stone_brick_stairs
+- minecraft:stone_stairs
+- minecraft:smooth_sandstone_stairs
+- minecraft:smooth_quartz_stairs
+- minecraft:granite_stairs
+- minecraft:andesite_stairs
+- minecraft:red_nether_brick_stairs
+- minecraft:polished_andesite_stairs
+- minecraft:diorite_stairs
+- minecraft:blackstone_stairs
+- minecraft:polished_blackstone_brick_stairs
+- minecraft:polished_blackstone_stairs
+- biomesoplenty:black_sandstone_stairs
+- biomesoplenty:smooth_black_sandstone_stairs
+- biomesoplenty:orange_sandstone_stairs
+- biomesoplenty:smooth_orange_sandstone_stairs
+- biomesoplenty:white_sandstone_stairs
+- biomesoplenty:smooth_white_sandstone_stairs
+- biomesoplenty:mud_brick_stairs
+- biomesoplenty:fir_stairs
+- biomesoplenty:redwood_stairs
+- biomesoplenty:cherry_stairs
+- biomesoplenty:mahogany_stairs
+- biomesoplenty:jacaranda_stairs
+- biomesoplenty:palm_stairs
+- biomesoplenty:willow_stairs
+- biomesoplenty:dead_stairs
+- biomesoplenty:magic_stairs
+- biomesoplenty:umbran_stairs
+- biomesoplenty:hellbark_stairs
+- envirocore:litherite_stairs
+- envirocore:litherite_brick_stairs
+- envirocore:litherite_brick_small_stairs
+- envirocore:litherite_cobble_stairs
+- envirocore:litherite_polished_stairs
+- envirocore:litherite_tile_stairs
+- envirocore:litherite_tile_small_stairs
+- envirocore:erodium_stairs
+- envirocore:erodium_brick_stairs
+- envirocore:erodium_brick_small_stairs
+- envirocore:erodium_cobble_stairs
+- envirocore:erodium_polished_stairs
+- envirocore:erodium_tile_stairs
+- envirocore:erodium_tile_small_stairs
+- envirocore:kyronite_stairs
+- envirocore:kyronite_brick_stairs
+- envirocore:kyronite_brick_small_stairs
+- envirocore:kyronite_cobble_stairs
+- envirocore:kyronite_polished_stairs
+- envirocore:kyronite_tile_stairs
+- envirocore:kyronite_tile_small_stairs
+- envirocore:pladium_stairs
+- envirocore:pladium_brick_stairs
+- envirocore:pladium_brick_small_stairs
+- envirocore:pladium_cobble_stairs
+- envirocore:pladium_polished_stairs
+- envirocore:pladium_tile_stairs
+- envirocore:pladium_tile_small_stairs
+- envirocore:ionite_stairs
+- envirocore:ionite_brick_stairs
+- envirocore:ionite_brick_small_stairs
+- envirocore:ionite_cobble_stairs
+- envirocore:ionite_polished_stairs
+- envirocore:ionite_tile_stairs
+- envirocore:ionite_tile_small_stairs
+- envirocore:aethium_stairs
+- envirocore:aethium_brick_stairs
+- envirocore:aethium_brick_small_stairs
+- envirocore:aethium_cobble_stairs
+- envirocore:aethium_polished_stairs
+- envirocore:aethium_tile_stairs
+- envirocore:aethium_tile_small_stairs
+- envirocore:nanorite_stairs
+- envirocore:nanorite_brick_stairs
+- envirocore:nanorite_brick_small_stairs
+- envirocore:nanorite_cobble_stairs
+- envirocore:nanorite_polished_stairs
+- envirocore:nanorite_tile_stairs
+- envirocore:nanorite_tile_small_stairs
+- envirocore:xerothium_stairs
+- envirocore:xerothium_brick_stairs
+- envirocore:xerothium_brick_small_stairs
+- envirocore:xerothium_cobble_stairs
+- envirocore:xerothium_polished_stairs
+- envirocore:xerothium_tile_stairs
+- envirocore:xerothium_tile_small_stairs
+- notreepunching:granite_cobblestone_stairs
+- notreepunching:andesite_cobblestone_stairs
+- notreepunching:diorite_cobblestone_stairs
+- quark:andesite_bricks_stairs
+- quark:basalt_bricks_stairs
+- quark:basalt_stairs
+- quark:biotite_block_stairs
+- quark:blackstone_bricks_stairs
+- quark:black_shingles_stairs
+- quark:black_stained_planks_stairs
+- quark:blue_nether_bricks_stairs
+- quark:blue_shingles_stairs
+- quark:blue_stained_planks_stairs
+- quark:brimstone_bricks_stairs
+- quark:brimstone_stairs
+- quark:brown_shingles_stairs
+- quark:brown_stained_planks_stairs
+- quark:charred_nether_bricks_stairs
+- quark:cobbedstone_stairs
+- quark:cobblestone_bricks_stairs
+- quark:cyan_shingles_stairs
+- quark:cyan_stained_planks_stairs
+- quark:dark_elder_prismarine_stairs
+- quark:diorite_bricks_stairs
+- quark:dirt_bricks_stairs
+- quark:duskbound_block_stairs
+- quark:elder_prismarine_bricks_stairs
+- quark:elder_prismarine_stairs
+- quark:granite_bricks_stairs
+- quark:gray_shingles_stairs
+- quark:gray_stained_planks_stairs
+- quark:green_shingles_stairs
+- quark:green_stained_planks_stairs
+- quark:iron_plate_stairs
+- quark:jasper_bricks_stairs
+- quark:jasper_stairs
+- quark:light_blue_shingles_stairs
+- quark:light_blue_stained_planks_stairs
+- quark:light_gray_shingles_stairs
+- quark:light_gray_stained_planks_stairs
+- quark:limestone_bricks_stairs
+- quark:limestone_stairs
+- quark:lime_shingles_stairs
+- quark:lime_stained_planks_stairs
+- quark:magenta_shingles_stairs
+- quark:magenta_stained_planks_stairs
+- quark:magma_bricks_stairs
+- quark:marble_bricks_stairs
+- quark:marble_stairs
+- quark:midori_block_stairs
+- quark:mossy_cobblestone_bricks_stairs
+- quark:myalite_bricks_stairs
+- quark:myalite_stairs
+- quark:netherrack_bricks_stairs
+- quark:orange_shingles_stairs
+- quark:orange_stained_planks_stairs
+- quark:permafrost_bricks_stairs
+- quark:permafrost_stairs
+- quark:pink_shingles_stairs
+- quark:pink_stained_planks_stairs
+- quark:polished_basalt_stairs
+- quark:polished_jasper_stairs
+- quark:polished_limestone_stairs
+- quark:polished_marble_stairs
+- quark:polished_myalite_stairs
+- quark:polished_slate_stairs
+- quark:purple_shingles_stairs
+- quark:purple_stained_planks_stairs
+- quark:red_sandstone_bricks_stairs
+- quark:red_shingles_stairs
+- quark:red_stained_planks_stairs
+- quark:rusty_iron_plate_stairs
+- quark:sandstone_bricks_stairs
+- quark:sandy_bricks_stairs
+- quark:shingles_stairs
+- quark:slate_bricks_stairs
+- quark:slate_stairs
+- quark:smooth_biotite_stairs
+- quark:smooth_soul_sandstone_stairs
+- quark:snow_bricks_stairs
+- quark:soul_sandstone_bricks_stairs
+- quark:soul_sandstone_stairs
+- quark:thatch_stairs
+- quark:turf_stairs
+- quark:twisted_blackstone_bricks_stairs
+- quark:vanilla_basalt_bricks_stairs
+- quark:weeping_blackstone_bricks_stairs
+- quark:white_shingles_stairs
+- quark:white_stained_planks_stairs
+- quark:yellow_shingles_stairs
+- quark:yellow_stained_planks_stairs
+- naturesaura:ancient_stairs
+- naturesaura:infused_brick_stairs
+- naturesaura:infused_stairs
+- engineersdecor:clinker_brick_stairs
+- engineersdecor:clinker_brick_stained_stairs
+- engineersdecor:slag_brick_stairs
+- engineersdecor:rebar_concrete_stairs
+- engineersdecor:rebar_concrete_tile_stairs
+- engineersdecor:gas_concrete_stairs
+- engineersdecor:old_industrial_wood_stairs
+- rankine:cast_iron_support_stairs
+- rankine:uncolored_concrete_stairs
+- rankine:checkered_marble_stairs
+- rankine:checkered_dacite_stairs
+- rankine:checkered_porphyry_stairs
+- #forge:stone_bricks_stairs
+- #forge:polished_stone_stairs
+- #forge:stone_stairs
+
+#quark:underground_biome_replaceable
+- minecraft:stone
+- minecraft:netherrack
+- minecraft:end_stone
+- minecraft:granite
+- minecraft:diorite
+- minecraft:andesite
+- quark:basalt
+- quark:marble
+- quark:limestone
+- quark:jasper
+- quark:slate
+
+#rankine:nugget_stones
+- #minecraft:base_stone_overworld
+- #minecraft:base_stone_nether
+- #forge:base_stone_end
+- #forge:wg_stone
+- #forge:stone
+- #rankine:tuff
+
+#minecraft:logs
+- #minecraft:logs_that_burn
+- #minecraft:crimson_stems
+- #minecraft:warped_stems
+- primalwinter:snowy_oak_log
+- primalwinter:snowy_dark_oak_log
+- primalwinter:snowy_acacia_log
+- primalwinter:snowy_jungle_log
+- primalwinter:snowy_birch_log
+- primalwinter:snowy_spruce_log
+- #biomesoplenty:fir_logs
+- #biomesoplenty:redwood_logs
+- #biomesoplenty:cherry_logs
+- #biomesoplenty:mahogany_logs
+- #biomesoplenty:jacaranda_logs
+- #biomesoplenty:palm_logs
+- #biomesoplenty:willow_logs
+- #biomesoplenty:dead_logs
+- #biomesoplenty:magic_logs
+- #biomesoplenty:umbran_logs
+- #biomesoplenty:hellbark_logs
+- naturesaura:ancient_log
+- naturesaura:ancient_bark
+
+#forge:ores/cinnabar
+- rankine:cinnabar_ore
+
+#forge:storage_blocks/astatine
+- rankine:astatine_block
+
+#forge:sandstone/red
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
+
+#forge:ores/yttrium
+- rankine:xenotime_ore
+
+#forge:ores/vanadinite
+- rankine:vanadinite_ore
+
+#forge:treated_wood_slab
+- immersiveengineering:slab_treated_wood_horizontal
+- immersiveengineering:slab_treated_wood_vertical
+- immersiveengineering:slab_treated_wood_packaged
+
+#advancedrocketry:warpcore
+- minecraft:gold_block
+
+#minecraft:valid_spawn
+- minecraft:grass_block
+- minecraft:podzol
+- biomesoplenty:origin_grass_block
+
+#forge:stones/granite
+- minecraft:granite
+- rankine:gray_granite
+
+#forge:stones/limestone
+- rankine:tufa_limestone
+
+#minecraft:mushroom_grow_block
+- minecraft:mycelium
+- minecraft:podzol
+- minecraft:crimson_nylium
+- minecraft:warped_nylium
+- quark:glowcelium
+
+#forge:stones/comendite
+- rankine:comendite
+
+#quark:wraith_spawnable
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#minecraft:wooden_doors
+- minecraft:oak_door
+- minecraft:spruce_door
+- minecraft:birch_door
+- minecraft:jungle_door
+- minecraft:acacia_door
+- minecraft:dark_oak_door
+- minecraft:crimson_door
+- minecraft:warped_door
+- biomesoplenty:fir_door
+- biomesoplenty:redwood_door
+- biomesoplenty:cherry_door
+- biomesoplenty:mahogany_door
+- biomesoplenty:jacaranda_door
+- biomesoplenty:palm_door
+- biomesoplenty:willow_door
+- biomesoplenty:dead_door
+- biomesoplenty:magic_door
+- biomesoplenty:umbran_door
+- biomesoplenty:hellbark_door
+- engineersdecor:old_industrial_wood_door
+- rankine:cinnamon_door
+- rankine:sharinga_door
+- rankine:black_walnut_door
+- rankine:cork_oak_door
+- rankine:cedar_door
+- rankine:coconut_palm_door
+- rankine:pinyon_pine_door
+- rankine:juniper_door
+- rankine:magnolia_door
+- rankine:balsam_fir_door
+- rankine:eastern_hemlock_door
+- rankine:bamboo_door
+- rankine:bamboo_culms_door
+- rankine:maple_door
+
+#forge:bricks_slabs
+- minecraft:brick_slab
+- rankine:clay_bricks_slab
+- rankine:refractory_bricks_slab
+- rankine:high_refractory_bricks_slab
+- rankine:ultra_high_refractory_bricks_slab
+
+#forge:sheetmetal_vertical_slabs
+- rankine:copper_sheetmetal_vertical_slab
+- rankine:tin_sheetmetal_vertical_slab
+- rankine:aluminum_sheetmetal_vertical_slab
+- rankine:gold_sheetmetal_vertical_slab
+- rankine:tungsten_sheetmetal_vertical_slab
+- rankine:lead_sheetmetal_vertical_slab
+- rankine:bismuth_sheetmetal_vertical_slab
+- rankine:silver_sheetmetal_vertical_slab
+- rankine:titanium_sheetmetal_vertical_slab
+- rankine:nickel_sheetmetal_vertical_slab
+- rankine:platinum_sheetmetal_vertical_slab
+- rankine:bronze_sheetmetal_vertical_slab
+- rankine:brass_sheetmetal_vertical_slab
+- rankine:cupronickel_sheetmetal_vertical_slab
+- rankine:steel_sheetmetal_vertical_slab
+- rankine:stainless_steel_sheetmetal_vertical_slab
+
+#forge:polished_stone_slabs
+- rankine:polished_gray_granite_slab
+- rankine:polished_granodiorite_slab
+- rankine:polished_hornblende_andesite_slab
+- rankine:polished_tholeiitic_basalt_slab
+- rankine:polished_pyroxene_gabbro_slab
+- rankine:polished_anorthosite_slab
+- rankine:polished_rhyolite_slab
+- rankine:polished_comendite_slab
+- rankine:polished_black_dacite_slab
+- rankine:polished_red_dacite_slab
+- rankine:polished_red_porphyry_slab
+- rankine:polished_purple_porphyry_slab
+- rankine:polished_pegmatite_slab
+- rankine:polished_peridotite_slab
+- rankine:polished_troctolite_slab
+- rankine:polished_kimberlite_slab
+- rankine:polished_komatiite_slab
+- rankine:polished_pumice_slab
+- rankine:polished_scoria_slab
+- rankine:polished_white_marble_slab
+- rankine:polished_black_marble_slab
+- rankine:polished_gneiss_slab
+- rankine:polished_mica_schist_slab
+- rankine:polished_phyllite_slab
+- rankine:polished_slate_slab
+- rankine:polished_quartzite_slab
+- rankine:polished_mariposite_slab
+- rankine:polished_skarn_slab
+- rankine:polished_ringwoodite_slab
+- rankine:polished_wadsleyite_slab
+- rankine:polished_bridgmanite_slab
+- rankine:polished_ferropericlase_slab
+- rankine:polished_perovskite_slab
+- rankine:polished_tufa_limestone_slab
+- rankine:polished_dolostone_slab
+- rankine:polished_chalk_slab
+- rankine:polished_carbonaceous_shale_slab
+- rankine:polished_siltstone_slab
+- rankine:polished_quartz_sandstone_slab
+- rankine:polished_arkose_sandstone_slab
+- rankine:polished_mudstone_slab
+- rankine:polished_breccia_slab
+- minecraft:polished_blackstone_slab
+
+#rankine:yellow_birch_logs
+- rankine:yellow_birch_log
+- rankine:yellow_birch_wood
+
+#forge:glass/purple
+- minecraft:purple_stained_glass
+
+#engineersdecor:brick_blocks
+- minecraft:bricks
+- minecraft:nether_bricks
+
+#rankine:nonquarryable
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:spawner
+- minecraft:barrier
+- minecraft:water
+- minecraft:lava
+- rankine:quarry_barrier
+- rankine:ironstone
+- rankine:phosphorite
+- #forge:chests
+- #forge:ores
+- #minecraft:shulker_boxes
+
+#forge:storage_blocks/opal
+- rankine:opal_block
+
+#quark:slime_blocks
+- minecraft:slime_block
+- quark:red_slime_block
+- quark:blue_slime_block
+- quark:cyan_slime_block
+- quark:magenta_slime_block
+- quark:yellow_slime_block
+
+#minecraft:crimson_stems
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+
+#forge:coils/aluminum
+- libvulpes:coilaluminum
+
+#forge:stones/dacite
+- rankine:red_dacite
+- rankine:black_dacite
+
+#quark:vertical_slab
+- quark:acacia_vertical_slab
+- quark:andesite_bricks_vertical_slab
+- quark:andesite_vertical_slab
+- quark:basalt_bricks_vertical_slab
+- quark:basalt_vertical_slab
+- quark:biotite_block_vertical_slab
+- quark:birch_vertical_slab
+- quark:blackstone_bricks_vertical_slab
+- quark:blackstone_vertical_slab
+- quark:black_shingles_vertical_slab
+- quark:black_stained_planks_vertical_slab
+- quark:blue_nether_bricks_vertical_slab
+- quark:blue_shingles_vertical_slab
+- quark:blue_stained_planks_vertical_slab
+- quark:brick_vertical_slab
+- quark:brimstone_bricks_vertical_slab
+- quark:brimstone_vertical_slab
+- quark:brown_shingles_vertical_slab
+- quark:brown_stained_planks_vertical_slab
+- quark:charred_nether_bricks_vertical_slab
+- quark:cobbedstone_vertical_slab
+- quark:cobblestone_bricks_vertical_slab
+- quark:cobblestone_vertical_slab
+- quark:crimson_vertical_slab
+- quark:cut_red_sandstone_vertical_slab
+- quark:cut_sandstone_vertical_slab
+- quark:cut_soul_sandstone_vertical_slab
+- quark:cyan_shingles_vertical_slab
+- quark:cyan_stained_planks_vertical_slab
+- quark:dark_elder_prismarine_vertical_slab
+- quark:dark_oak_vertical_slab
+- quark:dark_prismarine_vertical_slab
+- quark:diorite_bricks_vertical_slab
+- quark:diorite_vertical_slab
+- quark:dirt_bricks_vertical_slab
+- quark:duskbound_block_vertical_slab
+- quark:elder_prismarine_bricks_vertical_slab
+- quark:elder_prismarine_vertical_slab
+- quark:end_stone_brick_vertical_slab
+- quark:granite_bricks_vertical_slab
+- quark:granite_vertical_slab
+- quark:gray_shingles_vertical_slab
+- quark:gray_stained_planks_vertical_slab
+- quark:green_shingles_vertical_slab
+- quark:green_stained_planks_vertical_slab
+- quark:iron_plate_vertical_slab
+- quark:jasper_bricks_vertical_slab
+- quark:jasper_vertical_slab
+- quark:jungle_vertical_slab
+- quark:light_blue_shingles_vertical_slab
+- quark:light_blue_stained_planks_vertical_slab
+- quark:light_gray_shingles_vertical_slab
+- quark:light_gray_stained_planks_vertical_slab
+- quark:limestone_bricks_vertical_slab
+- quark:limestone_vertical_slab
+- quark:lime_shingles_vertical_slab
+- quark:lime_stained_planks_vertical_slab
+- quark:magenta_shingles_vertical_slab
+- quark:magenta_stained_planks_vertical_slab
+- quark:magma_bricks_vertical_slab
+- quark:marble_bricks_vertical_slab
+- quark:marble_vertical_slab
+- quark:midori_block_vertical_slab
+- quark:mossy_cobblestone_bricks_vertical_slab
+- quark:mossy_cobblestone_vertical_slab
+- quark:mossy_stone_brick_vertical_slab
+- quark:myalite_bricks_vertical_slab
+- quark:myalite_vertical_slab
+- quark:netherrack_bricks_vertical_slab
+- quark:nether_brick_vertical_slab
+- quark:oak_vertical_slab
+- quark:orange_shingles_vertical_slab
+- quark:orange_stained_planks_vertical_slab
+- quark:permafrost_bricks_vertical_slab
+- quark:permafrost_vertical_slab
+- quark:pink_shingles_vertical_slab
+- quark:pink_stained_planks_vertical_slab
+- quark:polished_andesite_vertical_slab
+- quark:polished_basalt_vertical_slab
+- quark:polished_blackstone_brick_vertical_slab
+- quark:polished_blackstone_vertical_slab
+- quark:polished_diorite_vertical_slab
+- quark:polished_granite_vertical_slab
+- quark:polished_jasper_vertical_slab
+- quark:polished_limestone_vertical_slab
+- quark:polished_marble_vertical_slab
+- quark:polished_myalite_vertical_slab
+- quark:polished_slate_vertical_slab
+- quark:prismarine_brick_vertical_slab
+- quark:prismarine_vertical_slab
+- quark:purple_shingles_vertical_slab
+- quark:purple_stained_planks_vertical_slab
+- quark:purpur_vertical_slab
+- quark:quartz_vertical_slab
+- quark:red_nether_brick_vertical_slab
+- quark:red_sandstone_bricks_vertical_slab
+- quark:red_sandstone_vertical_slab
+- quark:red_shingles_vertical_slab
+- quark:red_stained_planks_vertical_slab
+- quark:rusty_iron_plate_vertical_slab
+- quark:sandstone_bricks_vertical_slab
+- quark:sandstone_vertical_slab
+- quark:sandy_bricks_vertical_slab
+- quark:shingles_vertical_slab
+- quark:slate_bricks_vertical_slab
+- quark:slate_vertical_slab
+- quark:smooth_biotite_vertical_slab
+- quark:smooth_quartz_vertical_slab
+- quark:smooth_red_sandstone_vertical_slab
+- quark:smooth_sandstone_vertical_slab
+- quark:smooth_soul_sandstone_vertical_slab
+- quark:smooth_stone_vertical_slab
+- quark:snow_bricks_vertical_slab
+- quark:soul_sandstone_bricks_vertical_slab
+- quark:soul_sandstone_vertical_slab
+- quark:spruce_vertical_slab
+- quark:stone_brick_vertical_slab
+- quark:stone_vertical_slab
+- quark:thatch_vertical_slab
+- quark:turf_vertical_slab
+- quark:twisted_blackstone_bricks_vertical_slab
+- quark:vanilla_basalt_bricks_vertical_slab
+- quark:warped_vertical_slab
+- quark:weeping_blackstone_bricks_vertical_slab
+- quark:white_shingles_vertical_slab
+- quark:white_stained_planks_vertical_slab
+- quark:yellow_shingles_vertical_slab
+- quark:yellow_stained_planks_vertical_slab
+
+#forge:storage_blocks/berkelium
+- rankine:berkelium_block
+
+#forge:storage_blocks/thulium
+- rankine:thulium_block
+
+#forge:storage_blocks/niobium
+- rankine:niobium_block
+
+#quark:hedges
+- quark:oak_hedge
+- quark:birch_hedge
+- quark:spruce_hedge
+- quark:jungle_hedge
+- quark:acacia_hedge
+- quark:dark_oak_hedge
+- quark:blue_blossom_hedge
+- quark:lavender_blossom_hedge
+- quark:orange_blossom_hedge
+- quark:pink_blossom_hedge
+- quark:yellow_blossom_hedge
+- quark:red_blossom_hedge
+
+#forge:storage_blocks/ruby
+- rankine:ruby_block
+
+#rankine:igneous_stones
+- #forge:stones/andesite
+- #forge:stones/anorthosite
+- #forge:stones/basalt
+- #forge:stones/dacite
+- #forge:stones/diorite
+- #forge:stones/gabbro
+- #forge:stones/granite
+- #forge:stones/rhyolite
+- #forge:stones/pumice
+- #forge:stones/scoria
+- #forge:stones/porphyry
+- #forge:stones/komatiite
+- #forge:stones/peridotite
+- #forge:stones/kimberlite
+- #forge:stones/troctolite
+- #forge:stones/comendite
+
+#charcoal_pit:coke_oven_walls
+- #charcoal_pit:refractory_bricks
+- minecraft:iron_door
+- minecraft:iron_trapdoor
+- charcoal_pit:brick_collector
+- charcoal_pit:sandy_collector
+- charcoal_pit:nether_collector
+- charcoal_pit:end_collector
+
+#forge:storage_blocks/silicon_carbide
+- rankine:silicon_carbide_block
+
+#forge:storage_blocks/americium
+- rankine:americium_block
+
+#forge:ores/tungsten
+- rankine:wolframite_ore
+
+#engineersdecor:plain_glass_panes
+- minecraft:glass_pane
+- minecraft:black_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:red_stained_glass_pane
+- minecraft:white_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+
+#forge:ores/molybdenum
+- rankine:molybdenite_ore
+
+#rankine:crowbar
+- #forge:sheetmetal
+- #forge:metal_bars
+- #minecraft:planks
+- #minecraft:fences
+- #minecraft:fence_gates
+- #minecraft:rails
+- rankine:cast_iron_support
+
+#minecraft:beacon_base_blocks
+- minecraft:netherite_block
+- minecraft:emerald_block
+- minecraft:diamond_block
+- minecraft:gold_block
+- minecraft:iron_block
+- quark:golden_apple_crate
+- #rankine:alloy_blocks
+- #rankine:element_blocks
+
+#forge:ores/majorite
+- rankine:majorite_ore
+
+#forge:storage_blocks/neon
+- rankine:neon_block
+
+#minecraft:anvil
+- minecraft:anvil
+- minecraft:chipped_anvil
+- minecraft:damaged_anvil
+
+#forge:storage_blocks/hafnium
+- rankine:hafnium_block
+
+#forge:storage_blocks/titanium
+- better_diving:titanium_block
+- libvulpes:blocktitanium
+- rankine:titanium_block
+
+#forge:stones/peridotite
+- rankine:peridotite
+
+#forge:sand
+- #forge:sand/colorless
+- #forge:sand/red
+- biomesoplenty:black_sand
+- biomesoplenty:orange_sand
+- biomesoplenty:white_sand
+
+#forge:ores/magnetite
+- rankine:magnetite_ore
+
+#minecraft:wall_corals
+- minecraft:tube_coral_wall_fan
+- minecraft:brain_coral_wall_fan
+- minecraft:bubble_coral_wall_fan
+- minecraft:fire_coral_wall_fan
+- minecraft:horn_coral_wall_fan
+
+#forge:storage_blocks/lawrencium
+- rankine:lawrencium_block
+
+#forge:sheetmetals/lead
+- immersiveengineering:sheetmetal_lead
+- rankine:lead_sheetmetal
+
+#rankine:leds
+- rankine:red_led
+- rankine:orange_led
+- rankine:yellow_led
+- rankine:lime_led
+- rankine:green_led
+- rankine:blue_led
+- rankine:cyan_led
+- rankine:light_blue_led
+- rankine:magenta_led
+- rankine:purple_led
+- rankine:pink_led
+- rankine:brown_led
+- rankine:black_led
+- rankine:white_led
+- rankine:light_gray_led
+- rankine:gray_led
+
+#forge:storage_blocks/radon
+- rankine:radon_block
+
+#advancedrocketry:casingcentrifuge
+- libvulpes:blockaluminum
+
+#forge:stones/gabbro
+- rankine:pyroxene_gabbro
+
+#rankine:logs_latex
+- #rankine:sharinga_logs
+
+#forge:sheetmetal
+- #forge:sheetmetals/copper
+- #forge:sheetmetals/tin
+- #forge:sheetmetals/aluminum
+- #forge:sheetmetals/gold
+- #forge:sheetmetals/tungsten
+- #forge:sheetmetals/lead
+- #forge:sheetmetals/bismuth
+- #forge:sheetmetals/silver
+- #forge:sheetmetals/titanium
+- #forge:sheetmetals/nickel
+- #forge:sheetmetals/platinum
+- #forge:sheetmetals/bronze
+- #forge:sheetmetals/brass
+- #forge:sheetmetals/cupronickel
+- #forge:sheetmetals/steel
+- #forge:sheetmetals/stainless_steel
+
+#forge:ores/subbituminous_coal
+- rankine:subbituminous_ore
+
+#forge:storage_blocks/silver
+- immersiveengineering:storage_silver
+- better_diving:silver_block
+- rankine:silver_block
+
+#forge:ores/gold
+- #minecraft:gold_ores
+- rankine:native_gold_ore
+
+#forge:storage_blocks/oganesson
+- rankine:oganesson_block
+
+#forge:ores/salt
+- rankine:pink_halite_ore
+- rankine:halite_ore
+
+#forge:ores/plumbago
+- rankine:plumbago_ore
+
+#rankine:black_birch_logs
+- rankine:black_birch_log
+- rankine:black_birch_wood
+
+#minecraft:piglin_repellents
+- minecraft:soul_fire
+- minecraft:soul_torch
+- minecraft:soul_lantern
+- minecraft:soul_wall_torch
+- minecraft:soul_campfire
+
+#forge:storage_blocks/pearl
+- rankine:pearl_block
+
+#forge:ores/aquamarine
+- rankine:aquamarine_ore
+
+#biomesoplenty:palm_logs
+- biomesoplenty:palm_log
+- biomesoplenty:palm_wood
+- biomesoplenty:stripped_palm_log
+- biomesoplenty:stripped_palm_wood
+
+#forge:glass/black
+- minecraft:black_stained_glass
+
+#minecraft:portals
+- minecraft:nether_portal
+- minecraft:end_portal
+- minecraft:end_gateway
+
+#forge:storage_blocks/titaniumiridium
+- advancedrocketry:blocktitaniumiridium
+
+#forge:storage_blocks/lanthanum
+- rankine:lanthanum_block
+
+#notreepunching:always_drops
+- minecraft:gravel
+- #minecraft:leaves
+- minecraft:gravel
+- #forge:dirt
+- minecraft:grass
+- minecraft:podzol
+- minecraft:coarse_dirt
+- #minecraft:sand
+
+#forge:ores/ilmenite
+- rankine:ilmenite_ore
+
+#forge:ores/magnesite
+- rankine:magnesite_ore
+
+#forge:storage_blocks/titanium_alloy
+- rankine:titanium_alloy_block
+
+#forge:fences/nether_brick
+- minecraft:nether_brick_fence
+
+#forge:storage_blocks/labradorite
+- rankine:labradorite_block
+
+#forge:glass/lime
+- minecraft:lime_stained_glass
+
+#forge:chests/wooden
+- minecraft:chest
+- minecraft:trapped_chest
+- quark:oak_chest
+- quark:spruce_chest
+- quark:birch_chest
+- quark:jungle_chest
+- quark:acacia_chest
+- quark:dark_oak_chest
+- quark:warped_chest
+- quark:crimson_chest
+- quark:oak_trapped_chest
+- quark:spruce_trapped_chest
+- quark:birch_trapped_chest
+- quark:jungle_trapped_chest
+- quark:acacia_trapped_chest
+- quark:dark_oak_trapped_chest
+- quark:warped_trapped_chest
+- quark:crimson_trapped_chest
+
+#forge:storage_blocks/aluminum
+- immersiveengineering:storage_aluminum
+- libvulpes:blockaluminum
+- rankine:aluminum_block
+
+#immersiveengineering:scaffoldings/aluminum
+- immersiveengineering:alu_scaffolding_standard
+- immersiveengineering:alu_scaffolding_grate_top
+- immersiveengineering:alu_scaffolding_wooden_top
+
+#forge:ores/iron
+- minecraft:iron_ore
+- rankine:magnetite_ore
+- rankine:kamacite_ore
+- rankine:taenite_ore
+- rankine:tetrataenite_ore
+- rankine:antitaenite_ore
+
+#rankine:movement_modifiers/dirt
+- #forge:dirt
+- #forge:gravel
+
+#forge:storage_blocks/biotite
+- quark:biotite_block
+
+#forge:storage_blocks/sulfur
+- rankine:sulfur_block
+
+#forge:storage_blocks/lutetium
+- rankine:lutetium_block
+
+#forge:storage_blocks/darmstadtium
+- rankine:darmstadtium_block
+
+#forge:ores/celestine
+- rankine:celestine_ore
+
+#rankine:movement_modifiers/snow
+- minecraft:snow
+- minecraft:snow_block
+- rankine:packed_snow
+
+#minecraft:wooden_stairs
+- minecraft:oak_stairs
+- minecraft:spruce_stairs
+- minecraft:birch_stairs
+- minecraft:jungle_stairs
+- minecraft:acacia_stairs
+- minecraft:dark_oak_stairs
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- biomesoplenty:fir_stairs
+- biomesoplenty:redwood_stairs
+- biomesoplenty:cherry_stairs
+- biomesoplenty:mahogany_stairs
+- biomesoplenty:jacaranda_stairs
+- biomesoplenty:palm_stairs
+- biomesoplenty:willow_stairs
+- biomesoplenty:dead_stairs
+- biomesoplenty:magic_stairs
+- biomesoplenty:umbran_stairs
+- biomesoplenty:hellbark_stairs
+- rankine:cinnamon_stairs
+- rankine:sharinga_stairs
+- rankine:black_walnut_stairs
+- rankine:cork_oak_stairs
+- rankine:cedar_stairs
+- rankine:pinyon_pine_stairs
+- rankine:juniper_stairs
+- rankine:coconut_palm_stairs
+- rankine:balsam_fir_stairs
+- rankine:magnolia_stairs
+- rankine:eastern_hemlock_stairs
+- rankine:bamboo_stairs
+- rankine:bamboo_culms_stairs
+- rankine:maple_stairs
+
+#forge:storage_blocks/einsteinium
+- rankine:einsteinium_block
+
+#minecraft:carpets
+- minecraft:white_carpet
+- minecraft:orange_carpet
+- minecraft:magenta_carpet
+- minecraft:light_blue_carpet
+- minecraft:yellow_carpet
+- minecraft:lime_carpet
+- minecraft:pink_carpet
+- minecraft:gray_carpet
+- minecraft:light_gray_carpet
+- minecraft:cyan_carpet
+- minecraft:purple_carpet
+- minecraft:blue_carpet
+- minecraft:brown_carpet
+- minecraft:green_carpet
+- minecraft:red_carpet
+- minecraft:black_carpet
+
+#minecraft:base_stone_overworld
+- minecraft:stone
+- minecraft:granite
+- minecraft:diorite
+- minecraft:andesite
+- quark:jasper
+- quark:limestone
+- quark:marble
+- quark:slate
+- rankine:gray_granite
+- rankine:granodiorite
+- rankine:hornblende_andesite
+- rankine:tholeiitic_basalt
+- rankine:pyroxene_gabbro
+- rankine:anorthosite
+- rankine:rhyolite
+- rankine:comendite
+- rankine:black_dacite
+- rankine:red_dacite
+- rankine:red_porphyry
+- rankine:purple_porphyry
+- rankine:pegmatite
+- rankine:peridotite
+- rankine:troctolite
+- rankine:kimberlite
+- rankine:komatiite
+- rankine:pumice
+- rankine:scoria
+- rankine:white_marble
+- rankine:black_marble
+- rankine:gneiss
+- rankine:mica_schist
+- rankine:phyllite
+- rankine:slate
+- rankine:quartzite
+- rankine:mariposite
+- rankine:skarn
+- rankine:ringwoodite
+- rankine:wadsleyite
+- rankine:bridgmanite
+- rankine:ferropericlase
+- rankine:perovskite
+- rankine:tufa_limestone
+- rankine:dolostone
+- rankine:chalk
+- rankine:carbonaceous_shale
+- rankine:siltstone
+- rankine:quartz_sandstone
+- rankine:arkose_sandstone
+- rankine:mudstone
+- rankine:breccia
+
+#minecraft:wooden_buttons
+- minecraft:oak_button
+- minecraft:spruce_button
+- minecraft:birch_button
+- minecraft:jungle_button
+- minecraft:acacia_button
+- minecraft:dark_oak_button
+- minecraft:crimson_button
+- minecraft:warped_button
+- biomesoplenty:fir_button
+- biomesoplenty:redwood_button
+- biomesoplenty:cherry_button
+- biomesoplenty:mahogany_button
+- biomesoplenty:jacaranda_button
+- biomesoplenty:palm_button
+- biomesoplenty:willow_button
+- biomesoplenty:dead_button
+- biomesoplenty:magic_button
+- biomesoplenty:umbran_button
+- biomesoplenty:hellbark_button
+- rankine:cinnamon_button
+- rankine:sharinga_button
+- rankine:black_walnut_button
+- rankine:cork_oak_button
+- rankine:cedar_button
+- rankine:pinyon_pine_button
+- rankine:juniper_button
+- rankine:coconut_palm_button
+- rankine:balsam_fir_button
+- rankine:magnolia_button
+- rankine:eastern_hemlock_button
+- rankine:bamboo_button
+- rankine:bamboo_culms_button
+- rankine:maple_button
+
+#forge:ores/subbituminous
+- rankine:subbituminous_ore
+
+#engineersdecor:luminescent_blocks
+- minecraft:glowstone
+- minecraft:sea_lantern
+
+#quark:crystal
+- quark:red_crystal
+- quark:orange_crystal
+- quark:yellow_crystal
+- quark:green_crystal
+- quark:blue_crystal
+- quark:indigo_crystal
+- quark:violet_crystal
+- quark:white_crystal
+- quark:black_crystal
+
+#biomesoplenty:umbran_logs
+- biomesoplenty:umbran_log
+- biomesoplenty:umbran_wood
+- biomesoplenty:stripped_umbran_log
+- biomesoplenty:stripped_umbran_wood
+
+#forge:storage_blocks/glowstone
+- minecraft:glowstone
+
+#notreepunching:pottery
+- minecraft:clay
+- notreepunching:clay_worked
+- notreepunching:clay_large_vessel
+- notreepunching:clay_small_vessel
+- notreepunching:clay_bucket
+- notreepunching:clay_flower_pot
+
+#rankine:cinnamon_logs
+- rankine:cinnamon_log
+- rankine:cinnamon_wood
+- rankine:stripped_cinnamon_log
+- rankine:stripped_cinnamon_wood
+
+#forge:storage_blocks/palladium
+- rankine:palladium_block
+
+#forge:ores/molybdenite
+- rankine:molybdenite_ore
+
+#minecraft:stone_bricks
+- minecraft:stone_bricks
+- minecraft:mossy_stone_bricks
+- minecraft:cracked_stone_bricks
+- minecraft:chiseled_stone_bricks
+- minecraft:polished_blackstone_bricks
+- rankine:granite_bricks
+- rankine:andesite_bricks
+- rankine:diorite_bricks
+- rankine:basalt_bricks
+- rankine:gray_granite_bricks
+- rankine:granodiorite_bricks
+- rankine:hornblende_andesite_bricks
+- rankine:tholeiitic_basalt_bricks
+- rankine:pyroxene_gabbro_bricks
+- rankine:anorthosite_bricks
+- rankine:rhyolite_bricks
+- rankine:black_dacite_bricks
+- rankine:red_dacite_bricks
+- rankine:red_porphyry_bricks
+- rankine:purple_porphyry_bricks
+- rankine:peridotite_bricks
+- rankine:comendite_bricks
+- rankine:troctolite_bricks
+- rankine:pegmatite_bricks
+- rankine:kimberlite_bricks
+- rankine:komatiite_bricks
+- rankine:pumice_bricks
+- rankine:scoria_bricks
+- rankine:white_marble_bricks
+- rankine:black_marble_bricks
+- rankine:gneiss_bricks
+- rankine:mica_schist_bricks
+- rankine:phyllite_bricks
+- rankine:slate_bricks
+- rankine:quartzite_bricks
+- rankine:mariposite_bricks
+- rankine:skarn_bricks
+- rankine:ringwoodite_bricks
+- rankine:wadsleyite_bricks
+- rankine:bridgmanite_bricks
+- rankine:ferropericlase_bricks
+- rankine:perovskite_bricks
+- rankine:tufa_limestone_bricks
+- rankine:dolostone_bricks
+- rankine:chalk_bricks
+- rankine:carbonaceous_shale_bricks
+- rankine:siltstone_bricks
+- rankine:quartz_sandstone_bricks
+- rankine:arkose_sandstone_bricks
+- rankine:mudstone_bricks
+- rankine:breccia_bricks
+- rankine:meteorite_paver
+- rankine:enstatite_paver
+
+#forge:storage_blocks/quartz
+- minecraft:quartz_block
+
+#forge:storage_blocks/indium
+- rankine:indium_block
+
+#forge:storage_blocks/curium
+- rankine:curium_block
+
+#forge:glass/orange
+- minecraft:orange_stained_glass
+
+#forge:storage_blocks/germanium
+- rankine:germanium_block
+
+#forge:glazed_terracotta
+- minecraft:red_glazed_terracotta
+- minecraft:orange_glazed_terracotta
+- minecraft:yellow_glazed_terracotta
+- minecraft:lime_glazed_terracotta
+- minecraft:green_glazed_terracotta
+- minecraft:cyan_glazed_terracotta
+- minecraft:light_blue_glazed_terracotta
+- minecraft:blue_glazed_terracotta
+- minecraft:purple_glazed_terracotta
+- minecraft:magenta_glazed_terracotta
+- minecraft:pink_glazed_terracotta
+- minecraft:brown_glazed_terracotta
+- minecraft:white_glazed_terracotta
+- minecraft:light_gray_glazed_terracotta
+- minecraft:gray_glazed_terracotta
+- minecraft:black_glazed_terracotta
+
+#forge:stones/anorthosite
+- rankine:anorthosite
+
+#forge:ores/magnesium
+- rankine:magnesite_ore
+
+#minecraft:slabs
+- #minecraft:wooden_slabs
+- minecraft:stone_slab
+- minecraft:smooth_stone_slab
+- minecraft:stone_brick_slab
+- minecraft:sandstone_slab
+- minecraft:purpur_slab
+- minecraft:quartz_slab
+- minecraft:red_sandstone_slab
+- minecraft:brick_slab
+- minecraft:cobblestone_slab
+- minecraft:nether_brick_slab
+- minecraft:petrified_oak_slab
+- minecraft:prismarine_slab
+- minecraft:prismarine_brick_slab
+- minecraft:dark_prismarine_slab
+- minecraft:polished_granite_slab
+- minecraft:smooth_red_sandstone_slab
+- minecraft:mossy_stone_brick_slab
+- minecraft:polished_diorite_slab
+- minecraft:mossy_cobblestone_slab
+- minecraft:end_stone_brick_slab
+- minecraft:smooth_sandstone_slab
+- minecraft:smooth_quartz_slab
+- minecraft:granite_slab
+- minecraft:andesite_slab
+- minecraft:red_nether_brick_slab
+- minecraft:polished_andesite_slab
+- minecraft:diorite_slab
+- minecraft:cut_sandstone_slab
+- minecraft:cut_red_sandstone_slab
+- minecraft:blackstone_slab
+- minecraft:polished_blackstone_brick_slab
+- minecraft:polished_blackstone_slab
+- biomesoplenty:black_sandstone_slab
+- biomesoplenty:cut_black_sandstone_slab
+- biomesoplenty:smooth_black_sandstone_slab
+- biomesoplenty:orange_sandstone_slab
+- biomesoplenty:cut_orange_sandstone_slab
+- biomesoplenty:smooth_orange_sandstone_slab
+- biomesoplenty:white_sandstone_slab
+- biomesoplenty:cut_white_sandstone_slab
+- biomesoplenty:smooth_white_sandstone_slab
+- biomesoplenty:mud_brick_slab
+- biomesoplenty:fir_slab
+- biomesoplenty:redwood_slab
+- biomesoplenty:cherry_slab
+- biomesoplenty:mahogany_slab
+- biomesoplenty:jacaranda_slab
+- biomesoplenty:palm_slab
+- biomesoplenty:willow_slab
+- biomesoplenty:dead_slab
+- biomesoplenty:magic_slab
+- biomesoplenty:umbran_slab
+- biomesoplenty:hellbark_slab
+- envirocore:litherite_slab
+- envirocore:litherite_brick_slab
+- envirocore:litherite_brick_small_slab
+- envirocore:litherite_cobble_slab
+- envirocore:litherite_polished_slab
+- envirocore:litherite_tile_slab
+- envirocore:litherite_tile_small_slab
+- envirocore:erodium_slab
+- envirocore:erodium_brick_slab
+- envirocore:erodium_brick_small_slab
+- envirocore:erodium_cobble_slab
+- envirocore:erodium_polished_slab
+- envirocore:erodium_tile_slab
+- envirocore:erodium_tile_small_slab
+- envirocore:kyronite_slab
+- envirocore:kyronite_brick_slab
+- envirocore:kyronite_brick_small_slab
+- envirocore:kyronite_cobble_slab
+- envirocore:kyronite_polished_slab
+- envirocore:kyronite_tile_slab
+- envirocore:kyronite_tile_small_slab
+- envirocore:pladium_slab
+- envirocore:pladium_brick_slab
+- envirocore:pladium_brick_small_slab
+- envirocore:pladium_cobble_slab
+- envirocore:pladium_polished_slab
+- envirocore:pladium_tile_slab
+- envirocore:pladium_tile_small_slab
+- envirocore:ionite_slab
+- envirocore:ionite_brick_slab
+- envirocore:ionite_brick_small_slab
+- envirocore:ionite_cobble_slab
+- envirocore:ionite_polished_slab
+- envirocore:ionite_tile_slab
+- envirocore:ionite_tile_small_slab
+- envirocore:aethium_slab
+- envirocore:aethium_brick_slab
+- envirocore:aethium_brick_small_slab
+- envirocore:aethium_cobble_slab
+- envirocore:aethium_polished_slab
+- envirocore:aethium_tile_slab
+- envirocore:aethium_tile_small_slab
+- envirocore:nanorite_slab
+- envirocore:nanorite_brick_slab
+- envirocore:nanorite_brick_small_slab
+- envirocore:nanorite_cobble_slab
+- envirocore:nanorite_polished_slab
+- envirocore:nanorite_tile_slab
+- envirocore:nanorite_tile_small_slab
+- envirocore:xerothium_slab
+- envirocore:xerothium_brick_slab
+- envirocore:xerothium_brick_small_slab
+- envirocore:xerothium_cobble_slab
+- envirocore:xerothium_polished_slab
+- envirocore:xerothium_tile_slab
+- envirocore:xerothium_tile_small_slab
+- notreepunching:granite_cobblestone_slab
+- notreepunching:andesite_cobblestone_slab
+- notreepunching:diorite_cobblestone_slab
+- quark:andesite_bricks_slab
+- quark:basalt_bricks_slab
+- quark:basalt_slab
+- quark:biotite_block_slab
+- quark:blackstone_bricks_slab
+- quark:black_shingles_slab
+- quark:black_stained_planks_slab
+- quark:blue_nether_bricks_slab
+- quark:blue_shingles_slab
+- quark:blue_stained_planks_slab
+- quark:brimstone_bricks_slab
+- quark:brimstone_slab
+- quark:brown_shingles_slab
+- quark:brown_stained_planks_slab
+- quark:charred_nether_bricks_slab
+- quark:cobbedstone_slab
+- quark:cobblestone_bricks_slab
+- quark:cut_soul_sandstone_slab
+- quark:cyan_shingles_slab
+- quark:cyan_stained_planks_slab
+- quark:dark_elder_prismarine_slab
+- quark:diorite_bricks_slab
+- quark:dirt_bricks_slab
+- quark:duskbound_block_slab
+- quark:elder_prismarine_bricks_slab
+- quark:elder_prismarine_slab
+- quark:granite_bricks_slab
+- quark:gray_shingles_slab
+- quark:gray_stained_planks_slab
+- quark:green_shingles_slab
+- quark:green_stained_planks_slab
+- quark:iron_plate_slab
+- quark:jasper_bricks_slab
+- quark:jasper_slab
+- quark:light_blue_shingles_slab
+- quark:light_blue_stained_planks_slab
+- quark:light_gray_shingles_slab
+- quark:light_gray_stained_planks_slab
+- quark:limestone_bricks_slab
+- quark:limestone_slab
+- quark:lime_shingles_slab
+- quark:lime_stained_planks_slab
+- quark:magenta_shingles_slab
+- quark:magenta_stained_planks_slab
+- quark:magma_bricks_slab
+- quark:marble_bricks_slab
+- quark:marble_slab
+- quark:midori_block_slab
+- quark:mossy_cobblestone_bricks_slab
+- quark:myalite_bricks_slab
+- quark:myalite_slab
+- quark:netherrack_bricks_slab
+- quark:orange_shingles_slab
+- quark:orange_stained_planks_slab
+- quark:permafrost_bricks_slab
+- quark:permafrost_slab
+- quark:pink_shingles_slab
+- quark:pink_stained_planks_slab
+- quark:polished_basalt_slab
+- quark:polished_jasper_slab
+- quark:polished_limestone_slab
+- quark:polished_marble_slab
+- quark:polished_myalite_slab
+- quark:polished_slate_slab
+- quark:purple_shingles_slab
+- quark:purple_stained_planks_slab
+- quark:red_sandstone_bricks_slab
+- quark:red_shingles_slab
+- quark:red_stained_planks_slab
+- quark:rusty_iron_plate_slab
+- quark:sandstone_bricks_slab
+- quark:sandy_bricks_slab
+- quark:shingles_slab
+- quark:slate_bricks_slab
+- quark:slate_slab
+- quark:smooth_biotite_slab
+- quark:smooth_soul_sandstone_slab
+- quark:snow_bricks_slab
+- quark:soul_sandstone_bricks_slab
+- quark:soul_sandstone_slab
+- quark:thatch_slab
+- quark:turf_slab
+- quark:twisted_blackstone_bricks_slab
+- quark:vanilla_basalt_bricks_slab
+- quark:weeping_blackstone_bricks_slab
+- quark:white_shingles_slab
+- quark:white_stained_planks_slab
+- quark:yellow_shingles_slab
+- quark:yellow_stained_planks_slab
+- naturesaura:ancient_slab
+- naturesaura:infused_slab
+- naturesaura:infused_brick_slab
+- engineersdecor:clinker_brick_slab
+- engineersdecor:clinker_brick_stained_slab
+- engineersdecor:slag_brick_slab
+- engineersdecor:rebar_concrete_slab
+- engineersdecor:rebar_concrete_tile_slab
+- engineersdecor:gas_concrete_slab
+- engineersdecor:panzerglass_slab
+- engineersdecor:old_industrial_wood_slab
+- rankine:cast_iron_support_slab
+- rankine:uncolored_concrete_slab
+- rankine:checkered_marble_slab
+- rankine:checkered_dacite_slab
+- rankine:checkered_porphyry_slab
+- #forge:stone_bricks_slabs
+- #forge:polished_stone_slabs
+- #forge:stone_slabs
+
+#minecraft:guarded_by_piglins
+- minecraft:gold_block
+- minecraft:barrel
+- minecraft:chest
+- minecraft:ender_chest
+- minecraft:gilded_blackstone
+- minecraft:trapped_chest
+- #minecraft:shulker_boxes
+- #minecraft:gold_ores
+- #forge:chests
+- rankine:white_gold_block
+- rankine:rose_gold_block
+- rankine:green_gold_block
+- rankine:blue_gold_block
+- rankine:purple_gold_block
+
+#forge:storage_blocks/topaz
+- rankine:topaz_block
+
+#forge:ores/emerald
+- minecraft:emerald_ore
+- rankine:emerald_ore
+
+#rankine:alloy_blocks
+- rankine:bronze_block
+- rankine:brass_block
+- rankine:steel_block
+- rankine:stainless_steel_block
+- rankine:alnico_block
+- rankine:nitinol_block
+- rankine:amalgam_block
+- rankine:cupronickel_block
+- rankine:nickel_silver_block
+- rankine:invar_block
+- rankine:nickel_superalloy_block
+- rankine:rose_metal_block
+- rankine:duralumin_block
+- rankine:osmiridium_block
+- rankine:titanium_alloy_block
+- rankine:cast_iron_block
+- rankine:rose_gold_block
+- rankine:white_gold_block
+- rankine:green_gold_block
+- rankine:blue_gold_block
+- rankine:purple_gold_block
+- rankine:black_gold_block
+
+#forge:storage_blocks/cesium
+- rankine:cesium_block
+
+#minecraft:spruce_leaves
+- primalwinter:snowy_spruce_leaves
+- primalwinter:snowy_spruce_leaves
+
+#forge:storage_blocks/zirconium
+- rankine:zirconium_block
+
+#minecraft:corals
+- #minecraft:coral_plants
+- minecraft:tube_coral_fan
+- minecraft:brain_coral_fan
+- minecraft:bubble_coral_fan
+- minecraft:fire_coral_fan
+- minecraft:horn_coral_fan
+
+#minecraft:buttons
+- #minecraft:wooden_buttons
+- minecraft:stone_button
+- minecraft:polished_blackstone_button
+- quark:gold_button
+- quark:iron_button
+- rankine:gray_granite_button
+- rankine:granodiorite_button
+- rankine:hornblende_andesite_button
+- rankine:tholeiitic_basalt_button
+- rankine:pyroxene_gabbro_button
+- rankine:anorthosite_button
+- rankine:rhyolite_button
+- rankine:black_dacite_button
+- rankine:red_dacite_button
+- rankine:red_porphyry_button
+- rankine:purple_porphyry_button
+- rankine:peridotite_button
+- rankine:kimberlite_button
+- rankine:komatiite_button
+- rankine:pumice_button
+- rankine:scoria_button
+- rankine:white_marble_button
+- rankine:black_marble_button
+- rankine:gneiss_button
+- rankine:mica_schist_button
+- rankine:phyllite_button
+- rankine:slate_button
+- rankine:quartzite_button
+- rankine:mariposite_button
+- rankine:skarn_button
+- rankine:ringwoodite_button
+- rankine:wadsleyite_button
+- rankine:bridgmanite_button
+- rankine:ferropericlase_button
+- rankine:perovskite_button
+- rankine:tufa_limestone_button
+- rankine:dolostone_button
+- rankine:chalk_button
+- rankine:carbonaceous_shale_button
+- rankine:siltstone_button
+- rankine:quartz_sandstone_button
+- rankine:arkose_sandstone_button
+- rankine:mudstone_button
+- rankine:breccia_button
+
+#quark:foxhound_spawnable
+- minecraft:netherrack
+- minecraft:soul_sand
+- minecraft:basalt
+- minecraft:soul_soil
+
+#forge:storage_blocks/scandium
+- rankine:scandium_block
+
+#forge:storage_blocks/thorium
+- rankine:thorium_block
+
+#minecraft:rails
+- minecraft:rail
+- minecraft:powered_rail
+- minecraft:detector_rail
+- minecraft:activator_rail
+- naturesaura:dimension_rail_end
+- naturesaura:dimension_rail_nether
+- naturesaura:dimension_rail_overworld
+
+#forge:ores/native_aluminum
+- rankine:native_aluminum_ore
+
+#forge:barrels/wooden
+- minecraft:barrel
+
+#forge:polished_stone_vertical_slabs
+- rankine:polished_gray_granite_vertical_slab
+- rankine:polished_granodiorite_vertical_slab
+- rankine:polished_hornblende_andesite_vertical_slab
+- rankine:polished_tholeiitic_basalt_vertical_slab
+- rankine:polished_pyroxene_gabbro_vertical_slab
+- rankine:polished_anorthosite_vertical_slab
+- rankine:polished_rhyolite_vertical_slab
+- rankine:polished_comendite_vertical_slab
+- rankine:polished_troctolite_vertical_slab
+- rankine:polished_black_dacite_vertical_slab
+- rankine:polished_red_dacite_vertical_slab
+- rankine:polished_red_porphyry_vertical_slab
+- rankine:polished_purple_porphyry_vertical_slab
+- rankine:polished_pegmatite_vertical_slab
+- rankine:polished_peridotite_vertical_slab
+- rankine:polished_kimberlite_vertical_slab
+- rankine:polished_komatiite_vertical_slab
+- rankine:polished_pumice_vertical_slab
+- rankine:polished_scoria_vertical_slab
+- rankine:polished_white_marble_vertical_slab
+- rankine:polished_black_marble_vertical_slab
+- rankine:polished_gneiss_vertical_slab
+- rankine:polished_mica_schist_vertical_slab
+- rankine:polished_phyllite_vertical_slab
+- rankine:polished_slate_vertical_slab
+- rankine:polished_quartzite_vertical_slab
+- rankine:polished_mariposite_vertical_slab
+- rankine:polished_skarn_vertical_slab
+- rankine:polished_ringwoodite_vertical_slab
+- rankine:polished_wadsleyite_vertical_slab
+- rankine:polished_bridgmanite_vertical_slab
+- rankine:polished_ferropericlase_vertical_slab
+- rankine:polished_perovskite_vertical_slab
+- rankine:polished_tufa_limestone_vertical_slab
+- rankine:polished_dolostone_vertical_slab
+- rankine:polished_chalk_vertical_slab
+- rankine:polished_carbonaceous_shale_vertical_slab
+- rankine:polished_siltstone_vertical_slab
+- rankine:polished_quartz_sandstone_vertical_slab
+- rankine:polished_arkose_sandstone_vertical_slab
+- rankine:polished_mudstone_vertical_slab
+- rankine:polished_breccia_vertical_slab
+
+#forge:stones/skarn
+- rankine:skarn
+
+#forge:stone_vertical_slabs
+- rankine:gray_granite_vertical_slab
+- rankine:granodiorite_vertical_slab
+- rankine:hornblende_andesite_vertical_slab
+- rankine:tholeiitic_basalt_vertical_slab
+- rankine:pyroxene_gabbro_vertical_slab
+- rankine:anorthosite_vertical_slab
+- rankine:rhyolite_vertical_slab
+- rankine:comendite_vertical_slab
+- rankine:troctolite_vertical_slab
+- rankine:black_dacite_vertical_slab
+- rankine:red_dacite_vertical_slab
+- rankine:red_porphyry_vertical_slab
+- rankine:purple_porphyry_vertical_slab
+- rankine:pegmatite_vertical_slab
+- rankine:peridotite_vertical_slab
+- rankine:kimberlite_vertical_slab
+- rankine:komatiite_vertical_slab
+- rankine:pumice_vertical_slab
+- rankine:scoria_vertical_slab
+- rankine:white_marble_vertical_slab
+- rankine:black_marble_vertical_slab
+- rankine:gneiss_vertical_slab
+- rankine:mica_schist_vertical_slab
+- rankine:phyllite_vertical_slab
+- rankine:slate_vertical_slab
+- rankine:quartzite_vertical_slab
+- rankine:mariposite_vertical_slab
+- rankine:skarn_vertical_slab
+- rankine:ringwoodite_vertical_slab
+- rankine:wadsleyite_vertical_slab
+- rankine:bridgmanite_vertical_slab
+- rankine:ferropericlase_vertical_slab
+- rankine:perovskite_vertical_slab
+- rankine:tufa_limestone_vertical_slab
+- rankine:dolostone_vertical_slab
+- rankine:chalk_vertical_slab
+- rankine:carbonaceous_shale_vertical_slab
+- rankine:siltstone_vertical_slab
+- rankine:quartz_sandstone_vertical_slab
+- rankine:arkose_sandstone_vertical_slab
+- rankine:mudstone_vertical_slab
+- rankine:breccia_vertical_slab
+
+#forge:ores/taenite
+- rankine:taenite_ore
+
+#forge:storage_blocks/tellurium
+- rankine:tellurium_block
+
+#minecraft:strider_warm_blocks
+- minecraft:lava
+
+#forge:storage_blocks/strontium
+- rankine:strontium_block
+
+#forge:storage_blocks/clay
+- minecraft:clay
+
+#forge:stones/pumice
+- rankine:pumice
+
+#minecraft:bee_growables
+- #minecraft:crops
+- minecraft:sweet_berry_bush
+
+#minecraft:wooden_pressure_plates
+- minecraft:oak_pressure_plate
+- minecraft:spruce_pressure_plate
+- minecraft:birch_pressure_plate
+- minecraft:jungle_pressure_plate
+- minecraft:acacia_pressure_plate
+- minecraft:dark_oak_pressure_plate
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- biomesoplenty:fir_pressure_plate
+- biomesoplenty:redwood_pressure_plate
+- biomesoplenty:cherry_pressure_plate
+- biomesoplenty:mahogany_pressure_plate
+- biomesoplenty:jacaranda_pressure_plate
+- biomesoplenty:palm_pressure_plate
+- biomesoplenty:willow_pressure_plate
+- biomesoplenty:dead_pressure_plate
+- biomesoplenty:magic_pressure_plate
+- biomesoplenty:umbran_pressure_plate
+- biomesoplenty:hellbark_pressure_plate
+- rankine:cinnamon_pressure_plate
+- rankine:sharinga_pressure_plate
+- rankine:black_walnut_pressure_plate
+- rankine:cork_oak_pressure_plate
+- rankine:cedar_pressure_plate
+- rankine:pinyon_pine_pressure_plate
+- rankine:juniper_pressure_plate
+- rankine:coconut_palm_pressure_plate
+- rankine:balsam_fir_pressure_plate
+- rankine:magnolia_pressure_plate
+- rankine:eastern_hemlock_pressure_plate
+- rankine:bamboo_pressure_plate
+- rankine:bamboo_culms_pressure_plate
+- rankine:maple_pressure_plate
+
+#forge:storage_blocks/oxygen
+- rankine:oxygen_block
+
+#minecraft:tall_flowers
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:peony
+- minecraft:rose_bush
+- biomesoplenty:blue_hydrangea
+- biomesoplenty:goldenrod
+
+#forge:storage_blocks/green_gold
+- rankine:green_gold_block
+
+#biomesoplenty:redwood_logs
+- biomesoplenty:redwood_log
+- biomesoplenty:redwood_wood
+- biomesoplenty:stripped_redwood_log
+- biomesoplenty:stripped_redwood_wood
+
+#rankine:magnet_banned
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:barrier
+- minecraft:water
+- minecraft:lava
+- rankine:quarry_barrier
+- minecraft:redstone_wire
+- #forge:chests
+- #minecraft:shulker_boxes
+
+#primalwinter:turtle_spawns_on
+- minecraft:sand
+- primalwinter:snowy_sand
+
+#biomesoplenty:jacaranda_logs
+- biomesoplenty:jacaranda_log
+- biomesoplenty:jacaranda_wood
+- biomesoplenty:stripped_jacaranda_log
+- biomesoplenty:stripped_jacaranda_wood
+
+#forge:storage_blocks/ytterbium
+- rankine:ytterbium_block
+
+#forge:bookshelves
+- quark:acacia_bookshelf
+- quark:birch_bookshelf
+- quark:dark_oak_bookshelf
+- quark:jungle_bookshelf
+- quark:spruce_bookshelf
+- quark:warped_bookshelf
+- quark:crimson_bookshelf
+
+#minecraft:stone_pressure_plates
+- minecraft:stone_pressure_plate
+- minecraft:polished_blackstone_pressure_plate
+- rankine:gray_granite_pressure_plate
+- rankine:granodiorite_pressure_plate
+- rankine:hornblende_andesite_pressure_plate
+- rankine:tholeiitic_basalt_pressure_plate
+- rankine:pyroxene_gabbro_pressure_plate
+- rankine:anorthosite_pressure_plate
+- rankine:rhyolite_pressure_plate
+- rankine:black_dacite_pressure_plate
+- rankine:red_dacite_pressure_plate
+- rankine:red_porphyry_pressure_plate
+- rankine:purple_porphyry_pressure_plate
+- rankine:peridotite_pressure_plate
+- rankine:kimberlite_pressure_plate
+- rankine:komatiite_pressure_plate
+- rankine:pumice_pressure_plate
+- rankine:scoria_pressure_plate
+- rankine:white_marble_pressure_plate
+- rankine:black_marble_pressure_plate
+- rankine:gneiss_pressure_plate
+- rankine:mica_schist_pressure_plate
+- rankine:phyllite_pressure_plate
+- rankine:slate_pressure_plate
+- rankine:quartzite_pressure_plate
+- rankine:mariposite_pressure_plate
+- rankine:skarn_pressure_plate
+- rankine:ringwoodite_pressure_plate
+- rankine:wadsleyite_pressure_plate
+- rankine:bridgmanite_pressure_plate
+- rankine:ferropericlase_pressure_plate
+- rankine:perovskite_pressure_plate
+- rankine:tufa_limestone_pressure_plate
+- rankine:dolostone_pressure_plate
+- rankine:chalk_pressure_plate
+- rankine:carbonaceous_shale_pressure_plate
+- rankine:siltstone_pressure_plate
+- rankine:quartz_sandstone_pressure_plate
+- rankine:arkose_sandstone_pressure_plate
+- rankine:mudstone_pressure_plate
+- rankine:breccia_pressure_plate
+- rankine:gray_granite_bricks_pressure_plate
+- rankine:granodiorite_bricks_pressure_plate
+- rankine:hornblende_andesite_bricks_pressure_plate
+- rankine:tholeiitic_basalt_bricks_pressure_plate
+- rankine:pyroxene_gabbro_bricks_pressure_plate
+- rankine:anorthosite_bricks_pressure_plate
+- rankine:rhyolite_bricks_pressure_plate
+- rankine:black_dacite_bricks_pressure_plate
+- rankine:red_dacite_bricks_pressure_plate
+- rankine:red_porphyry_bricks_pressure_plate
+- rankine:purple_porphyry_bricks_pressure_plate
+- rankine:peridotite_bricks_pressure_plate
+- rankine:kimberlite_bricks_pressure_plate
+- rankine:komatiite_bricks_pressure_plate
+- rankine:pumice_bricks_pressure_plate
+- rankine:scoria_bricks_pressure_plate
+- rankine:white_marble_bricks_pressure_plate
+- rankine:black_marble_bricks_pressure_plate
+- rankine:gneiss_bricks_pressure_plate
+- rankine:mica_schist_bricks_pressure_plate
+- rankine:phyllite_bricks_pressure_plate
+- rankine:slate_bricks_pressure_plate
+- rankine:quartzite_bricks_pressure_plate
+- rankine:mariposite_bricks_pressure_plate
+- rankine:skarn_bricks_pressure_plate
+- rankine:ringwoodite_bricks_pressure_plate
+- rankine:wadsleyite_bricks_pressure_plate
+- rankine:bridgmanite_bricks_pressure_plate
+- rankine:ferropericlase_bricks_pressure_plate
+- rankine:perovskite_bricks_pressure_plate
+- rankine:tufa_limestone_bricks_pressure_plate
+- rankine:dolostone_bricks_pressure_plate
+- rankine:chalk_bricks_pressure_plate
+- rankine:carbonaceous_shale_bricks_pressure_plate
+- rankine:siltstone_bricks_pressure_plate
+- rankine:quartz_sandstone_bricks_pressure_plate
+- rankine:arkose_sandstone_bricks_pressure_plate
+- rankine:mudstone_bricks_pressure_plate
+- rankine:breccia_bricks_pressure_plate
+
+#rankine:intrusion_passable
+- #minecraft:base_stone_overworld
+- #minecraft:base_stone_nether
+- #forge:base_stone_end
+- #forge:wg_stone
+- #rankine:tuff
+- minecraft:soul_sand
+- minecraft:soul_soil
+- minecraft:lava
+
+#minecraft:gold_ores
+- minecraft:gold_ore
+- minecraft:nether_gold_ore
+
+#forge:sheetmetals/silver
+- immersiveengineering:sheetmetal_silver
+- rankine:silver_sheetmetal
+
+#forge:glass_panes/pink
+- minecraft:pink_stained_glass_pane
+
+#forge:storage_blocks/europium
+- rankine:europium_block
+
+#forge:ores/greenockite
+- rankine:greenockite_ore
+
+#forge:storage_blocks/alnico
+- rankine:alnico_block
+
+#forge:netherrack
+- minecraft:netherrack
+
+#forge:ores/native_bismuth
+- rankine:native_bismuth_ore
+
+#minecraft:soul_fire_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+- quark:soul_sandstone
+- quark:soul_sandstone_slab
+- quark:soul_sandstone_stairs
+- quark:soul_sandstone_wall
+- quark:soul_sandstone_vertical_slab
+- quark:chiseled_soul_sandstone
+- quark:cut_soul_sandstone
+- quark:cut_soul_sandstone_slab
+- quark:cut_soul_sandstone_vertical_slab
+- quark:smooth_soul_sandstone
+- quark:smooth_soul_sandstone_slab
+- quark:smooth_soul_sandstone_stairs
+- quark:smooth_soul_sandstone_vertical_slab
+- quark:soul_sandstone_bricks
+- quark:soul_sandstone_bricks_slab
+- quark:soul_sandstone_bricks_stairs
+- quark:soul_sandstone_bricks_wall
+- quark:soul_sandstone_bricks_vertical_slab
+
+#forge:storage_blocks/chromium
+- rankine:chromium_block
+
+#forge:storage_blocks/calcium
+- rankine:calcium_block
+
+#forge:sheetmetals
+- immersiveengineering:sheetmetal_copper
+- immersiveengineering:sheetmetal_aluminum
+- immersiveengineering:sheetmetal_lead
+- immersiveengineering:sheetmetal_silver
+- immersiveengineering:sheetmetal_nickel
+- immersiveengineering:sheetmetal_uranium
+- immersiveengineering:sheetmetal_constantan
+- immersiveengineering:sheetmetal_electrum
+- immersiveengineering:sheetmetal_steel
+- immersiveengineering:sheetmetal_iron
+- immersiveengineering:sheetmetal_gold
+- immersiveengineering:sheetmetal_colored_white
+- immersiveengineering:sheetmetal_colored_orange
+- immersiveengineering:sheetmetal_colored_magenta
+- immersiveengineering:sheetmetal_colored_light_blue
+- immersiveengineering:sheetmetal_colored_yellow
+- immersiveengineering:sheetmetal_colored_lime
+- immersiveengineering:sheetmetal_colored_pink
+- immersiveengineering:sheetmetal_colored_gray
+- immersiveengineering:sheetmetal_colored_light_gray
+- immersiveengineering:sheetmetal_colored_cyan
+- immersiveengineering:sheetmetal_colored_purple
+- immersiveengineering:sheetmetal_colored_blue
+- immersiveengineering:sheetmetal_colored_brown
+- immersiveengineering:sheetmetal_colored_green
+- immersiveengineering:sheetmetal_colored_red
+- immersiveengineering:sheetmetal_colored_black
+
+#forge:ores/antimony
+- rankine:stibnite_ore
+
+#notreepunching:always_breakable
+- minecraft:gravel
+- #minecraft:leaves
+- minecraft:gravel
+- #forge:dirt
+- minecraft:grass
+- minecraft:podzol
+- minecraft:coarse_dirt
+- #minecraft:sand
+
+#forge:storage_blocks/terbium
+- rankine:terbium_block
+
+#forge:ores/native_gallium
+- rankine:native_gallium_ore
+
+#advancedrocketry:warpcorerim
+- libvulpes:blockaluminum
+
+#forge:storage_blocks/silicon
+- rankine:silicon_block
+
+#rankine:logs_resin
+- #minecraft:spruce_logs
+- #rankine:pinyon_pine_logs
+- #rankine:juniper_logs
+- #rankine:cedar_logs
+- #rankine:balsam_fir_logs
+- #rankine:eastern_hemlock_logs
+
+#forge:ores/lonsdaleite
+- rankine:lonsdaleite_ore
+
+#forge:stones/komatiite
+- rankine:komatiite
+
+#forge:gravel
+- minecraft:gravel
+
+#minecraft:oak_leaves
+- primalwinter:snowy_oak_leaves
+- primalwinter:snowy_oak_leaves
+
+#forge:ores/cobaltite
+- rankine:cobaltite_ore
+
+#forge:glass_panes/cyan
+- minecraft:cyan_stained_glass_pane
+
+#biomesoplenty:magic_logs
+- biomesoplenty:magic_log
+- biomesoplenty:magic_wood
+- biomesoplenty:stripped_magic_log
+- biomesoplenty:stripped_magic_wood
+
+#forge:ores/monazite
+- rankine:monazite_ore
+
+#minecraft:wool
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+- quark:white_quilted_wool
+- quark:orange_quilted_wool
+- quark:magenta_quilted_wool
+- quark:light_blue_quilted_wool
+- quark:yellow_quilted_wool
+- quark:lime_quilted_wool
+- quark:pink_quilted_wool
+- quark:gray_quilted_wool
+- quark:light_gray_quilted_wool
+- quark:cyan_quilted_wool
+- quark:purple_quilted_wool
+- quark:blue_quilted_wool
+- quark:brown_quilted_wool
+- quark:green_quilted_wool
+- quark:red_quilted_wool
+- quark:black_quilted_wool
+
+#forge:glass/colorless
+- minecraft:glass
+
+#forge:storage_blocks/copernicium
+- rankine:copernicium_block
+
+#forge:ores/vanadium
+- rankine:vanadinite_ore
+
+#forge:storage_blocks/beryllium
+- rankine:beryllium_block
+
+#forge:glass_panes/light_blue
+- minecraft:light_blue_stained_glass_pane
+
+#minecraft:beehives
+- minecraft:bee_nest
+- minecraft:beehive
+
+#forge:storage_blocks/cyanite
+- biggerreactors:cyanite_block
+- bigreactors:cyanite_block
+
+#minecraft:ice
+- minecraft:ice
+- minecraft:packed_ice
+- minecraft:blue_ice
+- minecraft:frosted_ice
+
+#forge:ores/zinc
+- rankine:sphalerite_ore
+
+#forge:ores/petalite
+- rankine:petalite_ore
+
+#forge:ores/netherite_scrap
+- minecraft:ancient_debris
+
+#rankine:magnolia_logs
+- rankine:magnolia_log
+- rankine:magnolia_wood
+- rankine:stripped_magnolia_log
+- rankine:stripped_magnolia_wood
+
+#minecraft:crops
+- minecraft:beetroots
+- minecraft:carrots
+- minecraft:potatoes
+- minecraft:wheat
+- minecraft:melon_stem
+- minecraft:pumpkin_stem
+- charcoal_pit:leeks
+- charcoal_pit:corn
+
+#forge:ores/rutile
+- libvulpes:orerutile
+
+#forge:ores/bituminous_coal
+- rankine:bituminous_ore
+
+#quark:quilted_wools
+- quark:black_quilted_wool
+- quark:blue_quilted_wool
+- quark:brown_quilted_wool
+- quark:cyan_quilted_wool
+- quark:gray_quilted_wool
+- quark:green_quilted_wool
+- quark:light_blue_quilted_wool
+- quark:light_gray_quilted_wool
+- quark:lime_quilted_wool
+- quark:magenta_quilted_wool
+- quark:orange_quilted_wool
+- quark:pink_quilted_wool
+- quark:purple_quilted_wool
+- quark:red_quilted_wool
+- quark:white_quilted_wool
+- quark:yellow_quilted_wool
+
+#forge:stained_glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+
+#forge:stones/wadsleyite
+- rankine:wadsleyite
+
+#forge:storage_blocks/dysprosium
+- rankine:dysprosium_block
+
+#forge:ores/halite
+- rankine:halite_ore
+
+#forge:ores/pink_halite
+- rankine:pink_halite_ore
+
+#forge:storage_blocks/amber
+- rankine:amber_block
+
+#minecraft:warped_stems
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+
+#forge:storage_blocks/cadmium
+- rankine:cadmium_block
+
+#forge:ores/selenium_ore
+- rankine:native_selenium_ore
+
+#passablefoliage:passables
+- #minecraft:leaves
+
+#forge:storage_blocks/coal_coke
+- immersiveengineering:coke
+
+#forge:storage_blocks/iron
+- minecraft:iron_block
+
+#forge:glass_panes/brown
+- minecraft:brown_stained_glass_pane
+
+#forge:ores/sperrylite
+- rankine:sperrylite_ore
+
+#charcoal_pit:refractory_bricks
+- minecraft:bricks
+- minecraft:brick_slab
+- minecraft:brick_stairs
+- minecraft:nether_bricks
+- minecraft:cracked_nether_bricks
+- minecraft:chiseled_nether_bricks
+- minecraft:nether_brick_slab
+- minecraft:nether_brick_stairs
+- minecraft:red_nether_bricks
+- minecraft:red_nether_brick_slab
+- minecraft:red_nether_brick_stairs
+- minecraft:end_stone_bricks
+- minecraft:end_stone_brick_slab
+- minecraft:end_stone_brick_stairs
+- charcoal_pit:sandy_brick
+- charcoal_pit:sandy_slab
+- charcoal_pit:sandy_stair
+
+#forge:storage_blocks/polonium
+- rankine:polonium_block
+
+#forge:storage_blocks/gadolinium
+- rankine:gadolinium_block
+
+#forge:ores/lignite
+- rankine:lignite_ore
+
+#minecraft:climbable
+- minecraft:ladder
+- minecraft:vine
+- minecraft:scaffolding
+- minecraft:weeping_vines
+- minecraft:weeping_vines_plant
+- minecraft:twisting_vines
+- minecraft:twisting_vines_plant
+- immersiveengineering:metal_ladder_none
+- immersiveengineering:metal_ladder_alu
+- immersiveengineering:metal_ladder_steel
+- biomesoplenty:willow_vine
+- quark:acacia_ladder
+- quark:birch_ladder
+- quark:dark_oak_ladder
+- quark:jungle_ladder
+- quark:spruce_ladder
+- quark:crimson_ladder
+- quark:warped_ladder
+- quark:iron_ladder
+- engineersdecor:metal_rung_ladder
+- engineersdecor:metal_rung_steps
+- engineersdecor:treated_wood_ladder
+
+#storagedrawers:drawers
+- storagedrawers:oak_full_drawers_1
+- storagedrawers:oak_full_drawers_2
+- storagedrawers:oak_full_drawers_4
+- storagedrawers:oak_half_drawers_1
+- storagedrawers:oak_half_drawers_2
+- storagedrawers:oak_half_drawers_4
+- storagedrawers:spruce_full_drawers_1
+- storagedrawers:spruce_full_drawers_2
+- storagedrawers:spruce_full_drawers_4
+- storagedrawers:spruce_half_drawers_1
+- storagedrawers:spruce_half_drawers_2
+- storagedrawers:spruce_half_drawers_4
+- storagedrawers:birch_full_drawers_1
+- storagedrawers:birch_full_drawers_2
+- storagedrawers:birch_full_drawers_4
+- storagedrawers:birch_half_drawers_1
+- storagedrawers:birch_half_drawers_2
+- storagedrawers:birch_half_drawers_4
+- storagedrawers:jungle_full_drawers_1
+- storagedrawers:jungle_full_drawers_2
+- storagedrawers:jungle_full_drawers_4
+- storagedrawers:jungle_half_drawers_1
+- storagedrawers:jungle_half_drawers_2
+- storagedrawers:jungle_half_drawers_4
+- storagedrawers:acacia_full_drawers_1
+- storagedrawers:acacia_full_drawers_2
+- storagedrawers:acacia_full_drawers_4
+- storagedrawers:acacia_half_drawers_1
+- storagedrawers:acacia_half_drawers_2
+- storagedrawers:acacia_half_drawers_4
+- storagedrawers:dark_oak_full_drawers_1
+- storagedrawers:dark_oak_full_drawers_2
+- storagedrawers:dark_oak_full_drawers_4
+- storagedrawers:dark_oak_half_drawers_1
+- storagedrawers:dark_oak_half_drawers_2
+- storagedrawers:dark_oak_half_drawers_4
+
+#minecraft:dark_oak_logs
+- minecraft:dark_oak_log
+- minecraft:dark_oak_wood
+- minecraft:stripped_dark_oak_log
+- minecraft:stripped_dark_oak_wood
+- primalwinter:snowy_dark_oak_log
+
+#forge:storage_blocks/steel
+- immersiveengineering:storage_steel
+- libvulpes:blocksteel
+- rankine:steel_block
+
+#forge:storage_blocks/yttrium
+- rankine:yttrium_block
+
+#quark:ladders
+- minecraft:ladder
+- quark:spruce_ladder
+- quark:birch_ladder
+- quark:jungle_ladder
+- quark:acacia_ladder
+- quark:dark_oak_ladder
+- quark:warped_ladder
+- quark:crimson_ladder
+- quark:iron_ladder
+
+#forge:glass_panes
+- #forge:glass_panes/colorless
+- #forge:stained_glass_panes
+- quark:dirty_glass_pane
+- quark:framed_glass_pane
+- quark:black_framed_glass_pane
+- quark:blue_framed_glass_pane
+- quark:brown_framed_glass_pane
+- quark:cyan_framed_glass_pane
+- quark:gray_framed_glass_pane
+- quark:green_framed_glass_pane
+- quark:light_blue_framed_glass_pane
+- quark:light_gray_framed_glass_pane
+- quark:lime_framed_glass_pane
+- quark:magenta_framed_glass_pane
+- quark:orange_framed_glass_pane
+- quark:pink_framed_glass_pane
+- quark:purple_framed_glass_pane
+- quark:red_framed_glass_pane
+- quark:white_framed_glass_pane
+- quark:yellow_framed_glass_pane
+
+#minecraft:coral_plants
+- minecraft:tube_coral
+- minecraft:brain_coral
+- minecraft:bubble_coral
+- minecraft:fire_coral
+- minecraft:horn_coral
+
+#minecraft:non_flammable_wood
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- minecraft:crimson_button
+- minecraft:warped_button
+- minecraft:crimson_door
+- minecraft:warped_door
+- minecraft:crimson_sign
+- minecraft:warped_sign
+- minecraft:crimson_wall_sign
+- minecraft:warped_wall_sign
+- biomesoplenty:hellbark_log
+- biomesoplenty:hellbark_wood
+- biomesoplenty:stripped_hellbark_log
+- biomesoplenty:stripped_hellbark_wood
+- biomesoplenty:hellbark_planks
+- biomesoplenty:hellbark_slab
+- biomesoplenty:hellbark_pressure_plate
+- biomesoplenty:hellbark_fence
+- biomesoplenty:hellbark_trapdoor
+- biomesoplenty:hellbark_fence_gate
+- biomesoplenty:hellbark_stairs
+- biomesoplenty:hellbark_button
+- biomesoplenty:hellbark_door
+- quark:warped_chest
+- quark:crimson_chest
+- quark:warped_ladder
+- quark:crimson_ladder
+- quark:warped_post
+- quark:crimson_post
+- quark:warped_bookshelf
+- quark:crimson_bookshelf
+
+#forge:coils/titanium
+- libvulpes:coiltitanium
+
+#forge:ores/manganese
+- rankine:pyrolusite_ore
+
+#forge:ores/fluorite
+- rankine:fluorite_ore
+
+#forge:concrete
+- rankine:gravel_concrete
+- rankine:uncolored_concrete
+- minecraft:red_concrete
+- minecraft:orange_concrete
+- minecraft:yellow_concrete
+- minecraft:lime_concrete
+- minecraft:green_concrete
+- minecraft:cyan_concrete
+- minecraft:light_blue_concrete
+- minecraft:blue_concrete
+- minecraft:purple_concrete
+- minecraft:magenta_concrete
+- minecraft:pink_concrete
+- minecraft:brown_concrete
+- minecraft:white_concrete
+- minecraft:light_gray_concrete
+- minecraft:gray_concrete
+- minecraft:black_concrete
+
+#forge:storage_blocks/cerium
+- rankine:cerium_block
+
+#forge:stones/marble
+- rankine:white_marble
+- rankine:black_marble
+
+#forge:sheetmetals/titanium
+- rankine:titanium_sheetmetal
+
+#forge:storage_blocks/osmiridium
+- rankine:osmiridium_block
+
+#charcoal_pit:bloomery_walls
+- #charcoal_pit:tuyere_blocks
+- #charcoal_pit:refractory_bricks
+
+#charcoal_pit:straw_grass
+- minecraft:grass
+- minecraft:fern
+- minecraft:dead_bush
+
+#rankine:flowers
+- minecraft:poppy
+- minecraft:dandelion
+- minecraft:blue_orchid
+- minecraft:allium
+- minecraft:red_tulip
+- minecraft:orange_tulip
+- minecraft:white_tulip
+- minecraft:pink_tulip
+- minecraft:azure_bluet
+- minecraft:oxeye_daisy
+- minecraft:lily_of_the_valley
+- minecraft:cornflower
+
+#forge:storage_blocks/molybdenum
+- rankine:molybdenum_block
+
+#forge:storage_blocks/tennessine
+- rankine:tennessine_block
+
+#forge:storage_blocks/bronze
+- rankine:bronze_block
+
+#rankine:pinyon_pine_logs
+- rankine:pinyon_pine_log
+- rankine:pinyon_pine_wood
+- rankine:stripped_pinyon_pine_log
+- rankine:stripped_pinyon_pine_wood
+
+#rankine:logs_maple_sap
+- #rankine:maple_logs
+
+#forge:sheetmetals/gold
+- immersiveengineering:sheetmetal_gold
+- rankine:gold_sheetmetal
+
+#forge:storage_blocks/seaborgium
+- rankine:seaborgium_block
+
+#minecraft:fences
+- #minecraft:wooden_fences
+- minecraft:nether_brick_fence
+- immersiveengineering:alu_fence
+- immersiveengineering:steel_fence
+- immersiveengineering:treated_fence
+
+#minecraft:saplings
+- minecraft:oak_sapling
+- minecraft:spruce_sapling
+- minecraft:birch_sapling
+- minecraft:jungle_sapling
+- minecraft:acacia_sapling
+- minecraft:dark_oak_sapling
+- pamhc2trees:apple_sapling
+- pamhc2trees:avocado_sapling
+- pamhc2trees:candlenut_sapling
+- pamhc2trees:cherry_sapling
+- pamhc2trees:chestnut_sapling
+- pamhc2trees:gooseberry_sapling
+- pamhc2trees:lemon_sapling
+- pamhc2trees:nutmeg_sapling
+- pamhc2trees:orange_sapling
+- pamhc2trees:peach_sapling
+- pamhc2trees:pear_sapling
+- pamhc2trees:plum_sapling
+- pamhc2trees:walnut_sapling
+- pamhc2trees:spiderweb_sapling
+- pamhc2trees:hazelnut_sapling
+- pamhc2trees:pawpaw_sapling
+- pamhc2trees:soursop_sapling
+- pamhc2trees:almond_sapling
+- pamhc2trees:apricot_sapling
+- pamhc2trees:banana_sapling
+- pamhc2trees:cashew_sapling
+- pamhc2trees:cinnamon_sapling
+- pamhc2trees:coconut_sapling
+- pamhc2trees:date_sapling
+- pamhc2trees:dragonfruit_sapling
+- pamhc2trees:durian_sapling
+- pamhc2trees:fig_sapling
+- pamhc2trees:grapefruit_sapling
+- pamhc2trees:lime_sapling
+- pamhc2trees:mango_sapling
+- pamhc2trees:olive_sapling
+- pamhc2trees:papaya_sapling
+- pamhc2trees:paperbark_sapling
+- pamhc2trees:pecan_sapling
+- pamhc2trees:peppercorn_sapling
+- pamhc2trees:persimmon_sapling
+- pamhc2trees:pistachio_sapling
+- pamhc2trees:pomegranate_sapling
+- pamhc2trees:starfruit_sapling
+- pamhc2trees:vanillabean_sapling
+- pamhc2trees:breadfruit_sapling
+- pamhc2trees:guava_sapling
+- pamhc2trees:jackfruit_sapling
+- pamhc2trees:lychee_sapling
+- pamhc2trees:passionfruit_sapling
+- pamhc2trees:rambutan_sapling
+- pamhc2trees:tamarind_sapling
+- pamhc2trees:maple_sapling
+- pamhc2trees:pinenut_sapling
+- biomesoplenty:origin_sapling
+- biomesoplenty:flowering_oak_sapling
+- biomesoplenty:rainbow_birch_sapling
+- biomesoplenty:yellow_autumn_sapling
+- biomesoplenty:orange_autumn_sapling
+- biomesoplenty:maple_sapling
+- biomesoplenty:fir_sapling
+- biomesoplenty:redwood_sapling
+- biomesoplenty:white_cherry_sapling
+- biomesoplenty:pink_cherry_sapling
+- biomesoplenty:mahogany_sapling
+- biomesoplenty:jacaranda_sapling
+- biomesoplenty:palm_sapling
+- biomesoplenty:willow_sapling
+- biomesoplenty:dead_sapling
+- biomesoplenty:magic_sapling
+- biomesoplenty:umbran_sapling
+- biomesoplenty:hellbark_sapling
+- quark:blue_blossom_sapling
+- quark:lavender_blossom_sapling
+- quark:orange_blossom_sapling
+- quark:pink_blossom_sapling
+- quark:yellow_blossom_sapling
+- quark:red_blossom_sapling
+- rankine:cinnamon_sapling
+- rankine:cedar_sapling
+- rankine:coconut_palm_sapling
+- rankine:pinyon_pine_sapling
+- rankine:juniper_sapling
+- rankine:balsam_fir_sapling
+- rankine:magnolia_sapling
+- rankine:eastern_hemlock_sapling
+- rankine:yellow_birch_sapling
+- rankine:black_birch_sapling
+- rankine:maple_sapling
+- rankine:cork_oak_sapling
+- rankine:black_walnut_sapling
+- rankine:sharinga_sapling
+
+#forge:storage_blocks/tin
+- libvulpes:blocktin
+- rankine:tin_block
+
+#forge:ores/copper
+- immersiveengineering:ore_copper
+- libvulpes:orecopper
+- rankine:native_copper_ore
+- rankine:malachite_ore
+- rankine:interspinifex_ore
+
+#minecraft:unstable_bottom_center
+- #minecraft:fence_gates
+
+#forge:stones/slate
+- rankine:slate
+
+#minecraft:enderman_holdable
+- #minecraft:small_flowers
+- minecraft:grass_block
+- minecraft:dirt
+- minecraft:coarse_dirt
+- minecraft:podzol
+- minecraft:sand
+- minecraft:red_sand
+- minecraft:gravel
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- minecraft:tnt
+- minecraft:cactus
+- minecraft:clay
+- minecraft:pumpkin
+- minecraft:carved_pumpkin
+- minecraft:melon
+- minecraft:mycelium
+- minecraft:crimson_fungus
+- minecraft:crimson_nylium
+- minecraft:crimson_roots
+- minecraft:warped_fungus
+- minecraft:warped_nylium
+- minecraft:warped_roots
+- biomesoplenty:black_sand
+- biomesoplenty:orange_sand
+- biomesoplenty:white_sand
+- biomesoplenty:toadstool
+- biomesoplenty:glowshroom
+- biomesoplenty:origin_grass_block
+- quark:glowcelium
+- quark:glowshroom
+
+#minecraft:banners
+- minecraft:white_banner
+- minecraft:orange_banner
+- minecraft:magenta_banner
+- minecraft:light_blue_banner
+- minecraft:yellow_banner
+- minecraft:lime_banner
+- minecraft:pink_banner
+- minecraft:gray_banner
+- minecraft:light_gray_banner
+- minecraft:cyan_banner
+- minecraft:purple_banner
+- minecraft:blue_banner
+- minecraft:brown_banner
+- minecraft:green_banner
+- minecraft:red_banner
+- minecraft:black_banner
+- minecraft:white_wall_banner
+- minecraft:orange_wall_banner
+- minecraft:magenta_wall_banner
+- minecraft:light_blue_wall_banner
+- minecraft:yellow_wall_banner
+- minecraft:lime_wall_banner
+- minecraft:pink_wall_banner
+- minecraft:gray_wall_banner
+- minecraft:light_gray_wall_banner
+- minecraft:cyan_wall_banner
+- minecraft:purple_wall_banner
+- minecraft:blue_wall_banner
+- minecraft:brown_wall_banner
+- minecraft:green_wall_banner
+- minecraft:red_wall_banner
+- minecraft:black_wall_banner
+
+#forge:ores/silicon
+- rankine:moissanite_ore
+
+#forge:storage_blocks/electrum
+- immersiveengineering:storage_electrum
+- rankine:green_gold_block
+
+#minecraft:wooden_fences
+- minecraft:oak_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- immersiveengineering:treated_fence
+- biomesoplenty:fir_fence
+- biomesoplenty:redwood_fence
+- biomesoplenty:cherry_fence
+- biomesoplenty:mahogany_fence
+- biomesoplenty:jacaranda_fence
+- biomesoplenty:palm_fence
+- biomesoplenty:willow_fence
+- biomesoplenty:dead_fence
+- biomesoplenty:magic_fence
+- biomesoplenty:umbran_fence
+- biomesoplenty:hellbark_fence
+- rankine:cinnamon_fence
+- rankine:sharinga_fence
+- rankine:black_walnut_fence
+- rankine:cork_oak_fence
+- rankine:cedar_fence
+- rankine:pinyon_pine_fence
+- rankine:juniper_fence
+- rankine:coconut_palm_fence
+- rankine:balsam_fir_fence
+- rankine:magnolia_fence
+- rankine:eastern_hemlock_fence
+- rankine:bamboo_fence
+- rankine:bamboo_culms_fence
+- rankine:maple_fence
+
+#minecraft:wall_post_override
+- minecraft:torch
+- minecraft:soul_torch
+- minecraft:redstone_torch
+- minecraft:tripwire
+- #minecraft:signs
+- #minecraft:banners
+- #minecraft:pressure_plates
+
+#forge:sheetmetals/constantan
+- immersiveengineering:sheetmetal_constantan
+
+#forge:storage_blocks/nihonium
+- rankine:nihonium_block
+
+#forge:storage_blocks/barium
+- rankine:barium_block
+
+#forge:obsidian
+- minecraft:obsidian
+
+#forge:enderman_place_on_blacklist
+
+#biomesoplenty:mahogany_logs
+- biomesoplenty:mahogany_log
+- biomesoplenty:mahogany_wood
+- biomesoplenty:stripped_mahogany_log
+- biomesoplenty:stripped_mahogany_wood
+
+#forge:ores/cryolite
+- rankine:cryolite_ore
+
+#engineersdecor:dirts
+- minecraft:dirt
+- minecraft:coarse_dirt
+
+#forge:storage_blocks/ruthenium
+- rankine:ruthenium_block
+
+#forge:ores/graphite
+- rankine:plumbago_ore
+
+#forge:storage_blocks/mendelevium
+- rankine:mendelevium_block
+
+#forge:glass/magenta
+- minecraft:magenta_stained_glass
+
+#forge:storage_blocks/rhenium
+- rankine:rhenium_block
+
+#forge:sheetmetals/bismuth
+- rankine:bismuth_sheetmetal
+
+#forge:ores/coal
+- minecraft:coal_ore
+- rankine:lignite_ore
+- rankine:subbituminous_ore
+- rankine:bituminous_ore
+- rankine:anthracite_ore
+
+#forge:storage_blocks/constantan
+- immersiveengineering:storage_constantan
+
+#minecraft:fire
+- minecraft:fire
+- minecraft:soul_fire
+
+#forge:storage_blocks/helium
+- rankine:helium_block
+
+#cfm:fence_gates/upgraded
+- #cfm:fence_gates/picket
+- cfm:oak_upgraded_gate
+- cfm:spruce_upgraded_gate
+- cfm:birch_upgraded_gate
+- cfm:jungle_upgraded_gate
+- cfm:acacia_upgraded_gate
+- cfm:dark_oak_upgraded_gate
+- cfm:crimson_upgraded_gate
+- cfm:warped_upgraded_gate
+- cfm:stripped_oak_upgraded_gate
+- cfm:stripped_spruce_upgraded_gate
+- cfm:stripped_birch_upgraded_gate
+- cfm:stripped_jungle_upgraded_gate
+- cfm:stripped_acacia_upgraded_gate
+- cfm:stripped_dark_oak_upgraded_gate
+- cfm:stripped_crimson_upgraded_gate
+- cfm:stripped_warped_upgraded_gate
+
+#forge:sheetmetals/electrum
+- immersiveengineering:sheetmetal_electrum
+
+#rankine:metamorphic_stones
+- #forge:stones/skarn
+- #forge:stones/phyllite
+- #forge:stones/quartzite
+- #forge:stones/mariposite
+- #forge:stones/bridgmanite
+- #forge:stones/ferropericlase
+- #forge:stones/ringwoodite
+- #forge:stones/wadsleyite
+- #forge:stones/gneiss
+- #forge:stones/marble
+- #forge:stones/perovskite
+- #forge:stones/slate
+- #forge:stones/schist
+
+#minecraft:base_stone_nether
+- minecraft:netherrack
+- minecraft:basalt
+- minecraft:blackstone
+- rankine:gray_granite
+- rankine:granodiorite
+- rankine:hornblende_andesite
+- rankine:tholeiitic_basalt
+- rankine:pyroxene_gabbro
+- rankine:anorthosite
+- rankine:rhyolite
+- rankine:comendite
+- rankine:black_dacite
+- rankine:red_dacite
+- rankine:red_porphyry
+- rankine:purple_porphyry
+- rankine:pegmatite
+- rankine:peridotite
+- rankine:troctolite
+- rankine:kimberlite
+- rankine:komatiite
+- rankine:pumice
+- rankine:scoria
+- rankine:white_marble
+- rankine:black_marble
+- rankine:gneiss
+- rankine:mica_schist
+- rankine:phyllite
+- rankine:slate
+- rankine:quartzite
+- rankine:mariposite
+- rankine:skarn
+- rankine:ringwoodite
+- rankine:wadsleyite
+- rankine:bridgmanite
+- rankine:ferropericlase
+- rankine:perovskite
+- rankine:tufa_limestone
+- rankine:dolostone
+- rankine:chalk
+- rankine:carbonaceous_shale
+- rankine:siltstone
+- rankine:quartz_sandstone
+- rankine:arkose_sandstone
+- rankine:mudstone
+- rankine:breccia
+
+#minecraft:wall_signs
+- minecraft:oak_wall_sign
+- minecraft:spruce_wall_sign
+- minecraft:birch_wall_sign
+- minecraft:acacia_wall_sign
+- minecraft:jungle_wall_sign
+- minecraft:dark_oak_wall_sign
+- minecraft:crimson_wall_sign
+- minecraft:warped_wall_sign
+
+#rankine:element_blocks
+- rankine:hydrogen_block
+- rankine:helium_block
+- rankine:lithium_block
+- rankine:beryllium_block
+- rankine:boron_block
+- rankine:carbon_block
+- rankine:nitrogen_block
+- rankine:oxygen_block
+- rankine:fluorine_block
+- rankine:neon_block
+- rankine:sodium_block
+- rankine:magnesium_block
+- rankine:aluminum_block
+- rankine:silicon_block
+- rankine:phosphorus_block
+- rankine:sulfur_block
+- rankine:chlorine_block
+- rankine:argon_block
+- rankine:potassium_block
+- rankine:calcium_block
+- rankine:scandium_block
+- rankine:titanium_block
+- rankine:vanadium_block
+- rankine:chromium_block
+- rankine:manganese_block
+- rankine:cobalt_block
+- rankine:nickel_block
+- rankine:copper_block
+- rankine:zinc_block
+- rankine:gallium_block
+- rankine:germanium_block
+- rankine:arsenic_block
+- rankine:selenium_block
+- rankine:bromine_block
+- rankine:krypton_block
+- rankine:rubidium_block
+- rankine:strontium_block
+- rankine:yttrium_block
+- rankine:zirconium_block
+- rankine:niobium_block
+- rankine:molybdenum_block
+- rankine:technetium_block
+- rankine:ruthenium_block
+- rankine:rhodium_block
+- rankine:palladium_block
+- rankine:silver_block
+- rankine:cadmium_block
+- rankine:indium_block
+- rankine:tin_block
+- rankine:antimony_block
+- rankine:tellurium_block
+- rankine:iodine_block
+- rankine:xenon_block
+- rankine:cesium_block
+- rankine:barium_block
+- rankine:lanthanum_block
+- rankine:cerium_block
+- rankine:praseodymium_block
+- rankine:neodymium_block
+- rankine:promethium_block
+- rankine:samarium_block
+- rankine:europium_block
+- rankine:gadolinium_block
+- rankine:terbium_block
+- rankine:dysprosium_block
+- rankine:holmium_block
+- rankine:erbium_block
+- rankine:thulium_block
+- rankine:ytterbium_block
+- rankine:lutetium_block
+- rankine:hafnium_block
+- rankine:tantalum_block
+- rankine:tungsten_block
+- rankine:rhenium_block
+- rankine:osmium_block
+- rankine:iridium_block
+- rankine:platinum_block
+- rankine:mercury_block
+- rankine:thallium_block
+- rankine:lead_block
+- rankine:bismuth_block
+- rankine:polonium_block
+- rankine:astatine_block
+- rankine:radon_block
+- rankine:francium_block
+- rankine:radium_block
+- rankine:actinium_block
+- rankine:thorium_block
+- rankine:protactinium_block
+- rankine:uranium_block
+- rankine:neptunium_block
+- rankine:plutonium_block
+- rankine:americium_block
+- rankine:curium_block
+- rankine:berkelium_block
+- rankine:californium_block
+- rankine:einsteinium_block
+- rankine:fermium_block
+- rankine:mendelevium_block
+- rankine:nobelium_block
+- rankine:lawrencium_block
+- rankine:rutherfordium_block
+- rankine:dubnium_block
+- rankine:seaborgium_block
+- rankine:bohrium_block
+- rankine:hassium_block
+- rankine:meitnerium_block
+- rankine:darmstadtium_block
+- rankine:roentgenium_block
+- rankine:copernicium_block
+- rankine:nihonium_block
+- rankine:flerovium_block
+- rankine:moscovium_block
+- rankine:livermorium_block
+- rankine:tennessine_block
+- rankine:oganesson_block
+
+#forge:ores/arsenic
+- rankine:native_arsenic_ore
+
+#forge:storage_blocks/rhodochrosite
+- rankine:rhodochrosite_block
+
+#forge:sheetmetals/invar
+- rankine:invar_sheetmetal
+
+#minecraft:trapdoors
+- #minecraft:wooden_trapdoors
+- minecraft:iron_trapdoor
+- rankine:brass_trapdoor
+- rankine:bronze_trapdoor
+- rankine:steel_trapdoor
+- rankine:cupronickel_trapdoor
+
+#forge:storage_blocks/actinium
+- rankine:actinium_block
+
+#forge:stones/kimberlite
+- rankine:kimberlite
+
+#forge:glass/cyan
+- minecraft:cyan_stained_glass
+
+#minecraft:birch_leaves
+- primalwinter:snowy_birch_leaves
+- primalwinter:snowy_birch_leaves
+
+#forge:storage_blocks/gallium
+- rankine:gallium_block
+
+#minecraft:acacia_leaves
+- primalwinter:snowy_acacia_leaves
+- primalwinter:snowy_acacia_leaves
+
+#quark:crab_spawnable
+- minecraft:sand
+- minecraft:red_sand
+
+#notreepunching:loose_rock_placeable_on
+- minecraft:grass_block
+- minecraft:dirt
+- minecraft:coarse_dirt
+- minecraft:gravel
+- minecraft:sand
+- minecraft:red_sand
+- minecraft:terracotta
+- minecraft:stone
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- minecraft:sandstone
+- minecraft:red_sandstone
+- minecraft:podzol
+
+#forge:glass
+- #forge:glass/colorless
+- #forge:stained_glass
+- quark:dirty_glass
+- quark:framed_glass
+- quark:black_framed_glass
+- quark:blue_framed_glass
+- quark:brown_framed_glass
+- quark:cyan_framed_glass
+- quark:gray_framed_glass
+- quark:green_framed_glass
+- quark:light_blue_framed_glass
+- quark:light_gray_framed_glass
+- quark:lime_framed_glass
+- quark:magenta_framed_glass
+- quark:orange_framed_glass
+- quark:pink_framed_glass
+- quark:purple_framed_glass
+- quark:red_framed_glass
+- quark:white_framed_glass
+- quark:yellow_framed_glass
+- rankine:etched_glass0
+- rankine:etched_glass1
+- rankine:etched_glass2
+
+#forge:storage_blocks/cupronickel
+- rankine:cupronickel_block
+
+#rankine:tuff
+- rankine:andesitic_tuff
+- rankine:basaltic_tuff
+- rankine:rhyolitic_tuff
+- rankine:dacitic_tuff
+
+#forge:stones/siltstone
+- rankine:siltstone
+
+#forge:stones/schist
+- rankine:mica_schist
+
+#forge:stones/dolomite
+- rankine:dolostone
+
+#forge:ores/native_indium
+- rankine:native_indium_ore
+
+#minecraft:leaves
+- minecraft:jungle_leaves
+- minecraft:oak_leaves
+- minecraft:spruce_leaves
+- minecraft:dark_oak_leaves
+- minecraft:acacia_leaves
+- minecraft:birch_leaves
+- primalwinter:snowy_oak_leaves
+- primalwinter:snowy_dark_oak_leaves
+- primalwinter:snowy_acacia_leaves
+- primalwinter:snowy_jungle_leaves
+- primalwinter:snowy_birch_leaves
+- primalwinter:snowy_spruce_leaves
+- charcoal_pit:apple_leaves
+- charcoal_pit:cherry_leaves
+- charcoal_pit:dragon_leaves
+- charcoal_pit:chestnut_leaves
+- charcoal_pit:banana_leaves
+- charcoal_pit:coconut_leaves
+- biomesoplenty:origin_leaves
+- biomesoplenty:flowering_oak_leaves
+- biomesoplenty:rainbow_birch_leaves
+- biomesoplenty:yellow_autumn_leaves
+- biomesoplenty:orange_autumn_leaves
+- biomesoplenty:maple_leaves
+- biomesoplenty:fir_leaves
+- biomesoplenty:redwood_leaves
+- biomesoplenty:white_cherry_leaves
+- biomesoplenty:pink_cherry_leaves
+- biomesoplenty:mahogany_leaves
+- biomesoplenty:jacaranda_leaves
+- biomesoplenty:palm_leaves
+- biomesoplenty:willow_leaves
+- biomesoplenty:dead_leaves
+- biomesoplenty:magic_leaves
+- biomesoplenty:umbran_leaves
+- biomesoplenty:hellbark_leaves
+- quark:blue_blossom_leaves
+- quark:lavender_blossom_leaves
+- quark:orange_blossom_leaves
+- quark:pink_blossom_leaves
+- quark:yellow_blossom_leaves
+- quark:red_blossom_leaves
+- naturesaura:golden_leaves
+- naturesaura:ancient_leaves
+- naturesaura:decayed_leaves
+- rankine:cinnamon_leaves
+- rankine:sharinga_leaves
+- rankine:cork_oak_leaves
+- rankine:black_walnut_leaves
+- rankine:cedar_leaves
+- rankine:coconut_palm_leaves
+- rankine:pinyon_pine_leaves
+- rankine:juniper_leaves
+- rankine:balsam_fir_leaves
+- rankine:magnolia_leaves
+- rankine:eastern_hemlock_leaves
+- rankine:yellow_birch_leaves
+- rankine:black_birch_leaves
+- rankine:maple_leaves
+
+#forge:ores/tantalite
+- rankine:tantalite_ore
+
+#forge:storage_blocks/yellorium
+- biggerreactors:yellorium_block
+- bigreactors:yellorium_block
+
+#forge:sheetmetals/tin
+- rankine:tin_sheetmetal
+
+#forge:storage_blocks/rose_gold
+- rankine:rose_gold_block
+
+#forge:storage_blocks/brass
+- rankine:brass_block
+
+#forge:storage_blocks/black_gold
+- rankine:black_gold_block
+
+#forge:concrete_powder
+- minecraft:red_concrete_powder
+- minecraft:orange_concrete_powder
+- minecraft:yellow_concrete_powder
+- minecraft:lime_concrete_powder
+- minecraft:green_concrete_powder
+- minecraft:cyan_concrete_powder
+- minecraft:light_blue_concrete_powder
+- minecraft:blue_concrete_powder
+- minecraft:purple_concrete_powder
+- minecraft:magenta_concrete_powder
+- minecraft:pink_concrete_powder
+- minecraft:brown_concrete_powder
+- minecraft:white_concrete_powder
+- minecraft:light_gray_concrete_powder
+- minecraft:gray_concrete_powder
+- minecraft:black_concrete_powder
+
+#rankine:black_walnut_logs
+- rankine:black_walnut_log
+- rankine:black_walnut_wood
+- rankine:stripped_black_walnut_log
+- rankine:stripped_black_walnut_wood
+
+#forge:ores/niobium
+- rankine:columbite_ore
+
+#forge:glass_panes/gray
+- minecraft:gray_stained_glass_pane
+
+#minecraft:wither_immune
+- minecraft:barrier
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:end_gateway
+- minecraft:command_block
+- minecraft:repeating_command_block
+- minecraft:chain_command_block
+- minecraft:structure_block
+- minecraft:jigsaw
+- minecraft:moving_piston
+- tetra:forged_pillar
+- tetra:forged_platform
+- tetra:forged_platform_slab
+- tetra:forged_vent
+- tetra:forged_wall
+- engineersdecor:panzerglass_block
+- engineersdecor:panzerglass_slab
+- engineersdecor:rebar_concrete
+- engineersdecor:rebar_concrete_slab
+- engineersdecor:rebar_concrete_wall
+- engineersdecor:rebar_concrete_stairs
+- engineersdecor:rebar_concrete_tile
+- engineersdecor:rebar_concrete_tile_slab
+- engineersdecor:rebar_concrete_tile_stairs
+- engineersdecor:halfslab_rebar_concrete
+
+#minecraft:acacia_logs
+- minecraft:acacia_log
+- minecraft:acacia_wood
+- minecraft:stripped_acacia_log
+- minecraft:stripped_acacia_wood
+- primalwinter:snowy_acacia_log
+
+#elevatorid:elevators
+- elevatorid:elevator_black
+- elevatorid:elevator_blue
+- elevatorid:elevator_brown
+- elevatorid:elevator_cyan
+- elevatorid:elevator_gray
+- elevatorid:elevator_green
+- elevatorid:elevator_light_blue
+- elevatorid:elevator_light_gray
+- elevatorid:elevator_lime
+- elevatorid:elevator_magenta
+- elevatorid:elevator_orange
+- elevatorid:elevator_pink
+- elevatorid:elevator_purple
+- elevatorid:elevator_red
+- elevatorid:elevator_white
+- elevatorid:elevator_yellow
+
+#forge:stained_glass_panes
+- minecraft:white_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:red_stained_glass_pane
+- minecraft:black_stained_glass_pane
+
+#immersiveengineering:scaffoldings/steel
+- immersiveengineering:steel_scaffolding_standard
+- immersiveengineering:steel_scaffolding_grate_top
+- immersiveengineering:steel_scaffolding_wooden_top
+
+#forge:ores/indium
+- rankine:native_indium_ore
+
+#forge:ores/opal
+- rankine:opal_ore
+
+#rankine:sharinga_logs
+- rankine:sharinga_log
+- rankine:sharinga_wood
+- rankine:stripped_sharinga_log
+- rankine:stripped_sharinga_wood
+
+#engineersdecor:plain_glass_blocks
+- minecraft:glass
+- minecraft:black_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:green_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:red_stained_glass
+- minecraft:white_stained_glass
+- minecraft:yellow_stained_glass
+
+#forge:storage_blocks/zinc
+- rankine:zinc_block
+
+#forge:sand/red
+- minecraft:red_sand
+
+#forge:storage_blocks/manganese
+- rankine:manganese_block
+
+#forge:glass/brown
+- minecraft:brown_stained_glass
+
+#forge:storage_blocks/moscovium
+- rankine:moscovium_block
+
+#forge:ores/native_sulfur
+- rankine:native_sulfur_ore
+
+#minecraft:logs_that_burn
+- #minecraft:dark_oak_logs
+- #minecraft:oak_logs
+- #minecraft:acacia_logs
+- #minecraft:birch_logs
+- #minecraft:jungle_logs
+- #minecraft:spruce_logs
+- #biomesoplenty:fir_logs
+- #biomesoplenty:redwood_logs
+- #biomesoplenty:cherry_logs
+- #biomesoplenty:mahogany_logs
+- #biomesoplenty:jacaranda_logs
+- #biomesoplenty:palm_logs
+- #biomesoplenty:willow_logs
+- #biomesoplenty:dead_logs
+- #biomesoplenty:magic_logs
+- #biomesoplenty:umbran_logs
+- #rankine:cinnamon_logs
+- #rankine:cedar_logs
+- #rankine:sharinga_logs
+- #rankine:black_walnut_logs
+- #rankine:cork_oak_logs
+- #rankine:coconut_palm_logs
+- #rankine:pinyon_pine_logs
+- #rankine:juniper_logs
+- #rankine:balsam_fir_logs
+- #rankine:magnolia_logs
+- #rankine:yellow_birch_logs
+- #rankine:black_birch_logs
+- #rankine:eastern_hemlock_logs
+- #rankine:maple_logs
+
+#forge:storage_blocks/protactinium
+- rankine:protactinium_block
+
+#forge:mineral_wool
+- rankine:mineral_wool
+- rankine:red_mineral_wool
+- rankine:orange_mineral_wool
+- rankine:yellow_mineral_wool
+- rankine:lime_mineral_wool
+- rankine:green_mineral_wool
+- rankine:blue_mineral_wool
+- rankine:cyan_mineral_wool
+- rankine:light_blue_mineral_wool
+- rankine:magenta_mineral_wool
+- rankine:purple_mineral_wool
+- rankine:pink_mineral_wool
+- rankine:brown_mineral_wool
+- rankine:black_mineral_wool
+- rankine:white_mineral_wool
+- rankine:light_gray_mineral_wool
+- rankine:gray_mineral_wool
+
+#minecraft:dark_oak_leaves
+- primalwinter:snowy_dark_oak_leaves
+- primalwinter:snowy_dark_oak_leaves
+
+#forge:storage_blocks/sodium
+- rankine:sodium_block
+
+#forge:stone_stairs
+- rankine:gray_granite_stairs
+- rankine:granodiorite_stairs
+- rankine:hornblende_andesite_stairs
+- rankine:tholeiitic_basalt_stairs
+- rankine:pyroxene_gabbro_stairs
+- rankine:anorthosite_stairs
+- rankine:rhyolite_stairs
+- rankine:comendite_stairs
+- rankine:troctolite_stairs
+- rankine:black_dacite_stairs
+- rankine:red_dacite_stairs
+- rankine:red_porphyry_stairs
+- rankine:purple_porphyry_stairs
+- rankine:pegmatite_stairs
+- rankine:peridotite_stairs
+- rankine:kimberlite_stairs
+- rankine:komatiite_stairs
+- rankine:pumice_stairs
+- rankine:scoria_stairs
+- rankine:white_marble_stairs
+- rankine:black_marble_stairs
+- rankine:gneiss_stairs
+- rankine:mica_schist_stairs
+- rankine:phyllite_stairs
+- rankine:slate_stairs
+- rankine:quartzite_stairs
+- rankine:mariposite_stairs
+- rankine:skarn_stairs
+- rankine:ringwoodite_stairs
+- rankine:wadsleyite_stairs
+- rankine:bridgmanite_stairs
+- rankine:ferropericlase_stairs
+- rankine:perovskite_stairs
+- rankine:tufa_limestone_stairs
+- rankine:dolostone_stairs
+- rankine:chalk_stairs
+- rankine:carbonaceous_shale_stairs
+- rankine:siltstone_stairs
+- rankine:quartz_sandstone_stairs
+- rankine:arkose_sandstone_stairs
+- rankine:mudstone_stairs
+- rankine:breccia_stairs
+
+#forge:ores/bismuthinite
+- rankine:bismuthinite_ore
+
+#charcoal_pit:straw_grass_tall
+- minecraft:tall_grass
+- minecraft:large_fern
+
+#forge:glass/gray
+- minecraft:gray_stained_glass
+
+#rankine:logs_water
+- #minecraft:birch_logs
+- #rankine:black_birch_logs
+- #rankine:yellow_birch_logs
+
+#forge:glass/light_gray
+- minecraft:light_gray_stained_glass
+
+#forge:ores/pyrolusite
+- rankine:pyrolusite_ore
+
+#forge:ores/chromium
+- rankine:chromite_ore
+
+#forge:storage_blocks/plutonium
+- rankine:plutonium_block
+
+#forge:stones/breccia
+- rankine:breccia
+
+#forge:storage_blocks/radium
+- rankine:radium_block
+
+#rankine:eastern_hemlock_logs
+- rankine:eastern_hemlock_log
+- rankine:eastern_hemlock_wood
+- rankine:stripped_eastern_hemlock_log
+- rankine:stripped_eastern_hemlock_wood
+
+#minecraft:wooden_slabs
+- minecraft:oak_slab
+- minecraft:spruce_slab
+- minecraft:birch_slab
+- minecraft:jungle_slab
+- minecraft:acacia_slab
+- minecraft:dark_oak_slab
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- biomesoplenty:fir_slab
+- biomesoplenty:redwood_slab
+- biomesoplenty:cherry_slab
+- biomesoplenty:mahogany_slab
+- biomesoplenty:jacaranda_slab
+- biomesoplenty:palm_slab
+- biomesoplenty:willow_slab
+- biomesoplenty:dead_slab
+- biomesoplenty:magic_slab
+- biomesoplenty:umbran_slab
+- biomesoplenty:hellbark_slab
+- rankine:cinnamon_slab
+- rankine:sharinga_slab
+- rankine:black_walnut_slab
+- rankine:cork_oak_slab
+- rankine:cedar_slab
+- rankine:pinyon_pine_slab
+- rankine:juniper_slab
+- rankine:coconut_palm_slab
+- rankine:balsam_fir_slab
+- rankine:magnolia_slab
+- rankine:eastern_hemlock_slab
+- rankine:bamboo_slab
+- rankine:bamboo_culms_slab
+- rankine:maple_slab
+
+#forge:asphalt
+- immersivepetroleum:asphalt
+
+#minecraft:small_flowers
+- minecraft:dandelion
+- minecraft:poppy
+- minecraft:blue_orchid
+- minecraft:allium
+- minecraft:azure_bluet
+- minecraft:red_tulip
+- minecraft:orange_tulip
+- minecraft:white_tulip
+- minecraft:pink_tulip
+- minecraft:oxeye_daisy
+- minecraft:cornflower
+- minecraft:lily_of_the_valley
+- minecraft:wither_rose
+- biomesoplenty:rose
+- biomesoplenty:violet
+- biomesoplenty:lavender
+- biomesoplenty:wildflower
+- biomesoplenty:orange_cosmos
+- biomesoplenty:pink_daffodil
+- biomesoplenty:pink_hibiscus
+- biomesoplenty:glowflower
+- biomesoplenty:wilted_lily
+- biomesoplenty:burning_blossom
+- naturesaura:end_flower
+- naturesaura:aura_bloom
+
+#forge:storage_blocks/nitinol
+- rankine:nitinol_block
+
+#forge:ores/osmium
+- rankine:sperrylite_ore
+
+#cfm:fences/upgraded
+- #cfm:fences/picket
+- cfm:oak_upgraded_fence
+- cfm:spruce_upgraded_fence
+- cfm:birch_upgraded_fence
+- cfm:jungle_upgraded_fence
+- cfm:acacia_upgraded_fence
+- cfm:dark_oak_upgraded_fence
+- cfm:crimson_upgraded_fence
+- cfm:warped_upgraded_fence
+- cfm:stripped_oak_upgraded_fence
+- cfm:stripped_spruce_upgraded_fence
+- cfm:stripped_birch_upgraded_fence
+- cfm:stripped_jungle_upgraded_fence
+- cfm:stripped_acacia_upgraded_fence
+- cfm:stripped_dark_oak_upgraded_fence
+- cfm:stripped_crimson_upgraded_fence
+- cfm:stripped_warped_upgraded_fence
+
+#forge:glass_panes/black
+- minecraft:black_stained_glass_pane
+
+#primalwinter:animal_spawns_on
+- minecraft:grass
+- minecraft:sand
+- minecraft:snow_block
+- minecraft:snow
+- primalwinter:snowy_dirt
+- primalwinter:snowy_sand
+
+#forge:storage_blocks/vanadium
+- rankine:vanadium_block
+
+#forge:stones/ferropericlase
+- rankine:ferropericlase
+
+#forge:ores/cassiterite
+- rankine:cassiterite_ore
+
+#forge:glass_panes/blue
+- minecraft:blue_stained_glass_pane
+
+#rankine:movement_modifiers/concrete
+- #forge:concrete
+- rankine:uncolored_concrete_slab
+- rankine:uncolored_concrete_stairs
+- rankine:uncolored_concrete_wall
+
+#forge:storage_blocks/phosphorus
+- rankine:phosphorus_block
+
+#forge:stones/pegmatite
+- rankine:pegmatite
+
+#rankine:cork_oak_logs
+- rankine:cork_oak_log
+- rankine:cork_oak_wood
+- rankine:stripped_cork_oak_log
+- rankine:stripped_cork_oak_wood
+
+#forge:storage_blocks/selenium
+- rankine:selenium_block
+
+#forge:storage_blocks/roentgenium
+- rankine:roentgenium_block
+
+#forge:stone
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- minecraft:infested_stone
+- minecraft:stone
+- minecraft:polished_andesite
+- minecraft:polished_diorite
+- minecraft:polished_granite
+- quark:basalt
+- quark:brimstone
+- quark:jasper
+- quark:limestone
+- quark:marble
+- quark:permafrost
+- quark:slate
+- quark:myalite
+- quark:polished_basalt
+- quark:polished_jasper
+- quark:polished_limestone
+- quark:polished_marble
+- quark:polished_slate
+- quark:polished_myalite
+- #forge:polished_stone
+- #forge:stones/rhyolite
+- #forge:stones/comendite
+- #forge:stones/troctolite
+- #forge:stones/granite
+- #forge:stones/diorite
+- #forge:stones/granodiorite
+- #forge:stones/andesite
+- #forge:stones/limestone
+- #forge:stones/pumice
+- #forge:stones/scoria
+- #forge:stones/shale
+- #forge:stones/gneiss
+- #forge:stones/marble
+- #forge:stones/basalt
+- #forge:stones/anorthosite
+- #forge:stones/peridotite
+- #forge:stones/kimberlite
+- #forge:stones/komatiite
+- #forge:stones/ringwoodite
+- #forge:stones/wadsleyite
+- #forge:stones/ferropericlase
+- #forge:stones/perovskite
+- #forge:stones/bridgmanite
+- #forge:stones/gabbro
+- #forge:stones/schist
+- #forge:stones/slate
+- #forge:stones/breccia
+- #forge:stones/dacite
+- #forge:stones/chalk
+- #forge:stones/mudstone
+- #forge:stones/sandstone
+- #forge:stones/quartzite
+- #forge:stones/phyllite
+- #forge:stones/siltstone
+- #forge:stones/dolomite
+- #forge:stones/mariposite
+- #forge:stones/skarn
+- #forge:stones/pegmatite
+- #forge:stones/porphyry
+
+#forge:storage_blocks/rubidium
+- rankine:rubidium_block
+
+#charcoal_pit:tuyere_blocks
+- charcoal_pit:brick_tuyere
+- charcoal_pit:sandy_tuyere
+- charcoal_pit:nether_tuyere
+- charcoal_pit:end_tuyere
+
+#forge:storage_blocks/white_gold
+- rankine:white_gold_block
+
+#forge:coils
+- libvulpes:coilgold
+- libvulpes:coilcopper
+- libvulpes:coiltitanium
+- libvulpes:coilaluminum
+- libvulpes:coiliridium
+
+#minecraft:standing_signs
+- minecraft:oak_sign
+- minecraft:spruce_sign
+- minecraft:birch_sign
+- minecraft:acacia_sign
+- minecraft:jungle_sign
+- minecraft:dark_oak_sign
+- minecraft:crimson_sign
+- minecraft:warped_sign
+
+#minecraft:infiniburn_end
+- #minecraft:infiniburn_overworld
+- minecraft:bedrock
+
+#forge:glass_panes/yellow
+- minecraft:yellow_stained_glass_pane
+
+#forge:ores/moissanite
+- rankine:moissanite_ore
+
+#forge:stones/mudstone
+- rankine:mudstone
+
+#forge:storage_blocks/nitrogen
+- rankine:nitrogen_block
+
+#forge:stones/scoria
+- rankine:scoria
+
+#biomesoplenty:cherry_logs
+- biomesoplenty:cherry_log
+- biomesoplenty:cherry_wood
+- biomesoplenty:stripped_cherry_log
+- biomesoplenty:stripped_cherry_wood
+
+#forge:storage_blocks/magnesium
+- rankine:magnesium_block
+
+#minecraft:wart_blocks
+- minecraft:nether_wart_block
+- minecraft:warped_wart_block
+
+#forge:ores/acanthite
+- rankine:acanthite_ore
+
+#forge:storage_blocks/platinum
+- rankine:platinum_block
+
+#forge:ores/xenotime
+- rankine:xenotime_ore
+
+#naturesaura:nether_altar_wood
+- minecraft:crimson_planks
+- minecraft:warped_planks
+
+#forge:storage_blocks/tantalum
+- rankine:tantalum_block
+
+#forge:ores/wolframite
+- rankine:wolframite_ore
+
+#forge:sheetmetals/cupronickel
+- rankine:cupronickel_sheetmetal
+
+#forge:vertical_slabs
+- #forge:stone_vertical_slabs
+- #forge:polished_stone_vertical_slabs
+- #forge:stone_bricks_vertical_slabs
+- #forge:sheetmetal_vertical_slabs
+- #forge:wooden_vertical_slabs
+- rankine:cast_iron_support_vertical_slab
+- rankine:uncolored_concrete_vertical_slab
+- rankine:checkered_marble_vertical_slab
+- rankine:checkered_dacite_vertical_slab
+- rankine:checkered_porphyry_vertical_slab
+- rankine:clay_bricks_vertical_slab
+- rankine:refractory_bricks_vertical_slab
+- rankine:high_refractory_bricks_vertical_slab
+- rankine:ultra_high_refractory_bricks_vertical_slab
+
+#forge:storage_blocks/nickel_silver
+- rankine:nickel_silver_block
+
+#minecraft:shulker_boxes
+- minecraft:shulker_box
+- minecraft:black_shulker_box
+- minecraft:blue_shulker_box
+- minecraft:brown_shulker_box
+- minecraft:cyan_shulker_box
+- minecraft:gray_shulker_box
+- minecraft:green_shulker_box
+- minecraft:light_blue_shulker_box
+- minecraft:light_gray_shulker_box
+- minecraft:lime_shulker_box
+- minecraft:magenta_shulker_box
+- minecraft:orange_shulker_box
+- minecraft:pink_shulker_box
+- minecraft:purple_shulker_box
+- minecraft:red_shulker_box
+- minecraft:white_shulker_box
+- minecraft:yellow_shulker_box
+
+#rankine:movement_modifiers/bricks
+- #forge:bricks
+- #forge:bricks_slabs
+- #forge:bricks_stairs
+- #minecraft:stone_bricks
+- #forge:stone_bricks_slabs
+- #forge:stone_bricks_stairs
+
+#forge:ores/silver
+- immersiveengineering:ore_silver
+- rankine:native_silver_ore
+- rankine:acanthite_ore
+
+#minecraft:birch_logs
+- minecraft:birch_log
+- minecraft:birch_wood
+- minecraft:stripped_birch_log
+- minecraft:stripped_birch_wood
+- primalwinter:snowy_birch_log
+
+#forge:storage_blocks/livermorium
+- rankine:livermorium_block
+
+#forge:ores/lazurite
+- rankine:lazurite_ore
+
+#forge:ores/uraninite
+- rankine:uraninite_ore
+
+#forge:glass_panes/purple
+- minecraft:purple_stained_glass_pane
+
+#forge:storage_blocks/ludicrite
+- biggerreactors:ludicrite_block
+
+#forge:glass/yellow
+- minecraft:yellow_stained_glass
+
+#forge:storage_blocks/thallium
+- rankine:thallium_block
+
+#quark:pike_trophies
+- minecraft:skeleton_skull
+- minecraft:zombie_head
+- minecraft:creeper_head
+
+#forge:ores/native_silver
+- rankine:native_silver_ore
+
+#forge:wg_clay
+- minecraft:clay
+
+#forge:storage_blocks/krypton
+- rankine:krypton_block
+
+#forge:ores/gallium
+- rankine:native_gallium_ore
+
+#minecraft:oak_logs
+- minecraft:oak_log
+- minecraft:oak_wood
+- minecraft:stripped_oak_log
+- minecraft:stripped_oak_wood
+- primalwinter:snowy_oak_log
+
+#charcoal_pit:straw_crops
+- minecraft:wheat
+
+#forge:storage_blocks/neptunium
+- rankine:neptunium_block
+
+#forge:ores/sodium
+- rankine:cryolite_ore
+
+#forge:ores/anthracite
+- rankine:anthracite_ore
+
+#forge:barrels
+- #forge:barrels/wooden
+
+#rankine:movement_modifiers/roman_concrete
+- rankine:roman_concrete
+- rankine:polished_roman_concrete
+- rankine:roman_concrete_bricks
+- rankine:roman_concrete_slab
+- rankine:polished_roman_concrete_slab
+- rankine:roman_concrete_bricks_slab
+- rankine:roman_concrete_stairs
+- rankine:polished_roman_concrete_stairs
+- rankine:roman_concrete_bricks_stairs
+
+#forge:wg_erodible
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:mycelium
+- minecraft:coarse_dirt
+- minecraft:podzol
+
+#envirocore:laser_core_connection
+- envirocore:structure_panel
+- envirocore:clear_structure_panel
+- envirocore:litherite_frame
+- envirocore:erodium_frame
+- envirocore:kyronite_frame
+- envirocore:pladium_frame
+- envirocore:ionite_frame
+- envirocore:aethium_frame
+- envirocore:nanorite_frame
+- envirocore:xerothium_frame
+
+#forge:ores/lapis
+- minecraft:lapis_ore
+- rankine:lazurite_ore
+
+#biomesoplenty:dead_logs
+- biomesoplenty:dead_log
+- biomesoplenty:dead_wood
+- biomesoplenty:stripped_dead_log
+- biomesoplenty:stripped_dead_wood
+
+#forge:storage_blocks/purple_gold
+- rankine:purple_gold_block
+
+#forge:ores/tetrataenite
+- rankine:tetrataenite_ore
+
+#forge:dirt
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:coarse_dirt
+- minecraft:podzol
+- minecraft:mycelium
+- biomesoplenty:origin_grass_block
+- naturesaura:nether_grass
+- engineersdecor:dense_grit_dirt_block
+
+#minecraft:bamboo_plantable_on
+- #minecraft:sand
+- minecraft:bamboo
+- minecraft:bamboo_sapling
+- minecraft:gravel
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:podzol
+- minecraft:coarse_dirt
+- minecraft:mycelium
+- biomesoplenty:origin_grass_block
+
+#forge:storage_blocks/chlorine
+- rankine:chlorine_block
+
+#forge:storage_blocks/carbon
+- rankine:carbon_block
+
+#quark:lead_connectable
+- #minecraft:fences
+- quark:paper_lantern
+- quark:paper_lantern_sakura
+
+#minecraft:pressure_plates
+- minecraft:light_weighted_pressure_plate
+- minecraft:heavy_weighted_pressure_plate
+- #minecraft:wooden_pressure_plates
+- #minecraft:stone_pressure_plates
+
+#forge:ores/nickel
+- immersiveengineering:ore_nickel
+- rankine:pentlandite_ore
+
+#forge:ores/yellorite
+- biggerreactors:yellorite_ore
+- bigreactors:yellorite_ore
+
+#minecraft:jungle_logs
+- minecraft:jungle_log
+- minecraft:jungle_wood
+- minecraft:stripped_jungle_log
+- minecraft:stripped_jungle_wood
+- primalwinter:snowy_jungle_log
+
+#cfm:fences/hedge
+- cfm:oak_hedge
+- cfm:spruce_hedge
+- cfm:birch_hedge
+- cfm:jungle_hedge
+- cfm:acacia_hedge
+- cfm:dark_oak_hedge
+
+#forge:chests/ender
+- minecraft:ender_chest
+
+#forge:wg_dirt
+- minecraft:dirt
+- minecraft:coarse_dirt
+
+#minecraft:spruce_logs
+- minecraft:spruce_log
+- minecraft:spruce_wood
+- minecraft:stripped_spruce_log
+- minecraft:stripped_spruce_wood
+- primalwinter:snowy_spruce_log
+
+#forge:coal
+- rankine:lignite_block
+- rankine:subbituminous_coal_block
+- rankine:bituminous_coal_block
+- rankine:anthracite_coal_block
+
+#forge:stones/diorite
+- minecraft:diorite
+
+#forge:ores/cadmium
+- rankine:greenockite_ore
+
+#forge:fence_gates/wooden
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:acacia_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- biomesoplenty:fir_fence_gate
+- biomesoplenty:redwood_fence_gate
+- biomesoplenty:cherry_fence_gate
+- biomesoplenty:mahogany_fence_gate
+- biomesoplenty:jacaranda_fence_gate
+- biomesoplenty:palm_fence_gate
+- biomesoplenty:willow_fence_gate
+- biomesoplenty:dead_fence_gate
+- biomesoplenty:magic_fence_gate
+- biomesoplenty:umbran_fence_gate
+- biomesoplenty:hellbark_fence_gate
+
+#forge:ores/aluminum
+- immersiveengineering:ore_aluminum
+- libvulpes:orealuminum
+- rankine:native_aluminum_ore
+- rankine:bauxite_ore
+
+#forge:stones/basalt
+- minecraft:basalt
+- rankine:tholeiitic_basalt
+
+#rankine:logs_juglone
+- #rankine:black_walnut_logs
+
+#forge:ores/uranium
+- biggerreactors:yellorite_ore
+- immersiveengineering:ore_uranium
+- bigreactors:yellorite_ore
+- rankine:uraninite_ore
+
+#forge:storage_blocks/praseodymium
+- rankine:praseodymium_block
+
+#forge:glass_panes/lime
+- minecraft:lime_stained_glass_pane
+
+#rankine:coconut_palm_logs
+- rankine:coconut_palm_log
+- rankine:coconut_palm_wood
+- rankine:stripped_coconut_palm_log
+- rankine:stripped_coconut_palm_wood
+
+#forge:storage_blocks/duralumin
+- rankine:duralumin_block
+
+#engineersdecor:plain_concretes
+- minecraft:black_concrete_powder
+- minecraft:blue_concrete_powder
+- minecraft:brown_concrete_powder
+- minecraft:cyan_concrete_powder
+- minecraft:gray_concrete_powder
+- minecraft:green_concrete_powder
+- minecraft:light_blue_concrete_powder
+- minecraft:light_gray_concrete_powder
+- minecraft:lime_concrete_powder
+- minecraft:magenta_concrete_powder
+- minecraft:orange_concrete_powder
+- minecraft:pink_concrete_powder
+- minecraft:purple_concrete_powder
+- minecraft:red_concrete_powder
+- minecraft:white_concrete_powder
+- minecraft:yellow_concrete_powder
+- minecraft:black_concrete
+- minecraft:blue_concrete
+- minecraft:brown_concrete
+- minecraft:cyan_concrete
+- minecraft:gray_concrete
+- minecraft:green_concrete
+- minecraft:light_blue_concrete
+- minecraft:light_gray_concrete
+- minecraft:lime_concrete
+- minecraft:magenta_concrete
+- minecraft:orange_concrete
+- minecraft:pink_concrete
+- minecraft:purple_concrete
+- minecraft:red_concrete
+- minecraft:white_concrete
+- minecraft:yellow_concrete
+
+#forge:ores/native_selenium
+- rankine:native_selenium_ore
+
+#forge:coils/iridium
+- libvulpes:coiliridium
+
+#forge:storage_blocks/promethium
+- rankine:promethium_block
+
+#bigreactors:dry_ice
+- powah:dry_ice?
+
+#forge:stones/rhyolite
+- rankine:rhyolite
+
+#forge:stones/mariposite
+- rankine:mariposite
+
+#forge:wooden_vertical_slabs
+- rankine:cinnamon_vertical_slab
+- rankine:sharinga_vertical_slab
+- rankine:black_walnut_vertical_slab
+- rankine:cork_oak_vertical_slab
+- rankine:cedar_vertical_slab
+- rankine:pinyon_pine_vertical_slab
+- rankine:juniper_vertical_slab
+- rankine:coconut_palm_vertical_slab
+- rankine:balsam_fir_vertical_slab
+- rankine:magnolia_vertical_slab
+- rankine:eastern_hemlock_vertical_slab
+- rankine:bamboo_vertical_slab
+- rankine:bamboo_culms_vertical_slab
+- rankine:maple_vertical_slab
+
+#forge:storage_blocks/holmium
+- rankine:holmium_block
+
+#forge:ores/garnet
+- rankine:majorite_ore
+
+#minecraft:flowers
+- #minecraft:small_flowers
+- #minecraft:tall_flowers
+
+#forge:storage_blocks/cobalt
+- rankine:cobalt_block
+
+#minecraft:planks
+- minecraft:oak_planks
+- minecraft:spruce_planks
+- minecraft:birch_planks
+- minecraft:jungle_planks
+- minecraft:acacia_planks
+- minecraft:dark_oak_planks
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- biomesoplenty:fir_planks
+- biomesoplenty:redwood_planks
+- biomesoplenty:cherry_planks
+- biomesoplenty:mahogany_planks
+- biomesoplenty:jacaranda_planks
+- biomesoplenty:palm_planks
+- biomesoplenty:willow_planks
+- biomesoplenty:dead_planks
+- biomesoplenty:magic_planks
+- biomesoplenty:umbran_planks
+- biomesoplenty:hellbark_planks
+- quark:vertical_oak_planks
+- quark:vertical_spruce_planks
+- quark:vertical_birch_planks
+- quark:vertical_jungle_planks
+- quark:vertical_acacia_planks
+- quark:vertical_dark_oak_planks
+- quark:vertical_warped_planks
+- quark:vertical_crimson_planks
+- quark:black_stained_planks
+- quark:blue_stained_planks
+- quark:brown_stained_planks
+- quark:cyan_stained_planks
+- quark:gray_stained_planks
+- quark:green_stained_planks
+- quark:light_blue_stained_planks
+- quark:light_gray_stained_planks
+- quark:lime_stained_planks
+- quark:magenta_stained_planks
+- quark:orange_stained_planks
+- quark:pink_stained_planks
+- quark:purple_stained_planks
+- quark:red_stained_planks
+- quark:white_stained_planks
+- quark:yellow_stained_planks
+- quark:vertical_black_stained_planks
+- quark:vertical_blue_stained_planks
+- quark:vertical_brown_stained_planks
+- quark:vertical_cyan_stained_planks
+- quark:vertical_gray_stained_planks
+- quark:vertical_green_stained_planks
+- quark:vertical_light_blue_stained_planks
+- quark:vertical_light_gray_stained_planks
+- quark:vertical_lime_stained_planks
+- quark:vertical_magenta_stained_planks
+- quark:vertical_orange_stained_planks
+- quark:vertical_pink_stained_planks
+- quark:vertical_purple_stained_planks
+- quark:vertical_red_stained_planks
+- quark:vertical_white_stained_planks
+- quark:vertical_yellow_stained_planks
+- naturesaura:ancient_planks
+- engineersdecor:old_industrial_wood_planks
+- rankine:cinnamon_planks
+- rankine:cork_oak_planks
+- rankine:black_walnut_planks
+- rankine:sharinga_planks
+- rankine:cedar_planks
+- rankine:coconut_palm_planks
+- rankine:pinyon_pine_planks
+- rankine:juniper_planks
+- rankine:balsam_fir_planks
+- rankine:magnolia_planks
+- rankine:eastern_hemlock_planks
+- rankine:bamboo_planks
+- rankine:maple_planks
+
+#forge:cobblestone
+- minecraft:cobblestone
+- minecraft:infested_cobblestone
+- minecraft:mossy_cobblestone
+- #notreepunching:cobblestone
+- quark:cobbedstone
+
+#rankine:maple_logs
+- rankine:maple_log
+- rankine:maple_wood
+- rankine:stripped_maple_log
+- rankine:stripped_maple_wood
+
+#forge:ores/native_arsenic
+- rankine:native_arsenic_ore
+
+#forge:bricks
+- minecraft:bricks
+- rankine:clay_bricks
+- rankine:refractory_bricks
+- rankine:high_refractory_bricks
+- rankine:ultra_high_refractory_bricks
+
+#forge:storage_blocks/gold
+- minecraft:gold_block
+
+#minecraft:fence_gates
+- minecraft:acacia_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- biomesoplenty:fir_fence_gate
+- biomesoplenty:redwood_fence_gate
+- biomesoplenty:cherry_fence_gate
+- biomesoplenty:mahogany_fence_gate
+- biomesoplenty:jacaranda_fence_gate
+- biomesoplenty:palm_fence_gate
+- biomesoplenty:willow_fence_gate
+- biomesoplenty:dead_fence_gate
+- biomesoplenty:magic_fence_gate
+- biomesoplenty:umbran_fence_gate
+- biomesoplenty:hellbark_fence_gate
+
+#forge:storage_blocks/salt
+- rankine:salt_block
+- rankine:pink_salt_block
+
+#forge:ores
+- biggerreactors:yellorite_ore
+- #forge:ores/coal
+- #forge:ores/diamond
+- #forge:ores/emerald
+- #forge:ores/gold
+- #forge:ores/iron
+- #forge:ores/lapis
+- #forge:ores/redstone
+- #forge:ores/quartz
+- #forge:ores/netherite_scrap
+- immersiveengineering:ore_copper
+- immersiveengineering:ore_aluminum
+- immersiveengineering:ore_lead
+- immersiveengineering:ore_silver
+- immersiveengineering:ore_nickel
+- immersiveengineering:ore_uranium
+- #forge:ores/biotite
+- libvulpes:orecopper
+- libvulpes:oretin
+- libvulpes:orerutile
+- libvulpes:orealuminum
+- libvulpes:oreiridium
+- bigreactors:yellorite_ore
+- bigreactors:anglesite_ore
+- bigreactors:benitoite_ore
+- #forge:ores/acanthite
+- #forge:ores/anthracite
+- #forge:ores/bauxite
+- #forge:ores/bismuthinite
+- #forge:ores/bituminous_coal
+- #forge:ores/cassiterite
+- #forge:ores/chromite
+- #forge:ores/cinnabar
+- #forge:ores/cobaltite
+- #forge:ores/columbite
+- #forge:ores/cryolite
+- #forge:ores/fluorite
+- #forge:ores/galena
+- #forge:ores/greenockite
+- #forge:ores/halite
+- #forge:ores/ilmenite
+- #forge:ores/interspinifex
+- #forge:ores/lazurite
+- #forge:ores/lignite
+- #forge:ores/magnesite
+- #forge:ores/magnetite
+- #forge:ores/malachite
+- #forge:ores/molybdenite
+- #forge:ores/monazite
+- #forge:ores/moissanite
+- #forge:ores/native_aluminum
+- #forge:ores/native_arsenic
+- #forge:ores/native_bismuth
+- #forge:ores/native_copper
+- #forge:ores/native_gallium
+- #forge:ores/native_gold
+- #forge:ores/native_indium
+- #forge:ores/native_lead
+- #forge:ores/native_selenium
+- #forge:ores/native_silver
+- #forge:ores/native_tellurium
+- #forge:ores/native_tin
+- #forge:ores/niobium
+- #forge:ores/pentlandite
+- #forge:ores/petalite
+- #forge:ores/pink_halite
+- #forge:ores/plumbago
+- #forge:ores/pyrolusite
+- #forge:ores/sperrylite
+- #forge:ores/sphalerite
+- #forge:ores/stibnite
+- #forge:ores/subbituminous_coal
+- #forge:ores/tantalite
+- #forge:ores/uraninite
+- #forge:ores/vanadinite
+- #forge:ores/wolframite
+- #forge:ores/xenotime
+- #forge:ores/aluminum
+- #forge:ores/antimony
+- #forge:ores/aquamarine
+- #forge:ores/bismuth
+- #forge:ores/cadmium
+- #forge:ores/chromium
+- #forge:ores/coal
+- #forge:ores/cobalt
+- #forge:ores/copper
+- #forge:ores/diamond
+- #forge:ores/emerald
+- #forge:ores/garnet
+- #forge:ores/iron
+- #forge:ores/lapis
+- #forge:ores/lead
+- #forge:ores/lithium
+- #forge:ores/magnesium
+- #forge:ores/manganese
+- #forge:ores/nickel
+- #forge:ores/opal
+- #forge:ores/osmium
+- #forge:ores/quartz
+- #forge:ores/redstone
+- #forge:ores/salt
+- #forge:ores/silver
+- #forge:ores/sodium
+- #forge:ores/tantalum
+- #forge:ores/tin
+- #forge:ores/titanium
+- #forge:ores/tungsten
+- #forge:ores/uranium
+- #forge:ores/vanadium
+- #forge:ores/yttrium
+- #forge:ores/zinc
+
+#rankine:movement_modifiers
+- #rankine:movement_modifiers/grass_path
+- #rankine:movement_modifiers/sand
+- #rankine:movement_modifiers/snow
+- #rankine:movement_modifiers/dirt
+- #rankine:movement_modifiers/wooden
+- #rankine:movement_modifiers/polished_stone
+- #rankine:movement_modifiers/bricks
+- #rankine:movement_modifiers/concrete
+- #rankine:movement_modifiers/roman_concrete
+
+#forge:storage_blocks/graphite
+- biggerreactors:graphite_block
+- bigreactors:graphite_block
+
+#forge:storage_blocks/bromine
+- rankine:bromine_block
+
+#forge:sheetmetals/iron
+- immersiveengineering:sheetmetal_iron
+
+#forge:sheetmetals/bronze
+- rankine:bronze_sheetmetal
+
+#forge:fences
+- #forge:fences/nether_brick
+- #forge:fences/wooden
+
+#forge:metal_bars
+- rankine:cast_iron_bars
+- rankine:magnesium_bars
+- rankine:aluminum_bars
+- rankine:nickel_bars
+- minecraft:iron_bars
+
+#forge:ores/bauxite
+- rankine:bauxite_ore
+
+#forge:storage_blocks/petcoke
+- immersivepetroleum:petcoke_block
+
+#forge:ores/chromite
+- rankine:chromite_ore
+
+#forge:storage_blocks/mercury
+- rankine:mercury_block
+
+#forge:storage_blocks/diamond
+- minecraft:diamond_block
+- rankine:lonsdaleite_diamond_block
+
+#minecraft:nylium
+- minecraft:crimson_nylium
+- minecraft:warped_nylium
+
+#rankine:world_strip
+- #forge:stone
+- #forge:dirt
+- #forge:sand
+- #rankine:tuff
+- #minecraft:logs
+- #minecraft:leaves
+- minecraft:gravel
+- minecraft:water
+- minecraft:lava
+- minecraft:obsidian
+
+#forge:stones/shale
+- rankine:carbonaceous_shale
+
+#forge:storage_blocks/tungsten
+- rankine:tungsten_block
+
+#forge:stones/phyllite
+- rankine:phyllite
+
+#forge:stones/sandstone
+- minecraft:sandstone
+- minecraft:red_sandstone
+- rankine:arkose_sandstone
+- rankine:quartz_sandstone
+
+#rankine:movement_modifiers/mud
+- rankine:mud
+
+#rankine:logs_sap
+- #minecraft:jungle_logs
+- #minecraft:acacia_logs
+- #minecraft:dark_oak_logs
+- #minecraft:oak_logs
+- #rankine:coconut_palm_logs
+- #rankine:magnolia_logs
+- #rankine:cork_oak_logs
+
+#forge:terracotta
+- minecraft:red_terracotta
+- minecraft:orange_terracotta
+- minecraft:yellow_terracotta
+- minecraft:lime_terracotta
+- minecraft:green_terracotta
+- minecraft:cyan_terracotta
+- minecraft:light_blue_terracotta
+- minecraft:blue_terracotta
+- minecraft:purple_terracotta
+- minecraft:magenta_terracotta
+- minecraft:pink_terracotta
+- minecraft:brown_terracotta
+- minecraft:white_terracotta
+- minecraft:light_gray_terracotta
+- minecraft:gray_terracotta
+- minecraft:black_terracotta

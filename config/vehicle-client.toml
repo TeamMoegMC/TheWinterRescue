@@ -1,0 +1,39 @@
+
+#Client configuration settings
+[client]
+
+	#Configuration options for controller support (Must have Controllable install)
+	[client.controller]
+		#If true, will use the triggers on controller to control the acceleration of the vehicle.
+		useTriggers = false
+
+	#Configuration options for debugging vehicles
+	[client.debug]
+		#If true, renders lines to help visualise steering direction and target position.
+		renderSteeringDebug = false
+		#If true, renders an outline of all the elements on a vehicle's model. Useful for debugging interactions.
+		renderOutlines = false
+		#If true, the raytracer will be reloaded each tick.
+		reloadRaytracerEachTick = false
+		#If true, the vehicle properties will be reloaded each tick.
+		reloadVehiclePropertiesEachTick = false
+
+	#Configuration for display related options
+	[client.display]
+		#If true, automatically rotates the camera when turning in a vehicle
+		rotateCameraWithVehicle = true
+		#The amount of segments to use to render the hose on a gas pump. The lower the value, the better the performance but renders a less realistically looking hose
+		#Range: 1 ~ 100
+		hoseSegments = 10
+		#If true, automatically switches to third person when mounting vehicles
+		autoPerspective = true
+		#If true, displays a speedometer on the HUD when driving a vehicle
+		enabledSpeedometer = true
+		#If true, an animation is performed while cycling vehicles in the workstation
+		workstationAnimation = true
+
+	#Configuration options for vehicle interaction
+	[client.interaction]
+		#If true, raytraces will be performed on nearby vehicles when left-clicking the mouse, rather than just right-clicking it. This allows one to be damaged/broken when clicking anywhere on it, rather than just on its bounding box.
+		enabledLeftClick = true
+

@@ -1,0 +1,12 @@
+#Enables / disables the tile data service monitor.
+#Default: false
+enableTileDataServiceMonitor = false
+#Sets the tile data service monitor's tracked index.
+#Default: 10
+#Range: > 0
+tileDataServiceMonitorTrackedIndex = 10
+#Sets the tile data service monitor update interval in ticks.
+#Default: 20
+#Range: > 20
+tileDataServiceMonitorUpdateIntervalTicks = 20
+

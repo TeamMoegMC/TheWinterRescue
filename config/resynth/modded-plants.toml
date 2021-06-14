@@ -1,0 +1,373 @@
+
+[plant-set-immersiveengineering-nickel]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	seed-spawn-chance-from-organic-ore = 8.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	seed-spawn-chance-from-ore = 8.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+	[plant-set-immersiveengineering-nickel.produce-smelting]
+		#The amount of xp (experience) a player will get from a furnace
+		#after smelting a single item of this plants produce. It takes
+		#exactly 7.5 points to go from level 0 to level 1. Going from
+		#level 1 to level 2 will take slightly more than 7.5 points.
+		#(type=double, min=1.0, max=1000.0, default=2.0)
+		amount-of-xp-when-smelted = 2.0
+		#The amount of time it takes a furnace to smelt a single item
+		#of this plants produce. The time is measured in ticks, where
+		#1 second is 20 ticks, so 1 ticks is 50 milliseconds. Most
+		#items take 200 ticks (10 seconds) to smelt.
+		#(type=integer, min=1, max=2000, default=200)
+		number-of-ticks-to-smelt = 200
+		#Enable this configuration option to use the other options in this category!
+		#Controls if the configuration values in this category are actually
+		#used instead of the default values. By default, changing the values of
+		#the other setting in this category will have no effect unless this value
+		#is set to 'true'. Note that enabling this will prevent changes to these
+		#setting in future Resynth updates from being applied.
+		#(type=boolean, default=false)
+		use-config-values = false
+		#The amount of resource items a player will get for smelting
+		#a single item of this plants produce. Change this number to
+		#increase or decrease the amount of resources a single item of
+		#produce gives when smelted in a furnace.
+		#(type=integer, min=1, max=64, default=1)
+		number-of-resources-when-smelted = 1
+
+[plant-set-immersiveengineering-silver]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	seed-spawn-chance-from-organic-ore = 8.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=20.0)
+	chance-to-grow = 20.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	seed-spawn-chance-from-ore = 8.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+	[plant-set-immersiveengineering-silver.produce-smelting]
+		#The amount of xp (experience) a player will get from a furnace
+		#after smelting a single item of this plants produce. It takes
+		#exactly 7.5 points to go from level 0 to level 1. Going from
+		#level 1 to level 2 will take slightly more than 7.5 points.
+		#(type=double, min=1.0, max=1000.0, default=2.0)
+		amount-of-xp-when-smelted = 2.0
+		#The amount of time it takes a furnace to smelt a single item
+		#of this plants produce. The time is measured in ticks, where
+		#1 second is 20 ticks, so 1 ticks is 50 milliseconds. Most
+		#items take 200 ticks (10 seconds) to smelt.
+		#(type=integer, min=1, max=2000, default=200)
+		number-of-ticks-to-smelt = 200
+		#Enable this configuration option to use the other options in this category!
+		#Controls if the configuration values in this category are actually
+		#used instead of the default values. By default, changing the values of
+		#the other setting in this category will have no effect unless this value
+		#is set to 'true'. Note that enabling this will prevent changes to these
+		#setting in future Resynth updates from being applied.
+		#(type=boolean, default=false)
+		use-config-values = false
+		#The amount of resource items a player will get for smelting
+		#a single item of this plants produce. Change this number to
+		#increase or decrease the amount of resources a single item of
+		#produce gives when smelted in a furnace.
+		#(type=integer, min=1, max=64, default=1)
+		number-of-resources-when-smelted = 1
+
+[plant-set-immersiveengineering-uranium]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=4.0)
+	seed-spawn-chance-from-organic-ore = 4.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=15.0)
+	chance-to-grow = 15.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=4.0)
+	seed-spawn-chance-from-ore = 4.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+	[plant-set-immersiveengineering-uranium.produce-smelting]
+		#The amount of xp (experience) a player will get from a furnace
+		#after smelting a single item of this plants produce. It takes
+		#exactly 7.5 points to go from level 0 to level 1. Going from
+		#level 1 to level 2 will take slightly more than 7.5 points.
+		#(type=double, min=1.0, max=1000.0, default=2.0)
+		amount-of-xp-when-smelted = 2.0
+		#The amount of time it takes a furnace to smelt a single item
+		#of this plants produce. The time is measured in ticks, where
+		#1 second is 20 ticks, so 1 ticks is 50 milliseconds. Most
+		#items take 200 ticks (10 seconds) to smelt.
+		#(type=integer, min=1, max=2000, default=200)
+		number-of-ticks-to-smelt = 200
+		#Enable this configuration option to use the other options in this category!
+		#Controls if the configuration values in this category are actually
+		#used instead of the default values. By default, changing the values of
+		#the other setting in this category will have no effect unless this value
+		#is set to 'true'. Note that enabling this will prevent changes to these
+		#setting in future Resynth updates from being applied.
+		#(type=boolean, default=false)
+		use-config-values = false
+		#The amount of resource items a player will get for smelting
+		#a single item of this plants produce. Change this number to
+		#increase or decrease the amount of resources a single item of
+		#produce gives when smelted in a furnace.
+		#(type=integer, min=1, max=64, default=1)
+		number-of-resources-when-smelted = 1
+
+[plant-set-immersiveengineering-lead]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	seed-spawn-chance-from-organic-ore = 8.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=25.0)
+	chance-to-grow = 25.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=8.0)
+	seed-spawn-chance-from-ore = 8.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+	[plant-set-immersiveengineering-lead.produce-smelting]
+		#The amount of xp (experience) a player will get from a furnace
+		#after smelting a single item of this plants produce. It takes
+		#exactly 7.5 points to go from level 0 to level 1. Going from
+		#level 1 to level 2 will take slightly more than 7.5 points.
+		#(type=double, min=1.0, max=1000.0, default=2.0)
+		amount-of-xp-when-smelted = 2.0
+		#The amount of time it takes a furnace to smelt a single item
+		#of this plants produce. The time is measured in ticks, where
+		#1 second is 20 ticks, so 1 ticks is 50 milliseconds. Most
+		#items take 200 ticks (10 seconds) to smelt.
+		#(type=integer, min=1, max=2000, default=200)
+		number-of-ticks-to-smelt = 200
+		#Enable this configuration option to use the other options in this category!
+		#Controls if the configuration values in this category are actually
+		#used instead of the default values. By default, changing the values of
+		#the other setting in this category will have no effect unless this value
+		#is set to 'true'. Note that enabling this will prevent changes to these
+		#setting in future Resynth updates from being applied.
+		#(type=boolean, default=false)
+		use-config-values = false
+		#The amount of resource items a player will get for smelting
+		#a single item of this plants produce. Change this number to
+		#increase or decrease the amount of resources a single item of
+		#produce gives when smelted in a furnace.
+		#(type=integer, min=1, max=64, default=1)
+		number-of-resources-when-smelted = 1
+
+[plant-set-immersiveengineering-aluminium]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=6.0)
+	seed-spawn-chance-from-organic-ore = 6.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=30.0)
+	chance-to-grow = 30.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=6.0)
+	seed-spawn-chance-from-ore = 6.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+	[plant-set-immersiveengineering-aluminium.produce-smelting]
+		#The amount of xp (experience) a player will get from a furnace
+		#after smelting a single item of this plants produce. It takes
+		#exactly 7.5 points to go from level 0 to level 1. Going from
+		#level 1 to level 2 will take slightly more than 7.5 points.
+		#(type=double, min=1.0, max=1000.0, default=2.0)
+		amount-of-xp-when-smelted = 2.0
+		#The amount of time it takes a furnace to smelt a single item
+		#of this plants produce. The time is measured in ticks, where
+		#1 second is 20 ticks, so 1 ticks is 50 milliseconds. Most
+		#items take 200 ticks (10 seconds) to smelt.
+		#(type=integer, min=1, max=2000, default=200)
+		number-of-ticks-to-smelt = 200
+		#Enable this configuration option to use the other options in this category!
+		#Controls if the configuration values in this category are actually
+		#used instead of the default values. By default, changing the values of
+		#the other setting in this category will have no effect unless this value
+		#is set to 'true'. Note that enabling this will prevent changes to these
+		#setting in future Resynth updates from being applied.
+		#(type=boolean, default=false)
+		use-config-values = false
+		#The amount of resource items a player will get for smelting
+		#a single item of this plants produce. Change this number to
+		#increase or decrease the amount of resources a single item of
+		#produce gives when smelted in a furnace.
+		#(type=integer, min=1, max=64, default=1)
+		number-of-resources-when-smelted = 1
+
+[plant-set-immersiveengineering-copper]
+	#The chance (percentage) that this plant types seed will spawn
+	#when the plant produce block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing
+	#up the plant produce blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=7.0)
+	seed-spawn-chance-from-organic-ore = 7.0
+	#Prevents the configuration values for 'seed-spawn-chance-*' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'seed-spawn-chance-*' config values will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-seed-drops = false
+	#The chance (percentage) this plant type will grow on a random tick.
+	#Increase this number to increase the growth rate of the plant,
+	#decrease it to decrease the growth rate of the plant.
+	#YOU MUST SET 'use-configuration-values-for-growth' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=35.0)
+	chance-to-grow = 35.0
+	#The chance (percentage) that this plant types seed will spawn
+	#when the final products ore block is blown up with TNT.
+	#Set this to 0 to prevent the seeds from spawning when blowing up the ore blocks.
+	#YOU MUST SET 'use-configuration-values-for-seed-drops' TO 'true' TO USE THIS.
+	#(type=double, min=0.0, max=100.0, default=7.0)
+	seed-spawn-chance-from-ore = 7.0
+	#Set this to true to allow using bonemeal on this specific plant type.
+	#(type=boolean, default=false)
+	enable-bonemeal = false
+	#Prevents the configuration value for 'chance-to-grow' from being used
+	#forcing the default value to be used instead, when this is 'false'.
+	#You must set this to 'true' before the 'chance-to-grow' config value will work!
+	#(type=boolean, default=false)
+	use-configuration-values-for-growth = false
+
+	[plant-set-immersiveengineering-copper.produce-smelting]
+		#The amount of xp (experience) a player will get from a furnace
+		#after smelting a single item of this plants produce. It takes
+		#exactly 7.5 points to go from level 0 to level 1. Going from
+		#level 1 to level 2 will take slightly more than 7.5 points.
+		#(type=double, min=1.0, max=1000.0, default=2.0)
+		amount-of-xp-when-smelted = 2.0
+		#The amount of time it takes a furnace to smelt a single item
+		#of this plants produce. The time is measured in ticks, where
+		#1 second is 20 ticks, so 1 ticks is 50 milliseconds. Most
+		#items take 200 ticks (10 seconds) to smelt.
+		#(type=integer, min=1, max=2000, default=200)
+		number-of-ticks-to-smelt = 200
+		#Enable this configuration option to use the other options in this category!
+		#Controls if the configuration values in this category are actually
+		#used instead of the default values. By default, changing the values of
+		#the other setting in this category will have no effect unless this value
+		#is set to 'true'. Note that enabling this will prevent changes to these
+		#setting in future Resynth updates from being applied.
+		#(type=boolean, default=false)
+		use-config-values = false
+		#The amount of resource items a player will get for smelting
+		#a single item of this plants produce. Change this number to
+		#increase or decrease the amount of resources a single item of
+		#produce gives when smelted in a furnace.
+		#(type=integer, min=1, max=64, default=1)
+		number-of-resources-when-smelted = 1
+

@@ -1,0 +1,96 @@
+
+#No comment
+[rain_collection]
+
+	#Wooden Rain Tank
+	[rain_collection.wooden_rain_tank]
+		#The capacity in mB for the Wooden Rain Tank.
+		#Range: 1000 ~ 1024000
+		woodenRainTankCapacity = 8000
+		#The fillrate in mB/second for the Wooden Rain Tank.
+		#Range: 1 ~ 8000
+		woodenRainTankFillrate = 10
+
+	#Multiblock Rain Collector
+	[rain_collection.multiblock_rain_collector]
+		#Turn this to false to disable JEI description for the Wooden Rain Tank.
+		woodenRainTankDescription = true
+		#Turn this to false to disable JEI description for the Rain Collector Multiblock.
+		rainCollectorDescription = true
+		#Search radius of the Rain Collector Controller.
+		#Range: 0 ~ 7
+		rainCollectorRange = 2
+		#Amount of water per second per connected block.
+		#Range: 1 ~ 8000
+		rainCollectorFillrate = 20
+		#Turn this to false to disable JEI description for the Wrench.
+		wrenchDescription = true
+		#The capacity in mB for the Rain Collector Multiblock.
+		#Range: 8000 ~ 1024000
+		rainCollectorCapacity = 32000
+
+#No comment
+[groundwater_pump]
+	#Pump energy capacity in forge energy units.
+	#Range: 8000 ~ 1024000
+	groundwaterPumpEnergyCapacity = 16000
+	#Pump energy input rate in forge energy units.
+	#Range: 20 ~ 1024000
+	groundwaterPumpEnergyInput = 500
+	#Additional to base usage. Each used pipe will multiplied with this value.
+	#Range: 0 ~ 1024000
+	groundwaterPumpEnergyPipeMultiplier = 20
+	#Energy used to place a pipe.
+	#Range: 0 ~ 1024000
+	groundwaterPumpEnergyPipePlacement = 2500
+	#Should the Groundwater Pump spawn a slab to close the hole?
+	groundwaterPumpSafety = true
+	#Turn this to false to disable JEI description for the Groundwater Pump.
+	groundwaterPumpDescription = true
+	#Pump energy base usage in forge energy units. Needed for each pump operation.
+	#Range: 20 ~ 1024000
+	groundwaterPumpEnergyBaseUsage = 1600
+	#Turn this to false if your world does not generate Bedrock. (Skyblock)
+	groundwaterPumpCheckBedrock = true
+	#The fillrate in mB/second for the Groundwater Pump.
+	#Range: 1 ~ 8000
+	groundwaterPumpFillrate = 500
+	#The capacity in mB for the Groundwater Pump.
+	#Range: 8000 ~ 1024000
+	groundwaterPumpCapacity = 32000
+
+#No comment
+[rockets]
+	#Rain duration with x1 multiplier.
+	#Range: 1 ~ 12000
+	rainDuration = 3000
+	#Clear sky duration with x1 multiplier.
+	#Range: 100 ~ 6000
+	clearSkyDuration = 4000
+	#Turn this to false to disable JEI recipe information for the Rockets.
+	fireworkRocketsJEIRecipes = true
+	#JEI: Adds a small description for firework star.
+	fireworkChargeDescription = true
+	#Maximum days of clear sky that will added to the calculated time.
+	#Range: 0 ~ 7
+	clearSkyMaxRandomAdditionalDays = 3
+	#Maximum clear sky multiplier.
+	#Range: 1 ~ 36
+	clearSkyMaxMultiplier = 12
+	#Maximum rain multiplier.
+	#Range: 1 ~ 24
+	rainMaxMultiplier = 8
+	#JEI: Adds a small description for fireworks.
+	fireworksDescription = true
+	#Turn this to false to disable JEI description for the Rockets.
+	fireworkRocketsDescription = true
+	#Enable Dispenser compatibility for weather rockets
+	rocketDispenserCompatibility = true
+
+#No comment
+[recipes]
+	#If true, the Rain Rocket has a recipe.
+	recipeRainRocket = true
+	#If true, the Anti Rain Rocket has a recipe.
+	recipeAntiRainRocket = true
+

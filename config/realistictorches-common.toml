@@ -1,0 +1,18 @@
+
+#General Settings
+[general]
+	#Determines whether vanilla torches will be replaced with lit torches during world generation.
+	generateLitTorches = true
+	#Determines whether matchboxes can light fires in the world like flint and steel.
+	matchboxCreatesFire = false
+	#The durability of the matchbox. Setting this to a negative value will result in unlimited uses.
+	#Range: -1 ~ 512
+	matchboxDurability = 64
+	#Determines whether vanilla torches drop unlit torches when broken.
+	vanillaTorchesDropUnlit = true
+	#The amount of time until a torch burns out, in minutes. Setting this to a negative value will disable torch burnout.
+	#Range: -1 ~ 2880
+	torchBurnoutTime = 60
+	#Determines whether lit torches disappear after they are extinguished, rather than turning into unlit torches.
+	torchNoRelight = false
+

@@ -1,0 +1,55 @@
+{
+  "variants": [
+    {
+      "stairSelector": {
+        "entries": {
+          "minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": 0.5,
+          "minecraft:polished_blackstone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": 0.5
+        },
+        "defaultBlock": "minecraft:blackstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      },
+      "cornerSelector": {
+        "entries": {},
+        "defaultBlock": "minecraft:chiseled_polished_blackstone"
+      },
+      "insideSelector": {
+        "entries": {
+          "minecraft:cracked_polished_blackstone_bricks": 0.2
+        },
+        "defaultBlock": "minecraft:polished_blackstone_bricks"
+      },
+      "fenceSelector": {
+        "entries": {
+          "minecraft:blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": 0.33,
+          "minecraft:polished_blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": 0.33,
+          "minecraft:polished_blackstone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": 0.33
+        },
+        "defaultBlock": "minecraft:blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+      },
+      "powerBlock": "minecraft:gold_block",
+      "decorationBlock": "minecraft:yellow_glazed_terracotta[facing=north]",
+      "beamStopBlocks": [
+        "minecraft:obsidian"
+      ],
+      "unpoweredBeamColor": {
+        "red": "14",
+        "green": "0c",
+        "blue": "24",
+        "alpha": "FF"
+      },
+      "poweredBeamColor": {
+        "red": "FF",
+        "green": "DC",
+        "blue": "73",
+        "alpha": "FF"
+      },
+      "minY": 35,
+      "maxY": 70,
+      "playerTeleportedMinY": 11,
+      "playerTeleportedMaxY": 30,
+      "spawnChance": 0.1,
+      "spawnDimension": "minecraft:the_nether",
+      "targetDimension": "minecraft:overworld"
+    }
+  ]
+}

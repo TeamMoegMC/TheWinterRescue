@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.copper",
+  "colors": [
+    "ce7201",
+    "ce7201"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/copper"
+  }
+}

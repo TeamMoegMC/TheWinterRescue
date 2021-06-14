@@ -1,0 +1,58 @@
+{
+  "ma:litherite_frame": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  },
+  "ma:erodium_frame": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 247,
+      "in:g:[0~255]": 247,
+      "in:b:[0~255]": 247
+    }
+  },
+  "ma:kyronite_frame": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 239,
+      "in:g:[0~255]": 239,
+      "in:b:[0~255]": 239
+    }
+  },
+  "ma:pladium_frame": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 231,
+      "in:g:[0~255]": 231,
+      "in:b:[0~255]": 231
+    }
+  },
+  "ma:ionite_frame": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 223,
+      "in:g:[0~255]": 223,
+      "in:b:[0~255]": 223
+    }
+  },
+  "ma:aethium_frame": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 215,
+      "in:g:[0~255]": 215,
+      "in:b:[0~255]": 215
+    }
+  },
+  "ma:nanorite_frame": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 207,
+      "in:g:[0~255]": 207,
+      "in:b:[0~255]": 207
+    }
+  },
+  "ma:xerothium_frame": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 199,
+      "in:g:[0~255]": 199,
+      "in:b:[0~255]": 199
+    }
+  }
+}

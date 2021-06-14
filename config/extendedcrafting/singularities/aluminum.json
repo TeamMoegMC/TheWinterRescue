@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.aluminum",
+  "colors": [
+    "caccda",
+    "caccda"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/aluminum"
+  }
+}

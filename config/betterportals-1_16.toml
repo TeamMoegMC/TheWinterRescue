@@ -1,0 +1,11 @@
+
+["Better Portals"]
+	# The maximum height at which a Dimensional Plasma Bucket may be used to place Dimensional Plasma.
+	#     This option exists to force users to go underground in order to get to the Nether (or other dimension, if configured).
+	# Default: 15
+	#Range: 1 ~ 255
+	"Max Dimensional Plasma Placement Altitude" = 15
+	# Whether or not vanilla Nether portals can be created.
+	# Default: false
+	"Enable Vanilla Nether Portals" = false
+

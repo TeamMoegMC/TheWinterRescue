@@ -1,0 +1,176 @@
+
+[Temperature]
+	#
+	############################################
+	#This determines the mode used when deciding the temperature
+	#NORMAL Mode: calculates the average temperature of each block around the player
+	#BLEND Mode: calculates the average temperature similar to that of NORMAL, but blends the temperature of the target positions with the player's. The blend ratio is determined by your distance from the block
+	#-------------------------------------------
+	#Default: BLEND
+	#-------------------------------------------
+	#Allowed Values: BLEND, NORMAL
+	"Enum: Temperature Mode" = "BLEND"
+	#
+	############################################
+	#The speed at which the players temperature will change from their current temperature to the target temperature.
+	#Setting it to 1 makes the players temperature change instantly to its target
+	#-------------------------------------------
+	#Default: 0.001
+	#-------------------------------------------
+	#Range: 1.0E-4 ~ 1.0
+	"Double: Temperature Update Speed" = 0.001
+	#
+	############################################
+	#Disabling this will disable this mods temperature system
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Temperature" = true
+	#
+	############################################
+	#Disabling this will prevent players from sleeping if they have hyperthermia or hypothermia
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Hypothermia/Hyperthermia Allows Sleep" = true
+
+[Thirst]
+	#
+	############################################
+	#Disabling this will disable this mods thirst system
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Thirst" = true
+	#
+	############################################
+	#Enabling this will remove the water source block when it is drunk
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Remove Source Water Block" = false
+	#
+	############################################
+	#The amount of times we can drink water from a canteen before it's empty
+	#-------------------------------------------
+	#Default: 3
+	#-------------------------------------------
+	#Range: 1 ~ 10
+	"Integer: Canteen Fill Amount" = 3
+	#
+	############################################
+	#The amount of time in ticks before thirst exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
+	#-------------------------------------------
+	#Default: 100
+	#-------------------------------------------
+	#Range: -1 ~ 1000
+	"Integer: Idle Thrist Tick Rate" = 100
+	#
+	############################################
+	#Enabling this will remove the water source block when it is drunk
+	#-------------------------------------------
+	#Default: 0.1125
+	#-------------------------------------------
+	#Range: 0.0 ~ 4.0
+	"Float: Idle Thirst Exhaustion" = 0.1125
+	#
+	############################################
+	#Enabling this allows players to drink water from flowing water sources. This is only allowed for infinite water sources
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Drink From Flowing Water" = false
+
+[Hunger]
+	#
+	############################################
+	#The amount of hunger exaustion added to the player regardless of what the player is doing
+	#-------------------------------------------
+	#Default: 0.1125
+	#-------------------------------------------
+	#Range: 0.0 ~ 4.0
+	"Float: Idle Hunger Exhaustion" = 0.1125
+	#
+	############################################
+	#The amount of time in ticks before hunger exaustion is added to the player regardless of what the player is doing. Set to -1 to disable
+	#-------------------------------------------
+	#Default: 120
+	#-------------------------------------------
+	#Range: -1 ~ 1000
+	"Integer: Idle Hunger Tick Rate" = 120
+
+[Sleep]
+	#
+	############################################
+	#The maximum amount of sleep time can stack up to. This also determines the maximum amplifier for the tiredness effect
+	#-------------------------------------------
+	#Default: 20
+	#-------------------------------------------
+	#Range: 0 ~ 255
+	"Integer: Tired Time Stacks" = 20
+	#
+	############################################
+	#Disabling this will disable this mods sleep management system
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Sleep" = true
+	#
+	############################################
+	#Disabling this will prevent the player from sleeping during the day even if they have the tiredness effect
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Can Sleep During Day" = true
+	#
+	############################################
+	#The amount of ticks after the Initial Tired Time before the amplifier of the tiredness effects increases
+	#-------------------------------------------
+	#Default: 12000
+	#-------------------------------------------
+	#Range: 0 ~ 240000
+	"Integer: Tired Time Step" = 12000
+	#
+	############################################
+	#The amount of ticks after the player has not slept before The tiredness effect starts to manifest
+	#-------------------------------------------
+	#Default: 24000
+	#-------------------------------------------
+	#Range: 0 ~ 240000
+	"Integer: Initial Tired Time" = 24000
+
+[Stamina]
+	#
+	############################################
+	#Disabling this will allow the weight of certain armor pieces to affect your stamina
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Armor Weights" = true
+	#
+	############################################
+	#Disabling this will disable this mods stamina system and energy management system
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Stamina" = true
+
+[Hygiene]
+	#
+	############################################
+	#Disabling this will disable this mods hygiene system
+	#The hygiene system might be pretty buggy, so proceed with caution
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Enable Hygiene (Beta)" = false
+
+[Micellaneous]
+	#
+	############################################
+	#Enable Debug mode to have some informational stuff print on your console
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Debug Mode" = false
+

@@ -1,0 +1,72 @@
+{
+  "ma:null": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  },
+  "ma:amplification": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  },
+  "ma:bandwidth": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  },
+  "ma:frequency": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  },
+  "ma:radiant": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  },
+  "ma:thermal": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  },
+  "ma:piezo": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  },
+  "ma:electrostatic": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  },
+  "ma:dimensional": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  },
+  "ma:interdimensional": {
+    "ma:default_base_color": {
+      "in:r:[0~255]": 255,
+      "in:g:[0~255]": 255,
+      "in:b:[0~255]": 255
+    }
+  }
+}

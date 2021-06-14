@@ -1,0 +1,101 @@
+{
+  "bo:enabled": true,
+  "ma:ccus": {
+    "ma:litherite": {
+      "ma:default_base_color": {
+        "in:r:[0~255]": 255,
+        "in:g:[0~255]": 255,
+        "in:b:[0~255]": 255
+      },
+      "ma:default_core_color": {
+        "in:r:[0~254]": 120,
+        "in:g:[0~255]": 232,
+        "in:b:[0~255]": 255
+      }
+    },
+    "ma:erodium": {
+      "ma:default_base_color": {
+        "in:r:[0~255]": 247,
+        "in:g:[0~255]": 247,
+        "in:b:[0~255]": 247
+      },
+      "ma:default_core_color": {
+        "in:r:[0~254]": 120,
+        "in:g:[0~255]": 232,
+        "in:b:[0~255]": 255
+      }
+    },
+    "ma:kyronite": {
+      "ma:default_base_color": {
+        "in:r:[0~255]": 239,
+        "in:g:[0~255]": 239,
+        "in:b:[0~255]": 239
+      },
+      "ma:default_core_color": {
+        "in:r:[0~254]": 120,
+        "in:g:[0~255]": 232,
+        "in:b:[0~255]": 255
+      }
+    },
+    "ma:pladium": {
+      "ma:default_base_color": {
+        "in:r:[0~255]": 231,
+        "in:g:[0~255]": 231,
+        "in:b:[0~255]": 231
+      },
+      "ma:default_core_color": {
+        "in:r:[0~254]": 120,
+        "in:g:[0~255]": 232,
+        "in:b:[0~255]": 255
+      }
+    },
+    "ma:ionite": {
+      "ma:default_base_color": {
+        "in:r:[0~255]": 223,
+        "in:g:[0~255]": 223,
+        "in:b:[0~255]": 223
+      },
+      "ma:default_core_color": {
+        "in:r:[0~254]": 120,
+        "in:g:[0~255]": 232,
+        "in:b:[0~255]": 255
+      }
+    },
+    "ma:aethium": {
+      "ma:default_base_color": {
+        "in:r:[0~255]": 215,
+        "in:g:[0~255]": 215,
+        "in:b:[0~255]": 215
+      },
+      "ma:default_core_color": {
+        "in:r:[0~254]": 120,
+        "in:g:[0~255]": 232,
+        "in:b:[0~255]": 255
+      }
+    },
+    "ma:nanorite": {
+      "ma:default_base_color": {
+        "in:r:[0~255]": 207,
+        "in:g:[0~255]": 207,
+        "in:b:[0~255]": 207
+      },
+      "ma:default_core_color": {
+        "in:r:[0~254]": 120,
+        "in:g:[0~255]": 232,
+        "in:b:[0~255]": 255
+      }
+    },
+    "ma:xerothium": {
+      "ma:default_base_color": {
+        "in:r:[0~255]": 199,
+        "in:g:[0~255]": 199,
+        "in:b:[0~255]": 199
+      },
+      "ma:default_core_color": {
+        "in:r:[0~254]": 120,
+        "in:g:[0~255]": 232,
+        "in:b:[0~255]": 255
+      }
+    }
+  }
+}

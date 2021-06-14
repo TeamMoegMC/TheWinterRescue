@@ -1,0 +1,93 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 12, 2021 8:09:13 PM
+
+#rankine:sap
+- rankine:sap
+- rankine:flowing_sap
+
+#forge:gasoline
+- immersivepetroleum:gasoline
+
+#forge:steam
+- biggerreactors:fluid_irradiated_steam
+- advgenerators:steam
+- bigreactors:steam
+- bigreactors:steam_flowing
+
+#forge:lubricant
+- immersivepetroleum:lubricant
+
+#forge:diesel_sulfur
+- immersivepetroleum:diesel_sulfur
+
+#forge:crude_oil
+- immersivepetroleum:oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- betterportals:portal_fluid_still
+- betterportals:portal_fluid_flowing
+- charcoal_pit:creosote_still
+- charcoal_pit:creosote_flowing
+- charcoal_pit:alcohol_still
+- charcoal_pit:alcohol_flowing
+- survive:purified_water
+- survive:flowing_purified_water
+
+#forge:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#rankine:maple_sap
+- rankine:maple_sap
+- rankine:flowing_maple_sap
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:diesel
+- immersivepetroleum:diesel
+- immersivepetroleum:diesel_sulfur
+
+#forge:plantoil
+- immersiveengineering:plantoil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#rankine:latex
+- rankine:latex
+- rankine:flowing_latex
+
+#forge:ethanol
+- immersiveengineering:ethanol
+
+#rankine:resin
+- rankine:resin
+- rankine:flowing_resin
+
+#forge:creosote
+- charcoal_pit:creosote_still
+- immersiveengineering:creosote
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#forge:potion
+- immersiveengineering:potion
+
+#forge:napalm
+- immersivepetroleum:napalm
+
+#immersivepetroleum:burnable_in_flarestack
+- #forge:lubricant
+- #forge:diesel
+- #forge:diesel_sulfur
+- #forge:gasoline
+- #forge:plantoil
+- #forge:creosote
+- #forge:ethanol

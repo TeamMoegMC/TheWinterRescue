@@ -1,0 +1,10 @@
+
+#Client only settings
+[client]
+	#If true, no custom Patchouli components will be added and the book will stop to work correctly. Enable this if you are having problems with newer versions of Patchouli
+	disablePatchouliTweaks = false
+	#If true, disables all particle effects in the Reactor.
+	disableReactorParticles = false
+	#If true, no (advanced) tooltips will be added to blocks and items that can be used inside the Reactor or Turbine or as a fuel source.
+	disableTurbineParticles = false
+

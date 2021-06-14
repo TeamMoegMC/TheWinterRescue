@@ -1,0 +1,30 @@
+{
+  "variants": [
+    {
+      "blockSelector": {
+        "entries": {
+          "minecraft:gilded_blackstone": 0.05,
+          "minecraft:crying_obsidian": 0.05,
+          "minecraft:netherrack": 0.7,
+          "minecraft:blackstone": 0.1,
+          "minecraft:obsidian": 0.1
+        },
+        "defaultBlock": "minecraft:cave_air"
+      },
+      "fluidColor": {
+        "red": "19",
+        "green": "00",
+        "blue": "20",
+        "alpha": "FC"
+      },
+      "minY": 10,
+      "maxY": 15,
+      "playerTeleportedMinY": 100,
+      "playerTeleportedMaxY": 120,
+      "spawnChance": 0.05,
+      "spawnDimension": "minecraft:overworld",
+      "targetDimension": "minecraft:the_nether",
+      "spawnPlatformBlock": "minecraft:netherrack"
+    }
+  ]
+}

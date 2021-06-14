@@ -1,0 +1,173 @@
+enabled = true
+nVidia = false
+
+[leaves]
+	#Range: 0.0 ~ 0.4
+	vOffset = 0.1
+	#Range: 0.0 ~ 1.0
+	saturationThreshold = 0.1
+	#Range: 0.75 ~ 2.5
+	size = 1.4
+	snowEnabled = true
+	hideInternal = true
+	enabled = true
+	#Range: 0.0 ~ 0.4
+	hOffset = 0.2
+	dense = false
+
+[shortGrass]
+	myceliumEnabled = true
+	#Range: 0.0 ~ 1.0
+	saturationThreshold = 0.1
+	#Range: 0.5 ~ 1.5
+	size = 1.0
+	snowEnabled = true
+	shaderWind = true
+	grassEnabled = true
+	#Range: 0.1 ~ 2.5
+	heightMax = 0.8
+	useGenerated = false
+	enabled = true
+	#Range: 0.0 ~ 0.4
+	hOffset = 0.2
+	#Range: 0.1 ~ 2.5
+	heightMin = 0.6
+	#Range: 0 ~ 64
+	population = 64
+
+[connectedGrass]
+	snowEnabled = false
+	enabled = true
+
+[roundLogs]
+	connectPerpendicular = true
+	#Range: 0.9 ~ 1.0
+	zProtection = 0.99
+	#Range: 0.0 ~ 1.0
+	dimming = 0.7
+	plantsOnly = true
+	#Range: 0.0 ~ 0.5
+	radiusSmall = 0.25
+	lenientConnect = true
+	#Range: 0.0 ~ 0.5
+	radiusLarge = 0.44
+	enabled = true
+	connectGrass = true
+	defaultY = false
+	connectSolids = false
+
+[cactus]
+	#Range: 0.5 ~ 1.5
+	size = 0.8
+	#Range: 0.0 ~ 0.5
+	sizeVariation = 0.1
+	enabled = true
+	#Range: 0.0 ~ 0.5
+	hOffset = 0.1
+
+[lilypad]
+	shaderWind = true
+	enabled = true
+	#Range: 0.0 ~ 0.25
+	hOffset = 0.1
+	#Range: 0 ~ 64
+	population = 16
+
+[reed]
+	#Range: 0.0 ~ 1.0
+	minBiomeTemp = 0.4
+	shaderWind = true
+	#Range: 1.5 ~ 3.5
+	heightMax = 2.2
+	#Range: 0.0 ~ 1.0
+	minBiomeRainfall = 0.4
+	enabled = true
+	#Range: 0.0 ~ 0.4
+	hOffset = 0.2
+	#Range: 1.5 ~ 3.5
+	heightMin = 1.7
+	#Range: 0 ~ 64
+	population = 32
+
+[algae]
+	#Range: 0.5 ~ 1.5
+	size = 1.0
+	shaderWind = true
+	#Range: 0.1 ~ 1.5
+	heightMax = 1.0
+	enabled = true
+	#Range: 0.0 ~ 0.25
+	hOffset = 0.1
+	#Range: 0.1 ~ 1.5
+	heightMin = 0.5
+	#Range: 0 ~ 64
+	population = 48
+
+[coral]
+	shallowWater = false
+	#Range: 0.0 ~ 0.4
+	vOffset = 0.1
+	#Range: 0 ~ 64
+	chance = 32
+	#Range: 0.5 ~ 1.5
+	size = 0.7
+	#Range: 0.5 ~ 1.5
+	crustSize = 1.4
+	enabled = true
+	#Range: 0.0 ~ 0.4
+	hOffset = 0.2
+	#Range: 0 ~ 64
+	population = 48
+
+[netherrack]
+	#Range: 0.5 ~ 1.5
+	size = 1.0
+	#Range: 0.1 ~ 1.5
+	heightMax = 0.8
+	enabled = true
+	#Range: 0.0 ~ 0.4
+	hOffset = 0.2
+	#Range: 0.1 ~ 1.5
+	heightMin = 0.6
+
+[fallingLeaves]
+	#Range: 0.1 ~ 2.0
+	stormStrength = 0.8
+	#Range: 0.1 ~ 2.0
+	windStrength = 0.5
+	#Range: 0.001 ~ 1.0
+	chance = 0.02
+	#Range: 0.25 ~ 1.5
+	size = 0.75
+	opacityHack = true
+	#Range: 1.0 ~ 15.0
+	lifetime = 5.0
+	enabled = true
+	#Range: 0.01 ~ 0.15
+	speed = 0.05
+	#Range: 0.01 ~ 1.0
+	perturb = 0.25
+
+[risingSoul]
+	#Range: 0.5 ~ 1.0
+	sizeDecay = 0.97
+	#Range: 1 ~ 16
+	trailDensity = 3
+	#Range: 0.001 ~ 1.0
+	chance = 0.02
+	#Range: 1.0 ~ 15.0
+	lifetime = 4.0
+	#Range: 0.5 ~ 1.0
+	opacityDecay = 0.97
+	#Range: 0.05 ~ 1.0
+	opacity = 0.5
+	#Range: 0.25 ~ 1.5
+	trailSize = 0.75
+	enabled = true
+	#Range: 0.01 ~ 0.25
+	perturb = 0.05
+	#Range: 2 ~ 128
+	trailLength = 48
+	#Range: 0.25 ~ 1.5
+	headSize = 1.0
+

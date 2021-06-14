@@ -1,0 +1,199 @@
+
+[TurbineFuel]
+	#Required modules for the machine to function
+	Required = ["Turbine:1"]
+	#Internal fuel capacity (mB) - this is the base value, expandable by tanks
+	#Range: > 1
+	InternalFuelCapacity = 1000
+	#Modules that can connect to the machine
+	Modules = ["EfficiencyUpgradeTier2:1", "Control:10", "PowerCapacitor:10", "FuelTank:10", "Turbine:50", "Sensor:10", "PowerOutput:6", "EfficiencyUpgradeTier1:1", "FluidInput:5"]
+	#Internal energy capacity (FE) - this is the base value, expandable by capacitors
+	#Range: > 1
+	InternalEnergyCapacity = 100000
+
+	#Fuel Efficiency
+	[TurbineFuel.FuelEfficiency]
+		#With tier 2 upgrade
+		#Range: 0.0 ~ 100.0
+		Tier2 = 1.850000023841858
+		#Base value
+		#Range: 0.0 ~ 100.0
+		Base = 1.100000023841858
+		#With tier 1 upgrade
+		#Range: 0.0 ~ 100.0
+		Tier1 = 1.350000023841858
+
+[TurbineSteam]
+	#Internal steam capacity (mB)
+	#Range: > 1
+	InternalSteamCapacity = 16000
+	#Required modules for the machine to function
+	Required = ["Turbine:1"]
+	#FE/mB
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	SteamEnergyDensity = 2.0
+	#Modules that can connect to the machine
+	Modules = ["FluidInput:5", "Control:10", "PowerCapacitor:10", "Turbine:50", "Sensor:10", "PowerOutput:6"]
+	#Internal energy capacity (FE) - this is the base value, expandable by capacitors
+	#Range: > 1
+	InternalEnergyCapacity = 100000
+	#Maximum rotation speed
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	MaxRPM = 5000.0
+
+	#SpinUpMultiplier must be > BaseDragMultiplier + CoilDragMultiplier
+	[TurbineSteam.Drag]
+		#Base constant RPM loss
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		BaseDragMultiplier = 0.2
+		#RPM loss when generating power
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		CoilDragMultiplier = 0.75
+		#Affects how fast a turbine spins up to it's target RPM
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		SpinUpMultiplier = 1.0
+
+	#Base RPM delta is capped to MaxRPM * InertiaFunctionMultiplier * e^(InertiaFunctionExponent * CurrentRPM / MaxRPM)
+	[TurbineSteam.Inertia]
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		InertiaFunctionExponent = -2.0
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		InertiaFunctionMultiplier = 0.025
+
+[SyngasProducer]
+	#Syngas mB per tick
+	#Range: 0.01 ~ 1.7976931348623157E308
+	MixingChamberThroughput = 1.0
+	#Modules that can connect to the machine
+	Modules = ["FluidInput:5", "FluidOutputSelect:6", "Control:10", "MixingChamber:25", "HeatingChamber:10", "ItemInput:5", "Sensor:10"]
+	#Heat level required for conversion to start
+	#Range: 1.0 ~ 1.7976931348623157E308
+	WorkHeat = 150.0
+	#Water to steam conversion ratio
+	#Range: 0.01 ~ 1.7976931348623157E308
+	WaterSteamRatio = 3.0
+	#Carbon consumed to produce 1mB of syngas
+	#Range: 0.01 ~ 1.7976931348623157E308
+	CarbonPerMBSyngas = 50.0
+	#Heat Units per tick
+	#Range: 0.001 ~ 1.7976931348623157E308
+	HeatingChamberLoss = 0.02
+	#Heat Units per tick
+	#Range: 0.001 ~ 1.7976931348623157E308
+	HeatingChamberHeating = 0.1
+	#Carbon consumed per Heat Unit produced
+	#Range: 0.1 ~ 1.7976931348623157E308
+	CarbonPerHeat = 20.0
+	#Internal steam/water/syngas/carbon capacity
+	#Range: > 1
+	InternalTankCapacity = 32000
+	#Steam consumed to produce 1mB of syngas
+	#Range: 0.01 ~ 1.7976931348623157E308
+	SteamPerMBSyngas = 10.0
+	#Required modules for the machine to function
+	Required = ["MixingChamber:1"]
+	#Maximum heat level
+	#Range: 1.0 ~ 1.7976931348623157E308
+	MaxHeat = 200.0
+	#Steam mB per tick
+	#Range: 0.01 ~ 1.7976931348623157E308
+	HeatingChamberThroughput = 50.0
+
+[HeatExchanger]
+	#Range: > -2147483648
+	InternalTankCapacity = 16000
+	#Required modules for the machine to function
+	Required = ["HeatExchanger:1"]
+	#Modules that can connect to the machine
+	Modules = ["ItemOutput:6", "FluidInput:5", "Control:10", "FluidOutputSelect:6", "HeatExchanger:50", "ItemInput:5", "Sensor:10"]
+	#Start heating above this temperature
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	StartHeating = 150.0
+	#Should be > StartHeating + (max HeatTransfer), otherwise weirdness will ensue
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	MaxHeat = 1000.0
+	#Decay per tick
+	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	HeatDecay = 0.05
+
+[Modules]
+
+	#Capacitor module configuration
+	[Modules.Capacitors]
+
+		#Advanced Capacitor
+		[Modules.Capacitors.Tier2]
+			#Capacity (FE)
+			#Range: > 1
+			Capacity = 5000000
+
+		#High Density Capacitor
+		[Modules.Capacitors.Tier3]
+			#Capacity (FE)
+			#Range: > 1
+			Capacity = 25000000
+
+		#Basic Capacitor
+		[Modules.Capacitors.Tier1]
+			#Capacity (FE)
+			#Range: > 1
+			Capacity = 1000000
+
+	[Modules.HeatExchanger]
+		#Heat Units per tick
+		#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		HeatTransfer = 16.0
+
+	[Modules.FuelTank]
+		#Capacity (mB)
+		#Range: > -2147483648
+		Capacity = 16000
+
+	#Turbine module configuration
+	[Modules.Turbines]
+
+		#Enhanced Turbine
+		[Modules.Turbines.Tier2]
+			#Maximum FE generated per tick
+			#Range: > 1
+			MaxFEPerTick = 150
+			#Maximum FE generated per tick
+			#Range: 0.0 ~ 100.0
+			Inertia = 1.1
+
+		#Advanced Turbine
+		[Modules.Turbines.Tier3]
+			#Maximum FE generated per tick
+			#Range: > 1
+			MaxFEPerTick = 250
+			#Maximum FE generated per tick
+			#Range: 0.0 ~ 100.0
+			Inertia = 1.2
+
+		#Reinforced Turbine
+		[Modules.Turbines.Tier4]
+			#Maximum FE generated per tick
+			#Range: > 1
+			MaxFEPerTick = 500
+			#Maximum FE generated per tick
+			#Range: 0.0 ~ 100.0
+			Inertia = 1.25
+
+		#Composite Turbine
+		[Modules.Turbines.Tier5]
+			#Maximum FE generated per tick
+			#Range: > 1
+			MaxFEPerTick = 1000
+			#Maximum FE generated per tick
+			#Range: 0.0 ~ 100.0
+			Inertia = 1.4
+
+		#Basic Turbine
+		[Modules.Turbines.Tier1]
+			#Maximum FE generated per tick
+			#Range: > 1
+			MaxFEPerTick = 100
+			#Maximum FE generated per tick
+			#Range: 0.0 ~ 100.0
+			Inertia = 1.0
+

@@ -1,0 +1,26 @@
+#Worktable fluid capacity in millibuckets.
+#Default: 4000
+#Range: > 0
+fluidCapacityWorktable = 4000
+#Workstation fluid capacity in millibuckets.
+#Default: 8000
+#Range: > 0
+fluidCapacityWorkstation = 8000
+#Set to true to allow non-tool items in toolboxes.
+#Default: false
+allowNonToolItemsInToolboxes = false
+#Set to true to enable log warnings for duplicate auto-generated recipe names.
+#Default: false
+enableDuplicateRecipeHashWarnings = false
+#Workshop fluid capacity in millibuckets.
+#Default: 16000
+#Range: > 0
+fluidCapacityWorkshop = 16000
+#Set to true to hide the mod incompatibility message.
+#Default: false
+hideIncompatibilityMessage = false
+#If set to true, crafting tools must have sufficient durability remaining to perform the craft.
+#If set to false, this restriction is ignored.
+#Default: true
+restrictCraftMinimumDurability = true
+

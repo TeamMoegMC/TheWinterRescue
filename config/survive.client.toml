@@ -1,0 +1,52 @@
+
+[Temperature]
+	#
+	############################################
+	#The method that temperature display with
+	#-------------------------------------------
+	#HOTBAR: Temperature Changes the color of your hotbar
+	#NUMBERS: Temperature is drawn as number values on your screen
+	#HORIZONTAL_BAR: Temperature is drawn as a horizontal bar on your screen
+	#VERTICAL_BAR: Temperature is drawn as a vertical bar on your screen
+	#Default: HOTBAR
+	#-------------------------------------------
+	#Allowed Values: HOTBAR, NUMBERS, HORIZONTAL_BAR, VERTICAL_BAR
+	"Enum: Temperature Display Mode" = "HOTBAR"
+	#
+	############################################
+	#The x offset from the center of the screen where the temperature should render
+	#-------------------------------------------
+	#Default: -66
+	#-------------------------------------------
+	"Temperature Bar X Position" = -66
+	#
+	############################################
+	#Change the texture of the temperature bar when you have hypothermia or hyperthermia
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Hypo/Hyperthermia Effects" = true
+	#
+	############################################
+	#The y offset from the center of the screen where the temperature should render
+	#-------------------------------------------
+	#Default: 5
+	#-------------------------------------------
+	"Temperature Bar Y Position" = 5
+	#
+	############################################
+	#If Enabled, temperature will be displayed in fahrenheit if the display mode is set to NUMBERS
+	#-------------------------------------------
+	#Default: false
+	#-------------------------------------------
+	"Boolean: Display Temperature in Fahrenheit" = false
+
+[Sleep]
+	#
+	############################################
+	#Disabling this will prevent the mod from drawing an overlay the screen when you need sleep
+	#-------------------------------------------
+	#Default: true
+	#-------------------------------------------
+	"Boolean: Enable Tired Overlay" = true
+
