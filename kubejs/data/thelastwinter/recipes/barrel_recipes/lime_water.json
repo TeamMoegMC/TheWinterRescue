@@ -1,0 +1,16 @@
+{
+  "type": "charcoal_pit:barrel",
+  "item_in":{
+  	"item":"kubejs:quick_lime"
+  },
+  "fluid_in":{
+  	"fluid":"minecraft:water",
+  	"amount": 500
+  },
+  "fluid_out":{
+  	"fluid":"kubejs:lime_water",
+  	"amount": 500
+  },
+  "flags": 1,
+  "time": 1200
+}

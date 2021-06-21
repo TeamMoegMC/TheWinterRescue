@@ -1,0 +1,7 @@
+
+[TileBlockConfig]
+	#If grass bed can sleep
+	sleep = false
+	#If Drying rack need daytime
+	"need daytime" = false
+

@@ -1,0 +1,75 @@
+
+#Defines how logging will behave
+["Logging Options"]
+	#Bitmask for toggling various debug traces
+	#Range: > 0
+	"Debug Flag Mask" = 0
+	#Enables/disables debug logging of the mod
+	"Debug Logging" = false
+
+#Options for controlling biome sound/effects
+["Biome Options"]
+	#Sealevel to set for Overworld (0 use default for World)
+	#Range: 0 ~ 256
+	"Overworld Sealevel Override" = 0
+	#Dimension IDs where biome sounds will not be played
+	"Dimension Blacklist" = []
+
+#Options for controlling various effects
+["Effect Options"]
+	#Enable/disable Steam Jets where lava meets water
+	"Steam Jets" = true
+	#Enable/disable Water Ripple effects for rain and water splash
+	"Water Ripples" = true
+	#Enable/disable Fire Jets in lava
+	"Fire Jets" = true
+	#Enable/disable Bubble Jets under water
+	"Bubble Jets" = true
+	#Enable/disable Dust Motes dropping from under blocks
+	"Dust Jets" = true
+	#Cap the maximum bands that will be rendered
+	#Range: 0 ~ 3
+	"Maximum Bands" = 3
+	#Enable/disable Aurora processing
+	Auroras = true
+	#Enable/disable Firefly effect around plants
+	Fireflies = true
+	#Enable/disable Fountain Jets spraying
+	"Fountain Jets" = true
+	#Enable/disable Water Splash effects when water spills down
+	"Waterfall Splash" = true
+	#Enable/disable Minecraft's Underwater particle effect
+	"Disable Underwater Particles" = false
+
+#Options that control the various fog effects in the client
+["Fog Options"]
+	#Enable/disable fog processing
+	"Enable Fog Processing" = true
+	#Increase fog based on the strength of rain
+	"Weather Fog" = true
+	#Increase fog at bedrock layers
+	"Bedrock Fog" = true
+	#Chance morning fog will occurs expressed as 1 in N
+	#Range: > 0
+	"Morning Fog Chance" = 1
+	#Show morning fog that eventually burns off
+	"Morning Fog" = true
+	#Higher the player elevation the more haze that is experienced
+	"Elevation Haze" = true
+	#Enable biome specific fog density and color
+	"Biome Fog" = true
+
+#Options for defining sound behavior
+["Sound Options"]
+	#Scaling factor to apply to waterfall sounds
+	#Range: 0 ~ 100
+	"Waterfall Volume" = 100
+	#Scaling factor to apply to biome sounds
+	#Range: 0 ~ 100
+	"Biome Sound Volume" = 100
+	#Scaling factor to apply to spot sounds
+	#Range: 0 ~ 100
+	"Spot Sound Volume" = 100
+	#Occlude WATERFALL sounds
+	"Occlude WATERFALL sounds" = false
+

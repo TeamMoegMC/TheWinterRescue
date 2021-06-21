@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "primalwinter:snowy_dirt",
+	"primalwinter:snowy_sand",
+	"minecraft:snow",
+	"minecraft:ice"
+  ]
+}
