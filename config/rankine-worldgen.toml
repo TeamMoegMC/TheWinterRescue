@@ -18,7 +18,7 @@
 	#Disable vanilla ores in the overworld
 	disableVanillaOres = true
 	#Enables the generation of fire clay disks in dirt.
-	generateFireClay = true
+	generateFireClay = false
 	#Enable to generate meteorites in the overworld.
 	meteoriteGen = true
 	#Enables the generation of phosphorite sills.
@@ -32,9 +32,9 @@
 	#Enables the generation of evaporite disks.
 	generateEvaporite = true
 	#Enables the generation of mud in dirt.
-	generateMud = true
+	generateMud = false
 	#Enables the generation of alluvium disks.
-	generateAlluvium = true
+	generateAlluvium = false
 
 #Settings for stone layering
 [layers]

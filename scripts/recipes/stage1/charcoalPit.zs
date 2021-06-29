@@ -1,2 +1,3 @@
 
-recipeShapeless("sandy_brick",<item:charcoal_pit:sandy_brick>, [<item:rankine:refractory_bricks>]);
+craftingTable.removeRecipe(<item:charcoal_pit:unfired_sandy_brick>);
+
