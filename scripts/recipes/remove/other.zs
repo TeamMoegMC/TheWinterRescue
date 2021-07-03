@@ -1,0 +1,1 @@
+craftingTable.removeRecipe(<item:wildwestguns2:stone_hunters_knife>);

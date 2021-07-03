@@ -1,0 +1,12 @@
+{
+    "type":"electrodynamics:mineral_grinder_recipe",
+
+    "input":{
+        "item":"electrodynamics:impuredustsilver",
+        "count":1
+    },
+    "output":{
+        "item":"electrodynamics:dustsilver",
+        "count":1
+    }
+}

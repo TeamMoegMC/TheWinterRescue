@@ -1,10 +1,10 @@
 {
   "commonHelmets": {
     "entries": {
-      "iron_helmet": 0.3,
-      "leather_helmet": 0.1,
       "chainmail_helmet": 0.3,
-      "carved_pumpkin": 0.01
+      "carved_pumpkin": 0.01,
+      "leather_helmet": 0.1,
+      "iron_helmet": 0.3
     },
     "defaultItem": "air"
   },
@@ -17,8 +17,8 @@
   },
   "commonChestplates": {
     "entries": {
-      "leather_chestplate": 0.1,
       "chainmail_chestplate": 0.3,
+      "leather_chestplate": 0.1,
       "iron_chestplate": 0.3
     },
     "defaultItem": "air"
@@ -31,9 +31,9 @@
   },
   "commonLeggings": {
     "entries": {
+      "chainmail_leggings": 0.3,
       "leather_leggings": 0.1,
-      "iron_leggings": 0.3,
-      "chainmail_leggings": 0.3
+      "iron_leggings": 0.3
     },
     "defaultItem": "air"
   },
@@ -45,9 +45,9 @@
   },
   "commonBoots": {
     "entries": {
+      "leather_boots": 0.1,
       "chainmail_boots": 0.3,
-      "iron_boots": 0.3,
-      "leather_boots": 0.1
+      "iron_boots": 0.3
     },
     "defaultItem": "air"
   },

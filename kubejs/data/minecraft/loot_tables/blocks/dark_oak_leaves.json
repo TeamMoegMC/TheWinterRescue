@@ -46,7 +46,7 @@
                     {
                       "condition": "minecraft:match_tool",
                       "predicate": {
-                        "item": "notreepunching:flint_knife"
+                        "item": "rankine:flint_knife"
                       }
                     },
                     {

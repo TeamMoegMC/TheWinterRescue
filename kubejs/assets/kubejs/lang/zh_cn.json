@@ -1,0 +1,17 @@
+{
+"item.kubejs.flux":"助焊剂",
+"item.kubejs.impure_alumina_dust":"含杂氧化铝粉",
+"item.kubejs.kaolin_dust":"高岭土粉",
+"item.kubejs.tungsten_steel":"钨钢锭",
+"item.kubejs.tungsten_steel_plate":"钨钢板",
+"item:kubejs.lime_water_bucket":"石灰水桶",
+"item.kubejs.cast_iron_plate":"铸铁板",
+"item.kubejs.constantan_coil":"康铜线圈",
+"item.kubejs.constantan_wire":"康铜线缆",
+"item.kubejs.battery_alloy":"电池合金",
+"item.kubejs.battery_alloy_plate":"电池合金板",
+
+
+
+"fluid.kubejs.lime_water":"石灰水"
+}

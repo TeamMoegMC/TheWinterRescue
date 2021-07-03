@@ -1,0 +1,11 @@
+{
+	"type": "electrodynamics:mineral_crusher_recipe",
+	"input": {
+		"tag": "forge:ingots/iron",
+		"count": 3
+	},
+	"output": {
+		"item": "electrodynamics:plateiron",
+		"count": 2
+	}
+}

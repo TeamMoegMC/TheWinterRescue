@@ -1,12 +1,30 @@
 onEvent('item.registry', event => {
-	event.create('flux').displayName('Flux powder')
+	event.create('flux')
 })
 onEvent('item.registry', event => {
-	event.create('quick_lime').displayName('Quick lime')
+	event.create('impure_alumina_dust')
 })
 onEvent('item.registry', event => {
-	event.create('impure_alumina_dust').displayName('Impure alumina dust')
+	event.create('kaolin_dust')
 })
 onEvent('item.registry', event => {
-	event.create('kaolin_dust').displayName('Kaolin dust')
+	event.create('tungsten_steel').tooltip('750W-50Fe')
+})
+onEvent('item.registry', event => {
+	event.create('tungsten_steel_plate')
+})
+onEvent('item.registry', event => {
+	event.create('cast_iron_plate')
+})
+onEvent('item.registry', event => {
+	event.create('constantan_coil')
+})
+onEvent('item.registry', event => {
+	event.create('constantan_wire')
+})
+onEvent('item.registry', event => {
+	event.create('battery_alloy')
+})
+onEvent('item.registry', event => {
+	event.create('battery_alloy_plate')
 })

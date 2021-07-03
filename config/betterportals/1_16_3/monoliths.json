@@ -20,9 +20,9 @@
       },
       "fenceSelector": {
         "entries": {
-          "minecraft:blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": 0.33,
           "minecraft:polished_blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": 0.33,
-          "minecraft:polished_blackstone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": 0.33
+          "minecraft:polished_blackstone_brick_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": 0.33,
+          "minecraft:blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": 0.33
         },
         "defaultBlock": "minecraft:blackstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
       },

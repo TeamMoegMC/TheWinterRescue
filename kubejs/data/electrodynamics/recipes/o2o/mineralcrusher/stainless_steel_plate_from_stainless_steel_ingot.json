@@ -1,0 +1,12 @@
+{
+    "type":"electrodynamics:mineral_crusher_recipe",
+
+    "input":{
+        "tag":"forge:ingots/stainlesssteel",
+        "count":2
+    },
+    "output":{
+        "item":"electrodynamics:platestainlesssteel",
+        "count":3
+    }
+}

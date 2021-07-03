@@ -3,10 +3,10 @@
     {
       "blockSelector": {
         "entries": {
-          "minecraft:gilded_blackstone": 0.05,
           "minecraft:crying_obsidian": 0.05,
-          "minecraft:netherrack": 0.7,
+          "minecraft:gilded_blackstone": 0.05,
           "minecraft:blackstone": 0.1,
+          "minecraft:netherrack": 0.7,
           "minecraft:obsidian": 0.1
         },
         "defaultBlock": "minecraft:cave_air"

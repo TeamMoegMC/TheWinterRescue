@@ -1,8 +1,7 @@
 {
   "replace": true,
   "values": [
-    "charcoal_pit:sandy_brick",
-    "charcoal_pit:mainbloomery",
+    "minecraft:bricks",
 	"rankine:refractory_bricks"
   ]
 }

@@ -1,0 +1,12 @@
+{
+    "type":"electrodynamics:mineral_crusher_recipe",
+
+    "input":{
+        "tag":"forge:ores/vanadium",
+        "count":1
+    },
+    "output":{
+        "item":"electrodynamics:impuredustvanadium",
+        "count":3
+    }
+}

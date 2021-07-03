@@ -1,0 +1,11 @@
+{
+	"type": "electrodynamics:mineral_crusher_recipe",
+	"input": {
+		"tag": "forge:ores/gold",
+		"count": 2
+	},
+	"output": {
+		"item": "electrodynamics:impuredustgold",
+		"count": 3
+	}
+}

@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "kubejs:flux"
   },
-  "result": "kubejs:quick_lime",
+  "result": "rankine:quicklime",
   "experience": 0.35
 }

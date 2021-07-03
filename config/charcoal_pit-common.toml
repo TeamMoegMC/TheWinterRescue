@@ -2,16 +2,16 @@
 ["CharcoalPit/CokeOven"]
 	#Amount of creosote oil in mB produced per log
 	#Range: 0 ~ 1000
-	CharcoalCreosote = 50
+	CharcoalCreosote = 100
 	#The time coke ovens take to finish. 1000 Ticks = 1 MC hour
 	#Range: > 1000
-	CokeTime = 36000
+	CokeTime = 24000
 	#The time charcoal pits take to finish. 1000 Ticks = 1 MC hour
 	#Range: > 1000
-	CharcoalTime = 18000
+	CharcoalTime = 12000
 	#Amount of creosote oil in mB produced per coal
 	#Range: 0 ~ 1000
-	CokeCreosote = 100
+	CokeCreosote = 200
 
 ["Pottery Kiln"]
 	#If rain should put out kilns

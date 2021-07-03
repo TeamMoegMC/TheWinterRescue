@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "electrodynamics:ingotbronze"
+    },
+      "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "rankine:bronze_pickaxe"
+  }
+}
+

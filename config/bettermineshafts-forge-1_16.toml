@@ -17,11 +17,11 @@
 		# The spawn rate for minecarts holding TNT in the main shaft.
 		# Default: .0025
 		#Range: 0.0 ~ 1.0
-		"Main Shaft TNT Minecart Spawn Rate" = 0.0
+		"Main Shaft TNT Minecart Spawn Rate" = 0.0025
 		# The spawn rate for minecarts holding TNT in small shafts.
 		# Default: .0025
 		#Range: 0.0 ~ 1.0
-		"Small Shaft TNT Minecart Spawn Rate" = 0.0
+		"Small Shaft TNT Minecart Spawn Rate" = 0.0025
 		# Percent chance of an Abandoned Miners' Outpost to spawn at the end of a small mineshaft tunnel.
 		# Default: 2
 		#Range: 0 ~ 100
@@ -37,7 +37,7 @@
 		# The spawn rate for workstation cellars below workstations along the main shaft.
 		# Default: .25
 		#Range: 0.0 ~ 1.0
-		"Workstation Cellar Spawn Rate" = 0.0
+		"Workstation Cellar Spawn Rate" = 0.25
 		# The spawn rate for smaller tunnels that generate along the main shaft.
 		# Default: .07
 		#Range: 0.0 ~ 1.0
@@ -45,7 +45,7 @@
 		# The spawn rate for workstation side rooms along the main shaft.
 		# Default: .025
 		#Range: 0.0 ~ 1.0
-		"Workstation Spawn Rate" = 0.0
+		"Workstation Spawn Rate" = 0.025
 		# The spawn rate for cobwebs.
 		# Default: .15
 		#Range: 0.0 ~ 1.0
@@ -71,7 +71,7 @@
 		# Chance of an ore deposit containing emerald.
 		# Default: 3
 		#Range: 0 ~ 100
-		"Emerald Spawn Chance" = 0
+		"Emerald Spawn Chance" = 3
 		# Chance of an ore deposit being cobblestone only.
 		# Default: 50
 		#Range: 0 ~ 100
@@ -79,26 +79,26 @@
 		# Chance of an ore deposit containing iron.
 		# Default: 9
 		#Range: 0 ~ 100
-		"Iron Spawn Chance" = 0
+		"Iron Spawn Chance" = 9
 		# Chance of an ore deposit containing gold.
 		# Default: 7
 		#Range: 0 ~ 100
-		"Gold Spawn Chance" = 0
+		"Gold Spawn Chance" = 7
 		# Chance of an ore deposit containing diamond.
 		# Default: 1
 		#Range: 0 ~ 100
-		"Diamond Spawn Chance" = 0
+		"Diamond Spawn Chance" = 1
 		"Enable Ore Deposits" = true
 		# Chance of an ore deposit containing lapis lazuli.
 		# Default: 3
 		#Range: 0 ~ 100
-		"Lapis Spawn Chance" = 0
+		"Lapis Spawn Chance" = 3
 		# Chance of an ore deposit containing coal.
 		# Default: 20
 		#Range: 0 ~ 100
-		"Coal Spawn Chance" = 0
+		"Coal Spawn Chance" = 20
 		# Chance of an ore deposit containing redstone.
 		# Default: 7
 		#Range: 0 ~ 100
-		"Redstone Spawn Chance" = 0
+		"Redstone Spawn Chance" = 7
 

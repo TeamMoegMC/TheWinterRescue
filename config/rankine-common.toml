@@ -184,7 +184,7 @@
 		#Range: 0.0 ~ 20.0
 		bricksHardnessMultiplier = 1.5
 		#Enables the Rankine Journal (a guide to the mod)
-		startingBook = true
+		startingBook = false
 		#Adds trades for Project Rankine to Villagers and the Wandering Trader.
 		villageTrades = true
 		#Chance for flint to be consumed when lighting a fire.

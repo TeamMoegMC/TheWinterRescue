@@ -1,0 +1,12 @@
+{
+    "type":"electrodynamics:mineral_crusher_recipe",
+
+    "input":{
+        "tag":"forge:ingots/vanadiumsteel",
+        "count":2
+    },
+    "output":{
+        "item":"electrodynamics:platevanadiumsteel",
+        "count":3
+    }
+}

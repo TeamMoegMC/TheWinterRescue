@@ -1,0 +1,16 @@
+{
+  "type": "charcoal_pit:bloomery",
+  "input": {
+    "item": "rankine:pentlandite_ore"
+  },
+  "output": {
+    "item": "immersiveengineering:ingot_nickel"
+  },
+  "fail": {
+    "item": "charcoal_pit:bloom_fail"
+  },
+  "cool": {
+    "item": "charcoal_pit:bloom_cool"
+  }
+}
+

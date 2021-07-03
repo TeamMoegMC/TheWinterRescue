@@ -1,0 +1,12 @@
+{
+    "type":"electrodynamics:wire_mill_recipe",
+
+    "input":{
+        "item":"immersiveengineering:ingot_constantan",
+        "count":1
+    },
+    "output":{
+        "item":"kubejs:constantan_wire",
+        "count":1
+    }
+}

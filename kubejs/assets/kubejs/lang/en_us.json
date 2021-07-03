@@ -1,0 +1,16 @@
+{
+"item.kubejs.flux":"Flux Powder",
+"item.kubejs.impure_alumina_dust":"Impure Alumina Dust",
+"item.kubejs.kaolin_dust":"Kaolin Dust",
+"item.kubejs.tungsten_steel":"Tungsten Steel Alloy",
+"item.kubejs.tungsten_steel_plate":"Tungsten Steel Plate",
+"item:kubejs.lime_water_bucket":"Lime Water Bucket",
+"item.kubejs.cast_iron_plate":"Cast Iron Plate",
+"item.kubejs.constantan_coil":"Constantan Coil",
+"item.kubejs.constantan_wire":"Constantan Wire",
+"item.kubejs.battery_alloy":"Battery Alloy",
+"item.kubejs.battery_alloy_plate":"Battery Alloy Plate",
+
+
+"fluid.kubejs.lime_water":"Lime Water"
+}

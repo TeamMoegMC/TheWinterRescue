@@ -1,9 +1,9 @@
 {
   "lootBlockChances": {
     "entries": {
-      "minecraft:gold_ore": 0.5,
       "minecraft:gold_block": 0.01,
-      "minecraft:emerald_ore": 0.05
+      "minecraft:emerald_ore": 0.05,
+      "minecraft:gold_ore": 0.5
     },
     "defaultBlock": "minecraft:sandstone"
   }
