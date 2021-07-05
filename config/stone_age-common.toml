@@ -2,12 +2,8 @@
 [Config]
 	#If grass bed can sleep
 	sleep = false
+	"Lit torche" = false
 	#If Drying rack need daytime
 	"need daytime" = false
-	"Abandoned Camp Allowed Biomes" = false
-	infinityWaterSourceBiomeList = ["minecraft:warm_ocean", "minecraft:deep_ocean", "minecraft:frozen_ocean", "minecraft:cold_ocean", "minecraft:ocean", "minecraft:deep_warm_ocean", "minecraft:frozen_river", "minecraft:river", "minecraft:lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:deep_frozen_ocean"]
 	"Make fire" = false
-	"Give Player Manual On First Connect" = false
-	"Burial Place Allowed Biomes" = false
-	"Disable infinity water" = true
 

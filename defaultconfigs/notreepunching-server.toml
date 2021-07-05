@@ -1,0 +1,20 @@
+#Makes blocks take forever to mine if using the wrong tool
+noMiningWithoutCorrectTool = true
+#Makes blocks not drop anything when broken with the wrong tool
+noBlockDropsWithoutCorrectTool = true
+#Makes blocks that would otherwise be broken instantly unbreakable if using the wrong tool.
+doInstantBreakBlocksRequireTool = false
+#Makes blocks that would otherwise be broken instantly still drop, even when using an incorrect tool.
+doInstantBreakBlocksDropWithoutCorrectTool = true
+#If blocks such as tall grass which break instantly consume durability when broken with a knife (only affects No Tree Punching knives)
+doInstantBreakBlocksDamageKnives = true
+#The chance to consume a piece of flint when knapping
+#Range: 0.0 ~ 1.0
+flintKnappingConsumeChance = 0.4
+#The chance to produce flint shards if a piece of flint has been consumed while knapping
+#Range: 0.0 ~ 1.0
+flintKnappingSuccessChance = 0.0
+#The chance for a fire starter to start fires
+#Range: 0.0 ~ 1.0
+fireStarterFireStartChance = 0.3
+

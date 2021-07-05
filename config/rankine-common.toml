@@ -135,73 +135,110 @@
 		#Range: -1.0 ~ 1.0
 		movementWooden = 0.02
 
+	#Tree Chopping
+	[general.treeChopping]
+		#Maximum blocks to be considered a tree. Set to 0 to disable tree capitation.
+		#Range: 0 ~ 1024
+		maxTree = 256
+		#Speed factor for chopping trees after size is accounted for.
+		#Range: 0.0 ~ 2.0
+		treeChopSpeedFactor = 0.75
+		#Disable status bar message from compass.
+		disableCompass = false
+		#Disable status bar message from thermometer.
+		disableThermometer = false
+		#Disable status bar message from altimeter.
+		disableAltimeter = false
+		#Disable status bar message from speedometer.
+		disableSpeedometer = false
+		#Disable status bar message from clock.
+		disableClock = false
+		#Enable full tree chopping using #rankine:tree_choppers
+		treeChopping = true
+		#Disable status bar message from photometer.
+		disablePhotmeter = false
+		#Disable status bar message from biometer.
+		disableBiometer = false
+
+	#Enchantments
+	[general.enchantments]
+		#Enables the Prying enchantment to work on players (when hit by crowbar, chance to drop held item).
+		playerPryingEnchantment = true
+
 	#Miscellaneous
 	[general.misc]
 		#Chance for unaged cheese to age in a random tick.
 		#Range: 0.0 ~ 1.0
 		cheeseAgeChance = 0.04
-		#An axe is required to harvest logs
-		axesOnly = false
-		#Chance for ice to break when walking on it.
-		#Range: 0.0 ~ 1.0
-		iceBreak = 0.002
 		#If enabled, dyes can be used on blocks in-world to dye them (includes concrete, concrete powder, terracotta, glazed terracotta, stained glass, stained glass panes, leds, wool)
 		colorWorld = true
 		#If enabled, cork will drop from cork oak trees when stripped.
 		strippablesCork = true
 		#Causes Pendants to spawn in with Curse of Vanishing
 		pendantCurse = true
-		#The radius at which herbicide will kill plants.
-		#Range: 0 ~ 32
-		herbicideRange = 7
 		#Chance for a stone block to drop a flint
 		#Range: 0.0 ~ 1.0
 		flintDropChance = 0.15
-		#Chance for a dirt block to drop a vegetable
+		#Chance for a dirt block to drop a vegetable/seed
 		#Range: 0.0 ~ 1.0
 		foragingChance = 0.15
-		#If enabled, paper will drop from birch trees when stripped (30% chance).
-		strippablesPaper = true
 		#Change the fuel values of items for realism.
 		fuelValuesChange = true
+		#The range of the fire extinguisher.
+		#Range: 0 ~ 64
+		fireExtinguisherRange = 16
 		#The maximum size of a trampoline. Jump factor depends on size. Set to 0 to have a fixed jump factor of 1.3 which is just enough to have the player gain height over time.
 		#Range: 0 ~ 961
 		trampolineSize = 289
+		#Roughly the time in seconds between chance for blocks to be changed to a path block when stepped on.
+		#Range: 0 ~ 600
+		pathCreationTime = 40
 		#Enable the lighting of fires and certain machines using two flint.
 		flintFire = true
 		#Change the output of a stone generator from stone to metamorphic rocks.
 		igneousGen = true
-		#If enabled, sticks will drop from all other trees when stripped (30% chance).
-		strippablesSticks = true
+		#Chance for a geode to be found in stone.
+		#Range: 0.0 ~ 1.0
+		geodeChance = 5.0E-4
 		#A multiplier to determine how much higher the bricks variant resistance is than the stone.
 		#Range: 0.0 ~ 20.0
 		bricksResistanceMultiplier = 1.5
 		#Adds a trade to the Wandering Trader for a random tool which is not restricted by alloy constraints. May be unbalanced due to complete randomness.
 		wanderingSpecial = false
+		#Enable the use of the rock drill.
+		rockDrill = true
 		#If enabled, cinnamon will drop from cinnamon trees when stripped.
 		strippablesCinnamon = true
+		#Amount of additional exhaustion when breaking a block.
+		#Range: 0.0 ~ 1.0
+		breakExhaustion = 0.0
+		#An axe is required to harvest logs
+		axesOnly = false
+		#Chance for ice to break when walking on it.
+		#Range: 0.0 ~ 1.0
+		iceBreak = 0.002
+		#The radius at which herbicide will kill plants.
+		#Range: 0 ~ 32
+		herbicideRange = 7
+		#If enabled, paper will drop from birch trees when stripped (30% chance).
+		strippablesPaper = true
+		#If enabled, walking on grass blocks, mycelium and podzol has a chance to create a path block underfoot.
+		pathCreation = true
+		#If enabled, sticks will drop from all other trees when stripped (30% chance).
+		strippablesSticks = true
 		#A multiplier to determine how much higher the bricks variant hardness is than the stone.
 		#Range: 0.0 ~ 20.0
 		bricksHardnessMultiplier = 1.5
-		#Enables the Rankine Journal (a guide to the mod)
+		#Enables the Rankine Journal (a guide to the mod, requires Patchouli)
 		startingBook = false
 		#Adds trades for Project Rankine to Villagers and the Wandering Trader.
 		villageTrades = true
 		#Chance for flint to be consumed when lighting a fire.
 		#Range: 0.0 ~ 1.0
 		flintFireChance = 0.3
-		#Amount of additional exhaustion when breaking a block.
-		#Range: 0.0 ~ 1.0
-		breakExhaustion = 0.0
 
 #Settings for machines
 [machines]
-	#Base speed (in ticks) at which the evaporation tower boils latex.
-	#Range: 40 ~ 120000
-	evaporationTowerSpeedLatex = 800
-	#Base speed (in ticks) at which the water / lava evaporation tower generates resources.
-	#Range: 40 ~ 120000
-	evaporationTowerSpeed = 3200
 	#Enable the tapping of trees in #rankine:logs_sap for sap.
 	tapSap = true
 	#Max speed of the laser quarry in ticks.
@@ -212,41 +249,19 @@
 	#Total amount of time required (in ticks) at which the Rankine Box transmutes elements.
 	#Range: 20 ~ 12000
 	rankineBoxSpeed = 800
-	#Allow for transmuting elements down periods in the Rankine Box.
-	rankineBoxDown = true
-	#Enable the tapping of trees in #rankine:logs_maple_sap for maple sap.
-	tapMapleSap = true
-	#Base speed (in ticks) at which the evaporation tower boils maple sap.
-	#Range: 40 ~ 120000
-	evaporationTowerSpeedMapleSap = 800
-	#Maximum radius the charcoal pit can convert logs.
-	#Range: 3 ~ 15
-	charcoalPitRadius = 7
-	#Allow for transmuting elements up periods in the Rankine Box.
-	rankineBoxUp = true
-	#Enable the tapping of trees in #rankine:logs_juglone for juglone.
-	tapJuglone = true
-	#Require the material of the block to be Material.IRON in order for the electromagnet to pull the block. If disabled, it will pick up any block as long as it is not a FluidBlock, Tile Entity, or in the rankine:magnet_banned tag (these blocks are also banned if this value is true).
-	electromagnetMaterialReq = true
-	#Max range of the laser quarry. Larger numbers may cause lag. Set to 0 to disable functionality.
-	#Range: 0 ~ 63
-	laserQuarryRange = 31
-	#Maximum height of the evaporation tower. Height affects yields. Set to 0 to disable functionality.
-	#Range: 0 ~ 40
-	evaporationTowerHeight = 40
+	#If disabled, the beehive ovens will not require sky access.
+	beehiveOvenSkylight = true
 	#Allow for transmuting elements to the next highest atomic number in the Rankine Box.
 	rankineBoxRight = true
 	#Allow for transmuting elements to the next lowest atomic number in the Rankine Box.
 	rankineBoxLeft = true
+	#Allow for transmuting elements down periods in the Rankine Box.
+	rankineBoxDown = true
 	#Maximum height a charcoal pile can be
 	#Range: 1 ~ 10
 	charcoalPitHeight = 5
-	#Base speed (in ticks) at which the evaporation tower boils sap.
-	#Range: 40 ~ 120000
-	evaporationTowerSpeedSap = 1600
-	#Base speed (in ticks) at which the evaporation tower boils resin.
-	#Range: 40 ~ 120000
-	evaporationTowerSpeedResin = 1600
+	#Enable the tapping of trees in #rankine:logs_maple_sap for maple sap.
+	tapMapleSap = true
 	#Enable the tapping of trees in #rankine:logs_water for water.
 	tapWater = true
 	#Enable the tapping of trees in #rankine:logs_latex for latex.
@@ -254,17 +269,32 @@
 	#The number of random ticks it takes the Tree Tap to process
 	#Range: 1 ~ 1000
 	treeTapSpeed = 3
+	#Maximum radius the charcoal pit can convert logs.
+	#Range: 3 ~ 15
+	charcoalPitRadius = 7
 	#Enable the tapping of trees in #rankine:logs_resin for resin.
 	tapResin = true
 	#Range for the Rare Earth Magnet's pickup radius and the Rare Earth Electromagnet range.
 	#Range: 1 ~ 15
 	rareEarthMagnetRange = 10
+	#Allow for transmuting elements up periods in the Rankine Box.
+	rankineBoxUp = true
+	#Enable the tapping of trees in #rankine:logs_juglone for juglone.
+	tapJuglone = true
+	#Require the material of the block to be Material.IRON in order for the electromagnet to pull the block. If disabled, it will pick up any block as long as it is not a FluidBlock, Tile Entity, or in the rankine:magnet_banned tag (these blocks are also banned if this value is true).
+	electromagnetMaterialReq = true
 	#The number of random ticks it takes the Charcoal Pit to process
 	#Range: 1 ~ 200
 	charcoalPitSpeed = 5
+	#Max range of the laser quarry. Larger numbers may cause lag. Set to 0 to disable functionality.
+	#Range: 0 ~ 63
+	laserQuarryRange = 31
 	#Range for the Alnico Magnet's pickup radius and the Alnico Electromagnet range.
 	#Range: 1 ~ 10
 	alnicoMagnetRange = 5
+	#Maximum height of the evaporation tower. Height affects yields. Set to 0 to disable functionality.
+	#Range: 0 ~ 30
+	evaporationTowerHeight = 30
 
 #Settings for alloys and alloy tools
 [alloys]

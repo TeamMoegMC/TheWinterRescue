@@ -1,4 +1,7 @@
 
+craftingTable.removeRecipe(<item:electrodynamics:circuitadvanced>);
+craftingTable.removeRecipe(<item:electrodynamics:energizedalloyer>);
+
 recipeShaped("coil",<item:electrodynamics:coil>,[
   [<item:minecraft:air>,<item:electrodynamics:wirecopper>,<item:minecraft:air>],
   [<item:electrodynamics:wirecopper>,<item:rankine:cast_iron_rod>,<item:electrodynamics:wirecopper>],
@@ -14,7 +17,7 @@ recipeShaped("circuitbasic",<item:electrodynamics:circuitbasic>,[
   [<item:minecraft:redstone>,<item:electrodynamics:ceramicplate>,<item:minecraft:redstone>],
   [<item:electrodynamics:wireinsulatedcopper>,<item:electrodynamics:wirecopper>,<item:electrodynamics:wireinsulatedcopper>]
 ]);
-craftingTable.addShaped("battery",<item:electrodynamics:battery>,[
+recipeShaped("battery",<item:electrodynamics:battery>,[
   [<item:minecraft:air>,<item:electrodynamics:wirecopper>,<item:minecraft:air>],
   [<item:kubejs:battery_alloy_plate>,<item:minecraft:redstone>,<item:kubejs:battery_alloy_plate>],
   [<item:kubejs:battery_alloy_plate>,<item:minecraft:redstone>,<item:kubejs:battery_alloy_plate>]
@@ -35,21 +38,20 @@ recipeShaped("downgradetransformer",<item:electrodynamics:downgradetransformer>,
   [<item:electrodynamics:wirecopper>,<item:minecraft:air>,<item:electrodynamics:coil>],
   [<item:rankine:cast_iron_alloy>,<item:rankine:cast_iron_alloy>,<item:rankine:cast_iron_alloy>]
 ]);
-recipeShaped("coalgenerator",<item:electrodynamics:coalgenerator>,[
-  [<item:immersiveengineering:plate_iron>,<item:kubejs:cast_iron_plate>,<item:immersiveengineering:plate_iron>],
-  [<item:kubejs:cast_iron_plate>,<item:electrodynamics:motor>,<item:kubejs:cast_iron_plate>],
-  [<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_copper>,<item:immersiveengineering:plate_iron>]
-]);
 recipeShaped("batterybox",<item:electrodynamics:batterybox>,[
   [<item:kubejs:cast_iron_plate>,<item:electrodynamics:battery>,<item:kubejs:cast_iron_plate>],
   [<item:electrodynamics:battery>,<item:electrodynamics:wireinsulatedcopper>,<item:electrodynamics:battery>],
   [<item:kubejs:cast_iron_plate>,<item:electrodynamics:battery>,<item:kubejs:cast_iron_plate>]
 ]);
-
-recipeShaped("electricfurnace",<item:electrodynamics:electricfurnace>,[
+recipeShaped("coalgenerator",<item:electrodynamics:coalgenerator>,[
   [<item:immersiveengineering:plate_iron>,<item:kubejs:cast_iron_plate>,<item:immersiveengineering:plate_iron>],
-  [<item:kubejs:cast_iron_plate>,<item:kubejs:constantan_coil>,<item:kubejs:cast_iron_plate>],
+  [<item:kubejs:cast_iron_plate>,<item:electrodynamics:motor>,<item:kubejs:cast_iron_plate>],
   [<item:immersiveengineering:plate_iron>,<item:immersiveengineering:plate_copper>,<item:immersiveengineering:plate_iron>]
+]);
+recipeShaped("electricfurnace",<item:electrodynamics:electricfurnace>,[
+  [<item:kubejs:cast_iron_plate>,<item:immersiveengineering:plate_iron>,<item:kubejs:cast_iron_plate>],
+  [<item:immersiveengineering:plate_iron>,<item:kubejs:constantan_coil>,<item:immersiveengineering:plate_iron>],
+  [<item:kubejs:cast_iron_plate>,<item:immersiveengineering:plate_copper>,<item:kubejs:cast_iron_plate>]
 ]);
 recipeShaped("wiremill",<item:electrodynamics:wiremill>,[
   [<item:kubejs:cast_iron_plate>,<item:electrodynamics:motor>,<item:kubejs:cast_iron_plate>],
@@ -59,7 +61,7 @@ recipeShaped("wiremill",<item:electrodynamics:wiremill>,[
 recipeShaped("mineralcrusher",<item:electrodynamics:mineralcrusher>,[
   [<item:kubejs:cast_iron_plate>,<item:electrodynamics:circuitbasic>,<item:kubejs:cast_iron_plate>],
   [<item:electrodynamics:motor>,<item:rankine:cast_iron_block>,<item:electrodynamics:motor>],
-  [<item:kubejs:cast_iron_plate>,<item:immersiveengineering:plate_iron>,<item:kubejs:cast_iron_plate>]
+  [<item:kubejs:cast_iron_plate>,<item:kubejs:cast_iron_plate>,<item:kubejs:cast_iron_plate>]
 ]);
 recipeShaped("mineralgrinder",<item:electrodynamics:mineralgrinder>,[
   [<item:kubejs:cast_iron_plate>,<item:electrodynamics:motor>,<item:kubejs:cast_iron_plate>],
@@ -68,11 +70,16 @@ recipeShaped("mineralgrinder",<item:electrodynamics:mineralgrinder>,[
 ]);
 recipeShaped("fermentationplant",<item:electrodynamics:fermentationplant>,[
   [<item:minecraft:glass>,<item:minecraft:glass>,<item:minecraft:glass>],
-  [<item:minecraft:glass>,<item:electrodynamics:circuitbasic>,<item:minecraft:glass>],
-  [<item:kubejs:cast_iron_plate>,<item:electrodynamics:motor>,<item:kubejs:cast_iron_plate>]
+  [<item:minecraft:glass>,<item:electrodynamics:motor>,<item:minecraft:glass>],
+  [<item:kubejs:cast_iron_plate>,<item:electrodynamics:circuitbasic>,<item:kubejs:cast_iron_plate>]
 ]);
 recipeShaped("combustionchamber",<item:electrodynamics:combustionchamber>,[
   [<item:kubejs:cast_iron_plate>,<item:minecraft:glass>,<item:kubejs:cast_iron_plate>],
   [<item:electrodynamics:geariron>,<item:electrodynamics:coil>,<item:electrodynamics:geariron>],
   [<item:kubejs:cast_iron_plate>,<item:minecraft:cauldron>,<item:kubejs:cast_iron_plate>]
+]);
+recipeShaped("oxidationfurnace",<item:electrodynamics:oxidationfurnace>,[
+  [<item:kubejs:cast_iron_plate>,<item:electrodynamics:circuitbasic>,<item:kubejs:cast_iron_plate>],
+  [<item:kubejs:constantan_coil>,<item:immersiveengineering:plate_copper>,<item:kubejs:constantan_coil>],
+  [<item:kubejs:cast_iron_plate>,<item:electrodynamics:motor>,<item:kubejs:cast_iron_plate>]
 ]);

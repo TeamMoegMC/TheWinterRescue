@@ -94,10 +94,10 @@ craftingTable.removeRecipe(<item:charcoal_pit:unfired_sandy_brick>);
   [<tag:items:minecraft:logs>,<item:minecraft:gravel>,<tag:items:minecraft:logs>]
 ],<item:stone_age:flint_knife>);
 
-<recipetype:stone_age:flint_workbench>.addRecipe("brick_collector", <item:charcoal_pit:brick_collector>,[
-  [<item:minecraft:brick>,<item:minecraft:air>,<item:minecraft:brick>],
-  [<item:minecraft:brick>,<item:notreepunching:ceramic_bucket>,<item:minecraft:brick>],
-  [<item:minecraft:brick>,<item:minecraft:brick>,<item:minecraft:brick>]
+<recipetype:stone_age:flint_workbench>.addRecipe("sandy_collector", <item:charcoal_pit:sandy_collector>,[
+  [<item:charcoal_pit:sandy_brick_item>,<item:minecraft:air>,<item:charcoal_pit:sandy_brick_item>],
+  [<item:charcoal_pit:sandy_brick_item>,<item:notreepunching:ceramic_bucket>,<item:charcoal_pit:sandy_brick_item>],
+  [<item:charcoal_pit:sandy_brick_item>,<item:charcoal_pit:sandy_brick_item>,<item:charcoal_pit:sandy_brick_item>]
 ],<item:stone_age:flint_knife>);
 
 <recipetype:stone_age:flint_workbench>.addRecipe("iron_saw", <item:notreepunching:iron_saw>,[
