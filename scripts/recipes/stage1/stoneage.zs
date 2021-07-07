@@ -53,6 +53,13 @@ flintRecipe("main_bloomery",<item:charcoal_pit:main_bloomery>,[
   [<item:rankine:mortar>,<item:electrodynamics:platebronze>,<item:rankine:mortar>]
 ],<item:stone_age:flint_knife>);
 
+
+flintRecipe("hammer", <item:immersiveengineering:hammer>,[
+  [<item:minecraft:air>,<tag:items:forge:ingots/copper>,<item:stone_age:leather_strip>],
+  [<item:minecraft:air>,<tag:items:forge:rods/wooden>,<tag:items:forge:ingots/copper>],
+  [<tag:items:forge:rods/wooden>,<item:minecraft:air>,<item:minecraft:air>]
+],<item:stone_age:flint_knife>);
+
 craftingTable.removeRecipe(<item:charcoal_pit:sandy_tuyere>);
 <recipetype:stone_age:flint_workbench>.addRecipe("tuyere",<item:charcoal_pit:sandy_tuyere>,[
   [<item:charcoal_pit:sandy_brick_item>,<item:rankine:mortar>,<item:charcoal_pit:sandy_brick_item>],
