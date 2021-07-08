@@ -35,6 +35,12 @@ flintRecipe("grassbed",<item:stone_age:dried_grass_bed>,[
   [<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>]
 ],<item:rankine:flint_axe>);
 
+flintRecipe("log_pile",<item:charcoal_pit:log_pile>,[
+  [<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:logs_that_burn>],
+  [<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:logs_that_burn>],
+  [<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:logs_that_burn>]
+],<item:rankine:flint_axe>);
+
 flintRecipe("workbench",<item:minecraft:crafting_table>,[
   [<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>],
   [<item:immersiveengineering:treated_wood_horizontal>,<item:immersiveengineering:treated_wood_horizontal>,<item:immersiveengineering:treated_wood_horizontal>],
