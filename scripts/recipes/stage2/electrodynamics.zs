@@ -27,6 +27,11 @@ recipeShaped("circuitbasic",<item:electrodynamics:circuitbasic>,[
   [<item:minecraft:redstone>,<item:electrodynamics:ceramicplate>,<item:minecraft:redstone>],
   [<item:electrodynamics:wireinsulatedcopper>,<item:electrodynamics:wirecopper>,<item:electrodynamics:wireinsulatedcopper>]
 ]);
+craftingTable.addShaped("constantan_coil",<item:kubejs:constantan_coil>,[
+  [<item:kubejs:constantan_wire>,<item:kubejs:constantan_wire>,<item:kubejs:constantan_wire>],
+  [<item:kubejs:constantan_wire>,<item:rankine:cast_iron_rod>,<item:kubejs:constantan_wire>],
+  [<item:kubejs:constantan_wire>,<item:kubejs:constantan_wire>,<item:kubejs:constantan_wire>]
+]);
 
 recipeShaped("upgradetransformer",<item:electrodynamics:upgradetransformer>,[
   [<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>],

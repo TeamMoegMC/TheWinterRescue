@@ -15,13 +15,11 @@ onEvent('worldgen.add', event => {
 	  '#the_end'
     ]
 
-    
     ore.clusterMinSize = 10
     ore.clusterMaxSize = 20
-    ore.clusterCount = 10
-    ore.minHeight = 32 
-    ore.maxHeight = 84 
+    ore.clusterCount = 8
+    ore.minHeight = 32
+    ore.maxHeight = 84
     ore.squared = true 
-
   })
 })

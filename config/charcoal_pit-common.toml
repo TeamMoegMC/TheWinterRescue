@@ -32,7 +32,7 @@
 	BloomCooldown = 2000
 	#The minimum time the bloomery takes to finish. 1000 Ticks = 1 MC hour
 	#Range: > 1000
-	BloomeryTime = 4000
+	BloomeryTime = 3000
 	#If the bloomery should require a higher tier pickaxe to mine. Disabled by default as none exist in vanilla before iron
 	EnableBloomeryPickRequirement = false
 

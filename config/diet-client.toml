@@ -1,0 +1,11 @@
+
+[gui]
+	#The x-position of the GUI button
+	#Range: -10000 ~ 10000
+	buttonX = 126
+	#The y-position of the GUI button
+	#Range: -10000 ~ 10000
+	buttonY = -22
+	#The main text color for the GUI
+	textColor = "4210752"
+

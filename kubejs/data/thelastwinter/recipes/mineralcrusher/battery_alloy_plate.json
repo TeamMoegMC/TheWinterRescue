@@ -1,0 +1,12 @@
+{
+    "type":"electrodynamics:mineral_crusher_recipe",
+
+    "input":{
+        "item":"kubejs:battery_alloy",
+        "count":3
+    },
+    "output":{
+        "item":"kubejs:battery_alloy_plate",
+        "count":2
+    }
+}

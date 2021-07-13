@@ -1,0 +1,12 @@
+{
+    "type":"electrodynamics:wire_mill_recipe",
+
+    "input":{
+        "tag":"forge:plates/electrum",
+        "count":1
+    },
+    "output":{
+        "item":"immersiveengineering:wire_electrum",
+        "count":1
+    }
+}

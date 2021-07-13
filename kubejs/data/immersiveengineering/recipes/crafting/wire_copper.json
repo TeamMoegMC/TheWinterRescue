@@ -1,0 +1,12 @@
+{
+    "type":"electrodynamics:wire_mill_recipe",
+
+    "input":{
+        "tag":"forge:plates/copper",
+        "count":1
+    },
+    "output":{
+        "item":"immersiveengineering:wire_copper",
+        "count":1
+    }
+}

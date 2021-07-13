@@ -1,0 +1,12 @@
+{
+    "type":"electrodynamics:wire_mill_recipe",
+
+    "input":{
+        "tag":"forge:plates/lead",
+        "count":1
+    },
+    "output":{
+        "item":"immersiveengineering:wire_lead",
+        "count":1
+    }
+}

@@ -42,17 +42,17 @@
 	#Range: 0 ~ 256
 	netherHeight = 127
 	#Blocks to generate in Swamp Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	swampBlockList = ["rankine:peridotite", "rankine:comendite", "rankine:mica_schist", "rankine:red_dacite", "rankine:slate", "rankine:black_marble", "rankine:dolostone", "rankine:mudstone"]
+	swampBlockList = ["rankine:mica_schist", "rankine:red_dacite", "rankine:slate", "rankine:black_marble", "rankine:dolostone", "rankine:mudstone"]
 	#Sets the average height of a biome type. The thickness of a layer is biome height / number of layers. Anything above this height will generally generate as the last layer.
 	#Range: 0 ~ 256
 	beachHeight = 65
 	#Blocks to generate in Savanna Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	savannaBlockList = ["rankine:troctolite", "rankine:rhyolite", "rankine:gneiss", "rankine:red_dacite", "rankine:phyllite", "rankine:white_marble", "rankine:tufa_limestone", "rankine:siltstone"]
+	savannaBlockList = ["rankine:rhyolite", "rankine:red_dacite", "rankine:white_marble", "rankine:tufa_limestone"]
 	#Determines the vertical spread of stone layers. 1.0 is flat, closer to 0.0 is more extreme, 0.0 will crash.
 	#Range: 0.0 ~ 1.0
 	layerWidth = 0.2
 	#Blocks to generate in Desert Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	desertBlockLiisst = ["rankine:troctolite", "rankine:rhyolite", "rankine:gneiss", "rankine:red_dacite", "rankine:phyllite", "rankine:quartzite", "rankine:tufa_limestone", "rankine:quartz_sandstone"]
+	desertBlockLiisst = ["rankine:rhyolite", "rankine:red_dacite", "rankine:quartzite", "rankine:tufa_limestone", "rankine:quartz_sandstone"]
 	#This determines how close the overlap of noise layers is. A value of 0 means all layers are shaped identically.
 	#Range: 0 ~ 1024
 	noiseOffset = 256
@@ -72,7 +72,7 @@
 	#Range: 0 ~ 256
 	plainsHeight = 65
 	#Blocks to generate in Forest Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	forestBlockList = ["rankine:peridotite", "rankine:comendite", "rankine:gneiss", "rankine:black_dacite", "rankine:phyllite", "rankine:black_marble", "rankine:dolostone", "rankine:anorthosite"]
+	forestBlockList = ["rankine:gray_granite", "rankine:komatiite", "rankine:black_dacite", "rankine:black_marble", "rankine:dolostone"]
 	#Sets the average height of a biome type. The thickness of a layer is biome height / number of layers. Anything above this height will generally generate as the last layer.
 	#Range: 0 ~ 256
 	jungleHeight = 65
@@ -80,20 +80,20 @@
 	#Range: 0 ~ 256
 	forestHeight = 65
 	#Blocks to generate in Mesa Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	mesaBlockList = ["rankine:troctolite", "rankine:rhyolite", "rankine:gneiss", "rankine:red_dacite", "rankine:phyllite", "rankine:quartzite", "rankine:tufa_limestone", "rankine:arkose_sandstone"]
+	mesaBlockList = ["rankine:granodiorite", "rankine:rhyolite", "rankine:red_dacite", "rankine:quartzite", "rankine:tufa_limestone"]
 	#Sets the average height of a biome type. The thickness of a layer is biome height / number of layers. Anything above this height will generally generate as the last layer.
 	#Range: 0 ~ 256
 	mountainHeight = 65
 	#Blocks to generate in Mountain Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	mountainBlockList = ["rankine:peridotite", "rankine:comendite", "rankine:gneiss", "rankine:red_dacite", "rankine:phyllite", "rankine:mariposite", "rankine:dolostone", "minecraft:andesite", "rankine:hornblende_andesite"]
+	mountainBlockList = ["rankine:hornblende_andesite", "minecraft:andesite", "rankine:red_dacite", "rankine:pegmatite", "rankine:dolostone", "minecraft:andesite", "rankine:breccia"]
 	#Blocks to generate in River Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	riverBlockList = ["rankine:peridotite", "rankine:comendite", "rankine:mica_schist", "rankine:black_dacite", "rankine:phyllite", "rankine:white_marble", "rankine:tufa_limestone", "rankine:anorthosite"]
+	riverBlockList = ["rankine:mica_schist", "rankine:black_dacite", "rankine:white_marble", "rankine:tufa_limestone"]
 	#Blocks to generate in Nether layering. Layers generate from bottom to top. Leave empty to leave it as default gen.
 	netherStoneList = ["rankine:black_sand", "minecraft:blackstone", "rankine:purple_porphyry", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "rankine:red_porphyry"]
 	#Blocks to generate in Icy Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	icyBlockList = ["rankine:peridotite", "rankine:comendite", "rankine:mica_schist", "rankine:black_dacite", "rankine:phyllite", "rankine:black_marble", "rankine:dolostone", "rankine:carbonaceous_shale"]
+	icyBlockList = ["rankine:mica_schist", "rankine:black_dacite", "rankine:black_marble", "rankine:dolostone", "rankine:carbonaceous_shale"]
 	#Blocks to generate in Plains Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	plainsBlockList = ["rankine:peridotite", "rankine:comendite", "rankine:mica_schist", "rankine:black_dacite", "rankine:phyllite", "rankine:white_marble", "rankine:dolostone", "rankine:carbonaceous_shale"]
+	plainsBlockList = ["rankine:mica_schist", "minecraft:granite", "rankine:black_dacite", "rankine:white_marble", "rankine:dolostone", "rankine:carbonaceous_shale"]
 	#Determines the type of stone layer generation in the End. 0 is disabled (end stone and other features). 1 will only replace end stone with Rankine stones. 2 will replace any block in the tag #forge:base_stone_end.
 	#Range: 0 ~ 2
 	endLayerGen = 1
@@ -110,7 +110,7 @@
 	#Range: 0 ~ 256
 	mesaHeight = 65
 	#Blocks to generate in Jungle Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	jungleBlockList = ["rankine:peridotite", "rankine:comendite", "rankine:mica_schist", "rankine:red_dacite", "rankine:slate", "rankine:black_marble", "rankine:dolostone", "rankine:anorthosite"]
+	jungleBlockList = ["rankine:mica_schist", "rankine:red_dacite", "rankine:slate", "rankine:black_marble", "rankine:dolostone"]
 	#Sets the average height of a biome type. The thickness of a layer is biome height / number of layers. Anything above this height will generally generate as the last layer.
 	#Range: 0 ~ 256
 	riverHeight = 65
@@ -124,55 +124,55 @@
 	#Range: 0 ~ 256
 	icyHeight = 65
 	#Blocks to generate in Mushroom Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	mushroomBlockList = ["rankine:troctolite", "rankine:tholeiitic_basalt", "rankine:chalk", "rankine:slate", "rankine:skarn", "rankine:anorthosite"]
+	mushroomBlockList = ["rankine:tholeiitic_basalt", "rankine:chalk", "rankine:slate", "rankine:skarn"]
 	#Blocks to generate in Beach Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	beachBlockList = ["rankine:peridotite", "rankine:comendite", "rankine:mica_schist", "rankine:black_dacite", "rankine:phyllite", "rankine:white_marble", "rankine:dolostone", "rankine:anorthosite"]
+	beachBlockList = ["rankine:mica_schist", "rankine:black_dacite", "rankine:white_marble", "rankine:dolostone"]
 	#Blocks to generate in End layering. Layers generate from bottom to top. Leave empty to leave it as default gen.
 	endStoneList = ["rankine:enstatite", "rankine:enstatite", "rankine:enstatite", "rankine:meteorite", "rankine:meteorite", "rankine:skarn", "minecraft:end_stone"]
 	#Determines the type of stone layer generation in the Nether. 0 is disabled (netherrack and other features). 1 will only replace netherrack with Rankine stones. 2 will replace any block in the tag #minecraft:base_stone_nether.
 	#Range: 0 ~ 2
 	netherdLayerGen = 1
 	#Blocks to generate in any other biome types not listed. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	defaultBlockList = ["rankine:peridotite", "rankine:comendite", "rankine:mica_schist", "rankine:black_dacite", "rankine:phyllite", "rankine:white_marble", "rankine:dolostone", "rankine:anorthosite"]
+	defaultBlockList = ["rankine:mica_schist", "rankine:black_dacite", "rankine:white_marble", "rankine:dolostone"]
 	#Blocks to generate in Ocean Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	oceanBlockList = ["rankine:troctolite", "rankine:tholeiitic_basalt", "rankine:chalk", "rankine:slate", "rankine:breccia"]
+	oceanBlockList = ["rankine:tholeiitic_basalt", "rankine:chalk", "rankine:slate", "rankine:breccia"]
 
 #Settings for intrusions
 [intrusions]
 	#Chance for an pegmatite intrusion block to be replaced by an petalite ore
 	#Range: 0.0 ~ 1.0
-	petaliteOreChance = 0.0
+	petaliteOreChance = 0
 	#List of blocks to be generated as intrusions. Each block is followed by its weight.
-	overworldIntrusionList = ["rankine:kimberlite", "1", "rankine:gray_granite", "1", "rankine:granodiorite", "1", "minecraft:granite", "1", "minecraft:diorite", "1", "rankine:pyroxene_gabbro", "1", "rankine:pegmatite", "1"]
+	overworldIntrusionList = []
 	#Chance for an kimberlite intrusion block to be replaced by an ilmenite ore
 	#Range: 0.0 ~ 1.0
-	ilmeniteOreChance = 0.0
+	ilmeniteOreChance = 0
 	#Chance for an overworld intrusion to spawn in a chunk. Set to 0 to disable.
 	#Range: 0.0 ~ 1.0
-	overworldIntrusionChance = 0.0
+	overworldIntrusionChance = 0
 	#Maximum radius of an intrusion
 	#Range: 0 ~ 15
 	netherIntrusionRadius = 0
 	#Chance for an overworld intrusion to shift as it goes up. Values closer to 0 result in straighter intrusions
 	#Range: 0.0 ~ 1.0
-	overworldIntrusionShift = 0.0
+	overworldIntrusionShift = 0
 	#Size of an intrusion
 	#Range: 0 ~ 15
 	overworldIntrusionRadius = 0
 	#Chance for an nether intrusion to shift as it goes up. Values closer to 0 result in straighter intrusions
 	#Range: 0.0 ~ 1.0
-	netherIntrusionShift = 0.0
+	netherIntrusionShift = 0
 	#Chance for nether intrusions to spawn
 	#Range: 0.0 ~ 1.0
-	netherIntrusionChance = 0.0
+	netherIntrusionChance = 0
 	#Chance for an komatiite intrusion block to be replaced by an interspinifex ore
 	#Range: 0.0 ~ 1.0
-	interspinifexOreChance = 0.0
+	interspinifexOreChance = 0
 	#List of blocks to be generated as intrusions. Each block is followed by its weight.
-	netherIntrusionList = ["rankine:pumice", "1", "rankine:scoria", "1", "rankine:perovskite", "1", "rankine:bridgmanite", "1", "rankine:wadsleyite", "1", "rankine:komatiite", "1", "rankine:ferropericlase", "1", "rankine:ringwoodite", "1"]
+	netherIntrusionList = []
 	#Chance for an kimberlite intrusion block to be replaced by a diamond ore
 	#Range: 0.0 ~ 1.0
-	diamondOreChance = 0.0
+	diamondOreChance = 0
 
 #Oregen Settings
 [oregen]
@@ -189,33 +189,33 @@
 		#Range: 0 ~ 256
 		nativeBismuthOreChance = 0
 		#If false, nativeBismuthOreChance will determine how many tries per chunk ore veins will generate. If true, nativeBismuthOreChance will determine 1 in how many chunks a vein will spawn.
-		nativeBismuthOreGentype = false
+		nativeBismuthOreGentype = true
 		#Harvest Level of Native Bismuth Ore.
 		#Range: 0 ~ 4
 		nativeBismuthOreHL = 0
 		#Dimensions to generate Native Bismuth Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Native Bismuth Ore generation.
 		nativeBismuthOreDimList = []
 		#If true, a mega Native Bismuth Ore vein will generate according to the parameters nativeBismuthOreMegaVeinSize andnativeBismuthOreMegaVeinChance
-		nativeBismuthOreMegaVeins = false
+		nativeBismuthOreMegaVeins = true
 		#The maximum size of mega Native Bismuth Ore vein.
 		#Range: 0 ~ 500
-		nativeBismuthOreMegaVeinSize = 0
+		nativeBismuthOreMegaVeinSize = 500
 		#Blocks to generate Native Bismuth Ore in if nativeBismuthOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
-		nativeBismuthOreBlockList = []
+		nativeBismuthOreBlockList = ["B#rankine:pegmatite", "B#rankine:rhyolite", "B#rankine:quartzite", "B#rankine:quartz_sandstone"]
 		#The maximum size of Native Bismuth Ore vein
 		#Range: 0 ~ 500
-		nativeBismuthOreSize = 6
+		nativeBismuthOreSize = 500
 		#Maximum height to generate Native Bismuth Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
-		nativeBismuthOreMax = 85
+		nativeBismuthOreMax = 65
 		#If true Native Bismuth Ore will only spawn in the blocks listed under nativeBismuthOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in nativeBismuthOreDimList.
-		nativeBismuthOreStoneSpecific = false
+		nativeBismuthOreStoneSpecific = true
 		#Minimum height to generate Native Bismuth Ore at (make sure it is less than the maximum)
 		#Range: 0 ~ 256
-		nativeBismuthOreMin = 50
+		nativeBismuthOreMin = 5
 		#Determines 1 in how many chunks a mega Native Bismuth Ore vein will spawn.
 		#Range: 0 ~ 500
-		nativeBismuthOreMegaVeinChance = 20
+		nativeBismuthOreMegaVeinChance = 500
 
 	#Native Silver Ore Settings
 	[oregen.nativeSilverOre]
@@ -261,7 +261,7 @@
 		#If true Monazite Ore will only spawn in the blocks listed under monaziteOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in monaziteOreDimList.
 		monaziteOreStoneSpecific = false
 		#Dimensions to generate Monazite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Monazite Ore generation.
-		monaziteOreDimList = ["nether"]
+		monaziteOreDimList = []
 		#Maximum height to generate Monazite Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
 		monaziteOreMax = 40
@@ -314,7 +314,7 @@
 		#Range: 0 ~ 4
 		lonsdaleiteOreHL = 4
 		#Dimensions to generate Lonsdaleite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Lonsdaleite Ore generation.
-		lonsdaleiteOreDimList = ["end"]
+		lonsdaleiteOreDimList = []
 		#The maximum size of Lonsdaleite Ore vein
 		#Range: 0 ~ 500
 		lonsdaleiteOreSize = 5
@@ -345,7 +345,7 @@
 		#Range: 0 ~ 500
 		taeniteOreSize = 10
 		#Dimensions to generate taenite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable taenite Ore generation.
-		taeniteOreDimList = ["end"]
+		taeniteOreDimList = []
 		#Maximum height to generate taenite Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
 		taeniteOreMax = 40
@@ -405,7 +405,7 @@
 		#Range: 0 ~ 256
 		nativeTelluriumOreMax = 60
 		#Dimensions to generate Native Tellurium Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Native Tellurium Ore generation.
-		nativeTelluriumOreDimList = ["end"]
+		nativeTelluriumOreDimList = []
 		#Minimum height to generate Native Tellurium Ore at (make sure it is less than the maximum)
 		#Range: 0 ~ 256
 		nativeTelluriumOreMin = 10
@@ -447,7 +447,7 @@
 		#Range: 0 ~ 256
 		nativeSulfurOreChance = 0
 		#Dimensions to generate Native Sulfur Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Native Sulfur Ore generation.
-		nativeSulfurOreDimList = ["nether"]
+		nativeSulfurOreDimList = []
 		#The maximum size of Native Sulfur Ore vein
 		#Range: 0 ~ 500
 		nativeSulfurOreSize = 6
@@ -495,33 +495,33 @@
 		#Range: 0 ~ 256
 		cassiteriteOreChance = 0
 		#If true Cassiterite Ore will only spawn in the blocks listed under cassiteriteOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in cassiteriteOreDimList.
-		cassiteriteOreStoneSpecific = false
+		cassiteriteOreStoneSpecific = true
 		#Maximum height to generate Cassiterite Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
-		cassiteriteOreMax = 60
+		cassiteriteOreMax = 65
 		#Harvest Level of Cassiterite Ore.
 		#Range: 0 ~ 4
-		cassiteriteOreHL = 1
+		cassiteriteOreHL = 0
 		#If false, cassiteriteOreChance will determine how many tries per chunk ore veins will generate. If true, cassiteriteOreChance will determine 1 in how many chunks a vein will spawn.
 		cassiteriteOreGentype = true
 		#Determines 1 in how many chunks a mega Cassiterite Ore vein will spawn.
 		#Range: 0 ~ 500
-		cassiteriteOreMegaVeinChance = 40
+		cassiteriteOreMegaVeinChance = 500
 		#Minimum height to generate Cassiterite Ore at (make sure it is less than the maximum)
 		#Range: 0 ~ 256
-		cassiteriteOreMin = 40
+		cassiteriteOreMin = 20
 		#If true, a mega Cassiterite Ore vein will generate according to the parameters cassiteriteOreMegaVeinSize andcassiteriteOreMegaVeinChance
-		cassiteriteOreMegaVeins = false
+		cassiteriteOreMegaVeins = true
 		#Dimensions to generate Cassiterite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Cassiterite Ore generation.
 		cassiteriteOreDimList = []
 		#Blocks to generate Cassiterite Ore in if cassiteriteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
-		cassiteriteOreBlockList = []
+		cassiteriteOreBlockList = ["B#minecraft:diorite", "B#rankine:granodiorite", "B#minecraft:granite", "B#rankine:gray_granite", "B#rankine:pyroxene_gabbro"]
 		#The maximum size of Cassiterite Ore vein
 		#Range: 0 ~ 500
-		cassiteriteOreSize = 24
+		cassiteriteOreSize = 500
 		#The maximum size of mega Cassiterite Ore vein.
 		#Range: 0 ~ 500
-		cassiteriteOreMegaVeinSize = 50
+		cassiteriteOreMegaVeinSize = 500
 
 	#Majorite Ore Settings
 	[oregen.majoriteOre]
@@ -565,31 +565,31 @@
 		#If true Pyrite Ore will only spawn in the blocks listed under pyriteOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in pyriteOreDimList.
 		pyriteOreStoneSpecific = true
 		#Dimensions to generate Pyrite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Pyrite Ore generation.
-		pyriteOreDimList = ["overworld"]
+		pyriteOreDimList = []
 		#The maximum size of Pyrite Ore vein
 		#Range: 0 ~ 500
-		pyriteOreSize = 50
+		pyriteOreSize = 500
 		#The maximum size of mega Pyrite Ore vein.
 		#Range: 0 ~ 500
-		pyriteOreMegaVeinSize = 200
+		pyriteOreMegaVeinSize = 500
 		#Determines 1 in how many chunks a mega Pyrite Ore vein will spawn.
 		#Range: 0 ~ 500
-		pyriteOreMegaVeinChance = 50
+		pyriteOreMegaVeinChance = 500
 		#Blocks to generate Pyrite Ore in if pyriteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
 		pyriteOreBlockList = ["B#rankine:mica_schist", "B#rankine:rhyolite", "B#rankine:komatiite", "B#rankine:tholeiitic_basalt", "B#rankine:red_dacite", "B#rankine:black_dacite"]
 		#Minimum height to generate Pyrite Ore at (make sure it is less than the maximum)
 		#Range: 0 ~ 256
 		pyriteOreMin = 5
 		#If false, pyriteOreChance will determine how many tries per chunk ore veins will generate. If true, pyriteOreChance will determine 1 in how many chunks a vein will spawn.
-		pyriteOreGentype = false
+		pyriteOreGentype = true
 		#Maximum height to generate Pyrite Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
 		pyriteOreMax = 50
 		#Count / chance number to be used depending on pyriteOreGentype.
 		#Range: 0 ~ 256
-		pyriteOreChance = 200
+		pyriteOreChance = 0
 		#If true, a mega Pyrite Ore vein will generate according to the parameters pyriteOreMegaVeinSize andpyriteOreMegaVeinChance
-		pyriteOreMegaVeins = false
+		pyriteOreMegaVeins = true
 
 	#Celestine Ore Settings
 	[oregen.celestineOre]
@@ -649,7 +649,7 @@
 		#Range: 0 ~ 4
 		ilmeniteOreHL = 3
 		#Dimensions to generate Ilmenite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Ilmenite Ore generation.
-		ilmeniteOreDimList = ["nether"]
+		ilmeniteOreDimList = []
 		#Minimum height to generate Ilmenite Ore at (make sure it is less than the maximum)
 		#Range: 0 ~ 256
 		ilmeniteOreMin = 90
@@ -709,7 +709,7 @@
 		#Range: 0 ~ 256
 		tetrataeniteOreMax = 40
 		#Dimensions to generate Tetrataenite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Tetrataenite Ore generation.
-		tetrataeniteOreDimList = ["end"]
+		tetrataeniteOreDimList = []
 		#Blocks to generate Tetrataenite Ore in if tetrataeniteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
 		tetrataeniteOreBlockList = ["B#rankine:meteorite", "B#rankine:enstatite"]
 		#The maximum size of Tetrataenite Ore vein
@@ -731,33 +731,33 @@
 	[oregen.malachiteOre]
 		#Determines 1 in how many chunks a mega Malachite Ore vein will spawn.
 		#Range: 0 ~ 500
-		malachiteOreMegaVeinChance = 40
+		malachiteOreMegaVeinChance = 500
 		#The maximum size of Malachite Ore vein
 		#Range: 0 ~ 500
-		malachiteOreSize = 24
+		malachiteOreSize = 500
 		#The maximum size of mega Malachite Ore vein.
 		#Range: 0 ~ 500
-		malachiteOreMegaVeinSize = 50
+		malachiteOreMegaVeinSize = 500
 		#Maximum height to generate Malachite Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
-		malachiteOreMax = 60
+		malachiteOreMax = 65
 		#If true, a mega Malachite Ore vein will generate according to the parameters malachiteOreMegaVeinSize andmalachiteOreMegaVeinChance
-		malachiteOreMegaVeins = false
+		malachiteOreMegaVeins = true
 		#Count / chance number to be used depending on malachiteOreGentype.
 		#Range: 0 ~ 256
 		malachiteOreChance = 0
 		#Blocks to generate Malachite Ore in if malachiteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
-		malachiteOreBlockList = []
+		malachiteOreBlockList = ["B#rankine:tufa_limestone", "B#rankine:white_marble", "B#rankine:black_marble", "B#rankine:breccia"]
 		#Minimum height to generate Malachite Ore at (make sure it is less than the maximum)
 		#Range: 0 ~ 256
-		malachiteOreMin = 40
+		malachiteOreMin = 25
 		#If false, malachiteOreChance will determine how many tries per chunk ore veins will generate. If true, malachiteOreChance will determine 1 in how many chunks a vein will spawn.
 		malachiteOreGentype = true
 		#Harvest Level of Malachite Ore.
 		#Range: 0 ~ 4
-		malachiteOreHL = 1
+		malachiteOreHL = 0
 		#If true Malachite Ore will only spawn in the blocks listed under malachiteOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in malachiteOreDimList.
-		malachiteOreStoneSpecific = false
+		malachiteOreStoneSpecific = true
 		#Dimensions to generate Malachite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Malachite Ore generation.
 		malachiteOreDimList = []
 
@@ -784,7 +784,7 @@
 		#Range: 0 ~ 256
 		uraniniteOreMax = 60
 		#Dimensions to generate Uraninite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Uraninite Ore generation.
-		uraniniteOreDimList = ["end"]
+		uraniniteOreDimList = []
 		#Harvest Level of Uraninite Ore.
 		#Range: 0 ~ 4
 		uraniniteOreHL = 4
@@ -861,7 +861,7 @@
 		#If true Molybdenite Ore will only spawn in the blocks listed under molybdeniteOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in molybdeniteOreDimList.
 		molybdeniteOreStoneSpecific = false
 		#Dimensions to generate Molybdenite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Molybdenite Ore generation.
-		molybdeniteOreDimList = ["end"]
+		molybdeniteOreDimList = []
 
 	#Stibnite Ore Settings
 	[oregen.stibniteOre]
@@ -869,33 +869,33 @@
 		stibniteOreDimList = []
 		#Determines 1 in how many chunks a mega Stibnite Ore vein will spawn.
 		#Range: 0 ~ 500
-		stibniteOreMegaVeinChance = 20
+		stibniteOreMegaVeinChance = 500
 		#If true, a mega Stibnite Ore vein will generate according to the parameters stibniteOreMegaVeinSize andstibniteOreMegaVeinChance
-		stibniteOreMegaVeins = false
+		stibniteOreMegaVeins = true
 		#Harvest Level of Stibnite Ore.
 		#Range: 0 ~ 4
-		stibniteOreHL = 0
+		stibniteOreHL = 1
 		#Maximum height to generate Stibnite Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
-		stibniteOreMax = 85
+		stibniteOreMax = 70
 		#If false, stibniteOreChance will determine how many tries per chunk ore veins will generate. If true, stibniteOreChance will determine 1 in how many chunks a vein will spawn.
-		stibniteOreGentype = false
+		stibniteOreGentype = true
 		#Count / chance number to be used depending on stibniteOreGentype.
 		#Range: 0 ~ 256
 		stibniteOreChance = 0
 		#If true Stibnite Ore will only spawn in the blocks listed under stibniteOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in stibniteOreDimList.
-		stibniteOreStoneSpecific = false
+		stibniteOreStoneSpecific = true
 		#Minimum height to generate Stibnite Ore at (make sure it is less than the maximum)
 		#Range: 0 ~ 256
-		stibniteOreMin = 50
+		stibniteOreMin = 30
 		#The maximum size of Stibnite Ore vein
 		#Range: 0 ~ 500
-		stibniteOreSize = 5
+		stibniteOreSize = 500
 		#Blocks to generate Stibnite Ore in if stibniteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
-		stibniteOreBlockList = []
+		stibniteOreBlockList = ["B#rankine:tufa_limestone", "B#rankine:white_marble", "B#rankine:black_marble"]
 		#The maximum size of mega Stibnite Ore vein.
 		#Range: 0 ~ 500
-		stibniteOreMegaVeinSize = 70
+		stibniteOreMegaVeinSize = 500
 
 	#Native Copper Ore Settings
 	[oregen.nativeCopperOre]
@@ -907,29 +907,29 @@
 		nativeCopperOreChance = 0
 		#The maximum size of mega Native Copper Ore vein.
 		#Range: 0 ~ 500
-		nativeCopperOreMegaVeinSize = 0
+		nativeCopperOreMegaVeinSize = 500
 		#Blocks to generate Native Copper Ore in if nativeCopperOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
-		nativeCopperOreBlockList = []
+		nativeCopperOreBlockList = ["B#minecraft:andesite", "B#rankine:black_dacite", "B#rankine:red_dacite", "B#rankine:tholeiitic_basalt", "B#rankine:slate"]
 		#Dimensions to generate Native Copper Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Native Copper Ore generation.
 		nativeCopperOreDimList = []
 		#If true, a mega Native Copper Ore vein will generate according to the parameters nativeCopperOreMegaVeinSize andnativeCopperOreMegaVeinChance
-		nativeCopperOreMegaVeins = false
+		nativeCopperOreMegaVeins = true
 		#If true Native Copper Ore will only spawn in the blocks listed under nativeCopperOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in nativeCopperOreDimList.
-		nativeCopperOreStoneSpecific = false
+		nativeCopperOreStoneSpecific = true
 		#If false, nativeCopperOreChance will determine how many tries per chunk ore veins will generate. If true, nativeCopperOreChance will determine 1 in how many chunks a vein will spawn.
-		nativeCopperOreGentype = false
+		nativeCopperOreGentype = true
 		#Maximum height to generate Native Copper Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
-		nativeCopperOreMax = 85
+		nativeCopperOreMax = 65
 		#Minimum height to generate Native Copper Ore at (make sure it is less than the maximum)
 		#Range: 0 ~ 256
-		nativeCopperOreMin = 50
+		nativeCopperOreMin = 20
 		#The maximum size of Native Copper Ore vein
 		#Range: 0 ~ 500
-		nativeCopperOreSize = 9
+		nativeCopperOreSize = 500
 		#Determines 1 in how many chunks a mega Native Copper Ore vein will spawn.
 		#Range: 0 ~ 500
-		nativeCopperOreMegaVeinChance = 20
+		nativeCopperOreMegaVeinChance = 500
 
 	#Moissanite Ore Settings
 	[oregen.moissaniteOre]
@@ -944,7 +944,7 @@
 		#If true, a mega Moissanite Ore vein will generate according to the parameters moissaniteOreMegaVeinSize andmoissaniteOreMegaVeinChance
 		moissaniteOreMegaVeins = false
 		#Dimensions to generate Moissanite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Moissanite Ore generation.
-		moissaniteOreDimList = ["nether"]
+		moissaniteOreDimList = []
 		#If true Moissanite Ore will only spawn in the blocks listed under moissaniteOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in moissaniteOreDimList.
 		moissaniteOreStoneSpecific = false
 		#The maximum size of Moissanite Ore vein
@@ -1063,7 +1063,7 @@
 		#If true, a mega Tantalite Ore vein will generate according to the parameters tantaliteOreMegaVeinSize andtantaliteOreMegaVeinChance
 		tantaliteOreMegaVeins = false
 		#Dimensions to generate Tantalite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Tantalite Ore generation.
-		tantaliteOreDimList = ["nether"]
+		tantaliteOreDimList = []
 		#Blocks to generate Tantalite Ore in if tantaliteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
 		tantaliteOreBlockList = []
 
@@ -1084,7 +1084,7 @@
 		#Range: 0 ~ 500
 		diamondOreMegaVeinSize = 0
 		#If true Diamond Ore will only spawn in the blocks listed under diamondOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in diamondOreDimList.
-		diamondOreStoneSpecific = false
+		diamondOreStoneSpecific = true
 		#Minimum height to generate Diamond Ore at (make sure it is less than the maximum)
 		#Range: 0 ~ 256
 		diamondOreMin = 40
@@ -1124,7 +1124,7 @@
 		#Blocks to generate Greenockite Ore in if greenockiteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
 		greenockiteOreBlockList = []
 		#Dimensions to generate Greenockite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Greenockite Ore generation.
-		greenockiteOreDimList = ["end"]
+		greenockiteOreDimList = []
 		#Harvest Level of Greenockite Ore.
 		#Range: 0 ~ 4
 		greenockiteOreHL = 3
@@ -1144,7 +1144,7 @@
 		#Blocks to generate Fluorite Ore in if fluoriteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
 		fluoriteOreBlockList = []
 		#Dimensions to generate Fluorite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Fluorite Ore generation.
-		fluoriteOreDimList = ["end"]
+		fluoriteOreDimList = []
 		#The maximum size of mega Fluorite Ore vein.
 		#Range: 0 ~ 500
 		fluoriteOreMegaVeinSize = 70
@@ -1334,7 +1334,7 @@
 		#Range: 0 ~ 4
 		nativeSeleniumOreHL = 3
 		#Dimensions to generate Native Selenium Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Native Selenium Ore generation.
-		nativeSeleniumOreDimList = ["end"]
+		nativeSeleniumOreDimList = []
 		#Maximum height to generate Native Selenium Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
 		nativeSeleniumOreMax = 60
@@ -1349,7 +1349,7 @@
 		#Range: 0 ~ 4
 		quartzOreHL = 1
 		#Dimensions to generate Quartz Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Quartz Ore generation.
-		quartzOreDimList = ["nether"]
+		quartzOreDimList = []
 		#If true Quartz Ore will only spawn in the blocks listed under quartzOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in quartzOreDimList.
 		quartzOreStoneSpecific = false
 		#Count / chance number to be used depending on quartzOreGentype.
@@ -1410,7 +1410,7 @@
 	#Anthracite Ore Settings
 	[oregen.anthraciteOre]
 		#Dimensions to generate Anthracite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Anthracite Ore generation.
-		anthraciteOreDimList = ["nether"]
+		anthraciteOreDimList = []
 		#Blocks to generate Anthracite Ore in if anthraciteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
 		anthraciteOreBlockList = []
 		#The maximum size of Anthracite Ore vein
@@ -1504,7 +1504,7 @@
 		#If false, xenotimeOreChance will determine how many tries per chunk ore veins will generate. If true, xenotimeOreChance will determine 1 in how many chunks a vein will spawn.
 		xenotimeOreGentype = false
 		#Dimensions to generate Xenotime Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Xenotime Ore generation.
-		xenotimeOreDimList = ["end"]
+		xenotimeOreDimList = []
 		#The maximum size of Xenotime Ore vein
 		#Range: 0 ~ 500
 		xenotimeOreSize = 7
@@ -1558,7 +1558,7 @@
 		#Range: 0 ~ 500
 		nativeArsenicOreMegaVeinSize = 70
 		#Dimensions to generate Native Arsenic Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Native Arsenic Ore generation.
-		nativeArsenicOreDimList = ["nether"]
+		nativeArsenicOreDimList = []
 		#Harvest Level of Native Arsenic Ore.
 		#Range: 0 ~ 4
 		nativeArsenicOreHL = 1
@@ -1620,30 +1620,30 @@
 		pentlanditeOreChance = 0
 		#Determines 1 in how many chunks a mega Pentlandite Ore vein will spawn.
 		#Range: 0 ~ 500
-		pentlanditeOreMegaVeinChance = 40
+		pentlanditeOreMegaVeinChance = 500
 		#If true Pentlandite Ore will only spawn in the blocks listed under pentlanditeOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in pentlanditeOreDimList.
-		pentlanditeOreStoneSpecific = false
+		pentlanditeOreStoneSpecific = true
 		#The maximum size of mega Pentlandite Ore vein.
 		#Range: 0 ~ 500
-		pentlanditeOreMegaVeinSize = 50
+		pentlanditeOreMegaVeinSize = 500
 		#If false, pentlanditeOreChance will determine how many tries per chunk ore veins will generate. If true, pentlanditeOreChance will determine 1 in how many chunks a vein will spawn.
 		pentlanditeOreGentype = true
 		#Harvest Level of Pentlandite Ore.
 		#Range: 0 ~ 4
-		pentlanditeOreHL = 2
+		pentlanditeOreHL = 1
 		#Maximum height to generate Pentlandite Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
 		pentlanditeOreMax = 40
 		#Minimum height to generate Pentlandite Ore at (make sure it is less than the maximum)
 		#Range: 0 ~ 256
-		pentlanditeOreMin = 20
+		pentlanditeOreMin = 5
 		#The maximum size of Pentlandite Ore vein
 		#Range: 0 ~ 500
-		pentlanditeOreSize = 24
+		pentlanditeOreSize = 500
 		#If true, a mega Pentlandite Ore vein will generate according to the parameters pentlanditeOreMegaVeinSize andpentlanditeOreMegaVeinChance
-		pentlanditeOreMegaVeins = false
+		pentlanditeOreMegaVeins = true
 		#Blocks to generate Pentlandite Ore in if pentlanditeOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
-		pentlanditeOreBlockList = []
+		pentlanditeOreBlockList = ["B#rankine:rhyolite", "B#minecraft:diorite", "B#rankine:pyroxene_gabbro", "B#rankine:granodiorite"]
 
 	#Kamacite Ore Settings
 	[oregen.kamaciteOre]
@@ -1651,7 +1651,7 @@
 		#Range: 0 ~ 4
 		kamaciteOreHL = 1
 		#Dimensions to generate Kamacite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Kamacite Ore generation.
-		kamaciteOreDimList = ["end"]
+		kamaciteOreDimList = []
 		#Blocks to generate Kamacite Ore in if kamaciteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
 		kamaciteOreBlockList = ["B#rankine:meteorite", "B#rankine:enstatite"]
 		#If true Kamacite Ore will only spawn in the blocks listed under kamaciteOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in kamaciteOreDimList.
@@ -1765,7 +1765,7 @@
 		#Range: 0 ~ 500
 		wolframiteOreSize = 24
 		#Dimensions to generate Wolframite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Wolframite Ore generation.
-		wolframiteOreDimList = ["nether"]
+		wolframiteOreDimList = []
 		#Determines 1 in how many chunks a mega Wolframite Ore vein will spawn.
 		#Range: 0 ~ 500
 		wolframiteOreMegaVeinChance = 40
@@ -1861,7 +1861,7 @@
 		#Range: 0 ~ 500
 		columbiteOreSize = 24
 		#Dimensions to generate Columbite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Columbite Ore generation.
-		columbiteOreDimList = ["nether"]
+		columbiteOreDimList = []
 		#Blocks to generate Columbite Ore in if columbiteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
 		columbiteOreBlockList = []
 		#If true, a mega Columbite Ore vein will generate according to the parameters columbiteOreMegaVeinSize andcolumbiteOreMegaVeinChance
@@ -1896,7 +1896,7 @@
 		#If true, a mega Native Gallium Ore vein will generate according to the parameters nativeGalliumOreMegaVeinSize andnativeGalliumOreMegaVeinChance
 		nativeGalliumOreMegaVeins = false
 		#Dimensions to generate Native Gallium Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Native Gallium Ore generation.
-		nativeGalliumOreDimList = ["end"]
+		nativeGalliumOreDimList = []
 		#Maximum height to generate Native Gallium Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
 		nativeGalliumOreMax = 60
@@ -1956,7 +1956,7 @@
 		#If true, a mega Native Indium Ore vein will generate according to the parameters nativeIndiumOreMegaVeinSize andnativeIndiumOreMegaVeinChance
 		nativeIndiumOreMegaVeins = false
 		#Dimensions to generate Native Indium Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Native Indium Ore generation.
-		nativeIndiumOreDimList = ["end"]
+		nativeIndiumOreDimList = []
 		#Blocks to generate Native Indium Ore in if nativeIndiumOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
 		nativeIndiumOreBlockList = []
 		#Count / chance number to be used depending on nativeIndiumOreGentype.
@@ -2109,7 +2109,7 @@
 		#Range: 0 ~ 4
 		bismuthiniteOreHL = 2
 		#Dimensions to generate Bismuthinite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Bismuthinite Ore generation.
-		bismuthiniteOreDimList = ["nether"]
+		bismuthiniteOreDimList = []
 		#Blocks to generate Bismuthinite Ore in if bismuthiniteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
 		bismuthiniteOreBlockList = []
 		#If false, bismuthiniteOreChance will determine how many tries per chunk ore veins will generate. If true, bismuthiniteOreChance will determine 1 in how many chunks a vein will spawn.
@@ -2124,7 +2124,7 @@
 	#Cobaltite Ore Settings
 	[oregen.cobaltiteOre]
 		#Dimensions to generate Cobaltite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Cobaltite Ore generation.
-		cobaltiteOreDimList = ["nether"]
+		cobaltiteOreDimList = []
 		#The maximum size of mega Cobaltite Ore vein.
 		#Range: 0 ~ 500
 		cobaltiteOreMegaVeinSize = 70
@@ -2203,7 +2203,7 @@
 		#Range: 0 ~ 256
 		sperryliteOreChance = 0
 		#Dimensions to generate Sperrylite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Sperrylite Ore generation.
-		sperryliteOreDimList = ["nether"]
+		sperryliteOreDimList = []
 		#The maximum size of Sperrylite Ore vein
 		#Range: 0 ~ 500
 		sperryliteOreSize = 24
@@ -2329,35 +2329,35 @@
 	[oregen.magnetiteOre]
 		#The maximum size of Magnetite Ore vein
 		#Range: 0 ~ 500
-		magnetiteOreSize = 24
+		magnetiteOreSize = 500
 		#Harvest Level of Magnetite Ore.
 		#Range: 0 ~ 4
-		magnetiteOreHL = 2
+		magnetiteOreHL = 1
 		#If true Magnetite Ore will only spawn in the blocks listed under magnetiteOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in magnetiteOreDimList.
 		magnetiteOreStoneSpecific = false
 		#Maximum height to generate Magnetite Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
-		magnetiteOreMax = 50
+		magnetiteOreMax = 65
 		#If true, a mega Magnetite Ore vein will generate according to the parameters magnetiteOreMegaVeinSize andmagnetiteOreMegaVeinChance
 		magnetiteOreMegaVeins = false
 		#Dimensions to generate Magnetite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Magnetite Ore generation.
 		magnetiteOreDimList = []
 		#Blocks to generate Magnetite Ore in if magnetiteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
-		magnetiteOreBlockList = []
+		magnetiteOreBlockList = ["B#rankine:chalk", "B#rankine:breccia", "B#rankine:dolostone", "B#rankine:tufa_limestone", "B#rankine:carbonaceous_shale", "B#rankine:comendite"]
 		#Minimum height to generate Magnetite Ore at (make sure it is less than the maximum)
 		#Range: 0 ~ 256
-		magnetiteOreMin = 30
+		magnetiteOreMin = 5
 		#Count / chance number to be used depending on magnetiteOreGentype.
 		#Range: 0 ~ 256
-		magnetiteOreChance = 0
+		magnetiteOreChance = 256
 		#If false, magnetiteOreChance will determine how many tries per chunk ore veins will generate. If true, magnetiteOreChance will determine 1 in how many chunks a vein will spawn.
 		magnetiteOreGentype = false
 		#The maximum size of mega Magnetite Ore vein.
 		#Range: 0 ~ 500
-		magnetiteOreMegaVeinSize = 50
+		magnetiteOreMegaVeinSize = 500
 		#Determines 1 in how many chunks a mega Magnetite Ore vein will spawn.
 		#Range: 0 ~ 500
-		magnetiteOreMegaVeinChance = 40
+		magnetiteOreMegaVeinChance = 500
 
 	#Antitaenite Ore Settings
 	[oregen.antitaeniteOre]
@@ -2370,7 +2370,7 @@
 		#If false, antitaeniteOreChance will determine how many tries per chunk ore veins will generate. If true, antitaeniteOreChance will determine 1 in how many chunks a vein will spawn.
 		antitaeniteOreGentype = false
 		#Dimensions to generate Antitaenite Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Antitaenite Ore generation.
-		antitaeniteOreDimList = ["end"]
+		antitaeniteOreDimList = []
 		#If true Antitaenite Ore will only spawn in the blocks listed under antitaeniteOreBlockList If false it will generate in blocks with the tag #minecraft:base_stone_overworld or #minecraft:base_stone_nether or #forge:base_stone_end depending on the dimensions listed in antitaeniteOreDimList.
 		antitaeniteOreStoneSpecific = true
 		#Blocks to generate Antitaenite Ore in if antitaeniteOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.

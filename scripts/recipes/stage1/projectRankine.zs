@@ -1,5 +1,5 @@
 
-craftingTable.removeByName("rankine:rope_grass");
+
 craftingTable.removeByName("rankine:fire_clay_ball");	
 
 
