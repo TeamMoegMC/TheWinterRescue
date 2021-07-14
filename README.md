@@ -44,7 +44,7 @@ TBA
 	<a href="https://afdian.net/@teammoeg"><img src="https://img.shields.io/badge/爱发电-赞助我们-blueviolet.svg?style=flat-square" alt="Patreon"></a><br>
 </h1>
 
-- **一个由 TeamMoeg 制作的 Minecraft 1.16.5 科技生存冒险向整合包。
+- 一个由 TeamMoeg 制作的 Minecraft 1.16.5 科技生存冒险向整合包。
 
 - 本整合包根据 GPLv3 开源
 
