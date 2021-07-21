@@ -3,7 +3,7 @@
 [misc]
 	#Chance per chunk to generate a sill of ironstone or phosphorite.
 	#Range: 0.0 ~ 1.0
-	sillChance = 0.2
+	sillChance = 0.0
 	#Enables the generation of ironstone sills.
 	generateIronstone = false
 	#The chance a meteroite will spawn in the Overworld. Higher numbers increase rarity.
@@ -1016,7 +1016,7 @@
 		bituminousOreGentype = true
 		#Harvest Level of Bituminous Ore.
 		#Range: 0 ~ 4
-		bituminousOreHL = 2
+		bituminousOreHL = 0
 		#Maximum height to generate Bituminous Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
 		bituminousOreMax = 30
@@ -1196,7 +1196,7 @@
 		cinnabarOreBlockList = []
 		#Harvest Level of Cinnabar Ore.
 		#Range: 0 ~ 4
-		cinnabarOreHL = 2
+		cinnabarOreHL = 1
 		#If true, a mega Cinnabar Ore vein will generate according to the parameters cinnabarOreMegaVeinSize andcinnabarOreMegaVeinChance
 		cinnabarOreMegaVeins = false
 		#Count / chance number to be used depending on cinnabarOreGentype.

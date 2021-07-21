@@ -17,7 +17,7 @@
 	#Range: 0 ~ 15
 	feederEffectRange = 4
 	#List of blocks that have disabled use until end of stone age
-	disabledUseInStoneAgeList = ["minecraft:crafting_table"]
+	disabledUseInStoneAgeList = []
 	#Domesticate wild animal after given generations
 	#Range: > 1
 	domesticateAfterGenerations = 3
@@ -234,7 +234,7 @@
 
 [aqueduct]
 	#If aqueduct remove water source after draining 1000mB
-	aqueductRemoveWaterSource = true
+	aqueductRemoveWaterSource = false
 	#List of biomes where aqueduct doesn't remove water source
 	infinityWaterSourceBiomeList = ["minecraft:cold_ocean", "minecraft:deep_ocean", "minecraft:river", "minecraft:frozen_ocean", "minecraft:ocean", "minecraft:deep_lukewarm_ocean", "minecraft:frozen_river", "minecraft:lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean"]
 

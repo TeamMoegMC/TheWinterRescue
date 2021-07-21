@@ -3,10 +3,10 @@
 
     "input":{
         "tag":"forge:ingots/vanadiumsteel",
-        "count":2
+        "count": 3
     },
     "output":{
         "item":"electrodynamics:platevanadiumsteel",
-        "count":3
+        "count": 2
     }
 }

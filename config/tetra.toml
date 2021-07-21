@@ -26,7 +26,7 @@
 	#Range: 0 ~ 65536
 	geode_density = 120
 	#Generates features in the world, further configuration available in "tetra/data/structures/"
-	features = true
+	features = false
 	#Used to limit how deep the feature generator will recurse into feature children, helps to avoid recursive loops and cascading worldgen in 3d-party generation features
 	#Range: 0 ~ 64
 	feature_depth = 8

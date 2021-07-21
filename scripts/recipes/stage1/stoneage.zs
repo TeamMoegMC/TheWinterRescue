@@ -2,6 +2,8 @@ import mods.stone_age.DryingRackManager;
 import mods.stone_age.TreeStumpManager;
 import mods.stone_age.MillstoneManager;
 
+campfire.addRecipe("torch",<item:minecraft:torch>,<item:stone_age:unlit_torch>,0,100);
+
 <recipetype:stone_age:drying_rack>.addRecipe("grass", <item:charcoal_pit:straw>, <item:primalwinter:snowy_vine>, 600, "grass");
 
 <recipetype:stone_age:tree_stump>.addRecipe("copper_plate", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:electrodynamics:ingotcopper>*2, 3);
@@ -33,13 +35,13 @@ flintRecipe("grassbed",<item:stone_age:dried_grass_bed>,[
   [<item:minecraft:air>,<item:minecraft:air>,<item:charcoal_pit:straw>],
   [<item:charcoal_pit:straw>,<item:charcoal_pit:straw>,<item:charcoal_pit:straw>],
   [<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>]
-],<item:rankine:flint_axe>);
+],<tag:items:forge:axes>);
 
 flintRecipe("log_pile",<item:charcoal_pit:log_pile>,[
   [<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:logs_that_burn>],
   [<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:logs_that_burn>],
   [<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:logs_that_burn>,<tag:items:minecraft:logs_that_burn>]
-],<item:rankine:flint_axe>);
+],<tag:items:forge:axes>);
 
 flintRecipe("workbench",<item:minecraft:crafting_table>,[
   [<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>],
@@ -123,4 +125,90 @@ craftingTable.removeRecipe(<item:charcoal_pit:unfired_sandy_brick>);
   [<item:minecraft:stone>,<item:rankine:mortar>,<item:minecraft:stone>],
   [<item:rankine:mortar>,<item:minecraft:stone>,<item:rankine:mortar>],
   [<item:minecraft:stone>,<item:rankine:mortar>,<item:minecraft:stone>]
+],<item:stone_age:flint_knife>);
+
+<recipetype:stone_age:flint_workbench>.addRecipe("canteen", <item:survive:canteen>,[
+  [<item:minecraft:air>,<item:minecraft:leather>,<item:minecraft:air>],
+  [<item:minecraft:leather>,<item:minecraft:air>,<item:minecraft:leather>],
+  [<item:minecraft:leather>,<item:minecraft:leather>,<item:minecraft:leather>]
+],<item:stone_age:flint_knife>);
+
+<recipetype:stone_age:flint_workbench>.addRecipe("generator_brick",<item:frostedheart:generator_brick>*3,[
+  [<item:minecraft:stone>,<item:minecraft:clay_ball>,<item:minecraft:stone>],
+  [<item:minecraft:brick>,<item:minecraft:stone>,<item:minecraft:brick>],
+  [<item:minecraft:stone>,<item:minecraft:clay_ball>,<item:minecraft:stone>]
+],<item:stone_age:flint_knife>);
+<recipetype:stone_age:flint_workbench>.addRecipe("amplifier_r1",<item:frostedheart:generator_amplifier_r1>*2,[
+  [<item:minecraft:stone>,<item:minecraft:brick>,<item:minecraft:stone>],
+  [<item:minecraft:clay_ball>,<item:electrodynamics:ingotcopper>,<item:minecraft:clay_ball>],
+  [<item:minecraft:stone>,<item:minecraft:brick>,<item:minecraft:stone>]
+],<item:stone_age:flint_knife>);
+<recipetype:stone_age:flint_workbench>.addRecipe("core_t1",<item:frostedheart:generator_core_t1>,[
+  [<item:minecraft:brick>,<item:electrodynamics:ingotcopper>,<item:minecraft:brick>],
+  [<item:electrodynamics:ingotcopper>,<item:frostedheart:energy_core>,<item:electrodynamics:ingotcopper>],
+  [<item:minecraft:brick>,<item:electrodynamics:ingotcopper>,<item:minecraft:brick>]
+],<item:stone_age:flint_knife>);
+
+<recipetype:stone_age:flint_workbench>.addRecipe("copper_hammer",<item:stone_age:copper_hammer>,[
+  [<item:electrodynamics:ingotcopper>,<item:electrodynamics:ingotcopper>,<item:stone_age:leather_strip>],
+  [<item:minecraft:air>,<item:minecraft:stick>,<item:electrodynamics:ingotcopper>],
+  [<item:minecraft:stick>,<item:minecraft:air>,<item:electrodynamics:ingotcopper>]
+],<item:stone_age:flint_knife>);
+<recipetype:stone_age:flint_workbench>.addRecipe("bronze_hammer",<item:stone_age:bronze_hammer>,[
+  [<item:electrodynamics:ingotbronze>,<item:electrodynamics:ingotbronze>,<item:stone_age:leather_strip>],
+  [<item:minecraft:air>,<item:minecraft:stick>,<item:electrodynamics:ingotbronze>],
+  [<item:minecraft:stick>,<item:minecraft:air>,<item:electrodynamics:ingotbronze>]
+],<item:stone_age:flint_knife>);
+
+craftingTable.removeRecipe(<item:rankine:flint_pickaxe>);
+<recipetype:stone_age:flint_workbench>.addRecipe("flint_pickaxe",<item:rankine:flint_pickaxe>,[
+  [<item:minecraft:flint>,<item:rankine:rope>,<item:minecraft:flint>],
+  [<item:minecraft:air>,<item:minecraft:stick>,<item:minecraft:air>],
+  [<item:minecraft:air>,<item:minecraft:stick>,<item:minecraft:air>]
+],<item:stone_age:flint_knife>);
+
+craftingTable.removeRecipe(<item:rankine:flint_axe>);
+<recipetype:stone_age:flint_workbench>.addRecipe("flint_axe",<item:rankine:flint_axe>,[
+  [<item:minecraft:flint>,<item:rankine:rope>,<item:minecraft:air>],
+  [<item:minecraft:flint>,<item:minecraft:stick>,<item:minecraft:air>],
+  [<item:minecraft:air>,<item:minecraft:stick>,<item:minecraft:air>]
+],<item:stone_age:flint_knife>);
+
+craftingTable.removeRecipe(<item:rankine:flint_spear>);
+<recipetype:stone_age:flint_workbench>.addRecipe("flint_spear",<item:rankine:flint_spear>,[
+  [<item:minecraft:air>,<item:minecraft:flint>,<item:minecraft:flint>],
+  [<item:minecraft:air>,<item:rankine:rope>,<item:minecraft:flint>],
+  [<item:minecraft:stick>,<item:minecraft:air>,<item:minecraft:air>]
+],<item:stone_age:flint_knife>);
+
+craftingTable.removeRecipe(<item:rankine:flint_shovel>);
+<recipetype:stone_age:flint_workbench>.addRecipe("flint_shovel",<item:rankine:flint_shovel>,[
+  [<item:minecraft:air>,<item:minecraft:flint>,<item:minecraft:air>],
+  [<item:minecraft:air>,<item:rankine:rope>,<item:minecraft:air>],
+  [<item:minecraft:air>,<item:minecraft:stick>,<item:minecraft:air>]
+],<item:stone_age:flint_knife>);
+
+craftingTable.removeRecipe(<item:charcoal_pit:clay_pot>);
+<recipetype:stone_age:flint_workbench>.addRecipe("clay_pot",<item:charcoal_pit:clay_pot>,[
+  [<item:minecraft:clay_ball>,<item:minecraft:clay_ball>,<item:minecraft:clay_ball>],
+  [<item:minecraft:clay_ball>,<item:minecraft:air>,<item:minecraft:clay_ball>],
+  [<item:minecraft:clay_ball>,<item:minecraft:clay_ball>,<item:minecraft:clay_ball>]
+],<item:stone_age:flint_knife>);
+
+craftingTable.removeRecipe(<item:charcoal_pit:barrel>);
+<recipetype:stone_age:flint_workbench>.addRecipe("barrel",<item:charcoal_pit:barrel>,[
+  [<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>],
+  [<tag:items:minecraft:wooden_slabs>,<item:minecraft:air>,<tag:items:minecraft:wooden_slabs>],
+  [<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>,<tag:items:minecraft:wooden_slabs>]
+],<item:stone_age:flint_knife>);
+
+craftingTable.removeRecipe(<item:rankine:bronze_door>);
+<recipetype:stone_age:flint_workbench>.addRecipe("bronze_door",<item:rankine:bronze_door>,[
+  [<item:electrodynamics:ingotbronze>,<item:electrodynamics:ingotbronze>,<item:minecraft:air>],
+  [<item:electrodynamics:ingotbronze>,<item:electrodynamics:ingotbronze>,<item:minecraft:air>],
+  [<item:electrodynamics:ingotbronze>,<item:electrodynamics:ingotbronze>,<item:minecraft:air>]
+],<item:stone_age:flint_knife>);
+
+<recipetype:stone_age:flint_workbench>.addRecipe("rye_bread",<item:frostedheart:rye_bread>,[
+  [<item:frostedheart:rye>,<item:frostedheart:rye>,<item:frostedheart:rye>]
 ],<item:stone_age:flint_knife>);

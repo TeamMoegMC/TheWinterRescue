@@ -3,10 +3,10 @@
 
     "input":{
         "tag":"forge:ingots/aluminum",
-        "count":3
+        "count": 3
     },
     "output":{
         "item":"electrodynamics:platealuminum",
-        "count":2
+        "count": 2
     }
 }

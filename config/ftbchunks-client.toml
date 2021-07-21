@@ -1,9 +1,9 @@
 #Noise added to map to make it look less plastic
 #Range: 0.0 ~ 0.5
-noise = 0.05
+noise = 0.05000000074505806
 #Shadow intensity
 #Range: 0.0 ~ 0.3
-shadows = 0.1
+shadows = 0.10000000149011612
 #Chunk grid overlay in large map
 chunk_grid = false
 #Reduces color palette to 256 colors

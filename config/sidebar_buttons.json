@@ -1,8 +1,11 @@
 {
+	"ftbteams": {
+		"my_team": true
+	},
 	"ftbquests": {
 		"quests": true
 	},
-	"ftbguilibrary": {
+	"ftblibrary": {
 		"toggle.gamemode": true,
 		"toggle.rain": true,
 		"toggle.day": true,

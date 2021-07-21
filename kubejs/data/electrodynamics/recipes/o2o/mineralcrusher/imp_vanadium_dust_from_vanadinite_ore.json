@@ -3,10 +3,10 @@
 
     "input":{
         "tag":"forge:ores/vanadium",
-        "count":1
+        "count":3
     },
     "output":{
         "item":"electrodynamics:impuredustvanadium",
-        "count":3
+        "count":2
     }
 }

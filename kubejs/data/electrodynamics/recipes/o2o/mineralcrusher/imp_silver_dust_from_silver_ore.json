@@ -2,10 +2,10 @@
 	"type": "electrodynamics:mineral_crusher_recipe",
 	"input": {
 		"tag": "forge:ores/silver",
-		"count": 2
+		"count": 3
 	},
 	"output": {
 		"item": "electrodynamics:impuredustsilver",
-		"count": 3
+		"count": 2
 	}
 }

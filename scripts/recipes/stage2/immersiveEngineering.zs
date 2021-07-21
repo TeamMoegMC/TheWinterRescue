@@ -7,6 +7,7 @@ craftingTable.removeRecipe(<item:immersiveengineering:dust_silver>);
 craftingTable.removeRecipe(<item:immersiveengineering:dust_nickel>);
 craftingTable.removeRecipe(<item:immersiveengineering:dust_uranium>);
 
+craftingTable.removeRecipe(<item:immersiveengineering:dynamo>);
 
 recipeShaped("coke_brick",<item:immersiveengineering:cokebrick>*3,[
   [<item:minecraft:brick>,<item:rankine:mortar>,<item:minecraft:brick>],
@@ -26,7 +27,7 @@ recipeShaped("wirecutter",<item:immersiveengineering:wirecutter>,[
   [<item:immersiveengineering:stick_treated>,<item:minecraft:air>,<item:immersiveengineering:stick_treated>]
 ]);
 
-recipeShapeless("wirecopper", <item:electrodynamics:wirecopper>,[<tag:items:forge:plates/copper>,<item:immersiveengineering:wirecutter>]);
+recipeShapeless("wirecopper", <item:electrodynamics:wirecopper>,[<tag:items:forge:plates/copper>,<item:immersiveengineering:wirecutter>.anyDamage().transformDamage(1)]);
 //blastfurnace
 <recipetype:immersiveengineering:blast_furnace>.removeRecipe(<item:immersiveengineering:ingot_steel>);
 <recipetype:immersiveengineering:blast_furnace>.removeRecipe(<item:immersiveengineering:storage_steel>);

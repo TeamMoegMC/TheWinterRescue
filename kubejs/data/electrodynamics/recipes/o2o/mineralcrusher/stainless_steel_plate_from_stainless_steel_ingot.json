@@ -3,10 +3,10 @@
 
     "input":{
         "tag":"forge:ingots/stainlesssteel",
-        "count":2
+        "count":3
     },
     "output":{
         "item":"electrodynamics:platestainlesssteel",
-        "count":3
+        "count":2
     }
 }

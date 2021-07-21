@@ -2,10 +2,10 @@
 	"type": "electrodynamics:mineral_crusher_recipe",
 	"input": {
 		"tag": "forge:ores/copper",
-		"count": 1
+		"count": 3
 	},
 	"output": {
 		"item": "electrodynamics:impuredustcopper",
-		"count": 3
+		"count": 2
 	}
 }

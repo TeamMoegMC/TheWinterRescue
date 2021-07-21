@@ -8,16 +8,16 @@
 		oreDetectorMessage = true
 		#Number of blocks away that the Prospecting Stick can detect ore.
 		#Range: 0 ~ 64
-		prospectingStickRange = 16
+		prospectingStickRange = 0
 		#Number of blocks away that the Ore Detector can detect ore.
 		#Range: 0 ~ 64
-		oreDetectorRange = 32
+		oreDetectorRange = 0
 		#Distance from an ore block in which nuggets have a chance to drop from blocks.
 		#Range: 1 ~ 64
-		nuggetRange = 7
+		nuggetRange = 1
 		#Chance for a block in #rankine:nugget_stones to drop a nugget of a nearby ore.
 		#Range: 0.0 ~ 1.0
-		nuggetChance = 0.15
+		nuggetChance = 0.0
 
 	#Vanilla Tools
 	[general.vanillaTools]

@@ -198,7 +198,7 @@
 	[machines.pump]
 		#The Flux the Fluid Pump will consume to pick up a fluid block in the world
 		#Range: > 1
-		consumption = 250
+		consumption = 150
 		#The Flux the Fluid Pump will consume pressurize and accelerate fluids, increasing the transferrate
 		#Range: > 1
 		consumption_accelerate = 5
