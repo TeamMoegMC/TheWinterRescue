@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:hay_block"
+    }
+  ],
+  "result": {
+    "item": "charcoal_pit:straw",
+    "count": 9
+  }
+}
