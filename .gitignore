@@ -1,0 +1,21 @@
+/mods/
+/patchouli_data.json
+/servers.dat_old
+/servers.dat
+/servers 2.dat_old
+/usercache.json
+/usernamecache.json
+/options.txt
+/optionsof.txt
+/launcher_profiles.json
+/.mixin.out/
+/local/
+/libraries/
+/assets/
+/null/
+/logs/
+/patchouli_books/
+/screenshots/
+/saves/
+/versions/
+*.bak
