@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "/X/",
+        "/#/",
+        "/X/"
+    ],
+    "key": {
+        "/": { "tag": "forge:rods/wooden" },
+        "X": { "tag": "storagedrawers:drawers" },
+		"#": { "item": "electrodynamics:circuitbasic" }
+    },
+    "result": { "item": "storagedrawers:upgrade_template", "count": 4 }
+}

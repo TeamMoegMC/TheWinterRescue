@@ -6,3 +6,8 @@ craftingTable.removeRecipe(<item:rankine:piston_crusher>);
 craftingTable.removeRecipe(<item:rankine:gyratory_crusher>);
 craftingTable.removeRecipe(<item:immersiveengineering:thermoelectric_generator>);
 craftingTable.removeRecipe(<item:minecraft:ender_eye>);
+
+//抽屉mod的高级东西暂时删掉合成
+craftingTable.removeRecipe(<item:storagedrawers:controller_slave>);
+craftingTable.removeRecipe(<item:storagedrawers:controller>);
+craftingTable.removeRecipe(<item:storagedrawers:compacting_drawers_3>);
