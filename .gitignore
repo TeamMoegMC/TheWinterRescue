@@ -19,3 +19,5 @@
 /saves/
 /versions/
 *.bak
+/servers 3.dat_old
+/crash-reports/

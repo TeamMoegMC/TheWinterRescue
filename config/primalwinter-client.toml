@@ -3,7 +3,7 @@
 fogDensity = 0.1
 #How visually dense the snow weather effect is. Normally, vanilla sets this to 5 with fast graphics, and 10 with fancy graphics.
 #Range: 1 ~ 15
-snowDensity = 1
+snowDensity = 2
 #Enable snow (actually rain) weather sounds.
 snowSounds = true
 #Enable wind / snow storm weather sounds.

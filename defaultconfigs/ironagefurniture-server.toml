@@ -1,0 +1,20 @@
+
+#Client configuration settings
+[client]
+	#Generate shield chairs.
+	generateShieldChairs = true
+	#Integrate with Oh The Biomes You Go.
+	bygIntegration = true
+	#Integrate with Immersive Engineering.
+	ieIntegration = true
+	#Generate classic chairs.
+	generateClassicChairs = true
+	#Integrate with Biomes O Plenty.
+	bopIntegration = true
+	#Generate benches.
+	generateBenches = true
+	#Generate short stools.
+	generateShortStools = true
+	#Generate tall stools.
+	generateTallStools = true
+
