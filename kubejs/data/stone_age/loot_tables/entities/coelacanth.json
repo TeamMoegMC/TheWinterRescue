@@ -23,7 +23,7 @@
               }
             }
           ],
-          "name": "stone_age:raw_hide"
+          "name": "minecraft:salmon"
         }
       ]
     },
@@ -36,8 +36,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 3.0,
+                "min": 0.0,
+                "max": 1.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -59,11 +59,11 @@
               "function": "minecraft:looting_enchant",
               "count": {
                 "min": 0.0,
-                "max": 1.0
+                "max": 2.0
               }
             }
           ],
-          "name": "kubejs:frozen_beef"
+          "name": "stone_age:fish_bone"
         }
       ]
     }
