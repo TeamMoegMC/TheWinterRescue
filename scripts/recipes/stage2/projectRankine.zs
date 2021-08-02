@@ -1,2 +1,1 @@
-
-craftingTable.removeRecipe(<item:rankine:crucible>);	
+craftingTable.removeRecipe(<item:rankine:crucible>);

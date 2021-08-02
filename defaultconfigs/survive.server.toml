@@ -1,0 +1,11 @@
+
+[Temperature]
+	#
+	############################################
+	#This list defines dimensional temperature modifiers
+	#Dimensions in this list will multiply the tempeatures of their biomes by this value
+	#-------------------------------------------
+	#Default: [minecraft:overworld,1.0, minecraft:the_nether,1.0, minecraft:the_end,1.0]
+	#-------------------------------------------
+	"Dimensional Temperature Modifier" = ["minecraft:overworld,1.0", "minecraft:the_nether,1.0", "minecraft:the_end,1.0"]
+

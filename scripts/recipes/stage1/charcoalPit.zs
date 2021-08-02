@@ -1,5 +1,3 @@
-
-
 craftingTable.removeRecipe(<item:charcoal_pit:main_bloomery>);
 craftingTable.removeRecipe(<item:rankine:charcoal_pit>);
 

@@ -1,0 +1,14 @@
+[Beta-1]
+Add new mods:
+Caves&CliffsBackport: interesting worldgen features, powdered snow block
+Collective (lib)
+Kiwi (lib)
+SnowPig: mobs winterfied
+SnowRealMagic: misc tweaks with snow
+StrongerSnowballs: slow down mobs when get hit by snowballs
+PackMenu: Pack UI
+ModernLoadingScreen: Loading UI
+Tips: Tips
+Bookshelf (lib)
+Remove mods:
+BetterTitleScreen

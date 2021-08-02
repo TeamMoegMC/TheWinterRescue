@@ -1,0 +1,29 @@
+
+#Client configuration settings
+[client]
+	#Enable/Disable the custom progress bar background
+	customProgressBarBackground = false
+	#Change the design of the progress bar
+	#Allowed Values: Vanilla, BossBar, Custom, Hidden
+	progressBarType = "Vanilla"
+	#Change the color of the progress bar frame
+	#Range: 0 ~ 16777215
+	progressFrameColor = 16777215
+	#Change the color of the background
+	#Range: 0 ~ 16777215
+	backgroundColor = 0
+	#Change the texture of the logo
+	#Allowed Values: Mojang, Aspect1to1, Hidden
+	logoStyle = "Mojang"
+	#Enable/Disable the background image
+	backgroundImage = false
+	#Change the style of the boss loading bar
+	#Allowed Values: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+	bossBarType = "NOTCHED_6"
+	#Change the color of the progress bar
+	#Range: 0 ~ 16777215
+	progressBarColor = 16777215
+	#Change the mode of the custom loading bar
+	#Allowed Values: Linear, Stretch
+	customProgressBarMode = "Linear"
+

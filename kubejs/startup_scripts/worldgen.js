@@ -1,3 +1,5 @@
+console.info('[KUBEJS_STARTUP] Worldgen Scripts Loaded/Reloaded!')
+
 onEvent('worldgen.add', event => {
 	  event.addOre(ore => {
     ore.block = 'rankine:kaolinite_block' 

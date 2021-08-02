@@ -1,0 +1,14 @@
+
+["World Generation Settings"]
+	#determines if cave biomes generate naturally.
+	hasCaveBiomes = true
+	#determines if default cave biome should generate in the world
+	#Note: to disable ALL the biomes use hasCaveBiomes instead, don't disable all biomes manually or you will break something
+	hasDefaultCaveBiome = true
+	#determines the size of cave biomes globally.
+	#Default: 4, Amplified: 6
+	#Range: 1 ~ 10
+	caveBiomeSize = 4
+	#noise carvers are a smaller version of 1.17 noise caves
+	hasNoiseCarvers = true
+

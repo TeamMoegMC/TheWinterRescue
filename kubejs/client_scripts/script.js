@@ -1,6 +1,6 @@
 // priority: 0
 
-console.info('Hello, World! (You will see this line every time client resources reload)')
+console.info('[KUBEJS_CLIENT] Client Scripts Loaded/Reloaded!')
 
 onEvent('jei.hide.items', event => {
 	// Hide items in JEI here

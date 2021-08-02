@@ -1,4 +1,3 @@
-
 craftingTable.removeRecipe(<item:immersiveengineering:dust_iron>);
 craftingTable.removeRecipe(<item:immersiveengineering:dust_copper>);
 craftingTable.removeRecipe(<item:immersiveengineering:dust_aluminum>);

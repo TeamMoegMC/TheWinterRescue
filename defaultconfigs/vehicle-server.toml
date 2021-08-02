@@ -1,0 +1,88 @@
+
+#Server configuration settings
+[common]
+
+	#Configuration options for trailers
+	[common.trailer]
+		#The amount of ticks to wait before syncing trailer inventory to tracking clients. If the value is set to 0 or less, the inventory will not sync and will save on network usage.
+		#Range: > 1
+		trailerInventorySyncCooldown = 20
+		#The amount of ticks to wait before syncing data to clients about the trailer connection. This is important for smooth trailer movement on client side.
+		#Range: > 1
+		trailerSyncCooldown = 100
+		#The distance threshold before the trailer detaches from a vehicle
+		#Range: 1.0 ~ 10.0
+		trailerDetachThreshold = 6.0
+
+	#General configuration options
+	[common.general]
+		#Change the amount of fuel vehicles consumes by multiplying the consumption rate by this factor
+		#Range: 0.0 ~ 1.7976931348623157E308
+		fuelConsumptionModifier = 1.0
+		#Allows players to pick up vehicles by crouching and right clicking
+		pickUpVehicles = true
+		#If true, vehicles will take damage.
+		vehicleDamage = true
+		#If true, vehicles will require fuel for them to be driven.
+		fuelEnabled = true
+
+	#Configuration options for blocks
+	[common.blocks]
+
+		#Configuration options for fluid pumps
+		[common.blocks.fluid_pump]
+			#The fluid capacity of the fluid pump in millibuckets
+			#Range: > 1
+			pumpCapacity = 500
+			#The amount of fluid a pump will transfer each tick
+			#Range: > 1
+			pumpTransferAmount = 50
+
+		#Configuration options for fuel drums
+		[common.blocks.fuel_drum]
+			#The fluid capacity of the industrial fuel drum in millibuckets
+			#Range: > 1
+			industrialFuelDrumCapacity = 75000
+			#The fluid capacity of the fuel drum in millibuckets
+			#Range: > 1
+			fuelDrumCapacity = 40000
+
+		#Configuration options for Gas Pumps
+		[common.blocks.gas_pump]
+			#The fluid capacity of the gas pump in millibuckets
+			#Range: > 1
+			gasPumpCapacity = 50000
+			#The maximum distance before the hose from the gas pump or fluid hose breaks
+			#Range: 1.0 ~ 20.0
+			maxHoseDistance = 6.0
+
+		#Configuration options for fluid pipes
+		[common.blocks.fluid_pipe]
+			#The amount of fluid a pipe will transfer each tick
+			#Range: > 1
+			pipeTransferAmount = 50
+			#The fluid capacity of the fluid pipe in millibuckets
+			#Range: > 1
+			pipeCapacity = 500
+
+		#Configuration options for fluid mixers
+		[common.blocks.fluid_mixer]
+			#The amount of ticks to mix fluids together
+			#Range: > 1
+			mixerMixTime = 100
+			#The output fluid capacity of the fluid mixer in millibuckets
+			#Range: > 1
+			mixerOutputCapacity = 10000
+			#The input fluid capacity of the fluid mixer in millibuckets
+			#Range: > 1
+			mixerInputCapacity = 5000
+
+		#Configuration options for fluid extractors
+		[common.blocks.fluid_extractor]
+			#The fluid capacity of the fluid extractor in millibuckets
+			#Range: > 1
+			extractorCapacity = 5000
+			#The amount of ticks before fluid is extracted from an item
+			#Range: > 1
+			extractorExtractTime = 600
+

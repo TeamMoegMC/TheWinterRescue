@@ -1,4 +1,3 @@
-
 craftingTable.removeRecipe(<item:notreepunching:plant_string>);
 craftingTable.removeRecipe(<item:notreepunching:clay_brick>);
 craftingTable.removeRecipe(<item:notreepunching:flint_pickaxe>);

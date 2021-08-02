@@ -1,30 +1,32 @@
+console.info('[KUBEJS_STARTUP] Item Scripts Loaded/Reloaded!')
+
 onEvent('item.registry', event => {
 	event.create('flux')
-})
-onEvent('item.registry', event => {
 	event.create('impure_alumina_dust')
-})
-onEvent('item.registry', event => {
 	event.create('kaolin_dust')
-})
-onEvent('item.registry', event => {
 	event.create('tungsten_steel').tooltip('750W-50Fe')
-})
-onEvent('item.registry', event => {
 	event.create('tungsten_steel_plate')
-})
-onEvent('item.registry', event => {
 	event.create('cast_iron_plate')
-})
-onEvent('item.registry', event => {
 	event.create('constantan_coil')
-})
-onEvent('item.registry', event => {
 	event.create('constantan_wire')
-})
-onEvent('item.registry', event => {
 	event.create('battery_alloy')
-})
-onEvent('item.registry', event => {
 	event.create('battery_alloy_plate')
+	event.create('hay_hat').type('helmet')
+	event.create('hay_jacket').type('chestplate')
+	event.create('hay_pants').type('leggings')
+	event.create('hay_boots').type('boots')
+	event.create('frozen_auroch_meat')
+	event.create('frozen_beef')
+	event.create('frozen_boar_meat')
+	event.create('frozen_chicken')
+	event.create('frozen_fat')
+	event.create('frozen_fowl_meat')
+	event.create('frozen_mammoth_meat')
+	event.create('frozen_mouflon_meat')
+	event.create('frozen_mutton')
+	event.create('frozen_porkchop')
+	event.create('frozen_rhino_meat')
+	event.create('frozen_tiger_meat')
+	event.create('frozen_venison')
+	event.create('frozen_rabbit')
 })

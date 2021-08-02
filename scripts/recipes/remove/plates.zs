@@ -1,4 +1,3 @@
-
 craftingTable.removeRecipe(<tag:items:forge:plates/iron>);
 craftingTable.removeRecipe(<tag:items:forge:plates/steel>);
 craftingTable.removeRecipe(<tag:items:forge:plates/lead>);

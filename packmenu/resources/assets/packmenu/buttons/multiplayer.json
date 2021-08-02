@@ -1,0 +1,21 @@
+{
+	"x": -80,
+	"y": 145,
+	"width": 160,
+	"height": 35,
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 35,
+	"texWidth": 160,
+	"texHeight": 70,
+	"texture": "packmenu:textures/gui/button.png",
+	"widgets": false,
+	"langKey": "menu.multiplayer",
+	"fontColor": 16777215,
+	"hoverFontColor": 0,
+	"action": "OPEN_GUI",
+	"data": "MULTIPLAYER",
+	"textXOffset": 0,
+	"anchor": "TOP_CENTER"
+}

@@ -5,7 +5,7 @@ settings.logRemovedRecipes = true
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
-console.info('Hello, World! (You will see this line every time server resources reload)')
+console.info('[KUBEJS_SERVER] Server Scripts Loaded/Reloaded!')
 
 onEvent('recipes', event => {
 	// Change recipes here

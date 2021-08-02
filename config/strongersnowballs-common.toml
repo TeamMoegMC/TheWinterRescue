@@ -1,0 +1,29 @@
+
+#General settings for the mod.
+[general]
+
+	#Mobs in the strongersnowballs:hurt_by_snow can be damaged by snowballs.
+	[general.damage]
+		#The amount of damage to do.
+		#Range: 0.0 ~ 32767.0
+		amount = 1.0
+		#The chance that this happens. 1 = 100%, 0.5 = 50%, 0 = 0% etc.
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+		#Should the damage effect be enabled?.
+		enabled = true
+
+	#Hitting mobs with snowballs can slow them temporarily.
+	[general.slowness]
+		#The duration of the effect in ticks. 20 ticks = 1 second.
+		#Range: 0 ~ 32767
+		duration = 35
+		#The chance that this happens. 1 = 100%, 0.5 = 50%, 0 = 0% etc.
+		#Range: 0.0 ~ 1.0
+		chance = 1.0
+		#The strength/amplifier of the slowness effect.
+		#Range: 0 ~ 128
+		strength = 10
+		#Should the slowness effect be enabled?
+		enabled = true
+
