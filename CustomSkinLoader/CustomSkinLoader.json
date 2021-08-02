@@ -3,6 +3,11 @@
   "buildNumber": 278,
   "loadlist": [
     {
+      "name": "MoegCraft",
+      "type": "CustomSkinAPI",
+      "root": "https://moegcraft.teammoeg.com/"
+    },
+    {
       "name": "Mojang",
       "type": "MojangAPI",
       "apiRoot": "https://api.mojang.com/",

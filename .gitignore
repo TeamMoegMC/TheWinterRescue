@@ -22,3 +22,9 @@
 /servers 3.dat_old
 /crash-reports/
 /CustomSkinLoader/CustomSkinLoader.log
+/CustomSkinLoader/Plugins/
+/CustomSkinLoader/LocalSkin/
+/CustomSkinLoader/ProfileCache/
+/CustomSkinLoader/caches/
+/CustomSkinLoader/ExtraList/
+/CustomSkinLoader/CustomSkinAPIPlus-ClientID
