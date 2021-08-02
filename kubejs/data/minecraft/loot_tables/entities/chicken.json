@@ -23,7 +23,7 @@
               }
             }
           ],
-          "name": "stone_age:raw_hide"
+          "name": "minecraft:feather"
         }
       ]
     },
@@ -33,14 +33,6 @@
         {
           "type": "minecraft:item",
           "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 3.0,
-                "type": "minecraft:uniform"
-              }
-            },
             {
               "function": "minecraft:furnace_smelt",
               "conditions": [
@@ -63,7 +55,7 @@
               }
             }
           ],
-          "name": "kubejs:frozen_beef"
+          "name": "kubejs:frozen_chicken"
         }
       ]
     }
