@@ -6,3 +6,9 @@ craftingTable.removeRecipe(<item:rankine:piston_crusher>);
 craftingTable.removeRecipe(<item:rankine:gyratory_crusher>);
 craftingTable.removeRecipe(<item:immersiveengineering:thermoelectric_generator>);
 craftingTable.removeRecipe(<item:minecraft:ender_eye>);
+
+craftingTable.removeRecipe(<item:engineersdecor:small_block_breaker>);
+
+craftingTable.removeRecipe(<item:immersiveengineering:blueprint>);
+
+craftingTable.removeRecipe(<item:immersiveengineering:toolbox>);

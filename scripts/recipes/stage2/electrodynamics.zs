@@ -1,6 +1,9 @@
 
 craftingTable.removeRecipe(<item:electrodynamics:circuitadvanced>);
 craftingTable.removeRecipe(<item:electrodynamics:energizedalloyer>);
+craftingTable.removeRecipe(<item:electrodynamics:hydroelectricgenerator>);
+craftingTable.removeRecipe(<item:electrodynamics:windmill>);
+craftingTable.removeRecipe(<item:electrodynamics:thermoelectricgenerator>);
 
 recipeShaped("coil",<item:electrodynamics:coil>,[
   [<item:minecraft:air>,<item:electrodynamics:wirecopper>,<item:minecraft:air>],
