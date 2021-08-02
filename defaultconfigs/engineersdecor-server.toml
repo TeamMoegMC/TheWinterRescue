@@ -69,7 +69,6 @@
 		#Disable item disposal/trash/void incinerator device.
 		without_waste_incinerator = false
 		#Disable the small block breaker.
-		without_block_breaker = true
 		without_block_breaker = false
 		#Disable crafting table.
 		without_crafting_table = false
@@ -99,10 +98,6 @@
 		#Defines how much time the Small Block Breaker needs at least, better said it's an offset: 'reluctance' * hardness + min_time, you change the 'min_time' here, value in ticks.The config value can be changed on-the-fly for tuning.
 		#Range: 10 ~ 100
 		block_breaker_min_breaking_time = 100
-		tree_cutter_cutting_time_needed = 60
-		#Defines how much time the Small Block Breaker needs at least, better said it's an offset: 'reluctance' * hardness + min_time, you change the 'min_time' here, value in ticks.The config value can be changed on-the-fly for tuning.
-		#Range: 10 ~ 100
-		block_breaker_min_breaking_time = 15
 		#Defines (as comma separated list of full registry names) which items are allowed as external heaters in the Aux slot for powered speed boosting.
 		furnace_accepted_heaters = "immersiveengineering:furnace_heater"
 		#Defines, in percent, how fast the electrical furnace smelts compared to a vanilla furnace. 100% means vanilla furnace speed, 150% means the electrical furnace is faster. The value can be changed on-the-fly for tuning.
@@ -119,13 +114,11 @@
 		#Defines how much RF power the Small Block Breaker requires to magnificently increase the processing speed. The config value can be changed on-the-fly for tuning.
 		#Range: 4 ~ 1024
 		block_breaker_power_consumption = 1024
-		block_breaker_power_consumption = 64
 		#Defines, in percent, how high the probability is that a mob sits on a chair when colliding with it. Can be changed on-the-fly for tuning.
 		#Range: 0.0 ~ 80.0
 		chair_mob_sitting_probability_percent = 10.0
 		#Defines if the Small Tree Cutter does not work without RF power.
 		tree_cutter_requires_power = true
-		tree_cutter_requires_power = false
 		#Defines, in percent, how fuel efficient the lab furnace is, compared to a vanilla furnace. 100% means vanilla furnace consumiton, 200% means the lab furnace needs about half the fuel of a vanilla furnace, The value can be changed on-the-fly for tuning.
 		#Range: 50 ~ 400
 		furnace_fuel_efficiency_percent = 100
@@ -143,7 +136,6 @@
 		#Defines how much RF power the Small Tree Cutter requires to magnificently increase the processing speed. The config value can be changed on-the-fly for tuning.
 		#Range: 4 ~ 1024
 		tree_cutter_energy_consumption = 256
-		tree_cutter_energy_consumption = 64
 		#Defines the energy consumption (per tick) for speeding up the smelting process. If IE is installed, an external heater has to be inserted into an auxiliary slot of the lab furnace. The power source needs to be able to provide at least 4 times this consumption (fixed threshold value). The value can be changed on-the-fly for tuning. The default value corresponds to the IE heater consumption.
 		#Range: 2 ~ 1024
 		furnace_boost_energy_consumption = 24
@@ -155,7 +147,7 @@
 		milking_machine_milking_delay = 4000
 		#Defines if the Small Block Breaker does not work without RF power.
 		block_breaker_requires_power = true
-		block_breaker_requires_power = false
+
 		#Defines, in percent, how fast the lab furnace smelts compared to a vanilla furnace. 100% means vanilla furnace speed, 150% means the lab furnace is faster. The value can be changed on-the-fly for tuning.
 		#Range: 50 ~ 800
 		furnace_smelting_speed_percent = 130
