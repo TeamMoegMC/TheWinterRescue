@@ -1,0 +1,16 @@
+#Delay before fade for chunks to load
+#Range: > 0
+HoldTime = 80
+#Archives previous screenshots to the archive folder
+ArchiveScreenshots = false
+#Fade duration
+#Range: > 0
+FadeTime = 20
+#Updates the world icon periodically
+UpdateWorldIcon = true
+#Disables camera movement until fade is complete
+DisableCamera = true
+#Screenshot resolution
+#Allowed Values: NATIVE, NORMAL, R4K, R8K
+Resolution = "NORMAL"
+
