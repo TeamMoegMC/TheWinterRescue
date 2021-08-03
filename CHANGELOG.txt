@@ -10,5 +10,9 @@ PackMenu: Pack UI
 ModernLoadingScreen: Loading UI
 Tips: Tips
 Bookshelf (lib)
+SeamlessLoadingScreen
+CrockPot
+EnchantmentDescriptions
 Remove mods:
 BetterTitleScreen
+TowersOfTheWild
