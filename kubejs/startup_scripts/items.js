@@ -29,4 +29,5 @@ onEvent('item.registry', event => {
 	event.create('frozen_tiger_meat')
 	event.create('frozen_venison')
 	event.create('frozen_rabbit')
+	event.create('frozen_seeds')
 })
