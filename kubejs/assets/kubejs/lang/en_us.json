@@ -29,6 +29,11 @@
   "item.kubejs.frozen_venison": "Frozen Venison",
   "item.kubejs.frozen_rabbit": "Frozen Rabbit",
   "item.kubejs.frozen_seeds": "Frozen Seeds",
+  "item.kubejs.frozen_seeds_wheat": "Frozen Seeds",
+  "item.kubejs.frozen_seeds_melon": "Frozen Seeds",
+  "item.kubejs.frozen_seeds_pumpkin": "Frozen Seeds",
+  "item.kubejs.frozen_seeds_unknown": "Frozen Seeds",
+  "item.kubejs.frozen_seeds_beetroots": "Frozen Seeds",
   "fluid.kubejs.lime_water": "Lime Water"
   
 }
