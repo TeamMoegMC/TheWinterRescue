@@ -29,7 +29,7 @@ onEvent('item.registry', event => {
 	event.create('frozen_tiger_meat')
 	event.create('frozen_venison')
 	event.create('frozen_rabbit')
-	event.create('frozen_seeds')
+	event.create('frozen_seeds_blackwheat')
 	event.create('frozen_seeds_wheat')
 	event.create('frozen_seeds_melon')
 	event.create('frozen_seeds_pumpkin')

@@ -12,3 +12,6 @@ campfire.addRecipe("frozenseeds_campfire4", <item:minecraft:beetroot_seeds>, <it
 
 furnace.addRecipe("frozenseeds5", <item:crockpot:unknown_seeds>, <item:kubejs:frozen_seeds_unknown>, 1.0, 300);
 campfire.addRecipe("frozenseeds_campfire5", <item:crockpot:unknown_seeds>, <item:kubejs:frozen_seeds_unknown>, 1.0, 300);
+
+furnace.addRecipe("frozenseeds6", <item:frostedheart:rye_block>, <item:kubejs:frozen_seeds_blackwheat>, 1.0, 300);
+campfire.addRecipe("frozenseeds_campfire6", <item:frostedheart:rye_block>, <item:kubejs:frozen_seeds_blackwheat>, 1.0, 300);
