@@ -3,9 +3,9 @@
 
 
 recipeShaped("small_tree_cutter",<item:engineersdecor:small_tree_cutter>,[
-  [<item:immersiveengineering:plate_steel>,<item:electrodynamics:circuitadvanced>,<item:immersiveengineering:plate_steel>],
-  [<item:immersiveengineering:plate_steel>,<item:immersiveengineering:light_engineering>,<item:immersiveengineering:sawblade>],
-  [<item:immersiveengineering:plate_steel>,<item:immersiveengineering:treated_wood_horizontal>,<item:immersiveengineering:plate_steel>]
+  [<tag:items:forge:plates/steel>,<item:electrodynamics:circuitadvanced>,<tag:items:forge:plates/steel>],
+  [<tag:items:forge:plates/steel>,<item:immersiveengineering:light_engineering>,<item:immersiveengineering:sawblade>],
+  [<tag:items:forge:plates/steel>,<item:immersiveengineering:treated_wood_horizontal>,<tag:items:forge:plates/steel>]
 ]);
 
 recipeShaped("heavy_engineering",<item:immersiveengineering:heavy_engineering>*2,[

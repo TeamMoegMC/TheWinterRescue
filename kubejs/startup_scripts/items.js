@@ -11,6 +11,8 @@ onEvent('item.registry', event => {
 	event.create('constantan_wire')
 	event.create('battery_alloy')
 	event.create('battery_alloy_plate')
+	event.create('magnesium_dust')
+	event.create('magnesium_oxide')
 	event.create('hay_hat').type('helmet')
 	event.create('hay_jacket').type('chestplate')
 	event.create('hay_pants').type('leggings')

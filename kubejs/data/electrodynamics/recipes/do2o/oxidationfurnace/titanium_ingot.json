@@ -1,0 +1,12 @@
+{
+    "type":"electrodynamics:oxidation_furnace_recipe",
+
+    "input1":{
+        "item":"minecraft:air",
+        "count":1
+    },
+    "output":{
+        "item":"minecraft:air",
+        "count":1
+    }
+}

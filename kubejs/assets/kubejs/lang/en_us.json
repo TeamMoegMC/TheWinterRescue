@@ -34,6 +34,14 @@
   "item.kubejs.frozen_seeds_pumpkin": "Frozen Seeds",
   "item.kubejs.frozen_seeds_unknown": "Frozen Seeds",
   "item.kubejs.frozen_seeds_beetroots": "Frozen Seeds",
-  "fluid.kubejs.lime_water": "Lime Water"
+  "item.kubejs.magnesium_dust": "Magnesium Dust",
+  "item.kubejs.magnesium_oxide": "Magnesium Oxide",
+  "item.kubejs.chlorine_bucket": "Chlorin Bucket",
+  "item.kubejs.magnesium_chloride_bucket": "Magnesium Chlorin Bucket",
   
+  "fluid.kubejs.lime_water": "Lime Water",
+  "fluid.kubejs.chlorine": "Chlorine",
+  "fluid.kubejs.magnesium_chloride": "Magnesium Chlorine",
+  
+  "itemGroup.kubejs.kubejs": "Kubejs"
 }

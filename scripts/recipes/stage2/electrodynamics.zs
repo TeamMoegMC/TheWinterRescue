@@ -3,6 +3,7 @@ craftingTable.removeRecipe(<item:electrodynamics:energizedalloyer>);
 craftingTable.removeRecipe(<item:electrodynamics:hydroelectricgenerator>);
 craftingTable.removeRecipe(<item:electrodynamics:windmill>);
 craftingTable.removeRecipe(<item:electrodynamics:thermoelectricgenerator>);
+craftingTable.removeRecipe(<item:electrodynamics:multimeterblock>);
 
 recipeShaped("coil",<item:electrodynamics:coil>,[
   [<item:minecraft:air>,<item:electrodynamics:wirecopper>,<item:minecraft:air>],
@@ -34,7 +35,11 @@ craftingTable.addShaped("constantan_coil",<item:kubejs:constantan_coil>,[
   [<item:kubejs:constantan_wire>,<item:rankine:cast_iron_rod>,<item:kubejs:constantan_wire>],
   [<item:kubejs:constantan_wire>,<item:kubejs:constantan_wire>,<item:kubejs:constantan_wire>]
 ]);
-
+recipeShaped("electricpump",<item:electrodynamics:electricpump>,[
+  [<item:rankine:cast_iron_alloy>,<item:electrodynamics:motor>,<item:rankine:cast_iron_alloy>],
+  [<item:kubejs:cast_iron_plate>,<item:immersiveengineering:fluid_pipe>,<item:kubejs:cast_iron_plate>],
+  [<item:kubejs:cast_iron_plate>,<item:immersiveengineering:fluid_pipe>,<item:kubejs:cast_iron_plate>]
+]);
 recipeShaped("upgradetransformer",<item:electrodynamics:upgradetransformer>,[
   [<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>],
   [<item:electrodynamics:coil>,<item:minecraft:air>,<item:electrodynamics:wirecopper>],
@@ -90,3 +95,19 @@ recipeShaped("oxidationfurnace",<item:electrodynamics:oxidationfurnace>,[
   [<item:kubejs:constantan_coil>,<item:immersiveengineering:plate_copper>,<item:kubejs:constantan_coil>],
   [<item:kubejs:cast_iron_plate>,<item:electrodynamics:motor>,<item:kubejs:cast_iron_plate>]
 ]);
+craftingTable.addShaped("electrolyzer_block",<item:frostedheart:electrolyzer_block>,[
+  [<item:kubejs:cast_iron_plate>,<item:electrodynamics:circuitbasic>,<item:kubejs:cast_iron_plate>],
+  [<item:electrodynamics:wireiron>,<item:minecraft:glass>,<item:electrodynamics:wirecopper>],
+  [<item:kubejs:cast_iron_plate>,<item:electrodynamics:motor>,<item:kubejs:cast_iron_plate>]
+]);
+recipeShaped("chemicalmixer",<item:electrodynamics:chemicalmixer>,[
+  [<item:kubejs:cast_iron_plate>,<item:electrodynamics:circuitbasic>,<item:kubejs:cast_iron_plate>],
+  [<item:electrodynamics:motor>,<item:electrodynamics:geariron>,<item:electrodynamics:motor>],
+  [<item:kubejs:cast_iron_plate>,<item:electrodynamics:motor>,<item:kubejs:cast_iron_plate>]
+]);
+recipeShaped("chemicalcrystallizer",<item:electrodynamics:chemicalcrystallizer>,[
+  [<item:kubejs:cast_iron_plate>,<item:electrodynamics:circuitbasic>,<item:kubejs:cast_iron_plate>],
+  [<item:electrodynamics:gearbronze>,<item:electrodynamics:motor>,<item:electrodynamics:gearbronze>],
+  [<item:kubejs:cast_iron_plate>,<item:electrodynamics:circuitbasic>,<item:kubejs:cast_iron_plate>]
+]);
+

@@ -34,5 +34,14 @@
   "item.kubejs.frozen_seeds_pumpkin": "冰冻种子",
   "item.kubejs.frozen_seeds_unknown": "冰冻种子",
   "item.kubejs.frozen_seeds_beetroots": "冰冻种子",
-  "fluid.kubejs.lime_water": "石灰水"
+  "item.kubejs.magnesium_dust": "镁粉",
+  "item.kubejs.magnesium_oxide": "氧化镁",
+  "item.kubejs.chlorine_bucket": "氯气桶",
+  "item.kubejs.magnesium_chloride_bucket": "氯化镁桶",
+  
+  "fluid.kubejs.lime_water": "石灰水",
+  "fluid.kubejs.chlorine": "氯气",
+  "fluid.kubejs.magnesium_chloride": "氯化镁",
+  
+  "itemGroup.kubejs.kubejs": "Kubejs"
 }

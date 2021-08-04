@@ -1,0 +1,15 @@
+{
+	"type": "electrodynamics:chemical_mixer_recipe",
+	"item_input": {
+		"item": "rankine:magnesite",
+		"count": 1
+	},
+	"fluid_input": {
+		"fluid": "kubejs:chlorine",
+		"amount": 600
+	},
+	"fluid_output": {
+		"fluid": "kubejs:magnesium_chloride",
+		"amount": 1000
+	}
+}

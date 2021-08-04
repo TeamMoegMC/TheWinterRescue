@@ -5,6 +5,7 @@ craftingTable.removeRecipe(<item:immersiveengineering:dust_lead>);
 craftingTable.removeRecipe(<item:immersiveengineering:dust_silver>);
 craftingTable.removeRecipe(<item:immersiveengineering:dust_nickel>);
 craftingTable.removeRecipe(<item:immersiveengineering:dust_uranium>);
+craftingTable.removeRecipe(<item:immersiveengineering:cloche>);
 
 craftingTable.removeRecipe(<item:immersiveengineering:dynamo>);
 
