@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+	"stone_age:cooked_auroch_meat",
+	"stone_age:cooked_mouflon_meat",
+	"stone_age:cooked_boar_meat",
+	"stone_age:cooked_mammoth_meat",
+	"stone_age:cooked_rhino_meat",
+	"stone_age:cooked_tiger_meat",
+	"stone_age:cooked_fowl_meat",
+	"stone_age:cooked_venison"
+  ]
+}
