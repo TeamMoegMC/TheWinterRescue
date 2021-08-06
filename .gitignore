@@ -34,3 +34,5 @@
 /config/jei/recipe-category-sort-order.ini
 /optionsshaders.txt
 /shaderpacks/
+/ambience_music/
+/config/ambience-common.toml

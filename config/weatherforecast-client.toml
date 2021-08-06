@@ -1,0 +1,12 @@
+#Position of the temperature orb in game screen. 
+#Allowed Values: MIDDLE, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+renderTempOrbAtCenter = "MIDDLE"
+#X Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used. 
+#Range: -256 ~ 256
+tempOrbOffsetX = 0
+#Y Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used.  
+#Range: -256 ~ 256
+tempOrbOffsetY = 0
+#Enables the temperature orb overlay. 
+enableTemperatureOrb = false
+
