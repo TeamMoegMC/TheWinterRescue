@@ -1,8 +1,108 @@
+# Penalty
 [[effects]]
     [[effects.attributes]]
         name = "minecraft:generic.max_health"
         operation = "add"
-        amount = 2.0
+        amount = -3.5
+    [[effects.conditions]]
+        groups = ["proteins", "fruits", "vegetables", "grains"]
+        match = "every"
+        above = 0.0
+        below = 0.1
+
+
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.max_health"
+        operation = "add"
+        amount = -3.0
+    [[effects.conditions]]
+        groups = ["proteins", "fruits", "vegetables", "grains"]
+        match = "every"
+        above = 0.1
+        below = 0.2
+
+
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.max_health"
+        operation = "add"
+        amount = -2.5
+    [[effects.conditions]]
+        groups = ["proteins", "fruits", "vegetables", "grains"]
+        match = "every"
+        above = 0.2
+        below = 0.3
+
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.max_health"
+        operation = "add"
+        amount = -2.0
+    [[effects.conditions]]
+    groups = ["proteins", "fruits", "vegetables", "grains"]
+        match = "every"
+        above = 0.3
+        below = 0.4
+
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.max_health"
+        operation = "add"
+        amount = -1.5
+    [[effects.conditions]]
+        groups = ["proteins", "fruits", "vegetables", "grains"]
+        match = "every"
+        above = 0.4
+        below = 0.5
+
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.max_health"
+        operation = "add"
+        amount = -1.0
+    [[effects.conditions]]
+        groups = ["proteins", "fruits", "vegetables", "grains"]
+        match = "every"
+        above = 0.5
+        below = 0.6
+
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.max_health"
+        operation = "add"
+        amount = -0.5
+    [[effects.conditions]]
+        groups = ["proteins", "fruits", "vegetables", "grains"]
+        match = "every"
+        above = 0.6
+        below = 0.7
+
+# Awarding
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.max_health"
+        operation = "add"
+        amount = +1.0
+    [[effects.conditions]]
+        groups = ["proteins", "fruits", "vegetables", "grains"]
+        match = "every"
+        above = 0.8
+        below = 0.9
+
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.max_health"
+        operation = "add"
+        amount = +2.0
+    [[effects.conditions]]
+        groups = ["proteins", "fruits", "vegetables", "grains"]
+        match = "every"
+        above = 0.9
+        below = 1.0
+
+# Strength
+[[effects]]
     [[effects.attributes]]
         name = "minecraft:generic.attack_damage"
         operation = "add"
@@ -16,11 +116,28 @@
         match = "all"
         above = 0.8
         below = 1.0
+
 [[effects]]
     [[effects.attributes]]
-        name = "minecraft:generic.max_health"
+        name = "minecraft:generic.attack_damage"
         operation = "add"
-        amount = 2.0
+        amount = -2.0
+    [[effects.attributes]]
+        name = "minecraft:generic.attack_speed"
+        operation = "multiply_total"
+        amount = -0.1
+    [[effects.attributes]]
+        name = "minecraft:generic.movement_speed"
+        operation = "multiply_base"
+        amount = -0.2
+    [[effects.conditions]]
+    groups = ["proteins", "fruits", "vegetables", "grains"]
+        match = "any"
+        above = 0.0
+        below = 0.2
+
+# Weight
+[[effects]]
     [[effects.attributes]]
         name = "minecraft:generic.knockback_resistance"
         operation = "add"
@@ -34,11 +151,28 @@
         match = "every"
         above = 0.8
         below = 1.0
+
+[[effects]]
+    [[effects.attributes]]
+        name = "minecraft:generic.knockback_resistance"
+        operation = "add"
+        amount = -0.10
+    [[effects.attributes]]
+        name = "minecraft:generic.armor_toughness"
+        operation = "add"
+        amount = -1.0
+    [[effects.conditions]]
+        groups = ["proteins", "fruits", "vegetables", "grains"]
+        match = "every"
+        above = 0.0
+        below = 0.2
+
+# Glucose Saturation
 [[effects]]
     [[effects.attributes]]
         name = "minecraft:generic.movement_speed"
         operation = "multiply_base"
-        amount = 0.25
+        amount = 0.2
     [[effects.status_effects]]
         name = "minecraft:hunger"
         power = 3
