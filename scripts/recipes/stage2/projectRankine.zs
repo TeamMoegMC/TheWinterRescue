@@ -11,6 +11,7 @@ craftingTable.removeRecipe(<item:rankine:steel_gold_pan>);
 
 furnace.addRecipe("magnesium_oxide",<item:kubejs:magnesium_oxide>,<item:kubejs:magnesium_dust>,0,200);
 furnace.addRecipe("quicklime",<item:rankine:quicklime>,<item:kubejs:flux>,0,200);
+furnace.addRecipe("dust_sulfur",<item:immersiveengineering:dust_sulfur>,<item:rankine:pyrite_ore>,0,200);
 
 craftingTable.addShaped("burning_chamber",<item:frostedheart:burning_chamber>,[
   [<item:kubejs:cast_iron_plate>,<tag:items:forge:plates/iron>,<item:kubejs:cast_iron_plate>],

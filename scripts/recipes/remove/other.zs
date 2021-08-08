@@ -23,3 +23,5 @@ craftingTable.removeRecipe(<item:engineersdecor:factory_placer>);
 craftingTable.removeRecipe(<item:engineersdecor:labeled_crate>);
 craftingTable.removeRecipe(<item:engineersdecor:factory_dropper>);
 craftingTable.removeRecipe(<item:engineersdecor:small_waste_incinerator>);
+
+craftingTable.removeRecipe(<item:charcoal_pit:copper_block>);
