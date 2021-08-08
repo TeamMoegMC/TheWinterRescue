@@ -1,7 +1,7 @@
 {
 	"type" : "electrodynamics:chemical_crystallizer_recipe",
 	"fluid_input":{
-		"fluid":"kubejs:aluminate",
+		"fluid":"kubejs:aluminium",
 		"amount": 500
 	},
 	"item_output":{

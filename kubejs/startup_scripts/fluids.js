@@ -10,5 +10,5 @@ onEvent('fluid.registry', event => {
   event.create('hydrogen_fluoride').textureThin(0x00FF7F).bucketColor(0x00FF7F)
   event.create('fluoroaluminic_acid').textureThin(0x00FF7F).bucketColor(0x00FF7F)
   event.create('cryolite').textureThin(0x90EE90).bucketColor(0x90EE90)
-  event.create('aluminate').textureThin(0xD4F2E7).bucketColor(0xD4F2E7)
+  event.create('aluminium').textureThin(0xD4F2E7).bucketColor(0xD4F2E7)
 })
