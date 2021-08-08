@@ -39,7 +39,7 @@ recipeShapeless("wirecopper", <item:electrodynamics:wirecopper>,[<tag:items:forg
 <recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_nickel",<tag:items:forge:ores/nickel>, 400,<item:immersiveengineering:ingot_nickel>,<item:immersiveengineering:slag>);
 <recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_lead",<tag:items:forge:ores/lead>, 400,<item:electrodynamics:ingotlead>,<item:immersiveengineering:slag>);
 <recipetype:immersiveengineering:blast_furnace>.addRecipe("stibnite_ore",<item:rankine:stibnite_ore>, 400,<item:rankine:antimony_ingot>,<item:immersiveengineering:slag>);
-
+<recipetype:immersiveengineering:blast_furnace>.addRecipe("aluminum_dust",<item:immersiveengineering:dust_aluminum>, 400,<item:immersiveengineering:ingot_aluminum>,<item:immersiveengineering:slag>);
 
 
 

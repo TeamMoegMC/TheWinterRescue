@@ -3,6 +3,7 @@ console.info('[KUBEJS_STARTUP] Item Scripts Loaded/Reloaded!')
 onEvent('item.registry', event => {
 	event.create('flux')
 	event.create('impure_alumina_dust')
+	event.create('aluminium_oxide_dust')
 	event.create('kaolin_dust')
 	event.create('tungsten_steel').tooltip('750W-50Fe')
 	event.create('tungsten_steel_plate')

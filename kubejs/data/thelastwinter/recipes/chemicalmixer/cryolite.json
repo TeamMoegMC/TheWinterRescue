@@ -1,0 +1,15 @@
+{
+	"type": "electrodynamics:chemical_mixer_recipe",
+	"item_input": {
+		"tag": "forge:salt",
+		"count": 1
+	},
+	"fluid_input": {
+		"fluid": "kubejs:fluoroaluminic_acid",
+		"amount": 500
+	},
+	"fluid_output": {
+		"fluid": "kubejs:cryolite",
+		"amount": 1000
+	}
+}

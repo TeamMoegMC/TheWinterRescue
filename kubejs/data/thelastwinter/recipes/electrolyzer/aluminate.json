@@ -1,0 +1,15 @@
+{
+	"type": "frostedheart:electrolyzer_recipe",
+	"item_input": {
+		"item": "kubejs:aluminium_oxide_dust",
+		"count": 1
+	},
+	"fluid_input": {
+		"fluid": "kubejs:cryolite",
+		"amount": 50
+	},
+	"fluid_output": {
+		"fluid": "kubejs:aluminate",
+		"amount": 500
+	}
+}

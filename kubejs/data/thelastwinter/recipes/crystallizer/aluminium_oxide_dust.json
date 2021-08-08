@@ -1,0 +1,11 @@
+{
+	"type" : "electrodynamics:chemical_crystallizer_recipe",
+	"fluid_input":{
+		"fluid":"kubejs:sodium_aluminate",
+		"amount": 1000
+	},
+	"item_output":{
+		"item":"kubejs:aluminium_oxide_dust",
+		"count": 1
+	}
+}

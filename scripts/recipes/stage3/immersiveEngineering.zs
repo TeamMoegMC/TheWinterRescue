@@ -1,6 +1,6 @@
 
-
-
+craftingTable.removeRecipe(<item:immersiveengineering:drillhead_iron>);
+craftingTable.removeRecipe(<item:immersiveengineering:drillhead_steel>);
 
 recipeShaped("small_tree_cutter",<item:engineersdecor:small_tree_cutter>,[
   [<tag:items:forge:plates/steel>,<item:electrodynamics:circuitadvanced>,<tag:items:forge:plates/steel>],

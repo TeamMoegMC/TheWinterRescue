@@ -14,7 +14,7 @@
 	#Both the seed item for the crop and the crop block itself are acceptable.
 	unknownCropsList = ["crockpot:asparagus_seeds", "crockpot:corn_seeds", "crockpot:eggplant_seeds", "crockpot:onion_seeds", "crockpot:pepper_seeds", "crockpot:tomato_seeds"]
 	#Set this to false to disable new players spawning with the Crock Pot Cookbook.
-	spawnWithBook = true
+	spawnWithBook = false
 
 #World generation settings
 [worldgen]
@@ -33,11 +33,11 @@
 	#Range: > 1
 	eggplantGenerationChance = 16
 	#Set this to false will disable pepper world generation.
-	pepperGeneration = true
+	pepperGeneration = false
 	#Set this to false will disable asparagus world generation.
-	asparagusGeneration = true
+	asparagusGeneration = false
 	#Set this to false will disable eggplant world generation.
-	eggplantGeneration = true
+	eggplantGeneration = false
 	#Set this value to change the chance of tomato world generation. The higher value, the less generation.
 	#Range: > 1
 	tomatoGenerationChance = 16

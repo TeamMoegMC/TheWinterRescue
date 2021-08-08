@@ -18,7 +18,7 @@
 		# Replaces the usual bedrock generation pattern with flat layers.
 		#     Activates in all whitelisted dimensions.
 		# Default: true
-		"Flatten Bedrock" = true
+		"Flatten Bedrock" = false
 		# The width of the bedrock layer. Only works if Flatten Bedrock is true.
 		#Range: 0 ~ 256
 		"Bedrock Layer Width" = 1
@@ -73,7 +73,7 @@
 			# Percent chance of a region having water instead of lava at low altitudes.
 			# Default: 40%
 			#Range: 0.0 ~ 100.0
-			"Water Region Spawn Chance" = 40.0
+			"Water Region Spawn Chance" = 30.0
 			# Determines how large water regions are.
 			# Default: Medium (recommended).
 			"Water Region Size" = "Medium"
@@ -85,7 +85,7 @@
 			# Percent chance of caves spawning in a given region.
 			# Default: caves spawn in 100% of regions.
 			#Range: 0.0 ~ 100.0
-			"Cave Spawn Chance" = 100.0
+			"Cave Spawn Chance" = 80.0
 			# Determines how large cave regions are.
 			#     Controls the average size of a cave system.
 			# Accepted values: Small, Medium, Large, ExtraLarge, Custom

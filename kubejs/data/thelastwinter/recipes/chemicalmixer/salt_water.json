@@ -1,0 +1,15 @@
+{
+	"type": "electrodynamics:chemical_mixer_recipe",
+	"item_input": {
+		"tag": "forge:salt",
+		"count": 1
+	},
+	"fluid_input": {
+		"fluid": "minecraft:water",
+		"amount": 500
+	},
+	"fluid_output": {
+		"fluid": "kubejs:salt_water",
+		"amount": 500
+	}
+}

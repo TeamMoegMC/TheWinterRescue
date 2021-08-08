@@ -1,12 +1,12 @@
 
 ["Ore Generation Settings"]
 	#determines if deepslate blobs should generate between y0 - y16
-	generateDeepslateBlobs = true
+	generateDeepslateBlobs = false
 	#determines if default copper ore should generate.
 	#Note: this doesn't disable the generation of modded copper ore
 	generateCopperOre = false
 	#determines if tuff blobs should generate between y0 - y16
-	generateTuffBlobs = true
+	generateTuffBlobs = false
 
 ["World Generation Settings"]
 	#determines if dripstone caves biome should generate in the world
@@ -18,7 +18,7 @@
 	#Note: the lower the number, to common it will be, we don't recommend low values or it may cause laggy world loading
 	#Default: 53
 	#Range: 0 ~ 100
-	amethystGeodeChance = 53
+	amethystGeodeChance = 80
 	#determines if lush caves biome should generate in the world
 	#Note: to disable ALL the biomes use hasCaveBiomes instead, don't disable all biomes manually or you will break something
 	generateLushCaves = true
@@ -57,7 +57,7 @@
 	generateOreVeins = false
 	#determines if deepslate should generate.
 	#Note: you can increase the height of the generation of deepslate using 'deepslateLayerMaxHeight' setting.
-	generateDeepslate = true
+	generateDeepslate = false
 	#determines if noodle caves should generate.
 	generateNoodleCaves = true
 	#determines if aquifers should generate.

@@ -1,0 +1,15 @@
+{
+	"type": "electrodynamics:chemical_mixer_recipe",
+	"item_input": {
+		"item": "minecraft:glowstone_dust",
+		"count": 1
+	},
+	"fluid_input": {
+		"fluid": "electrodynamics:fluidsulfuricacid",
+		"amount": 500
+	},
+	"fluid_output": {
+		"fluid": "kubejs:hydrogen_fluoride",
+		"amount": 1000
+	}
+}
