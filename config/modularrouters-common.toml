@@ -1,0 +1,91 @@
+
+[Module]
+	#Base range for Sender Mk1 (no range upgrades)
+	#Range: > 1
+	sender1BaseRange = 8
+	#Max range for Sender Mk1
+	#Range: > 1
+	sender1MaxRange = 16
+	#Base range for Sender Mk2 (no range upgrades)
+	#Range: > 1
+	sender2BaseRange = 24
+	#Max range for Sender Mk2
+	#Range: > 1
+	sender2MaxRange = 48
+	#Base range for Vacuum (no range upgrades)
+	#Range: > 1
+	vacuumBaseRange = 6
+	#Max range for Vacuum
+	#Range: > 1
+	vacuumMaxRange = 12
+	#Base range for Extruder Mk1 (no range upgrades)
+	#Range: > 1
+	extruder1BaseRange = 16
+	#Max range for Extruder Mk1
+	#Range: > 1
+	extruder1MaxRange = 32
+	#Base range for Extruder Mk2 (no range upgrades)
+	#Range: > 1
+	extruder2BaseRange = 32
+	#Max range for Extruder Mk2
+	#Range: > 1
+	extruder2MaxRange = 64
+	#Base range for Puller Mk2 (no range upgrades)
+	#Range: > 1
+	puller2BaseRange = 12
+	#Max range for Puller Mk2
+	#Range: > 1
+	puller2MaxRange = 24
+	#Base range for Fluid Mk2 (no range upgrades)
+	#Range: > 1
+	fluid2BaseRange = 12
+	#Max range for Fluid Mk2
+	#Range: > 1
+	fluid2MaxRange = 24
+	#Should Sender modules show particle effects when working?
+	senderParticles = true
+	#Should Puller modules show particle effects when working?
+	pullerParticles = true
+	#Should Placer modules show particle effects when working?
+	placerParticles = true
+	#Should Breaker modules show particle effects when working?
+	breakerParticles = true
+	#Should Vacuum modules show particle effects when working?
+	vacuumParticles = true
+	#Should Flinger modules show smoke effects & play a sound when working?
+	flingerEffects = true
+	#Should Extruder Mk1/2 modules play a sound when placing/removing blocks?
+	extruderSound = true
+	#Should Extruder Mk1/2 modules push entities along when extruding blocks?
+	extruderPushEntities = true
+	#Should Breaker & Extruder Mk1 Modules respect the harvest level of the pickaxe used to craft them? (e.g. craft with an Iron Pickaxe => can't break Obsidian
+	breakerHarvestLevelLimit = true
+	#List of entity types which the Activator Module (in entity mode) should never attempt to interact with. Any entity which opens a GUI when right-clicked, like Villagers, should be added here, especially if it prevents player interaction.
+	activatorEntityBlacklist = ["minecraft:villager", "minecraft:wandering_trader"]
+
+[Router]
+	#Base tick interval (in server ticks) for a router; router will run this often
+	#Range: > 1
+	baseTickRate = 20
+	#Number of ticks by which 1 Speed Upgrade will reduce the router's tick interval
+	#Range: > 1
+	ticksPerUpgrade = 2
+	#Hard minimum tick interval for a router regardless of Speed Upgrades
+	#Range: > 1
+	hardMinTickRate = 2
+	#Router with eco mode enabled will go into low-power mode if idle for this many server ticks
+	#Range: > 1
+	ecoTimeout = 100
+	#Tick interval for an eco-mode router which has gone into low-power mode
+	#Range: > 1
+	lowPowerTickRate = 100
+	#Base fluid transfer rate (mB/t in each direction) for a router
+	#Range: > 1
+	fluidBaseTransferRate = 50
+	#Max fluid transfer rate (mB/t in each direction) for a router
+	#Range: > 1
+	fluidMaxTransferRate = 400
+	#Fluid transfer rate increase per Fluid Transfer Upgrade
+	#Range: > 1
+	mBperFluidUpgade = 10
+

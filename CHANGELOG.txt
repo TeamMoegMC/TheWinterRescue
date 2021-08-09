@@ -16,3 +16,11 @@ WeatherForecast
 Remove mods:
 BetterTitleScreen
 TowersOfTheWild
+
+[Beta-2]
+- Add new mods:
+Modular routers: item/fluid transfer
+Shut-up-experimental-settings (client)
+- Content:
+Diet effects are more harsh
+
