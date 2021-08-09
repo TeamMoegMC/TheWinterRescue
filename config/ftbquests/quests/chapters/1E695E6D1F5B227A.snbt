@@ -1,0 +1,34 @@
+{
+	id: "1E695E6D1F5B227A"
+	group: ""
+	order_index: 3
+	filename: "1E695E6D1F5B227A"
+	title: "工具大师"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -2.5d
+		y: -1.5d
+		description: ["拿这柄锤子右键工作台,你会发现新世界."]
+		dependencies: ["328D948C4C800873"]
+		id: "244385ABDC4E8716"
+		tasks: [{
+			id: "0F7E77EB33AD3F51"
+			type: "item"
+			item: {
+				id: "tetra:modular_double"
+				Count: 1b
+				tag: {
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "8f5d7e30-7840-4210-a2ff-b818f853b847"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					Damage: 0
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+				}
+			}
+		}]
+	}]
+}

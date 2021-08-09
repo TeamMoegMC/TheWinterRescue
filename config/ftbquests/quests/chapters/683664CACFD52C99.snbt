@@ -1,0 +1,185 @@
+{
+	id: "683664CACFD52C99"
+	group: ""
+	order_index: 2
+	filename: "683664CACFD52C99"
+	title: "世界信息"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "关于这个世界"
+			icon: "minecraft:grass_block"
+			x: 0.0d
+			y: 0.5d
+			description: ["岩层是按照群系来进行生成的."]
+			dependencies: ["45E2EF843333B846"]
+			hide: true
+			id: "181378ABF5CCD166"
+			tasks: [{
+				id: "224D71FECAB88F1D"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			subtitle: "大量含铜"
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "0B5888E9CDE431AE"
+			tasks: [{
+				id: "7879CE737B0505EC"
+				type: "item"
+				item: "rankine:native_copper_ore"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "52B0059C59DF67B5"
+			tasks: [{
+				id: "557A9CA215BE2887"
+				type: "item"
+				item: "rankine:malachite_ore"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "61DD1DCCB9CCBFBF"
+			tasks: [{
+				id: "2F593478824A3E6A"
+				type: "item"
+				item: "rankine:native_tin_ore"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "7D2807571451631F"
+			tasks: [{
+				id: "3DD88F3B703D29A6"
+				type: "item"
+				item: "rankine:cassiterite_ore"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "40254682DFE145B8"
+			tasks: [{
+				id: "2EB0C8C2F9ADED2A"
+				type: "item"
+				item: "rankine:pentlandite_ore"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "29067D9CA0B3DC45"
+			tasks: [{
+				id: "541A90057E7F506E"
+				type: "item"
+				item: "rankine:stibnite_ore"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "7C30A1316BF232EC"
+			tasks: [{
+				id: "373FD2D4326C86CC"
+				type: "item"
+				item: "rankine:magnetite_ore"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "31ED006279866288"
+			tasks: [{
+				id: "47655DAC7245BF43"
+				type: "item"
+				item: "rankine:pyrite_ore"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "72D5B725766622F4"
+			tasks: [{
+				id: "35E8A9A70C19C434"
+				type: "item"
+				item: "rankine:cinnabar_ore"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "0ED9C71E91687BFA"
+			tasks: [{
+				id: "221421E9BAA85D61"
+				type: "item"
+				item: "rankine:bauxite_ore"
+			}]
+		}
+		{
+			icon: "rankine:lignite_ore"
+			x: 4.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "539631D18E7A9B4A"
+			tasks: [{
+				id: "79F71F4EB6152468"
+				type: "item"
+				item: "rankine:lignite"
+			}]
+		}
+		{
+			icon: "rankine:bituminous_ore"
+			x: 4.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "6F39341180466270"
+			tasks: [{
+				id: "722406E18437795B"
+				type: "item"
+				item: "rankine:bituminous_coal"
+			}]
+		}
+	]
+}

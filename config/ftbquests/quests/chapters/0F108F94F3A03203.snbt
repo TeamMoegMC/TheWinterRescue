@@ -1,0 +1,1104 @@
+{
+	id: "0F108F94F3A03203"
+	group: ""
+	order_index: 0
+	filename: "0F108F94F3A03203"
+	title: "原始人的一天"
+	icon: "minecraft:stone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "“真正的西伯利亚”挖土豆"
+			x: -8.5d
+			y: 0.0d
+			subtitle: "沙砾"
+			description: [
+				"望望四周，似乎没有沙砾可见."
+				"为什么不去冰覆盖的河床底下找呢"
+			]
+			id: "32E5D942F1FE8645"
+			tasks: [{
+				id: "3F2DD80BDC7AE545"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			subtitle: "燧石的工作台"
+			description: [
+				"前期主要的合成台."
+				"右键放置好合成表,使用所需工具右键即可."
+			]
+			dependencies: ["32E5D942F1FE8645"]
+			id: "3102993072F3C8B9"
+			tasks: [{
+				id: "081B951F9A018B3B"
+				type: "item"
+				item: "stone_age:flint_workbench"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			subtitle: "干燥"
+			description: ["需要燧石工作台制作,用于晾晒干草。"]
+			dependencies: ["348EB1588EFAD2AB"]
+			id: "1D7F2824DAF3BB7B"
+			tasks: [{
+				id: "4366249350406528"
+				type: "item"
+				item: "stone_age:drying_rack"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			subtitle: "一点就着"
+			description: ["在这冰天雪地里，干草是取火的关键。"]
+			dependencies: [
+				"1D7F2824DAF3BB7B"
+				"1233EF3CDF5E33F8"
+			]
+			id: "29BC87594650152D"
+			tasks: [{
+				id: "5DF3E0777A5A6D09"
+				type: "item"
+				item: "charcoal_pit:straw"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "暖身"
+			description: ["让你落脚的地方，可以恢复温度和体力，当然也可以烤肉。"]
+			dependencies: ["6B7D4F59C921C1FC"]
+			id: "36960F1D7CDC8B30"
+			tasks: [{
+				id: "2EA574C52E7D6A74"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			icon: "minecraft:stone"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "坚硬的石头"
+			description: [
+				"在陶窑内烧制任意石头或圆石获得。 "
+				"陶窑的搭建需要拿着待烧制物品按shift+右键放置在一个坑里,能放置8个物品."
+				"然后使用6个干草与3个原木填充,使用起火器点燃."
+			]
+			dependencies: [
+				"45E2EF843333B846"
+				"6B7D4F59C921C1FC"
+			]
+			hide: true
+			id: "4BD8236FEEBD7D3A"
+			tasks: [
+				{
+					id: "30BFAF8DEF443159"
+					type: "item"
+					item: "minecraft:stone"
+				}
+				{
+					id: "24AD4A7EB1417B80"
+					type: "item"
+					item: "charcoal_pit:fire_starter"
+				}
+			]
+			rewards: [{
+				id: "0BDCC5409A0391EB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			subtitle: "砧"
+			description: ["结实耐用的底座。将原料放上去之后用对应工具左键以完成处理。"]
+			dependencies: ["4BD8236FEEBD7D3A"]
+			id: "7E3F0C805E2BBB9F"
+			tasks: [{
+				id: "78D4D4C0E2691057"
+				type: "item"
+				item: "stone_age:tree_stump"
+			}]
+		}
+		{
+			title: "木板"
+			icon: "minecraft:oak_planks"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "良好的建筑材料"
+			description: [
+				"经典的建筑方块和合成材料，用砧木处理(原版)去皮原木得到。"
+				"不知道(原版)去皮原木怎么来？"
+				"用斧头右键原木得到去皮原木,不用查wiki了。"
+			]
+			dependencies: ["7E3F0C805E2BBB9F"]
+			id: "19603323EAAFF726"
+			tasks: [{
+				id: "56616CBB1C923EE5"
+				type: "item"
+				title: "Any #minecraft:planks"
+				tags: ["plank"]
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			subtitle: "砍伐工具"
+			description: ["同样重要的工具，你可以砍树了。"]
+			dependencies: ["29BC87594650152D"]
+			id: "6B7D4F59C921C1FC"
+			tasks: [{
+				id: "38086DB999F82B30"
+				type: "item"
+				item: {
+					id: "rankine:flint_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			subtitle: "开采工具"
+			description: [
+				"重要的工具之一，开始挖矿吧"
+				"完成后可在左侧世界信息一章了解矿物生成."
+			]
+			dependencies: ["29BC87594650152D"]
+			id: "45E2EF843333B846"
+			tasks: [{
+				id: "0DA3A979A808DA51"
+				type: "item"
+				item: {
+					id: "rankine:flint_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			subtitle: "小肚子,大容量."
+			dependencies: ["6D92E93A0811C1FD"]
+			id: "689BB00EC2454F1F"
+			tasks: [{
+				id: "196FB59FF81963A6"
+				type: "item"
+				item: "charcoal_pit:clay_pot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			description: ["简陋的床，可以用于设置重生点。"]
+			dependencies: ["19603323EAAFF726"]
+			id: "417AC14073DD4249"
+			tasks: [{
+				id: "0D8922D35F106559"
+				type: "item"
+				item: "stone_age:dried_grass_bed"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			subtitle: "基础金属"
+			description: ["拥有不错的延展性和导电性，还可以制成各种铜合金。"]
+			dependencies: ["689BB00EC2454F1F"]
+			id: "0A9A5166127945AB"
+			tasks: [{
+				id: "5A640369B501C360"
+				type: "item"
+				item: "electrodynamics:ingotcopper"
+			}]
+			rewards: [{
+				id: "6975052D3C879463"
+				type: "item"
+				item: "frostedheart:energy_core"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			subtitle: "简单加工"
+			description: ["用于加工皮革。"]
+			dependencies: ["4BD8236FEEBD7D3A"]
+			id: "718403EB34A5B46F"
+			tasks: [{
+				id: "1D8EA544D790D174"
+				type: "item"
+				item: "stone_age:tanning_rack"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			subtitle: "坚硬有弹性"
+			description: [
+				"需要使用燧石刀进行加工."
+				"韧性不错的材料"
+				"可用于制作比普通绳子更结实的绑带(皮带)"
+			]
+			dependencies: ["718403EB34A5B46F"]
+			id: "42AF456D165CBF75"
+			tasks: [{
+				id: "6C321E201EBDBE78"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			subtitle: "锤"
+			description: ["石锤了。"]
+			dependencies: ["42AF456D165CBF75"]
+			id: "4A4D6D0DC9B348C1"
+			tasks: [{
+				id: "76979FA29AAF6129"
+				type: "item"
+				item: {
+					id: "stone_age:stone_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: [
+				"4A4D6D0DC9B348C1"
+				"0A9A5166127945AB"
+			]
+			hide: false
+			id: "586D66C71A378A82"
+			tasks: [{
+				id: "1FD4E3357F016517"
+				type: "item"
+				item: "immersiveengineering:plate_copper"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			description: [
+				"用于搭建合金窑，以炼制基础的合金。"
+				"搭建方法请看工程师手册~"
+			]
+			dependencies: ["586D66C71A378A82"]
+			id: "162264AE4B9EE1A9"
+			tasks: [{
+				id: "4421E9FA77D859B7"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+			}]
+			rewards: [{
+				id: "515DCCBB1AE627C0"
+				type: "item"
+				item: "immersiveengineering:manual"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: [
+				"162264AE4B9EE1A9"
+				"3C4CEEBFF8DCF448"
+			]
+			hide: true
+			id: "4B6840707D77E2C0"
+			tasks: [{
+				id: "6359AA8052C20461"
+				type: "item"
+				item: "electrodynamics:platebronze"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			subtitle: "合金成分"
+			description: ["青铜的主要成分之一。"]
+			dependencies: ["689BB00EC2454F1F"]
+			id: "3C4CEEBFF8DCF448"
+			tasks: [{
+				id: "0F08400AFE76BD5F"
+				type: "item"
+				item: "electrodynamics:ingottin"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			subtitle: "锻铁炉主方块"
+			description: [
+				""
+				"我想JEI内的剖面图已经很清楚地描述了锻铁炉的结构。"
+				"锻铁炉的使用方法：搭建好锻铁炉后，手持有效的原料(燃料除外)shift+右键将其放入锻铁炉形成原料方块，然后手持原料(包括燃料)右键原料方块将剩余原料放入锻铁炉。"
+				"放好原料后在原料方块上点火以启动锻铁炉。"
+				"锻铁炉运行中需要用风箱通过鼓风口鼓风."
+				"&6炼制完成后，锻铁炉会自动熄灭，此时立即用镐挖掘其中的方块得到铁锭。"
+			]
+			dependencies: ["4B6840707D77E2C0"]
+			id: "13D9DE54DF8117C2"
+			tasks: [{
+				id: "1A5C62932CF1E4C8"
+				type: "item"
+				item: "charcoal_pit:main_bloomery"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			subtitle: "真 基础金属"
+			description: ["来硬的!"]
+			dependencies: [
+				"13D9DE54DF8117C2"
+				"29533DFBD579CA2F"
+			]
+			id: "75154C5A6E2F3257"
+			tasks: [{
+				id: "1019411D398ECFCE"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "黏黏的"
+			description: [
+				"河里什么都有，如果你想要黏土的话，去河里翻翻吧。"
+				"这很河里，不是吗？"
+			]
+			dependencies: ["4BD8236FEEBD7D3A"]
+			id: "6D92E93A0811C1FD"
+			tasks: [{
+				id: "286618A8A476D4E4"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			subtitle: "风口"
+			description: [
+				"用于向锻铁炉内鼓风."
+				"一个口可供给多个风箱工作."
+			]
+			dependencies: [
+				"47F458D8E94E5367"
+				"4625CA3FEAF6908B"
+			]
+			id: "29533DFBD579CA2F"
+			tasks: [{
+				id: "1560043C1CB2DD3B"
+				type: "item"
+				item: "charcoal_pit:sandy_tuyere"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["基础的液体容器。"]
+			dependencies: ["19603323EAAFF726"]
+			id: "3078BCEE3E402DED"
+			tasks: [{
+				id: "3F36712084610285"
+				type: "item"
+				item: "charcoal_pit:barrel"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			subtitle: "CaCO3"
+			description: ["主要成分为碳酸钙。"]
+			dependencies: ["3078BCEE3E402DED"]
+			id: "74780AAD5FDF8870"
+			tasks: [{
+				id: "49B8EB773F01535C"
+				type: "item"
+				item: "kubejs:flux"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			description: ["将黏土块加工为各种黏土制品。"]
+			dependencies: ["6D92E93A0811C1FD"]
+			id: "409679774573DA63"
+			tasks: [{
+				id: "4728C6151A33F70B"
+				type: "item"
+				item: {
+					id: "notreepunching:clay_tool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			description: [
+				"盛装各种液体，类似于通用流体单元。"
+				"加工黏土块后烧制得到."
+			]
+			dependencies: ["409679774573DA63"]
+			id: "6CF9868197215C1D"
+			tasks: [{
+				id: "6C40143E3C546377"
+				type: "item"
+				item: "notreepunching:ceramic_bucket"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "CaO"
+			description: ["烧制得到生石灰"]
+			dependencies: ["74780AAD5FDF8870"]
+			id: "35E5CE37A2F8EB90"
+			tasks: [{
+				id: "5429FFA1199516F5"
+				type: "item"
+				item: "rankine:quicklime"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			description: [
+				"将生石灰放到装有水的桶里得到石灰水。"
+				"沙子去哪找？"
+				"当 然 是 河 里"
+				"（其实沙漠也行）"
+			]
+			dependencies: [
+				"6CF9868197215C1D"
+				"35E5CE37A2F8EB90"
+			]
+			id: "4543F3B5F937E6B0"
+			tasks: [{
+				id: "760783F9EBF12B58"
+				type: "item"
+				item: "rankine:mortar"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			description: [
+				"一般的木炭坑，用泥土搭建足矣。"
+				"但是如果要生产焦煤，就需要用石砖搭建炭坑。"
+			]
+			dependencies: ["4543F3B5F937E6B0"]
+			id: "77A7511048D5767B"
+			tasks: [{
+				id: "6505E5BF6A293CD1"
+				type: "item"
+				item: "minecraft:stone_bricks"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			description: ["浸润了杂酚油的木板。"]
+			dependencies: ["13AA30FB9CD620EB"]
+			id: "1C8171C8FD1D0CD5"
+			tasks: [{
+				id: "0858859213DC6012"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.0d
+			description: [
+				"呼呼呼~"
+				"推荐至少两台风箱."
+			]
+			dependencies: ["1C8171C8FD1D0CD5"]
+			id: "47F458D8E94E5367"
+			tasks: [{
+				id: "58333247C08A3B90"
+				type: "item"
+				item: "charcoal_pit:bellows"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.5d
+			description: [
+				"用青铜制作的门。可以作为木炭坑的一部分，方便出入。"
+				"注意:门的方向要紧贴木炭坑内方块。"
+			]
+			dependencies: ["77A7511048D5767B"]
+			id: "66505076652885B8"
+			tasks: [{
+				id: "18B289929FEC84A2"
+				type: "item"
+				item: "rankine:bronze_door"
+			}]
+		}
+		{
+			icon: "charcoal_pit:sandy_collector"
+			x: 7.0d
+			y: -1.0d
+			description: [
+				"可以收集木炭坑运行中产生的杂酚油。"
+				"将杂酚油漏斗放置在即将运行的木炭坑下方，即可收集木炭坑产生的杂酚油。"
+				"产生的杂酚油会储存在杂酚油漏斗中，用桶、陶桶等容器可取出其中的杂酚油。"
+			]
+			dependencies: ["4543F3B5F937E6B0"]
+			id: "13AA30FB9CD620EB"
+			tasks: [{
+				id: "55E5BC7F36B1F814"
+				type: "item"
+				item: "charcoal_pit:sandy_collector"
+			}]
+		}
+		{
+			icon: "minecraft:charcoal"
+			x: -1.5d
+			y: -2.5d
+			subtitle: "原始燃料"
+			description: [
+				"便宜高效的燃料。"
+				"搭建方法：把原木堆密封在一个小空间里面,留一个口子点火,着了立马盖上."
+				"静待烧制完成即可获得木炭."
+			]
+			dependencies: ["6B7D4F59C921C1FC"]
+			id: "76B2B1A3EC6D92CD"
+			tasks: [
+				{
+					id: "34D72F00CF39E4B0"
+					type: "item"
+					item: "charcoal_pit:log_pile"
+				}
+				{
+					id: "2DB3C08BDDB3E260"
+					type: "item"
+					item: "minecraft:charcoal"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			subtitle: "生砂砖"
+			description: ["沙子做成的砖，具有不错的隔热性。"]
+			dependencies: ["6D92E93A0811C1FD"]
+			id: "66EFFD59083624BF"
+			tasks: [{
+				id: "0A9CC3BC84669BE2"
+				type: "item"
+				item: "charcoal_pit:unfired_sandy_brick"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			subtitle: "耐热"
+			description: ["用于搭建锻铁炉，也可以用来盖房。"]
+			dependencies: [
+				"66EFFD59083624BF"
+				"4543F3B5F937E6B0"
+			]
+			id: "4625CA3FEAF6908B"
+			tasks: [{
+				id: "3F54F0BF03485EB3"
+				type: "item"
+				item: "charcoal_pit:sandy_brick"
+			}]
+		}
+		{
+			icon: {
+				id: "notreepunching:flint_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -6.0d
+			y: 0.5d
+			subtitle: "剪枝器"
+			description: ["锋利的小刀，用其破坏(原版)树叶获得Snowy Vine。"]
+			dependencies: ["3102993072F3C8B9"]
+			id: "14D7D98FC5264B03"
+			tasks: [{
+				id: "2877C21663576225"
+				type: "item"
+				item: {
+					id: "notreepunching:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			description: ["类似木炭，但是能烧更久。"]
+			dependencies: ["77A7511048D5767B"]
+			id: "48C50ABC7AE7C575"
+			tasks: [{
+				id: "5B7455566A335EB2"
+				type: "item"
+				item: "charcoal_pit:coke"
+			}]
+		}
+		{
+			icon: "frostedheart:energy_core"
+			x: 1.0d
+			y: 5.0d
+			subtitle: "大型壁炉"
+			description: [
+				"用于加热周围区块的大型IE机器."
+				"从上到下方块排序:"
+				"ABA  A A  ABA  AAA   A=能量塔砖"
+				"B  B       BCB  AAA    B=能量增幅"
+				"ABA  A A  ABA  AAA   C=能量核心"
+				"搭好结构之后用IE工程师锤敲一下。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0A9A5166127945AB"]
+			id: "69D939596ED4C0AF"
+			tasks: [
+				{
+					id: "479CE18A3083C8CD"
+					type: "item"
+					item: "frostedheart:generator_core_t1"
+				}
+				{
+					id: "6745F87A897EB5C5"
+					type: "item"
+					item: "frostedheart:generator_amplifier_r1"
+				}
+				{
+					id: "75C752C598BB386D"
+					type: "item"
+					item: "frostedheart:generator_brick"
+				}
+			]
+			rewards: [{
+				id: "0E2B848932AC874B"
+				type: "item"
+				item: "frostedheart:rye_block"
+				count: 6
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			subtitle: "抗寒作物"
+			dependencies: ["69D939596ED4C0AF"]
+			id: "4E2FF1AFA626A42B"
+			tasks: [{
+				id: "7CE2CD33F7053CF1"
+				type: "item"
+				item: "frostedheart:rye"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			subtitle: "粗略加工"
+			description: ["燧石工作台的必备工具"]
+			dependencies: ["3102993072F3C8B9"]
+			id: "348EB1588EFAD2AB"
+			tasks: [{
+				id: "218222BA0E80D408"
+				type: "item"
+				item: {
+					id: "stone_age:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			subtitle: "冰冷的藤蔓"
+			description: ["绕成一团的藤蔓,也许你可以晾干作为火源."]
+			dependencies: ["14D7D98FC5264B03"]
+			id: "1233EF3CDF5E33F8"
+			tasks: [{
+				id: "3349CF3A5F68D6F5"
+				type: "item"
+				item: "primalwinter:snowy_vine"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["42AF456D165CBF75"]
+			id: "4CD30E566C5776E0"
+			tasks: [{
+				id: "6F2F119242BDED57"
+				type: "item"
+				item: {
+					id: "stone_age:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						additionalModifiers: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["0A9A5166127945AB"]
+			id: "7A45FE5C4EC35A0C"
+			tasks: [{
+				id: "4447622D793D02F3"
+				type: "item"
+				item: {
+					id: "stone_age:copper_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["162264AE4B9EE1A9"]
+			id: "7D2826CCB69C5EE8"
+			tasks: [{
+				id: "136A453133A19654"
+				type: "item"
+				item: {
+					id: "stone_age:bronze_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "制作者名单"
+			icon: "minecraft:paper"
+			x: -8.5d
+			y: -2.0d
+			subtitle: "参与制作的人"
+			description: [""]
+			id: "7AFE32B08BB6CE6C"
+			tasks: [
+				{
+					id: "34E10961B27ECEE7"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							Damage: 3
+							SkullOwner: {
+								Id: [I;
+									1164787893
+									788215284
+									-1286806246
+									2137676803
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNjUxNDkxMTc2NCwKICAicHJvZmlsZUlkIiA6ICIxZmI2MzRlM2FlZWY0ZDAxOTU5YTZmOTdlYzE2OGZmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXNodWFpYmlhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E0MTJiNDI0ZGI4YjBiODliMzZlN2RiOWE4MTkxNjI1MGUxYmMxNmU4ZGMyMjJkOWE0MDcwYmIwYmY3YzYyNTciCiAgICB9CiAgfQp9"
+										Signature: "HduzflKT+h2evtebyCfhPhCNY7rZQDJvEj/dYQ1QtZGeYd4IQ9251Hlt6UbCr9iP48wg1m4RaKZn/U13GhUb9cFMOcZ3LOyXYk3vktXNdOV+MeleRRlmR19Net0SwjPKJK3BWXZRaolRt5ujOArofBAtSGEYcgjqW7L+9yl0MG5qhmg1rE6JcluGfvFCxErcxYc9eNNJpDchNw5wxpoVwFQf8Qlrgta7BuvGDBcdchu3p8E36GLoWEq3sj+xX1S7S3cFI9M+G1tC0eBoQpg06noug8AcLDEMrS3kucPsl9aqqLAiLQ0CWfAb0UmKkJ3BeuB5xaVKQfGSI7kDNOiDnawmDkzfApD7K8ZjdJAZ10Je7rhqwhdgc60VzZq2HtChJwMvfEDa2oLviV2/wICC8ti5gxtKM7eK3yAvV3S2w6LWSidCKa64AJKBxB2QS/Wyq7SAutItDdJnwgH3cCw1/INCMvcDHa9qyK0ebCps87LuW1h2YYs+NJ1V9Tj5nPaOzl93Nm57tNGV/w9iXNtns/tRDg/XSP7hjmWl/DkE699mnsAJTasqmq9lH2hukrQAmrsGNh/fN0yU3ZoLsYUaHYNpE4cCSjvTVGxjbLO7eXemBBpBmVkDAWr48N7OwqKA2TmhHRFe+T9lT/LQyyz3t+BZ5HD+SiybkNNAsobf9MU="
+									}]
+								}
+								Name: "dashuaibia"
+							}
+							display: {
+								Name: "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"dashuaibia\"}],\"text\":\"\"}"
+							}
+							SkullOwnerOrig: [I;
+								1164787893
+								788215284
+								-1286806246
+								2137676803
+							]
+						}
+					}
+					consume_items: true
+					only_from_crafting: true
+				}
+				{
+					id: "2D8A63312752F201"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							Damage: 3
+							SkullOwner: {
+								Id: [I;
+									35518663
+									-711049312
+									-1184267738
+									966439982
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNjUxNzI2MTIwNCwKICAicHJvZmlsZUlkIiA6ICIxNDI3ZTBlMDJjZDY0Y2MwODhkNzQ4OTI3NTFjNmM2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJZdWVzaGFfS2V2MTQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNjMDA0YzQ5MTEwMmY4MjVmN2IyMTI3NTY5M2NiOWIzNDhiYzE3NzVlZDk5YjNkMzBlZjU1MDViNzg1M2JlYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+										Signature: "k2Yt5gVfqmeLb8vOYGi2OqeSQp2Cqc6lDB3RsOKaAQ7E8WvFB1JXGDdqQZdqeo5wOd6ixCdwZcpMIQvIkGoes8W857EqkCn+9ziDDMSv+GF4qhvAAXlFtyTCQ4mpsLacg5ySWDoKg7IZSX75AZ7lp0LO4dY0bqb0V+xtJnrmpm7+7X4xjWfJ4DTqTvrnuWbE7ZHV+uTLLcS2qST7xyvqDhzpO9Cn+7k5fPCdEGgzTXhmpn/mxoVTTWYiws2C0jcwS68JKATqpfdaznXm3/DamFAVdKV3yV4ySWjcR2ygWfD+dzEzYMO23qzIg99WLzy317cRtk8r2ATXdIKHthAJzB+MORvs6e+PXxc4zvuGl6f1TSj8bR88iQsuGDGmxKs5nFqULsZlUH3OhdqwkuEpnXjWY6JhCSjqN2CRDI7NvQK5uTRt1AunrxxgoCE4DoYfq4CRMuviidnkOuOjEPiTghH+gUZIGUnvKDFjSS5RcytOcQPn3ZGW7U3XbNv8lQPJ68YTQ/QqAJdL0J/RPf530ykZgHynyZsagAVxfkdDiL7jRx6sLCp86yH4OkyoSFgEhH2NGO88BRp3QvekC/9RWzNua/9WPoHYRLlYpUiZYz57JZMexpAOR36hDAaT6V48ICzqBuenyUCXg1zs5LYQrBJkv/wl+6aF4bX0BfGePKs="
+									}]
+								}
+								Name: "Yuesha_Kev14"
+							}
+							display: {
+								Name: "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Yuesha\"}],\"text\":\"\"}"
+							}
+							SkullOwnerOrig: [I;
+								35518663
+								-711049312
+								-1184267738
+								966439982
+							]
+						}
+					}
+					consume_items: true
+					only_from_crafting: true
+				}
+				{
+					id: "2170C50DC7187B7B"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							Damage: 3
+							SkullOwner: {
+								Id: [I;
+									1668762988
+									841300093
+									-1927644045
+									1608184157
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNjUxNTE4NDYxOCwKICAicHJvZmlsZUlkIiA6ICI2ZGQ3ZTMxYzQ3YWQ0OThhOTQwNjBkODkwMjZhOGRjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkdWNrX2VnZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZjQwZWM5OGUyZTM3NjRkMTk5ODgyNDUyNWI5NDZiY2U1NjJmODYwZmM0ZWNiNGM5YzY2OWU4MDFmNGQ5OWU2IgogICAgfQogIH0KfQ=="
+										Signature: "Y19t59ondHexmjGTYFhqPeNzmnaA90JgiLO/Aq1XLTR2XgmvexxSygdyBkuyxsSgAnPU4w9Ca93JMfCOr++Mcx7F+2XKrdCH+8CrK2AEBZoG3Gm22snouqeCcjoi7L/x4UbiUEHjKMbEeyLmTNyUzmAJf9lQlRqq16AkhJWuCYtvbZSbFs6PTH+kKr3b1Tsz8QpT8sdBNhJmWBtWToF+N/VzVSEpczTV6yvwHZJPh8D1pJtRlxLPVqYEgdFVxbkf9Utne6IBv8Iu8RNtDQdVN2ptHd7uuS8QLlvmOgRgQQnxW1O8lKozrMjMDBlpGGwK85pASwVbOMlbxRjkygRtyfTSf499xssm21oW2udtJJgdVvjKLJwu47TWtPRM44Z3ABGYWAcQlrcPh9X84vXNT1T1wxxCSXiRtP99aHmL8e/Zc9M+XjLjPMj0Zspt3RuZtlk+NMJwwmAu1g0AENkyW1j67pawGoLftNGO8geQ1xbvvJbWBLQahYCi/odup3bR8ZmehWwGW34GppCYnKBASVNogUnxHh3ot5W+8zQAdZVvdXgrIxDkWNnx4dkgZPZH+cRAFEkB75fpWMNt4UJiMHUuS6e4MRfZJU3mcVe7Vh8QQtKlmqjy/iHeraxUu3ronCmPOxJOQNlesz0fCiRUWM/sqgd50n6H53ucYl55srM="
+									}]
+								}
+								Name: "duck_egg"
+							}
+							display: {
+								Name: "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"duck_egg\"}],\"text\":\"\"}"
+							}
+							SkullOwnerOrig: [I;
+								1668762988
+								841300093
+								-1927644045
+								1608184157
+							]
+						}
+					}
+					consume_items: true
+					only_from_crafting: true
+				}
+			]
+			rewards: [{
+				id: "2E0E5A1096C8EE6D"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						Damage: 3
+						SkullOwner: {
+							Id: [I;
+								772352401
+								-2019478386
+								-1283856156
+								2128013235
+							]
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNjUxNzI0MTYzMSwKICAicHJvZmlsZUlkIiA6ICI5MjE0NWIxYTgzNzA0NWZiOWY3Yjk3Y2NlNmRiMDIxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFdmFudmVuaXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY3YzcyOWY0NjNkNWJkNmNjZTIxNDk2NGNmMDMxM2I3Yjk0NjhiZDMzMjYzNzk4Y2RlY2I5YjgzZjgwMGQyMiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+									Signature: "IAhR4O0dD8oMLZdo3qtCAK6k/gOJrGHoWb4X2y8gmRU5AehGLiHHKBXZPF85AT4b/jcD5p0sWQKsASQ3HwNT9SkPkwmNSnu6odXj+BzS5RT42obKbOgc+msxalnaC/SaBE24NkK34oxmWM9vnoOYdKcBt7GYtWXBmlxrln2PsU5BUe8LKyYHWIFeaqMK9QNpSf1h1WGwGVRH5+1+hxR8huJ+fkPLbf2xqwvT5PcmfPOXiBaAIcB9rMR0zaKJueWHsrFEyXDhB7SRAQMYZnG6T2wx/xYvKtPu7kkUBZeLA3X+gvjx3F3hdY7igB0dUzuj1ciUvKVVDFOIxbOF1tuWMfxgGVb6aU4v7NUyZ/kpGnRgmmOeYH4xO11lRv6XXNhtPXJ3L/SLpZLfR4xadQzeF/BfEmR0jth4d8TgxLtNXEzUbptJmXEiNEbWDtIGvPR14PqNb4NssUkEs4np41mV+SpScNlg/z5VhH6SRnCDaPjBShQLldXnIuuAoh2OC8GN2GUqfz2EPLlzGcyyST9B5u7YuIYqaYND86VYXXRhQuMPb3YJC59Mql72AZq55vvKqk7xkAgsDNDBAHh6HozpFn4T61NubAw7y5ikngmdCIVo+sDgqnqgYhEUUx3CzYlw/Og6Nlj92F8Br8VX4VMMGE6w2EyZhn6MhUo1n8PByEA="
+								}]
+							}
+							Name: "Evanvenir"
+						}
+						display: {
+							Name: "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Evan\"}],\"text\":\"\"}"
+						}
+						SkullOwnerOrig: [I;
+							772352401
+							-2019478386
+							-1283856156
+							2128013235
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "&6FTBU圈地 必看"
+			icon: "minecraft:oak_sapling"
+			x: -7.0d
+			y: -2.0d
+			subtitle: "圈地事项"
+			description: [
+				"按E打开物品栏,左上角小地图圈地."
+				"或者按M打开地图,同左上角小地图圈地."
+				"&6"
+				"&6给予权限请使用ftbteam组队系统"
+				"&6"
+			]
+			id: "543F5BC239D07C40"
+			tasks: [{
+				id: "7421B8D8B161FCBC"
+				type: "checkmark"
+				title: "知道了"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			subtitle: "简易存储"
+			description: [""]
+			dependencies: ["689BB00EC2454F1F"]
+			id: "062E137E7ECB4C99"
+			tasks: [{
+				id: "461347FD0245EACA"
+				type: "item"
+				item: "charcoal_pit:ceramic_pot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			subtitle: "原始人的武器"
+			description: [
+				"这个世界危机四伏,有些未驯服生物有野性. "
+				"可当作矛投射出去."
+			]
+			dependencies: ["29BC87594650152D"]
+			id: "7521769E8333942B"
+			tasks: [{
+				id: "73D32EE1AFEFFA3C"
+				type: "item"
+				item: {
+					id: "rankine:flint_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["76B2B1A3EC6D92CD"]
+			id: "24431C9F9D2662F1"
+			tasks: [{
+				id: "76DB20C414DC836B"
+				type: "item"
+				item: "survive:charcoal_filter"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "简单防御"
+			dependencies: ["42AF456D165CBF75"]
+			id: "4DD7D3E4613000E4"
+			tasks: [{
+				id: "07753AF4C71657C6"
+				type: "item"
+				item: {
+					id: "minecraft:leather_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "&6组队须知"
+			icon: "minecraft:player_head"
+			x: -5.5d
+			y: -2.0d
+			subtitle: "组队须知"
+			description: [
+				"创建指令/ftbteams party craft 名字 &6推荐一开始就创建队伍好让他人进入"
+				"邀请:/ftbteams party invite 名字"
+				"&6创建组队会创建一个新任务组 任务从零开始"
+				"加入一个组会强制同步任务到新组"
+			]
+			id: "1CD9EB4A39925BB8"
+			tasks: [{
+				id: "698704746E033DF8"
+				type: "checkmark"
+				title: "知道了"
+			}]
+			rewards: [{
+				id: "44F6FB5102EE8558"
+				type: "item"
+				item: "frostedheart:rye_bread"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			subtitle: "开阔道路"
+			dependencies: ["29BC87594650152D"]
+			id: "5D803F0865A90DE0"
+			tasks: [{
+				id: "67B5CC79345AFB26"
+				type: "item"
+				item: {
+					id: "rankine:flint_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}
