@@ -1,0 +1,42 @@
+
+["Normal Campfire"]
+	#Default state of campfire: true - unlit, false - lit:
+	campfireCreatedUnlit = true
+	#How long of a burn time should campfire have by default (in ticks, ticks = 1/20 of second):
+	#Range: > 0
+	campfireDefaultLifeTime = 2000
+	#Max limit of burn time for a normal campfire (in ticks, ticks = 1/20 of second):
+	#Range: > 0
+	campfireMaxLifeTime = 2147483647
+	#Should campfire burn indefinitely? Overrides default life time
+	campfireInfiniteLifeTime = false
+	#Should campfire break instead of extinguishing?
+	campfireDestroyedOnBurnout = false
+
+["Soul Campfire"]
+	#Default state of soul campfire: true - unlit, false - lit:
+	soulCampfireCreatedUnlit = false
+	#How long of a burn time should soul campfire have by default (in ticks, ticks = 1/20 of second):
+	#Range: > 0
+	soulCampfireDefaultLifeTime = 4000
+	#Max limit of burn time for a soul campfire (in ticks, ticks = 1/20 of second):
+	#Range: > 0
+	soulCampfireMaxLifeTime = 2147483647
+	#Should soul campfire burn indefinitely? Overrides default life time
+	soulCampfireInfiniteLifeTime = false
+	#Should soul campfire break instead of extinguishing?
+	soulCampfireDestroyedOnBurnout = false
+
+[Miscellaneous]
+	#Value, by which the fuel time of thrown item is multiplied
+	#e.g. you throw a stick into a campfire. With multiplier 1 it will give a campfire 100 ticks = 5 seconds of time. With multiplier 4 it will give it 20 seconds of time. 
+	#Range: > 1
+	campfireFuelMultiplier = 1
+	#Enable/disable double flint ignition mechanic.
+	doubleFlintIgnition = true
+	#Chance of successfully igniting a campfire using two flints. By default, it's 33% (0.33).
+	#Range: 0.0 ~ 1.0
+	flintIgniteChance = 0.33
+	#Enable/disable dragon breath giving campfires infinite life time
+	dragonBreathMakesCampfiresEternal = false
+
