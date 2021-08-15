@@ -21,13 +21,32 @@ campfire.addRecipe("torch",<item:minecraft:torch>,<item:stone_age:unlit_torch>,0
 <recipetype:stone_age:tree_stump>.addRecipe("al2o3", <item:rankine:alumina>, <tag:items:ages_api:hammers>, <item:rankine:bauxite_ore>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("redstone", <item:minecraft:redstone>*2, <tag:items:ages_api:hammers>, <item:rankine:cinnabar_ore>, 2);
 //planks
-<recipetype:stone_age:tree_stump>.addRecipe("oak_plank", <item:minecraft:oak_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_oak_log>, 2);
+/*<recipetype:stone_age:tree_stump>.addRecipe("oak_plank", <item:minecraft:oak_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_oak_log>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("spruce_plank", <item:minecraft:spruce_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_spruce_log>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("birch_plank", <item:minecraft:birch_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_birch_log>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("jungle_plank", <item:minecraft:jungle_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_jungle_log>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("acacia_plank", <item:minecraft:acacia_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_acacia_log>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("dark_oak_plank", <item:minecraft:dark_oak_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_dark_oak_log>, 2);
+*/
 <recipetype:stone_age:tree_stump>.addRecipe("treated_wood_slab",<item:immersiveengineering:slab_treated_wood_horizontal>*2,<tag:items:forge:axes>,<item:immersiveengineering:treated_wood_horizontal>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("dark_oak_plank", <item:minecraft:dark_oak_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_dark_oak_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("oak_plank", <item:minecraft:oak_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_oak_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("acacia_plank", <item:minecraft:acacia_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_acacia_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("birch_plank", <item:minecraft:birch_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_birch_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("jungle_plank", <item:minecraft:jungle_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_jungle_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("spruce_plank", <item:minecraft:spruce_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_spruce_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("cinnamon_plank", <item:rankine:cinnamon_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_cinnamon_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("cedar_plank", <item:rankine:cedar_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_cedar_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("sharinga_plank", <item:rankine:sharinga_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_sharinga_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("black_walnut_plank", <item:rankine:black_walnut_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_black_walnut_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("cork_oak_plank", <item:rankine:cork_oak_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_cork_oak_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("coconut_palm_plank", <item:rankine:coconut_palm_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_coconut_palm_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("pinyon_pine_plank", <item:rankine:pinyon_pine_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_pinyon_pine_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("juniper_plank", <item:rankine:juniper_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_juniper_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("balsam_fir_plank", <item:rankine:balsam_fir_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_balsam_fir_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("magnolia_plank", <item:rankine:magnolia_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_magnolia_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("eastern_hemlock_plank", <item:rankine:eastern_hemlock_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_eastern_hemlock_log>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("maple_plank", <item:rankine:maple_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_maple_log>, 2);
 
 <recipetype:stone_age:millstone>.addRecipe("al2o3_dust", <item:kubejs:impure_alumina_dust>*2,<item:kubejs:impure_alumina_dust>,<item:rankine:alumina>,0.4, 2);
 <recipetype:stone_age:millstone>.addRecipe("kaolin_dust", <item:kubejs:kaolin_dust>,<item:kubejs:kaolin_dust>,<item:rankine:kaolinite_ball>,0.3, 1);
