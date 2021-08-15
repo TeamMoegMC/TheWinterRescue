@@ -1,0 +1,15 @@
+{
+  "temperature_modifiers": [
+		{
+			"condition": "survive:on_fire",
+			"temperature": 0.15,
+			"fireTimer": 1,
+			"operation": ">"
+		},
+		{
+			"condition": "survive:default",
+			"temperature": 0
+		}
+	],
+  "weight_modifier": 0.6
+}
