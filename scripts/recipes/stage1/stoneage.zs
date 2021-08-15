@@ -6,7 +6,12 @@ campfire.addRecipe("torch",<item:minecraft:torch>,<item:stone_age:unlit_torch>,0
 
 <recipetype:stone_age:drying_rack>.addRecipe("grass", <item:charcoal_pit:straw>, <item:primalwinter:snowy_vine>, 600, "grass");
 
-<recipetype:stone_age:tree_stump>.addRecipe("copper_plate", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:electrodynamics:ingotcopper>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("copper_plate1", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:electrodynamics:ingotcopper>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("copper_plate2", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:rankine:copper_ingot>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("copper_plate3", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:cavesandcliffs:copper_ingot>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("copper_plate4", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:charcoal_pit:copper_ingot>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("copper_plate5", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:immersiveengineering:ingot_copper>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("copper_plate6", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:libvulpes:ingotcopper>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("bronze_plate", <item:electrodynamics:platebronze>,<tag:items:ages_api:hammers>, <item:electrodynamics:ingotbronze>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("plate_iron", <item:immersiveengineering:plate_iron>,<tag:items:ages_api:hammers>, <item:minecraft:iron_ingot>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("cast_iron_plate", <item:kubejs:cast_iron_plate>,<tag:items:ages_api:hammers>, <item:rankine:cast_iron_alloy>*2, 3);
