@@ -41,7 +41,7 @@
 	#-------------------------------------------
 	#Default: true
 	#-------------------------------------------
-	"Boolean: Enable Thirst" = true
+	"Boolean: Enable Thirst" = false
 	#
 	############################################
 	#Enabling this will remove the water source block when it is drunk

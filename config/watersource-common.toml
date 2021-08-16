@@ -1,0 +1,6 @@
+
+[Misc]
+	#It decides if players' water level would reset in death.
+	#Default:true
+	resetWaterLevelInDeath = true
+

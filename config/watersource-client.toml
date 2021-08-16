@@ -1,0 +1,12 @@
+
+[Display]
+	#It decides if player can see foods/drinks' water level.
+	#Default:true
+	displayFoodsWaterLevel = true
+	#Open debug mode.
+	#Default:false
+	debugMode = false
+	#It decides if player can see water saturation level.
+	#Default:false
+	displayWaterSaturationLevel = false
+

@@ -1,6 +1,6 @@
 {
-  "temperature_modifier": 0,
+  "temperature_modifier": -0.1,
   "uses_lit_or_active_property": false,
   "uses_level_property": false,
-  "range": 0
+  "range": 3
 }

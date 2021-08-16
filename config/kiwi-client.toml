@@ -11,5 +11,5 @@ tooltipWrapWidth1 = 200
 	#Allowed values: vanilla, kiwi
 	tooltipNBTFormatter = "vanilla"
 	#Show item nbt in advanced tooltips while holding shift
-	nbtTooltip = true
+	nbtTooltip = false
 
