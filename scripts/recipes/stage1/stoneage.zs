@@ -224,7 +224,6 @@ craftingTable.removeRecipe(<item:rankine:bronze_door>);
   [<item:frostedheart:rye>,<item:frostedheart:rye>,<item:frostedheart:rye>]
 ],<item:stone_age:flint_knife>);
 
-<<<<<<< HEAD
 <recipetype:stone_age:flint_workbench>.addRecipe("wooden_cup",<item:watersource:wooden_cup>*2,[
   [<tag:items:minecraft:planks>,<item:minecraft:air>,<tag:items:minecraft:planks>],
   [<tag:items:minecraft:planks>,<item:minecraft:air>,<tag:items:minecraft:planks>],
@@ -241,8 +240,8 @@ craftingTable.removeRecipe(<item:rankine:bronze_door>);
   [<item:minecraft:charcoal>,<item:minecraft:charcoal>,<item:minecraft:charcoal>],
   [<item:minecraft:sand>,<item:minecraft:sand>,<item:minecraft:sand>],
   [<item:minecraft:clay_ball>,<item:minecraft:clay_ball>,<item:minecraft:clay_ball>]
-=======
+],<item:stone_age:flint_knife>);
+
 <recipetype:stone_age:flint_workbench>.addRecipe("fish_bone",<item:stone_age:fish_bone> * 2,[
   [<item:minecraft:bone>,<item:minecraft:flint>,<item:minecraft:bone>]
->>>>>>> 369399751e3dcd912756593a5df701f4a7c786f5
 ],<item:stone_age:flint_knife>);
