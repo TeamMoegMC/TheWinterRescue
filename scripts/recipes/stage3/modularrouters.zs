@@ -1,7 +1,6 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import mods.jei.JEI;
-import crafttweaker.api.tag.MCTag;
 
 var removingItems as IItemStack[] = [
 <item:modularrouters:activator_module>,
@@ -22,8 +21,6 @@ var removingItems as IItemStack[] = [
 for i in 0 .. removingItems.length {
     craftingTable.removeRecipe(removingItems[i]);
     mods.jei.JEI.hideItem(removingItems[i]);
-    // Ban speed upgrades for now
-
 }
 
 craftingTable.removeRecipe(<tag:items:modularrouters:augments>);

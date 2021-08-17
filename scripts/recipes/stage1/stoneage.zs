@@ -236,3 +236,7 @@ craftingTable.removeRecipe(<item:rankine:bronze_door>);
 <recipetype:stone_age:flint_workbench>.addRecipe("rye_bread",<item:frostedheart:rye_bread>,[
   [<item:frostedheart:rye>,<item:frostedheart:rye>,<item:frostedheart:rye>]
 ],<item:stone_age:flint_knife>);
+
+<recipetype:stone_age:flint_workbench>.addRecipe("fish_bone",<item:stone_age:fish_bone> * 2,[
+  [<item:minecraft:bone>,<item:minecraft:flint>,<item:minecraft:bone>]
+],<item:stone_age:flint_knife>);
