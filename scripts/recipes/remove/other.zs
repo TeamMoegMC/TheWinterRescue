@@ -7,13 +7,13 @@ craftingTable.removeRecipe(<item:rankine:gyratory_crusher>);
 craftingTable.removeRecipe(<item:immersiveengineering:thermoelectric_generator>);
 craftingTable.removeRecipe(<item:minecraft:ender_eye>);
 craftingTable.removeRecipe(<item:rankine:template_table>);
+craftingTable.removeRecipe(<item:rankine:alloy_plate>);
 
 craftingTable.removeRecipe(<item:engineersdecor:small_block_breaker>);
 
 craftingTable.removeRecipe(<item:immersiveengineering:blueprint>);
 
 craftingTable.removeRecipe(<item:immersiveengineering:toolbox>);
-craftingTable.removeRecipe(<item:engineersdecor:factory_hopper>);
 craftingTable.removeRecipe(<item:engineersdecor:small_solar_panel>);
 craftingTable.removeRecipe(<item:engineersdecor:small_mineral_smelter>);
 craftingTable.removeRecipe(<item:engineersdecor:small_freezer>);
@@ -25,3 +25,5 @@ craftingTable.removeRecipe(<item:engineersdecor:factory_dropper>);
 craftingTable.removeRecipe(<item:engineersdecor:small_waste_incinerator>);
 
 craftingTable.removeRecipe(<item:charcoal_pit:copper_block>);
+
+craftingTable.removeRecipe(<item:survive:canteen>);

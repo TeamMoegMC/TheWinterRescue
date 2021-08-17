@@ -1,0 +1,11 @@
+{
+	"type": "electrodynamics:mineral_crusher_recipe",
+	"input": {
+		"tag": "forge:plates/aluminum",
+		"count": 1
+	},
+	"output": {
+		"item": "immersiveengineering:sheetmetal_aluminum",
+		"count": 1
+	}
+}

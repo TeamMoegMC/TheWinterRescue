@@ -1,0 +1,32 @@
+{
+  "controllerId": "chcr",
+  "name": "Chemical Crystallizer",
+  "textureOverride": "immersiveengineering:block/metal/sheetmetal_constantan",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 2,
+        "columns": 2
+      }
+    },
+	{
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 50000
+      }
+    },
+	{
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    }
+  ]
+}

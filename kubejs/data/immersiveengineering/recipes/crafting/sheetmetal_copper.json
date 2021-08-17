@@ -1,0 +1,11 @@
+{
+	"type": "electrodynamics:mineral_crusher_recipe",
+	"input": {
+		"tag": "forge:plates/copper",
+		"count": 1
+	},
+	"output": {
+		"item": "immersiveengineering:sheetmetal_copper",
+		"count": 1
+	}
+}

@@ -21,13 +21,6 @@ campfire.addRecipe("torch",<item:minecraft:torch>,<item:stone_age:unlit_torch>,0
 <recipetype:stone_age:tree_stump>.addRecipe("al2o3", <item:rankine:alumina>, <tag:items:ages_api:hammers>, <item:rankine:bauxite_ore>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("redstone", <item:minecraft:redstone>*2, <tag:items:ages_api:hammers>, <item:rankine:cinnabar_ore>, 2);
 //planks
-/*<recipetype:stone_age:tree_stump>.addRecipe("oak_plank", <item:minecraft:oak_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_oak_log>, 2);
-<recipetype:stone_age:tree_stump>.addRecipe("spruce_plank", <item:minecraft:spruce_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_spruce_log>, 2);
-<recipetype:stone_age:tree_stump>.addRecipe("birch_plank", <item:minecraft:birch_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_birch_log>, 2);
-<recipetype:stone_age:tree_stump>.addRecipe("jungle_plank", <item:minecraft:jungle_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_jungle_log>, 2);
-<recipetype:stone_age:tree_stump>.addRecipe("acacia_plank", <item:minecraft:acacia_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_acacia_log>, 2);
-<recipetype:stone_age:tree_stump>.addRecipe("dark_oak_plank", <item:minecraft:dark_oak_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_dark_oak_log>, 2);
-*/
 <recipetype:stone_age:tree_stump>.addRecipe("treated_wood_slab",<item:immersiveengineering:slab_treated_wood_horizontal>*2,<tag:items:forge:axes>,<item:immersiveengineering:treated_wood_horizontal>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("dark_oak_plank", <item:minecraft:dark_oak_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_dark_oak_log>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("oak_plank", <item:minecraft:oak_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_oak_log>, 2);
@@ -151,12 +144,6 @@ craftingTable.removeRecipe(<item:charcoal_pit:unfired_sandy_brick>);
   [<item:minecraft:stone>,<item:rankine:mortar>,<item:minecraft:stone>]
 ],<item:stone_age:flint_knife>);
 
-<recipetype:stone_age:flint_workbench>.addRecipe("canteen", <item:survive:canteen>,[
-  [<item:minecraft:air>,<item:minecraft:leather>,<item:minecraft:air>],
-  [<item:minecraft:leather>,<item:minecraft:air>,<item:minecraft:leather>],
-  [<item:minecraft:leather>,<item:minecraft:leather>,<item:minecraft:leather>]
-],<item:stone_age:flint_knife>);
-
 <recipetype:stone_age:flint_workbench>.addRecipe("generator_brick",<item:frostedheart:generator_brick>*3,[
   [<item:minecraft:stone>,<item:minecraft:clay_ball>,<item:minecraft:stone>],
   [<item:minecraft:brick>,<item:minecraft:stone>,<item:minecraft:brick>],
@@ -235,4 +222,22 @@ craftingTable.removeRecipe(<item:rankine:bronze_door>);
 
 <recipetype:stone_age:flint_workbench>.addRecipe("rye_bread",<item:frostedheart:rye_bread>,[
   [<item:frostedheart:rye>,<item:frostedheart:rye>,<item:frostedheart:rye>]
+],<item:stone_age:flint_knife>);
+
+<recipetype:stone_age:flint_workbench>.addRecipe("wooden_cup",<item:watersource:wooden_cup>*2,[
+  [<tag:items:minecraft:planks>,<item:minecraft:air>,<tag:items:minecraft:planks>],
+  [<tag:items:minecraft:planks>,<item:minecraft:air>,<tag:items:minecraft:planks>],
+  [<item:minecraft:air>,<tag:items:minecraft:planks>,<item:minecraft:air>]
+],<item:stone_age:flint_knife>);
+
+<recipetype:stone_age:flint_workbench>.addRecipe("wooden_water_filter",<item:watersource:wooden_water_filter>,[
+  [<tag:items:minecraft:logs>,<item:minecraft:glass>,<tag:items:minecraft:logs>],
+  [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>],
+  [<tag:items:minecraft:logs>,<item:minecraft:glass>,<tag:items:minecraft:logs>]
+],<item:stone_age:flint_knife>);
+
+<recipetype:stone_age:flint_workbench>.addRecipe("primitive_strainer",<item:watersource:primitive_strainer>,[
+  [<item:minecraft:charcoal>,<item:minecraft:charcoal>,<item:minecraft:charcoal>],
+  [<item:minecraft:sand>,<item:minecraft:sand>,<item:minecraft:sand>],
+  [<item:minecraft:clay_ball>,<item:minecraft:clay_ball>,<item:minecraft:clay_ball>]
 ],<item:stone_age:flint_knife>);

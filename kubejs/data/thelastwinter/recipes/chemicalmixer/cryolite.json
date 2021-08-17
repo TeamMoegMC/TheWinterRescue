@@ -6,7 +6,7 @@
 	},
 	"fluid_input": {
 		"fluid": "kubejs:fluoroaluminic_acid",
-		"amount": 500
+		"amount": 1000
 	},
 	"fluid_output": {
 		"fluid": "kubejs:cryolite",

@@ -6,7 +6,7 @@
 	},
 	"fluid_input": {
 		"fluid": "kubejs:cryolite",
-		"amount": 50
+		"amount": 65
 	},
 	"fluid_output": {
 		"fluid": "kubejs:aluminium",

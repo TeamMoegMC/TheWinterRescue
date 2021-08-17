@@ -9,3 +9,8 @@ recipeShaped("mineralwasher",<item:electrodynamics:mineralwasher>,[
   [<item:electrodynamics:circuitadvanced>,<item:electrodynamics:electricpump>,<item:electrodynamics:circuitadvanced>],
   [<tag:items:forge:plates/steel>,<item:electrodynamics:pipesteel>,<tag:items:forge:plates/steel>]
 ]);
+recipeShaped("circuitadvanced",<item:electrodynamics:circuitadvanced>,[
+  [<item:electrodynamics:wireinsulatedgold>,<item:electrodynamics:wiregold>,<item:electrodynamics:wireinsulatedgold>],
+	  [<item:electrodynamics:wiregold>,<item:electrodynamics:circuitbasic>,<item:electrodynamics:wiregold>],
+	  [<item:electrodynamics:wireinsulatedgold>,<tag:items:forge:plates/steel>,<item:electrodynamics:wireinsulatedgold>]
+]);

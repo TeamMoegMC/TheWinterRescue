@@ -1,0 +1,12 @@
+{
+    "type":"electrodynamics:mineral_crusher_recipe",
+
+    "input":{
+        "tag":"forge:ingots/nickel",
+        "count":3
+    },
+    "output":{
+        "item":"immersiveengineering:plate_nickel",
+        "count":2
+    }
+}

@@ -1,4 +1,3 @@
-craftingTable.removeRecipe(<item:electrodynamics:circuitadvanced>);
 craftingTable.removeRecipe(<item:electrodynamics:energizedalloyer>);
 craftingTable.removeRecipe(<item:electrodynamics:hydroelectricgenerator>);
 craftingTable.removeRecipe(<item:electrodynamics:windmill>);

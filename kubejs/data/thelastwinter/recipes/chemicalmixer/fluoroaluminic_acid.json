@@ -6,7 +6,7 @@
 	},
 	"fluid_input": {
 		"fluid": "kubejs:hydrogen_fluoride",
-		"amount": 500
+		"amount": 1000
 	},
 	"fluid_output": {
 		"fluid": "kubejs:fluoroaluminic_acid",

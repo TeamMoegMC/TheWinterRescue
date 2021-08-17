@@ -1,0 +1,30 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "chcr_structure",
+    "controllerId": "chcr",
+    "ticks": 100,
+    "inputs": [
+		{
+            "type": "masterfulmachinery:fluids",
+            "data":{
+                "fluid": "kubejs:magnesium_chloride",
+                "amount": 1000
+            }
+        },
+        {
+            "type": "masterfulmachinery:energy",
+            "data":{
+                "amount": 5000
+            }
+        }
+    ],
+    "outputs":[
+        {
+            "type": "masterfulmachinery:items",
+            "data":{
+                "item": "kubejs:magnesium_dust",
+                "count": 1
+            }
+        }
+    ]
+}
