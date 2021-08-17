@@ -11,7 +11,7 @@
 	#Default: HOTBAR
 	#-------------------------------------------
 	#Allowed Values: HOTBAR, NUMBERS, HORIZONTAL_BAR, VERTICAL_BAR
-	"Enum: Temperature Display Mode" = "HOTBAR"
+	"Enum: Temperature Display Mode" = "NUMBERS"
 	#
 	############################################
 	#The x offset from the center of the screen where the temperature should render

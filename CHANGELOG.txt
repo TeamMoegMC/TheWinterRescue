@@ -24,6 +24,10 @@ Shut-up-experimental-settings (client)
 Campfire Overhual
 WaterSource
 TowersOfTheWild (fixed version)
+- Remove mods:
+AdChmineys
+Nuclear Science
+Vehicle
 - Content:
 Diet effects are more harsh
 

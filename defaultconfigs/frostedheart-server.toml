@@ -1,0 +1,3 @@
+#Always keep inventory on death on every dimension and world
+alwaysKeepInventory = false
+
