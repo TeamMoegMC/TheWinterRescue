@@ -13,6 +13,6 @@ craftingTable.addShapeless("rye_porridge", <item:frostedheart:rye_porridge>, [<i
 
 craftingTable.addShapeless("rye_sawdust_porridge", <item:frostedheart:rye_sawdust_porridge>, [<item:frostedheart:rye>, <item:immersiveengineering:dust_wood>, <item:minecraft:bowl>, <item:watersource:purified_water_bottle>.transformReplace(<item:minecraft:glass_bottle>)]);
 
-craftingTable.addShapwless("black_bread", <item:immersiveengineering:dust_wood>, <tag:items:thelastwinter:flour>, <tag:items:thelastwinter:flour>, <item:watersource:purified_water_bottle>.transformReplace(<item:minecraft:glass_bottle>);
+craftingTable.addShapeless("black_bread", <item:frostedheart:black_bread>,[<item:immersiveengineering:dust_wood>, <tag:items:thelastwinter:flour>, <tag:items:thelastwinter:flour>, <item:watersource:purified_water_bottle>.transformReplace(<item:minecraft:glass_bottle>)]);
 
 
