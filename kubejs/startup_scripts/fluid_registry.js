@@ -1,6 +1,27 @@
-console.info('[KUBEJS_STARTUP] Fluids Scripts Loaded/Reloaded!')
+console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Fluids Registered!')
 
 onEvent('fluid.registry', event => {
+  const generalFluids = [
+    {
+        type: 'thick',
+        id: 'molten_yuesha',
+        texture: '0x209EBD',
+        display: 'Molten YueSha'
+    }
+  ];
+  
+  generalFluids.forEach((fluid) => {
+    if (fluid.type == 'thick') {
+        event.create(fluid.id).textureThick(fluid.texture).bucketColor(fluid.texture); //.displayName(fluid.display);
+    }
+    else if (fluid.type == 'thin') {
+        event.create(fluid.id).textureThin(fluid.texture).bucketColor(fluid.texture); //.displayName(fluid.display);
+    }/*
+    else if (fluid.type == 'custom') {
+        event.create(fluid.id).displayName(fluid.display).textureStill(fluid.still).textureFlowing(fluid.flowing).bucketColor(fluid.color)
+    }*/
+  });
+
   event.create('lime_water').textureThin(0xB0C4DE).bucketColor(0xB0C4DE)
   event.create('chlorine').textureThin(0xB0C4DE).bucketColor(0xB0C4DE)
   event.create('magnesium_chloride').textureThin(0xB0C4DE).bucketColor(0xB0C4DE)

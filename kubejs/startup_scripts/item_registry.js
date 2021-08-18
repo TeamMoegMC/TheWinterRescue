@@ -1,6 +1,44 @@
-console.info('[KUBEJS_STARTUP] Item Scripts Loaded/Reloaded!')
+console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Items Registered!')
 
 onEvent('item.registry', event => {
+	const generalItems = [
+		
+	];
+	
+	let metals = [
+		'aluminum',
+		'cloggrum',
+		'cobalt',
+		'copper',
+		'froststeel',
+		'gold',
+		'iesnium',
+		'iron',
+		'lead',
+		'nebu',
+		'nickel',
+		'osmium',
+		'regalium',
+		'silver',
+		'thallasium',
+		'tin',
+		'uranium',
+		'utherium',
+		'zinc'
+	];
+	
+	let metalTypes = ['double_plate'];
+	
+	metalTypes.forEach((metalType) => {
+		metals.forEach((metal) => {
+			generalItems.push(`${metalType}_${metal}`);
+		});
+	});
+	
+	generalItems.forEach((item) => {
+		event.create(item).group('KubeJS').texture(`kubejs:item/${item}`);
+	});
+
 	event.create('flux')
 	event.create('impure_alumina_dust')
 	event.create('aluminium_oxide_dust')
