@@ -7,6 +7,17 @@ settings.logErroringRecipes = true
 
 console.info('[KUBEJS_SERVER] Server Scripts Loaded/Reloaded!')
 
+/* Tutorial
+var x = event.variableName
+
+event.variableName = 10
+
+event.functionName()	
+
+event.functionName(10, 'abc')
+
+*/
+
 onEvent('recipes', event => {
 	// Change recipes here
 })

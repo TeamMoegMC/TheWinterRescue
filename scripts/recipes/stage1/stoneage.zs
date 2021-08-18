@@ -220,10 +220,6 @@ craftingTable.removeRecipe(<item:rankine:bronze_door>);
   [<item:electrodynamics:ingotbronze>,<item:electrodynamics:ingotbronze>,<item:minecraft:air>]
 ],<item:stone_age:flint_knife>);
 
-<recipetype:stone_age:flint_workbench>.addRecipe("rye_bread",<item:frostedheart:rye_bread>,[
-  [<item:frostedheart:rye>,<item:frostedheart:rye>,<item:frostedheart:rye>]
-],<item:stone_age:flint_knife>);
-
 <recipetype:stone_age:flint_workbench>.addRecipe("wooden_cup",<item:watersource:wooden_cup>*2,[
   [<tag:items:minecraft:planks>,<item:minecraft:air>,<tag:items:minecraft:planks>],
   [<tag:items:minecraft:planks>,<item:minecraft:air>,<tag:items:minecraft:planks>],
