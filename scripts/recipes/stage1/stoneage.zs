@@ -41,8 +41,9 @@ campfire.addRecipe("torch",<item:minecraft:torch>,<item:stone_age:unlit_torch>,0
 <recipetype:stone_age:tree_stump>.addRecipe("eastern_hemlock_plank", <item:rankine:eastern_hemlock_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_eastern_hemlock_log>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("maple_plank", <item:rankine:maple_planks>*3, <tag:items:forge:axes>, <item:rankine:stripped_maple_log>, 2);
 
-<recipetype:stone_age:millstone>.addRecipe("al2o3_dust", <item:kubejs:impure_alumina_dust>,<item:kubejs:impure_alumina_dust>,<item:rankine:alumina>,0.7, 2);
+<recipetype:stone_age:millstone>.addRecipe("al2o3_dust", <item:kubejs:impure_alumina_dust>*2,<item:kubejs:impure_alumina_dust>,<item:rankine:alumina>,0.4, 2);
 <recipetype:stone_age:millstone>.addRecipe("kaolin_dust", <item:kubejs:kaolin_dust>,<item:kubejs:kaolin_dust>,<item:rankine:kaolinite_ball>,0.3, 1);
+<recipetype:stone_age:millstone>.addRecipe("rye_flour", <item:frostedheart:rye_flour>,<item:frostedheart:rye_flour>,<item:frostedheart:rye>,0.2, 1); 
 
 <recipetype:stone_age:flint_workbench>.removeRecipe(<item:minecraft:furnace>);
 <recipetype:stone_age:flint_workbench>.removeRecipe(<item:stone_age:backpack>);
@@ -218,6 +219,10 @@ craftingTable.removeRecipe(<item:rankine:bronze_door>);
   [<item:electrodynamics:ingotbronze>,<item:electrodynamics:ingotbronze>,<item:minecraft:air>],
   [<item:electrodynamics:ingotbronze>,<item:electrodynamics:ingotbronze>,<item:minecraft:air>],
   [<item:electrodynamics:ingotbronze>,<item:electrodynamics:ingotbronze>,<item:minecraft:air>]
+],<item:stone_age:flint_knife>);
+
+<recipetype:stone_age:flint_workbench>.addRecipe("rye_bread",<item:frostedheart:rye_bread>,[
+  [<item:frostedheart:rye>,<item:frostedheart:rye>,<item:frostedheart:rye>]
 ],<item:stone_age:flint_knife>);
 
 <recipetype:stone_age:flint_workbench>.addRecipe("wooden_cup",<item:watersource:wooden_cup>*2,[
