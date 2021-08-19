@@ -1,9 +1,0 @@
-{
-  "type": "rankine:beehive_oven",
-  "input": {
-    "item": "minecraft:air"
-  },
-  "result": {
-    "block": "minecraft:air"
-  }
-}

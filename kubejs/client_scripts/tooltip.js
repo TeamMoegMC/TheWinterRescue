@@ -22,11 +22,9 @@ onEvent('item.tooltip', (event) => {
     const recipes = [
         {
             items: [
-                // 'integratedtunnels:part_interface_fluid',
-                // 'integratedtunnels:part_importer_fluid',
-                // 'integratedtunnels:part_exporter_fluid'
+                'minecraft:blast_furnace'
             ],
-            text: [Text.of('XXXX').red()]
+            text: [Text.of('This item is disabled by the Gamemaster').red()]
         },
         {
             items: [/*'kubejs:altered_recipe_indicator'*/],

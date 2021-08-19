@@ -1,4 +1,4 @@
-const itemsToHide = [
+const clientItemsToHide = [
 
 ];
 
@@ -10,21 +10,12 @@ const regexHide = [
 
 ];
 
-const disabledItems = [
-
+const serverItemsToHide = [
+    'immersiveengineering:toolbox',
+    'immersiveengineering:sorter',
+    'immersiveengineering:fluid_sorter'
 ];
 
 const recipesToHide = [
-    {
-        category: 'minecraft:crafting',
-        recipes_by_id: [
-            
-        ]
-    },
-    {
-        category: 'minecraft:blast_furnace',
-        recipes_by_id: [
 
-        ]
-    }
 ];

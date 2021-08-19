@@ -1,13 +1,5 @@
-craftingTable.removeRecipe(<item:rankine:crucible>);
-craftingTable.removeRecipe(<item:rankine:power_cell>);
-craftingTable.removeRecipe(<item:rankine:power_cell_2>);
-craftingTable.removeRecipe(<item:rankine:power_cell_3>);
-craftingTable.removeRecipe(<item:rankine:power_cell_4>);
-
 craftingTable.removeRecipe(<item:rankine:high_refractory_brick>);
 craftingTable.removeRecipe(<item:rankine:ultra_high_refractory_brick>);
-craftingTable.removeRecipe(<item:rankine:induction_furnace>);
-craftingTable.removeRecipe(<item:rankine:steel_gold_pan>);
 
 furnace.addRecipe("magnesium_oxide",<item:kubejs:magnesium_oxide>,<item:kubejs:magnesium_dust>,0,200);
 furnace.addRecipe("quicklime",<item:rankine:quicklime>,<item:kubejs:flux>,0,200);
