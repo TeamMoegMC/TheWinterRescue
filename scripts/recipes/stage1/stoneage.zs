@@ -43,6 +43,7 @@ campfire.addRecipe("torch",<item:minecraft:torch>,<item:stone_age:unlit_torch>,0
 
 <recipetype:stone_age:millstone>.addRecipe("al2o3_dust", <item:kubejs:impure_alumina_dust>*2,<item:kubejs:impure_alumina_dust>,<item:rankine:alumina>,0.4, 2);
 <recipetype:stone_age:millstone>.addRecipe("kaolin_dust", <item:kubejs:kaolin_dust>,<item:kubejs:kaolin_dust>,<item:rankine:kaolinite_ball>,0.3, 1);
+<recipetype:stone_age:millstone>.addRecipe("rye_flour", <item:frostedheart:rye_flour>,<item:frostedheart:rye_flour>,<item:frostedheart:rye>,0.2, 1); 
 
 <recipetype:stone_age:flint_workbench>.removeRecipe(<item:minecraft:furnace>);
 <recipetype:stone_age:flint_workbench>.removeRecipe(<item:stone_age:backpack>);

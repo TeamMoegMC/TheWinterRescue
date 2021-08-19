@@ -1,0 +1,7 @@
+{
+  "type": "item",
+  "item": "survive:ice_cube",
+  "values": {
+    "FROZEN": 0.5
+  }
+}
