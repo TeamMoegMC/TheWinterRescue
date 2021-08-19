@@ -15,9 +15,9 @@ onEvent('recipes', (event) => {
         ]
     };
     data.recipes.forEach((recipe) => {
-        const re = event.recipes.immersiveengineering.alloy(recipe.output, recipe.input1, recipe.input2);
-        if (recipe.id) {
-            re.id(recipe.id);
-        }
+        // const re = event.recipes.immersiveengineering.alloy(recipe.output, recipe.input1, recipe.input2);
+        // if (recipe.id) {
+        //     re.id(recipe.id);
+        // }
     });
 });

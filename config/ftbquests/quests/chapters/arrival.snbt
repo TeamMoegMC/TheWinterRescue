@@ -1,0 +1,321 @@
+{
+	id: "21324FCFFF4090C2"
+	group: ""
+	order_index: 0
+	filename: "arrival"
+	title: "降临"
+	icon: {
+		id: "snowrealmagic:slab"
+		Count: 1b
+		tag: {
+			BlockEntityTag: {
+				Items: {
+					0: "polished_diorite_slab"
+				}
+				Textures: {
+					0: "{Properties:{waterlogged:\"false\",type:\"bottom\"},Name:\"minecraft:polished_diorite_slab\"}"
+				}
+			}
+		}
+	}
+	subtitle: ["你从空间站降落到冰冻的地球，请做好准备，这是一次艰难的任务！"]
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "冬季救援"
+			icon: "advancedrocketry:spacechest"
+			x: -8.5d
+			y: -4.5d
+			subtitle: "简介"
+			description: [
+				"伴随着舱门打开,你看到了外面白茫茫的一片."
+				"回忆着临走前队长对我说的话:\"这个世界已经危在旦夕,你需要尽你一切的努力来让这个世界恢复正常\"."
+				"\"我没有什么能帮助你,只能祝你好运了\"."
+				"结束了回忆,你走出了舱门,环顾了四周，寂静."
+				"你意识到现在只能靠你自己了."
+			]
+			id: "6D674495764B16D4"
+			tasks: [{
+				id: "5CB1F61472356430"
+				type: "checkmark"
+				title: "坠毁"
+			}]
+		}
+		{
+			title: "冬日降临之前"
+			icon: "minecraft:book"
+			x: -10.5d
+			y: -4.5d
+			shape: "gear"
+			subtitle: "谜题"
+			description: [
+				"这个冬日是何时开始的呢？"
+				"这也许是你需要寻找的答案..."
+			]
+			dependencies: ["6D674495764B16D4"]
+			id: "36E08AE8F1F79802"
+			tasks: [{
+				id: "6B23214570715CB5"
+				type: "checkmark"
+				title: "星际历史"
+			}]
+		}
+		{
+			icon: "advancedrocketry:rocketmotor"
+			x: -6.5d
+			y: -4.5d
+			description: ["这次驾驶的飞船是空间站为数不多还能正常运行的太空梭了。要赶快拿到物资才行，否则在这种鬼天气里，很快就会冻死的！"]
+			dependencies: ["6D674495764B16D4"]
+			id: "1872BFF557F93D6C"
+			tasks: [{
+				id: "0D0788607EC7A3A9"
+				type: "checkmark"
+				title: "飞船"
+			}]
+		}
+		{
+			icon: "minecraft:andesite"
+			x: -4.5d
+			y: -4.5d
+			shape: "circle"
+			description: ["飞船被厚厚的冰雪所覆盖了，不过尾部的余热化开了舱门。你耐心的查看起了最重要的物品仓。"]
+			dependencies: ["1872BFF557F93D6C"]
+			id: "16F87B8C56498566"
+			tasks: [{
+				id: "58881FDA9ECD7B8D"
+				type: "checkmark"
+				title: "山顶"
+			}]
+		}
+		{
+			icon: "ironchest:crystal_chest"
+			x: -4.5d
+			y: -6.0d
+			shape: "hexagon"
+			description: ["这里存放着最重要的初始物资：纯净水，食物，以及衣服。抓紧时间装备好他们吧。"]
+			dependencies: ["16F87B8C56498566"]
+			id: "370CFF9A943D5AFA"
+			tasks: [{
+				id: "1055EEDED2007FA4"
+				type: "checkmark"
+				title: "物品仓"
+			}]
+			rewards: [
+				{
+					id: "293435A006B6506D"
+					type: "item"
+					item: {
+						id: "watersource:leather_water_bag"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Fluid: {
+								FluidName: "watersource:purified_water"
+								Amount: 1500
+							}
+						}
+					}
+				}
+				{
+					id: "4742CC827D918A82"
+					type: "item"
+					item: "frostedheart:rye_bread"
+					count: 16
+				}
+				{
+					id: "7BFFAA4BEF941070"
+					type: "item"
+					item: {
+						id: "frostedheart:hide_jacket"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "stone_age:backpack"
+				Count: 1b
+				tag: {
+					backpack: {
+						inv: {
+							Items: [
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+								{
+									id: "minecraft:air"
+									Count: 1b
+									tag: {
+										display: {
+											Name: "{\"text\":\"EmptyHolster\"}"
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			}
+			x: -4.5d
+			y: -3.0d
+			shape: "hexagon"
+			description: ["个人物品带的不多，这个卫星电话没电了，要想办法充上电才行。"]
+			dependencies: ["16F87B8C56498566"]
+			id: "334E6EC3CFB1AB2B"
+			tasks: [{
+				id: "210C8D8AFFE97C1E"
+				type: "checkmark"
+				title: "私人物品"
+			}]
+			rewards: [{
+				id: "6E7DBD6C35101C24"
+				type: "item"
+				item: "watersource:coconut_milk_bottle"
+			}]
+		}
+		{
+			icon: "minecraft:writable_book"
+			x: -2.5d
+			y: -4.5d
+			description: [
+				"你拿出了贴身的笔记本，在无数前辈的经验笔记后写下了自己的名字，独自一人踏上了这无尽的寒冬，你的目的只有一个“活下去！”。"
+				"“有希望的话，大概什么都会好起来吧。”"
+			]
+			dependencies: ["16F87B8C56498566"]
+			id: "1B36220B91DBE9E3"
+			tasks: [{
+				id: "566B7480A977BFAA"
+				type: "checkmark"
+				title: "离开"
+			}]
+		}
+	]
+}

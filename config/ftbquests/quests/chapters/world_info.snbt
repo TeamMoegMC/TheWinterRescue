@@ -1,8 +1,8 @@
 {
 	id: "683664CACFD52C99"
 	group: ""
-	order_index: 2
-	filename: "683664CACFD52C99"
+	order_index: 5
+	filename: "world_info"
 	title: "世界信息"
 	icon: "minecraft:grass_block"
 	default_quest_shape: ""
@@ -13,7 +13,14 @@
 			icon: "minecraft:grass_block"
 			x: 0.0d
 			y: 0.5d
-			description: ["岩层是按照群系来进行生成的."]
+			subtitle: "生成须知"
+			description: [
+				"岩层是按照群系来进行生成的."
+				""
+				"矿石是按照岩层来进行生成的."
+				""
+				"&6完成矿物任务了才显示生成信息."
+			]
 			dependencies: ["45E2EF843333B846"]
 			hide: true
 			id: "181378ABF5CCD166"
@@ -26,6 +33,10 @@
 			x: -3.5d
 			y: 2.0d
 			subtitle: "大量含铜"
+			description: [
+				"生成于安山岩,板岩,拉斑玄武岩,红黑英安岩当中."
+				""
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -39,6 +50,8 @@
 		{
 			x: -2.0d
 			y: 2.0d
+			subtitle: "绿色宝石"
+			description: ["生成于凝灰岩,黑白大理石,角砾岩当中."]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -52,6 +65,7 @@
 		{
 			x: -3.5d
 			y: 3.0d
+			description: ["生成于伟晶岩,流纹岩,石英岩,石英砂岩"]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -65,6 +79,7 @@
 		{
 			x: -2.0d
 			y: 3.0d
+			description: ["生成于闪长岩,花岗闪长岩,花岗岩,灰色花岗岩,辉石辉长岩,白色大理石当中."]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -78,6 +93,8 @@
 		{
 			x: 1.0d
 			y: 2.0d
+			subtitle: "镍矿"
+			description: ["生成于闪长岩,流纹岩,辉石辉长岩,花岗闪长岩,科马提岩"]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -104,6 +121,8 @@
 		{
 			x: -0.5d
 			y: 2.0d
+			subtitle: "四氧化三铁"
+			description: ["生成于白云岩,白垩岩,角砾岩,凝灰岩,碳质页岩当中."]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -179,6 +198,78 @@
 				id: "722406E18437795B"
 				type: "item"
 				item: "rankine:bituminous_coal"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "5581901DD85F746D"
+			tasks: [{
+				id: "0546782F91CF48F9"
+				type: "item"
+				item: "rankine:fluorite_ore"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "5907E1263E6D81E2"
+			tasks: [{
+				id: "322C517CA36D00A6"
+				type: "item"
+				item: "rankine:galena_ore"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "63BF3DB06CFB4A32"
+			tasks: [{
+				id: "1BDD85C0D0108B04"
+				type: "item"
+				item: {
+					id: "electrodynamics:orevanadinite"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			subtitle: "纯金"
+			description: [""]
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "3840FFD53990ECA2"
+			tasks: [{
+				id: "02ABB3A735D30777"
+				type: "item"
+				item: "rankine:native_gold_ore"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			subtitle: "纯银"
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "6C49B6777A13CC02"
+			tasks: [{
+				id: "214642829287011A"
+				type: "item"
+				item: "rankine:native_silver_ore"
 			}]
 		}
 	]

@@ -70,5 +70,5 @@ recipetypes_crushing = (event, recipe) => {
     //     input: recipe.input,
     //     output: recipe.output
     // });
-    event.recipes.immersiveengineering.crusher(recipe.output, recipe.input, recipe.secondary_output);
+    // event.recipes.immersiveengineering.crusher(recipe.output, recipe.input, recipe.secondary_output);
 };

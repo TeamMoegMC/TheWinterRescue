@@ -2,7 +2,7 @@
 	id: "715FF1EB059BCACF"
 	group: ""
 	order_index: 4
-	filename: "715FF1EB059BCACF"
+	filename: "cooking"
 	title: "西伯利亚大厨的一天"
 	icon: "crockpot:crock_pot_basic"
 	default_quest_shape: ""
@@ -169,14 +169,17 @@
 			}]
 		}
 		{
+			title: "木头渣子"
 			x: -7.0d
 			y: -0.5d
+			subtitle: "劈砍木头时偶尔获得"
 			description: ["混在食物里可以增强饱腹感。"]
 			id: "20F1DD1209093059"
 			tasks: [{
 				id: "0A913ECAD3E5B736"
 				type: "item"
-				item: "immersiveengineering:dust_wood"
+				title: "Any #forge:dusts/wood"
+				item: "rankine:sawdust"
 			}]
 		}
 	]

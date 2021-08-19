@@ -1,12 +1,13 @@
 {
 	id: "1E695E6D1F5B227A"
 	group: ""
-	order_index: 3
-	filename: "1E695E6D1F5B227A"
+	order_index: 6
+	filename: "tetra"
 	title: "工具大师"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
+		title: "一锤定音"
 		x: -2.5d
 		y: -1.5d
 		description: ["拿这柄锤子右键工作台,你会发现新世界."]

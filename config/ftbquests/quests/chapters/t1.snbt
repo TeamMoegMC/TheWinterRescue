@@ -1,10 +1,11 @@
 {
 	id: "0F108F94F3A03203"
 	group: ""
-	order_index: 0
-	filename: "0F108F94F3A03203"
+	order_index: 1
+	filename: "t1"
 	title: "原始人的一天"
 	icon: "minecraft:stone"
+	subtitle: ["白雪皑皑之中，你的存在便是唯一的光和热。"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -42,7 +43,7 @@
 		}
 		{
 			x: -4.5d
-			y: -1.0d
+			y: -0.5d
 			subtitle: "干燥"
 			description: ["需要燧石工作台制作,用于晾晒干草。"]
 			dependencies: ["348EB1588EFAD2AB"]
@@ -71,9 +72,13 @@
 		}
 		{
 			x: 0.0d
-			y: -2.0d
+			y: -1.5d
 			subtitle: "暖身"
-			description: ["让你落脚的地方，可以恢复温度和体力，当然也可以烤肉。"]
+			description: [
+				"让你落脚的地方，可以恢复温度和体力，当然也可以烤肉。"
+				"两手分别持燧石，右键尝试点火。"
+				"篝火会熄灭， 将原木等燃料丢在火堆上即可增加燃烧时间。"
+			]
 			dependencies: ["6B7D4F59C921C1FC"]
 			id: "36960F1D7CDC8B30"
 			tasks: [{
@@ -89,8 +94,9 @@
 			subtitle: "坚硬的石头"
 			description: [
 				"在陶窑内烧制任意石头或圆石获得。 "
-				"陶窑的搭建需要拿着待烧制物品按shift+右键放置在一个坑里,能放置8个物品."
-				"然后使用6个干草与3个原木填充,使用起火器点燃."
+				"&6陶窑的搭建需要四周都拥有方块."
+				"&6shift加右键放置材料,用6个干草与3个木头填充."
+				"填充完毕后手持起火器长按右键点燃."
 			]
 			dependencies: [
 				"45E2EF843333B846"
@@ -158,7 +164,7 @@
 		}
 		{
 			x: -1.5d
-			y: -1.0d
+			y: -0.5d
 			subtitle: "砍伐工具"
 			description: ["同样重要的工具，你可以砍树了。"]
 			dependencies: ["29BC87594650152D"]
@@ -177,11 +183,11 @@
 		}
 		{
 			x: -1.5d
-			y: 1.0d
+			y: 0.5d
 			subtitle: "开采工具"
 			description: [
 				"重要的工具之一，开始挖矿吧"
-				"完成后可在左侧世界信息一章了解矿物生成."
+				"&6完成后可在左侧世界信息一章了解矿物生成."
 			]
 			dependencies: ["29BC87594650152D"]
 			id: "45E2EF843333B846"
@@ -198,7 +204,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.0d
 			y: -1.0d
 			subtitle: "小肚子,大容量."
 			dependencies: ["6D92E93A0811C1FD"]
@@ -222,8 +228,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: 4.0d
+			y: 2.0d
 			subtitle: "基础金属"
 			description: ["拥有不错的延展性和导电性，还可以制成各种铜合金。"]
 			dependencies: ["689BB00EC2454F1F"]
@@ -271,7 +277,7 @@
 		}
 		{
 			x: 1.0d
-			y: 3.5d
+			y: 4.0d
 			subtitle: "锤"
 			description: ["石锤了。"]
 			dependencies: ["42AF456D165CBF75"]
@@ -289,8 +295,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.5d
+			x: 4.0d
+			y: 4.0d
 			dependencies: [
 				"4A4D6D0DC9B348C1"
 				"0A9A5166127945AB"
@@ -304,8 +310,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 3.5d
+			x: 5.0d
+			y: 4.0d
 			description: [
 				"用于搭建合金窑，以炼制基础的合金。"
 				"搭建方法请看工程师手册~"
@@ -324,8 +330,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 3.5d
+			x: 6.0d
+			y: 4.0d
 			dependencies: [
 				"162264AE4B9EE1A9"
 				"3C4CEEBFF8DCF448"
@@ -340,7 +346,7 @@
 		}
 		{
 			x: 5.0d
-			y: 1.5d
+			y: 2.0d
 			subtitle: "合金成分"
 			description: ["青铜的主要成分之一。"]
 			dependencies: ["689BB00EC2454F1F"]
@@ -352,8 +358,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 3.5d
+			x: 7.0d
+			y: 4.0d
 			subtitle: "锻铁炉主方块"
 			description: [
 				""
@@ -373,7 +379,7 @@
 		}
 		{
 			x: 8.0d
-			y: 3.5d
+			y: 4.0d
 			subtitle: "真 基础金属"
 			description: ["来硬的!"]
 			dependencies: [
@@ -410,7 +416,6 @@
 			description: [
 				"用于向锻铁炉内鼓风."
 				"一个口可供给多个风箱工作."
-				"&3*风箱要对着鼓风口吹！"
 			]
 			dependencies: [
 				"47F458D8E94E5367"
@@ -424,7 +429,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 3.0d
 			y: 0.0d
 			description: ["基础的液体容器。"]
 			dependencies: ["19603323EAAFF726"]
@@ -515,7 +520,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 9.5d
 			y: -2.5d
 			description: [
 				"一般的木炭坑，用泥土搭建足矣。"
@@ -557,8 +562,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -1.5d
+			x: 9.5d
+			y: 0.5d
 			description: [
 				"用青铜制作的门。可以作为木炭坑的一部分，方便出入。"
 				"注意:门的方向要紧贴木炭坑内方块。"
@@ -577,9 +582,9 @@
 			y: -1.0d
 			description: [
 				"可以收集木炭坑运行中产生的杂酚油。"
-				"将杂酚油漏斗放置在即将运行的木炭坑下方，杂酚油漏斗顶面紧贴原木堆，即可收集木炭坑运行时产生的杂酚油。"
-				"产生的杂酚油会储存在杂酚油漏斗中，缓存为8000mb，用桶、陶桶等容器可取出其中的杂酚油。"
-				"若在同一个木炭坑中放置多个杂酚油漏斗，产生的杂酚油会平均分配到每个杂酚油漏斗中。"
+				"注意了， 你可能需要多烧几次木炭才能获得足够一桶的油。"
+				"将杂酚油漏斗放置在即将运行的木炭坑下方，即可收集木炭坑产生的杂酚油。"
+				"产生的杂酚油会储存在杂酚油漏斗中，用桶、陶桶等容器可取出其中的杂酚油。"
 			]
 			dependencies: ["4543F3B5F937E6B0"]
 			id: "13AA30FB9CD620EB"
@@ -592,12 +597,14 @@
 		{
 			icon: "minecraft:charcoal"
 			x: -1.5d
-			y: -2.5d
-			subtitle: "原始燃料"
+			y: -6.5d
+			subtitle: "原始燃料,还能过滤水"
 			description: [
 				"便宜高效的燃料。"
-				"搭建方法：把原木堆密封在一个小空间里面,留一个口子点火,着了立马盖上."
+				"搭建方法:"
+				"&6把原木堆密封在一个小空间里面,留一个口子点火,着了立马盖上."
 				"静待烧制完成即可获得木炭."
+				""
 			]
 			dependencies: ["6B7D4F59C921C1FC"]
 			id: "76B2B1A3EC6D92CD"
@@ -670,7 +677,7 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 11.0d
 			y: -2.5d
 			description: ["类似木炭，但是能烧更久。"]
 			dependencies: ["77A7511048D5767B"]
@@ -682,60 +689,8 @@
 			}]
 		}
 		{
-			icon: "frostedheart:energy_core"
-			x: 1.0d
-			y: 5.0d
-			subtitle: "大型壁炉"
-			description: [
-				"用于加热周围区块的大型IE机器."
-				"从上到下方块排序:"
-				"ABA  A A  ABA  AAA   A=能量塔砖"
-				"B  B       BCB  AAA    B=能量增幅"
-				"ABA  A A  ABA  AAA   C=能量核心"
-				"搭好结构之后用IE工程师锤敲一下。"
-			]
-			hide_dependency_lines: true
-			dependencies: ["0A9A5166127945AB"]
-			id: "69D939596ED4C0AF"
-			tasks: [
-				{
-					id: "479CE18A3083C8CD"
-					type: "item"
-					item: "frostedheart:generator_core_t1"
-				}
-				{
-					id: "6745F87A897EB5C5"
-					type: "item"
-					item: "frostedheart:generator_amplifier_r1"
-				}
-				{
-					id: "75C752C598BB386D"
-					type: "item"
-					item: "frostedheart:generator_brick"
-				}
-			]
-			rewards: [{
-				id: "0E2B848932AC874B"
-				type: "item"
-				item: "frostedheart:rye_block"
-				count: 6
-			}]
-		}
-		{
-			x: 2.5d
-			y: 5.0d
-			subtitle: "抗寒作物"
-			dependencies: ["69D939596ED4C0AF"]
-			id: "4E2FF1AFA626A42B"
-			tasks: [{
-				id: "7CE2CD33F7053CF1"
-				type: "item"
-				item: "frostedheart:rye"
-			}]
-		}
-		{
 			x: -6.0d
-			y: -1.0d
+			y: -0.5d
 			subtitle: "粗略加工"
 			description: ["燧石工作台的必备工具"]
 			dependencies: ["3102993072F3C8B9"]
@@ -784,9 +739,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 3.0d
-			hide_dependency_lines: true
+			x: 3.0d
+			y: 2.0d
 			dependencies: ["0A9A5166127945AB"]
 			id: "7A45FE5C4EC35A0C"
 			tasks: [{
@@ -802,9 +756,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 4.0d
-			hide_dependency_lines: true
+			x: 6.0d
+			y: 5.0d
 			dependencies: ["162264AE4B9EE1A9"]
 			id: "7D2826CCB69C5EE8"
 			tasks: [{
@@ -825,7 +778,10 @@
 			x: -8.5d
 			y: -2.0d
 			subtitle: "参与制作的人"
-			description: [""]
+			description: [
+				""
+				"同时感谢Luyuuke, GMG等人的贡献。"
+			]
 			id: "7AFE32B08BB6CE6C"
 			tasks: [
 				{
@@ -997,10 +953,10 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.0d
+			x: 3.0d
+			y: -1.5d
 			subtitle: "简易存储"
-			description: ["挖一个一格深的坑，放入黏土制品(shift+右键)，在铺上干草和原木(右键)，点火。"]
+			description: [""]
 			dependencies: ["689BB00EC2454F1F"]
 			id: "062E137E7ECB4C99"
 			tasks: [{
@@ -1029,17 +985,6 @@
 						Damage: 0
 					}
 				}
-			}]
-		}
-		{
-			x: -1.5d
-			y: -3.5d
-			dependencies: ["76B2B1A3EC6D92CD"]
-			id: "24431C9F9D2662F1"
-			tasks: [{
-				id: "76DB20C414DC836B"
-				type: "item"
-				item: "survive:charcoal_filter"
 			}]
 		}
 		{
@@ -1086,7 +1031,7 @@
 		}
 		{
 			x: -3.0d
-			y: 1.5d
+			y: 2.0d
 			subtitle: "开阔道路"
 			dependencies: ["29BC87594650152D"]
 			id: "5D803F0865A90DE0"
@@ -1100,6 +1045,185 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			title: "玻璃冶炼"
+			x: 4.0d
+			y: 5.0d
+			subtitle: "比较容易"
+			description: ["玻璃可以用来制作净水器"]
+			dependencies: ["162264AE4B9EE1A9"]
+			id: "3EE690327B36D6E0"
+			tasks: [{
+				id: "71F008FA2A0312E3"
+				type: "item"
+				title: "Any #forge:glass"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:glass"
+					}
+				}
+			}]
+		}
+		{
+			icon: "watersource:wooden_water_filter"
+			x: 5.0d
+			y: 5.0d
+			description: ["手持任意种类滤水器滤纸右击滤水器即可安装， 滤纸有耐久。用水桶等可以往顶部灌水， 等待即可在底部接纯净水。"]
+			dependencies: ["3EE690327B36D6E0"]
+			id: "3622C3DFDB5D8E02"
+			tasks: [
+				{
+					id: "469CB0FA5C4A9C40"
+					type: "item"
+					item: "watersource:wooden_water_filter"
+				}
+				{
+					id: "053138BFA018C49D"
+					type: "item"
+					item: {
+						id: "watersource:primitive_strainer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3FD16B765841183B"
+					type: "item"
+					item: "watersource:purified_water_bottle"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			subtitle: "民以水为天"
+			description: ["水分很重要。你在飞船里找到的水壶可以用来右击水源接水，不过这是没有净化过的水，喝完会口渴。为了避免口渴效果，你需要喝纯净水。开局你有的纯净水够你喝一阵了， 等你获得滤水器后就可以净化纯净水了。"]
+			id: "33B6E7B60783C72B"
+			tasks: [{
+				id: "6E14D0E983EACA58"
+				type: "checkmark"
+				title: "喝水"
+				icon: {
+					id: "watersource:leather_water_bag"
+					Count: 1b
+					tag: {
+						Damage: 1500
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FFC44858A17C847"
+				type: "item"
+				item: {
+					id: "watersource:wooden_cup_drink"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "watersource:purified_water"
+							Amount: 250
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			subtitle: "健康好水"
+			description: ["滤纸放在滤水器里就能过滤出纯净水了！"]
+			dependencies: ["76B2B1A3EC6D92CD"]
+			id: "009AA47A784FBA3F"
+			tasks: [{
+				id: "39BE6005BAB99BF7"
+				type: "item"
+				item: {
+					id: "watersource:primitive_strainer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "crockpot:food_category_meat"
+			x: -7.0d
+			y: 2.0d
+			subtitle: "均衡膳食"
+			description: ["打开你的背包就能查看营养值了，营养值过低会导致血量上限降低，营养值超过80%会提升血量上限。糖分在很高的时候会造成饥饿和加速效果。蛋白质很高则会增加你的力量。"]
+			id: "215BC2E7271F1478"
+			tasks: [{
+				id: "58F4265EA5C778FB"
+				type: "checkmark"
+				title: "营养"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			subtitle: "生存要素"
+			description: [
+				"在这个冰天雪地里."
+				"你必须保持良好的体温."
+				"呆在篝火或者能量塔旁可以有效保持体温."
+			]
+			id: "3B5663CF194B054C"
+			tasks: [{
+				id: "3428FDD619813DBF"
+				type: "checkmark"
+				title: "体温"
+				icon: "weatherforecast:temperature_probe"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			subtitle: "上面有些毛"
+			description: ["从野生动物身上获取"]
+			dependencies: ["7521769E8333942B"]
+			id: "443AD02B85632386"
+			tasks: [{
+				id: "6F52C9ED127AECCF"
+				type: "item"
+				item: "stone_age:raw_hide"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			subtitle: "貂皮大衣"
+			description: ["提供不错的保温效果"]
+			dependencies: ["443AD02B85632386"]
+			id: "2406D98489C938B8"
+			tasks: [{
+				id: "6898C42559ADDF9E"
+				type: "item"
+				item: {
+					id: "frostedheart:hide_jacket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "查询合成表"
+			x: -10.0d
+			y: 0.0d
+			subtitle: "你最好的帮手，JEI"
+			description: ["鼠标悬浮在要查询的物品上，使用R查询配方，使用U查询能制作什么物品。"]
+			id: "1F615C38B1A015E5"
+			tasks: [{
+				id: "0758A45D51C54F20"
+				type: "checkmark"
+				title: "使用"
 			}]
 		}
 	]

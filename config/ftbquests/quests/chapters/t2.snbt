@@ -1,8 +1,8 @@
 {
 	id: "3A3B51CF7F606665"
 	group: ""
-	order_index: 1
-	filename: "_2"
+	order_index: 2
+	filename: "t2"
 	title: "中世纪人的一天"
 	icon: {
 		id: "rankine:cast_iron_alloy"
@@ -19,6 +19,7 @@
 		{
 			x: -7.5d
 			y: -0.5d
+			subtitle: "工作台"
 			description: ["这是? 工作台!"]
 			dependencies: ["75154C5A6E2F3257"]
 			hide: false
@@ -178,6 +179,7 @@
 		{
 			x: -9.0d
 			y: 2.5d
+			subtitle: "基础能源"
 			description: [
 				"高效的火力发电机。"
 				"不幸的是，它只能使用煤炭或木炭作为燃料。"
@@ -197,6 +199,7 @@
 		{
 			x: -10.5d
 			y: 4.0d
+			subtitle: "电线制作"
 			description: ["太棒了，你再也不用在制作线缆时被[刻意的游戏设计]吞掉一个铜了。"]
 			dependencies: ["53724926B909CCFD"]
 			id: "136F1BC55F848689"
@@ -213,6 +216,7 @@
 		{
 			x: -9.0d
 			y: 4.0d
+			subtitle: "热门话题"
 			description: [
 				"一个用电而非燃料产生热量的熔炉。"
 				"不过原版熔炉的合成已经无了，你莫得选择。"
@@ -232,6 +236,7 @@
 		{
 			x: -7.5d
 			y: 4.0d
+			subtitle: "更细更碎"
 			description: ["用于矿物磨粉与一些其他的粉碎处理."]
 			dependencies: ["53724926B909CCFD"]
 			id: "71FFFC764C314F8F"
@@ -261,6 +266,7 @@
 		{
 			x: -9.0d
 			y: 6.0d
+			subtitle: "电路板"
 			description: [
 				"最基础的电路板。"
 				"甚至不能玩扫雷。"
@@ -297,6 +303,7 @@
 		{
 			x: -7.5d
 			y: 8.5d
+			subtitle: "氧化反应"
 			description: ["在氧化炉中使一些物质发生氧(xuan)化(xue)反应。"]
 			dependencies: ["173BC9C4E4BFB885"]
 			id: "2E1A1E083197C340"
@@ -336,6 +343,7 @@
 		{
 			x: -9.0d
 			y: 7.0d
+			subtitle: "升压"
 			dependencies: ["629B7A97ADB00C26"]
 			id: "173BC9C4E4BFB885"
 			tasks: [{
@@ -380,6 +388,7 @@
 		{
 			x: -10.5d
 			y: 6.0d
+			subtitle: "发酵"
 			dependencies: ["629B7A97ADB00C26"]
 			id: "12A5692086DF06C0"
 			tasks: [{
@@ -411,6 +420,7 @@
 		{
 			x: -6.0d
 			y: 7.0d
+			subtitle: "搅拌机"
 			dependencies: ["7732502BD1133C2A"]
 			id: "4444676595F1282D"
 			tasks: [{
@@ -426,6 +436,7 @@
 		{
 			x: -7.5d
 			y: 7.0d
+			subtitle: "电解"
 			dependencies: ["173BC9C4E4BFB885"]
 			id: "7732502BD1133C2A"
 			tasks: [{
@@ -437,6 +448,7 @@
 		{
 			x: -6.0d
 			y: 9.0d
+			subtitle: "耐高温"
 			dependencies: [
 				"2E1A1E083197C340"
 				"7349CA66B2B80D4F"
@@ -451,6 +463,7 @@
 		{
 			x: -4.5d
 			y: 7.0d
+			subtitle: "结晶"
 			dependencies: ["4444676595F1282D"]
 			id: "7B6D64D2FD2D72CA"
 			tasks: [{
@@ -466,6 +479,7 @@
 		{
 			x: -4.5d
 			y: 8.5d
+			subtitle: "耐火原料"
 			dependencies: ["7B6D64D2FD2D72CA"]
 			id: "7349CA66B2B80D4F"
 			tasks: [{
@@ -478,10 +492,11 @@
 			title: "炼钢坩埚"
 			icon: "rankine:high_refractory_bricks"
 			x: -6.0d
-			y: 10.5d
+			y: 10.0d
 			subtitle: "更热门的话题"
 			description: [
-				"炼钢坩埚是比原始高炉更加先进的冶炼设备."
+				"&6炼钢坩埚是比原始高炉更加先进的冶炼设备."
+				"&6需要使用焦煤进行加热."
 				"搭建: 从上到下"
 				"HHH HHH BBB BBB  H=高耐火砖"
 				"H H H H  BCB BBB  B=燃烧室"
@@ -508,19 +523,9 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: 12.0d
-			dependencies: ["19038BB5A9E42055"]
-			id: "0019852CD6EC0354"
-			tasks: [{
-				id: "147D66FD5DDDF718"
-				type: "item"
-				item: "electrodynamics:ingotsteel"
-			}]
-		}
-		{
 			x: -7.5d
 			y: 6.0d
+			subtitle: "抽水机"
 			dependencies: ["173BC9C4E4BFB885"]
 			id: "7148ED8B9865ECE6"
 			tasks: [{
@@ -528,6 +533,45 @@
 				type: "item"
 				item: {
 					id: "electrodynamics:electricpump"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "黑色金属-钢"
+			icon: "electrodynamics:ingotsteel"
+			x: -6.0d
+			y: 11.0d
+			subtitle: "坚硬无比"
+			description: ["进行大规模工业化的基础."]
+			dependencies: ["19038BB5A9E42055"]
+			hide: true
+			id: "0019852CD6EC0354"
+			tasks: [{
+				id: "147D66FD5DDDF718"
+				type: "item"
+				title: "Any #forge:ingots/steel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 11.0d
+			subtitle: "洗洗更健康"
+			dependencies: ["0019852CD6EC0354"]
+			id: "0561A7DAC61F7B61"
+			tasks: [{
+				id: "2DABC74999388ED0"
+				type: "item"
+				item: {
+					id: "electrodynamics:mineralwasher"
 					Count: 1b
 					tag: { }
 				}

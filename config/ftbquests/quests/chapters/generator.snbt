@@ -1,0 +1,67 @@
+{
+	id: "00A96B3C8C24C472"
+	group: ""
+	order_index: 7
+	filename: "generator"
+	title: "火焰之塔"
+	icon: "frostedheart:generator_core_t1"
+	subtitle: ["关于能量塔和能量中枢的一切"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "一级能量塔"
+			icon: "frostedheart:generator_core_t1"
+			x: 0.5d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "大型壁炉"
+			description: [
+				"能量塔是本整合包的核心，是用于加热周围方块的大型多方块结构。"
+				"从上到下方块排序:"
+				"ABA  A A  ABA  AAA   A=能量塔砖"
+				"B  B       BCB  AAA    B=能量增幅"
+				"ABA  A A  ABA  AAA   C=能量核心"
+				"搭好结构之后用IE工程师锤敲一下。"
+			]
+			dependencies: ["0A9A5166127945AB"]
+			id: "69D939596ED4C0AF"
+			tasks: [
+				{
+					id: "479CE18A3083C8CD"
+					type: "item"
+					item: "frostedheart:generator_core_t1"
+				}
+				{
+					id: "6745F87A897EB5C5"
+					type: "item"
+					item: "frostedheart:generator_amplifier_r1"
+				}
+				{
+					id: "75C752C598BB386D"
+					type: "item"
+					item: "frostedheart:generator_brick"
+				}
+			]
+			rewards: [{
+				id: "0E2B848932AC874B"
+				type: "item"
+				item: "frostedheart:rye_block"
+				count: 6
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "抗寒作物"
+			description: ["黑麦是最耐低温的作物之一，你可以在开启能量塔后收获黑麦，作为你最初的口粮。"]
+			dependencies: ["69D939596ED4C0AF"]
+			id: "4E2FF1AFA626A42B"
+			tasks: [{
+				id: "7CE2CD33F7053CF1"
+				type: "item"
+				item: "frostedheart:rye"
+			}]
+		}
+	]
+}
