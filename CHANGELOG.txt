@@ -1,5 +1,34 @@
+[Beta-2]
+- 新增模组：
+Modular routers: item/fluid transfer
+Shut-up-experimental-settings (client)
+Campfire Overhual
+WaterSource
+TowersOfTheWild (fixed version)
+- 移除模组：
+AdChmineys
+Nuclear Science
+Vehicle
+* 内容：
+【主线】多方块电解器和多方块结晶器，你现在能生产铝和更高级的电路了。
+Ele能量和FE转换更科学了，营养系统更加重要（请勿轻易氢生！）。
+羊毛衫的好伙伴们茅草大衣和兽皮大衣来了。
+食用生食可不好，会中毒噢。
+寒冬里，黑面包配热汤是绝配。
+篝火需要丢进燃料了，很科学吧？
+工业绳子植物怎么可能随便种，零度安排！
+现在你可以知道作物生长需要的温度。
+全新净水器与水源系统来啦。
+无线物流系统来了，做好科技准备。
+更多木头支持劈砍。
+雪地里的高塔又回来了！
+更多剧情来袭。
+* 优化：
+删除了部分不符合整合包风格的附魔。
+平衡了一些配方。
+
 [Beta-1]
-Add new mods:
+- 新增模组：
 Caves&CliffsBackport: interesting worldgen features, powdered snow block
 Collective (lib)
 Kiwi (lib)
@@ -13,36 +42,6 @@ Bookshelf (lib)
 CrockPot
 EnchantmentDescriptions
 WeatherForecast
-Remove mods:
+- 移除模组：
 BetterTitleScreen
 TowersOfTheWild
-
-[Beta-2]
-- Add new mods:
-Modular routers: item/fluid transfer
-Shut-up-experimental-settings (client)
-Campfire Overhual
-WaterSource
-TowersOfTheWild (fixed version)
-- Remove mods:
-AdChmineys
-Nuclear Science
-Vehicle
-* 内容：
-【主线】多方块电解器和多方块结晶器，你现在能生产铝和更高级的电路了。
-Ele能量和FE转换更科学了，营养系统更加重要（请勿轻易轻生！）。
-羊毛衫的好伙伴们茅草大衣和兽皮大衣来了。
-食用生食可不好，会中毒噢。
-寒冬里，黑面包配热汤是绝配。
-篝火需要丢进燃料了，很科学吧？
-大麻怎么可能随便种，零度安排！
-现在你可以知道作物生长需要的温度。
-全新净水器与水源系统来啦。
-无线物流系统来了，做好科技准备。
-更多木头支持劈砍。
-雪地里的高塔又回来了！
-更多剧情来袭。
-* 优化：
-删除了部分不符合整合包风格的附魔。
-平衡了一些配方。
-
