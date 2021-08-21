@@ -13,6 +13,7 @@
 			}]
 		}
 	}
+	subtitle: ["这不是你熟悉的中世纪。"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -34,6 +35,7 @@
 		{
 			x: -7.5d
 			y: -1.5d
+			subtitle: "安稳入眠"
 			dependencies: ["328D948C4C800873"]
 			hide: true
 			id: "58AB0B83E545475C"
@@ -560,6 +562,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2EC2C206211EF6F5"
+				type: "item"
+				item: "rankine:packaged_tool"
+			}]
 		}
 		{
 			x: -5.0d
@@ -575,6 +582,18 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			subtitle: "随身携带"
+			dependencies: ["328D948C4C800873"]
+			id: "6E83E2133A978D34"
+			tasks: [{
+				id: "087679BD11ADFB69"
+				type: "item"
+				item: "comforts:sleeping_bag_white"
 			}]
 		}
 	]
