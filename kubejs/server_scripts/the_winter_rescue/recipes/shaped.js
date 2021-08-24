@@ -22,6 +22,12 @@ onEvent('recipes', (event) => {
         }),
     ]
 
+    var newRecipes = [
+        shapedRecipe(Item.of('custommachinery:custom_machine_item', {machine:"the_winter_rescue:boiler"}), [' D ', 'D D', 'D D'], {
+            D: '#forge:plates/bronze'
+        })
+    ]
+
     /**
      * Remove a recipe from minecraft crafting table and add new one
      */
@@ -30,5 +36,11 @@ onEvent('recipes', (event) => {
         event.remove({output: recipe.result, type: 'minecraft:crafting_shaped'});
         event.shaped(recipe.result, recipe.pattern, recipe.key).id('the_winter_rescue:minecraft/crafting_shaped/'+i);
         i++;
+    });
+
+    let j = 0;
+    newRecipes.forEach(function (recipe) {
+        event.shaped(recipe.result, recipe.pattern, recipe.key).id('the_winter_rescue:minecraft/crafting_shaped/new/'+j);
+        j++;
     });
 });

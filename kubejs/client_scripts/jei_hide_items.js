@@ -19,6 +19,13 @@ onEvent('jei.hide.items', (event) => {
     });
 
     serverItemsToHide.forEach((disabledItem) => {
+        // if (disabledItem.toString.startsWith("#")) {
+        //     var tag = Ingredient.of(disabledItem);
+        //     tag.stacks.forEach((item) => {
+        //         event.hide(item);
+        //     })
+        // }
+        
         if (!Item.of(disabledItem).isEmpty()) {
             event.hide(disabledItem);
         }
