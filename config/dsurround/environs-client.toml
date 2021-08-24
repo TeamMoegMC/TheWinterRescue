@@ -13,7 +13,7 @@
 	#Range: 0 ~ 256
 	"Overworld Sealevel Override" = 0
 	#Dimension IDs where biome sounds will not be played
-	"Dimension Blacklist" = []
+	"Dimension Blacklist" = ["planet:luna"]
 
 #Options for controlling various effects
 ["Effect Options"]

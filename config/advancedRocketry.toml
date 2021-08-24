@@ -23,7 +23,7 @@
 	#List of oredictionary names of ores allowed to be mined by the laser drill if surface drilling is disabled.  Ores can be specified by just the oreName:<size> or by <modname>:<blockname>:<meta>:<size> where size is optional
 	laserDrillOres = ["oreIron", "oreGold", "oreCopper", "oreTin", "oreRedstone", "oreDiamond"]
 	#Laser drill will not mine these dimension
-	spaceLaserDimIdBlackList = []
+	spaceLaserDimIdBlackList = ["planet:luna"]
 	#Enables the laser drill machine
 	EnableLaserDrill = true
 	#If true, the orbital laser will actually mine blocks on the planet below
@@ -52,7 +52,7 @@
 	#Power consumption multiplier for the oxygen vent
 	OxygenVentPowerMultiplier = 1.0
 	#list entities which should not be affected by atmosphere properties
-	entityAtmBypass = []
+	entityAtmBypass = ["minecraft:creeper"]
 	#If true, the Oxygen scrubbers require a consumable carbon collection cartridge
 	scrubberRequiresCartrige = true
 	#Multiplier for the amount of fluid this tank can hold
@@ -60,11 +60,11 @@
 	#If true, Galacticcraft's air will be disabled entirely requiring use of Advanced Rocketry's Oxygen system on GC planets
 	OverrideGCAir = true
 	#Blocks that are not automatically detected as sealable but should seal.  Format "Mod:Blockname"  for example "minecraft:chest"
-	sealableBlockWhiteList = []
+	sealableBlockWhiteList = ["minecraft:chest"]
 	#Maximum time in minutes that the spacesuit's internal buffer can store O2 for
 	spaceSuitO2Buffer = 30
 	#Blocks that are automatically detected as sealable but should not seal.  Format "Mod:Blockname"  for example "minecraft:chest"
-	sealableBlockBlackList = []
+	sealableBlockBlackList = ["minecraft:sand"]
 	#If true, allows players being hurt due to lack of oxygen and allows effects from non-standard atmosphere types
 	EnableAtmosphericEffects = true
 	#Multiplier on how much O2 an oxygen vent consumes per tick
@@ -91,7 +91,7 @@
 	#Multiplier for the amount of time gas collection missions take
 	gasMissionMultiplier = 1.0
 	#list of fluid names that can be harvested as Gas
-	harvestableGasses = []
+	harvestableGasses = ["immersivepetroleum:gasoline"]
 	#Multiplier changing how long a mining mission takes
 	miningMissionTmeMultiplier = 1.0
 
@@ -205,7 +205,7 @@
 	#Enable to allow structures like villages and mineshafts to generate on planets with a breathable atmosphere.  Note, setting this to false will override 'generateStructures' in the planetDefs.xml
 	generateVanillaStructures = false
 	#Biomes that only spawn on worlds with pressures over 125, will override blacklist.
-	HighPressureBiomes = []
+	HighPressureBiomes = ["minecraft:badlands"]
 	GenerateCopper = false
 	#List of Biomes to be blacklisted from spawning as BiomeIds, default is: river, sky, hell, void, alienForest
 	BlacklistedBiomes = ["minecraft:river", "minecraft:the_end", "minecraft:badlands", "minecraft:the_void"]

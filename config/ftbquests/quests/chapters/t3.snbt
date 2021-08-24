@@ -5,6 +5,7 @@
 	filename: "t3"
 	title: "工业化的一天"
 	icon: "immersiveengineering:ingot_aluminum"
+	subtitle: ["机器开始轰鸣。"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -29,6 +30,11 @@
 						value: "forge:ingots/aluminum"
 					}
 				}
+			}]
+			rewards: [{
+				id: "3E7CEE2FC39DF5E2"
+				type: "item"
+				item: "rankine:packaged_tool"
 			}]
 		}
 		{

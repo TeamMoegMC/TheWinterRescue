@@ -1,35 +1,158 @@
 {
 	id: "1E695E6D1F5B227A"
 	group: ""
-	order_index: 6
+	order_index: 4
 	filename: "tetra"
-	title: "工具大师"
+	title: "工具大师的一天"
+	subtitle: ["打磨最好的工具，是一门匠人的艺术。"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "一锤定音"
-		x: -2.5d
-		y: -1.5d
-		description: ["拿这柄锤子右键工作台,你会发现新世界."]
-		dependencies: ["328D948C4C800873"]
-		id: "244385ABDC4E8716"
-		tasks: [{
-			id: "0F7E77EB33AD3F51"
-			type: "item"
-			item: {
-				id: "tetra:modular_double"
-				Count: 1b
-				tag: {
-					"double/handle": "double/basic_handle"
-					"double/head_left": "double/basic_hammer_left"
-					"double/head_right": "double/basic_hammer_right"
-					id: "8f5d7e30-7840-4210-a2ff-b818f853b847"
-					"double/basic_hammer_right_material": "basic_hammer/oak"
-					Damage: 0
-					"double/basic_handle_material": "basic_handle/stick"
-					"double/basic_hammer_left_material": "basic_hammer/oak"
+	quests: [
+		{
+			title: "一锤定音"
+			x: -2.5d
+			y: -1.5d
+			description: ["拿这柄锤子右键工作台,你会发现新世界."]
+			dependencies: ["328D948C4C800873"]
+			id: "244385ABDC4E8716"
+			tasks: [{
+				id: "0F7E77EB33AD3F51"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "8f5d7e30-7840-4210-a2ff-b818f853b847"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
 				}
-			}
-		}]
-	}]
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["244385ABDC4E8716"]
+			id: "33BE501D41AD5AD5"
+			tasks: [{
+				id: "50F32D4870D5F828"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "80997aa0-3608-4eaa-8b7b-10000b897976"
+						"double/basic_hammer_right_material": "basic_hammer/stone"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_hammer_left_material": "basic_hammer/stone"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["33BE501D41AD5AD5"]
+			id: "2329B2FAA69F5CA2"
+			tasks: [{
+				id: "75C787A76FDB7F8F"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "a1931fbe-de26-4c98-978d-d688ddadc99c"
+						"double/basic_hammer_right_material": "basic_hammer/iron"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/basic_hammer_left_material": "basic_hammer/iron"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			dependencies: ["2329B2FAA69F5CA2"]
+			id: "2AEA8368BBF21435"
+			tasks: [{
+				id: "1700C01FDCAA34EF"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "c93a0a41-6f76-4ffb-98ed-0eb4bd284518"
+						"double/basic_hammer_right_material": "basic_hammer/blackstone"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/basic_hammer_left_material": "basic_hammer/blackstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			dependencies: ["2AEA8368BBF21435"]
+			id: "1D9E4968F559D11A"
+			tasks: [{
+				id: "69C78556B95213A3"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "7d654f9b-07e1-4326-964c-894d19e1aeb4"
+						"double/basic_hammer_right_material": "basic_hammer/obsidian"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/iron"
+						"double/basic_hammer_left_material": "basic_hammer/obsidian"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			dependencies: ["1D9E4968F559D11A"]
+			id: "474971D4C70D7D4B"
+			tasks: [{
+				id: "5EF7C2A368252D2F"
+				type: "item"
+				item: {
+					id: "tetra:modular_double"
+					Count: 1b
+					tag: {
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "f189d41e-23b9-4eea-a683-85d7ba6037be"
+						"double/basic_hammer_right_material": "basic_hammer/netherite"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/forged_beam"
+						"double/basic_hammer_left_material": "basic_hammer/netherite"
+					}
+				}
+			}]
+		}
+	]
 }

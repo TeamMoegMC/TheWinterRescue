@@ -2,41 +2,54 @@ console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Items Registered!')
 
 onEvent('item.registry', event => {
 	const generalItems = [
-		
+		// ore drops for native rankine ores
 	];
-	
-	let metals = [
-		'aluminum',
-		'cloggrum',
-		'cobalt',
-		'copper',
-		'froststeel',
-		'gold',
-		'iesnium',
-		'iron',
-		'lead',
-		'nebu',
-		'nickel',
-		'osmium',
-		'regalium',
-		'silver',
-		'thallasium',
-		'tin',
-		'uranium',
-		'utherium',
-		'zinc'
-	];
-	
-	let metalTypes = ['double_plate'];
-	
-	metalTypes.forEach((metalType) => {
-		metals.forEach((metal) => {
-			generalItems.push(`${metalType}_${metal}`);
+
+	let nativeOres = [
+		"ore_native_copper",
+		"ore_native_tin",
+		"ore_silver",
+		"ore_gold"
+	]
+
+	let ores = [
+		"ore_magnetite",
+		"ore_pyrite",
+		"ore_malachite",
+		"ore_pentlandite",
+		"ore_cassiterite",
+		"ore_bituminous",
+		"ore_lignite",
+		"ore_bauxite",
+		"ore_stibnite",
+		"ore_cinnabar",
+		"ore_magnesite",
+		"ore_galena",
+		"ore_halite",
+		"ore_fluorite",
+		"ore_vanadinite"
+	]
+
+	let oreStates = [
+		"crushed",
+		"washed"
+	]
+
+	ores.forEach((ore) => {
+		oreStates.forEach((state) => {
+			generalItems.push(`${state}_${ore}`);
 		});
+	});
+
+	nativeOres.forEach((ore) => {
+		oreStates.forEach((state) => {
+			generalItems.push(`${state}_${ore}`);
+		});
+		generalItems.push(`raw_${ore}`)
 	});
 	
 	generalItems.forEach((item) => {
-		event.create(item).group('KubeJS').texture(`kubejs:item/${item}`);
+		event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
 	});
 
 	event.create('flux')

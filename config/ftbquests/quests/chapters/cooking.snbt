@@ -1,29 +1,18 @@
 {
 	id: "715FF1EB059BCACF"
 	group: ""
-	order_index: 4
+	order_index: 5
 	filename: "cooking"
 	title: "西伯利亚大厨的一天"
 	icon: "crockpot:crock_pot_basic"
+	subtitle: ["食物。食物。食物。"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: -2.0d
-			y: -0.5d
-			subtitle: "耐寒作物"
-			description: ["一种比较耐寒的农作物，可以在很低的温度下生长。"]
-			id: "3E923018FFB9CCE7"
-			tasks: [{
-				id: "73948479873ED32E"
-				type: "item"
-				item: "frostedheart:rye"
-			}]
-		}
-		{
-			x: -2.0d
 			y: 1.5d
-			dependencies: ["3E923018FFB9CCE7"]
+			dependencies: ["4E2FF1AFA626A42B"]
 			id: "68CF06AA926D32E6"
 			tasks: [{
 				id: "128B9C825CECD798"
@@ -83,6 +72,7 @@
 		{
 			x: -4.5d
 			y: 3.5d
+			subtitle: "带点绿色的面包，不过味道不错。"
 			description: ["普通的黑麦面包"]
 			dependencies: ["68CF06AA926D32E6"]
 			id: "1AA5B1B0025EA6E6"
@@ -114,7 +104,11 @@
 		{
 			x: -2.0d
 			y: -3.0d
-			description: ["集煎炒焖炸卤炖于一体的多功能锅子"]
+			subtitle: "在寒冷的冬天里，炖一锅热菜吧。"
+			description: [
+				"集煎炒焖炸卤炖于一体的多功能锅子"
+				"使用方法很简单，把带有食材值描述的植物扔进去炖就完事了，至于做出来什么..."
+			]
 			id: "7AA152F9B5AF6677"
 			tasks: [{
 				id: "52F890F133BBE3C5"
@@ -127,6 +121,7 @@
 			x: 5.0d
 			y: -0.5d
 			description: ["一种耐寒的蔬菜，可以在很低的温度下生长。"]
+			dependencies: ["69D939596ED4C0AF"]
 			id: "6D01046E549A087E"
 			tasks: [{
 				id: "31CF9A4D876ED1D2"
@@ -180,6 +175,19 @@
 				type: "item"
 				title: "Any #forge:dusts/wood"
 				item: "rankine:sawdust"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			subtitle: "抗寒作物"
+			description: ["黑麦是最耐低温的作物之一，你可以在开启能量塔后收获黑麦，作为你最初的口粮。"]
+			dependencies: ["69D939596ED4C0AF"]
+			id: "4E2FF1AFA626A42B"
+			tasks: [{
+				id: "7CE2CD33F7053CF1"
+				type: "item"
+				item: "frostedheart:rye"
 			}]
 		}
 	]

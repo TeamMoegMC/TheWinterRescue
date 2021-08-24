@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "arrival"
-	title: "降临"
+	title: "降临的一天"
 	icon: {
 		id: "snowrealmagic:slab"
 		Count: 1b
@@ -133,6 +133,12 @@
 							Damage: 0
 						}
 					}
+				}
+				{
+					id: "2C9D6F73CC2F7140"
+					type: "item"
+					item: "rankine:bandage"
+					count: 16
 				}
 			]
 		}
@@ -295,11 +301,29 @@
 				type: "checkmark"
 				title: "私人物品"
 			}]
-			rewards: [{
-				id: "6E7DBD6C35101C24"
-				type: "item"
-				item: "watersource:coconut_milk_bottle"
-			}]
+			rewards: [
+				{
+					id: "6E7DBD6C35101C24"
+					type: "item"
+					item: "watersource:coconut_milk_bottle"
+				}
+				{
+					id: "497B6A90AFBC58A2"
+					type: "item"
+					item: "weatherforecast:weather_radar"
+				}
+				{
+					id: "6D475F27EC0C257A"
+					type: "item"
+					item: {
+						id: "weatherforecast:weather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			icon: "minecraft:writable_book"
@@ -315,6 +339,12 @@
 				id: "566B7480A977BFAA"
 				type: "checkmark"
 				title: "离开"
+			}]
+			rewards: [{
+				id: "60623506E241F58E"
+				type: "advancement"
+				advancement: "the_winter_rescue:root"
+				criterion: ""
 			}]
 		}
 	]

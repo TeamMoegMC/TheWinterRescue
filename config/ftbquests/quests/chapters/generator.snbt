@@ -1,11 +1,11 @@
 {
 	id: "00A96B3C8C24C472"
 	group: ""
-	order_index: 7
+	order_index: 6
 	filename: "generator"
-	title: "火焰之塔"
+	title: "能量塔工程师的一天"
 	icon: "frostedheart:generator_core_t1"
-	subtitle: ["关于能量塔和能量中枢的一切"]
+	subtitle: ["关于能量塔和能量中枢的一切。"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -51,16 +51,68 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
-			subtitle: "抗寒作物"
-			description: ["黑麦是最耐低温的作物之一，你可以在开启能量塔后收获黑麦，作为你最初的口粮。"]
+			title: "二级能量塔"
+			x: 0.5d
+			y: 2.0d
+			shape: "gear"
 			dependencies: ["69D939596ED4C0AF"]
-			id: "4E2FF1AFA626A42B"
+			id: "2D570AD59FE2D6E1"
 			tasks: [{
-				id: "7CE2CD33F7053CF1"
+				id: "1F93EED44E5B0949"
 				type: "item"
-				item: "frostedheart:rye"
+				item: "minecraft:barrier"
+			}]
+		}
+		{
+			title: "三级能量塔"
+			x: 0.5d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["2D570AD59FE2D6E1"]
+			id: "5F455ED38549D9EF"
+			tasks: [{
+				id: "7E661B77895EA858"
+				type: "item"
+				item: "minecraft:barrier"
+			}]
+		}
+		{
+			title: "四级能量塔"
+			x: 0.5d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["5F455ED38549D9EF"]
+			id: "55C39831FBBB94D8"
+			tasks: [{
+				id: "63016D35FF201A5F"
+				type: "item"
+				item: "minecraft:barrier"
+			}]
+		}
+		{
+			title: "能量中枢"
+			x: -3.0d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["69D939596ED4C0AF"]
+			id: "40444656900D22BA"
+			tasks: [{
+				id: "35664E7A7FDAAC93"
+				type: "item"
+				item: "minecraft:barrier"
+			}]
+		}
+		{
+			title: "加热器"
+			x: -3.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["69D939596ED4C0AF"]
+			id: "4BBE69E2E2A4276F"
+			tasks: [{
+				id: "5B70749B773AE22F"
+				type: "item"
+				item: "minecraft:barrier"
 			}]
 		}
 	]
