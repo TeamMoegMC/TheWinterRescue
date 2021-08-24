@@ -1,3 +1,17 @@
+[Beta-3]
+- 新增模组：
+Custom Machinery
+Create
+FlyWheel
+OpenLoader
+kubejs-create
+kubejs-immersiveengineering
+
+
+- 移除模组：
+CavesAndCliffsBackport
+WW3
+
 [Beta-2]
 - 新增模组：
 Modular routers: item/fluid transfer

@@ -23,9 +23,9 @@ onEvent('recipes', (event) => {
     ]
 
     var newRecipes = [
-        shapedRecipe(Item.of('custommachinery:custom_machine_item', {machine:"the_winter_rescue:boiler"}), [' D ', 'D D', 'D D'], {
-            D: '#forge:plates/bronze'
-        })
+        // shapedRecipe(Item.of('custommachinery:custom_machine_item', {machine:"the_winter_rescue:boiler"}), [' D ', 'D D', 'D D'], {
+        //     D: '#forge:plates/bronze'
+        // })
     ]
 
     /**

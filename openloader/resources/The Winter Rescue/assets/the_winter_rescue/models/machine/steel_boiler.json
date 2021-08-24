@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "the_winter_rescue:block/boiler/steel_top",
+    "side": "the_winter_rescue:block/boiler/steel_side"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "the_winter_rescue:block/burner/cast_iron_top",
+    "bottom": "the_winter_rescue:block/burner/bottom",
+    "side": "the_winter_rescue:block/burner/cast_iron_side",
+    "front": "the_winter_rescue:block/burner/cast_iron_front_on"
+  }
+}

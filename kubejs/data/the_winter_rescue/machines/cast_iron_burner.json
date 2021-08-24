@@ -1,19 +1,17 @@
 {
-    "name": "Burning Chamber",
+    "name": "Cast Iron Burning Chamber",
     "appearance": {
         "idle": {
-            "block": "minecraft:furnace"
+            "block": "the_winter_rescue:machine/cast_iron_burner"
         },
         "running": {
-            "block": "minecraft:furnace[lit=true]"
+            "block": "the_winter_rescue:machine/cast_iron_burner_running"
         }
     },
     "components": [
         {
             "type": "custommachinery:item",
             "id": "fuel",
-            "filter": ["#minecraft:coals", "#forge:coal_coke"],
-            "whitelist": true,
             "mode": "input",
             "variant": "custommachinery:fuel"
         },
@@ -35,28 +33,28 @@
             "type": "custommachinery:text",
             "x": 10,
             "y": 10,
-            "text": "Burning Chamber"
+            "text": "Cast Iron Burning Chamber"
         },
         {
             "type": "custommachinery:player_inventory",
-            "x": 50,
+            "x": 47,
             "y": 80
         },
         {
             "type": "custommachinery:status",
-            "x": 20,
-            "y": 20
+            "x": 119,
+            "y": 40
         },
         {
             "type": "custommachinery:slot",
-            "x": 60,
+            "x": 119,
             "y": 20,
             "id": "fuel"
         },
         {
             "type": "custommachinery:slot",
-            "x": 80,
-            "y": 20,
+            "x": 119,
+            "y": 60,
             "id": "ash"
         }
     ]

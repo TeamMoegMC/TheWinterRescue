@@ -1,10 +1,7 @@
 {
-    "name": "Boiler",
+    "name": "Bronze Boiler",
     "appearance": {
-        "block": "minecraft:iron_block",
-        "sound": "minecraft:block.anvil.place",
-        "lightmode": "running",
-        "lightlevel": 10
+        "block": "the_winter_rescue:machine/bronze_boiler"
     },
     "components": [
         {
@@ -26,20 +23,6 @@
             "filter": ["kubejs:steam"],
             "whitelist": true,
             "mode": "output"
-        },
-        {
-            "type": "custommachinery:item",
-            "id": "fuel",
-            "filter": ["#minecraft:coals", "#forge:coal_coke"],
-            "whitelist": true,
-            "mode": "input",
-            "variant": "custommachinery:fuel"
-        },
-        {
-            "type": "custommachinery:item",
-            "id": "ash",
-            "mode": "output",
-            "variant": "custommachinery:default"
         }
     ],
     "gui": [
@@ -62,32 +45,20 @@
         },
         {
             "type": "custommachinery:status",
-            "x": 20,
-            "y": 20
+            "x": 236,
+            "y": 10
         },
         {
             "type": "custommachinery:fluid",
-            "x": 40,
+            "x": 56,
             "y": 20,
             "id": "watertank"
         },
         {
             "type": "custommachinery:fluid",
-            "x": 100,
+            "x": 182,
             "y": 20,
             "id": "steamtank"
-        },
-        {
-            "type": "custommachinery:slot",
-            "x": 60,
-            "y": 20,
-            "id": "fuel"
-        },
-        {
-            "type": "custommachinery:slot",
-            "x": 80,
-            "y": 20,
-            "id": "ash"
         }
     ]
 }
