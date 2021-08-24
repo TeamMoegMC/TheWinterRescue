@@ -1,0 +1,63 @@
+{
+    "name": "Burning Chamber",
+    "appearance": {
+        "idle": {
+            "block": "minecraft:furnace"
+        },
+        "running": {
+            "block": "minecraft:furnace[lit=true]"
+        }
+    },
+    "components": [
+        {
+            "type": "custommachinery:item",
+            "id": "fuel",
+            "filter": ["#minecraft:coals", "#forge:coal_coke"],
+            "whitelist": true,
+            "mode": "input",
+            "variant": "custommachinery:fuel"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "ash",
+            "mode": "output",
+            "variant": "custommachinery:default"
+        }
+    ],
+    "gui": [
+        {
+            "type": "custommachinery:texture",
+            "x": 0,
+            "y": 0,
+            "texture": "custommachinery:textures/gui/base_background.png"
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 10,
+            "y": 10,
+            "text": "Burning Chamber"
+        },
+        {
+            "type": "custommachinery:player_inventory",
+            "x": 50,
+            "y": 80
+        },
+        {
+            "type": "custommachinery:status",
+            "x": 20,
+            "y": 20
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 60,
+            "y": 20,
+            "id": "fuel"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 80,
+            "y": 20,
+            "id": "ash"
+        }
+    ]
+}

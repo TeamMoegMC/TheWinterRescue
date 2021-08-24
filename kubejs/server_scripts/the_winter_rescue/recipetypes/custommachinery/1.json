@@ -1,0 +1,9 @@
+{
+  machineID: "the_winter_rescue:burner",
+  componentManager: {maxFuel: 0, fuel: 0, items: [{slotID: "fuel"}, {slotID: "ash"}]},
+  craftingManager: {phase: "STARTING", recipeProgressTime: 0.0d, recipe: "custommachinery:kjs_f20vs0mf0u6u29cwve7aybp60", message: '{"text":"custommachinery.requirements.fuel.error"}', status: "ERRORED"},
+  x: 213,
+  y: 63,
+  z: 12,
+  id: "custommachinery:custom_machine_tile"
+}
