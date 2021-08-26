@@ -20,7 +20,7 @@
             "id": "steamtank",
             "maxInput": 10000,
             "maxOutput": 10000,
-            "filter": ["kubejs:steam"],
+            "filter": ["steampowered:steam"],
             "whitelist": true,
             "mode": "output"
         }
