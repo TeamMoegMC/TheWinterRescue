@@ -27,7 +27,7 @@ craftingTable.removeRecipe(<tag:items:modularrouters:augments>);
 mods.jei.JEI.hideRegex(".*augment.*");
 
 recipeShaped("modularrouters_blank_module",<item:modularrouters:blank_module>,[
-  [<item:electrodynamics:wirecopper>,<item:electrodynamics:circuitadvanced>],
+  [<item:immersiveengineering:wire_copper>,<item:immersiveengineering:circuit_board>],
   [<tag:items:forge:plates/aluminum>,<tag:items:forge:plates/aluminum>],
   [<tag:items:forge:plates/aluminum>,<tag:items:forge:plates/aluminum>]
 ]);
@@ -39,31 +39,31 @@ recipeShaped("modularrouters_item_router",<item:modularrouters:item_router>,[
 ]);
 
 recipeShaped("modularrouters_blank_upgrade",<item:modularrouters:blank_upgrade>,[
-  [<tag:items:forge:plates/aluminum>,<item:electrodynamics:ceramicplate>,<tag:items:forge:plates/aluminum>],
-  [<item:electrodynamics:ceramicplate>,<tag:items:forge:plates/aluminum>,<item:electrodynamics:circuitadvanced>],
-  [<tag:items:forge:plates/aluminum>,<item:electrodynamics:wirecopper>,<item:minecraft:air>]
+  [<tag:items:forge:plates/aluminum>,<item:immersiveengineering:plate_steel>,<tag:items:forge:plates/aluminum>],
+  [<item:immersiveengineering:plate_steel>,<tag:items:forge:plates/aluminum>,<item:immersiveengineering:circuit_board>],
+  [<tag:items:forge:plates/aluminum>,<item:immersiveengineering:wire_copper>,<item:minecraft:air>]
 ]);
 
 recipeShaped("modularrouters_fluid_module",<item:modularrouters:fluid_module>,[
-  [<item:modularrouters:blank_module>,<item:electrodynamics:wireinsulatedcopper>],
-  [<item:electrodynamics:electricpump>,<item:electrodynamics:wireinsulatedcopper>]
+  [<item:modularrouters:blank_module>,<item:immersiveengineering:wire_copper>],
+  [<item:immersiveengineering:circuit_board>,<item:immersiveengineering:wire_copper>]
 ]);
 
 recipeShaped("modularrouters_fluid_module_2",<item:modularrouters:fluid_module_2>,[
-  [<item:electrodynamics:electricpump>,<item:electrodynamics:wireinsulatedgold>],
-  [<item:modularrouters:blank_module>,<item:electrodynamics:electricpump>],
-  [<item:electrodynamics:electricpump>,<item:electrodynamics:wireinsulatedgold>]
+  [<item:immersiveengineering:circuit_board>,<item:immersiveengineering:wire_copper>],
+  [<item:modularrouters:blank_module>,<item:immersiveengineering:circuit_board>],
+  [<item:immersiveengineering:circuit_board>,<item:immersiveengineering:wire_copper>]
 ]);
 
 recipeShaped("modularrouters_puller_module_1",<item:modularrouters:puller_module_1>,[
   [<item:modularrouters:blank_module>,<item:immersiveengineering:conveyor_covered>],
-  [<item:immersiveengineering:conveyor_covered>,<item:electrodynamics:wireinsulatedcopper>]
+  [<item:immersiveengineering:conveyor_covered>,<item:immersiveengineering:wire_copper>]
 ]);
 
 recipeShaped("modularrouters_puller_module_2",<item:modularrouters:puller_module_2>,[
   [<item:modularrouters:puller_module_1>,<item:modularrouters:puller_module_1>],
   [<item:modularrouters:puller_module_1>,<item:modularrouters:puller_module_1>],
-  [<item:modularrouters:puller_module_1>,<item:electrodynamics:wireinsulatedgold>]
+  [<item:modularrouters:puller_module_1>,<item:immersiveengineering:wire_copper>]
 ]);
 
 recipeShaped("modularrouters_sender_module_1",<item:modularrouters:sender_module_1>,[

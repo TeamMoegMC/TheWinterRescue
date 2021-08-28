@@ -6,18 +6,15 @@ campfire.addRecipe("torch",<item:minecraft:torch>,<item:stone_age:unlit_torch>,0
 
 <recipetype:stone_age:drying_rack>.addRecipe("grass", <item:charcoal_pit:straw>, <item:primalwinter:snowy_vine>, 600, "grass");
 
-<recipetype:stone_age:tree_stump>.addRecipe("copper_plate1", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:electrodynamics:ingotcopper>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("copper_plate", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:immersiveengineering:ingot_copper>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("copper_plate2", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:rankine:copper_ingot>*2, 3);
-<recipetype:stone_age:tree_stump>.addRecipe("copper_plate3", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:cavesandcliffs:copper_ingot>*2, 3);
-<recipetype:stone_age:tree_stump>.addRecipe("copper_plate4", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:charcoal_pit:copper_ingot>*2, 3);
-<recipetype:stone_age:tree_stump>.addRecipe("copper_plate5", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:immersiveengineering:ingot_copper>*2, 3);
-<recipetype:stone_age:tree_stump>.addRecipe("copper_plate6", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:libvulpes:ingotcopper>*2, 3);
-<recipetype:stone_age:tree_stump>.addRecipe("bronze_plate", <item:electrodynamics:platebronze>,<tag:items:ages_api:hammers>, <item:electrodynamics:ingotbronze>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("copper_plate3", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:create:copper_ingot>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("bronze_plate", <item:kubejs:bronze_plate>,<tag:items:ages_api:hammers>, <item:rankine:bronze_alloy>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("plate_iron", <item:immersiveengineering:plate_iron>,<tag:items:ages_api:hammers>, <item:minecraft:iron_ingot>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("cast_iron_plate", <item:kubejs:cast_iron_plate>,<tag:items:ages_api:hammers>, <item:rankine:cast_iron_alloy>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("battery_alloy_plate", <item:kubejs:battery_alloy_plate>,<tag:items:ages_api:hammers>, <item:kubejs:battery_alloy>*2, 3);
 
-<recipetype:stone_age:tree_stump>.addRecipe("flux", <item:kubejs:flux>*2, <tag:items:ages_api:hammers>, <tag:items:thelastwinter:flux_itemblock>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("flux", <item:kubejs:flux>*2, <tag:items:ages_api:hammers>, <tag:items:the_winter_rescue:flux_itemblock>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("al2o3", <item:rankine:alumina>, <tag:items:ages_api:hammers>, <item:rankine:bauxite_ore>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("redstone", <item:minecraft:redstone>*2, <tag:items:ages_api:hammers>, <item:rankine:cinnabar_ore>, 2);
 //planks
@@ -74,9 +71,9 @@ flintRecipe("millstone",<item:stone_age:millstone>,[
 ],<item:stone_age:flint_knife>);
 
 flintRecipe("main_bloomery",<item:charcoal_pit:main_bloomery>,[
-  [<item:rankine:mortar>,<item:electrodynamics:platebronze>,<item:rankine:mortar>],
-  [<item:electrodynamics:platebronze>,<item:charcoal_pit:sandy_brick>,<item:electrodynamics:platebronze>],
-  [<item:rankine:mortar>,<item:electrodynamics:platebronze>,<item:rankine:mortar>]
+  [<item:rankine:mortar>,<item:kubejs:bronze_plate>,<item:rankine:mortar>],
+  [<item:kubejs:bronze_plate>,<item:charcoal_pit:sandy_brick>,<item:kubejs:bronze_plate>],
+  [<item:rankine:mortar>,<item:kubejs:bronze_plate>,<item:rankine:mortar>]
 ],<item:stone_age:flint_knife>);
 
 
@@ -152,24 +149,24 @@ craftingTable.removeRecipe(<item:charcoal_pit:unfired_sandy_brick>);
 ],<item:stone_age:flint_knife>);
 <recipetype:stone_age:flint_workbench>.addRecipe("amplifier_r1",<item:frostedheart:generator_amplifier_r1>*2,[
   [<item:minecraft:stone>,<item:minecraft:brick>,<item:minecraft:stone>],
-  [<item:minecraft:clay_ball>,<item:electrodynamics:ingotcopper>,<item:minecraft:clay_ball>],
+  [<item:minecraft:clay_ball>,<item:immersiveengineering:ingot_copper>,<item:minecraft:clay_ball>],
   [<item:minecraft:stone>,<item:minecraft:brick>,<item:minecraft:stone>]
 ],<item:stone_age:flint_knife>);
 <recipetype:stone_age:flint_workbench>.addRecipe("core_t1",<item:frostedheart:generator_core_t1>,[
-  [<item:minecraft:brick>,<item:electrodynamics:ingotcopper>,<item:minecraft:brick>],
-  [<item:electrodynamics:ingotcopper>,<item:frostedheart:energy_core>,<item:electrodynamics:ingotcopper>],
-  [<item:minecraft:brick>,<item:electrodynamics:ingotcopper>,<item:minecraft:brick>]
+  [<item:minecraft:brick>,<item:immersiveengineering:ingot_copper>,<item:minecraft:brick>],
+  [<item:immersiveengineering:ingot_copper>,<item:frostedheart:energy_core>,<item:immersiveengineering:ingot_copper>],
+  [<item:minecraft:brick>,<item:immersiveengineering:ingot_copper>,<item:minecraft:brick>]
 ],<item:stone_age:flint_knife>);
 
 <recipetype:stone_age:flint_workbench>.addRecipe("copper_hammer",<item:stone_age:copper_hammer>,[
-  [<item:electrodynamics:ingotcopper>,<item:electrodynamics:ingotcopper>,<item:stone_age:leather_strip>],
-  [<item:minecraft:air>,<item:minecraft:stick>,<item:electrodynamics:ingotcopper>],
-  [<item:minecraft:stick>,<item:minecraft:air>,<item:electrodynamics:ingotcopper>]
+  [<item:immersiveengineering:ingot_copper>,<item:immersiveengineering:ingot_copper>,<item:stone_age:leather_strip>],
+  [<item:minecraft:air>,<item:minecraft:stick>,<item:immersiveengineering:ingot_copper>],
+  [<item:minecraft:stick>,<item:minecraft:air>,<item:immersiveengineering:ingot_copper>]
 ],<item:stone_age:flint_knife>);
 <recipetype:stone_age:flint_workbench>.addRecipe("bronze_hammer",<item:stone_age:bronze_hammer>,[
-  [<item:electrodynamics:ingotbronze>,<item:electrodynamics:ingotbronze>,<item:stone_age:leather_strip>],
-  [<item:minecraft:air>,<item:minecraft:stick>,<item:electrodynamics:ingotbronze>],
-  [<item:minecraft:stick>,<item:minecraft:air>,<item:electrodynamics:ingotbronze>]
+  [<item:rankine:bronze_alloy>,<item:rankine:bronze_alloy>,<item:stone_age:leather_strip>],
+  [<item:minecraft:air>,<item:minecraft:stick>,<item:rankine:bronze_alloy>],
+  [<item:minecraft:stick>,<item:minecraft:air>,<item:rankine:bronze_alloy>]
 ],<item:stone_age:flint_knife>);
 
 craftingTable.removeRecipe(<item:rankine:flint_pickaxe>);
@@ -216,9 +213,9 @@ craftingTable.removeRecipe(<item:charcoal_pit:barrel>);
 
 craftingTable.removeRecipe(<item:rankine:bronze_door>);
 <recipetype:stone_age:flint_workbench>.addRecipe("bronze_door",<item:rankine:bronze_door>,[
-  [<item:electrodynamics:ingotbronze>,<item:electrodynamics:ingotbronze>,<item:minecraft:air>],
-  [<item:electrodynamics:ingotbronze>,<item:electrodynamics:ingotbronze>,<item:minecraft:air>],
-  [<item:electrodynamics:ingotbronze>,<item:electrodynamics:ingotbronze>,<item:minecraft:air>]
+  [<item:rankine:bronze_alloy>,<item:rankine:bronze_alloy>,<item:minecraft:air>],
+  [<item:rankine:bronze_alloy>,<item:rankine:bronze_alloy>,<item:minecraft:air>],
+  [<item:rankine:bronze_alloy>,<item:rankine:bronze_alloy>,<item:minecraft:air>]
 ],<item:stone_age:flint_knife>);
 
 <recipetype:stone_age:flint_workbench>.addRecipe("rye_bread",<item:frostedheart:rye_bread>,[
