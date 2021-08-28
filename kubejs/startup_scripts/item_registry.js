@@ -2,7 +2,10 @@ console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Items Registered!')
 
 onEvent('item.registry', event => {
 	const generalItems = [
-		// ore drops for native rankine ores
+		"raw_native_copper",
+		"raw_native_tin",
+		"raw_silver",
+		"raw_gold"
 	];
 
 	let nativeOres = [
