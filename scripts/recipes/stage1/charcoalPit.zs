@@ -9,7 +9,7 @@ recipeShaped("mechanical_bellows",<item:charcoal_pit:mechanical_bellows>,[
 recipeShaped("piston",<item:minecraft:piston>,[
   [<tag:items:minecraft:planks>,<tag:items:minecraft:planks>,<tag:items:minecraft:planks>],
   [<item:minecraft:stone>,<tag:items:minecraft:planks>,<item:minecraft:stone>],
-  [<item:minecraft:stone>,<item:electrodynamics:geariron>,<item:minecraft:stone>]
+  [<item:minecraft:stone>,<item:create:cogwheel>,<item:minecraft:stone>]
 ]);
 
 

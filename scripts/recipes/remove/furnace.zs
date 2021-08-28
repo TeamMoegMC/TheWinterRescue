@@ -1,10 +1,7 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
-furnace.removeRecipe(<item:electrodynamics:ingotcopper>,<item:electrodynamics:orecopper>);
 furnace.removeRecipe(<item:immersiveengineering:ingot_aluminum>,<item:immersiveengineering:ore_aluminum>);
 
-furnace.removeRecipe(<item:electrodynamics:ingotcopper>);
-furnace.removeRecipe(<item:electrodynamics:ingottin>);
 furnace.removeRecipe(<item:immersiveengineering:ingot_nickel>);
 furnace.removeRecipe(<item:minecraft:iron_ingot>);
 furnace.removeRecipe(<item:immersiveengineering:ingot_aluminum>);

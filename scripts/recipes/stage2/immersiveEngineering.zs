@@ -11,7 +11,7 @@ craftingTable.removeRecipe(<item:immersiveengineering:dynamo>);
 
 recipeShaped("coke_brick",<item:immersiveengineering:cokebrick>*3,[
   [<item:minecraft:brick>,<item:rankine:mortar>,<item:minecraft:brick>],
-  [<item:electrodynamics:platebronze>,<item:minecraft:brick>,<item:electrodynamics:platebronze>],
+  [<item:kubejs:bronze_plate>,<item:minecraft:brick>,<item:kubejs:bronze_plate>],
   [<item:minecraft:brick>,<item:rankine:mortar>,<item:minecraft:brick>]
 ]);
 
@@ -27,21 +27,21 @@ recipeShaped("wirecutter",<item:immersiveengineering:wirecutter>,[
   [<item:immersiveengineering:stick_treated>,<item:minecraft:air>,<item:immersiveengineering:stick_treated>]
 ]);
 
-recipeShapeless("wirecopper", <item:electrodynamics:wirecopper>,[<tag:items:forge:plates/copper>,<item:immersiveengineering:wirecutter>.anyDamage().transformDamage(1)]);
+recipeShapeless("wirecopper", <item:immersiveengineering:wire_copper>,[<tag:items:forge:plates/copper>,<item:immersiveengineering:wirecutter>.anyDamage().transformDamage(1)]);
 //blastfurnace
 <recipetype:immersiveengineering:blast_furnace>.removeRecipe(<item:immersiveengineering:ingot_steel>);
 <recipetype:immersiveengineering:blast_furnace>.removeRecipe(<item:immersiveengineering:storage_steel>);
 
 <recipetype:immersiveengineering:blast_furnace>.addRecipe("cast_iron",<item:minecraft:iron_ingot>, 600,<item:rankine:cast_iron_alloy>,<item:immersiveengineering:slag>);
-<recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_copper",<tag:items:forge:ores/copper>, 400,<item:electrodynamics:ingotcopper>,<item:immersiveengineering:slag>);
-<recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_tin",<tag:items:forge:ores/tin>, 400,<item:electrodynamics:ingottin>,<item:immersiveengineering:slag>);
+<recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_copper",<tag:items:forge:ores/copper>, 400,<item:immersiveengineering:ingot_copper>,<item:immersiveengineering:slag>);
+<recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_tin",<tag:items:forge:ores/tin>, 400,<item:rankine:tin_ingot>,<item:immersiveengineering:slag>);
 <recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_iron",<tag:items:forge:ores/iron>, 400,<item:minecraft:iron_ingot>,<item:immersiveengineering:slag>);
 <recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_nickel",<tag:items:forge:ores/nickel>, 400,<item:immersiveengineering:ingot_nickel>,<item:immersiveengineering:slag>);
-<recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_lead",<tag:items:forge:ores/lead>, 400,<item:electrodynamics:ingotlead>,<item:immersiveengineering:slag>);
+<recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_lead",<tag:items:forge:ores/lead>, 400,<item:immersiveengineering:ingot_lead>,<item:immersiveengineering:slag>);
 <recipetype:immersiveengineering:blast_furnace>.addRecipe("stibnite_ore",<item:rankine:stibnite_ore>, 400,<item:rankine:antimony_ingot>,<item:immersiveengineering:slag>);
 <recipetype:immersiveengineering:blast_furnace>.addRecipe("aluminum_dust",<item:immersiveengineering:dust_aluminum>, 400,<item:immersiveengineering:ingot_aluminum>,<item:immersiveengineering:slag>);
 
 
 
-<recipetype:immersiveengineering:alloy>.addRecipe("battery_alloy",<item:rankine:antimony_ingot>,<item:electrodynamics:ingotlead>*3, 400,<item:kubejs:battery_alloy>*4);
+<recipetype:immersiveengineering:alloy>.addRecipe("battery_alloy",<item:rankine:antimony_ingot>,<item:immersiveengineering:ingot_lead>*3, 400,<item:kubejs:battery_alloy>*4);
 
