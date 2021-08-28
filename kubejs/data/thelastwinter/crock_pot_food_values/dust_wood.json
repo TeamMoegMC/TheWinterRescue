@@ -1,7 +1,0 @@
-{
-    "type": "item",
-    "item": "immersiveengineering:dust_wood",
-    "values": {
-        "INEDIBLE": 1.0
-    }
-}

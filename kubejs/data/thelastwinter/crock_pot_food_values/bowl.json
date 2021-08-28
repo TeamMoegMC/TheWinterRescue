@@ -1,7 +1,0 @@
-{
-    "type": "item",
-    "item": "minecraft:bowl",
-    "values": {
-        "INEDIBLE": 1.0
-    }
-}

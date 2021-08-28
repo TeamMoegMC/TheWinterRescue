@@ -7,7 +7,7 @@ furnace.addRecipe("dust_sulfur",<item:immersiveengineering:dust_sulfur>,<item:ra
 
 craftingTable.addShaped("burning_chamber",<item:frostedheart:burning_chamber>,[
   [<item:kubejs:cast_iron_plate>,<tag:items:forge:plates/iron>,<item:kubejs:cast_iron_plate>],
-  [<tag:items:forge:plates/iron>,<item:immersiveengineering:plate_copper>,<tag:items:forge:plates/iron>],
+  [<tag:items:forge:plates/iron>,<tag:items:forge:plates/copper>,<tag:items:forge:plates/iron>],
   [<item:kubejs:cast_iron_plate>,<tag:items:forge:plates/iron>,<item:kubejs:cast_iron_plate>]
 ]);
 craftingTable.addShaped("burning_chamber_core",<item:frostedheart:burning_chamber_core>,[

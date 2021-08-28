@@ -34,7 +34,14 @@ onEvent('item.registry', event => {
 		"crushed",
 		"washed"
 	]
-
+	
+	let plates = [
+		"cast_iron",
+		"bronze",
+		"battery_alloy",
+		"tungsten_steel"
+	]
+	
 	ores.forEach((ore) => {
 		oreStates.forEach((state) => {
 			generalItems.push(`${state}_${ore}`);
@@ -48,6 +55,10 @@ onEvent('item.registry', event => {
 		generalItems.push(`raw_${ore}`)
 	});
 	
+	plates.forEach((plate) => {
+			generalItems.push(`${plate}_plate`);
+		});
+	
 	generalItems.forEach((item) => {
 		event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
 	});
@@ -57,12 +68,9 @@ onEvent('item.registry', event => {
 	event.create('aluminium_oxide_dust')
 	event.create('kaolin_dust')
 	event.create('tungsten_steel').tooltip('750W-50Fe')
-	event.create('tungsten_steel_plate')
-	event.create('cast_iron_plate')
 	event.create('constantan_coil')
 	event.create('constantan_wire')
 	event.create('battery_alloy')
-	event.create('battery_alloy_plate')
 	event.create('magnesium_dust')
 	event.create('magnesium_oxide')
 	event.create('frozen_auroch_meat')

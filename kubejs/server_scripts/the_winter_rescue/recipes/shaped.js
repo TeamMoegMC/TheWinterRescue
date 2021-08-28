@@ -8,12 +8,12 @@ onEvent('recipes', (event) => {
         shapedRecipe('rankine:fluid_drain', ['L L', 'LFL', 'PLP'], {
             L: '#forge:ingots/stainless_steel',
             P: 'immersiveengineering:fluid_pipe',
-            F: 'electrodynamics:motor',
+            F: 'create:cogwheel',
         }),
         shapedRecipe('rankine:fluid_drain', ['L L', 'LFL', 'PLP'], {
             L: '#forge:ingots/cast_iron',
             P: 'immersiveengineering:fluid_pipe',
-            F: 'electrodynamics:motor',
+            F: 'create:cogwheel',
         }),
         shapedRecipe('notreepunching:fire_starter', ['AC', 'BA'], {
             A: '#forge:rods/wooden',

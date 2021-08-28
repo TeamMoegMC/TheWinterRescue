@@ -1,8 +1,0 @@
-{
-  "type": "charcoal_pit:pottery",
-  "ingredient": {
-    "item": "rankine:fire_clay_ball"
-  },
-  "result": "rankine:refractory_brick",
-  "experience": 0.4
-}
