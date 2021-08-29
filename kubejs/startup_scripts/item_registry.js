@@ -94,9 +94,9 @@ onEvent('item.registry', event => {
 	event.create('frozen_seeds_beetroots')
 	event.create('frozen_seeds_unknown')
 	event.create('pyrite')
-	event.create('bituminous_ore')//烟煤和褐煤在rankine里有对应矿物，但其本身就是成品，为了加以区分，在这里加了个_ore
+	event.create('bituminous_ore') //烟煤和褐煤在rankine里有对应矿物，但其本身就是成品，为了加以区分，在这里加了个_ore
 	event.create('bauxite')
-	event.create('halite')
+	event.create('halite') //岩盐
 	event.create('lignite_ore')
 	
 })

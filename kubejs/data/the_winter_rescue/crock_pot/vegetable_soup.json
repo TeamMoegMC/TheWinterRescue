@@ -1,0 +1,34 @@
+{
+  "result": {
+    "id": "frostedheart:vegetable_soup",
+    "Count": 1
+  },
+  "requirements": [
+    {
+      "type": "category_max",
+      "category": "MEAT",
+      "max": 0.0
+    },
+    {
+      "type": "category_min_exclusive",
+      "category": "VEGGIE",
+      "min": 1.5
+    },
+    {
+      "type": "must_contain_ingredient",
+      "ingredient": {
+        "item": "minecraft:bowl"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "category_max",
+      "category": "INEDIBLE",
+      "max": 1.0
+    }
+  ],
+  "cookTime": 400,
+  "weight": 1,
+  "priority": 15,
+  "potLevel": 0
+}
