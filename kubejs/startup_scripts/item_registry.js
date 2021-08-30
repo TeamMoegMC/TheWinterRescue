@@ -5,21 +5,28 @@ onEvent('item.registry', event => {
 	
 	];
 
-	let nativeOres = [
-		"ore_native_copper",
-		"ore_native_tin",
-		"ore_silver",
-		"ore_gold"
+	let rawOres = [
+		"raw_ore_native_copper",
+		"raw_ore_native_tin",
+		"raw_ore_silver",
+		"raw_ore_gold",
+		"pyrite",
+		"bauxite",
+		"halite"
 	]
 
 	let ores = [
+		"ore_native_copper",
+		"ore_native_tin",
+		"ore_silver",
+		"ore_gold",
 		"ore_magnetite",
 		"ore_pyrite",
 		"ore_malachite",
 		"ore_pentlandite",
 		"ore_cassiterite",
-		"ore_bituminous",
-		"ore_lignite",
+		// "ore_bituminous",
+		// "ore_lignite",
 		"ore_bauxite",
 		"ore_stibnite",
 		"ore_cinnabar",
@@ -41,23 +48,20 @@ onEvent('item.registry', event => {
 		"battery_alloy",
 		"tungsten_steel"
 	]
+
+	rawOres.forEach((ore) => {
+		generalItems.push(ore);
+	});
 	
 	ores.forEach((ore) => {
 		oreStates.forEach((state) => {
 			generalItems.push(`${state}_${ore}`);
 		});
 	});
-
-	nativeOres.forEach((ore) => {
-		oreStates.forEach((state) => {
-			generalItems.push(`${state}_${ore}`);
-		});
-		generalItems.push(`raw_${ore}`)
-	});
 	
 	plates.forEach((plate) => {
-			generalItems.push(`${plate}_plate`);
-		});
+		generalItems.push(`${plate}_plate`);
+	});
 	
 	generalItems.forEach((item) => {
 		event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
@@ -93,10 +97,4 @@ onEvent('item.registry', event => {
 	event.create('frozen_seeds_pumpkin')
 	event.create('frozen_seeds_beetroots')
 	event.create('frozen_seeds_unknown')
-	event.create('pyrite')
-	event.create('bituminous_ore') //烟煤和褐煤在rankine里有对应矿物，但其本身就是成品，为了加以区分，在这里加了个_ore
-	event.create('bauxite')
-	event.create('halite') //岩盐
-	event.create('lignite_ore')
-	
 })

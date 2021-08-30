@@ -2,11 +2,7 @@ console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Fluids Registered!')
 
 onEvent('fluid.registry', event => {
   const generalFluids = [
-    {
-        type: 'thin',
-        id: 'steam',
-        texture: '0x209EBD'
-    }
+      
   ];
   
   generalFluids.forEach((fluid) => {

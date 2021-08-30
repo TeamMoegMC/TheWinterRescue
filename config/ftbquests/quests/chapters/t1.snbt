@@ -174,7 +174,7 @@
 		{
 			x: -1.5d
 			y: -0.5d
-			subtitle: "砍伐工具"
+			subtitle: "想致富，先撸树"
 			description: ["同样重要的工具，你可以砍树了。"]
 			dependencies: ["29BC87594650152D"]
 			id: "6B7D4F59C921C1FC"
@@ -477,6 +477,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
+			subtitle: "装满满的"
 			description: ["基础的液体容器。"]
 			dependencies: ["19603323EAAFF726"]
 			id: "3078BCEE3E402DED"
@@ -613,6 +614,7 @@
 		{
 			x: 9.5d
 			y: 0.5d
+			subtitle: "FBI open the door"
 			description: [
 				"用青铜制作的门。可以作为木炭坑的一部分，方便出入。"
 				"注意:门的方向要紧贴木炭坑内方块。"
