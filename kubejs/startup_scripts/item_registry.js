@@ -6,10 +6,10 @@ onEvent('item.registry', event => {
 	];
 
 	let rawOres = [
-		"raw_ore_native_copper",
-		"raw_ore_native_tin",
-		"raw_ore_silver",
-		"raw_ore_gold",
+		"native_copper",
+		"native_tin",
+		"silver",
+		"gold",
 		"pyrite",
 		"bauxite",
 		"halite"
