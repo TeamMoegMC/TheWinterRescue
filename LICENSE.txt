@@ -45,7 +45,7 @@ Clauses that apply in general to any of the uses that follow.
 - Non-Monetary Clause
   You may not charge for access to the distribution itself or gain money through it, this includes any type of inline advertisement, such as url shorteners (adf.ly or otherwise) or ads in your service slowing the download down. This includes restricting any amount of access behind a paywall.
 
-4. If you want to Host a Server with Terrafirma: Rescye
+4. If you want to Host a Server with The Winter Rescue
 - No In-game Charging Clause
   You may not charge for in-game goods that break gaming balance such as mod items, special abilities, or cosmetic features on a public server that runs the Modpack. By public server, we mean posting server ip address on a public accessible location directly or indirectly, either on or off the internet. Breaking this rule may result in we asking you or related administration to prevent your server ip from being public accessible until you stop the behavior.
 - Whitelisting Clause
