@@ -51,7 +51,7 @@
 
 - 本整合包根据 GPLv3 开源
 
-## 下载
+## 下载/相关发布贴
 
 [MCBBS](https://www.mcbbs.net/thread-1227167-1-1.html)
 [CurseForge](https://curseforge.com/minecraft/modpacks/the-winter-resuce)
