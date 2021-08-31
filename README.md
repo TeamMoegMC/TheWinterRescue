@@ -14,7 +14,7 @@
 
 - This is a Minecraft 1.16.5 Survival, Technology, and Adventure Modpack created by TeamMoeg
 
-- This Modpack is licensed under GPLv3. 
+- This Modpack is licensed under [The Winter Rescue License](https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE.txt). 
 
 ## Download Latest
 
@@ -26,6 +26,7 @@
 - [Official Wiki](https://wiki.teammoeg.com/)
 - [Official Forum](https://forum.teammoeg.com/)
 - [Official Discord Chat](https://discord.gg/BWn6E94)
+- [Official Kaiheila Chat](https://kaihei.co/JLpNWi)
 - QQ Group Chat Number: TBA
 
 ## Like Our Modpack?
@@ -49,7 +50,7 @@
 
 - 一个由 TeamMoeg 制作的 Minecraft 1.16.5 科技生存冒险向整合包
 
-- 本整合包根据 GPLv3 开源
+- 本整合包根据 [冬季救援协议](https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE_CN.txt) 开源
 
 ## 下载/相关发布贴
 
@@ -61,6 +62,7 @@
 - [官方WIKI](https://wiki.teammoeg.com/)
 - [官方论坛](https://forum.teammoeg.com/)
 - [官方Discord](https://discord.gg/BWn6E94)
+- [官方开黑啦](https://kaihei.co/JLpNWi)
 - 官方QQ交流群: 敬请期待
 
 ## 支持我们
