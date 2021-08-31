@@ -1,10 +1,10 @@
 {
   "type": "charcoal_pit:bloomery",
   "input": {
-    "item": "rankine:pentlandite"
+    "tag": "thelastwinter:bloom_nickel"
   },
   "output": {
-    "item": "immersiveengineering:ingot_nickel"
+    "tag": "forge:ingots/iron"
   },
   "fail": {
     "item": "charcoal_pit:bloom_fail"
@@ -13,4 +13,3 @@
     "item": "charcoal_pit:bloom_cool"
   }
 }
-
