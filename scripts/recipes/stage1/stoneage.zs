@@ -10,6 +10,7 @@ campfire.addRecipe("torch",<item:minecraft:torch>,<item:stone_age:unlit_torch>,0
 <recipetype:stone_age:tree_stump>.addRecipe("copper_plate2", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:rankine:copper_ingot>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("copper_plate3", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:create:copper_ingot>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("bronze_plate", <item:kubejs:bronze_plate>,<tag:items:ages_api:hammers>, <item:rankine:bronze_alloy>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("brass_plate", <item:create:brass_sheet>,<tag:items:ages_api:hammers>, <item:rankine:brass_alloy>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("plate_iron", <item:immersiveengineering:plate_iron>,<tag:items:ages_api:hammers>, <item:minecraft:iron_ingot>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("cast_iron_plate", <item:kubejs:cast_iron_plate>,<tag:items:ages_api:hammers>, <item:rankine:cast_iron_alloy>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("battery_alloy_plate", <item:kubejs:battery_alloy_plate>,<tag:items:ages_api:hammers>, <item:kubejs:battery_alloy>*2, 3);

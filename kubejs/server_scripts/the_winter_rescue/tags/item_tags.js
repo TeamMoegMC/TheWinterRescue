@@ -9,4 +9,5 @@ onEvent('item.tags', (event) => {
     event.add('the_winter_rescue:flux_block', "rankine:chalk")
     event.add('the_winter_rescue:flour', "stone_age:flour")
     event.add('the_winter_rescue:flour', "frostedheart:rye_flour")
+    event.add('forge:plates/bronze', "kubejs:bronze_plate")
 });

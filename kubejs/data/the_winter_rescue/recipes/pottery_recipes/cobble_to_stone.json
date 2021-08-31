@@ -1,7 +1,7 @@
 {
   "type": "charcoal_pit:pottery",
   "ingredient": {
-    "item": "minecraft:cobblestone"
+    "tag": "forge:cobblestone"
   },
   "result": "minecraft:stone",
   "experience": 0.35
