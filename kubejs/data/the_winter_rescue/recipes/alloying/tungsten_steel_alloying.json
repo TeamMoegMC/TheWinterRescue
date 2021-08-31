@@ -1,0 +1,16 @@
+{
+  "type": "rankine:alloying",
+  "total": 50,
+  "tier": 0,
+  "input1": {
+    "element": "iron",
+    "min": 0.40,
+    "max": 0.60
+  },
+  "input2": {
+    "element": "tungsten",
+    "min": 0.40,
+    "max": 0.60
+  },
+  "result": "kubejs:tungsten_steel"
+}

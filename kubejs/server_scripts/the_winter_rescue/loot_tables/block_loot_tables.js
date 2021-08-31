@@ -16,6 +16,24 @@ onEvent('block.loot_tables', event => {
 			})
 		})
 	}
+
+	event.build('primalwinter:snowy_dirt', table => { // Build loot table manually
+		table.pool(pool => {
+			pool.rolls = 1 // Use one of these 3 - fixed, uniform, binominal
+			// pool.setUniformRolls(4, 6)
+			// pool.setBinomialRolls(4, 0.3)
+			pool.survivesExplosion()
+			pool.addItem('minecraft:dirt')
+			pool.addItem('kubejs:frozen_seeds_melon')
+			pool.addItem('kubejs:frozen_seeds_wheat')
+			pool.addItem('kubejs:frozen_seeds_pumpkin')
+			pool.addItem('kubejs:frozen_seeds_beetroots')
+			pool.addItem('kubejs:frozen_seeds_unknown')
+			pool.addItem('kubejs:frozen_seeds_blackwheat')
+			// pool.addCondition({json condition, see vanilla wiki})
+			// pool.addEntry({json entry, see vanilla wiki for non-items})
+		})
+	})
 })
 
 

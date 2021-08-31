@@ -1,0 +1,15 @@
+{
+  "type": "charcoal_pit:barrel",
+  "item_in":{
+  	"item":"minecraft:sand"
+  },
+  "fluid_in":{
+  	"fluid":"kubejs:lime_water",
+  	"amount": 500
+  },
+  "item_out":{
+  	"item":"rankine:mortar"
+  },
+  "out_amount":2,
+  "time": 7200
+}

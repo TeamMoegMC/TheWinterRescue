@@ -7,10 +7,10 @@
   ],
   "key": {
     "B": {
-      "item": "electrodynamics:ingotbronze"
+      "tag": "forge:ingots/bronze"
     },
       "S": {
-      "item": "minecraft:stick"
+      "tag": "forge:rods/wooden"
     }
   },
   "result": {

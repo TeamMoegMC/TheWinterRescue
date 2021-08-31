@@ -1,0 +1,8 @@
+{
+  "type": "charcoal_pit:pottery",
+  "ingredient": {
+    "item": "kubejs:flux"
+  },
+  "result": "rankine:quicklime",
+  "experience": 0.35
+}

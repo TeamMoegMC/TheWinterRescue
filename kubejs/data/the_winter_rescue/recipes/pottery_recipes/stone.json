@@ -1,0 +1,8 @@
+{
+  "type": "charcoal_pit:pottery",
+  "ingredient": {
+    "tag": "forge:stone"
+  },
+  "result": "minecraft:stone",
+  "experience": 0.35
+}

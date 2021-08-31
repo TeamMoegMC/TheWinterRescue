@@ -42,4 +42,13 @@ onEvent('recipes', (event) => {
     event.remove({ type: 'rankine:alloying', output: '#forge:ingots/steel'})
     event.remove({ input: 'notreepunching:plant_string'})
     event.remove({ type: 'rankine:beehive_oven'})
+	event.remove({ input: 'rankine:element_transmuter'})
+	event.remove({ mod: 'advgenerators'});
+	event.remove({ mod: 'advancedrocketry'});
+	event.remove({ mod: 'survive'});
+	event.remove({ input: 'minecraft:sugar_cane', output: 'minecraft:paper'});
+
+	disabledItems.forEach((disabledItem) => {
+		event.remove({ output: disabledItem });
+	});
 });

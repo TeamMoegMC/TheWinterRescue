@@ -444,7 +444,7 @@
 			tasks: [{
 				id: "0A42C08AE2B6644A"
 				type: "item"
-				item: "frostedheart:electrolyzer_block"
+				item: "minecraft:polished_granite"
 			}]
 		}
 		{
