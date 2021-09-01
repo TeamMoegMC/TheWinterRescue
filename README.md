@@ -1,6 +1,6 @@
 
 <h1 align="center">The Winter Rescue<br>
-	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE"><img src="https://img.shields.io/badge/%20license-brightgreen?style=flat-square" alt="License"></a>
+	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE.txt"><img src="https://img.shields.io/badge/%20license-brightgreen?style=flat-square" alt="License"></a>
 	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/issues"><img src="https://img.shields.io/github/issues/TeamMoegMC/The-Winter-Rescue?style=flat-square" alt="Issues"></a>
 	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/releases"><img src="https://img.shields.io/github/tag/TeamMoegMC/The-Winter-Rescue?style=flat-square" alt="Tags"></a>
 	<a href="https://discord.gg/BWn6E94"><img src="https://img.shields.io/badge/discord-chat%20with%20players-pink?style=flat-square" alt="Discord"></a>
@@ -36,7 +36,7 @@
 <br><br><br>
 
 <h1 align="center">冬日营救<br>
-	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE"><img src="https://img.shields.io/badge/GPLv3%20license-brightgreen?style=flat-square" alt="License"></a>
+	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE.txt"><img src="https://img.shields.io/badge/TWR%20license-brightgreen?style=flat-square" alt="License"></a>
 	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/issues"><img src="https://img.shields.io/github/issues/TeamMoegMC/The-Winter-Rescue?style=flat-square" alt="Issues"></a>
 	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/releases"><img src="https://img.shields.io/github/tag/TeamMoegMC/The-Winter-Rescue?style=flat-square" alt="Tags"></a>
 	<a href="https://discord.gg/BWn6E94"><img src="https://img.shields.io/badge/discord-chat%20with%20players-pink?style=flat-square" alt="Discord"></a>
