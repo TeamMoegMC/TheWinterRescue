@@ -48,8 +48,6 @@ Clauses that apply in general to any of the uses that follow.
 4. If you want to Host a Server with The Winter Rescue
 - No In-game Charging Clause
   You may not charge for in-game goods that break gaming balance such as mod items, special abilities, or cosmetic features on a public server that runs the Modpack. By public server, we mean posting server ip address on a public accessible location directly or indirectly, either on or off the internet. Breaking this rule may result in we asking you or related administration to prevent your server ip from being public accessible until you stop the behavior.
-- Whitelisting Clause
-  Charging money from whitelisted players is totally fine.
 - Donation Clause
   Raising money from donation (no in-game reward) is totally fine.
 - Private Server Clause
