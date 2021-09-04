@@ -1,6 +1,14 @@
 
 [Misc]
+	# 
 	#It decides if players' water level would reset in death.
+	#决定玩家死亡时是否回复水分值。默认：true
 	#Default:true
 	resetWaterLevelInDeath = true
+	# 
+	#finalReducingValue = basicValue * waterReducingRate.(DoubleValue)
+	#最终水分值消耗量 = 基础值 * 水分掉落率(本项值).(双浮点类型) 默认：1.0
+	#Default:1.0
+	#Range: 0.0 ~ 1000.0
+	waterReducingRate = 1.0
 

@@ -46,7 +46,6 @@
   "item.kubejs.fluoroaluminic_acid_bucket": "Fluoroaluminic Acid bucket",
   "item.kubejs.cryolite_bucket": "Cryolit bucket",
   "item.kubejs.aluminium_bucket": "Aluminate bucket",
-  
   "fluid.kubejs.lime_water": "Lime Water",
   "fluid.kubejs.chlorine": "Chlorine",
   "fluid.kubejs.magnesium_chloride": "Magnesium Chlorine",
@@ -57,6 +56,5 @@
   "fluid.kubejs.fluoroaluminic_acid": "Fluoroaluminic Acid",
   "fluid.kubejs.cryolite": "Cryolite",
   "fluid.kubejs.aluminium": "Aluminium",
-  
   "itemGroup.kubejs.kubejs": "Kubejs"
 }

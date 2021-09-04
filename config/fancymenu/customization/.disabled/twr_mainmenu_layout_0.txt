@@ -1,0 +1,235 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu/menu/generator_front.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
+  description = 问题和建议反馈渠道
+  label = 帮助中心
+  x = 280
+  width = 100
+  actionid = d37a42f7-c64c-4e14-acf3-218ddb91153f1630687337702
+  action = addbutton
+  y = 183
+  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+  value = https://support.teammoeg.com
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
+  label = 支持我们
+  hoverlabel = 支持我们
+  x = 241
+  width = 78
+  actionid = c5d1ee87-d97b-44e9-a385-9bf0b55cfb461630687337704
+  action = addbutton
+  y = 207
+  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+  value = https://afdian.net/@teammoeg
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = bottom-centered
+  x = 99
+  action = movebutton
+  y = -167
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttontexture
+  backgroundhovered = fancymenu/menu/textures/gui/a11y_hover.png
+  backgroundnormal = fancymenu/menu/textures/gui/a11y_normal.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-centered
+  x = -119
+  action = movebutton
+  y = -167
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttontexture
+  backgroundhovered = fancymenu/menu/textures/gui/language_hover.png
+  backgroundnormal = fancymenu/menu/textures/gui/language_normal.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-centered
+  x = -138
+  action = movebutton
+  y = -143
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 选项…
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
+  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-centered
+  x = 38
+  action = movebutton
+  y = -143
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 退出游戏
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
+  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+}
+
+customization {
+  orientation = top-left
+  buttonaction = openlink
+  x = 269
+  width = 132
+  actionid = 09fb6c46-c9e5-4663-b876-838fad4aed481630687337706
+  action = addbutton
+  y = 90
+  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
+  label = TeamMoeg Presents
+  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+  value = 
+  height = 20
+}
+
+customization {
+  path = fancymenu/twr_logo_title.png
+  orientation = top-left
+  x = 152
+  width = 200
+  action = addtexture
+  actionid = 8137d233-9442-4b47-a150-7caea41638d51630687242534
+  y = 41
+  height = 50
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
+  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+}
+
+customization {
+  identifier = %id=400322%
+  action = sethoverlabel
+  label = 多人游戏
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 单人游戏
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
+  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = 单人游戏
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = Mod
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
+  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = sethoverlabel
+  label = Mod
+}
+

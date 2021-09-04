@@ -1,0 +1,121 @@
+type = menu
+
+customization-meta {
+  identifier = twr.menu.credits
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu/menu/bg/5.png
+  action = texturizebackground
+}
+
+customization {
+  path = fancymenu/twr_logo_title.png
+  orientation = mid-centered
+  x = -103
+  width = 199
+  action = addtexture
+  actionid = b326359b-9db7-4d3b-8edb-44a9032442ef1630689066314
+  y = -111
+  height = 50
+}
+
+customization {
+  path = fancymenu/menu/textures/gui/button_normal.png
+  orientation = mid-centered
+  x = -103
+  width = 200
+  action = addtexture
+  actionid = 397e4600-a933-4b58-8782-fc20bd1baa631630689132767
+  y = -65
+  height = 164
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -24
+  action = addtext
+  actionid = c327d3ff-e661-4bd9-941d-77761f1500361630689181422
+  y = -32
+  scale = 1.0
+  alignment = left
+  value = 制作者名单
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -20
+  action = addtext
+  actionid = 5e71119c-9d40-4340-8950-e31c2073b8ef1630689208797
+  y = -18
+  scale = 1.0
+  alignment = left
+  value = YueSha
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -28
+  action = addtext
+  actionid = f7542427-e0a7-4b0a-b21b-2784d3ba05bb1630689259810
+  y = -5
+  scale = 1.0
+  alignment = left
+  value = dashuaibia
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -26
+  action = addtext
+  actionid = 1b2aa706-46db-4c0b-8f21-2ec61cb861cc1630689276882
+  y = 8
+  scale = 1.0
+  alignment = left
+  value = Evanvenir
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -25
+  action = addtext
+  actionid = 22c10434-6201-4243-a251-e24488eea0141630689285176
+  y = 20
+  scale = 1.0
+  alignment = left
+  value = duck_egg
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -22
+  action = addtext
+  actionid = 2d5e2830-10c4-4576-aaf2-2903840c646e1630689301157
+  y = 33
+  scale = 1.0
+  alignment = left
+  value = Luyuuke
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -22
+  action = addtext
+  actionid = 5a5fc302-a6f8-44df-9385-d8cccc5547451630689314902
+  y = 45
+  scale = 1.0
+  alignment = left
+  value = gomou_g
+}
+

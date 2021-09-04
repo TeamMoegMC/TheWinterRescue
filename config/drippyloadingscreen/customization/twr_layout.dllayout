@@ -1,0 +1,66 @@
+type = hud
+
+customization-meta {
+  renderorder = foreground
+  backgroundcolor = #000000
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  visible = false
+  textcolor = FFFFFF
+  action = editforgestatustext
+}
+
+customization {
+  visible = false
+  x = 7
+  textcolor = FFFFFF
+  action = editforgememoryinfo
+  y = 17
+}
+
+customization {
+  orientation = mid-centered
+  x = 1
+  action = editprogressbar
+  y = 68
+}
+
+customization {
+  path = fancymenu/mojang_logo.png
+  orientation = bottom-left
+  x = -24
+  width = 160
+  action = addtexture
+  actionid = e3f27042-88c2-41bd-b1a6-2f61720b851f1630679629208
+  y = 14
+  height = 72
+}
+
+customization {
+  path = fancymenu/twr_logo.png
+  orientation = mid-centered
+  x = -6
+  width = 383
+  action = addtexture
+  actionid = 3546d59d-51af-457b-926d-ad3455f14abc1630679726614
+  y = -9
+  height = 135
+}
+
+customization {
+  path = fancymenu/teammoeg_logo.png
+  orientation = bottom-right
+  x = 23
+  width = 116
+  action = addtexture
+  actionid = d6e32e2a-5d0c-4805-be63-9935670926881630680277786
+  y = -8
+  height = 27
+}
+

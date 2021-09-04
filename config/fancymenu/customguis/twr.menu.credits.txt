@@ -1,0 +1,3 @@
+identifier = twr.menu.credits
+title = 
+allowesc = true
