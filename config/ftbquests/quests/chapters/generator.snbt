@@ -43,12 +43,20 @@
 					item: "frostedheart:generator_brick"
 				}
 			]
-			rewards: [{
-				id: "0E2B848932AC874B"
-				type: "item"
-				item: "frostedheart:rye_block"
-				count: 6
-			}]
+			rewards: [
+				{
+					id: "0E2B848932AC874B"
+					type: "item"
+					item: "frostedheart:rye_block"
+					count: 6
+				}
+				{
+					id: "53F5D9973B4BF63B"
+					type: "item"
+					item: "frostedheart:white_turnip"
+					count: 3
+				}
+			]
 		}
 		{
 			title: "二级能量塔"

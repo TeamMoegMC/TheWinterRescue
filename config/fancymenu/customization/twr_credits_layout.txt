@@ -104,7 +104,7 @@ customization {
   y = 33
   scale = 1.0
   alignment = left
-  value = Luyuuke
+  value = Lyuuke
 }
 
 customization {
@@ -116,6 +116,6 @@ customization {
   y = 45
   scale = 1.0
   alignment = left
-  value = gomou_g
+  value = goumo_g
 }
 

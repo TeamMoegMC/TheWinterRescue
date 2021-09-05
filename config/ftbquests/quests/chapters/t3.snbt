@@ -3,8 +3,16 @@
 	group: ""
 	order_index: 3
 	filename: "t3"
-	title: "工业化的一天"
-	icon: "immersiveengineering:ingot_aluminum"
+	title: "从楞次定律开始"
+	icon: {
+		id: "rankine:steel_alloy"
+		Count: 1b
+		tag: {
+			StoredComposition: [{
+				comp: "99Fe-1C"
+			}]
+		}
+	}
 	subtitle: ["机器开始轰鸣。"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -262,7 +270,6 @@
 			x: 0.0d
 			y: -1.0d
 			subtitle: "冶炼原料"
-			dependencies: ["0561A7DAC61F7B61"]
 			id: "5808CFED17AE91D4"
 			tasks: [{
 				id: "417E9910C7BE0C2C"
@@ -311,6 +318,134 @@
 				id: "5D0D6C54B66023E4"
 				type: "item"
 				item: "modularrouters:item_router"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			subtitle: "氧气助燃"
+			description: ["只有提供两台鼓风机，冶钢坩埚才能开始工作。"]
+			dependencies: ["5B8BA38FF8C93A1A"]
+			id: "016B841B20166EA8"
+			tasks: [{
+				id: "3466ACA38E4A1F3F"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+				count: 2L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.5d
+			subtitle: "耐高温"
+			description: ["需要动力搅拌机制作"]
+			dependencies: ["3549A50510878505"]
+			id: "6738A3C34A872FED"
+			tasks: [{
+				id: "4FDFAF777C766C70"
+				type: "item"
+				item: "rankine:high_refractory_brick"
+			}]
+		}
+		{
+			title: "炼钢坩埚"
+			icon: "rankine:high_refractory_bricks"
+			x: 3.0d
+			y: -5.5d
+			subtitle: "更热门的话题"
+			description: [
+				"&6炼钢坩埚是比原始高炉更加先进的冶炼设备."
+				"&6需要使用焦煤进行加热."
+				"搭建: 从上到下"
+				"HHH HHH BBB BBB  H=高耐火砖"
+				"H H H H  BCB BBB  B=燃烧室"
+				"HHH HHH BBB BBB  C=燃烧室核心"
+			]
+			dependencies: ["6738A3C34A872FED"]
+			id: "19038BB5A9E42055"
+			tasks: [
+				{
+					id: "5FBCCD9BFBA8FFA2"
+					type: "item"
+					item: "frostedheart:burning_chamber_core"
+				}
+				{
+					id: "3E96AF246CEFC59E"
+					type: "item"
+					item: "frostedheart:burning_chamber"
+					count: 17L
+				}
+				{
+					id: "1C413775D736BB81"
+					type: "item"
+					item: "rankine:high_refractory_bricks"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "黑色金属-钢"
+			icon: "immersiveengineering:ingot_steel"
+			x: 1.5d
+			y: -4.0d
+			subtitle: "坚硬无比"
+			description: ["进行大规模工业化的基础."]
+			dependencies: [
+				"19038BB5A9E42055"
+				"016B841B20166EA8"
+			]
+			hide: true
+			id: "0019852CD6EC0354"
+			tasks: [{
+				id: "147D66FD5DDDF718"
+				type: "item"
+				title: "Any #forge:ingots/steel"
+				icon: "immersiveengineering:ingot_steel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EC2C206211EF6F5"
+				type: "item"
+				item: "rankine:packaged_tool"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["0019852CD6EC0354"]
+			id: "6927FCD3D4A96E1C"
+			tasks: [{
+				id: "6CA2FEDEA9354124"
+				type: "item"
+				item: "steampowered:steel_cogwheel"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["0019852CD6EC0354"]
+			id: "07D09F067CE6B708"
+			tasks: [{
+				id: "61371EAC59D39D34"
+				type: "item"
+				item: "steampowered:steel_steam_engine"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["0019852CD6EC0354"]
+			id: "4DE01CED0E30AD08"
+			tasks: [{
+				id: "0A23FB35CA0CBF1D"
+				type: "item"
+				item: "steampowered:steel_flywheel"
 			}]
 		}
 	]

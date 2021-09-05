@@ -15,7 +15,7 @@ craftingTable.removeRecipe(<item:immersiveengineering:sample_drill>);
 
 recipeShaped("coke_brick",<item:immersiveengineering:cokebrick>*3,[
   [<item:minecraft:brick>,<item:rankine:mortar>,<item:minecraft:brick>],
-  [<item:kubejs:bronze_plate>,<item:minecraft:brick>,<item:kubejs:bronze_plate>],
+  [<item:steampowered:bronze_sheet>,<item:minecraft:brick>,<item:steampowered:bronze_sheet>],
   [<item:minecraft:brick>,<item:rankine:mortar>,<item:minecraft:brick>]
 ]);
 

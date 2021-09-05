@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "t1"
-	title: "原始人的一天"
+	title: "从一无所有开始"
 	icon: "minecraft:stone"
 	subtitle: ["白雪皑皑之中，你的存在便是唯一的光和热。"]
 	default_quest_shape: ""
@@ -366,7 +366,7 @@
 			tasks: [{
 				id: "6359AA8052C20461"
 				type: "item"
-				item: "electrodynamics:platebronze"
+				item: "kubejs:bronze_plate"
 			}]
 		}
 		{

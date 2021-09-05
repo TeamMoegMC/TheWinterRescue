@@ -43,14 +43,14 @@ customization {
 }
 
 customization {
-  path = fancymenu/twr_logo.png
+  path = fancymenu/twr_logo_title.png
   orientation = mid-centered
   x = -6
   width = 383
   action = addtexture
   actionid = 3546d59d-51af-457b-926d-ad3455f14abc1630679726614
   y = -9
-  height = 135
+  height = 96
 }
 
 customization {

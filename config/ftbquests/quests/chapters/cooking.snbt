@@ -126,7 +126,7 @@
 			tasks: [{
 				id: "31CF9A4D876ED1D2"
 				type: "item"
-				item: "minecraft:barrier"
+				item: "frostedheart:white_turnip"
 			}]
 		}
 		{

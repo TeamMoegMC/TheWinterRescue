@@ -7,9 +7,11 @@ function shapedRecipe(result, pattern, key, id) {
 function shapelessRecipe(result, ingredients, id) {
     return { result: result, ingredients: ingredients, id: id };
 }
+
 function unificationBlacklistEntry(material, type) {
     return { material: material, type: type };
 }
+
 function entryIsBlacklisted(material, type) {
     for (var i = 0; i < unificationBlacklist.length; i++) {
         if (unificationBlacklist[i].material == material && unificationBlacklist[i].type == type) {
@@ -63,12 +65,3 @@ const unificationBlacklist = [
     // unificationBlacklistEntry('quartz', 'gem'),
     // unificationBlacklistEntry('quartz', 'storage_block')
 ];
-
-recipetypes_crushing = (event, recipe) => {
-    // event.custom({
-    //     type: 'industrialforegoing:crusher',
-    //     input: recipe.input,
-    //     output: recipe.output
-    // });
-    // event.recipes.immersiveengineering.crusher(recipe.output, recipe.input, recipe.secondary_output);
-};

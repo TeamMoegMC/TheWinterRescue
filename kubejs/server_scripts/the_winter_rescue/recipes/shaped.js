@@ -35,6 +35,28 @@ onEvent('recipes', (event) => {
         shapedRecipe('6x create:fluid_pipe', ['AAA', 'AAA'], {
             A: '#forge:plates/bronze',
         }),
+        shapedRecipe('extendedcrafting:advanced_table', ['AAA', 'BCB', 'AAA'], {
+            A: '#forge:plates/cast_iron',
+            B: 'rankine:cast_iron_support',
+            C: 'minecraft:crafting_table',
+        }),
+        shapedRecipe('extendedcrafting:crafting_core', ['ECE', 'BAB', 'DDD'], {
+            A: '#forge:storage_blocks/cast_iron',
+            B: 'immersiveengineering:capacitor_lv',
+            C: 'minecraft:crafting_table',
+            D: '#forge:plates/cast_iron',
+            E: 'steampowered:cast_iron_cogwheel'
+        }),
+        shapedRecipe('extendedcrafting:pedestal', ['DDD', 'EBE', 'DCD'], {
+            B: 'rankine:cast_iron_support',
+            D: '#forge:plates/cast_iron',
+            E: 'steampowered:cast_iron_cogwheel',
+            C: 'steampowered:cast_iron_large_cogwheel'
+        }),
+        shapedRecipe('extendedcrafting:handheld_table', [' AC', ' AA', 'A  '], {
+            A: '#forge:rods/cast_iron',
+            C: 'minecraft:crafting_table',
+        }),
     ]
 
     var newRecipes = [

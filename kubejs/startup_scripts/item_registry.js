@@ -71,7 +71,6 @@ onEvent('item.registry', event => {
 	
 	let plates = [
 		"cast_iron",
-		"bronze",
 		"battery_alloy",
 		"tungsten_steel"
 	]

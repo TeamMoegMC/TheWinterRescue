@@ -1,3 +1,5 @@
+//priority = 800
+
 onEvent('recipes', (event) => {
 	let ores = [
 		"rankine:dolostone",

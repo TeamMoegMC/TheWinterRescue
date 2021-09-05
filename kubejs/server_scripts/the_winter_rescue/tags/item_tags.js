@@ -9,5 +9,6 @@ onEvent('item.tags', (event) => {
     event.add('the_winter_rescue:flux_block', "rankine:chalk")
     event.add('the_winter_rescue:flour', "stone_age:flour")
     event.add('the_winter_rescue:flour', "frostedheart:rye_flour")
-    event.add('forge:plates/bronze', "kubejs:bronze_plate")
+    event.add('forge:plates/bronze', "steampowered:bronze_sheet")
+    event.add('forge:plates/cast_iron', "kubejs:cast_iron_plate")
 });

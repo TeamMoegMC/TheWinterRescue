@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "arrival"
-	title: "降临的一天"
+	title: "冬季救援"
 	icon: {
 		id: "snowrealmagic:slab"
 		Count: 1b
