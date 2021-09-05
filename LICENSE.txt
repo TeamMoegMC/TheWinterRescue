@@ -1,0 +1,65 @@
+The Winter Rescue License 1.0
+
+This Modpack is distributed under a reasonably open license.
+You probably will not need to look at this if you just want to play singleplayer or hosting a private server.
+You probably want to have a read through this if you want to do something with it or hosting a public server other than just play.
+
+0. Definition
+- "The Mods" refers to
+  - all or part of the JAR files under the directory /mods
+
+- "The Winter Rescue" (or "The Modpack") refers to
+  - all or part of the files under the directory /scripts
+  - all or part of the files under the directory /kubejs
+  - all or part of the PNG files under the directory /packmenu
+  - all or part of the PNG files under the directory /modernloadingscreen
+
+- "Distribution" refers to
+  - making available binaries, assets, or source of the Modpack available from the original sources as part of your Modpack or otherwise.
+
+- "Featuring" refers to
+  - using The Winter Rescue in an environment where you do not distribute binaries, assets, or source. An example would be a YouTube or Bilibili gameplay or introduction video.
+
+- "Hosting Server" refers to
+  - running a Minecraft Server with The Winter Rescue
+
+- "TeamMoeg" (or "We")
+  - the creator of The Winter Rescue
+
+1. Principle
+- You are completely free and have the right to Use, Share and Adapt the Modpack. These rights can not be removed from you as long as follow the license terms.
+- The Modpack does not include The Mods. Distribute them at your own risk.
+
+2. General Clauses
+Clauses that apply in general to any of the uses that follow.
+- Personal Permission Clause
+  TeamMoeg will not give personal permission unless TeamMoeg knows the person asking or there's a really good reason for it, as giving personal permission implies endorsement. Asking for personal permission will likely just end up having you ignored or redirected back to this license.
+- Waive Clause
+  All restrictive clauses in this license can be ignored with personal permission. Read the above clause.
+- Extensive Clause
+  This license applies to The Winter Rescue, the The Winter Rescue website, the The Winter Rescue Wiki and all other code, assets or binaries found on this website or the github repository unless otherwise indicated.
+
+3. If you want to Distribute The Winter Rescue
+- Attribution Clause
+  You must give appropriate credit to TeamMoeg as the creator of The Winter Rescue or the parts of it you're using. If you do any alterations the fact that you do so should also be indicated. A link back is optional but it would be cool if you would do so.
+- Non-Monetary Clause
+  You may not charge for access to the distribution itself or gain money through it, this includes any type of inline advertisement, such as url shorteners (adf.ly or otherwise) or ads in your service slowing the download down. This includes restricting any amount of access behind a paywall.
+
+4. If you want to Host a Server with The Winter Rescue
+- No In-game Charging Clause
+  You may not charge for in-game goods that break gaming balance such as mod items, special abilities, or cosmetic features on a public server that runs the Modpack. By public server, we mean posting server ip address on a public accessible location directly or indirectly, either on or off the internet. Breaking this rule may result in we asking you or related administration to prevent your server ip from being public accessible until you stop the behavior.
+- Donation Clause
+  Raising money from donation (no in-game reward) is totally fine.
+- Private Server Clause
+  Non-public servers do not need to follow the first clause in this section.
+
+5. If you want to Feature The Winter Rescue
+- Thief Clause
+  You must not claim that you made The Winter Rescue. Giving appropriate credit to TeamMoeg as the creator of The Winter Rescue makes you cooler, but you don't have to do it if you don't want to.
+
+6. If you want to Use The Winter Rescue's Code or Assets
+Usage of code or assets falls under the Extensive Clause.
+- Attribution Clause
+  You must give appropriate credit to TeamMoeg as the creator of The Winter Rescue or the parts of it you're using. If you do any alterations the fact that you do so should also be indicated. A link back is optional but it would be cool if you would do so.
+- Copyleft Clause
+  Your project must be open source (have its source visible and allow for redistribution and modification) and include this clause in its license.

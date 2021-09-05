@@ -6,7 +6,7 @@
 	[worldgen.v2]
 		# 
 		#Prevents all worldgen added by Create from taking effect
-		disableWorldGen = false
+		disableWorldGen = true
 
 		[worldgen.v2.copper_ore]
 			# 

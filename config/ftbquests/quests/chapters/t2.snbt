@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 2
 	filename: "t2"
-	title: "中世纪人的一天"
+	title: "蒸汽驱动的火光"
 	icon: {
 		id: "rankine:cast_iron_alloy"
 		Count: 1b
@@ -13,13 +13,13 @@
 			}]
 		}
 	}
-	subtitle: ["这不是你熟悉的中世纪。"]
+	subtitle: ["这不是你熟悉的蒸汽时代。"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -7.5d
-			y: -0.5d
+			x: -13.0d
+			y: -5.0d
 			subtitle: "工作台"
 			description: ["这是? 工作台!"]
 			dependencies: ["75154C5A6E2F3257"]
@@ -33,8 +33,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -1.5d
+			x: -13.0d
+			y: -6.5d
 			subtitle: "安稳入眠"
 			dependencies: ["328D948C4C800873"]
 			hide: true
@@ -46,8 +46,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -0.5d
+			x: -13.0d
+			y: -3.5d
 			description: [
 				"不是石墨！"
 				"shift+右键打开gui。"
@@ -63,8 +63,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: -1.0d
+			x: -14.5d
+			y: -3.5d
 			description: ["耐火粘土的原料之一。"]
 			dependencies: ["7887EB905BAA7BEF"]
 			id: "060F482D9D3374F9"
@@ -75,8 +75,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 0.0d
+			x: -11.5d
+			y: -3.5d
 			description: ["耐火粘土的原料之一。"]
 			dependencies: ["7887EB905BAA7BEF"]
 			id: "48F3102B3AA99313"
@@ -87,8 +87,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: -0.5d
+			x: -13.0d
+			y: -2.0d
 			description: ["用于制作耐火砖。"]
 			dependencies: [
 				"060F482D9D3374F9"
@@ -114,8 +114,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: -0.5d
+			x: -11.5d
+			y: -5.0d
 			description: ["有了焦炉，就再也不需要一次次地布置木炭坑了！"]
 			dependencies: ["328D948C4C800873"]
 			hide: true
@@ -164,164 +164,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 2.5d
-			description: [
-				"一个简易的电动机。"
-				"中世纪人即将发起第二次工业革命，进入电力时代，好耶ヾ(✿ﾟ▽ﾟ)ノ"
-			]
-			dependencies: ["4CC5E16EFDE1368C"]
-			id: "25BF52DEABBBDA42"
-			tasks: [{
-				id: "7C489C8E868124AF"
-				type: "item"
-				item: "electrodynamics:motor"
-			}]
-		}
-		{
-			x: -9.0d
-			y: 2.5d
-			subtitle: "基础能源"
-			description: [
-				"高效的火力发电机。"
-				"不幸的是，它只能使用煤炭或木炭作为燃料。"
-			]
-			dependencies: ["25BF52DEABBBDA42"]
-			id: "53724926B909CCFD"
-			tasks: [{
-				id: "7047E6192D6B2D0C"
-				type: "item"
-				item: {
-					id: "electrodynamics:coalgenerator"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -10.5d
-			y: 4.0d
-			subtitle: "电线制作"
-			description: ["太棒了，你再也不用在制作线缆时被[刻意的游戏设计]吞掉一个铜了。"]
-			dependencies: ["53724926B909CCFD"]
-			id: "136F1BC55F848689"
-			tasks: [{
-				id: "198BA17770ABA44F"
-				type: "item"
-				item: {
-					id: "electrodynamics:wiremill"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -9.0d
-			y: 4.0d
-			subtitle: "热门话题"
-			description: [
-				"一个用电而非燃料产生热量的熔炉。"
-				"不过原版熔炉的合成已经无了，你莫得选择。"
-			]
-			dependencies: ["53724926B909CCFD"]
-			id: "330752D2B99DA3DE"
-			tasks: [{
-				id: "44936C11ADA9A9F9"
-				type: "item"
-				item: {
-					id: "electrodynamics:electricfurnace"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -7.5d
-			y: 4.0d
-			subtitle: "更细更碎"
-			description: ["用于矿物磨粉与一些其他的粉碎处理."]
-			dependencies: ["53724926B909CCFD"]
-			id: "71FFFC764C314F8F"
-			tasks: [{
-				id: "06321D4D02807F2E"
-				type: "item"
-				item: {
-					id: "electrodynamics:mineralgrinder"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -9.0d
-			y: 5.0d
-			subtitle: "绝缘材料"
-			description: ["最好的绝缘材料之一。"]
-			dependencies: ["330752D2B99DA3DE"]
-			id: "5E8387D35BEA124B"
-			tasks: [{
-				id: "1BC3FD59715D7296"
-				type: "item"
-				item: "electrodynamics:ceramicplate"
-			}]
-		}
-		{
-			x: -9.0d
-			y: 6.0d
-			subtitle: "电路板"
-			description: [
-				"最基础的电路板。"
-				"甚至不能玩扫雷。"
-			]
-			dependencies: ["5E8387D35BEA124B"]
-			hide: true
-			id: "629B7A97ADB00C26"
-			tasks: [{
-				id: "02229FECF7DFAAF7"
-				type: "item"
-				item: "electrodynamics:circuitbasic"
-			}]
-		}
-		{
-			x: -9.0d
-			y: 8.5d
-			subtitle: "GT5锻造锤"
-			description: [
-				""
-				"可以用来自动粉碎一些矿石，也可以当做一个能增产的自动砸板机。"
-			]
-			dependencies: ["173BC9C4E4BFB885"]
-			id: "15AD8F0235DA0938"
-			tasks: [{
-				id: "38DDE21FCBAB7139"
-				type: "item"
-				item: {
-					id: "electrodynamics:mineralcrusher"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -7.5d
-			y: 8.5d
-			subtitle: "氧化反应"
-			description: ["在氧化炉中使一些物质发生氧(xuan)化(xue)反应。"]
-			dependencies: ["173BC9C4E4BFB885"]
-			id: "2E1A1E083197C340"
-			tasks: [{
-				id: "03847F1443BD2D83"
-				type: "item"
-				item: {
-					id: "electrodynamics:oxidationfurnace"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -6.0d
-			y: 0.5d
+			x: -14.5d
+			y: -6.5d
 			dependencies: ["678491900C7F03F2"]
 			id: "4D0ECD01E0CC7C8C"
 			tasks: [{
@@ -331,8 +175,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 0.5d
+			x: -14.5d
+			y: -5.0d
 			dependencies: ["328D948C4C800873"]
 			hide: true
 			id: "678491900C7F03F2"
@@ -343,24 +187,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 7.0d
-			subtitle: "升压"
-			dependencies: ["629B7A97ADB00C26"]
-			id: "173BC9C4E4BFB885"
-			tasks: [{
-				id: "4C770B16F573F74E"
-				type: "item"
-				item: {
-					id: "electrodynamics:upgradetransformer"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -11.5d
-			y: 1.5d
+			x: -14.5d
+			y: 1.0d
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "401439E8C1AA7A0A"
 			tasks: [{
@@ -370,223 +198,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 1.5d
-			dependencies: [
-				"401439E8C1AA7A0A"
-				"53724926B909CCFD"
-			]
-			id: "077435FC5828EDE7"
-			tasks: [{
-				id: "55556ADC451E32EB"
-				type: "item"
-				item: {
-					id: "electrodynamics:batterybox"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -10.5d
-			y: 6.0d
-			subtitle: "发酵"
-			dependencies: ["629B7A97ADB00C26"]
-			id: "12A5692086DF06C0"
-			tasks: [{
-				id: "45E4193E95C88F09"
-				type: "item"
-				item: {
-					id: "electrodynamics:fermentationplant"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -10.5d
-			y: 7.0d
-			subtitle: "使用清洁能源"
-			dependencies: ["12A5692086DF06C0"]
-			id: "35C6C9A6C29C0D23"
-			tasks: [{
-				id: "4E5267638C65CDE2"
-				type: "item"
-				item: {
-					id: "electrodynamics:combustionchamber"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -6.0d
-			y: 7.0d
-			subtitle: "搅拌机"
-			dependencies: ["7732502BD1133C2A"]
-			id: "4444676595F1282D"
-			tasks: [{
-				id: "235081AC20C21183"
-				type: "item"
-				item: {
-					id: "electrodynamics:chemicalmixer"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -7.5d
-			y: 7.0d
-			subtitle: "电解"
-			dependencies: ["173BC9C4E4BFB885"]
-			id: "7732502BD1133C2A"
-			tasks: [{
-				id: "0A42C08AE2B6644A"
-				type: "item"
-				item: "frostedheart:electrolyzer_block"
-			}]
-		}
-		{
-			x: -6.0d
-			y: 9.0d
-			subtitle: "耐高温"
-			dependencies: [
-				"2E1A1E083197C340"
-				"7349CA66B2B80D4F"
-			]
-			id: "6738A3C34A872FED"
-			tasks: [{
-				id: "4FDFAF777C766C70"
-				type: "item"
-				item: "rankine:high_refractory_brick"
-			}]
-		}
-		{
-			x: -4.5d
-			y: 7.0d
-			subtitle: "结晶"
-			dependencies: ["4444676595F1282D"]
-			id: "7B6D64D2FD2D72CA"
-			tasks: [{
-				id: "5A47458C05EA78EA"
-				type: "item"
-				item: {
-					id: "electrodynamics:chemicalcrystallizer"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -4.5d
-			y: 8.5d
-			subtitle: "耐火原料"
-			dependencies: ["7B6D64D2FD2D72CA"]
-			id: "7349CA66B2B80D4F"
-			tasks: [{
-				id: "6980C83B7E465E02"
-				type: "item"
-				item: "kubejs:magnesium_dust"
-			}]
-		}
-		{
-			title: "炼钢坩埚"
-			icon: "rankine:high_refractory_bricks"
-			x: -6.0d
-			y: 10.0d
-			subtitle: "更热门的话题"
-			description: [
-				"&6炼钢坩埚是比原始高炉更加先进的冶炼设备."
-				"&6需要使用焦煤进行加热."
-				"搭建: 从上到下"
-				"HHH HHH BBB BBB  H=高耐火砖"
-				"H H H H  BCB BBB  B=燃烧室"
-				"HHH HHH BBB BBB  C=燃烧室核心"
-			]
-			dependencies: ["6738A3C34A872FED"]
-			id: "19038BB5A9E42055"
-			tasks: [
-				{
-					id: "5FBCCD9BFBA8FFA2"
-					type: "item"
-					item: "frostedheart:burning_chamber_core"
-				}
-				{
-					id: "3E96AF246CEFC59E"
-					type: "item"
-					item: "frostedheart:burning_chamber"
-				}
-				{
-					id: "1C413775D736BB81"
-					type: "item"
-					item: "rankine:high_refractory_bricks"
-				}
-			]
-		}
-		{
-			x: -7.5d
-			y: 6.0d
-			subtitle: "抽水机"
-			dependencies: ["173BC9C4E4BFB885"]
-			id: "7148ED8B9865ECE6"
-			tasks: [{
-				id: "7F87ED1CFD12A868"
-				type: "item"
-				item: {
-					id: "electrodynamics:electricpump"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			title: "黑色金属-钢"
-			icon: "electrodynamics:ingotsteel"
-			x: -6.0d
-			y: 11.0d
-			subtitle: "坚硬无比"
-			description: ["进行大规模工业化的基础."]
-			dependencies: ["19038BB5A9E42055"]
-			hide: true
-			id: "0019852CD6EC0354"
-			tasks: [{
-				id: "147D66FD5DDDF718"
-				type: "item"
-				title: "Any #forge:ingots/steel"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:ingots/steel"
-					}
-				}
-			}]
-			rewards: [{
-				id: "2EC2C206211EF6F5"
-				type: "item"
-				item: "rankine:packaged_tool"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 11.0d
-			subtitle: "洗洗更健康"
-			dependencies: ["0019852CD6EC0354"]
-			id: "0561A7DAC61F7B61"
-			tasks: [{
-				id: "2DABC74999388ED0"
-				type: "item"
-				item: {
-					id: "electrodynamics:mineralwasher"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: -6.0d
-			y: -1.5d
+			x: -11.5d
+			y: -6.5d
 			subtitle: "随身携带"
 			dependencies: ["328D948C4C800873"]
 			id: "6E83E2133A978D34"
@@ -594,6 +207,302 @@
 				id: "087679BD11ADFB69"
 				type: "item"
 				item: "comforts:sleeping_bag_white"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 4.0d
+			dependencies: ["404CFF89CCFE9D6B"]
+			id: "3E8F565DE61309B2"
+			tasks: [{
+				id: "38B838F0D0E4B1E1"
+				type: "item"
+				item: "steampowered:bronze_cogwheel"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 2.5d
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "404CFF89CCFE9D6B"
+			tasks: [{
+				id: "5A7562201B27BBF3"
+				type: "item"
+				item: "create:shaft"
+			}]
+		}
+		{
+			x: -14.5d
+			y: 5.5d
+			dependencies: ["7612A96FFEFC5635"]
+			id: "32A497C69C641D2B"
+			tasks: [{
+				id: "3B84D2B7F9F7E65F"
+				type: "item"
+				item: "steampowered:bronze_steam_engine"
+			}]
+		}
+		{
+			x: -17.5d
+			y: 2.5d
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "0FEC22A5C56936DC"
+			tasks: [{
+				id: "0A9D080781143545"
+				type: "item"
+				item: "steampowered:cast_iron_steam_engine"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["3E8F565DE61309B2"]
+			id: "0F8B1303FEF36BD1"
+			tasks: [{
+				id: "0D7E748C37FB3E57"
+				type: "item"
+				item: "steampowered:bronze_flywheel"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 2.5d
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "0972243D44A0CF46"
+			tasks: [{
+				id: "410F9EB59C1233FA"
+				type: "item"
+				item: "steampowered:cast_iron_flywheel"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 7.0d
+			dependencies: [
+				"32A497C69C641D2B"
+				"0F8B1303FEF36BD1"
+				"197308226CAE52C4"
+				"17F033FB5ACAACFB"
+			]
+			id: "1F2BD4A72596B287"
+			tasks: [{
+				id: "48D033DB353BBA5A"
+				type: "item"
+				item: "steampowered:alternator"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			dependencies: ["0F8B1303FEF36BD1"]
+			id: "29DCBBB54EE90E51"
+			tasks: [{
+				id: "5388D141B1BE4837"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: -14.5d
+			y: 2.5d
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "7EDDAD2D1E2B0613"
+			tasks: [{
+				id: "14A8C9A9E802E04B"
+				type: "item"
+				item: "steampowered:cast_iron_cogwheel"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.5d
+			dependencies: ["6000F43C135FC068"]
+			id: "4600CF7553C26ED0"
+			tasks: [{
+				id: "4E1FECD14F37C151"
+				type: "item"
+				item: "create:millstone"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 4.0d
+			dependencies: [
+				"0F8B1303FEF36BD1"
+				"17F033FB5ACAACFB"
+			]
+			id: "064ECF25B9B8962B"
+			tasks: [{
+				id: "31772825C65C597E"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["0F8B1303FEF36BD1"]
+			id: "5845439CF721309F"
+			tasks: [{
+				id: "3C9C4DA2CDEAEBEA"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.0d
+			dependencies: ["0F8B1303FEF36BD1"]
+			id: "3549A50510878505"
+			tasks: [{
+				id: "73AFD699A6DA7ADC"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "3CC2245A281AABC1"
+			tasks: [{
+				id: "35B67DF507A4055F"
+				type: "item"
+				item: "create:basin"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "4548F432A872DA92"
+			tasks: [{
+				id: "4A7F23108B9EC90A"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "15B365E3F3EAFE79"
+			tasks: [{
+				id: "49FB5CCF0097B1A4"
+				type: "item"
+				item: "create:depot"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.5d
+			dependencies: ["404CFF89CCFE9D6B"]
+			id: "6000F43C135FC068"
+			tasks: [{
+				id: "47F0E555BA9D0339"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+		}
+		{
+			title: "青铜锅炉"
+			x: -14.5d
+			y: 4.0d
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "7612A96FFEFC5635"
+			tasks: [
+				{
+					id: "175C5DFDF286819B"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "the_winter_rescue:bronze_burner"
+						}
+					}
+				}
+				{
+					id: "33ED87E26CEA2A1B"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "the_winter_rescue:bronze_boiler"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 4.0d
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "17C359DCF058E698"
+			tasks: [{
+				id: "26C5FFE011F0C78A"
+				type: "item"
+				item: "create:fluid_pipe"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 5.5d
+			dependencies: [
+				"3E8F565DE61309B2"
+				"17C359DCF058E698"
+			]
+			id: "197308226CAE52C4"
+			tasks: [{
+				id: "50543ED5E6259184"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 4.0d
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "093D3F54B92EDFEA"
+			tasks: [{
+				id: "6B208D6EE86052FB"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 8.5d
+			dependencies: ["1F2BD4A72596B287"]
+			id: "4926C4062339E018"
+			tasks: [{
+				id: "6E00292B2D9F43ED"
+				type: "item"
+				item: "immersiveengineering:connector_lv"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 10.0d
+			dependencies: ["1F2BD4A72596B287"]
+			id: "5B8BA38FF8C93A1A"
+			tasks: [{
+				id: "097290DF7B43D5D8"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 7.0d
+			dependencies: ["0F8B1303FEF36BD1"]
+			id: "17F033FB5ACAACFB"
+			tasks: [{
+				id: "760B8D8FBB365594"
+				type: "item"
+				item: "create:mechanical_crafter"
 			}]
 		}
 	]

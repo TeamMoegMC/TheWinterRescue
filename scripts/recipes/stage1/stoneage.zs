@@ -9,12 +9,13 @@ campfire.addRecipe("torch",<item:minecraft:torch>,<item:stone_age:unlit_torch>,0
 <recipetype:stone_age:tree_stump>.addRecipe("copper_plate", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:immersiveengineering:ingot_copper>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("copper_plate2", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:rankine:copper_ingot>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("copper_plate3", <item:immersiveengineering:plate_copper>,<tag:items:ages_api:hammers>, <item:create:copper_ingot>*2, 3);
-<recipetype:stone_age:tree_stump>.addRecipe("bronze_plate", <item:kubejs:bronze_plate>,<tag:items:ages_api:hammers>, <item:rankine:bronze_alloy>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("bronze_plate", <item:steampowered:bronze_sheet>,<tag:items:ages_api:hammers>, <item:rankine:bronze_alloy>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("brass_plate", <item:create:brass_sheet>,<tag:items:ages_api:hammers>, <item:rankine:brass_alloy>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("plate_iron", <item:immersiveengineering:plate_iron>,<tag:items:ages_api:hammers>, <item:minecraft:iron_ingot>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("cast_iron_plate", <item:kubejs:cast_iron_plate>,<tag:items:ages_api:hammers>, <item:rankine:cast_iron_alloy>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("battery_alloy_plate", <item:kubejs:battery_alloy_plate>,<tag:items:ages_api:hammers>, <item:kubejs:battery_alloy>*2, 3);
 
-<recipetype:stone_age:tree_stump>.addRecipe("flux", <item:kubejs:flux>*2, <tag:items:ages_api:hammers>, <tag:items:the_winter_rescue:flux_itemblock>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("flux", <item:kubejs:flux>*2, <tag:items:ages_api:hammers>, <tag:items:the_winter_rescue:flux_block>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("al2o3", <item:rankine:alumina>, <tag:items:ages_api:hammers>, <item:rankine:bauxite_ore>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("redstone", <item:minecraft:redstone>*2, <tag:items:ages_api:hammers>, <item:rankine:cinnabar_ore>, 2);
 //planks
@@ -71,9 +72,9 @@ flintRecipe("millstone",<item:stone_age:millstone>,[
 ],<item:stone_age:flint_knife>);
 
 flintRecipe("main_bloomery",<item:charcoal_pit:main_bloomery>,[
-  [<item:rankine:mortar>,<item:kubejs:bronze_plate>,<item:rankine:mortar>],
-  [<item:kubejs:bronze_plate>,<item:charcoal_pit:sandy_brick>,<item:kubejs:bronze_plate>],
-  [<item:rankine:mortar>,<item:kubejs:bronze_plate>,<item:rankine:mortar>]
+  [<item:rankine:mortar>,<item:steampowered:bronze_sheet>,<item:rankine:mortar>],
+  [<item:steampowered:bronze_sheet>,<item:charcoal_pit:sandy_brick>,<item:steampowered:bronze_sheet>],
+  [<item:rankine:mortar>,<item:steampowered:bronze_sheet>,<item:rankine:mortar>]
 ],<item:stone_age:flint_knife>);
 
 

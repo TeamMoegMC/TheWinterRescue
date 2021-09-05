@@ -236,11 +236,7 @@
 			tasks: [{
 				id: "1BDD85C0D0108B04"
 				type: "item"
-				item: {
-					id: "electrodynamics:orevanadinite"
-					Count: 1b
-					tag: { }
-				}
+				item: "rankine:vanadinite_ore"
 			}]
 		}
 		{

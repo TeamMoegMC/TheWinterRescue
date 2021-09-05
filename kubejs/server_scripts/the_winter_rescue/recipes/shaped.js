@@ -20,12 +20,55 @@ onEvent('recipes', (event) => {
             B: 'minecraft:flint',
             C: '#forge:string',
         }),
+        shapedRecipe('elevatorid:elevator_white', ['AAA', 'BBB', 'AAA'], {
+            A: '#forge:plates/steel',
+            B: '#minecraft:wool',
+        }),
+        shapedRecipe('rankine:synthetic_leather', ['AAA', 'BBB', 'AAA'], {
+            A: 'rankine:pulp',
+            B: '#forge:string',
+        }),
+        shapedRecipe('create:belt_connector', ['AAA', ' B ', 'AAA'], {
+            A: '#forge:leather',
+            B: '#forge:wires/copper',
+        }),
+        shapedRecipe('6x create:fluid_pipe', ['AAA', 'AAA'], {
+            A: '#forge:plates/bronze',
+        }),
+        shapedRecipe('extendedcrafting:advanced_table', ['AAA', 'BCB', 'AAA'], {
+            A: '#forge:plates/cast_iron',
+            B: 'rankine:cast_iron_support',
+            C: 'minecraft:crafting_table',
+        }),
+        shapedRecipe('extendedcrafting:crafting_core', ['ECE', 'BAB', 'DDD'], {
+            A: '#forge:storage_blocks/cast_iron',
+            B: 'immersiveengineering:capacitor_lv',
+            C: 'minecraft:crafting_table',
+            D: '#forge:plates/cast_iron',
+            E: 'steampowered:cast_iron_cogwheel'
+        }),
+        shapedRecipe('extendedcrafting:pedestal', ['DDD', 'EBE', 'DCD'], {
+            B: 'rankine:cast_iron_support',
+            D: '#forge:plates/cast_iron',
+            E: 'steampowered:cast_iron_cogwheel',
+            C: 'steampowered:cast_iron_large_cogwheel'
+        }),
+        shapedRecipe('extendedcrafting:handheld_table', [' AC', ' AA', 'A  '], {
+            A: '#forge:rods/cast_iron',
+            C: 'minecraft:crafting_table',
+        }),
     ]
 
     var newRecipes = [
-        // shapedRecipe(Item.of('custommachinery:custom_machine_item', {machine:"the_winter_rescue:boiler"}), [' D ', 'D D', 'D D'], {
-        //     D: '#forge:plates/bronze'
-        // })
+        shapedRecipe('create:belt_connector', ['AAA', 'BBB', 'AAA'], {
+            A: '#forge:leather',
+            B: '#forge:string',
+        }),
+        shapedRecipe('create:precision_mechanism', ['CAC', 'BCB', 'CAC'], {
+            A: '#forge:plates/brass',
+            B: 'create:electron_tube',
+            C: 'create:shaft',
+        })
     ]
 
     /**

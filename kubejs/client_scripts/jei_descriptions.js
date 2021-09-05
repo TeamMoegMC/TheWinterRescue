@@ -15,7 +15,7 @@ onEvent('jei.information', (event) => {
     serverItemsToHide.forEach((item) => {
         event.add(
             item,
-            "此物品已被禁用，如果你身上有，请向作者反馈：https://github.com/TeamMoegMC/The-Winter-Rescue/issues"
+            "此物品已被暂时禁用"
         );
     });
 });

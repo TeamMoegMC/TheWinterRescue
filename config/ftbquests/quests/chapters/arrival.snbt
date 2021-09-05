@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "arrival"
-	title: "降临的一天"
+	title: "冬季救援"
 	icon: {
 		id: "snowrealmagic:slab"
 		Count: 1b
@@ -65,6 +65,7 @@
 			icon: "advancedrocketry:rocketmotor"
 			x: -6.5d
 			y: -4.5d
+			subtitle: "我在哪里？"
 			description: ["这次驾驶的飞船是空间站为数不多还能正常运行的太空梭了。要赶快拿到物资才行，否则在这种鬼天气里，很快就会冻死的！"]
 			dependencies: ["6D674495764B16D4"]
 			id: "1872BFF557F93D6C"
@@ -79,6 +80,7 @@
 			x: -4.5d
 			y: -4.5d
 			shape: "circle"
+			subtitle: "损坏的飞船"
 			description: ["飞船被厚厚的冰雪所覆盖了，不过尾部的余热化开了舱门。你耐心的查看起了最重要的物品仓。"]
 			dependencies: ["1872BFF557F93D6C"]
 			id: "16F87B8C56498566"
@@ -93,6 +95,7 @@
 			x: -4.5d
 			y: -6.0d
 			shape: "hexagon"
+			subtitle: "收获满满？"
 			description: ["这里存放着最重要的初始物资：纯净水，食物，以及衣服。抓紧时间装备好他们吧。"]
 			dependencies: ["16F87B8C56498566"]
 			id: "370CFF9A943D5AFA"
@@ -293,6 +296,7 @@
 			x: -4.5d
 			y: -3.0d
 			shape: "hexagon"
+			subtitle: "还好我偷偷藏了不少东西"
 			description: ["个人物品带的不多，这个卫星电话没电了，要想办法充上电才行。"]
 			dependencies: ["16F87B8C56498566"]
 			id: "334E6EC3CFB1AB2B"
@@ -329,6 +333,7 @@
 			icon: "minecraft:writable_book"
 			x: -2.5d
 			y: -4.5d
+			subtitle: "活下去！"
 			description: [
 				"你拿出了贴身的笔记本，在无数前辈的经验笔记后写下了自己的名字，独自一人踏上了这无尽的寒冬，你的目的只有一个“活下去！”。"
 				"“有希望的话，大概什么都会好起来吧。”"

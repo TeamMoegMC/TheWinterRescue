@@ -2,9 +2,9 @@ placeSnowInBlock = true
 snowGravity = true
 snowAlwaysReplaceable = true
 #Unavailable if TerraForged mod installed
-snowAccumulationDuringSnowstorm = true
+snowAccumulationDuringSnowstorm = false
 #Unavailable if TerraForged mod installed
-snowAccumulationDuringSnowfall = true
+snowAccumulationDuringSnowfall = false
 #9 = Unlimited
 #Range: 1 ~ 9
 snowAccumulationMaxLayers = 8

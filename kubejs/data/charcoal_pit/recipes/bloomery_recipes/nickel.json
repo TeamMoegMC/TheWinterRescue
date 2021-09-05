@@ -1,7 +1,7 @@
 {
   "type": "charcoal_pit:bloomery",
   "input": {
-    "item": "rankine:pentlandite_ore"
+    "item": "rankine:pentlandite"
   },
   "output": {
     "item": "immersiveengineering:ingot_nickel"

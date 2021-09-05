@@ -1,0 +1,15 @@
+{
+  "type": "charcoal_pit:bloomery",
+  "input": {
+    "item": "rankine:magnetite"
+  },
+  "output": {
+    "tag": "forge:ingots/iron"
+  },
+  "fail": {
+    "item": "charcoal_pit:bloom_fail"
+  },
+  "cool": {
+    "item": "charcoal_pit:bloom_cool"
+  }
+}

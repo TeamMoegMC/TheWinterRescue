@@ -1,6 +1,6 @@
 
 <h1 align="center">The Winter Rescue<br>
-	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE"><img src="https://img.shields.io/badge/GPLv3%20license-brightgreen?style=flat-square" alt="License"></a>
+	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE.txt"><img src="https://img.shields.io/badge/%20license-brightgreen?style=flat-square" alt="License"></a>
 	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/issues"><img src="https://img.shields.io/github/issues/TeamMoegMC/The-Winter-Rescue?style=flat-square" alt="Issues"></a>
 	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/releases"><img src="https://img.shields.io/github/tag/TeamMoegMC/The-Winter-Rescue?style=flat-square" alt="Tags"></a>
 	<a href="https://discord.gg/BWn6E94"><img src="https://img.shields.io/badge/discord-chat%20with%20players-pink?style=flat-square" alt="Discord"></a>
@@ -14,7 +14,7 @@
 
 - This is a Minecraft 1.16.5 Survival, Technology, and Adventure Modpack created by TeamMoeg
 
-- This Modpack is licensed under GPLv3. 
+- This Modpack is licensed under [The Winter Rescue License](https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE.txt). 
 
 ## Download Latest
 
@@ -26,6 +26,7 @@
 - [Official Wiki](https://wiki.teammoeg.com/)
 - [Official Forum](https://forum.teammoeg.com/)
 - [Official Discord Chat](https://discord.gg/BWn6E94)
+- [Official Kaiheila Chat](https://kaihei.co/JLpNWi)
 - QQ Group Chat Number: TBA
 
 ## Like Our Modpack?
@@ -35,7 +36,7 @@
 <br><br><br>
 
 <h1 align="center">冬日营救<br>
-	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE"><img src="https://img.shields.io/badge/GPLv3%20license-brightgreen?style=flat-square" alt="License"></a>
+	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE.txt"><img src="https://img.shields.io/badge/TWR%20license-brightgreen?style=flat-square" alt="License"></a>
 	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/issues"><img src="https://img.shields.io/github/issues/TeamMoegMC/The-Winter-Rescue?style=flat-square" alt="Issues"></a>
 	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/releases"><img src="https://img.shields.io/github/tag/TeamMoegMC/The-Winter-Rescue?style=flat-square" alt="Tags"></a>
 	<a href="https://discord.gg/BWn6E94"><img src="https://img.shields.io/badge/discord-chat%20with%20players-pink?style=flat-square" alt="Discord"></a>
@@ -49,9 +50,9 @@
 
 - 一个由 TeamMoeg 制作的 Minecraft 1.16.5 科技生存冒险向整合包
 
-- 本整合包根据 GPLv3 开源
+- 本整合包根据 [冬季救援协议](https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE_CN.txt) 开源
 
-## 下载
+## 下载/相关发布贴
 
 [MCBBS](https://www.mcbbs.net/thread-1227167-1-1.html)
 [CurseForge](https://curseforge.com/minecraft/modpacks/the-winter-resuce)
@@ -61,6 +62,7 @@
 - [官方WIKI](https://wiki.teammoeg.com/)
 - [官方论坛](https://forum.teammoeg.com/)
 - [官方Discord](https://discord.gg/BWn6E94)
+- [官方开黑啦](https://kaihei.co/JLpNWi)
 - 官方QQ交流群: 敬请期待
 
 ## 支持我们

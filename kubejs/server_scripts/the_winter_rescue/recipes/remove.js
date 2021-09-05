@@ -1,20 +1,6 @@
+//priority = 800
+
 onEvent('recipes', (event) => {
-    // Some examples
-    // event.remove({ type: 'create:cutting', input: '#minecraft:logs' });
-    // event.remove({ type: 'immersiveengineering:sawmill', input: '#minecraft:logs' });
-    //
-    // event.remove({ type: 'minecraft:smelting', output: 'minecraft:obsidian' });
-    // event.remove({ type: 'minecraft:blasting', output: 'minecraft:obsidian' });
-    //
-    // event.remove({ type: 'minecraft:smelting', input: '#forge:ores' });
-    // event.remove({ type: 'minecraft:blasting', input: '#forge:ores' });
-    //
-    // event.remove({ type: 'minecraft:smelting', input: '#forge:dusts' });
-    // event.remove({ type: 'minecraft:blasting', input: '#forge:dusts' });
-    //
-    // event.remove({ type: 'industrialforegoing:fluid_extractor' });
-    //
-    // event.remove({ mod: 'theoneprobe' });
 	let ores = [
 		"rankine:dolostone",
 		"rankine:magnesite_ore",
@@ -34,6 +20,7 @@ onEvent('recipes', (event) => {
 		"rankine:petalite_ore",
 		"rankine:tufa_limestone"
 	]
+
 	ores.forEach((ore) => {
         event.remove({ type: 'rankine:crushing', input: ore})
     });
@@ -42,4 +29,32 @@ onEvent('recipes', (event) => {
     event.remove({ type: 'rankine:alloying', output: '#forge:ingots/steel'})
     event.remove({ input: 'notreepunching:plant_string'})
     event.remove({ type: 'rankine:beehive_oven'})
+	event.remove({ input: 'rankine:element_transmuter'})
+	event.remove({ mod: 'advgenerators'});
+	event.remove({ mod: 'advancedrocketry'});
+	event.remove({ mod: 'libvulpes'});
+	event.remove({ mod: 'survive'});
+	event.remove({ mod: 'theoneprobe'});
+	event.remove({ mod: 'extendedcrafting'});
+	event.remove({ mod: 'immersivepetroleum'});
+	event.remove({ input: 'minecraft:sugar_cane', output: 'minecraft:paper'});
+
+	disabledItems.forEach((disabledItem) => {
+		event.remove({output: disabledItem });
+	});
+
+	let removeOnly = [
+		'storagedrawers:emerald_storage_upgrade',
+		'storagedrawers:diamond_storage_upgrade',
+		'storagedrawers:gold_storage_upgrade',
+		'create:brass_ingot',
+		'create:zinc_ingot',
+		'create:copper_ingot',
+		'create:andesite_alloy',
+		'#create:crushed_ores'
+	]
+
+	removeOnly.forEach((removeItem) => {
+		event.remove({output: removeItem})
+	});
 });

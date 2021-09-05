@@ -1,10 +1,3 @@
-
-craftingTable.removeRecipe(<item:immersiveengineering:drillhead_iron>);
-craftingTable.removeRecipe(<item:immersiveengineering:drillhead_steel>);
-craftingTable.removeRecipe(<item:immersiveengineering:circuit_table>);
-craftingTable.removeRecipe(<item:immersivepetroleum:speedboat>);
-craftingTable.removeRecipe(<item:immersiveengineering:sample_drill>);
-
 recipeShaped("small_tree_cutter",<item:engineersdecor:small_tree_cutter>,[
   [<tag:items:forge:plates/steel>,<item:immersiveengineering:circuit_board>,<tag:items:forge:plates/steel>],
   [<tag:items:forge:plates/steel>,<item:immersiveengineering:light_engineering>,<item:immersiveengineering:sawblade>],
@@ -60,6 +53,7 @@ craftingTable.addShaped("radiator",<item:immersiveengineering:radiator>*2,[
   [<tag:items:forge:plates/electrum>,<item:immersiveengineering:coil_lv>,<tag:items:forge:plates/electrum>],
   [<item:immersiveengineering:sheetmetal_steel>,<tag:items:forge:plates/electrum>,<item:immersiveengineering:sheetmetal_steel>]
 ]);
+
 //<recipetype:immersiveengineering:mixer>.addRecipe("sulphuric_acid",<tag:fluids:minecraft:water>, [<item:electrodynamics:oxidetrisulfur>], 4000, <fluid:electrodynamics:fluidsulfuricacid>, 2000);
 //<recipetype:immersiveengineering:mixer>.addRecipe("fluidsulfuricacid",<tag:fluids:the_winter_rescue:fluidsulfuricacid>, [<item:minecraft:glowstone_dust>], 4000, <fluid:kubejs:hydrogen_fluoride>, 1000);
 //<recipetype:immersiveengineering:mixer>.addRecipe("hydrogen_fluoride",<tag:fluids:the_winter_rescue:hydrogen_fluoride>, [<item:kubejs:aluminium_oxide_dust>], 4000, <fluid:kubejs:fluoroaluminic_acid>, 1000);

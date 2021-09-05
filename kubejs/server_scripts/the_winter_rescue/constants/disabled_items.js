@@ -23,12 +23,6 @@ const disabledItems = [
     'immersiveengineering:sorter',
     'immersiveengineering:fluid_sorter',
 
-    // ele machines
-    'electrodynamics:energizedalloyer',
-
-    // ele items
-    'electrodynamics:coalcoke',
-
     // rankine items
     'rankine:element_transmuter',
     'rankine:up_transmuter',
@@ -42,12 +36,12 @@ const disabledItems = [
     'rankine:alloy_gear',
     'rankine:totem_of_cobbling',
     'rankine:element_indexer',
-    'rankine:power_cell',
-    'rankine:power_cell_2',
-    'rankine:power_cell_3',
-    'rankine:power_cell_4',
-    'rankine:power_cell_5',
-    'rankine:power_cell_6',
+    // 'rankine:power_cell',
+    // 'rankine:power_cell_2',
+    // 'rankine:power_cell_3',
+    // 'rankine:power_cell_4',
+    // 'rankine:power_cell_5',
+    // 'rankine:power_cell_6',
     'rankine:steel_gold_pan',
 
 
@@ -68,5 +62,26 @@ const disabledItems = [
     'rankine:sediment_fan',
     'rankine:rare_earth_electromagnet',
     'rankine:alnico_electromagnet',
-    'rankine:charcoal_pit'
+    'rankine:charcoal_pit',
+
+    // create
+    'create:water_wheel',
+    'create:cogwheel',
+    'create:large_cogwheel',
+    'create:wand_of_symmetry',
+    'create:mechanical_piston',
+    'create:sticky_mechanical_piston',
+    'create:piston_extension_pole',
+    'create:gantry_carriage',
+    'create:gantry_shaft',
+    'create:windmill_bearing',
+    'create:mechanical_bearing',
+    'create:clockwork_bearing',
+    'create:rope_pulley',
+    'create:cart_assembly',
+    'create:sticker',
+    'create:mechanical_drill',
+    'create:flywheel',
+    'create:furnace_engine',
+
 ]

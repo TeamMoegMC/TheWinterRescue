@@ -1,0 +1,47 @@
+
+[flywheel]
+	#Range: 0 ~ 1048576
+	steelFlywheelSteamConsumptionPerTick = 72
+	#Range: 0 ~ 8192
+	castIronFlywheelCapacity = 64
+	#Range: 0 ~ 8192
+	bronzeFlywheelSteamConsumptionPerTick = 24
+	#Range: 0 ~ 8192
+	bronzeFlywheelCapacity = 32
+	#Range: 0 ~ 1048576
+	castIronFlywheelSteamStorage = 64000
+	#Range: 0 ~ 8192
+	steelFlywheelCapacity = 96
+	#Range: 0 ~ 8192
+	castIronFlywheelSpeed = 32
+	#Range: 0 ~ 8192
+	bronzeFlywheelSpeed = 32
+	#Range: 0 ~ 1048576
+	bronzeFlywheelSteamStorage = 32000
+	#Range: 0 ~ 1048576
+	steelFlywheelSteamStorage = 96000
+	#Range: 0 ~ 8192
+	castIronFlywheelSteamConsumptionPerTick = 48
+	#Range: 0 ~ 8192
+	steelFlywheelSpeed = 32
+
+[alternator]
+	#Range: 0 ~ 8192
+	alternatorFeMaxOut = 256
+	#Range: 0.0 ~ 1.0
+	alternatorEfficiency = 0.75
+	#Range: 0 ~ 8192
+	alternatorFeMaxIn = 0
+	#Range: 0 ~ 8192
+	alternatorImpact = 16
+	#Range: 0 ~ 8192
+	alternatorFeCapacity = 2048
+
+[cogwheel]
+	#Range: 0.0 ~ 1.0
+	castIronCogwheelImpact = 0.05
+	#Range: 0.0 ~ 1.0
+	bronzeCogwheelImpact = 0.1
+	#Range: 0.0 ~ 1.0
+	steelCogwheelImpact = 0.02
+

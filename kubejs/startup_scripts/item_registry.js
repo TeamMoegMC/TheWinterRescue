@@ -2,27 +2,58 @@ console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Items Registered!')
 
 onEvent('item.registry', event => {
 	const generalItems = [
-		"raw_native_copper",
-		"raw_native_tin",
-		"raw_silver",
-		"raw_gold"
+		'flux',
+		'impure_alumina_dust',
+		'aluminium_oxide_dust',
+		'kaolin_dust',
+		'tungsten_steel',
+		'constantan_coil',
+		'constantan_wire',
+		'battery_alloy',
+		'magnesium_dust',
+		'magnesium_oxide',
+		'frozen_auroch_meat',
+		'frozen_beef',
+		'frozen_boar_meat',
+		'frozen_chicken',
+		'frozen_fat',
+		'frozen_fowl_meat',
+		'frozen_mammoth_meat',
+		'frozen_mouflon_meat',
+		'frozen_mutton',
+		'frozen_porkchop',
+		'frozen_rhino_meat',
+		'frozen_tiger_meat',
+		'frozen_venison',
+		'frozen_rabbit',
+		'frozen_seeds_blackwheat',
+		'frozen_seeds_wheat',
+		'frozen_seeds_melon',
+		'frozen_seeds_pumpkin',
+		'frozen_seeds_beetroots',
+		'frozen_seeds_unknown'
 	];
 
-	let nativeOres = [
-		"ore_native_copper",
-		"ore_native_tin",
-		"ore_silver",
-		"ore_gold"
+	let rawOres = [
+		"native_copper",
+		"native_tin",
+		"silver",
+		"gold",
+		"pyrite",
+		"bauxite",
+		"halite"
 	]
 
 	let ores = [
+		"ore_native_copper",
+		"ore_native_tin",
+		"ore_silver",
+		"ore_gold",
 		"ore_magnetite",
 		"ore_pyrite",
 		"ore_malachite",
 		"ore_pentlandite",
 		"ore_cassiterite",
-		"ore_bituminous",
-		"ore_lignite",
 		"ore_bauxite",
 		"ore_stibnite",
 		"ore_cinnabar",
@@ -40,60 +71,25 @@ onEvent('item.registry', event => {
 	
 	let plates = [
 		"cast_iron",
-		"bronze",
 		"battery_alloy",
 		"tungsten_steel"
 	]
+
+	rawOres.forEach((ore) => {
+		generalItems.push(ore);
+	});
 	
 	ores.forEach((ore) => {
 		oreStates.forEach((state) => {
 			generalItems.push(`${state}_${ore}`);
 		});
 	});
-
-	nativeOres.forEach((ore) => {
-		oreStates.forEach((state) => {
-			generalItems.push(`${state}_${ore}`);
-		});
-		generalItems.push(`raw_${ore}`)
-	});
 	
 	plates.forEach((plate) => {
-			generalItems.push(`${plate}_plate`);
-		});
+		generalItems.push(`${plate}_plate`);
+	});
 	
 	generalItems.forEach((item) => {
 		event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
 	});
-
-	event.create('flux')
-	event.create('impure_alumina_dust')
-	event.create('aluminium_oxide_dust')
-	event.create('kaolin_dust')
-	event.create('tungsten_steel').tooltip('750W-50Fe')
-	event.create('constantan_coil')
-	event.create('constantan_wire')
-	event.create('battery_alloy')
-	event.create('magnesium_dust')
-	event.create('magnesium_oxide')
-	event.create('frozen_auroch_meat')
-	event.create('frozen_beef')
-	event.create('frozen_boar_meat')
-	event.create('frozen_chicken')
-	event.create('frozen_fat')
-	event.create('frozen_fowl_meat')
-	event.create('frozen_mammoth_meat')
-	event.create('frozen_mouflon_meat')
-	event.create('frozen_mutton')
-	event.create('frozen_porkchop')
-	event.create('frozen_rhino_meat')
-	event.create('frozen_tiger_meat')
-	event.create('frozen_venison')
-	event.create('frozen_rabbit')
-	event.create('frozen_seeds_blackwheat')
-	event.create('frozen_seeds_wheat')
-	event.create('frozen_seeds_melon')
-	event.create('frozen_seeds_pumpkin')
-	event.create('frozen_seeds_beetroots')
-	event.create('frozen_seeds_unknown')
 })

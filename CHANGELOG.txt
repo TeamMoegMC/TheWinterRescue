@@ -6,7 +6,7 @@ FlyWheel
 OpenLoader
 kubejs-create
 kubejs-immersiveengineering
-
+SteamPowered
 
 - 移除模组：
 CavesAndCliffsBackport
