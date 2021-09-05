@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "rankine:tufa_limestone",
+	"rankine:white_marble",
+	"rankine:black_marble",
+	"rankine:dolostone",
+	"rankine:chalk"
+  ]
+}

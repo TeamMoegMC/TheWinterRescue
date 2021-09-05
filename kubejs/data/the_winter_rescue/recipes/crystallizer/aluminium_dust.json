@@ -1,0 +1,11 @@
+{
+	"type" : "electrodynamics:chemical_crystallizer_recipe",
+	"fluid_input":{
+		"fluid":"kubejs:aluminium",
+		"amount": 500
+	},
+	"item_output":{
+		"item":"immersiveengineering:dust_aluminum",
+		"count": 1
+	}
+}

@@ -1,0 +1,39 @@
+{
+    "type": "masterfulmachinery:machine_process",
+    "structureId": "ele_structure",
+    "controllerId": "ele",
+    "ticks": 200,
+    "inputs": [
+        {
+            "perTick": false,
+            "consumeInstantly": false,
+			"type": "masterfulmachinery:items",
+            "data":{
+                "item": "kubejs:aluminium_oxide_dust",
+                "count": 1
+            }
+        },
+		{
+            "type": "masterfulmachinery:fluids",
+            "data":{
+                "fluid": "kubejs:cryolite",
+                "amount": 50
+            }
+        },
+        {
+            "type": "masterfulmachinery:energy",
+            "data":{
+                "amount": 10000
+            }
+        }
+    ],
+    "outputs":[
+		{
+            "type": "masterfulmachinery:fluids",
+            "data":{
+                "fluid": "kubejs:aluminium",
+                "amount": 500
+            }
+        }
+    ]
+}

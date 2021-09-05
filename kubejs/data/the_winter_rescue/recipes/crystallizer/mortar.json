@@ -1,0 +1,11 @@
+{
+	"type" : "electrodynamics:chemical_crystallizer_recipe",
+	"fluid_input":{
+		"fluid":"kubejs:lime_water",
+		"amount": 500
+	},
+	"item_output":{
+		"item":"rankine:mortar",
+		"count": 2
+	}
+}
