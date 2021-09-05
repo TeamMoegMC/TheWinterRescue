@@ -10,7 +10,7 @@ onEvent('recipes', (event) => {
         event.remove({ type: 'create:pressing', output: plate})
     });
 	
-	event.recipes.createCompacting('2x kubejs:bronze_plate','3x rankine:bronze_alloy')
+	event.recipes.createCompacting('2x steampowered:bronze_sheet','3x rankine:bronze_alloy')
 	event.recipes.createCompacting('2x kubejs:battery_alloy_plate','3x kubejs:battery_alloy')
 	event.recipes.createCompacting('2x kubejs:cast_iron_plate','3x rankine:cast_iron_alloy')
 	let metals = [
