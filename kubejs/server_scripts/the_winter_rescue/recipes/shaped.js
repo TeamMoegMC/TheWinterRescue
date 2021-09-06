@@ -8,12 +8,12 @@ onEvent('recipes', (event) => {
         shapedRecipe('rankine:fluid_drain', ['L L', 'LFL', 'PLP'], {
             L: '#forge:ingots/stainless_steel',
             P: 'immersiveengineering:fluid_pipe',
-            F: 'create:cogwheel',
+            F: '#the_winter_rescue:cogwheels',
         }),
         shapedRecipe('rankine:fluid_drain', ['L L', 'LFL', 'PLP'], {
             L: '#forge:ingots/cast_iron',
             P: 'immersiveengineering:fluid_pipe',
-            F: 'create:cogwheel',
+            F: '#the_winter_rescue:cogwheels',
         }),
         shapedRecipe('notreepunching:fire_starter', ['AC', 'BA'], {
             A: '#forge:rods/wooden',
@@ -57,6 +57,30 @@ onEvent('recipes', (event) => {
             A: '#forge:rods/cast_iron',
             C: 'minecraft:crafting_table',
         }),
+        shapedRecipe('4x steampowered:bronze_cogwheel', [' B ', 'BAB', ' B '], {
+            A: '#forge:rods/cast_iron',
+            B: '#forge:plates/bronze',
+        }),
+        shapedRecipe('2x steampowered:bronze_large_cogwheel', ['BBB', 'BAB', 'BBB'], {
+            A: '#forge:rods/cast_iron',
+            B: '#forge:plates/bronze',
+        }),
+        shapedRecipe('4x steampowered:cast_iron_cogwheel', [' B ', 'BAB', ' B '], {
+            A: '#forge:rods/cast_iron',
+            B: '#forge:plates/cast_iron',
+        }),
+        shapedRecipe('2x steampowered:cast_iron_large_cogwheel', ['BBB', 'BAB', 'BBB'], {
+            A: '#forge:rods/cast_iron',
+            B: '#forge:plates/cast_iron',
+        }),
+        shapedRecipe('4x steampowered:steel_cogwheel', [' B ', 'BAB', ' B '], {
+            A: '#forge:rods/cast_iron',
+            B: '#forge:plates/steel',
+        }),
+        shapedRecipe('2x steampowered:steel_large_cogwheel', ['BBB', 'BAB', 'BBB'], {
+            A: '#forge:rods/cast_iron',
+            B: '#forge:plates/steel',
+        })
     ]
 
     var newRecipes = [

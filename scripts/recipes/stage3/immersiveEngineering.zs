@@ -17,7 +17,7 @@ recipeShaped("light_engineering",<item:immersiveengineering:light_engineering>*2
 ]);
 
 recipeShaped("capacitor_lv",<item:immersiveengineering:capacitor_lv>,[
-  [<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>,<item:minecraft:iron_ingot>],
+  [<item:kubejs:battery_alloy_plate>,<item:kubejs:battery_alloy_plate>,<item:kubejs:battery_alloy_plate>],
   [<item:rankine:power_cell>,<item:rankine:power_cell>,<item:rankine:power_cell>],
   [<item:immersiveengineering:treated_wood_horizontal>,<item:minecraft:redstone>,<item:immersiveengineering:treated_wood_horizontal>]
 ]);

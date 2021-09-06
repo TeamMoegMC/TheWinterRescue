@@ -233,7 +233,7 @@
 				gearbox = 0.0
 				mysterious_cuckoo_clock = 1.0
 				stressometer = 0.0
-				encased_chain_drive = 0.0
+				encased_chain_drive = 0.1
 				rotation_speed_controller = 0.0
 				belt = 1.0
 				cogwheel = 0.0
@@ -241,7 +241,7 @@
 				mechanical_pump = 4.0
 				mechanical_mixer = 4.0
 				andesite_encased_shaft = 0.0
-				adjustable_chain_gearshift = 0.0
+				adjustable_chain_gearshift = 0.1
 				mechanical_piston = 4.0
 				clutch = 0.0
 				mechanical_press = 8.0

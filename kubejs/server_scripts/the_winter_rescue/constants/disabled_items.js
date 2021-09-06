@@ -18,6 +18,11 @@ const disabledItems = [
     'notreepunching:ceramic_large_vessel',
     'notreepunching:flint_shard',
 
+    // stone age
+    'stone_age:copper_hammer',
+    'stone_age:bronze_hammer',
+    'stone_age:stone_hammer',
+
     // ie
     'immersiveengineering:toolbox',
     'immersiveengineering:sorter',
@@ -66,8 +71,8 @@ const disabledItems = [
 
     // create
     'create:water_wheel',
-    'create:cogwheel',
-    'create:large_cogwheel',
+    // 'create:cogwheel',
+    // 'create:large_cogwheel',
     'create:wand_of_symmetry',
     'create:mechanical_piston',
     'create:sticky_mechanical_piston',
@@ -83,5 +88,6 @@ const disabledItems = [
     'create:mechanical_drill',
     'create:flywheel',
     'create:furnace_engine',
-
+    'create:schematicannon',
+    'create:mechanical_plough'
 ]

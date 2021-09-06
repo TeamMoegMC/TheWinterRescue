@@ -293,17 +293,17 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.0d
 			y: 4.0d
 			subtitle: "锤"
 			description: ["石锤了。"]
-			dependencies: ["42AF456D165CBF75"]
+			dependencies: ["4BD8236FEEBD7D3A"]
 			id: "4A4D6D0DC9B348C1"
 			tasks: [{
 				id: "76979FA29AAF6129"
 				type: "item"
 				item: {
-					id: "stone_age:stone_hammer"
+					id: "rankine:stone_hammer"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -366,7 +366,7 @@
 			tasks: [{
 				id: "6359AA8052C20461"
 				type: "item"
-				item: "kubejs:bronze_plate"
+				item: "steampowered:bronze_sheet"
 			}]
 		}
 		{
@@ -780,7 +780,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: 2.0d
 			dependencies: ["42AF456D165CBF75"]
 			id: "4CD30E566C5776E0"
@@ -798,23 +798,6 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 2.0d
-			dependencies: ["0A9A5166127945AB"]
-			id: "7A45FE5C4EC35A0C"
-			tasks: [{
-				id: "4447622D793D02F3"
-				type: "item"
-				item: {
-					id: "stone_age:copper_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			x: 6.0d
 			y: 5.0d
 			dependencies: ["162264AE4B9EE1A9"]
@@ -823,10 +806,13 @@
 				id: "136A453133A19654"
 				type: "item"
 				item: {
-					id: "stone_age:bronze_hammer"
+					id: "rankine:bronze_hammer"
 					Count: 1b
 					tag: {
 						Damage: 0
+						StoredComposition: [{
+							comp: "80Cu-20Sn"
+						}]
 					}
 				}
 			}]
@@ -1304,8 +1290,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 4.0d
+			x: 2.0d
+			y: 3.0d
 			subtitle: "在沙滩上走的更快"
 			dependencies: ["42AF456D165CBF75"]
 			id: "5659B3220A28BEDD"
@@ -1341,7 +1327,7 @@
 		}
 		{
 			icon: "stone_age:fishing_net"
-			x: -0.5d
+			x: 1.0d
 			y: 3.0d
 			subtitle: "冬日鱼塘"
 			description: ["把任意网放进渔网内即可捕鱼"]

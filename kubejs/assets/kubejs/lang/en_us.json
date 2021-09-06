@@ -56,5 +56,10 @@
   "fluid.kubejs.fluoroaluminic_acid": "Fluoroaluminic Acid",
   "fluid.kubejs.cryolite": "Cryolite",
   "fluid.kubejs.aluminium": "Aluminium",
-  "itemGroup.kubejs.kubejs": "Kubejs"
+  "itemGroup.kubejs.kubejs": "Kubejs",
+  "charcoal_pit.ponder.main_bloomery.basic_usage.text_2": "3",
+  "the_winter_rescue.ponder.tag.multi_block.description": "This stuff is useless!",
+  "the_winter_rescue.ponder.tag.multi_block": "Useless stuff",
+  "charcoal_pit.ponder.main_bloomery.basic_usage.text_1": "2",
+  "charcoal_pit.ponder.main_bloomery.basic_usage.header": "1"
 }

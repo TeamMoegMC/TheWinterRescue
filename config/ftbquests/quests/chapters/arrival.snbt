@@ -1,5 +1,5 @@
 {
-	id: "21324FCFFF4090C2"
+	id: "45227BBF4538D5BC"
 	group: ""
 	order_index: 0
 	filename: "arrival"
@@ -35,9 +35,9 @@
 				"结束了回忆,你走出了舱门,环顾了四周，寂静."
 				"你意识到现在只能靠你自己了."
 			]
-			id: "6D674495764B16D4"
+			id: "60F112EDA31F73F5"
 			tasks: [{
-				id: "5CB1F61472356430"
+				id: "6895A9C90F35FF32"
 				type: "checkmark"
 				title: "坠毁"
 			}]
@@ -53,10 +53,9 @@
 				"这个冬日是何时开始的呢？"
 				"这也许是你需要寻找的答案..."
 			]
-			dependencies: ["6D674495764B16D4"]
-			id: "36E08AE8F1F79802"
+			id: "2E0E35B379A20F7C"
 			tasks: [{
-				id: "6B23214570715CB5"
+				id: "4B27147A3A002991"
 				type: "checkmark"
 				title: "星际历史"
 			}]
@@ -67,10 +66,9 @@
 			y: -4.5d
 			subtitle: "我在哪里？"
 			description: ["这次驾驶的飞船是空间站为数不多还能正常运行的太空梭了。要赶快拿到物资才行，否则在这种鬼天气里，很快就会冻死的！"]
-			dependencies: ["6D674495764B16D4"]
-			id: "1872BFF557F93D6C"
+			id: "6C86BD5F9112256F"
 			tasks: [{
-				id: "0D0788607EC7A3A9"
+				id: "739D90B64EFDC7EB"
 				type: "checkmark"
 				title: "飞船"
 			}]
@@ -82,10 +80,9 @@
 			shape: "circle"
 			subtitle: "损坏的飞船"
 			description: ["飞船被厚厚的冰雪所覆盖了，不过尾部的余热化开了舱门。你耐心的查看起了最重要的物品仓。"]
-			dependencies: ["1872BFF557F93D6C"]
-			id: "16F87B8C56498566"
+			id: "46BF095F50804FCC"
 			tasks: [{
-				id: "58881FDA9ECD7B8D"
+				id: "53E219EA9212DEC4"
 				type: "checkmark"
 				title: "山顶"
 			}]
@@ -97,10 +94,9 @@
 			shape: "hexagon"
 			subtitle: "收获满满？"
 			description: ["这里存放着最重要的初始物资：纯净水，食物，以及衣服。抓紧时间装备好他们吧。"]
-			dependencies: ["16F87B8C56498566"]
-			id: "370CFF9A943D5AFA"
+			id: "4E3C1F4BDB921B8E"
 			tasks: [{
-				id: "1055EEDED2007FA4"
+				id: "2CFE3196473A13A5"
 				type: "checkmark"
 				title: "物品仓"
 			}]
@@ -298,10 +294,9 @@
 			shape: "hexagon"
 			subtitle: "还好我偷偷藏了不少东西"
 			description: ["个人物品带的不多，这个卫星电话没电了，要想办法充上电才行。"]
-			dependencies: ["16F87B8C56498566"]
-			id: "334E6EC3CFB1AB2B"
+			id: "25061B159D32453A"
 			tasks: [{
-				id: "210C8D8AFFE97C1E"
+				id: "2128950991D0C6FA"
 				type: "checkmark"
 				title: "私人物品"
 			}]
@@ -338,10 +333,9 @@
 				"你拿出了贴身的笔记本，在无数前辈的经验笔记后写下了自己的名字，独自一人踏上了这无尽的寒冬，你的目的只有一个“活下去！”。"
 				"“有希望的话，大概什么都会好起来吧。”"
 			]
-			dependencies: ["16F87B8C56498566"]
-			id: "1B36220B91DBE9E3"
+			id: "2422C77587FDEE28"
 			tasks: [{
-				id: "566B7480A977BFAA"
+				id: "7C0099E0D08A878E"
 				type: "checkmark"
 				title: "离开"
 			}]

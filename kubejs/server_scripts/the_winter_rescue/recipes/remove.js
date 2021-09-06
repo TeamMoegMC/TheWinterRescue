@@ -38,6 +38,11 @@ onEvent('recipes', (event) => {
 	event.remove({ mod: 'extendedcrafting'});
 	event.remove({ mod: 'immersivepetroleum'});
 	event.remove({ input: 'minecraft:sugar_cane', output: 'minecraft:paper'});
+	event.remove({ input: 'immersiveengineering:dust_wood', output: 'minecraft:paper'});
+	event.remove({ input: 'rankine:alloy_template', output: 'minecraft:paper'});
+
+	event.remove({ type: 'advancedrocketry:smallplate'});
+	event.remove({ type: 'advancedrocketry:rollingmachine'});
 
 	disabledItems.forEach((disabledItem) => {
 		event.remove({output: disabledItem });
