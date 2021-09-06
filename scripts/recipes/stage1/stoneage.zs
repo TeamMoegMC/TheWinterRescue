@@ -17,7 +17,7 @@ campfire.addRecipe("torch",<item:minecraft:torch>,<item:stone_age:unlit_torch>,0
 
 <recipetype:stone_age:tree_stump>.addRecipe("flux", <item:kubejs:flux>*2, <tag:items:forge:hammers>, <tag:items:the_winter_rescue:flux_block>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("al2o3", <item:rankine:alumina>, <tag:items:forge:hammers>, <item:rankine:bauxite_ore>, 2);
-<recipetype:stone_age:tree_stump>.addRecipe("redstone", <item:minecraft:redstone>*2, <tag:items:forge:hammers>, <item:rankine:cinnabar_ore>, 2);
+<recipetype:stone_age:tree_stump>.addRecipe("redstone", <item:minecraft:redstone>*2, <tag:items:forge:hammers>, <item:rankine:cinnabar>, 2);
 //planks
 <recipetype:stone_age:tree_stump>.addRecipe("treated_wood_slab",<item:immersiveengineering:slab_treated_wood_horizontal>*2,<tag:items:forge:axes>,<item:immersiveengineering:treated_wood_horizontal>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("dark_oak_plank", <item:minecraft:dark_oak_planks>*3, <tag:items:forge:axes>, <item:minecraft:stripped_dark_oak_log>, 2);
@@ -67,8 +67,8 @@ flintRecipe("workbench",<item:minecraft:crafting_table>,[
 
 flintRecipe("millstone",<item:stone_age:millstone>,[
   [<item:minecraft:air>,<item:minecraft:stick>,<item:minecraft:air>],
-  [<item:minecraft:air>,<tag:items:forge:stones/andesite>,<item:minecraft:air>],
-  [<item:minecraft:stone>,<tag:items:forge:stones/granite>,<item:minecraft:stone>]
+  [<item:minecraft:air>,<item:minecraft:stone>,<item:minecraft:air>],
+  [<tag:items:forge:stone>,<tag:items:forge:stone>,<tag:items:forge:stone>]
 ],<item:stone_age:flint_knife>);
 
 flintRecipe("main_bloomery",<item:charcoal_pit:main_bloomery>,[

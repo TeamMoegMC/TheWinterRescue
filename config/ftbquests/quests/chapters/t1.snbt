@@ -325,6 +325,7 @@
 				id: "1FD4E3357F016517"
 				type: "item"
 				title: "Any #forge:plates/copper"
+				icon: "create:copper_sheet"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

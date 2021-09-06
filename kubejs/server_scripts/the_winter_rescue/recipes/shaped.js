@@ -37,7 +37,7 @@ onEvent('recipes', (event) => {
         }),
         shapedRecipe('extendedcrafting:advanced_table', ['AAA', 'BCB', 'AAA'], {
             A: '#forge:plates/cast_iron',
-            B: 'rankine:cast_iron_support',
+            B: '#forge:rods/cast_iron',
             C: 'minecraft:crafting_table',
         }),
         shapedRecipe('extendedcrafting:crafting_core', ['ECE', 'BAB', 'DDD'], {

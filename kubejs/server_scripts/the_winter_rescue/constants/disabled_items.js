@@ -71,8 +71,8 @@ const disabledItems = [
 
     // create
     'create:water_wheel',
-    // 'create:cogwheel',
-    // 'create:large_cogwheel',
+    'create:cogwheel',
+    'create:large_cogwheel',
     'create:wand_of_symmetry',
     'create:mechanical_piston',
     'create:sticky_mechanical_piston',

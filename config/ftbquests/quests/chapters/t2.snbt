@@ -18,8 +18,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -13.0d
-			y: -5.0d
+			x: -19.0d
+			y: -0.5d
 			subtitle: "工作台"
 			description: ["这是? 工作台!"]
 			dependencies: ["75154C5A6E2F3257"]
@@ -33,8 +33,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: -6.5d
+			x: -17.5d
+			y: -2.0d
 			subtitle: "安稳入眠"
 			dependencies: ["328D948C4C800873"]
 			hide: true
@@ -46,8 +46,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: -3.5d
+			x: -17.5d
+			y: -0.5d
 			description: [
 				"不是石墨！"
 				"shift+右键打开gui。"
@@ -63,8 +63,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: -3.5d
+			x: -16.0d
+			y: -0.5d
 			description: ["耐火粘土的原料之一。"]
 			dependencies: ["7887EB905BAA7BEF"]
 			id: "060F482D9D3374F9"
@@ -75,8 +75,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: -3.5d
+			x: -16.0d
+			y: 1.0d
 			description: ["耐火粘土的原料之一。"]
 			dependencies: ["7887EB905BAA7BEF"]
 			id: "48F3102B3AA99313"
@@ -87,8 +87,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: -2.0d
+			x: -14.5d
+			y: -0.5d
 			description: ["用于制作耐火砖。"]
 			dependencies: [
 				"060F482D9D3374F9"
@@ -114,8 +114,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: -5.0d
+			x: -20.5d
+			y: -0.5d
 			description: ["有了焦炉，就再也不需要一次次地布置木炭坑了！"]
 			dependencies: ["328D948C4C800873"]
 			hide: true
@@ -145,6 +145,7 @@
 			description: [
 				"经过精加工的低含碳量铁合金锭."
 				"很♂黑，很♂硬。"
+				"用于制作大多数机械动力物品。"
 			]
 			dependencies: ["0E27E31FF6145D05"]
 			hide: true
@@ -164,8 +165,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: -6.5d
+			x: -20.5d
+			y: 1.0d
 			dependencies: ["678491900C7F03F2"]
 			id: "4D0ECD01E0CC7C8C"
 			tasks: [{
@@ -175,8 +176,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: -5.0d
+			x: -19.0d
+			y: 1.0d
 			dependencies: ["328D948C4C800873"]
 			hide: true
 			id: "678491900C7F03F2"
@@ -198,8 +199,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: -6.5d
+			x: -20.5d
+			y: -2.0d
 			subtitle: "随身携带"
 			dependencies: ["328D948C4C800873"]
 			id: "6E83E2133A978D34"
@@ -212,6 +213,12 @@
 		{
 			x: -11.5d
 			y: 4.0d
+			subtitle: "忘掉木齿轮"
+			description: [
+				"如果你玩过机械动力，你大概知道木齿轮。"
+				"然而在这样的寒冷天气里，木制品太不结实了。"
+				"在这里，制作齿轮的最低材料要求是&e青铜。"
+			]
 			dependencies: ["404CFF89CCFE9D6B"]
 			id: "3E8F565DE61309B2"
 			tasks: [{
@@ -234,6 +241,7 @@
 		{
 			x: -14.5d
 			y: 5.5d
+			subtitle: "通入蒸汽"
 			dependencies: ["7612A96FFEFC5635"]
 			id: "32A497C69C641D2B"
 			tasks: [{
@@ -245,6 +253,7 @@
 		{
 			x: -17.5d
 			y: 2.5d
+			subtitle: "更快，更强"
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "0FEC22A5C56936DC"
 			tasks: [{
@@ -254,9 +263,11 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 4.0d
+			x: -11.5d
+			y: 5.5d
 			shape: "gear"
+			subtitle: "并不会飞"
+			description: ["和青铜蒸汽引擎配合产生大量的应力。"]
 			dependencies: ["3E8F565DE61309B2"]
 			id: "0F8B1303FEF36BD1"
 			tasks: [{
@@ -268,6 +279,7 @@
 		{
 			x: -16.0d
 			y: 2.5d
+			subtitle: "加大力度"
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "0972243D44A0CF46"
 			tasks: [{
@@ -279,6 +291,7 @@
 		{
 			x: -13.0d
 			y: 7.0d
+			subtitle: "跟我一起切割磁感线"
 			dependencies: [
 				"32A497C69C641D2B"
 				"0F8B1303FEF36BD1"
@@ -294,7 +307,14 @@
 		}
 		{
 			x: -7.0d
-			y: 4.0d
+			y: 5.5d
+			subtitle: "一机三用"
+			description: [
+				"在前方放置岩浆可以当作熔炉使用。"
+				"在前方放置水方块可以用来将打碎的矿物洗净。"
+				"在前方放置火焰则可以当作烟熏炉。"
+				"大多情况下需要配合一条传送带使用。"
+			]
 			dependencies: ["0F8B1303FEF36BD1"]
 			id: "29DCBBB54EE90E51"
 			tasks: [{
@@ -306,6 +326,8 @@
 		{
 			x: -14.5d
 			y: 2.5d
+			subtitle: "更结实一些"
+			description: ["比青铜齿轮消耗更少的应力。"]
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "7EDDAD2D1E2B0613"
 			tasks: [{
@@ -315,8 +337,10 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -7.0d
 			y: 2.5d
+			subtitle: "不用自己动手了"
+			description: ["研磨一些没那么坚硬的物品。"]
 			dependencies: ["6000F43C135FC068"]
 			id: "4600CF7553C26ED0"
 			tasks: [{
@@ -327,7 +351,9 @@
 		}
 		{
 			x: -8.5d
-			y: 4.0d
+			y: 5.5d
+			subtitle: "还挺结实的"
+			description: ["将你挖掘到的矿物打碎以进一步处理。"]
 			dependencies: [
 				"0F8B1303FEF36BD1"
 				"17F033FB5ACAACFB"
@@ -341,7 +367,9 @@
 		}
 		{
 			x: -4.0d
-			y: 4.0d
+			y: 5.5d
+			subtitle: "压力山大"
+			description: ["一台实用的机器，你可以用它增产板材，当然也可以做巧克力。"]
 			dependencies: ["0F8B1303FEF36BD1"]
 			id: "5845439CF721309F"
 			tasks: [{
@@ -352,7 +380,9 @@
 		}
 		{
 			x: -5.5d
-			y: 4.0d
+			y: 5.5d
+			subtitle: "一锅粥"
+			description: ["可以处理所有的无序合成配方。"]
 			dependencies: ["0F8B1303FEF36BD1"]
 			id: "3549A50510878505"
 			tasks: [{
@@ -362,8 +392,10 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -8.5d
 			y: 2.5d
+			subtitle: "一个铸铁做成的盆"
+			description: ["搅拌机和辊压机的最好搭档。"]
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "3CC2245A281AABC1"
 			tasks: [{
@@ -373,8 +405,13 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -5.5d
 			y: 2.5d
+			subtitle: "烈焰人保护协会表强烈谴责"
+			description: [
+				"一些机器的配方需要高温环境才能正常处理。这台燃烧室可以很轻松的做到这点。"
+				"注意，不一定需要烈焰人，用打火石点燃也可以。"
+			]
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "4548F432A872DA92"
 			tasks: [{
@@ -386,6 +423,8 @@
 		{
 			x: -4.0d
 			y: 2.5d
+			subtitle: "不能坐人"
+			description: ["放置物品，配合其他机器处理配方。"]
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "15B365E3F3EAFE79"
 			tasks: [{
@@ -397,6 +436,11 @@
 		{
 			x: -10.0d
 			y: 2.5d
+			subtitle: "人民有力量"
+			description: [
+				"手摇产生的动力不大，但是足以泵出能够带动青铜蒸汽引擎运行的蒸汽量。"
+				"在做出蒸汽引擎后，你便能解放双手了。"
+			]
 			dependencies: ["404CFF89CCFE9D6B"]
 			id: "6000F43C135FC068"
 			tasks: [{
@@ -409,6 +453,8 @@
 			title: "青铜锅炉"
 			x: -14.5d
 			y: 4.0d
+			subtitle: "人类的一小步"
+			description: ["燃烧煤炭和焦煤产生蒸汽"]
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "7612A96FFEFC5635"
 			tasks: [
@@ -448,8 +494,9 @@
 			}]
 		}
 		{
-			x: -11.5d
+			x: -13.0d
 			y: 5.5d
+			subtitle: "把蒸汽从锅炉抽出来"
 			dependencies: [
 				"3E8F565DE61309B2"
 				"17C359DCF058E698"
@@ -475,6 +522,7 @@
 		{
 			x: -13.0d
 			y: 8.5d
+			subtitle: "用在用电器和发电设备上"
 			dependencies: ["1F2BD4A72596B287"]
 			id: "4926C4062339E018"
 			tasks: [{
@@ -484,8 +532,9 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 10.0d
+			x: -11.5d
+			y: 8.5d
+			subtitle: "最基础的电线"
 			dependencies: ["1F2BD4A72596B287"]
 			id: "5B8BA38FF8C93A1A"
 			tasks: [{
@@ -497,12 +546,206 @@
 		{
 			x: -10.0d
 			y: 7.0d
-			dependencies: ["0F8B1303FEF36BD1"]
+			subtitle: "这很朋克"
+			description: ["使用方法请使用思索功能查看动画。"]
+			dependencies: [
+				"0F8B1303FEF36BD1"
+				"1F94471C5310ECFA"
+			]
 			id: "17F033FB5ACAACFB"
 			tasks: [{
 				id: "760B8D8FBB365594"
 				type: "item"
 				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			dependencies: ["4600CF7553C26ED0"]
+			id: "6439CF1B54CEF092"
+			tasks: [{
+				id: "4CDAED608D6CC193"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 4.0d
+			subtitle: "大概三十目"
+			dependencies: ["6439CF1B54CEF092"]
+			id: "10CB240A20A88FE0"
+			tasks: [{
+				id: "30B4BE06E8E1DBA5"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 4.0d
+			subtitle: "掺合了红石的二氧化硅晶体"
+			dependencies: ["10CB240A20A88FE0"]
+			id: "279DA3B6F5DE7753"
+			tasks: [{
+				id: "0106FEE55AE2DE31"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			subtitle: "二氧化硅罢了"
+			dependencies: ["4600CF7553C26ED0"]
+			id: "6577F4E013F76B98"
+			tasks: [{
+				id: "708E2C252A9CAB7E"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 5.5d
+			subtitle: "没有电流通过"
+			dependencies: ["279DA3B6F5DE7753"]
+			id: "1F94471C5310ECFA"
+			tasks: [{
+				id: "5EBA7DF393E79954"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 8.5d
+			shape: "gear"
+			subtitle: "氧气助燃"
+			description: ["只有提供两台鼓风机，冶钢坩埚才能开始工作。"]
+			dependencies: ["5B8BA38FF8C93A1A"]
+			id: "016B841B20166EA8"
+			tasks: [{
+				id: "3466ACA38E4A1F3F"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+				count: 2L
+			}]
+		}
+		{
+			title: "炼钢坩埚"
+			icon: "rankine:high_refractory_bricks"
+			x: -2.5d
+			y: 4.0d
+			shape: "gear"
+			subtitle: "更热门的话题"
+			description: [
+				"&6炼钢坩埚是比原始高炉更加先进的冶炼设备."
+				"&6必须使用焦煤进行加热.并且提供两个&4高炉鼓风机"
+				"搭建: 从上到下"
+				"HHH HHH BBB BBB  H=高耐火砖"
+				"H H H H  BCB BBB  B=燃烧室"
+				"HHH HHH BBB BBB  C=燃烧室核心"
+			]
+			dependencies: ["6738A3C34A872FED"]
+			id: "19038BB5A9E42055"
+			tasks: [
+				{
+					id: "5FBCCD9BFBA8FFA2"
+					type: "item"
+					item: "frostedheart:burning_chamber_core"
+				}
+				{
+					id: "3E96AF246CEFC59E"
+					type: "item"
+					item: "frostedheart:burning_chamber"
+					count: 17L
+				}
+				{
+					id: "1C413775D736BB81"
+					type: "item"
+					item: "rankine:high_refractory_bricks"
+					count: 16L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 4.0d
+			subtitle: "耐高温"
+			description: ["需要动力搅拌机和烈焰人燃烧室制作"]
+			dependencies: [
+				"3549A50510878505"
+				"4548F432A872DA92"
+				"29556685F57F6657"
+			]
+			id: "6738A3C34A872FED"
+			tasks: [{
+				id: "4FDFAF777C766C70"
+				type: "item"
+				item: "rankine:high_refractory_brick"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 1.0d
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "4B46838E7C65D4C4"
+			tasks: [{
+				id: "2BADA53AE3BE71DA"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -0.5d
+			subtitle: "又是一种炉子"
+			dependencies: ["71D389AF87847D7B"]
+			id: "67486831FE3C0FBA"
+			tasks: [
+				{
+					id: "256EB689FE3A60BF"
+					type: "item"
+					item: "rankine:beehive_oven_pit"
+				}
+				{
+					id: "4CC3A919472A708E"
+					type: "item"
+					item: "rankine:refractory_bricks"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -0.5d
+			subtitle: "菱镁矿处理而来"
+			dependencies: ["67486831FE3C0FBA"]
+			id: "29556685F57F6657"
+			tasks: [{
+				id: "24B9A949656EBA70"
+				type: "item"
+				item: "rankine:magnesia_block"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -0.5d
+			subtitle: "快速烧制"
+			dependencies: ["67486831FE3C0FBA"]
+			id: "4F279E9DBFD52861"
+			tasks: [{
+				id: "3BC11F00CF381B42"
+				type: "item"
+				item: "rankine:quicklime_block"
 			}]
 		}
 	]

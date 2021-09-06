@@ -16,21 +16,6 @@ recipeShaped("light_engineering",<item:immersiveengineering:light_engineering>*2
   [<tag:items:forge:plates/aluminum>,<item:immersiveengineering:component_steel>,<tag:items:forge:plates/aluminum>]
 ]);
 
-recipeShaped("capacitor_lv",<item:immersiveengineering:capacitor_lv>,[
-  [<item:kubejs:battery_alloy_plate>,<item:kubejs:battery_alloy_plate>,<item:kubejs:battery_alloy_plate>],
-  [<item:rankine:power_cell>,<item:rankine:power_cell>,<item:rankine:power_cell>],
-  [<item:immersiveengineering:treated_wood_horizontal>,<item:minecraft:redstone>,<item:immersiveengineering:treated_wood_horizontal>]
-]);
-recipeShaped("capacitor_mv",<item:immersiveengineering:capacitor_mv>,[
-  [<tag:items:forge:plates/aluminum>,<tag:items:forge:plates/aluminum>,<tag:items:forge:plates/aluminum>],
-  [<item:rankine:power_cell>,<item:rankine:power_cell>,<item:rankine:power_cell>],
-  [<item:immersiveengineering:treated_wood_horizontal>,<item:minecraft:redstone>,<item:immersiveengineering:treated_wood_horizontal>]
-]);
-recipeShaped("capacitor_hv",<item:immersiveengineering:capacitor_hv>,[
-  [<item:kubejs:tungsten_steel_plate>,<item:kubejs:tungsten_steel_plate>,<item:kubejs:tungsten_steel_plate>],
-  [<item:rankine:power_cell>,<item:rankine:power_cell>,<item:rankine:power_cell>],
-  [<item:immersiveengineering:treated_wood_horizontal>,<item:minecraft:redstone>,<item:immersiveengineering:treated_wood_horizontal>]
-]);
 recipeShaped("fluid_pump",<item:immersiveengineering:fluid_pump>,[
   [<item:minecraft:air>,<item:immersiveengineering:circuit_board>,<item:minecraft:air>],
   [<tag:items:forge:plates/steel>,<item:immersiveengineering:fluid_pipe>,<tag:items:forge:plates/steel>],

@@ -40,6 +40,7 @@ onEvent('recipes', (event) => {
 	event.remove({ input: 'minecraft:sugar_cane', output: 'minecraft:paper'});
 	event.remove({ input: 'immersiveengineering:dust_wood', output: 'minecraft:paper'});
 	event.remove({ input: 'rankine:alloy_template', output: 'minecraft:paper'});
+	event.remove({ input: 'minecraft:redstone_ore'});
 
 	event.remove({ type: 'advancedrocketry:smallplate'});
 	event.remove({ type: 'advancedrocketry:rollingmachine'});
@@ -56,7 +57,12 @@ onEvent('recipes', (event) => {
 		'create:zinc_ingot',
 		'create:copper_ingot',
 		'create:andesite_alloy',
-		'#create:crushed_ores'
+		'#create:crushed_ores',
+		'rankine:high_refractory_brick',
+		'rankine:ultra_high_refractory_brick',
+		'immersiveengineering:capacitor_lv',
+		'immersiveengineering:capacitor_mv',
+		'immersiveengineering:capacitor_hv'
 	]
 
 	removeOnly.forEach((removeItem) => {
