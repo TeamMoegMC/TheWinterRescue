@@ -33,7 +33,7 @@
 			}]
 		}
 		{
-			x: -17.5d
+			x: -19.0d
 			y: -2.0d
 			subtitle: "安稳入眠"
 			dependencies: ["328D948C4C800873"]
@@ -93,6 +93,7 @@
 			dependencies: [
 				"060F482D9D3374F9"
 				"48F3102B3AA99313"
+				"3CC2245A281AABC1"
 			]
 			id: "6417209CD8ADABEC"
 			tasks: [{
@@ -214,15 +215,15 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 4.0d
+			x: -13.0d
+			y: 4.5d
 			subtitle: "忘掉木齿轮"
 			description: [
 				"如果你玩过机械动力，你大概知道木齿轮。"
 				"然而在这样的寒冷天气里，木制品太不结实了。"
 				"在这里，制作齿轮的最低材料要求是&e青铜。"
 			]
-			dependencies: ["404CFF89CCFE9D6B"]
+			dependencies: ["4CC5E16EFDE1368C"]
 			id: "3E8F565DE61309B2"
 			tasks: [{
 				id: "38B838F0D0E4B1E1"
@@ -231,9 +232,9 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 2.5d
-			dependencies: ["4CC5E16EFDE1368C"]
+			x: -16.0d
+			y: -5.0d
+			dependencies: ["0F8B1303FEF36BD1"]
 			id: "404CFF89CCFE9D6B"
 			tasks: [{
 				id: "5A7562201B27BBF3"
@@ -242,8 +243,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 5.5d
+			x: -17.5d
+			y: -3.5d
 			subtitle: "通入蒸汽"
 			dependencies: ["7612A96FFEFC5635"]
 			id: "32A497C69C641D2B"
@@ -266,12 +267,12 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 5.5d
+			x: -17.5d
+			y: -5.0d
 			shape: "gear"
 			subtitle: "并不会飞"
 			description: ["和青铜蒸汽引擎配合产生大量的应力。"]
-			dependencies: ["3E8F565DE61309B2"]
+			dependencies: ["32A497C69C641D2B"]
 			id: "0F8B1303FEF36BD1"
 			tasks: [{
 				id: "0D7E748C37FB3E57"
@@ -296,10 +297,8 @@
 			y: 7.0d
 			subtitle: "跟我一起切割磁感线"
 			dependencies: [
-				"32A497C69C641D2B"
-				"0F8B1303FEF36BD1"
-				"197308226CAE52C4"
 				"17F033FB5ACAACFB"
+				"3E8F565DE61309B2"
 			]
 			id: "1F2BD4A72596B287"
 			tasks: [{
@@ -309,8 +308,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 5.5d
+			x: -13.5d
+			y: -3.5d
 			subtitle: "一机三用"
 			description: [
 				"在前方放置岩浆可以当作熔炉使用。"
@@ -318,7 +317,7 @@
 				"在前方放置火焰则可以当作烟熏炉。"
 				"大多情况下需要配合一条传送带使用。"
 			]
-			dependencies: ["0F8B1303FEF36BD1"]
+			dependencies: ["197308226CAE52C4"]
 			id: "29DCBBB54EE90E51"
 			tasks: [{
 				id: "5388D141B1BE4837"
@@ -344,7 +343,7 @@
 			y: 2.5d
 			subtitle: "不用自己动手了"
 			description: ["研磨一些没那么坚硬的物品。"]
-			dependencies: ["6000F43C135FC068"]
+			dependencies: ["4CC5E16EFDE1368C"]
 			id: "4600CF7553C26ED0"
 			tasks: [{
 				id: "4E1FECD14F37C151"
@@ -357,10 +356,7 @@
 			y: 5.5d
 			subtitle: "还挺结实的"
 			description: ["将你挖掘到的矿物打碎以进一步处理。"]
-			dependencies: [
-				"0F8B1303FEF36BD1"
-				"17F033FB5ACAACFB"
-			]
+			dependencies: ["17F033FB5ACAACFB"]
 			id: "064ECF25B9B8962B"
 			tasks: [{
 				id: "31772825C65C597E"
@@ -369,11 +365,11 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 5.5d
+			x: -11.5d
+			y: 4.5d
 			subtitle: "压力山大"
 			description: ["一台实用的机器，你可以用它增产板材，当然也可以做巧克力。"]
-			dependencies: ["0F8B1303FEF36BD1"]
+			dependencies: ["4CC5E16EFDE1368C"]
 			id: "5845439CF721309F"
 			tasks: [{
 				id: "3C9C4DA2CDEAEBEA"
@@ -382,11 +378,11 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 5.5d
+			x: -14.5d
+			y: -2.5d
 			subtitle: "一锅粥"
 			description: ["可以处理所有的无序合成配方。"]
-			dependencies: ["0F8B1303FEF36BD1"]
+			dependencies: ["197308226CAE52C4"]
 			id: "3549A50510878505"
 			tasks: [{
 				id: "73AFD699A6DA7ADC"
@@ -395,11 +391,11 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 2.5d
+			x: -14.5d
+			y: -1.5d
 			subtitle: "一个铸铁做成的盆"
 			description: ["搅拌机和辊压机的最好搭档。"]
-			dependencies: ["4CC5E16EFDE1368C"]
+			dependencies: ["3549A50510878505"]
 			id: "3CC2245A281AABC1"
 			tasks: [{
 				id: "35B67DF507A4055F"
@@ -437,8 +433,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 2.5d
+			x: -15.0d
+			y: -5.0d
 			subtitle: "人民有力量"
 			description: [
 				"手摇产生的动力不大，但是足以泵出能够带动青铜蒸汽引擎运行的蒸汽量。"
@@ -454,11 +450,11 @@
 		}
 		{
 			title: "青铜锅炉"
-			x: -14.5d
-			y: 4.0d
+			x: -17.5d
+			y: -2.0d
 			subtitle: "人类的一小步"
 			description: ["燃烧煤炭和焦煤产生蒸汽"]
-			dependencies: ["4CC5E16EFDE1368C"]
+			dependencies: ["328D948C4C800873"]
 			id: "7612A96FFEFC5635"
 			tasks: [
 				{
@@ -486,9 +482,9 @@
 			]
 		}
 		{
-			x: -13.0d
-			y: 4.0d
-			dependencies: ["4CC5E16EFDE1368C"]
+			x: -16.0d
+			y: -3.5d
+			dependencies: ["32A497C69C641D2B"]
 			id: "17C359DCF058E698"
 			tasks: [{
 				id: "26C5FFE011F0C78A"
@@ -497,12 +493,12 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 5.5d
+			x: -15.0d
+			y: -3.5d
 			subtitle: "把蒸汽从锅炉抽出来"
 			dependencies: [
-				"3E8F565DE61309B2"
 				"17C359DCF058E698"
+				"6000F43C135FC068"
 			]
 			id: "197308226CAE52C4"
 			tasks: [{
@@ -512,9 +508,9 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 1.0d
-			dependencies: ["4CC5E16EFDE1368C"]
+			x: -16.0d
+			y: -2.5d
+			dependencies: ["17C359DCF058E698"]
 			id: "093D3F54B92EDFEA"
 			tasks: [{
 				id: "6B208D6EE86052FB"
@@ -551,10 +547,7 @@
 			y: 7.0d
 			subtitle: "这很朋克"
 			description: ["使用方法请使用思索功能查看动画。"]
-			dependencies: [
-				"0F8B1303FEF36BD1"
-				"1F94471C5310ECFA"
-			]
+			dependencies: ["1F94471C5310ECFA"]
 			id: "17F033FB5ACAACFB"
 			tasks: [{
 				id: "760B8D8FBB365594"
@@ -628,25 +621,24 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -5.5d
 			y: 8.5d
 			shape: "gear"
 			subtitle: "氧气助燃"
-			description: ["只有提供两台鼓风机，冶钢坩埚才能开始工作。"]
+			description: ["只有提供鼓风机，冶钢坩埚才能开始工作。"]
 			dependencies: ["5B8BA38FF8C93A1A"]
 			id: "016B841B20166EA8"
 			tasks: [{
-				id: "3466ACA38E4A1F3F"
+				id: "0E15A479D897542E"
 				type: "item"
 				item: "immersiveengineering:blastfurnace_preheater"
-				count: 2L
 			}]
 		}
 		{
 			title: "炼钢坩埚"
 			icon: "rankine:high_refractory_bricks"
-			x: -4.0d
-			y: 4.0d
+			x: -3.5d
+			y: -0.5d
 			shape: "gear"
 			subtitle: "更热门的话题"
 			description: [
@@ -680,15 +672,11 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 4.0d
+			x: -5.0d
+			y: -0.5d
 			subtitle: "耐高温"
 			description: ["需要动力搅拌机和烈焰人燃烧室制作"]
-			dependencies: [
-				"3549A50510878505"
-				"4548F432A872DA92"
-				"29556685F57F6657"
-			]
+			dependencies: ["29556685F57F6657"]
 			id: "6738A3C34A872FED"
 			tasks: [{
 				id: "4FDFAF777C766C70"
@@ -708,7 +696,7 @@
 			}]
 		}
 		{
-			x: -11.5d
+			x: -10.5d
 			y: -0.5d
 			subtitle: "又是一种炉子"
 			description: ["使用方法是把对应的方块放在耐火砖上，然后点燃主方块。"]
@@ -729,7 +717,7 @@
 			]
 		}
 		{
-			x: -5.5d
+			x: -6.0d
 			y: -0.5d
 			subtitle: "菱镁矿处理而来"
 			description: ["把菱镁矿堆成块之后烧制。"]
@@ -775,12 +763,24 @@
 			x: -16.0d
 			y: 5.5d
 			subtitle: "模仿玩家右击"
-			dependencies: ["0F8B1303FEF36BD1"]
+			dependencies: ["1F94471C5310ECFA"]
 			id: "4845A9B7B7B2B4A5"
 			tasks: [{
 				id: "797605E2CAEAC528"
 				type: "item"
 				item: "create:deployer"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 10.0d
+			subtitle: "高精组装"
+			dependencies: ["4926C4062339E018"]
+			id: "7F84766122DC4753"
+			tasks: [{
+				id: "196BC8A03CF82070"
+				type: "item"
+				item: "immersiveengineering:circuit_board"
 			}]
 		}
 	]
