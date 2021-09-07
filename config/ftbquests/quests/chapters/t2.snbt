@@ -48,8 +48,8 @@
 		{
 			x: -17.5d
 			y: -0.5d
+			subtitle: "不是石墨"
 			description: [
-				"不是石墨！"
 				"shift+右键打开gui。"
 				"放入待研磨物品后，右键石磨以研磨。"
 			]
@@ -167,6 +167,7 @@
 		{
 			x: -20.5d
 			y: 1.0d
+			description: ["提供红石脉冲时工作。"]
 			dependencies: ["678491900C7F03F2"]
 			id: "4D0ECD01E0CC7C8C"
 			tasks: [{
@@ -178,6 +179,7 @@
 		{
 			x: -19.0d
 			y: 1.0d
+			description: ["红石可以通过处理朱砂获得"]
 			dependencies: ["328D948C4C800873"]
 			hide: true
 			id: "678491900C7F03F2"
@@ -188,8 +190,9 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 1.0d
+			x: -16.0d
+			y: 2.5d
+			subtitle: "制造电容"
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "401439E8C1AA7A0A"
 			tasks: [{
@@ -251,10 +254,10 @@
 			}]
 		}
 		{
-			x: -17.5d
-			y: 2.5d
+			x: -5.5d
+			y: 7.0d
 			subtitle: "更快，更强"
-			dependencies: ["4CC5E16EFDE1368C"]
+			dependencies: ["17F033FB5ACAACFB"]
 			id: "0FEC22A5C56936DC"
 			tasks: [{
 				id: "0A9D080781143545"
@@ -277,10 +280,10 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 2.5d
+			x: -7.0d
+			y: 7.0d
 			subtitle: "加大力度"
-			dependencies: ["4CC5E16EFDE1368C"]
+			dependencies: ["17F033FB5ACAACFB"]
 			id: "0972243D44A0CF46"
 			tasks: [{
 				id: "410F9EB59C1233FA"
@@ -324,11 +327,11 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 2.5d
+			x: -8.5d
+			y: 7.0d
 			subtitle: "更结实一些"
 			description: ["比青铜齿轮消耗更少的应力。"]
-			dependencies: ["4CC5E16EFDE1368C"]
+			dependencies: ["17F033FB5ACAACFB"]
 			id: "7EDDAD2D1E2B0613"
 			tasks: [{
 				id: "14A8C9A9E802E04B"
@@ -509,8 +512,8 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 4.0d
+			x: -14.5d
+			y: 1.0d
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "093D3F54B92EDFEA"
 			tasks: [{
@@ -625,7 +628,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -4.0d
 			y: 8.5d
 			shape: "gear"
 			subtitle: "氧气助燃"
@@ -642,7 +645,7 @@
 		{
 			title: "炼钢坩埚"
 			icon: "rankine:high_refractory_bricks"
-			x: -2.5d
+			x: -4.0d
 			y: 4.0d
 			shape: "gear"
 			subtitle: "更热门的话题"
@@ -708,6 +711,7 @@
 			x: -11.5d
 			y: -0.5d
 			subtitle: "又是一种炉子"
+			description: ["使用方法是把对应的方块放在耐火砖上，然后点燃主方块。"]
 			dependencies: ["71D389AF87847D7B"]
 			id: "67486831FE3C0FBA"
 			tasks: [
@@ -728,6 +732,7 @@
 			x: -5.5d
 			y: -0.5d
 			subtitle: "菱镁矿处理而来"
+			description: ["把菱镁矿堆成块之后烧制。"]
 			dependencies: ["67486831FE3C0FBA"]
 			id: "29556685F57F6657"
 			tasks: [{
@@ -740,12 +745,42 @@
 			x: -8.5d
 			y: -0.5d
 			subtitle: "快速烧制"
+			description: ["使用任何含碳酸钙的石头烧制而成。"]
 			dependencies: ["67486831FE3C0FBA"]
 			id: "4F279E9DBFD52861"
 			tasks: [{
 				id: "3BC11F00CF381B42"
 				type: "item"
 				item: "rankine:quicklime_block"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 8.5d
+			subtitle: "储能"
+			description: ["你需要使用机械手和传送带打造一条装配线来组装电容。"]
+			dependencies: [
+				"5B8BA38FF8C93A1A"
+				"4845A9B7B7B2B4A5"
+				"401439E8C1AA7A0A"
+			]
+			id: "688C57B7BC46E723"
+			tasks: [{
+				id: "1C0663BDDF3D6C78"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+		}
+		{
+			x: -16.0d
+			y: 5.5d
+			subtitle: "模仿玩家右击"
+			dependencies: ["0F8B1303FEF36BD1"]
+			id: "4845A9B7B7B2B4A5"
+			tasks: [{
+				id: "797605E2CAEAC528"
+				type: "item"
+				item: "create:deployer"
 			}]
 		}
 	]

@@ -44,7 +44,7 @@
 			tasks: [{
 				id: "7879CE737B0505EC"
 				type: "item"
-				item: "rankine:native_copper_ore"
+				item: "kubejs:native_copper"
 			}]
 		}
 		{
@@ -59,7 +59,7 @@
 			tasks: [{
 				id: "557A9CA215BE2887"
 				type: "item"
-				item: "rankine:malachite_ore"
+				item: "rankine:malachite"
 			}]
 		}
 		{
@@ -73,7 +73,7 @@
 			tasks: [{
 				id: "2F593478824A3E6A"
 				type: "item"
-				item: "rankine:native_tin_ore"
+				item: "kubejs:native_tin"
 			}]
 		}
 		{
@@ -87,7 +87,7 @@
 			tasks: [{
 				id: "3DD88F3B703D29A6"
 				type: "item"
-				item: "rankine:cassiterite_ore"
+				item: "rankine:cassiterite"
 			}]
 		}
 		{
@@ -102,7 +102,7 @@
 			tasks: [{
 				id: "2EB0C8C2F9ADED2A"
 				type: "item"
-				item: "rankine:pentlandite_ore"
+				item: "rankine:pentlandite"
 			}]
 		}
 		{
@@ -115,7 +115,7 @@
 			tasks: [{
 				id: "541A90057E7F506E"
 				type: "item"
-				item: "rankine:stibnite_ore"
+				item: "rankine:stibnite"
 			}]
 		}
 		{
@@ -130,7 +130,7 @@
 			tasks: [{
 				id: "373FD2D4326C86CC"
 				type: "item"
-				item: "rankine:magnetite_ore"
+				item: "rankine:magnetite"
 			}]
 		}
 		{
@@ -143,7 +143,7 @@
 			tasks: [{
 				id: "47655DAC7245BF43"
 				type: "item"
-				item: "rankine:pyrite_ore"
+				item: "kubejs:pyrite"
 			}]
 		}
 		{
@@ -156,7 +156,7 @@
 			tasks: [{
 				id: "35E8A9A70C19C434"
 				type: "item"
-				item: "rankine:cinnabar_ore"
+				item: "rankine:cinnabar"
 			}]
 		}
 		{
@@ -169,11 +169,11 @@
 			tasks: [{
 				id: "221421E9BAA85D61"
 				type: "item"
-				item: "rankine:bauxite_ore"
+				item: "kubejs:bauxite"
 			}]
 		}
 		{
-			icon: "rankine:lignite_ore"
+			icon: "rankine:lignite"
 			x: 4.0d
 			y: 2.0d
 			hide_dependency_lines: true
@@ -187,7 +187,7 @@
 			}]
 		}
 		{
-			icon: "rankine:bituminous_ore"
+			icon: "rankine:bituminous_coal"
 			x: 4.0d
 			y: 3.0d
 			hide_dependency_lines: true
@@ -210,7 +210,7 @@
 			tasks: [{
 				id: "0546782F91CF48F9"
 				type: "item"
-				item: "rankine:fluorite_ore"
+				item: "rankine:fluorite"
 			}]
 		}
 		{
@@ -223,12 +223,12 @@
 			tasks: [{
 				id: "322C517CA36D00A6"
 				type: "item"
-				item: "rankine:galena_ore"
+				item: "rankine:galena"
 			}]
 		}
 		{
-			x: -2.0d
-			y: 5.0d
+			x: 2.5d
+			y: 4.0d
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -236,7 +236,7 @@
 			tasks: [{
 				id: "1BDD85C0D0108B04"
 				type: "item"
-				item: "rankine:vanadinite_ore"
+				item: "rankine:vanadinite"
 			}]
 		}
 		{
@@ -251,12 +251,12 @@
 			tasks: [{
 				id: "02ABB3A735D30777"
 				type: "item"
-				item: "rankine:native_gold_ore"
+				item: "kubejs:gold"
 			}]
 		}
 		{
-			x: -0.5d
-			y: 5.0d
+			x: 4.0d
+			y: 4.0d
 			subtitle: "纯银"
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -265,7 +265,19 @@
 			tasks: [{
 				id: "214642829287011A"
 				type: "item"
-				item: "rankine:native_silver_ore"
+				item: "kubejs:silver"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			id: "61FAFEE493260397"
+			tasks: [{
+				id: "2EEDE3693B2D688F"
+				type: "item"
+				item: "rankine:magnetite"
 			}]
 		}
 	]
