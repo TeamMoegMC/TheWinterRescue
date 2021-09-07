@@ -1,11 +1,11 @@
 type = slideshow
 
 slideshow-meta {
-   name = twr_loading_slideshow
+   name = background
    width = 1920
    height = 1080
    x = 0
    y = 0
-   duration = 5.0
-   fadespeed = 1.0
+   duration = 10.0
+   fadespeed = 5.0
 }

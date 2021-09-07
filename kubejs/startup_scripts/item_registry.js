@@ -92,4 +92,15 @@ onEvent('item.registry', event => {
 	generalItems.forEach((item) => {
 		event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
 	});
+
+	let createTransitionalItems = [
+		'incomplete_capacitor_lv',
+		'incomplete_capacitor_mv',
+		'incomplete_capacitor_hv'
+	]
+
+	createTransitionalItems.forEach((item) => {
+		event.create(item).group('frostedheart').texture(`kubejs:item/transitional/${item}`).type('create:sequenced_assembly');
+	});
+
 })

@@ -9,17 +9,12 @@ customization-meta {
 }
 
 customization {
-  path = fancymenu/menu/generator_front.png
-  action = texturizebackground
+  name = background
+  action = setbackgroundslideshow
 }
 
 customization {
   identifier = %id=604346%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=376322%
   action = hidebutton
 }
 
@@ -36,7 +31,7 @@ customization {
   label = 帮助中心
   x = -2
   width = 100
-  actionid = 2e0c3a91-207c-4a14-96e4-a08d316d3bc81630689801194
+  actionid = 2bfc552a-e17e-4794-9d03-0d2565ee2e051630986677525
   action = addbutton
   y = 37
   backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
@@ -52,7 +47,7 @@ customization {
   hoverlabel = 支持我们
   x = -38
   width = 78
-  actionid = 96d18753-4b80-4c3e-9356-d837f7d32d031630689801196
+  actionid = 846d3955-bc45-4569-87bb-f545f25e03b51630986677528
   action = addbutton
   y = 62
   backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
@@ -159,11 +154,11 @@ customization {
 customization {
   orientation = mid-centered
   buttonaction = opencustomgui
-  x = -67
+  x = -66
   width = 132
-  actionid = 651409ba-5a8e-4f52-89c3-9ba5ed0eb1cb1630689801198
+  actionid = 476d75df-cb82-432a-b86d-cb3a893e1b801630986677530
   action = addbutton
-  y = -47
+  y = -44
   backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
   label = TeamMoeg Presents
   backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
@@ -178,7 +173,7 @@ customization {
   width = 200
   action = addtexture
   actionid = 8137d233-9442-4b47-a150-7caea41638d51630687242534
-  y = -102
+  y = -100
   height = 50
 }
 
@@ -215,6 +210,12 @@ customization {
   x = -100
   action = movebutton
   y = 11
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 多人游戏
 }
 
 customization {

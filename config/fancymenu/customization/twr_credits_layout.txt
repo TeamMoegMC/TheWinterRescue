@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  path = fancymenu/menu/bg/5.png
+  path = fancymenu/background/snowy_blue_trees.png
   action = texturizebackground
 }
 
