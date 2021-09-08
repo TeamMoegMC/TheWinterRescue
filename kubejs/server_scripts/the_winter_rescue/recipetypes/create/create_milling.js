@@ -64,4 +64,6 @@ onEvent('recipes', (event) => {
     event.recipes.createMilling([Item.of('minecraft:quartz').withChance(0.2), Item.of('minecraft:quartz').withChance(0.2)], '#forge:stones/sandstone')
     event.recipes.createMilling([Item.of('2x minecraft:stick'), Item.of('8x rankine:sawdust').withChance(0.5), Item.of('rankine:biomass').withChance(0.2)], '#minecraft:logs')
     event.recipes.createMilling([Item.of('2x minecraft:redstone'), Item.of('2x minecraft:redstone').withChance(0.5)], 'rankine:cinnabar')
+    event.recipes.createMilling([Item.of('2x kubejs:impure_alumina_dust'), Item.of('2x kubejs:impure_alumina_dust').withChance(0.5)], 'rankine:alumina')
+    event.recipes.createMilling([Item.of('kubejs:kaolin_dust'), Item.of('kubejs:kaolin_dust').withChance(0.5)], 'rankine:kaolinite_ball')
 });

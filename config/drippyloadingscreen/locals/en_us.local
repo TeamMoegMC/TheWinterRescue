@@ -486,5 +486,3 @@ drippyloadingscreen.helper.creator.add.customprogressbar = Custom Progress Bar
 
 drippyloadingscreen.helper.editor.backgroundimage = Background Image
 drippyloadingscreen.helper.editor.backgroundimage.btn.desc = Set an image as background.
-
-twr.menu.singleplayer = Singleplayer
