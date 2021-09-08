@@ -3,31 +3,23 @@ onEvent("ponder.tag.registry", event => {
 })
 
 onEvent("ponder.registry", event => {
-    event.create("charcoal_pit:main_bloomery", ["charcoal_pit:sandy_tuyere", "charcoal_pit:main_bloomery","charcoal_pit:bellows"])
+    event.create("charcoal_pit:main_bloomery", ["charcoal_pit:sandy_tuyere", "charcoal_pit:main_bloomery","charcoal_pit:sandy_brick"])
         .tag("the_winter_rescue:multi_block")
-        .scene("basic_usage", "1", "kubejs:3x3", (scene, util) => {
-            var pos = util.grid().at(1, 1, 1)
-
+        .scene("basic_usage", "1", "kubejs:bloomery", (scene, util) => {
+            var pos = util.grid().at(2, 0, 2)
+			
             scene.showBasePlate()
-            scene.idle(10)
 
-            scene.overlay().showText(20)
+            scene.idle(20)
+
+            scene.world().showSection(util.select().layer(1), Facing.down)
+            scene.idle(40)
+			scene.world().showSection(util.select().layer(2), Facing.down)
+			scene.idle(40)
+           scene.overlay().showText(60)
                 .text("2")
                 .pointAt(util.vector().centerOf(pos))
-            scene.idle(20)
-
-            scene.world().setBlock(pos, util.getDefaultState("charcoal_pit:main_bloomery"), true)
-            scene.world().showSection(util.select().layer(1), Facing.down)
-            scene.idle(20)
-
-           scene.overlay().showText(60)
-                .text("3")
-                .pointAt(util.vector().centerOf(pos))
+			scene.world().showSection(util.select().layer(3), Facing.down)
            scene.idle(60)
-
-
-            scene.idle(40)
-
-            // what??? you can MINE and PLACE blocks in MINECRAFT??
         })
 })

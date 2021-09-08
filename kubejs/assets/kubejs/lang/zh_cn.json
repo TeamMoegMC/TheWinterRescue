@@ -58,5 +58,9 @@
   "fluid.kubejs.cryolite": "冰晶石",
   "fluid.kubejs.aluminium": "熔融铝",
   
-  "itemGroup.kubejs.kubejs": "Kubejs"
+  "itemGroup.kubejs.kubejs": "Kubejs",
+  "the_winter_rescue.ponder.tag.multi_block.description": "搭建锻铁炉",
+  "the_winter_rescue.ponder.tag.multi_block": "锻铁炉",
+  "charcoal_pit.ponder.main_bloomery.basic_usage.text_1": "右键风箱吹气",
+  "charcoal_pit.ponder.main_bloomery.basic_usage.header": "锻铁炉"
 }
