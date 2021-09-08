@@ -44,6 +44,8 @@ onEvent('recipes', (event) => {
 
 	event.remove({ type: 'advancedrocketry:smallplate'});
 	event.remove({ type: 'advancedrocketry:rollingmachine'});
+	event.remove({ type: 'minecraft:smelting', input: 'rankine:magnetite_block'});
+	event.remove({ type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
 
 	disabledItems.forEach((disabledItem) => {
 		event.remove({output: disabledItem });
