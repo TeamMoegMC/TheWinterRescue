@@ -826,7 +826,7 @@
 			subtitle: "参与制作的人"
 			description: [
 				""
-				"同时感谢Luyuuke, GMG等人的贡献。"
+				"TeamMoeg-TWRDev是本整合核心开发团队。"
 			]
 			id: "7AFE32B08BB6CE6C"
 			tasks: [
@@ -941,42 +941,65 @@
 					consume_items: true
 					only_from_crafting: true
 				}
-			]
-			rewards: [{
-				id: "2E0E5A1096C8EE6D"
-				type: "item"
-				item: {
-					id: "minecraft:player_head"
-					Count: 1b
-					tag: {
-						Damage: 3
-						SkullOwner: {
-							Id: [I;
-								772352401
-								-2019478386
-								-1283856156
-								2128013235
-							]
-							Properties: {
-								textures: [{
-									Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNjUxNzI0MTYzMSwKICAicHJvZmlsZUlkIiA6ICI5MjE0NWIxYTgzNzA0NWZiOWY3Yjk3Y2NlNmRiMDIxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJFdmFudmVuaXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY3YzcyOWY0NjNkNWJkNmNjZTIxNDk2NGNmMDMxM2I3Yjk0NjhiZDMzMjYzNzk4Y2RlY2I5YjgzZjgwMGQyMiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
-									Signature: "IAhR4O0dD8oMLZdo3qtCAK6k/gOJrGHoWb4X2y8gmRU5AehGLiHHKBXZPF85AT4b/jcD5p0sWQKsASQ3HwNT9SkPkwmNSnu6odXj+BzS5RT42obKbOgc+msxalnaC/SaBE24NkK34oxmWM9vnoOYdKcBt7GYtWXBmlxrln2PsU5BUe8LKyYHWIFeaqMK9QNpSf1h1WGwGVRH5+1+hxR8huJ+fkPLbf2xqwvT5PcmfPOXiBaAIcB9rMR0zaKJueWHsrFEyXDhB7SRAQMYZnG6T2wx/xYvKtPu7kkUBZeLA3X+gvjx3F3hdY7igB0dUzuj1ciUvKVVDFOIxbOF1tuWMfxgGVb6aU4v7NUyZ/kpGnRgmmOeYH4xO11lRv6XXNhtPXJ3L/SLpZLfR4xadQzeF/BfEmR0jth4d8TgxLtNXEzUbptJmXEiNEbWDtIGvPR14PqNb4NssUkEs4np41mV+SpScNlg/z5VhH6SRnCDaPjBShQLldXnIuuAoh2OC8GN2GUqfz2EPLlzGcyyST9B5u7YuIYqaYND86VYXXRhQuMPb3YJC59Mql72AZq55vvKqk7xkAgsDNDBAHh6HozpFn4T61NubAw7y5ikngmdCIVo+sDgqnqgYhEUUx3CzYlw/Og6Nlj92F8Br8VX4VMMGE6w2EyZhn6MhUo1n8PByEA="
-								}]
+				{
+					id: "259B555091E40BFA"
+					type: "item"
+					title: "Evan"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "Evanvenir"
 							}
-							Name: "Evanvenir"
 						}
-						display: {
-							Name: "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Evan\"}],\"text\":\"\"}"
-						}
-						SkullOwnerOrig: [I;
-							772352401
-							-2019478386
-							-1283856156
-							2128013235
-						]
 					}
 				}
-			}]
+			]
+			rewards: [
+				{
+					id: "16C294F014C3A727"
+					type: "item"
+					title: "Lyuuke"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "Lyuuke"
+							}
+						}
+					}
+				}
+				{
+					id: "6892D13E32E2236B"
+					type: "item"
+					title: "goumo_g"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "goumo_g"
+							}
+						}
+					}
+				}
+				{
+					id: "0944042120B83038"
+					type: "item"
+					title: "khjxiaogu"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "khjxiaogu"
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "&6FTBU圈地 必看"

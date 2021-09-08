@@ -74,4 +74,4 @@ B:showvanillamovewarning = 'true';
 
 ##[ui]
 
-F:uiscale = '1.0';
+F:uiscale = '4.0';

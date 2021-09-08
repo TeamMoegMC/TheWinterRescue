@@ -98,7 +98,7 @@ customization {
 customization {
   orientation = mid-centered
   shadow = false
-  x = -22
+  x = -20
   action = addtext
   actionid = 2d5e2830-10c4-4576-aaf2-2903840c646e1630689301157
   y = 33
@@ -113,9 +113,21 @@ customization {
   x = -22
   action = addtext
   actionid = 5a5fc302-a6f8-44df-9385-d8cccc5547451630689314902
-  y = 45
+  y = 44
   scale = 1.0
   alignment = left
   value = goumo_g
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -26
+  action = addtext
+  actionid = 2f119ff4-05c1-426c-9d48-4099594171c01631118277100
+  y = 56
+  scale = 1.0
+  alignment = left
+  value = khjxiaogu
 }
 

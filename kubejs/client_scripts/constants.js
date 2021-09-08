@@ -33,6 +33,7 @@ const serverItemsToHide = [
     'stone_age:copper_hammer',
     'stone_age:bronze_hammer',
     'stone_age:stone_hammer',
+    'stone_age:aqueduct',
 
     // ie
     'immersiveengineering:toolbox',
@@ -52,6 +53,21 @@ const serverItemsToHide = [
     'rankine:alloy_gear',
     'rankine:totem_of_cobbling',
     'rankine:element_indexer',
+    'rankine:power_cell',
+    'rankine:power_cell_2',
+    'rankine:power_cell_3',
+    'rankine:power_cell_4',
+    'rankine:power_cell_5',
+    'rankine:power_cell_6',
+    'rankine:steel_gold_pan',
+
+    // create
+    'create:water_wheel',
+    'create:cogwheel',
+    'create:large_cogwheel',
+    'create:windmill_bearing',
+    'create:flywheel',
+    'create:furnace_engine',
 
     // rankine machines
     'rankine:diamond_anvil_cell',

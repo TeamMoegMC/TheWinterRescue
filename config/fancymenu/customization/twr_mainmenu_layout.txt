@@ -31,7 +31,7 @@ customization {
   label = 帮助中心
   x = -2
   width = 100
-  actionid = 2bfc552a-e17e-4794-9d03-0d2565ee2e051630986677525
+  actionid = 9b965a7b-f0ce-43d5-8987-1e784aec050d1631121087248
   action = addbutton
   y = 37
   backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
@@ -47,7 +47,7 @@ customization {
   hoverlabel = 支持我们
   x = -38
   width = 78
-  actionid = 846d3955-bc45-4569-87bb-f545f25e03b51630986677528
+  actionid = c91a7520-5063-498d-bb51-8b44d3efe4701631121087252
   action = addbutton
   y = 62
   backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
@@ -156,7 +156,7 @@ customization {
   buttonaction = opencustomgui
   x = -66
   width = 132
-  actionid = 476d75df-cb82-432a-b86d-cb3a893e1b801630986677530
+  actionid = 3b7f3e26-87f5-4f3b-bdc4-b5545a9d923e1631121087255
   action = addbutton
   y = -44
   backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
@@ -256,5 +256,10 @@ customization {
   identifier = %id=400298%
   action = sethoverlabel
   label = 单人游戏
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
 }
 

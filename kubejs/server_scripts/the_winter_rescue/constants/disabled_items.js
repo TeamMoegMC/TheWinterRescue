@@ -22,6 +22,7 @@ const disabledItems = [
     'stone_age:copper_hammer',
     'stone_age:bronze_hammer',
     'stone_age:stone_hammer',
+    'stone_age:aqueduct',
 
     // ie
     'immersiveengineering:toolbox',
@@ -41,33 +42,13 @@ const disabledItems = [
     'rankine:alloy_gear',
     'rankine:totem_of_cobbling',
     'rankine:element_indexer',
-    // 'rankine:power_cell',
-    // 'rankine:power_cell_2',
-    // 'rankine:power_cell_3',
-    // 'rankine:power_cell_4',
-    // 'rankine:power_cell_5',
-    // 'rankine:power_cell_6',
+    'rankine:power_cell',
+    'rankine:power_cell_2',
+    'rankine:power_cell_3',
+    'rankine:power_cell_4',
+    'rankine:power_cell_5',
+    'rankine:power_cell_6',
     'rankine:steel_gold_pan',
-
-
-    // rankine machines
-    'rankine:alloy_furnace',
-    'rankine:induction_furnace',
-    'rankine:piston_crusher',
-    'rankine:gyratory_crusher',
-    'rankine:template_table',
-    'rankine:alloy_template',
-    'rankine:crucible',
-    'rankine:laser_pylon_base',
-    'rankine:laser_pylon_top',
-    'rankine:laser_quarry',
-    'rankine:botanist_station',
-    'rankine:diamond_anvil_cell',
-    'rankine:rankine_box',
-    'rankine:sediment_fan',
-    'rankine:rare_earth_electromagnet',
-    'rankine:alnico_electromagnet',
-    'rankine:charcoal_pit',
 
     // create
     'create:water_wheel',
@@ -89,5 +70,24 @@ const disabledItems = [
     'create:flywheel',
     'create:furnace_engine',
     'create:schematicannon',
-    'create:mechanical_plough'
+    'create:mechanical_plough',
+
+    // rankine machines
+    'rankine:alloy_furnace',
+    'rankine:induction_furnace',
+    'rankine:piston_crusher',
+    'rankine:gyratory_crusher',
+    'rankine:template_table',
+    'rankine:alloy_template',
+    'rankine:crucible',
+    'rankine:laser_pylon_base',
+    'rankine:laser_pylon_top',
+    'rankine:laser_quarry',
+    'rankine:botanist_station',
+    'rankine:diamond_anvil_cell',
+    'rankine:rankine_box',
+    'rankine:sediment_fan',
+    'rankine:rare_earth_electromagnet',
+    'rankine:alnico_electromagnet',
+    'rankine:charcoal_pit',
 ]

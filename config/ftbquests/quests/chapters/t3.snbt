@@ -270,6 +270,7 @@
 			x: 0.0d
 			y: -1.0d
 			subtitle: "冶炼原料"
+			description: ["制作中，请期待下个版本更新。"]
 			dependencies: ["0019852CD6EC0354"]
 			id: "5808CFED17AE91D4"
 			tasks: [{
