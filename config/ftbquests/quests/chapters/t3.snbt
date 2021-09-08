@@ -70,7 +70,7 @@
 		}
 		{
 			x: 5.5d
-			y: -2.0d
+			y: -1.0d
 			dependencies: ["7D5541059C15C6AE"]
 			id: "08EBBCFE4EA1A949"
 			tasks: [{
@@ -90,7 +90,7 @@
 		}
 		{
 			x: 5.5d
-			y: 3.0d
+			y: 2.0d
 			dependencies: ["7D5541059C15C6AE"]
 			id: "249ED58D8257A39C"
 			tasks: [{
@@ -110,7 +110,7 @@
 		}
 		{
 			x: 4.5d
-			y: -2.0d
+			y: -1.0d
 			dependencies: ["7D5541059C15C6AE"]
 			id: "2A53579CC24D51BA"
 			tasks: [{
@@ -129,7 +129,7 @@
 		}
 		{
 			x: 4.5d
-			y: 3.0d
+			y: 2.0d
 			dependencies: ["7D5541059C15C6AE"]
 			id: "2F6740B8E3AB0654"
 			tasks: [{
@@ -167,7 +167,7 @@
 		}
 		{
 			x: 3.5d
-			y: -2.0d
+			y: -1.0d
 			dependencies: ["7D5541059C15C6AE"]
 			id: "2CFA13EAE25D33D8"
 			tasks: [{
@@ -186,7 +186,7 @@
 		}
 		{
 			x: 2.5d
-			y: -2.0d
+			y: -1.0d
 			dependencies: ["7D5541059C15C6AE"]
 			id: "4EA4D1035F57C40B"
 			tasks: [{
@@ -208,7 +208,7 @@
 		}
 		{
 			x: 2.5d
-			y: 3.0d
+			y: 2.0d
 			dependencies: ["7D5541059C15C6AE"]
 			id: "56C8EE300D16E4BD"
 			tasks: [{
@@ -230,7 +230,7 @@
 		}
 		{
 			x: 3.5d
-			y: 3.0d
+			y: 2.0d
 			dependencies: ["7D5541059C15C6AE"]
 			id: "0D71A0947F8B8031"
 			tasks: [{
@@ -270,6 +270,7 @@
 			x: 0.0d
 			y: -1.0d
 			subtitle: "冶炼原料"
+			dependencies: ["0019852CD6EC0354"]
 			id: "5808CFED17AE91D4"
 			tasks: [{
 				id: "417E9910C7BE0C2C"
@@ -323,8 +324,8 @@
 		{
 			title: "黑色金属-钢"
 			icon: "immersiveengineering:ingot_steel"
-			x: 1.5d
-			y: -4.0d
+			x: 0.0d
+			y: -2.5d
 			subtitle: "坚硬无比"
 			description: ["进行大规模工业化的基础."]
 			dependencies: [
@@ -375,8 +376,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -4.0d
+			x: 0.0d
+			y: -5.5d
 			dependencies: ["0019852CD6EC0354"]
 			id: "4DE01CED0E30AD08"
 			tasks: [{
@@ -384,6 +385,36 @@
 				type: "item"
 				item: "steampowered:steel_flywheel"
 			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: ["0019852CD6EC0354"]
+			id: "2516E94BD07F34E5"
+			tasks: [
+				{
+					id: "3F721C781353F092"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "the_winter_rescue:steel_boiler"
+						}
+					}
+				}
+				{
+					id: "5CB6D7917EFB1260"
+					type: "item"
+					item: {
+						id: "custommachinery:custom_machine_item"
+						Count: 1b
+						tag: {
+							machine: "the_winter_rescue:steel_burner"
+						}
+					}
+				}
+			]
 		}
 	]
 }

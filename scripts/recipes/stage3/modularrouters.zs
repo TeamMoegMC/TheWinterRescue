@@ -33,9 +33,9 @@ recipeShaped("modularrouters_blank_module",<item:modularrouters:blank_module>,[
 ]);
 
 recipeShaped("modularrouters_item_router",<item:modularrouters:item_router>,[
-  [<tag:items:forge:plates/aluminum>,<tag:items:forge:gears/steel>,<tag:items:forge:plates/aluminum>],
+  [<tag:items:forge:plates/aluminum>,<tag:items:the_winter_rescue:cogwheels>,<tag:items:forge:plates/aluminum>],
   [<tag:items:forge:plates/aluminum>,<item:modularrouters:blank_module>,<tag:items:forge:plates/aluminum>],
-  [<tag:items:forge:plates/aluminum>,<tag:items:forge:gears/steel>,<tag:items:forge:plates/aluminum>]
+  [<tag:items:forge:plates/aluminum>,<tag:items:the_winter_rescue:cogwheels>,<tag:items:forge:plates/aluminum>]
 ]);
 
 recipeShaped("modularrouters_blank_upgrade",<item:modularrouters:blank_upgrade>,[
@@ -78,8 +78,8 @@ recipeShaped("modularrouters_sender_module_2",<item:modularrouters:sender_module
 ]);
 
 recipeShaped("modularrouters_void_module",<item:modularrouters:void_module>,[
-  [<item:minecraft:flint_and_steel>,<tag:items:forge:gears/steel>,<item:minecraft:flint_and_steel>],
-  [<tag:items:forge:gears/steel>,<item:modularrouters:blank_module>,<tag:items:forge:gears/steel>],
-  [<item:minecraft:flint_and_steel>,<tag:items:forge:gears/steel>,<item:minecraft:flint_and_steel>]
+  [<item:minecraft:flint_and_steel>,<tag:items:the_winter_rescue:cogwheels>,<item:minecraft:flint_and_steel>],
+  [<tag:items:the_winter_rescue:cogwheels>,<item:modularrouters:blank_module>,<tag:items:the_winter_rescue:cogwheels>],
+  [<item:minecraft:flint_and_steel>,<tag:items:the_winter_rescue:cogwheels>,<item:minecraft:flint_and_steel>]
 ]);
 

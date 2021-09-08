@@ -87,6 +87,8 @@
 			x: -4.5d
 			y: -0.5d
 			description: ["在这漫天冰雪的世界里，还有什么比冰雪更适合做填充物的呢?"]
+			hide_dependency_lines: true
+			dependencies: ["7AA152F9B5AF6677"]
 			id: "0732C5BB3471FFA7"
 			tasks: [
 				{
@@ -109,6 +111,7 @@
 				"集煎炒焖炸卤炖于一体的多功能锅子"
 				"使用方法很简单，把带有食材值描述的植物扔进去炖就完事了，至于做出来什么..."
 			]
+			dependencies: ["77A7511048D5767B"]
 			id: "7AA152F9B5AF6677"
 			tasks: [{
 				id: "52F890F133BBE3C5"
@@ -169,6 +172,7 @@
 			y: -0.5d
 			subtitle: "劈砍木头时偶尔获得"
 			description: ["混在食物里可以增强饱腹感。"]
+			dependencies: ["7887EB905BAA7BEF"]
 			id: "20F1DD1209093059"
 			tasks: [{
 				id: "0A913ECAD3E5B736"

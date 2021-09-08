@@ -1,5 +1,5 @@
 {
-    "name": "Bronze Burning Chamber",
+    "name": "青铜燃烧室",
     "appearance": {
         "idle": {
             "block": "the_winter_rescue:machine/bronze_burner"
@@ -13,7 +13,7 @@
             "type": "custommachinery:item",
             "id": "fuel",
             "mode": "input",
-            "variant": "custommachinery:fuel"
+            "variant": "custommachinery:default"
         },
         {
             "type": "custommachinery:item",

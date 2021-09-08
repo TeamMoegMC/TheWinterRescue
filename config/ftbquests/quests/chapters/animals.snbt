@@ -13,10 +13,7 @@
 		x: 0.0d
 		y: 0.0d
 		subtitle: "“我一脚下去你可能会死。”"
-		dependencies: [
-			"4E2FF1AFA626A42B"
-			"7521769E8333942B"
-		]
+		dependencies: ["7521769E8333942B"]
 		id: "60C1118A879D4548"
 		tasks: [{
 			id: "6294DB20132A0247"

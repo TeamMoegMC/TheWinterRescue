@@ -216,7 +216,7 @@
 		}
 		{
 			x: -13.0d
-			y: 4.5d
+			y: 4.0d
 			subtitle: "忘掉木齿轮"
 			description: [
 				"如果你玩过机械动力，你大概知道木齿轮。"
@@ -232,9 +232,9 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: -5.0d
-			dependencies: ["0F8B1303FEF36BD1"]
+			x: -17.5d
+			y: -2.0d
+			dependencies: ["328D948C4C800873"]
 			id: "404CFF89CCFE9D6B"
 			tasks: [{
 				id: "5A7562201B27BBF3"
@@ -243,10 +243,13 @@
 			}]
 		}
 		{
-			x: -17.5d
-			y: -3.5d
+			x: -11.5d
+			y: -2.0d
 			subtitle: "通入蒸汽"
-			dependencies: ["7612A96FFEFC5635"]
+			dependencies: [
+				"263F5ADF4A6CDF5A"
+				"197308226CAE52C4"
+			]
 			id: "32A497C69C641D2B"
 			tasks: [{
 				id: "3B84D2B7F9F7E65F"
@@ -267,8 +270,8 @@
 			}]
 		}
 		{
-			x: -17.5d
-			y: -5.0d
+			x: -8.5d
+			y: -2.0d
 			shape: "gear"
 			subtitle: "并不会飞"
 			description: ["和青铜蒸汽引擎配合产生大量的应力。"]
@@ -308,8 +311,8 @@
 			}]
 		}
 		{
-			x: -13.5d
-			y: -3.5d
+			x: -8.5d
+			y: 2.5d
 			subtitle: "一机三用"
 			description: [
 				"在前方放置岩浆可以当作熔炉使用。"
@@ -317,7 +320,7 @@
 				"在前方放置火焰则可以当作烟熏炉。"
 				"大多情况下需要配合一条传送带使用。"
 			]
-			dependencies: ["197308226CAE52C4"]
+			dependencies: ["4CC5E16EFDE1368C"]
 			id: "29DCBBB54EE90E51"
 			tasks: [{
 				id: "5388D141B1BE4837"
@@ -366,7 +369,7 @@
 		}
 		{
 			x: -11.5d
-			y: 4.5d
+			y: 4.0d
 			subtitle: "压力山大"
 			description: ["一台实用的机器，你可以用它增产板材，当然也可以做巧克力。"]
 			dependencies: ["4CC5E16EFDE1368C"]
@@ -378,11 +381,11 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: -2.5d
+			x: -16.0d
+			y: -2.0d
 			subtitle: "一锅粥"
 			description: ["可以处理所有的无序合成配方。"]
-			dependencies: ["197308226CAE52C4"]
+			dependencies: ["6000F43C135FC068"]
 			id: "3549A50510878505"
 			tasks: [{
 				id: "73AFD699A6DA7ADC"
@@ -392,8 +395,8 @@
 		}
 		{
 			x: -14.5d
-			y: -1.5d
-			subtitle: "一个铸铁做成的盆"
+			y: -2.0d
+			subtitle: "一个铁盆"
 			description: ["搅拌机和辊压机的最好搭档。"]
 			dependencies: ["3549A50510878505"]
 			id: "3CC2245A281AABC1"
@@ -433,12 +436,13 @@
 			}]
 		}
 		{
-			x: -15.0d
-			y: -5.0d
+			x: -17.5d
+			y: -3.5d
 			subtitle: "人民有力量"
 			description: [
 				"手摇产生的动力不大，但是足以泵出能够带动青铜蒸汽引擎运行的蒸汽量。"
 				"在做出蒸汽引擎后，你便能解放双手了。"
+				"你需要它来驱动一些基础的机器，比如搅拌机。"
 			]
 			dependencies: ["404CFF89CCFE9D6B"]
 			id: "6000F43C135FC068"
@@ -450,11 +454,11 @@
 		}
 		{
 			title: "青铜锅炉"
-			x: -17.5d
+			x: -13.0d
 			y: -2.0d
 			subtitle: "人类的一小步"
 			description: ["燃烧煤炭和焦煤产生蒸汽"]
-			dependencies: ["328D948C4C800873"]
+			dependencies: ["71D389AF87847D7B"]
 			id: "7612A96FFEFC5635"
 			tasks: [
 				{
@@ -482,9 +486,9 @@
 			]
 		}
 		{
-			x: -16.0d
+			x: -13.0d
 			y: -3.5d
-			dependencies: ["32A497C69C641D2B"]
+			dependencies: ["6000F43C135FC068"]
 			id: "17C359DCF058E698"
 			tasks: [{
 				id: "26C5FFE011F0C78A"
@@ -493,13 +497,10 @@
 			}]
 		}
 		{
-			x: -15.0d
+			x: -11.5d
 			y: -3.5d
 			subtitle: "把蒸汽从锅炉抽出来"
-			dependencies: [
-				"17C359DCF058E698"
-				"6000F43C135FC068"
-			]
+			dependencies: ["17C359DCF058E698"]
 			id: "197308226CAE52C4"
 			tasks: [{
 				id: "50543ED5E6259184"
@@ -508,8 +509,8 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: -2.5d
+			x: -10.0d
+			y: -3.5d
 			dependencies: ["17C359DCF058E698"]
 			id: "093D3F54B92EDFEA"
 			tasks: [{
@@ -531,7 +532,7 @@
 			}]
 		}
 		{
-			x: -11.5d
+			x: -10.0d
 			y: 8.5d
 			subtitle: "最基础的电线"
 			dependencies: ["1F2BD4A72596B287"]
@@ -621,7 +622,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -4.0d
 			y: 8.5d
 			shape: "gear"
 			subtitle: "氧气助燃"
@@ -637,7 +638,7 @@
 		{
 			title: "炼钢坩埚"
 			icon: "rankine:high_refractory_bricks"
-			x: -3.5d
+			x: -4.0d
 			y: -0.5d
 			shape: "gear"
 			subtitle: "更热门的话题"
@@ -672,7 +673,7 @@
 			]
 		}
 		{
-			x: -5.0d
+			x: -5.5d
 			y: -0.5d
 			subtitle: "耐高温"
 			description: ["需要动力搅拌机和烈焰人燃烧室制作"]
@@ -685,8 +686,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 1.0d
+			x: -14.5d
+			y: 2.5d
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "4B46838E7C65D4C4"
 			tasks: [{
@@ -717,7 +718,7 @@
 			]
 		}
 		{
-			x: -6.0d
+			x: -7.0d
 			y: -0.5d
 			subtitle: "菱镁矿处理而来"
 			description: ["把菱镁矿堆成块之后烧制。"]
@@ -781,6 +782,52 @@
 				id: "196BC8A03CF82070"
 				type: "item"
 				item: "immersiveengineering:circuit_board"
+			}]
+		}
+		{
+			x: -14.5d
+			y: 4.0d
+			dependencies: ["3E8F565DE61309B2"]
+			id: "5C078D2F43CA4048"
+			tasks: [{
+				id: "0107400B48386449"
+				type: "item"
+				item: "create:wrench"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 1.0d
+			subtitle: "制造更大的物品"
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "263F5ADF4A6CDF5A"
+			tasks: [{
+				id: "279A50D7F6558E15"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			x: -11.5d
+			y: 2.5d
+			subtitle: "小巧便携"
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "248D44C92972DF23"
+			tasks: [{
+				id: "7A337FEB6672E042"
+				type: "item"
+				item: "extendedcrafting:handheld_table"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			dependencies: ["0F8B1303FEF36BD1"]
+			id: "41D8E04627E55A86"
+			tasks: [{
+				id: "48F77C1ACADE71D8"
+				type: "item"
+				item: "create:mechanical_saw"
 			}]
 		}
 	]

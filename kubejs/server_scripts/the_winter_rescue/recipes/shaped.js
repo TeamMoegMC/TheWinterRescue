@@ -57,33 +57,33 @@ onEvent('recipes', (event) => {
             A: '#forge:rods/cast_iron',
             C: 'minecraft:crafting_table',
         }),
-        shapedRecipe('4x steampowered:bronze_cogwheel', [' B ', 'BAB', ' B '], {
-            A: '#forge:rods/cast_iron',
-            B: '#forge:plates/bronze',
+        shapedRecipe('4x create:shaft', [' A ', ' A '], {
+            A: '#forge:rods/cast_iron'
         }),
-        shapedRecipe('2x steampowered:bronze_large_cogwheel', ['BBB', 'BAB', 'BBB'], {
-            A: '#forge:rods/cast_iron',
-            B: '#forge:plates/bronze',
-        }),
-        shapedRecipe('4x steampowered:cast_iron_cogwheel', [' B ', 'BAB', ' B '], {
-            A: '#forge:rods/cast_iron',
-            B: '#forge:plates/cast_iron',
-        }),
-        shapedRecipe('2x steampowered:cast_iron_large_cogwheel', ['BBB', 'BAB', 'BBB'], {
-            A: '#forge:rods/cast_iron',
-            B: '#forge:plates/cast_iron',
-        }),
-        shapedRecipe('4x steampowered:steel_cogwheel', [' B ', 'BAB', ' B '], {
-            A: '#forge:rods/cast_iron',
-            B: '#forge:plates/steel',
-        }),
-        shapedRecipe('2x steampowered:steel_large_cogwheel', ['BBB', 'BAB', 'BBB'], {
-            A: '#forge:rods/cast_iron',
-            B: '#forge:plates/steel',
-        })
     ]
 
     var newRecipes = [
+        shapedRecipe('2x create:shaft', [' A ', ' A '], {
+            A: '#forge:ingots/iron'
+        }),
+        shapedRecipe('create:hand_crank', [' C ', 'BBB', '  A'], {
+            A: '#forge:ingots/iron',
+            B: '#minecraft:planks',
+            C: 'create:shaft'
+        }),
+        shapedRecipe('create:whisk', ['BAB', 'BAB', 'BBB'], {
+            A: '#forge:ingots/iron',
+            B: '#forge:plates/iron'
+        }),
+        shapedRecipe('create:mechanical_mixer', [' A ', 'DCD', ' B '], {
+            A: '#forge:ingots/iron',
+            B: 'create:whisk',
+            C: '#forge:sheetmetals/iron',
+            D: '#the_winter_rescue:cogwheels'
+        }),
+        shapedRecipe('create:basin', ['A A', 'AAA'], {
+            A: '#forge:plates/iron'
+        }),
         shapedRecipe('create:belt_connector', ['AAA', 'BBB', 'AAA'], {
             A: '#forge:leather',
             B: '#forge:string',
@@ -92,7 +92,58 @@ onEvent('recipes', (event) => {
             A: '#forge:plates/brass',
             B: 'create:electron_tube',
             C: 'create:shaft',
-        })
+        }),
+        shapedRecipe('4x steampowered:bronze_cogwheel', [' B ', 'BAB', ' B '], {
+            A: 'create:shaft',
+            B: '#forge:plates/bronze',
+        }),
+        shapedRecipe('2x steampowered:bronze_large_cogwheel', ['BBB', 'BAB', 'BBB'], {
+            A: 'create:shaft',
+            B: '#forge:plates/bronze',
+        }),
+        shapedRecipe('4x steampowered:cast_iron_cogwheel', [' B ', 'BAB', ' B '], {
+            A: 'create:shaft',
+            B: '#forge:plates/cast_iron',
+        }),
+        shapedRecipe('2x steampowered:cast_iron_large_cogwheel', ['BBB', 'BAB', 'BBB'], {
+            A: 'create:shaft',
+            B: '#forge:plates/cast_iron',
+        }),
+        shapedRecipe('4x steampowered:steel_cogwheel', [' B ', 'BAB', ' B '], {
+            A: 'create:shaft',
+            B: '#forge:plates/steel',
+        }),
+        shapedRecipe('2x steampowered:steel_large_cogwheel', ['BBB', 'BAB', 'BBB'], {
+            A: 'create:shaft',
+            B: '#forge:plates/steel',
+        }),
+        shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:bronze_boiler"}'), ['B B', 'BAB', 'BBB'], {
+            A: 'create:fluid_pipe',
+            B: '#forge:plates/bronze',
+        }),
+        shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:cast_iron_boiler"}'), ['B B', 'BAB', 'BBB'], {
+            A: 'create:fluid_pipe',
+            B: '#forge:plates/bronze',
+        }),
+        shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:steel_boiler"}'), ['B B', 'BAB', 'BBB'], {
+            A: 'create:fluid_pipe',
+            B: '#forge:plates/bronze',
+        }),
+        shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:bronze_burner"}'), ['BCB', 'B B', 'AAA'], {
+            A: 'rankine:refractory_bricks',
+            B: '#forge:plates/bronze',
+            C: '#forge:plates/copper'
+        }),
+        shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:cast_iron_burner"}'), ['BCB', 'B B', 'AAA'], {
+            A: 'rankine:refractory_bricks',
+            B: '#forge:plates/cast_iron',
+            C: '#forge:plates/copper'
+        }),
+        shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:steel_burner"}'), ['BCB', 'B B', 'AAA'], {
+            A: 'rankine:high_refractory_bricks',
+            B: '#forge:plates/steel',
+            C: '#forge:plates/copper'
+        }),
     ]
 
     /**
