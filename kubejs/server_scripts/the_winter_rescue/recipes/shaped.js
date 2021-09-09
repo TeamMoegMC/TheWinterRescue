@@ -60,6 +60,13 @@ onEvent('recipes', (event) => {
         shapedRecipe('4x create:shaft', [' A ', ' A '], {
             A: '#forge:rods/cast_iron'
         }),
+        shapedRecipe('frozenup:truffle_cake', ['EEE', 'ABA', 'DCD'], {
+            A: 'minecraft:cocoa_beans',
+            B: 'minecraft:egg',
+            C: 'frozenup:truffle',
+            D: 'frostedheart:rye_flour',
+            E: 'minecraft:milk_bucket',
+        })
     ]
 
     var newRecipes = [

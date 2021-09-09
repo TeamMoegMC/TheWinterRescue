@@ -23,6 +23,7 @@
 				"B  B       BCB  AAA    B=能量增幅"
 				"ABA  A A  ABA  AAA   C=能量核心"
 				"搭好结构之后用IE工程师锤敲一下。"
+				"在JEI界面悬浮在能量塔方块上长按W进行思索，查看搭建结构。"
 			]
 			dependencies: ["0A9A5166127945AB"]
 			id: "69D939596ED4C0AF"
@@ -36,11 +37,13 @@
 					id: "6745F87A897EB5C5"
 					type: "item"
 					item: "frostedheart:generator_amplifier_r1"
+					count: 8L
 				}
 				{
 					id: "75C752C598BB386D"
 					type: "item"
 					item: "frostedheart:generator_brick"
+					count: 21L
 				}
 			]
 			rewards: [

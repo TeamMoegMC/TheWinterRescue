@@ -11,7 +11,7 @@ B:enablehotkeys = 'true';
 B:playmenumusic = 'true';
 B:showdebugwarnings = 'true';
 [Sets the default GUI scale on first launch. Useful for modpacks. Cache data is saved in '/mods/fancymenu/'.]
-I:defaultguiscale = '3';
+I:defaultguiscale = '-1';
 
 
 ##[customization]

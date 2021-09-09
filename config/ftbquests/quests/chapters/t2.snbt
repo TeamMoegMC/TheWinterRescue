@@ -33,8 +33,8 @@
 			}]
 		}
 		{
-			x: -19.0d
-			y: -2.0d
+			x: -17.5d
+			y: 1.0d
 			subtitle: "安稳入眠"
 			dependencies: ["328D948C4C800873"]
 			hide: true
@@ -215,15 +215,15 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 4.0d
+			x: -17.5d
+			y: -3.5d
 			subtitle: "忘掉木齿轮"
 			description: [
 				"如果你玩过机械动力，你大概知道木齿轮。"
 				"然而在这样的寒冷天气里，木制品太不结实了。"
 				"在这里，制作齿轮的最低材料要求是&e青铜。"
 			]
-			dependencies: ["4CC5E16EFDE1368C"]
+			dependencies: ["6000F43C135FC068"]
 			id: "3E8F565DE61309B2"
 			tasks: [{
 				id: "38B838F0D0E4B1E1"
@@ -232,7 +232,7 @@
 			}]
 		}
 		{
-			x: -17.5d
+			x: -19.0d
 			y: -2.0d
 			dependencies: ["328D948C4C800873"]
 			id: "404CFF89CCFE9D6B"
@@ -299,10 +299,7 @@
 			x: -13.0d
 			y: 7.0d
 			subtitle: "跟我一起切割磁感线"
-			dependencies: [
-				"17F033FB5ACAACFB"
-				"3E8F565DE61309B2"
-			]
+			dependencies: ["17F033FB5ACAACFB"]
 			id: "1F2BD4A72596B287"
 			tasks: [{
 				id: "48D033DB353BBA5A"
@@ -381,11 +378,11 @@
 			}]
 		}
 		{
-			x: -16.0d
+			x: -17.5d
 			y: -2.0d
 			subtitle: "一锅粥"
 			description: ["可以处理所有的无序合成配方。"]
-			dependencies: ["6000F43C135FC068"]
+			dependencies: ["3E8F565DE61309B2"]
 			id: "3549A50510878505"
 			tasks: [{
 				id: "73AFD699A6DA7ADC"
@@ -436,7 +433,7 @@
 			}]
 		}
 		{
-			x: -17.5d
+			x: -19.0d
 			y: -3.5d
 			subtitle: "人民有力量"
 			description: [
@@ -488,7 +485,7 @@
 		{
 			x: -13.0d
 			y: -3.5d
-			dependencies: ["6000F43C135FC068"]
+			dependencies: ["3E8F565DE61309B2"]
 			id: "17C359DCF058E698"
 			tasks: [{
 				id: "26C5FFE011F0C78A"
@@ -687,7 +684,7 @@
 		}
 		{
 			x: -14.5d
-			y: 2.5d
+			y: 4.0d
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "4B46838E7C65D4C4"
 			tasks: [{
@@ -764,7 +761,10 @@
 			x: -16.0d
 			y: 5.5d
 			subtitle: "模仿玩家右击"
-			dependencies: ["1F94471C5310ECFA"]
+			dependencies: [
+				"1F94471C5310ECFA"
+				"4B46838E7C65D4C4"
+			]
 			id: "4845A9B7B7B2B4A5"
 			tasks: [{
 				id: "797605E2CAEAC528"
@@ -786,7 +786,7 @@
 		}
 		{
 			x: -14.5d
-			y: 4.0d
+			y: -3.5d
 			dependencies: ["3E8F565DE61309B2"]
 			id: "5C078D2F43CA4048"
 			tasks: [{
@@ -828,6 +828,39 @@
 				id: "48F77C1ACADE71D8"
 				type: "item"
 				item: "create:mechanical_saw"
+			}]
+		}
+		{
+			title: "思索"
+			x: -20.5d
+			y: -3.5d
+			subtitle: "重要工具"
+			description: [
+				"思索是很重要的技能。"
+				"如果物品下方有关于思索的提示，长按W即可进入思索场景。"
+				"思索能帮助你了解一个方块的用途或者一个结构的搭建方法。"
+			]
+			dependencies: ["404CFF89CCFE9D6B"]
+			id: "58EF2132D0431323"
+			tasks: [{
+				id: "2DB6ECD40BC59CE3"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -19.0d
+			y: 2.5d
+			subtitle: "额外信息"
+			description: [
+				"作为一名动力工程师，这副眼镜必不可少。"
+				"带上之后，你能看到关于机械和蒸汽设备的很多内部信息。"
+			]
+			dependencies: ["328D948C4C800873"]
+			id: "634DBB9E76CD029B"
+			tasks: [{
+				id: "3759C57C62CA2697"
+				type: "item"
+				item: "create:goggles"
 			}]
 		}
 	]

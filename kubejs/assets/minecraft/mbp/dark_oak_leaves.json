@@ -1,0 +1,22 @@
+{
+    "overrides": [
+        {
+            "when": {
+                "adjacent_block": {
+                    "state": "minecraft:snow",
+                    "offset": { "x": 0, "y": 1, "z": 0 }
+                }
+            },
+            "apply": "minecraft:snowy_dark_oak_leaves"
+        },
+        {
+            "when": {
+                "adjacent_block": {
+                    "state": "minecraft:snow_block",
+                    "offset": { "x": 0, "y": 1, "z": 0 }
+                }
+            },
+            "apply": "minecraft:snowy_dark_oak_leaves"
+        }
+    ]
+}

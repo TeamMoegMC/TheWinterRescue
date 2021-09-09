@@ -1,0 +1,8 @@
+{
+    "parent": "block/log",
+    "textures": {
+        "top": "block/stripped_crimson_stem_top",
+        "side": "block/stripped_crimson_stem",
+		"particle": "block/stripped_crimson_stem"
+    }
+}

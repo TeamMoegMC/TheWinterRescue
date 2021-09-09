@@ -397,7 +397,7 @@
 			subtitle: "锻铁炉主方块"
 			description: [
 				""
-				"我想制作铁锭的JEI内的剖面图已经很清楚地描述了锻铁炉的结构。"
+				"在JEI界面，鼠标悬浮在锻铁炉方块上，然后长按W进入思索状态，查看锻铁炉的构造方法。"
 				"锻铁炉的使用方法：搭建好锻铁炉后，手持有效的原料(燃料除外)shift+右键将其放入锻铁炉形成原料方块，然后手持原料(包括燃料)右键原料方块将剩余原料放入锻铁炉。"
 				"放好原料后在原料方块上点火以启动锻铁炉。"
 				"锻铁炉运行中需要用风箱通过鼓风口鼓风."
@@ -405,16 +405,30 @@
 			]
 			dependencies: ["4B6840707D77E2C0"]
 			id: "13D9DE54DF8117C2"
-			tasks: [{
-				id: "1A5C62932CF1E4C8"
-				type: "item"
-				item: "charcoal_pit:main_bloomery"
-			}]
+			tasks: [
+				{
+					id: "1A5C62932CF1E4C8"
+					type: "item"
+					item: "charcoal_pit:main_bloomery"
+				}
+				{
+					id: "50ECA1D68CB3479C"
+					type: "item"
+					item: "charcoal_pit:sandy_brick"
+					count: 7L
+				}
+				{
+					id: "38E1CAF16085E87D"
+					type: "item"
+					item: "charcoal_pit:sandy_tuyere"
+				}
+			]
 		}
 		{
 			title: "铁"
 			x: 8.0d
 			y: 4.0d
+			shape: "gear"
 			subtitle: "真 基础金属"
 			description: ["来硬的!"]
 			dependencies: [
@@ -1405,6 +1419,28 @@
 				id: "6779340B748701AF"
 				type: "item"
 				item: "charcoal_pit:fire_starter"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			subtitle: "烧开水"
+			description: ["加热杯中的水即可除菌，变成纯净水。"]
+			dependencies: ["36960F1D7CDC8B30"]
+			id: "04DC32D417FA819E"
+			tasks: [{
+				id: "425DFBB0A9795761"
+				type: "item"
+				item: {
+					id: "watersource:wooden_cup_drink"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "watersource:purified_water"
+							Amount: 250
+						}
+					}
+				}
 			}]
 		}
 	]
