@@ -14,6 +14,7 @@ campfire.addRecipe("torch",<item:minecraft:torch>,<item:stone_age:unlit_torch>,0
 <recipetype:stone_age:tree_stump>.addRecipe("plate_iron", <item:immersiveengineering:plate_iron>,<tag:items:forge:hammers>, <item:minecraft:iron_ingot>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("cast_iron_plate", <item:kubejs:cast_iron_plate>,<tag:items:forge:hammers>, <item:rankine:cast_iron_alloy>*2, 3);
 <recipetype:stone_age:tree_stump>.addRecipe("battery_alloy_plate", <item:kubejs:battery_alloy_plate>,<tag:items:forge:hammers>, <item:kubejs:battery_alloy>*2, 3);
+<recipetype:stone_age:tree_stump>.addRecipe("gold_plate", <item:immersiveengineering:plate_gold>,<tag:items:forge:hammers>, <item:minecraft:gold_ingot>*2, 3);
 
 <recipetype:stone_age:tree_stump>.addRecipe("flux", <item:kubejs:flux>*2, <tag:items:forge:hammers>, <tag:items:the_winter_rescue:flux_block>, 2);
 <recipetype:stone_age:tree_stump>.addRecipe("al2o3", <item:rankine:alumina>, <tag:items:forge:hammers>, <item:kubejs:bauxite>, 2);

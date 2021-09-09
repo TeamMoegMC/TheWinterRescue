@@ -13,8 +13,8 @@ onEvent('recipes', (event) => {
 	event.recipes.createCompacting('2x steampowered:bronze_sheet','3x rankine:bronze_alloy')
 	event.recipes.createCompacting('2x kubejs:battery_alloy_plate','3x kubejs:battery_alloy')
 	event.recipes.createCompacting('2x kubejs:cast_iron_plate','3x rankine:cast_iron_alloy')
+
 	let metals = [
-		"golden",
 		"copper",
 		"brass",
 		"iron"
@@ -28,7 +28,8 @@ onEvent('recipes', (event) => {
 	let metals2 = [
 		"aluminum",
 		"lead",
-		"constantan"
+		"constantan",
+		"gold"
 	]
 	metals2.forEach((plate) => {
         event.recipes.createCompacting(`2x immersiveengineering:plate_${plate}`,`3x #forge:ingots/${plate}`)

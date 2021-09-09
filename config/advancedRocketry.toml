@@ -125,7 +125,7 @@
 
 [Client]
 	#If true, AR will use a custom skybox on planets
-	PlanetSkyOverride = true
+	PlanetSkyOverride = false
 	#Advanced visual effects
 	advancedVFX = true
 	#If true, AR will use a custom skybox on space stations
