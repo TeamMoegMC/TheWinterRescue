@@ -52,6 +52,7 @@ recipeShapeless("wirecopper", <item:immersiveengineering:wire_copper>,[<tag:item
 <recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_silver",<item:kubejs:silver>, 400,<item:rankine:silver_ingot>,<item:immersiveengineering:slag>);
 <recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_halite",<item:kubejs:halite>, 400,<item:rankine:salt>,<item:immersiveengineering:slag>);
 <recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_vanadium",<item:rankine:vanadinite>, 400,<item:rankine:vanadium_ingot>,<item:immersiveengineering:slag>);
+<recipetype:immersiveengineering:blast_furnace>.addRecipe("ores_sphalerite",<item:rankine:sphalerite>, 400,<item:rankine:zinc_ingot>,<item:immersiveengineering:slag>);
 
 //alloying
 <recipetype:immersiveengineering:alloy>.addRecipe("battery_alloy",<tag:items:forge:ingots/lead>*3,<tag:items:forge:ingots/antimony>, 400,<item:kubejs:battery_alloy>*4);

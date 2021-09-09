@@ -17,6 +17,14 @@ onEvent('block.loot_tables', event => {
 		})
 	}
 
+	event.build('rankine:sphalerite_ore', table => {
+		table.pool(pool => {
+			pool.rolls = 1
+			pool.survivesExplosion()
+			pool.addItem('rankine:sphalerite')
+		})
+	})
+
 	event.build('primalwinter:snowy_dirt', table => { // Build loot table manually
 		table.pool(pool => {
 			pool.rolls = 1 // Use one of these 3 - fixed, uniform, binominal
