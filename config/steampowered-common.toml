@@ -39,9 +39,9 @@
 
 [cogwheel]
 	#Range: 0.0 ~ 1.0
-	castIronCogwheelImpact = 0.02
+	castIronCogwheelImpact = 0.05
 	#Range: 0.0 ~ 1.0
-	bronzeCogwheelImpact = 0.05
+	bronzeCogwheelImpact = 0.1
 	#Range: 0.0 ~ 1.0
-	steelCogwheelImpact = 0.01
+	steelCogwheelImpact = 0.02
 
