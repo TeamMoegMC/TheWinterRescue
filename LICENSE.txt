@@ -11,8 +11,8 @@ You probably want to have a read through this if you want to do something with i
 - "The Winter Rescue" (or "The Modpack") refers to
   - all or part of the files under the directory /scripts
   - all or part of the files under the directory /kubejs
-  - all or part of the PNG files under the directory /packmenu
-  - all or part of the PNG files under the directory /modernloadingscreen
+  - all or part of the files under the directory /fancymenu
+  - all or part of the files under /mods/frostedheart-[version].jar
 
 - "Distribution" refers to
   - making available binaries, assets, or source of the Modpack available from the original sources as part of your Modpack or otherwise.

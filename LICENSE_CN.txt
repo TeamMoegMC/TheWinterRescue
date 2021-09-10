@@ -9,10 +9,10 @@
   - 所有或部分在目录/mods下的JAR文件。
 
 - "《冬季救援》"(或"本模组整合包")指：
-  - 目录/scripts下的全部文件
-  - 目录/kubejs下的全部文件
-  - 目录/packmenu下的全部文件
-  - 目录/modernloadingscreen下的全部文件
+  - 目录/scripts下的部分或者全部文件
+  - 目录/kubejs下的部分或者全部文件
+  - 目录/fancymenu下的部分或者全部文件
+  - 目录/mods/frostedheart-[version].jar下的部分或者全部文件
 
 - "分发"是指
   - 提供二进制文件、资源文件、或本模组整合包的源代码，作为您的本模组整合包的一部分或其他方式。
