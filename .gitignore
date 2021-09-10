@@ -1,13 +1,3 @@
-/mods/
-/patchouli_data.json
-/servers.dat_old
-/servers.dat
-/servers 2.dat_old
-/usercache.json
-/usernamecache.json
-/options.txt
-/optionsof.txt
-/launcher_profiles.json
 /.mixin.out/
 /local/
 /libraries/
@@ -18,26 +8,54 @@
 /screenshots/
 /saves/
 /versions/
-*.bak
-/servers 3.dat_old
+/mods/
 /crash-reports/
-/CustomSkinLoader/CustomSkinLoader.log
-/CustomSkinLoader/Plugins/
-/CustomSkinLoader/LocalSkin/
-/CustomSkinLoader/ProfileCache/
-/CustomSkinLoader/caches/
-/CustomSkinLoader/ExtraList/
-/CustomSkinLoader/CustomSkinAPIPlus-ClientID
-/config/jei/bookmarks.ini
-/optionsshaders.txt
+/CustomSkinLoader/
 /shaderpacks/
 /ambience_music/
+/backups/
+/patchouli_data.json
+/servers.dat_old
+/servers.dat
+/servers 2.dat_old
+/usercache.json
+/usernamecache.json
+/options.txt
+/optionsof.txt
+/launcher_profiles.json
+/servers 3.dat_old
 /config/ambience-common.toml
 /servers 4.dat_old
 .DS_Store
-/Enigmatica6-master/
-/kubejs-eng/
+/config/jei/bookmarks.ini
+/optionsshaders.txt
+*.bak
 
-/backups/
-/openloader/.cache
-/hs_err_pid75781.log
+# server side
+/dumps/
+/.arclight/
+/CustomJAVA/
+/plugins/
+/spawn1/
+/timings/
+/world/
+/zysj/
+/arclight.conf
+/arclight-forge-1.16.5-1.0.21-build289.jar
+/banned-ips.json
+/banned-players.json
+/bukkit.yml
+/commands.yml
+/eula.txt
+/forge-1.16.5-36.2.0.jar
+/forge-1.16.5-36.2.0-installer.jar
+/forge-1.16.5-36.2.0-installer.jar.log
+/help.yml
+/minecraft_server.1.16.5.jar
+/ops.json
+/paper.yml
+/permissions.yml
+/server.properties
+/spigot.yml
+/wepif.yml
+/whitelist.json
