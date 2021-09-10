@@ -238,7 +238,7 @@
 				belt = 1.0
 				cogwheel = 0.0
 				copper_backtank = 4.0
-				mechanical_pump = 4.0
+				mechanical_pump = 2.0
 				mechanical_mixer = 4.0
 				andesite_encased_shaft = 0.0
 				adjustable_chain_gearshift = 0.1
