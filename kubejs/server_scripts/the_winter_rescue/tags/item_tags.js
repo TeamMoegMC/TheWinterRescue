@@ -32,4 +32,10 @@ onEvent('item.tags', (event) => {
     event.add('the_winter_rescue:large_cogwheels', "steampowered:bronze_large_cogwheel")
     event.add('the_winter_rescue:large_cogwheels', "steampowered:cast_iron_large_cogwheel")
     event.add('the_winter_rescue:large_cogwheels', "steampowered:steel_large_cogwheel")
+
+    event.add('forge:ores/copper', "kubejs:native_copper")
+    event.add('forge:ores/copper', "rankine:malachite")
+    event.add('forge:ores/tin', "kubejs:native_tin")
+    event.add('forge:ores/tin', "rankine:cassiterite")
+
 });

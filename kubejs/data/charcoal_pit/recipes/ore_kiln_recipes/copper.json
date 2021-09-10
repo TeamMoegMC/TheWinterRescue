@@ -1,0 +1,14 @@
+{
+  "type": "charcoal_pit:orekiln",
+  "ingredients": [
+    [
+      {
+        "tag": "forge:ores/copper"
+      }
+    ]
+  ],
+  "result": {
+    "item": "rankine:copper_ingot"
+  },
+  "amount": 1
+}
