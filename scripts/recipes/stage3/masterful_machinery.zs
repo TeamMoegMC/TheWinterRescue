@@ -1,23 +1,23 @@
 
 craftingTable.addShaped("chcr_controller",<item:masterfulmachinery:chcr_controller>,[
-  [<item:immersiveengineering:plate_constantan>,<item:immersiveengineering:circuit_board>,<item:immersiveengineering:plate_constantan>],
-  [<item:minecraft:air>,<item:immersiveengineering:plate_constantan>,<item:minecraft:air>],
-  [<item:immersiveengineering:plate_constantan>,<item:immersiveengineering:circuit_board>,<item:immersiveengineering:plate_constantan>]
+  [<tag:items:forge:plates/constantan>,<item:immersiveengineering:circuit_board>,<tag:items:forge:plates/constantan>],
+  [<item:minecraft:air>,<tag:items:forge:plates/constantan>,<item:minecraft:air>],
+  [<tag:items:forge:plates/constantan>,<item:immersiveengineering:circuit_board>,<tag:items:forge:plates/constantan>]
 ]);
 craftingTable.addShaped("chcr_fluid_port_fluids_input",<item:masterfulmachinery:chcr_fluid_port_fluids_input>,[
-  [<item:minecraft:air>,<item:immersiveengineering:plate_constantan>,<item:minecraft:air>],
-  [<item:immersiveengineering:plate_constantan>,<item:immersiveengineering:metal_barrel>,<item:immersiveengineering:plate_constantan>],
-  [<item:minecraft:air>,<item:immersiveengineering:plate_constantan>,<item:minecraft:air>]
+  [<item:minecraft:air>,<tag:items:forge:plates/constantan>,<item:minecraft:air>],
+  [<tag:items:forge:plates/constantan>,<item:immersiveengineering:metal_barrel>,<tag:items:forge:plates/constantan>],
+  [<item:minecraft:air>,<tag:items:forge:plates/constantan>,<item:minecraft:air>]
 ]);
 craftingTable.addShaped("chcr_item_port_items_input",<item:masterfulmachinery:chcr_item_port_items_input>,[
-  [<item:minecraft:air>,<item:immersiveengineering:plate_constantan>,<item:minecraft:air>],
-  [<item:immersiveengineering:plate_constantan>,<item:minecraft:chest>,<item:immersiveengineering:plate_constantan>],
-  [<item:minecraft:air>,<item:immersiveengineering:plate_constantan>,<item:minecraft:air>]
+  [<item:minecraft:air>,<tag:items:forge:plates/constantan>,<item:minecraft:air>],
+  [<tag:items:forge:plates/constantan>,<item:minecraft:chest>,<tag:items:forge:plates/constantan>],
+  [<item:minecraft:air>,<tag:items:forge:plates/constantan>,<item:minecraft:air>]
 ]);
 craftingTable.addShaped("chcr_energy_port_energy_input",<item:masterfulmachinery:chcr_energy_port_energy_input>,[
-  [<item:minecraft:air>,<item:immersiveengineering:plate_constantan>,<item:minecraft:air>],
-  [<item:immersiveengineering:plate_constantan>,<item:minecraft:air>,<item:immersiveengineering:plate_constantan>],
-  [<item:minecraft:air>,<item:immersiveengineering:plate_constantan>,<item:minecraft:air>]
+  [<item:minecraft:air>,<tag:items:forge:plates/constantan>,<item:minecraft:air>],
+  [<tag:items:forge:plates/constantan>,<item:minecraft:air>,<tag:items:forge:plates/constantan>],
+  [<item:minecraft:air>,<tag:items:forge:plates/constantan>,<item:minecraft:air>]
 ]);
 craftingTable.addShapeless("chcr_item_port_items_output",<item:masterfulmachinery:chcr_item_port_items_output>,[<item:masterfulmachinery:chcr_item_port_items_input>]);
 

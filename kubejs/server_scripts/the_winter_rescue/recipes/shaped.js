@@ -130,11 +130,11 @@ onEvent('recipes', (event) => {
         }),
         shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:cast_iron_boiler"}'), ['B B', 'BAB', 'BBB'], {
             A: 'create:fluid_pipe',
-            B: '#forge:plates/bronze',
+            B: '#forge:plates/cast_iron',
         }),
         shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:steel_boiler"}'), ['B B', 'BAB', 'BBB'], {
             A: 'create:fluid_pipe',
-            B: '#forge:plates/bronze',
+            B: '#forge:plates/steel',
         }),
         shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:bronze_burner"}'), ['BCB', 'B B', 'AAA'], {
             A: 'rankine:refractory_bricks',

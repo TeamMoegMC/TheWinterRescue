@@ -3,14 +3,14 @@ furnace.addRecipe("quicklime",<item:rankine:quicklime>,<item:kubejs:flux>,0,200)
 furnace.addRecipe("dust_sulfur",<item:immersiveengineering:dust_sulfur>,<item:kubejs:pyrite>,0,200);
 
 craftingTable.addShaped("burning_chamber",<item:frostedheart:burning_chamber>,[
-  [<item:kubejs:cast_iron_plate>,<tag:items:forge:plates/iron>,<item:kubejs:cast_iron_plate>],
+  [<tag:items:forge:plates/cast_iron>,<tag:items:forge:plates/iron>,<tag:items:forge:plates/cast_iron>],
   [<tag:items:forge:plates/iron>,<tag:items:forge:plates/copper>,<tag:items:forge:plates/iron>],
-  [<item:kubejs:cast_iron_plate>,<tag:items:forge:plates/iron>,<item:kubejs:cast_iron_plate>]
+  [<tag:items:forge:plates/cast_iron>,<tag:items:forge:plates/iron>,<tag:items:forge:plates/cast_iron>]
 ]);
 craftingTable.addShaped("burning_chamber_core",<item:frostedheart:burning_chamber_core>,[
-  [<item:kubejs:cast_iron_plate>,<item:kubejs:cast_iron_plate>,<item:kubejs:cast_iron_plate>],
-  [<item:kubejs:cast_iron_plate>,<tag:items:forge:plates/iron>,<item:kubejs:cast_iron_plate>],
-  [<item:kubejs:cast_iron_plate>,<item:kubejs:cast_iron_plate>,<item:kubejs:cast_iron_plate>]
+  [<tag:items:forge:plates/cast_iron>,<tag:items:forge:plates/cast_iron>,<tag:items:forge:plates/cast_iron>],
+  [<tag:items:forge:plates/cast_iron>,<tag:items:forge:plates/iron>,<tag:items:forge:plates/cast_iron>],
+  [<tag:items:forge:plates/cast_iron>,<tag:items:forge:plates/cast_iron>,<tag:items:forge:plates/cast_iron>]
 ]);
 craftingTable.removeRecipe(<item:rankine:high_refractory_bricks>);
 craftingTable.addShaped("high_refractory_bricks",<item:rankine:high_refractory_bricks>*2,[
