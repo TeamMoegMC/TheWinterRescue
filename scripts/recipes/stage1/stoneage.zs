@@ -151,13 +151,13 @@ craftingTable.removeRecipe(<item:charcoal_pit:unfired_sandy_brick>);
 ],<item:stone_age:flint_knife>);
 <recipetype:stone_age:flint_workbench>.addRecipe("amplifier_r1",<item:frostedheart:generator_amplifier_r1>*2,[
   [<item:minecraft:stone>,<item:minecraft:brick>,<item:minecraft:stone>],
-  [<item:minecraft:clay_ball>,<item:immersiveengineering:ingot_copper>,<item:minecraft:clay_ball>],
+  [<item:minecraft:clay_ball>,<tag:items:forge:ingots/copper>,<item:minecraft:clay_ball>],
   [<item:minecraft:stone>,<item:minecraft:brick>,<item:minecraft:stone>]
 ],<item:stone_age:flint_knife>);
 <recipetype:stone_age:flint_workbench>.addRecipe("core_t1",<item:frostedheart:generator_core_t1>,[
-  [<item:minecraft:brick>,<item:immersiveengineering:ingot_copper>,<item:minecraft:brick>],
-  [<item:immersiveengineering:ingot_copper>,<item:frostedheart:energy_core>,<item:immersiveengineering:ingot_copper>],
-  [<item:minecraft:brick>,<item:immersiveengineering:ingot_copper>,<item:minecraft:brick>]
+  [<item:minecraft:brick>,<tag:items:forge:ingots/copper>,<item:minecraft:brick>],
+  [<tag:items:forge:ingots/copper>,<item:frostedheart:energy_core>,<tag:items:forge:ingots/copper>],
+  [<item:minecraft:brick>,<tag:items:forge:ingots/copper>,<item:minecraft:brick>]
 ],<item:stone_age:flint_knife>);
 
 <recipetype:stone_age:flint_workbench>.addRecipe("bronze_hammer1",<item:rankine:bronze_hammer>,[

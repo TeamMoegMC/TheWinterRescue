@@ -20,13 +20,13 @@ recipeShaped("coke_brick",<item:immersiveengineering:cokebrick>*3,[
 ]);
 
 recipeShaped("blast_brick",<item:immersiveengineering:blastbrick>*3,[
-  [<item:immersiveengineering:plate_iron>,<item:rankine:mortar>,<item:immersiveengineering:plate_iron>],
+  [<tag:items:forge:plates/iron>,<item:rankine:mortar>,<tag:items:forge:plates/iron>],
   [<item:rankine:mortar>,<item:rankine:refractory_bricks>,<item:rankine:mortar>],
-  [<item:immersiveengineering:plate_iron>,<item:rankine:mortar>,<item:immersiveengineering:plate_iron>]
+  [<tag:items:forge:plates/iron>,<item:rankine:mortar>,<tag:items:forge:plates/iron>]
 ]);
 
 recipeShaped("wirecutter",<item:immersiveengineering:wirecutter>,[
-  [<item:immersiveengineering:plate_iron>,<item:minecraft:air>,<item:immersiveengineering:plate_iron>],
+  [<tag:items:forge:plates/iron>,<item:minecraft:air>,<tag:items:forge:plates/iron>],
   [<item:minecraft:air>,<item:immersiveengineering:stick_treated>,<item:minecraft:air>],
   [<item:immersiveengineering:stick_treated>,<item:minecraft:air>,<item:immersiveengineering:stick_treated>]
 ]);
