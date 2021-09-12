@@ -37,13 +37,13 @@
       "block": "masterfulmachinery:ele_fluid_port_fluids_input"
     },
     "5": {
-      "block": "immersiveengineering:sheetmetal_copper"
+      "block": "immersiveengineering:sheetmetal_gold"
     },
     "6": {
       "block": "minecraft:glass"
     },
     "7": {
-      "block": "immersiveengineering:sheetmetal_iron"
+      "block": "immersiveengineering:sheetmetal_silver"
     },
     "8": {
       "block": "masterfulmachinery:ele_item_port_items_output"

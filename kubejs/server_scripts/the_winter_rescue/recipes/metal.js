@@ -1,14 +1,8 @@
 onEvent('recipes', (event) => {
 
-	let plates = [
-		"create:golden_sheet",
-		"create:copper_sheet",
-		"create:brass_sheet",
-		"create:iron_sheet"
-	]
-	plates.forEach((plate) => {
-        event.remove({ type: 'create:pressing', output: plate})
-    });
+
+    event.remove({ type: 'create:pressing'})
+
 	
 	event.recipes.createCompacting('2x steampowered:bronze_sheet','3x rankine:bronze_alloy')
 	event.recipes.createCompacting('2x kubejs:battery_alloy_plate','3x kubejs:battery_alloy')

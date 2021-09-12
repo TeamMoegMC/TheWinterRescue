@@ -62,6 +62,7 @@ onEvent('recipes', (event) => {
 		'#create:crushed_ores',
 		'rankine:high_refractory_brick',
 		'rankine:ultra_high_refractory_brick',
+		'rankine:sodium_carbonate',
 		'immersiveengineering:capacitor_lv',
 		'immersiveengineering:capacitor_mv',
 		'immersiveengineering:capacitor_hv'

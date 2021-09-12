@@ -1,4 +1,7 @@
 onEvent('recipes', (event) => {
+	
+	event.remove({ type: 'immersiveengineering:metal_press'});
+
     const recipes = [
         // { output: 'mekanism:hdpe_sheet', input: 'mekanism:hdpe_pellet', mold: '#thermal:crafting/dies/plate' }
     ];

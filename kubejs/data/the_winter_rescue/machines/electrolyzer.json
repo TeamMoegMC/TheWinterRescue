@@ -1,0 +1,92 @@
+{
+    "name": "电解机",
+    "appearance": {
+        "block": "the_winter_rescue:machine/electrolyzer"
+    },
+    "components": [
+	    {
+            "type": "custommachinery:energy",
+            "capacity": 10000,
+            "maxInput": 100
+        },
+	    {
+            "type": "custommachinery:item",
+            "id": "inputitem",
+            "mode": "input",
+            "variant": "custommachinery:default"
+        },
+		{
+            "type": "custommachinery:item",
+            "id": "outputitem",
+            "mode": "output",
+            "variant": "custommachinery:default"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 6000,
+            "id": "inputtank",
+            "maxInput": 1000,
+            "mode": "input"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 6000,
+            "id": "outputtank",
+			"maxOutput": 1000,
+            "mode": "output"
+        }
+    ],
+    "gui": [
+        {
+            "type": "custommachinery:texture",
+            "x": 0,
+            "y": 0,
+            "texture": "custommachinery:textures/gui/base_background.png"
+        },
+        {
+            "type": "custommachinery:text",
+            "x": 10,
+            "y": 10,
+            "text": "Electrolyzer"
+        },
+        {
+            "type": "custommachinery:player_inventory",
+            "x": 50,
+            "y": 80
+        },
+		{
+            "type": "custommachinery:slot",
+            "x": 86,
+            "y": 40,
+            "id": "inputitem"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "x": 66,
+            "y": 20,
+            "id": "inputtank"
+        },
+		{
+            "type": "custommachinery:slot",
+            "x": 142,
+            "y": 40,
+            "id": "outputitem"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "x": 162,
+            "y": 20,
+            "id": "outputtank"
+        },
+        {
+            "type": "custommachinery:energy",
+            "x": 192,
+            "y": 20
+        },
+		{
+            "type": "custommachinery:progress",
+            "x": 112,
+            "y": 40
+        }
+    ]
+}

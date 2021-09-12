@@ -34,15 +34,10 @@
   "item.kubejs.magnesium_oxide": "氧化镁",
   "item.kubejs.aluminium_oxide_dust": "氧化铝",
   "item.kubejs.chlorine_bucket": "氯气桶",
-  "item.kubejs.magnesium_chloride_bucket": "氯化镁桶",
-  "item.kubejs.salt_water_bucket": "盐水桶",
-  "item.kubejs.sodium_hydroxide_bucket": "氢氧化钠桶",
-  "item.kubejs.sodium_aluminate_bucket": "氢氧化铝桶",
-  "item.kubejs.hydrogen_fluoride_bucket": "氟化氢桶",
-  "item.kubejs.fluoroaluminic_acid_bucket": "氟化铝桶",
   "item.kubejs.cryolite_bucket": "冰晶石桶",
-  "item.kubejs.aluminium_bucket": "熔融铝桶",
-
+  "item.kubejs.sulfuric_acid_bucket": "硫酸桶",
+  "item.kubejs.aluminium_hydroxide_dust": "氢氧化铝",
+  
   "item.kubejs.native_copper": "原生铜矿",
   "item.kubejs.native_tin": "原生锡矿",
   "item.kubejs.silver": "原生银矿",
@@ -89,14 +84,8 @@
 
   "fluid.kubejs.lime_water": "石灰水",
   "fluid.kubejs.chlorine": "氯气",
-  "fluid.kubejs.magnesium_chloride": "氯化镁",
-  "fluid.kubejs.salt_water": "盐水",
-  "fluid.kubejs.sodium_hydroxide": "氢氧化钠",
-  "fluid.kubejs.sodium_aluminate": "氢氧化铝",
-  "fluid.kubejs.hydrogen_fluoride": "氟化氢",
-  "fluid.kubejs.fluoroaluminic_acid": "氟铝酸",
   "fluid.kubejs.cryolite": "冰晶石",
-  "fluid.kubejs.aluminium": "熔融铝",
+  "fluid.kubejs.sulfuric_acid": "硫酸",
   
   "itemGroup.kubejs.kubejs": "Kubejs",
 

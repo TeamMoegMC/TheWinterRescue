@@ -13,6 +13,8 @@ var wash_input;
 by_products[1] = [Item.of("minecraft:diamond").withChance(0.5)];
 ore_name中的1号位置(第二个元素)是pyrite(黄铁矿)，这行代码将在将粉碎黄铁矿洗为洗净黄铁矿的合成中加入副产物钻石，产出概率为百分之五十。
 */
+by_products[1] = [Item.of("rankine:sulfur").withChance(0.5)];
+
 onEvent('recipes', (event) => {
 	for(i=0; i<ores.length; i++){
 		ores_i = ores[i];
