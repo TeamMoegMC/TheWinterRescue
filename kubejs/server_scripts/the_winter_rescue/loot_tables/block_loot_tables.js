@@ -38,6 +38,7 @@ onEvent('block.loot_tables', event => {
 			pool.addItem('kubejs:frozen_seeds_beetroots')
 			pool.addItem('kubejs:frozen_seeds_unknown')
 			pool.addItem('kubejs:frozen_seeds_blackwheat')
+			pool.addItem('kubejs:frozen_white_turnip')
 			// pool.addCondition({json condition, see vanilla wiki})
 			// pool.addEntry({json entry, see vanilla wiki for non-items})
 		})

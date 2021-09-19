@@ -31,7 +31,8 @@ onEvent('item.registry', event => {
 		'frozen_seeds_melon',
 		'frozen_seeds_pumpkin',
 		'frozen_seeds_beetroots',
-		'frozen_seeds_unknown'
+		'frozen_seeds_unknown',
+		'frozen_white_turnip'
 	];
 
 	let rawOres = [

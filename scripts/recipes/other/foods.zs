@@ -20,11 +20,5 @@ furnace.addRecipe("rye_bread", <item:frostedheart:rye_bread> , <item:frostedhear
 campfire.addRecipe("rye_bread", <item:frostedheart:rye_bread> , <item:frostedheart:raw_rye_bread>, 1.0, 300);
 
 
-//unfreeze
-var frozen_things as IItemStack[] = [<item:kubejs:frozen_seeds_wheat>, <item:kubejs:frozen_seeds_melon>, <item:kubejs:frozen_seeds_pumpkin>, <item:kubejs:frozen_seeds_beetroots>, <item:kubejs:frozen_seeds_unknown>, <item:kubejs:frozen_seeds_blackwheat>, <item:kubejs:frozen_auroch_meat>, <item:kubejs:frozen_beef>, <item:kubejs:frozen_boar_meat>, <item:kubejs:frozen_chicken>, <item:kubejs:frozen_fat>, <item:kubejs:frozen_fowl_meat>, <item:kubejs:frozen_mammoth_meat>, <item:kubejs:frozen_mouflon_meat>, <item:kubejs:frozen_tiger_meat>, <item:kubejs:frozen_mutton>, <item:kubejs:frozen_porkchop>, <item:kubejs:frozen_rhino_meat>, <item:kubejs:frozen_venison>, <item:kubejs:frozen_rabbit>];
-var unfrozen_things as IItemStack[] = [<item:minecraft:wheat_seeds>, <item:minecraft:melon_seeds>, <item:minecraft:pumpkin_seeds>, <item:minecraft:beetroot_seeds>, <item:crockpot:unknown_seeds>, <item:frostedheart:rye_block>, <item:stone_age:auroch_meat>, <item:minecraft:beef>, <item:stone_age:boar_meat>, <item:minecraft:chicken>, <item:stone_age:fat>, <item:stone_age:fowl_meat>, <item:stone_age:mammoth_meat>, <item:stone_age:mouflon_meat>, <item:stone_age:tiger_meat>, <item:minecraft:mutton>, <item:minecraft:porkchop>, <item:stone_age:rhino_meat>, <item:stone_age:venison>, <item:minecraft:rabbit>];
-for i_unfreeze in 0 .. frozen_things.length{
-	furnace.addRecipe("frozenmeat1", unfrozen_things[i_unfreeze] ,frozen_things[i_unfreeze], 1.0, 300);
-	campfire.addRecipe("frozenmeat1", <item:stone_age:auroch_meat> ,<item:kubejs:frozen_auroch_meat>, 1.0, 300);
-}
+
 
