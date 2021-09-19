@@ -86,7 +86,7 @@ onEvent('recipes', (event) => {
 	    flint_shapedRecipe(Item.of('minecraft:campfire'), [' B ', 'ABA', 'ACA'], {
             A: Ingredient.of('#minecraft:logs').toJson(),
             B: Item.of('charcoal_pit:straw').toJson(),
-			B: Item.of('minecraft:gravel').toJson()
+			C: Item.of('minecraft:gravel').toJson()
         },Item.of('stone_age:flint_knife')),
 		flint_shapedRecipe(Item.of('charcoal_pit:sandy_collector'), ['A A', 'ABA', 'AAA'], {
             A: Item.of('charcoal_pit:sandy_brick_item').toJson(),
