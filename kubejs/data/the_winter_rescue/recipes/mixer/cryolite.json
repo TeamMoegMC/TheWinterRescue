@@ -1,0 +1,19 @@
+{
+		"type": "immersiveengineering:mixer",
+        "inputs": [{
+            "item": "minecraft:glowstone_dust"
+        },
+		{
+            "item": "minecraft:glowstone_dust"
+        },
+		{
+            "item": "kubejs:aluminium_hydroxide_dust"
+        }],
+        "result": {
+            "fluid": "kubejs:cryolite","amount": 600
+        },
+		"fluid": {
+            "tag": "the_winter_rescue:fluidsulfuricacid","amount": 600
+        },
+		"energy": 2000
+}

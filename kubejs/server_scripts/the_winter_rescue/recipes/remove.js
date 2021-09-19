@@ -24,7 +24,8 @@ onEvent('recipes', (event) => {
 	ores.forEach((ore) => {
         event.remove({ type: 'rankine:crushing', input: ore})
     });
-
+	event.remove({ type: 'immersiveengineering:blueprint'})
+	
     event.remove({ type: 'rankine:crucible', output: '#forge:ingots/steel'})
     event.remove({ type: 'rankine:alloying', output: '#forge:ingots/steel'})
     event.remove({ input: 'notreepunching:plant_string'})
