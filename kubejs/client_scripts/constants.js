@@ -30,10 +30,16 @@ const serverItemsToHide = [
     'notreepunching:flint_shard',
 
     // stone age
-    'stone_age:copper_hammer',
-    'stone_age:bronze_hammer',
     'stone_age:stone_hammer',
     'stone_age:aqueduct',
+	'stone_age:bone_axe',
+	'stone_age:stone_axe',
+	'stone_age:bone_shears',
+	'stone_age:bone_pickaxe',
+	'stone_age:stone_pickaxe',
+	'stone_age:bone_sword',
+	'stone_age:stone_sword',
+	'stone_age:backpack',
 
     // ie
     'immersiveengineering:toolbox',

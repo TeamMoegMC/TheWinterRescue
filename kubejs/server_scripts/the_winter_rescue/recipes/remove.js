@@ -24,8 +24,16 @@ onEvent('recipes', (event) => {
 	ores.forEach((ore) => {
         event.remove({ type: 'rankine:crushing', input: ore})
     });
+	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:bone_axe'})
+	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:stone_axe'})
+	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:bone_shears'})
+	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:bone_pickaxe'})
+	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:stone_pickaxe'})
+	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:bone_sword'})
+	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:stone_sword'})
+	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:backpack'})
 	event.remove({ type: 'immersiveengineering:blueprint'})
-	
+	event.remove({ type: 'create:splashing', input: 'minecraft:gravel'})
     event.remove({ type: 'rankine:crucible', output: '#forge:ingots/steel'})
     event.remove({ type: 'rankine:alloying', output: '#forge:ingots/steel'})
     event.remove({ input: 'notreepunching:plant_string'})
