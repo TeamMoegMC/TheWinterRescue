@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+	"rankine:pentlandite",
 	"charcoal_pit:bloom_nickel_cool",
 	"charcoal_pit:bloom_nickel_fail"
   ]

@@ -1,16 +1,15 @@
 {
   "type": "charcoal_pit:bloomery",
   "input": {
-    "item": "rankine:pentlandite"
+    "tag": "the_winter_rescue:bloom_nickel"
   },
   "output": {
     "item": "immersiveengineering:ingot_nickel"
   },
   "fail": {
-    "item": "charcoal_pit:bloom_fail"
+    "item": "charcoal_pit:bloom_nickel_fail"
   },
   "cool": {
-    "item": "charcoal_pit:bloom_cool"
+    "item": "charcoal_pit:bloom_nickel_cool"
   }
 }
-

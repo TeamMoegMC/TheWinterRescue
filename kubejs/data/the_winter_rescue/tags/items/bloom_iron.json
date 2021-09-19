@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+	"rankine:magnetite",
 	"charcoal_pit:bloom_cool",
 	"charcoal_pit:bloom_fail"
   ]

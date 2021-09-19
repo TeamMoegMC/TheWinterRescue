@@ -5,6 +5,7 @@ onEvent('recipes', (event) => {
     const recipes_mold_plate = [
         { output: 'kubejs:cast_iron_plate', input: 'rankine:cast_iron_alloy'},
 		{ output: 'kubejs:battery_alloy_plate', input: 'kubejs:battery_alloy'},
+		{ output: 'kubejs:invar_steel_plate', input: 'rankine:invar_alloy'},
 		{ output: 'steampowered:bronze_sheet', input: '#forge:ingots/bronze'},
 		{ output: 'create:iron_sheet', input: 'minecraft:iron_ingot'},
 		{ output: 'create:brass_sheet', input: '#forge:ingots/brass'},
