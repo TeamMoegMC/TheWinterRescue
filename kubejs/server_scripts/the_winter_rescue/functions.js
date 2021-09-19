@@ -4,6 +4,10 @@ function shapedRecipe(result, pattern, key, id) {
     return { result: result, pattern: pattern, key: key, id: id };
 }
 
+function flint_shapedRecipe(result, pattern, key, tool) {
+    return { result: result, pattern: pattern, key: key, tool: tool };
+}
+
 function shapelessRecipe(result, ingredients, id) {
     return { result: result, ingredients: ingredients, id: id };
 }

@@ -20,11 +20,12 @@ onEvent('recipes', (event) => {
             C: '#forge:plates/bronze',
             D: 'minecraft:lava_bucket',
         }),
-		shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:electrolyzer"}'), ['AAAAA', 'ABDCA', 'ABDCA', 'AAAAA'], {
+		shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:electrolyzer"}'), ['AAAAA', 'ABECA', 'ABDCA', 'AAAAA'], {
             A: 'kubejs:cast_iron_plate',
             B: '#forge:ingots/silver',
             C: '#forge:ingots/gold',
             D: 'minecraft:glass',
+			E: 'immersiveengineering:circuit_board',
         })
     ]
 

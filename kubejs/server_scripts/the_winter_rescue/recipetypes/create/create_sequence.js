@@ -60,4 +60,12 @@ onEvent('recipes', (event) => {
         event.recipes.createDeploying('kubejs:incomplete_capacitor_hv', ['kubejs:incomplete_capacitor_hv', '#forge:plates/tungsten_steel']),
         event.recipes.createDeploying('kubejs:incomplete_capacitor_hv', ['kubejs:incomplete_capacitor_hv', '#forge:treated_wood']),
     ]).loops(8)
+    event.recipes.createSequencedAssembly([
+        Item.of('immersiveengineering:circuit_board')
+    ], '#forge:plates/copper', [
+	    event.recipes.createFilling('immersiveengineering:circuit_board', ['create:copper_sheet', Fluid.of('rankine:resin', 500)]),
+        event.recipes.createDeploying('immersiveengineering:circuit_board', ['create:copper_sheet', 'create:electron_tube']),
+        event.recipes.createDeploying('immersiveengineering:circuit_board', ['create:copper_sheet', 'immersiveengineering:wire_copper']),
+		 event.recipes.createPressing('immersiveengineering:circuit_board', ['create:copper_sheet']),
+    ]).loops(0)
 });

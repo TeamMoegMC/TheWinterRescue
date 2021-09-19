@@ -10,12 +10,6 @@ onEvent('item.tags', (event) => {
     event.add('forge:plates/battery_alloy', "kubejs:battery_alloy_plate")
     event.add('forge:ingots/battery_alloy', "kubejs:battery_alloy")
     event.add('forge:dusts/wood', "rankine:sawdust")
-    event.add('forge:hammers', "stone_age:stone_hammer")
-    event.add('forge:hammers', "stone_age:copper_hammer")
-    event.add('forge:hammers', "stone_age:bronze_hammer")
-    event.add('ages_api:hammers', "rankine:stone_hammer")
-    event.add('ages_api:hammers', "rankine:bronze_hammer")
-    event.add('ages_api:hammers', "rankine:steel_hammer")
 
     event.add('the_winter_rescue:flux_block', "rankine:tufa_limestone")
     event.add('the_winter_rescue:flux_block', "rankine:white_marble")
