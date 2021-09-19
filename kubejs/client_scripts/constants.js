@@ -11,6 +11,8 @@ const regexHide = [
 ];
 
 const serverItemsToHide = [
+    'minecraft:iron_pickaxe',
+	'minecraft:diamond_pickaxe',
     // no tree punching
     'notreepunching:flint_axe',
     'notreepunching:flint_pickaxe',
