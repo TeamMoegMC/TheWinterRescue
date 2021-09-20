@@ -5,6 +5,21 @@
 onEvent('recipes', (event) => {
 
     var changeRecipes = [
+	    shapedRecipe('charcoal_pit:mechanical_bellows', ['AAA', 'BC ', 'AAA'], {
+            A: 'minecraft:stone',
+            B: 'minecraft:piston',
+            C: 'charcoal_pit:bellows',
+        }),
+		shapedRecipe('notreepunching:clay_tool', ['AA', 'A '], {
+            A: 'minecraft:stick',
+        }),
+		shapedRecipe('notreepunching:flint_knife', [' A', 'B '], {
+            A: 'minecraft:flint',
+            B: 'minecraft:stick',
+        }),
+		shapedRecipe('2x rankine:rope', ['AA', 'A '], {
+            A: 'charcoal_pit:straw'
+        }),
         shapedRecipe('rankine:fluid_drain', ['L L', 'LFL', 'PLP'], {
             L: '#forge:ingots/stainless_steel',
             P: 'immersiveengineering:fluid_pipe',

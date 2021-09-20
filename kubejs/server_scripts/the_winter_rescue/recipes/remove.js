@@ -24,14 +24,41 @@ onEvent('recipes', (event) => {
 	ores.forEach((ore) => {
         event.remove({ type: 'rankine:crushing', input: ore})
     });
-	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:bone_axe'})
-	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:stone_axe'})
-	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:bone_shears'})
-	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:bone_pickaxe'})
-	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:stone_pickaxe'})
-	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:bone_sword'})
-	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:stone_sword'})
-	event.remove({ type: 'stone_age:flint_workbench', output:'stone_age:backpack'})
+	let flint_workbench = [
+	'stone_age:bone_axe',
+	'stone_age:stone_axe',
+	'stone_age:bone_shears',
+	'stone_age:bone_pickaxe',
+	'stone_age:stone_pickaxe',
+	'stone_age:bone_sword',
+	'stone_age:stone_sword',
+	'stone_age:backpack',
+	'minecraft:furnace'
+	]
+	flint_workbench.forEach((Item) => {
+		event.remove({ type: 'stone_age:flint_workbench', output:Item});
+	});
+	let workbench = [
+	'immersiveengineering:dust_iron',
+	'immersiveengineering:dust_copper',
+	'immersiveengineering:dust_aluminum',
+	'immersiveengineering:dust_lead',
+	'immersiveengineering:dust_silver',
+	'immersiveengineering:dust_nickel',
+	'immersiveengineering:dust_uranium',
+	'immersiveengineering:cloche',
+	'immersiveengineering:dynamo',
+	'immersiveengineering:drillhead_iron',
+	'immersiveengineering:drillhead_steel',
+	'immersiveengineering:circuit_table',
+	'immersivepetroleum:speedboat',
+	'immersiveengineering:sample_drill'
+	]
+	workbench.forEach((Item) => {
+		event.remove({ type: 'minecraft:crafting_shaped', output:Item});
+	});
+	event.remove({ type: 'minecraft:crafting_shaped', output:'rankine:flint_knife'})
+	event.remove({ type: 'minecraft:crafting_shapeless', output:'rankine:fire_clay_ball'})
 	event.remove({ type: 'immersiveengineering:blueprint'})
 	event.remove({ type: 'create:splashing', input: 'minecraft:gravel'})
     event.remove({ type: 'rankine:crucible', output: '#forge:ingots/steel'})

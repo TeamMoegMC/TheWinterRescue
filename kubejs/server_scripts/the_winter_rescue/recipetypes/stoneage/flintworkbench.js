@@ -144,6 +144,62 @@ onEvent('recipes', (event) => {
 		flint_shapedRecipe(Item.of('stone_age:fish_bone',2), ['ABA'], {
             A: Item.of('minecraft:bone').toJson(),
             B: Item.of('minecraft:flint').toJson()
+        },Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:hide_hat'), ['AAA', 'A A', 'B C'], {
+            A: Item.of('stone_age:raw_hide').toJson(),
+            B: Item.of('stone_age:leather_strip').toJson(),
+			C: Item.of('stone_age:fish_bone').toJson()
+        },Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:hide_jacket'), ['ACA', 'ABA', 'AAA'], {
+            A: Item.of('stone_age:raw_hide').toJson(),
+            B: Item.of('stone_age:leather_strip').toJson(),
+			C: Item.of('stone_age:fish_bone').toJson()
+        },Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:hide_pants'), ['AAA', 'ABA', 'ACA'], {
+            A: Item.of('stone_age:raw_hide').toJson(),
+            B: Item.of('stone_age:leather_strip').toJson(),
+			C: Item.of('stone_age:fish_bone').toJson()
+        },Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:hide_boots'), ['ABA', 'ACA'], {
+            A: Item.of('stone_age:raw_hide').toJson(),
+            B: Item.of('stone_age:leather_strip').toJson(),
+			C: Item.of('stone_age:fish_bone').toJson()
+        },Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:wool_hat'), ['AAA', 'A A', 'B C'], {
+            A: Ingredient.of('#minecraft:wool').toJson(),
+            B: Item.of('stone_age:leather_strip').toJson(),
+			C: Item.of('stone_age:fish_bone').toJson()
+        },Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:wool_jacket'), ['ACA', 'ABA', 'AAA'], {
+            A: Ingredient.of('#minecraft:wool').toJson(),
+            B: Item.of('stone_age:leather_strip').toJson(),
+			C: Item.of('stone_age:fish_bone').toJson()
+        },Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:wool_pants'), ['AAA', 'ABA', 'ACA'], {
+            A: Ingredient.of('#minecraft:wool').toJson(),
+            B: Item.of('stone_age:leather_strip').toJson(),
+			C: Item.of('stone_age:fish_bone').toJson()
+        },Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:wool_boots'), ['ABA', 'ACA'], {
+            A: Ingredient.of('#minecraft:wool').toJson(),
+            B: Item.of('stone_age:leather_strip').toJson(),
+			C: Item.of('stone_age:fish_bone').toJson()
+        },Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:hay_hat'), ['AAA', 'A A', 'B B'], {
+            A: Item.of('charcoal_pit:straw').toJson(),
+            B: Item.of('stone_age:leather_strip').toJson()
+        },Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:hay_jacket'), ['ABA', 'ABA', 'AAA'], {
+            A: Item.of('charcoal_pit:straw').toJson(),
+            B: Item.of('stone_age:leather_strip').toJson()
+        },Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:hay_pants'), ['AAA', 'ABA', 'ABA'], {
+            A: Item.of('charcoal_pit:straw').toJson(),
+            B: Item.of('stone_age:leather_strip').toJson()
+        },Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:hay_boots'), ['ABA', 'ABA'], {
+            A: Item.of('charcoal_pit:straw').toJson(),
+            B: Item.of('stone_age:leather_strip').toJson()
         },Item.of('stone_age:flint_knife'))
 	]
 	
