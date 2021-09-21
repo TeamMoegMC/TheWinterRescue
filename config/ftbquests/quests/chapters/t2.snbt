@@ -21,7 +21,10 @@
 			x: -19.0d
 			y: -0.5d
 			subtitle: "工作台"
-			description: ["这是? 工作台!"]
+			description: [
+				"这是? 工作台!"
+				"&6目前已经解锁了一些支线，可以考虑去看看."
+			]
 			dependencies: ["75154C5A6E2F3257"]
 			hide: false
 			dependency_requirement: "one_completed"
@@ -246,6 +249,7 @@
 			x: -11.5d
 			y: -2.0d
 			subtitle: "通入蒸汽"
+			description: ["&6通入的蒸汽需要足够大才能使它运转起来."]
 			dependencies: [
 				"263F5ADF4A6CDF5A"
 				"197308226CAE52C4"
@@ -414,9 +418,9 @@
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "4548F432A872DA92"
 			tasks: [{
-				id: "4A7F23108B9EC90A"
+				id: "10B09A0AE270B39F"
 				type: "item"
-				item: "create:empty_blaze_burner"
+				item: "create:blaze_burner"
 			}]
 		}
 		{
@@ -497,6 +501,7 @@
 			x: -11.5d
 			y: -3.5d
 			subtitle: "把蒸汽从锅炉抽出来"
+			description: [""]
 			dependencies: ["17C359DCF058E698"]
 			id: "197308226CAE52C4"
 			tasks: [{
@@ -674,7 +679,10 @@
 			y: -0.5d
 			subtitle: "耐高温"
 			description: ["需要动力搅拌机和烈焰人燃烧室制作"]
-			dependencies: ["29556685F57F6657"]
+			dependencies: [
+				"29556685F57F6657"
+				"4548F432A872DA92"
+			]
 			id: "6738A3C34A872FED"
 			tasks: [{
 				id: "4FDFAF777C766C70"
@@ -776,6 +784,7 @@
 			x: -13.0d
 			y: 10.0d
 			subtitle: "高精组装"
+			description: ["需要的树脂从云杉,胶枞,雪松等提取。"]
 			dependencies: ["4926C4062339E018"]
 			id: "7F84766122DC4753"
 			tasks: [{
@@ -874,6 +883,23 @@
 				id: "2FFA0D6FE0FC9143"
 				type: "item"
 				item: "rankine:tree_tap"
+			}]
+			rewards: [{
+				id: "637C54ABCD6B2265"
+				type: "item"
+				item: "rankine:sharinga_sapling"
+			}]
+		}
+		{
+			x: -17.5d
+			y: -5.0d
+			description: ["能让小齿轮两倍速度转动,在某些地方也许需要."]
+			dependencies: ["3E8F565DE61309B2"]
+			id: "103E4FC987E00FC7"
+			tasks: [{
+				id: "634013FA9B2698E8"
+				type: "item"
+				item: "steampowered:bronze_large_cogwheel"
 			}]
 		}
 	]

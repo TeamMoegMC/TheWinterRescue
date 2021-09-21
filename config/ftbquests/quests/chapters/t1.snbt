@@ -74,6 +74,7 @@
 				"1D7F2824DAF3BB7B"
 				"1233EF3CDF5E33F8"
 			]
+			size: 1.2d
 			id: "29BC87594650152D"
 			tasks: [{
 				id: "5DF3E0777A5A6D09"
@@ -137,7 +138,10 @@
 			x: 1.0d
 			y: 0.0d
 			subtitle: "砧"
-			description: ["结实耐用的底座。将原料放上去之后用对应工具左键以完成处理。"]
+			description: [
+				"结实耐用的底座."
+				"将原料放上去之后用对应工具左键以完成处理。"
+			]
 			dependencies: ["4BD8236FEEBD7D3A"]
 			id: "7E3F0C805E2BBB9F"
 			tasks: [{
@@ -404,28 +408,15 @@
 				"然后手持原料(包括燃料)右键原料方块将剩余的放入锻铁炉。"
 				"在原料方块上点火以启动锻铁炉。"
 				"锻铁炉运行中需要用风箱通过鼓风口鼓风."
-				"&6炼制完成后，&4立即用镐挖掘其中的方块得到铁锭。"
+				"&6炼制完成后，&4立即&6用镐挖掘其中的方块得到铁锭。"
 			]
 			dependencies: ["4B6840707D77E2C0"]
 			id: "13D9DE54DF8117C2"
-			tasks: [
-				{
-					id: "1A5C62932CF1E4C8"
-					type: "item"
-					item: "charcoal_pit:main_bloomery"
-				}
-				{
-					id: "50ECA1D68CB3479C"
-					type: "item"
-					item: "charcoal_pit:sandy_brick"
-					count: 7L
-				}
-				{
-					id: "38E1CAF16085E87D"
-					type: "item"
-					item: "charcoal_pit:sandy_tuyere"
-				}
-			]
+			tasks: [{
+				id: "1A5C62932CF1E4C8"
+				type: "item"
+				item: "charcoal_pit:main_bloomery"
+			}]
 		}
 		{
 			title: "铁"
@@ -438,6 +429,7 @@
 				"13D9DE54DF8117C2"
 				"29533DFBD579CA2F"
 			]
+			size: 1.2d
 			id: "75154C5A6E2F3257"
 			tasks: [{
 				id: "1019411D398ECFCE"
@@ -519,8 +511,9 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 2.0d
 			y: -2.5d
+			subtitle: "黏土加工"
 			description: ["将黏土块加工为各种黏土制品。"]
 			dependencies: ["6D92E93A0811C1FD"]
 			id: "409679774573DA63"
@@ -1197,7 +1190,13 @@
 			y: 2.0d
 			shape: "gear"
 			subtitle: "民以水为天"
-			description: ["水分很重要。你在飞船里找到的水壶可以用来右击水源接水，不过这是没有净化过的水，喝完会口渴。为了避免口渴效果，你需要喝纯净水。开局你有的纯净水够你喝一阵了， 等你获得滤水器后就可以净化纯净水了。"]
+			description: [
+				"水分很重要。"
+				"&6你在飞船里找到的水壶可以用来右击水源接水"
+				"&6不过这是没有净化过的水，喝完会口渴。"
+				"为了避免口渴效果，你需要喝纯净水.开局你有的纯净水够你喝一阵了"
+				"等你获得滤水器后就可以净化纯净水了。"
+			]
 			id: "33B6E7B60783C72B"
 			tasks: [{
 				id: "6E14D0E983EACA58"
@@ -1252,8 +1251,12 @@
 			shape: "gear"
 			subtitle: "均衡膳食"
 			description: [
-			"打开你的背包就能查看营养值了，营养值过低会导致血量上限降低，营养值超过80%会提升血量上限."
-			"糖分在很高的时候会造成饥饿和加速效果。蛋白质很高则会增加你的力量。"]
+				"打开你的背包就能查看营养值了"
+				"营养值过低会导致血量上限降低,"
+				"营养值超过80%会提升血量上限."
+				"糖分在很高的时候会造成饥饿和加速效果"
+				"蛋白质很高则会增加你的力量。"
+			]
 			id: "215BC2E7271F1478"
 			tasks: [{
 				id: "58F4265EA5C778FB"
@@ -1317,7 +1320,10 @@
 			y: 1.0d
 			shape: "gear"
 			subtitle: "你最好的帮手，JEI"
-			description: ["鼠标悬浮在要查询的物品上，使用R查询配方，使用U查询能制作什么物品。"]
+			description: [
+				"鼠标悬浮在要查询的物品上,"
+				"使用R查询配方，使用U查询能制作什么物品。"
+			]
 			id: "1F615C38B1A015E5"
 			tasks: [{
 				id: "0758A45D51C54F20"
@@ -1455,6 +1461,27 @@
 							FluidName: "watersource:purified_water"
 							Amount: 250
 						}
+					}
+				}
+			}]
+		}
+		{
+			title: "镍"
+			icon: "immersiveengineering:ingot_nickel"
+			x: 9.0d
+			y: 4.0d
+			description: ["目前能冶炼的另一种金属,也许后面会用到."]
+			dependencies: ["75154C5A6E2F3257"]
+			id: "3A91A02EB59A7919"
+			tasks: [{
+				id: "1D1735E320565F58"
+				type: "item"
+				title: "Any #forge:ingots/nickel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/nickel"
 					}
 				}
 			}]

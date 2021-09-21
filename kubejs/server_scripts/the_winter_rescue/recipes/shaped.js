@@ -10,6 +10,11 @@ onEvent('recipes', (event) => {
             B: 'minecraft:piston',
             C: 'charcoal_pit:bellows'
         }),
+		shapedRecipe('immersiveengineering:rs_engineering', ['ABA', 'BCB', 'ABA'], {
+            A: 'immersiveengineering:sheetmetal_iron',
+            B: '#forge:plates/copper',
+            C: 'immersiveengineering:circuit_board'
+        }),
 		shapedRecipe('modularrouters:blank_module', ['BC', 'AA', 'AA'], {
             A: '#forge:plates/aluminum',
             B: 'immersiveengineering:wire_copper',

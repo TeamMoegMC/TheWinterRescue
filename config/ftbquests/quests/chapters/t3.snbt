@@ -22,23 +22,39 @@
 			icon: "immersiveengineering:ingot_aluminum"
 			x: 0.0d
 			y: 0.5d
+			shape: "gear"
 			subtitle: "柔韧且轻盈"
-			description: [""]
+			description: ["优良的工业材料."]
 			dependencies: ["5808CFED17AE91D4"]
 			hide: true
+			size: 1.2d
 			id: "5D52744D5382A6CA"
-			tasks: [{
-				id: "7C23BF776E6D2954"
-				type: "item"
-				title: "Any #forge:ingots/aluminum"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:ingots/aluminum"
+			tasks: [
+				{
+					id: "079F2D4900B8B247"
+					type: "item"
+					title: "Any #forge:dusts/aluminum"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:dusts/aluminum"
+						}
 					}
 				}
-			}]
+				{
+					id: "33F1689BF5E74F5D"
+					type: "item"
+					title: "Any #forge:ingots/aluminum"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:ingots/aluminum"
+						}
+					}
+				}
+			]
 			rewards: [{
 				id: "3E7CEE2FC39DF5E2"
 				type: "item"
@@ -270,8 +286,8 @@
 			x: 0.0d
 			y: -1.0d
 			subtitle: "冶炼原料"
-			description: ["制作中，请期待下个版本更新。"]
-			dependencies: ["0019852CD6EC0354"]
+			description: ["冶炼铝的原材料。"]
+			dependencies: ["2FD2E7932423788D"]
 			id: "5808CFED17AE91D4"
 			tasks: [{
 				id: "417E9910C7BE0C2C"
@@ -326,7 +342,7 @@
 			title: "黑色金属-钢"
 			icon: "immersiveengineering:ingot_steel"
 			x: 0.0d
-			y: -2.5d
+			y: -3.0d
 			subtitle: "坚硬无比"
 			description: ["进行大规模工业化的基础."]
 			dependencies: [
@@ -416,6 +432,38 @@
 					}
 				}
 			]
+		}
+		{
+			title: "更大的发电机"
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["4138E3A9915F811C"]
+			id: "66A550B05F529CD5"
+			tasks: [{
+				id: "3BC96F9FDC016B05"
+				type: "item"
+				item: "immersiveengineering:generator"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: [
+				"7F84766122DC4753"
+				"0019852CD6EC0354"
+			]
+			id: "2FD2E7932423788D"
+			tasks: [{
+				id: "2047877031C59B71"
+				type: "item"
+				item: {
+					id: "custommachinery:custom_machine_item"
+					Count: 1b
+					tag: {
+						machine: "the_winter_rescue:electrolyzer"
+					}
+				}
+			}]
 		}
 	]
 }

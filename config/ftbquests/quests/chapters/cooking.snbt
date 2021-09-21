@@ -176,6 +176,7 @@
 			subtitle: "劈砍木头时偶尔获得"
 			description: ["混在食物里可以增强饱腹感。"]
 			dependencies: ["7887EB905BAA7BEF"]
+			hide: true
 			id: "20F1DD1209093059"
 			tasks: [{
 				id: "0A913ECAD3E5B736"

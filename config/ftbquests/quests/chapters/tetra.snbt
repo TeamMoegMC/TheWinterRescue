@@ -4,152 +4,92 @@
 	order_index: 4
 	filename: "tetra"
 	title: "工具大师的一天"
+	icon: {
+		id: "tetra:modular_double"
+		Count: 1b
+		tag: {
+			"double/handle": "double/basic_handle"
+			"double/head_left": "double/basic_hammer_left"
+			"double/head_right": "double/basic_hammer_right"
+			id: "d2d36442-069f-42d7-b9a8-8af8eb49dced"
+			"double/basic_hammer_right_material": "basic_hammer/obsidian"
+			Damage: 0
+			"double/basic_handle_material": "basic_handle/iron"
+			"double/basic_hammer_left_material": "basic_hammer/obsidian"
+		}
+	}
 	subtitle: ["打磨最好的工具，是一门匠人的艺术。"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "一锤定音"
 			x: -2.5d
-			y: -1.5d
-			description: ["拿这柄锤子右键工作台,你会发现新世界."]
-			dependencies: ["328D948C4C800873"]
-			id: "244385ABDC4E8716"
+			y: 1.5d
+			shape: "gear"
+			subtitle: "非法改装"
+			description: ["制作一个tetra的锤子右键工作台得到"]
+			dependencies: ["5C8730E4484959B9"]
+			size: 1.2d
+			id: "11DD149796E14E81"
 			tasks: [{
-				id: "0F7E77EB33AD3F51"
+				id: "16AAA86B0A094B06"
 				type: "item"
-				item: {
-					id: "tetra:modular_double"
-					Count: 1b
-					tag: {
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "8f5d7e30-7840-4210-a2ff-b818f853b847"
-						"double/basic_hammer_right_material": "basic_hammer/oak"
-						Damage: 0
-						"double/basic_handle_material": "basic_handle/stick"
-						"double/basic_hammer_left_material": "basic_hammer/oak"
-					}
-				}
+				item: "tetra:basic_workbench"
 			}]
 		}
 		{
 			x: -2.5d
 			y: 0.0d
-			dependencies: ["244385ABDC4E8716"]
-			id: "33BE501D41AD5AD5"
+			subtitle: "工具大师的起点"
+			description: ["从这里开始自由改造你的工具."]
+			dependencies: ["328D948C4C800873"]
+			id: "5C8730E4484959B9"
 			tasks: [{
-				id: "50F32D4870D5F828"
-				type: "item"
-				item: {
-					id: "tetra:modular_double"
-					Count: 1b
-					tag: {
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "80997aa0-3608-4eaa-8b7b-10000b897976"
-						"double/basic_hammer_right_material": "basic_hammer/stone"
-						Damage: 0
-						"double/basic_handle_material": "basic_handle/stick"
-						"double/basic_hammer_left_material": "basic_hammer/stone"
-					}
-				}
+				id: "3A742F617D2CB6B9"
+				type: "checkmark"
+				title: "改造你的工具第一步"
 			}]
 		}
 		{
-			x: -2.5d
-			y: 1.5d
-			dependencies: ["33BE501D41AD5AD5"]
-			id: "2329B2FAA69F5CA2"
-			tasks: [{
-				id: "75C787A76FDB7F8F"
-				type: "item"
-				item: {
-					id: "tetra:modular_double"
-					Count: 1b
-					tag: {
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "a1931fbe-de26-4c98-978d-d688ddadc99c"
-						"double/basic_hammer_right_material": "basic_hammer/iron"
-						Damage: 0
-						"double/basic_handle_material": "basic_handle/spruce"
-						"double/basic_hammer_left_material": "basic_hammer/iron"
-					}
-				}
-			}]
-		}
-		{
-			x: -2.5d
+			x: -3.0d
 			y: 3.0d
-			dependencies: ["2329B2FAA69F5CA2"]
-			id: "2AEA8368BBF21435"
+			subtitle: "更加强大"
+			description: [
+				"以铁镐作为基础"
+				"改装出属于你自己的镐子"
+			]
+			dependencies: ["11DD149796E14E81"]
+			id: "0B94C2D4FAB6A54B"
 			tasks: [{
-				id: "1700C01FDCAA34EF"
+				id: "1DB0877357D9C3A4"
 				type: "item"
 				item: {
-					id: "tetra:modular_double"
+					id: "minecraft:iron_pickaxe"
 					Count: 1b
 					tag: {
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "c93a0a41-6f76-4ffb-98ed-0eb4bd284518"
-						"double/basic_hammer_right_material": "basic_hammer/blackstone"
 						Damage: 0
-						"double/basic_handle_material": "basic_handle/spruce"
-						"double/basic_hammer_left_material": "basic_hammer/blackstone"
 					}
 				}
 			}]
 		}
 		{
-			x: -2.5d
-			y: 4.5d
-			dependencies: ["2AEA8368BBF21435"]
-			id: "1D9E4968F559D11A"
+			x: -2.0d
+			y: 3.0d
+			subtitle: "改造方案"
+			description: ["通过全息球了解改装信息"]
+			dependencies: ["11DD149796E14E81"]
+			id: "06919E56E850B946"
 			tasks: [{
-				id: "69C78556B95213A3"
+				id: "50AA21266B159CBE"
 				type: "item"
 				item: {
-					id: "tetra:modular_double"
+					id: "tetra:holo"
 					Count: 1b
 					tag: {
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "7d654f9b-07e1-4326-964c-894d19e1aeb4"
-						"double/basic_hammer_right_material": "basic_hammer/obsidian"
-						Damage: 0
-						"double/basic_handle_material": "basic_handle/iron"
-						"double/basic_hammer_left_material": "basic_hammer/obsidian"
-					}
-				}
-			}]
-		}
-		{
-			x: -2.5d
-			y: 6.0d
-			dependencies: ["1D9E4968F559D11A"]
-			id: "474971D4C70D7D4B"
-			tasks: [{
-				id: "5EF7C2A368252D2F"
-				type: "item"
-				item: {
-					id: "tetra:modular_double"
-					Count: 1b
-					tag: {
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "f189d41e-23b9-4eea-a683-85d7ba6037be"
-						"double/basic_hammer_right_material": "basic_hammer/netherite"
-						Damage: 0
-						"double/basic_handle_material": "basic_handle/forged_beam"
-						"double/basic_hammer_left_material": "basic_hammer/netherite"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/core": "holo/core"
+						"holo/frame_material": "core/ancient"
 					}
 				}
 			}]

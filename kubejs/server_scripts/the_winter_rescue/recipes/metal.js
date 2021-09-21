@@ -24,6 +24,7 @@ onEvent('recipes', (event) => {
 		"aluminum",
 		"lead",
 		"constantan",
+		"steel",
 		"gold"
 	]
 	metals2.forEach((plate) => {

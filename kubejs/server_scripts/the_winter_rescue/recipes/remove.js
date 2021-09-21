@@ -103,6 +103,7 @@ onEvent('recipes', (event) => {
 		event.remove({ type: 'minecraft:blasting', output:Item});
 	});
 	event.remove({ type: 'immersiveengineering:turn_and_copy', output:'immersiveengineering:radiator'})
+	event.remove({ type: 'immersiveengineering:turn_and_copy', output:'immersiveengineering:rs_engineering'})
 	event.remove({ type: 'immersiveengineering:hammer_crushing'})
 	event.remove({ type: 'minecraft:crafting_shapeless', output:'minecraft:ender_eye'})
 	event.remove({ type: 'minecraft:crafting_shapeless', input:'immersiveengineering:hammer'})

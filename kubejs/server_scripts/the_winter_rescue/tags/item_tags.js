@@ -18,6 +18,9 @@ onEvent('item.tags', (event) => {
     event.add('the_winter_rescue:flux_block', "rankine:chalk")
     event.add('the_winter_rescue:flour', "stone_age:flour")
     event.add('the_winter_rescue:flour', "frostedheart:rye_flour")
+	
+	event.add('ages_api:axes', "rankine:flint_axe")
+
 
     event.add('the_winter_rescue:cogwheels', "steampowered:bronze_cogwheel")
     event.add('the_winter_rescue:cogwheels', "steampowered:cast_iron_cogwheel")
