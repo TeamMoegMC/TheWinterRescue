@@ -1,50 +1,125 @@
-[Beta-4]
+[Beta-0.4.0] - "蒸汽加压"
+* 主线：
+你终于能点燃二阶能量塔了！
+使用电解设备制造耐寒金属——铝
+* 内容：
+基于全新热力网络系统，你可以用高压蒸汽驱动你的工厂
+多方块蒸汽涡轮机
+蒸汽加热器
+蒸汽充气机
+便携式蒸汽加温背心
+* 视觉：
+完全定制的冬季救援状态栏
+减少了温度球挡住的视野
+更合理的失温进度显示
+实时显示的动态环境温度
+* 优化：
+优化了体温和环境温度系统
+优化了服务器资源消耗
+优化了启动时间
+* 新增模组：
+Snowball（用于打包模组外文件）
+* 移除模组：
+CraftTweaker（此次更新将所有ZS脚本使用KubeJS重做，移除CrT后大幅优化启动速度）
+JEITweaker（同上）
+Survive（全部机制优化后移入自研FrostedHeart模组）
+UnionLib（Survive前置）
 
-[Beta-3]
-- 新增模组：
+[Beta-0.3.0] - "蒸汽动力"
+* 内容：
+第二阶段重构，移除电动力学，添加机械动力和蒸汽动力（自研）
+矿物不再掉落方块矿
+粉碎矿和洗净矿处理
+多方块蒸汽涡轮机（自研）
+地下村庄避难所
+全新耐寒蔬菜作物（-10度）白萝卜
+炼钢方法改变，需要鼓风机
+发电以及储电设备制造大规模改动
+铝线会在0.4加入
+* 优化：
+删除了洞穴悬崖模组，西部枪械模组，以及其他多余模组
+添加Performant优化模组
+优化LOGO和主界面以及加载界面
+优化第一阶段游戏体验
+修复大部分矿词问题
+修复能量塔温度不保存和加温区域不完整问题（cr. khjxiaogu）
+基于思索的更好多方块搭建指引
+感谢@Lyuuke @goumo_g @khjxiaogu 对本次更新提供的致辞后。
+* 新增模组：
 Custom Machinery
 Create
 FlyWheel
-OpenLoader
 kubejs-create
 kubejs-immersiveengineering
 SteamPowered
-
-- 移除模组：
+* 移除模组：
+Electrodynamics
 CavesAndCliffsBackport
 WW3
 
-[Beta-2]
-- 新增模组：
-Modular routers: item/fluid transfer
-Shut-up-experimental-settings (client)
-Campfire Overhual
-WaterSource
-TowersOfTheWild (fixed version)
-- 移除模组：
-AdChmineys
-Nuclear Science
-Vehicle
+[Beta-0.2.3]
+修复部分玩家偶尔无法进入服务器的问题。
+新玩家可以直接下载客户端。
+对于老玩家，此次更新只需要更换两个模组：advgenerators和bdlib
+请从群文件【资源】文件夹下载advgenerators-0.10.1.11.jar和bdlib-1.17.1.11.jar，并以此替换.minecraft/mods文件夹内的advgenerators-0.10.1.9.jar和bdlib-1.16.1.7.jar。
+
+[Beta-0.2.2]
+此次更新可通过加载更新包更新。
+1. 解压更新包获得需要更新的文件夹
+2. 将原版本.minecraft下kubejs
+3. 将新的kubejs放入.minecraft
+4. 将结尾为jar的模组文件tetra替换老版本tetra在mods文件夹
+5. 将custommachinery直接放进mods文件夹
+此次更新包含较多任务内容和小型修复，请在服务器内查看。
+
+[Beta-0.2.1]
+此次更新可通过加载更新包更新。
+1. 解压更新包获得需要更新的文件夹
+2. 将原版本.minecraft下同名文件夹删除
+3. 将新的文件夹放入.minecraft
+此次更新包含较多任务内容和小型修复，请在服务器内查看。
+
+[Beta-0.2.0] - "进一步冷冻"
+* 主线：
+多方块电解器和多方块结晶器，你现在能生产铝和更高级的电路了。
 * 内容：
-【主线】多方块电解器和多方块结晶器，你现在能生产铝和更高级的电路了。
-Ele能量和FE转换更科学了，营养系统更加重要（请勿轻易氢生！）。
-羊毛衫的好伙伴们茅草大衣和兽皮大衣来了。
-食用生食可不好，会中毒噢。
-寒冬里，黑面包配热汤是绝配。
-篝火需要丢进燃料了，很科学吧？
-工业绳子植物怎么可能随便种，零度安排！
 现在你可以知道作物生长需要的温度。
 全新净水器与水源系统来啦。
 无线物流系统来了，做好科技准备。
 更多木头支持劈砍。
 雪地里的高塔又回来了！
 更多剧情来袭。
+* 改动：
+Ele能量和FE转换更科学了，营养系统更加重要（请勿轻易氢生！）。
+羊毛衫的好伙伴们茅草大衣和兽皮大衣来了。
+食用生食可不好，会中毒噢。
+寒冬里，黑面包配热汤是绝配。
+篝火需要丢进燃料了，很科学吧？
+工业绳子植物怎么可能随便种，零度安排！
 * 优化：
 删除了部分不符合整合包风格的附魔。
 平衡了一些配方。
+* 新增模组：
+Modular routers: item/fluid transfer
+Shut-up-experimental-settings (client)
+Campfire Overhual
+WaterSource
+TowersOfTheWild (fixed version)
+* 移除模组：
+AdChmineys
+Nuclear Science
+Vehicle
 
-[Beta-1]
-- 新增模组：
+[Beta-0.1.0] - "冬日之始"
+* 主线：
+全新多方块坩埚与电解器来了！冶钢的大家伙，化工，你准备好了吗？
+* 改动：
+此次更新大量优化与新添了和雪有关的机制，如更多含雪方块，带减速的雪球，雪地猪，怪物覆盖积雪的自定义材质，温度显示，动物将掉落冷冻的肉类。
+* 优化：
+同时我们也加入了诸如天气预报，烹饪锅，附魔信息显示等全新内容模组等待玩家们的探索。
+* 视觉：
+客户端也拥有了定制版加载界面和主界面，也有加载界面的小提示！
+* 新增模组：
 Caves&CliffsBackport: interesting worldgen features, powdered snow block
 Collective (lib)
 Kiwi (lib)
@@ -58,6 +133,10 @@ Bookshelf (lib)
 CrockPot
 EnchantmentDescriptions
 WeatherForecast
-- 移除模组：
+* 移除模组：
 BetterTitleScreen
 TowersOfTheWild
+
+[关于更新日志]
+* 本更新日志不包含Hotfix（热修复）版本内容
+* 英文版会在发布正式版后制作
