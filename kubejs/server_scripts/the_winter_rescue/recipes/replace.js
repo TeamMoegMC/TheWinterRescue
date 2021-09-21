@@ -1,4 +1,3 @@
-
 onEvent('recipes', (event) => {
     event.replaceInput({}, 'create:andesite_alloy', 'rankine:cast_iron_alloy')
     event.replaceInput({}, 'create:cogwheel', '#the_winter_rescue:cogwheels')

@@ -5,140 +5,140 @@
 onEvent('recipes', (event) => {
 
     var changeRecipes = [
-	    shapedRecipe('charcoal_pit:mechanical_bellows', ['AAA', 'BC ', 'AAA'], {
+        shapedRecipe('charcoal_pit:mechanical_bellows', ['AAA', 'BC ', 'AAA'], {
             A: 'minecraft:stone',
             B: 'minecraft:piston',
             C: 'charcoal_pit:bellows'
         }),
-		shapedRecipe('immersiveengineering:rs_engineering', ['ABA', 'BCB', 'ABA'], {
+        shapedRecipe('immersiveengineering:rs_engineering', ['ABA', 'BCB', 'ABA'], {
             A: 'immersiveengineering:sheetmetal_iron',
             B: '#forge:plates/copper',
             C: 'immersiveengineering:circuit_board'
         }),
-		shapedRecipe('modularrouters:blank_module', ['BC', 'AA', 'AA'], {
+        shapedRecipe('modularrouters:blank_module', ['BC', 'AA', 'AA'], {
             A: '#forge:plates/aluminum',
             B: 'immersiveengineering:wire_copper',
             C: 'immersiveengineering:circuit_board'
         }),
-		shapedRecipe('modularrouters:item_router', ['ABA', 'ACA', 'ABA'], {
+        shapedRecipe('modularrouters:item_router', ['ABA', 'ACA', 'ABA'], {
             A: '#forge:plates/aluminum',
             B: '#the_winter_rescue:cogwheels',
             C: 'modularrouters:blank_module'
         }),
-		shapedRecipe('modularrouters:blank_upgrade', ['ABA', 'BAC', 'AD '], {
+        shapedRecipe('modularrouters:blank_upgrade', ['ABA', 'BAC', 'AD '], {
             A: '#forge:plates/aluminum',
             B: '#forge:plates/steel',
             C: 'immersiveengineering:circuit_board',
-			D: 'immersiveengineering:wire_copper'
+            D: 'immersiveengineering:wire_copper'
         }),
-		shapedRecipe('modularrouters:fluid_module', ['AB', 'CB'], {
+        shapedRecipe('modularrouters:fluid_module', ['AB', 'CB'], {
             A: 'modularrouters:blank_module',
             B: 'immersiveengineering:wire_copper',
             C: 'immersiveengineering:circuit_board'
         }),
-		shapedRecipe('modularrouters:fluid_module_2', ['CB', 'AC ', 'CB'], {
+        shapedRecipe('modularrouters:fluid_module_2', ['CB', 'AC ', 'CB'], {
             A: 'modularrouters:blank_module',
             B: 'immersiveengineering:wire_copper',
             C: 'immersiveengineering:circuit_board'
         }),
-		shapedRecipe('modularrouters:puller_module_1', ['AB', 'BC'], {
+        shapedRecipe('modularrouters:puller_module_1', ['AB', 'BC'], {
             A: 'modularrouters:blank_module',
             B: 'immersiveengineering:conveyor_covered',
             C: 'immersiveengineering:wire_copper'
         }),
-		shapedRecipe('modularrouters:puller_module_2', ['AA', 'AA', 'AC'], {
+        shapedRecipe('modularrouters:puller_module_2', ['AA', 'AA', 'AC'], {
             A: 'modularrouters:puller_module_1',
             B: 'immersiveengineering:wire_copper'
         }),
-		shapedRecipe('modularrouters:sender_module_1', ['AB', 'BC'], {
+        shapedRecipe('modularrouters:sender_module_1', ['AB', 'BC'], {
             A: 'modularrouters:puller_module_1',
             B: 'immersiveengineering:conveyor_covered',
             C: 'minecraft:piston'
         }),
-		shapedRecipe('modularrouters:sender_module_2', ['AB', 'BB', 'BC'], {
+        shapedRecipe('modularrouters:sender_module_2', ['AB', 'BB', 'BC'], {
             A: 'modularrouters:puller_module_2',
             B: 'immersiveengineering:conveyor_covered',
             C: 'minecraft:piston'
         }),
-		shapedRecipe('modularrouters:void_module', ['ABA', 'BCB', 'ABA'], {
+        shapedRecipe('modularrouters:void_module', ['ABA', 'BCB', 'ABA'], {
             A: 'minecraft:flint_and_steel',
             B: '#the_winter_rescue:cogwheels',
             C: 'modularrouters:blank_module'
         }),
-		shapedRecipe('engineersdecor:small_tree_cutter', ['ABA', 'ACE', 'ADA'], {
+        shapedRecipe('engineersdecor:small_tree_cutter', ['ABA', 'ACE', 'ADA'], {
             A: '#forge:plates/steel',
             B: 'immersiveengineering:circuit_board',
             C: 'immersiveengineering:light_engineering',
-			D: 'immersiveengineering:treated_wood_horizontal',
-			E: 'immersiveengineering:sawblade'
+            D: 'immersiveengineering:treated_wood_horizontal',
+            E: 'immersiveengineering:sawblade'
         }),
-		shapedRecipe('2x immersiveengineering:heavy_engineering', ['ABA', 'BCB', 'ABA'], {
+        shapedRecipe('2x immersiveengineering:heavy_engineering', ['ABA', 'BCB', 'ABA'], {
             A: '#forge:plates/tungsten_steel',
             B: 'immersiveengineering:component_steel',
             C: 'rankine:tungsten_heavy_alloy'
         }),
-		shapedRecipe('2x immersiveengineering:light_engineering', ['ABA', 'BCB', 'ABA'], {
+        shapedRecipe('2x immersiveengineering:light_engineering', ['ABA', 'BCB', 'ABA'], {
             A: '#forge:plates/aluminum',
             B: 'immersiveengineering:component_iron',
             C: '#forge:ingots/steel'
         }),
-		shapedRecipe('immersiveengineering:fluid_pump', ['CDC', 'ABA', 'ABA'], {
+        shapedRecipe('immersiveengineering:fluid_pump', ['CDC', 'ABA', 'ABA'], {
             A: '#forge:plates/steel',
             B: 'immersiveengineering:fluid_pipe',
-			C: '#forge:plates/aluminum',
+            C: '#forge:plates/aluminum',
             D: 'immersiveengineering:circuit_board'
         }),
-		shapedRecipe('engineersdecor:factory_hopper', [' C ', 'ABA', 'AAA'], {
+        shapedRecipe('engineersdecor:factory_hopper', [' C ', 'ABA', 'AAA'], {
             A: '#forge:plates/steel',
             B: 'minecraft:hopper',
             C: 'immersiveengineering:circuit_board'
         }),
-		shapedRecipe('2x immersiveengineering:generator', ['ABA', 'BCB', 'ABA'], {
+        shapedRecipe('2x immersiveengineering:generator', ['ABA', 'BCB', 'ABA'], {
             A: 'immersiveengineering:sheetmetal_steel',
             B: '#forge:plates/copper',
             C: 'immersiveengineering:coil_mv'
         }),
-		shapedRecipe('2x immersiveengineering:radiator', ['ABA', 'BCB', 'ABA'], {
+        shapedRecipe('2x immersiveengineering:radiator', ['ABA', 'BCB', 'ABA'], {
             A: 'immersiveengineering:sheetmetal_steel',
             B: '#forge:plates/steel',
             C: 'immersiveengineering:plantoil_bucket'
         }),
-		shapedRecipe('2x rankine:high_refractory_bricks', ['ABA', 'BAB', 'ABA'], {
+        shapedRecipe('2x rankine:high_refractory_bricks', ['ABA', 'BAB', 'ABA'], {
             A: 'rankine:high_refractory_brick',
             B: 'rankine:mortar'
         }),
-		shapedRecipe('minecraft:comparator', [' B ', 'BCB', 'AAA'], {
+        shapedRecipe('minecraft:comparator', [' B ', 'BCB', 'AAA'], {
             A: '#forge:plates/iron',
             B: 'minecraft:redstone_torch',
             C: 'immersiveengineering:wire_copper'
         }),
-		shapedRecipe('minecraft:piston', ['AAA', 'BAB ', 'BCB'], {
+        shapedRecipe('minecraft:piston', ['AAA', 'BAB ', 'BCB'], {
             A: '#minecraft:planks',
             B: 'minecraft:stone',
             C: '#the_winter_rescue:cogwheel'
         }),
-		shapedRecipe('3x immersiveengineering:cokebrick', ['ABA', 'CAC', 'ABA'], {
+        shapedRecipe('3x immersiveengineering:cokebrick', ['ABA', 'CAC', 'ABA'], {
             A: 'minecraft:brick',
             B: 'rankine:mortar',
             C: 'steampowered:bronze_sheet'
         }),
-		shapedRecipe('3x immersiveengineering:blastbrick', ['ABA', 'BCB', 'ABA'], {
+        shapedRecipe('3x immersiveengineering:blastbrick', ['ABA', 'BCB', 'ABA'], {
             A: 'kubejs:invar_steel_plate',
             B: 'rankine:mortar',
             C: 'rankine:refractory_bricks'
         }),
-		shapedRecipe('immersiveengineering:wirecutter', ['A A', ' B ', 'B B'], {
+        shapedRecipe('immersiveengineering:wirecutter', ['A A', ' B ', 'B B'], {
             A: '#forge:plates/iron',
             B: 'immersiveengineering:stick_treated'
         }),
-		shapedRecipe('notreepunching:clay_tool', ['AA', 'A '], {
+        shapedRecipe('notreepunching:clay_tool', ['AA', 'A '], {
             A: 'minecraft:stick',
         }),
-		shapedRecipe('notreepunching:flint_knife', [' A', 'B '], {
+        shapedRecipe('notreepunching:flint_knife', [' A', 'B '], {
             A: 'minecraft:flint',
             B: 'minecraft:stick'
         }),
-		shapedRecipe('2x rankine:rope', ['AA', 'A '], {
+        shapedRecipe('2x rankine:rope', ['AA', 'A '], {
             A: 'charcoal_pit:straw'
         }),
         shapedRecipe('rankine:fluid_drain', ['L L', 'LFL', 'PLP'], {
@@ -206,45 +206,45 @@ onEvent('recipes', (event) => {
     ]
 
     var newRecipes = [
-		shapedRecipe('masterfulmachinery:chcr_controller', ['ABA', 'CAC', 'ABA'], {
+        shapedRecipe('masterfulmachinery:chcr_controller', ['ABA', 'CAC', 'ABA'], {
             A: '#forge:plates/constantan',
             B: 'immersiveengineering:circuit_board',
             C: 'kubejs:constantan_wire'
         }),
-		shapedRecipe('masterfulmachinery:chcr_fluid_port_fluids_input', [' A ', 'ABA', ' A '], {
+        shapedRecipe('masterfulmachinery:chcr_fluid_port_fluids_input', [' A ', 'ABA', ' A '], {
             A: '#forge:plates/constantan',
             B: 'immersiveengineering:metal_barrel'
         }),
-		shapedRecipe('masterfulmachinery:chcr_item_port_items_input', [' A ', 'ABA', ' A '], {
+        shapedRecipe('masterfulmachinery:chcr_item_port_items_input', [' A ', 'ABA', ' A '], {
             A: '#forge:plates/constantan',
             B: 'minecraft:chest'
         }),
-		shapedRecipe('masterfulmachinery:chcr_energy_port_energy_input', [' A ', 'ABA', ' A '], {
+        shapedRecipe('masterfulmachinery:chcr_energy_port_energy_input', [' A ', 'ABA', ' A '], {
             A: '#forge:plates/constantan',
             B: 'immersiveengineering:capacitor_lv'
         }),
-		shapedRecipe('masterfulmachinery:ele_controller', ['ABA', 'CAC', 'ABA'], {
+        shapedRecipe('masterfulmachinery:ele_controller', ['ABA', 'CAC', 'ABA'], {
             A: '#forge:plates/aluminum',
             B: 'immersiveengineering:circuit_board',
             C: 'immersiveengineering:wirecoil_electrum'
         }),
-		shapedRecipe('masterfulmachinery:ele_fluid_port_fluids_input', [' A ', 'ABA', ' A '], {
+        shapedRecipe('masterfulmachinery:ele_fluid_port_fluids_input', [' A ', 'ABA', ' A '], {
             A: '#forge:plates/aluminum',
             B: 'immersiveengineering:metal_barrel'
         }),
-		shapedRecipe('masterfulmachinery:ele_item_port_items_input', [' A ', 'ABA', ' A '], {
+        shapedRecipe('masterfulmachinery:ele_item_port_items_input', [' A ', 'ABA', ' A '], {
             A: '#forge:plates/aluminum',
             B: 'minecraft:chest'
         }),
-		shapedRecipe('masterfulmachinery:ele_energy_port_energy_input', [' A ', 'ABA', ' A '], {
+        shapedRecipe('masterfulmachinery:ele_energy_port_energy_input', [' A ', 'ABA', ' A '], {
             A: '#forge:plates/aluminum',
             B: 'immersiveengineering:capacitor_lv'
         }),
-		shapedRecipe('frostedheart:burning_chamber', ['ABA', 'BCB', 'ABA'], {
+        shapedRecipe('frostedheart:burning_chamber', ['ABA', 'BCB', 'ABA'], {
             A: '#forge:plates/cast_iron',
             B: '#forge:plates/iron'
         }),
-		shapedRecipe('frostedheart:burning_chamber_core', ['AAA', 'ABA', 'AAA'], {
+        shapedRecipe('frostedheart:burning_chamber_core', ['AAA', 'ABA', 'AAA'], {
             A: '#forge:plates/cast_iron',
             B: '#forge:plates/iron'
         }),
@@ -333,13 +333,13 @@ onEvent('recipes', (event) => {
     let i = 0;
     changeRecipes.forEach(function (recipe) {
         event.remove({output: recipe.result, type: 'minecraft:crafting_shaped'});
-        event.shaped(recipe.result, recipe.pattern, recipe.key).id('the_winter_rescue:minecraft/crafting_shaped/'+i);
+        event.shaped(recipe.result, recipe.pattern, recipe.key).id('the_winter_rescue:minecraft/crafting_shaped/' + i);
         i++;
     });
 
     let j = 0;
     newRecipes.forEach(function (recipe) {
-        event.shaped(recipe.result, recipe.pattern, recipe.key).id('the_winter_rescue:minecraft/crafting_shaped/new/'+j);
+        event.shaped(recipe.result, recipe.pattern, recipe.key).id('the_winter_rescue:minecraft/crafting_shaped/new/' + j);
         j++;
     });
 });

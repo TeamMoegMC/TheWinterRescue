@@ -14,24 +14,24 @@ onEvent('recipes', (event) => {
             E: 'create:propeller',
             F: 'create:shaft',
         }),
-		shapedRecipe('create:blaze_burner', ['AC CA', 'ABDBA', 'ABBBA', 'AAAAA'], {
+        shapedRecipe('create:blaze_burner', ['AC CA', 'ABDBA', 'ABBBA', 'AAAAA'], {
             A: 'kubejs:cast_iron_plate',
             B: '#forge:plates/constantan',
             C: '#forge:plates/bronze',
             D: 'minecraft:lava_bucket',
         }),
-		shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:electrolyzer"}'), ['AAAAA', 'ABECA', 'ABDCA', 'AAAAA'], {
+        shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:electrolyzer"}'), ['AAAAA', 'ABECA', 'ABDCA', 'AAAAA'], {
             A: 'immersiveengineering:plate_steel',
             B: '#forge:ingots/silver',
             C: '#forge:ingots/gold',
             D: 'minecraft:glass',
-			E: 'immersiveengineering:circuit_board',
+            E: 'immersiveengineering:circuit_board',
         })
     ]
 
     let j = 0;
     recipes.forEach(function (recipe) {
-        event.recipes.extendedcrafting.shaped_table(recipe.result, recipe.pattern, recipe.key).id('the_winter_rescue:extendedcrafting/advanced_table/new/'+j);
+        event.recipes.extendedcrafting.shaped_table(recipe.result, recipe.pattern, recipe.key).id('the_winter_rescue:extendedcrafting/advanced_table/new/' + j);
         j++;
     });
 });

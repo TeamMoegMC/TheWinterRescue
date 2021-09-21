@@ -66,7 +66,7 @@ onEvent('recipes', (event) => {
     event.recipes.createMilling([Item.of('2x minecraft:redstone'), Item.of('2x minecraft:redstone').withChance(0.5)], 'rankine:cinnabar')
     event.recipes.createMilling([Item.of('2x kubejs:impure_alumina_dust'), Item.of('2x kubejs:impure_alumina_dust').withChance(0.5)], 'rankine:alumina')
     event.recipes.createMilling([Item.of('kubejs:kaolin_dust'), Item.of('kubejs:kaolin_dust').withChance(0.5)], 'rankine:kaolinite_ball')
-	event.recipes.createMilling([Item.of('minecraft:glowstone_dust'), Item.of('minecraft:glowstone_dust').withChance(0.5)], 'kubejs:washed_ore_fluorite')
-	event.recipes.createMilling([Item.of('immersiveengineering:dust_sulfur'), Item.of('immersiveengineering:dust_sulfur').withChance(0.5)], 'rankine:sulfur')
-	event.recipes.createMilling([Item.of('minecraft:quartz').withChance(0.5), Item.of('minecraft:quartz').withChance(0.3)], 'minecraft:smooth_sandstone')
+    event.recipes.createMilling([Item.of('minecraft:glowstone_dust'), Item.of('minecraft:glowstone_dust').withChance(0.5)], 'kubejs:washed_ore_fluorite')
+    event.recipes.createMilling([Item.of('immersiveengineering:dust_sulfur'), Item.of('immersiveengineering:dust_sulfur').withChance(0.5)], 'rankine:sulfur')
+    event.recipes.createMilling([Item.of('minecraft:quartz').withChance(0.5), Item.of('minecraft:quartz').withChance(0.3)], 'minecraft:smooth_sandstone')
 });

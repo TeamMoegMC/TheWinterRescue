@@ -1,4 +1,3 @@
-
 onEvent('recipes', (event) => {
     // event.custom({
     //     "type": "extendedcrafting:combination",
