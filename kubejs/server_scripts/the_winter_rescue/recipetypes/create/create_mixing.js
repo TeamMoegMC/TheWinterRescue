@@ -15,4 +15,7 @@ onEvent('recipes', (event) => {
 	event.recipes.createMixing(
         ['kubejs:aluminium_hydroxide_dust'],
         ['rankine:sodium_hydroxide', '2x kubejs:washed_ore_bauxite']).heated()
+	event.recipes.createMixing(
+        ['3x rankine:vulcanized_rubber'],
+        ['immersiveengineering:dust_sulfur', Fluid.of('rankine:latex', 500)])
 });

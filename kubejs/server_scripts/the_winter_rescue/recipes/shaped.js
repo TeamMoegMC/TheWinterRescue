@@ -159,8 +159,8 @@ onEvent('recipes', (event) => {
             A: 'rankine:pulp',
             B: '#forge:string'
         }),
-        shapedRecipe('create:belt_connector', ['AAA', ' B ', 'AAA'], {
-            A: '#forge:leather',
+        shapedRecipe('2x create:belt_connector', ['AAA', 'BBB', 'AAA'], {
+            A: '#forge:rubber',
             B: '#forge:wires/copper'
         }),
         shapedRecipe('6x create:fluid_pipe', ['AAA', 'AAA'], {
@@ -263,10 +263,6 @@ onEvent('recipes', (event) => {
         }),
         shapedRecipe('create:basin', ['A A', 'AAA'], {
             A: '#forge:plates/iron'
-        }),
-        shapedRecipe('create:belt_connector', ['AAA', 'BBB', 'AAA'], {
-            A: '#forge:leather',
-            B: '#forge:string'
         }),
         shapedRecipe('create:precision_mechanism', ['CAC', 'BCB', 'CAC'], {
             A: '#forge:plates/brass',

@@ -11,6 +11,7 @@
 	quests: [
 		{
 			title: "“真正的西伯利亚”挖土豆"
+			icon: "minecraft:flint"
 			x: -8.5d
 			y: 0.0d
 			subtitle: "沙砾"
@@ -66,6 +67,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
+			shape: "gear"
 			subtitle: "一点就着"
 			description: ["在这冰天雪地里，干草是取火的关键。"]
 			dependencies: [
@@ -102,9 +104,9 @@
 			y: 0.0d
 			subtitle: "坚硬的石头"
 			description: [
-				"在陶窑内烧制任意石头或圆石获得。 "
+				"&4在陶窑内烧制任意石头获得。 "
 				"&6陶窑的搭建需要四周都拥有方块."
-				"&6shift加右键放置材料,用6个干草与3个木头填充."
+				"&6shift右键放置石头,右键6个干草与3个木头填充."
 				"填充完毕后手持起火器长按右键点燃."
 			]
 			dependencies: [
@@ -315,6 +317,7 @@
 			title: "铜板"
 			x: 4.0d
 			y: 4.0d
+			subtitle: "金属板"
 			dependencies: [
 				"4A4D6D0DC9B348C1"
 				"0A9A5166127945AB"
@@ -396,12 +399,12 @@
 			y: 4.0d
 			subtitle: "锻铁炉主方块"
 			description: [
-				""
-				"在JEI界面，鼠标悬浮在锻铁炉方块上，然后长按W进入思索状态，查看锻铁炉的构造方法。"
-				"锻铁炉的使用方法：搭建好锻铁炉后，手持有效的原料(燃料除外)shift+右键将其放入锻铁炉形成原料方块，然后手持原料(包括燃料)右键原料方块将剩余原料放入锻铁炉。"
-				"放好原料后在原料方块上点火以启动锻铁炉。"
+				"使用思索查看锻铁炉的构造方法。"
+				"搭建好锻铁炉后，手持原料(燃料除外)shift+右键将其放入锻铁炉"
+				"然后手持原料(包括燃料)右键原料方块将剩余的放入锻铁炉。"
+				"在原料方块上点火以启动锻铁炉。"
 				"锻铁炉运行中需要用风箱通过鼓风口鼓风."
-				"&6炼制完成后，锻铁炉会自动熄灭，此时立即用镐挖掘其中的方块得到铁锭。"
+				"&6炼制完成后，&4立即用镐挖掘其中的方块得到铁锭。"
 			]
 			dependencies: ["4B6840707D77E2C0"]
 			id: "13D9DE54DF8117C2"
@@ -537,6 +540,7 @@
 			x: 4.0d
 			y: -2.5d
 			description: [
+				"&6加工黏土块得到胚胎"
 				"盛装各种液体，类似于通用流体单元。"
 				"加工黏土块后烧制得到."
 			]
@@ -614,6 +618,7 @@
 		{
 			x: 7.0d
 			y: 2.0d
+			subtitle: "氧气助燃"
 			description: [
 				"呼呼呼~"
 				"推荐至少两台风箱."
@@ -766,7 +771,7 @@
 			x: -5.5d
 			y: -0.5d
 			subtitle: "粗略加工"
-			description: ["燧石工作台的必备工具"]
+			description: ["&6使用燧石工作台合成的必备工具"]
 			dependencies: ["3102993072F3C8B9"]
 			id: "348EB1588EFAD2AB"
 			tasks: [{
@@ -795,19 +800,24 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 2.0d
-			dependencies: ["42AF456D165CBF75"]
+			x: 2.5d
+			y: 5.0d
+			subtitle: "升级工具"
+			description: ["青铜工具相比燧石工具来说更坚硬耐用。"]
+			hide_dependency_lines: true
+			dependencies: ["162264AE4B9EE1A9"]
 			id: "4CD30E566C5776E0"
 			tasks: [{
-				id: "6F2F119242BDED57"
+				id: "355CFC0B2AE4BC52"
 				type: "item"
 				item: {
-					id: "stone_age:stone_pickaxe"
+					id: "rankine:bronze_pickaxe"
 					Count: 1b
 					tag: {
 						Damage: 0
-						additionalModifiers: { }
+						StoredComposition: [{
+							comp: "80Cu-20Sn"
+						}]
 					}
 				}
 			}]
@@ -1185,6 +1195,7 @@
 		{
 			x: -8.5d
 			y: 2.0d
+			shape: "gear"
 			subtitle: "民以水为天"
 			description: ["水分很重要。你在飞船里找到的水壶可以用来右击水源接水，不过这是没有净化过的水，喝完会口渴。为了避免口渴效果，你需要喝纯净水。开局你有的纯净水够你喝一阵了， 等你获得滤水器后就可以净化纯净水了。"]
 			id: "33B6E7B60783C72B"
@@ -1237,9 +1248,12 @@
 		{
 			icon: "crockpot:food_category_meat"
 			x: -7.0d
-			y: 2.0d
+			y: 1.0d
+			shape: "gear"
 			subtitle: "均衡膳食"
-			description: ["打开你的背包就能查看营养值了，营养值过低会导致血量上限降低，营养值超过80%会提升血量上限。糖分在很高的时候会造成饥饿和加速效果。蛋白质很高则会增加你的力量。"]
+			description: [
+			"打开你的背包就能查看营养值了，营养值过低会导致血量上限降低，营养值超过80%会提升血量上限."
+			"糖分在很高的时候会造成饥饿和加速效果。蛋白质很高则会增加你的力量。"]
 			id: "215BC2E7271F1478"
 			tasks: [{
 				id: "58F4265EA5C778FB"
@@ -1248,8 +1262,9 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -7.0d
 			y: 2.0d
+			shape: "gear"
 			subtitle: "生存要素"
 			description: [
 				"在这个冰天雪地里."
@@ -1298,8 +1313,9 @@
 		}
 		{
 			title: "查询合成表"
-			x: -10.0d
-			y: 0.0d
+			x: -8.5d
+			y: 1.0d
+			shape: "gear"
 			subtitle: "你最好的帮手，JEI"
 			description: ["鼠标悬浮在要查询的物品上，使用R查询配方，使用U查询能制作什么物品。"]
 			id: "1F615C38B1A015E5"
