@@ -9,12 +9,12 @@ customization-meta {
 }
 
 customization {
-  path = fancymenu/background/snowy_blue_trees.png
+  path = config/fancymenu_assets/background/snowy_blue_trees.png
   action = texturizebackground
 }
 
 customization {
-  path = fancymenu/twr_logo_title.png
+  path = config/fancymenu_assets/twr_logo_title.png
   orientation = mid-centered
   x = -103
   width = 199
@@ -25,7 +25,7 @@ customization {
 }
 
 customization {
-  path = fancymenu/menu/textures/gui/button_normal.png
+  path = config/fancymenu_assets/buttons/button_normal.png
   orientation = mid-centered
   x = -103
   width = 200

@@ -26,7 +26,7 @@ customization {
 customization {
   orientation = mid-centered
   buttonaction = openlink
-  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
   description = 问题和建议反馈渠道
   label = 帮助中心
   x = -2
@@ -34,7 +34,7 @@ customization {
   actionid = 9b965a7b-f0ce-43d5-8987-1e784aec050d1631121087248
   action = addbutton
   y = 37
-  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
   value = https://support.teammoeg.com
   height = 20
 }
@@ -42,7 +42,7 @@ customization {
 customization {
   orientation = mid-centered
   buttonaction = openlink
-  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
   label = 支持我们
   hoverlabel = 支持我们
   x = -38
@@ -50,7 +50,7 @@ customization {
   actionid = c91a7520-5063-498d-bb51-8b44d3efe4701631121087252
   action = addbutton
   y = 62
-  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
   value = https://afdian.net/@teammoeg
   height = 20
 }
@@ -72,8 +72,8 @@ customization {
 customization {
   identifier = %id=604382%
   action = setbuttontexture
-  backgroundhovered = fancymenu/menu/textures/gui/a11y_hover.png
-  backgroundnormal = fancymenu/menu/textures/gui/a11y_normal.png
+  backgroundhovered = config/fancymenu_assets/buttons/a11y_hover.png
+  backgroundnormal = config/fancymenu_assets/buttons/a11y_normal.png
 }
 
 customization {
@@ -99,8 +99,8 @@ customization {
 customization {
   identifier = %id=376382%
   action = setbuttontexture
-  backgroundhovered = fancymenu/menu/textures/gui/language_hover.png
-  backgroundnormal = fancymenu/menu/textures/gui/language_normal.png
+  backgroundhovered = config/fancymenu_assets/buttons/language_hover.png
+  backgroundnormal = config/fancymenu_assets/buttons/language_normal.png
 }
 
 customization {
@@ -126,8 +126,8 @@ customization {
 customization {
   identifier = %id=400382%
   action = setbuttontexture
-  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
-  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
 }
 
 customization {
@@ -147,8 +147,8 @@ customization {
 customization {
   identifier = %id=502382%
   action = setbuttontexture
-  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
-  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
 }
 
 customization {
@@ -159,15 +159,15 @@ customization {
   actionid = 3b7f3e26-87f5-4f3b-bdc4-b5545a9d923e1631121087255
   action = addbutton
   y = -44
-  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
   label = TeamMoeg Presents
-  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
   value = twr.menu.credits
   height = 20
 }
 
 customization {
-  path = fancymenu/twr_logo_title.png
+  path = config/fancymenu_assets/twr_logo_title.png
   orientation = mid-centered
   x = -99
   width = 200
@@ -194,8 +194,8 @@ customization {
 customization {
   identifier = %id=400346%
   action = setbuttontexture
-  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
-  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
 }
 
 customization {
@@ -221,8 +221,8 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttontexture
-  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
-  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
 }
 
 customization {
@@ -248,8 +248,8 @@ customization {
 customization {
   identifier = %id=400298%
   action = setbuttontexture
-  backgroundhovered = fancymenu/menu/textures/gui/button_hover.png
-  backgroundnormal = fancymenu/menu/textures/gui/button_normal.png
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
 }
 
 customization {

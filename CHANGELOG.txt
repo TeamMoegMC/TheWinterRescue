@@ -19,11 +19,16 @@
 优化了启动时间
 * 新增模组：
 Snowball（用于打包模组外文件）
+* 更新模组：
+FrostedHeart 0.4
+StoneAge 1.3.4
+CharcoalPit 2.15
 * 移除模组：
 CraftTweaker（此次更新将所有ZS脚本使用KubeJS重做，移除CrT后大幅优化启动速度）
 JEITweaker（同上）
 Survive（全部机制优化后移入自研FrostedHeart模组）
 UnionLib（Survive前置）
+AppleSkin
 
 [Beta-0.3.0] - "蒸汽动力"
 * 内容：

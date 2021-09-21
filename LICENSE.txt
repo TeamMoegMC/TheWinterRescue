@@ -6,13 +6,11 @@ You probably want to have a read through this if you want to do something with i
 
 0. Definition
 - "The Mods" refers to
-  - all or part of the JAR files under the directory /mods
+  - all or part of the JAR files under the directory /mods except frostedheart-[version].jar
 
 - "The Winter Rescue" (or "The Modpack") refers to
-  - all or part of the files under the directory /scripts
   - all or part of the files under the directory /kubejs
-  - all or part of the files under the directory /fancymenu
-  - all or part of the files under /mods/frostedheart-[version].jar
+  - /mods/frostedheart-[version].jar
 
 - "Distribution" refers to
   - making available binaries, assets, or source of the Modpack available from the original sources as part of your Modpack or otherwise.
