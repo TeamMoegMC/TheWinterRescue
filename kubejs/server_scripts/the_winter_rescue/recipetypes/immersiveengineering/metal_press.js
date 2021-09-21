@@ -23,7 +23,9 @@ onEvent('recipes', (event) => {
 		{ output: '3x immersiveengineering:stick_aluminum', input: '2x #forge:ingots/aluminum', mold: 'immersiveengineering:mold_rod'},
 		{ output: '3x rankine:cast_iron_rod', input: '2x rankine:cast_iron_alloy', mold: 'immersiveengineering:mold_rod'},
 		
-		{ output: 'immersiveengineering:wire_copper', input: '#forge:plates/copper', mold: 'immersiveengineering:mold_wire'}
+		{ output: 'immersiveengineering:wire_copper', input: '#forge:plates/copper', mold: 'immersiveengineering:mold_wire'},
+		{ output: 'immersiveengineering:wire_electrum', input: '#forge:plates/electrum', mold: 'immersiveengineering:mold_wire'},
+		{ output: 'kubejs:constantan_wire', input: '4x #forge:plates/constantan', mold: 'immersiveengineering:mold_wire'}
     ];
 	
     recipes_mold_plate.forEach((recipe) => {

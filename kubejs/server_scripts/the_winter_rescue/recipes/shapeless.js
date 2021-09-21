@@ -5,7 +5,10 @@
 onEvent('recipes', (event) => {
 
     var changeShapelessRecipes = [
-        shapelessRecipe('frozenup:truffle_muffin', ['frostedheart:rye_flour', 'minecraft:sugar', 'frozenup:truffle'])
+        shapelessRecipe('frozenup:truffle_muffin', ['frostedheart:rye_flour', 'minecraft:sugar', 'frozenup:truffle']),
+		shapelessRecipe('masterfulmachinery:chcr_item_port_items_output', ['masterfulmachinery:chcr_item_port_items_input']),
+		shapelessRecipe('masterfulmachinery:ele_item_port_items_output', ['masterfulmachinery:ele_item_port_items_input']),
+		shapelessRecipe('masterfulmachinery:ele_fluid_port_fluids_output', ['masterfulmachinery:ele_fluid_port_fluids_input'])
     ]
 
     var newShapelessRecipes = [

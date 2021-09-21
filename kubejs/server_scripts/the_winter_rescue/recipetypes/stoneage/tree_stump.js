@@ -14,6 +14,8 @@ onEvent('recipes', (event) => {
 		Ingredient.of('#forge:hammers'),3,2),
 		tree_stumpRecipe(Item.of('immersiveengineering:plate_gold'), Item.of('minecraft:gold_ingot'), 
 		Ingredient.of('#forge:hammers'),3,2),
+		tree_stumpRecipe(Item.of('kubejs:invar_steel_plate'), Item.of('rankine:invar_alloy'), 
+		Ingredient.of('#forge:hammers'),3,2),
 		tree_stumpRecipe(Item.of('create:brass_sheet'), Item.of('rankine:brass_alloy'), 
 		Ingredient.of('#forge:hammers'),3,2),
 		tree_stumpRecipe(Item.of('kubejs:flux'), Ingredient.of('#the_winter_rescue:flux_block'), 

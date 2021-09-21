@@ -8,7 +8,6 @@ onEvent('item.registry', event => {
 		'aluminium_hydroxide_dust',
 		'kaolin_dust',
 		'tungsten_steel',
-		'constantan_coil',
 		'constantan_wire',
 		'battery_alloy',
 		'magnesium_dust',
@@ -73,7 +72,8 @@ onEvent('item.registry', event => {
 	let plates = [
 		"cast_iron",
 		"battery_alloy",
-		"tungsten_steel"
+		"tungsten_steel",
+		"invar_steel"
 	]
 
 	rawOres.forEach((ore) => {
