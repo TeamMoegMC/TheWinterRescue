@@ -10,10 +10,10 @@ onEvent('recipes', (event) => {
             B: 'minecraft:piston',
             C: 'charcoal_pit:bellows'
         }),
-        shapedRecipe('immersiveengineering:rs_engineering', ['ABA', 'BCB', 'ABA'], {
-            A: 'immersiveengineering:sheetmetal_iron',
-            B: '#forge:plates/copper',
-            C: 'immersiveengineering:circuit_board'
+		shapedRecipe('create:wrench', ['AA', 'AB', ' C'], {
+            A: '#forge:plates/brass',
+            B: '#the_winter_rescue:cogwheels',
+            C: 'immersiveengineering:stick_treated'
         }),
         shapedRecipe('modularrouters:blank_module', ['BC', 'AA', 'AA'], {
             A: '#forge:plates/aluminum',
@@ -97,11 +97,6 @@ onEvent('recipes', (event) => {
             A: 'immersiveengineering:sheetmetal_steel',
             B: '#forge:plates/copper',
             C: 'immersiveengineering:coil_mv'
-        }),
-        shapedRecipe('2x immersiveengineering:radiator', ['ABA', 'BCB', 'ABA'], {
-            A: 'immersiveengineering:sheetmetal_steel',
-            B: '#forge:plates/steel',
-            C: 'immersiveengineering:plantoil_bucket'
         }),
         shapedRecipe('2x rankine:high_refractory_bricks', ['ABA', 'BAB', 'ABA'], {
             A: 'rankine:high_refractory_brick',
@@ -206,6 +201,16 @@ onEvent('recipes', (event) => {
     ]
 
     var newRecipes = [
+	    shapedRecipe('2x immersiveengineering:radiator', ['ABA', 'BCB', 'ABA'], {
+            A: 'immersiveengineering:sheetmetal_steel',
+            B: '#forge:plates/steel',
+            C: 'immersiveengineering:plantoil_bucket'
+        }),
+		shapedRecipe('immersiveengineering:rs_engineering', ['ABA', 'BCB', 'ABA'], {
+            A: 'immersiveengineering:sheetmetal_iron',
+            B: '#forge:plates/copper',
+            C: 'immersiveengineering:circuit_board'
+        }),
         shapedRecipe('masterfulmachinery:chcr_controller', ['ABA', 'CAC', 'ABA'], {
             A: '#forge:plates/constantan',
             B: 'immersiveengineering:circuit_board',

@@ -8,6 +8,14 @@ function flint_shapedRecipe(result, pattern, key, tool) {
     return {result: result, pattern: pattern, key: key, tool: tool};
 }
 
+function tree_stumpRecipe(result, ingredients, tool, chop, amount) {
+    return {result: result, ingredients: ingredients, tool: tool, chop:chop, amount:amount};
+}
+
+function millstoneRecipe(result, ingredients, secondResult, secondChance, activateCount) {
+    return {result: result, ingredients: ingredients, secondResult: secondResult, secondChance:secondChance, activateCount:activateCount};
+}
+
 function shapelessRecipe(result, ingredients, id) {
     return {result: result, ingredients: ingredients, id: id};
 }

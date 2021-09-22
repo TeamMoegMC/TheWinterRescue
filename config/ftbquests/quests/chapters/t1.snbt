@@ -326,7 +326,7 @@
 				"4A4D6D0DC9B348C1"
 				"0A9A5166127945AB"
 			]
-			hide: false
+			hide: true
 			id: "586D66C71A378A82"
 			tasks: [{
 				id: "1FD4E3357F016517"
@@ -369,7 +369,6 @@
 				"162264AE4B9EE1A9"
 				"3C4CEEBFF8DCF448"
 			]
-			hide: true
 			id: "4B6840707D77E2C0"
 			tasks: [{
 				id: "6359AA8052C20461"

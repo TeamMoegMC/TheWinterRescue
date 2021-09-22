@@ -104,5 +104,7 @@
   "the_winter_rescue.ponder.tag.crucible.description": "搭建炼钢坩埚",
   "the_winter_rescue.ponder.tag.crucible": "炼钢坩埚",
   "frostedheart.ponder.burning_chamber_core.basic_usage.text_1": "使用工程师锤子右击",
-  "frostedheart.ponder.burning_chamber_core.basic_usage.header": "炼钢坩埚"
+  "frostedheart.ponder.burning_chamber_core.basic_usage.header": "炼钢坩埚",
+  "frostedheart.ponder.steam_turbine.basic_usage.text_1": "工程师锤子右击尾部",
+  "frostedheart.ponder.steam_turbine.basic_usage.header": "蒸汽涡轮机"
 }
