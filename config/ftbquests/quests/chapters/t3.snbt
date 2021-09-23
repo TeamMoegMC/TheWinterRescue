@@ -437,6 +437,7 @@
 			title: "更大的发电机"
 			x: -3.0d
 			y: -0.5d
+			subtitle: "动力强劲，能源充沛"
 			dependencies: ["4138E3A9915F811C"]
 			id: "66A550B05F529CD5"
 			tasks: [{

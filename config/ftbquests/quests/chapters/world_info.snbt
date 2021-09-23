@@ -227,19 +227,6 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 4.0d
-			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
-			hide_text_until_complete: true
-			id: "63BF3DB06CFB4A32"
-			tasks: [{
-				id: "1BDD85C0D0108B04"
-				type: "item"
-				item: "rankine:vanadinite"
-			}]
-		}
-		{
 			x: -0.5d
 			y: 4.0d
 			subtitle: "纯金"
@@ -255,7 +242,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 2.5d
 			y: 4.0d
 			subtitle: "纯银"
 			hide_dependency_lines: true

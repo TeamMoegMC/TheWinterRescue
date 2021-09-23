@@ -857,14 +857,14 @@
 			}]
 		}
 		{
-			x: -19.0d
-			y: 2.5d
+			x: -14.5d
+			y: -5.0d
 			subtitle: "额外信息"
 			description: [
 				"作为一名动力工程师，这副眼镜必不可少。"
 				"带上之后，你能看到关于机械和蒸汽设备的很多内部信息。"
 			]
-			dependencies: ["328D948C4C800873"]
+			dependencies: ["5C078D2F43CA4048"]
 			id: "634DBB9E76CD029B"
 			tasks: [{
 				id: "3759C57C62CA2697"
