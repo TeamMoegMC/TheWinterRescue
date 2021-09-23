@@ -10,6 +10,11 @@ onEvent('recipes', (event) => {
             B: 'minecraft:piston',
             C: 'charcoal_pit:bellows'
         }),
+		shapedRecipe('4x immersiveengineering:conveyor_basic', ['ACA', 'ABA'], {
+            A: '#forge:plates/steel',
+            B: 'minecraft:redstone',
+            C: 'create:belt_connector'
+        }),
 		shapedRecipe('create:wrench', ['AA', 'AB', ' C'], {
             A: '#forge:plates/bronze',
             B: '#the_winter_rescue:cogwheels',
