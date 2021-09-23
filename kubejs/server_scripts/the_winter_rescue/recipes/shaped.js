@@ -11,7 +11,7 @@ onEvent('recipes', (event) => {
             C: 'charcoal_pit:bellows'
         }),
 		shapedRecipe('create:wrench', ['AA', 'AB', ' C'], {
-            A: '#forge:plates/brass',
+            A: '#forge:plates/bronze',
             B: '#the_winter_rescue:cogwheels',
             C: 'immersiveengineering:stick_treated'
         }),
