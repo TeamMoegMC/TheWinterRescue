@@ -16,14 +16,14 @@ onEvent('recipes', (event) => {
             A: Ingredient.of('#forge:stone').toJson(),
             B: Item.of('minecraft:stick').toJson(),
             C: Item.of('minecraft:stone').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('charcoal_pit:main_bloomery'), ['ABA', 'BCB', 'ABA'], {
-            A: Item.of('rankine:mortar').toJson(),
-            B: Item.of('steampowered:bronze_sheet').toJson(),
-            C: Item.of('charcoal_pit:sandy_brick').toJson()
         }, Item.of('stone_age:flint_knife'))
     ]
     const change_recipes = [
+	    flint_shapedRecipe(Item.of('charcoal_pit:main_bloomery'), ['ABA', 'BCB', 'ABA'], {
+            A: Item.of('rankine:mortar').toJson(),
+            B: Item.of('steampowered:bronze_sheet').toJson(),
+            C: Item.of('charcoal_pit:sandy_brick').toJson()
+        }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('charcoal_pit:sandy_tuyere'), ['BAB', 'ACA', 'BAB'], {
             A: Item.of('rankine:mortar').toJson(),
             B: Item.of('charcoal_pit:sandy_brick_item').toJson(),

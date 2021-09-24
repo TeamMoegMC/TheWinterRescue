@@ -145,6 +145,7 @@
 		{
 			x: -13.0d
 			y: 2.5d
+			shape: "gear"
 			subtitle: "黑金"
 			description: [
 				"经过精加工的低含碳量铁合金锭."
@@ -220,6 +221,7 @@
 		{
 			x: -17.5d
 			y: -3.5d
+			shape: "gear"
 			subtitle: "忘掉木齿轮"
 			description: [
 				"如果你玩过机械动力，你大概知道木齿轮。"
@@ -302,6 +304,7 @@
 		{
 			x: -13.0d
 			y: 7.0d
+			shape: "gear"
 			subtitle: "跟我一起切割磁感线"
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "1F2BD4A72596B287"
@@ -624,7 +627,7 @@
 			}]
 		}
 		{
-			x: -4.0d
+			x: -7.0d
 			y: 8.5d
 			shape: "gear"
 			subtitle: "氧气助燃"

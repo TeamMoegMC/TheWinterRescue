@@ -343,6 +343,7 @@
 			icon: "immersiveengineering:ingot_steel"
 			x: 0.0d
 			y: -3.0d
+			shape: "gear"
 			subtitle: "坚硬无比"
 			description: ["进行大规模工业化的基础."]
 			dependencies: [

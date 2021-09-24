@@ -20,6 +20,9 @@ onEvent('item.tags', (event) => {
     event.add('the_winter_rescue:flour', "frostedheart:rye_flour")
 
     event.add('ages_api:axes', "rankine:flint_axe")
+	event.add('ages_api:axes', "rankine:bronze_axe")
+	event.add('ages_api:hammers', 'rankine:stone_hammer')
+	event.add('ages_api:hammers', 'rankine:bronze_hammer')
 
 
     event.add('the_winter_rescue:cogwheels', "steampowered:bronze_cogwheel")

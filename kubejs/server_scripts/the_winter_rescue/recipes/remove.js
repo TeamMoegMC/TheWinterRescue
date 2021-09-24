@@ -102,6 +102,7 @@ onEvent('recipes', (event) => {
     smelting.forEach((Item) => {
         event.remove({type: 'minecraft:blasting', output: Item});
     });
+	event.remove({type: 'charcoal_pit:orekiln', output: 'rankine:bronze_alloy'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:radiator'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:rs_engineering'})
     event.remove({type: 'immersiveengineering:hammer_crushing'})

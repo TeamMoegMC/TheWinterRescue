@@ -103,6 +103,7 @@
 			icon: "minecraft:stone"
 			x: 0.0d
 			y: 0.0d
+			shape: "gear"
 			subtitle: "坚硬的石头"
 			description: [
 				"&6在陶窑内烧制&4任意石头&6获得。 "
@@ -157,8 +158,8 @@
 			y: 0.0d
 			subtitle: "良好的建筑材料"
 			description: [
-				"经典的建筑方块和合成材料，用砧木处理(原版)去皮原木得到。"
-				"不知道(原版)去皮原木怎么来？"
+				"经典的建筑材料，用砧木处理去皮原木得到。"
+				"不知道去皮原木怎么来？"
 				"用斧头右键原木得到去皮原木,不用查wiki了。"
 			]
 			dependencies: ["7E3F0C805E2BBB9F"]
@@ -222,6 +223,10 @@
 			x: 4.0d
 			y: -1.0d
 			subtitle: "小肚子,大容量."
+			description: [
+				"一个木炭只能烧制一个物品,"
+				"也许使用煤炭会更加节省一点."
+			]
 			dependencies: ["6D92E93A0811C1FD"]
 			id: "689BB00EC2454F1F"
 			tasks: [{
@@ -247,7 +252,10 @@
 			x: 4.0d
 			y: 2.0d
 			subtitle: "基础金属"
-			description: ["拥有不错的延展性和导电性，还可以制成各种铜合金。"]
+			description: [
+				"拥有不错的延展性和导电性，能制成各种铜合金。"
+				"&6可以通过冶炼孔雀石或原生铜得到"
+			]
 			dependencies: ["689BB00EC2454F1F"]
 			id: "0A9A5166127945AB"
 			tasks: [{
@@ -345,6 +353,7 @@
 		{
 			x: 5.0d
 			y: 4.0d
+			shape: "gear"
 			description: [
 				"用于搭建合金窑，以炼制基础的合金。"
 				"搭建方法请看工程师手册~"
@@ -366,8 +375,8 @@
 			x: 6.0d
 			y: 4.0d
 			dependencies: [
-				"162264AE4B9EE1A9"
 				"3C4CEEBFF8DCF448"
+				"162264AE4B9EE1A9"
 			]
 			id: "4B6840707D77E2C0"
 			tasks: [{
@@ -398,18 +407,24 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 8.5d
 			y: 4.0d
+			shape: "gear"
 			subtitle: "锻铁炉主方块"
 			description: [
 				"使用思索查看锻铁炉的构造方法。"
 				"搭建好锻铁炉后，手持原料(燃料除外)shift+右键将其放入锻铁炉"
 				"然后手持原料(包括燃料)右键原料方块将剩余的放入锻铁炉。"
 				"在原料方块上点火以启动锻铁炉。"
-				"锻铁炉运行中需要用风箱通过鼓风口鼓风."
+				"&6锻铁炉运行中需要风箱鼓风."
 				"&6炼制完成后，&4立即&6用镐挖掘其中的方块得到铁锭。"
 			]
-			dependencies: ["4B6840707D77E2C0"]
+			dependencies: [
+				"29533DFBD579CA2F"
+				"4CD30E566C5776E0"
+			]
+			hide: true
+			size: 1.2d
 			id: "13D9DE54DF8117C2"
 			tasks: [{
 				id: "1A5C62932CF1E4C8"
@@ -419,16 +434,12 @@
 		}
 		{
 			title: "铁"
-			x: 8.0d
+			x: 10.0d
 			y: 4.0d
 			shape: "gear"
 			subtitle: "真 基础金属"
 			description: ["来硬的!"]
-			dependencies: [
-				"13D9DE54DF8117C2"
-				"29533DFBD579CA2F"
-			]
-			size: 1.2d
+			dependencies: ["13D9DE54DF8117C2"]
 			id: "75154C5A6E2F3257"
 			tasks: [{
 				id: "1019411D398ECFCE"
@@ -465,7 +476,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 8.5d
 			y: 2.5d
 			subtitle: "风口"
 			description: [
@@ -560,6 +571,7 @@
 		{
 			x: 6.0d
 			y: -2.5d
+			shape: "gear"
 			description: [
 				"将生石灰放到装有水的桶里得到石灰水。"
 				"沙子去哪找？"
@@ -698,7 +710,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 8.5d
 			y: -3.5d
 			subtitle: "耐热"
 			description: ["用于搭建锻铁炉，也可以用来盖房。"]
@@ -792,12 +804,11 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 5.0d
+			x: 7.2d
+			y: 4.0d
 			subtitle: "升级工具"
 			description: ["青铜工具相比燧石工具来说更坚硬耐用。"]
-			hide_dependency_lines: true
-			dependencies: ["162264AE4B9EE1A9"]
+			dependencies: ["4B6840707D77E2C0"]
 			id: "4CD30E566C5776E0"
 			tasks: [{
 				id: "355CFC0B2AE4BC52"
@@ -1038,7 +1049,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 5.0d
 			y: -1.5d
 			subtitle: "简易存储"
 			description: [""]
@@ -1467,10 +1478,10 @@
 		{
 			title: "镍"
 			icon: "immersiveengineering:ingot_nickel"
-			x: 9.0d
-			y: 4.0d
+			x: 8.5d
+			y: 5.5d
 			description: ["目前能冶炼的另一种金属,也许后面会用到."]
-			dependencies: ["75154C5A6E2F3257"]
+			dependencies: ["13D9DE54DF8117C2"]
 			id: "3A91A02EB59A7919"
 			tasks: [{
 				id: "1D1735E320565F58"
