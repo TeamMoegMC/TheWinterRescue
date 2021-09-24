@@ -1480,7 +1480,10 @@
 			icon: "immersiveengineering:ingot_nickel"
 			x: 8.5d
 			y: 5.5d
-			description: ["目前能冶炼的另一种金属,也许后面会用到."]
+			description: [
+				"目前能冶炼的另一种金属,"
+				"也许可以制作更好的合金."
+			]
 			dependencies: ["13D9DE54DF8117C2"]
 			id: "3A91A02EB59A7919"
 			tasks: [{

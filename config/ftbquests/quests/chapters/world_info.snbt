@@ -13,6 +13,7 @@
 			icon: "minecraft:grass_block"
 			x: 0.0d
 			y: 0.5d
+			shape: "gear"
 			subtitle: "生成须知"
 			description: [
 				"岩层是按照群系来进行生成的."
@@ -22,6 +23,7 @@
 				"&6完成矿物任务了才显示生成信息."
 			]
 			hide: true
+			size: 1.2d
 			id: "181378ABF5CCD166"
 			tasks: [{
 				id: "224D71FECAB88F1D"
