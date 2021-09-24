@@ -20,7 +20,7 @@
 	allowBiggerFireworksInCrafter = false
 	# 
 	#When true, allows any single-ingredient 2x2 or 3x3 crafting recipes to be processed by a Mechanical Press + Basin.
-	allowShapedSquareInPress = true
+	allowShapedSquareInPress = false
 	# 
 	#When true, allows the Mechanical Press to process entire stacks at a time.
 	bulkPressing = false
@@ -36,10 +36,10 @@
 	allowStonecuttingOnSaw = true
 	# 
 	#Allow the standard in-world Shadow Steel recipe.
-	enableShadowSteelRecipe = true
+	enableShadowSteelRecipe = false
 	# 
 	#When true, allows any shapeless crafting recipes to be processed by a Mechanical Mixer + Basin.
-	allowShapelessInMixer = true
+	allowShapelessInMixer = false
 	# 
 	#When true, allows any standard crafting recipes to be processed by Mechanical Crafters.
 	allowRegularCraftingInCrafter = true
