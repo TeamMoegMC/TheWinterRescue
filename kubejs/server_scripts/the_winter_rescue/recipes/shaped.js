@@ -10,6 +10,11 @@ onEvent('recipes', (event) => {
             B: 'minecraft:piston',
             C: 'charcoal_pit:bellows'
         }),
+		shapedRecipe('watersource:water_dispenser', ['ABA', 'ACA', 'AAA'], {
+            A: '#forge:plates/aluminum',
+            B: 'immersiveengineering:metal_barrel',
+            C: 'rankine:tree_tap'
+        }),
 		shapedRecipe('4x immersiveengineering:conveyor_basic', ['ACA', 'ABA'], {
             A: '#forge:plates/steel',
             B: 'minecraft:redstone',
@@ -193,7 +198,7 @@ onEvent('recipes', (event) => {
             A: '#forge:rods/cast_iron',
             C: 'minecraft:crafting_table'
         }),
-        shapedRecipe('4x create:shaft', [' A ', ' A '], {
+        shapedRecipe('4x create:shaft', ['A', 'A','A'], {
             A: '#forge:rods/cast_iron'
         }),
         shapedRecipe('frozenup:truffle_cake', ['EEE', 'ABA', 'DCD'], {
@@ -258,7 +263,7 @@ onEvent('recipes', (event) => {
             A: '#forge:plates/cast_iron',
             B: '#forge:plates/iron'
         }),
-        shapedRecipe('2x create:shaft', [' A ', ' A '], {
+        shapedRecipe('3x create:shaft', ['A', 'A','A'], {
             A: '#forge:ingots/iron'
         }),
         shapedRecipe('create:hand_crank', [' C ', 'BBB', '  A'], {
