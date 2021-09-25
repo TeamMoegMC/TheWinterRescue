@@ -438,7 +438,10 @@
 			y: 4.0d
 			shape: "gear"
 			subtitle: "真 基础金属"
-			description: ["来硬的!"]
+			description: [
+				"来硬的!"
+				"&6磁铁矿石大部分在上层生成"
+			]
 			dependencies: ["13D9DE54DF8117C2"]
 			id: "75154C5A6E2F3257"
 			tasks: [{

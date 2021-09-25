@@ -22,6 +22,7 @@
 				""
 				"&6完成矿物任务了才显示生成信息."
 			]
+			dependencies: ["45E2EF843333B846"]
 			hide: true
 			size: 1.2d
 			id: "181378ABF5CCD166"
