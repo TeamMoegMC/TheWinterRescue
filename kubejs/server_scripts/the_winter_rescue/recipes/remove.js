@@ -1,29 +1,6 @@
 //priority = 800
 
 onEvent('recipes', (event) => {
-    let ores = [
-        "rankine:dolostone",
-        "rankine:magnesite_ore",
-        "rankine:bauxite_ore",
-        "rankine:pyrite_ore",
-        "rankine:magnetite_ore",
-        "rankine:malachite_ore",
-        "rankine:pentlandite_ore",
-        "rankine:cassiterite_ore",
-        "rankine:stibnite_ore",
-        "rankine:cinnabar_ore",
-        "rankine:galena_ore",
-        "rankine:fluorite_ore",
-        "rankine:vanadinite_ore",
-        "rankine:carbonaceous_shale",
-        "rankine:white_marble",
-        "rankine:petalite_ore",
-        "rankine:tufa_limestone"
-    ]
-
-    ores.forEach((ore) => {
-        event.remove({type: 'rankine:crushing', input: ore})
-    });
     let flint_workbench = [
         'stone_age:bone_axe',
         'stone_age:stone_axe',
@@ -102,6 +79,7 @@ onEvent('recipes', (event) => {
     smelting.forEach((Item) => {
         event.remove({type: 'minecraft:blasting', output: Item});
     });
+	event.remove({type: 'rankine:crushing'})
 	event.remove({type: 'charcoal_pit:orekiln', output: 'rankine:bronze_alloy'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:radiator'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:rs_engineering'})
