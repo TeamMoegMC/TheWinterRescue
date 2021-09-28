@@ -50,16 +50,21 @@ onEvent('recipes', (event) => {
     event.smelting('rankine:tin_ingot', 'kubejs:washed_ore_native_tin');
     event.smelting('rankine:antimony_ingot', 'kubejs:washed_ore_stibnite');
 
-    // mid-smelt point metals
-    event.recipes.immersiveengineeringBlastFurnace('minecraft:iron_ingot', 'kubejs:washed_ore_magnetite', 'immersiveengineering:slag')
-    event.recipes.immersiveengineeringBlastFurnace('minecraft:iron_ingot', 'kubejs:washed_ore_pyrite', 'immersiveengineering:slag')
-    event.recipes.immersiveengineeringBlastFurnace('rankine:copper_ingot', 'kubejs:washed_ore_malachite', 'immersiveengineering:slag')
-    event.recipes.immersiveengineeringBlastFurnace('rankine:copper_ingot', 'kubejs:washed_ore_native_copper', 'immersiveengineering:slag')
-    event.recipes.immersiveengineeringBlastFurnace('rankine:silver_ingot', 'kubejs:washed_ore_silver', 'immersiveengineering:slag')
-    event.recipes.immersiveengineeringBlastFurnace('minecraft:gold_ingot', 'kubejs:washed_ore_gold', 'immersiveengineering:slag')
-    event.recipes.immersiveengineeringBlastFurnace('rankine:nickel_ingot', 'kubejs:washed_ore_pentlandite', 'immersiveengineering:slag')
-    event.recipes.immersiveengineeringBlastFurnace('3x minecraft:redstone', 'kubejs:washed_ore_cinnabar', 'immersiveengineering:slag')
-    event.recipes.immersiveengineeringBlastFurnace('2x rankine:salt', 'kubejs:washed_ore_halite', 'immersiveengineering:slag')
-
+    var data = {
+        recipes: [
+    {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_magnetite'},
+    {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_pyrite'},
+    {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_malachite'},
+    {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_native_copper'},
+    {output: 'rankine:silver_ingot', input: 'kubejs:washed_ore_silver'},
+    {output: 'minecraft:gold_ingot', input: 'kubejs:washed_ore_gold'},
+    {output: 'rankine:nickel_ingot', input: 'kubejs:washed_ore_pentlandite'},
+    {output: '3x minecraft:redstone', input: 'kubejs:washed_ore_cinnabar'},
+    {output: '2x rankine:salt', input: 'kubejs:washed_ore_halite'}
+     ]
+    };
+	data.recipes.forEach((recipe) => {
+    event.recipes.immersiveengineeringBlastFurnace(recipe.output, recipe.input, 'immersiveengineering:slag', 400);
+    });
 });
 
