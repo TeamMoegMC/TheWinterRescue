@@ -38,6 +38,7 @@ onEvent('recipes', (event) => {
         'engineersdecor:labeled_crate',
         'engineersdecor:factory_dropper',
         'engineersdecor:small_waste_incinerator',
+		'rankine:prospecting_stick',
         'charcoal_pit:copper_block'
     ]
     workbench.forEach((Item) => {
@@ -96,9 +97,6 @@ onEvent('recipes', (event) => {
     event.remove({type: 'rankine:beehive_oven'})
     event.remove({input: 'rankine:element_transmuter'})
     event.remove({mod: 'advgenerators'});
-    event.remove({mod: 'advancedrocketry'});
-    event.remove({mod: 'libvulpes'});
-    event.remove({mod: 'survive'});
     event.remove({mod: 'theoneprobe'});
     event.remove({mod: 'extendedcrafting'});
     event.remove({mod: 'immersivepetroleum'});

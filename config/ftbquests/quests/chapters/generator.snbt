@@ -66,12 +66,16 @@
 			x: 0.5d
 			y: 2.0d
 			shape: "gear"
-			dependencies: ["69D939596ED4C0AF"]
+			dependencies: [
+				"69D939596ED4C0AF"
+				"0019852CD6EC0354"
+			]
+			hide: true
 			id: "2D570AD59FE2D6E1"
 			tasks: [{
-				id: "1F93EED44E5B0949"
+				id: "0FAB6E315ECD3A7F"
 				type: "item"
-				item: "minecraft:barrier"
+				item: "rankine:invar_block"
 			}]
 		}
 		{
@@ -101,29 +105,44 @@
 			}]
 		}
 		{
-			title: "能量中枢"
-			x: -3.0d
+			title: "加热器"
+			x: -1.0d
 			y: 2.0d
 			shape: "gear"
-			dependencies: ["69D939596ED4C0AF"]
-			id: "40444656900D22BA"
-			tasks: [{
-				id: "35664E7A7FDAAC93"
-				type: "item"
-				item: "minecraft:barrier"
-			}]
-		}
-		{
-			title: "加热器"
-			x: -3.0d
-			y: 0.0d
-			shape: "gear"
-			dependencies: ["69D939596ED4C0AF"]
+			dependencies: ["2D570AD59FE2D6E1"]
 			id: "4BBE69E2E2A4276F"
 			tasks: [{
 				id: "5B70749B773AE22F"
 				type: "item"
 				item: "minecraft:barrier"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["2D570AD59FE2D6E1"]
+			id: "58912971B356779C"
+			tasks: [{
+				id: "5936B9467F9C1E93"
+				type: "item"
+				item: "frostedheart:charger"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["58912971B356779C"]
+			id: "2E54EBA4E016412C"
+			tasks: [{
+				id: "5AFE1335BBD8F8C1"
+				type: "item"
+				item: {
+					id: "frostedheart:heater_vest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

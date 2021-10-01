@@ -216,6 +216,41 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'immersiveengineering:plantoil_bucket'
         }),
+		shapedRecipe('frostedheart:mercury_body_thermometer', [' BA', 'BAB', 'CB '], {
+            A: 'rankine:cinnabar',
+            B: 'minecraft:glass',
+            C: '#forge:plates/iron'
+        }),
+		shapedRecipe('3x frostedheart:heat_pipe', [' B ', 'ACA', ' B '], {
+            A: '#forge:plates/steel',
+            B: 'immersiveengineering:treated_wood_horizontal',
+            C: '#forge:plates/copper'
+        }),
+		shapedRecipe('frostedheart:heater_vest', ['ACA', 'BDB', 'ACA'], {
+            A: '#forge:plates/steel',
+            B: 'minecraft:leather',
+            C: '#forge:plates/copper',
+			D: 'immersiveengineering:metal_barrel'
+        }),
+		shapedRecipe('frostedheart:charger', ['CBC', 'DCD', 'AAA'], {
+            A: 'immersiveengineering:treated_wood_horizontal',
+            B: '#forge:plates/steel',
+            C: '#forge:plates/copper',
+			D: 'minecraft:bucket'
+        }),
+		shapedRecipe('frostedheart:advanced_thermos', ['ABA', 'CBC', 'CBC'], {
+            A: '#forge:plates/iron',
+            B: '#forge:plates/steel',
+            C: '#forge:plates/aluminum'
+        }),
+		shapedRecipe('frostedheart:iron_pro_pick', ['ABA', ' B ', ' B '], {
+            A: 'minecraft:iron_ingot',
+            B: 'immersiveengineering:stick_treated'
+        }),
+		shapedRecipe('frostedheart:steel_pro_pick', ['ABA', ' B ', ' B '], {
+            A: '#forge:ingots/steel',
+            B: 'immersiveengineering:stick_treated'
+        }),
 		shapedRecipe('immersiveengineering:rs_engineering', ['ABA', 'BCB', 'ABA'], {
             A: 'immersiveengineering:sheetmetal_iron',
             B: '#forge:plates/copper',

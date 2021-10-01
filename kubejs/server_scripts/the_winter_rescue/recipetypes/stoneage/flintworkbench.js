@@ -72,7 +72,7 @@ onEvent('recipes', (event) => {
         flint_shapedRecipe(Item.of('charcoal_pit:barrel'), ['AAA', 'A A', 'AAA'], {
             A: Ingredient.of('#minecraft:wooden_slabs').toJson()
         }, Ingredient.of('#forge:axes')),
-        flint_shapedRecipe(Item.of('rankine:bronze_door>'), ['AA', 'AA', 'AA'], {
+        flint_shapedRecipe(Item.of('rankine:bronze_door'), ['AA', 'AA', 'AA'], {
             A: Ingredient.of('#forge:ingots/bronze').toJson()
         }, Item.of('stone_age:flint_knife'))
     ]
@@ -82,6 +82,19 @@ onEvent('recipes', (event) => {
             A: Ingredient.of('#forge:ingots/copper').toJson(),
             B: Ingredient.of('#forge:rods/wooden').toJson(),
             C: Item.of('stone_age:leather_strip').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:thermos'), ['ACA', 'BCB', 'BAB'], {
+            A: Ingredient.of('#forge:plates/copper').toJson(),
+            B: Ingredient.of('#minecraft:logs').toJson(),
+            C: Ingredient.of('#minecraft:planks').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('rankine:bronze_pickaxe'), ['AAA', ' B ', ' B '], {
+            A: Item.of('rankine:bronze_alloy').toJson(),
+            B: Ingredient.of('#forge:rods/wooden').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:copper_pro_pick'), ['ABA', ' B ', ' B '], {
+            A: Ingredient.of('#forge:ingots/copper').toJson(),
+            B: Ingredient.of('#forge:rods/wooden').toJson()
         }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('minecraft:campfire'), [' B ', 'ABA', 'ACA'], {
             A: Ingredient.of('#minecraft:logs').toJson(),
@@ -131,12 +144,12 @@ onEvent('recipes', (event) => {
         flint_shapedRecipe(Item.of('watersource:wooden_cup', 2), ['A A', 'A A', ' A '], {
             A: Ingredient.of('#minecraft:planks').toJson()
         }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('wooden_water_filter'), ['BCB', 'AAA', 'BCB'], {
+        flint_shapedRecipe(Item.of('watersource:wooden_water_filter'), ['BCB', 'AAA', 'BCB'], {
             A: Ingredient.of('#minecraft:planks').toJson(),
             B: Ingredient.of('#minecraft:logs').toJson(),
             C: Item.of('minecraft:glass').toJson()
         }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('primitive_strainer'), ['AAA', 'BBB', 'CCC'], {
+        flint_shapedRecipe(Item.of('watersource:primitive_strainer'), ['AAA', 'BBB', 'CCC'], {
             A: Item.of('minecraft:charcoal').toJson(),
             B: Item.of('minecraft:sand').toJson(),
             C: Item.of('minecraft:clay_ball').toJson()

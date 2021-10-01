@@ -80,7 +80,8 @@
 		{
 			x: -16.0d
 			y: 1.0d
-			description: ["耐火粘土的原料之一。"]
+			description: ["耐火粘土的原料之一。"
+			"分散在上层沉积岩中"]
 			dependencies: ["7887EB905BAA7BEF"]
 			id: "48F3102B3AA99313"
 			tasks: [{
@@ -844,23 +845,6 @@
 				id: "48F77C1ACADE71D8"
 				type: "item"
 				item: "create:mechanical_saw"
-			}]
-		}
-		{
-			title: "思索"
-			x: -20.5d
-			y: -3.5d
-			subtitle: "重要工具"
-			description: [
-				"思索是很重要的技能。"
-				"如果物品下方有关于思索的提示，长按W即可进入思索场景。"
-				"思索能帮助你了解一个方块的用途或者一个结构的搭建方法。"
-			]
-			dependencies: ["404CFF89CCFE9D6B"]
-			id: "58EF2132D0431323"
-			tasks: [{
-				id: "2DB6ECD40BC59CE3"
-				type: "checkmark"
 			}]
 		}
 		{
