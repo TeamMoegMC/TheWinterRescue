@@ -20,4 +20,5 @@ let alwaysBreakableBlocks = [
 onEvent('block.tags', (event) => {
     event.add('primalwinter:animal_spawns_on', animalSpawnsOnBlocks)
     event.add('notreepunching:always_breakable', alwaysBreakableBlocks)
+	event.add('forge:ores', 'rankine:pyrite_ore')
 });

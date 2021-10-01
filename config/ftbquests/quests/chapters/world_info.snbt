@@ -16,11 +16,11 @@
 			shape: "gear"
 			subtitle: "生成须知"
 			description: [
-				"岩层是按照群系来进行生成的."
+				"&6岩层是按照群系来进行生成的."
 				""
-				"矿石是按照岩层来进行生成的."
+				"&6矿石是按照岩层来进行生成的."
 				""
-				"&6完成矿物任务了才显示生成信息."
+				"完成矿物任务了才显示生成信息."
 			]
 			dependencies: ["45E2EF843333B846"]
 			hide: true
@@ -164,6 +164,7 @@
 		{
 			x: 2.5d
 			y: 2.0d
+			description: [""]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true

@@ -90,18 +90,11 @@
 			hide_dependency_lines: true
 			dependencies: ["7AA152F9B5AF6677"]
 			id: "0732C5BB3471FFA7"
-			tasks: [
-				{
-					id: "3986ECAB67299D80"
-					type: "item"
-					item: "survive:ice_cube"
-				}
-				{
-					id: "34A38C43B43919AF"
-					type: "item"
-					item: "minecraft:snowball"
-				}
-			]
+			tasks: [{
+				id: "34A38C43B43919AF"
+				type: "item"
+				item: "minecraft:snowball"
+			}]
 		}
 		{
 			x: -2.0d
@@ -127,9 +120,9 @@
 			dependencies: ["69D939596ED4C0AF"]
 			id: "6D01046E549A087E"
 			tasks: [{
-				id: "31CF9A4D876ED1D2"
+				id: "39F9E5D1C778E5DB"
 				type: "item"
-				item: "frostedheart:white_turnip"
+				item: "frostedheart:white_turnip_block"
 			}]
 		}
 		{

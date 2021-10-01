@@ -24,8 +24,8 @@
 	quests: [
 		{
 			title: "冬季救援"
-			icon: "advancedrocketry:spacechest"
-			x: -8.5d
+			icon: "ftbquests:book"
+			x: -7.5d
 			y: -4.5d
 			subtitle: "简介"
 			description: [
@@ -45,7 +45,7 @@
 		{
 			title: "冬日降临之前"
 			icon: "minecraft:book"
-			x: -10.5d
+			x: -9.0d
 			y: -4.5d
 			shape: "gear"
 			subtitle: "谜题"
@@ -61,11 +61,14 @@
 			}]
 		}
 		{
-			icon: "advancedrocketry:rocketmotor"
-			x: -6.5d
+			icon: "create:propeller"
+			x: -6.0d
 			y: -4.5d
 			subtitle: "我在哪里？"
-			description: ["这次驾驶的飞船是空间站为数不多还能正常运行的太空梭了。要赶快拿到物资才行，否则在这种鬼天气里，很快就会冻死的！"]
+			description: [
+				"这次驾驶的飞船是空间站为数不多还能正常运行的太空梭了。"
+				"要赶快拿到物资才行，否则在这种鬼天气里，很快就会冻死的！"
+			]
 			id: "6C86BD5F9112256F"
 			tasks: [{
 				id: "739D90B64EFDC7EB"
@@ -79,7 +82,11 @@
 			y: -4.5d
 			shape: "circle"
 			subtitle: "损坏的飞船"
-			description: ["飞船被厚厚的冰雪所覆盖了，不过尾部的余热化开了舱门。你耐心的查看起了最重要的物品仓。"]
+			description: [
+				"飞船被厚厚的冰雪所覆盖了，不过尾部的余热化开了舱门。"
+				"你耐心的查看起了最重要的物品仓。"
+			]
+			dependencies: ["6C86BD5F9112256F"]
 			id: "46BF095F50804FCC"
 			tasks: [{
 				id: "53E219EA9212DEC4"
@@ -93,7 +100,11 @@
 			y: -6.0d
 			shape: "hexagon"
 			subtitle: "收获满满？"
-			description: ["这里存放着最重要的初始物资：纯净水，食物，以及衣服。抓紧时间装备好他们吧。"]
+			description: [
+				"这里存放着初始的物资：纯净水，食物，以及衣服。"
+				"抓紧时间装备好他们吧。"
+			]
+			dependencies: ["46BF095F50804FCC"]
 			id: "4E3C1F4BDB921B8E"
 			tasks: [{
 				id: "2CFE3196473A13A5"
@@ -294,6 +305,7 @@
 			shape: "hexagon"
 			subtitle: "还好我偷偷藏了不少东西"
 			description: ["个人物品带的不多，这个卫星电话没电了，要想办法充上电才行。"]
+			dependencies: ["46BF095F50804FCC"]
 			id: "25061B159D32453A"
 			tasks: [{
 				id: "2128950991D0C6FA"
@@ -330,8 +342,14 @@
 			y: -4.5d
 			subtitle: "活下去！"
 			description: [
-				"你拿出了贴身的笔记本，在无数前辈的经验笔记后写下了自己的名字，独自一人踏上了这无尽的寒冬，你的目的只有一个“活下去！”。"
+				"你拿出了贴身的笔记本，在无数前辈的经验笔记后写下了自己的名字."
+				"独自一人踏上了这无尽的寒冬，你的目的只有一个“活下去！”。"
 				"“有希望的话，大概什么都会好起来吧。”"
+				"&6左侧任务列表选择第二章开始游玩"
+			]
+			dependencies: [
+				"4E3C1F4BDB921B8E"
+				"25061B159D32453A"
 			]
 			id: "2422C77587FDEE28"
 			tasks: [{

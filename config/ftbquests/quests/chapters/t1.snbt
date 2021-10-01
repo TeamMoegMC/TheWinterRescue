@@ -107,7 +107,7 @@
 			subtitle: "坚硬的石头"
 			description: [
 				"&6在陶窑内烧制&4任意石头&6获得。 "
-				"&6陶窑的搭建需要四周都拥有方块."
+				"&6陶窑的搭建需要四周围起来"
 				"&6shift右键放置石头,右键6个干草与3个木头填充."
 				"填充完毕后手持起火器长按右键点燃."
 			]
@@ -354,6 +354,7 @@
 			x: 5.0d
 			y: 4.0d
 			shape: "gear"
+			subtitle: "冶炼合金"
 			description: [
 				"用于搭建合金窑，以炼制基础的合金。"
 				"搭建方法请看工程师手册~"
@@ -412,7 +413,7 @@
 			shape: "gear"
 			subtitle: "锻铁炉主方块"
 			description: [
-				"使用思索查看锻铁炉的构造方法。"
+				"&6使用思索查看锻铁炉的构造方法。"
 				"搭建好锻铁炉后，手持原料(燃料除外)shift+右键将其放入锻铁炉"
 				"然后手持原料(包括燃料)右键原料方块将剩余的放入锻铁炉。"
 				"在原料方块上点火以启动锻铁炉。"
@@ -440,7 +441,7 @@
 			subtitle: "真 基础金属"
 			description: [
 				"来硬的!"
-				"&6磁铁矿石大部分在上层生成"
+				"&6大部分磁铁矿在上层沉积岩中"
 			]
 			dependencies: ["13D9DE54DF8117C2"]
 			id: "75154C5A6E2F3257"
@@ -1239,25 +1240,6 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -4.5d
-			subtitle: "健康好水"
-			description: ["滤纸放在滤水器里就能过滤出纯净水了！"]
-			dependencies: ["76B2B1A3EC6D92CD"]
-			id: "009AA47A784FBA3F"
-			tasks: [{
-				id: "39BE6005BAB99BF7"
-				type: "item"
-				item: {
-					id: "watersource:primitive_strainer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			icon: "crockpot:food_category_meat"
 			x: -7.0d
 			y: 1.0d
@@ -1363,42 +1345,6 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 3.0d
-			subtitle: "在沙滩上走的更快"
-			dependencies: ["42AF456D165CBF75"]
-			id: "5659B3220A28BEDD"
-			tasks: [{
-				id: "5D78596D0758E9CC"
-				type: "item"
-				item: {
-					id: "rankine:sandals"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 3.0d
-			y: 3.0d
-			subtitle: "并不支持花样滑冰"
-			dependencies: ["0A9A5166127945AB"]
-			id: "039DCAEADAF4F767"
-			tasks: [{
-				id: "1B02E14AB984B374"
-				type: "item"
-				item: {
-					id: "rankine:ice_skates"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			icon: "stone_age:fishing_net"
 			x: 1.0d
 			y: 3.0d
@@ -1486,6 +1432,7 @@
 			description: [
 				"目前能冶炼的另一种金属,"
 				"也许可以制作更好的合金."
+				"&6大部分镍在深层岩浆岩中"
 			]
 			dependencies: ["13D9DE54DF8117C2"]
 			id: "3A91A02EB59A7919"
@@ -1500,6 +1447,57 @@
 						value: "forge:ingots/nickel"
 					}
 				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			subtitle: "地质勘探"
+			dependencies: ["0A9A5166127945AB"]
+			id: "1DF200F6772308C7"
+			tasks: [{
+				id: "0ADDCCA2956B7182"
+				type: "item"
+				item: {
+					id: "frostedheart:copper_pro_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["586D66C71A378A82"]
+			id: "1974619E18DB754A"
+			tasks: [{
+				id: "32B7DFCCB85B7F9E"
+				type: "item"
+				item: {
+					id: "frostedheart:thermos"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "思索"
+			x: -5.5d
+			y: 2.0d
+			subtitle: "重要工具"
+			description: [
+				"思索是很重要的技能。"
+				"如果物品下方有关于思索的提示，长按W即可进入思索场景。"
+				"思索能帮助你了解一个方块的用途或者一个结构的搭建方法。"
+			]
+			id: "58EF2132D0431323"
+			tasks: [{
+				id: "2DB6ECD40BC59CE3"
+				type: "checkmark"
 			}]
 		}
 	]

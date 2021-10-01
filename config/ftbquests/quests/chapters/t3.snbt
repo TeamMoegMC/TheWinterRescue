@@ -345,7 +345,11 @@
 			y: -3.0d
 			shape: "gear"
 			subtitle: "坚硬无比"
-			description: ["进行大规模工业化的基础."]
+			description: [
+				"进行大规模工业化的基础."
+				""
+				"你现在可以尝试建造新的能量塔了."
+			]
 			dependencies: [
 				"19038BB5A9E42055"
 				"016B841B20166EA8"
