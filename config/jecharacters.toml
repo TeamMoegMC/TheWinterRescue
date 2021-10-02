@@ -1,26 +1,26 @@
 
 [General]
-	#Keyboard for the checker to use
-	#Allowed Values: QUANPIN, DAQIAN, XIAOHE, ZIRANMA
-	enumKeyboard = "QUANPIN"
 	#Set to true to enable fuzzy spelling zh <=> z
 	enableFZh2z = false
-	#Set to true to enable fuzzy spelling sh <=> s
-	enableFSh2s = false
+	#Set to true to enable fuzzy spelling eng <=> en
+	enableFEng2en = false
 	#Set to true to enable fuzzy spelling ch <=> c
 	enableFCh2c = false
 	#Set to true to enable fuzzy spelling ang <=> an
 	enableFAng2an = false
-	#Set to true to enable fuzzy spelling ing <=> in
-	enableFIng2in = false
-	#Set to true to enable fuzzy spelling eng <=> en
-	enableFEng2en = false
+	#Keyboard for the checker to use
+	#Allowed Values: QUANPIN, DAQIAN, XIAOHE, ZIRANMA
+	enumKeyboard = "QUANPIN"
 	#Set to true to enable fuzzy spelling u <=> v
 	enableFU2v = false
-	#Set to false to disable chat message when entering world
-	enableChat = true
 	#Set to true to disable JEI's split for search tokens
 	enableQuote = false
+	#Set to false to disable chat message when entering world
+	enableChat = true
+	#Set to true to enable fuzzy spelling ing <=> in
+	enableFIng2in = false
+	#Set to true to enable fuzzy spelling sh <=> s
+	enableFSh2s = false
 
 [Utilities]
 	#List of classes to dump all the functions
