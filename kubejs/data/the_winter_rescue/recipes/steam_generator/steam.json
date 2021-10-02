@@ -1,0 +1,7 @@
+{
+  "type": "frostedheart:steam_generator",
+  "input":{"tag":"forge:steam","amount":144},
+  "energy":25,
+  "temp_multiplier":2.0,
+  "range_multiplier":1.5
+}

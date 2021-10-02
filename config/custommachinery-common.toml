@@ -1,0 +1,24 @@
+
+[Logging]
+	#Set to false to disable all logging messages, the custommachinery.log file will still be created but never written.
+	enableLogging = true
+	#If true, all missing optional properties and their default values will be logged when parsing custom machines jsons.
+	logMissingOptional = false
+	#When parsing custom machines json files, some properties can be read with 2 serializers.
+	#Set this to true to log when the first serializer throw an error, even if the second succeed.
+	logFirstEitherError = false
+	#Customize which types of logs you want to be written in the custommachinery.log file.
+	#Default values: ["INFO", "WARN", "ERROR"]
+	allowedLogs = ["INFO", "WARN", "ERROR"]
+
+[Rendering]
+	#The time in milliseconds the block requirement working box will be rendered around the machines when clicking on the green + in the jei recipe.
+	#Range: > 0
+	boxRenderTime = 10000
+	#The time in milliseconds the structure requirement structure will render in world when clicking on the green + in the jei recipe.
+	#Range: > 0
+	structureRenderTime = 10000
+	#The time in milliseconds each blocks will be shown when using a block tag in a structure.
+	#Range: > 0
+	blockTagCycleTime = 1000
+

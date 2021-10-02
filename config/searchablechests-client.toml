@@ -1,0 +1,12 @@
+#Whether the search bar will be focused by default when opening containers
+autoFocus = false
+#Whether the contents of the search bar will be selected when it is focused
+autoSelect = true
+#Whether the contents of the search bar will be preserved between containers
+preserveSearch = false
+#Minimum size a container must be for a search bar to be added
+#Range: > 0
+minimumContainerSize = 27
+#Comma separated list of containers in which the search bar should be disabled. Name should be that which appears in the top left of the container's GUI. Example: blacklist=["Chest", "Large Chest"]
+blacklist = []
+

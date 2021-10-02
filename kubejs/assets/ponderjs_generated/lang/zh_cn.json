@@ -1,0 +1,26 @@
+{
+  "the_winter_rescue.ponder.tag.bloomery.description": "搭建锻铁炉",
+  "the_winter_rescue.ponder.tag.bloomery": "锻铁炉",
+  "charcoal_pit.ponder.main_bloomery.basic_usage.text_1": "右击风箱吹气",
+  "charcoal_pit.ponder.main_bloomery.basic_usage.header": "锻铁炉",
+
+  "the_winter_rescue.ponder.tag.generator.description": "搭建能量塔",
+  "the_winter_rescue.ponder.tag.generator": "能量塔",
+  "frostedheart.ponder.generator_core_t1.basic_usage.text_1": "使用工程师锤子右击",
+  "frostedheart.ponder.generator_core_t1.basic_usage.header": "能量塔",
+
+  "the_winter_rescue.ponder.tag.crucible.description": "搭建炼钢坩埚",
+  "the_winter_rescue.ponder.tag.crucible": "炼钢坩埚",
+  "frostedheart.ponder.burning_chamber_core.basic_usage.text_1": "使用工程师锤子右击",
+  "frostedheart.ponder.burning_chamber_core.basic_usage.header": "炼钢坩埚",
+
+  "the_winter_rescue.ponder.tag.steam_turbine.description": "搭建蒸汽涡轮机",
+  "the_winter_rescue.ponder.tag.steam_turbine": "蒸汽涡轮机",
+  "frostedheart.ponder.steam_turbine.basic_usage.text_1": "工程师锤子右击尾部",
+  "frostedheart.ponder.steam_turbine.basic_usage.header": "蒸汽涡轮机",
+
+  "the_winter_rescue.ponder.tag.generator_t2.description": "搭建T2能量塔",
+  "the_winter_rescue.ponder.tag.generator_t2": "T2能量塔",
+  "frostedheart.ponder.generator_t2.basic_usage.text_1": "使用工程师锤子右击",
+  "frostedheart.ponder.generator_t2.basic_usage.header": "T2能量塔"
+}
