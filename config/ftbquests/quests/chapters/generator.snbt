@@ -1,11 +1,11 @@
 {
 	id: "00A96B3C8C24C472"
-	group: ""
-	order_index: 6
+	group: "7668DAE31E3EF623"
+	order_index: 0
 	filename: "generator"
 	title: "能量塔工程师的一天"
 	icon: "frostedheart:generator_core_t1"
-	subtitle: ["关于能量塔和能量中枢的一切。"]
+	subtitle: ["关于能量塔和能量网络的一切。"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

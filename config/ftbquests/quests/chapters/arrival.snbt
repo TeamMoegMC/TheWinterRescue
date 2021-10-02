@@ -1,6 +1,6 @@
 {
 	id: "45227BBF4538D5BC"
-	group: ""
+	group: "7823E178F7BCBCB0"
 	order_index: 0
 	filename: "arrival"
 	title: "冬季救援"
@@ -103,6 +103,7 @@
 			description: [
 				"这里存放着初始的物资：纯净水，食物，以及衣服。"
 				"抓紧时间装备好他们吧。"
+				"记得带上这把铁锹，他会很有用的。"
 			]
 			dependencies: ["46BF095F50804FCC"]
 			id: "4E3C1F4BDB921B8E"
@@ -149,6 +150,20 @@
 					type: "item"
 					item: "rankine:bandage"
 					count: 16
+				}
+				{
+					id: "776CB8D1394BCF3D"
+					type: "item"
+					item: {
+						id: "rankine:steel_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+							StoredComposition: [{
+								comp: "99Fe-1C"
+							}]
+						}
+					}
 				}
 			]
 		}
@@ -304,7 +319,7 @@
 			y: -3.0d
 			shape: "hexagon"
 			subtitle: "还好我偷偷藏了不少东西"
-			description: ["个人物品带的不多，这个卫星电话没电了，要想办法充上电才行。"]
+			description: ["个人物品带的不多，天气预报雷达是必须要带的。"]
 			dependencies: ["46BF095F50804FCC"]
 			id: "25061B159D32453A"
 			tasks: [{
