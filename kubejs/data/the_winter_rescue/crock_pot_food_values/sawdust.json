@@ -1,0 +1,7 @@
+{
+    "type": "item",
+    "item": "rankine:sawdust",
+    "values": {
+        "INEDIBLE": 1.0
+    }
+}
