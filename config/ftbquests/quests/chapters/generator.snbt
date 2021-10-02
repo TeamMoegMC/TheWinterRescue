@@ -66,6 +66,17 @@
 			x: 0.5d
 			y: 2.0d
 			shape: "gear"
+			subtitle: "能源供给"
+			description: [
+				"查看思索殷钢块搭建完成后,"
+				"&6底部中心输入水,开启能量塔"
+				"可以在底部输出热能 顶上三层:"
+				"A=高耐火 B=钢板块 C=输液管"
+				"D=核心E=钢脚架D=殷钢块"
+				"ABA  BBB  ADA"
+				"BEB  BDB  DCD"
+				"ABA  BBB  ADA"
+			]
 			dependencies: [
 				"69D939596ED4C0AF"
 				"0019852CD6EC0354"
@@ -106,16 +117,26 @@
 		}
 		{
 			title: "加热器"
+			icon: "immersiveengineering:sheetmetal_steel"
 			x: -1.0d
 			y: 2.0d
 			shape: "gear"
+			description: ["轻型工程块在下方,两个钢板块在上方."]
 			dependencies: ["2D570AD59FE2D6E1"]
 			id: "4BBE69E2E2A4276F"
-			tasks: [{
-				id: "5B70749B773AE22F"
-				type: "item"
-				item: "minecraft:barrier"
-			}]
+			tasks: [
+				{
+					id: "5B0C6258A0BE4353"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+				}
+				{
+					id: "245793557469A63D"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 2L
+				}
+			]
 		}
 		{
 			x: 2.0d

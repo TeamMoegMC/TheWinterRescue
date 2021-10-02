@@ -80,8 +80,10 @@
 		{
 			x: -16.0d
 			y: 1.0d
-			description: ["耐火粘土的原料之一。"
-			"分散在上层沉积岩中"]
+			description: [
+				"耐火粘土的原料之一。"
+				"分散在上层沉积岩中"
+			]
 			dependencies: ["7887EB905BAA7BEF"]
 			id: "48F3102B3AA99313"
 			tasks: [{

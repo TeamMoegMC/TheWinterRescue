@@ -106,5 +106,7 @@
   "frostedheart.ponder.burning_chamber_core.basic_usage.text_1": "Right Click With Engineer's Hammer",
   "frostedheart.ponder.burning_chamber_core.basic_usage.header": "Steel Mill Crucible",
   "frostedheart.ponder.steam_turbine.basic_usage.text_1": "Right Click Tail With Engineer's Hammer",
-  "frostedheart.ponder.steam_turbine.basic_usage.header": "Steam Turbine"
+  "frostedheart.ponder.steam_turbine.basic_usage.header": "Steam Turbine",
+  "frostedheart.ponder.generator_t2.basic_usage.text_1": "Right Click Tail With Engineer's Hammer",
+  "frostedheart.ponder.generator_t2.basic_usage.header": "Generator T2"
 }

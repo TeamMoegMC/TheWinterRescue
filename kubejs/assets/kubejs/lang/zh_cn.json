@@ -106,5 +106,7 @@
   "frostedheart.ponder.burning_chamber_core.basic_usage.text_1": "使用工程师锤子右击",
   "frostedheart.ponder.burning_chamber_core.basic_usage.header": "炼钢坩埚",
   "frostedheart.ponder.steam_turbine.basic_usage.text_1": "工程师锤子右击尾部",
-  "frostedheart.ponder.steam_turbine.basic_usage.header": "蒸汽涡轮机"
+  "frostedheart.ponder.steam_turbine.basic_usage.header": "蒸汽涡轮机",
+  "frostedheart.ponder.generator_t2.basic_usage.text_1": "使用工程师锤子右击",
+  "frostedheart.ponder.generator_t2.basic_usage.header": "T2能量塔"
 }
