@@ -23,7 +23,7 @@
       "action": "check",
       "whitelist": true,
       "pos": [0, -1, 0, 0, 0, 0],
-      "filter": ["custommachinery:custom_machine_block{machineID:\"the_winter_rescue:cast_iron_buner\",craftingManager:{status:\"running\"}}"]
+      "filter": ["custommachinery:custom_machine_block{machineID:\"the_winter_rescue:cast_iron_burner\",craftingManager:{status:\"running\"}}"]
     }
   ],
   "jei": [
@@ -47,7 +47,7 @@
       "action": "check",
       "whitelist": true,
       "pos": [0, -1, 0, 0, 0, 0],
-      "filter": ["custommachinery:custom_machine_block{machineID:\"the_winter_rescue:cast_iron_buner\",craftingManager:{status:\"running\"}}"]
+      "filter": ["custommachinery:custom_machine_block{machineID:\"the_winter_rescue:cast_iron_burner\",craftingManager:{status:\"running\"}}"]
     }
   ]
 }
