@@ -8,8 +8,8 @@ onEvent('block.loot_tables', event => {
     for (i = 0; i < ores.length; i++) {
         ores_i = ores[i];
         ore_blocks_i = ore_blocks[i];
-        event.build(ore_blocks_i, table => {
-            table.pool(pool => {
+        event.addBlock(ore_blocks_i, table => {
+            table.addPool(pool => {
                 pool.rolls = 1
                 pool.survivesExplosion()
                 pool.addItem(ores_i)
@@ -17,8 +17,8 @@ onEvent('block.loot_tables', event => {
         })
     }
 
-    event.build('rankine:sphalerite_ore', table => {
-        table.pool(pool => {
+    event.addBlock('rankine:sphalerite_ore', table => {
+        table.addPool(pool => {
             pool.rolls = 1
             pool.survivesExplosion()
             pool.addItem('rankine:sphalerite')

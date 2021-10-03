@@ -21,7 +21,7 @@
       "type": "custommachinery:block",
       "mode": "input",
       "action": "check",
-      "whitelist": "true",
+      "whitelist": true,
       "pos": [0, -1, 0, 0, 0, 0],
       "filter": ["custommachinery:custom_machine_block{machineID:\"the_winter_rescue:bronze_burner\",craftingManager:{status:\"running\"}}"]
     }
@@ -45,7 +45,7 @@
       "type": "custommachinery:block",
       "mode": "input",
       "action": "check",
-      "whitelist": "true",
+      "whitelist": true,
       "pos": [0, -1, 0, 0, 0, 0],
       "filter": ["custommachinery:custom_machine_block{machineID:\"the_winter_rescue:bronze_burner\",craftingManager:{status:\"running\"}}"]
     }

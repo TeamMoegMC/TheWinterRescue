@@ -10,7 +10,7 @@ onEvent('recipes', (event) => {
     };
 
     data.recipes.forEach((recipe) => {
-        const re = event.recipes.immersiveengineering.crusher(recipe.output, recipe.input, recipe.secondary);
+        const re = event.recipes.immersiveengineeringCrusher(recipe.output, recipe.input);
         if (recipe.id) {
             re.id(recipe.id);
         }

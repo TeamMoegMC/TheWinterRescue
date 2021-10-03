@@ -46,7 +46,7 @@ onEvent('recipes', (event) => {
             B: 'immersiveengineering:wire_copper',
             C: 'immersiveengineering:circuit_board'
         }),
-        shapedRecipe('modularrouters:fluid_module_2', ['CB', 'AC ', 'CB'], {
+        shapedRecipe('modularrouters:fluid_module_2', ['CB', 'AC', 'CB'], {
             A: 'modularrouters:blank_module',
             B: 'immersiveengineering:wire_copper',
             C: 'immersiveengineering:circuit_board'
@@ -56,7 +56,7 @@ onEvent('recipes', (event) => {
             B: 'immersiveengineering:conveyor_covered',
             C: 'immersiveengineering:wire_copper'
         }),
-        shapedRecipe('modularrouters:puller_module_2', ['AA', 'AA', 'AC'], {
+        shapedRecipe('modularrouters:puller_module_2', ['AA', 'AA', 'AB'], {
             A: 'modularrouters:puller_module_1',
             B: 'immersiveengineering:wire_copper'
         }),
@@ -117,10 +117,10 @@ onEvent('recipes', (event) => {
             B: 'minecraft:redstone_torch',
             C: 'immersiveengineering:wire_copper'
         }),
-        shapedRecipe('minecraft:piston', ['AAA', 'BAB ', 'BCB'], {
+        shapedRecipe('minecraft:piston', ['AAA', 'BAB', 'BCB'], {
             A: '#minecraft:planks',
             B: 'minecraft:stone',
-            C: '#the_winter_rescue:cogwheel'
+            C: '#the_winter_rescue:cogwheels'
         }),
         shapedRecipe('3x immersiveengineering:cokebrick', ['ABA', 'CAC', 'ABA'], {
             A: 'minecraft:brick',
@@ -290,7 +290,7 @@ onEvent('recipes', (event) => {
             A: '#forge:plates/aluminum',
             B: 'immersiveengineering:capacitor_lv'
         }),
-        shapedRecipe('frostedheart:burning_chamber', ['ABA', 'BCB', 'ABA'], {
+        shapedRecipe('frostedheart:burning_chamber', ['ABA', 'BAB', 'ABA'], {
             A: '#forge:plates/cast_iron',
             B: '#forge:plates/iron'
         }),
