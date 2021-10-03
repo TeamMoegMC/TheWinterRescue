@@ -3,7 +3,7 @@
 	group: "7823E178F7BCBCB0"
 	order_index: 2
 	filename: "t2"
-	title: "蒸汽驱动的火光"
+	title: "蒸汽驱动"
 	icon: {
 		id: "rankine:cast_iron_alloy"
 		Count: 1b
@@ -901,6 +901,24 @@
 				id: "634013FA9B2698E8"
 				type: "item"
 				item: "steampowered:bronze_large_cogwheel"
+			}]
+		}
+		{
+			x: -19.0d
+			y: 2.5d
+			subtitle: "雪地飞人"
+			dependencies: ["328D948C4C800873"]
+			id: "47F9EC8C18040D6D"
+			tasks: [{
+				id: "0AF2FDBE1D3E93EC"
+				type: "item"
+				item: {
+					id: "rankine:snowshoes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

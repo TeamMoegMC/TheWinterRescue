@@ -1,0 +1,30 @@
+{
+  "itemGroup.frozenup.item_group": "寒冬物语 Frozen Up",
+
+  "item.frozenup.frozen_truffle": "冷冻松露",
+  "item.frozenup.truffle": "松露",
+  "item.frozenup.truffle_muffin": "松露松饼",
+  "item.frozenup.chilloo_spawn_egg": "奇洛刷怪蛋",
+  "item.frozenup.chilloo_feather": "奇洛羽毛",
+  "item.frozenup.empty_mug": "马克杯",
+  "item.frozenup.mug_of_chocolate_milk": "一杯巧克力奶",
+  "item.frozenup.mug_of_truffle_hot_chocolate": "一杯松露热巧克力",
+  "item.frozenup.mug_of_milk": "一杯牛奶",
+
+  "block.frozenup.chilloo_feather_block": "奇洛羽毛块",
+  "block.frozenup.chilloo_feather_block_carpet": "奇洛羽毛地毯",
+  "block.frozenup.truffle_cake": "巧克力松露蛋糕",
+  "block.frozenup.chilloo_feather_lamp": "奇洛羽毛灯",
+  "block.frozenup.empty_mug": "马克杯",
+  "block.frozenup.mug_of_milk": "一杯牛奶",
+  "block.frozenup.mug_of_chocolate_milk": "一杯巧克力奶",
+  "block.frozenup.mug_of_truffle_hot_chocolate": "一杯松露热巧克力",
+
+  "entity.frozenup.chilloo": "奇洛",
+
+  "subtitles.frozenup.entity.chilloo.ambient": "奇洛：啾啾",
+  "subtitles.frozenup.entity.chilloo.hurt": "奇洛：受伤",
+  "subtitles.frozenup.entity.chilloo.death": "奇洛：死亡",
+  "subtitles.frozenup.block.chilloo_feather_lamp.toggle_on": "奇洛羽毛灯：亮起",
+  "subtitles.frozenup.block.chilloo_feather_lamp.toggle_off": "奇洛羽毛灯：熄灭"
+}

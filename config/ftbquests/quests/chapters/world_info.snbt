@@ -52,7 +52,7 @@
 		{
 			x: -2.0d
 			y: 2.0d
-			subtitle: "绿色宝石"
+			subtitle: "虽然可以当染料，但是也是铜矿"
 			description: ["生成于凝灰岩,黑白大理石,角砾岩当中."]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -67,6 +67,7 @@
 		{
 			x: -3.5d
 			y: 3.0d
+			subtitle: "大量含锡"
 			description: ["生成于伟晶岩,流纹岩,石英岩,石英砂岩"]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -81,6 +82,7 @@
 		{
 			x: -2.0d
 			y: 3.0d
+			subtitle: "氧化的锡"
 			description: ["生成于闪长岩,花岗闪长岩,花岗岩,灰色花岗岩,辉石辉长岩,白色大理石当中."]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -110,6 +112,7 @@
 		{
 			x: 1.0d
 			y: 3.0d
+			subtitle: "大量含锑"
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -138,6 +141,7 @@
 		{
 			x: -0.5d
 			y: 3.0d
+			subtitle: "硫化铁矿"
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -151,6 +155,7 @@
 		{
 			x: 2.5d
 			y: 3.0d
+			subtitle: "另一种红石"
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -164,6 +169,7 @@
 		{
 			x: 2.5d
 			y: 2.0d
+			subtitle: "含有氧化铝"
 			description: [""]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -206,6 +212,7 @@
 		{
 			x: -3.5d
 			y: 4.0d
+			subtitle: "含氟"
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -219,6 +226,7 @@
 		{
 			x: -2.0d
 			y: 4.0d
+			subtitle: "大量含铅"
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -245,7 +253,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 1.0d
 			y: 4.0d
 			subtitle: "纯银"
 			hide_dependency_lines: true
@@ -256,18 +264,6 @@
 				id: "214642829287011A"
 				type: "item"
 				item: "kubejs:silver"
-			}]
-		}
-		{
-			x: 1.0d
-			y: 4.0d
-			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
-			id: "61FAFEE493260397"
-			tasks: [{
-				id: "2EEDE3693B2D688F"
-				type: "item"
-				item: "rankine:magnetite"
 			}]
 		}
 	]

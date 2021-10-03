@@ -34,6 +34,7 @@
 			x: 1.5d
 			y: 0.0d
 			subtitle: "掉落物可以用来做热巧克力"
+			dependencies: ["7521769E8333942B"]
 			id: "20E078A9220D6114"
 			tasks: [
 				{

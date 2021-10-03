@@ -17,13 +17,13 @@
 			shape: "gear"
 			subtitle: "大型壁炉"
 			description: [
-				"能量塔是本整合包的核心，是用于加热周围方块的大型多方块结构。"
-				"从上到下方块排序:"
+				"能量塔是本整合包的核心，是用于加热周围区域的大型多方块结构。对&b&l能量塔核心&r进行思索查看多方块结构。"
+				"也可以在这里看结构，从上到下方块排序:"
 				"ABA  A A  ABA  AAA   A=能量塔砖"
 				"B  B       BCB  AAA    B=能量增幅"
 				"ABA  A A  ABA  AAA   C=能量核心"
-				"搭好结构之后用IE工程师锤敲一下。"
-				"在JEI界面悬浮在能量塔方块上长按W进行思索，查看搭建结构。"
+				"搭好结构之后用工程师锤子敲一下侧面。"
+				"可以在未来进行升级。"
 			]
 			dependencies: ["0A9A5166127945AB"]
 			id: "69D939596ED4C0AF"
@@ -56,8 +56,13 @@
 				{
 					id: "53F5D9973B4BF63B"
 					type: "item"
-					item: "frostedheart:white_turnip"
+					item: "frostedheart:white_turnip_block"
 					count: 3
+				}
+				{
+					id: "6CE43A2025345119"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 		}
@@ -68,9 +73,9 @@
 			shape: "gear"
 			subtitle: "能源供给"
 			description: [
-				"查看思索殷钢块搭建完成后,"
-				"&6底部中心输入水,开启能量塔"
-				"可以在底部输出热能 顶上三层:"
+				"对&6&l殷钢块&r进行思索查看搭建结构        &b&l如果结构顶部显示不下，将“视频设置”-“界面尺寸”降低即可"
+				"&6&l底部中心&r输入水,开启能量塔"
+				"可以在&6&l底面&r任意其他方块输出热能 &e&l如果显示不下的话，顶上三层结构如下:"
 				"A=高耐火 B=钢板块 C=输液管"
 				"D=核心E=钢脚架D=殷钢块"
 				"ABA  BBB  ADA"
@@ -87,6 +92,11 @@
 				id: "0FAB6E315ECD3A7F"
 				type: "item"
 				item: "rankine:invar_block"
+			}]
+			rewards: [{
+				id: "1C35AD7A07B1610A"
+				type: "xp_levels"
+				xp_levels: 5
 			}]
 		}
 		{
@@ -121,7 +131,12 @@
 			x: -1.0d
 			y: 2.0d
 			shape: "gear"
-			description: ["轻型工程块在下方,两个钢板块在上方."]
+			subtitle: "扩展基地"
+			description: [
+				"轻型工程块在下方,两个钢板块在上方.用工程师锤子右击"
+				"用输热管和工作中的二阶能量塔连接"
+				"可以加热周围一部分区域，并融化冰雪"
+			]
 			dependencies: ["2D570AD59FE2D6E1"]
 			id: "4BBE69E2E2A4276F"
 			tasks: [
@@ -141,6 +156,12 @@
 		{
 			x: 2.0d
 			y: 2.0d
+			subtitle: "甚至可以用来做饭"
+			description: [
+				"用输热管和工作中的二阶能量塔连接"
+				"手持相应物品右击进行充气/加热"
+				"如：加热背心，水瓶，以及任何需要烤制的食物"
+			]
 			dependencies: ["2D570AD59FE2D6E1"]
 			id: "58912971B356779C"
 			tasks: [{
@@ -150,8 +171,14 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 3.5d
 			y: 2.0d
+			subtitle: "钢铁侠竟是我自己"
+			description: [
+				"需要在蒸汽充气机充能才能使用"
+				"根据你的环境温度提供稳定的加热"
+				"探险者必备"
+			]
 			dependencies: ["58912971B356779C"]
 			id: "2E54EBA4E016412C"
 			tasks: [{
@@ -164,6 +191,50 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			subtitle: "裹得很严"
+			description: ["工作中的能量塔底部连接来传输高压热能"]
+			dependencies: ["2D570AD59FE2D6E1"]
+			id: "3EF706F5A31CDDD6"
+			tasks: [{
+				id: "0640ED64D787FA86"
+				type: "item"
+				item: "frostedheart:heat_pipe"
+			}]
+		}
+		{
+			icon: "minecraft:coal"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "燃烧加速"
+			description: [
+				"为应对特殊天气，能量塔可以开启超频模式"
+				"开启超频的一瞬间会消耗4份燃料"
+				"超频会将能量塔提升的温度翻倍"
+			]
+			dependencies: ["69D939596ED4C0AF"]
+			id: "00FD2A2F4601287B"
+			tasks: [{
+				id: "4965F8923CFE2918"
+				type: "checkmark"
+				title: "超频"
+			}]
+		}
+		{
+			icon: "minecraft:charcoal"
+			x: -1.0d
+			y: 0.0d
+			description: ["一阶能量塔只能燃烧煤炭，木炭，或者焦煤作为燃料"]
+			dependencies: ["69D939596ED4C0AF"]
+			id: "2E96E546DCA1486C"
+			tasks: [{
+				id: "4ACC9E95EA81E727"
+				type: "checkmark"
+				title: "燃料"
 			}]
 		}
 	]

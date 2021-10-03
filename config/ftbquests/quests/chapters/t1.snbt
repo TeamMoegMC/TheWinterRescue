@@ -3,7 +3,7 @@
 	group: "7823E178F7BCBCB0"
 	order_index: 1
 	filename: "t1"
-	title: "从一无所有开始"
+	title: "一无所有"
 	icon: "minecraft:stone"
 	subtitle: ["白雪皑皑之中，你的存在便是唯一的光和热。"]
 	default_quest_shape: ""
@@ -12,7 +12,7 @@
 		{
 			title: "“真正的西伯利亚”挖土豆"
 			icon: "minecraft:flint"
-			x: -8.5d
+			x: -9.5d
 			y: 0.0d
 			subtitle: "沙砾"
 			description: [
@@ -36,7 +36,7 @@
 			]
 		}
 		{
-			x: -7.0d
+			x: -8.0d
 			y: 0.0d
 			subtitle: "燧石的工作台"
 			description: [
@@ -52,7 +52,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -5.0d
 			y: -0.5d
 			subtitle: "干燥"
 			description: ["需要燧石工作台制作,用于晾晒干草。"]
@@ -65,7 +65,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -3.5999999999999996d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "一点就着"
@@ -83,8 +83,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
+			x: -2.0d
+			y: -3.5d
 			subtitle: "暖身"
 			description: [
 				"让你落脚的地方，可以恢复温度和体力，当然也可以烤肉。"
@@ -101,7 +101,7 @@
 		}
 		{
 			icon: "minecraft:stone"
-			x: 0.0d
+			x: -0.5d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "坚硬的石头"
@@ -114,6 +114,7 @@
 			dependencies: [
 				"45E2EF843333B846"
 				"6B7D4F59C921C1FC"
+				"3B7B7A0BC0CF3CE0"
 			]
 			hide: true
 			id: "4BD8236FEEBD7D3A"
@@ -154,8 +155,8 @@
 		{
 			title: "木板"
 			icon: "minecraft:oak_planks"
-			x: 2.0d
-			y: 0.0d
+			x: 1.0d
+			y: -1.0d
 			subtitle: "良好的建筑材料"
 			description: [
 				"经典的建筑材料，用砧木处理去皮原木得到。"
@@ -179,8 +180,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -0.5d
+			x: -2.0d
+			y: -2.0d
 			subtitle: "想致富，先撸树"
 			description: ["同样重要的工具，你可以砍树了。"]
 			dependencies: ["29BC87594650152D"]
@@ -198,8 +199,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.5d
+			x: -2.0d
+			y: 2.0d
 			subtitle: "开采工具"
 			description: [
 				"重要的工具之一，开始挖矿吧"
@@ -221,7 +222,7 @@
 		}
 		{
 			x: 4.0d
-			y: -1.0d
+			y: 0.0d
 			subtitle: "小肚子,大容量."
 			description: [
 				"一个木炭只能烧制一个物品,"
@@ -237,7 +238,8 @@
 		}
 		{
 			x: 2.0d
-			y: 1.0d
+			y: -0.5d
+			subtitle: "入不了梦"
 			description: ["简陋的床，可以用于设置重生点。"]
 			dependencies: ["19603323EAAFF726"]
 			id: "417AC14073DD4249"
@@ -249,8 +251,8 @@
 		}
 		{
 			title: "铜"
-			x: 4.0d
-			y: 2.0d
+			x: 3.5d
+			y: 1.5d
 			subtitle: "基础金属"
 			description: [
 				"拥有不错的延展性和导电性，能制成各种铜合金。"
@@ -307,8 +309,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 4.0d
+			x: -0.5d
+			y: 3.5d
 			subtitle: "锤"
 			description: ["石锤了。"]
 			dependencies: ["4BD8236FEEBD7D3A"]
@@ -327,8 +329,8 @@
 		}
 		{
 			title: "铜板"
-			x: 4.0d
-			y: 4.0d
+			x: 3.0d
+			y: 3.5d
 			subtitle: "金属板"
 			dependencies: [
 				"4A4D6D0DC9B348C1"
@@ -351,8 +353,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 4.0d
+			x: 4.5d
+			y: 3.5d
 			shape: "gear"
 			subtitle: "冶炼合金"
 			description: [
@@ -374,7 +376,8 @@
 		}
 		{
 			x: 6.0d
-			y: 4.0d
+			y: 3.5d
+			description: ["使用陶罐熔炼铜和锡"]
 			dependencies: [
 				"3C4CEEBFF8DCF448"
 				"162264AE4B9EE1A9"
@@ -388,8 +391,8 @@
 		}
 		{
 			title: "锡"
-			x: 5.0d
-			y: 2.0d
+			x: 6.5d
+			y: 1.5d
 			subtitle: "合金成分"
 			description: ["青铜的主要成分之一。"]
 			dependencies: ["689BB00EC2454F1F"]
@@ -408,8 +411,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 4.0d
+			x: 9.6d
+			y: 3.5999999999999996d
 			shape: "gear"
 			subtitle: "锻铁炉主方块"
 			description: [
@@ -435,8 +438,8 @@
 		}
 		{
 			title: "铁"
-			x: 10.0d
-			y: 4.0d
+			x: 12.0d
+			y: 3.0d
 			shape: "gear"
 			subtitle: "真 基础金属"
 			description: [
@@ -464,8 +467,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: -0.5d
+			y: -3.5d
 			subtitle: "黏黏的"
 			description: [
 				"河里什么都有，如果你想要黏土的话，去河里翻翻吧。"
@@ -480,8 +483,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 2.5d
+			x: 9.5d
+			y: 2.0d
 			subtitle: "风口"
 			description: [
 				"用于向锻铁炉内鼓风."
@@ -499,8 +502,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 0.0d
+			x: 1.0d
+			y: -2.0d
 			subtitle: "装满满的"
 			description: ["基础的液体容器。"]
 			dependencies: ["19603323EAAFF726"]
@@ -512,8 +515,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: 2.5d
+			y: -2.0d
 			subtitle: "CaCO3"
 			description: ["主要成分为碳酸钙。"]
 			dependencies: ["3078BCEE3E402DED"]
@@ -526,9 +529,13 @@
 		}
 		{
 			x: 2.0d
-			y: -2.5d
+			y: -3.5d
 			subtitle: "黏土加工"
-			description: ["将黏土块加工为各种黏土制品。"]
+			description: [
+				"将黏土块加工为各种黏土制品。"
+				"将粘土块放在地面后使用抹子右击"
+				"可以多次右击获得不同成品"
+			]
 			dependencies: ["6D92E93A0811C1FD"]
 			id: "409679774573DA63"
 			tasks: [{
@@ -544,12 +551,11 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -2.5d
+			x: 5.0d
+			y: -3.5d
 			description: [
-				"&6加工黏土块得到胚胎"
+				"&6加工黏土块得到粘土桶，然后在陶窑烧制。"
 				"盛装各种液体，类似于通用流体单元。"
-				"加工黏土块后烧制得到."
 			]
 			dependencies: ["409679774573DA63"]
 			id: "6CF9868197215C1D"
@@ -560,8 +566,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: 4.0d
+			y: -2.0d
 			subtitle: "CaO"
 			description: ["烧制得到生石灰"]
 			dependencies: ["74780AAD5FDF8870"]
@@ -574,7 +580,7 @@
 		}
 		{
 			x: 6.0d
-			y: -2.5d
+			y: -2.0d
 			shape: "gear"
 			description: [
 				"将生石灰放到装有水的桶里得到石灰水。"
@@ -595,10 +601,11 @@
 		}
 		{
 			x: 9.5d
-			y: -2.5d
+			y: -2.0d
 			description: [
 				"一般的木炭坑，用泥土搭建足矣。"
 				"但是如果要生产焦煤，就需要用石砖搭建炭坑。"
+				"要生产焦煤，则必须要&6&l煤炭块&r，而不是原木堆"
 			]
 			dependencies: ["4543F3B5F937E6B0"]
 			id: "77A7511048D5767B"
@@ -609,8 +616,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 0.5d
+			x: 8.5d
+			y: 0.0d
 			description: [
 				"浸润了杂酚油的木板。"
 				"如果不工作，就少放一点木板，按照比例计算"
@@ -624,8 +631,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 2.0d
+			x: 8.0d
+			y: 1.5d
 			subtitle: "氧气助燃"
 			description: [
 				"呼呼呼~"
@@ -640,8 +647,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 0.5d
+			x: 11.0d
+			y: -0.5d
 			subtitle: "FBI open the door"
 			description: [
 				"用青铜制作的门。可以作为木炭坑的一部分，方便出入。"
@@ -657,7 +664,7 @@
 		}
 		{
 			icon: "charcoal_pit:sandy_collector"
-			x: 7.0d
+			x: 7.5d
 			y: -1.0d
 			description: [
 				"可以收集木炭坑运行中产生的杂酚油。"
@@ -675,8 +682,8 @@
 		}
 		{
 			icon: "minecraft:charcoal"
-			x: -1.5d
-			y: -3.0d
+			x: -2.0d
+			y: -5.0d
 			subtitle: "原始燃料,还能过滤水"
 			description: [
 				"便宜高效的燃料。"
@@ -701,7 +708,7 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 7.0d
 			y: -3.5d
 			subtitle: "生砂砖"
 			description: ["沙子做成的砖，具有不错的隔热性。"]
@@ -714,7 +721,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 9.5d
 			y: -3.5d
 			subtitle: "耐热"
 			description: ["用于搭建锻铁炉，也可以用来盖房。"]
@@ -737,7 +744,7 @@
 					Damage: 0
 				}
 			}
-			x: -5.5d
+			x: -6.5d
 			y: 0.5d
 			subtitle: "剪枝器"
 			description: ["锋利的小刀，用其破坏(原版)树叶获得Snowy Vine。"]
@@ -758,7 +765,7 @@
 		{
 			title: "焦煤"
 			x: 11.0d
-			y: -2.5d
+			y: -3.5d
 			description: ["类似木炭，但是能烧更久。"]
 			dependencies: ["77A7511048D5767B"]
 			id: "48C50ABC7AE7C575"
@@ -776,7 +783,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -6.5d
 			y: -0.5d
 			subtitle: "粗略加工"
 			description: ["&6使用燧石工作台合成的必备工具"]
@@ -795,7 +802,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -5.0d
 			y: 0.5d
 			subtitle: "冰冷的藤蔓"
 			description: ["绕成一团的藤蔓,也许你可以晾干作为火源."]
@@ -808,8 +815,8 @@
 			}]
 		}
 		{
-			x: 7.2d
-			y: 4.0d
+			x: 7.5d
+			y: 3.5d
 			subtitle: "升级工具"
 			description: ["青铜工具相比燧石工具来说更坚硬耐用。"]
 			dependencies: ["4B6840707D77E2C0"]
@@ -1053,8 +1060,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -1.5d
+			x: 6.0d
+			y: 0.0d
 			subtitle: "简易存储"
 			description: [""]
 			dependencies: ["689BB00EC2454F1F"]
@@ -1066,8 +1073,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -1.5d
+			x: -3.5d
+			y: -2.0d
 			subtitle: "原始人的武器"
 			description: [
 				"这个世界危机四伏,有些未驯服生物有野性. "
@@ -1089,7 +1096,7 @@
 		}
 		{
 			x: 2.0d
-			y: 2.0d
+			y: 1.5d
 			subtitle: "简单防御"
 			dependencies: ["42AF456D165CBF75"]
 			id: "4DD7D3E4613000E4"
@@ -1130,8 +1137,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 1.5d
+			x: -3.5d
+			y: 2.0d
 			subtitle: "开阔道路"
 			dependencies: ["29BC87594650152D"]
 			id: "5D803F0865A90DE0"
@@ -1149,7 +1156,7 @@
 		}
 		{
 			title: "玻璃冶炼"
-			x: 4.0d
+			x: 4.5d
 			y: 5.0d
 			subtitle: "比较容易"
 			description: ["玻璃可以用来制作净水器"]
@@ -1170,7 +1177,7 @@
 		}
 		{
 			icon: "watersource:wooden_water_filter"
-			x: 5.0d
+			x: 3.0d
 			y: 5.0d
 			description: ["手持任意种类滤水器滤纸右击滤水器即可安装， 滤纸有耐久。用水桶等可以往顶部灌水， 等待即可在底部接纯净水。"]
 			dependencies: ["3EE690327B36D6E0"]
@@ -1242,7 +1249,7 @@
 		{
 			icon: "crockpot:food_category_meat"
 			x: -7.0d
-			y: 1.0d
+			y: 3.5d
 			shape: "gear"
 			subtitle: "均衡膳食"
 			description: [
@@ -1278,10 +1285,14 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -3.0d
+			x: -3.5d
+			y: -3.5d
 			subtitle: "上面有些毛"
-			description: ["从野生动物身上获取"]
+			description: [
+				"从野生动物身上获取"
+				"海冰上的北极熊，鹿，或者猛犸象都是不错的选择，他们现在太多了"
+				"&6&l北极熊在现实中是濒危生物，请保护野生动物！"
+			]
 			dependencies: ["7521769E8333942B"]
 			id: "443AD02B85632386"
 			tasks: [{
@@ -1291,8 +1302,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -4.5d
+			x: -3.5d
+			y: -5.0d
 			subtitle: "貂皮大衣"
 			description: ["提供不错的保温效果"]
 			dependencies: ["443AD02B85632386"]
@@ -1312,7 +1323,7 @@
 		{
 			title: "查询合成表"
 			x: -8.5d
-			y: 1.0d
+			y: 3.5d
 			shape: "gear"
 			subtitle: "你最好的帮手，JEI"
 			description: [
@@ -1324,24 +1335,6 @@
 				id: "0758A45D51C54F20"
 				type: "checkmark"
 				title: "使用"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 3.0d
-			subtitle: "雪地飞人"
-			dependencies: ["29BC87594650152D"]
-			id: "47F9EC8C18040D6D"
-			tasks: [{
-				id: "0AF2FDBE1D3E93EC"
-				type: "item"
-				item: {
-					id: "rankine:snowshoes"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
 			}]
 		}
 		{
@@ -1373,8 +1366,8 @@
 			]
 		}
 		{
-			x: -2.0d
-			y: 1.5d
+			x: -3.5d
+			y: 3.5d
 			subtitle: "能用更多次"
 			dependencies: ["29BC87594650152D"]
 			id: "1C7830BE11F5FDCA"
@@ -1392,7 +1385,7 @@
 		}
 		{
 			x: -2.0d
-			y: -1.5d
+			y: 0.0d
 			subtitle: "一次性起火"
 			dependencies: ["29BC87594650152D"]
 			id: "3B7B7A0BC0CF3CE0"
@@ -1403,8 +1396,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.0d
+			x: -0.5d
+			y: -5.0d
 			subtitle: "烧开水"
 			description: ["加热杯中的水即可除菌，变成纯净水。"]
 			dependencies: ["36960F1D7CDC8B30"]
@@ -1427,8 +1420,8 @@
 		{
 			title: "镍"
 			icon: "immersiveengineering:ingot_nickel"
-			x: 8.5d
-			y: 5.5d
+			x: 12.0d
+			y: 4.5d
 			description: [
 				"目前能冶炼的另一种金属,"
 				"也许可以制作更好的合金."
@@ -1450,9 +1443,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 3.0d
+			x: 5.0d
+			y: 2.5d
 			subtitle: "地质勘探"
+			description: ["右击石头可以获取附近的矿物信息"]
 			dependencies: ["0A9A5166127945AB"]
 			id: "1DF200F6772308C7"
 			tasks: [{
@@ -1468,7 +1462,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 1.5d
 			y: 5.0d
 			dependencies: ["586D66C71A378A82"]
 			id: "1974619E18DB754A"
