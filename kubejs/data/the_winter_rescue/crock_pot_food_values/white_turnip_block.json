@@ -1,6 +1,6 @@
 {
     "type": "item",
-    "item": "frostedheart:white_turnip",
+    "item": "frostedheart:white_turnip_block",
     "values": {
         "VEGGIE": 1.0
     }
