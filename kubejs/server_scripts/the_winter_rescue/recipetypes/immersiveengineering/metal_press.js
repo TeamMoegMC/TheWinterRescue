@@ -15,6 +15,7 @@ onEvent('recipes', (event) => {
         {output: 'immersiveengineering:plate_lead', input: '#forge:ingots/lead'},
         {output: 'immersiveengineering:plate_constantan', input: '#forge:ingots/constantan'},
         {output: 'immersiveengineering:plate_silver', input: '#forge:ingots/silver'},
+        {output: 'immersiveengineering:plate_electrum', input: '#forge:ingots/electrum'},
         {output: 'immersiveengineering:plate_gold', input: '#forge:ingots/gold'}
     ];
     const recipes = [
