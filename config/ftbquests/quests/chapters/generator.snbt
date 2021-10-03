@@ -104,6 +104,7 @@
 			x: 0.5d
 			y: 4.0d
 			shape: "gear"
+			subtitle: "尚未开放"
 			dependencies: ["2D570AD59FE2D6E1"]
 			id: "5F455ED38549D9EF"
 			tasks: [{
@@ -117,6 +118,7 @@
 			x: 0.5d
 			y: 6.0d
 			shape: "gear"
+			subtitle: "尚未开放"
 			dependencies: ["5F455ED38549D9EF"]
 			id: "55C39831FBBB94D8"
 			tasks: [{

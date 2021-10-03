@@ -123,6 +123,7 @@
 		{
 			x: -20.5d
 			y: -0.5d
+			subtitle: "焦炉！"
 			description: ["有了焦炉，就再也不需要一次次地布置木炭坑了！"]
 			dependencies: ["328D948C4C800873"]
 			hide: true
@@ -419,7 +420,7 @@
 			subtitle: "烈焰人保护协会表强烈谴责"
 			description: [
 				"一些机器的配方需要高温环境才能正常处理。这台燃烧室可以很轻松的做到这点。"
-				"注意，不一定需要烈焰人，用打火石点燃也可以。"
+				""
 			]
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "4548F432A872DA92"

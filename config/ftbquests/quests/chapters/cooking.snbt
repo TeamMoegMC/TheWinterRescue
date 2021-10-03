@@ -86,6 +86,7 @@
 			title: "最好的填充物"
 			x: -4.5d
 			y: -0.5d
+			subtitle: "常见？"
 			description: ["在这漫天冰雪的世界里，还有什么比冰雪更适合做填充物的呢?"]
 			hide_dependency_lines: true
 			dependencies: ["7AA152F9B5AF6677"]
@@ -116,6 +117,7 @@
 			title: "白萝卜"
 			x: 5.0d
 			y: -0.5d
+			subtitle: "蔬菜"
 			description: ["一种耐寒的蔬菜，可以在很低的温度下生长。"]
 			dependencies: ["69D939596ED4C0AF"]
 			id: "6D01046E549A087E"
@@ -191,6 +193,7 @@
 		{
 			x: 0.5d
 			y: -0.5d
+			subtitle: "高级货"
 			dependencies: ["20E078A9220D6114"]
 			id: "5CCD8F05D7402D4B"
 			tasks: [{

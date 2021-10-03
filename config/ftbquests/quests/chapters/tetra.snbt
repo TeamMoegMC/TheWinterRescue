@@ -32,9 +32,9 @@
 			size: 1.2d
 			id: "11DD149796E14E81"
 			tasks: [{
-				id: "16AAA86B0A094B06"
+				id: "2481856F88DAA369"
 				type: "item"
-				item: "tetra:basic_workbench"
+				item: "minecraft:crafting_table"
 			}]
 		}
 		{
