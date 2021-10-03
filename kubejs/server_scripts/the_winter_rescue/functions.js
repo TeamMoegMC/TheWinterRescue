@@ -12,6 +12,10 @@ function tree_stumpRecipe(result, ingredients, tool, chop, amount) {
     return {result: result, ingredients: ingredients, tool: tool, chop:chop, amount:amount};
 }
 
+function campfireRecipe(result, ingredients, time) {
+    return {result: result, ingredients: ingredients, time: time};
+}
+
 function millstoneRecipe(result, ingredients, secondResult, secondChance, activateCount) {
     return {result: result, ingredients: ingredients, secondResult: secondResult, secondChance:secondChance, activateCount:activateCount};
 }
