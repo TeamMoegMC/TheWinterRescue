@@ -9,8 +9,8 @@ onEvent('recipes', (event) => {
         }, Ingredient.of('#forge:axes')),
         flint_shapedRecipe(Item.of('minecraft:crafting_table'), ['AAA', 'BBB', 'CCC'], {
             A: Item.of('minecraft:iron_ingot').toJson(),
-            B: Ingredient.of('#immersiveengineering:treated_wood_horizontal').toJson(),
-            C: Ingredient.of('#immersiveengineering:slab_treated_wood_horizontal').toJson()
+            B: Ingredient.of('immersiveengineering:treated_wood_horizontal').toJson(),
+            C: Ingredient.of('immersiveengineering:slab_treated_wood_horizontal').toJson()
         }, Ingredient.of('#notreepunching:saws')),
         flint_shapedRecipe(Item.of('stone_age:millstone'), [' B ', ' C ', 'AAA'], {
             A: Ingredient.of('#forge:stone').toJson(),
