@@ -1,0 +1,25 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.DisconnectedScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/slideshows/background/images/image_4.jpg
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400513%
+  action = vanilla_button_visibility_requirements
+}
+
