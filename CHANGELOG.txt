@@ -1,4 +1,4 @@
-冬季救援 Beta-0.4.1 - "蒸汽加压"
+冬季救援 Beta-0.4.2 - "蒸汽加压"
 * 主线：
 你终于能点燃二阶能量塔了！
 基于全新热力网络系统，你可以用高压蒸汽驱动你的工厂
@@ -21,7 +21,7 @@
 Curios 4.0.5.3
 [CLIENT] JustEnoughCharacters 4.3.2
 * 更新模组：
-FrostedHeart 0.4.1
+FrostedHeart 0.4.2
 Steampowered 0.1.1
 StoneAge 1.3.4
 CharcoalPit 2.15
