@@ -222,9 +222,9 @@ onEvent('recipes', (event) => {
             C: '#forge:plates/iron'
         }),
         shapedRecipe('frostedheart:soil_thermometer', ['BAB', 'BAB', 'CCC'], {
-                    A: 'rankine:cinnabar',
-                    B: 'minecraft:glass',
-                    C: '#forge:plates/iron'
+            A: 'rankine:cinnabar',
+            B: 'minecraft:glass',
+            C: '#forge:plates/iron'
         }),
 		shapedRecipe('3x frostedheart:heat_pipe', [' B ', 'ACA', ' B '], {
             A: '#forge:plates/steel',
