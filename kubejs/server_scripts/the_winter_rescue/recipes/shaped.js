@@ -221,7 +221,7 @@ onEvent('recipes', (event) => {
             B: 'minecraft:glass',
             C: '#forge:plates/iron'
         }),
-        shapedRecipe('soil_thermometer', ['BAB', 'BAB', 'CCC'], {
+        shapedRecipe('frostedheart:soil_thermometer', ['BAB', 'BAB', 'CCC'], {
                     A: 'rankine:cinnabar',
                     B: 'minecraft:glass',
                     C: '#forge:plates/iron'
