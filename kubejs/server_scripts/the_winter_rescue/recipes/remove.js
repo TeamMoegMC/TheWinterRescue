@@ -39,6 +39,7 @@ onEvent('recipes', (event) => {
         'engineersdecor:factory_dropper',
         'engineersdecor:small_waste_incinerator',
 		'rankine:prospecting_stick',
+		'minecraft:cobweb',
         'charcoal_pit:copper_block'
     ]
     workbench.forEach((Item) => {
