@@ -1512,5 +1512,24 @@
 				type: "checkmark"
 			}]
 		}
+		{
+			x: -4.5d
+			y: -1.5d
+			subtitle: "寒冬必备"
+			description: ["如果不穿衣服也许会很冷"]
+			dependencies: ["29BC87594650152D"]
+			id: "70E6A4B9946F263A"
+			tasks: [{
+				id: "303116E572280BDC"
+				type: "item"
+				item: {
+					id: "frostedheart:hay_jacket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 }
