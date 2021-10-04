@@ -200,19 +200,19 @@ onEvent('recipes', (event) => {
         }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('frostedheart:hay_hat'), ['AAA', 'A A', 'B B'], {
             A: Item.of('charcoal_pit:straw').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson()
+            B: Item.of('rankine:rope').toJson()
         }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('frostedheart:hay_jacket'), ['ABA', 'ABA', 'AAA'], {
             A: Item.of('charcoal_pit:straw').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson()
+            B: Item.of('rankine:rope').toJson()
         }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('frostedheart:hay_pants'), ['AAA', 'ABA', 'ABA'], {
             A: Item.of('charcoal_pit:straw').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson()
+            B: Item.of('rankine:rope').toJson()
         }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('frostedheart:hay_boots'), ['ABA', 'ABA'], {
             A: Item.of('charcoal_pit:straw').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson()
+            B: Item.of('rankine:rope').toJson()
         }, Item.of('stone_age:flint_knife'))
     ]
 
