@@ -63,9 +63,9 @@ onEvent('recipes', (event) => {
     event.recipes.createSequencedAssembly([
         Item.of('immersiveengineering:circuit_board')
     ], '#forge:plates/copper', [
-        event.recipes.createFilling('immersiveengineering:circuit_board', ['create:copper_sheet', Fluid.of('rankine:resin', 500)]),
-        event.recipes.createDeploying('immersiveengineering:circuit_board', ['create:copper_sheet', 'create:electron_tube']),
-        event.recipes.createDeploying('immersiveengineering:circuit_board', ['create:copper_sheet', 'immersiveengineering:wire_copper']),
-        event.recipes.createPressing('immersiveengineering:circuit_board', ['create:copper_sheet']),
-    ]).loops(0)
+        event.recipes.createFilling('create:copper_sheet', ['create:copper_sheet', Fluid.of('rankine:resin', 500)]),
+        event.recipes.createDeploying('create:copper_sheet', ['create:copper_sheet', 'create:electron_tube']),
+        event.recipes.createDeploying('create:copper_sheet', ['create:copper_sheet', 'immersiveengineering:wire_copper']),
+        event.recipes.createPressing('create:copper_sheet', ['create:copper_sheet']),
+    ]).loops(1)
 });
