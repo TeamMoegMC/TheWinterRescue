@@ -1,4 +1,4 @@
-冬季救援 Beta-0.4.0 - "蒸汽加压"
+冬季救援 Beta-0.4.1 - "蒸汽加压"
 * 主线：
 你终于能点燃二阶能量塔了！
 基于全新热力网络系统，你可以用高压蒸汽驱动你的工厂
@@ -21,7 +21,7 @@
 Curios 4.0.5.3
 [CLIENT] JustEnoughCharacters 4.3.2
 * 更新模组：
-FrostedHeart 0.4
+FrostedHeart 0.4.1
 Steampowered 0.1.1
 StoneAge 1.3.4
 CharcoalPit 2.15
@@ -31,7 +31,7 @@ FTB Update
 Konkrete 1.3.0
 FancyMenu 2.3.3
 Masterful Machinery 0.1.53-B733
-CustomMachinery 0.5.2
+CustomMachinery 0.5.3
 Architectury 1.23.33
 Rhino 1.4-build.63
 Kubejs 3.18-build.141
@@ -43,6 +43,7 @@ UnionLib（Survive前置）
 AppleSkin
 AdvancedRocketry（当前BUG过多）
 LibVulpes（AR前置）
+Campfire Overhual （机制整合）
 
 冬季救援 Beta-0.3.0 - "蒸汽动力"
 * 内容：
