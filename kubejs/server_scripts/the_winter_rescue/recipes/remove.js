@@ -81,6 +81,17 @@ onEvent('recipes', (event) => {
     smelting.forEach((Item) => {
         event.remove({type: 'minecraft:blasting', output: Item});
     });
+    let blueprint = [
+        'immersiveengineering:circuit_board',
+        'immersiveengineering:circuit_board',
+        'immersiveengineering:component_steel',
+        'immersiveengineering:electron_tube',
+        'immersiveengineering:graphite_electrode'
+    ]
+	blueprint.forEach((Item) => {
+        event.remove({type: 'immersiveengineering:blueprint',output: Item})
+    });
+	
 	event.remove({type: 'rankine:crushing'})
 	event.remove({type: 'charcoal_pit:orekiln', output: 'rankine:bronze_alloy'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:radiator'})
@@ -90,7 +101,6 @@ onEvent('recipes', (event) => {
     event.remove({type: 'minecraft:crafting_shapeless', input: 'immersiveengineering:hammer'})
     event.remove({type: 'minecraft:crafting_shaped', output: 'rankine:flint_knife'})
     event.remove({type: 'minecraft:crafting_shapeless', output: 'rankine:fire_clay_ball'})
-    event.remove({type: 'immersiveengineering:blueprint'})
     event.remove({type: 'create:splashing', input: 'minecraft:gravel'})
     event.remove({type: 'rankine:crucible', output: '#forge:ingots/steel'})
     event.remove({type: 'rankine:alloying', output: '#forge:ingots/steel'})

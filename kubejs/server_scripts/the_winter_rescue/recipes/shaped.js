@@ -10,6 +10,11 @@ onEvent('recipes', (event) => {
             B: 'minecraft:piston',
             C: 'charcoal_pit:bellows'
         }),
+		shapedRecipe(Item.of('immersiveengineering:blueprint', '{blueprint:"molds"}'), ['A A', 'CBC', 'CCC'], {
+            A: 'minecraft:ink_sac',
+            B: '#forge:plates/steel',
+            C: 'minecraft:paper'
+        }),
 		shapedRecipe('watersource:water_dispenser', ['ABA', 'ACA', 'AAA'], {
             A: '#forge:plates/aluminum',
             B: 'immersiveengineering:metal_barrel',
@@ -217,11 +222,6 @@ onEvent('recipes', (event) => {
             C: 'immersiveengineering:plantoil_bucket'
         }),
 		shapedRecipe('frostedheart:mercury_body_thermometer', [' BA', 'BAB', 'CB '], {
-            A: 'rankine:cinnabar',
-            B: 'minecraft:glass',
-            C: '#forge:plates/iron'
-        }),
-        shapedRecipe('frostedheart:soil_thermometer', ['BAB', 'BAB', 'CCC'], {
             A: 'rankine:cinnabar',
             B: 'minecraft:glass',
             C: '#forge:plates/iron'
