@@ -31,7 +31,7 @@
     {
       "type": "must_contain_ingredient",
       "ingredient": {
-        "item": "frostedheart:white_turnip"
+        "item": "frostedheart:white_turnip_block"
       },
       "quantity": 1
     },
