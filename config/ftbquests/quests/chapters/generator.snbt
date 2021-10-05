@@ -239,5 +239,27 @@
 				title: "燃料"
 			}]
 		}
+		{
+			x: 5.0d
+			y: 2.0d
+			subtitle: "敢喝吗"
+			description: [
+				"喝一口大幅增温，但也会过热！"
+				"戴在身上可以温暖身体"
+			]
+			dependencies: ["58912971B356779C"]
+			id: "7B894BFDA71E9781"
+			tasks: [{
+				id: "64F2D98601B8E00B"
+				type: "item"
+				item: {
+					id: "frostedheart:steam_bottle"
+					Count: 1b
+					tag: {
+						energy: 240
+					}
+				}
+			}]
+		}
 	]
 }

@@ -12,7 +12,7 @@ onEvent('recipes', (event) => {
     ]
 
     var newShapelessRecipes = [
-        // shapelessRecipe('minecraft:paper', ['minecraft:paper', 'minecraft:paper'])
+        shapelessRecipe('stone_age:dried_grass', ['charcoal_pit:straw'])
     ]
 
     /**

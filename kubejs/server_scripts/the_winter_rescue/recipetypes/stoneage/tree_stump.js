@@ -63,6 +63,8 @@ onEvent('recipes', (event) => {
         tree_stumpRecipe(Item.of('rankine:eastern_hemlock_planks', 3), Item.of('rankine:stripped_eastern_hemlock_log'),
             Ingredient.of('#forge:axes'), 2),
         tree_stumpRecipe(Item.of('rankine:maple_planks', 3), Item.of('rankine:stripped_maple_log'),
+            Ingredient.of('#forge:axes'), 2),
+        tree_stumpRecipe(Item.of('watersource:coconut_tree_planks', 3), Item.of('watersource:stripped_coconut_tree_log'),
             Ingredient.of('#forge:axes'), 2)
     ]
     wood_recipes.forEach((recipe) => {

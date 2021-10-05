@@ -610,6 +610,7 @@
 				"一般的木炭坑，用泥土搭建足矣。"
 				"但是如果要生产焦煤，就需要用石砖搭建炭坑。"
 				"要生产焦煤，则必须要&6&l煤炭块&r，而不是原木堆"
+				"石砖可以用来制作&b&l烹饪锅"
 			]
 			dependencies: ["4543F3B5F937E6B0"]
 			id: "77A7511048D5767B"
@@ -1295,6 +1296,24 @@
 				title: "体温"
 				icon: "weatherforecast:temperature_probe"
 			}]
+			rewards: [
+				{
+					id: "79D73CF127542395"
+					type: "item"
+					item: "frostedheart:mercury_body_thermometer"
+				}
+				{
+					id: "70EAB408FCD2A7FE"
+					type: "item"
+					item: {
+						id: "frostedheart:soil_thermometer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -1481,7 +1500,10 @@
 			x: 1.5d
 			y: 5.0d
 			subtitle: "加上枸杞"
-			description: ["多喝热水"]
+			description: [
+				"多喝热水"
+				"出门必备，失温的时候来几口能保命"
+			]
 			dependencies: ["586D66C71A378A82"]
 			id: "1974619E18DB754A"
 			tasks: [{
