@@ -41,7 +41,8 @@
 			subtitle: "燧石的工作台"
 			description: [
 				"前期主要的合成台."
-				"右键放置好合成表,使用所需工具右键即可."
+				"&6右键放置好合成表,使用所需工具右键即可."
+				"注意工作台朝向"
 			]
 			dependencies: ["32E5D942F1FE8645"]
 			id: "3102993072F3C8B9"
@@ -57,6 +58,7 @@
 			subtitle: "干燥"
 			description: ["需要燧石工作台制作,用于晾晒干草。"]
 			dependencies: ["348EB1588EFAD2AB"]
+			hide: true
 			id: "1D7F2824DAF3BB7B"
 			tasks: [{
 				id: "4366249350406528"
@@ -378,7 +380,7 @@
 			x: 6.0d
 			y: 3.5d
 			subtitle: "基础材料"
-			description: ["使用陶罐熔炼铜和锡"]
+			description: ["拥有比纯铜更好的性能"]
 			dependencies: [
 				"3C4CEEBFF8DCF448"
 				"162264AE4B9EE1A9"
@@ -418,8 +420,8 @@
 			subtitle: "锻铁炉主方块"
 			description: [
 				"&6使用思索查看锻铁炉的构造方法。"
-				"搭建好锻铁炉后，手持原料(燃料除外)shift+右键将其放入锻铁炉"
-				"然后手持原料(包括燃料)右键原料方块将剩余的放入锻铁炉。"
+				"搭建好锻铁炉后，手持(矿石)shift+右键将其放入锻铁炉"
+				"然后手持(矿石或燃料)右键原料方块将剩余的放入锻铁炉。"
 				"在原料方块上点火以启动锻铁炉。"
 				"&6锻铁炉运行中需要风箱鼓风."
 				"&6炼制完成后，&4立即&6用镐挖掘其中的方块得到铁锭。"
@@ -533,7 +535,7 @@
 			y: -3.5d
 			subtitle: "黏土加工"
 			description: [
-				"将黏土块加工为各种黏土制品。"
+				"&6将黏土块加工为各种黏土制品。"
 				"将粘土块放在地面后使用抹子右击"
 				"可以多次右击获得不同成品"
 			]
@@ -610,7 +612,6 @@
 				"一般的木炭坑，用泥土搭建足矣。"
 				"但是如果要生产焦煤，就需要用石砖搭建炭坑。"
 				"要生产焦煤，则必须要&6&l煤炭块&r，而不是原木堆"
-				"石砖可以用来制作&b&l烹饪锅"
 			]
 			dependencies: ["4543F3B5F937E6B0"]
 			id: "77A7511048D5767B"
@@ -754,7 +755,7 @@
 			x: -6.5d
 			y: 0.5d
 			subtitle: "剪枝器"
-			description: ["锋利的小刀，用其破坏(原版)树叶获得Snowy Vine。"]
+			description: ["锋利的小刀，用其破坏(原版)树叶获得覆雪藤蔓。"]
 			dependencies: ["3102993072F3C8B9"]
 			id: "14D7D98FC5264B03"
 			tasks: [{
@@ -815,6 +816,7 @@
 			subtitle: "冰冷的藤蔓"
 			description: ["绕成一团的藤蔓,也许你可以晾干作为火源."]
 			dependencies: ["14D7D98FC5264B03"]
+			hide: true
 			id: "1233EF3CDF5E33F8"
 			tasks: [{
 				id: "3349CF3A5F68D6F5"
@@ -1296,24 +1298,6 @@
 				title: "体温"
 				icon: "weatherforecast:temperature_probe"
 			}]
-			rewards: [
-				{
-					id: "79D73CF127542395"
-					type: "item"
-					item: "frostedheart:mercury_body_thermometer"
-				}
-				{
-					id: "70EAB408FCD2A7FE"
-					type: "item"
-					item: {
-						id: "frostedheart:soil_thermometer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 		}
 		{
 			x: -3.5d
@@ -1500,10 +1484,7 @@
 			x: 1.5d
 			y: 5.0d
 			subtitle: "加上枸杞"
-			description: [
-				"多喝热水"
-				"出门必备，失温的时候来几口能保命"
-			]
+			description: ["多喝热水"]
 			dependencies: ["586D66C71A378A82"]
 			id: "1974619E18DB754A"
 			tasks: [{

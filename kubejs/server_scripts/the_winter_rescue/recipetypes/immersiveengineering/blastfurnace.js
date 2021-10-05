@@ -1,6 +1,5 @@
 onEvent('recipes', (event) => {
-    var data = {
-        recipes: [
+    let recipes = [
             {input: 'immersiveengineering:dust_aluminum', output: 'immersiveengineering:ingot_aluminum', time: 400},
             {input: 'minecraft:iron_ingot', output: 'rankine:cast_iron_alloy', time: 600},
             {input: 'rankine:malachite', output: 'immersiveengineering:ingot_copper', time: 400},
@@ -18,10 +17,9 @@ onEvent('recipes', (event) => {
             {input: 'rankine:vanadinite', output: 'rankine:vanadium_ingot', time: 400},
             {input: 'rankine:sphalerite', output: 'rankine:zinc_ingot', time: 400}
         ]
-    };
     event.remove({type: 'immersiveengineering:blast_furnace', output: 'immersiveengineering:ingot_steel'});
     event.remove({type: 'immersiveengineering:blast_furnace', output: 'immersiveengineering:storage_steel'});
-    data.recipes.forEach((recipe) => {
+    recipes.forEach((recipe) => {
         event.recipes.immersiveengineeringBlastFurnace(recipe.output, recipe.input, 'immersiveengineering:slag', recipe.time);
         // if (recipe.id) {
         //     re.id(recipe.id},

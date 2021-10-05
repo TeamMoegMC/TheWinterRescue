@@ -1,6 +1,5 @@
 onEvent('recipes', (event) => {
-    var data = {
-        recipes: [
+    let recipes = [
             {
                 input1: 'minecraft:cobblestone',
                 input2: 'minecraft:cobblestone',
@@ -22,8 +21,7 @@ onEvent('recipes', (event) => {
             //     output: Item.of('tconstruct:tinkers_bronze_ingot', 3)
             // }
         ]
-    };
-    data.recipes.forEach((recipe) => {
+    recipes.forEach((recipe) => {
         event.recipes.immersiveengineering.alloy(recipe.output, recipe.input1, recipe.input2, recipe.time);
         // if (recipe.id) {
         //     re.id(recipe.id);
