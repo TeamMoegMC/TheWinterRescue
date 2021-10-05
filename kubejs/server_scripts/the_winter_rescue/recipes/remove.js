@@ -83,7 +83,7 @@ onEvent('recipes', (event) => {
     });
     let blueprint = [
         'immersiveengineering:circuit_board',
-        'immersiveengineering:circuit_board',
+        'immersiveengineering:component_iron',
         'immersiveengineering:component_steel',
         'immersiveengineering:electron_tube',
         'immersiveengineering:graphite_electrode'
