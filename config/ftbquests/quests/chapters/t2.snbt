@@ -53,8 +53,8 @@
 			y: -0.5d
 			subtitle: "不是石墨"
 			description: [
-				"shift+右键打开gui。"
-				"放入待研磨物品后，右键石磨以研磨。"
+				"右键打开gui放入物品。"
+				"Shift-右键石磨以研磨。"
 			]
 			dependencies: ["328D948C4C800873"]
 			hide: true
@@ -255,7 +255,7 @@
 			x: -11.5d
 			y: -2.0d
 			subtitle: "通入蒸汽"
-			description: ["&6通入的蒸汽需要足够大才能使它运转起来."]
+			description: ["&6蒸汽速率需要足够大才能使它运转起来."]
 			dependencies: [
 				"263F5ADF4A6CDF5A"
 				"197308226CAE52C4"
@@ -842,6 +842,7 @@
 		{
 			x: -7.0d
 			y: -2.0d
+			description: ["你现在可以更方便处理木头了"]
 			dependencies: ["0F8B1303FEF36BD1"]
 			id: "41D8E04627E55A86"
 			tasks: [{
@@ -855,7 +856,7 @@
 			y: -5.0d
 			subtitle: "额外信息"
 			description: [
-				"作为一名动力工程师，这副眼镜必不可少。"
+				"&6作为一名动力工程师，这副眼镜必不可少。"
 				"带上之后，你能看到关于机械和蒸汽设备的很多内部信息。"
 			]
 			dependencies: ["5C078D2F43CA4048"]
