@@ -1,9 +1,0 @@
-{
-  "temperature_modifiers": [
-		{
-			"condition": "survive:default",
-			"temperature": 0
-		}
-	],
-  "weight_modifier": 0.8
-}
