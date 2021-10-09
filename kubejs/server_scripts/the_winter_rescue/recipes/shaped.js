@@ -221,6 +221,21 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'immersiveengineering:plantoil_bucket'
         }),
+		shapedRecipe('frostedheart:buff_coat', [' A ', 'CBC', 'AAA'], {
+            A: 'minecraft:leather',
+            B: 'stone_age:leather_strip',
+            C: 'immersiveengineering:wire_copper'
+        }),
+		shapedRecipe('frostedheart:gambeson', [' A ', 'CBC', 'AAA'], {
+            A: '#minecraft:wool',
+            B: 'stone_age:leather_strip',
+            C: 'immersiveengineering:wire_steel'
+        }),
+		shapedRecipe('frostedheart:kelp_lining', [' A ', 'CBC', 'AAA'], {
+            A: 'minecraft:dried_kelp',
+            B: 'stone_age:leather_strip',
+            C: 'immersiveengineering:wire_copper'
+        }),
 		shapedRecipe('frostedheart:mercury_body_thermometer', [' BA', 'BAB', 'CB '], {
             A: 'rankine:cinnabar',
             B: 'minecraft:glass',

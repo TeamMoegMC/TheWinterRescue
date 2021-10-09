@@ -36,8 +36,8 @@
 			y: 2.0d
 			subtitle: "大量含铜"
 			description: [
-				"生成于安山岩,板岩,拉斑玄武岩,红黑英安岩当中."
-				""
+				"生成于:"
+				"安山岩,板岩,拉斑玄武岩,红黑英安岩当中."
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -53,7 +53,10 @@
 			x: -2.0d
 			y: 2.0d
 			subtitle: "虽然可以当染料，但是也是铜矿"
-			description: ["生成于凝灰岩,黑白大理石,角砾岩当中."]
+			description: [
+				"生成于:"
+				"凝灰岩,黑白大理石,角砾岩当中."
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -68,7 +71,10 @@
 			x: -3.5d
 			y: 3.0d
 			subtitle: "大量含锡"
-			description: ["生成于伟晶岩,流纹岩,石英岩,石英砂岩"]
+			description: [
+				"生成于:"
+				"伟晶岩,流纹岩,石英岩,石英砂岩"
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -83,7 +89,10 @@
 			x: -2.0d
 			y: 3.0d
 			subtitle: "氧化的锡"
-			description: ["生成于闪长岩,花岗闪长岩,花岗岩,灰色花岗岩,辉石辉长岩,白色大理石当中."]
+			description: [
+				"生成于:"
+				"闪长岩,花岗闪长岩,花岗岩,灰色花岗岩,辉石辉长岩,白色大理石当中."
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -98,7 +107,10 @@
 			x: 1.0d
 			y: 2.0d
 			subtitle: "镍矿"
-			description: ["生成于闪长岩,流纹岩,辉石辉长岩,花岗闪长岩,科马提岩"]
+			description: [
+				"生成于:"
+				"闪长岩,流纹岩,辉石辉长岩,花岗闪长岩,科马提岩"
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -113,6 +125,10 @@
 			x: 1.0d
 			y: 3.0d
 			subtitle: "大量含锑"
+			description: [
+				"生成于:"
+				"云母片岩,流纹岩,科马提岩,拉斑玄武岩,科马提岩,红黑英安岩,花岗闪长岩,灰色花岗岩"
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -127,7 +143,10 @@
 			x: -0.5d
 			y: 2.0d
 			subtitle: "四氧化三铁"
-			description: ["生成于白云岩,白垩岩,角砾岩,凝灰岩,碳质页岩当中."]
+			description: [
+				"生成于:"
+				"白云岩,白垩岩,角砾岩,凝灰岩,碳质页岩当中."
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -142,6 +161,10 @@
 			x: -0.5d
 			y: 3.0d
 			subtitle: "硫化铁矿"
+			description: [
+				"生成于:"
+				"云母片岩,流纹岩,科马提岩,红黑英安岩当中."
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -156,6 +179,10 @@
 			x: 2.5d
 			y: 3.0d
 			subtitle: "另一种红石"
+			description: [
+				"生成于:"
+				"云母片岩,流纹岩,科马提岩,红黑英安岩当中."
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -170,7 +197,10 @@
 			x: 2.5d
 			y: 2.0d
 			subtitle: "含有氧化铝"
-			description: [""]
+			description: [
+				"生成于:"
+				"凝灰岩,泥岩,白垩岩,碳质页岩,白云岩当中."
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -185,6 +215,10 @@
 			icon: "rankine:lignite"
 			x: 4.0d
 			y: 2.0d
+			description: [
+				"生成于:"
+				"白垩岩,碳质页岩,白云岩,凝灰岩,角砾岩,泥岩当中."
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -199,6 +233,10 @@
 			icon: "rankine:bituminous_coal"
 			x: 4.0d
 			y: 3.0d
+			description: [
+				"生成于:"
+				"白垩岩,碳质页岩,凝灰岩,泥岩当中."
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -213,6 +251,10 @@
 			x: -3.5d
 			y: 4.0d
 			subtitle: "含氟"
+			description: [
+				"生成于:"
+				"云母片岩,流纹岩,科马提岩,拉斑玄武岩,花岗岩,闪长岩,伟晶岩当中."
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -227,6 +269,10 @@
 			x: -2.0d
 			y: 4.0d
 			subtitle: "大量含铅"
+			description: [
+				"生成于:"
+				"云母片岩,流纹岩,科马提岩,红黑英安岩当中."
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -241,7 +287,10 @@
 			x: -0.5d
 			y: 4.0d
 			subtitle: "纯金"
-			description: [""]
+			description: [
+				"生成于:"
+				"云母片岩,流纹岩,科马提岩,拉斑玄武岩,花岗岩,闪长岩,伟晶岩当中."
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -256,6 +305,10 @@
 			x: 1.0d
 			y: 4.0d
 			subtitle: "纯银"
+			description: [
+				"生成于:"
+				"云母片岩,流纹岩,科马提岩,拉斑玄武岩,花岗岩,闪长岩,伟晶岩当中."
+			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -264,6 +317,40 @@
 				id: "214642829287011A"
 				type: "item"
 				item: "kubejs:silver"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			description: [
+				"生成于:"
+				"云母片岩,流纹岩,科马提岩,红黑英安岩当中."
+			]
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "2A8533418E3A8B06"
+			tasks: [{
+				id: "31295D7F00BCA85A"
+				type: "item"
+				item: "rankine:sphalerite"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			description: [
+				"生成于:"
+				"白垩岩,碳质页岩,白云岩,凝灰岩,白色大理石当中."
+			]
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "1120D6251E9B42C4"
+			tasks: [{
+				id: "1F71D0CFB0584489"
+				type: "item"
+				item: "rankine:magnesite"
 			}]
 		}
 	]

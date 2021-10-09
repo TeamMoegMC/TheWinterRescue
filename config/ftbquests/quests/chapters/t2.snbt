@@ -54,7 +54,7 @@
 			subtitle: "不是石墨"
 			description: [
 				"右键打开gui放入物品。"
-				"Shift-右键石磨以研磨。"
+				"空手Shift-右键石磨以研磨。"
 			]
 			dependencies: ["328D948C4C800873"]
 			hide: true
@@ -255,7 +255,10 @@
 			x: -11.5d
 			y: -2.0d
 			subtitle: "通入蒸汽"
-			description: ["&6蒸汽速率需要足够大才能使它运转起来."]
+			description: [
+				"&6蒸汽速率需要足够大才能使它运转起来."
+				"可以使用护目镜查看运行状态"
+			]
 			dependencies: [
 				"263F5ADF4A6CDF5A"
 				"197308226CAE52C4"
@@ -310,6 +313,7 @@
 			y: 7.0d
 			shape: "gear"
 			subtitle: "跟我一起切割磁感线"
+			description: ["第一台简单的发电机。"]
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "1F2BD4A72596B287"
 			tasks: [{
@@ -419,8 +423,8 @@
 			y: 2.5d
 			subtitle: "烈焰人保护协会表强烈谴责"
 			description: [
-				"一些机器的配方需要高温环境才能正常处理。这台燃烧室可以很轻松的做到这点。"
-				""
+				"一些机器的配方需要高温环境才能正常处理."
+				"这台燃烧室可以很轻松的做到这点。"
 			]
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "4548F432A872DA92"
@@ -496,6 +500,7 @@
 		{
 			x: -13.0d
 			y: -3.5d
+			subtitle: "流体运输"
 			dependencies: ["3E8F565DE61309B2"]
 			id: "17C359DCF058E698"
 			tasks: [{
@@ -508,7 +513,10 @@
 			x: -11.5d
 			y: -3.5d
 			subtitle: "把蒸汽从锅炉抽出来"
-			description: [""]
+			description: [
+				"如果速度不够,"
+				"可以选择速度或者数量。"
+			]
 			dependencies: ["17C359DCF058E698"]
 			id: "197308226CAE52C4"
 			tasks: [{
@@ -533,6 +541,7 @@
 			y: 8.5d
 			subtitle: "用在用电器和发电设备上"
 			dependencies: ["1F2BD4A72596B287"]
+			hide: true
 			id: "4926C4062339E018"
 			tasks: [{
 				id: "6E00292B2D9F43ED"
@@ -653,7 +662,8 @@
 			subtitle: "更热门的话题"
 			description: [
 				"&6炼钢坩埚是比原始高炉更加先进的冶炼设备."
-				"&6必须使用焦煤进行加热.并且提供至少一个&4高炉鼓风机"
+				"&6必须使用焦煤进行加热."
+				"并且要提供一个&4高炉鼓风机。"
 				"搭建: 从上到下"
 				"HHH HHH BBB BBB  H=高耐火砖"
 				"H H H H  BCB BBB  B=燃烧室"
@@ -714,7 +724,7 @@
 			subtitle: "又是一种炉子"
 			description: [
 				"搭建3X3的耐火砖,中间放主方块"
-				"使用方法是把对应的方块放在耐火砖上"
+				"使用方法是把对应的(完整方块)放在耐火砖上"
 				"&6使用打火石右击主方块,需要露天。"
 			]
 			dependencies: ["71D389AF87847D7B"]
@@ -795,7 +805,7 @@
 			x: -13.0d
 			y: 10.0d
 			subtitle: "高精组装"
-			description: ["需要的树脂从云杉,胶枞,雪松等提取。"]
+			description: ["需要的树脂可以从云杉,胶枞,雪松等提取。"]
 			dependencies: ["4926C4062339E018"]
 			id: "7F84766122DC4753"
 			tasks: [{

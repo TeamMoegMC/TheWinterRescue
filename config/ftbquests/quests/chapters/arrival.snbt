@@ -66,8 +66,9 @@
 			y: -4.5d
 			subtitle: "我在哪里？"
 			description: [
-				"这次驾驶的飞船是空间站为数不多还能正常运行的太空梭了。"
-				"要赶快拿到物资才行，否则在这种鬼天气里，很快就会冻死的！"
+				"这次驾驶的飞船是空间站(暂无实物)为数不多还能正常运行的太空梭了。"
+				"要赶快拿到物资才行，"
+				"否则在这种鬼天气里，很快就会冻死的！"
 			]
 			id: "6C86BD5F9112256F"
 			tasks: [{
@@ -155,12 +156,12 @@
 					id: "776CB8D1394BCF3D"
 					type: "item"
 					item: {
-						id: "rankine:steel_shovel"
+						id: "rankine:invar_shovel"
 						Count: 1b
 						tag: {
-							Damage: 0
+							Damage: 80
 							StoredComposition: [{
-								comp: "99Fe-1C"
+								comp: "90Fe-10Ni"
 							}]
 						}
 					}
