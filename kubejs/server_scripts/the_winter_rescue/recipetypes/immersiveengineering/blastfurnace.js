@@ -21,8 +21,5 @@ onEvent('recipes', (event) => {
     event.remove({type: 'immersiveengineering:blast_furnace', output: 'immersiveengineering:storage_steel'});
     recipes.forEach((recipe) => {
         event.recipes.immersiveengineeringBlastFurnace(recipe.output, recipe.input, 'immersiveengineering:slag', recipe.time);
-        // if (recipe.id) {
-        //     re.id(recipe.id},
-        // }
     });
 });

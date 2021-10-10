@@ -174,7 +174,7 @@ onEvent('recipes', (event) => {
             A: 'rankine:pulp',
             B: '#forge:string'
         }),
-        shapedRecipe('2x create:belt_connector', ['AAA', 'BBB', 'AAA'], {
+        shapedRecipe('3x create:belt_connector', ['AAA', 'BBB', 'AAA'], {
             A: '#forge:rubber',
             B: '#forge:wires/copper'
         }),
@@ -221,17 +221,17 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'immersiveengineering:plantoil_bucket'
         }),
-		shapedRecipe('frostedheart:buff_coat', [' A ', 'CBC', 'AAA'], {
+		shapedRecipe('frostedheart:buff_coat', ['AAA', 'CBC', 'AAA'], {
             A: 'minecraft:leather',
             B: 'stone_age:leather_strip',
             C: 'immersiveengineering:wire_copper'
         }),
-		shapedRecipe('frostedheart:gambeson', [' A ', 'CBC', 'AAA'], {
+		shapedRecipe('frostedheart:gambeson', ['AAA', 'CBC', 'AAA'], {
             A: '#minecraft:wool',
-            B: 'stone_age:leather_strip',
+            B: 'immersiveengineering:wire_copper',
             C: 'immersiveengineering:wire_steel'
         }),
-		shapedRecipe('frostedheart:kelp_lining', [' A ', 'CBC', 'AAA'], {
+		shapedRecipe('frostedheart:kelp_lining', ['AAA', 'CBC', 'AAA'], {
             A: 'minecraft:dried_kelp',
             B: 'stone_age:leather_strip',
             C: 'immersiveengineering:wire_copper'

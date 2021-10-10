@@ -40,10 +40,20 @@ onEvent('recipes', (event) => {
         'engineersdecor:small_waste_incinerator',
 		'rankine:prospecting_stick',
 		'minecraft:cobweb',
+		'rankine:flint_knife',
         'charcoal_pit:copper_block'
     ]
     workbench.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shaped', output: Item});
+    });
+	let shapeless = [
+        'minecraft:ender_eye',
+        'rankine:fire_clay_ball',
+		'rankine:vulcanized_rubber',
+		'rankine:kaolinite_ball'
+    ]
+    shapeless.forEach((Item) => {
+        event.remove({type: 'minecraft:crafting_shapeless', output: Item});
     });
     let modularrouters = [
         'modularrouters:activator_module',
@@ -97,10 +107,7 @@ onEvent('recipes', (event) => {
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:radiator'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:rs_engineering'})
     event.remove({type: 'immersiveengineering:hammer_crushing'})
-    event.remove({type: 'minecraft:crafting_shapeless', output: 'minecraft:ender_eye'})
     event.remove({type: 'minecraft:crafting_shapeless', input: 'immersiveengineering:hammer'})
-    event.remove({type: 'minecraft:crafting_shaped', output: 'rankine:flint_knife'})
-    event.remove({type: 'minecraft:crafting_shapeless', output: 'rankine:fire_clay_ball'})
     event.remove({type: 'create:splashing', input: 'minecraft:gravel'})
     event.remove({type: 'rankine:crucible', output: '#forge:ingots/steel'})
     event.remove({type: 'rankine:alloying', output: '#forge:ingots/steel'})

@@ -1,16 +1,3 @@
-/**
- event.recipes.createMechanicalCrafting('minecraft:piston', [
- 'CCCCC',
- 'CPIPC',
- 'CPRPC'
- ], {
-    C: '#forge:cobblestone',
-    P: '#minecraft:planks',
-    R: '#forge:dusts/redstone',
-    I: '#forge:ingots/iron'
-})
- */
-
 onEvent('recipes', (event) => {
     let recipes = [
         shapedRecipe('steampowered:alternator', ['BBEBB', 'FFACD', 'BBEBB'], {
