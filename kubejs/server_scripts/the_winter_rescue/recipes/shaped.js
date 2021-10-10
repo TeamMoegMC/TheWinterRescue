@@ -132,7 +132,7 @@ onEvent('recipes', (event) => {
             B: 'rankine:mortar',
             C: 'steampowered:bronze_sheet'
         }),
-        shapedRecipe('3x immersiveengineering:blastbrick', ['ABA', 'BCB', 'ABA'], {
+        shapedRecipe('4x immersiveengineering:blastbrick', ['ABA', 'BCB', 'ABA'], {
             A: 'kubejs:invar_steel_plate',
             B: 'rankine:mortar',
             C: 'rankine:refractory_bricks'
