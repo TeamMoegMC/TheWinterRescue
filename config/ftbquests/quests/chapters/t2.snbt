@@ -729,19 +729,11 @@
 			]
 			dependencies: ["71D389AF87847D7B"]
 			id: "67486831FE3C0FBA"
-			tasks: [
-				{
-					id: "256EB689FE3A60BF"
-					type: "item"
-					item: "rankine:beehive_oven_pit"
-				}
-				{
-					id: "4CC3A919472A708E"
-					type: "item"
-					item: "rankine:refractory_bricks"
-					count: 8L
-				}
-			]
+			tasks: [{
+				id: "256EB689FE3A60BF"
+				type: "item"
+				item: "rankine:beehive_oven_pit"
+			}]
 		}
 		{
 			x: -7.0d

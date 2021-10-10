@@ -4,4 +4,5 @@ onEvent("ponder.tag.registry", event => {
     event.create("the_winter_rescue:crucible", "frostedheart:burning_chamber_core", "", "")
 	event.create("the_winter_rescue:steam_turbine", "immersiveengineering:generator", "", "")
 	event.create("the_winter_rescue:generator_t2", "rankine:invar_block", "", "")
+	event.create("the_winter_rescue:beehive_oven_pit", "rankine:beehive_oven_pit", "", "")
 })

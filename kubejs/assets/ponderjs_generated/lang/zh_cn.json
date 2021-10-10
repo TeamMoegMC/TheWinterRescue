@@ -22,5 +22,10 @@
   "the_winter_rescue.ponder.tag.generator_t2.description": "搭建T2能量塔",
   "the_winter_rescue.ponder.tag.generator_t2": "T2能量塔",
   "frostedheart.ponder.generator_t2.basic_usage.text_1": "使用工程师锤子右击",
-  "frostedheart.ponder.generator_t2.basic_usage.header": "T2能量塔"
+  "frostedheart.ponder.generator_t2.basic_usage.header": "T2能量塔",
+  
+  "the_winter_rescue.ponder.tag.beehive_oven_pit.description": "搭建蜂窝炉",
+  "the_winter_rescue.ponder.tag.beehive_oven_pit": "蜂窝炉",
+  "frostedheart.ponder.beehive_oven_pit.basic_usage.text_1": "使用打火石右击",
+  "frostedheart.ponder.beehive_oven_pit.basic_usage.header": "蜂窝炉"
 }

@@ -21,6 +21,11 @@
 
   "the_winter_rescue.ponder.tag.generator_t2.description": "Build Generator T2",
   "the_winter_rescue.ponder.tag.generator_t2": "Generator T2",
-  "frostedheart.ponder.generator_t2.basic_usage.text_1": "Right Click Tail With Engineer's Hammer",
-  "frostedheart.ponder.generator_t2.basic_usage.header": "Generator T2"
+  "frostedheart.ponder.generator_t2.basic_usage.text_1": "Right Click With Engineer's Hammer",
+  "frostedheart.ponder.generator_t2.basic_usage.header": "Generator T2",
+  
+  "the_winter_rescue.ponder.tag.beehive_oven_pit.description": "Build Beehive Oven Pit",
+  "the_winter_rescue.ponder.tag.beehive_oven_pit": "Beehive Oven Pit",
+  "frostedheart.ponder.beehive_oven_pit.basic_usage.text_1": "Right Click With Flint and Steel",
+  "frostedheart.ponder.beehive_oven_pit.basic_usage.header": "Beehive Oven Pit"
 }
