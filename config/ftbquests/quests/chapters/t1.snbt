@@ -19,6 +19,8 @@
 				"望望四周，似乎没有沙砾可见."
 				"为什么不去&b&l冰覆盖的河床底下找呢"
 				"（燧石可以通过三个沙砾无序合成获得）"
+				""
+				"&6&l若有其他任务资料未看,请耐心逐个阅读。"
 			]
 			id: "32E5D942F1FE8645"
 			tasks: [
@@ -111,7 +113,7 @@
 			shape: "gear"
 			subtitle: "坚硬的石头"
 			description: [
-				"&6在陶窑内烧制&4任意石头&6获得。 "
+				"&6在陶窑内烧制&4&l任意石头&r&6获得。"
 				""
 				"&6陶窑的搭建需要围起来"
 				""
@@ -394,6 +396,7 @@
 				"3C4CEEBFF8DCF448"
 				"162264AE4B9EE1A9"
 			]
+			hide: true
 			id: "4B6840707D77E2C0"
 			tasks: [{
 				id: "6359AA8052C20461"
@@ -575,6 +578,7 @@
 				"盛装各种液体，类似于通用流体单元。"
 			]
 			dependencies: ["409679774573DA63"]
+			hide: true
 			id: "6CF9868197215C1D"
 			tasks: [{
 				id: "6C40143E3C546377"
@@ -588,6 +592,7 @@
 			subtitle: "CaO"
 			description: ["烧制得到生石灰"]
 			dependencies: ["74780AAD5FDF8870"]
+			hide: true
 			id: "35E5CE37A2F8EB90"
 			tasks: [{
 				id: "5429FFA1199516F5"
@@ -627,6 +632,7 @@
 				"要生产焦煤，则必须要&6&l煤炭块&r，而不是原木堆"
 			]
 			dependencies: ["4543F3B5F937E6B0"]
+			hide: true
 			id: "77A7511048D5767B"
 			tasks: [{
 				id: "6505E5BF6A293CD1"
@@ -695,6 +701,7 @@
 				"产生的杂酚油会储存在杂酚油漏斗中，用桶、陶桶等容器可取出其中的杂酚油。"
 			]
 			dependencies: ["4543F3B5F937E6B0"]
+			hide: true
 			id: "13AA30FB9CD620EB"
 			tasks: [{
 				id: "55E5BC7F36B1F814"
@@ -734,7 +741,7 @@
 			y: -3.5d
 			subtitle: "生砂砖"
 			description: ["沙子做成的砖，具有不错的隔热性。"]
-			dependencies: ["6D92E93A0811C1FD"]
+			dependencies: ["6CF9868197215C1D"]
 			id: "66EFFD59083624BF"
 			tasks: [{
 				id: "0A9CC3BC84669BE2"
@@ -751,6 +758,7 @@
 				"66EFFD59083624BF"
 				"4543F3B5F937E6B0"
 			]
+			hide: true
 			id: "4625CA3FEAF6908B"
 			tasks: [{
 				id: "3F54F0BF03485EB3"
@@ -890,10 +898,7 @@
 			x: -8.5d
 			y: -2.0d
 			subtitle: "参与制作的人"
-			description: [
-				""
-				"TeamMoeg-TWRDev是本整合核心开发团队。"
-			]
+			description: ["&lTeamMoeg-TWRDev是本整合核心开发团队。"]
 			id: "7AFE32B08BB6CE6C"
 			tasks: [
 				{
@@ -903,31 +908,9 @@
 						id: "minecraft:player_head"
 						Count: 1b
 						tag: {
-							Damage: 3
 							SkullOwner: {
-								Id: [I;
-									1164787893
-									788215284
-									-1286806246
-									2137676803
-								]
-								Properties: {
-									textures: [{
-										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNjUxNDkxMTc2NCwKICAicHJvZmlsZUlkIiA6ICIxZmI2MzRlM2FlZWY0ZDAxOTU5YTZmOTdlYzE2OGZmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXNodWFpYmlhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E0MTJiNDI0ZGI4YjBiODliMzZlN2RiOWE4MTkxNjI1MGUxYmMxNmU4ZGMyMjJkOWE0MDcwYmIwYmY3YzYyNTciCiAgICB9CiAgfQp9"
-										Signature: "HduzflKT+h2evtebyCfhPhCNY7rZQDJvEj/dYQ1QtZGeYd4IQ9251Hlt6UbCr9iP48wg1m4RaKZn/U13GhUb9cFMOcZ3LOyXYk3vktXNdOV+MeleRRlmR19Net0SwjPKJK3BWXZRaolRt5ujOArofBAtSGEYcgjqW7L+9yl0MG5qhmg1rE6JcluGfvFCxErcxYc9eNNJpDchNw5wxpoVwFQf8Qlrgta7BuvGDBcdchu3p8E36GLoWEq3sj+xX1S7S3cFI9M+G1tC0eBoQpg06noug8AcLDEMrS3kucPsl9aqqLAiLQ0CWfAb0UmKkJ3BeuB5xaVKQfGSI7kDNOiDnawmDkzfApD7K8ZjdJAZ10Je7rhqwhdgc60VzZq2HtChJwMvfEDa2oLviV2/wICC8ti5gxtKM7eK3yAvV3S2w6LWSidCKa64AJKBxB2QS/Wyq7SAutItDdJnwgH3cCw1/INCMvcDHa9qyK0ebCps87LuW1h2YYs+NJ1V9Tj5nPaOzl93Nm57tNGV/w9iXNtns/tRDg/XSP7hjmWl/DkE699mnsAJTasqmq9lH2hukrQAmrsGNh/fN0yU3ZoLsYUaHYNpE4cCSjvTVGxjbLO7eXemBBpBmVkDAWr48N7OwqKA2TmhHRFe+T9lT/LQyyz3t+BZ5HD+SiybkNNAsobf9MU="
-									}]
-								}
 								Name: "dashuaibia"
 							}
-							display: {
-								Name: "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"dashuaibia\"}],\"text\":\"\"}"
-							}
-							SkullOwnerOrig: [I;
-								1164787893
-								788215284
-								-1286806246
-								2137676803
-							]
 						}
 					}
 					consume_items: true
@@ -940,31 +923,9 @@
 						id: "minecraft:player_head"
 						Count: 1b
 						tag: {
-							Damage: 3
 							SkullOwner: {
-								Id: [I;
-									35518663
-									-711049312
-									-1184267738
-									966439982
-								]
-								Properties: {
-									textures: [{
-										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNjUxNzI2MTIwNCwKICAicHJvZmlsZUlkIiA6ICIxNDI3ZTBlMDJjZDY0Y2MwODhkNzQ4OTI3NTFjNmM2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJZdWVzaGFfS2V2MTQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNjMDA0YzQ5MTEwMmY4MjVmN2IyMTI3NTY5M2NiOWIzNDhiYzE3NzVlZDk5YjNkMzBlZjU1MDViNzg1M2JlYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
-										Signature: "k2Yt5gVfqmeLb8vOYGi2OqeSQp2Cqc6lDB3RsOKaAQ7E8WvFB1JXGDdqQZdqeo5wOd6ixCdwZcpMIQvIkGoes8W857EqkCn+9ziDDMSv+GF4qhvAAXlFtyTCQ4mpsLacg5ySWDoKg7IZSX75AZ7lp0LO4dY0bqb0V+xtJnrmpm7+7X4xjWfJ4DTqTvrnuWbE7ZHV+uTLLcS2qST7xyvqDhzpO9Cn+7k5fPCdEGgzTXhmpn/mxoVTTWYiws2C0jcwS68JKATqpfdaznXm3/DamFAVdKV3yV4ySWjcR2ygWfD+dzEzYMO23qzIg99WLzy317cRtk8r2ATXdIKHthAJzB+MORvs6e+PXxc4zvuGl6f1TSj8bR88iQsuGDGmxKs5nFqULsZlUH3OhdqwkuEpnXjWY6JhCSjqN2CRDI7NvQK5uTRt1AunrxxgoCE4DoYfq4CRMuviidnkOuOjEPiTghH+gUZIGUnvKDFjSS5RcytOcQPn3ZGW7U3XbNv8lQPJ68YTQ/QqAJdL0J/RPf530ykZgHynyZsagAVxfkdDiL7jRx6sLCp86yH4OkyoSFgEhH2NGO88BRp3QvekC/9RWzNua/9WPoHYRLlYpUiZYz57JZMexpAOR36hDAaT6V48ICzqBuenyUCXg1zs5LYQrBJkv/wl+6aF4bX0BfGePKs="
-									}]
-								}
 								Name: "Yuesha_Kev14"
 							}
-							display: {
-								Name: "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"Yuesha\"}],\"text\":\"\"}"
-							}
-							SkullOwnerOrig: [I;
-								35518663
-								-711049312
-								-1184267738
-								966439982
-							]
 						}
 					}
 					consume_items: true
@@ -977,31 +938,9 @@
 						id: "minecraft:player_head"
 						Count: 1b
 						tag: {
-							Damage: 3
 							SkullOwner: {
-								Id: [I;
-									1668762988
-									841300093
-									-1927644045
-									1608184157
-								]
-								Properties: {
-									textures: [{
-										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYyNjUxNTE4NDYxOCwKICAicHJvZmlsZUlkIiA6ICI2ZGQ3ZTMxYzQ3YWQ0OThhOTQwNjBkODkwMjZhOGRjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkdWNrX2VnZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZjQwZWM5OGUyZTM3NjRkMTk5ODgyNDUyNWI5NDZiY2U1NjJmODYwZmM0ZWNiNGM5YzY2OWU4MDFmNGQ5OWU2IgogICAgfQogIH0KfQ=="
-										Signature: "Y19t59ondHexmjGTYFhqPeNzmnaA90JgiLO/Aq1XLTR2XgmvexxSygdyBkuyxsSgAnPU4w9Ca93JMfCOr++Mcx7F+2XKrdCH+8CrK2AEBZoG3Gm22snouqeCcjoi7L/x4UbiUEHjKMbEeyLmTNyUzmAJf9lQlRqq16AkhJWuCYtvbZSbFs6PTH+kKr3b1Tsz8QpT8sdBNhJmWBtWToF+N/VzVSEpczTV6yvwHZJPh8D1pJtRlxLPVqYEgdFVxbkf9Utne6IBv8Iu8RNtDQdVN2ptHd7uuS8QLlvmOgRgQQnxW1O8lKozrMjMDBlpGGwK85pASwVbOMlbxRjkygRtyfTSf499xssm21oW2udtJJgdVvjKLJwu47TWtPRM44Z3ABGYWAcQlrcPh9X84vXNT1T1wxxCSXiRtP99aHmL8e/Zc9M+XjLjPMj0Zspt3RuZtlk+NMJwwmAu1g0AENkyW1j67pawGoLftNGO8geQ1xbvvJbWBLQahYCi/odup3bR8ZmehWwGW34GppCYnKBASVNogUnxHh3ot5W+8zQAdZVvdXgrIxDkWNnx4dkgZPZH+cRAFEkB75fpWMNt4UJiMHUuS6e4MRfZJU3mcVe7Vh8QQtKlmqjy/iHeraxUu3ronCmPOxJOQNlesz0fCiRUWM/sqgd50n6H53ucYl55srM="
-									}]
-								}
 								Name: "duck_egg"
 							}
-							display: {
-								Name: "{\"extra\":[{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"white\",\"text\":\"duck_egg\"}],\"text\":\"\"}"
-							}
-							SkullOwnerOrig: [I;
-								1668762988
-								841300093
-								-1927644045
-								1608184157
-							]
 						}
 					}
 					consume_items: true
