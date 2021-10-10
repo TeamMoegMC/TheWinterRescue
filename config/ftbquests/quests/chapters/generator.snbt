@@ -130,7 +130,7 @@
 		{
 			title: "加热器"
 			icon: "immersiveengineering:sheetmetal_steel"
-			x: -1.0d
+			x: -2.5d
 			y: 2.0d
 			shape: "gear"
 			subtitle: "扩展基地"
@@ -139,7 +139,7 @@
 				"用输热管和工作中的二阶能量塔连接"
 				"可以加热周围一部分区域，并融化冰雪"
 			]
-			dependencies: ["2D570AD59FE2D6E1"]
+			dependencies: ["3EF706F5A31CDDD6"]
 			id: "4BBE69E2E2A4276F"
 			tasks: [
 				{
@@ -196,7 +196,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -1.0d
 			y: 2.0d
 			subtitle: "裹得很严"
 			description: ["工作中的能量塔底部连接来传输高压热能"]

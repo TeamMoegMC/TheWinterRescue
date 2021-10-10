@@ -187,6 +187,7 @@
 		{
 			x: -2.0d
 			y: -2.0d
+			shape: "gear"
 			subtitle: "想致富，先撸树"
 			description: ["同样重要的工具，你可以砍树了。"]
 			dependencies: ["29BC87594650152D"]
@@ -206,6 +207,7 @@
 		{
 			x: -2.0d
 			y: 2.0d
+			shape: "gear"
 			subtitle: "开采工具"
 			description: [
 				"重要的工具之一，开始挖矿吧"
@@ -1382,7 +1384,7 @@
 			subtitle: "冬日鱼塘"
 			description: [
 				"把任意网放进渔网内即可捕鱼"
-				"需要彻底的浸入水中才能工作"
+				"&6需要彻底的浸入水中才能工作"
 			]
 			dependencies: ["42AF456D165CBF75"]
 			id: "506C01A9BE167F7F"
@@ -1431,6 +1433,7 @@
 		{
 			x: -2.0d
 			y: 0.0d
+			shape: "gear"
 			subtitle: "一次性起火"
 			description: [
 				"一个简易的起火装置,"
