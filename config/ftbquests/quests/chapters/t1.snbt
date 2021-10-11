@@ -43,8 +43,10 @@
 			subtitle: "燧石的工作台"
 			description: [
 				"前期主要的合成台."
+				""
 				"&6右键放置好合成表,使用所需工具右键即可."
-				"注意工作台摆放朝向"
+				""
+				"注意工作台摆放朝向,区分好工作台类型。"
 			]
 			dependencies: ["32E5D942F1FE8645"]
 			id: "3102993072F3C8B9"
@@ -717,7 +719,7 @@
 			description: [
 				"便宜高效的燃料。"
 				"搭建方法:"
-				"&6把原木堆&4密封&6在一个小空间里面,"
+				"&6把原木堆&4&l密封&r&6在一个小空间里面,"
 				"&6留一个口子点火,着了立马盖上."
 				"静待烧制完成即可获得木炭."
 			]
@@ -777,7 +779,11 @@
 			x: -6.5d
 			y: 0.5d
 			subtitle: "剪枝器"
-			description: ["锋利的小刀，用其破坏(原版)树叶获得覆雪藤蔓。"]
+			description: [
+				"锋利的小刀，用其破坏(原版)树叶获得覆雪藤蔓。"
+				""
+				"&6&l注意：小刀是在背包里合成。"
+			]
 			dependencies: ["3102993072F3C8B9"]
 			id: "14D7D98FC5264B03"
 			tasks: [{
@@ -893,140 +899,6 @@
 			}]
 		}
 		{
-			title: "制作者名单"
-			icon: "minecraft:paper"
-			x: -8.5d
-			y: -2.0d
-			subtitle: "参与制作的人"
-			description: ["&lTeamMoeg-TWRDev是本整合核心开发团队。"]
-			id: "7AFE32B08BB6CE6C"
-			tasks: [
-				{
-					id: "34E10961B27ECEE7"
-					type: "item"
-					item: {
-						id: "minecraft:player_head"
-						Count: 1b
-						tag: {
-							SkullOwner: {
-								Name: "dashuaibia"
-							}
-						}
-					}
-					consume_items: true
-					only_from_crafting: true
-				}
-				{
-					id: "2D8A63312752F201"
-					type: "item"
-					item: {
-						id: "minecraft:player_head"
-						Count: 1b
-						tag: {
-							SkullOwner: {
-								Name: "Yuesha_Kev14"
-							}
-						}
-					}
-					consume_items: true
-					only_from_crafting: true
-				}
-				{
-					id: "2170C50DC7187B7B"
-					type: "item"
-					item: {
-						id: "minecraft:player_head"
-						Count: 1b
-						tag: {
-							SkullOwner: {
-								Name: "duck_egg"
-							}
-						}
-					}
-					consume_items: true
-					only_from_crafting: true
-				}
-				{
-					id: "259B555091E40BFA"
-					type: "item"
-					title: "Evan"
-					item: {
-						id: "minecraft:player_head"
-						Count: 1b
-						tag: {
-							SkullOwner: {
-								Name: "Evanvenir"
-							}
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "16C294F014C3A727"
-					type: "item"
-					title: "Lyuuke"
-					item: {
-						id: "minecraft:player_head"
-						Count: 1b
-						tag: {
-							SkullOwner: {
-								Name: "Lyuuke"
-							}
-						}
-					}
-				}
-				{
-					id: "6892D13E32E2236B"
-					type: "item"
-					title: "goumo_g"
-					item: {
-						id: "minecraft:player_head"
-						Count: 1b
-						tag: {
-							SkullOwner: {
-								Name: "goumo_g"
-							}
-						}
-					}
-				}
-				{
-					id: "0944042120B83038"
-					type: "item"
-					title: "khjxiaogu"
-					item: {
-						id: "minecraft:player_head"
-						Count: 1b
-						tag: {
-							SkullOwner: {
-								Name: "khjxiaogu"
-							}
-						}
-					}
-				}
-			]
-		}
-		{
-			title: "&6FTBU圈地 必看"
-			icon: "minecraft:oak_sapling"
-			x: -7.0d
-			y: -2.0d
-			subtitle: "圈地事项"
-			description: [
-				"按E打开物品栏,左上角小地图圈地."
-				"或者按M打开地图,同左上角小地图圈地."
-				""
-				"&6给予权限请使用ftbteam组队系统"
-				""
-			]
-			id: "543F5BC239D07C40"
-			tasks: [{
-				id: "7421B8D8B161FCBC"
-				type: "checkmark"
-				title: "知道了"
-			}]
-		}
-		{
 			x: 6.0d
 			y: 0.0d
 			subtitle: "简易存储"
@@ -1080,30 +952,6 @@
 						Damage: 0
 					}
 				}
-			}]
-		}
-		{
-			title: "&6组队须知"
-			icon: "minecraft:player_head"
-			x: -5.5d
-			y: -2.0d
-			subtitle: "组队须知"
-			description: [
-				"创建指令/ftbteams party craft 名字 &6推荐一开始就创建队伍好让他人进入"
-				"邀请:/ftbteams party invite 名字"
-				"&6创建组队会创建一个新任务组 任务&4&l从零开始"
-				"加入一个组会&4&l强制同步任务到新组"
-			]
-			id: "1CD9EB4A39925BB8"
-			tasks: [{
-				id: "698704746E033DF8"
-				type: "checkmark"
-				title: "知道了"
-			}]
-			rewards: [{
-				id: "44F6FB5102EE8558"
-				type: "item"
-				item: "frostedheart:rye_bread"
 			}]
 		}
 		{
@@ -1182,7 +1030,7 @@
 			]
 		}
 		{
-			x: -8.5d
+			x: -8.0d
 			y: 2.0d
 			shape: "gear"
 			subtitle: "民以水为天"
@@ -1223,8 +1071,8 @@
 		}
 		{
 			icon: "crockpot:food_category_meat"
-			x: -7.0d
-			y: 3.5d
+			x: -9.5d
+			y: 2.0d
 			shape: "gear"
 			subtitle: "均衡膳食"
 			description: [
@@ -1242,7 +1090,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -6.5d
 			y: 2.0d
 			shape: "gear"
 			subtitle: "生存要素"
@@ -1303,8 +1151,8 @@
 		{
 			title: "查询合成表"
 			icon: "minecraft:book"
-			x: -8.5d
-			y: 3.5d
+			x: -8.0d
+			y: -2.0d
 			shape: "gear"
 			subtitle: "你最好的帮手，JEI"
 			description: [
@@ -1476,8 +1324,9 @@
 		}
 		{
 			title: "思索"
-			x: -5.5d
-			y: 2.0d
+			x: -6.5d
+			y: -2.0d
+			shape: "gear"
 			subtitle: "重要工具"
 			description: [
 				"思索是很重要的技能。"
@@ -1513,8 +1362,9 @@
 		{
 			title: "Wiki百科"
 			icon: "minecraft:writable_book"
-			x: -5.5d
-			y: 3.5d
+			x: -9.5d
+			y: -2.0d
+			shape: "gear"
 			subtitle: "热心教程"
 			description: [
 				"热心玩家们自主贡献的教程."

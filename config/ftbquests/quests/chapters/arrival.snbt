@@ -64,6 +64,7 @@
 			icon: "create:propeller"
 			x: -6.0d
 			y: -4.5d
+			shape: "gear"
 			subtitle: "我在哪里？"
 			description: [
 				"这次驾驶的飞船是空间站(暂无实物)为数不多还能正常运行的太空梭了。"
@@ -378,6 +379,166 @@
 				type: "advancement"
 				advancement: "the_winter_rescue:root"
 				criterion: ""
+			}]
+		}
+		{
+			title: "制作者名单"
+			icon: "minecraft:paper"
+			x: -9.0d
+			y: -6.0d
+			subtitle: "参与制作的人"
+			description: ["&lTeamMoeg-TWRDev是本整合核心开发团队。"]
+			id: "7AFE32B08BB6CE6C"
+			tasks: [
+				{
+					id: "34E10961B27ECEE7"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "dashuaibia"
+							}
+						}
+					}
+					consume_items: true
+					only_from_crafting: true
+				}
+				{
+					id: "2D8A63312752F201"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "Yuesha_Kev14"
+							}
+						}
+					}
+					consume_items: true
+					only_from_crafting: true
+				}
+				{
+					id: "2170C50DC7187B7B"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "duck_egg"
+							}
+						}
+					}
+					consume_items: true
+					only_from_crafting: true
+				}
+				{
+					id: "259B555091E40BFA"
+					type: "item"
+					title: "Evan"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "Evanvenir"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "16C294F014C3A727"
+					type: "item"
+					title: "Lyuuke"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "Lyuuke"
+							}
+						}
+					}
+				}
+				{
+					id: "6892D13E32E2236B"
+					type: "item"
+					title: "goumo_g"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "goumo_g"
+							}
+						}
+					}
+				}
+				{
+					id: "0944042120B83038"
+					type: "item"
+					title: "khjxiaogu"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "khjxiaogu"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "&6FTBU圈地"
+			icon: "minecraft:oak_sapling"
+			x: -7.5d
+			y: -6.0d
+			subtitle: "圈地事项"
+			description: [
+				"按E打开物品栏,左上角小地图圈地."
+				"或者按M打开地图,同左上角小地图圈地."
+				""
+				"&6给予权限请使用ftbteam组队系统"
+				""
+			]
+			id: "543F5BC239D07C40"
+			tasks: [{
+				id: "7421B8D8B161FCBC"
+				type: "checkmark"
+				title: "知道了"
+			}]
+		}
+		{
+			title: "&6组队须知"
+			icon: "minecraft:player_head"
+			x: -6.0d
+			y: -6.0d
+			subtitle: "组队须知"
+			description: [
+				"创建指令/ftbteams party craft 名字 &6推荐一开始就创建队伍好让他人进入"
+				"如果已经创建队伍,命令则无法再次生效"
+				""
+				"邀请:/ftbteams party invite 名字"
+				"&6创建组队会创建一个新任务组 任务&4&l从零开始"
+				"加入一个组会&4&l强制同步任务到新组"
+			]
+			id: "1CD9EB4A39925BB8"
+			tasks: [{
+				id: "698704746E033DF8"
+				type: "checkmark"
+				title: "知道了"
+			}]
+			rewards: [{
+				id: "44F6FB5102EE8558"
+				type: "item"
+				item: "frostedheart:rye_bread"
 			}]
 		}
 	]
