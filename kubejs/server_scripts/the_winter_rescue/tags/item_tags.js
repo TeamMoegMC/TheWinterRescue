@@ -37,5 +37,6 @@ onEvent('item.tags', (event) => {
     event.add('forge:ores/copper', "rankine:malachite")
     event.add('forge:ores/tin', "kubejs:native_tin")
     event.add('forge:ores/tin', "rankine:cassiterite")
+    event.add('forge:coal_coke', "charcoal_pit:coke")
 
 });
