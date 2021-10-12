@@ -54,7 +54,7 @@
 			subtitle: "不是石墨"
 			description: [
 				"右键打开gui放入物品。"
-				"空手Shift-右键石磨以研磨。"
+				"&6空手潜行-右键石磨以研磨。"
 			]
 			dependencies: ["328D948C4C800873"]
 			hide: true
@@ -256,7 +256,7 @@
 			y: -2.0d
 			subtitle: "通入蒸汽"
 			description: [
-				"&6蒸汽速率需要足够大才能使它运转起来."
+				"&6&l蒸汽通入速率需要足够大才能使它运转起来."
 				"可以使用护目镜查看运行状态"
 			]
 			dependencies: [
@@ -421,6 +421,7 @@
 		{
 			x: -5.5d
 			y: 2.5d
+			shape: "gear"
 			subtitle: "烈焰人保护协会表强烈谴责"
 			description: [
 				"一些机器的配方需要高温环境才能正常处理."
@@ -514,8 +515,8 @@
 			y: -3.5d
 			subtitle: "把蒸汽从锅炉抽出来"
 			description: [
-				"如果速度不够,"
-				"可以选择速度或者数量。"
+				"&6&l若速度不够可以尝试让齿轮提速。"
+				"前期唯一自动抽取锅炉内蒸汽的方式."
 			]
 			dependencies: ["17C359DCF058E698"]
 			id: "197308226CAE52C4"
@@ -656,7 +657,7 @@
 		{
 			title: "炼钢坩埚"
 			icon: "rankine:high_refractory_bricks"
-			x: -4.0d
+			x: -3.5d
 			y: -0.5d
 			shape: "gear"
 			subtitle: "更热门的话题"
@@ -692,15 +693,11 @@
 			]
 		}
 		{
-			x: -5.5d
+			x: -4.5d
 			y: -0.5d
 			subtitle: "耐高温"
 			description: ["需要动力搅拌机和烈焰人燃烧室制作"]
-			dependencies: [
-				"29556685F57F6657"
-				"4548F432A872DA92"
-			]
-			hide: true
+			dependencies: ["29556685F57F6657"]
 			id: "6738A3C34A872FED"
 			tasks: [{
 				id: "4FDFAF777C766C70"
@@ -737,11 +734,15 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -5.5d
 			y: -0.5d
 			subtitle: "菱镁矿处理而来"
 			description: ["把菱镁矿堆成块之后烧制。"]
-			dependencies: ["67486831FE3C0FBA"]
+			dependencies: [
+				"67486831FE3C0FBA"
+				"4548F432A872DA92"
+			]
+			hide: true
 			id: "29556685F57F6657"
 			tasks: [{
 				id: "24B9A949656EBA70"
@@ -750,7 +751,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -7.0d
 			y: -0.5d
 			subtitle: "快速烧制"
 			description: ["使用任何含碳酸钙的石头烧制而成。"]
@@ -797,6 +798,7 @@
 		{
 			x: -13.0d
 			y: 10.0d
+			shape: "gear"
 			subtitle: "高精组装"
 			description: ["需要的树脂可以从云杉,胶枞,雪松等提取。"]
 			dependencies: ["4926C4062339E018"]
