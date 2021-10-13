@@ -222,7 +222,7 @@
 				crushing_wheel = 12.0
 				mechanical_arm = 2.0
 				rope_pulley = 4.0
-				mechanical_crafter = 1.45
+				mechanical_crafter = 1.5
 				mechanical_drill = 4.0
 				flywheel = 0.0
 				weighted_ejector = 2.0

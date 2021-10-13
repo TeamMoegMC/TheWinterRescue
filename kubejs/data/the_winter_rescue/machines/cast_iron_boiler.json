@@ -6,7 +6,7 @@
     "components": [
         {
             "type": "custommachinery:fluid",
-            "capacity": 5000,
+            "capacity": 6000,
             "id": "watertank",
             "maxInput": 1000,
             "maxOutput": 1000,
@@ -16,7 +16,7 @@
         },
         {
             "type": "custommachinery:fluid",
-            "capacity": 8000,
+            "capacity": 10000,
             "id": "steamtank",
             "maxInput": 10000,
             "maxOutput": 10000,

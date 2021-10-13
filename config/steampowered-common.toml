@@ -23,7 +23,7 @@
 	#Range: 0 ~ 8192
 	castIronFlywheelSteamConsumptionPerTick = 24
 	#Range: 0 ~ 8192
-	steelFlywheelSpeed = 34
+	steelFlywheelSpeed = 32
 
 [alternator]
 	#Range: 0 ~ 8192
