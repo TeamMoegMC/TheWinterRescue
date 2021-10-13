@@ -1,29 +1,29 @@
 
 [flywheel]
 	#Range: 0 ~ 1048576
-	steelFlywheelSteamConsumptionPerTick = 72
+	steelFlywheelSteamConsumptionPerTick = 48
 	#Range: 0 ~ 8192
 	castIronFlywheelCapacity = 64
 	#Range: 0 ~ 8192
-	bronzeFlywheelSteamConsumptionPerTick = 24
+	bronzeFlywheelSteamConsumptionPerTick = 12
 	#Range: 0 ~ 8192
 	bronzeFlywheelCapacity = 32
 	#Range: 0 ~ 1048576
-	castIronFlywheelSteamStorage = 64000
+	castIronFlywheelSteamStorage = 48000
 	#Range: 0 ~ 8192
 	steelFlywheelCapacity = 96
 	#Range: 0 ~ 8192
 	castIronFlywheelSpeed = 32
 	#Range: 0 ~ 8192
-	bronzeFlywheelSpeed = 32
+	bronzeFlywheelSpeed = 30
 	#Range: 0 ~ 1048576
 	bronzeFlywheelSteamStorage = 32000
 	#Range: 0 ~ 1048576
-	steelFlywheelSteamStorage = 96000
+	steelFlywheelSteamStorage = 72000
 	#Range: 0 ~ 8192
-	castIronFlywheelSteamConsumptionPerTick = 48
+	castIronFlywheelSteamConsumptionPerTick = 24
 	#Range: 0 ~ 8192
-	steelFlywheelSpeed = 32
+	steelFlywheelSpeed = 34
 
 [alternator]
 	#Range: 0 ~ 8192

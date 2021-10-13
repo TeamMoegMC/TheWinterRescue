@@ -38,7 +38,7 @@
       "type": "custommachinery:fluid_per_tick",
       "mode": "output",
       "fluid": "steampowered:steam",
-      "amount": 72,
+      "amount": 48,
       "tank": "steamtank"
     },
     {
