@@ -82,7 +82,7 @@
 			y: 1.0d
 			description: [
 				"耐火粘土的原料之一。"
-				"分散在上层沉积岩中"
+				"&6分散在上层沉积岩中"
 			]
 			dependencies: ["7887EB905BAA7BEF"]
 			id: "48F3102B3AA99313"
@@ -313,7 +313,10 @@
 			y: 7.0d
 			shape: "gear"
 			subtitle: "跟我一起切割磁感线"
-			description: ["第一台简单的发电机。"]
+			description: [
+				"第一台简单的发电机。"
+				"&6背面输出能量，正面输入RPM。"
+			]
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "1F2BD4A72596B287"
 			tasks: [{
@@ -470,7 +473,10 @@
 			x: -13.0d
 			y: -2.0d
 			subtitle: "人类的一小步"
-			description: ["燃烧煤炭和焦煤产生蒸汽"]
+			description: [
+				"燃烧煤炭和焦煤产生蒸汽"
+				"&6&l锅炉搭在燃烧室方块的顶上提供燃料即可"
+			]
 			dependencies: ["71D389AF87847D7B"]
 			id: "7612A96FFEFC5635"
 			tasks: [
@@ -663,7 +669,7 @@
 			subtitle: "更热门的话题"
 			description: [
 				"&6炼钢坩埚是比原始高炉更加先进的冶炼设备."
-				"&6必须使用焦煤进行加热."
+				"&6&l必须使用焦煤进行加热."
 				"&6并且在小口处提供一个&4&l高炉鼓风机。"
 				"搭建: 从上到下"
 				"HHH HHH BBB BBB  H=高耐火砖"
