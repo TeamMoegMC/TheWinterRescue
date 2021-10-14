@@ -486,3 +486,26 @@ drippyloadingscreen.helper.creator.add.customprogressbar = Custom Progress Bar
 
 drippyloadingscreen.helper.editor.backgroundimage = Background Image
 drippyloadingscreen.helper.editor.backgroundimage.btn.desc = Set an image as background.
+
+drippyloadingscreen.config.showgrid = Show Grid
+drippyloadingscreen.config.showgrid.desc = Add a grid to the editor for easier aligning.
+drippyloadingscreen.config.gridsize = Grid Size
+drippyloadingscreen.config.gridsize.desc = The inner size of one grid square.
+
+drippyloadingscreen.helper.editor.forcescale = Force GUI Scale
+drippyloadingscreen.helper.editor.forcescale.btn.desc = Force a GUI scale for the loading screen.
+
+drippyloadingscreen.helper.editor.fadeout.on = Fade-Out Screen: §aOn
+drippyloadingscreen.helper.editor.fadeout.off = Fade-Out Screen: §cOff
+drippyloadingscreen.helper.editor.fadeout.btn.desc = If the loading screen should fade%n%to the next screen.%n%%n%§cThis is always disabled when%n%FancyMenu is installed.
+
+drippyloadingscreen.helper.editor.properties.autoscale.on = Layout Auto-Scaling: §aOn
+drippyloadingscreen.helper.editor.properties.autoscale.off = Layout Auto-Scaling: §cOff
+drippyloadingscreen.helper.editor.properties.autoscale.btn.desc = Let Drippy handle the scale of%n%the loading screen, so your layout works%n%for every scale and resolution.%n%%n%§cThis will make text elements look%n%§cblurry at some scales.%n%§cThis can't be fixed and the best%n%§cworkaround is to use images%n%§cwith background as text elements.
+drippyloadingscreen.helper.editor.properties.autoscale.basesize.popup.desc.line1 = Here you can set the base window size of your layout.
+drippyloadingscreen.helper.editor.properties.autoscale.basesize.popup.desc.line2 = This should be the size your layout was designed for.
+drippyloadingscreen.helper.editor.properties.autoscale.basesize.popup.desc.line3 = If you made it in the current window size, just leave the values like they are.
+drippyloadingscreen.helper.editor.properties.autoscale.error = §c§lSomething went wront!%n%%n%Setting base size for auto-scaling failed!%n%Please check if both values are §lbigger than 0%n%and that they are §lvalid numbers§r.%n% %n% %n% %n% %n%
+
+drippyloadingscreen.helper.editor.windowsize.currentwidth = Current Window Width
+drippyloadingscreen.helper.editor.windowsize.currentheight = Current Window Height

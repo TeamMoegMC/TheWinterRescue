@@ -14,10 +14,11 @@
   "block.masterfulmachinery.ele_item_port_items_input": "Electrolytic Machine - Item Input Port",
   "block.masterfulmachinery.ele_item_port_items_output": "Electrolytic Machine - Item Output Port",
   "block.masterfulmachinery.projector": "Structure Projector",
-  "block.masterfulmachinery.structure_generator": "Structure Scanner",
+  "block.masterfulmachinery.structure_generator": "Structure Generator",
   "container.masterfulmachinery.chcr_controller.name": "Chemical Crystallizer Controller",
   "container.masterfulmachinery.create_rotation": "Rotation Port",
   "container.masterfulmachinery.ele_controller.name": "Electrolytic Machine Controller",
   "item.masterfulmachinery.blueprint": "Blueprint",
-  "item.masterfulmachinery.structure_gen_device": "Structure Scanner"
+  "item.masterfulmachinery.structure_gen_device": "Structure Selector",
+  "itemGroup.masterfulmachinery": "Masterful Machinery"
 }
