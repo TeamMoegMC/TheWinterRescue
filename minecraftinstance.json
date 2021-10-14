@@ -174,14 +174,14 @@
       "addonID": 228525,
       "gameInstanceID": "3085793a-0f74-4f46-ad82-93839ef064dd",
       "installedFile": {
-        "id": 3325826,
-        "displayName": "Bookshelf-1.16.5-10.1.11.jar",
-        "fileName": "Bookshelf-1.16.5-10.1.11.jar",
-        "fileDate": "2021-05-26T17:17:19.44Z",
-        "fileLength": 309330,
+        "id": 3402183,
+        "displayName": "Bookshelf-1.16.5-10.2.15.jar",
+        "fileName": "Bookshelf-1.16.5-10.2.15.jar",
+        "fileDate": "2021-07-26T21:10:12.49Z",
+        "fileLength": 309993,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3325/826/Bookshelf-1.16.5-10.1.11.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3402/183/Bookshelf-1.16.5-10.2.15.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -189,54 +189,72 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3942417480,
-            "type": 0,
+            "fingerprint": 2555101291,
+            "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "assets",
-            "fingerprint": 1406021867,
-            "type": 0,
+            "fingerprint": 1384105030,
+            "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "mod_logo.png",
             "fingerprint": 777571610,
-            "type": 0,
+            "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "net",
-            "fingerprint": 2044549973,
-            "type": 0,
+            "fingerprint": 532797448,
+            "type": 3,
             "invalidFingerprint": false
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 1432491059,
-            "type": 0,
+            "type": 3,
             "invalidFingerprint": false
           }
         ],
-        "packageFingerprint": 2326624319,
+        "packageFingerprint": 3597314605,
         "gameVersion": [
           "1.16.5",
           "Forge"
         ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000016.0000000005",
+            "gameVersion": "1.16.5",
+            "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+            "gameVersionName": "1.16.5"
+          },
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge"
+          }
+        ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 2427046,
+        "projectId": 228525,
+        "packageFingerprintId": 713745884,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
+        "gameVersionMappingId": 3165572,
+        "gameVersionId": 4458,
+        "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "Bookshelf-1.16.5-10.1.11.jar"
+        "FileNameOnDisk": "Bookshelf-1.16.5-10.2.15.jar"
       },
-      "dateInstalled": "2021-10-13T06:47:23.914636Z",
-      "dateUpdated": "2021-10-13T06:47:23.917661Z",
-      "dateLastUpdateAttempted": "2021-10-13T06:47:23.917661Z",
+      "dateInstalled": "2021-10-14T05:03:49.145906Z",
+      "dateUpdated": "2021-10-14T05:03:49.149697Z",
+      "dateLastUpdateAttempted": "2021-10-14T05:03:49.149697Z",
       "status": 3,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -246,7 +264,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": null
+      "installedTargets": []
     },
     {
       "addonID": 388078,
