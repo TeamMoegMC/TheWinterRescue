@@ -46,6 +46,10 @@ onEvent('item.tooltip', (event) => {
             items: ['notreepunching:clay_tool'],
             text: [Text.of('右击放置在地面上的粘土块进行加工').gray()]
         },
+		{
+            items: ['kubejs:activated_carbon'],
+            text: [Text.of('木炭使用蒸汽充气机进行加工').gray()]
+        },
         {
             items: ['minecraft:campfire'],
             text: [Text.of('按Q丢入燃料，然后使用任何起火方式点燃').gray()]

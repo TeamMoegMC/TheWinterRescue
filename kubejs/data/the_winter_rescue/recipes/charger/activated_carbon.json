@@ -1,0 +1,10 @@
+{
+  "type": "frostedheart:charger",
+  "result": {
+    "item": "kubejs:activated_carbon"
+  },
+  "input": {
+    "item": "minecraft:charcoal"
+  },
+  "cost": 250
+}

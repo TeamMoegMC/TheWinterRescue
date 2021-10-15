@@ -41,6 +41,7 @@ onEvent('recipes', (event) => {
 		'rankine:prospecting_stick',
 		'minecraft:cobweb',
 		'rankine:flint_knife',
+		'rankine:evaporation_tower',
         'charcoal_pit:copper_block'
     ]
     workbench.forEach((Item) => {
