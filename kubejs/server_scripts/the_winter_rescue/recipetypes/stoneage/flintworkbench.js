@@ -83,7 +83,7 @@ onEvent('recipes', (event) => {
             B: Ingredient.of('#forge:rods/wooden').toJson(),
             C: Item.of('stone_age:leather_strip').toJson()
         }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('minecraft:coal_block'), ['AAA', 'AAA', 'AAA'], {
+		flint_shapedRecipe(Item.of('charcoal_pit:coal_pile'), ['AAA', 'AAA', 'AAA'], {
             A: Item.of('minecraft:coal').toJson()
         }, Ingredient.of('#forge:shovels')),
 		flint_shapedRecipe(Item.of('frostedheart:straw_lining'), ['AAA', 'CBC', 'AAA'], {

@@ -3,5 +3,5 @@
   "input":{"tag":"forge:steam","amount":24},
   "energy":25,
   "temp_multiplier":2.0,
-  "range_multiplier":1.5
+  "range_multiplier":2.0
 }
