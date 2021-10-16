@@ -370,7 +370,7 @@
 			}]
 		}
 		{
-			x: -8.5d
+			x: -11.5d
 			y: 5.5d
 			subtitle: "还挺结实的"
 			description: ["将你挖掘到的矿物打碎以进一步处理。"]
@@ -713,7 +713,7 @@
 		}
 		{
 			x: -14.5d
-			y: 4.5d
+			y: 5.5d
 			dependencies: ["55BE6F159CF89342"]
 			id: "4B46838E7C65D4C4"
 			tasks: [{
@@ -880,11 +880,11 @@
 		}
 		{
 			icon: "rankine:tree_tap"
-			x: -14.5d
-			y: 3.5d
+			x: -13.0d
+			y: 5.5d
 			subtitle: "提取机"
 			description: ["&6在沙林加树干上放置后使用空桶挂上即可收集胶乳"]
-			dependencies: ["4CC5E16EFDE1368C"]
+			dependencies: ["064ECF25B9B8962B"]
 			id: "55BE6F159CF89342"
 			tasks: [
 				{
