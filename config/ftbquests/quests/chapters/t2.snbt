@@ -253,7 +253,7 @@
 		}
 		{
 			x: -11.5d
-			y: -2.0d
+			y: 1.0d
 			subtitle: "通入蒸汽"
 			description: [
 				"&6&l蒸汽通入速率需要足够大才能使它运转起来."
@@ -261,7 +261,7 @@
 			]
 			dependencies: [
 				"263F5ADF4A6CDF5A"
-				"197308226CAE52C4"
+				"7612A96FFEFC5635"
 			]
 			id: "32A497C69C641D2B"
 			tasks: [{
@@ -283,8 +283,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -2.0d
+			x: -10.0d
+			y: 1.0d
 			shape: "gear"
 			subtitle: "并不会飞"
 			description: ["和青铜蒸汽引擎配合产生大量的应力。"]
@@ -383,8 +383,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 4.0d
+			x: -13.0d
+			y: 3.5d
 			subtitle: "压力山大"
 			description: ["一台实用的机器，你可以用它增产板材，当然也可以做巧克力。"]
 			dependencies: ["4CC5E16EFDE1368C"]
@@ -470,14 +470,24 @@
 		}
 		{
 			title: "青铜锅炉"
-			x: -13.0d
-			y: -2.0d
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				Count: 1b
+				tag: {
+					machine: "the_winter_rescue:bronze_boiler"
+				}
+			}
+			x: -11.5d
+			y: -0.5d
 			subtitle: "人类的一小步"
 			description: [
 				"燃烧煤炭和焦煤产生蒸汽"
 				"&6&l锅炉搭在燃烧室方块的顶上提供燃料即可"
 			]
-			dependencies: ["71D389AF87847D7B"]
+			dependencies: [
+				"197308226CAE52C4"
+				"71D389AF87847D7B"
+			]
 			id: "7612A96FFEFC5635"
 			tasks: [
 				{
@@ -664,7 +674,7 @@
 			title: "炼钢坩埚"
 			icon: "rankine:high_refractory_bricks"
 			x: -3.5d
-			y: -0.5d
+			y: -1.5d
 			shape: "gear"
 			subtitle: "更热门的话题"
 			description: [
@@ -700,7 +710,7 @@
 		}
 		{
 			x: -4.5d
-			y: -0.5d
+			y: -1.5d
 			subtitle: "耐高温"
 			description: ["需要动力搅拌机和烈焰人燃烧室制作"]
 			dependencies: ["29556685F57F6657"]
@@ -723,11 +733,11 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: -0.5d
+			x: -13.0d
+			y: -1.5d
 			subtitle: "又是一种炉子"
 			description: [
-				"搭建3X3的耐火砖,中间放主方块"
+				"查看主方块思索了解搭建方法"
 				"使用方法是把对应的(完整方块)放在耐火砖上"
 				"&6使用打火石右击主方块,需要露天。"
 			]
@@ -741,7 +751,7 @@
 		}
 		{
 			x: -5.5d
-			y: -0.5d
+			y: -1.5d
 			subtitle: "菱镁矿处理而来"
 			description: ["把菱镁矿堆成块之后烧制。"]
 			dependencies: [
@@ -757,8 +767,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -0.5d
+			x: -9.0d
+			y: -1.5d
 			subtitle: "快速烧制"
 			description: ["使用任何含碳酸钙的石头烧制而成。"]
 			dependencies: ["67486831FE3C0FBA"]
@@ -828,7 +838,8 @@
 		}
 		{
 			x: -11.5d
-			y: 1.0d
+			y: 2.5d
+			shape: "gear"
 			subtitle: "制造更大的物品"
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "263F5ADF4A6CDF5A"
@@ -840,7 +851,7 @@
 		}
 		{
 			x: -11.5d
-			y: 2.5d
+			y: 3.5d
 			subtitle: "小巧便携"
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "248D44C92972DF23"
@@ -851,8 +862,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -2.0d
+			x: -8.5d
+			y: 1.0d
 			description: ["你现在可以更方便处理木头了"]
 			dependencies: ["0F8B1303FEF36BD1"]
 			id: "41D8E04627E55A86"
