@@ -25,23 +25,6 @@ onEvent('block.loot_tables', event => {
         })
     })
 	
-/*	event.modifyBlock('primalwinter:snowy_dirt', table => {
-		table.addPool(pool => {
-			
-			pool.survivesExplosion()
-            pool.addItem('minecraft:dirt')
-            pool.addItem('kubejs:frozen_seeds_melon')
-            pool.addItem('kubejs:frozen_seeds_wheat')
-            pool.addItem('kubejs:frozen_seeds_pumpkin')
-            pool.addItem('kubejs:frozen_seeds_beetroots')
-            pool.addItem('kubejs:frozen_seeds_unknown')
-            pool.addItem('kubejs:frozen_seeds_blackwheat')
-            pool.addItem('kubejs:frozen_white_turnip')
-			pool.randomChance(0.1)
-			pool.addItem('minecraft:flint')
-		})
-    })*/
-	
 	event.modifyBlock('primalwinter:snowy_dirt', table => {
 		table.addPool(pool=> {
 			pool.survivesExplosion()
@@ -82,10 +65,7 @@ onEvent('block.loot_tables', event => {
 			pool.addItem('notreepunching:flint_shard', 1)
 		})
 	})
-	
-	
-	
-//	event.addBlock('minecraft:dirt')
+
 	
 })
 
