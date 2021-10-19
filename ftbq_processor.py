@@ -5,8 +5,7 @@ zh_cn_path = "kubejs/assets/twr_quests/lang/zh_cn.lang"
 en_us_path = "kubejs/assets/twr_quests/lang/en_us.lang"
 should_replace_key = [
     "title",
-    "subtitle",
-    "description"
+    "subtitle"
 ]
 context_dict = {}
 
@@ -25,24 +24,50 @@ def read_snbt(full_path, file_name):
     f_list = f.readlines()
     file_name = file_name.split(".snbt")[0]
     f.close()
-    if (file_name == "chapter"):
-        file_name = full_path.split("/")[-2]
-    flag = False  # is true, then read quest text
-    j = 0
-    for i, line in enumerate(f_list):
-        if (line.lstrip().startswith("],")):
-            flag = False
-            j = 0
-        if (flag):
-            j += 1
-            text_key = "text." + str(j)
-            replace_with_lang_key(line, text_key, f_list, i, file_name)
-            continue
-        for key in should_replace_key:
-            if (line.lstrip().startswith(key)):
-                replace_with_lang_key(line, key, f_list, i, file_name)
-        if (line.lstrip().startswith("text:")):
-            flag = True
+
+    quest_flag = False
+    for n, line in enumerate(f_list):
+        if line.startswith("		}"):
+            quest_flag = False
+
+        flag = False  # is true, then read quest text
+        j = 0
+        if (quest_flag):
+            if (line.lstrip().startswith("]")):
+                flag = False
+                j = 0
+            if (flag):
+                j += 1
+                text_key = "description." + str(j)
+                replace_with_lang_key(line, text_key, f_list, i, file_name)
+                continue
+            for key in should_replace_key:
+                if (line.lstrip().startswith(key)):
+                    replace_with_lang_key(line, key, f_list, i, file_name)
+            if (line.lstrip().startswith("description:")):
+                flag = True
+
+        if line.startswith("		{"):
+            quest_flag = True
+
+
+    # flag = False  # is true, then read quest text
+    # j = 0
+    # for i, line in enumerate(f_list):
+    #     if (line.lstrip().startswith("]")):
+    #         flag = False
+    #         j = 0
+    #     if (flag):
+    #         j += 1
+    #         text_key = "description." + str(j)
+    #         replace_with_lang_key(line, text_key, f_list, i, file_name)
+    #         continue
+    #     for key in should_replace_key:
+    #         if (line.lstrip().startswith(key)):
+    #             replace_with_lang_key(line, key, f_list, i, file_name)
+    #     if (line.lstrip().startswith("description:")):
+    #         flag = True
+
     f = open(full_path, "w+", encoding="utf-8")
     f.writelines(f_list)
     f.close()
@@ -55,7 +80,7 @@ def replace_with_lang_key(line, key, f_list, index, file_name):
     content = line[first_quote_index + 1:last_quote_index]
     tail = line[last_quote_index + 1:len(line)]
     if not (content.startswith("{") and content.endswith("}")):
-        lang_key = "herodotus.quests.%s.%s" % (file_name, key)
+        lang_key = "quest.twr.%s.%s" % (file_name, key)
         print("get lang key %s, value = %s" % (lang_key, content))
         new_content = head + "\"{" + lang_key + "}\"" + tail
         f_list[index] = new_content
