@@ -32,6 +32,9 @@
 /config/jei/bookmarks.ini
 /optionsshaders.txt
 *.bak
+/.curseclient
+/minecraftinstance.json
+/kubejs/.idea
 
 # server side
 /dumps/
