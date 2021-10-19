@@ -2,7 +2,11 @@ onEvent('jei.information', (event) => {
     const recipes = [
         {
             items: ['frostedheart:energy_core'],
-            description: ['所有空间站人类的科技结晶。用于制作能量塔。保证它的安全！']
+            description: [text.translate("info.jei.the_winter_rescue.energy_core")]
+        },
+        {
+            items: ['notreepunching:clay_bucket', 'notreepunching:clay_tool', 'minecraft:clay'],
+            description: [text.translate("info.jei.the_winter_rescue.clay_tool")]
         }
     ];
 
@@ -15,7 +19,7 @@ onEvent('jei.information', (event) => {
     serverItemsToHide.forEach((item) => {
         event.add(
             item,
-            "此物品已被暂时禁用"
+            text.translate("info.jei.the_winter_rescue.disabled")
         );
     });
 });

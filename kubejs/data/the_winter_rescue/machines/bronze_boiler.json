@@ -1,5 +1,5 @@
 {
-    "name": "青铜锅炉",
+    "name": "block.cm.the_winter_rescue.bronze_boiler",
     "appearance": {
         "block": "the_winter_rescue:machine/bronze_boiler"
     },
@@ -36,7 +36,7 @@
             "type": "custommachinery:text",
             "x": 10,
             "y": 10,
-            "text": "Steam Boiler"
+            "text": "block.cm.the_winter_rescue.bronze_boiler"
         },
         {
             "type": "custommachinery:player_inventory",

@@ -1,5 +1,5 @@
 {
-    "name": "青铜燃烧室",
+    "name": "block.cm.the_winter_rescue.bronze_burner",
     "appearance": {
         "idle": {
             "block": "the_winter_rescue:machine/bronze_burner"

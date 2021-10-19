@@ -1,5 +1,5 @@
 {
-    "name": "钢燃烧室",
+    "name": "block.cm.the_winter_rescue.steel_burner",
     "appearance": {
         "idle": {
             "block": "the_winter_rescue:machine/steel_burner"
