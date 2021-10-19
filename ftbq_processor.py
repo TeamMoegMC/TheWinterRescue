@@ -55,33 +55,32 @@ def read_snbt(full_path, file_name):
                 last_quote_index = find_id.rfind("\"")
                 quest_id = find_id[first_quote_index + 1:last_quote_index]
 
+        flag = False  # is true when this is a multiple line description
+        j = 0
         for n, quest_line in enumerate(quest):
-            flag = False  # is true, then read quest text
-            is_multiple_line = False
-            j = 0
-            if quest_line.startswith("			description"):
-                flag = True
-                if not quest_line.endswith("]"):
-                    is_multiple_line = True
-            if is_multiple_line and quest_line.startswith("			]"):
+            for key in should_replace_key:
+                if quest_line.startswith(key):
+                    replace_with_lang_key(quest_line, key.lstrip(), f_list, q_start_line_index + n, quest_id)
+                    continue
+
+            if quest_line.startswith("			]"):
                 flag = False
-                is_multiple_line = False
                 j = 0
-            if flag:
-                j += 1
-                if is_multiple_line:
+                continue
+
+            if quest_line.startswith("			description"):
+                if quest_line.endswith("]"):
                     text_key = "description." + str(j)
                     replace_with_lang_key(quest_line, text_key, f_list, q_start_line_index + n, quest_id)
                     continue
                 else:
-                    flag = False
-                    text_key = "description." + str(j)
-                    replace_with_lang_key(quest_line, text_key, f_list, q_start_line_index + n, quest_id)
-                    continue
+                    flag = True
 
-            for key in should_replace_key:
-                if quest_line.startswith(key):
-                    replace_with_lang_key(quest_line, key.lstrip(), f_list, q_start_line_index + n, quest_id)
+            if flag:
+                j += 1
+                text_key = "description." + str(j)
+                replace_with_lang_key(quest_line, text_key, f_list, q_start_line_index + n, quest_id)
+                continue
 
     f = open(full_path, "w+", encoding="utf-8")
     f.writelines(f_list)
@@ -89,10 +88,14 @@ def read_snbt(full_path, file_name):
 
 
 def replace_with_lang_key(line, key, f_list, index, file_name):
+    print("LINE: "+line)
     first_quote_index = line.find("\"")
+    print("FQ:   " + str(first_quote_index))
     last_quote_index = line.rfind("\"")
+    print("LQ:   " + str(last_quote_index))
     head = line[0:first_quote_index]
     content = line[first_quote_index + 1:last_quote_index]
+    print("CONTENT: "+content)
     tail = line[last_quote_index + 1:len(line)]
     if not (content.startswith("{") and content.endswith("}")):
         lang_key = "quest.twr.%s.%s" % (file_name, key)
