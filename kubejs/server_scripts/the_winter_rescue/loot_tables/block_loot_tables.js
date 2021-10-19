@@ -26,20 +26,46 @@ onEvent('block.loot_tables', event => {
     })
 	
 	event.modifyBlock('primalwinter:snowy_dirt', table => {
-		table.addPool(pool => {
-			
+		table.addPool(pool=> {
 			pool.survivesExplosion()
-            pool.addItem('minecraft:dirt')
-            pool.addItem('kubejs:frozen_seeds_melon')
-            pool.addItem('kubejs:frozen_seeds_wheat')
-            pool.addItem('kubejs:frozen_seeds_pumpkin')
-            pool.addItem('kubejs:frozen_seeds_beetroots')
-            pool.addItem('kubejs:frozen_seeds_unknown')
-            pool.addItem('kubejs:frozen_seeds_blackwheat')
-            pool.addItem('kubejs:frozen_white_turnip')
-			pool.randomChance(0.1)
+			pool.randomChance(0.15)
+            pool.addItem('kubejs:frozen_seeds_melon', 1)
+            pool.addItem('kubejs:frozen_seeds_wheat', 1)
+            pool.addItem('kubejs:frozen_seeds_pumpkin', 1)
+            pool.addItem('kubejs:frozen_seeds_beetroots', 1)
+            pool.addItem('kubejs:frozen_seeds_unknown', 4)
+            pool.addItem('kubejs:frozen_seeds_blackwheat', 1)
+            pool.addItem('kubejs:frozen_white_turnip', 1)
+			pool.addItem('minecraft:flint', 4)
+			pool.addItem('notreepunching:flint_shard', 2)
 		})
-    })
+	})
+	
+	event.addBlock('minecraft:dirt', table => {
+		table.addPool(pool=> {
+			pool.survivesExplosion()
+            pool.addItem('minecraft:dirt', 80)
+            pool.addItem('kubejs:frozen_seeds_melon', 1)
+            pool.addItem('kubejs:frozen_seeds_wheat', 1)
+            pool.addItem('kubejs:frozen_seeds_pumpkin', 1)
+            pool.addItem('kubejs:frozen_seeds_beetroots', 1)
+            pool.addItem('kubejs:frozen_seeds_unknown', 4)
+            pool.addItem('kubejs:frozen_seeds_blackwheat', 1)
+            pool.addItem('kubejs:frozen_white_turnip', 1)
+			pool.addItem('minecraft:flint', 3)
+			pool.addItem('notreepunching:flint_shard', 2)
+		})
+	})
+	
+	event.modifyBlock('primalwinter:snowy_sand', table => {
+		table.addPool(pool =>{
+			pool.survivesExplosion()
+			pool.randomChance(0.1)
+			pool.addItem('minecraft:flint', 4)
+			pool.addItem('notreepunching:flint_shard', 1)
+		})
+	})
+
 	
 })
 
