@@ -584,5 +584,9 @@
   "quest.twr.1CD9EB4A39925BB8.description.5": "&6创建组队会创建一个新任务组 任务&4&l从零开始",
   "quest.twr.1CD9EB4A39925BB8.description.6": "加入一个组会&4&l强制同步任务到新组",
   "group.twr.main_line.title": "Main Line",
-  "group.twr.branch_line.title": "Branch Line"
+  "group.twr.branch_line.title": "Branch Line",
+  "quest.twr.7491448A8055DBE6.subtitle": "危险的野兽",
+  "quest.twr.7491448A8055DBE6.description.1": "剑齿虎的牙齿极其锋利",
+  "quest.twr.7491448A8055DBE6.description.2": "他们大多独行",
+  "quest.twr.7491448A8055DBE6.description.3": "但是独自接近它并不是个明智的选择"
 }

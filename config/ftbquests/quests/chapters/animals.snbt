@@ -59,11 +59,11 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			subtitle: "危险的野兽"
+			subtitle: "{quest.twr.7491448A8055DBE6.subtitle}"
 			description: [
-				"剑齿虎的牙齿极其锋利"
-				"他们大多独行"
-				"但是独自接近它并不是个明智的选择"
+				"{quest.twr.7491448A8055DBE6.description.1}"
+				"{quest.twr.7491448A8055DBE6.description.2}"
+				"{quest.twr.7491448A8055DBE6.description.3}"
 			]
 			dependencies: ["7521769E8333942B"]
 			id: "7491448A8055DBE6"

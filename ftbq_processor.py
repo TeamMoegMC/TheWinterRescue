@@ -122,6 +122,7 @@ def replace_with_lang_key(line, key, f_list, index, file_name, key_type):
     head = line[0:first_quote_index]
     content = line[first_quote_index + 1:last_quote_index]
     tail = line[last_quote_index + 1:len(line)]
+    # if not translated already
     if not (content.startswith("{") and content.endswith("}")):
         lang_key = "%s.twr.%s.%s" % (key_type, file_name, key)
         print("Found translation key \"%s\", value = \"%s\"" % (lang_key, content))
@@ -136,14 +137,20 @@ def write_json(path):
         return
 
     # some preinit stuff
-    copy["group.twr.main_line.title"] = "Main Line"
-    copy["group.twr.branch_line.title"] = "Branch Line"
-    if path.endswith("zh_cn.json"):
-        copy["group.twr.main_line.title"] = "主线"
-        copy["group.twr.branch_line.title"] = "支线"
+    # copy["group.twr.main_line.title"] = "Main Line"
+    # copy["group.twr.branch_line.title"] = "Branch Line"
+    # if path.endswith("zh_cn.json"):
+    #     copy["group.twr.main_line.title"] = "主线"
+    #     copy["group.twr.branch_line.title"] = "支线"
 
+    original_dict = {}
+    with open(path, encoding="utf-8") as inputfile:
+        original_dict = json.load(inputfile)
+        inputfile.close()
+
+    original_dict.update(copy)
     with open(path, "w", encoding="utf-8") as outfile:
-        json.dump(copy, outfile, indent=2, ensure_ascii=False)
+        json.dump(original_dict, outfile, indent=2, ensure_ascii=False)
 
     global total_lines
     print("Successfully translated " + str(total_lines) + " lines in " + path)
