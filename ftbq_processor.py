@@ -149,6 +149,27 @@ def write_json(path):
     print("Successfully translated " + str(total_lines) + " lines in " + path)
 
 
-check_dir(ftbquests_path)
-write_json(zh_cn_path)
-write_json(en_us_path)
+# for translating, second param must be ISO 639-1 language code. exmaples: en, zh-CN
+# google api only exists on my computer, don't run this function
+def translate_json(path, target):
+    import google_api
+
+    original_dict = {}
+    with open(path, encoding="utf-8") as inputfile:
+        original_dict = json.load(inputfile)
+        for key in original_dict.keys():
+            original_value = original_dict[key]
+            original_dict[key] = google_api.translate_text(target, original_value)
+        inputfile.close()
+
+    with open(path, 'w', encoding="utf-8") as outputfile:
+        json.dump(original_dict, outputfile, indent=2, ensure_ascii=False)
+        outputfile.close()
+
+
+# translate_json(en_us_path, 'en')
+
+# for loading new stuff into language files
+# check_dir(ftbquests_path)
+# write_json(zh_cn_path)
+# write_json(en_us_path)

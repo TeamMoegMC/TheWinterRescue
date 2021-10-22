@@ -67,3 +67,5 @@
 /.idea/
 /resourcepacks/
 /youdao_api.py
+/google_api.py
+/*.json
