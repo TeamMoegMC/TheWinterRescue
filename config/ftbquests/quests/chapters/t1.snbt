@@ -101,6 +101,7 @@
 				"{quest.twr.36960F1D7CDC8B30.description.6}"
 			]
 			dependencies: ["6B7D4F59C921C1FC"]
+			hide: true
 			id: "36960F1D7CDC8B30"
 			tasks: [{
 				id: "2EA574C52E7D6A74"
@@ -1125,6 +1126,7 @@
 				"{quest.twr.443AD02B85632386.description.3}"
 			]
 			dependencies: ["7521769E8333942B"]
+			hide: true
 			id: "443AD02B85632386"
 			tasks: [{
 				id: "6F52C9ED127AECCF"
