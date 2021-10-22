@@ -3,17 +3,17 @@
 	group: "7668DAE31E3EF623"
 	order_index: 3
 	filename: "animals"
-	title: "动物之友"
+	title: "{chapter.twr.75A05D5EAF6602DE.title}"
 	icon: "stone_age:antler"
-	subtitle: ["野生动物对于你的降临自然是警觉的。"]
+	subtitle: ["{chapter.twr.75A05D5EAF6602DE.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "冰河世纪复刻——大象归来"
+			title: "{quest.twr.60C1118A879D4548.title}"
 			x: 0.0d
 			y: 0.0d
-			subtitle: "“我一脚下去你可能会死。”"
+			subtitle: "{quest.twr.60C1118A879D4548.subtitle}"
 			dependencies: ["7521769E8333942B"]
 			hide: true
 			id: "60C1118A879D4548"
@@ -33,7 +33,7 @@
 			icon: "frozenup:chilloo_spawn_egg"
 			x: 1.5d
 			y: 0.0d
-			subtitle: "掉落物可以用来做热巧克力"
+			subtitle: "{quest.twr.20E078A9220D6114.subtitle}"
 			dependencies: ["7521769E8333942B"]
 			id: "20E078A9220D6114"
 			tasks: [
@@ -52,6 +52,29 @@
 			]
 			rewards: [{
 				id: "7C762F9E4FDCC25C"
+				type: "item"
+				item: "rankine:packaged_tool"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "{quest.twr.7491448A8055DBE6.subtitle}"
+			description: [
+				"{quest.twr.7491448A8055DBE6.description.1}"
+				"{quest.twr.7491448A8055DBE6.description.2}"
+				"{quest.twr.7491448A8055DBE6.description.3}"
+			]
+			dependencies: ["7521769E8333942B"]
+			id: "7491448A8055DBE6"
+			tasks: [{
+				id: "6B7A74E6A2E785B9"
+				type: "kill"
+				entity: "stone_age:saber_tooth_tiger"
+				value: 1L
+			}]
+			rewards: [{
+				id: "6E4AC3CE88C2F451"
 				type: "item"
 				item: "rankine:packaged_tool"
 			}]

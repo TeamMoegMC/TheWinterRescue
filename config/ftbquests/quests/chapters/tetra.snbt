@@ -3,7 +3,7 @@
 	group: "7668DAE31E3EF623"
 	order_index: 1
 	filename: "tetra"
-	title: "工具大师的一天"
+	title: "{chapter.twr.1E695E6D1F5B227A.title}"
 	icon: {
 		id: "tetra:modular_double"
 		Count: 1b
@@ -18,7 +18,7 @@
 			"double/basic_hammer_left_material": "basic_hammer/obsidian"
 		}
 	}
-	subtitle: ["打磨最好的工具，是一门匠人的艺术。"]
+	subtitle: ["{chapter.twr.1E695E6D1F5B227A.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -26,8 +26,8 @@
 			x: -2.5d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "非法改装"
-			description: ["制作一个tetra的锤子右键工作台得到"]
+			subtitle: "{quest.twr.11DD149796E14E81.subtitle}"
+			description: ["{quest.twr.11DD149796E14E81.description.1}"]
 			dependencies: ["5C8730E4484959B9"]
 			size: 1.2d
 			id: "11DD149796E14E81"
@@ -40,8 +40,8 @@
 		{
 			x: -2.5d
 			y: 0.0d
-			subtitle: "工具大师的起点"
-			description: ["从这里开始自由改造你的工具."]
+			subtitle: "{quest.twr.5C8730E4484959B9.subtitle}"
+			description: ["{quest.twr.5C8730E4484959B9.description.1}"]
 			dependencies: ["328D948C4C800873"]
 			id: "5C8730E4484959B9"
 			tasks: [{
@@ -53,10 +53,10 @@
 		{
 			x: -3.0d
 			y: 3.0d
-			subtitle: "更加强大"
+			subtitle: "{quest.twr.0B94C2D4FAB6A54B.subtitle}"
 			description: [
-				"以铁镐作为基础"
-				"改装出属于你自己的镐子"
+				"{quest.twr.0B94C2D4FAB6A54B.description.1}"
+				"{quest.twr.0B94C2D4FAB6A54B.description.2}"
 			]
 			dependencies: ["11DD149796E14E81"]
 			id: "0B94C2D4FAB6A54B"
@@ -75,8 +75,8 @@
 		{
 			x: -2.0d
 			y: 3.0d
-			subtitle: "改造方案"
-			description: ["通过全息球了解改装信息"]
+			subtitle: "{quest.twr.06919E56E850B946.subtitle}"
+			description: ["{quest.twr.06919E56E850B946.description.1}"]
 			dependencies: ["11DD149796E14E81"]
 			id: "06919E56E850B946"
 			tasks: [{

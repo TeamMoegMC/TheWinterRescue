@@ -1,5 +1,5 @@
 {
-    "name": "铸铁锅炉",
+    "name": "block.cm.the_winter_rescue.cast_iron_boiler",
     "appearance": {
         "block": "the_winter_rescue:machine/cast_iron_boiler"
     },

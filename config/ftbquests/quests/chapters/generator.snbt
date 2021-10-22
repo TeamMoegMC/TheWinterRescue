@@ -3,27 +3,27 @@
 	group: "7668DAE31E3EF623"
 	order_index: 0
 	filename: "generator"
-	title: "能量塔工程师的一天"
+	title: "{chapter.twr.00A96B3C8C24C472.title}"
 	icon: "frostedheart:generator_core_t1"
-	subtitle: ["关于能量塔和能量网络的一切。"]
+	subtitle: ["{chapter.twr.00A96B3C8C24C472.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "一级能量塔"
+			title: "{quest.twr.69D939596ED4C0AF.title}"
 			icon: "frostedheart:generator_core_t1"
 			x: 0.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "大型壁炉"
+			subtitle: "{quest.twr.69D939596ED4C0AF.subtitle}"
 			description: [
-				"能量塔是本整合包的核心，是用于加热周围区域的大型多方块结构。对&b&l能量塔核心&r进行思索查看多方块结构。"
-				"也可以在这里看结构，从上到下方块排序:"
-				"ABA  A A  ABA  AAA   A=能量塔砖"
-				"B  B       BCB  AAA    B=能量增幅"
-				"ABA  A A  ABA  AAA   C=能量核心"
-				"搭好结构之后用工程师锤子敲一下侧面。"
-				"可以在未来进行升级。"
+				"{quest.twr.69D939596ED4C0AF.description.1}"
+				"{quest.twr.69D939596ED4C0AF.description.2}"
+				"{quest.twr.69D939596ED4C0AF.description.3}"
+				"{quest.twr.69D939596ED4C0AF.description.4}"
+				"{quest.twr.69D939596ED4C0AF.description.5}"
+				"{quest.twr.69D939596ED4C0AF.description.6}"
+				"{quest.twr.69D939596ED4C0AF.description.7}"
 			]
 			dependencies: ["0A9A5166127945AB"]
 			id: "69D939596ED4C0AF"
@@ -67,20 +67,20 @@
 			]
 		}
 		{
-			title: "二级能量塔"
+			title: "{quest.twr.2D570AD59FE2D6E1.title}"
 			x: 0.5d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "能源供给"
+			subtitle: "{quest.twr.2D570AD59FE2D6E1.subtitle}"
 			description: [
-				"对&6&l殷钢块&r进行思索查看搭建结构        &b&l如果结构顶部显示不下，将“视频设置”-“界面尺寸”降低即可"
-				"&6&l底部中心&r输入水,开启能量塔"
-				"可以在&6&l底面&r任意其他方块输出热能 &e&l如果显示不下的话，顶上三层结构如下:"
-				"A=高耐火 B=钢板块 C=输液管"
-				"D=核心E=钢脚架D=殷钢块"
-				"ABA  BBB  ADA"
-				"BEB  BDB  DCD"
-				"ABA  BBB  ADA"
+				"{quest.twr.2D570AD59FE2D6E1.description.1}"
+				"{quest.twr.2D570AD59FE2D6E1.description.2}"
+				"{quest.twr.2D570AD59FE2D6E1.description.3}"
+				"{quest.twr.2D570AD59FE2D6E1.description.4}"
+				"{quest.twr.2D570AD59FE2D6E1.description.5}"
+				"{quest.twr.2D570AD59FE2D6E1.description.6}"
+				"{quest.twr.2D570AD59FE2D6E1.description.7}"
+				"{quest.twr.2D570AD59FE2D6E1.description.8}"
 			]
 			dependencies: [
 				"69D939596ED4C0AF"
@@ -100,11 +100,11 @@
 			}]
 		}
 		{
-			title: "三级能量塔"
+			title: "{quest.twr.5F455ED38549D9EF.title}"
 			x: 0.5d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "尚未开放"
+			subtitle: "{quest.twr.5F455ED38549D9EF.subtitle}"
 			dependencies: ["2D570AD59FE2D6E1"]
 			id: "5F455ED38549D9EF"
 			tasks: [{
@@ -114,11 +114,11 @@
 			}]
 		}
 		{
-			title: "四级能量塔"
+			title: "{quest.twr.55C39831FBBB94D8.title}"
 			x: 0.5d
 			y: 6.0d
 			shape: "gear"
-			subtitle: "尚未开放"
+			subtitle: "{quest.twr.55C39831FBBB94D8.subtitle}"
 			dependencies: ["5F455ED38549D9EF"]
 			id: "55C39831FBBB94D8"
 			tasks: [{
@@ -128,16 +128,16 @@
 			}]
 		}
 		{
-			title: "加热器"
+			title: "{quest.twr.4BBE69E2E2A4276F.title}"
 			icon: "immersiveengineering:sheetmetal_steel"
 			x: -2.5d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "扩展基地"
+			subtitle: "{quest.twr.4BBE69E2E2A4276F.subtitle}"
 			description: [
-				"轻型工程块在下方,两个钢板块在上方.用工程师锤子右击"
-				"用输热管和工作中的二阶能量塔连接"
-				"可以加热周围一部分区域，并融化冰雪"
+				"{quest.twr.4BBE69E2E2A4276F.description.1}"
+				"{quest.twr.4BBE69E2E2A4276F.description.2}"
+				"{quest.twr.4BBE69E2E2A4276F.description.3}"
 			]
 			dependencies: ["3EF706F5A31CDDD6"]
 			id: "4BBE69E2E2A4276F"
@@ -158,11 +158,11 @@
 		{
 			x: 2.0d
 			y: 2.0d
-			subtitle: "甚至可以用来做饭"
+			subtitle: "{quest.twr.58912971B356779C.subtitle}"
 			description: [
-				"用输热管和工作中的二阶能量塔连接"
-				"手持相应物品右击进行充气/加热"
-				"如：加热背心，水瓶，以及任何需要烤制的食物"
+				"{quest.twr.58912971B356779C.description.1}"
+				"{quest.twr.58912971B356779C.description.2}"
+				"{quest.twr.58912971B356779C.description.3}"
 			]
 			dependencies: ["2D570AD59FE2D6E1"]
 			id: "58912971B356779C"
@@ -175,11 +175,11 @@
 		{
 			x: 3.5d
 			y: 2.0d
-			subtitle: "钢铁侠竟是我自己"
+			subtitle: "{quest.twr.2E54EBA4E016412C.subtitle}"
 			description: [
-				"需要在蒸汽充气机充能才能使用"
-				"根据你的环境温度提供稳定的加热"
-				"探险者必备"
+				"{quest.twr.2E54EBA4E016412C.description.1}"
+				"{quest.twr.2E54EBA4E016412C.description.2}"
+				"{quest.twr.2E54EBA4E016412C.description.3}"
 			]
 			dependencies: ["58912971B356779C"]
 			id: "2E54EBA4E016412C"
@@ -198,8 +198,8 @@
 		{
 			x: -1.0d
 			y: 2.0d
-			subtitle: "裹得很严"
-			description: ["工作中的能量塔底部连接来传输高压热能"]
+			subtitle: "{quest.twr.3EF706F5A31CDDD6.subtitle}"
+			description: ["{quest.twr.3EF706F5A31CDDD6.description.1}"]
 			dependencies: ["2D570AD59FE2D6E1"]
 			id: "3EF706F5A31CDDD6"
 			tasks: [{
@@ -212,11 +212,11 @@
 			icon: "minecraft:coal"
 			x: 2.0d
 			y: 0.0d
-			subtitle: "燃烧加速"
+			subtitle: "{quest.twr.00FD2A2F4601287B.subtitle}"
 			description: [
-				"为应对特殊天气，能量塔可以开启超频模式"
-				"开启超频的一瞬间会消耗4份燃料"
-				"超频会将能量塔提升的温度翻倍"
+				"{quest.twr.00FD2A2F4601287B.description.1}"
+				"{quest.twr.00FD2A2F4601287B.description.2}"
+				"{quest.twr.00FD2A2F4601287B.description.3}"
 			]
 			dependencies: ["69D939596ED4C0AF"]
 			id: "00FD2A2F4601287B"
@@ -230,7 +230,7 @@
 			icon: "minecraft:charcoal"
 			x: -1.0d
 			y: 0.0d
-			description: ["一阶能量塔只能燃烧煤炭，木炭，或者焦煤作为燃料"]
+			description: ["{quest.twr.2E96E546DCA1486C.description.1}"]
 			dependencies: ["69D939596ED4C0AF"]
 			id: "2E96E546DCA1486C"
 			tasks: [{

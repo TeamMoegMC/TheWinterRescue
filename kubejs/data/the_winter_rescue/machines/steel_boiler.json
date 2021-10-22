@@ -1,5 +1,5 @@
 {
-    "name": "钢锅炉",
+    "name": "block.cm.the_winter_rescue.steel_boiler",
     "appearance": {
         "block": "the_winter_rescue:machine/steel_boiler"
     },

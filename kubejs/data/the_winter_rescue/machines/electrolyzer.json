@@ -1,5 +1,5 @@
 {
-    "name": "电解机",
+    "name": "block.cm.the_winter_rescue.electrolyzer",
     "appearance": {
         "block": "the_winter_rescue:machine/electrolyzer"
     },

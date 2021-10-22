@@ -31,7 +31,6 @@ onEvent('block.loot_tables', event => {
             pool.addItem('kubejs:frozen_seeds_blackwheat', 1)
             pool.addItem('kubejs:frozen_white_turnip', 1)
 			pool.addItem('minecraft:flint', 4)
-			pool.addItem('notreepunching:flint_shard', 2)
 		})
 	})
 	
@@ -47,7 +46,6 @@ onEvent('block.loot_tables', event => {
             pool.addItem('kubejs:frozen_seeds_blackwheat', 1)
             pool.addItem('kubejs:frozen_white_turnip', 1)
 			pool.addItem('minecraft:flint', 3)
-			pool.addItem('notreepunching:flint_shard', 2)
 		})
 	})
 	
@@ -56,7 +54,6 @@ onEvent('block.loot_tables', event => {
 			pool.survivesExplosion()
 			pool.randomChance(0.1)
 			pool.addItem('minecraft:flint', 4)
-			pool.addItem('notreepunching:flint_shard', 1)
 		})
 	})
 

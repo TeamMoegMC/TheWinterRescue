@@ -27,7 +27,7 @@
 - [Official Forum](https://forum.teammoeg.com/)
 - [Official Discord Chat](https://discord.gg/BWn6E94)
 - [Official Kaiheila Chat](https://kaihei.co/JLpNWi)
-- QQ Group Chat Number: TBA
+- QQ Group Chat Number: 771843370
 
 ## Like Our Modpack?
 
@@ -63,7 +63,7 @@
 - [官方论坛](https://forum.teammoeg.com/)
 - [官方Discord](https://discord.gg/BWn6E94)
 - [官方开黑啦](https://kaihei.co/JLpNWi)
-- 官方QQ交流群: 敬请期待
+- 官方QQ交流群: 771843370
 
 ## 支持我们
 

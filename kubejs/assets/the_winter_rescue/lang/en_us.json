@@ -2,5 +2,27 @@
     "advancements.the_winter_rescue.generator_core_t1.title": "The Tower of Fire",
     "advancements.the_winter_rescue.generator_core_t1.description": "Build the Tier-1 Generator!",
     "advancements.the_winter_rescue.root.title": "The Winter Rescue",
-    "advancements.the_winter_rescue.root.description": "The last autumn on Earth has passed since long. You need to rescue yourself, and hopefully, unveil the mystery that freezes Mankind..."
+    "advancements.the_winter_rescue.root.description": "The last autumn on Earth has passed since long. You need to rescue yourself, and hopefully, unveil the mystery that freezes Mankind...",
+
+    "block.cm.the_winter_rescue.bronze_boiler" : "Bronze Boiler",
+    "block.cm.the_winter_rescue.cast_iron_boiler" : "Cast Iron Boiler",
+    "block.cm.the_winter_rescue.steel_boiler" : "Steel Boiler",
+    "block.cm.the_winter_rescue.bronze_burner" : "Bronze Burning Chamber",
+    "block.cm.the_winter_rescue.cast_iron_burner" : "Cast Iron Burning Chamber",
+    "block.cm.the_winter_rescue.steel_burner" : "Steel Burning Chamber",
+    "block.cm.the_winter_rescue.electrolyzer" : "Electrolyzer",
+
+    "info.jei.the_winter_rescue.disabled": "This item is disabled in the modpack.",
+    "info.jei.the_winter_rescue.energy_core": "The core of technology from all Space Mankind. Used to build the Generator, keep it safe!",
+    "info.jei.the_winter_rescue.clay_tool": "Use a clay tool to right click it on a clay block to do pottery. You may need to click several times. ",
+
+    "tooltip.the_winter_rescue.replaced_recipe": "Related recipes can be replaced through other means",
+    "tooltip.the_winter_rescue.snowy_vine": "Obtained via cutting leaves with a flint knife",
+    "tooltip.the_winter_rescue.flint_knife": "Get snowy vines when used to cut leaves",
+    "tooltip.the_winter_rescue.flint_knife_2": "Right click the flint workbench to craft",
+    "tooltip.the_winter_rescue.tanning_rack": "After placing the item to be tanned, right click it with flint process knife to proceed",
+    "tooltip.the_winter_rescue.clay_tool": "Use clay tool to right click it on a clay block to do pottery",
+    "tooltip.the_winter_rescue.activated_carbon": "Obtained via using a charcoal on a steam charger",
+    "tooltip.the_winter_rescue.campfire": "Press Q to throw fuel on it and light it via an ignition tool!"
+
 }

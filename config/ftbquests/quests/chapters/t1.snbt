@@ -3,24 +3,24 @@
 	group: "7823E178F7BCBCB0"
 	order_index: 1
 	filename: "t1"
-	title: "一无所有"
+	title: "{chapter.twr.0F108F94F3A03203.title}"
 	icon: "minecraft:stone"
-	subtitle: ["白雪皑皑之中，你的存在便是唯一的光和热。"]
+	subtitle: ["{chapter.twr.0F108F94F3A03203.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "“真正的西伯利亚”挖土豆"
+			title: "{quest.twr.32E5D942F1FE8645.title}"
 			icon: "minecraft:flint"
 			x: -9.5d
 			y: 0.0d
-			subtitle: "沙砾"
+			subtitle: "{quest.twr.32E5D942F1FE8645.subtitle}"
 			description: [
-				"望望四周，似乎没有沙砾可见."
-				"为什么不去&b&l冰覆盖的河床底下找呢"
-				"（燧石可以通过三个沙砾无序合成获得）"
-				""
-				"&6&l若有其他任务资料未看,请耐心逐个阅读。"
+				"{quest.twr.32E5D942F1FE8645.description.1}"
+				"{quest.twr.32E5D942F1FE8645.description.2}"
+				"{quest.twr.32E5D942F1FE8645.description.3}"
+				"{quest.twr.32E5D942F1FE8645.description.4}"
+				"{quest.twr.32E5D942F1FE8645.description.5}"
 			]
 			id: "32E5D942F1FE8645"
 			tasks: [
@@ -40,13 +40,13 @@
 		{
 			x: -8.0d
 			y: 0.0d
-			subtitle: "燧石的工作台"
+			subtitle: "{quest.twr.3102993072F3C8B9.subtitle}"
 			description: [
-				"前期主要的合成台."
-				""
-				"&6&l右键放置好合成表,使用所需工具右键即可."
-				""
-				"&6&l注意工作台摆放朝向,区分好工作台类型。"
+				"{quest.twr.3102993072F3C8B9.description.1}"
+				"{quest.twr.3102993072F3C8B9.description.2}"
+				"{quest.twr.3102993072F3C8B9.description.3}"
+				"{quest.twr.3102993072F3C8B9.description.4}"
+				"{quest.twr.3102993072F3C8B9.description.5}"
 			]
 			dependencies: ["32E5D942F1FE8645"]
 			id: "3102993072F3C8B9"
@@ -59,8 +59,8 @@
 		{
 			x: -5.0d
 			y: -0.5d
-			subtitle: "干燥"
-			description: ["需要燧石工作台制作,用于晾晒干草。"]
+			subtitle: "{quest.twr.1D7F2824DAF3BB7B.subtitle}"
+			description: ["{quest.twr.1D7F2824DAF3BB7B.description.1}"]
 			dependencies: ["348EB1588EFAD2AB"]
 			hide: true
 			id: "1D7F2824DAF3BB7B"
@@ -74,8 +74,8 @@
 			x: -3.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "一点就着"
-			description: ["在这冰天雪地里，干草是取火的关键。"]
+			subtitle: "{quest.twr.29BC87594650152D.subtitle}"
+			description: ["{quest.twr.29BC87594650152D.description.1}"]
 			dependencies: [
 				"1D7F2824DAF3BB7B"
 				"1233EF3CDF5E33F8"
@@ -91,14 +91,14 @@
 		{
 			x: -2.0d
 			y: -3.5d
-			subtitle: "暖身"
+			subtitle: "{quest.twr.36960F1D7CDC8B30.subtitle}"
 			description: [
-				"让你落脚的地方，可以恢复温度和体力，当然也可以烤肉。"
-				"如果没有其他点火工具,"
-				"两手分别持燧石，右键尝试点火。"
-				""
-				"&6篝火会熄灭，"
-				"&6将原木等燃料丢在火堆上即可增加燃烧时间。"
+				"{quest.twr.36960F1D7CDC8B30.description.1}"
+				"{quest.twr.36960F1D7CDC8B30.description.2}"
+				"{quest.twr.36960F1D7CDC8B30.description.3}"
+				"{quest.twr.36960F1D7CDC8B30.description.4}"
+				"{quest.twr.36960F1D7CDC8B30.description.5}"
+				"{quest.twr.36960F1D7CDC8B30.description.6}"
 			]
 			dependencies: ["6B7D4F59C921C1FC"]
 			id: "36960F1D7CDC8B30"
@@ -113,14 +113,14 @@
 			x: -0.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "坚硬的石头"
+			subtitle: "{quest.twr.4BD8236FEEBD7D3A.subtitle}"
 			description: [
-				"&6在陶窑内烧制&4&l任意石头&r&6获得。"
-				""
-				"&6&l陶窑的搭建需要四周包围起来。"
-				""
-				"&6&l潜行右键放置石头,右键6个干草与3个木头填充."
-				"填充完毕后手持起火器长按右键点燃."
+				"{quest.twr.4BD8236FEEBD7D3A.description.1}"
+				"{quest.twr.4BD8236FEEBD7D3A.description.2}"
+				"{quest.twr.4BD8236FEEBD7D3A.description.3}"
+				"{quest.twr.4BD8236FEEBD7D3A.description.4}"
+				"{quest.twr.4BD8236FEEBD7D3A.description.5}"
+				"{quest.twr.4BD8236FEEBD7D3A.description.6}"
 			]
 			dependencies: [
 				"45E2EF843333B846"
@@ -150,10 +150,10 @@
 		{
 			x: 1.0d
 			y: 0.0d
-			subtitle: "砧"
+			subtitle: "{quest.twr.7E3F0C805E2BBB9F.subtitle}"
 			description: [
-				"结实耐用的底座."
-				"&6将原料放上去之后用对应工具左键以完成处理。"
+				"{quest.twr.7E3F0C805E2BBB9F.description.1}"
+				"{quest.twr.7E3F0C805E2BBB9F.description.2}"
 			]
 			dependencies: ["4BD8236FEEBD7D3A"]
 			id: "7E3F0C805E2BBB9F"
@@ -164,15 +164,15 @@
 			}]
 		}
 		{
-			title: "木板"
+			title: "{quest.twr.19603323EAAFF726.title}"
 			icon: "minecraft:oak_planks"
 			x: 1.0d
 			y: -1.0d
-			subtitle: "良好的建筑材料"
+			subtitle: "{quest.twr.19603323EAAFF726.subtitle}"
 			description: [
-				"经典的建筑材料，用砧木处理去皮原木得到。"
-				"不知道去皮原木怎么来？"
-				"用斧头右键原木得到去皮原木。"
+				"{quest.twr.19603323EAAFF726.description.1}"
+				"{quest.twr.19603323EAAFF726.description.2}"
+				"{quest.twr.19603323EAAFF726.description.3}"
 			]
 			dependencies: ["7E3F0C805E2BBB9F"]
 			id: "19603323EAAFF726"
@@ -194,8 +194,8 @@
 			x: -2.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "想致富，先撸树"
-			description: ["同样重要的工具，你可以砍树了。"]
+			subtitle: "{quest.twr.6B7D4F59C921C1FC.subtitle}"
+			description: ["{quest.twr.6B7D4F59C921C1FC.description.1}"]
 			dependencies: ["29BC87594650152D"]
 			id: "6B7D4F59C921C1FC"
 			tasks: [{
@@ -214,10 +214,10 @@
 			x: -2.0d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "开采工具"
+			subtitle: "{quest.twr.45E2EF843333B846.subtitle}"
 			description: [
-				"重要的工具之一，开始挖矿吧"
-				"&6完成后可在左侧世界信息一章了解矿物生成."
+				"{quest.twr.45E2EF843333B846.description.1}"
+				"{quest.twr.45E2EF843333B846.description.2}"
 			]
 			dependencies: ["29BC87594650152D"]
 			id: "45E2EF843333B846"
@@ -236,10 +236,10 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			subtitle: "小肚子,大容量."
+			subtitle: "{quest.twr.689BB00EC2454F1F.subtitle}"
 			description: [
-				"&6一个木炭只能烧制一个物品,"
-				"也许使用煤炭会更加节省一点."
+				"{quest.twr.689BB00EC2454F1F.description.1}"
+				"{quest.twr.689BB00EC2454F1F.description.2}"
 			]
 			dependencies: ["6D92E93A0811C1FD"]
 			id: "689BB00EC2454F1F"
@@ -252,8 +252,8 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			subtitle: "入不了梦"
-			description: ["简陋的床，可以用于设置重生点。"]
+			subtitle: "{quest.twr.417AC14073DD4249.subtitle}"
+			description: ["{quest.twr.417AC14073DD4249.description.1}"]
 			dependencies: ["19603323EAAFF726"]
 			id: "417AC14073DD4249"
 			tasks: [{
@@ -263,14 +263,14 @@
 			}]
 		}
 		{
-			title: "铜"
+			title: "{quest.twr.0A9A5166127945AB.title}"
 			x: 3.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "基础金属"
+			subtitle: "{quest.twr.0A9A5166127945AB.subtitle}"
 			description: [
-				"拥有不错的延展性和导电性，能制成各种铜合金。"
-				"&6可以通过冶炼孔雀石或原生铜得到。"
+				"{quest.twr.0A9A5166127945AB.description.1}"
+				"{quest.twr.0A9A5166127945AB.description.2}"
 			]
 			dependencies: ["689BB00EC2454F1F"]
 			id: "0A9A5166127945AB"
@@ -295,8 +295,8 @@
 		{
 			x: 1.0d
 			y: 1.0d
-			subtitle: "简单加工"
-			description: ["右键使用加工刀加工皮革。"]
+			subtitle: "{quest.twr.718403EB34A5B46F.subtitle}"
+			description: ["{quest.twr.718403EB34A5B46F.description.1}"]
 			dependencies: ["4BD8236FEEBD7D3A"]
 			id: "718403EB34A5B46F"
 			tasks: [{
@@ -308,11 +308,11 @@
 		{
 			x: 1.0d
 			y: 2.0d
-			subtitle: "坚硬有弹性"
+			subtitle: "{quest.twr.42AF456D165CBF75.subtitle}"
 			description: [
-				"需要使用加工刀进行加工."
-				"韧性不错的材料"
-				"可用于制作比普通绳子更结实的绑带(皮带)"
+				"{quest.twr.42AF456D165CBF75.description.1}"
+				"{quest.twr.42AF456D165CBF75.description.2}"
+				"{quest.twr.42AF456D165CBF75.description.3}"
 			]
 			dependencies: ["718403EB34A5B46F"]
 			id: "42AF456D165CBF75"
@@ -326,8 +326,8 @@
 			x: -0.5d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "锤"
-			description: ["石锤了。"]
+			subtitle: "{quest.twr.4A4D6D0DC9B348C1.subtitle}"
+			description: ["{quest.twr.4A4D6D0DC9B348C1.description.1}"]
 			dependencies: ["4BD8236FEEBD7D3A"]
 			id: "4A4D6D0DC9B348C1"
 			tasks: [{
@@ -343,11 +343,11 @@
 			}]
 		}
 		{
-			title: "铜板"
+			title: "{quest.twr.586D66C71A378A82.title}"
 			x: 3.0d
 			y: 3.5d
-			subtitle: "金属板"
-			description: ["原始技术加工,两锭一板。"]
+			subtitle: "{quest.twr.586D66C71A378A82.subtitle}"
+			description: ["{quest.twr.586D66C71A378A82.description.1}"]
 			dependencies: [
 				"4A4D6D0DC9B348C1"
 				"0A9A5166127945AB"
@@ -372,11 +372,11 @@
 			x: 4.5d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "冶炼合金"
+			subtitle: "{quest.twr.162264AE4B9EE1A9.subtitle}"
 			description: [
-				"用于搭建合金窑，以炼制基础的合金。"
-				"&6(不要忘记填充熔炉燃料)"
-				"搭建方法请看工程师手册~"
+				"{quest.twr.162264AE4B9EE1A9.description.1}"
+				"{quest.twr.162264AE4B9EE1A9.description.2}"
+				"{quest.twr.162264AE4B9EE1A9.description.3}"
 			]
 			dependencies: ["586D66C71A378A82"]
 			id: "162264AE4B9EE1A9"
@@ -394,8 +394,8 @@
 		{
 			x: 6.0d
 			y: 3.5d
-			subtitle: "基础材料"
-			description: ["拥有比纯铜更好的性能。"]
+			subtitle: "{quest.twr.4B6840707D77E2C0.subtitle}"
+			description: ["{quest.twr.4B6840707D77E2C0.description.1}"]
 			dependencies: [
 				"3C4CEEBFF8DCF448"
 				"162264AE4B9EE1A9"
@@ -409,14 +409,14 @@
 			}]
 		}
 		{
-			title: "锡"
+			title: "{quest.twr.3C4CEEBFF8DCF448.title}"
 			x: 6.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "合金成分"
+			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
 			description: [
-				"青铜的主要成分之一。"
-				"&6通过冶炼锡石或原生锡得到"
+				"{quest.twr.3C4CEEBFF8DCF448.description.1}"
+				"{quest.twr.3C4CEEBFF8DCF448.description.2}"
 			]
 			dependencies: ["689BB00EC2454F1F"]
 			id: "3C4CEEBFF8DCF448"
@@ -437,14 +437,14 @@
 			x: 9.5d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "锻铁炉主方块"
+			subtitle: "{quest.twr.13D9DE54DF8117C2.subtitle}"
 			description: [
-				"&6使用思索查看锻铁炉的构造方法。"
-				"搭建好锻铁炉后，手持(矿石)shift+右键将其放入锻铁炉"
-				"然后手持(矿石或燃料)右键原料方块将剩余的放入锻铁炉。"
-				"在原料方块上点火以启动锻铁炉。"
-				"&6&l锻铁炉运行中需要风箱鼓风."
-				"&6&l炼制完成后，&4立即&6用镐挖掘其中的方块得到铁锭"
+				"{quest.twr.13D9DE54DF8117C2.description.1}"
+				"{quest.twr.13D9DE54DF8117C2.description.2}"
+				"{quest.twr.13D9DE54DF8117C2.description.3}"
+				"{quest.twr.13D9DE54DF8117C2.description.4}"
+				"{quest.twr.13D9DE54DF8117C2.description.5}"
+				"{quest.twr.13D9DE54DF8117C2.description.6}"
 			]
 			dependencies: [
 				"29533DFBD579CA2F"
@@ -460,14 +460,14 @@
 			}]
 		}
 		{
-			title: "铁"
+			title: "{quest.twr.75154C5A6E2F3257.title}"
 			x: 11.0d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "真 基础金属"
+			subtitle: "{quest.twr.75154C5A6E2F3257.subtitle}"
 			description: [
-				"来硬的!"
-				"&6大部分磁铁矿在上层沉积岩中"
+				"{quest.twr.75154C5A6E2F3257.description.1}"
+				"{quest.twr.75154C5A6E2F3257.description.2}"
 			]
 			dependencies: ["13D9DE54DF8117C2"]
 			id: "75154C5A6E2F3257"
@@ -493,11 +493,11 @@
 			x: -0.5d
 			y: -3.5d
 			shape: "gear"
-			subtitle: "黏黏的"
+			subtitle: "{quest.twr.6D92E93A0811C1FD.subtitle}"
 			description: [
-				"河里什么都有，"
-				"如果你想要黏土的话，去河里翻翻吧。"
-				"这很河里，不是吗？"
+				"{quest.twr.6D92E93A0811C1FD.description.1}"
+				"{quest.twr.6D92E93A0811C1FD.description.2}"
+				"{quest.twr.6D92E93A0811C1FD.description.3}"
 			]
 			dependencies: ["4BD8236FEEBD7D3A"]
 			id: "6D92E93A0811C1FD"
@@ -510,10 +510,10 @@
 		{
 			x: 9.5d
 			y: 2.0d
-			subtitle: "风口"
+			subtitle: "{quest.twr.29533DFBD579CA2F.subtitle}"
 			description: [
-				"用于向锻铁炉内鼓风."
-				"一个口可供给多个风箱工作."
+				"{quest.twr.29533DFBD579CA2F.description.1}"
+				"{quest.twr.29533DFBD579CA2F.description.2}"
 			]
 			dependencies: [
 				"47F458D8E94E5367"
@@ -529,8 +529,8 @@
 		{
 			x: 1.0d
 			y: -2.0d
-			subtitle: "装满满的"
-			description: ["基础的液体容器。"]
+			subtitle: "{quest.twr.3078BCEE3E402DED.subtitle}"
+			description: ["{quest.twr.3078BCEE3E402DED.description.1}"]
 			dependencies: ["19603323EAAFF726"]
 			id: "3078BCEE3E402DED"
 			tasks: [{
@@ -542,8 +542,8 @@
 		{
 			x: 2.5d
 			y: -2.0d
-			subtitle: "CaCO3"
-			description: ["主要成分为碳酸钙。"]
+			subtitle: "{quest.twr.74780AAD5FDF8870.subtitle}"
+			description: ["{quest.twr.74780AAD5FDF8870.description.1}"]
 			dependencies: ["3078BCEE3E402DED"]
 			id: "74780AAD5FDF8870"
 			tasks: [{
@@ -555,11 +555,11 @@
 		{
 			x: 2.0d
 			y: -3.5d
-			subtitle: "黏土加工"
+			subtitle: "{quest.twr.409679774573DA63.subtitle}"
 			description: [
-				"&6将黏土块加工为各种黏土制品。"
-				"将粘土块放在地面后使用抹子右击"
-				"可以多次右击获得不同成品"
+				"{quest.twr.409679774573DA63.description.1}"
+				"{quest.twr.409679774573DA63.description.2}"
+				"{quest.twr.409679774573DA63.description.3}"
 			]
 			dependencies: ["6D92E93A0811C1FD"]
 			id: "409679774573DA63"
@@ -578,10 +578,10 @@
 		{
 			x: 5.0d
 			y: -3.5d
-			subtitle: "大碗的"
+			subtitle: "{quest.twr.6CF9868197215C1D.subtitle}"
 			description: [
-				"&6加工黏土块得到粘土桶。"
-				"盛装各种液体，类似于通用流体单元。"
+				"{quest.twr.6CF9868197215C1D.description.1}"
+				"{quest.twr.6CF9868197215C1D.description.2}"
 			]
 			dependencies: ["409679774573DA63"]
 			hide: true
@@ -595,8 +595,8 @@
 		{
 			x: 4.0d
 			y: -2.0d
-			subtitle: "CaO"
-			description: ["烧制得到生石灰"]
+			subtitle: "{quest.twr.35E5CE37A2F8EB90.subtitle}"
+			description: ["{quest.twr.35E5CE37A2F8EB90.description.1}"]
 			dependencies: ["74780AAD5FDF8870"]
 			hide: true
 			id: "35E5CE37A2F8EB90"
@@ -610,12 +610,12 @@
 			x: 6.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "这很河里"
+			subtitle: "{quest.twr.4543F3B5F937E6B0.subtitle}"
 			description: [
-				"将生石灰放到装有水的桶里得到石灰水。"
-				"沙子去哪找？"
-				"当 然 是 河 里"
-				"（其实沙漠也行）"
+				"{quest.twr.4543F3B5F937E6B0.description.1}"
+				"{quest.twr.4543F3B5F937E6B0.description.2}"
+				"{quest.twr.4543F3B5F937E6B0.description.3}"
+				"{quest.twr.4543F3B5F937E6B0.description.4}"
 			]
 			dependencies: [
 				"6CF9868197215C1D"
@@ -631,11 +631,11 @@
 		{
 			x: 9.5d
 			y: -2.0d
-			subtitle: "石头做的！"
+			subtitle: "{quest.twr.77A7511048D5767B.subtitle}"
 			description: [
-				"一般的木炭坑，用泥土搭建足矣。"
-				"但是如果要生产焦煤，就需要用石砖搭建炭坑。"
-				"要生产焦煤，则必须要&6&l煤炭堆&r，而不是原木堆"
+				"{quest.twr.77A7511048D5767B.description.1}"
+				"{quest.twr.77A7511048D5767B.description.2}"
+				"{quest.twr.77A7511048D5767B.description.3}"
 			]
 			dependencies: ["4543F3B5F937E6B0"]
 			hide: true
@@ -649,10 +649,10 @@
 		{
 			x: 8.0d
 			y: 0.0d
-			subtitle: "不会变质"
+			subtitle: "{quest.twr.1C8171C8FD1D0CD5.subtitle}"
 			description: [
-				"浸润了杂酚油的木板。"
-				"如果不工作，就少放一点木板，按照比例计算"
+				"{quest.twr.1C8171C8FD1D0CD5.description.1}"
+				"{quest.twr.1C8171C8FD1D0CD5.description.2}"
 			]
 			dependencies: ["13AA30FB9CD620EB"]
 			id: "1C8171C8FD1D0CD5"
@@ -665,11 +665,11 @@
 		{
 			x: 8.0d
 			y: 1.5d
-			subtitle: "氧气助燃"
+			subtitle: "{quest.twr.47F458D8E94E5367.subtitle}"
 			description: [
-				"呼呼呼~"
-				"推荐至少两台风箱."
-				"&6&l注意出气孔摆放朝向"
+				"{quest.twr.47F458D8E94E5367.description.1}"
+				"{quest.twr.47F458D8E94E5367.description.2}"
+				"{quest.twr.47F458D8E94E5367.description.3}"
 			]
 			dependencies: ["1C8171C8FD1D0CD5"]
 			id: "47F458D8E94E5367"
@@ -682,10 +682,10 @@
 		{
 			x: 11.0d
 			y: -0.5d
-			subtitle: "FBI open the door"
+			subtitle: "{quest.twr.66505076652885B8.subtitle}"
 			description: [
-				"用青铜制作的门。可以作为木炭坑的一部分，方便出入。"
-				"注意:门的方向要紧贴木炭坑内方块。"
+				"{quest.twr.66505076652885B8.description.1}"
+				"{quest.twr.66505076652885B8.description.2}"
 			]
 			dependencies: ["77A7511048D5767B"]
 			id: "66505076652885B8"
@@ -699,12 +699,12 @@
 			icon: "charcoal_pit:sandy_collector"
 			x: 8.0d
 			y: -1.0d
-			subtitle: "杂酚油！"
+			subtitle: "{quest.twr.13AA30FB9CD620EB.subtitle}"
 			description: [
-				"可以收集木炭坑运行中产生的杂酚油。"
-				"&6注意了: 你可能需要多烧几次木炭才能获得足够一桶的油。"
-				"&6将杂酚油漏斗放置在即将运行的木炭坑下方，即可收集木炭坑产生的杂酚油。"
-				"产生的杂酚油会储存在杂酚油漏斗中，用桶、陶桶等容器可取出其中的杂酚油。"
+				"{quest.twr.13AA30FB9CD620EB.description.1}"
+				"{quest.twr.13AA30FB9CD620EB.description.2}"
+				"{quest.twr.13AA30FB9CD620EB.description.3}"
+				"{quest.twr.13AA30FB9CD620EB.description.4}"
 			]
 			dependencies: ["4543F3B5F937E6B0"]
 			hide: true
@@ -719,13 +719,13 @@
 			icon: "minecraft:charcoal"
 			x: -2.0d
 			y: -5.0d
-			subtitle: "原始燃料,还能过滤水"
+			subtitle: "{quest.twr.76B2B1A3EC6D92CD.subtitle}"
 			description: [
-				"便宜高效的燃料。"
-				"搭建方法:"
-				"&6把原木堆&4&l密封&r&6在一个小空间里面,"
-				"&6留一个口子点火,着了立马盖上."
-				"静待烧制完成即可获得木炭."
+				"{quest.twr.76B2B1A3EC6D92CD.description.1}"
+				"{quest.twr.76B2B1A3EC6D92CD.description.2}"
+				"{quest.twr.76B2B1A3EC6D92CD.description.3}"
+				"{quest.twr.76B2B1A3EC6D92CD.description.4}"
+				"{quest.twr.76B2B1A3EC6D92CD.description.5}"
 			]
 			dependencies: ["6B7D4F59C921C1FC"]
 			id: "76B2B1A3EC6D92CD"
@@ -745,8 +745,8 @@
 		{
 			x: 7.0d
 			y: -3.5d
-			subtitle: "生砂砖"
-			description: ["沙子做成的砖，具有不错的隔热性。"]
+			subtitle: "{quest.twr.66EFFD59083624BF.subtitle}"
+			description: ["{quest.twr.66EFFD59083624BF.description.1}"]
 			dependencies: ["6CF9868197215C1D"]
 			id: "66EFFD59083624BF"
 			tasks: [{
@@ -758,8 +758,8 @@
 		{
 			x: 9.5d
 			y: -3.5d
-			subtitle: "耐热"
-			description: ["用于搭建锻铁炉，也可以用来盖房。"]
+			subtitle: "{quest.twr.4625CA3FEAF6908B.subtitle}"
+			description: ["{quest.twr.4625CA3FEAF6908B.description.1}"]
 			dependencies: [
 				"66EFFD59083624BF"
 				"4543F3B5F937E6B0"
@@ -782,11 +782,11 @@
 			}
 			x: -6.5d
 			y: 0.5d
-			subtitle: "剪枝器"
+			subtitle: "{quest.twr.14D7D98FC5264B03.subtitle}"
 			description: [
-				"锋利的小刀，用其破坏(原版)树叶获得覆雪藤蔓。"
-				""
-				"&6&l注意：小刀是在背包里合成。"
+				"{quest.twr.14D7D98FC5264B03.description.1}"
+				"{quest.twr.14D7D98FC5264B03.description.2}"
+				"{quest.twr.14D7D98FC5264B03.description.3}"
 			]
 			dependencies: ["3102993072F3C8B9"]
 			id: "14D7D98FC5264B03"
@@ -803,11 +803,11 @@
 			}]
 		}
 		{
-			title: "焦煤"
+			title: "{quest.twr.48C50ABC7AE7C575.title}"
 			x: 11.0d
 			y: -3.5d
-			subtitle: "持久"
-			description: ["类似木炭，但是能烧更久。"]
+			subtitle: "{quest.twr.48C50ABC7AE7C575.subtitle}"
+			description: ["{quest.twr.48C50ABC7AE7C575.description.1}"]
 			dependencies: ["77A7511048D5767B"]
 			id: "48C50ABC7AE7C575"
 			tasks: [{
@@ -826,12 +826,12 @@
 		{
 			x: -6.5d
 			y: -0.5d
-			subtitle: "粗略加工"
+			subtitle: "{quest.twr.348EB1588EFAD2AB.subtitle}"
 			description: [
-				"&6使用燧石工作台合成的必备工具"
-				"有时加工不是此工具,注意查看JEI区分"
-				""
-				"&6&l注意:此加工刀是在背包里合成。"
+				"{quest.twr.348EB1588EFAD2AB.description.1}"
+				"{quest.twr.348EB1588EFAD2AB.description.2}"
+				"{quest.twr.348EB1588EFAD2AB.description.3}"
+				"{quest.twr.348EB1588EFAD2AB.description.4}"
 			]
 			dependencies: ["3102993072F3C8B9"]
 			id: "348EB1588EFAD2AB"
@@ -850,8 +850,8 @@
 		{
 			x: -5.0d
 			y: 0.5d
-			subtitle: "冰冷的藤蔓"
-			description: ["绕成一团的藤蔓,也许你可以晾干作为火源."]
+			subtitle: "{quest.twr.1233EF3CDF5E33F8.subtitle}"
+			description: ["{quest.twr.1233EF3CDF5E33F8.description.1}"]
 			dependencies: ["14D7D98FC5264B03"]
 			hide: true
 			id: "1233EF3CDF5E33F8"
@@ -864,8 +864,8 @@
 		{
 			x: 7.5d
 			y: 3.5d
-			subtitle: "升级工具"
-			description: ["青铜工具相比燧石工具来说更坚硬耐用。"]
+			subtitle: "{quest.twr.4CD30E566C5776E0.subtitle}"
+			description: ["{quest.twr.4CD30E566C5776E0.description.1}"]
 			dependencies: ["4B6840707D77E2C0"]
 			id: "4CD30E566C5776E0"
 			tasks: [{
@@ -886,7 +886,7 @@
 		{
 			x: 6.0d
 			y: 5.0d
-			subtitle: "比石锤厉害"
+			subtitle: "{quest.twr.7D2826CCB69C5EE8.subtitle}"
 			dependencies: ["162264AE4B9EE1A9"]
 			id: "7D2826CCB69C5EE8"
 			tasks: [{
@@ -907,10 +907,10 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			subtitle: "简易存储"
+			subtitle: "{quest.twr.062E137E7ECB4C99.subtitle}"
 			description: [
-				"也许你此时没有箱子？"
-				"可以试试这个存储物品"
+				"{quest.twr.062E137E7ECB4C99.description.1}"
+				"{quest.twr.062E137E7ECB4C99.description.2}"
 			]
 			dependencies: ["689BB00EC2454F1F"]
 			id: "062E137E7ECB4C99"
@@ -923,10 +923,10 @@
 		{
 			x: -3.5d
 			y: -2.0d
-			subtitle: "原始人的武器"
+			subtitle: "{quest.twr.7521769E8333942B.subtitle}"
 			description: [
-				"这个世界危机四伏,有些未驯服生物有野性. "
-				"可当作矛投射出去."
+				"{quest.twr.7521769E8333942B.description.1}"
+				"{quest.twr.7521769E8333942B.description.2}"
 			]
 			dependencies: ["29BC87594650152D"]
 			id: "7521769E8333942B"
@@ -945,7 +945,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			subtitle: "简单防御"
+			subtitle: "{quest.twr.4DD7D3E4613000E4.subtitle}"
 			dependencies: ["42AF456D165CBF75"]
 			id: "4DD7D3E4613000E4"
 			tasks: [{
@@ -963,8 +963,8 @@
 		{
 			x: -3.5d
 			y: 2.0d
-			subtitle: "开阔道路"
-			description: ["当然可以铲雪"]
+			subtitle: "{quest.twr.5D803F0865A90DE0.subtitle}"
+			description: ["{quest.twr.5D803F0865A90DE0.description.1}"]
 			dependencies: ["29BC87594650152D"]
 			id: "5D803F0865A90DE0"
 			tasks: [{
@@ -980,11 +980,11 @@
 			}]
 		}
 		{
-			title: "玻璃冶炼"
+			title: "{quest.twr.3EE690327B36D6E0.title}"
 			x: 4.5d
 			y: 5.0d
-			subtitle: "比较容易"
-			description: ["玻璃可以用来制作净水器"]
+			subtitle: "{quest.twr.3EE690327B36D6E0.subtitle}"
+			description: ["{quest.twr.3EE690327B36D6E0.description.1}"]
 			dependencies: ["162264AE4B9EE1A9"]
 			id: "3EE690327B36D6E0"
 			tasks: [{
@@ -1004,10 +1004,10 @@
 			icon: "watersource:wooden_water_filter"
 			x: 3.0d
 			y: 5.0d
-			subtitle: "净化"
+			subtitle: "{quest.twr.3622C3DFDB5D8E02.subtitle}"
 			description: [
-				"手持任意种类滤水器滤纸右击滤水器即可安装,"
-				"滤纸有耐久。用水桶等可以往顶部灌水， 等待即可在底部接纯净水。"
+				"{quest.twr.3622C3DFDB5D8E02.description.1}"
+				"{quest.twr.3622C3DFDB5D8E02.description.2}"
 			]
 			dependencies: ["3EE690327B36D6E0"]
 			id: "3622C3DFDB5D8E02"
@@ -1036,22 +1036,22 @@
 			]
 		}
 		{
+			title: "{quest.twr.33B6E7B60783C72B.title}"
 			x: -8.0d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "民以水为天"
+			subtitle: "{quest.twr.33B6E7B60783C72B.subtitle}"
 			description: [
-				"水分很重要。"
-				"&6你在飞船里找到的水壶可以用来右击水源接水"
-				"&6不过这是没有净化过的水，喝完会口渴。"
-				"为了避免口渴效果，你需要喝纯净水.开局你有的纯净水够你喝一阵了"
-				"等你获得滤水器后就可以净化纯净水了。"
+				"{quest.twr.33B6E7B60783C72B.description.1}"
+				"{quest.twr.33B6E7B60783C72B.description.2}"
+				"{quest.twr.33B6E7B60783C72B.description.3}"
+				"{quest.twr.33B6E7B60783C72B.description.4}"
+				"{quest.twr.33B6E7B60783C72B.description.5}"
 			]
 			id: "33B6E7B60783C72B"
 			tasks: [{
 				id: "6E14D0E983EACA58"
 				type: "checkmark"
-				title: "喝水"
 				icon: {
 					id: "watersource:leather_water_bag"
 					Count: 1b
@@ -1076,53 +1076,53 @@
 			}]
 		}
 		{
+			title: "{quest.twr.215BC2E7271F1478.title}"
 			icon: "crockpot:food_category_meat"
 			x: -9.5d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "均衡膳食"
+			subtitle: "{quest.twr.215BC2E7271F1478.subtitle}"
 			description: [
-				"打开你的背包就能查看营养值了"
-				"营养值过低会导致血量上限降低,"
-				"营养值超过80%会提升血量上限."
-				"糖分在很高的时候会造成饥饿和加速效果"
-				"蛋白质很高则会增加你的力量。"
+				"{quest.twr.215BC2E7271F1478.description.1}"
+				"{quest.twr.215BC2E7271F1478.description.2}"
+				"{quest.twr.215BC2E7271F1478.description.3}"
+				"{quest.twr.215BC2E7271F1478.description.4}"
+				"{quest.twr.215BC2E7271F1478.description.5}"
 			]
 			id: "215BC2E7271F1478"
 			tasks: [{
 				id: "58F4265EA5C778FB"
 				type: "checkmark"
-				title: "营养"
 			}]
 		}
 		{
+			title: "{quest.twr.3B5663CF194B054C.title}"
 			x: -6.5d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "生存要素"
+			subtitle: "{quest.twr.3B5663CF194B054C.subtitle}"
 			description: [
-				"在这个冰天雪地里."
-				"你必须保持良好的体温."
-				"呆在篝火或者能量塔旁可以有效保持体温."
-				"也许你后面会需要仪器来测量各种温度"
-				"如：水银温度计，土壤温度计"
+				"{quest.twr.3B5663CF194B054C.description.1}"
+				"{quest.twr.3B5663CF194B054C.description.2}"
+				"{quest.twr.3B5663CF194B054C.description.3}"
+				"{quest.twr.3B5663CF194B054C.description.4}"
+				"{quest.twr.3B5663CF194B054C.description.5}"
 			]
 			id: "3B5663CF194B054C"
 			tasks: [{
 				id: "3428FDD619813DBF"
 				type: "checkmark"
-				title: "体温"
 				icon: "weatherforecast:temperature_probe"
 			}]
 		}
 		{
 			x: -3.5d
 			y: -3.5d
-			subtitle: "上面有些毛"
+			subtitle: "{quest.twr.443AD02B85632386.subtitle}"
 			description: [
-				"从野生动物身上获取"
-				"海冰上的北极熊，鹿，或者猛犸象都是不错的选择，他们现在太多了"
-				"&6&l北极熊在现实中是濒危生物，请保护野生动物！"
+				"{quest.twr.443AD02B85632386.description.1}"
+				"{quest.twr.443AD02B85632386.description.2}"
+				"{quest.twr.443AD02B85632386.description.3}"
 			]
 			dependencies: ["7521769E8333942B"]
 			id: "443AD02B85632386"
@@ -1135,10 +1135,10 @@
 		{
 			x: -3.5d
 			y: -5.0d
-			subtitle: "貂皮大衣"
+			subtitle: "{quest.twr.2406D98489C938B8.subtitle}"
 			description: [
-				"提供不错的保温效果"
-				"&6&l没有买卖，没有杀害"
+				"{quest.twr.2406D98489C938B8.description.1}"
+				"{quest.twr.2406D98489C938B8.description.2}"
 			]
 			dependencies: ["443AD02B85632386"]
 			id: "2406D98489C938B8"
@@ -1155,15 +1155,15 @@
 			}]
 		}
 		{
-			title: "查询合成表"
+			title: "{quest.twr.1F615C38B1A015E5.title}"
 			icon: "minecraft:book"
 			x: -8.0d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "你最好的帮手，JEI"
+			subtitle: "{quest.twr.1F615C38B1A015E5.subtitle}"
 			description: [
-				"鼠标悬浮在要查询的物品上,"
-				"使用R查询配方，使用U查询能制作什么物品。"
+				"{quest.twr.1F615C38B1A015E5.description.1}"
+				"{quest.twr.1F615C38B1A015E5.description.2}"
 			]
 			id: "1F615C38B1A015E5"
 			tasks: [{
@@ -1176,10 +1176,10 @@
 			icon: "stone_age:fishing_net"
 			x: 1.0d
 			y: 3.0d
-			subtitle: "冬日鱼塘"
+			subtitle: "{quest.twr.506C01A9BE167F7F.subtitle}"
 			description: [
-				"把任意网放进渔网内即可捕鱼"
-				"&6需要彻底的浸入水中才能工作"
+				"{quest.twr.506C01A9BE167F7F.description.1}"
+				"{quest.twr.506C01A9BE167F7F.description.2}"
 			]
 			dependencies: ["42AF456D165CBF75"]
 			id: "506C01A9BE167F7F"
@@ -1206,10 +1206,10 @@
 		{
 			x: -3.5d
 			y: 3.5d
-			subtitle: "能用更多次"
+			subtitle: "{quest.twr.1C7830BE11F5FDCA.subtitle}"
 			description: [
-				"一次性的物品太不耐用了"
-				"也许你更喜欢这个"
+				"{quest.twr.1C7830BE11F5FDCA.description.1}"
+				"{quest.twr.1C7830BE11F5FDCA.description.2}"
 			]
 			dependencies: ["29BC87594650152D"]
 			id: "1C7830BE11F5FDCA"
@@ -1229,10 +1229,10 @@
 			x: -2.0d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "一次性起火"
+			subtitle: "{quest.twr.3B7B7A0BC0CF3CE0.subtitle}"
 			description: [
-				"一个简易的起火装置,"
-				"长按右键即可点火"
+				"{quest.twr.3B7B7A0BC0CF3CE0.description.1}"
+				"{quest.twr.3B7B7A0BC0CF3CE0.description.2}"
 			]
 			dependencies: ["29BC87594650152D"]
 			id: "3B7B7A0BC0CF3CE0"
@@ -1245,8 +1245,8 @@
 		{
 			x: -0.5d
 			y: -5.0d
-			subtitle: "烧开水"
-			description: ["加热杯中的水即可除菌，变成纯净水。"]
+			subtitle: "{quest.twr.04DC32D417FA819E.subtitle}"
+			description: ["{quest.twr.04DC32D417FA819E.description.1}"]
 			dependencies: ["36960F1D7CDC8B30"]
 			id: "04DC32D417FA819E"
 			tasks: [{
@@ -1265,15 +1265,15 @@
 			}]
 		}
 		{
-			title: "镍"
+			title: "{quest.twr.3A91A02EB59A7919.title}"
 			icon: "immersiveengineering:ingot_nickel"
 			x: 11.0d
 			y: 4.5d
-			subtitle: "更好的金属"
+			subtitle: "{quest.twr.3A91A02EB59A7919.subtitle}"
 			description: [
-				"目前能冶炼的另一种金属,"
-				"也许可以制作更好的合金."
-				"&6大部分镍在深层岩浆岩中"
+				"{quest.twr.3A91A02EB59A7919.description.1}"
+				"{quest.twr.3A91A02EB59A7919.description.2}"
+				"{quest.twr.3A91A02EB59A7919.description.3}"
 			]
 			dependencies: ["13D9DE54DF8117C2"]
 			id: "3A91A02EB59A7919"
@@ -1293,8 +1293,8 @@
 		{
 			x: 4.0d
 			y: 1.5d
-			subtitle: "地质勘探"
-			description: ["右击石头可以获取附近的矿物信息"]
+			subtitle: "{quest.twr.1DF200F6772308C7.subtitle}"
+			description: ["{quest.twr.1DF200F6772308C7.description.1}"]
 			dependencies: ["0A9A5166127945AB"]
 			id: "1DF200F6772308C7"
 			tasks: [{
@@ -1312,8 +1312,8 @@
 		{
 			x: 1.5d
 			y: 5.0d
-			subtitle: "加上枸杞"
-			description: ["多喝热水"]
+			subtitle: "{quest.twr.1974619E18DB754A.subtitle}"
+			description: ["{quest.twr.1974619E18DB754A.description.1}"]
 			dependencies: ["586D66C71A378A82"]
 			id: "1974619E18DB754A"
 			tasks: [{
@@ -1329,15 +1329,15 @@
 			}]
 		}
 		{
-			title: "思索"
+			title: "{quest.twr.58EF2132D0431323.title}"
 			x: -6.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "重要工具"
+			subtitle: "{quest.twr.58EF2132D0431323.subtitle}"
 			description: [
-				"思索是很重要的技能。"
-				"如果物品下方有关于思索的提示，长按W即可进入思索场景。"
-				"思索能帮助你了解一个方块的用途或者一个结构的搭建方法。"
+				"{quest.twr.58EF2132D0431323.description.1}"
+				"{quest.twr.58EF2132D0431323.description.2}"
+				"{quest.twr.58EF2132D0431323.description.3}"
 			]
 			id: "58EF2132D0431323"
 			tasks: [{
@@ -1349,8 +1349,8 @@
 		{
 			x: -4.5d
 			y: -1.5d
-			subtitle: "寒冬必备"
-			description: ["如果不穿衣服也许会很冷。"]
+			subtitle: "{quest.twr.70E6A4B9946F263A.subtitle}"
+			description: ["{quest.twr.70E6A4B9946F263A.description.1}"]
 			dependencies: ["29BC87594650152D"]
 			id: "70E6A4B9946F263A"
 			tasks: [{
@@ -1366,16 +1366,16 @@
 			}]
 		}
 		{
-			title: "Wiki百科"
+			title: "{quest.twr.1B3C8681DF78AD16.title}"
 			icon: "minecraft:writable_book"
 			x: -9.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "热心教程"
+			subtitle: "{quest.twr.1B3C8681DF78AD16.subtitle}"
 			description: [
-				"热心玩家们自主贡献的教程."
-				"如有不会,可以去看看. "
-				"链接:&6&lhttps://wiki.teammoeg.com"
+				"{quest.twr.1B3C8681DF78AD16.description.1}"
+				"{quest.twr.1B3C8681DF78AD16.description.2}"
+				"{quest.twr.1B3C8681DF78AD16.description.3}"
 			]
 			id: "1B3C8681DF78AD16"
 			tasks: [{
@@ -1387,10 +1387,10 @@
 		{
 			x: 2.0d
 			y: 2.5d
-			subtitle: "内有乾坤"
+			subtitle: "{quest.twr.5DD231E4178E830D.subtitle}"
 			description: [
-				"&6与无法保暖的衣物无序合成."
-				"使其拥有干草的保暖属性."
+				"{quest.twr.5DD231E4178E830D.description.1}"
+				"{quest.twr.5DD231E4178E830D.description.2}"
 			]
 			dependencies: ["42AF456D165CBF75"]
 			id: "5DD231E4178E830D"

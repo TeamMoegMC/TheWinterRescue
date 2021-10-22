@@ -3,7 +3,7 @@
 	group: "7823E178F7BCBCB0"
 	order_index: 0
 	filename: "arrival"
-	title: "冬季救援"
+	title: "{chapter.twr.45227BBF4538D5BC.title}"
 	icon: {
 		id: "snowrealmagic:slab"
 		Count: 1b
@@ -18,22 +18,22 @@
 			}
 		}
 	}
-	subtitle: ["你从空间站降落到冰冻的地球，请做好准备，这是一次艰难的任务！"]
+	subtitle: ["{chapter.twr.45227BBF4538D5BC.subtitle}"]
 	default_quest_shape: "circle"
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "冬季救援"
+			title: "{quest.twr.60F112EDA31F73F5.title}"
 			icon: "ftbquests:book"
 			x: -7.5d
 			y: -4.5d
-			subtitle: "简介"
+			subtitle: "{quest.twr.60F112EDA31F73F5.subtitle}"
 			description: [
-				"伴随着舱门打开,你看到了外面白茫茫的一片."
-				"回忆着临走前队长对我说的话:\"这个世界已经危在旦夕,你需要尽你一切的努力来让这个世界恢复正常\"."
-				"\"我没有什么能帮助你,只能祝你好运了\"."
-				"结束了回忆,你走出了舱门,环顾了四周，寂静."
-				"你意识到现在只能靠你自己了."
+				"{quest.twr.60F112EDA31F73F5.description.1}"
+				"{quest.twr.60F112EDA31F73F5.description.2}"
+				"{quest.twr.60F112EDA31F73F5.description.3}"
+				"{quest.twr.60F112EDA31F73F5.description.4}"
+				"{quest.twr.60F112EDA31F73F5.description.5}"
 			]
 			id: "60F112EDA31F73F5"
 			tasks: [{
@@ -43,15 +43,15 @@
 			}]
 		}
 		{
-			title: "冬日降临之前"
+			title: "{quest.twr.2E0E35B379A20F7C.title}"
 			icon: "minecraft:book"
 			x: -9.0d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "谜题"
+			subtitle: "{quest.twr.2E0E35B379A20F7C.subtitle}"
 			description: [
-				"这个冬日是何时开始的呢？"
-				"这也许是你需要寻找的答案..."
+				"{quest.twr.2E0E35B379A20F7C.description.1}"
+				"{quest.twr.2E0E35B379A20F7C.description.2}"
 			]
 			id: "2E0E35B379A20F7C"
 			tasks: [{
@@ -61,16 +61,17 @@
 			}]
 		}
 		{
+			title: "{quest.twr.6C86BD5F9112256F.title}"
 			icon: "create:propeller"
 			x: -6.0d
 			y: -4.5d
 			shape: "gear"
-			subtitle: "我在哪里？"
+			subtitle: "{quest.twr.6C86BD5F9112256F.subtitle}"
 			description: [
-				"&l这次驾驶的飞船(暂无实物)是空间站为数不多还能正常运行的太空梭了。"
-				""
-				"要赶快拿到物资才行，"
-				"否则在这种鬼天气里，很快就会冻死的！"
+				"{quest.twr.6C86BD5F9112256F.description.1}"
+				"{quest.twr.6C86BD5F9112256F.description.2}"
+				"{quest.twr.6C86BD5F9112256F.description.3}"
+				"{quest.twr.6C86BD5F9112256F.description.4}"
 			]
 			id: "6C86BD5F9112256F"
 			tasks: [{
@@ -80,14 +81,15 @@
 			}]
 		}
 		{
+			title: "{quest.twr.46BF095F50804FCC.title}"
 			icon: "minecraft:andesite"
 			x: -4.5d
 			y: -4.5d
 			shape: "circle"
-			subtitle: "损坏的飞船"
+			subtitle: "{quest.twr.46BF095F50804FCC.subtitle}"
 			description: [
-				"飞船被厚厚的冰雪所覆盖了，不过尾部的余热化开了舱门。"
-				"你耐心的查看起了最重要的物品仓。"
+				"{quest.twr.46BF095F50804FCC.description.1}"
+				"{quest.twr.46BF095F50804FCC.description.2}"
 			]
 			dependencies: ["6C86BD5F9112256F"]
 			id: "46BF095F50804FCC"
@@ -98,15 +100,16 @@
 			}]
 		}
 		{
+			title: "{quest.twr.4E3C1F4BDB921B8E.title}"
 			icon: "ironchest:crystal_chest"
 			x: -4.5d
 			y: -6.0d
 			shape: "hexagon"
-			subtitle: "收获满满？"
+			subtitle: "{quest.twr.4E3C1F4BDB921B8E.subtitle}"
 			description: [
-				"这里存放着初始的物资：纯净水，食物，以及衣服。"
-				"抓紧时间装备好他们吧。"
-				"记得带上这把铁锹，他会很有用的。"
+				"{quest.twr.4E3C1F4BDB921B8E.description.1}"
+				"{quest.twr.4E3C1F4BDB921B8E.description.2}"
+				"{quest.twr.4E3C1F4BDB921B8E.description.3}"
 			]
 			dependencies: ["46BF095F50804FCC"]
 			id: "4E3C1F4BDB921B8E"
@@ -171,6 +174,7 @@
 			]
 		}
 		{
+			title: "{quest.twr.25061B159D32453A.title}"
 			icon: {
 				id: "stone_age:backpack"
 				Count: 1b
@@ -321,8 +325,8 @@
 			x: -4.5d
 			y: -3.0d
 			shape: "hexagon"
-			subtitle: "还好我偷偷藏了不少东西"
-			description: ["个人物品带的不多，天气预报雷达是必须要带的。"]
+			subtitle: "{quest.twr.25061B159D32453A.subtitle}"
+			description: ["{quest.twr.25061B159D32453A.description.1}"]
 			dependencies: ["46BF095F50804FCC"]
 			id: "25061B159D32453A"
 			tasks: [{
@@ -355,15 +359,16 @@
 			]
 		}
 		{
+			title: "{quest.twr.2422C77587FDEE28.title}"
 			icon: "minecraft:writable_book"
 			x: -2.5d
 			y: -4.5d
-			subtitle: "活下去！"
+			subtitle: "{quest.twr.2422C77587FDEE28.subtitle}"
 			description: [
-				"你拿出了贴身的笔记本，在无数前辈的经验笔记后写下了自己的名字."
-				"独自一人踏上了这无尽的寒冬，你的目的只有一个“活下去！”。"
-				"“有希望的话，大概什么都会好起来吧。”"
-				"&6左侧任务列表选择第二章开始游玩"
+				"{quest.twr.2422C77587FDEE28.description.1}"
+				"{quest.twr.2422C77587FDEE28.description.2}"
+				"{quest.twr.2422C77587FDEE28.description.3}"
+				"{quest.twr.2422C77587FDEE28.description.4}"
 			]
 			dependencies: [
 				"4E3C1F4BDB921B8E"
@@ -383,17 +388,18 @@
 			}]
 		}
 		{
-			title: "制作者名单"
+			title: "{quest.twr.7AFE32B08BB6CE6C.title}"
 			icon: "minecraft:paper"
 			x: -9.0d
 			y: -6.0d
-			subtitle: "参与制作的人"
-			description: ["&lTeamMoeg-TWRDev是本整合核心开发团队。"]
+			subtitle: "{quest.twr.7AFE32B08BB6CE6C.subtitle}"
+			description: ["{quest.twr.7AFE32B08BB6CE6C.description.1}"]
 			id: "7AFE32B08BB6CE6C"
 			tasks: [
 				{
 					id: "34E10961B27ECEE7"
 					type: "item"
+					title: "dashuaibia - Dev / Design"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -409,6 +415,7 @@
 				{
 					id: "2D8A63312752F201"
 					type: "item"
+					title: "YueSha - Dev / Design"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -424,6 +431,7 @@
 				{
 					id: "2170C50DC7187B7B"
 					type: "item"
+					title: "duck_egg - Dev / Design"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -439,7 +447,7 @@
 				{
 					id: "259B555091E40BFA"
 					type: "item"
-					title: "Evan"
+					title: "Evan - Operation / Management"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -455,7 +463,7 @@
 				{
 					id: "16C294F014C3A727"
 					type: "item"
-					title: "Lyuuke"
+					title: "Lyuuke - Texture / Model"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -469,7 +477,7 @@
 				{
 					id: "6892D13E32E2236B"
 					type: "item"
-					title: "goumo_g"
+					title: "goumo_g - Texture / Model"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -483,7 +491,7 @@
 				{
 					id: "0944042120B83038"
 					type: "item"
-					title: "khjxiaogu"
+					title: "khjxiaogu - Dev & Design"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -494,46 +502,72 @@
 						}
 					}
 				}
+				{
+					id: "635EDDFEA43C1BBC"
+					type: "item"
+					title: "Fu_Yang - Map / Build"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "Fu_Yang"
+							}
+						}
+					}
+				}
+				{
+					id: "510D7660772B2BF2"
+					type: "item"
+					title: "03110 - Map / Build"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "03110"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
-			title: "&6FTBU圈地"
+			title: "{quest.twr.543F5BC239D07C40.title}"
 			icon: "minecraft:oak_sapling"
 			x: -7.5d
 			y: -6.0d
-			subtitle: "圈地事项"
+			subtitle: "{quest.twr.543F5BC239D07C40.subtitle}"
 			description: [
-				"按E打开物品栏,左上角小地图圈地."
-				"或者按M打开地图,同左上角小地图圈地."
-				""
-				"&6&l给予权限请使用ftbteam组队系统"
+				"{quest.twr.543F5BC239D07C40.description.1}"
+				"{quest.twr.543F5BC239D07C40.description.2}"
+				"{quest.twr.543F5BC239D07C40.description.3}"
+				"{quest.twr.543F5BC239D07C40.description.4}"
 			]
 			id: "543F5BC239D07C40"
 			tasks: [{
 				id: "7421B8D8B161FCBC"
 				type: "checkmark"
-				title: "知道了"
 			}]
 		}
 		{
-			title: "&6组队须知"
+			title: "{quest.twr.1CD9EB4A39925BB8.title}"
 			icon: "minecraft:player_head"
 			x: -6.0d
 			y: -6.0d
-			subtitle: "组队须知"
+			subtitle: "{quest.twr.1CD9EB4A39925BB8.subtitle}"
 			description: [
-				"创建指令/ftbteams party craft 名字 &6推荐一开始就创建队伍好让他人进入"
-				"如果已经创建队伍,命令则无法再次生效"
-				""
-				"邀请:/ftbteams party invite 名字"
-				"&6创建组队会创建一个新任务组 任务&4&l从零开始"
-				"加入一个组会&4&l强制同步任务到新组"
+				"{quest.twr.1CD9EB4A39925BB8.description.1}"
+				"{quest.twr.1CD9EB4A39925BB8.description.2}"
+				"{quest.twr.1CD9EB4A39925BB8.description.3}"
+				"{quest.twr.1CD9EB4A39925BB8.description.4}"
+				"{quest.twr.1CD9EB4A39925BB8.description.5}"
+				"{quest.twr.1CD9EB4A39925BB8.description.6}"
 			]
 			id: "1CD9EB4A39925BB8"
 			tasks: [{
 				id: "698704746E033DF8"
 				type: "checkmark"
-				title: "知道了"
 			}]
 			rewards: [{
 				id: "44F6FB5102EE8558"
