@@ -34,8 +34,11 @@ def read_snbt(full_path, file_name):
     for i, line in enumerate(f_list):
 
         if found_quest_start and found_quest_end:
+            print(f_list[quest_start_line:quest_end_line+1])
             quests_list.append(f_list[quest_start_line:quest_end_line+1])
             quests_start_index_list.append(quest_start_line)
+            # found_quest_start = False
+            # found_quest_end = False
 
         if line.startswith("		{"):
             quest_start_line = i
@@ -58,15 +61,20 @@ def read_snbt(full_path, file_name):
         flag = False  # is true when this is a multiple line description
         j = 0
         for n, quest_line in enumerate(quest):
-            for key in should_replace_key:
-                if quest_line.startswith(key):
-                    replace_with_lang_key(quest_line, key.lstrip(), f_list, q_start_line_index + n, quest_id)
-                    continue
 
             if quest_line.startswith("			]"):
                 flag = False
                 j = 0
+
+            if flag:
+                j += 1
+                text_key = "description." + str(j)
+                replace_with_lang_key(quest_line, text_key, f_list, q_start_line_index + n, quest_id)
                 continue
+
+            for key in should_replace_key:
+                if quest_line.startswith(key):
+                    replace_with_lang_key(quest_line, key.lstrip(), f_list, q_start_line_index + n, quest_id)
 
             if quest_line.startswith("			description"):
                 if quest_line.endswith("]"):
@@ -75,12 +83,7 @@ def read_snbt(full_path, file_name):
                     continue
                 else:
                     flag = True
-
-            if flag:
-                j += 1
-                text_key = "description." + str(j)
-                replace_with_lang_key(quest_line, text_key, f_list, q_start_line_index + n, quest_id)
-                continue
+                    continue
 
     f = open(full_path, "w+", encoding="utf-8")
     f.writelines(f_list)
