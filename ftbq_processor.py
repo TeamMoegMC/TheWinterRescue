@@ -159,7 +159,8 @@ def translate_json(path, target):
         original_dict = json.load(inputfile)
         for key in original_dict.keys():
             original_value = original_dict[key]
-            original_dict[key] = google_api.translate_text(target, original_value)
+            final_result = google_api.translate_text(target, original_value).replace('&amp;', '&').replace('&quot;', '\"').replace('&#39;', '\'')
+            original_dict[key] = final_result
         inputfile.close()
 
     with open(path, 'w', encoding="utf-8") as outputfile:
