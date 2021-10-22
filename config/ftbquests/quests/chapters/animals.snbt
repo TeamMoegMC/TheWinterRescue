@@ -56,5 +56,28 @@
 				item: "rankine:packaged_tool"
 			}]
 		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "危险的野兽"
+			description: [
+				"剑齿虎的牙齿极其锋利"
+				"他们大多独行"
+				"但是独自接近它并不是个明智的选择"
+			]
+			dependencies: ["7521769E8333942B"]
+			id: "7491448A8055DBE6"
+			tasks: [{
+				id: "6B7A74E6A2E785B9"
+				type: "kill"
+				entity: "stone_age:saber_tooth_tiger"
+				value: 1L
+			}]
+			rewards: [{
+				id: "6E4AC3CE88C2F451"
+				type: "item"
+				item: "rankine:packaged_tool"
+			}]
+		}
 	]
 }
