@@ -3,7 +3,7 @@
 	group: "7823E178F7BCBCB0"
 	order_index: 3
 	filename: "t3"
-	title: "电与线圈"
+	title: "{chapter.twr.0F92A786237ACCA8.title}"
 	icon: {
 		id: "rankine:steel_alloy"
 		Count: 1b
@@ -13,18 +13,18 @@
 			}]
 		}
 	}
-	subtitle: ["机器开始轰鸣。"]
+	subtitle: ["{chapter.twr.0F92A786237ACCA8.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "蓝色金属-铝"
+			title: "{quest.twr.5D52744D5382A6CA.title}"
 			icon: "immersiveengineering:ingot_aluminum"
 			x: 0.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "柔韧且轻盈"
-			description: ["优良的工业材料."]
+			subtitle: "{quest.twr.5D52744D5382A6CA.subtitle}"
+			description: ["{quest.twr.5D52744D5382A6CA.description.1}"]
 			dependencies: ["5808CFED17AE91D4"]
 			hide: true
 			size: 1.2d
@@ -64,7 +64,7 @@
 		{
 			x: 2.5d
 			y: 0.5d
-			subtitle: "高级物流"
+			subtitle: "{quest.twr.7D5541059C15C6AE.subtitle}"
 			dependencies: ["5D52744D5382A6CA"]
 			id: "7D5541059C15C6AE"
 			tasks: [{
@@ -266,13 +266,13 @@
 			}]
 		}
 		{
-			title: "IE轻型机器"
+			title: "{quest.twr.4138E3A9915F811C.title}"
 			x: -2.5d
 			y: 0.5d
-			subtitle: "工业机器"
+			subtitle: "{quest.twr.4138E3A9915F811C.subtitle}"
 			description: [
-				"拥有铝了之后你可以建造IE的轻型机器."
-				"例如搅拌机."
+				"{quest.twr.4138E3A9915F811C.description.1}"
+				"{quest.twr.4138E3A9915F811C.description.2}"
 			]
 			dependencies: ["5D52744D5382A6CA"]
 			id: "4138E3A9915F811C"
@@ -285,8 +285,8 @@
 		{
 			x: 0.0d
 			y: -1.5d
-			subtitle: "冶炼原料"
-			description: ["冶炼铝的原材料。"]
+			subtitle: "{quest.twr.5808CFED17AE91D4.subtitle}"
+			description: ["{quest.twr.5808CFED17AE91D4.description.1}"]
 			dependencies: ["2FD2E7932423788D"]
 			id: "5808CFED17AE91D4"
 			tasks: [{
@@ -298,10 +298,10 @@
 		{
 			x: -2.5d
 			y: 3.0d
-			subtitle: "大型结晶器"
+			subtitle: "{quest.twr.647F24083B2703FF.subtitle}"
 			description: [
-				"更大的化学结晶器."
-				"拥有两个输入物品槽."
+				"{quest.twr.647F24083B2703FF.description.1}"
+				"{quest.twr.647F24083B2703FF.description.2}"
 			]
 			dependencies: ["5D52744D5382A6CA"]
 			id: "647F24083B2703FF"
@@ -314,10 +314,10 @@
 		{
 			x: 0.0d
 			y: 3.0d
-			subtitle: "电解机"
+			subtitle: "{quest.twr.2D2811664F308756.subtitle}"
 			description: [
-				"更大的电解器."
-				"能最多生产两种不同的液体."
+				"{quest.twr.2D2811664F308756.description.1}"
+				"{quest.twr.2D2811664F308756.description.2}"
 			]
 			dependencies: ["5D52744D5382A6CA"]
 			id: "2D2811664F308756"
@@ -339,16 +339,16 @@
 			}]
 		}
 		{
-			title: "黑色金属-钢"
+			title: "{quest.twr.0019852CD6EC0354.title}"
 			icon: "immersiveengineering:ingot_steel"
 			x: 0.0d
 			y: -5.0d
 			shape: "gear"
-			subtitle: "坚硬无比"
+			subtitle: "{quest.twr.0019852CD6EC0354.subtitle}"
 			description: [
-				"进行大规模工业化的基础."
-				""
-				"你现在可以尝试建造新的能量塔了."
+				"{quest.twr.0019852CD6EC0354.description.1}"
+				"{quest.twr.0019852CD6EC0354.description.2}"
+				"{quest.twr.0019852CD6EC0354.description.3}"
 			]
 			dependencies: [
 				"19038BB5A9E42055"
@@ -439,10 +439,10 @@
 			]
 		}
 		{
-			title: "更大的发电机"
+			title: "{quest.twr.66A550B05F529CD5.title}"
 			x: -2.5d
 			y: -1.5d
-			subtitle: "动力强劲，能源充沛"
+			subtitle: "{quest.twr.66A550B05F529CD5.subtitle}"
 			dependencies: ["4138E3A9915F811C"]
 			id: "66A550B05F529CD5"
 			tasks: [{

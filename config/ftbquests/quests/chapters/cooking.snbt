@@ -3,9 +3,9 @@
 	group: "7668DAE31E3EF623"
 	order_index: 2
 	filename: "cooking"
-	title: "西伯利亚大厨的一天"
+	title: "{chapter.twr.715FF1EB059BCACF.title}"
 	icon: "crockpot:crock_pot_basic"
-	subtitle: ["食物。食物。食物。"]
+	subtitle: ["{chapter.twr.715FF1EB059BCACF.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -23,10 +23,10 @@
 		{
 			x: -3.0d
 			y: 3.5d
-			subtitle: "掺了木屑的面包"
+			subtitle: "{quest.twr.24720864351339DC.subtitle}"
 			description: [
-				""
-				"难吃，但是可以填饱肚子。"
+				"{quest.twr.24720864351339DC.description.1}"
+				"{quest.twr.24720864351339DC.description.2}"
 			]
 			dependencies: ["68CF06AA926D32E6"]
 			id: "24720864351339DC"
@@ -39,10 +39,10 @@
 		{
 			x: -1.0d
 			y: 3.5d
-			subtitle: "用黑麦熬成的粥"
+			subtitle: "{quest.twr.04E9589E45C56536.subtitle}"
 			description: [
-				"需要烹饪锅制作。"
-				"配方: 2份黑麦面粉+1个碗+任意填充物(该填充物不能是不可食用类)"
+				"{quest.twr.04E9589E45C56536.description.1}"
+				"{quest.twr.04E9589E45C56536.description.2}"
 			]
 			dependencies: ["68CF06AA926D32E6"]
 			id: "04E9589E45C56536"
@@ -55,11 +55,11 @@
 		{
 			x: 0.5d
 			y: 3.5d
-			subtitle: "黑麦粥，但是加了木屑"
+			subtitle: "{quest.twr.5C3681B30ADB26B9.subtitle}"
 			description: [
-				"需要烹饪锅制作。"
-				"配方："
-				"1份黑麦面粉+1个碗+1份锯末+任意填充物(不能是不可食用类)"
+				"{quest.twr.5C3681B30ADB26B9.description.1}"
+				"{quest.twr.5C3681B30ADB26B9.description.2}"
+				"{quest.twr.5C3681B30ADB26B9.description.3}"
 			]
 			dependencies: ["68CF06AA926D32E6"]
 			id: "5C3681B30ADB26B9"
@@ -72,8 +72,8 @@
 		{
 			x: -4.5d
 			y: 3.5d
-			subtitle: "带点绿色的面包，不过味道不错。"
-			description: ["普通的黑麦面包"]
+			subtitle: "{quest.twr.1AA5B1B0025EA6E6.subtitle}"
+			description: ["{quest.twr.1AA5B1B0025EA6E6.description.1}"]
 			dependencies: ["68CF06AA926D32E6"]
 			id: "1AA5B1B0025EA6E6"
 			tasks: [{
@@ -83,11 +83,11 @@
 			}]
 		}
 		{
-			title: "最好的填充物"
+			title: "{quest.twr.0732C5BB3471FFA7.title}"
 			x: -4.5d
 			y: -0.5d
-			subtitle: "常见？"
-			description: ["在这漫天冰雪的世界里，还有什么比冰雪更适合做填充物的呢?"]
+			subtitle: "{quest.twr.0732C5BB3471FFA7.subtitle}"
+			description: ["{quest.twr.0732C5BB3471FFA7.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["7AA152F9B5AF6677"]
 			id: "0732C5BB3471FFA7"
@@ -100,10 +100,10 @@
 		{
 			x: -2.0d
 			y: -3.0d
-			subtitle: "在寒冷的冬天里，炖一锅热菜吧。"
+			subtitle: "{quest.twr.7AA152F9B5AF6677.subtitle}"
 			description: [
-				"集煎炒焖炸卤炖于一体的多功能锅子"
-				"使用方法很简单，把带有食材值描述的植物扔进去炖就完事了，至于做出来什么..."
+				"{quest.twr.7AA152F9B5AF6677.description.1}"
+				"{quest.twr.7AA152F9B5AF6677.description.2}"
 			]
 			dependencies: ["328D948C4C800873"]
 			id: "7AA152F9B5AF6677"
@@ -114,11 +114,11 @@
 			}]
 		}
 		{
-			title: "白萝卜"
+			title: "{quest.twr.6D01046E549A087E.title}"
 			x: 5.0d
 			y: -0.5d
-			subtitle: "蔬菜"
-			description: ["一种耐寒的蔬菜，可以在很低的温度下生长。"]
+			subtitle: "{quest.twr.6D01046E549A087E.subtitle}"
+			description: ["{quest.twr.6D01046E549A087E.description.1}"]
 			dependencies: ["69D939596ED4C0AF"]
 			id: "6D01046E549A087E"
 			tasks: [{
@@ -130,11 +130,11 @@
 		{
 			x: 4.0d
 			y: 1.5d
-			subtitle: "用乱七八糟蔬菜做成的汤"
+			subtitle: "{quest.twr.7359422ABAFA7721.subtitle}"
 			description: [
-				"普通的蔬菜汤。"
-				"配方："
-				"至少1.75份任意蔬菜+1个碗+任意填充物(不能是不可食用类)"
+				"{quest.twr.7359422ABAFA7721.description.1}"
+				"{quest.twr.7359422ABAFA7721.description.2}"
+				"{quest.twr.7359422ABAFA7721.description.3}"
 			]
 			dependencies: ["6D01046E549A087E"]
 			id: "7359422ABAFA7721"
@@ -147,11 +147,11 @@
 		{
 			x: 6.0d
 			y: 1.5d
-			subtitle: "这能喝吗？"
+			subtitle: "{quest.twr.6746167385331F16.subtitle}"
 			description: [
-				"刺嗓子的蔬菜汤。"
-				"配方："
-				"至少1份任意蔬菜+1份锯末+1个碗+任意填充物(不能是不可食用类)"
+				"{quest.twr.6746167385331F16.description.1}"
+				"{quest.twr.6746167385331F16.description.2}"
+				"{quest.twr.6746167385331F16.description.3}"
 			]
 			dependencies: ["6D01046E549A087E"]
 			id: "6746167385331F16"
@@ -162,11 +162,11 @@
 			}]
 		}
 		{
-			title: "木头渣子"
+			title: "{quest.twr.20F1DD1209093059.title}"
 			x: -7.0d
 			y: -0.5d
-			subtitle: "劈砍木头时偶尔获得"
-			description: ["混在食物里可以增强饱腹感。"]
+			subtitle: "{quest.twr.20F1DD1209093059.subtitle}"
+			description: ["{quest.twr.20F1DD1209093059.description.1}"]
 			dependencies: ["7887EB905BAA7BEF"]
 			hide: true
 			id: "20F1DD1209093059"
@@ -180,8 +180,8 @@
 		{
 			x: -2.0d
 			y: -0.5d
-			subtitle: "抗寒作物"
-			description: ["黑麦是最耐低温的作物之一，你可以在开启能量塔后收获黑麦，作为你最初的口粮。"]
+			subtitle: "{quest.twr.4E2FF1AFA626A42B.subtitle}"
+			description: ["{quest.twr.4E2FF1AFA626A42B.description.1}"]
 			dependencies: ["69D939596ED4C0AF"]
 			id: "4E2FF1AFA626A42B"
 			tasks: [{
@@ -193,7 +193,7 @@
 		{
 			x: 0.5d
 			y: -0.5d
-			subtitle: "高级货"
+			subtitle: "{quest.twr.5CCD8F05D7402D4B.subtitle}"
 			dependencies: ["20E078A9220D6114"]
 			id: "5CCD8F05D7402D4B"
 			tasks: [{

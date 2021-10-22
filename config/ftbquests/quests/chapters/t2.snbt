@@ -3,7 +3,7 @@
 	group: "7823E178F7BCBCB0"
 	order_index: 2
 	filename: "t2"
-	title: "蒸汽驱动"
+	title: "{chapter.twr.3A3B51CF7F606665.title}"
 	icon: {
 		id: "rankine:cast_iron_alloy"
 		Count: 1b
@@ -13,17 +13,17 @@
 			}]
 		}
 	}
-	subtitle: ["这不是你熟悉的蒸汽时代。"]
+	subtitle: ["{chapter.twr.3A3B51CF7F606665.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: -19.0d
 			y: -0.5d
-			subtitle: "工作台"
+			subtitle: "{quest.twr.328D948C4C800873.subtitle}"
 			description: [
-				"这是? 工作台!"
-				"&6目前已经解锁了一些支线，可以考虑去看看."
+				"{quest.twr.328D948C4C800873.description.1}"
+				"{quest.twr.328D948C4C800873.description.2}"
 			]
 			dependencies: ["75154C5A6E2F3257"]
 			hide: false
@@ -38,7 +38,7 @@
 		{
 			x: -17.5d
 			y: 1.0d
-			subtitle: "安稳入眠"
+			subtitle: "{quest.twr.58AB0B83E545475C.subtitle}"
 			dependencies: ["328D948C4C800873"]
 			hide: true
 			id: "58AB0B83E545475C"
@@ -51,10 +51,10 @@
 		{
 			x: -17.5d
 			y: -0.5d
-			subtitle: "不是石墨"
+			subtitle: "{quest.twr.7887EB905BAA7BEF.subtitle}"
 			description: [
-				"右键打开gui放入物品。"
-				"&6空手潜行-右键石磨以研磨。"
+				"{quest.twr.7887EB905BAA7BEF.description.1}"
+				"{quest.twr.7887EB905BAA7BEF.description.2}"
 			]
 			dependencies: ["328D948C4C800873"]
 			hide: true
@@ -68,7 +68,7 @@
 		{
 			x: -16.0d
 			y: -0.5d
-			description: ["耐火粘土的原料之一。"]
+			description: ["{quest.twr.060F482D9D3374F9.description.1}"]
 			dependencies: ["7887EB905BAA7BEF"]
 			id: "060F482D9D3374F9"
 			tasks: [{
@@ -81,8 +81,8 @@
 			x: -16.0d
 			y: 1.0d
 			description: [
-				"耐火粘土的原料之一。"
-				"&6分散在上层沉积岩中"
+				"{quest.twr.48F3102B3AA99313.description.1}"
+				"{quest.twr.48F3102B3AA99313.description.2}"
 			]
 			dependencies: ["7887EB905BAA7BEF"]
 			id: "48F3102B3AA99313"
@@ -95,7 +95,7 @@
 		{
 			x: -14.5d
 			y: -0.5d
-			description: ["用于制作耐火砖。"]
+			description: ["{quest.twr.6417209CD8ADABEC.description.1}"]
 			dependencies: [
 				"060F482D9D3374F9"
 				"48F3102B3AA99313"
@@ -111,7 +111,7 @@
 		{
 			x: -13.0d
 			y: -0.5d
-			description: ["它的耐热性比砂质砖更优秀，你可以用它制作高炉砖。"]
+			description: ["{quest.twr.71D389AF87847D7B.description.1}"]
 			dependencies: ["6417209CD8ADABEC"]
 			id: "71D389AF87847D7B"
 			tasks: [{
@@ -123,8 +123,8 @@
 		{
 			x: -20.5d
 			y: -0.5d
-			subtitle: "焦炉！"
-			description: ["有了焦炉，就再也不需要一次次地布置木炭坑了！"]
+			subtitle: "{quest.twr.5287CFB7B7D5285E.subtitle}"
+			description: ["{quest.twr.5287CFB7B7D5285E.description.1}"]
 			dependencies: ["328D948C4C800873"]
 			hide: true
 			id: "5287CFB7B7D5285E"
@@ -137,7 +137,7 @@
 		{
 			x: -13.0d
 			y: 1.0d
-			description: ["IE高炉的构成方块，搭建"]
+			description: ["{quest.twr.0E27E31FF6145D05.description.1}"]
 			dependencies: ["71D389AF87847D7B"]
 			id: "0E27E31FF6145D05"
 			tasks: [{
@@ -150,11 +150,11 @@
 			x: -13.0d
 			y: 2.5d
 			shape: "gear"
-			subtitle: "黑金"
+			subtitle: "{quest.twr.4CC5E16EFDE1368C.subtitle}"
 			description: [
-				"经过精加工的低含碳量铁合金锭."
-				"很♂黑，很♂硬。"
-				"用于制作大多数机械动力物品。"
+				"{quest.twr.4CC5E16EFDE1368C.description.1}"
+				"{quest.twr.4CC5E16EFDE1368C.description.2}"
+				"{quest.twr.4CC5E16EFDE1368C.description.3}"
 			]
 			dependencies: ["0E27E31FF6145D05"]
 			hide: true
@@ -176,7 +176,7 @@
 		{
 			x: -20.5d
 			y: 1.0d
-			description: ["提供红石脉冲时工作。"]
+			description: ["{quest.twr.4D0ECD01E0CC7C8C.description.1}"]
 			dependencies: ["678491900C7F03F2"]
 			id: "4D0ECD01E0CC7C8C"
 			tasks: [{
@@ -188,7 +188,7 @@
 		{
 			x: -19.0d
 			y: 1.0d
-			description: ["红石可以通过处理朱砂获得"]
+			description: ["{quest.twr.678491900C7F03F2.description.1}"]
 			dependencies: ["328D948C4C800873"]
 			hide: true
 			id: "678491900C7F03F2"
@@ -201,7 +201,7 @@
 		{
 			x: -16.0d
 			y: 2.5d
-			subtitle: "制造电容"
+			subtitle: "{quest.twr.401439E8C1AA7A0A.subtitle}"
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "401439E8C1AA7A0A"
 			tasks: [{
@@ -213,7 +213,7 @@
 		{
 			x: -20.5d
 			y: -2.0d
-			subtitle: "随身携带"
+			subtitle: "{quest.twr.6E83E2133A978D34.subtitle}"
 			dependencies: ["328D948C4C800873"]
 			id: "6E83E2133A978D34"
 			tasks: [{
@@ -226,11 +226,11 @@
 			x: -17.5d
 			y: -3.5d
 			shape: "gear"
-			subtitle: "忘掉木齿轮"
+			subtitle: "{quest.twr.3E8F565DE61309B2.subtitle}"
 			description: [
-				"如果你玩过机械动力，你大概知道木齿轮。"
-				"然而在这样的寒冷天气里，木制品太不结实了。"
-				"在这里，制作齿轮的最低材料要求是&e青铜。"
+				"{quest.twr.3E8F565DE61309B2.description.1}"
+				"{quest.twr.3E8F565DE61309B2.description.2}"
+				"{quest.twr.3E8F565DE61309B2.description.3}"
 			]
 			dependencies: ["6000F43C135FC068"]
 			id: "3E8F565DE61309B2"
@@ -254,10 +254,10 @@
 		{
 			x: -11.5d
 			y: 1.0d
-			subtitle: "通入蒸汽"
+			subtitle: "{quest.twr.32A497C69C641D2B.subtitle}"
 			description: [
-				"&6&l蒸汽通入速率需要足够大才能使它运转起来."
-				"可以使用护目镜查看运行状态"
+				"{quest.twr.32A497C69C641D2B.description.1}"
+				"{quest.twr.32A497C69C641D2B.description.2}"
 			]
 			dependencies: [
 				"263F5ADF4A6CDF5A"
@@ -273,7 +273,7 @@
 		{
 			x: -5.5d
 			y: 7.0d
-			subtitle: "更快，更强"
+			subtitle: "{quest.twr.0FEC22A5C56936DC.subtitle}"
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "0FEC22A5C56936DC"
 			tasks: [{
@@ -286,8 +286,8 @@
 			x: -10.0d
 			y: 1.0d
 			shape: "gear"
-			subtitle: "并不会飞"
-			description: ["和青铜蒸汽引擎配合产生大量的应力。"]
+			subtitle: "{quest.twr.0F8B1303FEF36BD1.subtitle}"
+			description: ["{quest.twr.0F8B1303FEF36BD1.description.1}"]
 			dependencies: ["32A497C69C641D2B"]
 			id: "0F8B1303FEF36BD1"
 			tasks: [{
@@ -299,7 +299,7 @@
 		{
 			x: -7.0d
 			y: 7.0d
-			subtitle: "加大力度"
+			subtitle: "{quest.twr.0972243D44A0CF46.subtitle}"
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "0972243D44A0CF46"
 			tasks: [{
@@ -312,10 +312,10 @@
 			x: -13.0d
 			y: 7.0d
 			shape: "gear"
-			subtitle: "跟我一起切割磁感线"
+			subtitle: "{quest.twr.1F2BD4A72596B287.subtitle}"
 			description: [
-				"第一台简单的发电机。"
-				"&6背面输出能量，正面输入RPM。"
+				"{quest.twr.1F2BD4A72596B287.description.1}"
+				"{quest.twr.1F2BD4A72596B287.description.2}"
 			]
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "1F2BD4A72596B287"
@@ -328,12 +328,12 @@
 		{
 			x: -8.5d
 			y: 2.5d
-			subtitle: "一机三用"
+			subtitle: "{quest.twr.29DCBBB54EE90E51.subtitle}"
 			description: [
-				"在前方放置岩浆可以当作熔炉使用。"
-				"在前方放置水方块可以用来将打碎的矿物洗净。"
-				"在前方放置火焰则可以当作烟熏炉。"
-				"大多情况下需要配合一条传送带使用。"
+				"{quest.twr.29DCBBB54EE90E51.description.1}"
+				"{quest.twr.29DCBBB54EE90E51.description.2}"
+				"{quest.twr.29DCBBB54EE90E51.description.3}"
+				"{quest.twr.29DCBBB54EE90E51.description.4}"
 			]
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "29DCBBB54EE90E51"
@@ -346,8 +346,8 @@
 		{
 			x: -8.5d
 			y: 7.0d
-			subtitle: "更结实一些"
-			description: ["比青铜齿轮消耗更少的应力。"]
+			subtitle: "{quest.twr.7EDDAD2D1E2B0613.subtitle}"
+			description: ["{quest.twr.7EDDAD2D1E2B0613.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "7EDDAD2D1E2B0613"
 			tasks: [{
@@ -359,8 +359,8 @@
 		{
 			x: -7.0d
 			y: 2.5d
-			subtitle: "不用自己动手了"
-			description: ["研磨一些没那么坚硬的物品。"]
+			subtitle: "{quest.twr.4600CF7553C26ED0.subtitle}"
+			description: ["{quest.twr.4600CF7553C26ED0.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "4600CF7553C26ED0"
 			tasks: [{
@@ -372,8 +372,8 @@
 		{
 			x: -11.5d
 			y: 5.5d
-			subtitle: "还挺结实的"
-			description: ["将你挖掘到的矿物打碎以进一步处理。"]
+			subtitle: "{quest.twr.064ECF25B9B8962B.subtitle}"
+			description: ["{quest.twr.064ECF25B9B8962B.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "064ECF25B9B8962B"
 			tasks: [{
@@ -385,8 +385,8 @@
 		{
 			x: -13.0d
 			y: 3.5d
-			subtitle: "压力山大"
-			description: ["一台实用的机器，你可以用它增产板材，当然也可以做巧克力。"]
+			subtitle: "{quest.twr.5845439CF721309F.subtitle}"
+			description: ["{quest.twr.5845439CF721309F.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "5845439CF721309F"
 			tasks: [{
@@ -398,8 +398,8 @@
 		{
 			x: -17.5d
 			y: -2.0d
-			subtitle: "一锅粥"
-			description: ["可以处理所有的无序合成配方。"]
+			subtitle: "{quest.twr.3549A50510878505.subtitle}"
+			description: ["{quest.twr.3549A50510878505.description.1}"]
 			dependencies: ["3E8F565DE61309B2"]
 			id: "3549A50510878505"
 			tasks: [{
@@ -411,8 +411,8 @@
 		{
 			x: -14.5d
 			y: -2.0d
-			subtitle: "一个铁盆"
-			description: ["搅拌机和辊压机的最好搭档。"]
+			subtitle: "{quest.twr.3CC2245A281AABC1.subtitle}"
+			description: ["{quest.twr.3CC2245A281AABC1.description.1}"]
 			dependencies: ["3549A50510878505"]
 			id: "3CC2245A281AABC1"
 			tasks: [{
@@ -425,10 +425,10 @@
 			x: -5.5d
 			y: 2.5d
 			shape: "gear"
-			subtitle: "烈焰人保护协会表强烈谴责"
+			subtitle: "{quest.twr.4548F432A872DA92.subtitle}"
 			description: [
-				"一些机器的配方需要高温环境才能正常处理."
-				"这台燃烧室可以很轻松的做到这点。"
+				"{quest.twr.4548F432A872DA92.description.1}"
+				"{quest.twr.4548F432A872DA92.description.2}"
 			]
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "4548F432A872DA92"
@@ -441,8 +441,8 @@
 		{
 			x: -4.0d
 			y: 2.5d
-			subtitle: "不能坐人"
-			description: ["放置物品，配合其他机器处理配方。"]
+			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
+			description: ["{quest.twr.15B365E3F3EAFE79.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "15B365E3F3EAFE79"
 			tasks: [{
@@ -454,11 +454,11 @@
 		{
 			x: -19.0d
 			y: -3.5d
-			subtitle: "人民有力量"
+			subtitle: "{quest.twr.6000F43C135FC068.subtitle}"
 			description: [
-				"手摇产生的动力不大，但是足以泵出能够带动青铜蒸汽引擎运行的蒸汽量。"
-				"在做出蒸汽引擎后，你便能解放双手了。"
-				"你需要它来驱动一些基础的机器，比如搅拌机。"
+				"{quest.twr.6000F43C135FC068.description.1}"
+				"{quest.twr.6000F43C135FC068.description.2}"
+				"{quest.twr.6000F43C135FC068.description.3}"
 			]
 			dependencies: ["404CFF89CCFE9D6B"]
 			id: "6000F43C135FC068"
@@ -469,7 +469,7 @@
 			}]
 		}
 		{
-			title: "青铜锅炉"
+			title: "{quest.twr.7612A96FFEFC5635.title}"
 			icon: {
 				id: "custommachinery:custom_machine_item"
 				Count: 1b
@@ -479,10 +479,10 @@
 			}
 			x: -11.5d
 			y: -0.5d
-			subtitle: "人类的一小步"
+			subtitle: "{quest.twr.7612A96FFEFC5635.subtitle}"
 			description: [
-				"燃烧煤炭和焦煤产生蒸汽"
-				"&6&l锅炉搭在燃烧室方块的顶上提供燃料即可"
+				"{quest.twr.7612A96FFEFC5635.description.1}"
+				"{quest.twr.7612A96FFEFC5635.description.2}"
 			]
 			dependencies: [
 				"197308226CAE52C4"
@@ -517,7 +517,7 @@
 		{
 			x: -13.0d
 			y: -3.5d
-			subtitle: "流体运输"
+			subtitle: "{quest.twr.17C359DCF058E698.subtitle}"
 			dependencies: ["3E8F565DE61309B2"]
 			id: "17C359DCF058E698"
 			tasks: [{
@@ -529,10 +529,10 @@
 		{
 			x: -11.5d
 			y: -3.5d
-			subtitle: "把蒸汽从锅炉抽出来"
+			subtitle: "{quest.twr.197308226CAE52C4.subtitle}"
 			description: [
-				"&6&l若速度不够可以尝试让齿轮提速。"
-				"前期唯一自动抽取锅炉内蒸汽的方式."
+				"{quest.twr.197308226CAE52C4.description.1}"
+				"{quest.twr.197308226CAE52C4.description.2}"
 			]
 			dependencies: ["17C359DCF058E698"]
 			id: "197308226CAE52C4"
@@ -556,7 +556,7 @@
 		{
 			x: -13.0d
 			y: 8.5d
-			subtitle: "用在用电器和发电设备上"
+			subtitle: "{quest.twr.4926C4062339E018.subtitle}"
 			dependencies: ["1F2BD4A72596B287"]
 			hide: true
 			id: "4926C4062339E018"
@@ -569,7 +569,7 @@
 		{
 			x: -10.0d
 			y: 8.5d
-			subtitle: "最基础的电线"
+			subtitle: "{quest.twr.5B8BA38FF8C93A1A.subtitle}"
 			dependencies: ["1F2BD4A72596B287"]
 			id: "5B8BA38FF8C93A1A"
 			tasks: [{
@@ -581,8 +581,8 @@
 		{
 			x: -10.0d
 			y: 7.0d
-			subtitle: "这很朋克"
-			description: ["使用方法请使用思索功能查看动画。"]
+			subtitle: "{quest.twr.17F033FB5ACAACFB.subtitle}"
+			description: ["{quest.twr.17F033FB5ACAACFB.description.1}"]
 			dependencies: ["1F94471C5310ECFA"]
 			id: "17F033FB5ACAACFB"
 			tasks: [{
@@ -605,7 +605,7 @@
 		{
 			x: -8.5d
 			y: 4.0d
-			subtitle: "大概三十目"
+			subtitle: "{quest.twr.10CB240A20A88FE0.subtitle}"
 			dependencies: ["6439CF1B54CEF092"]
 			id: "10CB240A20A88FE0"
 			tasks: [{
@@ -623,7 +623,7 @@
 		{
 			x: -10.0d
 			y: 4.0d
-			subtitle: "掺合了红石的二氧化硅晶体"
+			subtitle: "{quest.twr.279DA3B6F5DE7753.subtitle}"
 			dependencies: ["10CB240A20A88FE0"]
 			id: "279DA3B6F5DE7753"
 			tasks: [{
@@ -635,7 +635,7 @@
 		{
 			x: -7.0d
 			y: 1.0d
-			subtitle: "二氧化硅罢了"
+			subtitle: "{quest.twr.6577F4E013F76B98.subtitle}"
 			dependencies: ["4600CF7553C26ED0"]
 			id: "6577F4E013F76B98"
 			tasks: [{
@@ -647,7 +647,7 @@
 		{
 			x: -10.0d
 			y: 5.5d
-			subtitle: "没有电流通过"
+			subtitle: "{quest.twr.1F94471C5310ECFA.subtitle}"
 			dependencies: ["279DA3B6F5DE7753"]
 			id: "1F94471C5310ECFA"
 			tasks: [{
@@ -660,8 +660,8 @@
 			x: -7.0d
 			y: 8.5d
 			shape: "gear"
-			subtitle: "氧气助燃"
-			description: ["只有提供鼓风机，冶钢坩埚才能开始工作。"]
+			subtitle: "{quest.twr.016B841B20166EA8.subtitle}"
+			description: ["{quest.twr.016B841B20166EA8.description.1}"]
 			dependencies: ["5B8BA38FF8C93A1A"]
 			id: "016B841B20166EA8"
 			tasks: [{
@@ -671,20 +671,20 @@
 			}]
 		}
 		{
-			title: "炼钢坩埚"
+			title: "{quest.twr.19038BB5A9E42055.title}"
 			icon: "rankine:high_refractory_bricks"
 			x: -3.5d
 			y: -1.5d
 			shape: "gear"
-			subtitle: "更热门的话题"
+			subtitle: "{quest.twr.19038BB5A9E42055.subtitle}"
 			description: [
-				"&6炼钢坩埚是比原始高炉更加先进的冶炼设备."
-				"&6&l必须使用焦煤进行加热."
-				"&6并且在小口处提供一个&4&l高炉鼓风机。"
-				"搭建: 从上到下"
-				"HHH HHH BBB BBB  H=高耐火砖"
-				"H H H H  BCB BBB  B=燃烧室"
-				"HHH HHH BBB BBB  C=燃烧室核心"
+				"{quest.twr.19038BB5A9E42055.description.1}"
+				"{quest.twr.19038BB5A9E42055.description.2}"
+				"{quest.twr.19038BB5A9E42055.description.3}"
+				"{quest.twr.19038BB5A9E42055.description.4}"
+				"{quest.twr.19038BB5A9E42055.description.5}"
+				"{quest.twr.19038BB5A9E42055.description.6}"
+				"{quest.twr.19038BB5A9E42055.description.7}"
 			]
 			dependencies: ["6738A3C34A872FED"]
 			id: "19038BB5A9E42055"
@@ -711,8 +711,8 @@
 		{
 			x: -4.5d
 			y: -1.5d
-			subtitle: "耐高温"
-			description: ["需要动力搅拌机和烈焰人燃烧室制作"]
+			subtitle: "{quest.twr.6738A3C34A872FED.subtitle}"
+			description: ["{quest.twr.6738A3C34A872FED.description.1}"]
 			dependencies: ["29556685F57F6657"]
 			id: "6738A3C34A872FED"
 			tasks: [{
@@ -735,11 +735,11 @@
 		{
 			x: -13.0d
 			y: -1.5d
-			subtitle: "又是一种炉子"
+			subtitle: "{quest.twr.67486831FE3C0FBA.subtitle}"
 			description: [
-				"查看主方块思索了解搭建方法"
-				"使用方法是把对应的(完整方块)放在耐火砖上"
-				"&6使用打火石右击主方块,需要露天。"
+				"{quest.twr.67486831FE3C0FBA.description.1}"
+				"{quest.twr.67486831FE3C0FBA.description.2}"
+				"{quest.twr.67486831FE3C0FBA.description.3}"
 			]
 			dependencies: ["71D389AF87847D7B"]
 			id: "67486831FE3C0FBA"
@@ -752,8 +752,8 @@
 		{
 			x: -5.5d
 			y: -1.5d
-			subtitle: "菱镁矿处理而来"
-			description: ["把菱镁矿堆成块之后烧制。"]
+			subtitle: "{quest.twr.29556685F57F6657.subtitle}"
+			description: ["{quest.twr.29556685F57F6657.description.1}"]
 			dependencies: [
 				"67486831FE3C0FBA"
 				"4548F432A872DA92"
@@ -769,8 +769,8 @@
 		{
 			x: -9.0d
 			y: -1.5d
-			subtitle: "快速烧制"
-			description: ["使用任何含碳酸钙的石头烧制而成。"]
+			subtitle: "{quest.twr.4F279E9DBFD52861.subtitle}"
+			description: ["{quest.twr.4F279E9DBFD52861.description.1}"]
 			dependencies: ["67486831FE3C0FBA"]
 			id: "4F279E9DBFD52861"
 			tasks: [{
@@ -782,8 +782,8 @@
 		{
 			x: -16.0d
 			y: 8.5d
-			subtitle: "储能"
-			description: ["你需要使用机械手和传送带打造一条装配线来组装电容。"]
+			subtitle: "{quest.twr.688C57B7BC46E723.subtitle}"
+			description: ["{quest.twr.688C57B7BC46E723.description.1}"]
 			dependencies: [
 				"5B8BA38FF8C93A1A"
 				"4845A9B7B7B2B4A5"
@@ -799,7 +799,7 @@
 		{
 			x: -16.0d
 			y: 5.5d
-			subtitle: "模仿玩家右击"
+			subtitle: "{quest.twr.4845A9B7B7B2B4A5.subtitle}"
 			dependencies: [
 				"1F94471C5310ECFA"
 				"4B46838E7C65D4C4"
@@ -815,8 +815,8 @@
 			x: -13.0d
 			y: 10.0d
 			shape: "gear"
-			subtitle: "高精组装"
-			description: ["需要的树脂可以从云杉,胶枞,雪松等提取。"]
+			subtitle: "{quest.twr.7F84766122DC4753.subtitle}"
+			description: ["{quest.twr.7F84766122DC4753.description.1}"]
 			dependencies: ["4926C4062339E018"]
 			id: "7F84766122DC4753"
 			tasks: [{
@@ -840,7 +840,7 @@
 			x: -11.5d
 			y: 2.5d
 			shape: "gear"
-			subtitle: "制造更大的物品"
+			subtitle: "{quest.twr.263F5ADF4A6CDF5A.subtitle}"
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "263F5ADF4A6CDF5A"
 			tasks: [{
@@ -852,7 +852,7 @@
 		{
 			x: -11.5d
 			y: 3.5d
-			subtitle: "小巧便携"
+			subtitle: "{quest.twr.248D44C92972DF23.subtitle}"
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "248D44C92972DF23"
 			tasks: [{
@@ -864,7 +864,7 @@
 		{
 			x: -8.5d
 			y: 1.0d
-			description: ["你现在可以更方便处理木头了"]
+			description: ["{quest.twr.41D8E04627E55A86.description.1}"]
 			dependencies: ["0F8B1303FEF36BD1"]
 			id: "41D8E04627E55A86"
 			tasks: [{
@@ -876,10 +876,10 @@
 		{
 			x: -14.5d
 			y: -5.0d
-			subtitle: "额外信息"
+			subtitle: "{quest.twr.634DBB9E76CD029B.subtitle}"
 			description: [
-				"&6作为一名动力工程师，这副眼镜必不可少。"
-				"带上之后，你能看到关于机械和蒸汽设备的很多内部信息。"
+				"{quest.twr.634DBB9E76CD029B.description.1}"
+				"{quest.twr.634DBB9E76CD029B.description.2}"
 			]
 			dependencies: ["5C078D2F43CA4048"]
 			id: "634DBB9E76CD029B"
@@ -893,8 +893,8 @@
 			icon: "rankine:tree_tap"
 			x: -13.0d
 			y: 5.5d
-			subtitle: "提取机"
-			description: ["&6在沙林加树干上放置后使用空桶挂上即可收集胶乳"]
+			subtitle: "{quest.twr.55BE6F159CF89342.subtitle}"
+			description: ["{quest.twr.55BE6F159CF89342.description.1}"]
 			dependencies: ["064ECF25B9B8962B"]
 			id: "55BE6F159CF89342"
 			tasks: [
@@ -918,7 +918,7 @@
 		{
 			x: -17.5d
 			y: -5.0d
-			description: ["能让小齿轮两倍速度转动,在某些地方也许需要."]
+			description: ["{quest.twr.103E4FC987E00FC7.description.1}"]
 			dependencies: ["3E8F565DE61309B2"]
 			id: "103E4FC987E00FC7"
 			tasks: [{
@@ -930,7 +930,7 @@
 		{
 			x: -19.0d
 			y: 2.5d
-			subtitle: "雪地飞人"
+			subtitle: "{quest.twr.47F9EC8C18040D6D.subtitle}"
 			dependencies: ["328D948C4C800873"]
 			id: "47F9EC8C18040D6D"
 			tasks: [{

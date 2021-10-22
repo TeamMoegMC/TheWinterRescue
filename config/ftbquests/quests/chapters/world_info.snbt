@@ -3,24 +3,24 @@
 	group: "7668DAE31E3EF623"
 	order_index: 4
 	filename: "world_info"
-	title: "世界信息"
+	title: "{chapter.twr.683664CACFD52C99.title}"
 	icon: "minecraft:grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "关于这个世界"
+			title: "{quest.twr.181378ABF5CCD166.title}"
 			icon: "minecraft:grass_block"
 			x: 0.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "生成须知"
+			subtitle: "{quest.twr.181378ABF5CCD166.subtitle}"
 			description: [
-				"&6岩层是按照群系来进行生成的."
-				""
-				"&6矿石是按照岩层来进行生成的."
-				""
-				"完成矿物任务了才显示生成信息."
+				"{quest.twr.181378ABF5CCD166.description.1}"
+				"{quest.twr.181378ABF5CCD166.description.2}"
+				"{quest.twr.181378ABF5CCD166.description.3}"
+				"{quest.twr.181378ABF5CCD166.description.4}"
+				"{quest.twr.181378ABF5CCD166.description.5}"
 			]
 			dependencies: ["45E2EF843333B846"]
 			hide: true
@@ -34,10 +34,10 @@
 		{
 			x: -3.5d
 			y: 2.0d
-			subtitle: "大量含铜"
+			subtitle: "{quest.twr.0B5888E9CDE431AE.subtitle}"
 			description: [
-				"生成于:"
-				"安山岩,板岩,拉斑玄武岩,红黑英安岩当中."
+				"{quest.twr.0B5888E9CDE431AE.description.1}"
+				"{quest.twr.0B5888E9CDE431AE.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -52,10 +52,10 @@
 		{
 			x: -2.0d
 			y: 2.0d
-			subtitle: "虽然可以当染料，但是也是铜矿"
+			subtitle: "{quest.twr.52B0059C59DF67B5.subtitle}"
 			description: [
-				"生成于:"
-				"凝灰岩,黑白大理石,角砾岩当中."
+				"{quest.twr.52B0059C59DF67B5.description.1}"
+				"{quest.twr.52B0059C59DF67B5.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -70,10 +70,10 @@
 		{
 			x: -3.5d
 			y: 3.0d
-			subtitle: "大量含锡"
+			subtitle: "{quest.twr.61DD1DCCB9CCBFBF.subtitle}"
 			description: [
-				"生成于:"
-				"伟晶岩,流纹岩,石英岩,石英砂岩"
+				"{quest.twr.61DD1DCCB9CCBFBF.description.1}"
+				"{quest.twr.61DD1DCCB9CCBFBF.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -88,10 +88,10 @@
 		{
 			x: -2.0d
 			y: 3.0d
-			subtitle: "氧化的锡"
+			subtitle: "{quest.twr.7D2807571451631F.subtitle}"
 			description: [
-				"生成于:"
-				"闪长岩,花岗闪长岩,花岗岩,灰色花岗岩,辉石辉长岩,白色大理石当中."
+				"{quest.twr.7D2807571451631F.description.1}"
+				"{quest.twr.7D2807571451631F.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -106,10 +106,10 @@
 		{
 			x: 1.0d
 			y: 2.0d
-			subtitle: "镍矿"
+			subtitle: "{quest.twr.40254682DFE145B8.subtitle}"
 			description: [
-				"生成于:"
-				"闪长岩,流纹岩,辉石辉长岩,花岗闪长岩,科马提岩"
+				"{quest.twr.40254682DFE145B8.description.1}"
+				"{quest.twr.40254682DFE145B8.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -124,10 +124,10 @@
 		{
 			x: 1.0d
 			y: 3.0d
-			subtitle: "大量含锑"
+			subtitle: "{quest.twr.29067D9CA0B3DC45.subtitle}"
 			description: [
-				"生成于:"
-				"云母片岩,流纹岩,科马提岩,拉斑玄武岩,科马提岩,红黑英安岩,花岗闪长岩,灰色花岗岩"
+				"{quest.twr.29067D9CA0B3DC45.description.1}"
+				"{quest.twr.29067D9CA0B3DC45.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -142,10 +142,10 @@
 		{
 			x: -0.5d
 			y: 2.0d
-			subtitle: "四氧化三铁"
+			subtitle: "{quest.twr.7C30A1316BF232EC.subtitle}"
 			description: [
-				"生成于:"
-				"白云岩,白垩岩,角砾岩,凝灰岩,碳质页岩当中."
+				"{quest.twr.7C30A1316BF232EC.description.1}"
+				"{quest.twr.7C30A1316BF232EC.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -160,10 +160,10 @@
 		{
 			x: -0.5d
 			y: 3.0d
-			subtitle: "硫化铁矿"
+			subtitle: "{quest.twr.31ED006279866288.subtitle}"
 			description: [
-				"生成于:"
-				"云母片岩,流纹岩,科马提岩,红黑英安岩当中."
+				"{quest.twr.31ED006279866288.description.1}"
+				"{quest.twr.31ED006279866288.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -178,10 +178,10 @@
 		{
 			x: 2.5d
 			y: 3.0d
-			subtitle: "另一种红石"
+			subtitle: "{quest.twr.72D5B725766622F4.subtitle}"
 			description: [
-				"生成于:"
-				"云母片岩,流纹岩,科马提岩,红黑英安岩当中."
+				"{quest.twr.72D5B725766622F4.description.1}"
+				"{quest.twr.72D5B725766622F4.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -196,10 +196,10 @@
 		{
 			x: 2.5d
 			y: 2.0d
-			subtitle: "含有氧化铝"
+			subtitle: "{quest.twr.0ED9C71E91687BFA.subtitle}"
 			description: [
-				"生成于:"
-				"凝灰岩,泥岩,白垩岩,碳质页岩,白云岩当中."
+				"{quest.twr.0ED9C71E91687BFA.description.1}"
+				"{quest.twr.0ED9C71E91687BFA.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -216,8 +216,8 @@
 			x: 4.0d
 			y: 2.0d
 			description: [
-				"生成于:"
-				"白垩岩,碳质页岩,白云岩,凝灰岩,角砾岩,泥岩当中."
+				"{quest.twr.539631D18E7A9B4A.description.1}"
+				"{quest.twr.539631D18E7A9B4A.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -234,8 +234,8 @@
 			x: 4.0d
 			y: 3.0d
 			description: [
-				"生成于:"
-				"白垩岩,碳质页岩,凝灰岩,泥岩当中."
+				"{quest.twr.6F39341180466270.description.1}"
+				"{quest.twr.6F39341180466270.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -250,10 +250,10 @@
 		{
 			x: -3.5d
 			y: 4.0d
-			subtitle: "含氟"
+			subtitle: "{quest.twr.5581901DD85F746D.subtitle}"
 			description: [
-				"生成于:"
-				"云母片岩,流纹岩,科马提岩,拉斑玄武岩,花岗岩,闪长岩,伟晶岩当中."
+				"{quest.twr.5581901DD85F746D.description.1}"
+				"{quest.twr.5581901DD85F746D.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -268,10 +268,10 @@
 		{
 			x: -2.0d
 			y: 4.0d
-			subtitle: "大量含铅"
+			subtitle: "{quest.twr.5907E1263E6D81E2.subtitle}"
 			description: [
-				"生成于:"
-				"云母片岩,流纹岩,科马提岩,红黑英安岩当中."
+				"{quest.twr.5907E1263E6D81E2.description.1}"
+				"{quest.twr.5907E1263E6D81E2.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -286,10 +286,10 @@
 		{
 			x: -0.5d
 			y: 4.0d
-			subtitle: "纯金"
+			subtitle: "{quest.twr.3840FFD53990ECA2.subtitle}"
 			description: [
-				"生成于:"
-				"云母片岩,流纹岩,科马提岩,拉斑玄武岩,花岗岩,闪长岩,伟晶岩当中."
+				"{quest.twr.3840FFD53990ECA2.description.1}"
+				"{quest.twr.3840FFD53990ECA2.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -304,10 +304,10 @@
 		{
 			x: 1.0d
 			y: 4.0d
-			subtitle: "纯银"
+			subtitle: "{quest.twr.6C49B6777A13CC02.subtitle}"
 			description: [
-				"生成于:"
-				"云母片岩,流纹岩,科马提岩,拉斑玄武岩,花岗岩,闪长岩,伟晶岩当中."
+				"{quest.twr.6C49B6777A13CC02.description.1}"
+				"{quest.twr.6C49B6777A13CC02.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -323,8 +323,8 @@
 			x: 2.5d
 			y: 4.0d
 			description: [
-				"生成于:"
-				"云母片岩,流纹岩,科马提岩,红黑英安岩当中."
+				"{quest.twr.2A8533418E3A8B06.description.1}"
+				"{quest.twr.2A8533418E3A8B06.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
@@ -340,8 +340,8 @@
 			x: 4.0d
 			y: 4.0d
 			description: [
-				"生成于:"
-				"白垩岩,碳质页岩,白云岩,凝灰岩,白色大理石当中."
+				"{quest.twr.1120D6251E9B42C4.description.1}"
+				"{quest.twr.1120D6251E9B42C4.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
