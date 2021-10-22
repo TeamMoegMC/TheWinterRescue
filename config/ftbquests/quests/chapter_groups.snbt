@@ -1,6 +1,6 @@
 {
 	chapter_groups: [
-		{ id: "7823E178F7BCBCB0", title: "{group.twr.quests.main_line.title}" }
-		{ id: "7668DAE31E3EF623", title: "{group.twr.quests.branch_line.title}" }
+		{ id: "7823E178F7BCBCB0", title: "{group.twr.main_line.title}" }
+		{ id: "7668DAE31E3EF623", title: "{group.twr.branch_line.title}" }
 	]
 }
