@@ -62,6 +62,10 @@ def read_snbt(full_path, file_name):
         j = 0
         for n, quest_line in enumerate(quest):
 
+            if quest_line.startswith("			description: [\""):
+                text_key = "description.1"
+                replace_with_lang_key(quest_line, text_key, f_list, q_start_line_index + n, quest_id)
+
             if quest_line.startswith("			]"):
                 flag = False
                 j = 0
@@ -76,14 +80,9 @@ def read_snbt(full_path, file_name):
                 if quest_line.startswith(key):
                     replace_with_lang_key(quest_line, key.lstrip(), f_list, q_start_line_index + n, quest_id)
 
-            if quest_line.startswith("			description"):
-                if quest_line.endswith("]"):
-                    text_key = "description." + str(j)
-                    replace_with_lang_key(quest_line, text_key, f_list, q_start_line_index + n, quest_id)
-                    continue
-                else:
-                    flag = True
-                    continue
+            if quest_line == "\t\t\tdescription: [\n":
+                flag = True
+                # continue
 
     f = open(full_path, "w+", encoding="utf-8")
     f.writelines(f_list)
