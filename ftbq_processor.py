@@ -136,13 +136,6 @@ def write_json(path):
     if len(copy) == 0:
         return
 
-    # some preinit stuff
-    # copy["group.twr.main_line.title"] = "Main Line"
-    # copy["group.twr.branch_line.title"] = "Branch Line"
-    # if path.endswith("zh_cn.json"):
-    #     copy["group.twr.main_line.title"] = "主线"
-    #     copy["group.twr.branch_line.title"] = "支线"
-
     original_dict = {}
     with open(path, encoding="utf-8") as inputfile:
         original_dict = json.load(inputfile)
