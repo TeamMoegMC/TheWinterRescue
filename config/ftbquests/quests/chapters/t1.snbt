@@ -1036,6 +1036,7 @@
 			]
 		}
 		{
+			title: "{quest.twr.33B6E7B60783C72B.title}"
 			x: -8.0d
 			y: 2.0d
 			shape: "gear"
@@ -1051,7 +1052,6 @@
 			tasks: [{
 				id: "6E14D0E983EACA58"
 				type: "checkmark"
-				title: "喝水"
 				icon: {
 					id: "watersource:leather_water_bag"
 					Count: 1b
@@ -1076,6 +1076,7 @@
 			}]
 		}
 		{
+			title: "{quest.twr.215BC2E7271F1478.title}"
 			icon: "crockpot:food_category_meat"
 			x: -9.5d
 			y: 2.0d
@@ -1092,10 +1093,10 @@
 			tasks: [{
 				id: "58F4265EA5C778FB"
 				type: "checkmark"
-				title: "营养"
 			}]
 		}
 		{
+			title: "{quest.twr.3B5663CF194B054C.title}"
 			x: -6.5d
 			y: 2.0d
 			shape: "gear"
@@ -1111,7 +1112,6 @@
 			tasks: [{
 				id: "3428FDD619813DBF"
 				type: "checkmark"
-				title: "体温"
 				icon: "weatherforecast:temperature_probe"
 			}]
 		}
