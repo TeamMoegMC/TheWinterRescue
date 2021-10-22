@@ -28,9 +28,9 @@ def read_snbt(full_path, file_name):
     file_name = file_name.split(".snbt")[0]
     f.close()
 
+    chapter_id = ""
     # replace chapter translation keys
     for i, line in enumerate(f_list):
-        chapter_id = ""
         if line.startswith("\tid"):
             first_quote_index = line.find("\"")
             last_quote_index = line.rfind("\"")
@@ -38,9 +38,9 @@ def read_snbt(full_path, file_name):
             print("=======================================")
             print("Found chapter with ID \"%s\"" % (chapter_id))
         if line.startswith("\ttitle"):
-            replace_with_lang_key(line, "title", f_list, i, chapter_id)
+            replace_with_lang_key(line, "title", f_list, i, chapter_id, "chapter")
         if line.startswith("\tsubtitle"):
-            replace_with_lang_key(line, "subtitle", f_list, i, chapter_id)
+            replace_with_lang_key(line, "subtitle", f_list, i, chapter_id, "chapter")
 
 
     # enumerate file and collect quest list
@@ -84,7 +84,7 @@ def read_snbt(full_path, file_name):
             # checks whether this line is a single-line description
             if quest_line.startswith("			description: [\""):
                 text_key = "description.1"
-                replace_with_lang_key(quest_line, text_key, f_list, q_start_line_index + n, quest_id)
+                replace_with_lang_key(quest_line, text_key, f_list, q_start_line_index + n, quest_id, "quest")
 
             # checks whether this line ends a multiple-line description
             if quest_line.startswith("			]"):
@@ -97,13 +97,13 @@ def read_snbt(full_path, file_name):
             if flag:
                 j += 1
                 text_key = "description." + str(j)
-                replace_with_lang_key(quest_line, text_key, f_list, q_start_line_index + n, quest_id)
+                replace_with_lang_key(quest_line, text_key, f_list, q_start_line_index + n, quest_id, "quest")
                 continue
 
             # checks whether this line is a title or subtitle
             for key in should_replace_key:
                 if quest_line.startswith(key):
-                    replace_with_lang_key(quest_line, key.lstrip(), f_list, q_start_line_index + n, quest_id)
+                    replace_with_lang_key(quest_line, key.lstrip(), f_list, q_start_line_index + n, quest_id, "quest")
 
             # checks whether this line is the start of a multiple-line description
             if quest_line == "\t\t\tdescription: [\n":
@@ -114,7 +114,7 @@ def read_snbt(full_path, file_name):
     f.close()
 
 
-def replace_with_lang_key(line, key, f_list, index, file_name):
+def replace_with_lang_key(line, key, f_list, index, file_name, key_type):
     global total_lines
     total_lines += 1
     first_quote_index = line.find("\"")
@@ -123,7 +123,7 @@ def replace_with_lang_key(line, key, f_list, index, file_name):
     content = line[first_quote_index + 1:last_quote_index]
     tail = line[last_quote_index + 1:len(line)]
     if not (content.startswith("{") and content.endswith("}")):
-        lang_key = "quest.twr.%s.%s" % (file_name, key)
+        lang_key = "%s.twr.%s.%s" % (key_type, file_name, key)
         print("Found translation key \"%s\", value = \"%s\"" % (lang_key, content))
         new_content = head + "\"{" + lang_key + "}\"" + tail
         f_list[index] = new_content
