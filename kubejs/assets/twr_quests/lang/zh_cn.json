@@ -596,5 +596,11 @@
   "quest.twr.46BF095F50804FCC.title": "山顶",
   "quest.twr.4E3C1F4BDB921B8E.title": "舱室",
   "quest.twr.25061B159D32453A.title": "个人物品",
-  "quest.twr.2422C77587FDEE28.title": "离开"
+  "quest.twr.2422C77587FDEE28.title": "离开",
+  "quest.twr.5C8730E4484959B9.title": "改造工具第一步",
+  "quest.twr.0B9DBC18CEEC4CB2.subtitle": "简易存储",
+  "quest.twr.0B9DBC18CEEC4CB2.description.1": "用青铜加固的木桶，比石箱能多装一些。",
+  "quest.twr.7175C1158EE9178A.subtitle": "不是棺材",
+  "quest.twr.7175C1158EE9178A.description.1": "用烧过的石板砌成，能够存储不少物品。",
+  "quest.twr.2E96E546DCA1486C.title": "燃料"
 }

@@ -209,6 +209,7 @@
 			}]
 		}
 		{
+			title: "超频"
 			icon: "minecraft:coal"
 			x: 2.0d
 			y: 0.0d
@@ -223,7 +224,6 @@
 			tasks: [{
 				id: "4965F8923CFE2918"
 				type: "checkmark"
-				title: "超频"
 			}]
 		}
 		{
