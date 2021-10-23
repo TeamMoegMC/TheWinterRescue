@@ -51,6 +51,10 @@ onEvent('item.tooltip', (event) => {
         {
             items: ['minecraft:campfire'],
             text: [Text.of(text.translate("tooltip.the_winter_rescue.campfire")).gray()]
+        },
+        {
+            items: ['frostedheart:straw_lining', 'frostedheart:kelp_lining', 'frostedheart:gambeson', 'frostedheart:buff_coat'],
+            text: [Text.of(text.translate("tooltip.the_winter_rescue.lining")).gray()]
         }
     ];
 

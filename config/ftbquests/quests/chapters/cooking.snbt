@@ -201,6 +201,11 @@
 				type: "item"
 				item: "frozenup:mug_of_truffle_hot_chocolate"
 			}]
+			rewards: [{
+				id: "38C05C8DDC01E185"
+				type: "item"
+				item: "frozenup:truffle_muffin"
+			}]
 		}
 	]
 }

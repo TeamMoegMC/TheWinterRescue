@@ -1,4 +1,32 @@
 onEvent('recipes', (event) => {
+    const additional_crafting_table_recipes = [
+        shapedRecipe('stone_age:fishing_net', ['BAB', 'ACA', 'BAB'], {
+            A: 'stone_age:leather_strip',
+            B: '#forge:rods/wooden',
+            C: '#minecraft:wooden_slabs'
+        }),
+        shapedRecipe('stone_age:feeder', ['BCB', 'ACA', 'BCB'], {
+            A: '#minecraft:logs',
+            B: '#forge:crops/wheat',
+            C: '#minecraft:wooden_slabs'
+        }),
+        shapedRecipe('stone_age:tree_stump', ['   ', ' B ', 'AAA'], {
+            A: 'minecraft:stone',
+            B: '#minecraft:logs'
+        }),
+        shapedRecipe('stone_age:drying_rack', ['A A ', ' A ', 'A A'], {
+            A: '#forge:rods/wooden'
+        }),
+        shapedRecipe('stone_age:tanning_rack', ['A A ', ' A ', 'AAA'], {
+            A: '#forge:rods/wooden'
+        }),
+        shapedRecipe('stone_age:flint_workbench', ['AB', 'CC'], {
+            A: 'minecraft:flint',
+            C: '#forge:rods/wooden',
+            B: 'minecraft:snow_block'
+        })
+    ]
+
     const flint_change_recipes = [
         flint_shapedRecipe(Item.of('stone_age:dried_grass_bed'), ['  B', 'BBB', 'AAA'], {
             A: Ingredient.of('#minecraft:wooden_slabs').toJson(),
@@ -16,6 +44,17 @@ onEvent('recipes', (event) => {
             A: Ingredient.of('#forge:stone').toJson(),
             B: Item.of('minecraft:stick').toJson(),
             C: Item.of('minecraft:stone').toJson()
+        }, Item.of('stone_age:flint_knife')),
+        flint_shapedRecipe(Item.of('stone_age:stone_chest'), ['BBB', 'ACA', 'AAA'], {
+            A: Item.of('minecraft:stone').toJson(),
+            B: Item.of('minecraft:stone_slab').toJson(),
+            C: Item.of('minecraft:clay_ball').toJson()
+        }, Ingredient.of('#forge:hammers')),
+        flint_shapedRecipe(Item.of('stone_age:grass_mesh'), ['A A', ' A ', 'A A'], {
+            A: Item.of('rankine:rope').toJson()
+        }, Item.of('stone_age:flint_knife')),
+        flint_shapedRecipe(Item.of('stone_age:cobweb_mesh'), ['A A', ' A ', 'A A'], {
+            A: Item.of('minecraft:string').toJson()
         }, Item.of('stone_age:flint_knife'))
     ]
     const change_recipes = [
@@ -74,7 +113,11 @@ onEvent('recipes', (event) => {
         }, Ingredient.of('#forge:axes')),
         flint_shapedRecipe(Item.of('rankine:bronze_door'), ['AA', 'AA', 'AA'], {
             A: Ingredient.of('#forge:ingots/bronze').toJson()
-        }, Item.of('stone_age:flint_knife'))
+        }, Item.of('stone_age:flint_knife')),
+        flint_shapedRecipe(Item.of('minecraft:barrel'), ['ABA', 'A A', 'AAA'], {
+            A: Ingredient.of('#minecraft:planks').toJson(),
+            B: Ingredient.of('#forge:plates/bronze').toJson()
+        }, Ingredient.of('#forge:axes'))
     ]
 
     const recipes = [
@@ -234,6 +277,11 @@ onEvent('recipes', (event) => {
             "tool": recipe.tool.toJson(),
             "result": recipe.result.toResultJson()
         })
+        event.shaped(recipe.result, recipe.pattern, recipe.key)
+    })
+
+    additional_crafting_table_recipes.forEach((recipe) => {
+        event.shaped(recipe.result, recipe.pattern, recipe.key)
     })
 
     change_recipes.forEach((recipe) => {
@@ -245,6 +293,7 @@ onEvent('recipes', (event) => {
             "tool": recipe.tool.toJson(),
             "result": recipe.result.toResultJson()
         })
+        event.shaped(recipe.result, recipe.pattern, recipe.key)
     })
     flint_change_recipes.forEach((recipe) => {
         event.remove({output: recipe.result, type: 'stone_age:flint_workbench'});
@@ -255,5 +304,6 @@ onEvent('recipes', (event) => {
             "tool": recipe.tool.toJson(),
             "result": recipe.result.toResultJson()
         })
+        event.shaped(recipe.result, recipe.pattern, recipe.key)
     })
 });

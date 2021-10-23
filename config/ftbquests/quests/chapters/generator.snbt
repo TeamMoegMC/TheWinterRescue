@@ -227,6 +227,7 @@
 			}]
 		}
 		{
+			title: "燃料"
 			icon: "minecraft:charcoal"
 			x: -1.0d
 			y: 0.0d
@@ -236,7 +237,6 @@
 			tasks: [{
 				id: "4ACC9E95EA81E727"
 				type: "checkmark"
-				title: "燃料"
 			}]
 		}
 	]

@@ -23,6 +23,7 @@
     "tooltip.the_winter_rescue.tanning_rack": "After placing the item to be tanned, right click it with flint process knife to proceed",
     "tooltip.the_winter_rescue.clay_tool": "Use clay tool to right click it on a clay block to do pottery",
     "tooltip.the_winter_rescue.activated_carbon": "Obtained via using a charcoal on a steam charger",
-    "tooltip.the_winter_rescue.campfire": "Press Q to throw fuel on it and light it via an ignition tool!"
+    "tooltip.the_winter_rescue.campfire": "Press Q to throw fuel on it and light it via an ignition tool!",
+    "tooltip.the_winter_rescue.lining": "Shapeless crafting it with any equipment to give it warming effect!"
 
 }

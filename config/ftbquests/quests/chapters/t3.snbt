@@ -296,38 +296,6 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.0d
-			subtitle: "{quest.twr.647F24083B2703FF.subtitle}"
-			description: [
-				"{quest.twr.647F24083B2703FF.description.1}"
-				"{quest.twr.647F24083B2703FF.description.2}"
-			]
-			dependencies: ["5D52744D5382A6CA"]
-			id: "647F24083B2703FF"
-			tasks: [{
-				id: "43E962E469BABAE7"
-				type: "item"
-				item: "masterfulmachinery:chcr_controller"
-			}]
-		}
-		{
-			x: 0.0d
-			y: 3.0d
-			subtitle: "{quest.twr.2D2811664F308756.subtitle}"
-			description: [
-				"{quest.twr.2D2811664F308756.description.1}"
-				"{quest.twr.2D2811664F308756.description.2}"
-			]
-			dependencies: ["5D52744D5382A6CA"]
-			id: "2D2811664F308756"
-			tasks: [{
-				id: "56EA3C6DAB387F0F"
-				type: "item"
-				item: "masterfulmachinery:ele_controller"
-			}]
-		}
-		{
 			x: 5.5d
 			y: 0.5d
 			dependencies: ["7D5541059C15C6AE"]
@@ -440,8 +408,8 @@
 		}
 		{
 			title: "{quest.twr.66A550B05F529CD5.title}"
-			x: -2.5d
-			y: -1.5d
+			x: -5.0d
+			y: 0.5d
 			subtitle: "{quest.twr.66A550B05F529CD5.subtitle}"
 			dependencies: ["4138E3A9915F811C"]
 			id: "66A550B05F529CD5"

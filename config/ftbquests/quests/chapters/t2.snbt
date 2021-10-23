@@ -34,6 +34,11 @@
 				type: "item"
 				item: "minecraft:crafting_table"
 			}]
+			rewards: [{
+				id: "05A8B8F3C3113194"
+				type: "item"
+				item: "crockpot:turkey_dinner"
+			}]
 		}
 		{
 			x: -17.5d
@@ -118,6 +123,12 @@
 				id: "2D3A613BFCA83255"
 				type: "item"
 				item: "rankine:refractory_bricks"
+				count: 12L
+			}]
+			rewards: [{
+				id: "6D99474993F887ED"
+				type: "item"
+				item: "crockpot:stuffed_eggplant"
 			}]
 		}
 		{
@@ -132,6 +143,21 @@
 				id: "7ACB518CB5F4ED6D"
 				type: "item"
 				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "4E3C589D6D22019E"
+				type: "item"
+				item: {
+					id: "rankine:pewter_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						StoredComposition: [{
+							comp: "90Sn-10Sb"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -144,6 +170,7 @@
 				id: "7C428261CFB3FFC3"
 				type: "item"
 				item: "immersiveengineering:blastbrick"
+				count: 27L
 			}]
 		}
 		{
@@ -172,6 +199,11 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "27C10D5B04888E5E"
+				type: "item"
+				item: "crockpot:tropical_bouillabaisse"
+			}]
 		}
 		{
 			x: -20.5d
@@ -183,6 +215,11 @@
 				id: "0C0AF66C6E85F840"
 				type: "item"
 				item: "charcoal_pit:mechanical_bellows"
+			}]
+			rewards: [{
+				id: "72786CD028D2F7A7"
+				type: "item"
+				item: "rankine:cinnabar"
 			}]
 		}
 		{
@@ -196,6 +233,12 @@
 				id: "0192DDC9FA0A04C9"
 				type: "item"
 				item: "minecraft:redstone"
+				count: 8L
+			}]
+			rewards: [{
+				id: "1F4A65E03FA8662B"
+				type: "item"
+				item: "crockpot:potato_souffle"
 			}]
 		}
 		{
@@ -220,6 +263,12 @@
 				id: "087679BD11ADFB69"
 				type: "item"
 				item: "comforts:sleeping_bag_white"
+			}]
+			rewards: [{
+				id: "3FCC2D2BE95727D1"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 4
 			}]
 		}
 		{
@@ -295,6 +344,20 @@
 				type: "item"
 				item: "steampowered:bronze_flywheel"
 			}]
+			rewards: [
+				{
+					id: "046A172C754D8FD6"
+					type: "item"
+					item: "steampowered:bronze_large_cogwheel"
+					count: 3
+				}
+				{
+					id: "42B0B2B69CE8DEE5"
+					type: "item"
+					item: "steampowered:bronze_cogwheel"
+					count: 3
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -324,6 +387,11 @@
 				type: "item"
 				item: "steampowered:alternator"
 			}]
+			rewards: [{
+				id: "6EA26A223214988C"
+				type: "item"
+				item: "crockpot:hot_chili"
+			}]
 		}
 		{
 			x: -8.5d
@@ -341,6 +409,12 @@
 				id: "5388D141B1BE4837"
 				type: "item"
 				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "567F999FFE8A3442"
+				type: "item"
+				item: "rankine:cast_iron_rod"
+				count: 4
 			}]
 		}
 		{
@@ -436,6 +510,12 @@
 				id: "10B09A0AE270B39F"
 				type: "item"
 				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "52DC6F6C0CA5945B"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+				count: 16
 			}]
 		}
 		{
@@ -565,6 +645,11 @@
 				type: "item"
 				item: "immersiveengineering:connector_lv"
 			}]
+			rewards: [{
+				id: "5456A3F341BC59B5"
+				type: "item"
+				item: "immersiveengineering:voltmeter"
+			}]
 		}
 		{
 			x: -10.0d
@@ -576,6 +661,11 @@
 				id: "097290DF7B43D5D8"
 				type: "item"
 				item: "immersiveengineering:wirecoil_copper"
+			}]
+			rewards: [{
+				id: "6F846FE58AFEAF31"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper_ins"
 			}]
 		}
 		{
@@ -589,7 +679,21 @@
 				id: "760B8D8FBB365594"
 				type: "item"
 				item: "create:mechanical_crafter"
+				count: 9L
 			}]
+			rewards: [
+				{
+					id: "1D6D6B95BF1192EB"
+					type: "item"
+					item: "crockpot:cooked_eggplant"
+					count: 8
+				}
+				{
+					id: "594833261F891857"
+					type: "item"
+					item: "steampowered:multimeter"
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -655,6 +759,11 @@
 				type: "item"
 				item: "create:electron_tube"
 			}]
+			rewards: [{
+				id: "48E4844E00BBCB9C"
+				type: "item"
+				item: "crockpot:flower_salad"
+			}]
 		}
 		{
 			x: -7.0d
@@ -668,6 +777,12 @@
 				id: "0E15A479D897542E"
 				type: "item"
 				item: "immersiveengineering:blastfurnace_preheater"
+			}]
+			rewards: [{
+				id: "651DA3357DE6C062"
+				type: "item"
+				item: "crockpot:california_roll"
+				count: 4
 			}]
 		}
 		{
@@ -705,6 +820,28 @@
 					type: "item"
 					item: "rankine:high_refractory_bricks"
 					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "7A4D0137A1A68754"
+					type: "item"
+					item: {
+						id: "rankine:steel_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+							StoredComposition: [{
+								comp: "99Fe-1C"
+							}]
+						}
+					}
+				}
+				{
+					id: "427466A9E819DCC4"
+					type: "item"
+					item: "rankine:magnetite"
+					count: 16
 				}
 			]
 		}
@@ -747,6 +884,11 @@
 				id: "256EB689FE3A60BF"
 				type: "item"
 				item: "rankine:beehive_oven_pit"
+			}]
+			rewards: [{
+				id: "1C09568153E99A49"
+				type: "xp_levels"
+				xp_levels: 1
 			}]
 		}
 		{
@@ -823,6 +965,11 @@
 				id: "196BC8A03CF82070"
 				type: "item"
 				item: "immersiveengineering:circuit_board"
+			}]
+			rewards: [{
+				id: "1A439AE94554B9CB"
+				type: "item"
+				item: "crockpot:jammy_preserves"
 			}]
 		}
 		{
@@ -941,6 +1088,17 @@
 					Count: 1b
 					tag: {
 						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B42F42BD6530C6C"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:swiftness"
 					}
 				}
 			}]
