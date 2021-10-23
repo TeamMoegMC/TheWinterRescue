@@ -1686,8 +1686,8 @@
 		{
 			x: 7.5d
 			y: 5.0d
-			subtitle: "简易存储"
-			description: ["用青铜加固的木桶，比石箱能多装一些。"]
+			subtitle: "{quest.twr.0B9DBC18CEEC4CB2.subtitle}"
+			description: ["{quest.twr.0B9DBC18CEEC4CB2.description.1}"]
 			dependencies: ["4B6840707D77E2C0"]
 			id: "0B9DBC18CEEC4CB2"
 			tasks: [{
@@ -1705,8 +1705,8 @@
 		{
 			x: -0.5d
 			y: 5.0d
-			subtitle: "不是棺材"
-			description: ["用烧过的石板砌成，能够存储不少物品。"]
+			subtitle: "{quest.twr.7175C1158EE9178A.subtitle}"
+			description: ["{quest.twr.7175C1158EE9178A.description.1}"]
 			dependencies: ["4A4D6D0DC9B348C1"]
 			id: "7175C1158EE9178A"
 			tasks: [{

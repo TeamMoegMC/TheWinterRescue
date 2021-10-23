@@ -209,7 +209,7 @@
 			}]
 		}
 		{
-			title: "超频"
+			title: "{quest.twr.00FD2A2F4601287B.title}"
 			icon: "minecraft:coal"
 			x: 2.0d
 			y: 0.0d
@@ -227,7 +227,7 @@
 			}]
 		}
 		{
-			title: "燃料"
+			title: "{quest.twr.2E96E546DCA1486C.title}"
 			icon: "minecraft:charcoal"
 			x: -1.0d
 			y: 0.0d
