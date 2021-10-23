@@ -14,10 +14,10 @@ onEvent('recipes', (event) => {
             A: 'minecraft:stone',
             B: '#minecraft:logs'
         }),
-        shapedRecipe('stone_age:drying_rack', ['A A ', ' A ', 'A A'], {
+        shapedRecipe('stone_age:drying_rack', ['A A', ' A ', 'A A'], {
             A: '#forge:rods/wooden'
         }),
-        shapedRecipe('stone_age:tanning_rack', ['A A ', ' A ', 'AAA'], {
+        shapedRecipe('stone_age:tanning_rack', ['A A', ' A ', 'AAA'], {
             A: '#forge:rods/wooden'
         }),
         shapedRecipe('stone_age:flint_workbench', ['AB', 'CC'], {
