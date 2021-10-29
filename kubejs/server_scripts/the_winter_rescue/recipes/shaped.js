@@ -276,45 +276,7 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/copper',
             C: 'immersiveengineering:circuit_board'
         }),
-        shapedRecipe('masterfulmachinery:chcr_controller', ['ABA', 'CAC', 'ABA'], {
-            A: '#forge:plates/constantan',
-            B: 'immersiveengineering:circuit_board',
-            C: 'kubejs:constantan_wire'
-        }),
-        shapedRecipe('masterfulmachinery:chcr_fluid_port_fluids_input', [' A ', 'ABA', ' A '], {
-            A: '#forge:plates/constantan',
-            B: 'immersiveengineering:metal_barrel'
-        }),
-        shapedRecipe('masterfulmachinery:chcr_item_port_items_input', [' A ', 'ABA', ' A '], {
-            A: '#forge:plates/constantan',
-            B: 'minecraft:chest'
-        }),
-        shapedRecipe('masterfulmachinery:chcr_energy_port_energy_input', [' A ', 'ABA', ' A '], {
-            A: '#forge:plates/constantan',
-            B: 'immersiveengineering:capacitor_lv'
-        }),
-        shapedRecipe('masterfulmachinery:ele_controller', ['ABA', 'CAC', 'ABA'], {
-            A: '#forge:plates/aluminum',
-            B: 'immersiveengineering:circuit_board',
-            C: 'immersiveengineering:wirecoil_electrum'
-        }),
-        shapedRecipe('masterfulmachinery:ele_fluid_port_fluids_input', [' A ', 'ABA', ' A '], {
-            A: '#forge:plates/aluminum',
-            B: 'immersiveengineering:metal_barrel'
-        }),
-        shapedRecipe('masterfulmachinery:ele_item_port_items_input', [' A ', 'ABA', ' A '], {
-            A: '#forge:plates/aluminum',
-            B: 'minecraft:chest'
-        }),
-        shapedRecipe('masterfulmachinery:ele_energy_port_energy_input', [' A ', 'ABA', ' A '], {
-            A: '#forge:plates/aluminum',
-            B: 'immersiveengineering:capacitor_lv'
-        }),
         shapedRecipe('frostedheart:burning_chamber', ['ABA', 'BAB', 'ABA'], {
-            A: '#forge:plates/cast_iron',
-            B: '#forge:plates/iron'
-        }),
-        shapedRecipe('frostedheart:burning_chamber_core', ['AAA', 'ABA', 'AAA'], {
             A: '#forge:plates/cast_iron',
             B: '#forge:plates/iron'
         }),
