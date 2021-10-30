@@ -322,19 +322,11 @@ onEvent('recipes', (event) => {
             A: '#forge:ingots/steel',
             B: 'immersiveengineering:stick_treated'
         }),
-		shapedRecipe('frostedheart:iron_core_spade', ['A', ' B ', ' B '], {
+		shapedRecipe('frostedheart:iron_core_spade', ['A', 'B', 'B'], {
             A: '#forge:plates/iron',
             B: 'immersiveengineering:stick_treated'
         }),
-		shapedRecipe('frostedheart:steel_core_spade', ['A', ' B ', ' B '], {
-            A: '#forge:plates/steel',
-            B: 'immersiveengineering:stick_treated'
-        }),
-		shapedRecipe('frostedheart:iron_core_spade', ['A', ' B ', ' B '], {
-            A: '#forge:plates/iron',
-            B: 'immersiveengineering:stick_treated'
-        }),
-		shapedRecipe('frostedheart:steel_core_spade', ['A', ' B ', ' B '], {
+		shapedRecipe('frostedheart:steel_core_spade', ['A', 'B', 'B'], {
             A: '#forge:plates/steel',
             B: 'immersiveengineering:stick_treated'
         }),
