@@ -2,14 +2,6 @@
 
 onEvent('recipes', (event) => {
     let flint_workbench = [
-        'stone_age:bone_axe',
-        'stone_age:stone_axe',
-        'stone_age:bone_shears',
-        'stone_age:bone_pickaxe',
-        'stone_age:stone_pickaxe',
-        'stone_age:bone_sword',
-        'stone_age:stone_sword',
-        'stone_age:backpack',
         'minecraft:furnace'
     ]
     flint_workbench.forEach((Item) => {
