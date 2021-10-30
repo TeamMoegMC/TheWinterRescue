@@ -27,8 +27,8 @@ customization {
   orientation = mid-centered
   buttonaction = openlink
   backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  description = 问题和建议反馈渠道
-  label = 帮助中心
+  description = %local:mainmenu.twr.supportcenter.desc%
+  label = %local:mainmenu.twr.supportcenter%
   x = -2
   width = 100
   actionid = 9b965a7b-f0ce-43d5-8987-1e784aec050d1631121087248
@@ -43,15 +43,15 @@ customization {
   orientation = mid-centered
   buttonaction = openlink
   backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  label = 支持我们
-  hoverlabel = 支持我们
+  label = %local:mainmenu.twr.supportus%
+  hoverlabel = %local:mainmenu.twr.supportus%
   x = -38
   width = 78
   actionid = c91a7520-5063-498d-bb51-8b44d3efe4701631121087252
   action = addbutton
   y = 62
   backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-  value = https://afdian.net/@teammoeg
+  value = %local:mainmenu.twr.supportus.url%
   height = 20
 }
 
@@ -120,7 +120,7 @@ customization {
 customization {
   identifier = %id=400382%
   action = setbuttonlabel
-  value = 选项…
+  value = %local:mainmenu.twr.options%
 }
 
 customization {
@@ -141,7 +141,7 @@ customization {
 customization {
   identifier = %id=502382%
   action = setbuttonlabel
-  value = 退出游戏
+  value = %local:mainmenu.twr.quitgame%
 }
 
 customization {
@@ -160,7 +160,7 @@ customization {
   action = addbutton
   y = -44
   backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  label = TeamMoeg Presents
+  label = %local:mainmenu.twr.teammoeg%
   backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
   value = twr.menu.credits
   height = 20
@@ -215,7 +215,7 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttonlabel
-  value = 多人游戏
+  value = %local:mainmenu.twr.multiplayer%
 }
 
 customization {
@@ -228,7 +228,7 @@ customization {
 customization {
   identifier = %id=400322%
   action = sethoverlabel
-  label = 多人游戏
+  label = %local:mainmenu.twr.multiplayer.hover%
 }
 
 customization {
@@ -242,7 +242,7 @@ customization {
 customization {
   identifier = %id=400298%
   action = setbuttonlabel
-  value = 单人游戏
+  value = %local:mainmenu.twr.singleplayer%
 }
 
 customization {
@@ -255,7 +255,7 @@ customization {
 customization {
   identifier = %id=400298%
   action = sethoverlabel
-  label = 单人游戏
+  label = %local:mainmenu.twr.singleplayer.hover%
 }
 
 customization {

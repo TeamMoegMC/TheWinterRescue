@@ -44,7 +44,7 @@ customization {
   y = -32
   scale = 1.0
   alignment = left
-  value = 制作者名单
+  value = %local:mainmenu.twr.developers%
 }
 
 customization {

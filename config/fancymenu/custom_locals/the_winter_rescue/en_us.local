@@ -1,0 +1,12 @@
+mainmenu.twr.developers = Developers
+mainmenu.twr.supportcenter = Support Center
+mainmenu.twr.supportcenter.desc = Issues and Suggestion Tracker
+mainmenu.twr.supportus = Support Us
+mainmenu.twr.supportus.url = https://patreon.com/TeamMoegProjects
+mainmenu.twr.options = Options
+mainmenu.twr.quitgame = Quit Game
+mainmenu.twr.teammoeg = By TeamMoeg
+mainmenu.twr.singleplayer = Singleplayer
+mainmenu.twr.singleplayer.hover = Lone Journey
+mainmenu.twr.multiplayer = Multiplayer
+mainmenu.twr.multiplayer.hover = Crowded Trip
