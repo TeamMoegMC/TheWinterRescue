@@ -76,6 +76,26 @@ onEvent('item.registry', event => {
 		"tungsten_steel",
 		"invar_steel"
 	]
+	let fuel_procs= [
+		"anthracite_dust",
+		"bituminous_coal_dust",
+		"subbituminous_coal_dust",
+		"lignite_dust",
+		"coal_dust",
+		"charcoal_dust",
+		"limed_coal",
+		"wet_coal_dust",
+		"bound_charcoal_briquette",
+		"bound_coal_briquette",
+		"creosoted_charcoal_briquette",
+		"creosoted_coal_briquette",
+		"creosoted_sawdust_briquette",
+		"wet_coal_briquette",
+		"wet_straw_briquette",
+		"charcoal_briquette",
+		"coal_briquette",
+		"sawdust_briquette"
+	]
 
 	rawOres.forEach((ore) => {
 		generalItems.push(ore);
@@ -94,7 +114,9 @@ onEvent('item.registry', event => {
 	generalItems.forEach((item) => {
 		event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
 	});
-
+	fuel_procs.forEach((item) => {
+		event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
+	})
 	let createTransitionalItems = [
 		'incomplete_capacitor_lv',
 		'incomplete_capacitor_mv',

@@ -1657,5 +1657,23 @@
 				count: 8
 			}]
 		}
+		{
+			x: 4.5d
+			y: 2.5d
+			subtitle: "洛阳铲"
+			description: ["可以获取小范围较全面的地质信息"]
+			id: "79D38F0D4D3E5482"
+			tasks: [{
+				id: "582D2006E4AE8AD5"
+				type: "item"
+				item: {
+					id: "frostedheart:copper_core_spade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 }
