@@ -322,6 +322,32 @@ onEvent('recipes', (event) => {
             A: '#forge:ingots/steel',
             B: 'immersiveengineering:stick_treated'
         }),
+		shapedRecipe('frostedheart:iron_core_spade', ['A', ' B ', ' B '], {
+            A: '#forge:plates/iron',
+            B: 'immersiveengineering:stick_treated'
+        }),
+		shapedRecipe('frostedheart:steel_core_spade', ['A', ' B ', ' B '], {
+            A: '#forge:plates/steel',
+            B: 'immersiveengineering:stick_treated'
+        }),
+		shapedRecipe('frostedheart:iron_core_spade', ['A', ' B ', ' B '], {
+            A: '#forge:plates/iron',
+            B: 'immersiveengineering:stick_treated'
+        }),
+		shapedRecipe('frostedheart:steel_core_spade', ['A', ' B ', ' B '], {
+            A: '#forge:plates/steel',
+            B: 'immersiveengineering:stick_treated'
+        }),
+		shapedRecipe('frostedheart:iron_geologists_hammer', ['CBA', ' B ', ' B '], {
+            A: '#forge:plates/iron',
+            B: 'immersiveengineering:stick_treated',
+			C: 'minecraft:iron_ingot'
+        }),
+		shapedRecipe('frostedheart:steel_geologists_hammer', ['CBA', ' B ', ' B '], {
+            A: '#forge:plates/steel',
+            B: 'immersiveengineering:stick_treated',
+			C: '#forge:ingots/steel'
+        }),
 		shapedRecipe('immersiveengineering:rs_engineering', ['ABA', 'BCB', 'ABA'], {
             A: 'immersiveengineering:sheetmetal_iron',
             B: '#forge:plates/copper',
