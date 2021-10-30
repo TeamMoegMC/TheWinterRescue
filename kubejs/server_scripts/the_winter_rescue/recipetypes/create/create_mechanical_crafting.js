@@ -53,6 +53,7 @@ onEvent('recipes', (event) => {
     ]
 
     recipes.forEach((recipe) => {
+        event.remove({output: recipe.result, type: 'create:mechanical_crafting'});
         event.recipes.createMechanicalCrafting(recipe)
     })
 

@@ -1,5 +1,4 @@
 onEvent('item.tags', (event) => {
-    event.add('itemfilters:check_nbt', 'custommachinery:custom_machine_item')
     event.add('itemfilters:check_nbt', 'tetra:modular_double')
 
     event.remove('forge:string', 'notreepunching:plant_string')

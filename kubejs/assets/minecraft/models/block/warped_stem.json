@@ -1,8 +1,0 @@
-{
-    "parent": "block/log",
-    "textures": {
-        "top": "block/warped_stem_top",
-        "side": "block/warped_stem",
-		"particle": "block/warped_stem"
-    }
-}

@@ -1,0 +1,5 @@
+#Range: 0 ~ 4096
+electrolyzerConsume = 24
+#Range: 0 ~ 4096
+steamTurbineGenerator = 64
+

@@ -1,18 +1,40 @@
 冬季救援 Beta-0.4.5 更新公告
-* 内容
-新增内衬系统，可用于和任何装甲合成以增加保温效果。
-新增活性炭，批量生产热水。
-* 优化
-温度系统进一步优化。
-任务系统文字深度优化。
-添加蜂窝炉搭建思索动画。
-修复血量和氧气显示细节问题。
+* 改动：
+锅炉和燃烧室：
+移至Create: Steam Powered模组
+允许右击燃烧室放入和取出燃料
+改为工程师护目镜显示内部信息
+炼钢坩锅和蒸汽涡轮机：
+移至Immersive Industry模组
+温度：
+变化速率降低
+合成：
+所有燧石合成台配方可在原版工作台合成
+国际化：
+现在拥有完整英文版任务书
+可在CurseForge下载
+* 优化：
+降低温度系统负载
+修复已知BUG
 * 新增模组：
+ImmersiveIndustry：自研，负责科技多方块结构
+Tetra Pak：Tetra-Create兼容mod
+CameraOverhaul：真实视角（客户端）
+InventoryProfilesNext（客户端）
 * 更新模组：
 FrostedHeart-0.4.5
-SteamPowered-0.2.0
+SteamPowered-1.1.3
+CharcoalPit-2.23
+StoneAge-1.3.6
 * 移除模组：
-MasterfulMachinery: bug过多
+Controlling：GUI很差
+MasterfulMachinery：BUG过多
+CustomMachinery: BUG过多，请改用Create: Steam Powered中的对应燃烧室和锅炉
+AdvGenerators
+BDlib
+ScalableCatsForce
+Tetranomicon
+InventoryProfiles
 
 冬季救援 Beta-0.4.4 更新公告
 * 内容

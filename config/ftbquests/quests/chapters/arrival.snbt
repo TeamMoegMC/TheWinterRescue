@@ -4,20 +4,7 @@
 	order_index: 0
 	filename: "arrival"
 	title: "{chapter.twr.45227BBF4538D5BC.title}"
-	icon: {
-		id: "snowrealmagic:slab"
-		Count: 1b
-		tag: {
-			BlockEntityTag: {
-				Items: {
-					0: "polished_diorite_slab"
-				}
-				Textures: {
-					0: "{Properties:{waterlogged:\"false\",type:\"bottom\"},Name:\"minecraft:polished_diorite_slab\"}"
-				}
-			}
-		}
-	}
+	icon: "primalwinter:snowy_dirt"
 	subtitle: ["{chapter.twr.45227BBF4538D5BC.subtitle}"]
 	default_quest_shape: "circle"
 	default_hide_dependency_lines: false
@@ -175,153 +162,7 @@
 		}
 		{
 			title: "{quest.twr.25061B159D32453A.title}"
-			icon: {
-				id: "stone_age:backpack"
-				Count: 1b
-				tag: {
-					backpack: {
-						inv: {
-							Items: [
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-								{
-									id: "minecraft:air"
-									Count: 1b
-									tag: {
-										display: {
-											Name: "{\"text\":\"EmptyHolster\"}"
-										}
-									}
-								}
-							]
-						}
-					}
-				}
-			}
+			icon: "weatherforecast:weather_radar"
 			x: -4.5d
 			y: -3.0d
 			shape: "hexagon"
@@ -491,7 +332,7 @@
 				{
 					id: "0944042120B83038"
 					type: "item"
-					title: "khjxiaogu - Dev & Design"
+					title: "khjxiaogu - Dev / Design"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b

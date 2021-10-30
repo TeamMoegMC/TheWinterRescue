@@ -1,8 +1,0 @@
-{
-    "parent": "block/log",
-    "textures": {
-        "top": "block/jungle_log_top",
-        "side": "block/jungle_log",
-		"particle": "block/jungle_log"
-    }
-}

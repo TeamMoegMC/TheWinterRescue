@@ -4,15 +4,7 @@
 	order_index: 2
 	filename: "t2"
 	title: "{chapter.twr.3A3B51CF7F606665.title}"
-	icon: {
-		id: "rankine:cast_iron_alloy"
-		Count: 1b
-		tag: {
-			StoredComposition: [{
-				comp: "96Fe-4C"
-			}]
-		}
-	}
+	icon: "steampowered:cast_iron_flywheel"
 	subtitle: ["{chapter.twr.3A3B51CF7F606665.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -550,13 +542,7 @@
 		}
 		{
 			title: "{quest.twr.7612A96FFEFC5635.title}"
-			icon: {
-				id: "custommachinery:custom_machine_item"
-				Count: 1b
-				tag: {
-					machine: "the_winter_rescue:bronze_boiler"
-				}
-			}
+			icon: "steampowered:bronze_boiler"
 			x: -11.5d
 			y: -0.5d
 			subtitle: "{quest.twr.7612A96FFEFC5635.subtitle}"
@@ -573,24 +559,12 @@
 				{
 					id: "175C5DFDF286819B"
 					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "the_winter_rescue:bronze_burner"
-						}
-					}
+					item: "steampowered:bronze_burner"
 				}
 				{
 					id: "33ED87E26CEA2A1B"
 					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "the_winter_rescue:bronze_boiler"
-						}
-					}
+					item: "steampowered:bronze_boiler"
 				}
 			]
 		}
@@ -796,23 +770,14 @@
 				"{quest.twr.19038BB5A9E42055.description.1}"
 				"{quest.twr.19038BB5A9E42055.description.2}"
 				"{quest.twr.19038BB5A9E42055.description.3}"
-				"{quest.twr.19038BB5A9E42055.description.4}"
-				"{quest.twr.19038BB5A9E42055.description.5}"
-				"{quest.twr.19038BB5A9E42055.description.6}"
-				"{quest.twr.19038BB5A9E42055.description.7}"
 			]
 			dependencies: ["6738A3C34A872FED"]
 			id: "19038BB5A9E42055"
 			tasks: [
 				{
-					id: "5FBCCD9BFBA8FFA2"
-					type: "item"
-					item: "frostedheart:burning_chamber_core"
-				}
-				{
 					id: "3E96AF246CEFC59E"
 					type: "item"
-					item: "frostedheart:burning_chamber"
+					item: "immersiveindustry:burning_chamber"
 					count: 17L
 				}
 				{

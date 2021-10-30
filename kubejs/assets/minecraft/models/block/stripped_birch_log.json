@@ -1,8 +1,0 @@
-{
-    "parent": "block/log",
-    "textures": {
-        "top": "block/stripped_birch_log_top",
-        "side": "block/stripped_birch_log",
-		"particle": "block/stripped_birch_log"
-    }
-}

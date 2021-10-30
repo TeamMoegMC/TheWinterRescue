@@ -1,0 +1,16 @@
+
+#Quark compatibility settings
+[quark]
+	#Matching Crystal color mining speed factor
+	#Range: 0.0 ~ 10.0
+	matching_crystal_factor = 1.5
+	#Non-matching Crystal color mining speed factor
+	#Range: 0.0 ~ 10.0
+	non_matching_crystal_factor = 0.5
+
+#Create compatibility settings
+[create]
+	#Max block count for Refined Radiance mass harvesting
+	#Range: 0 ~ 4096
+	max_radiant_blocks = 512
+

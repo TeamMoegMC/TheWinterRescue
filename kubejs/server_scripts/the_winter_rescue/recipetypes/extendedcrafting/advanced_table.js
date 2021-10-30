@@ -20,7 +20,7 @@ onEvent('recipes', (event) => {
             C: '#forge:plates/bronze',
             D: 'minecraft:lava_bucket',
         }),
-        shapedRecipe(Item.of('custommachinery:custom_machine_item', '{machine:"the_winter_rescue:electrolyzer"}'), ['AAAAA', 'ABECA', 'ABDCA', 'AAAAA'], {
+        shapedRecipe('immersiveindustry:electrolyzer', ['AAAAA', 'ABECA', 'ABDCA', 'AAAAA'], {
             A: 'immersiveengineering:plate_steel',
             B: '#forge:ingots/silver',
             C: '#forge:ingots/gold',

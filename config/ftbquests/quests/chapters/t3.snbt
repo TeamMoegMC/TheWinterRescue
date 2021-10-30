@@ -4,15 +4,7 @@
 	order_index: 3
 	filename: "t3"
 	title: "{chapter.twr.0F92A786237ACCA8.title}"
-	icon: {
-		id: "rankine:steel_alloy"
-		Count: 1b
-		tag: {
-			StoredComposition: [{
-				comp: "99Fe-1C"
-			}]
-		}
-	}
+	icon: "immersiveengineering:wirecoil_copper_ins"
 	subtitle: ["{chapter.twr.0F92A786237ACCA8.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -385,24 +377,12 @@
 				{
 					id: "3F721C781353F092"
 					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "the_winter_rescue:steel_boiler"
-						}
-					}
+					item: "steampowered:steel_burner"
 				}
 				{
 					id: "5CB6D7917EFB1260"
 					type: "item"
-					item: {
-						id: "custommachinery:custom_machine_item"
-						Count: 1b
-						tag: {
-							machine: "the_winter_rescue:steel_burner"
-						}
-					}
+					item: "steampowered:steel_boiler"
 				}
 			]
 		}
@@ -430,13 +410,18 @@
 			tasks: [{
 				id: "2047877031C59B71"
 				type: "item"
-				item: {
-					id: "custommachinery:custom_machine_item"
-					Count: 1b
-					tag: {
-						machine: "the_winter_rescue:electrolyzer"
-					}
-				}
+				item: "steampowered:steel_flywheel"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["5D52744D5382A6CA"]
+			id: "3F7EEBC234F9825F"
+			tasks: [{
+				id: "1F1F88ED64269860"
+				type: "item"
+				item: "immersiveindustry:electrolyzer"
 			}]
 		}
 	]

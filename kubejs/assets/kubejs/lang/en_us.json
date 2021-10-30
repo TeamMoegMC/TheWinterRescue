@@ -40,7 +40,6 @@
   "item.kubejs.aluminium_hydroxide_dust": "Aluminium Hydroxide Dust",
   "item.kubejs.invar_steel_plate": "Invar Steel Plate",
   "item.kubejs.activated_carbon": "Activated Carbon",
-
   "item.kubejs.native_copper": "Native Copper",
   "item.kubejs.native_tin": "Native Tin",
   "item.kubejs.silver": "Native Silver",
@@ -48,7 +47,6 @@
   "item.kubejs.pyrite": "Pyrite",
   "item.kubejs.bauxite": "Bauxite",
   "item.kubejs.halite": "Halite",
-
   "item.kubejs.crushed_ore_native_copper": "Crushed Native Copper",
   "item.kubejs.crushed_ore_native_tin": "Crushed Native Tin",
   "item.kubejs.crushed_ore_silver": "Crushed Native Silver",
@@ -66,7 +64,6 @@
   "item.kubejs.crushed_ore_halite": "Crushed Halite",
   "item.kubejs.crushed_ore_fluorite": "Crushed Fluorite",
   "item.kubejs.crushed_ore_vanadinite": "Crushed Vanadinite",
-
   "item.kubejs.washed_ore_native_copper": "Washed Native Copper",
   "item.kubejs.washed_ore_native_tin": "Washed Native Tin",
   "item.kubejs.washed_ore_silver": "Washed Native Silver",
@@ -84,11 +81,33 @@
   "item.kubejs.washed_ore_halite": "Washed Halite",
   "item.kubejs.washed_ore_fluorite": "Washed Fluorite",
   "item.kubejs.washed_ore_vanadinite": "Washed Vanadinite",
-
   "fluid.kubejs.lime_water": "Lime Water",
   "fluid.kubejs.chlorine": "Chlorine",
   "fluid.kubejs.cryolite": "Cryolite",
   "fluid.kubejs.sulfuric_acid": "Sulfuric Acid",
-	
-  "itemGroup.kubejs.kubejs": "Kubejs"
+  "itemGroup.kubejs.kubejs": "Kubejs",
+  "the_winter_rescue.ponder.tag.beehive_oven_pit.description": "",
+  "frostedheart.ponder.generator_t2.basic_usage.header": "",
+  "frostedheart.ponder.beehive_oven_pit.basic_usage.header": "",
+  "frostedheart.ponder.generator_core_t1.basic_usage.header": "",
+  "the_winter_rescue.ponder.tag.crucible.description": "",
+  "frostedheart.ponder.beehive_oven_pit.basic_usage.text_1": "",
+  "frostedheart.ponder.burning_chamber_core.basic_usage.header": "",
+  "frostedheart.ponder.generator_t2.basic_usage.text_1": "",
+  "the_winter_rescue.ponder.tag.steam_turbine.description": "",
+  "the_winter_rescue.ponder.tag.generator_t2": "",
+  "frostedheart.ponder.steam_turbine.basic_usage.header": "",
+  "the_winter_rescue.ponder.tag.beehive_oven_pit": "",
+  "charcoal_pit.ponder.main_bloomery.basic_usage.text_1": "2",
+  "the_winter_rescue.ponder.tag.generator": "",
+  "frostedheart.ponder.steam_turbine.basic_usage.text_1": "",
+  "the_winter_rescue.ponder.tag.generator.description": "",
+  "the_winter_rescue.ponder.tag.crucible": "",
+  "the_winter_rescue.ponder.tag.bloomery": "",
+  "the_winter_rescue.ponder.tag.steam_turbine": "",
+  "frostedheart.ponder.generator_core_t1.basic_usage.text_1": "",
+  "the_winter_rescue.ponder.tag.generator_t2.description": "",
+  "the_winter_rescue.ponder.tag.bloomery.description": "",
+  "charcoal_pit.ponder.main_bloomery.basic_usage.header": "1",
+  "frostedheart.ponder.burning_chamber_core.basic_usage.text_1": ""
 }

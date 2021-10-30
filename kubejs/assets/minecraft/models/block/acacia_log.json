@@ -1,8 +1,0 @@
-{
-    "parent": "block/log",
-    "textures": {
-        "top": "block/acacia_log_top",
-        "side": "block/acacia_log",
-		"particle": "block/acacia_log"
-    }
-}
