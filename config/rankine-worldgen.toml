@@ -1153,7 +1153,7 @@
 		fluoriteOreSize = 9
 		#Harvest Level of Fluorite Ore.
 		#Range: 0 ~ 4
-		fluoriteOreHL = 3
+		fluoriteOreHL = 2
 		#Maximum height to generate Fluorite Ore at (make sure it is greater than the minimum)
 		#Range: 0 ~ 256
 		fluoriteOreMax = 60

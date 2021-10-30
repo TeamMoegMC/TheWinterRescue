@@ -115,7 +115,7 @@
 				id: "2D3A613BFCA83255"
 				type: "item"
 				item: "rankine:refractory_bricks"
-				count: 12L
+				count: 4L
 			}]
 			rewards: [{
 				id: "6D99474993F887ED"
@@ -136,20 +136,6 @@
 				type: "item"
 				item: "immersiveengineering:cokebrick"
 				count: 27L
-			}]
-			rewards: [{
-				id: "4E3C589D6D22019E"
-				type: "item"
-				item: {
-					id: "rankine:pewter_shovel"
-					Count: 1b
-					tag: {
-						Damage: 0
-						StoredComposition: [{
-							comp: "90Sn-10Sb"
-						}]
-					}
-				}
 			}]
 		}
 		{
@@ -336,20 +322,12 @@
 				type: "item"
 				item: "steampowered:bronze_flywheel"
 			}]
-			rewards: [
-				{
-					id: "046A172C754D8FD6"
-					type: "item"
-					item: "steampowered:bronze_large_cogwheel"
-					count: 3
-				}
-				{
-					id: "42B0B2B69CE8DEE5"
-					type: "item"
-					item: "steampowered:bronze_cogwheel"
-					count: 3
-				}
-			]
+			rewards: [{
+				id: "42B0B2B69CE8DEE5"
+				type: "item"
+				item: "steampowered:bronze_cogwheel"
+				count: 3
+			}]
 		}
 		{
 			x: -7.0d
@@ -506,8 +484,8 @@
 			rewards: [{
 				id: "52DC6F6C0CA5945B"
 				type: "item"
-				item: "immersiveengineering:coal_coke"
-				count: 16
+				item: "minecraft:coal"
+				count: 8
 			}]
 		}
 		{
@@ -655,19 +633,12 @@
 				item: "create:mechanical_crafter"
 				count: 9L
 			}]
-			rewards: [
-				{
-					id: "1D6D6B95BF1192EB"
-					type: "item"
-					item: "crockpot:cooked_eggplant"
-					count: 8
-				}
-				{
-					id: "594833261F891857"
-					type: "item"
-					item: "steampowered:multimeter"
-				}
-			]
+			rewards: [{
+				id: "1D6D6B95BF1192EB"
+				type: "item"
+				item: "crockpot:cooked_eggplant"
+				count: 8
+			}]
 		}
 		{
 			x: -7.0d
@@ -787,28 +758,12 @@
 					count: 16L
 				}
 			]
-			rewards: [
-				{
-					id: "7A4D0137A1A68754"
-					type: "item"
-					item: {
-						id: "rankine:steel_hammer"
-						Count: 1b
-						tag: {
-							Damage: 0
-							StoredComposition: [{
-								comp: "99Fe-1C"
-							}]
-						}
-					}
-				}
-				{
-					id: "427466A9E819DCC4"
-					type: "item"
-					item: "rankine:magnetite"
-					count: 16
-				}
-			]
+			rewards: [{
+				id: "427466A9E819DCC4"
+				type: "item"
+				item: "rankine:magnetite"
+				count: 8
+			}]
 		}
 		{
 			x: -4.5d

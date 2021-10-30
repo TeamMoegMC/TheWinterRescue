@@ -11,13 +11,13 @@
 
   "the_winter_rescue.ponder.tag.crucible.description": "Build Steel Mill Crucible",
   "the_winter_rescue.ponder.tag.crucible": "Steel Mill Crucible",
-  "frostedheart.ponder.burning_chamber_core.basic_usage.text_1": "Right Click With Engineer's Hammer",
-  "frostedheart.ponder.burning_chamber_core.basic_usage.header": "Steel Mill Crucible",
+  "immersiveindustry.ponder.burning_chamber_core.basic_usage.text_1": "Right Click With Engineer's Hammer",
+  "immersiveindustry.ponder.burning_chamber_core.basic_usage.header": "Steel Mill Crucible",
 
   "the_winter_rescue.ponder.tag.steam_turbine.description": "Build Steam Turbine",
   "the_winter_rescue.ponder.tag.steam_turbine": "Steam Turbine",
-  "frostedheart.ponder.steam_turbine.basic_usage.text_1": "Right Click Tail With Engineer's Hammer",
-  "frostedheart.ponder.steam_turbine.basic_usage.header": "Steam Turbine",
+  "immersiveindustry.ponder.steam_turbine.basic_usage.text_1": "Right Click Tail With Engineer's Hammer",
+  "immersiveindustry.ponder.steam_turbine.basic_usage.header": "Steam Turbine",
 
   "the_winter_rescue.ponder.tag.generator_t2.description": "Build Generator T2",
   "the_winter_rescue.ponder.tag.generator_t2": "Generator T2",

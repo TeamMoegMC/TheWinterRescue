@@ -1,0 +1,13 @@
+{
+  "type": "immersiveindustry:crucible",
+  "result": {
+    "item": "immersiveengineering:ingot_steel"
+  },
+  "input": {
+    "item": "minecraft:iron_ingot"
+  },
+  "input2": {
+    "item": "kubejs:flux"
+  },
+  "time": 1200
+}

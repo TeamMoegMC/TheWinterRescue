@@ -1,0 +1,14 @@
+{
+  "type": "immersiveindustry:electrolyzer",
+  "result": {
+    "item": "rankine:sodium_hydroxide"
+  },
+  "input": {
+    "tag": "forge:salt"
+  },
+  "fluid": {
+    "tag": "minecraft:water",
+    "amount": 500
+  },
+  "time": 240
+}

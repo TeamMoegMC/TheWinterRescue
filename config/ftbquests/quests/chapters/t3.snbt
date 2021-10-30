@@ -388,7 +388,7 @@
 		}
 		{
 			title: "{quest.twr.66A550B05F529CD5.title}"
-			x: -5.0d
+			x: -4.5d
 			y: 0.5d
 			subtitle: "{quest.twr.66A550B05F529CD5.subtitle}"
 			dependencies: ["4138E3A9915F811C"]
