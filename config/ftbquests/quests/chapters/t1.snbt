@@ -484,7 +484,7 @@
 		{
 			title: "{quest.twr.3C4CEEBFF8DCF448.title}"
 			x: 6.0d
-			y: 1.5d
+			y: 1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
 			description: [
@@ -1661,13 +1661,33 @@
 			x: 4.5d
 			y: 2.5d
 			subtitle: "洛阳铲"
-			description: ["可以获取小范围较全面的地质信息"]
+			description: ["可以获取小范围内更全面的地质信息"]
+			dependencies: ["1DF200F6772308C7"]
 			id: "79D38F0D4D3E5482"
 			tasks: [{
 				id: "582D2006E4AE8AD5"
 				type: "item"
 				item: {
 					id: "frostedheart:copper_core_spade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			subtitle: "地质学博士学位"
+			description: ["可以获取小范围内精确的矿物信息"]
+			dependencies: ["1DF200F6772308C7"]
+			id: "5E3A878B95133DAD"
+			tasks: [{
+				id: "4FC2D08E12143A45"
+				type: "item"
+				item: {
+					id: "frostedheart:copper_geologists_hammer"
 					Count: 1b
 					tag: {
 						Damage: 0

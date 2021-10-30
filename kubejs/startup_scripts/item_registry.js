@@ -94,7 +94,8 @@ onEvent('item.registry', event => {
 		"wet_straw_briquette",
 		"charcoal_briquette",
 		"coal_briquette",
-		"sawdust_briquette"
+		"sawdust_briquette",
+		"straw_briquette"
 	]
 
 	rawOres.forEach((ore) => {
