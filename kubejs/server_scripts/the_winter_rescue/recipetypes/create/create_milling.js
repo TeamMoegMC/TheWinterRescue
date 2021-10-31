@@ -9,7 +9,13 @@ onEvent('recipes', (event) => {
     {output:['minecraft:glowstone_dust', Item.of('minecraft:glowstone_dust').withChance(0.5)],input: 'kubejs:washed_ore_fluorite'},
     {output:['immersiveengineering:dust_sulfur', Item.of('immersiveengineering:dust_sulfur').withChance(0.5)],input: 'rankine:sulfur'},
     {output:[Item.of('minecraft:quartz').withChance(0.5), Item.of('minecraft:quartz').withChance(0.3)],input: 'minecraft:smooth_sandstone'},
-	{output:['3x rankine:kaolinite_ball', Item.of('rankine:kaolinite_ball').withChance(0.5)],input: 'rankine:kaolinite_block'}
+	{output:['3x rankine:kaolinite_ball', Item.of('rankine:kaolinite_ball').withChance(0.5)],input: 'rankine:kaolinite_block'},
+	{output:['kubejs:anthracite_dust', Item.of('kubejs:anthracite_dust').withChance(0.5)],input: 'rankine:anthracite_coal'},
+	{output:['kubejs:bituminous_coal_dust', Item.of('kubejs:bituminous_coal_dust').withChance(0.5)],input: 'rankine:bituminous_coal'},
+	{output:['kubejs:lignite_dust', Item.of('kubejs:lignite_dust').withChance(0.5)],input: 'rankine:lignite'},
+	{output:['kubejs:subbituminous_coal_dust', Item.of('kubejs:subbituminous_coal_dust').withChance(0.5)],input: 'rankine:subbituminous_coal'},
+	{output:['kubejs:coal_dust', Item.of('kubejs:coal_dust').withChance(0.5)],input: 'minecraft:coal'},
+	{output:['kubejs:charcoal_dust', Item.of('kubejs:charcoal_dust').withChance(0.5)],input: 'minecraft:charcoal'}
 	]
 	recipes.forEach((recipe) => {
         event.recipes.createMilling(recipe.output, recipe.input);

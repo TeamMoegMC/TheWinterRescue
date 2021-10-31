@@ -77,7 +77,7 @@ onEvent('item.registry', event => {
 		"tungsten_steel",
 		"invar_steel"
 	]
-	let fuel_procs= [
+	let fuel_procs=[
 		"anthracite_dust",
 		"bituminous_coal_dust",
 		"subbituminous_coal_dust",
@@ -98,6 +98,27 @@ onEvent('item.registry', event => {
 		"sawdust_briquette",
 		"straw_briquette"
 	]
+	let fuel_vals= {
+		"anthracite_dust":4800,
+		"bituminous_coal_dust":3200,
+		"subbituminous_coal_dust":2400,
+		"lignite_dust":1600,
+		"coal_dust":2400,
+		"charcoal_dust":2000,
+		"limed_coal":0,
+		"wet_coal_dust":0,
+		"bound_charcoal_briquette":1200,
+		"bound_coal_briquette":1200,
+		"creosoted_charcoal_briquette":1200,
+		"creosoted_coal_briquette":1200,
+		"creosoted_sawdust_briquette":1200,
+		"wet_coal_briquette":1200,
+		"wet_straw_briquette":400,
+		"charcoal_briquette":1600,
+		"coal_briquette":1600,
+		"sawdust_briquette":1600,
+		"straw_briquette":800
+	}
 
 	rawOres.forEach((ore) => {
 		generalItems.push(ore);
@@ -117,8 +138,13 @@ onEvent('item.registry', event => {
 		event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
 	});
 	fuel_procs.forEach((item) => {
-		event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
-	})
+		const fv=fuel_vals[item];
+		if(fv==0)
+			event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
+		else
+			event.create(item).group('frostedheart').texture(`kubejs:item/${item}`).burnTime(fv);
+	});
+
 	let createTransitionalItems = [
 		'incomplete_capacitor_lv',
 		'incomplete_capacitor_mv',

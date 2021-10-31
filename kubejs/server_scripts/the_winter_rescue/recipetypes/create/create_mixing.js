@@ -11,7 +11,25 @@ onEvent('recipes', (event) => {
         ['2x minecraft:glowstone_dust', 'kubejs:aluminium_hydroxide_dust', Fluid.of('kubejs:sulfuric_acid', 500)]},
     {output:
         ['3x rankine:vulcanized_rubber'],input:
-        ['immersiveengineering:dust_sulfur', Fluid.of('rankine:latex', 500)]}
+        ['immersiveengineering:dust_sulfur', Fluid.of('rankine:latex', 500)]},
+    {output:
+        [Fluid.of('kubejs:lime_water', 1000)],input:
+        ['rankine:quicklime', Fluid.of('minecraft:water', 1000)]},
+    {output:
+        ['2x kubejs:limed_coal'],input:
+        ['kubejs:anthracite_dust', Fluid.of('kubejs:lime_water', 100)]},
+    {output:
+        ['1x kubejs:limed_coal'],input:
+        ['kubejs:subbituminous_coal_dust', Fluid.of('kubejs:lime_water', 100)]},
+    {output:
+        ['1x kubejs:limed_coal'],input:
+        ['kubejs:coal_dust', Fluid.of('kubejs:lime_water', 100)]},
+    {output:
+        ['3x kubejs:limed_coal'],input:
+        ['kubejs:bituminous_coal_dust', Fluid.of('kubejs:lime_water', 200)]},
+    {output:
+        ['2x kubejs:limed_coal'],input:
+        ['3x kubejs:lignite_dust', Fluid.of('kubejs:lime_water', 200)]}
 	]
 	let heated = [
     {output:

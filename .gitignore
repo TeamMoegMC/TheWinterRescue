@@ -69,3 +69,8 @@
 /youdao_api.py
 /google_api.py
 /*.json
+/runner.py
+/runners/
+/serverfiles/
+/mec_package/
+/confbackup/

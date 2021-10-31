@@ -1,0 +1,16 @@
+{
+  "type": "charcoal_pit:barrel",
+  "item_in":{
+  	"item":"kubejs:limed_coal"
+  },
+  "fluid_in":{
+  	"fluid":"minecraft:water",
+  	"amount": 100
+  },
+  "item_out":{
+  	"item":"kubejs:wet_coal_dust"
+  },
+  "flags": 1,
+  "out_amount":1,
+  "time": 100
+}
