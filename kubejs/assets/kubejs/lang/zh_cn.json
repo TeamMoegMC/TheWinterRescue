@@ -40,7 +40,6 @@
   "item.kubejs.aluminium_hydroxide_dust": "氢氧化铝",
   "item.kubejs.invar_steel_plate": "殷钢板",
   "item.kubejs.activated_carbon": "活性炭",
-  
   "item.kubejs.native_copper": "原生铜矿",
   "item.kubejs.native_tin": "原生锡矿",
   "item.kubejs.silver": "原生银矿",
@@ -48,7 +47,6 @@
   "item.kubejs.pyrite": "黄铁矿",
   "item.kubejs.bauxite": "铝土矿",
   "item.kubejs.halite": "岩盐矿",
-
   "item.kubejs.crushed_ore_native_copper": "粉碎原生铜矿",
   "item.kubejs.crushed_ore_native_tin": "粉碎原生锡矿",
   "item.kubejs.crushed_ore_silver": "粉碎原生银矿",
@@ -66,7 +64,6 @@
   "item.kubejs.crushed_ore_halite": "粉碎岩盐矿",
   "item.kubejs.crushed_ore_fluorite": "粉碎萤石矿",
   "item.kubejs.crushed_ore_vanadinite": "粉碎钒铅矿",
-
   "item.kubejs.washed_ore_native_copper": "洗净原生铜矿",
   "item.kubejs.washed_ore_native_tin": "洗净原生锡矿",
   "item.kubejs.washed_ore_silver": "洗净原生银矿",
