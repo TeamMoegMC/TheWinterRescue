@@ -140,7 +140,7 @@ onEvent('recipes', (event) => {
             A: Ingredient.of('#forge:ingots/copper').toJson(),
             B: Ingredient.of('#forge:rods/wooden').toJson()
         }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('frostedheart:copper_core_spade'), ['A', ' B ', ' B '], {
+		flint_shapedRecipe(Item.of('frostedheart:copper_core_spade'), ['A', 'B', 'B'], {
             A: Ingredient.of('#forge:plates/copper').toJson(),
             B: Ingredient.of('#forge:rods/wooden').toJson()
         }, Item.of('stone_age:flint_knife')),

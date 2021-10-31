@@ -6,10 +6,13 @@ onEvent('recipes', (event) => {
 
     var changeShapelessRecipes = [
         shapelessRecipe('frozenup:truffle_muffin', ['frostedheart:rye_flour', 'minecraft:sugar', 'frozenup:truffle'])
+		
     ]
 
     var newShapelessRecipes = [
-        shapelessRecipe('stone_age:dried_grass', ['charcoal_pit:straw'])
+        shapelessRecipe('stone_age:dried_grass', ['charcoal_pit:straw']),
+		shapelessRecipe({"item":'frostedheart:straw_briquette_red_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:red_mushroom']),
+		shapelessRecipe({"item":'frostedheart:straw_briquette_brown_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:brown_mushroom'])
     ]
 	function makeLimedCoal(count,rep,materials){
 		for(let i=1;i<=rep;i++){
@@ -48,7 +51,7 @@ onEvent('recipes', (event) => {
 	 event.recipes.createCompacting(["kubejs:creosoted_sawdust_briquette"], ["4x #forge:sawdust",Fluid.of('immersiveengineering:creosote', 50)]);
 	 event.recipes.createCompacting(["kubejs:creosoted_sawdust_briquette"], ["4x #forge:dusts/wood",Fluid.of('immersiveengineering:creosote', 50)]);
 	 event.recipes.createCompacting(["4x kubejs:bound_coal_briquette"], ["2x #kubejs:fuel_glue","#forge:dusts/coal_coke"]);
-	 event.recipes.createCompacting(["5x kubejs:bound_coal_briquette"], ["2x #kubejs:fuel_glue","#forge:dusts/anthracite_dust"]);
+	 event.recipes.createCompacting(["5x kubejs:bound_coal_briquette"], ["2x #kubejs:fuel_glue","kubejs:anthracite_dust"]);
 	 event.recipes.createCompacting(["3x kubejs:bound_charcoal_briquette"], ["2x #kubejs:fuel_glue","2x kubejs:charcoal_dust"]);
 	 event.recipes.createCompacting(["kubejs:wet_straw_briquette"], ["8x charcoal_pit:straw"]);
 	 event.smelting('kubejs:coal_briquette', 'kubejs:wet_coal_briquette');

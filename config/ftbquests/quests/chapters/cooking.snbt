@@ -207,5 +207,98 @@
 				item: "frozenup:truffle_muffin"
 			}]
 		}
+		{
+			title: "真菌培养基"
+			x: 5.0d
+			y: -3.0d
+			subtitle: "无土栽培"
+			description: ["干草块很适合用来培养抗逆性强的分解者——真菌。"]
+			dependencies: ["29BC87594650152D"]
+			hide: true
+			id: "32DB7CCD0A73D98F"
+			tasks: [{
+				id: "5E578602513E85BA"
+				type: "item"
+				item: "kubejs:wet_straw_briquette"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			subtitle: "种植红蘑菇"
+			description: [
+				"戴在饰品栏用体温为其加热，它同时也能放出少量热量，但是如果温度过低它会陷入休眠。"
+				"长完后用一只手拿任意刀，另一只手拿菌床使用即可切下蘑菇。"
+			]
+			dependencies: ["32DB7CCD0A73D98F"]
+			hide: true
+			id: "0CA87739C86BB0C6"
+			tasks: [{
+				id: "3890274B4A2DD114"
+				type: "item"
+				item: {
+					id: "frostedheart:straw_briquette_red_mushroom"
+					Count: 1b
+					tag: {
+						Damage: 4800
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.0d
+			subtitle: "种植棕蘑菇"
+			description: [
+				"戴在饰品栏用体温为其加热，它同时也能放出少量热量，但是如果温度过低它会陷入休眠。"
+				"长完后用一只手拿任意刀，另一只手拿菌床使用即可切下蘑菇。"
+			]
+			dependencies: ["32DB7CCD0A73D98F"]
+			hide: true
+			id: "0B511A89E11B553A"
+			tasks: [{
+				id: "76AA93BE9D89864E"
+				type: "item"
+				item: {
+					id: "frostedheart:straw_briquette_brown_mushroom"
+					Count: 1b
+					tag: {
+						Damage: 4800
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -7.0d
+			subtitle: "充满爱心"
+			description: ["你花了4天时间捂热两个真菌床，现在终于可以享用成果了。"]
+			dependencies: [
+				"0CA87739C86BB0C6"
+				"0B511A89E11B553A"
+			]
+			hide: true
+			id: "73ADDB2F9A4F7C5D"
+			tasks: [{
+				id: "180D38CF8DC4381A"
+				type: "item"
+				item: "minecraft:mushroom_stew"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "154FB20C62811903"
+					type: "item"
+					item: "crockpot:mushy_cake"
+					only_one: true
+				}
+				{
+					id: "0960372C79133868"
+					type: "item"
+					item: "kubejs:wet_straw_briquette"
+					only_one: true
+				}
+			]
+		}
 	]
 }
