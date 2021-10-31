@@ -263,6 +263,9 @@ onEvent('recipes', (event) => {
             A: Item.of('charcoal_pit:straw').toJson(),
             B: Item.of('rankine:rope').toJson()
         }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('kubejs:clay_bucket'), ['A A', 'A A', 'AAA'], {
+            A: Item.of('minecraft:clay_ball').toJson()
+        }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('frostedheart:hay_boots'), ['ABA', 'ABA'], {
             A: Item.of('charcoal_pit:straw').toJson(),
             B: Item.of('rankine:rope').toJson()
