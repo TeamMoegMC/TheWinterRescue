@@ -275,9 +275,9 @@ def assembleCurseFormatWithMods(modpack_name):
         # Copy to temporary location
         os.mkdir("runners/pack/")
         os.mkdir("runners/pack/.minecraft")
-        shutil.copytree('config', 'runners/pack/.minecraft/config')
-        shutil.copytree('defaultconfigs', 'runners/pack/.minecraft/defaultconfigs')
-        shutil.copytree('kubejs', 'runners/pack/.minecraft/kubejs')
+        # shutil.copytree('config', 'runners/pack/.minecraft/config')
+        # shutil.copytree('defaultconfigs', 'runners/pack/.minecraft/defaultconfigs')
+        # shutil.copytree('kubejs', 'runners/pack/.minecraft/kubejs')
         shutil.copytree('mods', 'runners/pack/.minecraft/mods')
         print("Copied updated config, defaultconfigs, kubejs, mods folders to pack")
 
@@ -337,9 +337,9 @@ def assembleFatPackage(modpack_name, instances_abs_loc, extra_package_rel_loc, p
         # Copy modifications to temporary location
         os.mkdir("runners/pack/")
         os.mkdir("runners/pack/.minecraft")
-        shutil.copytree('config', 'runners/pack/.minecraft/config')
-        shutil.copytree('defaultconfigs', 'runners/pack/.minecraft/defaultconfigs')
-        shutil.copytree('kubejs', 'runners/pack/.minecraft/kubejs')
+        # shutil.copytree('config', 'runners/pack/.minecraft/config')
+        # shutil.copytree('defaultconfigs', 'runners/pack/.minecraft/defaultconfigs')
+        # shutil.copytree('kubejs', 'runners/pack/.minecraft/kubejs')
         shutil.copytree('mods', 'runners/pack/.minecraft/mods')
         print("Copied modification files to fat pack")
 
