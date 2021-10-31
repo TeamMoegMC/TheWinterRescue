@@ -1,0 +1,230 @@
+{
+	id: "1B332F15A5B415FA"
+	group: "7668DAE31E3EF623"
+	order_index: 0
+	filename: "1B332F15A5B415FA"
+	title: "燃料处理"
+	icon: "kubejs:coal_briquette"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -8.0d
+			y: -3.5d
+			subtitle: "仅仅是把干草捆在一起"
+			description: ["仅仅把干草捆起来然后烘干就能提升燃烧效率。"]
+			dependencies: ["29BC87594650152D"]
+			hide: true
+			id: "643B93BCE91A0BB9"
+			tasks: [{
+				id: "36D8D3139355099B"
+				type: "item"
+				item: "kubejs:straw_briquette"
+			}]
+			rewards: [{
+				id: "54AE15295642FF26"
+				type: "item"
+				item: "kubejs:straw_briquette"
+			}]
+		}
+		{
+			title: "煤粉"
+			x: -8.0d
+			y: -0.5d
+			subtitle: "简单处理"
+			description: ["仅仅是磨粉就能提升燃烧效率高达50%，何乐而不为？"]
+			id: "04B97BB52527FB7A"
+			tasks: [{
+				id: "691CC697E60DDBBC"
+				type: "item"
+				title: "Any #kubejs:coal_dust"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "kubejs:coal_dust"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.0d
+			subtitle: "化学处理"
+			description: ["任意煤粉经过脱硫就能获得高品质的煤粉，再制造成形就能获得蜂窝煤。"]
+			dependencies: ["04B97BB52527FB7A"]
+			hide: true
+			id: "100B8B27C075D0DC"
+			tasks: [{
+				id: "0CEB415DFBEEE3C2"
+				type: "item"
+				item: "kubejs:wet_coal_briquette"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			subtitle: "现代燃料"
+			description: ["再烘干又可以提升效率达到25%"]
+			dependencies: [
+				"100B8B27C075D0DC"
+				"2AE5C29C6D65FB00"
+				"42D860535BFF35C4"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "0CDAFF3E5A013056"
+			tasks: [{
+				id: "16D151F8F443E1F9"
+				type: "item"
+				item: "kubejs:coal_briquette"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			subtitle: "仅仅是简化了制造"
+			description: ["有些煤本身就是高质量的，只需加少量油即可粘合成蜂窝煤。"]
+			dependencies: ["04B97BB52527FB7A"]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "2AE5C29C6D65FB00"
+			tasks: [{
+				id: "63B6FD546417A4FE"
+				type: "item"
+				item: "kubejs:creosoted_coal_briquette"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			subtitle: "奢侈的选择"
+			description: ["通过对高品质煤粉添加凝胶，你可以以最大效率利用燃料。"]
+			dependencies: ["04B97BB52527FB7A"]
+			hide: true
+			id: "42D860535BFF35C4"
+			tasks: [{
+				id: "2FF0571D871173C9"
+				type: "item"
+				item: "kubejs:bound_coal_briquette"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			subtitle: "更高效利用燃料"
+			description: ["燃料能很简便的产生能源，但是一般方式燃烧效率低下。如果能够改变燃料的形状和化学组分来提升燃烧效率，那未尝不是一件好事。然而，增大的空气接触面积使得这些燃料不适合作为冶炼用燃料。"]
+			id: "10E9ACB93591D6BE"
+			tasks: [{
+				id: "5B68FEEAC736B65B"
+				type: "checkmark"
+				title: "燃料处理"
+				icon: "minecraft:coal"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.5d
+			subtitle: "可持续发展"
+			description: ["木炭同样可以通过磨粉提升燃烧效率"]
+			hide: true
+			id: "291DA52EE6F8E5AF"
+			tasks: [{
+				id: "5C16816AD3FDD8C2"
+				type: "item"
+				item: "kubejs:charcoal_dust"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			subtitle: "蜂窝煤的木炭版本"
+			description: ["烘干后，你就获得了蜂窝炭。"]
+			dependencies: [
+				"16ADBE5F70B10285"
+				"48D63E2DA4BF2E9C"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "6356C6E09463F6AE"
+			tasks: [{
+				id: "77BACCD5C7C0FFCF"
+				type: "item"
+				item: "kubejs:charcoal_briquette"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			subtitle: "母子盖饭"
+			description: ["用油浸木炭并压制可以略微提升木炭利用效率。但是木炭过于松散，你需要付出更大量的油才能粘合。"]
+			dependencies: ["291DA52EE6F8E5AF"]
+			hide: true
+			id: "48D63E2DA4BF2E9C"
+			tasks: [{
+				id: "78F0E6C53AEB845D"
+				type: "item"
+				item: "kubejs:creosoted_charcoal_briquette"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			subtitle: "胶水木炭"
+			description: ["用粘合剂粘合木炭粉无疑是更简便的方法。"]
+			dependencies: ["291DA52EE6F8E5AF"]
+			hide: true
+			id: "16ADBE5F70B10285"
+			tasks: [{
+				id: "19E256A4C3E89C36"
+				type: "item"
+				item: "kubejs:bound_charcoal_briquette"
+			}]
+		}
+		{
+			title: "木屑"
+			x: -8.0d
+			y: 5.5d
+			subtitle: "能烧，还能吃。"
+			id: "1AAA40B874A98211"
+			tasks: [{
+				id: "5D9D0436115B7798"
+				type: "item"
+				title: "木屑"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:dusts/wood"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.5d
+			subtitle: "免烧木炭"
+			description: ["只要改变木头的形状，就能让他燃烧更充分。"]
+			dependencies: ["1AAA40B874A98211"]
+			id: "770CD4281B427FDC"
+			tasks: [{
+				id: "289AB5499839CBA3"
+				type: "item"
+				item: "kubejs:creosoted_sawdust_briquette"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			subtitle: "木炭"
+			description: ["不用烧就能获得木炭，再也不用做一大堆焦炉了。"]
+			dependencies: ["770CD4281B427FDC"]
+			id: "1405F759FF532C22"
+			tasks: [{
+				id: "078310E80129CA85"
+				type: "item"
+				item: "kubejs:sawdust_briquette"
+			}]
+		}
+	]
+}

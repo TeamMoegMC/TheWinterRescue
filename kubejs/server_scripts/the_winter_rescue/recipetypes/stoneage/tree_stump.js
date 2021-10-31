@@ -24,6 +24,8 @@ onEvent('recipes', (event) => {
             Ingredient.of('#forge:hammers'), 3),
 		tree_stumpRecipe(Item.of("2x kubejs:wet_coal_briquette"), Item.of("kubejs:wet_coal_dust"),
             Ingredient.of('#forge:hammers'), 2),
+		tree_stumpRecipe(Item.of("3x rankine:sawdust"), Ingredient.of("#minecraft:logs"),
+            Ingredient.of('#forge:hammers'), 2),
         tree_stumpRecipe(Item.of('immersiveengineering:slab_treated_wood_horizontal', 2), Item.of('immersiveengineering:treated_wood_horizontal'),
             Ingredient.of('#forge:axes'), 2),
         tree_stumpRecipe(Item.of('minecraft:dark_oak_planks', 3), Item.of('minecraft:stripped_dark_oak_log'),

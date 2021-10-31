@@ -37,5 +37,14 @@ onEvent('item.tags', (event) => {
     event.add('forge:ores/tin', "kubejs:native_tin")
     event.add('forge:ores/tin', "rankine:cassiterite")
     event.add('forge:coal_coke', "charcoal_pit:coke")
+	
+	event.add("kubejs:coal_dust","kubejs:anthracite_dust")
+	event.add("kubejs:coal_dust","kubejs:bituminous_coal_dust")
+	event.add("kubejs:coal_dust","kubejs:subbituminous_coal_dust")
+	event.add("kubejs:coal_dust","kubejs:lignite_dust")
+	event.add("kubejs:coal_dust","kubejs:coal_dust")
+	event.add("kubejs:fuel_glue","minecraft:slime_ball")
+	event.add("kubejs:fuel_glue","create:dough")
+	event.add("kubejs:fuel_glue","#forge:bitumen")
 
 });

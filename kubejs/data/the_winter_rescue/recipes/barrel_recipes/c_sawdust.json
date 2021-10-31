@@ -1,0 +1,17 @@
+{
+  "type": "charcoal_pit:barrel",
+  "item_in":{
+  	"tag":"forge:sawdust"
+  },
+  "fluid_in":{
+  	"fluid":"charcoal_pit:creosote_still",
+  	"amount": 250
+  },
+  "item_out":{
+  	"item":"kubejs:creosoted_sawdust_briquette"
+  },
+  "flags": 1,
+  "in_amount":8,
+  "out_amount":2,
+  "time": 200
+}

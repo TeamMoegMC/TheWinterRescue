@@ -1,7 +1,7 @@
 {
 	id: "00A96B3C8C24C472"
 	group: "7668DAE31E3EF623"
-	order_index: 0
+	order_index: 1
 	filename: "generator"
 	title: "{chapter.twr.00A96B3C8C24C472.title}"
 	icon: "frostedheart:generator_core_t1"

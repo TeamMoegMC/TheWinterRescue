@@ -207,6 +207,9 @@ onEvent('recipes', (event) => {
             B: Item.of('minecraft:sand').toJson(),
             C: Item.of('minecraft:clay_ball').toJson()
         }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('kubejs:wet_straw_briquette'), ['AAA', 'A A', 'AAA'], {
+            A: Item.of('charcoal_pit:straw').toJson()
+        }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('stone_age:fish_bone', 2), ['ABA'], {
             A: Item.of('minecraft:bone').toJson(),
             B: Item.of('minecraft:flint').toJson()
