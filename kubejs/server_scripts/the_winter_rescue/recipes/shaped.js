@@ -141,13 +141,6 @@ onEvent('recipes', (event) => {
             A: '#forge:plates/iron',
             B: 'immersiveengineering:stick_treated'
         }),
-        shapedRecipe('notreepunching:clay_tool', ['AA', 'A '], {
-            A: 'minecraft:stick',
-        }),
-        shapedRecipe('notreepunching:flint_knife', [' A', 'B '], {
-            A: 'minecraft:flint',
-            B: 'minecraft:stick'
-        }),
         shapedRecipe('2x rankine:rope', ['AA', 'A '], {
             A: 'charcoal_pit:straw'
         }),
@@ -160,11 +153,6 @@ onEvent('recipes', (event) => {
             L: '#forge:ingots/cast_iron',
             P: 'immersiveengineering:fluid_pipe',
             F: '#the_winter_rescue:cogwheels'
-        }),
-        shapedRecipe('notreepunching:fire_starter', ['AC', 'BA'], {
-            A: '#forge:rods/wooden',
-            B: 'minecraft:flint',
-            C: '#forge:string'
         }),
         shapedRecipe('elevatorid:elevator_white', ['AAA', 'BBB', 'AAA'], {
             A: '#forge:plates/steel',
@@ -271,6 +259,11 @@ onEvent('recipes', (event) => {
             A: 'immersiveengineering:sheetmetal_steel',
             B: '#forge:plates/steel',
             C: 'immersiveengineering:plantoil_bucket'
+        }),
+		shapedRecipe('frostedheart:soil_thermometer', ['BCB', 'ACA', ' A '], {
+            A: '#forge:plates/iron',
+            B: 'minecraft:glass',
+            C: 'rankine:cinnabar'
         }),
 		shapedRecipe('frostedheart:buff_coat', ['AAA', 'CBC', 'AAA'], {
             A: 'minecraft:leather',

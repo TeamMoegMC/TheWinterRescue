@@ -1,0 +1,8 @@
+{
+  "type": "charcoal_pit:pottery",
+  "ingredient": {
+    "item": "kubejs:clay_bucket"
+  },
+  "result": "frostedheart:ceramic_bucket",
+  "experience": 0.35
+}

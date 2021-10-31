@@ -3,6 +3,7 @@ console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Items Registered!')
 onEvent('item.registry', event => {
 	const generalItems = [
 		'flux',
+		'clay_bucket',
 		'activated_carbon',
 		'impure_alumina_dust',
 		'aluminium_oxide_dust',

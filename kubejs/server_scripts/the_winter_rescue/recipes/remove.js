@@ -107,7 +107,6 @@ onEvent('recipes', (event) => {
     event.remove({input: 'notreepunching:plant_string'})
     event.remove({type: 'rankine:beehive_oven'})
     event.remove({input: 'rankine:element_transmuter'})
-    event.remove({mod: 'advgenerators'});
     event.remove({mod: 'theoneprobe'});
     event.remove({mod: 'extendedcrafting'});
     event.remove({mod: 'immersivepetroleum'});
@@ -116,8 +115,6 @@ onEvent('recipes', (event) => {
     event.remove({input: 'rankine:alloy_template', output: 'minecraft:paper'});
     event.remove({input: 'minecraft:redstone_ore'});
 
-    event.remove({type: 'advancedrocketry:smallplate'});
-    event.remove({type: 'advancedrocketry:rollingmachine'});
     event.remove({type: 'minecraft:smelting', input: 'rankine:magnetite_block'});
     event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
 
