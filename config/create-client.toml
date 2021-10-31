@@ -13,6 +13,7 @@
 	#Range: 0 ~ 5
 	ingameMenuConfigButtonRow = 3
 	# 
+	#Higher density means more spawned particles.
 	#Range: 0.0 ~ 1.0
 	fanParticleDensity = 0.5
 	# 
@@ -38,7 +39,7 @@
 	experimentalRendering = true
 	# 
 	#Offset the Create config button in the in-game menu by this many pixels on the X axis
-	#The sign (+/-) of this value determines what side of the row the button appears on (right/left)
+	#The sign (-/+) of this value determines what side of the row the button appears on (left/right)
 	#Range: > -2147483648
 	ingameMenuConfigButtonOffsetX = -4
 	# 
@@ -46,7 +47,7 @@
 	ignoreFabulousWarning = false
 	# 
 	#Offset the Create config button in the main menu by this many pixels on the X axis
-	#The sign (+/-) of this value determines what side of the row the button appears on (right/left)
+	#The sign (-/+) of this value determines what side of the row the button appears on (left/right)
 	#Range: > -2147483648
 	mainMenuConfigButtonOffsetX = -4
 	# 
@@ -78,11 +79,11 @@
 		#Enable this to use your custom colors for the Goggle- and Hover- Overlay
 		customColorsOverlay = false
 		# 
-		#Offset the overlay from goggle- and hover- information by this many pixels on the Y axis; Use /create overlay
+		#Offset the overlay from goggle- and hover- information by this many pixels on the respective axis; Use /create overlay
 		#Range: > -2147483648
 		overlayOffsetY = 0
 		# 
-		#Offset the overlay from goggle- and hover- information by this many pixels on the X axis; Use /create overlay
+		#Offset the overlay from goggle- and hover- information by this many pixels on the respective axis; Use /create overlay
 		#Range: > -2147483648
 		overlayOffsetX = 20
 		# 
