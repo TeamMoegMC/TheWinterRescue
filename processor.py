@@ -167,6 +167,59 @@ def translate_json(path, target):
         outputfile.close()
 
 
+# Upload our mods to CF
+def uploadModsToCurseForge(build_list, do_upload):
+    if "FH" in build_list:
+        os.chdir("/Users/wyc/Development/FrostedHeart")
+        os.system("git pull")
+        print("SUCCESSFULLY pulled FH")
+        os.system("./gradlew build")
+        print("SUCCESSFULLY built FH")
+        if do_upload:
+            os.system("./gradlew curseforge")
+            print("SUCCESSFULLY uploaded FH\n")
+
+    if "SP" in build_list:
+        os.chdir("/Users/wyc/Development/steampowered")
+        os.system("git pull")
+        print("SUCCESSFULLY pulled SP")
+        os.system("./gradlew build")
+        print("SUCCESSFULLY built SP")
+        if do_upload:
+            os.system("./gradlew curseforge")
+            print("SUCCESSFULLY uploaded SP\n")
+
+    if "II" in build_list:
+        os.chdir("/Users/wyc/Development/ImmersiveIndustry")
+        os.system("git pull")
+        print("SUCCESSFULLY pulled II")
+        os.system("./gradlew build")
+        print("SUCCESSFULLY built II")
+        if do_upload:
+            os.system("./gradlew curseforge")
+            print("SUCCESSFULLY uploaded II\n")
+
+    if "CP" in build_list:
+        os.chdir("/Users/wyc/Development/CharcoalPit2")
+        os.system("git pull")
+        print("SUCCESSFULLY pulled CP")
+        os.system("./gradlew build")
+        print("SUCCESSFULLY built CP")
+        if do_upload:
+            os.system("./gradlew curseforge")
+            print("SUCCESSFULLY uploaded CP\n")
+
+    if "SA" in build_list:
+        os.chdir("/Users/wyc/Development/StoneAge")
+        os.system("git pull")
+        print("SUCCESSFULLY pulled SA")
+        os.system("./gradlew build")
+        print("SUCCESSFULLY built SA")
+        if do_upload:
+            os.system("./gradlew curseforge")
+            print("SUCCESSFULLY uploaded SA\n")
+
+
 # Must run before any assemble functions run
 def bump_version(ver, kjspath, lastverpath, manifestpath):
     if not os.path.exists(kjspath) or not os.path.exists(lastverpath) or not os.path.exists(manifestpath):
