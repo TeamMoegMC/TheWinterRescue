@@ -1,0 +1,10 @@
+{
+  "type": "frostedheart:generator",
+  "result": {
+    "item": "frostedheart:generator_ash"
+  },
+  "input": {
+    "item": "kubejs:sawdust_briquette"
+  },
+  "time": 1600
+}

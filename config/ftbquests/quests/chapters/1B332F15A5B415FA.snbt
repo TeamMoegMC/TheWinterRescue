@@ -32,7 +32,7 @@
 			x: -8.0d
 			y: -0.5d
 			subtitle: "简单处理"
-			description: ["仅仅是磨粉就能提升燃烧效率高达50%，何乐而不为？"]
+			description: ["仅仅是磨粉就能提升25%燃烧效率，何乐而不为？"]
 			id: "04B97BB52527FB7A"
 			tasks: [{
 				id: "691CC697E60DDBBC"
@@ -65,7 +65,7 @@
 			x: -4.0d
 			y: -0.5d
 			subtitle: "现代燃料"
-			description: ["再烘干又可以提升效率达到25%"]
+			description: ["再烘干又可以提升25%的效率"]
 			dependencies: [
 				"100B8B27C075D0DC"
 				"2AE5C29C6D65FB00"
@@ -204,8 +204,9 @@
 			x: -6.0d
 			y: 5.5d
 			subtitle: "免烧木炭"
-			description: ["只要改变木头的形状，就能让他燃烧更充分。"]
+			description: ["只要改变木头的形状，就能更充分地燃烧。"]
 			dependencies: ["1AAA40B874A98211"]
+			hide: true
 			id: "770CD4281B427FDC"
 			tasks: [{
 				id: "289AB5499839CBA3"
