@@ -648,43 +648,26 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -3.5d
-			subtitle: "{quest.twr.409679774573DA63.subtitle}"
-			description: [
-				"{quest.twr.409679774573DA63.description.1}"
-				"{quest.twr.409679774573DA63.description.2}"
-				"{quest.twr.409679774573DA63.description.3}"
-			]
-			dependencies: ["6D92E93A0811C1FD"]
-			id: "409679774573DA63"
-			tasks: [{
-				id: "4728C6151A33F70B"
-				type: "item"
-				item: {
-					id: "notreepunching:clay_tool"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 5.0d
+			x: 4.0d
 			y: -3.5d
 			subtitle: "{quest.twr.6CF9868197215C1D.subtitle}"
 			description: [
 				"{quest.twr.6CF9868197215C1D.description.1}"
 				"{quest.twr.6CF9868197215C1D.description.2}"
 			]
-			dependencies: ["409679774573DA63"]
+			dependencies: ["6D92E93A0811C1FD"]
 			hide: true
 			id: "6CF9868197215C1D"
 			tasks: [{
-				id: "6C40143E3C546377"
+				id: "2AAF72488E68976B"
 				type: "item"
-				item: "notreepunching:ceramic_bucket"
+				item: {
+					id: "frostedheart:ceramic_bucket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 			rewards: [{
 				id: "4787F5D7EA7BF4D8"
@@ -1411,28 +1394,6 @@
 					}
 				}
 			]
-		}
-		{
-			x: -3.5d
-			y: 3.5d
-			subtitle: "{quest.twr.1C7830BE11F5FDCA.subtitle}"
-			description: [
-				"{quest.twr.1C7830BE11F5FDCA.description.1}"
-				"{quest.twr.1C7830BE11F5FDCA.description.2}"
-			]
-			dependencies: ["29BC87594650152D"]
-			id: "1C7830BE11F5FDCA"
-			tasks: [{
-				id: "10CAFBC6A5361EC7"
-				type: "item"
-				item: {
-					id: "notreepunching:fire_starter"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 		}
 		{
 			x: -2.0d

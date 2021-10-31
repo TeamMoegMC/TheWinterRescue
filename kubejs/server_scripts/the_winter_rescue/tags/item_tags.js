@@ -1,7 +1,6 @@
 onEvent('item.tags', (event) => {
     event.add('itemfilters:check_nbt', 'tetra:modular_double')
 
-    event.remove('forge:string', 'notreepunching:plant_string')
     event.add('forge:plates/bronze', "steampowered:bronze_sheet")
     event.add('forge:plates/cast_iron', "kubejs:cast_iron_plate")
     event.add('forge:plates/tungsten_steel', "kubejs:tungsten_steel_plate")

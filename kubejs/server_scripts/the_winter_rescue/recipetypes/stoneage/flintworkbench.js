@@ -32,7 +32,7 @@ onEvent('recipes', (event) => {
             A: Item.of('minecraft:iron_ingot').toJson(),
             B: Ingredient.of('immersiveengineering:treated_wood_horizontal').toJson(),
             C: Ingredient.of('immersiveengineering:slab_treated_wood_horizontal').toJson()
-        }, Ingredient.of('#notreepunching:saws')),
+        }, Ingredient.of('#forge:axes')),
         flint_shapedRecipe(Item.of('stone_age:millstone'), [' B ', ' C ', 'AAA'], {
             A: Ingredient.of('#forge:stone').toJson(),
             B: Item.of('minecraft:stick').toJson(),
@@ -265,6 +265,9 @@ onEvent('recipes', (event) => {
         flint_shapedRecipe(Item.of('frostedheart:hay_pants'), ['AAA', 'ABA', 'ABA'], {
             A: Item.of('charcoal_pit:straw').toJson(),
             B: Item.of('rankine:rope').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('kubejs:clay_bucket'), ['A A', 'A A', 'AAA'], {
+            A: Item.of('minecraft:clay_ball').toJson()
         }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('frostedheart:hay_boots'), ['ABA', 'ABA'], {
             A: Item.of('charcoal_pit:straw').toJson(),

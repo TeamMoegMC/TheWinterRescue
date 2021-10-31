@@ -167,6 +167,59 @@ def translate_json(path, target):
         outputfile.close()
 
 
+# Upload our mods to CF
+def uploadModsToCurseForge(build_list, do_upload):
+    if "FH" in build_list:
+        os.chdir("/Users/wyc/Development/FrostedHeart")
+        os.system("git pull")
+        print("SUCCESSFULLY pulled FH")
+        os.system("./gradlew build")
+        print("SUCCESSFULLY built FH")
+        if do_upload:
+            os.system("./gradlew curseforge")
+            print("SUCCESSFULLY uploaded FH\n")
+
+    if "SP" in build_list:
+        os.chdir("/Users/wyc/Development/steampowered")
+        os.system("git pull")
+        print("SUCCESSFULLY pulled SP")
+        os.system("./gradlew build")
+        print("SUCCESSFULLY built SP")
+        if do_upload:
+            os.system("./gradlew curseforge")
+            print("SUCCESSFULLY uploaded SP\n")
+
+    if "II" in build_list:
+        os.chdir("/Users/wyc/Development/ImmersiveIndustry")
+        os.system("git pull")
+        print("SUCCESSFULLY pulled II")
+        os.system("./gradlew build")
+        print("SUCCESSFULLY built II")
+        if do_upload:
+            os.system("./gradlew curseforge")
+            print("SUCCESSFULLY uploaded II\n")
+
+    if "CP" in build_list:
+        os.chdir("/Users/wyc/Development/CharcoalPit2")
+        os.system("git pull")
+        print("SUCCESSFULLY pulled CP")
+        os.system("./gradlew build")
+        print("SUCCESSFULLY built CP")
+        if do_upload:
+            os.system("./gradlew curseforge")
+            print("SUCCESSFULLY uploaded CP\n")
+
+    if "SA" in build_list:
+        os.chdir("/Users/wyc/Development/StoneAge")
+        os.system("git pull")
+        print("SUCCESSFULLY pulled SA")
+        os.system("./gradlew build")
+        print("SUCCESSFULLY built SA")
+        if do_upload:
+            os.system("./gradlew curseforge")
+            print("SUCCESSFULLY uploaded SA\n")
+
+
 # Must run before any assemble functions run
 def bump_version(ver, kjspath, lastverpath, manifestpath):
     if not os.path.exists(kjspath) or not os.path.exists(lastverpath) or not os.path.exists(manifestpath):
@@ -190,6 +243,7 @@ def bump_version(ver, kjspath, lastverpath, manifestpath):
     t = open(lastverpath, "w+", encoding="utf-8")
     t.writelines([ver])
     t.close()
+    print("Updated kubejs client props to " + ver)
 
     with open(manifestpath, encoding="utf-8") as m:
         m_list = m.readlines()
@@ -201,6 +255,65 @@ def bump_version(ver, kjspath, lastverpath, manifestpath):
     m = open(manifestpath, "w+", encoding="utf-8")
     m.writelines(m_list)
     m.close()
+    print("Updated manifest json to " + ver)
+
+    # Update TWRSS and build a jar
+    os.chdir("/Users/wyc/Development/TWRStartupScript")
+    with open("build.gradle", encoding="utf-8") as buildscript:
+        buildscript_list = buildscript.readlines()
+        buildscript_list[17] = "version = '" + ver + "'\n"
+    buildscript.close()
+    bs = open("build.gradle", "w+", encoding="utf-8")
+    bs.writelines(buildscript_list)
+    bs.close()
+    print("Updated twrss buildscript to " + ver)
+
+    with open("src/main/resources/META-INF/mods.toml", encoding="utf-8") as toml:
+        toml_list = toml.readlines()
+        toml_list[5] = "version = \"" + ver + "\"\n"
+    toml.close()
+    tm = open("src/main/resources/META-INF/mods.toml", "w+", encoding="utf-8")
+    tm.writelines(toml_list)
+    tm.close()
+    print("Updated twrss mods.toml to " + ver)
+
+    os.chdir("/Users/wyc/Twitch/Minecraft/Instances/The-Winter-Rescue")
+    os.mkdir("temporary_pack")
+    shutil.copytree("config", "temporary_pack/config")
+    shutil.copytree("kubejs", "temporary_pack/kubejs")
+    shutil.copytree("defaultconfigs", "temporary_pack/defaultconfigs")
+    shutil.make_archive("pack", 'zip', "temporary_pack")
+    shutil.rmtree("temporary_pack")
+
+    os.chdir("/Users/wyc")
+    if os.path.exists("Development/TWRStartupScript/src/main/resources/pack.zip"):
+        os.remove("Development/TWRStartupScript/src/main/resources/pack.zip")
+        print("Found existing pack.zip in twrss dev env, removing it")
+    shutil.copy("Twitch/Minecraft/Instances/The-Winter-Rescue/pack.zip", "Development/TWRStartupScript/src/main/resources/pack.zip")
+    os.remove("Twitch/Minecraft/Instances/The-Winter-Rescue/pack.zip")
+    print("Copied updated pack.zip to twrss dev env")
+
+    os.chdir("/Users/wyc/Development/TWRStartupScript")
+    try:
+        os.system("./gradlew build")
+        print("Successfuly built twrss " + ver)
+    except OSError as error:
+        print(error)
+        print("Failed to build twrss" + ver)
+
+    # Copy the build to Dev Env mods folder and remove any older version
+    os.chdir("/Users/wyc")
+    for fname in os.listdir("Twitch/Minecraft/Instances/The-Winter-Rescue/mods"):
+        if fname.startswith("twrstartupscript"):
+            os.remove(os.path.join("Twitch/Minecraft/Instances/The-Winter-Rescue/mods", fname))
+            print("Found " + fname + " in existing mods folder, removing it")
+
+    for fname in os.listdir("Development/TWRStartupScript/build/libs"):
+        if fname.startswith("twrstartupscript") and ver in fname:
+            shutil.copy("Development/TWRStartupScript/build/libs/"+fname, "Twitch/Minecraft/Instances/The-Winter-Rescue/mods/"+fname)
+            print("Copied updated " + fname + " to mods folder")
+
+    print("Version bump to " + ver + " completed!\n")
 
 
 # We need three types of packages, one is a standard CurseForge format package assembled in CurseForge Client
@@ -210,31 +323,38 @@ def bump_version(ver, kjspath, lastverpath, manifestpath):
 # 3. Simple fat package of /.minecraft directory with everything necessary
 # Which are assembled here
 def assembleCurseFormatWithMods(modpack_name):
+    print("===CF with Mods Pack Start===")
     try:
         # Copy to temporary location
         os.mkdir("runners/pack/")
         os.mkdir("runners/pack/.minecraft")
-        shutil.copytree('config', 'runners/pack/.minecraft/config')
-        shutil.copytree('defaultconfigs', 'runners/pack/.minecraft/defaultconfigs')
-        shutil.copytree('kubejs', 'runners/pack/.minecraft/kubejs')
+        # shutil.copytree('config', 'runners/pack/.minecraft/config')
+        # shutil.copytree('defaultconfigs', 'runners/pack/.minecraft/defaultconfigs')
+        # shutil.copytree('kubejs', 'runners/pack/.minecraft/kubejs')
         shutil.copytree('mods', 'runners/pack/.minecraft/mods')
+        print("Copied updated config, defaultconfigs, kubejs, mods folders to pack")
 
         # Get version and archive files
         if not os.path.exists("runners/manifest.json"):
             print("Error: manifest.json does not exist! Stopping assemble.")
             return
         shutil.copy('runners/manifest.json', 'runners/pack/manifest.json')
+        print("Copied updated manifest.json to pack")
+
         with open("runners/manifest.json", encoding="utf-8") as manifest:
             dict = json.load(manifest)
             shutil.make_archive(modpack_name + "-V" + dict["version"], 'zip', "runners/pack")
+            print("SUCCESSFULLY assembled " + modpack_name + "-V" + dict["version"] + ".zip, see twr dev env")
         manifest.close()
         shutil.rmtree("runners/pack")
+        print("===CF with Mods Pack Compelete===\n")
     except OSError as error:
         print(error)
 
 
 # Assemble Server files
 def assembleServerFiles(modpack_name, pack_location_url):
+    print("===Server Pack Start===")
     try:
         # Update pack location url
         with open("serverfiles/server-setup-config.yaml", encoding="utf-8") as m:
@@ -247,6 +367,7 @@ def assembleServerFiles(modpack_name, pack_location_url):
         m = open("serverfiles/server-setup-config.yaml", "w+", encoding="utf-8")
         m.writelines(m_list)
         m.close()
+        print("Updated serverfiles modpack curseforge location url to " + pack_location_url)
 
         # Get version and archive files
         if not os.path.exists("runners/manifest.json"):
@@ -255,21 +376,25 @@ def assembleServerFiles(modpack_name, pack_location_url):
         with open("runners/manifest.json", encoding="utf-8") as manifest:
             dict = json.load(manifest)
             shutil.make_archive(modpack_name + "-Server-V" + dict["version"], 'zip', "serverfiles")
+            print("SUCCESSFULLY assembled " + modpack_name + "-Server-V" + dict["version"] + ".zip, see twr dev env")
         manifest.close()
+        print("===Server Pack Compelete===\n")
     except OSError as error:
         print(error)
 
 
 # Simple fat package of /.minecraft directory with everything necessary
 def assembleFatPackage(modpack_name, instances_abs_loc, extra_package_rel_loc, processor_rel_loc):
+    print("===Fat Pack Start===")
     try:
         # Copy modifications to temporary location
         os.mkdir("runners/pack/")
         os.mkdir("runners/pack/.minecraft")
-        shutil.copytree('config', 'runners/pack/.minecraft/config')
-        shutil.copytree('defaultconfigs', 'runners/pack/.minecraft/defaultconfigs')
-        shutil.copytree('kubejs', 'runners/pack/.minecraft/kubejs')
+        # shutil.copytree('config', 'runners/pack/.minecraft/config')
+        # shutil.copytree('defaultconfigs', 'runners/pack/.minecraft/defaultconfigs')
+        # shutil.copytree('kubejs', 'runners/pack/.minecraft/kubejs')
         shutil.copytree('mods', 'runners/pack/.minecraft/mods')
+        print("Copied modification files to fat pack")
 
         # Copy extra libraries
         os.chdir(instances_abs_loc)
@@ -282,6 +407,7 @@ def assembleFatPackage(modpack_name, instances_abs_loc, extra_package_rel_loc, p
         shutil.copy(extra_package_rel_loc + "/.minecraft/servers.dat", processor_rel_loc + "/runners/pack/.minecraft/servers.dat")
         shutil.copy(extra_package_rel_loc + "/.minecraft/servers.dat_old", processor_rel_loc + "/runners/pack/.minecraft/servers.dat_old")
         shutil.copy(extra_package_rel_loc + "/.minecraft/launcher_profiles.json", processor_rel_loc + "/runners/pack/.minecraft/launcher_profiles.json")
+        print("Copied extra libraries files to fat pack")
 
         # Get version and archive files
         os.chdir(instances_abs_loc + "/" + processor_rel_loc)
@@ -292,7 +418,10 @@ def assembleFatPackage(modpack_name, instances_abs_loc, extra_package_rel_loc, p
         with open("runners/manifest.json", encoding="utf-8") as manifest:
             dict = json.load(manifest)
             shutil.make_archive(modpack_name + "-V" + dict["version"], 'zip', "runners/pack")
+            print("SUCCESSFULLY assembled " + modpack_name + "-V" + dict["version"] + ", see twr dev env")
         manifest.close()
+        shutil.rmtree("runners/pack/.minecraft")
         shutil.rmtree("runners/pack")
+        print("===Fat Pack Compelete===\n")
     except OSError as error:
         print(error)

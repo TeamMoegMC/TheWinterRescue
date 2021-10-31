@@ -1,5 +1,4 @@
 const clientItemsToHide = [
-   'notreepunching:clay_brick'
 ];
 
 const fluidsToHide = [
