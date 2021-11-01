@@ -2,7 +2,6 @@
   "chapter.twr.1E695E6D1F5B227A.title": "工具大师的一天",
   "chapter.twr.1E695E6D1F5B227A.subtitle": "打磨最好的工具，是一门匠人的艺术。",
   "quest.twr.11DD149796E14E81.subtitle": "非法改装",
-  "quest.twr.11DD149796E14E81.description.1": "制作一个tetra的锤子右键工作台得到",
   "quest.twr.5C8730E4484959B9.subtitle": "工具大师的起点",
   "quest.twr.5C8730E4484959B9.description.1": "从这里开始自由改造你的工具.",
   "quest.twr.0B94C2D4FAB6A54B.subtitle": "更加强大",
@@ -634,7 +633,6 @@
   "quest.twr.42D860535BFF35C4.subtitle": "奢侈的选择",
   "quest.twr.42D860535BFF35C4.description.1": "通过对高品质煤粉添加凝胶，你可以以最大效率利用燃料。",
   "quest.twr.10E9ACB93591D6BE.subtitle": "更高效利用燃料",
-  "quest.twr.10E9ACB93591D6BE.description.1": "燃料能很简便的产生能源，但是一般方式燃烧效率低下。如果能够改变燃料的形状和化学组分来提升燃烧效率，那未尝不是一件好事。然而，增大的空气接触面积使得这些燃料不适合作为冶炼用燃料。",
   "quest.twr.291DA52EE6F8E5AF.subtitle": "可持续发展",
   "quest.twr.291DA52EE6F8E5AF.description.1": "木炭同样可以通过磨粉提升燃烧效率",
   "quest.twr.6356C6E09463F6AE.subtitle": "蜂窝煤的木炭版本",
@@ -650,9 +648,14 @@
   "quest.twr.1405F759FF532C22.subtitle": "木炭",
   "quest.twr.1405F759FF532C22.description.1": "不用烧就能获得木炭，再也不用做一大堆焦炉了。",
   "quest.twr.10E9ACB93591D6BE.title": "燃料处理",
+  "quest.twr.10E9ACB93591D6BE.description.1": "燃料能很简便的产生能源，但是一般方式燃烧效率低下.",
+  "quest.twr.10E9ACB93591D6BE.description.2": "如果能够改变燃料的形状和化学组分来提升燃烧效率，那未尝不是一件好事。",
+  "quest.twr.10E9ACB93591D6BE.description.3": "然而，增大的空气接触面积使得这些燃料不适合作为冶炼用燃料。",
   "quest.twr.50428AA91D1E1EFF.title": "腐肉处理",
   "quest.twr.50428AA91D1E1EFF.subtitle": "食堂模拟器",
   "quest.twr.50428AA91D1E1EFF.description.1": "腐肉的味道令人作呕。如果特殊料理一下，也许可以做出正常的料理了。",
   "quest.twr.0B7A7EF07D539FC5.subtitle": "腐肉料理",
-  "quest.twr.0B7A7EF07D539FC5.description.1": "需要放入1个腐肉，并且不能包含不可食用或者冰。"
+  "quest.twr.0B7A7EF07D539FC5.description.1": "需要放入1个腐肉，并且不能包含不可食用或者冰。",,
+  "quest.twr.11DD149796E14E81.description.1": "&l使用tetra锤子右键工作台得到加工台",
+  "quest.twr.11DD149796E14E81.description.2": "并会赠送一个全息球"
 }

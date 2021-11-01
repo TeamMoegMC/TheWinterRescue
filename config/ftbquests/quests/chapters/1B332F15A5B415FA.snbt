@@ -9,30 +9,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -8.0d
-			y: -3.5d
-			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
-			description: ["{quest.twr.643B93BCE91A0BB9.description.1}"]
-			dependencies: ["29BC87594650152D"]
-			hide: true
-			id: "643B93BCE91A0BB9"
-			tasks: [{
-				id: "36D8D3139355099B"
-				type: "item"
-				item: "kubejs:straw_briquette"
-			}]
-			rewards: [{
-				id: "54AE15295642FF26"
-				type: "item"
-				item: "kubejs:straw_briquette"
-			}]
-		}
-		{
 			title: "{quest.twr.04B97BB52527FB7A.title}"
 			x: -8.0d
 			y: -0.5d
 			subtitle: "{quest.twr.04B97BB52527FB7A.subtitle}"
 			description: ["{quest.twr.04B97BB52527FB7A.description.1}"]
+			dependencies: ["10E9ACB93591D6BE"]
 			id: "04B97BB52527FB7A"
 			tasks: [{
 				id: "691CC697E60DDBBC"
@@ -111,10 +93,15 @@
 		}
 		{
 			title: "{quest.twr.10E9ACB93591D6BE.title}"
-			x: -6.0d
-			y: -3.5d
+			x: -9.5d
+			y: 1.0d
 			subtitle: "{quest.twr.10E9ACB93591D6BE.subtitle}"
-			description: ["{quest.twr.10E9ACB93591D6BE.description.1}"]
+			description: [
+				"{quest.twr.10E9ACB93591D6BE.description.1}"
+				"{quest.twr.10E9ACB93591D6BE.description.2}"
+				"{quest.twr.10E9ACB93591D6BE.description.3}"
+			]
+			dependencies: ["4BD8236FEEBD7D3A"]
 			id: "10E9ACB93591D6BE"
 			tasks: [{
 				id: "5B68FEEAC736B65B"
@@ -127,6 +114,7 @@
 			y: 2.5d
 			subtitle: "{quest.twr.291DA52EE6F8E5AF.subtitle}"
 			description: ["{quest.twr.291DA52EE6F8E5AF.description.1}"]
+			dependencies: ["10E9ACB93591D6BE"]
 			hide: true
 			id: "291DA52EE6F8E5AF"
 			tasks: [{
@@ -183,9 +171,10 @@
 		}
 		{
 			title: "{quest.twr.1AAA40B874A98211.title}"
-			x: -8.0d
-			y: 5.5d
+			x: -9.5d
+			y: 2.5d
 			subtitle: "{quest.twr.1AAA40B874A98211.subtitle}"
+			dependencies: ["10E9ACB93591D6BE"]
 			id: "1AAA40B874A98211"
 			tasks: [{
 				id: "5D9D0436115B7798"
@@ -194,8 +183,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 5.5d
+			x: -9.5d
+			y: 4.0d
 			subtitle: "{quest.twr.770CD4281B427FDC.subtitle}"
 			description: ["{quest.twr.770CD4281B427FDC.description.1}"]
 			dependencies: ["1AAA40B874A98211"]
@@ -208,8 +197,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 5.5d
+			x: -8.0d
+			y: 4.0d
 			subtitle: "{quest.twr.1405F759FF532C22.subtitle}"
 			description: ["{quest.twr.1405F759FF532C22.description.1}"]
 			dependencies: ["770CD4281B427FDC"]

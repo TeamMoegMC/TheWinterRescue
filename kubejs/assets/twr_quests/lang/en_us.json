@@ -2,7 +2,7 @@
   "chapter.twr.1E695E6D1F5B227A.title": "A Day of Craftsman",
   "chapter.twr.1E695E6D1F5B227A.subtitle": "Crafting the finest tool is a practice of art.",
   "quest.twr.11DD149796E14E81.subtitle": "Illegal Modification",
-  "quest.twr.11DD149796E14E81.description.1": "Craft a Tetra hammer and right click the crafting table.",
+  "quest.twr.11DD149796E14E81.description.1": "&lCraft a Tetra hammer and right click the crafting table.",
   "quest.twr.5C8730E4484959B9.subtitle": "The Beginning of Craftsmanship",
   "quest.twr.5C8730E4484959B9.description.1": "Reforge all of your tools.",
   "quest.twr.0B94C2D4FAB6A54B.subtitle": "More Powerful",
@@ -634,7 +634,9 @@
   "quest.twr.42D860535BFF35C4.subtitle": "Luxury choice",
   "quest.twr.42D860535BFF35C4.description.1": "By adding gel to high-quality coal powder, you can use fuel with maximum efficiency.",
   "quest.twr.10E9ACB93591D6BE.subtitle": "Use fuel more efficiently",
-  "quest.twr.10E9ACB93591D6BE.description.1": "Fuel can easily generate energy, but the general method of combustion is inefficient. If the shape and chemical composition of the fuel can be changed to improve combustion efficiency, that would be a good thing. However, the increased air contact area makes these fuels unsuitable for smelting fuels.",
+  "quest.twr.10E9ACB93591D6BE.description.1": "Fuel can easily generate energy, but the general method of combustion is inefficient.",
+  "quest.twr.10E9ACB93591D6BE.description.2": "If the shape and chemical composition of the fuel can be changed to improve combustion efficiency, that would be a good thing.",
+  "quest.twr.10E9ACB93591D6BE.description.3": "However, the increased air contact area makes these fuels unsuitable for smelting fuels.",
   "quest.twr.291DA52EE6F8E5AF.subtitle": "sustainable development",
   "quest.twr.291DA52EE6F8E5AF.description.1": "Charcoal can also improve combustion efficiency by grinding",
   "quest.twr.6356C6E09463F6AE.subtitle": "Charcoal version of briquettes",
@@ -654,5 +656,6 @@
   "quest.twr.50428AA91D1E1EFF.subtitle": "Dining hall simulator",
   "quest.twr.50428AA91D1E1EFF.description.1": "Rotten flesh is disgusting. If we treat it specially, probably we can get normal cuisine.",
   "quest.twr.0B7A7EF07D539FC5.subtitle": "Rotten flesh cuisine",
-  "quest.twr.0B7A7EF07D539FC5.description.1": "Needs one rotten flesh and cannot contain anything inedible or icy."
+  "quest.twr.0B7A7EF07D539FC5.description.1": "Needs one rotten flesh and cannot contain anything inedible or icy.",
+  "quest.twr.11DD149796E14E81.description.2": "Will give you a holographic ball"
 }

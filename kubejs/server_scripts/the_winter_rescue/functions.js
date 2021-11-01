@@ -4,8 +4,8 @@ function shapedRecipe(result, pattern, key, id) {
     return {result: result, pattern: pattern, key: key, id: id};
 }
 
-function flint_shapedRecipe(result, pattern, key, tool) {
-    return {result: result, pattern: pattern, key: key, tool: tool};
+function flint_shapedRecipe(result, pattern, key, tool,workbench) {
+    return {result: result, pattern: pattern, key: key, tool: tool,workbench: workbench};
 }
 
 function tree_stumpRecipe(result, ingredients, tool, chop, amount) {
