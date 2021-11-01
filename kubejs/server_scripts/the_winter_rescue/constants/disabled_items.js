@@ -40,8 +40,6 @@ const disabledItems = [
     'create:mechanical_piston',
     'create:sticky_mechanical_piston',
     'create:piston_extension_pole',
-    'create:gantry_carriage',
-    'create:gantry_shaft',
     'create:windmill_bearing',
     'create:mechanical_bearing',
     'create:clockwork_bearing',
