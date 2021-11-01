@@ -318,7 +318,7 @@
 			x: -3.5d
 			y: -5.0d
 			subtitle: "腐肉料理"
-			description: ["需要放入1~2个腐肉，并且不能包含不可食用或者冰。"]
+			description: ["需要放入1个腐肉，并且不能包含不可食用或者冰。"]
 			dependencies: [
 				"50428AA91D1E1EFF"
 				"7AA152F9B5AF6677"
