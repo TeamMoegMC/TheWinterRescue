@@ -300,5 +300,36 @@
 				}
 			]
 		}
+		{
+			title: "腐肉处理"
+			x: -5.0d
+			y: -3.0d
+			subtitle: "食堂模拟器"
+			description: ["腐肉的味道令人作呕。如果特殊料理一下，也许可以做出正常的料理了。"]
+			hide: true
+			id: "50428AA91D1E1EFF"
+			tasks: [{
+				id: "25F4750A79862407"
+				type: "item"
+				item: "minecraft:rotten_flesh"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			subtitle: "腐肉料理"
+			description: ["需要放入1~2个腐肉，并且不能包含不可食用或者冰。"]
+			dependencies: [
+				"50428AA91D1E1EFF"
+				"7AA152F9B5AF6677"
+			]
+			hide: true
+			id: "0B7A7EF07D539FC5"
+			tasks: [{
+				id: "7240809FBC34F830"
+				type: "item"
+				item: "crockpot:meat_balls"
+			}]
+		}
 	]
 }
