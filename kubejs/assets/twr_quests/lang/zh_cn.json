@@ -649,5 +649,10 @@
   "quest.twr.770CD4281B427FDC.description.1": "只要改变木头的形状，就能更充分地燃烧。",
   "quest.twr.1405F759FF532C22.subtitle": "木炭",
   "quest.twr.1405F759FF532C22.description.1": "不用烧就能获得木炭，再也不用做一大堆焦炉了。",
-  "quest.twr.10E9ACB93591D6BE.title": "燃料处理"
+  "quest.twr.10E9ACB93591D6BE.title": "燃料处理",
+  "quest.twr.50428AA91D1E1EFF.title": "腐肉处理",
+  "quest.twr.50428AA91D1E1EFF.subtitle": "食堂模拟器",
+  "quest.twr.50428AA91D1E1EFF.description.1": "腐肉的味道令人作呕。如果特殊料理一下，也许可以做出正常的料理了。",
+  "quest.twr.0B7A7EF07D539FC5.subtitle": "腐肉料理",
+  "quest.twr.0B7A7EF07D539FC5.description.1": "需要放入1个腐肉，并且不能包含不可食用或者冰。"
 }

@@ -649,5 +649,10 @@
   "quest.twr.770CD4281B427FDC.description.1": "As long as the shape of the wood is changed, it can burn more fully.",
   "quest.twr.1405F759FF532C22.subtitle": "Charcoal",
   "quest.twr.1405F759FF532C22.description.1": "Charcoal can be obtained without burning, and there is no need to make a lot of coke ovens.",
-  "quest.twr.10E9ACB93591D6BE.title": "Fuel Treatment"
+  "quest.twr.10E9ACB93591D6BE.title": "Fuel Treatment",
+  "quest.twr.50428AA91D1E1EFF.title": "Rotten flesh processing",
+  "quest.twr.50428AA91D1E1EFF.subtitle": "Dining hall simulator",
+  "quest.twr.50428AA91D1E1EFF.description.1": "Rotten flesh is disgusting. If we treat it specially, probably we can get normal cuisine.",
+  "quest.twr.0B7A7EF07D539FC5.subtitle": "Rotten flesh cuisine",
+  "quest.twr.0B7A7EF07D539FC5.description.1": "Needs one rotten flesh and cannot contain anything inedible or icy."
 }
