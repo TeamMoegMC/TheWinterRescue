@@ -22,6 +22,7 @@ Tetra Pak：Tetra-Create兼容mod
 Corpse：遗体
 CameraOverhaul：真实视角（客户端）
 InventoryProfilesNext（客户端）
+Configured（客户端）
 * 更新模组：
 FrostedHeart-0.4.5
 SteamPowered-1.1.3
