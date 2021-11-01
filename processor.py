@@ -219,6 +219,8 @@ def uploadModsToCurseForge(build_list, do_upload):
             os.system("./gradlew curseforge")
             print("SUCCESSFULLY uploaded SA\n")
 
+    os.chdir("/Users/wyc/Twitch/Minecraft/Instances/The-Winter-Rescue")
+
 
 # Must run before any assemble functions run
 def bump_version(ver, kjspath, lastverpath, manifestpath):
@@ -313,6 +315,7 @@ def bump_version(ver, kjspath, lastverpath, manifestpath):
             shutil.copy("Development/TWRStartupScript/build/libs/"+fname, "Twitch/Minecraft/Instances/The-Winter-Rescue/mods/"+fname)
             print("Copied updated " + fname + " to mods folder")
 
+    os.chdir("/Users/wyc/Twitch/Minecraft/Instances/The-Winter-Rescue")
     print("Version bump to " + ver + " completed!\n")
 
 
@@ -350,6 +353,7 @@ def assembleCurseFormatWithMods(modpack_name):
         print("===CF with Mods Pack Compelete===\n")
     except OSError as error:
         print(error)
+    os.chdir("/Users/wyc/Twitch/Minecraft/Instances/The-Winter-Rescue")
 
 
 # Assemble Server files
@@ -381,6 +385,7 @@ def assembleServerFiles(modpack_name, pack_location_url):
         print("===Server Pack Compelete===\n")
     except OSError as error:
         print(error)
+    os.chdir("/Users/wyc/Twitch/Minecraft/Instances/The-Winter-Rescue")
 
 
 # Simple fat package of /.minecraft directory with everything necessary
@@ -425,3 +430,4 @@ def assembleFatPackage(modpack_name, instances_abs_loc, extra_package_rel_loc, p
         print("===Fat Pack Compelete===\n")
     except OSError as error:
         print(error)
+    os.chdir("/Users/wyc/Twitch/Minecraft/Instances/The-Winter-Rescue")
