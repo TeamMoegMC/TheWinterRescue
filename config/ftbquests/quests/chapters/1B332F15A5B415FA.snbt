@@ -1,7 +1,7 @@
 {
 	id: "1B332F15A5B415FA"
 	group: "7668DAE31E3EF623"
-	order_index: 0
+	order_index: 1
 	filename: "1B332F15A5B415FA"
 	title: "{chapter.twr.1B332F15A5B415FA.title}"
 	icon: "kubejs:coal_briquette"
@@ -110,6 +110,7 @@
 			}]
 		}
 		{
+			title: "Fuel Treatment"
 			x: -6.0d
 			y: -3.5d
 			subtitle: "{quest.twr.10E9ACB93591D6BE.subtitle}"
@@ -118,7 +119,6 @@
 			tasks: [{
 				id: "5B68FEEAC736B65B"
 				type: "checkmark"
-				title: "燃料处理"
 				icon: "minecraft:coal"
 			}]
 		}
@@ -190,14 +190,7 @@
 			tasks: [{
 				id: "5D9D0436115B7798"
 				type: "item"
-				title: "木屑"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:dusts/wood"
-					}
-				}
+				item: "rankine:sawdust"
 			}]
 		}
 		{

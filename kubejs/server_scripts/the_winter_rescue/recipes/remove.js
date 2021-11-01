@@ -32,7 +32,6 @@ onEvent('recipes', (event) => {
         'engineersdecor:small_waste_incinerator',
 		'rankine:prospecting_stick',
 		'minecraft:cobweb',
-		'rankine:flint_knife',
 		'rankine:evaporation_tower',
         'charcoal_pit:copper_block'
     ]
