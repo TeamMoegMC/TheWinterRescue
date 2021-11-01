@@ -29,7 +29,7 @@ onEvent('item.tooltip', (event) => {
             text: [Text.of(text.translate("tooltip.the_winter_rescue.snowy_vine")).gray()]
         },
         {
-            items: ['notreepunching:flint_knife'],
+            items: ['rankine:flint_knife'],
             text: [Text.of(text.translate("tooltip.the_winter_rescue.flint_knife")).gray()]
         },
         {
@@ -39,10 +39,6 @@ onEvent('item.tooltip', (event) => {
         {
             items: ['stone_age:tanning_rack'],
             text: [Text.of(text.translate("tooltip.the_winter_rescue.tanning_rack")).gray()]
-        },
-        {
-            items: ['notreepunching:clay_tool', 'notreepunching:clay_bucket'],
-            text: [Text.of(text.translate("tooltip.the_winter_rescue.clay_tool")).gray()]
         },
 		{
             items: ['kubejs:activated_carbon'],

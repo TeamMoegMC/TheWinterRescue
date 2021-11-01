@@ -884,10 +884,10 @@
 		}
 		{
 			icon: {
-				id: "notreepunching:flint_knife"
+				id: "rankine:flint_knife"
 				Count: 1b
 				tag: {
-					Damage: 0
+					Damage: 38
 				}
 			}
 			x: -6.5d
@@ -904,7 +904,7 @@
 				id: "2877C21663576225"
 				type: "item"
 				item: {
-					id: "notreepunching:flint_knife"
+					id: "rankine:flint_knife"
 					Count: 1b
 					tag: {
 						Damage: 0
