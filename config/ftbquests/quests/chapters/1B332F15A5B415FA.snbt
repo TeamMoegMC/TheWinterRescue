@@ -110,7 +110,7 @@
 			}]
 		}
 		{
-			title: "Fuel Treatment"
+			title: "{quest.twr.10E9ACB93591D6BE.title}"
 			x: -6.0d
 			y: -3.5d
 			subtitle: "{quest.twr.10E9ACB93591D6BE.subtitle}"
