@@ -11,11 +11,19 @@
       },
       "quantity": 1
     },
-    {
-      "type": "category_min",
-      "category": "INEDIBLE",
-      "max": 0.5
-    }
+	{
+		"type": "combination_or",
+		"first":{
+		  "type": "category_min_exclusive",
+		  "category": "INEDIBLE",
+		  "min": 0.0
+		},
+		"second":{
+		  "type": "category_min_exclusive",
+		  "category": "FROZEN",
+		  "min": 0.0
+		}
+	}
   ],
   "cookTime": 400,
   "weight": 1,

@@ -1,15 +1,11 @@
-# Should the vanilla /weather be disabled? Any changes require a world restart to take effect.
+#Should the vanilla /weather be disabled? Any changes require a world restart to take effect.
 disableWeatherCommand = false
-# A list of biome IDs that will not be forcibly converted to frozen wastelands. Any changes requires a MC restart to take effect.
+#A list of biome IDs that will not be forcibly converted to frozen wastelands. Any changes requires a MC restart to take effect.
 nonWinterBiomes = ["minecraft:nether_wastes", "minecraft:crimson_forest", "minecraft:warped_forest", "minecraft:basalt_deltas", "minecraft:soul_sand_valley", "minecraft:end_barrens", "minecraft:end_highlands", "minecraft:end_midlands", "minecraft:the_end", "minecraft:the_void"]
-# A list of dimension IDs that will not have winter weather effects set.
+#A list of dimension IDs that will not have winter weather effects set.
 nonWinterDimensions = ["minecraft:the_nether", "minecraft:the_end"]
-# If true, the 'nonWinterBiomes' config option will be interpreted as a list of winter biomes, and all others will be ignored.
+#If true, the 'nonWinterBiomes' config option will be interpreted as a list of winter biomes, and all others will be ignored.
 invertNonWinterBiomes = false
-# If true, the 'nonWinterDimensions' config option will be interpreted as a list of winter dimensions, and all others will be ignored.
+#If true, the 'nonWinterDimensions' config option will be interpreted as a list of winter dimensions, and all others will be ignored.
 invertNonWinterDimensions = false
-# If true, snow will be layered higher than one layer during world generation.
-enableSnowAccumulationDuringWorldgen = true
-# If true, snow will be layered higher than one layer during weather (snow).
-enableSnowAccumulationDuringWeather = true
 
