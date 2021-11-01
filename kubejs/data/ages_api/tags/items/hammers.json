@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "rankine:stone_hammer",
+    "rankine:bronze_hammer"
+  ]
+}

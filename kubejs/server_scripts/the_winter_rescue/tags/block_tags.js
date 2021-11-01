@@ -14,11 +14,17 @@ let alwaysBreakableBlocks = [
     "primalwinter:snowy_sand",
     "minecraft:snow",
     "minecraft:snow_block",
-    "minecraft:ice"
+    "minecraft:ice",
+    "minecraft:gravel",
+    "#minecraft:leaves",
+    "#forge:dirt",
+    "minecraft:grass",
+    "minecraft:podzol",
+    "minecraft:coarse_dirt",
+    "#minecraft:sand"
 ]
 
 onEvent('block.tags', (event) => {
     event.add('primalwinter:animal_spawns_on', animalSpawnsOnBlocks)
-    event.add('frostedheart:always_breakable', alwaysBreakableBlocks)
 	event.add('forge:ores', 'rankine:pyrite_ore')
 });

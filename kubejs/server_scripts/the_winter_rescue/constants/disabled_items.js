@@ -1,23 +1,5 @@
 // you must also add in client_scripts/constants.js to disable them in JEI
 const disabledItems = [
-    // no tree punching
-    'notreepunching:flint_axe',
-    'notreepunching:flint_pickaxe',
-    'notreepunching:flint_hoe',
-    'notreepunching:flint_shovel',
-    'notreepunching:macuahuitl',
-    'notreepunching:gold_saw',
-    'notreepunching:gold_knife',
-    'notreepunching:gold_mattock',
-    'notreepunching:andesite_cobblestone', 'notreepunching:diorite_cobblestone', 'notreepunching:granite_cobblestone', 'notreepunching:andesite_loose_rock', 'notreepunching:diorite_loose_rock', 'notreepunching:granite_loose_rock', 'notreepunching:andesite_cobblestone_stairs', 'notreepunching:diorite_cobblestone_stairs', 'notreepunching:granite_cobblestone_stairs',
-    'notreepunching:andesite_cobblestone_slab', 'notreepunching:diorite_cobblestone_slab', 'notreepunching:granite_cobblestone_slab', 'notreepunching:andesite_cobblestone_wall', 'notreepunching:diorite_cobblestone_wall', 'notreepunching:granite_cobblestone_wall', 'notreepunching:stone_loose_rock', 'notreepunching:sandstone_loose_rock', 'notreepunching:red_sandstone_loose_rock',
-    'notreepunching:plant_string',
-    'notreepunching:plant_fiber',
-    'notreepunching:clay_brick',
-    'notreepunching:ceramic_small_vessel',
-    'notreepunching:ceramic_large_vessel',
-    'notreepunching:flint_shard',
-
     // stone age
     'stone_age:copper_hammer',
     'stone_age:bronze_hammer',
@@ -65,6 +47,7 @@ const disabledItems = [
     'create:clockwork_bearing',
     'create:rope_pulley',
     'create:cart_assembly',
+    'create:cart_assembler',
     'create:sticker',
     'create:mechanical_drill',
     'create:flywheel',
