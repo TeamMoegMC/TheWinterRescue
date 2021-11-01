@@ -1621,8 +1621,8 @@
 		{
 			x: 4.5d
 			y: 2.5d
-			subtitle: "洛阳铲"
-			description: ["可以获取小范围内更全面的地质信息"]
+			subtitle: "{quest.twr.79D38F0D4D3E5482.subtitle}"
+			description: ["{quest.twr.79D38F0D4D3E5482.description.1}"]
 			dependencies: ["1DF200F6772308C7"]
 			id: "79D38F0D4D3E5482"
 			tasks: [{
@@ -1640,8 +1640,8 @@
 		{
 			x: 5.0d
 			y: 1.5d
-			subtitle: "地质学博士学位"
-			description: ["可以获取小范围内精确的矿物信息"]
+			subtitle: "{quest.twr.5E3A878B95133DAD.subtitle}"
+			description: ["{quest.twr.5E3A878B95133DAD.description.1}"]
 			dependencies: ["1DF200F6772308C7"]
 			id: "5E3A878B95133DAD"
 			tasks: [{

@@ -208,11 +208,11 @@
 			}]
 		}
 		{
-			title: "真菌培养基"
+			title: "{quest.twr.32DB7CCD0A73D98F.title}"
 			x: 5.0d
 			y: -3.0d
-			subtitle: "无土栽培"
-			description: ["干草块很适合用来培养抗逆性强的分解者——真菌。"]
+			subtitle: "{quest.twr.32DB7CCD0A73D98F.subtitle}"
+			description: ["{quest.twr.32DB7CCD0A73D98F.description.1}"]
 			dependencies: ["29BC87594650152D"]
 			hide: true
 			id: "32DB7CCD0A73D98F"
@@ -225,10 +225,10 @@
 		{
 			x: 4.0d
 			y: -5.0d
-			subtitle: "种植红蘑菇"
+			subtitle: "{quest.twr.0CA87739C86BB0C6.subtitle}"
 			description: [
-				"戴在饰品栏用体温为其加热，它同时也能放出少量热量，但是如果温度过低它会陷入休眠。"
-				"长完后用一只手拿任意刀，另一只手拿菌床使用即可切下蘑菇。"
+				"{quest.twr.0CA87739C86BB0C6.description.1}"
+				"{quest.twr.0CA87739C86BB0C6.description.2}"
 			]
 			dependencies: ["32DB7CCD0A73D98F"]
 			hide: true
@@ -248,10 +248,10 @@
 		{
 			x: 6.0d
 			y: -5.0d
-			subtitle: "种植棕蘑菇"
+			subtitle: "{quest.twr.0B511A89E11B553A.subtitle}"
 			description: [
-				"戴在饰品栏用体温为其加热，它同时也能放出少量热量，但是如果温度过低它会陷入休眠。"
-				"长完后用一只手拿任意刀，另一只手拿菌床使用即可切下蘑菇。"
+				"{quest.twr.0B511A89E11B553A.description.1}"
+				"{quest.twr.0B511A89E11B553A.description.2}"
 			]
 			dependencies: ["32DB7CCD0A73D98F"]
 			hide: true
@@ -271,8 +271,8 @@
 		{
 			x: 5.0d
 			y: -7.0d
-			subtitle: "充满爱心"
-			description: ["你花了4天时间捂热两个真菌床，现在终于可以享用成果了。"]
+			subtitle: "{quest.twr.73ADDB2F9A4F7C5D.subtitle}"
+			description: ["{quest.twr.73ADDB2F9A4F7C5D.description.1}"]
 			dependencies: [
 				"0CA87739C86BB0C6"
 				"0B511A89E11B553A"
