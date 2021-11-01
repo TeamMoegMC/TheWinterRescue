@@ -1,19 +1,33 @@
 冬季救援 Beta-0.4.5 更新公告
+* 技术性调整：
+非CurseForge发布的冬季救援内不再包含有kubejs config defaultconfigs文件夹
+这些以上这些文件夹会在你初次启动时由我们的模组自动安装在你的目录
+未来更新时你也只需要替换mods文件夹
+安装方法没有变化，依旧是拖入HMCL，PCL等启动器
+服务端用法同样
+* 移除：
+燃烧室和锅炉移至SteamPowered模组
+炼钢坩锅和蒸汽涡轮机移至ImmersiveIndustry模组
+燧石小刀改为纯燧石打造的小刀
+粘土桶和陶瓷桶移入FrostedHeart模组
+很抱歉对老玩家造成的不便
 * 改动：
-锅炉和燃烧室：
-移至Create: Steam Powered模组
-允许右击燃烧室放入和取出燃料
-改为工程师护目镜显示内部信息
-炼钢坩锅和蒸汽涡轮机：
-移至Immersive Industry模组
-温度：
-变化速率降低
-合成：
-所有燧石合成台配方可在原版工作台合成
-国际化：
+燃料处理系统：使用各类可燃物生产蜂窝煤等更好的燃料
+燃油烟囱：装饰物和小范围加热器
+菌床：携带在身上养殖菌类并提供热量
+探矿系统升级：探矿镐，探矿铲，地质镐分别能帮助你更快地找到矿石
+锅炉和燃烧室：允许右击燃烧室放入和取出燃料，改为工程师护目镜显示内部信息
+温度平衡调整：整体变化速率降低
+* 国际化：
 现在拥有完整英文版任务书
-可在CurseForge下载
+可在CurseForge下载：https://www.curseforge.com/minecraft/modpacks/the-winter-rescue
 * 优化：
+所有燧石合成台配方可在原版工作台合成
+燧石可通过打泥土小概率获得
+陶瓷桶制作简化
+木桶JEI显示优化
+优化腐肉料理
+现在空手也能很慢地破坏方块
 降低温度系统负载
 修复已知BUG
 * 新增模组：
@@ -25,9 +39,9 @@ InventoryProfilesNext（客户端）
 Configured（客户端）
 * 更新模组：
 FrostedHeart-0.4.5
-SteamPowered-1.1.3
-CharcoalPit-2.23
-StoneAge-1.3.6
+SteamPowered-1.1.6
+CharcoalPit-2.24
+StoneAge-1.3.9
 * 移除模组：
 Controlling：GUI很差
 MasterfulMachinery：BUG过多

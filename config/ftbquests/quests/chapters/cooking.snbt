@@ -301,11 +301,11 @@
 			]
 		}
 		{
-			title: "腐肉处理"
+			title: "{quest.twr.50428AA91D1E1EFF.title}"
 			x: -5.0d
 			y: -3.0d
-			subtitle: "食堂模拟器"
-			description: ["腐肉的味道令人作呕。如果特殊料理一下，也许可以做出正常的料理了。"]
+			subtitle: "{quest.twr.50428AA91D1E1EFF.subtitle}"
+			description: ["{quest.twr.50428AA91D1E1EFF.description.1}"]
 			hide: true
 			id: "50428AA91D1E1EFF"
 			tasks: [{
@@ -317,8 +317,8 @@
 		{
 			x: -3.5d
 			y: -5.0d
-			subtitle: "腐肉料理"
-			description: ["需要放入1个腐肉，并且不能包含不可食用或者冰。"]
+			subtitle: "{quest.twr.0B7A7EF07D539FC5.subtitle}"
+			description: ["{quest.twr.0B7A7EF07D539FC5.description.1}"]
 			dependencies: [
 				"50428AA91D1E1EFF"
 				"7AA152F9B5AF6677"
