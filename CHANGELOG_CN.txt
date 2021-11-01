@@ -29,7 +29,8 @@ StoneAge-1.3.6
 * 移除模组：
 Controlling：GUI很差
 MasterfulMachinery：BUG过多
-CustomMachinery: BUG过多，请改用Create: Steam Powered中的对应燃烧室和锅炉
+CustomMachinery：BUG过多，请改用Create: Steam Powered中的对应燃烧室和锅炉
+NoTreePunching：所需要的功能移入FH
 AdvGenerators
 BDlib
 ScalableCatsForce
