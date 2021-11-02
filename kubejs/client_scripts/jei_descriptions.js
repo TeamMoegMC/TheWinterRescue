@@ -3,10 +3,6 @@ onEvent('jei.information', (event) => {
         {
             items: ['frostedheart:energy_core'],
             description: [text.translate("info.jei.the_winter_rescue.energy_core")]
-        },
-        {
-            items: ['notreepunching:clay_bucket', 'notreepunching:clay_tool', 'minecraft:clay'],
-            description: [text.translate("info.jei.the_winter_rescue.clay_tool")]
         }
     ];
 
