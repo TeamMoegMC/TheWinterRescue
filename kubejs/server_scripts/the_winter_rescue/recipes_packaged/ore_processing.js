@@ -64,7 +64,7 @@ onEvent('recipes', (event) => {
      ]
     };
 	data.recipes.forEach((recipe) => {
-    event.recipes.immersiveengineeringBlastFurnace(recipe.output, recipe.input, 'immersiveengineering:slag', 400);
+    event.recipes.immersiveengineeringBlastFurnace(recipe.output, recipe.input, 'immersiveengineering:slag').time(600);
     });
 });
 
