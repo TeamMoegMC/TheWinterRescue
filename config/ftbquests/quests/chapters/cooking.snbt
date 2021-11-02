@@ -306,6 +306,7 @@
 			y: -3.0d
 			subtitle: "{quest.twr.50428AA91D1E1EFF.subtitle}"
 			description: ["{quest.twr.50428AA91D1E1EFF.description.1}"]
+			dependencies: ["7AA152F9B5AF6677"]
 			hide: true
 			id: "50428AA91D1E1EFF"
 			tasks: [{

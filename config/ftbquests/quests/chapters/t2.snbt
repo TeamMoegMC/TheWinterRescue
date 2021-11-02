@@ -527,6 +527,7 @@
 			description: [
 				"{quest.twr.7612A96FFEFC5635.description.1}"
 				"{quest.twr.7612A96FFEFC5635.description.2}"
+				"{quest.twr.7612A96FFEFC5635.description.3}"
 			]
 			dependencies: [
 				"197308226CAE52C4"

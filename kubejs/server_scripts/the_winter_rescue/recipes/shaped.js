@@ -260,6 +260,10 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'immersiveengineering:plantoil_bucket'
         }),
+        shapedRecipe('frostedheart:oil_burner', ['A A', 'AAA', 'BBB'], {
+                    A: '#forge:plates/copper',
+                    B: 'minecraft:stone_bricks'
+        }),
 		shapedRecipe('frostedheart:soil_thermometer', ['BCB', 'ACA', ' A '], {
             A: '#forge:plates/iron',
             B: 'minecraft:glass',

@@ -1656,5 +1656,24 @@
 				}
 			}]
 		}
+		{
+			x: -2.0d
+			y: -6.0d
+			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
+			description: ["{quest.twr.643B93BCE91A0BB9.description.1}"]
+			dependencies: ["36960F1D7CDC8B30"]
+			hide: true
+			id: "7E68FC6215F4FADC"
+			tasks: [{
+				id: "2BA166AB2BD842B1"
+				type: "item"
+				item: "kubejs:straw_briquette"
+			}]
+			rewards: [{
+				id: "21F619AFDB48A366"
+				type: "item"
+				item: "kubejs:straw_briquette"
+			}]
+		}
 	]
 }
