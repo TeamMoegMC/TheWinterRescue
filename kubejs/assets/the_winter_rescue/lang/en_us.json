@@ -14,6 +14,8 @@
 
     "info.jei.the_winter_rescue.disabled": "This item is disabled in the modpack.",
     "info.jei.the_winter_rescue.energy_core": "The core of technology from all Space Mankind. Used to build the Generator, keep it safe!",
+    "info.jei.the_winter_rescue.power_glitch": "This contraption is potential to infinite power glitch.",
+    "info.jei.the_winter_rescue.later_tech": "This item will be unlocked in later tech. Please wait for update. ",
 
     "tooltip.the_winter_rescue.replaced_recipe": "Related recipes can be replaced through other means",
     "tooltip.the_winter_rescue.snowy_vine": "Obtained via cutting leaves with a flint knife",

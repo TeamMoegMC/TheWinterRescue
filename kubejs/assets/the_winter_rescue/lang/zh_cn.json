@@ -14,6 +14,8 @@
 
     "info.jei.the_winter_rescue.disabled": "此物品已被整合包禁用",
     "info.jei.the_winter_rescue.energy_core": "所有空间站人类的科技结晶。用于制作能量塔。保证它的安全！",
+    "info.jei.the_winter_rescue.power_glitch": "这些装置可能导致无限能源BUG。",
+    "info.jei.the_winter_rescue.later_tech": "这个物品会在日后的科技中解锁。请期待后续更新。",
 
     "tooltip.the_winter_rescue.replaced_recipe": "相关配方可用其他方法替代",
     "tooltip.the_winter_rescue.snowy_vine": "使用燧石小刀切割原版树叶得到",

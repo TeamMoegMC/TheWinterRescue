@@ -252,6 +252,12 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: '#forge:plates/copper'
         }),
+        shapedRecipe('create:wand_of_symmetry', [' DC', 'BCD', 'AB '], {
+            A: '#forge:obsidian',
+            B: '#forge:ingots/tungsten',
+            C: 'create:refined_radiance',
+            D: 'minecraft:white_stained_glass_pane'
+        })
     ]
 
     var newRecipes = [

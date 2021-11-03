@@ -83,6 +83,7 @@ onEvent('recipes', (event) => {
     smelting.forEach((Item) => {
         event.remove({type: 'minecraft:blasting', output: Item});
     });
+
     let blueprint = [
         'immersiveengineering:circuit_board',
         'immersiveengineering:component_iron',
@@ -93,6 +94,16 @@ onEvent('recipes', (event) => {
 	blueprint.forEach((Item) => {
         event.remove({type: 'immersiveengineering:blueprint',output: Item})
     });
+
+    let createMillingAndCrushing = [
+        'minecraft:black_dye'
+    ]
+    createMillingAndCrushing.forEach((Item) => {
+        event.remove({type: 'create:milling', output: Item})
+        event.remove({type: 'create:crushing', output: Item})
+    });
+
+    // Remove by Types
 	
 	event.remove({type: 'rankine:crushing'})
 	event.remove({type: 'charcoal_pit:orekiln', output: 'rankine:bronze_alloy'})
@@ -117,6 +128,7 @@ onEvent('recipes', (event) => {
     event.remove({type: 'minecraft:smelting', input: 'rankine:magnetite_block'});
     event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
 
+    // Remove All Types
     disabledItems.forEach((disabledItem) => {
         event.remove({output: disabledItem});
     });

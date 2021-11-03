@@ -32,26 +32,31 @@ const disabledItems = [
     'rankine:power_cell_6',
     'rankine:steel_gold_pan',
 
-    // create
+    // create power devices: we have steam power
     'create:water_wheel',
     'create:cogwheel',
     'create:large_cogwheel',
-    'create:wand_of_symmetry',
+    'create:windmill_bearing',
+    'create:flywheel',
+    'create:furnace_engine',
+
+    // create: causes infinite power
     'create:mechanical_piston',
     'create:sticky_mechanical_piston',
     'create:piston_extension_pole',
-    'create:windmill_bearing',
-    'create:mechanical_bearing',
-    'create:clockwork_bearing',
-    'create:rope_pulley',
-    'create:cart_assembly',
     'create:cart_assembler',
-    'create:sticker',
+
+    // create: will be available in later tech
     'create:mechanical_drill',
-    'create:flywheel',
-    'create:furnace_engine',
-    'create:schematicannon',
-    'create:mechanical_plough',
+    'create:mechanical_bearing',
+
+    // contraptions
+    // 'create:wand_of_symmetry',
+    // 'create:clockwork_bearing',
+    // 'create:sticker',
+    // 'create:rope_pulley',
+    // 'create:schematicannon',
+    // 'create:mechanical_plough',
 
     // rankine machines
     'rankine:alloy_furnace',
