@@ -76,3 +76,4 @@
 /confbackup/
 /*.zip
 /mods-server/
+__pycache__/
