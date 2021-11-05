@@ -42,6 +42,7 @@ onEvent('recipes', (event) => {
         'minecraft:ender_eye',
         'rankine:fire_clay_ball',
 		'rankine:vulcanized_rubber',
+		
 		'rankine:kaolinite_ball'
     ]
     shapeless.forEach((Item) => {
@@ -144,7 +145,6 @@ onEvent('recipes', (event) => {
         '#create:crushed_ores',
         'rankine:high_refractory_brick',
         'rankine:ultra_high_refractory_brick',
-        'rankine:sodium_carbonate',
         'immersiveengineering:capacitor_lv',
         'immersiveengineering:capacitor_mv',
         'immersiveengineering:capacitor_hv'
