@@ -42,7 +42,7 @@ onEvent('recipes', (event) => {
         'minecraft:ender_eye',
         'rankine:fire_clay_ball',
 		'rankine:vulcanized_rubber',
-		
+		'rankine:sodium_hydroxide',
 		'rankine:kaolinite_ball'
     ]
     shapeless.forEach((Item) => {
