@@ -357,21 +357,27 @@ def assembleCurseFormatWithMods(modpack_name):
 
 
 # Assemble Server files
-def assembleServerFiles(modpack_name, pack_location_url):
+def assembleServerFiles(modpack_name):
     print("===Server Pack Start===")
     try:
+        # Look up version json
+        version = ""
+        with open("runners/manifest.json", encoding="utf-8") as manifest:
+            dict = json.load(manifest)
+            version = dict["version"]
+
         # Update pack location url
         with open("serverfiles/server-setup-config.yaml", encoding="utf-8") as m:
             m_list = m.readlines()
         for i, line in enumerate(m_list):
             if line.startswith("    modpackUrl"):
-                newline = "    modpackUrl: " + pack_location_url + "\n"
+                newline = "    modpackUrl: " + "file://The-Winter-Rescue-" + version + ".zip" + "\n"
                 m_list[i] = newline
         m.close()
         m = open("serverfiles/server-setup-config.yaml", "w+", encoding="utf-8")
         m.writelines(m_list)
         m.close()
-        print("Updated serverfiles modpack curseforge location url to " + pack_location_url)
+        print("Updated serverfiles modpack curseforge location url to " + "file://The-Winter-Rescue-" + version + ".zip")
 
         # Get version and archive files
         if not os.path.exists("runners/manifest.json"):
