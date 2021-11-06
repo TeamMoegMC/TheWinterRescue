@@ -33,7 +33,6 @@
 * 新增模组：
 ImmersiveIndustry：自研，负责科技多方块结构
 Tetra Pak：Tetra-Create兼容mod
-Corpse：遗体
 CameraOverhaul：真实视角（客户端）
 InventoryProfilesNext（客户端）
 Configured（客户端）
