@@ -17,11 +17,9 @@ snowMeltsInWarmBiomes = false
 #Should snow melt if layers are more than 1
 snowNaturalMelt = false
 snowReduceFallDamage = true
-#block like grass will be generated with snow
 replaceWorldFeature = true
 sustainGrassIfLayerMoreThanOne = true
 #If you want to uninstall this mod, you probably want to make snow-covered blocks back to normal via random tick.
 retainOriginalBlocks = false
-#Simulate some right clicking behaviors like bonemeal. may have some glitches
 advancedBlockInteraction = true
 

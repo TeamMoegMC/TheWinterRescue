@@ -1,7 +1,8 @@
 {
   "type": "frostedheart:charger",
   "result": {
-    "item": "kubejs:activated_carbon"
+    "item": "kubejs:activated_carbon",
+	"count":4
   },
   "input": {
     "item": "minecraft:charcoal"

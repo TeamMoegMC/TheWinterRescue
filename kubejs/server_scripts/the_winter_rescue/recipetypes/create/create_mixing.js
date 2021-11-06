@@ -39,7 +39,7 @@ onEvent('recipes', (event) => {
         ['kubejs:aluminium_hydroxide_dust'],input:
         ['rankine:sodium_hydroxide', '2x kubejs:washed_ore_bauxite']},
 	{output:
-        [Item.of('kubejs:activated_carbon').withChance(0.75), Fluid.of('frostedheart:hot_water', 1000)],input:
+        [Fluid.of('frostedheart:hot_water', 1000)],input:
         ['kubejs:activated_carbon', Fluid.of('minecraft:water', 1000)]}
 	]
 	recipes.forEach((recipe) => {
