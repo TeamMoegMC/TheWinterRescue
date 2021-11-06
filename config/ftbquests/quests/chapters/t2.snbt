@@ -220,10 +220,11 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 2.5d
+			x: -17.5d
+			y: 8.5d
 			subtitle: "{quest.twr.401439E8C1AA7A0A.subtitle}"
-			dependencies: ["4CC5E16EFDE1368C"]
+			hide_dependency_lines: true
+			dependencies: ["064ECF25B9B8962B"]
 			id: "401439E8C1AA7A0A"
 			tasks: [{
 				id: "21FDBD8C0467F592"
@@ -364,8 +365,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 2.5d
+			x: -15.5d
+			y: 2.0d
 			subtitle: "{quest.twr.29DCBBB54EE90E51.subtitle}"
 			description: [
 				"{quest.twr.29DCBBB54EE90E51.description.1}"
@@ -401,8 +402,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 2.5d
+			x: -13.0d
+			y: 4.0d
 			subtitle: "{quest.twr.4600CF7553C26ED0.subtitle}"
 			description: ["{quest.twr.4600CF7553C26ED0.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
@@ -427,8 +428,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 3.5d
+			x: -8.5d
+			y: 2.5d
 			subtitle: "{quest.twr.5845439CF721309F.subtitle}"
 			description: ["{quest.twr.5845439CF721309F.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
@@ -466,7 +467,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -6.5d
 			y: 2.5d
 			shape: "gear"
 			subtitle: "{quest.twr.4548F432A872DA92.subtitle}"
@@ -474,7 +475,7 @@
 				"{quest.twr.4548F432A872DA92.description.1}"
 				"{quest.twr.4548F432A872DA92.description.2}"
 			]
-			dependencies: ["4CC5E16EFDE1368C"]
+			dependencies: ["5845439CF721309F"]
 			id: "4548F432A872DA92"
 			tasks: [{
 				id: "10B09A0AE270B39F"
@@ -489,8 +490,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 2.5d
+			x: -15.5d
+			y: 4.0d
 			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
 			description: ["{quest.twr.15B365E3F3EAFE79.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
@@ -642,7 +643,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -11.5d
 			y: 4.0d
 			dependencies: ["4600CF7553C26ED0"]
 			id: "6439CF1B54CEF092"
@@ -653,28 +654,13 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 4.0d
-			subtitle: "{quest.twr.10CB240A20A88FE0.subtitle}"
-			dependencies: ["6439CF1B54CEF092"]
-			id: "10CB240A20A88FE0"
-			tasks: [{
-				id: "30B4BE06E8E1DBA5"
-				type: "item"
-				item: {
-					id: "create:sand_paper"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			x: -10.0d
 			y: 4.0d
 			subtitle: "{quest.twr.279DA3B6F5DE7753.subtitle}"
-			dependencies: ["10CB240A20A88FE0"]
+			dependencies: [
+				"6577F4E013F76B98"
+				"6439CF1B54CEF092"
+			]
 			id: "279DA3B6F5DE7753"
 			tasks: [{
 				id: "0106FEE55AE2DE31"
@@ -683,9 +669,10 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 1.0d
+			x: -8.5d
+			y: 4.0d
 			subtitle: "{quest.twr.6577F4E013F76B98.subtitle}"
+			hide_dependency_lines: true
 			dependencies: ["4600CF7553C26ED0"]
 			id: "6577F4E013F76B98"
 			tasks: [{
@@ -734,7 +721,7 @@
 		{
 			title: "{quest.twr.19038BB5A9E42055.title}"
 			icon: "rankine:high_refractory_bricks"
-			x: -3.5d
+			x: -4.5d
 			y: -1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.19038BB5A9E42055.subtitle}"
@@ -767,7 +754,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -5.5d
 			y: -1.5d
 			subtitle: "{quest.twr.6738A3C34A872FED.subtitle}"
 			description: ["{quest.twr.6738A3C34A872FED.description.1}"]
@@ -793,6 +780,7 @@
 		{
 			x: -13.0d
 			y: -1.5d
+			shape: "gear"
 			subtitle: "{quest.twr.67486831FE3C0FBA.subtitle}"
 			description: [
 				"{quest.twr.67486831FE3C0FBA.description.1}"
@@ -813,7 +801,7 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -6.5d
 			y: -1.5d
 			subtitle: "{quest.twr.29556685F57F6657.subtitle}"
 			description: ["{quest.twr.29556685F57F6657.description.1}"]
@@ -849,8 +837,8 @@
 			description: ["{quest.twr.688C57B7BC46E723.description.1}"]
 			dependencies: [
 				"5B8BA38FF8C93A1A"
-				"4845A9B7B7B2B4A5"
 				"401439E8C1AA7A0A"
+				"4845A9B7B7B2B4A5"
 			]
 			id: "688C57B7BC46E723"
 			tasks: [{
@@ -875,12 +863,15 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 10.0d
+			x: -14.5d
+			y: 7.0d
 			shape: "gear"
 			subtitle: "{quest.twr.7F84766122DC4753.subtitle}"
 			description: ["{quest.twr.7F84766122DC4753.description.1}"]
-			dependencies: ["4926C4062339E018"]
+			dependencies: [
+				"4926C4062339E018"
+				"4845A9B7B7B2B4A5"
+			]
 			id: "7F84766122DC4753"
 			tasks: [{
 				id: "196BC8A03CF82070"
@@ -918,8 +909,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 3.5d
+			x: -15.5d
+			y: 3.0d
 			subtitle: "{quest.twr.248D44C92972DF23.subtitle}"
 			dependencies: ["4CC5E16EFDE1368C"]
 			id: "248D44C92972DF23"

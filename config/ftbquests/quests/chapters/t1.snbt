@@ -320,7 +320,7 @@
 		{
 			title: "{quest.twr.0A9A5166127945AB.title}"
 			x: 3.0d
-			y: 1.5d
+			y: 1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.0A9A5166127945AB.subtitle}"
 			description: [
@@ -1462,7 +1462,7 @@
 		}
 		{
 			x: 4.0d
-			y: 1.5d
+			y: 1.0d
 			subtitle: "{quest.twr.1DF200F6772308C7.subtitle}"
 			description: ["{quest.twr.1DF200F6772308C7.description.1}"]
 			dependencies: ["0A9A5166127945AB"]
@@ -1619,8 +1619,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 2.5d
+			x: 5.0d
+			y: 2.0d
 			subtitle: "{quest.twr.79D38F0D4D3E5482.subtitle}"
 			description: ["{quest.twr.79D38F0D4D3E5482.description.1}"]
 			dependencies: ["1DF200F6772308C7"]
@@ -1638,8 +1638,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 1.5d
+			x: 4.0d
+			y: 2.0d
 			subtitle: "{quest.twr.5E3A878B95133DAD.subtitle}"
 			description: ["{quest.twr.5E3A878B95133DAD.description.1}"]
 			dependencies: ["1DF200F6772308C7"]
