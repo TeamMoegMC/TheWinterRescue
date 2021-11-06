@@ -266,6 +266,9 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'immersiveengineering:plantoil_bucket'
         }),
+        shapedRecipe('2x minecraft:flint', ['AA', 'AA'], {
+                    A: 'minecraft:gravel'
+                }),
         shapedRecipe('frostedheart:oil_burner', ['A A', 'AAA', 'BBB'], {
                     A: '#forge:plates/copper',
                     B: 'minecraft:stone_bricks'
