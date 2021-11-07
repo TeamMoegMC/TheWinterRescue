@@ -64,13 +64,16 @@
 			dependencies: ["11DD149796E14E81"]
 			id: "0B94C2D4FAB6A54B"
 			tasks: [{
-				id: "1DB0877357D9C3A4"
+				id: "0059CAED35FD2A7C"
 				type: "item"
 				item: {
-					id: "minecraft:iron_pickaxe"
+					id: "rankine:bronze_pickaxe"
 					Count: 1b
 					tag: {
 						Damage: 0
+						StoredComposition: [{
+							comp: "80Cu-20Sn"
+						}]
 					}
 				}
 			}]
