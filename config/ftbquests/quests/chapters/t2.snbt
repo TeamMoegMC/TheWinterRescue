@@ -69,9 +69,9 @@
 			dependencies: ["7887EB905BAA7BEF"]
 			id: "060F482D9D3374F9"
 			tasks: [{
-				id: "5847EE5EF90F423F"
+				id: "786C91AE939F3CC1"
 				type: "item"
-				item: "rankine:alumina"
+				item: "kubejs:impure_alumina_dust"
 			}]
 		}
 		{
