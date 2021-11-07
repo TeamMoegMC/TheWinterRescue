@@ -168,13 +168,14 @@ def translate_json(path, target):
 
 
 # Upload our mods to CF
-def uploadModsToCurseForge(build_list, do_upload):
+def uploadModsToCurseForge(build_list, do_upload, do_build):
     if "FH" in build_list:
         os.chdir("/Users/wyc/Development/FrostedHeart")
         os.system("git pull")
         print("SUCCESSFULLY pulled FH")
-        os.system("./gradlew build")
-        print("SUCCESSFULLY built FH")
+        if do_build:
+            os.system("./gradlew build")
+            print("SUCCESSFULLY built FH")
         if do_upload:
             os.system("./gradlew curseforge")
             print("SUCCESSFULLY uploaded FH\n")
@@ -183,8 +184,9 @@ def uploadModsToCurseForge(build_list, do_upload):
         os.chdir("/Users/wyc/Development/steampowered")
         os.system("git pull")
         print("SUCCESSFULLY pulled SP")
-        os.system("./gradlew build")
-        print("SUCCESSFULLY built SP")
+        if do_build:
+            os.system("./gradlew build")
+            print("SUCCESSFULLY built SP")
         if do_upload:
             os.system("./gradlew curseforge")
             print("SUCCESSFULLY uploaded SP\n")
@@ -193,8 +195,9 @@ def uploadModsToCurseForge(build_list, do_upload):
         os.chdir("/Users/wyc/Development/ImmersiveIndustry")
         os.system("git pull")
         print("SUCCESSFULLY pulled II")
-        os.system("./gradlew build")
-        print("SUCCESSFULLY built II")
+        if do_build:
+            os.system("./gradlew build")
+            print("SUCCESSFULLY built II")
         if do_upload:
             os.system("./gradlew curseforge")
             print("SUCCESSFULLY uploaded II\n")
@@ -203,8 +206,9 @@ def uploadModsToCurseForge(build_list, do_upload):
         os.chdir("/Users/wyc/Development/CharcoalPit2")
         os.system("git pull")
         print("SUCCESSFULLY pulled CP")
-        os.system("./gradlew build")
-        print("SUCCESSFULLY built CP")
+        if do_build:
+            os.system("./gradlew build")
+            print("SUCCESSFULLY built CP")
         if do_upload:
             os.system("./gradlew curseforge")
             print("SUCCESSFULLY uploaded CP\n")
@@ -213,8 +217,9 @@ def uploadModsToCurseForge(build_list, do_upload):
         os.chdir("/Users/wyc/Development/StoneAge")
         os.system("git pull")
         print("SUCCESSFULLY pulled SA")
-        os.system("./gradlew build")
-        print("SUCCESSFULLY built SA")
+        if do_build:
+            os.system("./gradlew build")
+            print("SUCCESSFULLY built SA")
         if do_upload:
             os.system("./gradlew curseforge")
             print("SUCCESSFULLY uploaded SA\n")
