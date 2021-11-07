@@ -1,6 +1,6 @@
 onEvent('recipes', (event) => {
     const recipes = [
-        millstoneRecipe(Item.of('kubejs:impure_alumina_dust', 2), Item.of('rankine:alumina'),
+        millstoneRecipe(Item.of('kubejs:impure_alumina_dust', 2), Item.of('kubejs:bauxite'),
             Item.of('kubejs:impure_alumina_dust'), 0.4, 2),
         millstoneRecipe(Item.of('kubejs:kaolin_dust'), Item.of('rankine:kaolinite_ball'),
             Item.of('kubejs:kaolin_dust'), 0.3, 1),
