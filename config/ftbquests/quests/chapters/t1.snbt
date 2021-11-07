@@ -1031,7 +1031,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 5.5d
 			y: 5.0d
 			subtitle: "{quest.twr.7D2826CCB69C5EE8.subtitle}"
 			dependencies: ["162264AE4B9EE1A9"]
@@ -1581,7 +1581,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 6.5d
 			y: 5.0d
 			subtitle: "{quest.twr.0B9DBC18CEEC4CB2.subtitle}"
 			description: ["{quest.twr.0B9DBC18CEEC4CB2.description.1}"]
@@ -1673,6 +1673,26 @@
 				id: "21F619AFDB48A366"
 				type: "item"
 				item: "kubejs:straw_briquette"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.0d
+			dependencies: ["4CD30E566C5776E0"]
+			id: "190859211258D56B"
+			tasks: [{
+				id: "7279CB115270D37C"
+				type: "item"
+				item: {
+					id: "rankine:bronze_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						StoredComposition: [{
+							comp: "80Cu-20Sn"
+						}]
+					}
+				}
 			}]
 		}
 	]

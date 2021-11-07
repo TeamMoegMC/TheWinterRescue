@@ -136,9 +136,15 @@ onEvent('recipes', (event) => {
             B: Ingredient.of('#minecraft:logs').toJson(),
             C: Ingredient.of('#minecraft:planks').toJson()
         }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_pickaxe'), ['AAA', ' B ', ' B '], {
+		flint_shapedRecipe(Item.of('rankine:bronze_pickaxe'), ['ACA', ' B ', ' B '], {
             A: Item.of('rankine:bronze_alloy').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson()
+            B: Ingredient.of('#forge:rods/wooden').toJson(),
+            C: Ingredient.of('#forge:plates/bronze').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('rankine:bronze_axe'), ['AC ', 'AB ', ' B '], {
+            A: Item.of('rankine:bronze_alloy').toJson(),
+            B: Ingredient.of('#forge:rods/wooden').toJson(),
+            C: Ingredient.of('#forge:plates/bronze').toJson()
         }, Item.of('stone_age:flint_knife')),
 		flint_shapedRecipe(Item.of('frostedheart:copper_pro_pick'), ['ABA', ' B ', ' B '], {
             A: Ingredient.of('#forge:ingots/copper').toJson(),
