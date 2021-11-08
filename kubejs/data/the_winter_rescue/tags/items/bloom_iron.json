@@ -3,6 +3,7 @@
   "values": [
 	"rankine:magnetite",
 	"charcoal_pit:bloom_cool",
+    "kubejs:pyrite",
 	"charcoal_pit:bloom_fail"
   ]
 }
