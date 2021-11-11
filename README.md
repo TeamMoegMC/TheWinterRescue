@@ -1,6 +1,14 @@
 <h1 align="center">The Winter Rescue</h1>
 <h4 align="center">[OPEN BETA]</h4>
 <h4 align="center">For Minecraft Forge 1.16.5</h4>
+
+<h4 align="center">
+	<a href="https://www.curseforge.com/minecraft/modpacks/the-winter-rescue"><img src="https://cf.way2muchnoise.eu/title/535790.svg?badge_style=flat" alt="Curseforge Downloads"></a>
+    	<a href="https://www.curseforge.com/minecraft/modpacks/the-winter-rescue"><img src="http://cf.way2muchnoise.eu/full_535790_downloads.svg?badge_style=flat" alt="Curseforge Downloads"></a>
+	<a href="https://www.curseforge.com/minecraft/modpacks/the-winter-rescue"><img src="https://cf.way2muchnoise.eu/versions/For%20MC_535790_all.svg?badge_style=flat" alt="Curseforge Downloads"></a>
+	
+</h4>	
+	
 <h4 align="center">
 	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE.txt"><img src="https://img.shields.io/badge/%20license-brightgreen?style=flat-square" alt="License"></a>
 	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/issues"><img src="https://img.shields.io/github/issues/TeamMoegMC/The-Winter-Rescue?style=flat-square" alt="Issues"></a>
