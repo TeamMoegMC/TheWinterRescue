@@ -40,8 +40,6 @@ onEvent('recipes', (event) => {
     });
 	let shapeless = [
         'minecraft:ender_eye',
-		'minecraft:iron_ingot_from_iron_block',
-		'minecraft:gold_ingot_from_gold_block',
 		'minecraft:diamond',
 		'minecraft:emerald',
 		'minecraft:lapis_lazuli',
@@ -51,6 +49,13 @@ onEvent('recipes', (event) => {
 		'rankine:sodium_hydroxide',
 		'rankine:kaolinite_ball'
     ]
+	let shapelessName = [
+		'minecraft:iron_ingot_from_iron_block',
+		'minecraft:gold_ingot_from_gold_block'
+    ]
+	shapelessName.forEach((Item) => {
+        event.remove({type: 'minecraft:crafting_shapeless', id: Item});
+    });
     shapeless.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shapeless', output: Item});
     });
