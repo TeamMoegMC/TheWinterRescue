@@ -14,7 +14,8 @@ onEvent('recipes', (event) => {
 	{output:['kubejs:subbituminous_coal_dust', Item.of('kubejs:subbituminous_coal_dust').withChance(0.5)],input: 'rankine:subbituminous_coal'},
 	{output:['kubejs:coal_dust', Item.of('kubejs:coal_dust').withChance(0.5)],input: 'minecraft:coal'},
 	{output:['kubejs:charcoal_dust', Item.of('kubejs:charcoal_dust').withChance(0.5)],input: 'minecraft:charcoal'},
-	{output:['#forge:dusts/coal_coke'],input: '#forge:coal_coke'}
+	{output:['#forge:dusts/coal_coke'],input: '#forge:coal_coke'},
+	{output:["frostedheart:rye_flour",Item.of("2x frostedheart:rye_flour").withChance(0.25),Item.of("frostedheart:rye_block").withChance(0.1)],input: 'frostedheart:rye'}
 	]
 	recipes.forEach((recipe) => {
         event.recipes.createMilling(recipe.output, recipe.input);
