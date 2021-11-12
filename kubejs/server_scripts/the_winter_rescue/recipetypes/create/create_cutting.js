@@ -12,7 +12,13 @@ onEvent('recipes', (event) => {
         {output:'4x rankine:balsam_fir_planks', input: 'rankine:balsam_fir_log'},
         {output:'4x rankine:magnolia_planks', input: 'rankine:magnolia_log'},
         {output:'4x rankine:eastern_hemlock_planks', input: 'rankine:eastern_hemlock_log'},
-        {output:'4x rankine:maple_planks', input: 'rankine:maple_log'}
+        {output:'4x rankine:maple_planks', input: 'rankine:maple_log'},
+		{output:'9x minecraft:iron_ingot',input:'minecraft:iron_block'},
+		{output:'9x minecraft:gold_ingot',input:'minecraft:gold_block'},
+		{output:'9x minecraft:diamond',input:'minecraft:diamond_block'},
+		{output:'9x minecraft:emerald',input:'minecraft:emerald_block'},
+		{output:'9x minecraft:lapis_lazuli',input:'minecraft:lapis_block'},
+		{output:'9x minecraft:netherite_ingot',input:'minecraft:netherite_ingot'}
         ]
     };
     data.recipes.forEach((recipe) => {
