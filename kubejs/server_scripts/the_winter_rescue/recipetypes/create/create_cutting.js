@@ -21,6 +21,18 @@ onEvent('recipes', (event) => {
 		{output:'9x minecraft:netherite_ingot',input:'minecraft:netherite_ingot'}
         ]
     };
+	let woods=[
+		"minecraft:jungle",
+		"minecraft:oak",
+		"minecraft:spruce",
+		"minecraft:birch",
+		"minecraft:jungle",
+		"minecraft:acacia",
+		"minecraft:dark_oak"
+	]
+	woods.forEach((wood)=>{
+		data.recipes.push({output:'2x '+wood+"_slab",input:wood+"_planks"})
+	});
     data.recipes.forEach((recipe) => {
         event.recipes.createCutting(recipe.output, recipe.input);
     });
