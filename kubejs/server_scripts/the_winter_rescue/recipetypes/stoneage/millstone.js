@@ -7,7 +7,9 @@ onEvent('recipes', (event) => {
         millstoneRecipe(Item.of('frostedheart:rye_flour'), Item.of('frostedheart:rye'),
             Item.of('frostedheart:rye_flour'), 0.2, 1),
 		millstoneRecipe(Item.of('minecraft:redstone'), Item.of('rankine:cinnabar'),
-            Item.of('minecraft:redstone'), 0.8, 1)
+            Item.of('minecraft:redstone'), 0.8, 1),
+		millstoneRecipe(Item.of("3x rankine:sawdust"), Ingredient.of("#minecraft:logs"),
+			Item.of("rankine:sawdust"),0.5,1)
     ]
 	const recipesnf= [
 		millstoneRecipe(Item.of('kubejs:anthracite_dust'), Item.of('rankine:anthracite_coal'),
