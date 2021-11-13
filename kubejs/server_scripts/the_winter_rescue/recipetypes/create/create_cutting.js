@@ -7,7 +7,8 @@ onEvent('recipes', (event) => {
 		{output:'9x minecraft:diamond',input:'minecraft:diamond_block'},
 		{output:'9x minecraft:emerald',input:'minecraft:emerald_block'},
 		{output:'9x minecraft:lapis_lazuli',input:'minecraft:lapis_block'},
-		{output:'9x minecraft:netherite_ingot',input:'minecraft:netherite_ingot'}
+		{output:'9x minecraft:netherite_ingot',input:'minecraft:netherite_ingot'},
+		{output:'2x engineersdecor:metal_bar',input:'#forge:plates/steel'}
         ]
     };
     const woods = []

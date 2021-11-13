@@ -13,6 +13,7 @@ onEvent('recipes', (event) => {
         'immersiveengineering:drillhead_iron',
         'immersiveengineering:drillhead_steel',
         'immersiveengineering:circuit_table',
+		'engineersdecor:metal_bar',
         'immersivepetroleum:speedboat',
         'immersiveengineering:sample_drill',
         'minecraft:blast_furnace',
