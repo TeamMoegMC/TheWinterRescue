@@ -104,7 +104,7 @@ onEvent('item.registry', event => {
 		"subbituminous_coal_dust":2000,
 		"lignite_dust":1400,
 		"coal_dust":2000,
-		"charcoal_dust":1000,
+		"charcoal_dust":800,
 		"limed_coal":0,
 		"wet_coal_dust":0,
 		"bound_charcoal_briquette":1200,
