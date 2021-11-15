@@ -5,10 +5,15 @@
 onEvent('recipes', (event) => {
 
     var changeShapelessRecipes = [
-        shapelessRecipe('frozenup:truffle_muffin', ['frostedheart:rye_flour', 'minecraft:sugar', 'frozenup:truffle'])
-		
+        shapelessRecipe('frozenup:truffle_muffin', ['frostedheart:rye_flour', 'minecraft:sugar', 'frozenup:truffle']),
+		shapelessRecipe('2x rankine:dry_mortar', ['rankine:quicklime','#minecraft:sand']),
+		shapelessRecipe('rankine:dry_mortar', ['#forge:clay','#minecraft:sand',"#minecraft:dirt"]),
+		shapelessRecipe('2x rankine:dry_mortar', ['#forge:clay_balls','#minecraft:sand',"rankine:tufa_limestone"]),
+		shapelessRecipe('2x rankine:dry_mortar', ['#forge:clay_balls','#minecraft:sand',"minecraft:dirt"]),
+		shapelessRecipe('3x rankine:dry_mortar', ['rankine:quicklime',"#rankine:mortar_special"]),
+		shapelessRecipe('2x rankine:dry_mortar', ['#forge:ash','#minecraft:sand',"#forge:slag"])
     ]
-
+	event.recipes.createSplashing(["rankine:mortar"],"rankine:dry_mortar");
     var newShapelessRecipes = [
         shapelessRecipe('stone_age:dried_grass', ['charcoal_pit:straw']),
 		shapelessRecipe({"item":'frostedheart:straw_briquette_red_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:red_mushroom']),
