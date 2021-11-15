@@ -21,9 +21,10 @@ onEvent('recipes', (event) => {
     ]
 	Ingredient.of("#forge:vertical_slabs").getItemIds().forEach((name)=>{
 		let i=Ingredient.of(name.replace("_vertical",""));
-		if(!i.isEmpty())
+		if(!i.isEmpty()){
 			newShapelessRecipes.push(shapelessRecipe(name,[i]));
-		else
+			newShapelessRecipes.push(shapelessRecipe(i,[name]));
+		}else
 			event.stonecutting("2x "+name,name.replace("_vertical_slab",""));
 	});
 	function makeLimedCoal(count,rep,materials){
