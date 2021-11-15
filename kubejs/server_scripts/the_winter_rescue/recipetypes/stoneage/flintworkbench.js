@@ -63,6 +63,11 @@ onEvent('recipes', (event) => {
             B: Item.of('steampowered:bronze_sheet').toJson(),
             C: Item.of('charcoal_pit:sandy_brick').toJson()
         }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('rankine:bronze_hammer'), ['AAC', ' BA', 'B A'], {
+            A: Ingredient.of('#forge:ingots/bronze').toJson(),
+            B: Item.of('minecraft:stick').toJson(),
+            C: Item.of('stone_age:leather_strip').toJson()
+        }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('charcoal_pit:sandy_tuyere'), ['BAB', 'ACA', 'BAB'], {
             A: Item.of('rankine:mortar').toJson(),
             B: Item.of('charcoal_pit:sandy_brick_item').toJson(),
@@ -185,11 +190,6 @@ onEvent('recipes', (event) => {
             A: Item.of('minecraft:brick').toJson(),
             B: Item.of('frostedheart:energy_core').toJson(),
             C: Ingredient.of('#forge:ingots/copper').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('rankine:bronze_hammer'), ['AAC', ' BA', 'B A'], {
-            A: Ingredient.of('#forge:ingots/bronze').toJson(),
-            B: Item.of('minecraft:stick').toJson(),
-            C: Item.of('stone_age:leather_strip').toJson()
         }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('rankine:stone_hammer'), ['AAC', ' BA', 'B A'], {
             A: Item.of('minecraft:stone').toJson(),

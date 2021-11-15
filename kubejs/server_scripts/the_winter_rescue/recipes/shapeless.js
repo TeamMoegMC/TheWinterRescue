@@ -53,6 +53,9 @@ onEvent('recipes', (event) => {
 	 event.recipes.createCompacting(["4x kubejs:bound_coal_briquette"], ["2x #kubejs:fuel_glue","#forge:dusts/coal_coke"]);
 	 event.recipes.createCompacting(["5x kubejs:bound_coal_briquette"], ["2x #kubejs:fuel_glue","kubejs:anthracite_dust"]);
 	 event.recipes.createCompacting(["3x kubejs:bound_charcoal_briquette"], ["4x #kubejs:fuel_glue","2x kubejs:charcoal_dust"]);
+	 event.recipes.createCompacting(["4x kubejs:bound_coal_briquette"], [Fluid.of('create:honey', 125),"#forge:dusts/coal_coke"]);
+	 event.recipes.createCompacting(["5x kubejs:bound_coal_briquette"], [Fluid.of('create:honey', 125),"kubejs:anthracite_dust"]);
+	 event.recipes.createCompacting(["3x kubejs:bound_charcoal_briquette"], [Fluid.of('create:honey', 250),"2x kubejs:charcoal_dust"]);
 	 event.recipes.createCompacting(["kubejs:wet_straw_briquette"], ["8x charcoal_pit:straw"]);
 	 event.smelting('kubejs:coal_briquette', 'kubejs:wet_coal_briquette');
 	 event.campfireCooking('kubejs:coal_briquette', 'kubejs:wet_coal_briquette',0,200);
