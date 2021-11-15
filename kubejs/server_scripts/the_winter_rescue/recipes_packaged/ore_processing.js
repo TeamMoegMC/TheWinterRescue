@@ -45,7 +45,7 @@ onEvent('recipes', (event) => {
 
     // low-smelt point metals
     event.smelting('rankine:vanadium_ingot', 'kubejs:washed_ore_vanadinite');
-    event.smelting('rankine:lead_ingot', 'kubejs:washed_ore_galena');
+    event.smelting('immersiveengineering:ingot_lead', 'kubejs:washed_ore_galena');
     event.smelting('rankine:tin_ingot', 'kubejs:washed_ore_cassiterite');
     event.smelting('rankine:tin_ingot', 'kubejs:washed_ore_native_tin');
     event.smelting('rankine:antimony_ingot', 'kubejs:washed_ore_stibnite');
@@ -56,9 +56,9 @@ onEvent('recipes', (event) => {
     {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_pyrite'},
     {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_malachite'},
     {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_native_copper'},
-    {output: 'rankine:silver_ingot', input: 'kubejs:washed_ore_silver'},
+    {output: 'immersiveengineering:ingot_silver', input: 'kubejs:washed_ore_silver'},
     {output: 'minecraft:gold_ingot', input: 'kubejs:washed_ore_gold'},
-    {output: 'rankine:nickel_ingot', input: 'kubejs:washed_ore_pentlandite'},
+    {output: 'immersiveengineering:ingot_nickel', input: 'kubejs:washed_ore_pentlandite'},
     {output: '3x minecraft:redstone', input: 'kubejs:washed_ore_cinnabar'},
     {output: '2x rankine:salt', input: 'kubejs:washed_ore_halite'}
      ]
