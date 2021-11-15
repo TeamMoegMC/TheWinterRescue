@@ -14,6 +14,13 @@ onEvent('recipes', (event) => {
 		shapelessRecipe({"item":'frostedheart:straw_briquette_red_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:red_mushroom']),
 		shapelessRecipe({"item":'frostedheart:straw_briquette_brown_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:brown_mushroom'])
     ]
+	Ingredient.of("#forge:vertical_slabs").getItemIds().forEach((name)=>{
+		let i=Ingredient.of(name.replace("_vertical",""));
+		if(!i.isEmpty())
+			newShapelessRecipes.push(shapelessRecipe(name,[i]));
+		else
+			event.stonecutting("2x "+name,name.replace("_vertical_slab",""));
+	});
 	function makeLimedCoal(count,rep,materials){
 		for(let i=1;i<=rep;i++){
 			let cr=['rankine:quicklime'];

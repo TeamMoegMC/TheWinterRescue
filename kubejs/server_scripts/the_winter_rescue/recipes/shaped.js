@@ -390,6 +390,7 @@ onEvent('recipes', (event) => {
     /**
      * Remove a recipe from minecraft crafting table and add new one
      */
+	event.remove({output: "#forge:vertical_slabs", type: 'minecraft:crafting_shaped'});
     let i = 0;
     changeRecipes.forEach(function (recipe) {
         event.remove({output: recipe.result, type: 'minecraft:crafting_shaped'});
