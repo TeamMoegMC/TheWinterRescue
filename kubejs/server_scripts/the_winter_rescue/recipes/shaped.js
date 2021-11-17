@@ -194,6 +194,12 @@ onEvent('recipes', (event) => {
         shapedRecipe('4x create:shaft', ['A', 'A','A'], {
             A: '#forge:rods/cast_iron'
         }),
+		shapedRecipe('immersiveengineering:reinforced_crate', ['ABA', 'CDC', 'ABA'], {
+            A: '#forge:treated_wood',
+            B: '#forge:plates/iron',
+            C: '#forge:rods/iron',
+            D: '#forge:chests/wooden'
+        }),
         shapedRecipe('frozenup:truffle_cake', ['EEE', 'ABA', 'DCD'], {
             A: 'minecraft:cocoa_beans',
             B: 'minecraft:egg',

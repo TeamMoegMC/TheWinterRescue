@@ -34,7 +34,8 @@ onEvent('recipes', (event) => {
 		'rankine:prospecting_stick',
 		'minecraft:cobweb',
 		'rankine:evaporation_tower',
-        'charcoal_pit:copper_block'
+        'charcoal_pit:copper_block',
+		'immersiveengineering:crate'
     ]
     workbench.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shaped', output: Item});
