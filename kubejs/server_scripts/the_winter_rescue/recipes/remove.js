@@ -54,8 +54,17 @@ onEvent('recipes', (event) => {
 		'minecraft:iron_ingot_from_iron_block',
 		'minecraft:gold_ingot_from_gold_block'
     ]
+	let shapedName = [
+		'rankine:bucket_brass',
+		'rankine:bucket_misc',
+		'rankine:bucket_steel',
+		'minecraft:bucket'
+    ]
 	shapelessName.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shapeless', id: Item});
+    });
+	shapedName.forEach((Item) => {
+        event.remove({type: 'minecraft:crafting_shaped', id: Item});
     });
     shapeless.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shapeless', output: Item});

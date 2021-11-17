@@ -380,6 +380,15 @@ onEvent('recipes', (event) => {
         shapedRecipe('create:basin', ['A A', 'AAA'], {
             A: '#forge:plates/iron'
         }),
+		shapedRecipe('minecraft:bucket', ['A A', ' A '], {
+            A: '#forge:plates/iron'
+        }),
+		shapedRecipe('2x minecraft:bucket', ['A A', ' A '], {
+            A: '#forge:plates/steel'
+        }),
+		shapedRecipe('minecraft:bucket', ['A A', ' A '], {
+            A: '#forge:plates/brass'
+        }),
         shapedRecipe('create:precision_mechanism', ['CAC', 'BCB', 'CAC'], {
             A: '#forge:plates/brass',
             B: 'create:electron_tube',
