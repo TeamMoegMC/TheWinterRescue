@@ -59,7 +59,9 @@ onEvent('recipes', (event) => {
 		'rankine:bucket_brass',
 		'rankine:bucket_misc',
 		'rankine:bucket_steel',
-		'minecraft:bucket'
+		'minecraft:bucket',
+		'rankine:hopper_from_metals',
+		'rankine:minecart_from_metals'
     ]
 	shapelessName.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shapeless', id: Item});
