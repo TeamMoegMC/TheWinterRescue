@@ -135,6 +135,7 @@ onEvent('recipes', (event) => {
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:radiator'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:rs_engineering'})
     event.remove({type: 'immersiveengineering:hammer_crushing'})
+	event.remove({type: 'immersiveengineering:generated_list'})
     event.remove({type: 'minecraft:crafting_shapeless', input: 'immersiveengineering:hammer'})
     event.remove({type: 'create:splashing', input: 'minecraft:gravel'})
     event.remove({type: 'rankine:crucible', output: '#forge:ingots/steel'})
