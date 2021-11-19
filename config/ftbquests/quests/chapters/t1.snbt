@@ -433,6 +433,7 @@
 			}]
 		}
 		{
+			icon: "immersiveengineering:alloybrick"
 			x: 4.5d
 			y: 3.5d
 			shape: "gear"
@@ -444,12 +445,25 @@
 			]
 			dependencies: ["586D66C71A378A82"]
 			id: "162264AE4B9EE1A9"
-			tasks: [{
-				id: "4421E9FA77D859B7"
-				type: "item"
-				item: "immersiveengineering:alloybrick"
-				count: 8L
-			}]
+			tasks: [
+				{
+					id: "4421E9FA77D859B7"
+					type: "item"
+					item: "immersiveengineering:alloybrick"
+					count: 8L
+				}
+				{
+					id: "22A37B861B2743F9"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "515DCCBB1AE627C0"
