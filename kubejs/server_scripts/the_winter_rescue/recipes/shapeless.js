@@ -59,7 +59,7 @@ onEvent('recipes', (event) => {
 	 event.recipes.createSplashing(["kubejs:wet_coal_dust"],"kubejs:limed_coal");
 	 event.recipes.createCompacting(["2x kubejs:wet_coal_briquette"], "kubejs:wet_coal_dust");
 	 event.recipes.createCompacting(["4x kubejs:creosoted_coal_briquette"], ["kubejs:anthracite_dust",Fluid.of('immersiveengineering:creosote', 100)]);
-	 event.recipes.createCompacting(["kubejs:creosoted_charcoal_briquette"], ["kubejs:charcoal_dust",Fluid.of('immersiveengineering:creosote',250)]);
+	 event.recipes.createCompacting(["kubejs:creosoted_charcoal_briquette"], ["kubejs:charcoal_dust",Fluid.of('immersiveengineering:creosote',260)]);
 	 event.recipes.createCompacting(["3x kubejs:creosoted_coal_briquette"], ["#forge:dusts/coal_coke",Fluid.of('immersiveengineering:creosote', 100)]);
 	 event.recipes.createCompacting(["kubejs:creosoted_sawdust_briquette"], ["4x #forge:sawdust",Fluid.of('immersiveengineering:creosote', 25)]);
 	 event.recipes.createCompacting(["kubejs:creosoted_sawdust_briquette"], ["4x #forge:dusts/wood",Fluid.of('immersiveengineering:creosote', 25)]);
