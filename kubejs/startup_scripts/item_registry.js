@@ -99,12 +99,12 @@ onEvent('item.registry', event => {
 		"straw_briquette"
 	]
 	let fuel_vals= {
-		"anthracite_dust":4000,
-		"bituminous_coal_dust":3000,
-		"subbituminous_coal_dust":2000,
-		"lignite_dust":1400,
-		"coal_dust":2000,
-		"charcoal_dust":800,
+		"anthracite_dust":2600,
+		"bituminous_coal_dust":2000,
+		"subbituminous_coal_dust":1300,
+		"lignite_dust":1000,
+		"coal_dust":1300,
+		"charcoal_dust":900,
 		"limed_coal":0,
 		"wet_coal_dust":0,
 		"bound_charcoal_briquette":1200,
