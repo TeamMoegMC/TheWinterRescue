@@ -128,17 +128,6 @@
 					count: 16
 				}
 				{
-					id: "7BFFAA4BEF941070"
-					type: "item"
-					item: {
-						id: "frostedheart:hide_jacket"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
 					id: "2C9D6F73CC2F7140"
 					type: "item"
 					item: "rankine:bandage"
