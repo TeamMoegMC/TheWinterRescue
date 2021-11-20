@@ -279,7 +279,7 @@
 			y: -1.5d
 			subtitle: "{quest.twr.5808CFED17AE91D4.subtitle}"
 			description: ["{quest.twr.5808CFED17AE91D4.description.1}"]
-			dependencies: ["2FD2E7932423788D"]
+			dependencies: ["4785733C81711840"]
 			id: "5808CFED17AE91D4"
 			tasks: [{
 				id: "417E9910C7BE0C2C"
@@ -336,8 +336,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -6.5d
+			x: -1.0d
+			y: -6.0d
 			dependencies: ["0019852CD6EC0354"]
 			id: "6927FCD3D4A96E1C"
 			tasks: [{
@@ -347,7 +347,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.5d
 			y: -5.0d
 			dependencies: ["0019852CD6EC0354"]
 			id: "07D09F067CE6B708"
@@ -358,9 +358,9 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -6.5d
-			dependencies: ["0019852CD6EC0354"]
+			x: -2.5d
+			y: -4.0d
+			dependencies: ["07D09F067CE6B708"]
 			id: "4DE01CED0E30AD08"
 			tasks: [{
 				id: "0A23FB35CA0CBF1D"
@@ -369,7 +369,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: -1.5d
 			y: -5.0d
 			dependencies: ["0019852CD6EC0354"]
 			id: "2516E94BD07F34E5"
@@ -401,20 +401,6 @@
 		}
 		{
 			x: 0.0d
-			y: -3.5d
-			dependencies: [
-				"7F84766122DC4753"
-				"0019852CD6EC0354"
-			]
-			id: "2FD2E7932423788D"
-			tasks: [{
-				id: "2047877031C59B71"
-				type: "item"
-				item: "steampowered:steel_flywheel"
-			}]
-		}
-		{
-			x: 0.0d
 			y: 3.0d
 			dependencies: ["5D52744D5382A6CA"]
 			id: "3F7EEBC234F9825F"
@@ -422,6 +408,28 @@
 				id: "1F1F88ED64269860"
 				type: "item"
 				item: "immersiveindustry:electrolyzer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["0019852CD6EC0354"]
+			id: "4785733C81711840"
+			tasks: [{
+				id: "14F106041F4AD0C0"
+				type: "item"
+				item: "immersiveindustry:electrolyzer"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			dependencies: ["0019852CD6EC0354"]
+			id: "104E63CD1BF438BC"
+			tasks: [{
+				id: "6396EC0E24BC0195"
+				type: "item"
+				item: "immersiveengineering:blastbrick_reinforced"
 			}]
 		}
 	]
