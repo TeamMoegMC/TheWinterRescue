@@ -19,11 +19,6 @@ onEvent('recipes', (event) => {
         }),
         shapedRecipe('stone_age:tanning_rack', ['A A', ' A ', 'AAA'], {
             A: '#forge:rods/wooden'
-        }),
-        shapedRecipe('stone_age:flint_workbench', ['AB', 'CC'], {
-            A: 'minecraft:flint',
-            C: '#forge:rods/wooden',
-            B: 'minecraft:snow_block'
         })
     ]
 
