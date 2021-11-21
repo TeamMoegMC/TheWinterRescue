@@ -2,8 +2,6 @@
 enablesTemperatureForecast = true
 #Requires the player to have the temperature probe item to show temperature orb overlay. 
 requiresTemperatureProbe = true
-#Requires the player to have the weather radar item to enable morning / evening weather forecast. 
-requiresWeatherRadar = true
-#Requires the player to have the weather helmet geared to enable morning / evening weather forecast. 
-requiresWeatherHelmet = true
+#Provides the player initial weather tools on first login. 
+giveInitialWeatherTools = false
 

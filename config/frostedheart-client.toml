@@ -9,4 +9,6 @@ tempOrbOffsetX = 0
 #Y Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used.  
 #Range: -4096 ~ 4096
 tempOrbOffsetY = 0
+#Enables The Winter Rescue HUD. THIS IS MODPACK CORE FEATURE, DISABLING IS NOT RECOMMENDED. 
+enableHUD = true
 
