@@ -202,7 +202,7 @@
   "quest.twr.6B7D4F59C921C1FC.description.1": "同样重要的工具，你可以砍树了。",
   "quest.twr.45E2EF843333B846.subtitle": "开采工具",
   "quest.twr.45E2EF843333B846.description.1": "重要的工具之一，开始挖矿吧",
-  "quest.twr.45E2EF843333B846.description.2": "&6完成后可在左侧世界信息一章了解矿物生成.",
+  "quest.twr.45E2EF843333B846.description.2": "&l&6完成后可在左侧世界信息一章了解矿物生成.",
   "quest.twr.689BB00EC2454F1F.subtitle": "小肚子,大容量.",
   "quest.twr.689BB00EC2454F1F.description.1": "&6一个木炭只能烧制一个物品,",
   "quest.twr.689BB00EC2454F1F.description.2": "也许使用煤炭会更加节省一点.",
@@ -658,5 +658,7 @@
   "quest.twr.0B7A7EF07D539FC5.subtitle": "腐肉料理",
   "quest.twr.0B7A7EF07D539FC5.description.1": "需要放入1个腐肉，并且不能包含不可食用或者冰。",
   "quest.twr.11DD149796E14E81.description.1": "&l使用Tetra锤子右键工作台得到加工台",
-  "quest.twr.11DD149796E14E81.description.2": "并会赠送一个全息球"
+  "quest.twr.11DD149796E14E81.description.2": "并会赠送一个全息球",
+  "quest.twr.707E5C06843421A7.subtitle": "水里淘沙",
+  "quest.twr.707E5C06843421A7.description.1": "在河流群系和沙滩群系生成"
 }

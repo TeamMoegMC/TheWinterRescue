@@ -128,7 +128,6 @@ onEvent('block.loot_tables', event => {
 	})
 	})
 	event.addSimpleBlock('primalwinter:snowy_vine')
-
 })
 
 

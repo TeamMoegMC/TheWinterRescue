@@ -203,7 +203,7 @@
   "quest.twr.6B7D4F59C921C1FC.description.1": "An important tool, you can chop down trees faster now.",
   "quest.twr.45E2EF843333B846.subtitle": "Mining tools",
   "quest.twr.45E2EF843333B846.description.1": "One of the important tools. Start mining!",
-  "quest.twr.45E2EF843333B846.description.2": "&6After completing this, you can learn about mineral generation in the World Information chapter on the left.",
+  "quest.twr.45E2EF843333B846.description.2": "&l&6After completing this, you can learn about mineral generation in the World Information chapter on the left.",
   "quest.twr.689BB00EC2454F1F.subtitle": "Small belly, large capacity.",
   "quest.twr.689BB00EC2454F1F.description.1": "&6One Charcoal can only smelt one ore,",
   "quest.twr.689BB00EC2454F1F.description.2": "Perhaps the use of Coal will save a little bit more.",
@@ -658,5 +658,7 @@
   "quest.twr.50428AA91D1E1EFF.description.1": "Rotten flesh is disgusting. If we treat it specially, probably we can get normal cuisine.",
   "quest.twr.0B7A7EF07D539FC5.subtitle": "Rotten flesh cuisine",
   "quest.twr.0B7A7EF07D539FC5.description.1": "Needs one rotten flesh and cannot contain anything inedible or icy.",
-  "quest.twr.11DD149796E14E81.description.2": "Will give you a holographic ball"
+  "quest.twr.11DD149796E14E81.description.2": "Will give you a holographic ball",
+  "quest.twr.707E5C06843421A7.subtitle": "Pan Sand",
+  "quest.twr.707E5C06843421A7.description.1": "Generated in River and Beach."
 }

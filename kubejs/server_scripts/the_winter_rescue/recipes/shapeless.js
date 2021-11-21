@@ -11,7 +11,8 @@ onEvent('recipes', (event) => {
 		shapelessRecipe('2x rankine:dry_mortar', ['#forge:clay_balls','#minecraft:sand',"rankine:tufa_limestone"]),
 		shapelessRecipe('2x rankine:dry_mortar', ['#forge:clay_balls','#minecraft:sand',"minecraft:dirt"]),
 		shapelessRecipe('3x rankine:dry_mortar', ['rankine:quicklime',"#rankine:mortar_special"]),
-		shapelessRecipe('2x rankine:dry_mortar', ['#forge:ash','#minecraft:sand',"#forge:slag"])
+		shapelessRecipe('2x rankine:dry_mortar', ['#forge:ash','#minecraft:sand',"#forge:slag"]),
+		shapelessRecipe('2x minecraft:flint', ['minecraft:gravel','minecraft:gravel','minecraft:gravel'])
     ]
 	event.recipes.createSplashing(["rankine:mortar"],"rankine:dry_mortar");
     var newShapelessRecipes = [
@@ -74,18 +75,4 @@ onEvent('recipes', (event) => {
 	 event.recipes.createCompacting(["5x kubejs:bound_coal_briquette"], [Fluid.of('create:honey', 125),"kubejs:anthracite_dust"]);
 	 event.recipes.createCompacting(["3x kubejs:bound_charcoal_briquette"], [Fluid.of('create:honey', 250),"2x kubejs:charcoal_dust"]);
 	 event.recipes.createCompacting(["kubejs:wet_straw_briquette"], ["8x charcoal_pit:straw"]);
-	 event.smelting('kubejs:coal_briquette', 'kubejs:wet_coal_briquette');
-	 event.campfireCooking('kubejs:coal_briquette', 'kubejs:wet_coal_briquette',0,200);
-	 event.smelting('kubejs:coal_briquette', 'kubejs:creosoted_coal_briquette');
-	 event.campfireCooking('kubejs:coal_briquette', 'kubejs:creosoted_coal_briquette',0,100);
-	 event.smelting('kubejs:charcoal_briquette', 'kubejs:creosoted_charcoal_briquette');
-	 event.campfireCooking('kubejs:charcoal_briquette', 'kubejs:creosoted_charcoal_briquette',0,100);
-     event.smelting('kubejs:coal_briquette', 'kubejs:bound_coal_briquette');
-	 event.campfireCooking('kubejs:coal_briquette', 'kubejs:bound_coal_briquette',0,50);
-	 event.smelting('kubejs:charcoal_briquette', 'kubejs:bound_charcoal_briquette');
-	 event.campfireCooking('kubejs:charcoal_briquette', 'kubejs:bound_charcoal_briquette',0,50);
-	 event.smelting('kubejs:sawdust_briquette', 'kubejs:creosoted_sawdust_briquette');
-	 event.campfireCooking('kubejs:sawdust_briquette', 'kubejs:creosoted_sawdust_briquette',0,100);
-	 event.smelting('kubejs:straw_briquette', 'kubejs:wet_straw_briquette');
-	 event.campfireCooking('kubejs:straw_briquette', 'kubejs:wet_straw_briquette',0,40);
 });
