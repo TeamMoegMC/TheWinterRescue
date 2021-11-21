@@ -128,7 +128,7 @@ onEvent('block.loot_tables', event => {
 	})
 	})
 	event.addSimpleBlock('primalwinter:snowy_vine')
-	event.addSimpleBlock('kubejs:copper_gravel','kubejs:native_copper')
+	event.addSimpleBlock('frostedheart:copper_gravel','kubejs:native_copper')
 
 })
 
