@@ -30,7 +30,7 @@
 	#Enables the generation of tuff in their respective stone.
 	generateTuff = false
 	#Enables the generation of evaporite disks.
-	generateEvaporite = true
+	generateEvaporite = false
 	#Enables the generation of mud in dirt.
 	generateMud = false
 	#Enables the generation of alluvium disks.
