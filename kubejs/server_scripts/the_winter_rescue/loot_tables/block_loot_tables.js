@@ -96,8 +96,40 @@ onEvent('block.loot_tables', event => {
 			pool.addItem('minecraft:flint', 4)
 		})
 	})
+	Ingredient.of("#minecraft:leaves").getItemIds().forEach((name)=>{
+		event.addBlock(name, table => {
+		table.addPool(pool =>{
+			pool.addCondition({
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "tag": "frostedheart:knife"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "enchantments": [
+                          {
+                            "enchantment": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                })
+			pool.addItem('primalwinter:snowy_vine', 1)
+		})
+	})
+	})
+	event.addSimpleBlock('primalwinter:snowy_vine')
+	event.addSimpleBlock('kubejs:copper_gravel','kubejs:native_copper')
 
-	
 })
 
 

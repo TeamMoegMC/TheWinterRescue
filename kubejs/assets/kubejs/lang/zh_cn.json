@@ -101,6 +101,8 @@
   "item.kubejs.coal_briquette":"蜂窝煤",
   "item.kubejs.sawdust_briquette":"木屑块",
   "item.kubejs.straw_briquette":"干草块",
+  
+  "block.kubejs.copper_gravel":"铜矿沙砾",
 
   "fluid.kubejs.lime_water": "石灰水",
   "fluid.kubejs.chlorine": "氯气",

@@ -1,11 +1,5 @@
 console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Blocks Registered!')
 
 onEvent('block.registry', (event) => {
-    const blocks = [
-        // { name: 'yuesha', material: 'rock', hardness: 2 }
-    ];
-
-    blocks.forEach((block) => {
-        event.create(block.name).material(block.material).hardness(block.hardness);
-    });
+   event.create('copper_gravel').material('sand').hardness(1.5).harvestTool('shovel', 0).requiresTool(true);
 });

@@ -24,4 +24,26 @@ onEvent('worldgen.add', event => {
     ore.maxHeight = 84
     ore.squared = true 
   })
+  event.addOre(ore => {
+	ore.worldgenLayer = 'top_layer_modification'
+    ore.block = 'kubejs:copper_gravel' 
+    ore.spawnsIn.blacklist = false
+    ore.spawnsIn.values = [
+      'minecraft:gravel',
+	  'minecraft:dirt',
+	  'minecraft:sand'
+    ]
+    ore.biomes.blacklist = false
+	    ore.biomes.values = [
+	  '#river',
+	  '#beach'
+    ]
+
+    ore.clusterMinSize = 5
+    ore.clusterMaxSize = 8
+    ore.clusterCount = 6
+    ore.minHeight = 50
+    ore.maxHeight = 72
+    ore.squared = true 
+  })
 })
