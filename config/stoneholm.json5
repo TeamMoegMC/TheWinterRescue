@@ -8,5 +8,5 @@
 	// How far above sea level a village may be. This is used to prevent pieces from generating in the air in less even terrains. (Default: 8)
 	"VILLAGE_MAX_DISTANCE_ABOVE_SEALEVEL": 8,
 	// Whether to disable generating vanilla villages. (Default: false)
-	"disableVanillaVillages": true
+	"disableVanillaVillages": false
 }
