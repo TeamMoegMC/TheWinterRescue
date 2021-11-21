@@ -39,9 +39,9 @@ onEvent('worldgen.add', event => {
 	  '#beach'
     ]
 
-    ore.clusterMinSize = 5
+    ore.clusterMinSize = 4
     ore.clusterMaxSize = 8
-    ore.clusterCount = 6
+    ore.clusterCount = 16
     ore.minHeight = 50
     ore.maxHeight = 72
     ore.squared = true 
