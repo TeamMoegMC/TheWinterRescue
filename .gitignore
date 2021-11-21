@@ -35,6 +35,7 @@
 /.curseclient
 /minecraftinstance.json
 /kubejs/.idea
+hs_err_*
 
 # server side
 /dumps/
