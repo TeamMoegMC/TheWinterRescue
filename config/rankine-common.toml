@@ -223,7 +223,7 @@
 		#If enabled, paper will drop from birch trees when stripped (30% chance).
 		strippablesPaper = true
 		#If enabled, walking on grass blocks, mycelium and podzol has a chance to create a path block underfoot.
-		pathCreation = true
+		pathCreation = false
 		#If enabled, sticks will drop from all other trees when stripped (30% chance).
 		strippablesSticks = true
 		#A multiplier to determine how much higher the bricks variant hardness is than the stone.
