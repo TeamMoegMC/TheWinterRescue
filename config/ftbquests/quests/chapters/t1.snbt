@@ -1310,7 +1310,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.5d
 			y: -3.5d
 			subtitle: "{quest.twr.443AD02B85632386.subtitle}"
 			description: [
@@ -1334,7 +1334,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -5.5d
 			y: -5.0d
 			subtitle: "{quest.twr.2406D98489C938B8.subtitle}"
 			description: [
@@ -1671,8 +1671,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -6.0d
+			x: -3.5d
+			y: -5.0d
 			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
 			description: ["{quest.twr.643B93BCE91A0BB9.description.1}"]
 			dependencies: ["36960F1D7CDC8B30"]
