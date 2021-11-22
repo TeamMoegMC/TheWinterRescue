@@ -130,7 +130,7 @@
 		{
 			title: "{quest.twr.4BBE69E2E2A4276F.title}"
 			icon: "immersiveengineering:sheetmetal_steel"
-			x: -2.5d
+			x: 4.0d
 			y: 2.0d
 			shape: "gear"
 			subtitle: "{quest.twr.4BBE69E2E2A4276F.subtitle}"
@@ -156,15 +156,15 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			x: 4.0d
+			y: 0.5d
 			subtitle: "{quest.twr.58912971B356779C.subtitle}"
 			description: [
 				"{quest.twr.58912971B356779C.description.1}"
 				"{quest.twr.58912971B356779C.description.2}"
 				"{quest.twr.58912971B356779C.description.3}"
 			]
-			dependencies: ["2D570AD59FE2D6E1"]
+			dependencies: ["3EF706F5A31CDDD6"]
 			id: "58912971B356779C"
 			tasks: [{
 				id: "5936B9467F9C1E93"
@@ -173,8 +173,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.0d
+			x: 5.5d
+			y: 0.5d
 			subtitle: "{quest.twr.2E54EBA4E016412C.subtitle}"
 			description: [
 				"{quest.twr.2E54EBA4E016412C.description.1}"
@@ -196,7 +196,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: 2.5d
 			y: 2.0d
 			subtitle: "{quest.twr.3EF706F5A31CDDD6.subtitle}"
 			description: ["{quest.twr.3EF706F5A31CDDD6.description.1}"]
@@ -217,7 +217,6 @@
 			description: [
 				"{quest.twr.00FD2A2F4601287B.description.1}"
 				"{quest.twr.00FD2A2F4601287B.description.2}"
-				"{quest.twr.00FD2A2F4601287B.description.3}"
 			]
 			dependencies: ["69D939596ED4C0AF"]
 			id: "00FD2A2F4601287B"
@@ -237,6 +236,29 @@
 			tasks: [{
 				id: "4ACC9E95EA81E727"
 				type: "checkmark"
+			}]
+		}
+		{
+			icon: {
+				id: "frostedheart:steam_bottle"
+				Count: 1b
+				tag: {
+					energy: 240
+				}
+			}
+			x: -1.0d
+			y: 2.0d
+			subtitle: "更热"
+			description: [
+				"从二阶能量塔开始，能量塔需要热传导介质才能发挥全部作用，不添加热传导介质和一阶能量塔无异。"
+				"添加水可以产生能量，但是对温度和能量塔范围没有增加。"
+			]
+			dependencies: ["2D570AD59FE2D6E1"]
+			id: "57C83EF2BAA418AD"
+			tasks: [{
+				id: "2138101237058A9B"
+				type: "checkmark"
+				title: "热传导介质"
 			}]
 		}
 	]

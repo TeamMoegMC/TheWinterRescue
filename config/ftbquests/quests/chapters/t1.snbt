@@ -326,6 +326,8 @@
 			description: [
 				"{quest.twr.0A9A5166127945AB.description.1}"
 				"{quest.twr.0A9A5166127945AB.description.2}"
+				"{quest.twr.0A9A5166127945AB.description.3}"
+				"{quest.twr.0A9A5166127945AB.description.4}"
 			]
 			dependencies: ["689BB00EC2454F1F"]
 			id: "0A9A5166127945AB"
@@ -816,7 +818,10 @@
 				"{quest.twr.13AA30FB9CD620EB.description.3}"
 				"{quest.twr.13AA30FB9CD620EB.description.4}"
 			]
-			dependencies: ["4543F3B5F937E6B0"]
+			dependencies: [
+				"4543F3B5F937E6B0"
+				"66EFFD59083624BF"
+			]
 			hide: true
 			id: "13AA30FB9CD620EB"
 			tasks: [{
@@ -853,7 +858,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 8.0d
 			y: -3.5d
 			subtitle: "{quest.twr.66EFFD59083624BF.subtitle}"
 			description: ["{quest.twr.66EFFD59083624BF.description.1}"]
@@ -1072,8 +1077,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: 4.0d
+			y: -0.5d
 			subtitle: "{quest.twr.062E137E7ECB4C99.subtitle}"
 			description: [
 				"{quest.twr.062E137E7ECB4C99.description.1}"
@@ -1692,6 +1697,7 @@
 		{
 			x: 8.0d
 			y: 5.0d
+			subtitle: "也是升级工具"
 			dependencies: ["4CD30E566C5776E0"]
 			id: "190859211258D56B"
 			tasks: [{
