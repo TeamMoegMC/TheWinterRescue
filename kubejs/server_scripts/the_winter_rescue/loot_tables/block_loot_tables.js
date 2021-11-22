@@ -97,7 +97,7 @@ onEvent('block.loot_tables', event => {
 		})
 	})
 	Ingredient.of("#minecraft:leaves").getItemIds().forEach((name)=>{
-		event.addBlock(name, table => {
+		event.modifyBlock(name, table => {
 		table.addPool(pool =>{
 			pool.addCondition({
                   "condition": "minecraft:alternative",
