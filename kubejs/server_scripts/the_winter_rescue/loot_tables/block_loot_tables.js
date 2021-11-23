@@ -96,8 +96,8 @@ onEvent('block.loot_tables', event => {
 			pool.addItem('minecraft:flint', 4)
 		})
 	})
-	Ingredient.of("#minecraft:leaves").getItemIds().forEach((name)=>{
-		event.modifyBlock(name, table => {
+	
+	event.modifyBlock("#minecraft:leaves", table => {
 		table.addPool(pool =>{
 			pool.addCondition({
                   "condition": "minecraft:alternative",
@@ -125,7 +125,6 @@ onEvent('block.loot_tables', event => {
                 })
 			pool.addItem('primalwinter:snowy_vine', 1)
 		})
-	})
 	})
 	event.addSimpleBlock('primalwinter:snowy_vine')
 })
