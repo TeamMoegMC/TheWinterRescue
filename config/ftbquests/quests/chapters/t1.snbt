@@ -1697,7 +1697,7 @@
 		{
 			x: 8.0d
 			y: 5.0d
-			subtitle: "也是升级工具"
+			subtitle: "{quest.twr.190859211258D56B.subtitle}"
 			dependencies: ["4CD30E566C5776E0"]
 			id: "190859211258D56B"
 			tasks: [{

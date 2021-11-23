@@ -354,11 +354,11 @@
 			}]
 		}
 		{
-			title: "含铜沙砾"
+			title: "{quest.twr.707E5C06843421A7.title}"
 			x: -5.0d
 			y: 2.0d
 			subtitle: "{quest.twr.707E5C06843421A7.subtitle}"
-			description: ["生成在河里，挖掘可以获得原生铜。"]
+			description: ["{quest.twr.707E5C06843421A7.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: false

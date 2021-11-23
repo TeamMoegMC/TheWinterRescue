@@ -661,5 +661,11 @@
   "quest.twr.11DD149796E14E81.description.1": "&l使用Tetra锤子右键工作台得到加工台",
   "quest.twr.11DD149796E14E81.description.2": "并会赠送一个全息球",
   "quest.twr.707E5C06843421A7.subtitle": "水里淘沙",
-  "quest.twr.707E5C06843421A7.description.1": "在河流群系和沙滩群系生成"
+  "quest.twr.707E5C06843421A7.description.1": "生成在河里，挖掘可以获得原生铜。",
+  "quest.twr.190859211258D56B.subtitle": "也是升级工具",
+  "quest.twr.57C83EF2BAA418AD.subtitle": "更热",
+  "quest.twr.57C83EF2BAA418AD.description.1": "从二阶能量塔开始，能量塔需要热传导介质才能发挥全部作用，不添加热传导介质和一阶能量塔无异。具体可以查看JEI页面。",
+  "quest.twr.57C83EF2BAA418AD.description.2": "添加水可以产生能量，但是对温度和能量塔范围没有增加。",
+  "quest.twr.57C83EF2BAA418AD.description.3": "添加蒸汽可以让二阶能量塔发挥它的最大作用，并且提升温度和范围。",
+  "quest.twr.707E5C06843421A7.title": "含铜沙砾"
 }
