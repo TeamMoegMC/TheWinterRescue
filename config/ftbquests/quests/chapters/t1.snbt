@@ -22,6 +22,15 @@
 				"{quest.twr.32E5D942F1FE8645.description.4}"
 				"{quest.twr.32E5D942F1FE8645.description.5}"
 			]
+			hide_dependency_lines: true
+			dependencies: [
+				"036CEED4D23BF0D8"
+				"1E8AB43C44D00487"
+				"1F615C38B1A015E5"
+				"58EF2132D0431323"
+				"1B3C8681DF78AD16"
+			]
+			hide: true
 			id: "32E5D942F1FE8645"
 			tasks: [
 				{
@@ -1713,6 +1722,44 @@
 						}]
 					}
 				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "无论遇到什么困难，都不要怕，看任务书，就是胜利"
+			description: [
+				"如果您是第一次玩这个整合包，推荐按照任务书给出的路线进行游戏。"
+				"如果有的任务不能提交或者不能解锁，可能是它&6&l有其他未完成的前置任务&r，请先去做其他任务，等到进度到了自然就可以解锁了。"
+				"无论在什么情况下，任务书都是您最好的伙伴，&6&l请认真阅读&r。&c&l如果遇到任何困难或者问题，请先阅读任务书对应章节。&r如果任务书没有对应章节，则说明您可能做出了超出当前进度所需的物品，&6&l请先推进任务进度&r。"
+			]
+			id: "1E8AB43C44D00487"
+			tasks: [{
+				id: "76B274CC889AF1A5"
+				type: "checkmark"
+				title: "任务书使用教程"
+				icon: "ftbquests:book"
+			}]
+		}
+		{
+			title: "JEI是什么"
+			x: -11.0d
+			y: -1.0d
+			shape: "gear"
+			subtitle: "JEI泛银河传媒有限公司最新速递"
+			description: [
+				"JEI就是&6&l物品栏右边的物品列表&r，可以在那里搜索到各种物品并且查询合成表。"
+				"JEI页面的上方是有很多标签页的，如果您查出来的合成需要目前还不能做的机器，可以看看&6&l其他标签页&r。"
+				"一些物品可能有很多配方，请多多翻页，有时候可能会发现&a&l更便宜&r的配方哦。"
+				"&6&l工作台合成的部分合成表也可以用背包合成栏合成。"
+			]
+			id: "036CEED4D23BF0D8"
+			tasks: [{
+				id: "380565F0D810C394"
+				type: "checkmark"
+				title: "JEI的使用"
+				icon: "minecraft:bookshelf"
 			}]
 		}
 	]

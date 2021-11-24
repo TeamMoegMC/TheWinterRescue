@@ -37,6 +37,8 @@ onEvent('recipes', (event) => {
 			let namex=name.replace("_log","").replace("stripped_","");
 			wood_recipes.push(tree_stumpRecipe(Item.of(namex+'_planks', 3), Item.of(name),
 				Ingredient.of('#forge:axes'), 2))
+			wood_recipes.push(tree_stumpRecipe(Item.of(namex+'_slab', 2), Item.of(namex+'_planks'),
+				Ingredient.of('#forge:axes'), 2))
 		}else if(name.indexOf("wood")!=-1){
 			let namex=name.replace("_wood","").replace("stripped_","");
 			wood_recipes.push(tree_stumpRecipe(Item.of(namex+'_planks', 3), Item.of(name),

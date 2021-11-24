@@ -9,7 +9,7 @@ onEvent('recipes', (event) => {
 		millstoneRecipe(Item.of('minecraft:redstone'), Item.of('rankine:cinnabar'),
             Item.of('minecraft:redstone'), 0.8, 1),
 		millstoneRecipe(Item.of("3x rankine:sawdust"), Ingredient.of("#minecraft:logs"),
-			Item.of("rankine:sawdust"),0.5,1),
+			Item.of("rankine:sawdust"),0.2,1),
 		millstoneRecipe(Item.of('kubejs:anthracite_dust'), Item.of('rankine:anthracite_coal'),
             Item.of('kubejs:anthracite_dust'), 0.2, 1),
 		millstoneRecipe(Item.of('kubejs:bituminous_coal_dust'), Item.of('rankine:bituminous_coal'),
