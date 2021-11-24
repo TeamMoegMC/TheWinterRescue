@@ -1,3 +1,20 @@
+let colors=["white",
+"orange",
+"magenta",
+"light_blue",
+"yellow",
+"lime",
+"pink",
+"gray",
+"light_gray",
+"cyan",
+"purple",
+"blue",
+"brown",
+"black",
+"green",
+"red"
+];
 onEvent('item.tags', (event) => {
     event.add('itemfilters:check_nbt', 'tetra:modular_double')
 
@@ -30,7 +47,7 @@ onEvent('item.tags', (event) => {
     event.add('forge:ores/tin', "kubejs:native_tin")
     event.add('forge:ores/tin', "rankine:cassiterite")
     event.add('forge:coal_coke', "charcoal_pit:coke")
-	
+	event.add('immersiveengineering:forbidden_in_crates', '#create:toolboxes')
 	event.add("kubejs:coal_dust","kubejs:anthracite_dust")
 	event.add("kubejs:coal_dust","kubejs:bituminous_coal_dust")
 	event.add("kubejs:coal_dust","kubejs:subbituminous_coal_dust")
@@ -39,5 +56,9 @@ onEvent('item.tags', (event) => {
 	event.add("kubejs:fuel_glue","minecraft:slime_ball")
 	event.add("kubejs:fuel_glue","create:dough")
 	event.add("kubejs:fuel_glue","#forge:bitumen")
+		event.add('minecraft:shulker_box', 'minecraft:shulker_box')
+	colors.forEach(clr=>{
+		event.add('minecraft:shulker_box', 'minecraft:'+clr+'_shulker_box')
+	})
 
 });

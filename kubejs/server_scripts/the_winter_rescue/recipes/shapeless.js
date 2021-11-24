@@ -16,6 +16,8 @@ onEvent('recipes', (event) => {
     ]
 	event.recipes.createSplashing(["rankine:mortar"],"rankine:dry_mortar");
     var newShapelessRecipes = [
+		shapelessRecipe('watersource:purified_water_bottle', ['frostedheart:steam_bottle','minecraft:snowball']),
+		shapelessRecipe('immersiveengineering:crate', ['immersiveengineering:reinforced_crate']),
         shapelessRecipe('stone_age:dried_grass', ['charcoal_pit:straw']),
 		shapelessRecipe({"item":'frostedheart:straw_briquette_red_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:red_mushroom']),
 		shapelessRecipe({"item":'frostedheart:straw_briquette_brown_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:brown_mushroom'])
@@ -34,7 +36,7 @@ onEvent('recipes', (event) => {
 			for(let j=0;j<i;j++){
 				materials.forEach((elm)=>{cr.push(elm);});
 			}
-			newShapelessRecipes.push(shapelessRecipe(((i)*count)+'x kubejs:limed_coal',cr));
+			newShapelessRecipes.push(shapelessRecipeGroup(((i)*count)+'x kubejs:limed_coal',cr,cr[0]));
 		}
 	}
 	makeLimedCoal(2,8,['kubejs:anthracite_dust']);
