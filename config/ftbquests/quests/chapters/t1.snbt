@@ -22,15 +22,11 @@
 				"{quest.twr.32E5D942F1FE8645.description.4}"
 				"{quest.twr.32E5D942F1FE8645.description.5}"
 			]
-			hide_dependency_lines: true
 			dependencies: [
-				"036CEED4D23BF0D8"
-				"1E8AB43C44D00487"
 				"1F615C38B1A015E5"
-				"58EF2132D0431323"
-				"1B3C8681DF78AD16"
+				"3B5663CF194B054C"
+				"6667AA13CA3DAC9B"
 			]
-			hide: true
 			id: "32E5D942F1FE8645"
 			tasks: [
 				{
@@ -73,7 +69,10 @@
 			x: -5.0d
 			y: -0.5d
 			subtitle: "{quest.twr.1D7F2824DAF3BB7B.subtitle}"
-			description: ["{quest.twr.1D7F2824DAF3BB7B.description.1}"]
+			description: [
+				"{quest.twr.1D7F2824DAF3BB7B.description.1}"
+				"{quest.twr.1D7F2824DAF3BB7B.description.2}"
+			]
 			dependencies: ["348EB1588EFAD2AB"]
 			hide: true
 			id: "1D7F2824DAF3BB7B"
@@ -93,7 +92,10 @@
 			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.29BC87594650152D.subtitle}"
-			description: ["{quest.twr.29BC87594650152D.description.1}"]
+			description: [
+				"{quest.twr.29BC87594650152D.description.1}"
+				"{quest.twr.29BC87594650152D.description.2}"
+			]
 			dependencies: [
 				"1D7F2824DAF3BB7B"
 				"1233EF3CDF5E33F8"
@@ -337,6 +339,7 @@
 				"{quest.twr.0A9A5166127945AB.description.2}"
 				"{quest.twr.0A9A5166127945AB.description.3}"
 				"{quest.twr.0A9A5166127945AB.description.4}"
+				"{quest.twr.0A9A5166127945AB.description.5}"
 			]
 			dependencies: ["689BB00EC2454F1F"]
 			id: "0A9A5166127945AB"
@@ -577,6 +580,7 @@
 			description: [
 				"{quest.twr.75154C5A6E2F3257.description.1}"
 				"{quest.twr.75154C5A6E2F3257.description.2}"
+				"{quest.twr.75154C5A6E2F3257.description.3}"
 			]
 			dependencies: ["13D9DE54DF8117C2"]
 			id: "75154C5A6E2F3257"
@@ -1246,7 +1250,7 @@
 		{
 			title: "{quest.twr.33B6E7B60783C72B.title}"
 			x: -8.0d
-			y: 2.0d
+			y: 1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.33B6E7B60783C72B.subtitle}"
 			description: [
@@ -1286,8 +1290,8 @@
 		{
 			title: "{quest.twr.215BC2E7271F1478.title}"
 			icon: "crockpot:food_category_meat"
-			x: -9.5d
-			y: 2.0d
+			x: -9.0d
+			y: 1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.215BC2E7271F1478.subtitle}"
 			description: [
@@ -1305,8 +1309,8 @@
 		}
 		{
 			title: "{quest.twr.3B5663CF194B054C.title}"
-			x: -6.5d
-			y: 2.0d
+			x: -10.5d
+			y: 1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.3B5663CF194B054C.subtitle}"
 			description: [
@@ -1315,6 +1319,8 @@
 				"{quest.twr.3B5663CF194B054C.description.3}"
 				"{quest.twr.3B5663CF194B054C.description.4}"
 				"{quest.twr.3B5663CF194B054C.description.5}"
+				"{quest.twr.3B5663CF194B054C.description.6}"
+				"{quest.twr.3B5663CF194B054C.description.7}"
 			]
 			id: "3B5663CF194B054C"
 			tasks: [{
@@ -1377,13 +1383,16 @@
 		{
 			title: "{quest.twr.1F615C38B1A015E5.title}"
 			icon: "minecraft:book"
-			x: -8.0d
-			y: -2.0d
+			x: -10.5d
+			y: -1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.1F615C38B1A015E5.subtitle}"
 			description: [
 				"{quest.twr.1F615C38B1A015E5.description.1}"
 				"{quest.twr.1F615C38B1A015E5.description.2}"
+				"{quest.twr.1F615C38B1A015E5.description.3}"
+				"{quest.twr.1F615C38B1A015E5.description.4}"
+				"{quest.twr.1F615C38B1A015E5.description.5}"
 			]
 			id: "1F615C38B1A015E5"
 			tasks: [{
@@ -1533,8 +1542,8 @@
 		}
 		{
 			title: "{quest.twr.58EF2132D0431323.title}"
-			x: -6.5d
-			y: -2.0d
+			x: -8.0d
+			y: -1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.58EF2132D0431323.subtitle}"
 			description: [
@@ -1576,8 +1585,8 @@
 		{
 			title: "{quest.twr.1B3C8681DF78AD16.title}"
 			icon: "minecraft:writable_book"
-			x: -9.5d
-			y: -2.0d
+			x: -9.0d
+			y: -1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.1B3C8681DF78AD16.subtitle}"
 			description: [
@@ -1688,7 +1697,10 @@
 			x: -3.5d
 			y: -5.0d
 			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
-			description: ["{quest.twr.643B93BCE91A0BB9.description.1}"]
+			description: [
+				"{quest.twr.643B93BCE91A0BB9.description.1}"
+				"{quest.twr.7E68FC6215F4FADC.description.2}"
+			]
 			dependencies: ["36960F1D7CDC8B30"]
 			hide: true
 			id: "7E68FC6215F4FADC"
@@ -1725,41 +1737,39 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 1.0d
+			title: "{quest.twr.6667AA13CA3DAC9B.title}"
+			icon: "ftbquests:book"
+			x: -11.5d
+			y: 0.0d
 			shape: "gear"
-			subtitle: "无论遇到什么困难，都不要怕，看任务书，就是胜利"
 			description: [
-				"如果您是第一次玩这个整合包，推荐按照任务书给出的路线进行游戏。"
-				"如果有的任务不能提交或者不能解锁，可能是它&6&l有其他未完成的前置任务&r，请先去做其他任务，等到进度到了自然就可以解锁了。"
-				"无论在什么情况下，任务书都是您最好的伙伴，&6&l请认真阅读&r。&c&l如果遇到任何困难或者问题，请先阅读任务书对应章节。&r如果任务书没有对应章节，则说明您可能做出了超出当前进度所需的物品，&6&l请先推进任务进度&r。"
+				"{quest.twr.6667AA13CA3DAC9B.description.1}"
+				"{quest.twr.6667AA13CA3DAC9B.description.2}"
+				"{quest.twr.6667AA13CA3DAC9B.description.3}"
+				"{quest.twr.6667AA13CA3DAC9B.description.4}"
+				"{quest.twr.6667AA13CA3DAC9B.description.5}"
+				"{quest.twr.6667AA13CA3DAC9B.description.6}"
+				"{quest.twr.6667AA13CA3DAC9B.description.7}"
+				"{quest.twr.6667AA13CA3DAC9B.description.8}"
 			]
-			id: "1E8AB43C44D00487"
+			size: 1.2d
+			id: "6667AA13CA3DAC9B"
 			tasks: [{
-				id: "76B274CC889AF1A5"
+				id: "53400295DD5D4011"
 				type: "checkmark"
-				title: "任务书使用教程"
-				icon: "ftbquests:book"
 			}]
 		}
 		{
-			title: "JEI是什么"
-			x: -11.0d
-			y: -1.0d
+			title: "{quest.twr.1A4B718B8132E2BA.title}"
+			icon: "storagedrawers:shroud_key"
+			x: -7.0d
+			y: 1.5d
 			shape: "gear"
-			subtitle: "JEI泛银河传媒有限公司最新速递"
-			description: [
-				"JEI就是&6&l物品栏右边的物品列表&r，可以在那里搜索到各种物品并且查询合成表。"
-				"JEI页面的上方是有很多标签页的，如果您查出来的合成需要目前还不能做的机器，可以看看&6&l其他标签页&r。"
-				"一些物品可能有很多配方，请多多翻页，有时候可能会发现&a&l更便宜&r的配方哦。"
-				"&6&l工作台合成的部分合成表也可以用背包合成栏合成。"
-			]
-			id: "036CEED4D23BF0D8"
+			description: ["{quest.twr.1A4B718B8132E2BA.description.1}"]
+			id: "1A4B718B8132E2BA"
 			tasks: [{
-				id: "380565F0D810C394"
+				id: "45B10CA984D5E6B0"
 				type: "checkmark"
-				title: "JEI的使用"
-				icon: "minecraft:bookshelf"
 			}]
 		}
 	]
