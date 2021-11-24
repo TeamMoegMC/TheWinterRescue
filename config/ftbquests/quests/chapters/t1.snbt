@@ -840,6 +840,7 @@
 			}]
 		}
 		{
+			title: "木炭坑"
 			icon: "minecraft:charcoal"
 			x: -2.0d
 			y: -5.0d
@@ -863,8 +864,14 @@
 					id: "2DB3C08BDDB3E260"
 					type: "item"
 					item: "minecraft:charcoal"
+					consume_items: true
 				}
 			]
+			rewards: [{
+				id: "641441D9B61C43FB"
+				type: "item"
+				item: "kubejs:charcoal_briquette"
+			}]
 		}
 		{
 			x: 8.0d
