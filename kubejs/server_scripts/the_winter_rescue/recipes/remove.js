@@ -71,6 +71,12 @@ onEvent('recipes', (event) => {
 	shapedName.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shaped', id: Item});
     });
+	let shaped=[
+		"#elevatorid:elevators"
+	]
+	shaped.forEach((Item) => {
+        event.remove({type: 'minecraft:crafting_shaped', output: Item});
+    });
     shapeless.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shapeless', output: Item});
     });
