@@ -31,6 +31,7 @@ onEvent('recipes', (event) => {
     ]
     const wood_recipes = []
 	//auto bulk wood recipes
+	//Ingredient.of("#minecraft:carpets").getItemIds().forEach(name=>{console.info(name)});
 	Ingredient.of("#minecraft:logs").getItemIds().forEach((name)=>{
 		if(name.indexOf("log")!=-1){
 			let namex=name.replace("_log","").replace("stripped_","");
