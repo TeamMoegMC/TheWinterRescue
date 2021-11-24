@@ -666,5 +666,14 @@
   "quest.twr.57C83EF2BAA418AD.description.1": "From T2 Generator, Generator needs heat conducting medium to utilize its full strength. Not providing heat conducting medium to it will result in nothing different than T1 Generator. You can visit this in detail in JEI. ",
   "quest.twr.57C83EF2BAA418AD.description.2": "Input water can provide energy, but it will not boost the heating range nor the temperature.",
   "quest.twr.57C83EF2BAA418AD.description.3": "Input steam can allow T2 Generator to operate at its optimum while boosting its heating range and temperature.",
-  "quest.twr.707E5C06843421A7.title": "Gravel with Copper"
+  "quest.twr.707E5C06843421A7.title": "Gravel with Copper",
+  "quest.twr.1D7F2824DAF3BB7B.description.2": "需要加工工具",
+  "quest.twr.29BC87594650152D.description.2": "藤蔓",
+  "quest.twr.0A9A5166127945AB.description.5": "铜矿",
+  "quest.twr.75154C5A6E2F3257.description.3": "黄铁",
+  "quest.twr.3B5663CF194B054C.description.6": "环境温度与土壤温度是不同的",
+  "quest.twr.3B5663CF194B054C.description.7": "如果你需要种植,也许需要一台加热设备.",
+  "quest.twr.1F615C38B1A015E5.description.3": "有些物品有多种合成方式,注意翻页。",
+  "quest.twr.1F615C38B1A015E5.description.4": "a",
+  "quest.twr.7E68FC6215F4FADC.description.2": "烘干"
 }

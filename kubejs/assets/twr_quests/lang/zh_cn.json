@@ -667,5 +667,14 @@
   "quest.twr.57C83EF2BAA418AD.description.1": "从二阶能量塔开始，能量塔需要热传导介质才能发挥全部作用，不添加热传导介质和一阶能量塔无异。具体可以查看JEI页面。",
   "quest.twr.57C83EF2BAA418AD.description.2": "添加水可以产生能量，但是对温度和能量塔范围没有增加。",
   "quest.twr.57C83EF2BAA418AD.description.3": "添加蒸汽可以让二阶能量塔发挥它的最大作用，并且提升温度和范围。",
-  "quest.twr.707E5C06843421A7.title": "含铜沙砾"
+  "quest.twr.707E5C06843421A7.title": "含铜沙砾",
+  "quest.twr.1D7F2824DAF3BB7B.description.2": "需要加工工具",
+  "quest.twr.29BC87594650152D.description.2": "藤蔓",
+  "quest.twr.0A9A5166127945AB.description.5": "铜矿",
+  "quest.twr.75154C5A6E2F3257.description.3": "黄铁",
+  "quest.twr.3B5663CF194B054C.description.6": "环境温度与土壤温度是不同的",
+  "quest.twr.3B5663CF194B054C.description.7": "如果你需要种植,也许需要一台加热设备.",
+  "quest.twr.1F615C38B1A015E5.description.3": "有些物品有多种合成方式,注意翻页。",
+  "quest.twr.1F615C38B1A015E5.description.4": "a",
+  "quest.twr.7E68FC6215F4FADC.description.2": "烘干"
 }
