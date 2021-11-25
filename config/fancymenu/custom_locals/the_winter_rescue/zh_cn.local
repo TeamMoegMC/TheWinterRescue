@@ -10,3 +10,12 @@ mainmenu.twr.singleplayer = 单人游戏
 mainmenu.twr.singleplayer.hover = 孤独的路途
 mainmenu.twr.multiplayer = 多人游戏
 mainmenu.twr.multiplayer.hover = 拥挤的旅行
+
+twr.update.title = 更新信息
+twr.update.tooltip = 查看您是否需要更新至最新稳定版本
+twr.update.tooltip_2 = 也可获取最新测试版本信息！
+twr.update.latest_test_version = 最新测试版本
+twr.update.latest_version = 最新稳定版本
+twr.update.download_update = 点击以下任意网址下载：
+twr.update.curse = CurseForge
+twr.update.mcbbs = MCBBS

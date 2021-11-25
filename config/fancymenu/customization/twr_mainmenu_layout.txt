@@ -14,45 +14,37 @@ customization {
 }
 
 customization {
-  identifier = %id=604346%
-  action = hidebutton
+  keepaspectratio = false
+  action = backgroundoptions
 }
 
 customization {
-  identifier = %id=502346%
-  action = hidebutton
-}
-
-customization {
+  identifier = %id=400322%
   orientation = mid-centered
-  buttonaction = openlink
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  description = %local:mainmenu.twr.supportcenter.desc%
-  label = %local:mainmenu.twr.supportcenter%
-  x = -2
-  width = 100
-  actionid = 9b965a7b-f0ce-43d5-8987-1e784aec050d1631121087248
-  action = addbutton
-  y = 37
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-  value = https://support.teammoeg.com
-  height = 20
+  x = -100
+  action = movebutton
+  y = 11
 }
 
 customization {
-  orientation = mid-centered
-  buttonaction = openlink
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = %local:mainmenu.twr.multiplayer%
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
   backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  label = %local:mainmenu.twr.supportus%
-  hoverlabel = %local:mainmenu.twr.supportus%
-  x = -38
-  width = 78
-  actionid = c91a7520-5063-498d-bb51-8b44d3efe4701631121087252
-  action = addbutton
-  y = 62
   backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-  value = %local:mainmenu.twr.supportus.url%
-  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = sethoverlabel
+  label = %local:mainmenu.twr.multiplayer.hover%
 }
 
 customization {
@@ -71,6 +63,8 @@ customization {
 
 customization {
   identifier = %id=604382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = config/fancymenu_assets/buttons/a11y_hover.png
   backgroundnormal = config/fancymenu_assets/buttons/a11y_normal.png
@@ -78,33 +72,6 @@ customization {
 
 customization {
   identifier = %id=604382%
-  action = sethoverlabel
-  label = 
-}
-
-customization {
-  identifier = %id=376382%
-  orientation = mid-centered
-  x = -121
-  action = movebutton
-  y = 38
-}
-
-customization {
-  identifier = %id=376382%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=376382%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu_assets/buttons/language_hover.png
-  backgroundnormal = config/fancymenu_assets/buttons/language_normal.png
-}
-
-customization {
-  identifier = %id=376382%
   action = sethoverlabel
   label = 
 }
@@ -125,6 +92,8 @@ customization {
 
 customization {
   identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
   backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
@@ -146,89 +115,40 @@ customization {
 
 customization {
   identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
   backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
 }
 
 customization {
+  identifier = %id=376382%
   orientation = mid-centered
-  buttonaction = opencustomgui
-  x = -66
-  width = 132
-  actionid = 3b7f3e26-87f5-4f3b-bdc4-b5545a9d923e1631121087255
-  action = addbutton
-  y = -44
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  label = %local:mainmenu.twr.teammoeg%
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-  value = twr.menu.credits
-  height = 20
-}
-
-customization {
-  path = config/fancymenu_assets/twr_logo_title.png
-  orientation = mid-centered
-  x = -99
-  width = 200
-  action = addtexture
-  actionid = 8137d233-9442-4b47-a150-7caea41638d51630687242534
-  y = -100
-  height = 50
-}
-
-customization {
-  identifier = %id=400346%
-  orientation = mid-centered
-  x = -99
+  x = -121
   action = movebutton
   y = 38
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=376382%
   action = setbuttonlabel
-  value = Mod
+  value = 
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = config/fancymenu_assets/buttons/language_hover.png
+  backgroundnormal = config/fancymenu_assets/buttons/language_normal.png
 }
 
 customization {
-  identifier = %id=400346%
+  identifier = %id=376382%
   action = sethoverlabel
-  label = Mod
-}
-
-customization {
-  identifier = %id=400322%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = 11
-}
-
-customization {
-  identifier = %id=400322%
-  action = setbuttonlabel
-  value = %local:mainmenu.twr.multiplayer%
-}
-
-customization {
-  identifier = %id=400322%
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-}
-
-customization {
-  identifier = %id=400322%
-  action = sethoverlabel
-  label = %local:mainmenu.twr.multiplayer.hover%
+  label = 
 }
 
 customization {
@@ -247,6 +167,8 @@ customization {
 
 customization {
   identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
   action = setbuttontexture
   backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
   backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
@@ -259,7 +181,139 @@ customization {
 }
 
 customization {
-  identifier = %id=376322%
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -99
+  action = movebutton
+  y = 38
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = sethoverlabel
+  label = Mod
+}
+
+customization {
+  identifier = %id=502346%
   action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  description = %local:mainmenu.twr.supportcenter.desc%
+  label = %local:mainmenu.twr.supportcenter%
+  loopbackgroundanimations = true
+  x = -2
+  width = 100
+  actionid = 9b965a7b-f0ce-43d5-8987-1e784aec050d1631121087248
+  action = addbutton
+  y = 37
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  value = https://support.teammoeg.com
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  label = %local:mainmenu.twr.supportus%
+  loopbackgroundanimations = true
+  hoverlabel = %local:mainmenu.twr.supportus%
+  x = -38
+  width = 78
+  actionid = c91a7520-5063-498d-bb51-8b44d3efe4701631121087252
+  action = addbutton
+  y = 62
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  value = %local:mainmenu.twr.supportus.url%
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  label = %local:mainmenu.twr.teammoeg%
+  loopbackgroundanimations = true
+  x = -66
+  width = 132
+  actionid = 3b7f3e26-87f5-4f3b-bdc4-b5545a9d923e1631121087255
+  action = addbutton
+  y = -44
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  value = twr.menu.credits
+  height = 20
+}
+
+customization {
+  path = config/fancymenu_assets/twr_logo_title.png
+  orientation = mid-centered
+  x = -99
+  width = 200
+  action = addtexture
+  actionid = 8137d233-9442-4b47-a150-7caea41638d51630687242534
+  y = -100
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  description = %local:twr.update.tooltip% %n% %local:twr.update.tooltip_2%
+  label = %local:twr.update.title%
+  loopbackgroundanimations = true
+  x = 6
+  width = 121
+  actionid = 9d60c09f-c9bb-48c3-b955-fc5211ab5f5d1637830697235
+  action = addbutton
+  y = 26
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  value = twr.menu.update
+  height = 20
+}
+
+customization {
+  path = config/fancymenu_assets/twr_zh_cn_title.png
+  orientation = mid-centered
+  vr:value:language = zh_cn
+  x = -99
+  width = 200
+  action = addtexture
+  actionid = 183158ca-a2b2-42c5-b2ff-fa25bdfd0b321637834536598
+  y = -100
+  vr:showif:language = true
+  height = 50
+}
+
+customization {
+  orientation = mid-centered
+  vr:value:language = ja_jp
+  shadow = false
+  x = 1
+  action = addtext
+  actionid = 44ed5895-59d3-499f-82bd-8627ddd6de621637835138593
+  y = -63
+  scale = 1.0
+  vr:showif:language = true
+  alignment = centered
+  value = ザ・ウィンター・レスキュー
 }
 

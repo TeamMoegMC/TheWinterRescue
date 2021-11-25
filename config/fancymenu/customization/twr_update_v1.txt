@@ -1,0 +1,161 @@
+type = menu
+
+customization-meta {
+  identifier = twr.menu.update
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/slideshows/background/images/image_1.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/fancymenu_assets/buttons/button_normal.png
+  orientation = mid-centered
+  x = -211
+  width = 227
+  action = addtexture
+  actionid = 75c07fcd-f8a6-488e-9fde-9af4bd2db88a1637829131520
+  y = -81
+  height = 179
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -101
+  action = addtext
+  actionid = 02ba7142-5c9b-4fef-9b0e-f5d671e043501637829188702
+  y = -48
+  scale = 1.5
+  alignment = centered
+  value = %local:twr.update.title%
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -100
+  action = addtext
+  actionid = 5f0084d4-46ee-4fc2-b888-100812b0f9161637829484257
+  y = -12
+  scale = 1.0
+  alignment = centered
+  value = %local:twr.update.latest_version%
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  multiline = false
+  x = -100
+  action = addwebtext
+  actionid = 29f1791e-d6b3-4d83-b2ee-62960d30c7e01637829593582
+  y = 35
+  scale = 1.0
+  alignment = centered
+  url = https://info.teammoeg.com/twr/version.txt
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  label = %local:twr.update.curse%
+  loopbackgroundanimations = true
+  x = 46
+  width = 132
+  actionid = d72d688c-5a04-485f-b6d5-057991386f731637829684553
+  action = addbutton
+  y = 30
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  value = https://www.curseforge.com/minecraft/modpacks/the-winter-rescue
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  label = %local:twr.update.mcbbs%
+  loopbackgroundanimations = true
+  x = 46
+  width = 132
+  actionid = d72d688c-5a04-485f-b6d5-057991386f731637829684553
+  action = addbutton
+  y = 56
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  value = https://www.mcbbs.net/thread-1227167-1-1.html
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  multiline = false
+  x = -99
+  action = addwebtext
+  actionid = 5dfcc234-0d43-4e1b-a137-c4c07a1d19061637830405502
+  y = 2
+  scale = 1.0
+  alignment = centered
+  url = https://info.teammoeg.com/twr/stable_version.txt
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -96
+  action = addtext
+  actionid = 04aba22e-2558-4c6b-9014-3be8e79ff2ba1637830434739
+  y = 18
+  scale = 1.0
+  alignment = centered
+  value = %local:twr.update.latest_test_version%
+}
+
+customization {
+  path = config/fancymenu_assets/twr_logo_title.png
+  orientation = mid-centered
+  x = 11
+  width = 200
+  action = addtexture
+  actionid = 2cc3ddca-16d8-4dc4-98b6-1f236dc0e2151637833763061
+  y = -59
+  height = 50
+}
+
+customization {
+  path = config/fancymenu_assets/buttons/button_normal.png
+  orientation = mid-centered
+  x = 11
+  width = 195
+  action = addtexture
+  actionid = 72d75de1-78c3-41ec-a23b-b9812b5c6a2c1637833910703
+  y = 0
+  height = 24
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 110
+  action = addtext
+  actionid = eec83f38-deb0-46a6-8339-d989edc5ec9a1637833936603
+  y = 8
+  scale = 1.0
+  alignment = centered
+  value = %local:twr.update.download_update%
+}
+

@@ -329,7 +329,7 @@ drippyloadingscreen.helper.ui.hud.layouts.manage.edit.desc = Edit this layout in
 
 drippyloadingscreen.helper.ui.closehelper = Close Customization Helper
 
-drippyloadingscreen.helper.ui.reload.desc = Reload DrippyLoadingScreen.%n%%n%§lWill reload:%n%- Slideshows%n%- Mod Config%n%- Layouts
+drippyloadingscreen.helper.ui.reload.desc = Reload DrippyLoadingScreen.%n%%n%§lWill reload:%n%- Slideshows%n%- Mod Config%n%- Layouts%n%- Random Layouts
 
 drippyloadingscreen.helper.editor.ui.unsavedwarning = §c§lAre you sure?%n%%n%%n%All unsaved changes for the current layout%n%will get lost!%n% %n% %n%
 
@@ -509,3 +509,14 @@ drippyloadingscreen.helper.editor.properties.autoscale.error = §c§lSomething w
 
 drippyloadingscreen.helper.editor.windowsize.currentwidth = Current Window Width
 drippyloadingscreen.helper.editor.windowsize.currentheight = Current Window Height
+
+drippyloadingscreen.helper.editor.layoutoptions.randommode.on = Random Mode: §aOn
+drippyloadingscreen.helper.editor.layoutoptions.randommode.off = Random Mode: §cOff
+drippyloadingscreen.helper.editor.layoutoptions.randommode.btn.desc = Pick a random layout of the same%n%group when the menu gets opened.%n%%n%Can be used to randomize%n%backgrounds and other elements.
+drippyloadingscreen.helper.editor.layoutoptions.randommode.setgroup = Set Random Group
+drippyloadingscreen.helper.editor.layoutoptions.randommode.setgroup.btn.desc = Set the group of this random layout.%n%One layout per group gets picked%n%when the menu gets opened.
+drippyloadingscreen.helper.editor.layoutoptions.randommode.onlyfirsttime.on = Randomize Only First Time: §aOn
+drippyloadingscreen.helper.editor.layoutoptions.randommode.onlyfirsttime.off = Randomize Only First Time: §cOff
+drippyloadingscreen.helper.editor.layoutoptions.randommode.onlyfirsttime.btn.desc = If layouts of this random group%n%should be random everytime the%n%menu gets opened or if only one layout%n%should be picked the first time%n%the menu gets opened.
+
+
