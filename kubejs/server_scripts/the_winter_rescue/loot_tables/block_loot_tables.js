@@ -15,7 +15,7 @@ var ore_blocks = [
 "rankine:fluorite_ore", 
 "rankine:vanadinite_ore", 
 "rankine:native_silver_ore", 
-"rankine:native_gold_ore", 
+"rankine:native_gold_ore"
 // "rankine:sphalerite_ore"
 ];
 var ores = [
@@ -35,7 +35,7 @@ var ores = [
 "rankine:fluorite", 
 "rankine:vanadinite", 
 "kubejs:silver", 
-"kubejs:gold", 
+"kubejs:gold"
 // "rankine:sphalerite"
 ];
 var i;
@@ -43,7 +43,7 @@ var ores_i;
 var ore_blocks_i;
 
 onEvent('block.loot_tables', event => {
-    for (i = 0; i <= ores.length; i++) {
+    for (i = 0; i < ores.length; i++) {
         ores_i = ores[i];
         ore_blocks_i = ore_blocks[i];
 
@@ -96,8 +96,8 @@ onEvent('block.loot_tables', event => {
 			pool.addItem('minecraft:flint', 4)
 		})
 	})
-	Ingredient.of("#minecraft:leaves").getItemIds().forEach((name)=>{
-		event.modifyBlock(name, table => {
+	
+	event.modifyBlock("#minecraft:leaves", table => {
 		table.addPool(pool =>{
 			pool.addCondition({
                   "condition": "minecraft:alternative",
@@ -125,7 +125,6 @@ onEvent('block.loot_tables', event => {
                 })
 			pool.addItem('primalwinter:snowy_vine', 1)
 		})
-	})
 	})
 	event.addSimpleBlock('primalwinter:snowy_vine')
 })

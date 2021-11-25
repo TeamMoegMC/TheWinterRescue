@@ -36,6 +36,7 @@
 /minecraftinstance.json
 /kubejs/.idea
 hs_err_*
+replay_*
 
 # server side
 /dumps/

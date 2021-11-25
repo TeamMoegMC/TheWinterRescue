@@ -22,6 +22,11 @@
 				"{quest.twr.32E5D942F1FE8645.description.4}"
 				"{quest.twr.32E5D942F1FE8645.description.5}"
 			]
+			dependencies: [
+				"1F615C38B1A015E5"
+				"3B5663CF194B054C"
+				"6667AA13CA3DAC9B"
+			]
 			id: "32E5D942F1FE8645"
 			tasks: [
 				{
@@ -64,7 +69,10 @@
 			x: -5.0d
 			y: -0.5d
 			subtitle: "{quest.twr.1D7F2824DAF3BB7B.subtitle}"
-			description: ["{quest.twr.1D7F2824DAF3BB7B.description.1}"]
+			description: [
+				"{quest.twr.1D7F2824DAF3BB7B.description.1}"
+				"{quest.twr.1D7F2824DAF3BB7B.description.2}"
+			]
 			dependencies: ["348EB1588EFAD2AB"]
 			hide: true
 			id: "1D7F2824DAF3BB7B"
@@ -84,7 +92,10 @@
 			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.29BC87594650152D.subtitle}"
-			description: ["{quest.twr.29BC87594650152D.description.1}"]
+			description: [
+				"{quest.twr.29BC87594650152D.description.1}"
+				"{quest.twr.29BC87594650152D.description.2}"
+			]
 			dependencies: [
 				"1D7F2824DAF3BB7B"
 				"1233EF3CDF5E33F8"
@@ -328,6 +339,7 @@
 				"{quest.twr.0A9A5166127945AB.description.2}"
 				"{quest.twr.0A9A5166127945AB.description.3}"
 				"{quest.twr.0A9A5166127945AB.description.4}"
+				"{quest.twr.0A9A5166127945AB.description.5}"
 			]
 			dependencies: ["689BB00EC2454F1F"]
 			id: "0A9A5166127945AB"
@@ -568,6 +580,7 @@
 			description: [
 				"{quest.twr.75154C5A6E2F3257.description.1}"
 				"{quest.twr.75154C5A6E2F3257.description.2}"
+				"{quest.twr.75154C5A6E2F3257.description.3}"
 			]
 			dependencies: ["13D9DE54DF8117C2"]
 			id: "75154C5A6E2F3257"
@@ -831,6 +844,7 @@
 			}]
 		}
 		{
+			title: "木炭坑"
 			icon: "minecraft:charcoal"
 			x: -2.0d
 			y: -5.0d
@@ -854,8 +868,14 @@
 					id: "2DB3C08BDDB3E260"
 					type: "item"
 					item: "minecraft:charcoal"
+					consume_items: true
 				}
 			]
+			rewards: [{
+				id: "641441D9B61C43FB"
+				type: "item"
+				item: "kubejs:charcoal_briquette"
+			}]
 		}
 		{
 			x: 8.0d
@@ -1237,7 +1257,7 @@
 		{
 			title: "{quest.twr.33B6E7B60783C72B.title}"
 			x: -8.0d
-			y: 2.0d
+			y: 1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.33B6E7B60783C72B.subtitle}"
 			description: [
@@ -1277,8 +1297,8 @@
 		{
 			title: "{quest.twr.215BC2E7271F1478.title}"
 			icon: "crockpot:food_category_meat"
-			x: -9.5d
-			y: 2.0d
+			x: -9.0d
+			y: 1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.215BC2E7271F1478.subtitle}"
 			description: [
@@ -1296,8 +1316,8 @@
 		}
 		{
 			title: "{quest.twr.3B5663CF194B054C.title}"
-			x: -6.5d
-			y: 2.0d
+			x: -10.5d
+			y: 1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.3B5663CF194B054C.subtitle}"
 			description: [
@@ -1306,6 +1326,8 @@
 				"{quest.twr.3B5663CF194B054C.description.3}"
 				"{quest.twr.3B5663CF194B054C.description.4}"
 				"{quest.twr.3B5663CF194B054C.description.5}"
+				"{quest.twr.3B5663CF194B054C.description.6}"
+				"{quest.twr.3B5663CF194B054C.description.7}"
 			]
 			id: "3B5663CF194B054C"
 			tasks: [{
@@ -1368,13 +1390,16 @@
 		{
 			title: "{quest.twr.1F615C38B1A015E5.title}"
 			icon: "minecraft:book"
-			x: -8.0d
-			y: -2.0d
+			x: -10.5d
+			y: -1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.1F615C38B1A015E5.subtitle}"
 			description: [
 				"{quest.twr.1F615C38B1A015E5.description.1}"
 				"{quest.twr.1F615C38B1A015E5.description.2}"
+				"{quest.twr.1F615C38B1A015E5.description.3}"
+				"{quest.twr.1F615C38B1A015E5.description.4}"
+				"{quest.twr.1F615C38B1A015E5.description.5}"
 			]
 			id: "1F615C38B1A015E5"
 			tasks: [{
@@ -1524,8 +1549,8 @@
 		}
 		{
 			title: "{quest.twr.58EF2132D0431323.title}"
-			x: -6.5d
-			y: -2.0d
+			x: -8.0d
+			y: -1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.58EF2132D0431323.subtitle}"
 			description: [
@@ -1567,8 +1592,8 @@
 		{
 			title: "{quest.twr.1B3C8681DF78AD16.title}"
 			icon: "minecraft:writable_book"
-			x: -9.5d
-			y: -2.0d
+			x: -9.0d
+			y: -1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.1B3C8681DF78AD16.subtitle}"
 			description: [
@@ -1679,7 +1704,10 @@
 			x: -3.5d
 			y: -5.0d
 			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
-			description: ["{quest.twr.643B93BCE91A0BB9.description.1}"]
+			description: [
+				"{quest.twr.643B93BCE91A0BB9.description.1}"
+				"{quest.twr.7E68FC6215F4FADC.description.2}"
+			]
 			dependencies: ["36960F1D7CDC8B30"]
 			hide: true
 			id: "7E68FC6215F4FADC"
@@ -1713,6 +1741,44 @@
 						}]
 					}
 				}
+			}]
+		}
+		{
+			title: "{quest.twr.6667AA13CA3DAC9B.title}"
+			icon: "ftbquests:book"
+			x: -11.5d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "有困难，找任务书"
+			description: [
+				"{quest.twr.6667AA13CA3DAC9B.description.1}"
+				"{quest.twr.6667AA13CA3DAC9B.description.2}"
+				"{quest.twr.6667AA13CA3DAC9B.description.3}"
+				"{quest.twr.6667AA13CA3DAC9B.description.4}"
+				"{quest.twr.6667AA13CA3DAC9B.description.5}"
+				"{quest.twr.6667AA13CA3DAC9B.description.6}"
+				"{quest.twr.6667AA13CA3DAC9B.description.7}"
+				"{quest.twr.6667AA13CA3DAC9B.description.8}"
+			]
+			size: 1.2d
+			id: "6667AA13CA3DAC9B"
+			tasks: [{
+				id: "53400295DD5D4011"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{quest.twr.1A4B718B8132E2BA.title}"
+			icon: "storagedrawers:shroud_key"
+			x: -7.0d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "避免工具乱飞"
+			description: ["{quest.twr.1A4B718B8132E2BA.description.1}"]
+			id: "1A4B718B8132E2BA"
+			tasks: [{
+				id: "45B10CA984D5E6B0"
+				type: "checkmark"
 			}]
 		}
 	]

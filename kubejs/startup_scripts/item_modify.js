@@ -1,5 +1,23 @@
+var carpets=["minecraft:white_carpet",
+"minecraft:orange_carpet",
+"minecraft:magenta_carpet",
+"minecraft:light_blue_carpet",
+"minecraft:yellow_carpet",
+"minecraft:lime_carpet",
+"minecraft:pink_carpet",
+"minecraft:gray_carpet",
+"minecraft:light_gray_carpet",
+"minecraft:cyan_carpet",
+"minecraft:purple_carpet",
+"minecraft:blue_carpet",
+"minecraft:brown_carpet",
+"minecraft:black_carpet",
+"minecraft:green_carpet",
+"minecraft:red_carpet"
+];
+
 onEvent('item.modification', event => {
-  event.modify("#minecraft:carpets", item => {
+  carpets.forEach(name=>{event.modify(name, item => {
 	item.burnTime = 0
-  })
+	})});
 })

@@ -164,7 +164,7 @@
 		# 
 		#Configure how Spawner blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
-		movableSpawners = "NO_PICKUP"
+		movableSpawners = "UNMOVABLE"
 		# 
 		#Maximum allowed distance of two coupled minecarts.
 		#Range: > 1

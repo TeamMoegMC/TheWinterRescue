@@ -63,13 +63,20 @@ onEvent('recipes', (event) => {
 		'rankine:bucket_steel',
 		'minecraft:bucket',
 		'rankine:hopper_from_metals',
-		'rankine:minecart_from_metals'
+		'rankine:minecart_from_metals',
+		'stone_age:backpack'
     ]
 	shapelessName.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shapeless', id: Item});
     });
 	shapedName.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shaped', id: Item});
+    });
+	let shaped=[
+		"#elevatorid:elevators"
+	]
+	shaped.forEach((Item) => {
+        event.remove({type: 'minecraft:crafting_shaped', output: Item});
     });
     shapeless.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shapeless', output: Item});
@@ -152,10 +159,14 @@ onEvent('recipes', (event) => {
     event.remove({input: 'immersiveengineering:dust_wood', output: 'minecraft:paper'});
     event.remove({input: 'rankine:alloy_template', output: 'minecraft:paper'});
     event.remove({input: 'minecraft:redstone_ore'});
+	event.remove({output: '#minecraft:planks'});
 
     event.remove({type: 'minecraft:smelting', input: 'rankine:magnetite_block'});
     event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
-
+	['minecraft:air',
+	'stone_age:backpack'].forEach((disabledItem) => {
+        event.remove({output: disabledItem});
+    })
     // Remove All Types
     disabledItems.forEach((disabledItem) => {
         event.remove({output: disabledItem});
