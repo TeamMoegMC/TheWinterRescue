@@ -844,7 +844,7 @@
 			}]
 		}
 		{
-			title: "木炭坑"
+			title: "{quest.twr.76B2B1A3EC6D92CD.title}"
 			icon: "minecraft:charcoal"
 			x: -2.0d
 			y: -5.0d
@@ -1749,7 +1749,7 @@
 			x: -11.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "有困难，找任务书"
+			subtitle: "{quest.twr.6667AA13CA3DAC9B.subtitle}"
 			description: [
 				"{quest.twr.6667AA13CA3DAC9B.description.1}"
 				"{quest.twr.6667AA13CA3DAC9B.description.2}"
@@ -1773,7 +1773,7 @@
 			x: -7.0d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "避免工具乱飞"
+			subtitle: "{quest.twr.1A4B718B8132E2BA.subtitle}"
 			description: ["{quest.twr.1A4B718B8132E2BA.description.1}"]
 			id: "1A4B718B8132E2BA"
 			tasks: [{

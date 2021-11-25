@@ -689,5 +689,7 @@
   "quest.twr.6667AA13CA3DAC9B.description.8": "&b&l请认真阅读任务书对应章节。",
   "quest.twr.1A4B718B8132E2BA.title": "背包整理调整",
   "quest.twr.1A4B718B8132E2BA.description.1": "&l默认R+C键打开背包整理按键调整.",
-  "quest.twr.76B2B1A3EC6D92CD.title": "木炭坑"
+  "quest.twr.76B2B1A3EC6D92CD.title": "木炭坑",
+  "quest.twr.6667AA13CA3DAC9B.subtitle": "有困难，找任务书",
+  "quest.twr.1A4B718B8132E2BA.subtitle": "避免工具乱飞"
 }
