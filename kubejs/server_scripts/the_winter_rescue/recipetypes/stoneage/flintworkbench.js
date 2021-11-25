@@ -39,7 +39,7 @@ onEvent('recipes', (event) => {
             A: Ingredient.of('#forge:stone').toJson(),
             B: Item.of('minecraft:stick').toJson(),
             C: Item.of('minecraft:stone').toJson()
-        }, Item.of('stone_age:flint_knife')),
+        }, Item.of('#forge:hammers')),
         flint_shapedRecipe(Item.of('stone_age:stone_chest'), ['BBB', 'ACA', 'AAA'], {
             A: Item.of('minecraft:stone').toJson(),
             B: Item.of('minecraft:stone_slab').toJson(),

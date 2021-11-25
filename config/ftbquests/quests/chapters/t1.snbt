@@ -204,6 +204,7 @@
 		{
 			x: 1.0d
 			y: 0.0d
+			shape: "gear"
 			subtitle: "{quest.twr.7E3F0C805E2BBB9F.subtitle}"
 			description: [
 				"{quest.twr.7E3F0C805E2BBB9F.description.1}"
@@ -424,6 +425,7 @@
 			title: "{quest.twr.586D66C71A378A82.title}"
 			x: 3.0d
 			y: 3.5d
+			shape: "gear"
 			subtitle: "{quest.twr.586D66C71A378A82.subtitle}"
 			description: ["{quest.twr.586D66C71A378A82.description.1}"]
 			dependencies: [
@@ -893,6 +895,7 @@
 		{
 			x: 9.5d
 			y: -3.5d
+			shape: "gear"
 			subtitle: "{quest.twr.4625CA3FEAF6908B.subtitle}"
 			description: ["{quest.twr.4625CA3FEAF6908B.description.1}"]
 			dependencies: [
@@ -1199,7 +1202,10 @@
 			y: 5.0d
 			subtitle: "{quest.twr.3EE690327B36D6E0.subtitle}"
 			description: ["{quest.twr.3EE690327B36D6E0.description.1}"]
-			dependencies: ["162264AE4B9EE1A9"]
+			dependencies: [
+				"162264AE4B9EE1A9"
+				"7887EB905BAA7BEF"
+			]
 			id: "3EE690327B36D6E0"
 			tasks: [{
 				id: "6B43703A1D612B7B"
@@ -1221,8 +1227,8 @@
 		}
 		{
 			icon: "watersource:wooden_water_filter"
-			x: 3.0d
-			y: 5.0d
+			x: 4.5d
+			y: 6.0d
 			subtitle: "{quest.twr.3622C3DFDB5D8E02.subtitle}"
 			description: [
 				"{quest.twr.3622C3DFDB5D8E02.description.1}"
@@ -1524,8 +1530,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 5.0d
+			x: 2.0d
+			y: 4.25d
 			subtitle: "{quest.twr.1974619E18DB754A.subtitle}"
 			description: ["{quest.twr.1974619E18DB754A.description.1}"]
 			dependencies: ["586D66C71A378A82"]
@@ -1779,6 +1785,23 @@
 			tasks: [{
 				id: "45B10CA984D5E6B0"
 				type: "checkmark"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			subtitle: "{quest.twr.7887EB905BAA7BEF.subtitle}"
+			description: [
+				"{quest.twr.7887EB905BAA7BEF.description.1}"
+				"{quest.twr.7887EB905BAA7BEF.description.2}"
+			]
+			dependencies: ["4A4D6D0DC9B348C1"]
+			hide: true
+			id: "7887EB905BAA7BEF"
+			tasks: [{
+				id: "6F18025E0CB8D35F"
+				type: "item"
+				item: "stone_age:millstone"
 			}]
 		}
 	]

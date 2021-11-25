@@ -46,27 +46,10 @@
 			}]
 		}
 		{
-			x: -17.5d
-			y: -0.5d
-			subtitle: "{quest.twr.7887EB905BAA7BEF.subtitle}"
-			description: [
-				"{quest.twr.7887EB905BAA7BEF.description.1}"
-				"{quest.twr.7887EB905BAA7BEF.description.2}"
-			]
-			dependencies: ["328D948C4C800873"]
-			hide: true
-			id: "7887EB905BAA7BEF"
-			tasks: [{
-				id: "6F18025E0CB8D35F"
-				type: "item"
-				item: "stone_age:millstone"
-			}]
-		}
-		{
 			x: -16.0d
-			y: -0.5d
+			y: -1.25d
 			description: ["{quest.twr.060F482D9D3374F9.description.1}"]
-			dependencies: ["7887EB905BAA7BEF"]
+			dependencies: ["3549A50510878505"]
 			id: "060F482D9D3374F9"
 			tasks: [{
 				id: "786C91AE939F3CC1"
@@ -75,13 +58,13 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 1.0d
+			x: -17.5d
+			y: -0.5d
 			description: [
 				"{quest.twr.48F3102B3AA99313.description.1}"
 				"{quest.twr.48F3102B3AA99313.description.2}"
 			]
-			dependencies: ["7887EB905BAA7BEF"]
+			dependencies: ["3549A50510878505"]
 			id: "48F3102B3AA99313"
 			tasks: [{
 				id: "1889B5889AC25666"
@@ -1013,6 +996,17 @@
 						Potion: "minecraft:swiftness"
 					}
 				}
+			}]
+		}
+		{
+			x: -15.5d
+			y: -5.0d
+			dependencies: ["634DBB9E76CD029B"]
+			id: "0C424AAC550ACF02"
+			tasks: [{
+				id: "29D00E6F6721FFC3"
+				type: "item"
+				item: "create:stressometer"
 			}]
 		}
 	]
