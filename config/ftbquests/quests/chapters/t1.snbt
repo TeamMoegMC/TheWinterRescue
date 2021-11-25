@@ -1749,6 +1749,7 @@
 			x: -11.5d
 			y: 0.0d
 			shape: "gear"
+			subtitle: "有困难，找任务书"
 			description: [
 				"{quest.twr.6667AA13CA3DAC9B.description.1}"
 				"{quest.twr.6667AA13CA3DAC9B.description.2}"
@@ -1772,6 +1773,7 @@
 			x: -7.0d
 			y: 1.5d
 			shape: "gear"
+			subtitle: "避免工具乱飞"
 			description: ["{quest.twr.1A4B718B8132E2BA.description.1}"]
 			id: "1A4B718B8132E2BA"
 			tasks: [{
