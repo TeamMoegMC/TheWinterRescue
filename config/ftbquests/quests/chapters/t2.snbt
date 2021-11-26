@@ -429,6 +429,7 @@
 			subtitle: "{quest.twr.3549A50510878505.subtitle}"
 			description: ["{quest.twr.3549A50510878505.description.1}"]
 			dependencies: ["3E8F565DE61309B2"]
+			hide: true
 			id: "3549A50510878505"
 			tasks: [{
 				id: "73AFD699A6DA7ADC"
@@ -682,12 +683,14 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 8.5d
-			shape: "gear"
+			x: -3.5d
+			y: -1.5d
 			subtitle: "{quest.twr.016B841B20166EA8.subtitle}"
-			description: ["{quest.twr.016B841B20166EA8.description.1}"]
-			dependencies: ["5B8BA38FF8C93A1A"]
+			description: [
+				"{quest.twr.016B841B20166EA8.description.1}"
+				"{quest.twr.016B841B20166EA8.description.2}"
+			]
+			dependencies: ["19038BB5A9E42055"]
 			id: "016B841B20166EA8"
 			tasks: [{
 				id: "0E15A479D897542E"
@@ -871,6 +874,7 @@
 			x: -14.5d
 			y: -3.5d
 			dependencies: ["3E8F565DE61309B2"]
+			hide: true
 			id: "5C078D2F43CA4048"
 			tasks: [{
 				id: "0107400B48386449"

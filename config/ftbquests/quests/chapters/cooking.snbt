@@ -112,6 +112,17 @@
 				type: "item"
 				item: "crockpot:crock_pot_basic"
 			}]
+			rewards: [{
+				id: "5F864E78576B3F95"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "crockpot:book"
+					}
+				}
+			}]
 		}
 		{
 			title: "{quest.twr.6D01046E549A087E.title}"

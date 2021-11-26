@@ -690,5 +690,14 @@
   "quest.twr.1A4B718B8132E2BA.description.1": "&lBy default, Press R + C to open inventory profiling",
   "quest.twr.76B2B1A3EC6D92CD.title": "Charcoal Pit",
   "quest.twr.6667AA13CA3DAC9B.subtitle": "Go to the Quest Book when you found something hard!",
-  "quest.twr.1A4B718B8132E2BA.subtitle": "Preventing your tools scattering every where"
+  "quest.twr.1A4B718B8132E2BA.subtitle": "Preventing your tools scattering every where",
+  "quest.twr.75154C5A6E2F3257.description.4": "",
+  "quest.twr.75154C5A6E2F3257.description.5": "&6有铁之后你可以尝试制作工作台了",
+  "quest.twr.1DF200F6772308C7.description.2": "&6这把探矿镐也许比较粗略,",
+  "quest.twr.1DF200F6772308C7.description.3": "&l如果需要其他信息就需要另外两把工具了.",
+  "quest.twr.79D38F0D4D3E5482.description.2": "&6包括岩层与底部的粗略矿物信息.",
+  "quest.twr.5E3A878B95133DAD.description.2": "&6与探矿镐相比更加精准,但范围也更小.",
+  "quest.twr.181378ABF5CCD166.description.6": "",
+  "quest.twr.181378ABF5CCD166.description.7": "&l岩层总共有三种:沉积岩,变质岩,岩浆岩.",
+  "quest.twr.016B841B20166EA8.description.2": "&6需要在顶部输入电力."
 }

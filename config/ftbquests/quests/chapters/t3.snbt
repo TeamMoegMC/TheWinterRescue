@@ -401,17 +401,6 @@
 		}
 		{
 			x: 0.0d
-			y: 3.0d
-			dependencies: ["5D52744D5382A6CA"]
-			id: "3F7EEBC234F9825F"
-			tasks: [{
-				id: "1F1F88ED64269860"
-				type: "item"
-				item: "immersiveindustry:electrolyzer"
-			}]
-		}
-		{
-			x: 0.0d
 			y: -3.5d
 			dependencies: ["0019852CD6EC0354"]
 			id: "4785733C81711840"

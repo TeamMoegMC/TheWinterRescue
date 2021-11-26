@@ -21,6 +21,8 @@
 				"{quest.twr.181378ABF5CCD166.description.3}"
 				"{quest.twr.181378ABF5CCD166.description.4}"
 				"{quest.twr.181378ABF5CCD166.description.5}"
+				"{quest.twr.181378ABF5CCD166.description.6}"
+				"{quest.twr.181378ABF5CCD166.description.7}"
 			]
 			dependencies: ["45E2EF843333B846"]
 			hide: true
