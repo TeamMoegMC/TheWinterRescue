@@ -1,8 +1,29 @@
 {
-  "replace": true,
-  "values": [
-    "#charcoal_pit:tuyere_blocks",
-	"charcoal_pit:mainbloomery",
-    "charcoal_pit:sandy_brick"
+  "template": {
+      "type": "single",
+      "id": "twr_structures:observatory"
+  },
+
+  "averageSpacing": 2,
+  "minimumSpacing": 1,
+  "avoidOthers": true,
+  
+  "placement": {
+      "offset": -7,
+      "terraform": 7,
+      "minY": 0,
+      "maxY": 200,
+      "type": "surface"
+  },
+
+  "dimensions": [
+      "minecraft:overworld"
+  ],
+
+  "biomes": [
+      "#taiga",
+      "#extreme_hills",
+      "#plains"
   ]
+
 }
