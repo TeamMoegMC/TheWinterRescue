@@ -254,6 +254,10 @@
 		{
 			x: -19.0d
 			y: -2.0d
+			description: [
+				"{quest.twr.404CFF89CCFE9D6B.description.1}"
+				"{quest.twr.404CFF89CCFE9D6B.description.2}"
+			]
 			dependencies: ["328D948C4C800873"]
 			id: "404CFF89CCFE9D6B"
 			tasks: [{
@@ -298,7 +302,10 @@
 			y: 1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.0F8B1303FEF36BD1.subtitle}"
-			description: ["{quest.twr.0F8B1303FEF36BD1.description.1}"]
+			description: [
+				"{quest.twr.0F8B1303FEF36BD1.description.1}"
+				"{quest.twr.0F8B1303FEF36BD1.description.2}"
+			]
 			dependencies: ["32A497C69C641D2B"]
 			id: "0F8B1303FEF36BD1"
 			tasks: [{
@@ -590,10 +597,10 @@
 			}]
 		}
 		{
-			x: -10.0d
+			x: -10.5d
 			y: 8.5d
 			subtitle: "{quest.twr.5B8BA38FF8C93A1A.subtitle}"
-			dependencies: ["1F2BD4A72596B287"]
+			dependencies: ["4926C4062339E018"]
 			id: "5B8BA38FF8C93A1A"
 			tasks: [{
 				id: "097290DF7B43D5D8"
@@ -822,9 +829,9 @@
 			subtitle: "{quest.twr.688C57B7BC46E723.subtitle}"
 			description: ["{quest.twr.688C57B7BC46E723.description.1}"]
 			dependencies: [
-				"5B8BA38FF8C93A1A"
 				"401439E8C1AA7A0A"
 				"4845A9B7B7B2B4A5"
+				"4926C4062339E018"
 			]
 			id: "688C57B7BC46E723"
 			tasks: [{
@@ -1011,6 +1018,19 @@
 				id: "29D00E6F6721FFC3"
 				type: "item"
 				item: "create:stressometer"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.0d
+			subtitle: "{quest.twr.39C5B2690D8A6DEC.subtitle}"
+			description: ["{quest.twr.39C5B2690D8A6DEC.description.1}"]
+			dependencies: ["0F8B1303FEF36BD1"]
+			id: "39C5B2690D8A6DEC"
+			tasks: [{
+				id: "199407EF0012107B"
+				type: "item"
+				item: "create:gantry_shaft"
 			}]
 		}
 	]

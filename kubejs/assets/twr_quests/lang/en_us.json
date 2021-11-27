@@ -699,5 +699,10 @@
   "quest.twr.5E3A878B95133DAD.description.2": "&6与探矿镐相比更加精准,但范围也更小.",
   "quest.twr.181378ABF5CCD166.description.6": "",
   "quest.twr.181378ABF5CCD166.description.7": "&l岩层总共有三种:沉积岩,变质岩,岩浆岩.",
-  "quest.twr.016B841B20166EA8.description.2": "&6需要在顶部输入电力."
+  "quest.twr.016B841B20166EA8.description.2": "&6需要在顶部输入电力.",
+  "quest.twr.404CFF89CCFE9D6B.description.1": "&6&l动力的传递,机器时代的开端.",
+  "quest.twr.404CFF89CCFE9D6B.description.2": "可以开始逐步制造各种机器了",
+  "quest.twr.0F8B1303FEF36BD1.description.2": "&6&l有了它你可以尝试开发你的各种结构了",
+  "quest.twr.39C5B2690D8A6DEC.subtitle": "运动结构",
+  "quest.twr.39C5B2690D8A6DEC.description.1": "它可以用来搭建一些复杂的机器工厂"
 }
