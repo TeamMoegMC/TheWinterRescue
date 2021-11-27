@@ -576,7 +576,7 @@
 		{
 			title: "{quest.twr.75154C5A6E2F3257.title}"
 			x: 11.0d
-			y: 3.0d
+			y: 3.5d
 			shape: "gear"
 			subtitle: "{quest.twr.75154C5A6E2F3257.subtitle}"
 			description: [
@@ -1482,32 +1482,6 @@
 							FluidName: "watersource:purified_water"
 							Amount: 250
 						}
-					}
-				}
-			}]
-		}
-		{
-			title: "{quest.twr.3A91A02EB59A7919.title}"
-			icon: "immersiveengineering:ingot_nickel"
-			x: 11.0d
-			y: 4.5d
-			subtitle: "{quest.twr.3A91A02EB59A7919.subtitle}"
-			description: [
-				"{quest.twr.3A91A02EB59A7919.description.1}"
-				"{quest.twr.3A91A02EB59A7919.description.2}"
-				"{quest.twr.3A91A02EB59A7919.description.3}"
-			]
-			dependencies: ["13D9DE54DF8117C2"]
-			id: "3A91A02EB59A7919"
-			tasks: [{
-				id: "1D1735E320565F58"
-				type: "item"
-				title: "Any #forge:ingots/nickel"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:ingots/nickel"
 					}
 				}
 			}]

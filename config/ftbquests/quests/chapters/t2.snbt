@@ -125,7 +125,10 @@
 			x: -13.0d
 			y: 1.0d
 			description: ["{quest.twr.0E27E31FF6145D05.description.1}"]
-			dependencies: ["71D389AF87847D7B"]
+			dependencies: [
+				"71D389AF87847D7B"
+				"3A91A02EB59A7919"
+			]
 			id: "0E27E31FF6145D05"
 			tasks: [{
 				id: "7C428261CFB3FFC3"
@@ -1032,6 +1035,32 @@
 				id: "199407EF0012107B"
 				type: "item"
 				item: "create:gantry_shaft"
+			}]
+		}
+		{
+			title: "{quest.twr.3A91A02EB59A7919.title}"
+			icon: "immersiveengineering:ingot_nickel"
+			x: -14.5d
+			y: 1.0d
+			subtitle: "{quest.twr.3A91A02EB59A7919.subtitle}"
+			description: [
+				"{quest.twr.3A91A02EB59A7919.description.1}"
+				"{quest.twr.3A91A02EB59A7919.description.2}"
+				"{quest.twr.3A91A02EB59A7919.description.3}"
+			]
+			dependencies: ["6417209CD8ADABEC"]
+			id: "3A91A02EB59A7919"
+			tasks: [{
+				id: "1D1735E320565F58"
+				type: "item"
+				title: "Any #forge:ingots/nickel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/nickel"
+					}
+				}
 			}]
 		}
 	]
