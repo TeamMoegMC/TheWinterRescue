@@ -11,11 +11,11 @@ onEvent('recipes', (event) => {
     campfireRecipe('minecraft:torch', 'stone_age:unlit_torch',200),
 	campfireRecipe('kubejs:coal_briquette', 'kubejs:wet_coal_briquette',0,200),
 	campfireRecipe('kubejs:coal_briquette', 'kubejs:creosoted_coal_briquette',0,100),
-	campfireRecipe('kubejs:charcoal_briquette', 'kubejs:creosoted_charcoal_briquette',0,100),
-	campfireRecipe('kubejs:coal_briquette', 'kubejs:bound_coal_briquette',0,50),
-	campfireRecipe('kubejs:charcoal_briquette', 'kubejs:bound_charcoal_briquette',0,50),
-	campfireRecipe('kubejs:sawdust_briquette', 'kubejs:creosoted_sawdust_briquette',0,100),
-	campfireRecipe('kubejs:straw_briquette', 'kubejs:wet_straw_briquette',0,40)
+	campfireRecipe('kubejs:charcoal_briquette', 'kubejs:creosoted_charcoal_briquette',0,200),
+	campfireRecipe('kubejs:coal_briquette', 'kubejs:bound_coal_briquette',0,200),
+	campfireRecipe('kubejs:charcoal_briquette', 'kubejs:bound_charcoal_briquette',0,200),
+	campfireRecipe('kubejs:sawdust_briquette', 'kubejs:creosoted_sawdust_briquette',0,200),
+	campfireRecipe('kubejs:straw_briquette', 'kubejs:wet_straw_briquette',0,200)
     ]
 	recipes.forEach((recipe) => {
         event.campfireCooking(recipe.result, recipe.ingredients,0,recipe.time)
