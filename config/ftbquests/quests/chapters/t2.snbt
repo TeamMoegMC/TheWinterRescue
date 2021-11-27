@@ -635,7 +635,8 @@
 		}
 		{
 			x: -11.5d
-			y: 4.0d
+			y: 3.5d
+			subtitle: "{quest.twr.6439CF1B54CEF092.subtitle}"
 			dependencies: ["4600CF7553C26ED0"]
 			id: "6439CF1B54CEF092"
 			tasks: [{
@@ -660,10 +661,10 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 4.0d
+			x: -11.5d
+			y: 4.5d
 			subtitle: "{quest.twr.6577F4E013F76B98.subtitle}"
-			hide_dependency_lines: true
+			description: ["{quest.twr.6577F4E013F76B98.description.1}"]
 			dependencies: ["4600CF7553C26ED0"]
 			id: "6577F4E013F76B98"
 			tasks: [{

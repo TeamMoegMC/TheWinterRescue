@@ -567,10 +567,10 @@
 				item: "charcoal_pit:main_bloomery"
 			}]
 			rewards: [{
-				id: "41E6D98CF31FACBD"
+				id: "2DB795A761EECE67"
 				type: "item"
-				item: "rankine:magnetite"
-				count: 8
+				item: "kubejs:native_copper"
+				count: 4
 			}]
 		}
 		{
