@@ -1781,7 +1781,9 @@
 			description: [
 				"{quest.twr.7887EB905BAA7BEF.description.1}"
 				"{quest.twr.7887EB905BAA7BEF.description.2}"
-				"有了石磨，你就可以进行最基础的燃料处理来提高燃料热值了，参见&b&l燃料处理&r章节"
+				"{quest.twr.7887EB905BAA7BEF.description.3}"
+				"{quest.twr.7887EB905BAA7BEF.description.4}"
+				"{quest.twr.7887EB905BAA7BEF.description.5}"
 			]
 			dependencies: ["4A4D6D0DC9B348C1"]
 			hide: true

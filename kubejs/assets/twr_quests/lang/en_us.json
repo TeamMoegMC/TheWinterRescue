@@ -48,7 +48,7 @@
   "quest.twr.58AB0B83E545475C.subtitle": "Sleep peacefully",
   "quest.twr.7887EB905BAA7BEF.subtitle": "Not graphite",
   "quest.twr.7887EB905BAA7BEF.description.1": "Right-click to open the gui and add items.",
-  "quest.twr.7887EB905BAA7BEF.description.2": "&eShift-empty-handed-right-click it to grind.",
+  "quest.twr.7887EB905BAA7BEF.description.2": "&b&lShift-empty-handed-right-click&r it to grind.",
   "quest.twr.060F482D9D3374F9.description.1": "One of the raw materials of refractory bricks.",
   "quest.twr.48F3102B3AA99313.description.1": "One of the raw materials of refractory bricks.",
   "quest.twr.48F3102B3AA99313.description.2": "&escattered in the upper sedimentary rock",
@@ -706,5 +706,13 @@
   "quest.twr.39C5B2690D8A6DEC.subtitle": "运动结构",
   "quest.twr.39C5B2690D8A6DEC.description.1": "它可以用来搭建一些复杂的机器工厂",
   "quest.twr.6439CF1B54CEF092.subtitle": "节约用纸",
-  "quest.twr.6577F4E013F76B98.description.1": "通过研磨一些含有二氧化硅的物质得到"
+  "quest.twr.6577F4E013F76B98.description.1": "通过研磨一些含有二氧化硅的物质得到",
+  "quest.twr.7887EB905BAA7BEF.description.3": "",
+  "quest.twr.7887EB905BAA7BEF.description.4": "有了石磨，可以进行最基础的燃料处理提高热值了，",
+  "quest.twr.7887EB905BAA7BEF.description.5": "参见&b&l燃料处理&r章节",
+  "quest.twr.5C078D2F43CA4048.subtitle": "小工具,大作用",
+  "quest.twr.5C078D2F43CA4048.description.1": "工厂里的好帮手",
+  "quest.twr.2EBC4AB3DDFC6BA0.description.1": "它可以为动力传输节省更多体积",
+  "quest.twr.17C359DCF058E698.description.1": "可以通过扳手让管道开窗以便观察",
+  "quest.twr.197308226CAE52C4.description.3": "抽取时注意&b抽取方向"
 }
