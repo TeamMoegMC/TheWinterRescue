@@ -1,16 +1,15 @@
 {
   "template": {
       "type": "single",
-      "id": "twr_structures:observatory"
+      "id": "twr:observatory"
   },
 
   "averageSpacing": 5,
-  "minimumSpacing": 2,
   "avoidOthers": true,
   
   "placement": {
       "offset": 0,
-      "terraform": 0,
+      "terraform": -1,
       "minY": 60,
       "maxY": 200,
       "type": "surface"
