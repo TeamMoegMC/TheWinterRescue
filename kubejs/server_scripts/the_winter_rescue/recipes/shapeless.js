@@ -12,7 +12,8 @@ onEvent('recipes', (event) => {
 		shapelessRecipe('2x rankine:dry_mortar', ['#forge:clay_balls','#minecraft:sand',"minecraft:dirt"]),
 		shapelessRecipe('3x rankine:dry_mortar', ['rankine:quicklime',"#rankine:mortar_special"]),
 		shapelessRecipe('2x rankine:dry_mortar', ['#forge:ash','#minecraft:sand',"#forge:slag"]),
-		shapelessRecipe('2x minecraft:flint', ['minecraft:gravel','minecraft:gravel','minecraft:gravel'])
+		shapelessRecipe('2x minecraft:flint', ['minecraft:gravel','minecraft:gravel','minecraft:gravel']),
+		shapelessRecipe('9x charcoal_pit:straw', ['minecraft:hay_block'])
     ]
 	event.recipes.createSplashing(["rankine:mortar"],"rankine:dry_mortar");
     var newShapelessRecipes = [

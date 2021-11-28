@@ -10,6 +10,9 @@ onEvent('recipes', (event) => {
             B: 'minecraft:piston',
             C: 'charcoal_pit:bellows'
         }),
+        shapedRecipe('minecraft:hay_block', ['AAA', 'AAA', 'AAA'], {
+            A: 'charcoal_pit:straw'
+        }),
 		shapedRecipe(Item.of('immersiveengineering:blueprint', '{blueprint:"molds"}'), ['A A', 'CBC', 'CCC'], {
             A: 'minecraft:ink_sac',
             B: '#forge:plates/steel',
