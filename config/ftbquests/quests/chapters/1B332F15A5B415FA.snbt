@@ -101,7 +101,7 @@
 				"{quest.twr.10E9ACB93591D6BE.description.2}"
 				"{quest.twr.10E9ACB93591D6BE.description.3}"
 			]
-			dependencies: ["4BD8236FEEBD7D3A"]
+			dependencies: ["7887EB905BAA7BEF"]
 			id: "10E9ACB93591D6BE"
 			tasks: [{
 				id: "5B68FEEAC736B65B"
