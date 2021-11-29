@@ -1658,6 +1658,7 @@
 				"{quest.twr.79D38F0D4D3E5482.description.2}"
 			]
 			dependencies: ["1DF200F6772308C7"]
+			hide_text_until_complete: true
 			id: "79D38F0D4D3E5482"
 			tasks: [{
 				id: "582D2006E4AE8AD5"
@@ -1680,6 +1681,7 @@
 				"{quest.twr.5E3A878B95133DAD.description.2}"
 			]
 			dependencies: ["1DF200F6772308C7"]
+			hide_text_until_complete: true
 			id: "5E3A878B95133DAD"
 			tasks: [{
 				id: "4FC2D08E12143A45"
