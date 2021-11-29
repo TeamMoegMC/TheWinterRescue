@@ -49,7 +49,10 @@
 			x: -16.0d
 			y: -1.25d
 			description: ["{quest.twr.060F482D9D3374F9.description.1}"]
-			dependencies: ["3549A50510878505"]
+			dependencies: [
+				"3549A50510878505"
+				"7887EB905BAA7BEF"
+			]
 			id: "060F482D9D3374F9"
 			tasks: [{
 				id: "786C91AE939F3CC1"
@@ -64,7 +67,10 @@
 				"{quest.twr.48F3102B3AA99313.description.1}"
 				"{quest.twr.48F3102B3AA99313.description.2}"
 			]
-			dependencies: ["3549A50510878505"]
+			dependencies: [
+				"3549A50510878505"
+				"7887EB905BAA7BEF"
+			]
 			id: "48F3102B3AA99313"
 			tasks: [{
 				id: "1889B5889AC25666"
