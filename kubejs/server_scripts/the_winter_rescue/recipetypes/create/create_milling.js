@@ -16,6 +16,7 @@ onEvent('recipes', (event) => {
 	{output:['kubejs:charcoal_dust',Item.of('kubejs:charcoal_dust').withChance(0.25)],input: 'minecraft:charcoal'},
 	{output:['#forge:dusts/coal_coke'],input: '#forge:coal_coke'},
 	{output:[Item.of('rankine:sawdust').withChance(0.8)],input: '#minecraft:planks'},
+	{output:[Item.of('rankine:sawdust').withChance(0.4)],input: 'minecraft:stick'},
 	{output:["frostedheart:rye_flour",Item.of("2x frostedheart:rye_flour").withChance(0.25),Item.of("frostedheart:rye_block").withChance(0.1)],input: 'frostedheart:rye'}
 	]
 	recipes.forEach((recipe) => {
