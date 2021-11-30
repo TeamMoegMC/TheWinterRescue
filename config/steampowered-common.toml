@@ -25,7 +25,7 @@
 		#Range: 0 ~ 1048576
 		steelFlywheelSteamConsumptionPerTick = 48
 		#Range: 0 ~ 8192
-		steelFlywheelCapacity = 96
+		steelFlywheelCapacity = 128
 		#Range: 0 ~ 1048576
 		steelFlywheelSteamStorage = 96000
 		#Range: 0 ~ 8192
