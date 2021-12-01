@@ -1,0 +1,12 @@
+name: Team TODO List
+description: Only for team devs, DO NOT USE.
+title: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For devs only, choose other templates if you are not one of our dev members.
+  - type: textarea
+    id: all
+    attributes:
+      label: Description
