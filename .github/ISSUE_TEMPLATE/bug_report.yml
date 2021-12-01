@@ -1,0 +1,59 @@
+name: Bug Report
+description: Submit bug report
+title: "[Bug] "
+labels: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting a bug report, please ensure your modpack version is latest
+  - type: textarea
+    id: error_behaviour
+    attributes:
+      label: Error Behaviour
+      description: Describe error behaviour in detail.
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behaviour
+    attributes:
+      label: Expected Behaviour
+      description: What do you want?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduce
+      description: How to reproduce this error?
+      placeholder: |
+        1. do blablabla
+        2. click blablabla
+        3. something wrong
+        4. ...
+    validations:
+      required: true
+  - type: input
+    id: crashlog
+    attributes:
+      label: Crash Report
+      description: If this is a game crash, paste your crash report on some pastebin and put link here.
+      placeholder: https://paste.ubuntu.com/
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack version
+      placeholder: 0.4.7
+    validations:
+      required: true
+  - type: input
+    id: server-version
+    attributes:
+      label: Server version
+      description: If you are using a dedicated server, please write down your server core brand and version.
+      placeholder: Forge server version xxx
+  - type: textarea
+    id: others
+    attributes:
+      label: Other mods and plugins
+      description: If you install any other mods or plugins(though unrecommended), please provide its name and version
