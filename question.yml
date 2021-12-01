@@ -1,0 +1,33 @@
+name: Question
+description: Ask about game mechanic
+title: "[Question] "
+labels: question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting a question, ensure you can NOT find answer in Ponder, Wiki, QuestBook, Tooltip and JEI.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Describe your question in detail.
+    validations:
+      required: true
+  - type: textarea
+    id: wanted
+    attributes:
+      label: Additional message
+      description: Which aspect would you like to know？
+  - type: textarea
+    id: mod
+    attributes:
+      label: Related mods
+      description: Mods that involved in your question
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack version
+      placeholder: 0.4.7
+    validations:
+      required: true
