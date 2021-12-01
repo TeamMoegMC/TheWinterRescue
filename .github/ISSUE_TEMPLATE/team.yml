@@ -1,6 +1,6 @@
 name: Team TODO List
 description: Only for team devs, DO NOT USE.
-title: ""
+title: "[TODO]"
 body:
   - type: markdown
     attributes:
