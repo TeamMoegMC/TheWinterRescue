@@ -48,6 +48,7 @@ onEvent('item.tags', (event) => {
     event.add('forge:ores/tin', "rankine:cassiterite")
     event.add('forge:coal_coke', "charcoal_pit:coke")
 	event.add('immersiveengineering:forbidden_in_crates', '#create:toolboxes')
+	event.add('immersiveengineering:forbidden_in_crates', 'tetra:modular_toolbelt')
 	event.add("kubejs:coal_dust","kubejs:anthracite_dust")
 	event.add("kubejs:coal_dust","kubejs:bituminous_coal_dust")
 	event.add("kubejs:coal_dust","kubejs:subbituminous_coal_dust")
