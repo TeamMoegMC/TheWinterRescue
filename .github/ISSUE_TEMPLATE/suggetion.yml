@@ -1,0 +1,34 @@
+name: Suggestion
+description: Your suggestion for this modpack
+title: "[Question] "
+labels: enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before submitting a suggestion, ensure you have read Ponder, Wiki, QuestBook, Tooltip and JEI, and you can't find what you want.
+        Suggestion with existing mods or code are more likely to be accepted.
+  - type: textarea
+    id: wrong
+    attributes:
+      label: Pain Point
+      description: What annoyed you in our modpack?
+    validations:
+      required: true
+  - type: textarea
+    id: wanted
+    attributes:
+      label: Suggestion
+      description: What do you want us to add to our modpack？
+  - type: textarea
+    id: mod
+    attributes:
+      label: Exsiting Mods
+      description: Any mod provide these features? 
+  - type: input
+    id: modpack-version
+    attributes:
+      label: Modpack version
+      placeholder: 0.4.7
+    validations:
+      required: true
