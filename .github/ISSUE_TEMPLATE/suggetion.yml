@@ -1,6 +1,6 @@
 name: Suggestion
 description: Any feature you want us to add? Give us a suggestion.
-title: "[Question] "
+title: "[Suggestion] "
 labels: enhancement
 body:
   - type: markdown
