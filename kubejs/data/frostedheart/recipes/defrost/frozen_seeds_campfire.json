@@ -1,0 +1,15 @@
+{
+	"type": "frostedheart:defrost_campfire",
+	"results": [
+		"frostedheart:rye_block",
+		"minecraft:wheat_seeds",
+		"minecraft:melon_seeds",
+		"minecraft:pumpkin_seeds",
+		"minecraft:beetroot_seeds",
+		"crockpot:unknown_seeds"
+	],
+	"ingredient": {
+		"item": "frostedheart:frozen_seeds"
+	},
+	"cookingtime": 400
+}

@@ -57,24 +57,25 @@ onEvent('block.loot_tables', event => {
         // })
     }
 //若要修改矿石掉落物，将矿石本身放在ore_blicks里，掉落物放在ores里。貌似必须是双引号才行(
-
-	
-	event.modifyBlock('primalwinter:snowy_dirt', table => {
+	var modseedfunction= table => {
 		table.addPool(pool=> {
 			pool.survivesExplosion()
 			pool.randomChance(0.15)
-            pool.addItem('kubejs:frozen_seeds_melon', 1)
-            pool.addItem('kubejs:frozen_seeds_wheat', 1)
-            pool.addItem('kubejs:frozen_seeds_pumpkin', 1)
-            pool.addItem('kubejs:frozen_seeds_beetroots', 1)
-            pool.addItem('kubejs:frozen_seeds_unknown', 4)
-            pool.addItem('kubejs:frozen_seeds_blackwheat', 1)
+            pool.addItem('frostedheart:frozen_seeds', 1)
+            //pool.addItem('kubejs:frozen_seeds_wheat', 1)
+            //pool.addItem('kubejs:frozen_seeds_pumpkin', 1)
+            //pool.addItem('kubejs:frozen_seeds_beetroots', 1)
+            //pool.addItem('kubejs:frozen_seeds_unknown', 4)
+            //pool.addItem('kubejs:frozen_seeds_blackwheat', 1)
             pool.addItem('kubejs:frozen_white_turnip', 1)
 			pool.addItem('minecraft:flint', 4)
 		})
-	})
+	};
 	
-	event.addBlock('minecraft:dirt', table => {
+	event.modifyBlock('primalwinter:snowy_dirt',modseedfunction)
+	event.modifyBlock('minecraft:grass',modseedfunction)
+	
+	/*event.addBlock('minecraft:dirt', table => {
 		table.addPool(pool=> {
 			pool.survivesExplosion()
             pool.addItem('minecraft:dirt', 80)
@@ -87,7 +88,7 @@ onEvent('block.loot_tables', event => {
             pool.addItem('kubejs:frozen_white_turnip', 1)
 			pool.addItem('minecraft:flint', 3)
 		})
-	})
+	})*/
 	
 	event.modifyBlock('primalwinter:snowy_sand', table => {
 		table.addPool(pool =>{

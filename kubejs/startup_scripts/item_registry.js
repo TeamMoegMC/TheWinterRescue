@@ -27,12 +27,6 @@ onEvent('item.registry', event => {
 		'frozen_tiger_meat',
 		'frozen_venison',
 		'frozen_rabbit',
-		'frozen_seeds_blackwheat',
-		'frozen_seeds_wheat',
-		'frozen_seeds_melon',
-		'frozen_seeds_pumpkin',
-		'frozen_seeds_beetroots',
-		'frozen_seeds_unknown',
 		'frozen_white_turnip'
 	];
 
