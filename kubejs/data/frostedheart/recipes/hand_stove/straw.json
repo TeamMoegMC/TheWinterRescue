@@ -1,0 +1,7 @@
+{
+  "type": "frostedheart:fuel_stove",
+  "input": {
+    "item": "kubejs:straw_briquette"
+  },
+  "fuel":400
+}

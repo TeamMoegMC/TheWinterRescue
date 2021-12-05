@@ -1201,7 +1201,7 @@
 		{
 			title: "{quest.twr.3EE690327B36D6E0.title}"
 			x: 4.5d
-			y: 5.0d
+			y: 5.5d
 			subtitle: "{quest.twr.3EE690327B36D6E0.subtitle}"
 			description: ["{quest.twr.3EE690327B36D6E0.description.1}"]
 			dependencies: [
@@ -1230,7 +1230,7 @@
 		{
 			icon: "watersource:wooden_water_filter"
 			x: 4.5d
-			y: 6.0d
+			y: 7.0d
 			subtitle: "{quest.twr.3622C3DFDB5D8E02.subtitle}"
 			description: [
 				"{quest.twr.3622C3DFDB5D8E02.description.1}"
@@ -1608,7 +1608,13 @@
 			tasks: [{
 				id: "3AE56D40A163154B"
 				type: "item"
-				item: "frostedheart:straw_lining"
+				item: {
+					id: "frostedheart:straw_lining"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -1778,7 +1784,7 @@
 		}
 		{
 			x: 1.0d
-			y: 5.0d
+			y: 5.5d
 			subtitle: "{quest.twr.7887EB905BAA7BEF.subtitle}"
 			description: [
 				"{quest.twr.7887EB905BAA7BEF.description.1}"
@@ -1795,6 +1801,52 @@
 				type: "item"
 				item: "stone_age:millstone"
 			}]
+		}
+		{
+			icon: {
+				id: "frostedheart:hand_stove"
+				Count: 1b
+				tag: {
+					CustomModelData: 1
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 4.5d
+			subtitle: "便携式篝火"
+			description: [
+				"铜制手炉可以让你在&6&l最低限度的装备&r下保持温暖。"
+				"与任意燃料棒无序合成即可添加燃料，内部最多可以插入2根燃料棒。"
+				"燃料烧完后，&6&l手持手炉右键敲击地面倒出灰烬。"
+				"手持和放在副手均有效果。"
+			]
+			dependencies: ["586D66C71A378A82"]
+			id: "0E067BFAE2FB5441"
+			tasks: [
+				{
+					id: "06F4B0A375D773E0"
+					type: "item"
+					item: {
+						id: "frostedheart:hand_stove"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "358AAF5CE7EE2574"
+					type: "item"
+					title: "任意燃料棒"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "kubejs:fuel_stick"
+						}
+					}
+				}
+			]
 		}
 	]
 }

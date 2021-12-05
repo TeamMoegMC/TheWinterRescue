@@ -124,6 +124,10 @@ onEvent('recipes', (event) => {
     ]
 
     const recipes = [
+		flint_shapedRecipe(Item.of('frostedheart:hand_stove'), [' B ', 'BAB', ' B '], {
+            A: '#forge:clay_balls',
+            B: '#forge:plates/copper'
+        }, Ingredient.of('#forge:hammers')),
         flint_shapedRecipe(Item.of('immersiveengineering:hammer'), [' AC', ' BA', 'B  '], {
             A: Ingredient.of('#forge:ingots/copper').toJson(),
             B: Ingredient.of('#forge:rods/wooden').toJson(),
@@ -278,6 +282,12 @@ onEvent('recipes', (event) => {
         flint_shapedRecipe(Item.of('minecraft:stone_bricks', 5), ['ABA', 'BAB', 'ABA'], {
             A: Item.of('minecraft:stone').toJson(),
             B: Item.of('rankine:mortar').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:charcoal_stick',2), ['A'], {
+            A: Item.of('kubejs:charcoal_briquette').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('frostedheart:coal_stick',2), ['A'], {
+            A: Item.of('kubejs:coal_briquette').toJson()
         }, Item.of('stone_age:flint_knife'))
     ]
     event.remove({output: 'charcoal_pit:unfired_sandy_brick', type: 'minecraft:crafting_shapeless'});
