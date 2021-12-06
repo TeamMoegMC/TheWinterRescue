@@ -46,7 +46,7 @@
 	#Range: 0 ~ 8192
 	dynamoImpact = 16
 	#Range: 0.0 ~ 1.0
-	dynamoEfficiency = 0.75
+	dynamoEfficiency = 0.6
 	#If dynamo is disabled in the server config, the following will be ignored!
 	#Range: 0 ~ 8192
 	dynamoFeMaxOut = 256
