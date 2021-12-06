@@ -11,7 +11,7 @@
 	quests: [
 		{
 			title: "{quest.twr.69D939596ED4C0AF.title}"
-			icon: "frostedheart:generator_core_t1"
+			icon: "frostedheart:generator"
 			x: 0.5d
 			y: 0.0d
 			shape: "gear"
@@ -25,7 +25,10 @@
 				"{quest.twr.69D939596ED4C0AF.description.6}"
 				"{quest.twr.69D939596ED4C0AF.description.7}"
 			]
-			dependencies: ["0A9A5166127945AB"]
+			dependencies: [
+				"0A9A5166127945AB"
+				"573841FD8018D4B1"
+			]
 			id: "69D939596ED4C0AF"
 			tasks: [
 				{
@@ -68,6 +71,7 @@
 		}
 		{
 			title: "{quest.twr.2D570AD59FE2D6E1.title}"
+			icon: "frostedheart:generator_t2"
 			x: 0.5d
 			y: 2.0d
 			shape: "gear"
@@ -129,7 +133,7 @@
 		}
 		{
 			title: "{quest.twr.4BBE69E2E2A4276F.title}"
-			icon: "immersiveengineering:sheetmetal_steel"
+			icon: "frostedheart:heat_radiator"
 			x: 4.0d
 			y: 2.0d
 			shape: "gear"
@@ -260,6 +264,24 @@
 				id: "2138101237058A9B"
 				type: "checkmark"
 				title: "热传导介质"
+			}]
+		}
+		{
+			icon: "frostedheart:generator_core_t1"
+			x: 0.5d
+			y: -2.0d
+			shape: "gear"
+			subtitle: "将种菜进行到底"
+			description: [
+				"能量塔是用于加热土壤的设备，如果要种植，就必须要有能量塔。"
+				"能量塔会随着科技进步解锁，请耐心发展。"
+			]
+			dependencies: ["0A9A5166127945AB"]
+			id: "573841FD8018D4B1"
+			tasks: [{
+				id: "65A5E15C81C7DC26"
+				type: "checkmark"
+				title: "能量塔"
 			}]
 		}
 	]

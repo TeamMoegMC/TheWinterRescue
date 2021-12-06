@@ -922,7 +922,7 @@
 					id: "43CA49FF24234C35"
 					type: "item"
 					item: "kubejs:pyrite"
-					count: 12
+					count: 4
 				}
 			]
 		}
@@ -1727,6 +1727,7 @@
 			x: 8.0d
 			y: 5.0d
 			subtitle: "{quest.twr.190859211258D56B.subtitle}"
+			description: ["青铜斧子可以用于批量砍树，建议制作。"]
 			dependencies: ["4CD30E566C5776E0"]
 			id: "190859211258D56B"
 			tasks: [{
@@ -1775,7 +1776,10 @@
 			y: 1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.1A4B718B8132E2BA.subtitle}"
-			description: ["{quest.twr.1A4B718B8132E2BA.description.1}"]
+			description: [
+				"{quest.twr.1A4B718B8132E2BA.description.1}"
+				"&c&l建议开始游玩前先设置一遍。"
+			]
 			id: "1A4B718B8132E2BA"
 			tasks: [{
 				id: "45B10CA984D5E6B0"

@@ -61,7 +61,7 @@ onEvent('block.loot_tables', event => {
 		table.addPool(pool=> {
 			pool.survivesExplosion()
 			pool.randomChance(0.15)
-            pool.addItem('frostedheart:frozen_seeds', 1)
+            pool.addItem('frostedheart:frozen_seeds', 4)
             //pool.addItem('kubejs:frozen_seeds_wheat', 1)
             //pool.addItem('kubejs:frozen_seeds_pumpkin', 1)
             //pool.addItem('kubejs:frozen_seeds_beetroots', 1)

@@ -373,5 +373,24 @@
 				item: "kubejs:native_copper"
 			}]
 		}
+		{
+			x: 2.0d
+			y: 0.5d
+			subtitle: "深入了解"
+			description: ["想了解更多世界相关的信息？请参考兰金计划的教程书。"]
+			dependencies: ["181378ABF5CCD166"]
+			id: "7FA0ADDB6ABCAB6A"
+			tasks: [{
+				id: "1D86C1365882CDC2"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "rankine:rankine_journal"
+					}
+				}
+			}]
+		}
 	]
 }

@@ -388,9 +388,11 @@
 		}
 		{
 			title: "{quest.twr.66A550B05F529CD5.title}"
+			icon: "immersiveindustry:steam_turbine"
 			x: -4.5d
 			y: 0.5d
 			subtitle: "{quest.twr.66A550B05F529CD5.subtitle}"
+			description: ["还在和一堆飞轮打交道？试试蒸汽涡轮机吧"]
 			dependencies: ["4138E3A9915F811C"]
 			id: "66A550B05F529CD5"
 			tasks: [{
@@ -402,7 +404,10 @@
 		{
 			x: 0.0d
 			y: -3.5d
-			dependencies: ["0019852CD6EC0354"]
+			dependencies: [
+				"0019852CD6EC0354"
+				"1F2BD4A72596B287"
+			]
 			id: "4785733C81711840"
 			tasks: [{
 				id: "14F106041F4AD0C0"
@@ -419,6 +424,19 @@
 				id: "6396EC0E24BC0195"
 				type: "item"
 				item: "immersiveengineering:blastbrick_reinforced"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "任务书#2"
+			description: ["沉浸工程和相关MOD的多方块结构都可以在里面找到。"]
+			dependencies: ["5D52744D5382A6CA"]
+			id: "6EC18F90620F0A48"
+			tasks: [{
+				id: "58310A095E49F03B"
+				type: "item"
+				item: "immersiveengineering:manual"
 			}]
 		}
 	]

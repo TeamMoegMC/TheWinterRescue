@@ -46,12 +46,12 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: -1.25d
+			x: -15.5d
+			y: -1.0d
 			description: ["{quest.twr.060F482D9D3374F9.description.1}"]
 			dependencies: [
-				"3549A50510878505"
 				"7887EB905BAA7BEF"
+				"3549A50510878505"
 			]
 			id: "060F482D9D3374F9"
 			tasks: [{
@@ -68,8 +68,8 @@
 				"{quest.twr.48F3102B3AA99313.description.2}"
 			]
 			dependencies: [
-				"3549A50510878505"
 				"7887EB905BAA7BEF"
+				"3549A50510878505"
 			]
 			id: "48F3102B3AA99313"
 			tasks: [{
@@ -212,10 +212,9 @@
 			}]
 		}
 		{
-			x: -17.5d
-			y: 8.5d
+			x: -13.0d
+			y: 7.0d
 			subtitle: "{quest.twr.401439E8C1AA7A0A.subtitle}"
-			hide_dependency_lines: true
 			dependencies: ["064ECF25B9B8962B"]
 			id: "401439E8C1AA7A0A"
 			tasks: [{
@@ -297,8 +296,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 7.0d
+			x: -8.0d
+			y: 10.5d
 			subtitle: "{quest.twr.0FEC22A5C56936DC.subtitle}"
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "0FEC22A5C56936DC"
@@ -332,8 +331,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 7.0d
+			x: -8.0d
+			y: 8.5d
 			subtitle: "{quest.twr.0972243D44A0CF46.subtitle}"
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "0972243D44A0CF46"
@@ -344,15 +343,15 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 7.0d
+			x: -10.0d
+			y: 11.5d
 			shape: "gear"
 			subtitle: "{quest.twr.1F2BD4A72596B287.subtitle}"
 			description: [
 				"{quest.twr.1F2BD4A72596B287.description.1}"
 				"{quest.twr.1F2BD4A72596B287.description.2}"
 			]
-			dependencies: ["17F033FB5ACAACFB"]
+			dependencies: ["5B8BA38FF8C93A1A"]
 			id: "1F2BD4A72596B287"
 			tasks: [{
 				id: "48D033DB353BBA5A"
@@ -390,8 +389,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 7.0d
+			x: -8.0d
+			y: 6.5d
 			subtitle: "{quest.twr.7EDDAD2D1E2B0613.subtitle}"
 			description: ["{quest.twr.7EDDAD2D1E2B0613.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
@@ -417,7 +416,7 @@
 		}
 		{
 			x: -11.5d
-			y: 5.5d
+			y: 7.0d
 			subtitle: "{quest.twr.064ECF25B9B8962B.subtitle}"
 			description: ["{quest.twr.064ECF25B9B8962B.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
@@ -592,8 +591,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 8.5d
+			x: -11.5d
+			y: 11.5d
 			subtitle: "{quest.twr.4926C4062339E018.subtitle}"
 			dependencies: ["1F2BD4A72596B287"]
 			hide: true
@@ -610,10 +609,10 @@
 			}]
 		}
 		{
-			x: -10.5d
-			y: 8.5d
+			x: -10.0d
+			y: 10.0d
 			subtitle: "{quest.twr.5B8BA38FF8C93A1A.subtitle}"
-			dependencies: ["4926C4062339E018"]
+			dependencies: ["17F033FB5ACAACFB"]
 			id: "5B8BA38FF8C93A1A"
 			tasks: [{
 				id: "097290DF7B43D5D8"
@@ -628,7 +627,7 @@
 		}
 		{
 			x: -10.0d
-			y: 7.0d
+			y: 8.5d
 			subtitle: "{quest.twr.17F033FB5ACAACFB.subtitle}"
 			description: ["{quest.twr.17F033FB5ACAACFB.description.1}"]
 			dependencies: ["1F94471C5310ECFA"]
@@ -647,6 +646,7 @@
 			}]
 		}
 		{
+			title: "砂纸"
 			x: -11.5d
 			y: 3.5d
 			subtitle: "{quest.twr.6439CF1B54CEF092.subtitle}"
@@ -655,7 +655,14 @@
 			tasks: [{
 				id: "4CDAED608D6CC193"
 				type: "item"
-				item: "minecraft:paper"
+				title: "Any #create:sandpaper"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:sandpaper"
+					}
+				}
 			}]
 		}
 		{
@@ -774,8 +781,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 5.5d
+			x: -11.5d
+			y: 10.0d
 			dependencies: ["55BE6F159CF89342"]
 			id: "4B46838E7C65D4C4"
 			tasks: [{
@@ -838,8 +845,8 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: 8.5d
+			x: -14.5d
+			y: 7.0d
 			subtitle: "{quest.twr.688C57B7BC46E723.subtitle}"
 			description: ["{quest.twr.688C57B7BC46E723.description.1}"]
 			dependencies: [
@@ -855,13 +862,10 @@
 			}]
 		}
 		{
-			x: -16.0d
+			x: -15.5d
 			y: 5.5d
 			subtitle: "{quest.twr.4845A9B7B7B2B4A5.subtitle}"
-			dependencies: [
-				"1F94471C5310ECFA"
-				"4B46838E7C65D4C4"
-			]
+			dependencies: ["1F94471C5310ECFA"]
 			id: "4845A9B7B7B2B4A5"
 			tasks: [{
 				id: "797605E2CAEAC528"
@@ -870,14 +874,15 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 7.0d
+			x: -15.5d
+			y: 11.5d
 			shape: "gear"
 			subtitle: "{quest.twr.7F84766122DC4753.subtitle}"
 			description: ["{quest.twr.7F84766122DC4753.description.1}"]
 			dependencies: [
 				"4926C4062339E018"
 				"4845A9B7B7B2B4A5"
+				"55BE6F159CF89342"
 			]
 			id: "7F84766122DC4753"
 			tasks: [{
@@ -960,8 +965,8 @@
 		}
 		{
 			icon: "rankine:tree_tap"
-			x: -13.0d
-			y: 5.5d
+			x: -11.5d
+			y: 8.5d
 			subtitle: "{quest.twr.55BE6F159CF89342.subtitle}"
 			description: ["{quest.twr.55BE6F159CF89342.description.1}"]
 			dependencies: ["064ECF25B9B8962B"]
@@ -1085,6 +1090,22 @@
 				id: "6B348B23D95928B3"
 				type: "item"
 				item: "create:gearbox"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.0d
+			subtitle: "奇观误国"
+			description: [
+				"可以用于搭建一个多方块显示游戏内时间的时钟。"
+				"&m不推荐用来工作，因为它的速度太慢了"
+			]
+			dependencies: ["0F8B1303FEF36BD1"]
+			id: "2659A48FDF01B1B7"
+			tasks: [{
+				id: "772A426B374D8919"
+				type: "item"
+				item: "create:clockwork_bearing"
 			}]
 		}
 	]
