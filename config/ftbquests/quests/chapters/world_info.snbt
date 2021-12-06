@@ -34,8 +34,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 2.0d
+			x: -5.0d
+			y: 3.0d
 			subtitle: "{quest.twr.0B5888E9CDE431AE.subtitle}"
 			description: [
 				"{quest.twr.0B5888E9CDE431AE.description.1}"
@@ -52,8 +52,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 2.0d
+			x: -5.0d
+			y: 4.0d
 			subtitle: "{quest.twr.52B0059C59DF67B5.subtitle}"
 			description: [
 				"{quest.twr.52B0059C59DF67B5.description.1}"
@@ -71,7 +71,7 @@
 		}
 		{
 			x: -3.5d
-			y: 3.0d
+			y: 2.0d
 			subtitle: "{quest.twr.61DD1DCCB9CCBFBF.subtitle}"
 			description: [
 				"{quest.twr.61DD1DCCB9CCBFBF.description.1}"
@@ -88,7 +88,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -3.5d
 			y: 3.0d
 			subtitle: "{quest.twr.7D2807571451631F.subtitle}"
 			description: [
@@ -106,7 +106,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: -0.5d
 			y: 2.0d
 			subtitle: "{quest.twr.40254682DFE145B8.subtitle}"
 			description: [
@@ -124,8 +124,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
+			x: -6.5d
+			y: 2.0d
 			subtitle: "{quest.twr.29067D9CA0B3DC45.subtitle}"
 			description: [
 				"{quest.twr.29067D9CA0B3DC45.description.1}"
@@ -142,7 +142,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -2.0d
 			y: 2.0d
 			subtitle: "{quest.twr.7C30A1316BF232EC.subtitle}"
 			description: [
@@ -160,7 +160,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -2.0d
 			y: 3.0d
 			subtitle: "{quest.twr.31ED006279866288.subtitle}"
 			description: [
@@ -178,8 +178,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.0d
+			x: 8.5d
+			y: 2.0d
 			subtitle: "{quest.twr.72D5B725766622F4.subtitle}"
 			description: [
 				"{quest.twr.72D5B725766622F4.description.1}"
@@ -215,7 +215,7 @@
 		}
 		{
 			icon: "rankine:lignite"
-			x: 4.0d
+			x: 7.0d
 			y: 2.0d
 			description: [
 				"{quest.twr.539631D18E7A9B4A.description.1}"
@@ -233,7 +233,7 @@
 		}
 		{
 			icon: "rankine:bituminous_coal"
-			x: 4.0d
+			x: 7.0d
 			y: 3.0d
 			description: [
 				"{quest.twr.6F39341180466270.description.1}"
@@ -250,8 +250,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 4.0d
+			x: -8.0d
+			y: 2.0d
 			subtitle: "{quest.twr.5581901DD85F746D.subtitle}"
 			description: [
 				"{quest.twr.5581901DD85F746D.description.1}"
@@ -286,8 +286,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 4.0d
+			x: 1.0d
+			y: 2.0d
 			subtitle: "{quest.twr.3840FFD53990ECA2.subtitle}"
 			description: [
 				"{quest.twr.3840FFD53990ECA2.description.1}"
@@ -304,8 +304,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 4.0d
+			x: 4.0d
+			y: 2.0d
 			subtitle: "{quest.twr.6C49B6777A13CC02.subtitle}"
 			description: [
 				"{quest.twr.6C49B6777A13CC02.description.1}"
@@ -322,8 +322,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 4.0d
+			x: 5.5d
+			y: 2.0d
 			description: [
 				"{quest.twr.2A8533418E3A8B06.description.1}"
 				"{quest.twr.2A8533418E3A8B06.description.2}"
@@ -339,8 +339,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 4.0d
+			x: 10.0d
+			y: 2.0d
 			description: [
 				"{quest.twr.1120D6251E9B42C4.description.1}"
 				"{quest.twr.1120D6251E9B42C4.description.2}"
@@ -390,6 +390,20 @@
 						"patchouli:book": "rankine:rankine_journal"
 					}
 				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			description: ["生成于板岩，白色大理岩，碳质页岩中"]
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "3AC7F7FF3EDA24F5"
+			tasks: [{
+				id: "58D70B2F02548BE1"
+				type: "item"
+				item: "rankine:anthracite_coal"
 			}]
 		}
 	]
