@@ -1853,5 +1853,29 @@
 				}
 			]
 		}
+		{
+			x: 4.0d
+			y: -5.0d
+			subtitle: "行不通的"
+			description: [
+				"拿到陶土桶之后，我猜你肯定会想到浇筑地狱门。"
+				"然而这里太冷了，并不能使用&5&l火焰魔法&r。"
+				"也许你需要&6&l另辟蹊径&r，但无论如何，以你现在对世界的了解水平不足以找到别的方法了。"
+				"（在任务进程到打开地狱门之前，&c&l你都不会用到地狱相关的材料&r。）"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6CF9868197215C1D"]
+			id: "3B306015B7675BD1"
+			tasks: [{
+				id: "655CEC449A64354A"
+				type: "checkmark"
+				title: "地狱"
+			}]
+			rewards: [{
+				id: "79D06247FDD06DB9"
+				type: "item"
+				item: "crockpot:cooked_hoglin_nose"
+			}]
+		}
 	]
 }
