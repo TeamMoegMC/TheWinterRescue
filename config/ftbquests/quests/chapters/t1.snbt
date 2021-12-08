@@ -1108,6 +1108,7 @@
 			description: [
 				"{quest.twr.062E137E7ECB4C99.description.1}"
 				"{quest.twr.062E137E7ECB4C99.description.2}"
+				"破坏时保存内容物。"
 			]
 			dependencies: ["689BB00EC2454F1F"]
 			id: "062E137E7ECB4C99"
