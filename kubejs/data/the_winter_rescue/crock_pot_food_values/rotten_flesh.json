@@ -1,8 +1,0 @@
-{
-  "type": "item",
-  "item": "minecraft:rotten_flesh",
-  "values": {
-    "MEAT": 0.5,
-    "MONSTER": 2.0
-  }
-}

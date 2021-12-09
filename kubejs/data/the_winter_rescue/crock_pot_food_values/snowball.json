@@ -1,6 +1,6 @@
 {
-  "type": "item",
-  "item": "minecraft:snowball",
+  "type": "crockpot:food_values",
+  "items": ["minecraft:snowball"],
   "values": {
     "FROZEN": 0.5
   }

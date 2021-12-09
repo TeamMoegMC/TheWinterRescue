@@ -1,6 +1,6 @@
 {
-    "type": "item",
-    "item": "immersiveengineering:dust_wood",
+    "type": "crockpot:food_values",
+    "items":["immersiveengineering:dust_wood","rankine:sawdust"],
     "values": {
         "INEDIBLE": 1.0
     }

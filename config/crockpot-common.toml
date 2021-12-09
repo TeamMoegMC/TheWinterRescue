@@ -5,14 +5,13 @@
 	#This is a way to obtain crops in the mod and we strongly recommend that set it to true.
 	#Please make sure there are other ways to obtain crops in the mod if set it to false.
 	enableUnknownSeeds = true
-	#Set this value to change the thread pool size of asynchronous crock pot recipe matching.
-	#Range: 1 ~ 16
-	asyncRecipeMatchingPoolSize = 1
-	#Set this to false to disable asynchronous crock pot recipe matching.
-	asyncRecipeMatching = true
 	#Define the crops list that Unknown Crops will be converted into.
 	#Both the seed item for the crop and the crop block itself are acceptable.
 	unknownCropsList = ["crockpot:asparagus_seeds", "crockpot:corn_seeds", "crockpot:eggplant_seeds", "crockpot:onion_seeds", "crockpot:pepper_seeds", "crockpot:tomato_seeds"]
+	#Set this value to change Crock Pot speed modifier. Higher tier Crock Pot will cook faster.
+	#actualCookingTime = cookingTime * (1.0 - crockPotSpeedModifier * potLevel)
+	#Range: 0.0 ~ 1.0
+	crockPotSpeedModifier = 0.15
 	#Set this to false to disable new players spawning with the Crock Pot Cookbook.
 	spawnWithBook = false
 

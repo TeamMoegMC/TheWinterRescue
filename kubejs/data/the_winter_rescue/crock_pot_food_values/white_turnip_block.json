@@ -1,6 +1,6 @@
 {
-    "type": "item",
-    "item": "frostedheart:white_turnip_block",
+    "type": "crockpot:food_values",
+    "items": ["frostedheart:white_turnip_block"],
     "values": {
         "VEGGIE": 1.0
     }

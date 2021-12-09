@@ -1,6 +1,6 @@
 {
-    "type": "item",
-    "item": "frostedheart:rye_flour",
+    "type": "crockpot:food_values",
+    "items": ["frostedheart:rye_flour"],
     "values": {
         "VEGGIE": 1.0
     }

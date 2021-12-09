@@ -1,6 +1,6 @@
 {
-    "type": "item",
-    "item": "minecraft:bowl",
+    "type": "crockpot:food_values",
+    "items": ["minecraft:bowl"],
     "values": {
         "INEDIBLE": 1.0
     }
