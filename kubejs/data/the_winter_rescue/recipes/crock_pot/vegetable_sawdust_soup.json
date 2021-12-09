@@ -1,8 +1,6 @@
 {
-  "result": {
-    "id": "frostedheart:vegetable_sawdust_soup",
-    "Count": 1
-  },
+  "type": "crockpot:crock_pot_cooking",
+  "result": "frostedheart:vegetable_sawdust_soup",
   "requirements": [
     {
       "type": "category_max",
@@ -41,8 +39,7 @@
       "max": 2.0
     }
   ],
-  "cookTime": 400,
-  "weight": 1,
-  "priority": 15,
-  "potLevel": 0
+  "cookingtime": 400,
+  "priority": 16,
+  "potlevel": 0
 }

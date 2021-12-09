@@ -1,8 +1,5 @@
 {
-  "result": {
-    "id": "frostedheart:rye_porridge",
-    "Count": 1
-  },
+  "type": "crockpot:crock_pot_cooking",
   "requirements": [
     {
       "type": "category_max",
@@ -29,8 +26,8 @@
       "max": 1.0
     }
   ],
-  "cookTime": 400,
-  "weight": 1,
+  "result": "frostedheart:rye_porridge",
+  "cookingtime": 400,
   "priority": 16,
-  "potLevel": 0
+  "potlevel": 0
 }

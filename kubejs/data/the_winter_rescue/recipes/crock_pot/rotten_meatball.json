@@ -1,8 +1,5 @@
 {
-  "result": {
-    "id": "crockpot:monster_lasagna",
-    "Count": 1
-  },
+  "type": "crockpot:crock_pot_cooking",
   "requirements": [
     {
       "type": "must_contain_ingredient",
@@ -25,8 +22,8 @@
 		}
 	}
   ],
-  "cookTime": 400,
-  "weight": 1,
+  "result": "crockpot:monster_lasagna",
+  "cookingtime": 400,
   "priority": 16,
-  "potLevel": 0
+  "potlevel": 0
 }

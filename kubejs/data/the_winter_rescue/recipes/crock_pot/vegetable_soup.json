@@ -1,13 +1,15 @@
 {
-  "result": {
-    "id": "frostedheart:rye_sawdust_porridge",
-    "Count": 1
-  },
+  "type": "crockpot:crock_pot_cooking",
   "requirements": [
     {
       "type": "category_max",
       "category": "MEAT",
       "max": 0.0
+    },
+    {
+      "type": "category_min_exclusive",
+      "category": "VEGGIE",
+      "min": 1.5
     },
     {
       "type": "must_contain_ingredient",
@@ -19,25 +21,18 @@
     {
       "type": "must_contain_ingredient",
       "ingredient": {
-        "item": "frostedheart:rye_flour"
-      },
-      "quantity": 1
-    },
-    {
-      "type": "must_contain_ingredient",
-      "ingredient": {
-        "item": "rankine:sawdust"
+        "item": "frostedheart:white_turnip_block"
       },
       "quantity": 1
     },
     {
       "type": "category_max",
       "category": "INEDIBLE",
-      "max": 2.0
+      "max": 1.0
     }
   ],
-  "cookTime": 400,
-  "weight": 1,
+  "result": "frostedheart:vegetable_soup",
+  "cookingtime": 400,
   "priority": 16,
-  "potLevel": 0
+  "potlevel": 0
 }
