@@ -23,6 +23,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			icon: "tetra:basic_workbench"
 			x: -2.5d
 			y: 1.5d
 			shape: "gear"
@@ -34,11 +35,31 @@
 			dependencies: ["5C8730E4484959B9"]
 			size: 1.2d
 			id: "11DD149796E14E81"
-			tasks: [{
-				id: "2481856F88DAA369"
-				type: "item"
-				item: "minecraft:crafting_table"
-			}]
+			tasks: [
+				{
+					id: "2481856F88DAA369"
+					type: "item"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "69827A684F506414"
+					type: "item"
+					item: {
+						id: "tetra:modular_double"
+						Count: 1b
+						tag: {
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "ab17aa13-658b-4163-a722-9a3b59e44e79"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							Damage: 0
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "{quest.twr.5C8730E4484959B9.title}"

@@ -29,7 +29,16 @@ onEvent('recipes', (event) => {
         ['kubejs:bituminous_coal_dust', Fluid.of('kubejs:lime_water', 200)]},
     {output:
         ['2x kubejs:limed_coal'],input:
-        ['3x kubejs:lignite_dust', Fluid.of('kubejs:lime_water', 200)]}
+        ['3x kubejs:lignite_dust', Fluid.of('kubejs:lime_water', 200)]},
+	{output:
+        ['frostedheart:raw_rye_bread'],input:
+        ['2x frostedheart:rye_flour', Fluid.of('minecraft:water', 1000)]},
+	{output:
+        ['minecraft:slime_ball'],input:
+        ['create:dough','minecraft:lime_dye']},
+	{output:
+        ['stone_age:raw_bread'],input:
+        ['create:dough','minecraft:sugar']}
 	]
 	let heated = [
     {output:

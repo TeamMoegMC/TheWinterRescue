@@ -18,9 +18,13 @@ onEvent('recipes', (event) => {
 	event.recipes.createSplashing(["rankine:mortar"],"rankine:dry_mortar");
     var newShapelessRecipes = [
 		shapelessRecipe('2x charcoal_pit:tiny_coke', ['#forge:coal_coke']),
+		shapelessRecipe('frostedheart:raw_rye_bread', ['2x frostedheart:rye_flour','minecraft:water_bucket']),
 		shapelessRecipe('watersource:purified_water_bottle', ['frostedheart:steam_bottle','minecraft:snowball']),
 		shapelessRecipe('immersiveengineering:crate', ['immersiveengineering:reinforced_crate']),
         shapelessRecipe('stone_age:dried_grass', ['charcoal_pit:straw']),
+		shapelessRecipe('frostedheart:black_bread', ['frostedheart:rye_flour','frostedheart:rye_flour','#forge:dusts/wood']),
+		shapelessRecipe('minecraft:slime_ball',['create:dough','minecraft:lime_dye']),
+		shapelessRecipe('stone_age:raw_bread',['create:dough','minecraft:sugar']),
 		shapelessRecipe({"item":'frostedheart:straw_briquette_red_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:red_mushroom']),
 		shapelessRecipe({"item":'frostedheart:straw_briquette_brown_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:brown_mushroom'])
     ]
@@ -78,4 +82,8 @@ onEvent('recipes', (event) => {
 	 event.recipes.createCompacting(["5x kubejs:bound_coal_briquette"], [Fluid.of('create:honey', 125),"kubejs:anthracite_dust"]);
 	 event.recipes.createCompacting(["3x kubejs:bound_charcoal_briquette"], [Fluid.of('create:honey', 250),"2x kubejs:charcoal_dust"]);
 	 event.recipes.createCompacting(["kubejs:wet_straw_briquette"], ["8x charcoal_pit:straw"]);
+	 
+	 
+	 
+	 
 });

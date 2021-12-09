@@ -161,7 +161,7 @@ onEvent('recipes', (event) => {
     event.remove({input: 'rankine:alloy_template', output: 'minecraft:paper'});
     event.remove({input: 'minecraft:redstone_ore'});
 	event.remove({output: '#minecraft:planks'});
-
+	event.remove({input:'create:dough'});
     event.remove({type: 'minecraft:smelting', input: 'rankine:magnetite_block'});
     event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
 	['minecraft:air',
