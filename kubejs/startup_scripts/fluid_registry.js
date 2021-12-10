@@ -17,8 +17,8 @@ onEvent('fluid.registry', event => {
     }
   });
 */
-  event.create('lime_water').textureThin(0xB0C4DE).bucketColor(0xB0C4DE)
-  event.create('chlorine').textureThin(0xB0C4DE).bucketColor(0xB0C4DE)
-  event.create('sulfuric_acid').textureThin(0xEEE8AA).bucketColor(0xEEE8AA)
-  event.create('cryolite').textureThin(0x90EE90).bucketColor(0x90EE90)
+  event.create('lime_water').textureThin(0xB0C4DE)
+  event.create('chlorine').textureThin(0xB0C4DE)
+  event.create('sulfuric_acid').textureThin(0xEEE8AA)
+  event.create('cryolite').textureThin(0x90EE90)
 })

@@ -1,0 +1,14 @@
+{
+		"type": "immersiveengineering:mixer",
+        "inputs": [
+		{
+            "item": "kubejs:aluminium_hydroxide_dust"
+        }],
+        "result": {
+            "fluid": "kubejs:cryolite","amount": 500
+        },
+		"fluid": {
+            "tag": "forge:gas/fluorine","amount":2000
+        },
+		"energy": 2000
+}

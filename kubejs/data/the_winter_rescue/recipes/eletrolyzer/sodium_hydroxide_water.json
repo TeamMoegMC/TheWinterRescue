@@ -1,0 +1,20 @@
+{
+  "type": "immersiveindustry:electrolyzer",
+  "result": {
+    "item": "rankine:sodium_hydroxide",
+	"count":2
+  },
+  "input": {
+    "item": "rankine:sodium_hydroxide"
+  },
+  "fluid": {
+    "tag": "forge:water",
+    "amount": 16000
+  },
+  "result_fluid": {
+    "tag": "forge:water",
+    "amount": 8000
+  },
+  "large_only":true,
+  "time": 2400
+}

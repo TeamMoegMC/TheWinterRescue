@@ -10,5 +10,9 @@
     "tag": "the_winter_rescue:cryolite",
     "amount": 100
   },
+  "result_fluid": {
+    "tag": "forge:gas/fluorine",
+    "amount": 390
+  },
   "time": 240
 }

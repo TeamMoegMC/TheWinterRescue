@@ -76,4 +76,5 @@ const disabledItems = [
     'rankine:rare_earth_electromagnet',
     'rankine:alnico_electromagnet',
     'rankine:charcoal_pit',
+	'kubejs:fluorine_bucket'
 ]

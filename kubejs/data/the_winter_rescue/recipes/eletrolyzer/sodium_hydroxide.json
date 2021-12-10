@@ -7,7 +7,7 @@
     "tag": "forge:salt"
   },
   "fluid": {
-    "tag": "minecraft:water",
+    "tag": "forge:water",
     "amount": 500
   },
   "time": 240

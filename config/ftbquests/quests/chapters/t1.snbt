@@ -1854,6 +1854,7 @@
 			]
 		}
 		{
+			icon: "minecraft:netherrack"
 			x: 4.0d
 			y: -5.0d
 			subtitle: "行不通的"
