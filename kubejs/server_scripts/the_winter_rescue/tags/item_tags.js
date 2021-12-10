@@ -64,6 +64,7 @@ onEvent('item.tags', (event) => {
 	event.add("kubejs:fuel_glue","minecraft:slime_ball")
 	event.add("kubejs:fuel_glue","create:dough")
 	event.add("kubejs:fuel_glue","#forge:bitumen")
+	event.add("kubejs:tetra_hammer","tetra:modular_double")
 		event.add('minecraft:shulker_box', 'minecraft:shulker_box')
 	colors.forEach(clr=>{
 		event.add('minecraft:shulker_box', 'minecraft:'+clr+'_shulker_box')

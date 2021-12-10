@@ -44,20 +44,34 @@
 				{
 					id: "69827A684F506414"
 					type: "item"
+					title: "任意锤子"
 					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "kubejs:tetra_hammer"
+						}
+					}
+				}
+				{
+					id: "614239EFEB89EBAE"
+					type: "advancement"
+					icon: {
 						id: "tetra:modular_double"
 						Count: 1b
 						tag: {
 							"double/handle": "double/basic_handle"
 							"double/head_left": "double/basic_hammer_left"
 							"double/head_right": "double/basic_hammer_right"
-							id: "ab17aa13-658b-4163-a722-9a3b59e44e79"
+							id: "f301289c-7111-4f48-b12a-75ac99ab6ca7"
 							"double/basic_hammer_right_material": "basic_hammer/oak"
 							Damage: 0
 							"double/basic_handle_material": "basic_handle/stick"
 							"double/basic_hammer_left_material": "basic_hammer/oak"
 						}
 					}
+					advancement: "tetra:story/more_upgrades"
+					criterion: ""
 				}
 			]
 		}
