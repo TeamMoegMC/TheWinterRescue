@@ -101,7 +101,9 @@
   "item.kubejs.coal_briquette":"蜂窝煤",
   "item.kubejs.sawdust_briquette":"木屑块",
   "item.kubejs.straw_briquette":"干草块",
-
+  "item.kubejs.bounded_graphite": "粘性石墨",
+  "item.kubejs.shaped_bounded_graphite": "成形石墨电极",
+  "item.kubejs.rough_graphite_electrode": "粗制石墨电极",
   "fluid.kubejs.lime_water": "石灰水",
   "fluid.kubejs.chlorine": "氯气",
   "fluid.kubejs.cryolite": "冰晶石",

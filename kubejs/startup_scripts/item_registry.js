@@ -27,7 +27,10 @@ onEvent('item.registry', event => {
 		'frozen_tiger_meat',
 		'frozen_venison',
 		'frozen_rabbit',
-		'frozen_white_turnip'
+		'frozen_white_turnip',
+		'bounded_graphite',
+		'shaped_bounded_graphite',
+		'rough_graphite_electrode'
 	];
 
 	let rawOres = [

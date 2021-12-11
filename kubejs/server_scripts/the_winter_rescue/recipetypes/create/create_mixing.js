@@ -38,7 +38,10 @@ onEvent('recipes', (event) => {
         ['create:dough','minecraft:lime_dye']},
 	{output:
         ['stone_age:raw_bread'],input:
-        ['create:dough','minecraft:sugar']}
+        ['create:dough','minecraft:sugar']},
+	{output:
+        ['kubejs:bounded_graphite'],input:
+        ['4x #forge:dusts/hop_graphite','#forge:clay_balls']}
 	]
 	let heated = [
     {output:

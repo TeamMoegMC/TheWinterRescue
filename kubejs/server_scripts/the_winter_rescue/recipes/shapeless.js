@@ -25,6 +25,8 @@ onEvent('recipes', (event) => {
 		shapelessRecipe('frostedheart:black_bread', ['frostedheart:rye_flour','frostedheart:rye_flour','#forge:dusts/wood']),
 		shapelessRecipe('minecraft:slime_ball',['create:dough','minecraft:lime_dye']),
 		shapelessRecipe('stone_age:raw_bread',['create:dough','minecraft:sugar']),
+		shapelessRecipe('9x create:brass_ingot',['#forge:storage_blocks/brass']),
+		shapelessRecipe('9x create:copper_ingot',['#forge:storage_blocks/copper']),
 		shapelessRecipe({"item":'frostedheart:straw_briquette_red_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:red_mushroom']),
 		shapelessRecipe({"item":'frostedheart:straw_briquette_brown_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:brown_mushroom'])
     ]
@@ -69,6 +71,7 @@ onEvent('recipes', (event) => {
 	 event.recipes.createCompacting(["2x kubejs:wet_coal_briquette"], "kubejs:wet_coal_dust");
 	 event.recipes.createCompacting(["4x kubejs:creosoted_coal_briquette"], ["kubejs:anthracite_dust",Fluid.of('immersiveengineering:creosote', 100)]);
 	 
+	 event.recipes.createCompacting(["rankine:graphite_block"], "9x rankine:graphite");
 	 
 	 event.recipes.createCompacting(["3x kubejs:creosoted_coal_briquette"], ["#forge:dusts/coal_coke",Fluid.of('immersiveengineering:creosote', 100)]);
 	 event.recipes.createCompacting(["kubejs:creosoted_charcoal_briquette"], ["kubejs:charcoal_dust",Fluid.of('immersiveengineering:creosote',250)]).heated();

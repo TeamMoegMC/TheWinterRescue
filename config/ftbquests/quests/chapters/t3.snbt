@@ -445,19 +445,45 @@
 		{
 			title: "工业电解槽"
 			icon: "immersiveindustry:industrial_electrolyzer"
-			x: -4.5d
+			x: -6.5d
 			y: -1.5d
 			subtitle: "效率增长1800%%"
 			description: [
-				"工业电解槽速度更快，而且能生产更多的配方。"
+				"工业电解槽速度更快，更节能，而且能生产更多的配方。"
 				"搭建方法详见工程师手册。"
 			]
-			dependencies: ["4138E3A9915F811C"]
+			dependencies: ["18D8751ED2B62FF2"]
 			id: "45FBD9AC4E48BF09"
 			tasks: [{
 				id: "2C0FE3B92A5A661C"
 				type: "checkmark"
 			}]
+		}
+		{
+			title: "{block.immersiveengineering.metal_press}"
+			icon: "immersiveengineering:metal_press"
+			x: -4.5d
+			y: -1.5d
+			subtitle: "科技的乐趣"
+			description: [
+				"再次增产板材，并且能生产石墨电极。"
+				"搭建方法详见工程师手册。"
+			]
+			dependencies: ["4138E3A9915F811C"]
+			id: "18D8751ED2B62FF2"
+			tasks: [
+				{
+					id: "214DF499902C162B"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "07FF5B27EDE4D04E"
+					type: "advancement"
+					advancement: "immersiveengineering:main/mb_metalpress"
+					criterion: ""
+				}
+			]
 		}
 	]
 }

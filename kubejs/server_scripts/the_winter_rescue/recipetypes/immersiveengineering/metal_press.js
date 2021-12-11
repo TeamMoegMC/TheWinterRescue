@@ -24,6 +24,11 @@ onEvent('recipes', (event) => {
             input: '2x minecraft:iron_ingot',
             mold: 'immersiveengineering:mold_rod'
         },
+		 {
+            output: 'kubejs:shaped_bounded_graphite',
+            input: 'kubejs:bounded_graphite',
+            mold: 'immersiveengineering:mold_rod'
+        },
         {
             output: '3x immersiveengineering:stick_steel',
             input: '2x #forge:ingots/steel',

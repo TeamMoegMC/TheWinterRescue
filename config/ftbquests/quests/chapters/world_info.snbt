@@ -406,5 +406,18 @@
 				item: "rankine:anthracite_coal"
 			}]
 		}
+		{
+			x: 7.0d
+			y: 5.0d
+			subtitle: "生成在变质岩和侵入岩"
+			description: ["生成于云母片岩、黑色大理岩、板岩、矽卡岩、伟晶岩、片麻岩中"]
+			hide: true
+			id: "1EAA26CFD9FF2633"
+			tasks: [{
+				id: "1E6EEEDDC45EF1D7"
+				type: "item"
+				item: "rankine:graphite"
+			}]
+		}
 	]
 }

@@ -165,6 +165,9 @@ onEvent('recipes', (event) => {
 	event.remove({input:'create:dough'});
     event.remove({type: 'minecraft:smelting', input: 'rankine:magnetite_block'});
     event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
+	event.remove({type: 'minecraft:blasting', output: 'immersiveengineering:ingot_hop_graphite'});
+	event.remove({type: 'minecraft:smelting', output: 'immersiveengineering:ingot_hop_graphite'});
+	event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
 	['minecraft:air',
 	'stone_age:backpack'].forEach((disabledItem) => {
         event.remove({output: disabledItem});
@@ -187,7 +190,8 @@ onEvent('recipes', (event) => {
         'rankine:ultra_high_refractory_brick',
         'immersiveengineering:capacitor_lv',
         'immersiveengineering:capacitor_mv',
-        'immersiveengineering:capacitor_hv'
+        'immersiveengineering:capacitor_hv',
+		'immersiveengineering:dust_hop_graphite'
     ]
 
     removeOnly.forEach((removeItem) => {
