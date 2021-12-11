@@ -1108,5 +1108,22 @@
 				item: "create:clockwork_bearing"
 			}]
 		}
+		{
+			x: -22.0d
+			y: -0.5d
+			subtitle: "就是一个垃圾桶"
+			description: [
+				"杂酚油多到用不完？试试这款焚油器吧。"
+				"只要放在焦炉上方，就可以快速销毁焦炉里的杂酚油。"
+				"也可以用泵泵入流体以提高销毁速率，&m但请不要尝试用它来加热&r。"
+			]
+			dependencies: ["5287CFB7B7D5285E"]
+			id: "7C21BA2D2453AA79"
+			tasks: [{
+				id: "235B545099D28CAC"
+				type: "item"
+				item: "frostedheart:oil_burner"
+			}]
+		}
 	]
 }
