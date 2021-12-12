@@ -10,7 +10,7 @@
             "item": "kubejs:aluminium_hydroxide_dust"
         }],
         "result": {
-            "fluid": "kubejs:cryolite","amount": 500
+            "fluid": "kubejs:cryolite","amount": 600
         },
 		"fluid": {
             "tag": "the_winter_rescue:fluidsulfuricacid","amount": 600
