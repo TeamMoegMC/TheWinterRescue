@@ -265,6 +265,7 @@
 			description: [
 				"{quest.twr.4138E3A9915F811C.description.1}"
 				"{quest.twr.4138E3A9915F811C.description.2}"
+				"玩到这里，你已经是一个&a成熟的整合包玩家&r了，&6&l你应该学会自己根据&bJEI&6和&b模组手册&6决定你要制作的东西&r。"
 			]
 			dependencies: ["5D52744D5382A6CA"]
 			id: "4138E3A9915F811C"

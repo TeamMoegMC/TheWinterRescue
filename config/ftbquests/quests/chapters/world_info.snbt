@@ -124,8 +124,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 2.0d
+			x: -0.5d
+			y: 5.0d
 			subtitle: "{quest.twr.29067D9CA0B3DC45.subtitle}"
 			description: [
 				"{quest.twr.29067D9CA0B3DC45.description.1}"
@@ -178,8 +178,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 2.0d
+			x: 2.5d
+			y: 5.0d
 			subtitle: "{quest.twr.72D5B725766622F4.subtitle}"
 			description: [
 				"{quest.twr.72D5B725766622F4.description.1}"
@@ -215,7 +215,7 @@
 		}
 		{
 			icon: "rankine:lignite"
-			x: 7.0d
+			x: 4.0d
 			y: 2.0d
 			description: [
 				"{quest.twr.539631D18E7A9B4A.description.1}"
@@ -233,7 +233,7 @@
 		}
 		{
 			icon: "rankine:bituminous_coal"
-			x: 7.0d
+			x: 4.0d
 			y: 3.0d
 			description: [
 				"{quest.twr.6F39341180466270.description.1}"
@@ -250,8 +250,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 2.0d
+			x: 2.5d
+			y: 3.0d
 			subtitle: "{quest.twr.5581901DD85F746D.subtitle}"
 			description: [
 				"{quest.twr.5581901DD85F746D.description.1}"
@@ -268,8 +268,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 4.0d
+			x: -0.5d
+			y: 3.0d
 			subtitle: "{quest.twr.5907E1263E6D81E2.subtitle}"
 			description: [
 				"{quest.twr.5907E1263E6D81E2.description.1}"
@@ -304,8 +304,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
+			x: 1.0d
+			y: 3.0d
 			subtitle: "{quest.twr.6C49B6777A13CC02.subtitle}"
 			description: [
 				"{quest.twr.6C49B6777A13CC02.description.1}"
@@ -322,8 +322,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 2.0d
+			x: -0.5d
+			y: 4.0d
 			description: [
 				"{quest.twr.2A8533418E3A8B06.description.1}"
 				"{quest.twr.2A8533418E3A8B06.description.2}"
@@ -339,8 +339,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: 2.0d
+			x: 2.5d
+			y: 4.0d
 			description: [
 				"{quest.twr.1120D6251E9B42C4.description.1}"
 				"{quest.twr.1120D6251E9B42C4.description.2}"
@@ -393,7 +393,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 4.0d
 			y: 4.0d
 			description: ["生成于板岩，白色大理岩，碳质页岩中"]
 			hide_dependency_lines: true
@@ -407,10 +407,12 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 4.0d
 			y: 5.0d
 			subtitle: "生成在变质岩和侵入岩"
 			description: ["生成于云母片岩、黑色大理岩、板岩、矽卡岩、伟晶岩、片麻岩中"]
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
 			hide: true
 			id: "1EAA26CFD9FF2633"
 			tasks: [{
