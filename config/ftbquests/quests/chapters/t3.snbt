@@ -449,14 +449,21 @@
 			y: -1.5d
 			subtitle: "效率增长1800%%"
 			description: [
-				"工业电解槽速度更快，更节能，而且能生产更多的配方。"
+				"工业电解槽速度更快，更节能，而且能生产更多的配方。你需要石墨电极来让他工作。"
 				"搭建方法详见工程师手册。"
 			]
 			dependencies: ["18D8751ED2B62FF2"]
 			id: "45FBD9AC4E48BF09"
 			tasks: [{
-				id: "2C0FE3B92A5A661C"
-				type: "checkmark"
+				id: "45DB90E094FCB755"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+					}
+				}
 			}]
 		}
 		{

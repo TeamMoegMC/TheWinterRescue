@@ -21,4 +21,5 @@ onEvent('fluid.registry', event => {
   event.create('chlorine').textureThin(0xB0C4DE)
   event.create('sulfuric_acid').textureThin(0xEEE8AA)
   event.create('cryolite').textureThin(0x90EE90)
+  event.create('tar').textureThick(0x000000).viscosity(1150).density(950)
 })

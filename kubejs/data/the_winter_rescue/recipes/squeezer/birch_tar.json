@@ -1,0 +1,11 @@
+{
+  "type":"immersiveengineering:squeezer",
+  "fluid":{
+    "fluid":"kubejs:tar",
+	"amount":100
+  },
+  "input":{
+	"item":"minecraft:birch_log"
+  },
+  "energy":12800
+}

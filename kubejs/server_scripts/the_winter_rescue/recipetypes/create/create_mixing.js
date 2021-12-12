@@ -41,7 +41,7 @@ onEvent('recipes', (event) => {
         ['create:dough','minecraft:sugar']},
 	{output:
         ['kubejs:bounded_graphite'],input:
-        ['4x #forge:dusts/hop_graphite','#forge:clay_balls']}
+        ['4x #forge:dusts/hop_graphite',Fluid.of('kubejs:tar',1000)]}
 	]
 	let heated = [
     {output:

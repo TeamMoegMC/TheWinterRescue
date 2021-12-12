@@ -104,10 +104,12 @@
   "item.kubejs.bounded_graphite": "粘性石墨",
   "item.kubejs.shaped_bounded_graphite": "成形石墨电极",
   "item.kubejs.rough_graphite_electrode": "粗制石墨电极",
+  "item.kubejs.tar_bucket": "焦油桶",
   "fluid.kubejs.lime_water": "石灰水",
   "fluid.kubejs.chlorine": "氯气",
   "fluid.kubejs.cryolite": "冰晶石",
   "fluid.kubejs.sulfuric_acid": "硫酸",
+  "fluid.kubejs.tar": "焦油",
   
   "itemGroup.kubejs.kubejs": "Kubejs"
 }
