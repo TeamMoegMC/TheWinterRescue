@@ -167,7 +167,7 @@ onEvent('recipes', (event) => {
     event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
 	event.remove({type: 'minecraft:blasting', output: 'immersiveengineering:ingot_hop_graphite'});
 	event.remove({type: 'minecraft:smelting', output: 'immersiveengineering:ingot_hop_graphite'});
-	event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
+	//event.remove({type: 'minecraft:blasting'});
 	['minecraft:air',
 	'stone_age:backpack'].forEach((disabledItem) => {
         event.remove({output: disabledItem});
