@@ -1,0 +1,11 @@
+{
+  "name": "Arrows",
+  "category": "stone_age:items",
+  "icon": "minecraft:arrow",
+  "pages": [
+    {
+      "type": "minecraft:shaped_crafting",
+      "recipe": "minecraft:arrow"
+    }
+  ]
+}
