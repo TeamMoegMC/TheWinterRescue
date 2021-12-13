@@ -54,6 +54,7 @@ onEvent('recipes', (event) => {
         [Fluid.of('frostedheart:hot_water', 1000)],input:
         ['kubejs:activated_carbon', Fluid.of('minecraft:water', 1000)]}
 	]
+	//event.recipes.createMixing(Fluid.of('frostedheart:hot_water', 1000),Fluid.of('watersource:purified_water', 1000)).processingTime(10000).heated();
 	recipes.forEach((recipe) => {
         event.recipes.createMixing(recipe.output, recipe.input);
     });
