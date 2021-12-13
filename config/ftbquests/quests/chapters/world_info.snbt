@@ -11,8 +11,8 @@
 		{
 			title: "{quest.twr.181378ABF5CCD166.title}"
 			icon: "minecraft:grass_block"
-			x: 0.0d
-			y: 0.5d
+			x: -0.5d
+			y: 0.6d
 			shape: "gear"
 			subtitle: "{quest.twr.181378ABF5CCD166.subtitle}"
 			description: [
@@ -124,7 +124,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 1.0d
 			y: 5.0d
 			subtitle: "{quest.twr.29067D9CA0B3DC45.subtitle}"
 			description: [
@@ -179,7 +179,7 @@
 		}
 		{
 			x: 2.5d
-			y: 5.0d
+			y: 4.0d
 			subtitle: "{quest.twr.72D5B725766622F4.subtitle}"
 			description: [
 				"{quest.twr.72D5B725766622F4.description.1}"
@@ -250,8 +250,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.0d
+			x: 1.0d
+			y: 4.0d
 			subtitle: "{quest.twr.5581901DD85F746D.subtitle}"
 			description: [
 				"{quest.twr.5581901DD85F746D.description.1}"
@@ -340,7 +340,7 @@
 		}
 		{
 			x: 2.5d
-			y: 4.0d
+			y: 3.0d
 			description: [
 				"{quest.twr.1120D6251E9B42C4.description.1}"
 				"{quest.twr.1120D6251E9B42C4.description.2}"
@@ -374,7 +374,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 1.0d
 			y: 0.5d
 			subtitle: "深入了解"
 			description: ["想了解更多世界相关的信息？请参考兰金计划的教程书。"]
