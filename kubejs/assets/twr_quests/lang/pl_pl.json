@@ -1,1501 +1,655 @@
 {
-  "chapter": {
-    "twr": {
-      "00A96B3C8C24C472": {
-        "subtitle": "Wszystko o generatorach i sieciach cieplnych.",
-        "title": "Dzień Inżyniera Generatora"
-      },
-      "0F108F94F3A03203": {
-        "subtitle": "W tym mroźnym świecie twoje istnienie jest jedynym światłem i ciepłem.",
-        "title": "Zaczynać od początku"
-      },
-      "0F92A786237ACCA8": {
-        "subtitle": "Maszyny zaczynają ryczeć.",
-        "title": "Cewki elektryczne"
-      },
-      "1B332F15A5B415FA": {
-        "title": "Uzdatnianie paliwa"
-      },
-      "1E695E6D1F5B227A": {
-        "subtitle": "Tworzenie najlepszego narzędzia to praktyka sztuki.",
-        "title": "Dzień Rzemieślnika"
-      },
-      "3A3B51CF7F606665": {
-        "subtitle": "To nie jest epoka pary, którą zapamiętałeś",
-        "title": "Zasilany parą"
-      },
-      "45227BBF4538D5BC": {
-        "subtitle": "Wylądowałeś ze stacji kosmicznej na zamarzniętą Ziemię, proszę bądź przygotowany, to trudna misja!",
-        "title": "Zimowy ratunek"
-      },
-      "683664CACFD52C99": {
-        "title": "Informacje o świecie"
-      },
-      "715FF1EB059BCACF": {
-        "subtitle": "jedzenie. jedzenie. jedzenie.",
-        "title": "Dzień Syberyjskiego Szefa Kuchni"
-      },
-      "75A05D5EAF6602DE": {
-        "subtitle": "Dziki jest zaalarmowany twoim przybyciem.",
-        "title": "Przyjaciel zwierzęcia"
-      }
-    }
-  },
-  "group": {
-    "twr": {
-      "branch_line": {
-        "title": "Linia oddziału"
-      },
-      "main_line": {
-        "title": "Magistrala"
-      }
-    }
-  },
-  "quest": {
-    "twr": {
-      "0019852CD6EC0354": {
-        "description": {
-          "1": "Podstawa industrializacji na dużą skalę.",
-          "3": "Teraz możesz spróbować zbudować lepszy Generator."
-        },
-        "subtitle": "Silny i wytrzymały",
-        "title": "Szara stal"
-      },
-      "00FD2A2F4601287B": {
-        "description": {
-          "1": "Aby poradzić sobie ze szczególną pogodą, Generator może włączyć tryb podkręcania",
-          "2": "W momencie włączenia overclockingu zużyjesz 4 części paliwa",
-          "3": "Podkręcanie podwoi temperaturę podniesioną przez generator"
-        },
-        "subtitle": "Przyspieszenie spalania",
-        "title": "Podkręcanie"
-      },
-      "016B841B20166EA8": {
-        "description": {
-          "1": "Dopiero gdy zapewniony jest podgrzewacz, tygiel stalowniczy może zacząć działać."
-        },
-        "subtitle": "Spalanie tlenu"
-      },
-      "04B97BB52527FB7A": {
-        "description": {
-          "1": "Tylko proszek do mielenia może zwiększyć wydajność spalania o 25%. Dlaczego nie?"
-        },
-        "subtitle": "Prosta obsługa",
-        "title": "Proszek węglowy"
-      },
-      "04DC32D417FA819E": {
-        "description": {
-          "1": "Woda w kubku grzewczym może zostać wysterylizowana i stać się czystą wodą."
-        },
-        "subtitle": "Zagotować wodę"
-      },
-      "04E9589E45C56536": {
-        "description": {
-          "1": "Wymaga garnka do gotowania.",
-          "2": "Przepis: 2 części mąki żytniej + 1 miska + dowolne nadzienie (nadzienie nie może być niejadalne)"
-        },
-        "subtitle": "Owsianka z żyta"
-      },
-      "060F482D9D3374F9": {
-        "description": {
-          "1": "Jeden z surowców cegieł ogniotrwałych."
-        }
-      },
-      "062E137E7ECB4C99": {
-        "description": {
-          "1": "Może w tej chwili nie masz skrzyni?",
-          "2": "Możesz wypróbować ten przedmiot do przechowywania"
-        },
-        "subtitle": "Łatwe przechowywanie"
-      },
-      "064ECF25B9B8962B": {
-        "description": {
-          "1": "Rozbijaj minerały, które wydobyłeś do dalszego przetwarzania."
-        },
-        "subtitle": "Dość wytrzymały"
-      },
-      "06919E56E850B946": {
-        "description": {
-          "1": "Dowiedz się o dopasowywaniu informacji z holosfery"
-        },
-        "subtitle": "Plan remontu"
-      },
-      "0732C5BB3471FFA7": {
-        "description": {
-          "1": "W tym świecie śniegu i lodu, co lepiej nadaje się do wypełnienia niż lód i śnieg?"
-        },
-        "subtitle": "Pospolity?",
-        "title": "Najlepszy wypełniacz"
-      },
-      "0972243D44A0CF46": {
-        "subtitle": "Zintensyfikować"
-      },
-      "0A9A5166127945AB": {
-        "description": {
-          "1": "Rdzeń Zasilający służy do budowy generatora. Proszę zapoznać się z rozdziałem Dzień Inżyniera Generatora.",
-          "2": "&6Można go uzyskać przez wytopienie malachitu lub rodzimej miedzi."
-        },
-        "subtitle": "Metal podstawowy",
-        "title": "Miedź"
-      },
-      "0B511A89E11B553A": {
-        "description": {
-          "1": "Nosząc go na pasku z akcesoriami i ogrzewając go temperaturą ciała, może jednocześnie wydzielać niewielką ilość ciepła, ale jeśli temperatura będzie zbyt niska, pójdzie spać.",
-          "2": "Po wyrośnięciu użyj dowolnego noża w jednej ręce, a grządki w drugiej ręce, aby pokroić grzyby."
-        },
-        "subtitle": "Uprawa brązowych grzybów"
-      },
-      "0B5888E9CDE431AE": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród andezytu, łupka, bazaltu, czerwono-czarnego dacytu."
-        },
-        "subtitle": "Dużo miedzi"
-      },
-      "0B7A7EF07D539FC5": {
-        "description": {
-          "1": "Potrzebuje jednego zgniłego mięsa i nie może zawierać niczego niejadalnego ani lodowatego."
-        },
-        "subtitle": "Kuchnia zgniłego mięsa"
-      },
-      "0B94C2D4FAB6A54B": {
-        "description": {
-          "1": "Na podstawie żelaznego kilofa",
-          "2": "Zamontuj swój własny kilof!"
-        },
-        "subtitle": "Mocniejszy"
-      },
-      "0B9DBC18CEEC4CB2": {
-        "description": {
-          "1": "Drewniana beczka z łatką z brązu. Przechowuj więcej rzeczy niż kamienna skrzynia."
-        },
-        "subtitle": "Łatwe przechowywanie"
-      },
-      "0CA87739C86BB0C6": {
-        "description": {
-          "1": "Nosząc go na pasku z akcesoriami i ogrzewając go temperaturą ciała, może jednocześnie wydzielać niewielką ilość ciepła, ale jeśli temperatura będzie zbyt niska, pójdzie spać.",
-          "2": "Po wyrośnięciu użyj dowolnego noża w jednej ręce, a grządki w drugiej ręce, aby pokroić grzyby."
-        },
-        "subtitle": "Uprawiaj czerwone grzyby"
-      },
-      "0CDAFF3E5A013056": {
-        "description": {
-          "1": "Ponowne suszenie może zwiększyć wydajność o 25%"
-        },
-        "subtitle": "Nowoczesne paliwo"
-      },
-      "0E27E31FF6145D05": {
-        "description": {
-          "1": "Użyj cegieł wielkiego pieca, zbuduj konstrukcję 3x3x3 i kliknij prawym przyciskiem myszy jej środek młotkiem inżyniera"
-        }
-      },
-      "0ED9C71E91687BFA": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród tufu, mułów, kredy, łupków węglowych, dolomitu."
-        },
-        "subtitle": "Zawiera tlenek glinu"
-      },
-      "0F8B1303FEF36BD1": {
-        "description": {
-          "1": "Współpraca z lokomotywą z brązu generuje dużą moc."
-        },
-        "subtitle": "Nie mogę latać"
-      },
-      "0FEC22A5C56936DC": {
-        "subtitle": "Szybszy i mocniejszy"
-      },
-      "100B8B27C075D0DC": {
-        "description": {
-          "1": "Każdy sproszkowany węgiel można odsiarczyć w celu uzyskania wysokiej jakości sproszkowanego węgla, który można regenerować i formować na brykiety."
-        },
-        "subtitle": "Obróbka chemiczna"
-      },
-      "103E4FC987E00FC7": {
-        "description": {
-          "1": "Może pozwolić, aby małe koło zębate obracało się z dwukrotnie większą prędkością, co może być potrzebne w niektórych miejscach."
-        }
-      },
-      "10CB240A20A88FE0": {
-        "subtitle": "Około 30 oczek"
-      },
-      "10E9ACB93591D6BE": {
-        "description": {
-          "1": "Paliwo może łatwo generować energię, ale ogólna metoda spalania jest nieefektywna.",
-          "2": "Jeśli można zmienić kształt i skład chemiczny paliwa, aby poprawić wydajność spalania, to byłoby dobrze.",
-          "3": "Jednak zwiększona powierzchnia kontaktu z powietrzem sprawia, że paliwa te nie nadają się do wytapiania paliw."
-        },
-        "subtitle": "Wydajniej wykorzystuj paliwo",
-        "title": "Przetwarzanie paliwa"
-      },
-      "1120D6251E9B42C4": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród kredy, łupków węglowych, dolomitu, tufu, białego marmuru."
-        }
-      },
-      "11DD149796E14E81": {
-        "description": {
-          "1": "&lUtwórz młotek Tetra i kliknij prawym przyciskiem myszy stół rzemieślniczy.",
-          "2": "Da ci holograficzną kulę"
-        },
-        "subtitle": "Nielegalna modyfikacja"
-      },
-      "1233EF3CDF5E33F8": {
-        "description": {
-          "1": "Pnącza zawinięte w kulkę, może można je wysuszyć jako źródło ognia."
-        },
-        "subtitle": "Lodowata winorośl"
-      },
-      "13AA30FB9CD620EB": {
-        "description": {
-          "1": "Zbiera kreozot wytworzony podczas eksploatacji kopalni węgla drzewnego.",
-          "2": "&6Uwaga: Być może trzeba będzie spalić jeszcze kilka razy węgiel drzewny, aby uzyskać wystarczającą ilość oleju na beczkę.",
-          "3": "&6Umieść lejek do kreozotu poniżej dołu na węgiel drzewny, który ma płynąć, aby zebrać kreozot wyprodukowany przez dół na węgiel drzewny.",
-          "4": "Wyprodukowany olej kreozotowy będzie przechowywany w lejku kreozotowym, a olej kreozotowy można wyjąć z pojemników, takich jak beczki i wiadra ceramiczne."
-        },
-        "subtitle": "Kreozot!"
-      },
-      "13D9DE54DF8117C2": {
-        "description": {
-          "1": "& 6 Użyj Rozważania, aby zobaczyć metodę budowy Bloomery",
-          "2": "Po skonfigurowaniu bloomery przytrzymaj (Red) shift+prawy przycisk myszy i włóż ją do bloomery",
-          "3": "Następnie przytrzymaj (rudę lub paliwo) prawym przyciskiem myszy na bloku surowca i włóż resztę materiału do dymarki.",
-          "4": "Zapal na bloku surowca, aby uruchomić bloomery.",
-          "5": "&6&lbloomery potrzebuje wiatru z miechów podczas pracy.",
-          "6": "&6&lPo zakończeniu procesu &6natychmiast &6użyj kilofa, aby wykopać w nim bloki, aby uzyskać wlewki żelaza"
-        },
-        "subtitle": "Główna Blooming"
-      },
-      "1405F759FF532C22": {
-        "description": {
-          "1": "Węgiel drzewny można pozyskać bez wypalania, nie trzeba też robić wielu pieców koksowniczych."
-        },
-        "subtitle": "Węgiel drzewny"
-      },
-      "14D7D98FC5264B03": {
-        "description": {
-          "1": "Użyj ostrego noża, aby zniszczyć (oryginalne) liście, aby uzyskać ośnieżone pnącza.",
-          "3": "&6&lUwaga: Nóż jest wytwarzany w ekwipunku."
-        },
-        "subtitle": "Sekator"
-      },
-      "15B365E3F3EAFE79": {
-        "description": {
-          "1": "Umieszczaj przedmioty i pracuj z innymi maszynami, aby przetwarzać przepisy."
-        },
-        "subtitle": "Nie mogę siedzieć na ludziach"
-      },
-      "162264AE4B9EE1A9": {
-        "description": {
-          "1": "Używany do budowy pieców stopowych do uszlachetniania podstawowych stopów.",
-          "2": "&6 (nie zapomnij wlać paliwa)",
-          "3": "Proszę zapoznać się z Instrukcją Inżyniera dla metody budowy ~"
-        },
-        "subtitle": "Stop do wytapiania"
-      },
-      "16ADBE5F70B10285": {
-        "description": {
-          "1": "Klejenie sproszkowanego węgla drzewnego jest niewątpliwie prostszą metodą."
-        },
-        "subtitle": "Przyklej węgiel drzewny"
-      },
-      "17C359DCF058E698": {
-        "subtitle": "Transport płynów"
-      },
-      "17F033FB5ACAACFB": {
-        "description": {
-          "1": "Zastanów się nad tym, aby zobaczyć strukturę i animację."
-        },
-        "subtitle": "to jest punk"
-      },
-      "181378ABF5CCD166": {
-        "description": {
-          "1": "Formacje skalne &6 są generowane zgodnie z formacjami biomu.",
-          "3": "&6Ruda jest generowana zgodnie z warstwą skalną.",
-          "5": "Informacje o generowaniu będą wyświetlane dopiero po zakończeniu zadania wydobywczego."
-        },
-        "subtitle": "Niezbędne uwagi",
-        "title": "O tym świecie"
-      },
-      "19038BB5A9E42055": {
-        "description": {
-          "1": "&eStalowy tygiel jest bardziej zaawansowanym sprzętem do wytapiania niż oryginalny wielki piec.",
-          "2": "&6&lDo ogrzewania należy używać węgla koksowego.",
-          "3": "&6Musisz również zapewnić &4&l podgrzewacz do wielkiego pieca przy otworze.",
-          "4": "Kompilacja: od góry do dołu",
-          "5": "HHH HHH BBB BBB H = Cegła wysokoogniotrwała",
-          "6": "HHHH BBB BBB B = Komora spalania",
-          "7": "HHH HHH BBB BBB"
-        },
-        "subtitle": "Gorące tematy",
-        "title": "Tygiel stalowniczy"
-      },
-      "190859211258D56B": {
-        "subtitle": "Also an upgrade tool"
-      },
-      "19603323EAAFF726": {
-        "description": {
-          "1": "Klasyczny materiał budowlany uzyskuje się poprzez obróbkę obieranych bali na stemplu.",
-          "2": "Nie wiesz, skąd pochodzą obrane kłody?",
-          "3": "Kliknij prawym przyciskiem myszy na kłodę dowolnym siekierą, aby uzyskać obraną kłodę."
-        },
-        "subtitle": "Dobre materiały budowlane",
-        "title": "Deski"
-      },
-      "197308226CAE52C4": {
-        "description": {
-          "1": "&6&lJeśli prędkość nie jest wystarczająca, możesz spróbować przyspieszyć koło zębate w konfiguracji od dużej do małej",
-          "2": "Jedyny sposób na automatyczne odprowadzenie pary z kotła na wczesnym etapie."
-        },
-        "subtitle": "Wyciągnij parę z kotła"
-      },
-      "1974619E18DB754A": {
-        "description": {
-          "1": "Pij więcej gorącej wody [Goji to tradycyjne chińskie jedzenie umieszczane w wodzie dla zdrowia osób starszych]"
-        },
-        "subtitle": "Pamiętaj o jagodach goji"
-      },
-      "1AA5B1B0025EA6E6": {
-        "description": {
-          "1": "Zwykły chleb żytni"
-        },
-        "subtitle": "Chleb zielonkawy, ale dobrze smakuje."
-      },
-      "1AAA40B874A98211": {
-        "subtitle": "Może palić i jeść.",
-        "title": "Trociny"
-      },
-      "1B3C8681DF78AD16": {
-        "description": {
-          "1": "Samouczek stworzony przez entuzjastycznych graczy. Zapraszamy również do współtworzenia.",
-          "2": "Jeśli napotkasz jakieś problemy, możesz iść i rzucić okiem.",
-          "3": "Link: &6&lhttps://the-winter-rescue.fandom.com/wiki/The_Winter_Rescue_Wiki Chińska wersja: https://wiki.teammoeg.com/"
-        },
-        "subtitle": "Entuzjastyczny samouczek",
-        "title": "Wikipedia dla TWR"
-      },
-      "1C7830BE11F5FDCA": {
-        "description": {
-          "1": "Jednorazowe przedmioty są zbyt nietrwałe",
-          "2": "Może ci się to bardziej podoba"
-        },
-        "subtitle": "Może być używany więcej razy"
-      },
-      "1C8171C8FD1D0CD5": {
-        "description": {
-          "1": "Drewniane deski nasączone olejem kreozotowym.",
-          "2": "Jeśli to nie zadziała, po prostu połóż trochę mniej deski i oblicz według proporcji."
-        },
-        "subtitle": "Trudno się pogorszyć"
-      },
-      "1CD9EB4A39925BB8": {
-        "description": {
-          "1": "Utwórz: / ftbteams party craft<name> &6Zaleca się stworzenie zespołu na początku, aby inni mogli wejść",
-          "2": "Jeśli drużyna została już utworzona, polecenie nie może ponownie zacząć działać",
-          "4": "Zaproszenie: /zaproszenie na imprezę ftbteams<name>",
-          "5": "&6Utworzenie zespołu spowoduje utworzenie nowego postępu zadania, &4zaczynając od zera",
-          "6": "Dołączenie do zespołu &4&lmusi zsynchronizować postępy zadania z nowym zespołem"
-        },
-        "subtitle": "Wskazówki dotyczące tworzenia zespołu",
-        "title": "&6Notatki zespołu"
-      },
-      "1D7F2824DAF3BB7B": {
-        "description": {
-          "1": "Do jej wykonania potrzebny jest stół krzemienny. Służy do suszenia słomy."
-        },
-        "subtitle": "Suszący"
-      },
-      "1DF200F6772308C7": {
-        "description": {
-          "1": "Kliknij kamień prawym przyciskiem myszy, aby uzyskać informacje o pobliskich minerałach"
-        },
-        "subtitle": "Eksploracja geologiczna"
-      },
-      "1F2BD4A72596B287": {
-        "description": {
-          "1": "Pierwsze proste dynamo.",
-          "2": "&6Wyjściowa energia z tyłu i wejściowa prędkość obrotowa z przodu."
-        },
-        "subtitle": "Odetnij ze mną strumień magnetyczny"
-      },
-      "1F615C38B1A015E5": {
-        "description": {
-          "1": "Najedź myszką na poszukiwany przedmiot,",
-          "2": "Użyj R, aby zapytać o recepturę i U, aby zapytać, jakie elementy można wykonać."
-        },
-        "subtitle": "Twój najlepszy pomocnik, JEI",
-        "title": "Zapytanie o tabelę złożoną"
-      },
-      "1F94471C5310ECFA": {
-        "subtitle": "Brak prądu elektrycznego"
-      },
-      "20E078A9220D6114": {
-        "subtitle": "Źródło trufli"
-      },
-      "20F1DD1209093059": {
-        "description": {
-          "1": "Mieszany z pokarmem w celu zwiększenia sytości."
-        },
-        "subtitle": "Okazjonalnie uzyskiwany podczas rąbania drewna",
-        "title": "szumowiny drewna"
-      },
-      "215BC2E7271F1478": {
-        "description": {
-          "1": "Otwórz swój ekwipunek, aby sprawdzić swoją wartość odżywczą",
-          "2": "Jeśli twoja wartość odżywcza jest zbyt niska, górna granica twojego HP zostanie zmniejszona.",
-          "3": "Wartość odżywcza przekraczająca 80%% zwiększy górną granicę HP.",
-          "4": "Wysoki poziom cukru wywoła głód i przyspieszy efekt",
-          "5": "Wysoka zawartość białka zwiększy Twoją siłę."
-        },
-        "subtitle": "Zbilansowana dieta",
-        "title": "Odżywianie"
-      },
-      "2406D98489C938B8": {
-        "description": {
-          "1": "Zapewnia dobry efekt izolacji",
-          "2": "&6&lBez handlu, bez zabijania. &rPonownie, to nie jest w prawdziwym świecie!"
-        },
-        "subtitle": "Futro"
-      },
-      "2422C77587FDEE28": {
-        "description": {
-          "1": "Wyjąłeś osobisty notatnik i zapisałeś swoje nazwisko po niezliczonych notatkach swoich poprzedników.",
-          "2": "Postaw stopę na tej niekończącej się zimie samotnie, Twoim jedynym celem jest „Przeżyć!”.",
-          "3": "„Jeśli jest nadzieja, wszystko się poprawi”.",
-          "4": "&6Wybierz Rozdział 2 z listy zadań po lewej stronie, aby rozpocząć odtwarzanie."
-        },
-        "subtitle": "Przetrwać!",
-        "title": "Odjazd"
-      },
-      "24720864351339DC": {
-        "description": {
-          "2": "To niesmaczne, ale może wypełnić żołądek."
-        },
-        "subtitle": "Chleb z trocinami"
-      },
-      "248D44C92972DF23": {
-        "subtitle": "Mały i przenośny"
-      },
-      "25061B159D32453A": {
-        "description": {
-          "1": "Nie zabrałem zbyt wiele rzeczy osobistych, ale radar prognozy pogody musi być przywieziony."
-        },
-        "subtitle": "Na szczęście sporo rzeczy potajemnie ukryłam",
-        "title": "Rzeczy osobiste"
-      },
-      "263F5ADF4A6CDF5A": {
-        "subtitle": "Twórz większe przedmioty"
-      },
-      "279DA3B6F5DE7753": {
-        "subtitle": "Kryształy krzemionki zmieszane z czerwonym kamieniem"
-      },
-      "29067D9CA0B3DC45": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Łupek mikowy, ryolit, komatyt, laporyt bazalt, komatyt, czerwony czarny dacyt, granodioryt, szary granit"
-        },
-        "subtitle": "Zawiera dużo antymonu"
-      },
-      "291DA52EE6F8E5AF": {
-        "description": {
-          "1": "Węgiel drzewny może również poprawić wydajność spalania poprzez mielenie"
-        },
-        "subtitle": "zrównoważony rozwój"
-      },
-      "29533DFBD579CA2F": {
-        "description": {
-          "1": "Służy do wdmuchiwania powietrza do bloomery.",
-          "2": "Jeden port może zasilać wiele mieszków do pracy."
-        },
-        "subtitle": "Tuyere"
-      },
-      "29556685F57F6657": {
-        "description": {
-          "1": "Magnezyt jest układany w bloki, a następnie wypalany."
-        },
-        "subtitle": "Po obróbce z magnezytu"
-      },
-      "29BC87594650152D": {
-        "description": {
-          "1": "W tym lodzie i śniegu słoma jest kluczem do rozpalenia ognia. Spróbuj użyć suszarki do suszenia ośnieżonych winorośli."
-        },
-        "subtitle": "Łatwy zapłon"
-      },
-      "29DCBBB54EE90E51": {
-        "description": {
-          "1": "Umieszczenie lawy z przodu może służyć jako piec.",
-          "2": "Umieszczenie wody z przodu może służyć do prania minerałów.",
-          "3": "Wstawienie płomienia z przodu może służyć jako wędzarnia.",
-          "4": "W większości przypadków musi być używany z przenośnikiem taśmowym."
-        },
-        "subtitle": "Pojedyncza maszyna, użycie flaków"
-      },
-      "2A8533418E3A8B06": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród łupków miki, ryolitów, komatytów i czerwono-czarnego dacytu."
-        }
-      },
-      "2AE5C29C6D65FB00": {
-        "description": {
-          "1": "Niektóre węgle są wysokiej jakości i można je łączyć w brykiety, dodając niewielką ilość oleju."
-        },
-        "subtitle": "Po prostu upraszcza produkcję"
-      },
-      "2D2811664F308756": {
-        "description": {
-          "1": "Elektrolizer do produkcji luzem",
-          "2": "Może produkować dwa różne płyny."
-        },
-        "subtitle": "Duży elektrolizer"
-      },
-      "2D570AD59FE2D6E1": {
-        "description": {
-          "1": "Zastanów się nad &6&lInvar Block&r, sprawdź strukturę &b&lJeśli górna część struktury nie jest wyświetlana, po prostu zmniejsz \"Ustawienia wideo\"-\"Rozmiar interfejsu\"",
-          "2": "&6&lŚrodek na dole:&rWprowadź wodę, aby włączyć generator",
-          "3": "Energia cieplna może być wyprowadzana na sąsiednie cztery ściany na dole &6&l&r&e&lJeśli nie jest wyświetlana w rozważaniach, górna trójwarstwowa struktura wygląda następująco:",
-          "4": "A = Cegły ogniotrwałe B = Blacha stalowa C = Rura z płynem",
-          "5": "D = rdzeń generatora E = rusztowanie stalowe D = blok inwarowy",
-          "6": "ABA BBB ADA",
-          "7": "BEB BDB DCD",
-          "8": "ABA BBB ADA"
-        },
-        "subtitle": "Zaopatrzenie w ciepło",
-        "title": "Generator drugiego poziomu"
-      },
-      "2E0E35B379A20F7C": {
-        "description": {
-          "1": "Kiedy zaczęła się ta zima?",
-          "2": "To może być odpowiedź, której musisz szukać..."
-        },
-        "subtitle": "Puzzle",
-        "title": "Zanim nadejdzie zima"
-      },
-      "2E54EBA4E016412C": {
-        "description": {
-          "1": "Aby z niej korzystać, musisz naładować ładowarkę parową",
-          "2": "Zapewnij stabilne ogrzewanie w zależności od temperatury otoczenia",
-          "3": "Niezbędny dla odkrywców"
-        },
-        "subtitle": "Iron Man to właściwie ja"
-      },
-      "2E96E546DCA1486C": {
-        "description": {
-          "1": "Generator pierwszego stopnia może spalać tylko węgiel, węgiel drzewny lub koks jako paliwo"
-        },
-        "title": "Paliwo"
-      },
-      "3078BCEE3E402DED": {
-        "description": {
-          "1": "Podstawowy pojemnik na płyn."
-        },
-        "subtitle": "Bardzo pełny"
-      },
-      "3102993072F3C8B9": {
-        "description": {
-          "1": "Główna platforma rzemieślnicza na wczesnym etapie.",
-          "3": "&6&lKliknij prawym przyciskiem myszy, aby umieścić składnik rzemieślniczy i zakończ, używając wymaganego narzędzia, aby kliknąć prawym przyciskiem myszy.",
-          "5": "&6&lZwróć uwagę na orientację stołu roboczego i rozróżnij jego typ."
-        },
-        "subtitle": "Mielenie i przetwarzanie"
-      },
-      "31ED006279866288": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród łupków miki, ryolitów, komatytów i czerwono-czarnego dacytu."
-        },
-        "subtitle": "Ruda siarczku żelaza"
-      },
-      "328D948C4C800873": {
-        "description": {
-          "1": "To jest? Stoł warsztatowy!",
-          "2": "&ema już odblokowane niektóre linie gałęzi, możesz to rozważyć."
-        },
-        "subtitle": "stoł warsztatowy"
-      },
-      "32A497C69C641D2B": {
-        "description": {
-          "1": "&6&lNatężenie pary musi być wystarczająco duże, aby działało. Wypróbuj korbę ręczną z dużym kołem zębatym na pompie.",
-          "2": "Możesz użyć gogli, aby sprawdzić stan biegu"
-        },
-        "subtitle": "Parowy"
-      },
-      "32DB7CCD0A73D98F": {
-        "description": {
-          "1": "Bele siana doskonale nadają się do uprawy odpornych na stres rozkładających się grzybów."
-        },
-        "subtitle": "Uprawa bezglebowa",
-        "title": "Pożywka grzybicza"
-      },
-      "32E5D942F1FE8645": {
-        "description": {
-          "1": "Rozglądając się, wydaje się, że nie widać żwiru.",
-          "2": "Dlaczego nie zajrzeć pod &b&l pokryte lodem koryto rzeki?",
-          "3": "(Krzemień można zdobyć poprzez bezkształtne wytworzenie trzech żwirów)",
-          "4": "Możesz też wykopać śnieżną ziemię, aby przypadkiem zdobyć krzemień. Zdobądź kij, łamiąc liście.",
-          "5": "&6&lJeśli istnieją inne opisy zadań, których nie czytałeś, prosimy o cierpliwość i czytaj je jeden po drugim."
-        },
-        "subtitle": "Żwir",
-        "title": "Kopanie ziemniaków „Prawdziwa Syberia”"
-      },
-      "33B6E7B60783C72B": {
-        "description": {
-          "1": "Woda w twoim ciele jest bardzo ważna.",
-          "2": "&6Z termosu, który znalazłeś na swoim statku, możesz kliknąć prawym przyciskiem myszy na źródło wody, aby napełnić wodę",
-          "3": "6Ale to jest woda nieoczyszczona i po jej wypiciu będziesz spragniony.",
-          "4": "Aby uniknąć efektu pragnienia, musisz pić oczyszczoną wodę. Zapas czystej wody, który masz na początku wystarczy, abyś przez chwilę się napił",
-          "5": "Po zdobyciu filtra wody lub ogniska możesz oczyścić lub zagotować czystą wodę."
-        },
-        "subtitle": "Woda jest pierwszą potrzebą ludzi",
-        "title": "Picie"
-      },
-      "348EB1588EFAD2AB": {
-        "description": {
-          "1": "& 6 Niezbędne narzędzie do tworzenia z krzemiennym stołem warsztatowym",
-          "2": "Czasami potrzebne jest inne narzędzie, zwróć uwagę, aby sprawdzić przepis JEI",
-          "4": "&6&lUwaga: Ten nóż jest wytwarzany w twoim ekwipunku."
-        },
-        "subtitle": "Obróbka zgrubna"
-      },
-      "3549A50510878505": {
-        "description": {
-          "1": "Poradzi sobie ze wszystkimi bezkształtnymi przepisami rzemieślniczymi."
-        },
-        "subtitle": "Garnek tęczowej owsianki"
-      },
-      "35E5CE37A2F8EB90": {
-        "description": {
-          "1": "Zwolniony, aby uzyskać niegaszone wapno"
-        },
-        "subtitle": "Wysoka"
-      },
-      "3622C3DFDB5D8E02": {
-        "description": {
-          "1": "Przytrzymaj dowolny rodzaj bibuły filtracyjnej i kliknij prawym przyciskiem myszy filtr wody, aby go zainstalować.",
-          "2": "Bibuła filtracyjna jest trwała. Możesz napełnić górę wiadrem itp. i poczekać na otrzymanie czystej wody na dole."
-        },
-        "subtitle": "Oczyścić"
-      },
-      "36960F1D7CDC8B30": {
-        "description": {
-          "1": "W miejscu, w którym się usadowisz, możesz przywrócić temperaturę ciała i siłę fizyczną, a także oczywiście grillować.",
-          "2": "Jeśli nie ma innych narzędzi zapłonowych,",
-          "3": "Przytrzymaj krzemienie obiema rękami i kliknij prawym przyciskiem myszy, aby spróbować zapalić.",
-          "5": "&6 Ognisko zgaśnie,",
-          "6": "&6Wrzucanie kłód i innych paliw do ognia może pozwolić na jego dłuższe spalanie"
-        },
-        "subtitle": "Rozgrzewka"
-      },
-      "3840FFD53990ECA2": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród łupków miki, ryolitu, komatytu, bazaltu porfirowego, granitu, diorytu, pegmatytu."
-        },
-        "subtitle": "Czyste złoto"
-      },
-      "3A91A02EB59A7919": {
-        "description": {
-          "1": "Kolejny metal, który można obecnie wytapiać,",
-          "2": "Może da się zrobić lepszy stop.",
-          "3": "&6Większość rud niklu znajduje się w głębokiej skale magmowej"
-        },
-        "subtitle": "Lepszy metal",
-        "title": "Nikiel"
-      },
-      "3B5663CF194B054C": {
-        "description": {
-          "1": "W tym lodowatym świecie.",
-          "2": "Musisz utrzymywać dobrą temperaturę ciała.",
-          "3": "Przebywanie w pobliżu ogniska lub generatora może skutecznie utrzymać temperaturę ciała.",
-          "4": "Może później będziesz potrzebować przyrządów do pomiaru różnych temperatur",
-          "5": "Takich jak: termometr rtęciowy, termometr glebowy"
-        },
-        "subtitle": "Czynniki przeżycia",
-        "title": "Temperatura"
-      },
-      "3B7B7A0BC0CF3CE0": {
-        "description": {
-          "1": "Proste urządzenie zapłonowe,",
-          "2": "Długo naciśnij prawy przycisk, aby zapalić;"
-        },
-        "subtitle": "Jednorazowy zapłon"
-      },
-      "3C4CEEBFF8DCF448": {
-        "description": {
-          "1": "Jeden z głównych składników brązu.",
-          "2": "&6Otrzymywany przez wytop kasyterytu lub rodzimej cyny"
-        },
-        "subtitle": "Skład stopu",
-        "title": "Uwierzyć"
-      },
-      "3CC2245A281AABC1": {
-        "description": {
-          "1": "Najlepszy partner dla mikserów i pras"
-        },
-        "subtitle": "Żelazna umywalka"
-      },
-      "3E8F565DE61309B2": {
-        "description": {
-          "1": "Jeśli grałeś w Create, prawdopodobnie znasz drewniane koła zębate.",
-          "2": "Jednak w tej chłodnej pogodzie produkty z drewna są zbyt słabe.",
-          "3": "Tutaj minimalnym materiałem wymaganym do wykonania kół zębatych jest &ebronze."
-        },
-        "subtitle": "Zapomnij o drewnianych kołach zębatych"
-      },
-      "3EE690327B36D6E0": {
-        "description": {
-          "1": "Szkło może być użyte do wykonania filtra do wody"
-        },
-        "subtitle": "Łatwiejsza woda",
-        "title": "Wytapianie szkła"
-      },
-      "3EF706F5A31CDDD6": {
-        "description": {
-          "1": "Podłącz do spodu działającego generatora, aby przesyłać energię cieplną pod wysokim ciśnieniem"
-        },
-        "subtitle": "Ściśle związane"
-      },
-      "401439E8C1AA7A0A": {
-        "subtitle": "Kondensator produkcyjny"
-      },
-      "40254682DFE145B8": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Dioryt, ryolit, piroksen gabro, granodioryt, komatiite"
-        },
-        "subtitle": "Ruda niklu"
-      },
-      "409679774573DA63": {
-        "description": {
-          "1": "&6Przetwarzaj bloki gliny na różne produkty z gliny.",
-          "2": "Połóż gliniany blok na ziemi i użyj kielni, aby kliknąć prawym przyciskiem myszy",
-          "3": "Możesz kliknąć prawym przyciskiem myszy wiele razy, aby uzyskać różne gotowe produkty"
-        },
-        "subtitle": "Przetwarzanie gliny"
-      },
-      "4138E3A9915F811C": {
-        "description": {
-          "1": "Z aluminium można budować lekkie maszyny przemysłowe!",
-          "2": "Np. Mikser"
-        },
-        "subtitle": "Maszyny immersyjne",
-        "title": "Lekki przemysł"
-      },
-      "417AC14073DD4249": {
-        "description": {
-          "1": "Proste łóżko do ustawienia punktu odrodzenia."
-        },
-        "subtitle": "Nie mogę marzyć"
-      },
-      "41D8E04627E55A86": {
-        "description": {
-          "1": "Teraz możesz łatwiej obchodzić się z drewnem"
-        }
-      },
-      "42AF456D165CBF75": {
-        "description": {
-          "1": "Musi użyć noża krzemiennego do skórowania futra.",
-          "2": "Twardy materiał",
-          "3": "Mogą być używane do wykonywania pasów (pasów), które są mocniejsze niż zwykłe liny"
-        },
-        "subtitle": "Twardy i elastyczny"
-      },
-      "42D860535BFF35C4": {
-        "description": {
-          "1": "Dodając żel do wysokiej jakości proszku węglowego, możesz wykorzystać paliwo z maksymalną wydajnością."
-        },
-        "subtitle": "Luksusowy wybór"
-      },
-      "443AD02B85632386": {
-        "description": {
-          "1": "Uzyskiwany z dzikich zwierząt",
-          "2": "Niedźwiedzie polarne, jelenie czy mamuty na lodzie morskim to dobry wybór, jest ich teraz za dużo",
-          "3": "&6&lNiedźwiedzie polarne są w rzeczywistości zagrożonymi stworzeniami, proszę chroń dzikie zwierzęta!"
-        },
-        "subtitle": "Niektóre włosy z futrem"
-      },
-      "4543F3B5F937E6B0": {
-        "description": {
-          "1": "Wlać wapno palone do beczki z wodą, aby uzyskać wodę wapienną.",
-          "2": "Gdzie mogę znaleźć piasek?",
-          "3": "Oczywiście jest w rzece",
-          "4": "(Właściwie pustynia też jest w porządku)"
-        },
-        "subtitle": "Jest w rzece"
-      },
-      "4548F432A872DA92": {
-        "description": {
-          "1": "Niektóre receptury wymagają do normalnego przetwarzania środowiska o wysokiej temperaturze.",
-          "2": "Ta komora spalania może to łatwo zrobić."
-        },
-        "subtitle": "Stowarzyszenie Ochrony Pożarów zdecydowanie to potępia"
-      },
-      "45E2EF843333B846": {
-        "description": {
-          "1": "Jedno z ważnych narzędzi. Zacznij wydobywać!",
-          "2": "&6Po wykonaniu tej czynności możesz dowiedzieć się o generowaniu minerałów w rozdziale Informacje o świecie po lewej stronie."
-        },
-        "subtitle": "Narzędzia górnicze"
-      },
-      "4600CF7553C26ED0": {
-        "description": {
-          "1": "Szlifuj przedmioty, które nie są tak twarde."
-        },
-        "subtitle": "Nie musisz robić tego sam"
-      },
-      "4625CA3FEAF6908B": {
-        "description": {
-          "1": "Wykorzystywana do budowy gablotek, a także może służyć do budowy domów."
-        },
-        "subtitle": "Odporne na wysoką temperaturę"
-      },
-      "46BF095F50804FCC": {
-        "description": {
-          "1": "Statek kosmiczny był pokryty gęstym lodem i śniegiem, ale ciepło resztkowe z ogona otworzyło właz.",
-          "2": "Cierpliwie sprawdziłeś najważniejszy inwentarz."
-        },
-        "subtitle": "Uszkodzony statek",
-        "title": "Szczyt góry"
-      },
-      "47F458D8E94E5367": {
-        "description": {
-          "1": "Huhuhu ~",
-          "2": "Zalecane są co najmniej dwa miechy wiatrowe.",
-          "3": "&6&lZwróć uwagę na orientację otworu wentylacyjnego"
-        },
-        "subtitle": "Spalanie tlenu"
-      },
-      "47F9EC8C18040D6D": {
-        "subtitle": "Latanie na śniegu"
-      },
-      "4845A9B7B7B2B4A5": {
-        "subtitle": "Naśladuj gracza prawym przyciskiem myszy"
-      },
-      "48C50ABC7AE7C575": {
-        "description": {
-          "1": "Podobny do węgla drzewnego, ale może palić się dłużej."
-        },
-        "subtitle": "Trwały",
-        "title": "Węgiel koksowy"
-      },
-      "48D63E2DA4BF2E9C": {
-        "description": {
-          "1": "Moczenie węgla drzewnego w oleju i tłoczenie go może nieznacznie poprawić efektywność wykorzystania węgla drzewnego. Ale węgiel drzewny jest zbyt sypki, trzeba zapłacić dużo oleju, aby go związać."
-        },
-        "subtitle": "Miska ryżu dla matki i dziecka"
-      },
-      "48F3102B3AA99313": {
-        "description": {
-          "1": "Jeden z surowców cegieł ogniotrwałych.",
-          "2": "&rozproszył się w górnej skale osadowej"
-        }
-      },
-      "4926C4062339E018": {
-        "subtitle": "Stosowany w urządzeniach elektrycznych i sprzęcie energetycznym"
-      },
-      "4A4D6D0DC9B348C1": {
-        "description": {
-          "1": "Kamień był kuty."
-        },
-        "subtitle": "Młotek"
-      },
-      "4B6840707D77E2C0": {
-        "description": {
-          "1": "Ma lepszą wydajność niż czysta miedź."
-        },
-        "subtitle": "Podstawowy materiał"
-      },
-      "4BBE69E2E2A4276F": {
-        "description": {
-          "1": "Lekki blok inżynieryjny znajduje się na dole, a dwa bloki z blachy stalowej znajdują się na górze. Kliknij prawym przyciskiem myszy młotkiem inżyniera",
-          "2": "Użyj rurek cieplnych, aby połączyć się z generatorem drugiego poziomu w pracy",
-          "3": "Może ogrzać część otoczenia i stopić śnieg i lód"
-        },
-        "subtitle": "Rozbuduj swoją bazę",
-        "title": "Podgrzewacz"
-      },
-      "4BD8236FEEBD7D3A": {
-        "description": {
-          "1": "&6Kamień uzyskuje się przez wypalanie w piecu garncarskim&4&lz dowolnym innym kamieniem &r&6.",
-          "3": "&6&lPiec garncarski musi być otoczony blokami ze wszystkich stron.",
-          "5": "&6&lKliknij prawym przyciskiem myszy, aby umieścić kamienie, kliknij prawym przyciskiem myszy sześć słomek i trzy kłody, aby je wypełnić.",
-          "6": "Po napełnieniu przytrzymaj narzędzie zapłonu i przytrzymaj prawy przycisk, aby go zapalić."
-        },
-        "subtitle": "Twardy kamień"
-      },
-      "4CC5E16EFDE1368C": {
-        "description": {
-          "1": "Rodzaj żelazostopu niskoemisyjnego.",
-          "2": "Bardzo ciemna, bardzo twarda.",
-          "3": "Służy do wykonywania większości konstrukcji mechanicznych, takich jak wały."
-        },
-        "subtitle": "Solidne czarne złoto"
-      },
-      "4CD30E566C5776E0": {
-        "description": {
-          "1": "Narzędzia z brązu są twardsze i trwalsze niż narzędzia krzemienne."
-        },
-        "subtitle": "Narzędzia do aktualizacji"
-      },
-      "4D0ECD01E0CC7C8C": {
-        "description": {
-          "1": "Działa przy dostarczaniu impulsów czerwonego kamienia."
-        }
-      },
-      "4DD7D3E4613000E4": {
-        "subtitle": "Prosta obrona"
-      },
-      "4E2FF1AFA626A42B": {
-        "description": {
-          "1": "Żyto jest jedną z najbardziej odpornych na niskie temperatury roślin uprawnych. Żyto możesz zbierać po włączeniu generatora jako początkowej racji żywnościowej."
-        },
-        "subtitle": "Rośliny odporne"
-      },
-      "4E3C1F4BDB921B8E": {
-        "description": {
-          "1": "Tutaj przechowywane są początkowe zapasy: czysta woda, żywność i ubrania.",
-          "2": "Pospiesz się i wyposaż ich.",
-          "3": "Nie zapomnij zabrać ze sobą tej łopaty, bardzo się przyda."
-        },
-        "subtitle": "Dobra?",
-        "title": "Kabina"
-      },
-      "4F279E9DBFD52861": {
-        "description": {
-          "1": "Powstaje przez wypalanie dowolnego kamienia zawierającego węglan wapnia."
-        },
-        "subtitle": "Szybkie strzelanie"
-      },
-      "50428AA91D1E1EFF": {
-        "description": {
-          "1": "Zgniłe mięso jest obrzydliwe. Jeśli potraktujemy to specjalnie, prawdopodobnie dostaniemy normalną kuchnię."
-        },
-        "subtitle": "Symulator jadalni",
-        "title": "Przetwarzanie zgniłego mięsa"
-      },
-      "506C01A9BE167F7F": {
-        "description": {
-          "1": "Włóż dowolną siatkę do sieci, aby złapać rybę",
-          "2": "& 6 Muszą być dokładnie zanurzone w wodzie, aby działały"
-        },
-        "subtitle": "Zimowy staw rybny"
-      },
-      "5287CFB7B7D5285E": {
-        "description": {
-          "1": "Dzięki piecowi koksowniczemu nie ma potrzeby ciągłego układania dołów na węgiel drzewny!"
-        },
-        "subtitle": "Piec koksowniczy!"
-      },
-      "52B0059C59DF67B5": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród tufu, czarno-białego marmuru, brekcji."
-        },
-        "subtitle": "Chociaż może być używany jako barwnik, jest również kopalnią miedzi"
-      },
-      "539631D18E7A9B4A": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród kamieni kredowych, łupków węglowych, dolomitów, tufów, brekcji, mułowców."
-        }
-      },
-      "543F5BC239D07C40": {
-        "description": {
-          "1": "Naciśnij E, aby otworzyć ekwipunek i kliknij małą mapę w lewym górnym rogu.",
-          "2": "Lub naciśnij M, aby otworzyć mapę, taką samą jak mała mapa w lewym górnym rogu.",
-          "4": "&6&lProszę używać systemu zespołu ftbteam do zarządzania uprawnieniami"
-        },
-        "subtitle": "Odbieranie porcji ma znaczenie",
-        "title": "&Części 6FTB"
-      },
-      "5581901DD85F746D": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród łupków miki, ryolitu, komatytu, bazaltu porfirowego, granitu, diorytu, pegmatytu."
-        },
-        "subtitle": "Fluor"
-      },
-      "55BE6F159CF89342": {
-        "description": {
-          "1": "&6Połóż go na bagażniku Saringi i zawieś puste wiadro, aby zebrać lateks"
-        },
-        "subtitle": "Ekstraktor"
-      },
-      "55C39831FBBB94D8": {
-        "subtitle": "Jeszcze nie wypuszczony",
-        "title": "Generator czwartego poziomu"
-      },
-      "57C83EF2BAA418AD": {
-        "description": {
-          "1": "From T2 Generator, Generator needs heat conducting medium to utilize its full strength. Not providing heat conducting medium to it will result in nothing different than T1 Generator. You can visit this in detial in JEI. ",
-          "2": "Input water can provide energy, but it will not boost the heating range nor the temperature.",
-          "3": "Input steam can allow T2 Generator to operate at its optimum while boosting its heating range and temperature."
-        },
-        "subtitle": "Hotter"
-      },
-      "5808CFED17AE91D4": {
-        "description": {
-          "1": "Surowiec do wytopu aluminium."
-        },
-        "subtitle": "Składnik do wytapiania"
-      },
-      "5845439CF721309F": {
-        "description": {
-          "1": "Praktyczna maszyna, dzięki której możesz zwiększyć produkcję talerzy i oczywiście możesz też zrobić czekoladę."
-        },
-        "subtitle": "Ogromny stres"
-      },
-      "586D66C71A378A82": {
-        "description": {
-          "1": "Strategia prymitywna zamienia dwie sztabki w jedną płytkę."
-        },
-        "subtitle": "Metalowy talerz",
-        "title": "Miedziana taca"
-      },
-      "58912971B356779C": {
-        "description": {
-          "1": "Użyj rurek cieplnych, aby połączyć się z generatorem drugiego poziomu w pracy",
-          "2": "Przytrzymaj odpowiedni przedmiot i kliknij prawym przyciskiem myszy, aby naładować za pomocą pary/ciepła",
-          "3": "Takich jak: kamizelki grzewcze, butelki na wodę i wszelka żywność, która musi być wędzona"
-        },
-        "subtitle": "Może być nawet używany do gotowania"
-      },
-      "58AB0B83E545475C": {
-        "subtitle": "Śpij spokojnie"
-      },
-      "58EF2132D0431323": {
-        "description": {
-          "1": "Rozważanie to bardzo ważna umiejętność.",
-          "2": "Jeśli pod przedmiotem znajduje się przypomnienie o Rozważaniu, naciśnij i przytrzymaj W, aby wejść do sceny Rozważania.",
-          "3": "Rozważanie może pomóc w zrozumieniu celu bloku lub tego, jak zbudować strukturę."
-        },
-        "subtitle": "Ważna umiejętność",
-        "title": "Rozmyślanie"
-      },
-      "5907E1263E6D81E2": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród łupków miki, ryolitów, komatytów i czerwono-czarnego dacytu."
-        },
-        "subtitle": "Duże ilości ołowiu"
-      },
-      "5B8BA38FF8C93A1A": {
-        "subtitle": "Najbardziej podstawowy drut"
-      },
-      "5C3681B30ADB26B9": {
-        "description": {
-          "1": "Wymaga garnka do zrobienia.",
-          "2": "formuła:",
-          "3": "1 część mąki żytniej + 1 miska + 1 część trocin + dowolne nadzienie (niejadalne)"
-        },
-        "subtitle": "Owsianka żytnia, ale z trocinami"
-      },
-      "5C8730E4484959B9": {
-        "description": {
-          "1": "Przekuj wszystkie swoje narzędzia."
-        },
-        "subtitle": "Początek rzemiosła",
-        "title": "Pierwszy krok doposażenia"
-      },
-      "5CCD8F05D7402D4B": {
-        "subtitle": "Towary premium"
-      },
-      "5D52744D5382A6CA": {
-        "description": {
-          "1": "Wysokowydajny metal przemysłowy na zimno."
-        },
-        "subtitle": "Lekki i elastyczny",
-        "title": "Niebieskawy aluminium"
-      },
-      "5D803F0865A90DE0": {
-        "description": {
-          "1": "Oczywiście możesz odśnieżać"
-        },
-        "subtitle": "Zrób drogę"
-      },
-      "5DD231E4178E830D": {
-        "description": {
-          "1": "&6Może być bezkształtny w połączeniu z dowolnym elementem zbroi, który nie może się ogrzać.",
-          "2": "Spraw, aby miał właściwości rozgrzewające słomy."
-        },
-        "subtitle": "Coś w środku"
-      },
-      "5E3A878B95133DAD": {
-        "description": {
-          "1": "Dostarcza dokładnych informacji na temat rudy w małym regionie."
-        },
-        "subtitle": "doktorat w geologii"
-      },
-      "5F455ED38549D9EF": {
-        "subtitle": "Jeszcze nie wypuszczony",
-        "title": "Generator trzeciego poziomu"
-      },
-      "6000F43C135FC068": {
-        "description": {
-          "1": "Moc generowana przez ręczną korbę nie jest duża, ale przy dużym kole zębatym wystarczy wypompować ilość pary, która może napędzać silnik parowy z brązu.",
-          "2": "Po skonfigurowaniu silnika parowego możesz uwolnić ręce.",
-          "3": "Potrzebujesz go do napędzania niektórych podstawowych maszyn, takich jak miksery."
-        },
-        "subtitle": "Siła ludu"
-      },
-      "60C1118A879D4548": {
-        "subtitle": "\"Idę, umierasz\"",
-        "title": "Epoka lodowcowa — powrót mamuta"
-      },
-      "60F112EDA31F73F5": {
-        "description": {
-          "1": "Gdy właz się otworzył, zobaczyłeś na zewnątrz ogromną przestrzeń bieli.",
-          "2": "Przypominając sobie, co powiedział mi kapitan przed wyjazdem: „Ten świat jest już zagrożony, musisz zrobić wszystko, aby przywrócić ten świat do normy”.",
-          "3": "\"Nie mam nic do pomocy, mogę tylko życzyć powodzenia\".",
-          "4": "Wracając z pamięci, wyszedłeś z włazu, rozejrzałeś się: cisza.",
-          "5": "Zrozumiałeś, że teraz możesz polegać tylko na sobie."
-        },
-        "subtitle": "Wstęp",
-        "title": "Zima"
-      },
-      "61DD1DCCB9CCBFBF": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Pegmatyt, ryolit, kwarcyt, piaskowiec kwarcowy"
-        },
-        "subtitle": "Duże ilości cyny"
-      },
-      "634DBB9E76CD029B": {
-        "description": {
-          "1": "&6Jako elektryk ta para okularów jest niezbędna.",
-          "2": "Po jego założeniu można zobaczyć wiele wewnętrznych informacji o maszynach i urządzeniach parowych."
-        },
-        "subtitle": "Dodatkowe informacje"
-      },
-      "6356C6E09463F6AE": {
-        "description": {
-          "1": "Po wyschnięciu otrzymujesz węgiel drzewny o strukturze plastra miodu."
-        },
-        "subtitle": "Brykiety w wersji na węgiel drzewny"
-      },
-      "6417209CD8ADABEC": {
-        "description": {
-          "1": "Służy do wykonywania cegieł ogniotrwałych."
-        }
-      },
-      "643B93BCE91A0BB9": {
-        "description": {
-          "1": "Samo belowanie i suszenie siana może zwiększyć wydajność spalania."
-        },
-        "subtitle": "Po prostu sprasuj siano razem"
-      },
-      "647F24083B2703FF": {
-        "description": {
-          "1": "Krystalizator do produkcji luzem.",
-          "2": "Posiada dwa gniazda wejściowe."
-        },
-        "subtitle": "Duży krystalizator"
-      },
-      "6577F4E013F76B98": {
-        "subtitle": "Krzemionka"
-      },
-      "66505076652885B8": {
-        "description": {
-          "1": "Drzwi wykonane z brązu. Może być używany jako część wykopu na węgiel drzewny dla łatwego dostępu.",
-          "2": "Uwaga: Kierunek drzwi powinien dotykać stosu węgla w wyrobisku węgla drzewnego."
-        },
-        "subtitle": "FBI otwiera drzwi"
-      },
-      "66A550B05F529CD5": {
-        "subtitle": "Obfita energia",
-        "title": "Większy alternator"
-      },
-      "66EFFD59083624BF": {
-        "description": {
-          "1": "Cegły z piasku mają dobre właściwości termoizolacyjne."
-        },
-        "subtitle": "Surowa cegła z piasku"
-      },
-      "6738A3C34A872FED": {
-        "description": {
-          "1": "Wymaga miksera i palnika Blaze"
-        },
-        "subtitle": "Odporność na wysoką temperaturę"
-      },
-      "6746167385331F16": {
-        "description": {
-          "1": "Zupa jarzynowa przeszywająca gardło.",
-          "2": "Przepis:",
-          "3": "Co najmniej 1 część dowolnego warzywa + 1 część trocin + 1 miska + dowolne nadzienie (niejadalne)"
-        },
-        "subtitle": "Czy naprawdę możesz to wypić?"
-      },
-      "67486831FE3C0FBA": {
-        "description": {
-          "1": "Zobacz główny blok, aby zastanowić się, jak budować",
-          "2": "Umieść odpowiedni (kompletny blok) na cegle ogniotrwałej",
-          "3": "&6Kliknij prawym przyciskiem myszy główny blok z krzemieniem i stalą, co wymaga otwartego powietrza."
-        },
-        "subtitle": "To inny rodzaj pieca"
-      },
-      "678491900C7F03F2": {
-        "description": {
-          "1": "Redstone można uzyskać, przetwarzając cynober"
-        }
-      },
-      "688C57B7BC46E723": {
-        "description": {
-          "1": "Musisz użyć mechanicznej ręki i przenośnika taśmowego, aby zbudować linię montażową do montażu kondensatora."
-        },
-        "subtitle": "Magazynowanie energii"
-      },
-      "689BB00EC2454F1F": {
-        "description": {
-          "1": "&6Jeden węgiel może przetopić tylko jedną rudę,",
-          "2": "Być może użycie węgla zaoszczędzi trochę więcej."
-        },
-        "subtitle": "Mały brzuch, duża pojemność."
-      },
-      "69D939596ED4C0AF": {
-        "description": {
-          "1": "Generator jest rdzeniem tego modpacka, dużej wieloblokowej struktury używanej do ogrzewania otoczenia. Zastanów się nad &b&lGenerator Core&r i sprawdź strukturę multibloków.",
-          "2": "Możesz również spojrzeć na strukturę tutaj, porządkując klocki od góry do dołu:",
-          "3": "AAA ABA AA ABA A = Cegła generatora",
-          "4": "AAA BCB BBB = wzmacniacz generatora",
-          "5": "AAA ABA AA AAA C = Rdzeń generatora",
-          "6": "Po ustawieniu konstrukcji kliknij w bok młotkiem inżyniera.",
-          "7": "W przyszłości można to ulepszyć."
-        },
-        "subtitle": "Duży kominek",
-        "title": "Generator pierwszego poziomu"
-      },
-      "6B7D4F59C921C1FC": {
-        "description": {
-          "1": "To ważne narzędzie, możesz teraz szybciej ścinać drzewa."
-        },
-        "subtitle": "Jeśli chcesz się wzbogacić, zacznij od drzewa"
-      },
-      "6C49B6777A13CC02": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród łupków miki, ryolitu, komatytu, bazaltu porfirowego, granitu, diorytu, pegmatytu."
-        },
-        "subtitle": "Srebro szterlingowe"
-      },
-      "6C86BD5F9112256F": {
-        "description": {
-          "1": "&l Statek kosmiczny, którym tym razem pilotowałem (jeszcze nie obiekt fizyczny) jest jednym z niewielu promów kosmicznych, które nadal mogą normalnie funkcjonować na stacji kosmicznej.",
-          "3": "Musisz jak najszybciej zdobyć zapasy.",
-          "4": "W przeciwnym razie w tę piekielną pogodę wkrótce zamarzniesz na śmierć!"
-        },
-        "subtitle": "Gdzie ja jestem?",
-        "title": "Statek"
-      },
-      "6CF9868197215C1D": {
-        "description": {
-          "1": "&6Przetwarzaj glinę, aby uzyskać gliniane wiadra.",
-          "2": "Zawiera różne płyny, podobne do ogólnej jednostki płynów."
-        },
-        "subtitle": "Duża miska"
-      },
-      "6D01046E549A087E": {
-        "description": {
-          "1": "Odporne warzywo, które może rosnąć w bardzo niskich temperaturach."
-        },
-        "subtitle": "warzywo",
-        "title": "Biała rzodkiew"
-      },
-      "6D92E93A0811C1FD": {
-        "description": {
-          "1": "Wydaje się, że w korycie rzeki coś się znajduje",
-          "2": "Jeśli chcesz gliny, idź nad rzekę, aby ją wykopać.",
-          "3": "To ma sens, prawda?"
-        },
-        "subtitle": "Lepki"
-      },
-      "6E83E2133A978D34": {
-        "subtitle": "Nosić"
-      },
-      "6F39341180466270": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród kamieni kredowych, łupków węglowych, tufów, mułowców."
-        }
-      },
-      "707E5C06843421A7": {
-        "description": {
-          "1": "Generated in the river bed. Dig to get copper ore. "
-        },
-        "title": "Gravel with Copper"
-      },
-      "70E6A4B9946F263A": {
-        "description": {
-          "1": "Może być NAPRAWDĘ zimno, jeśli nie nosisz ubrań."
-        },
-        "subtitle": "Must-have na zimę"
-      },
-      "7175C1158EE9178A": {
-        "description": {
-          "1": "Wykonany z płyty kamiennej. Może przechowywać trochę rzeczy."
-        },
-        "subtitle": "Nie trumna"
-      },
-      "718403EB34A5B46F": {
-        "description": {
-          "1": "Kliknij prawym przyciskiem myszy i użyj noża krzemiennego do obróbki skóry."
-        },
-        "subtitle": "Proste przetwarzanie"
-      },
-      "71D389AF87847D7B": {
-        "description": {
-          "1": "Jego odporność na ciepło jest lepsza niż cegieł piaskowych i można go używać do produkcji cegieł wielkopiecowych."
-        }
-      },
-      "72D5B725766622F4": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród łupków miki, ryolitów, komatytów i czerwono-czarnego dacytu."
-        },
-        "subtitle": "Inny rodzaj czerwonego kamienia"
-      },
-      "7359422ABAFA7721": {
-        "description": {
-          "1": "Zwykła zupa jarzynowa.",
-          "2": "formuła:",
-          "3": "Co najmniej 1,75 porcji dowolnego warzywa + 1 miska + dowolne nadzienie (niejadalne)"
-        },
-        "subtitle": "Zupa z bałaganu warzywnego"
-      },
-      "73ADDB2F9A4F7C5D": {
-        "description": {
-          "1": "Spędziłeś 4 dni rozgrzewając dwa grządki, a teraz możesz wreszcie cieszyć się efektami."
-        },
-        "subtitle": "Pełen miłości"
-      },
-      "74780AAD5FDF8870": {
-        "description": {
-          "1": "Składa się głównie z węglanu wapnia."
-        },
-        "subtitle": "CaCO3"
-      },
-      "7491448A8055DBE6": {
-        "description": {
-          "1": "Te bestie mają wyjątkowo ostre zęby",
-          "2": "Przeważnie podróżuje samotnie",
-          "3": "Jednak zbliżanie się do jednego z nich nie jest mądrym wyborem"
-        },
-        "subtitle": "Niebezpieczna bestia"
-      },
-      "75154C5A6E2F3257": {
-        "description": {
-          "1": "Zdobądź sprzęt",
-          "2": "&6Większość magnetytu pojawia się w górnej skale osadowej"
-        },
-        "subtitle": "Prawdziwy metal nieszlachetny",
-        "title": "Żelazo"
-      },
-      "7521769E8333942B": {
-        "description": {
-          "1": "Świat jest niebezpieczny, a niektóre nieokiełznane stworzenia są dzikie.",
-          "2": "Może być rzutowany jako włócznia."
-        },
-        "subtitle": "Prymitywne bronie"
-      },
-      "7612A96FFEFC5635": {
-        "description": {
-          "1": "Zużywając wodę i spalając każdy palny materiał w celu wytworzenia pary. Lepiej zajrzyj do rozdziału Przetwarzanie paliwa w księdze zadań.",
-          "2": "Kocioł &6&l musi być umieszczony na górze komory spalania",
-          "3": "The &6&l boiler must be placed on top of the burning chamber"
-        },
-        "subtitle": "Mały krok dla ludzkości",
-        "title": "Brązowy kocioł"
-      },
-      "76B2B1A3EC6D92CD": {
-        "description": {
-          "1": "Tanie i wydajne paliwo.",
-          "2": "Metoda budowy:",
-          "3": "&6Ułóż kłody na stos i &4&l zapieczętuj&r&6 w zamkniętej przestrzeni,",
-          "4": "&6Zostaw otwór do zapłonu i natychmiast go zakryj.",
-          "5": "Poczekaj, aż wypalanie się zakończy, aby zdobyć węgiel."
-        },
-        "subtitle": "Prymitywne paliwo, ale też filtruje wodę"
-      },
-      "770CD4281B427FDC": {
-        "description": {
-          "1": "Dopóki zmienia się kształt drewna, może ono palić się pełniej."
-        },
-        "subtitle": "Niepalny węgiel drzewny"
-      },
-      "77A7511048D5767B": {
-        "description": {
-          "1": "W przypadku zwykłych dołów na węgiel drzewny wystarczy brud.",
-          "2": "Ale jeśli chcesz produkować koks, musisz zbudować kopalnię węgla drzewnego z kamiennych cegieł.",
-          "3": "Aby wyprodukować koks, musisz mieć &6&l stos węgla, a nie stos kłód"
-        },
-        "subtitle": "Zrobione z kamienia!"
-      },
-      "7887EB905BAA7BEF": {
-        "description": {
-          "1": "Kliknij prawym przyciskiem myszy, aby otworzyć interfejs użytkownika i dodać elementy.",
-          "2": "&eShift-Puste-ręcznie-kliknij go prawym przyciskiem myszy, aby zmielić."
-        },
-        "subtitle": "Nie grafit"
-      },
-      "79D38F0D4D3E5482": {
-        "description": {
-          "1": "Zapewnia szerszą informację geologiczną na mniejszym obszarze."
-        },
-        "subtitle": "Tak głęboka łopata"
-      },
-      "7AA152F9B5AF6677": {
-        "description": {
-          "1": "Wielofunkcyjny garnek, który integruje smażenie, duszenie i duszenie.",
-          "2": "Użycie jest bardzo proste. Po prostu wrzuć jedzenie z dowolnym opisem wartości składnika, ugotuj i gotowe. Co do tego, co wychodzi..."
-        },
-        "subtitle": "W mroźną zimę ugotujmy garnek gorących potraw."
-      },
-      "7AFE32B08BB6CE6C": {
-        "description": {
-          "1": "&lTeamMoeg-TWRDev jest głównym zespołem programistów tego pakietu modów."
-        },
-        "subtitle": "Osoby zaangażowane w rozwój",
-        "title": "Lista programistów"
-      },
-      "7C30A1316BF232EC": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród dolomitu, kredy, brekcji, tufu, łupków węglowych."
-        },
-        "subtitle": "Tlenek żelaza"
-      },
-      "7D2807571451631F": {
-        "description": {
-          "1": "Wygenerowano w:",
-          "2": "Wśród diorytu, granodiorytu, granitu, szarego granitu, gabro piroksenu, białego marmuru."
-        },
-        "subtitle": "Tlenek cyny"
-      },
-      "7D2826CCB69C5EE8": {
-        "subtitle": "Lepsze niż kamienny młotek"
-      },
-      "7D5541059C15C6AE": {
-        "subtitle": "Zaawansowana logistyka"
-      },
-      "7E3F0C805E2BBB9F": {
-        "description": {
-          "1": "Mocna i wytrzymała podstawa.",
-          "2": "&6Po założeniu surowców kliknij lewym przyciskiem wymagane narzędzie, aby zakończyć przetwarzanie."
-        },
-        "subtitle": "Rodzaj kowadła"
-      },
-      "7EDDAD2D1E2B0613": {
-        "description": {
-          "1": "Zużywa mniej stresu niż koła zębate z brązu."
-        },
-        "subtitle": "Silniejszy"
-      },
-      "7F84766122DC4753": {
-        "description": {
-          "1": "Niezbędną żywicę można wyekstrahować ze świerka, jodły, cedru itp."
-        },
-        "subtitle": "Montaż o wysokiej precyzji"
-      }
-    }
-  }
+  "chapter.twr.00A96B3C8C24C472.title": "Dzień Inżyniera Generatora",
+  "chapter.twr.00A96B3C8C24C472.subtitle": "Wszystko o generatorach i sieciach cieplnych.",
+  "chapter.twr.0F108F94F3A03203.title": "Zaczynać od początku",
+  "chapter.twr.0F108F94F3A03203.subtitle": "W tym mroźnym świecie twoje istnienie jest jedynym światłem i ciepłem.",
+  "chapter.twr.0F92A786237ACCA8.title": "Cewki elektryczne",
+  "chapter.twr.0F92A786237ACCA8.subtitle": "Maszyny zaczynają ryczeć.",
+  "chapter.twr.1B332F15A5B415FA.title": "Uzdatnianie paliwa",
+  "chapter.twr.1E695E6D1F5B227A.title": "Dzień Rzemieślnika",
+  "chapter.twr.1E695E6D1F5B227A.subtitle": "Tworzenie najlepszego narzędzia to praktyka sztuki.",
+  "chapter.twr.3A3B51CF7F606665.title": "Zasilany parą",
+  "chapter.twr.3A3B51CF7F606665.subtitle": "To nie jest epoka pary, którą zapamiętałeś",
+  "chapter.twr.45227BBF4538D5BC.title": "Zimowy ratunek",
+  "chapter.twr.45227BBF4538D5BC.subtitle": "Wylądowałeś ze stacji kosmicznej na zamarzniętą Ziemię, proszę bądź przygotowany, to trudna misja!",
+  "chapter.twr.683664CACFD52C99.title": "Informacje o świecie",
+  "chapter.twr.715FF1EB059BCACF.title": "Dzień Syberyjskiego Szefa Kuchni",
+  "chapter.twr.715FF1EB059BCACF.subtitle": "jedzenie. jedzenie. jedzenie.",
+  "chapter.twr.75A05D5EAF6602DE.title": "Przyjaciel zwierzęcia",
+  "chapter.twr.75A05D5EAF6602DE.subtitle": "Dziki jest zaalarmowany twoim przybyciem.",
+  "group.twr.branch_line.title": "Linia oddziału",
+  "group.twr.main_line.title": "Magistrala",
+  "quest.twr.0019852CD6EC0354.title": "Szara stal",
+  "quest.twr.0019852CD6EC0354.subtitle": "Silny i wytrzymały",
+  "quest.twr.0019852CD6EC0354.description.1": "Podstawa industrializacji na dużą skalę.",
+  "quest.twr.0019852CD6EC0354.description.3": "Teraz możesz spróbować zbudować lepszy Generator.",
+  "quest.twr.00FD2A2F4601287B.title": "Podkręcanie",
+  "quest.twr.00FD2A2F4601287B.subtitle": "Przyspieszenie spalania",
+  "quest.twr.00FD2A2F4601287B.description.1": "Aby poradzić sobie ze szczególną pogodą, Generator może włączyć tryb podkręcania",
+  "quest.twr.00FD2A2F4601287B.description.2": "W momencie włączenia overclockingu zużyjesz 4 części paliwa",
+  "quest.twr.00FD2A2F4601287B.description.3": "Podkręcanie podwoi temperaturę podniesioną przez generator",
+  "quest.twr.016B841B20166EA8.subtitle": "Spalanie tlenu",
+  "quest.twr.016B841B20166EA8.description.1": "Dopiero gdy zapewniony jest podgrzewacz, tygiel stalowniczy może zacząć działać.",
+  "quest.twr.04B97BB52527FB7A.title": "Proszek węglowy",
+  "quest.twr.04B97BB52527FB7A.subtitle": "Prosta obsługa",
+  "quest.twr.04B97BB52527FB7A.description.1": "Tylko proszek do mielenia może zwiększyć wydajność spalania o 25%. Dlaczego nie?",
+  "quest.twr.04DC32D417FA819E.subtitle": "Zagotować wodę",
+  "quest.twr.04DC32D417FA819E.description.1": "Woda w kubku grzewczym może zostać wysterylizowana i stać się czystą wodą.",
+  "quest.twr.04E9589E45C56536.subtitle": "Owsianka z żyta",
+  "quest.twr.04E9589E45C56536.description.1": "Wymaga garnka do gotowania.",
+  "quest.twr.04E9589E45C56536.description.2": "Przepis: 2 części mąki żytniej + 1 miska + dowolne nadzienie (nadzienie nie może być niejadalne)",
+  "quest.twr.060F482D9D3374F9.description.1": "Jeden z surowców cegieł ogniotrwałych.",
+  "quest.twr.062E137E7ECB4C99.subtitle": "Łatwe przechowywanie",
+  "quest.twr.062E137E7ECB4C99.description.1": "Może w tej chwili nie masz skrzyni?",
+  "quest.twr.062E137E7ECB4C99.description.2": "Możesz wypróbować ten przedmiot do przechowywania",
+  "quest.twr.064ECF25B9B8962B.subtitle": "Dość wytrzymały",
+  "quest.twr.064ECF25B9B8962B.description.1": "Rozbijaj minerały, które wydobyłeś do dalszego przetwarzania.",
+  "quest.twr.06919E56E850B946.subtitle": "Plan remontu",
+  "quest.twr.06919E56E850B946.description.1": "Dowiedz się o dopasowywaniu informacji z holosfery",
+  "quest.twr.0732C5BB3471FFA7.title": "Najlepszy wypełniacz",
+  "quest.twr.0732C5BB3471FFA7.subtitle": "Pospolity?",
+  "quest.twr.0732C5BB3471FFA7.description.1": "W tym świecie śniegu i lodu, co lepiej nadaje się do wypełnienia niż lód i śnieg?",
+  "quest.twr.0972243D44A0CF46.subtitle": "Zintensyfikować",
+  "quest.twr.0A9A5166127945AB.title": "Miedź",
+  "quest.twr.0A9A5166127945AB.subtitle": "Metal podstawowy",
+  "quest.twr.0A9A5166127945AB.description.1": "Rdzeń Zasilający służy do budowy generatora. Proszę zapoznać się z rozdziałem Dzień Inżyniera Generatora.",
+  "quest.twr.0A9A5166127945AB.description.2": "&6Można go uzyskać przez wytopienie malachitu lub rodzimej miedzi.",
+  "quest.twr.0B511A89E11B553A.subtitle": "Uprawa brązowych grzybów",
+  "quest.twr.0B511A89E11B553A.description.1": "Nosząc go na pasku z akcesoriami i ogrzewając go temperaturą ciała, może jednocześnie wydzielać niewielką ilość ciepła, ale jeśli temperatura będzie zbyt niska, pójdzie spać.",
+  "quest.twr.0B511A89E11B553A.description.2": "Po wyrośnięciu użyj dowolnego noża w jednej ręce, a grządki w drugiej ręce, aby pokroić grzyby.",
+  "quest.twr.0B5888E9CDE431AE.subtitle": "Dużo miedzi",
+  "quest.twr.0B5888E9CDE431AE.description.1": "Wygenerowano w:",
+  "quest.twr.0B5888E9CDE431AE.description.2": "Wśród andezytu, łupka, bazaltu, czerwono-czarnego dacytu.",
+  "quest.twr.0B7A7EF07D539FC5.subtitle": "Kuchnia zgniłego mięsa",
+  "quest.twr.0B7A7EF07D539FC5.description.1": "Potrzebuje jednego zgniłego mięsa i nie może zawierać niczego niejadalnego ani lodowatego.",
+  "quest.twr.0B94C2D4FAB6A54B.subtitle": "Mocniejszy",
+  "quest.twr.0B94C2D4FAB6A54B.description.1": "Na podstawie żelaznego kilofa",
+  "quest.twr.0B94C2D4FAB6A54B.description.2": "Zamontuj swój własny kilof!",
+  "quest.twr.0B9DBC18CEEC4CB2.subtitle": "Łatwe przechowywanie",
+  "quest.twr.0B9DBC18CEEC4CB2.description.1": "Drewniana beczka z łatką z brązu. Przechowuj więcej rzeczy niż kamienna skrzynia.",
+  "quest.twr.0CA87739C86BB0C6.subtitle": "Uprawiaj czerwone grzyby",
+  "quest.twr.0CA87739C86BB0C6.description.1": "Nosząc go na pasku z akcesoriami i ogrzewając go temperaturą ciała, może jednocześnie wydzielać niewielką ilość ciepła, ale jeśli temperatura będzie zbyt niska, pójdzie spać.",
+  "quest.twr.0CA87739C86BB0C6.description.2": "Po wyrośnięciu użyj dowolnego noża w jednej ręce, a grządki w drugiej ręce, aby pokroić grzyby.",
+  "quest.twr.0CDAFF3E5A013056.subtitle": "Nowoczesne paliwo",
+  "quest.twr.0CDAFF3E5A013056.description.1": "Ponowne suszenie może zwiększyć wydajność o 25%",
+  "quest.twr.0E27E31FF6145D05.description.1": "Użyj cegieł wielkiego pieca, zbuduj konstrukcję 3x3x3 i kliknij prawym przyciskiem myszy jej środek młotkiem inżyniera",
+  "quest.twr.0ED9C71E91687BFA.subtitle": "Zawiera tlenek glinu",
+  "quest.twr.0ED9C71E91687BFA.description.1": "Wygenerowano w:",
+  "quest.twr.0ED9C71E91687BFA.description.2": "Wśród tufu, mułów, kredy, łupków węglowych, dolomitu.",
+  "quest.twr.0F8B1303FEF36BD1.subtitle": "Nie mogę latać",
+  "quest.twr.0F8B1303FEF36BD1.description.1": "Współpraca z lokomotywą z brązu generuje dużą moc.",
+  "quest.twr.0FEC22A5C56936DC.subtitle": "Szybszy i mocniejszy",
+  "quest.twr.100B8B27C075D0DC.subtitle": "Obróbka chemiczna",
+  "quest.twr.100B8B27C075D0DC.description.1": "Każdy sproszkowany węgiel można odsiarczyć w celu uzyskania wysokiej jakości sproszkowanego węgla, który można regenerować i formować na brykiety.",
+  "quest.twr.103E4FC987E00FC7.description.1": "Może pozwolić, aby małe koło zębate obracało się z dwukrotnie większą prędkością, co może być potrzebne w niektórych miejscach.",
+  "quest.twr.10CB240A20A88FE0.subtitle": "Około 30 oczek",
+  "quest.twr.10E9ACB93591D6BE.title": "Przetwarzanie paliwa",
+  "quest.twr.10E9ACB93591D6BE.subtitle": "Wydajniej wykorzystuj paliwo",
+  "quest.twr.10E9ACB93591D6BE.description.1": "Paliwo może łatwo generować energię, ale ogólna metoda spalania jest nieefektywna.",
+  "quest.twr.10E9ACB93591D6BE.description.2": "Jeśli można zmienić kształt i skład chemiczny paliwa, aby poprawić wydajność spalania, to byłoby dobrze.",
+  "quest.twr.10E9ACB93591D6BE.description.3": "Jednak zwiększona powierzchnia kontaktu z powietrzem sprawia, że paliwa te nie nadają się do wytapiania paliw.",
+  "quest.twr.1120D6251E9B42C4.description.1": "Wygenerowano w:",
+  "quest.twr.1120D6251E9B42C4.description.2": "Wśród kredy, łupków węglowych, dolomitu, tufu, białego marmuru.",
+  "quest.twr.11DD149796E14E81.subtitle": "Nielegalna modyfikacja",
+  "quest.twr.11DD149796E14E81.description.1": "&lUtwórz młotek Tetra i kliknij prawym przyciskiem myszy stół rzemieślniczy.",
+  "quest.twr.11DD149796E14E81.description.2": "Da ci holograficzną kulę",
+  "quest.twr.1233EF3CDF5E33F8.subtitle": "Lodowata winorośl",
+  "quest.twr.1233EF3CDF5E33F8.description.1": "Pnącza zawinięte w kulkę, może można je wysuszyć jako źródło ognia.",
+  "quest.twr.13AA30FB9CD620EB.subtitle": "Kreozot!",
+  "quest.twr.13AA30FB9CD620EB.description.1": "Zbiera kreozot wytworzony podczas eksploatacji kopalni węgla drzewnego.",
+  "quest.twr.13AA30FB9CD620EB.description.2": "&6Uwaga: Być może trzeba będzie spalić jeszcze kilka razy węgiel drzewny, aby uzyskać wystarczającą ilość oleju na beczkę.",
+  "quest.twr.13AA30FB9CD620EB.description.3": "&6Umieść lejek do kreozotu poniżej dołu na węgiel drzewny, który ma płynąć, aby zebrać kreozot wyprodukowany przez dół na węgiel drzewny.",
+  "quest.twr.13AA30FB9CD620EB.description.4": "Wyprodukowany olej kreozotowy będzie przechowywany w lejku kreozotowym, a olej kreozotowy można wyjąć z pojemników, takich jak beczki i wiadra ceramiczne.",
+  "quest.twr.13D9DE54DF8117C2.subtitle": "Główna Blooming",
+  "quest.twr.13D9DE54DF8117C2.description.1": "& 6 Użyj Rozważania, aby zobaczyć metodę budowy Bloomery",
+  "quest.twr.13D9DE54DF8117C2.description.2": "Po skonfigurowaniu bloomery przytrzymaj (Red) shift+prawy przycisk myszy i włóż ją do bloomery",
+  "quest.twr.13D9DE54DF8117C2.description.3": "Następnie przytrzymaj (rudę lub paliwo) prawym przyciskiem myszy na bloku surowca i włóż resztę materiału do dymarki.",
+  "quest.twr.13D9DE54DF8117C2.description.4": "Zapal na bloku surowca, aby uruchomić bloomery.",
+  "quest.twr.13D9DE54DF8117C2.description.5": "&6&lbloomery potrzebuje wiatru z miechów podczas pracy.",
+  "quest.twr.13D9DE54DF8117C2.description.6": "&6&lPo zakończeniu procesu &6natychmiast &6użyj kilofa, aby wykopać w nim bloki, aby uzyskać wlewki żelaza",
+  "quest.twr.1405F759FF532C22.subtitle": "Węgiel drzewny",
+  "quest.twr.1405F759FF532C22.description.1": "Węgiel drzewny można pozyskać bez wypalania, nie trzeba też robić wielu pieców koksowniczych.",
+  "quest.twr.14D7D98FC5264B03.subtitle": "Sekator",
+  "quest.twr.14D7D98FC5264B03.description.1": "Użyj ostrego noża, aby zniszczyć (oryginalne) liście, aby uzyskać ośnieżone pnącza.",
+  "quest.twr.14D7D98FC5264B03.description.3": "&6&lUwaga: Nóż jest wytwarzany w ekwipunku.",
+  "quest.twr.15B365E3F3EAFE79.subtitle": "Nie mogę siedzieć na ludziach",
+  "quest.twr.15B365E3F3EAFE79.description.1": "Umieszczaj przedmioty i pracuj z innymi maszynami, aby przetwarzać przepisy.",
+  "quest.twr.162264AE4B9EE1A9.subtitle": "Stop do wytapiania",
+  "quest.twr.162264AE4B9EE1A9.description.1": "Używany do budowy pieców stopowych do uszlachetniania podstawowych stopów.",
+  "quest.twr.162264AE4B9EE1A9.description.2": "&6 (nie zapomnij wlać paliwa)",
+  "quest.twr.162264AE4B9EE1A9.description.3": "Proszę zapoznać się z Instrukcją Inżyniera dla metody budowy ~",
+  "quest.twr.16ADBE5F70B10285.subtitle": "Przyklej węgiel drzewny",
+  "quest.twr.16ADBE5F70B10285.description.1": "Klejenie sproszkowanego węgla drzewnego jest niewątpliwie prostszą metodą.",
+  "quest.twr.17C359DCF058E698.subtitle": "Transport płynów",
+  "quest.twr.17F033FB5ACAACFB.subtitle": "to jest punk",
+  "quest.twr.17F033FB5ACAACFB.description.1": "Zastanów się nad tym, aby zobaczyć strukturę i animację.",
+  "quest.twr.181378ABF5CCD166.title": "O tym świecie",
+  "quest.twr.181378ABF5CCD166.subtitle": "Niezbędne uwagi",
+  "quest.twr.181378ABF5CCD166.description.1": "Formacje skalne &6 są generowane zgodnie z formacjami biomu.",
+  "quest.twr.181378ABF5CCD166.description.3": "&6Ruda jest generowana zgodnie z warstwą skalną.",
+  "quest.twr.181378ABF5CCD166.description.5": "Informacje o generowaniu będą wyświetlane dopiero po zakończeniu zadania wydobywczego.",
+  "quest.twr.19038BB5A9E42055.title": "Tygiel stalowniczy",
+  "quest.twr.19038BB5A9E42055.subtitle": "Gorące tematy",
+  "quest.twr.19038BB5A9E42055.description.1": "&eStalowy tygiel jest bardziej zaawansowanym sprzętem do wytapiania niż oryginalny wielki piec.",
+  "quest.twr.19038BB5A9E42055.description.2": "&6&lDo ogrzewania należy używać węgla koksowego.",
+  "quest.twr.19038BB5A9E42055.description.3": "&6Musisz również zapewnić &4&l podgrzewacz do wielkiego pieca przy otworze.",
+  "quest.twr.19038BB5A9E42055.description.4": "Kompilacja: od góry do dołu",
+  "quest.twr.19038BB5A9E42055.description.5": "HHH HHH BBB BBB H = Cegła wysokoogniotrwała",
+  "quest.twr.19038BB5A9E42055.description.6": "HHHH BBB BBB B = Komora spalania",
+  "quest.twr.19038BB5A9E42055.description.7": "HHH HHH BBB BBB",
+  "quest.twr.190859211258D56B.subtitle": "Also an upgrade tool",
+  "quest.twr.19603323EAAFF726.title": "Deski",
+  "quest.twr.19603323EAAFF726.subtitle": "Dobre materiały budowlane",
+  "quest.twr.19603323EAAFF726.description.1": "Klasyczny materiał budowlany uzyskuje się poprzez obróbkę obieranych bali na stemplu.",
+  "quest.twr.19603323EAAFF726.description.2": "Nie wiesz, skąd pochodzą obrane kłody?",
+  "quest.twr.19603323EAAFF726.description.3": "Kliknij prawym przyciskiem myszy na kłodę dowolnym siekierą, aby uzyskać obraną kłodę.",
+  "quest.twr.197308226CAE52C4.subtitle": "Wyciągnij parę z kotła",
+  "quest.twr.197308226CAE52C4.description.1": "&6&lJeśli prędkość nie jest wystarczająca, możesz spróbować przyspieszyć koło zębate w konfiguracji od dużej do małej",
+  "quest.twr.197308226CAE52C4.description.2": "Jedyny sposób na automatyczne odprowadzenie pary z kotła na wczesnym etapie.",
+  "quest.twr.1974619E18DB754A.subtitle": "Pamiętaj o jagodach goji",
+  "quest.twr.1974619E18DB754A.description.1": "Pij więcej gorącej wody [Goji to tradycyjne chińskie jedzenie umieszczane w wodzie dla zdrowia osób starszych]",
+  "quest.twr.1AA5B1B0025EA6E6.subtitle": "Chleb zielonkawy, ale dobrze smakuje.",
+  "quest.twr.1AA5B1B0025EA6E6.description.1": "Zwykły chleb żytni",
+  "quest.twr.1AAA40B874A98211.title": "Trociny",
+  "quest.twr.1AAA40B874A98211.subtitle": "Może palić i jeść.",
+  "quest.twr.1B3C8681DF78AD16.title": "Wikipedia dla TWR",
+  "quest.twr.1B3C8681DF78AD16.subtitle": "Entuzjastyczny samouczek",
+  "quest.twr.1B3C8681DF78AD16.description.1": "Samouczek stworzony przez entuzjastycznych graczy. Zapraszamy również do współtworzenia.",
+  "quest.twr.1B3C8681DF78AD16.description.2": "Jeśli napotkasz jakieś problemy, możesz iść i rzucić okiem.",
+  "quest.twr.1B3C8681DF78AD16.description.3": "Link: &6&lhttps://the-winter-rescue.fandom.com/wiki/The_Winter_Rescue_Wiki Chińska wersja: https://wiki.teammoeg.com/",
+  "quest.twr.1C7830BE11F5FDCA.subtitle": "Może być używany więcej razy",
+  "quest.twr.1C7830BE11F5FDCA.description.1": "Jednorazowe przedmioty są zbyt nietrwałe",
+  "quest.twr.1C7830BE11F5FDCA.description.2": "Może ci się to bardziej podoba",
+  "quest.twr.1C8171C8FD1D0CD5.subtitle": "Trudno się pogorszyć",
+  "quest.twr.1C8171C8FD1D0CD5.description.1": "Drewniane deski nasączone olejem kreozotowym.",
+  "quest.twr.1C8171C8FD1D0CD5.description.2": "Jeśli to nie zadziała, po prostu połóż trochę mniej deski i oblicz według proporcji.",
+  "quest.twr.1CD9EB4A39925BB8.title": "&6Notatki zespołu",
+  "quest.twr.1CD9EB4A39925BB8.subtitle": "Wskazówki dotyczące tworzenia zespołu",
+  "quest.twr.1CD9EB4A39925BB8.description.1": "Utwórz: / ftbteams party craft<name> &6Zaleca się stworzenie zespołu na początku, aby inni mogli wejść",
+  "quest.twr.1CD9EB4A39925BB8.description.2": "Jeśli drużyna została już utworzona, polecenie nie może ponownie zacząć działać",
+  "quest.twr.1CD9EB4A39925BB8.description.4": "Zaproszenie: /zaproszenie na imprezę ftbteams<name>",
+  "quest.twr.1CD9EB4A39925BB8.description.5": "&6Utworzenie zespołu spowoduje utworzenie nowego postępu zadania, &4zaczynając od zera",
+  "quest.twr.1CD9EB4A39925BB8.description.6": "Dołączenie do zespołu &4&lmusi zsynchronizować postępy zadania z nowym zespołem",
+  "quest.twr.1D7F2824DAF3BB7B.subtitle": "Suszący",
+  "quest.twr.1D7F2824DAF3BB7B.description.1": "Do jej wykonania potrzebny jest stół krzemienny. Służy do suszenia słomy.",
+  "quest.twr.1DF200F6772308C7.subtitle": "Eksploracja geologiczna",
+  "quest.twr.1DF200F6772308C7.description.1": "Kliknij kamień prawym przyciskiem myszy, aby uzyskać informacje o pobliskich minerałach",
+  "quest.twr.1F2BD4A72596B287.subtitle": "Odetnij ze mną strumień magnetyczny",
+  "quest.twr.1F2BD4A72596B287.description.1": "Pierwsze proste dynamo.",
+  "quest.twr.1F2BD4A72596B287.description.2": "&6Wyjściowa energia z tyłu i wejściowa prędkość obrotowa z przodu.",
+  "quest.twr.1F615C38B1A015E5.title": "Zapytanie o tabelę złożoną",
+  "quest.twr.1F615C38B1A015E5.subtitle": "Twój najlepszy pomocnik, JEI",
+  "quest.twr.1F615C38B1A015E5.description.1": "Najedź myszką na poszukiwany przedmiot,",
+  "quest.twr.1F615C38B1A015E5.description.2": "Użyj R, aby zapytać o recepturę i U, aby zapytać, jakie elementy można wykonać.",
+  "quest.twr.1F94471C5310ECFA.subtitle": "Brak prądu elektrycznego",
+  "quest.twr.20E078A9220D6114.subtitle": "Źródło trufli",
+  "quest.twr.20F1DD1209093059.title": "szumowiny drewna",
+  "quest.twr.20F1DD1209093059.subtitle": "Okazjonalnie uzyskiwany podczas rąbania drewna",
+  "quest.twr.20F1DD1209093059.description.1": "Mieszany z pokarmem w celu zwiększenia sytości.",
+  "quest.twr.215BC2E7271F1478.title": "Odżywianie",
+  "quest.twr.215BC2E7271F1478.subtitle": "Zbilansowana dieta",
+  "quest.twr.215BC2E7271F1478.description.1": "Otwórz swój ekwipunek, aby sprawdzić swoją wartość odżywczą",
+  "quest.twr.215BC2E7271F1478.description.2": "Jeśli twoja wartość odżywcza jest zbyt niska, górna granica twojego HP zostanie zmniejszona.",
+  "quest.twr.215BC2E7271F1478.description.3": "Wartość odżywcza przekraczająca 80%% zwiększy górną granicę HP.",
+  "quest.twr.215BC2E7271F1478.description.4": "Wysoki poziom cukru wywoła głód i przyspieszy efekt",
+  "quest.twr.215BC2E7271F1478.description.5": "Wysoka zawartość białka zwiększy Twoją siłę.",
+  "quest.twr.2406D98489C938B8.subtitle": "Futro",
+  "quest.twr.2406D98489C938B8.description.1": "Zapewnia dobry efekt izolacji",
+  "quest.twr.2406D98489C938B8.description.2": "&6&lBez handlu, bez zabijania. &rPonownie, to nie jest w prawdziwym świecie!",
+  "quest.twr.2422C77587FDEE28.title": "Odjazd",
+  "quest.twr.2422C77587FDEE28.subtitle": "Przetrwać!",
+  "quest.twr.2422C77587FDEE28.description.1": "Wyjąłeś osobisty notatnik i zapisałeś swoje nazwisko po niezliczonych notatkach swoich poprzedników.",
+  "quest.twr.2422C77587FDEE28.description.2": "Postaw stopę na tej niekończącej się zimie samotnie, Twoim jedynym celem jest „Przeżyć!”.",
+  "quest.twr.2422C77587FDEE28.description.3": "„Jeśli jest nadzieja, wszystko się poprawi”.",
+  "quest.twr.2422C77587FDEE28.description.4": "&6Wybierz Rozdział 2 z listy zadań po lewej stronie, aby rozpocząć odtwarzanie.",
+  "quest.twr.24720864351339DC.subtitle": "Chleb z trocinami",
+  "quest.twr.24720864351339DC.description.2": "To niesmaczne, ale może wypełnić żołądek.",
+  "quest.twr.248D44C92972DF23.subtitle": "Mały i przenośny",
+  "quest.twr.25061B159D32453A.title": "Rzeczy osobiste",
+  "quest.twr.25061B159D32453A.subtitle": "Na szczęście sporo rzeczy potajemnie ukryłam",
+  "quest.twr.25061B159D32453A.description.1": "Nie zabrałem zbyt wiele rzeczy osobistych, ale radar prognozy pogody musi być przywieziony.",
+  "quest.twr.263F5ADF4A6CDF5A.subtitle": "Twórz większe przedmioty",
+  "quest.twr.279DA3B6F5DE7753.subtitle": "Kryształy krzemionki zmieszane z czerwonym kamieniem",
+  "quest.twr.29067D9CA0B3DC45.subtitle": "Zawiera dużo antymonu",
+  "quest.twr.29067D9CA0B3DC45.description.1": "Wygenerowano w:",
+  "quest.twr.29067D9CA0B3DC45.description.2": "Łupek mikowy, ryolit, komatyt, laporyt bazalt, komatyt, czerwony czarny dacyt, granodioryt, szary granit",
+  "quest.twr.291DA52EE6F8E5AF.subtitle": "zrównoważony rozwój",
+  "quest.twr.291DA52EE6F8E5AF.description.1": "Węgiel drzewny może również poprawić wydajność spalania poprzez mielenie",
+  "quest.twr.29533DFBD579CA2F.subtitle": "Tuyere",
+  "quest.twr.29533DFBD579CA2F.description.1": "Służy do wdmuchiwania powietrza do bloomery.",
+  "quest.twr.29533DFBD579CA2F.description.2": "Jeden port może zasilać wiele mieszków do pracy.",
+  "quest.twr.29556685F57F6657.subtitle": "Po obróbce z magnezytu",
+  "quest.twr.29556685F57F6657.description.1": "Magnezyt jest układany w bloki, a następnie wypalany.",
+  "quest.twr.29BC87594650152D.subtitle": "Łatwy zapłon",
+  "quest.twr.29BC87594650152D.description.1": "W tym lodzie i śniegu słoma jest kluczem do rozpalenia ognia. Spróbuj użyć suszarki do suszenia ośnieżonych winorośli.",
+  "quest.twr.29DCBBB54EE90E51.subtitle": "Pojedyncza maszyna, użycie flaków",
+  "quest.twr.29DCBBB54EE90E51.description.1": "Umieszczenie lawy z przodu może służyć jako piec.",
+  "quest.twr.29DCBBB54EE90E51.description.2": "Umieszczenie wody z przodu może służyć do prania minerałów.",
+  "quest.twr.29DCBBB54EE90E51.description.3": "Wstawienie płomienia z przodu może służyć jako wędzarnia.",
+  "quest.twr.29DCBBB54EE90E51.description.4": "W większości przypadków musi być używany z przenośnikiem taśmowym.",
+  "quest.twr.2A8533418E3A8B06.description.1": "Wygenerowano w:",
+  "quest.twr.2A8533418E3A8B06.description.2": "Wśród łupków miki, ryolitów, komatytów i czerwono-czarnego dacytu.",
+  "quest.twr.2AE5C29C6D65FB00.subtitle": "Po prostu upraszcza produkcję",
+  "quest.twr.2AE5C29C6D65FB00.description.1": "Niektóre węgle są wysokiej jakości i można je łączyć w brykiety, dodając niewielką ilość oleju.",
+  "quest.twr.2D2811664F308756.subtitle": "Duży elektrolizer",
+  "quest.twr.2D2811664F308756.description.1": "Elektrolizer do produkcji luzem",
+  "quest.twr.2D2811664F308756.description.2": "Może produkować dwa różne płyny.",
+  "quest.twr.2D570AD59FE2D6E1.title": "Generator drugiego poziomu",
+  "quest.twr.2D570AD59FE2D6E1.subtitle": "Zaopatrzenie w ciepło",
+  "quest.twr.2D570AD59FE2D6E1.description.1": "Zastanów się nad &6&lInvar Block&r, sprawdź strukturę &b&lJeśli górna część struktury nie jest wyświetlana, po prostu zmniejsz \"Ustawienia wideo\"-\"Rozmiar interfejsu\"",
+  "quest.twr.2D570AD59FE2D6E1.description.2": "&6&lŚrodek na dole:&rWprowadź wodę, aby włączyć generator",
+  "quest.twr.2D570AD59FE2D6E1.description.3": "Energia cieplna może być wyprowadzana na sąsiednie cztery ściany na dole &6&l&r&e&lJeśli nie jest wyświetlana w rozważaniach, górna trójwarstwowa struktura wygląda następująco:",
+  "quest.twr.2D570AD59FE2D6E1.description.4": "A = Cegły ogniotrwałe B = Blacha stalowa C = Rura z płynem",
+  "quest.twr.2D570AD59FE2D6E1.description.5": "D = rdzeń generatora E = rusztowanie stalowe D = blok inwarowy",
+  "quest.twr.2D570AD59FE2D6E1.description.6": "ABA BBB ADA",
+  "quest.twr.2D570AD59FE2D6E1.description.7": "BEB BDB DCD",
+  "quest.twr.2D570AD59FE2D6E1.description.8": "ABA BBB ADA",
+  "quest.twr.2E0E35B379A20F7C.title": "Zanim nadejdzie zima",
+  "quest.twr.2E0E35B379A20F7C.subtitle": "Puzzle",
+  "quest.twr.2E0E35B379A20F7C.description.1": "Kiedy zaczęła się ta zima?",
+  "quest.twr.2E0E35B379A20F7C.description.2": "To może być odpowiedź, której musisz szukać...",
+  "quest.twr.2E54EBA4E016412C.subtitle": "Iron Man to właściwie ja",
+  "quest.twr.2E54EBA4E016412C.description.1": "Aby z niej korzystać, musisz naładować ładowarkę parową",
+  "quest.twr.2E54EBA4E016412C.description.2": "Zapewnij stabilne ogrzewanie w zależności od temperatury otoczenia",
+  "quest.twr.2E54EBA4E016412C.description.3": "Niezbędny dla odkrywców",
+  "quest.twr.2E96E546DCA1486C.title": "Paliwo",
+  "quest.twr.2E96E546DCA1486C.description.1": "Generator pierwszego stopnia może spalać tylko węgiel, węgiel drzewny lub koks jako paliwo",
+  "quest.twr.3078BCEE3E402DED.subtitle": "Bardzo pełny",
+  "quest.twr.3078BCEE3E402DED.description.1": "Podstawowy pojemnik na płyn.",
+  "quest.twr.3102993072F3C8B9.subtitle": "Mielenie i przetwarzanie",
+  "quest.twr.3102993072F3C8B9.description.1": "Główna platforma rzemieślnicza na wczesnym etapie.",
+  "quest.twr.3102993072F3C8B9.description.3": "&6&lKliknij prawym przyciskiem myszy, aby umieścić składnik rzemieślniczy i zakończ, używając wymaganego narzędzia, aby kliknąć prawym przyciskiem myszy.",
+  "quest.twr.3102993072F3C8B9.description.5": "&6&lZwróć uwagę na orientację stołu roboczego i rozróżnij jego typ.",
+  "quest.twr.31ED006279866288.subtitle": "Ruda siarczku żelaza",
+  "quest.twr.31ED006279866288.description.1": "Wygenerowano w:",
+  "quest.twr.31ED006279866288.description.2": "Wśród łupków miki, ryolitów, komatytów i czerwono-czarnego dacytu.",
+  "quest.twr.328D948C4C800873.subtitle": "stoł warsztatowy",
+  "quest.twr.328D948C4C800873.description.1": "To jest? Stoł warsztatowy!",
+  "quest.twr.328D948C4C800873.description.2": "&ema już odblokowane niektóre linie gałęzi, możesz to rozważyć.",
+  "quest.twr.32A497C69C641D2B.subtitle": "Parowy",
+  "quest.twr.32A497C69C641D2B.description.1": "&6&lNatężenie pary musi być wystarczająco duże, aby działało. Wypróbuj korbę ręczną z dużym kołem zębatym na pompie.",
+  "quest.twr.32A497C69C641D2B.description.2": "Możesz użyć gogli, aby sprawdzić stan biegu",
+  "quest.twr.32DB7CCD0A73D98F.title": "Pożywka grzybicza",
+  "quest.twr.32DB7CCD0A73D98F.subtitle": "Uprawa bezglebowa",
+  "quest.twr.32DB7CCD0A73D98F.description.1": "Bele siana doskonale nadają się do uprawy odpornych na stres rozkładających się grzybów.",
+  "quest.twr.32E5D942F1FE8645.title": "Kopanie ziemniaków „Prawdziwa Syberia”",
+  "quest.twr.32E5D942F1FE8645.subtitle": "Żwir",
+  "quest.twr.32E5D942F1FE8645.description.1": "Rozglądając się, wydaje się, że nie widać żwiru.",
+  "quest.twr.32E5D942F1FE8645.description.2": "Dlaczego nie zajrzeć pod &b&l pokryte lodem koryto rzeki?",
+  "quest.twr.32E5D942F1FE8645.description.3": "(Krzemień można zdobyć poprzez bezkształtne wytworzenie trzech żwirów)",
+  "quest.twr.32E5D942F1FE8645.description.4": "Możesz też wykopać śnieżną ziemię, aby przypadkiem zdobyć krzemień. Zdobądź kij, łamiąc liście.",
+  "quest.twr.32E5D942F1FE8645.description.5": "&6&lJeśli istnieją inne opisy zadań, których nie czytałeś, prosimy o cierpliwość i czytaj je jeden po drugim.",
+  "quest.twr.33B6E7B60783C72B.title": "Picie",
+  "quest.twr.33B6E7B60783C72B.subtitle": "Woda jest pierwszą potrzebą ludzi",
+  "quest.twr.33B6E7B60783C72B.description.1": "Woda w twoim ciele jest bardzo ważna.",
+  "quest.twr.33B6E7B60783C72B.description.2": "&6Z termosu, który znalazłeś na swoim statku, możesz kliknąć prawym przyciskiem myszy na źródło wody, aby napełnić wodę",
+  "quest.twr.33B6E7B60783C72B.description.3": "6Ale to jest woda nieoczyszczona i po jej wypiciu będziesz spragniony.",
+  "quest.twr.33B6E7B60783C72B.description.4": "Aby uniknąć efektu pragnienia, musisz pić oczyszczoną wodę. Zapas czystej wody, który masz na początku wystarczy, abyś przez chwilę się napił",
+  "quest.twr.33B6E7B60783C72B.description.5": "Po zdobyciu filtra wody lub ogniska możesz oczyścić lub zagotować czystą wodę.",
+  "quest.twr.348EB1588EFAD2AB.subtitle": "Obróbka zgrubna",
+  "quest.twr.348EB1588EFAD2AB.description.1": "& 6 Niezbędne narzędzie do tworzenia z krzemiennym stołem warsztatowym",
+  "quest.twr.348EB1588EFAD2AB.description.2": "Czasami potrzebne jest inne narzędzie, zwróć uwagę, aby sprawdzić przepis JEI",
+  "quest.twr.348EB1588EFAD2AB.description.4": "&6&lUwaga: Ten nóż jest wytwarzany w twoim ekwipunku.",
+  "quest.twr.3549A50510878505.subtitle": "Garnek tęczowej owsianki",
+  "quest.twr.3549A50510878505.description.1": "Poradzi sobie ze wszystkimi bezkształtnymi przepisami rzemieślniczymi.",
+  "quest.twr.35E5CE37A2F8EB90.subtitle": "Wysoka",
+  "quest.twr.35E5CE37A2F8EB90.description.1": "Zwolniony, aby uzyskać niegaszone wapno",
+  "quest.twr.3622C3DFDB5D8E02.subtitle": "Oczyścić",
+  "quest.twr.3622C3DFDB5D8E02.description.1": "Przytrzymaj dowolny rodzaj bibuły filtracyjnej i kliknij prawym przyciskiem myszy filtr wody, aby go zainstalować.",
+  "quest.twr.3622C3DFDB5D8E02.description.2": "Bibuła filtracyjna jest trwała. Możesz napełnić górę wiadrem itp. i poczekać na otrzymanie czystej wody na dole.",
+  "quest.twr.36960F1D7CDC8B30.subtitle": "Rozgrzewka",
+  "quest.twr.36960F1D7CDC8B30.description.1": "W miejscu, w którym się usadowisz, możesz przywrócić temperaturę ciała i siłę fizyczną, a także oczywiście grillować.",
+  "quest.twr.36960F1D7CDC8B30.description.2": "Jeśli nie ma innych narzędzi zapłonowych,",
+  "quest.twr.36960F1D7CDC8B30.description.3": "Przytrzymaj krzemienie obiema rękami i kliknij prawym przyciskiem myszy, aby spróbować zapalić.",
+  "quest.twr.36960F1D7CDC8B30.description.5": "&6 Ognisko zgaśnie,",
+  "quest.twr.36960F1D7CDC8B30.description.6": "&6Wrzucanie kłód i innych paliw do ognia może pozwolić na jego dłuższe spalanie",
+  "quest.twr.3840FFD53990ECA2.subtitle": "Czyste złoto",
+  "quest.twr.3840FFD53990ECA2.description.1": "Wygenerowano w:",
+  "quest.twr.3840FFD53990ECA2.description.2": "Wśród łupków miki, ryolitu, komatytu, bazaltu porfirowego, granitu, diorytu, pegmatytu.",
+  "quest.twr.3A91A02EB59A7919.title": "Nikiel",
+  "quest.twr.3A91A02EB59A7919.subtitle": "Lepszy metal",
+  "quest.twr.3A91A02EB59A7919.description.1": "Kolejny metal, który można obecnie wytapiać,",
+  "quest.twr.3A91A02EB59A7919.description.2": "Może da się zrobić lepszy stop.",
+  "quest.twr.3A91A02EB59A7919.description.3": "&6Większość rud niklu znajduje się w głębokiej skale magmowej",
+  "quest.twr.3B5663CF194B054C.title": "Temperatura",
+  "quest.twr.3B5663CF194B054C.subtitle": "Czynniki przeżycia",
+  "quest.twr.3B5663CF194B054C.description.1": "W tym lodowatym świecie.",
+  "quest.twr.3B5663CF194B054C.description.2": "Musisz utrzymywać dobrą temperaturę ciała.",
+  "quest.twr.3B5663CF194B054C.description.3": "Przebywanie w pobliżu ogniska lub generatora może skutecznie utrzymać temperaturę ciała.",
+  "quest.twr.3B5663CF194B054C.description.4": "Może później będziesz potrzebować przyrządów do pomiaru różnych temperatur",
+  "quest.twr.3B5663CF194B054C.description.5": "Takich jak: termometr rtęciowy, termometr glebowy",
+  "quest.twr.3B7B7A0BC0CF3CE0.subtitle": "Jednorazowy zapłon",
+  "quest.twr.3B7B7A0BC0CF3CE0.description.1": "Proste urządzenie zapłonowe,",
+  "quest.twr.3B7B7A0BC0CF3CE0.description.2": "Długo naciśnij prawy przycisk, aby zapalić;",
+  "quest.twr.3C4CEEBFF8DCF448.title": "Uwierzyć",
+  "quest.twr.3C4CEEBFF8DCF448.subtitle": "Skład stopu",
+  "quest.twr.3C4CEEBFF8DCF448.description.1": "Jeden z głównych składników brązu.",
+  "quest.twr.3C4CEEBFF8DCF448.description.2": "&6Otrzymywany przez wytop kasyterytu lub rodzimej cyny",
+  "quest.twr.3CC2245A281AABC1.subtitle": "Żelazna umywalka",
+  "quest.twr.3CC2245A281AABC1.description.1": "Najlepszy partner dla mikserów i pras",
+  "quest.twr.3E8F565DE61309B2.subtitle": "Zapomnij o drewnianych kołach zębatych",
+  "quest.twr.3E8F565DE61309B2.description.1": "Jeśli grałeś w Create, prawdopodobnie znasz drewniane koła zębate.",
+  "quest.twr.3E8F565DE61309B2.description.2": "Jednak w tej chłodnej pogodzie produkty z drewna są zbyt słabe.",
+  "quest.twr.3E8F565DE61309B2.description.3": "Tutaj minimalnym materiałem wymaganym do wykonania kół zębatych jest &ebronze.",
+  "quest.twr.3EE690327B36D6E0.title": "Wytapianie szkła",
+  "quest.twr.3EE690327B36D6E0.subtitle": "Łatwiejsza woda",
+  "quest.twr.3EE690327B36D6E0.description.1": "Szkło może być użyte do wykonania filtra do wody",
+  "quest.twr.3EF706F5A31CDDD6.subtitle": "Ściśle związane",
+  "quest.twr.3EF706F5A31CDDD6.description.1": "Podłącz do spodu działającego generatora, aby przesyłać energię cieplną pod wysokim ciśnieniem",
+  "quest.twr.401439E8C1AA7A0A.subtitle": "Kondensator produkcyjny",
+  "quest.twr.40254682DFE145B8.subtitle": "Ruda niklu",
+  "quest.twr.40254682DFE145B8.description.1": "Wygenerowano w:",
+  "quest.twr.40254682DFE145B8.description.2": "Dioryt, ryolit, piroksen gabro, granodioryt, komatiite",
+  "quest.twr.409679774573DA63.subtitle": "Przetwarzanie gliny",
+  "quest.twr.409679774573DA63.description.1": "&6Przetwarzaj bloki gliny na różne produkty z gliny.",
+  "quest.twr.409679774573DA63.description.2": "Połóż gliniany blok na ziemi i użyj kielni, aby kliknąć prawym przyciskiem myszy",
+  "quest.twr.409679774573DA63.description.3": "Możesz kliknąć prawym przyciskiem myszy wiele razy, aby uzyskać różne gotowe produkty",
+  "quest.twr.4138E3A9915F811C.title": "Lekki przemysł",
+  "quest.twr.4138E3A9915F811C.subtitle": "Maszyny immersyjne",
+  "quest.twr.4138E3A9915F811C.description.1": "Z aluminium można budować lekkie maszyny przemysłowe!",
+  "quest.twr.4138E3A9915F811C.description.2": "Np. Mikser",
+  "quest.twr.417AC14073DD4249.subtitle": "Nie mogę marzyć",
+  "quest.twr.417AC14073DD4249.description.1": "Proste łóżko do ustawienia punktu odrodzenia.",
+  "quest.twr.41D8E04627E55A86.description.1": "Teraz możesz łatwiej obchodzić się z drewnem",
+  "quest.twr.42AF456D165CBF75.subtitle": "Twardy i elastyczny",
+  "quest.twr.42AF456D165CBF75.description.1": "Musi użyć noża krzemiennego do skórowania futra.",
+  "quest.twr.42AF456D165CBF75.description.2": "Twardy materiał",
+  "quest.twr.42AF456D165CBF75.description.3": "Mogą być używane do wykonywania pasów (pasów), które są mocniejsze niż zwykłe liny",
+  "quest.twr.42D860535BFF35C4.subtitle": "Luksusowy wybór",
+  "quest.twr.42D860535BFF35C4.description.1": "Dodając żel do wysokiej jakości proszku węglowego, możesz wykorzystać paliwo z maksymalną wydajnością.",
+  "quest.twr.443AD02B85632386.subtitle": "Niektóre włosy z futrem",
+  "quest.twr.443AD02B85632386.description.1": "Uzyskiwany z dzikich zwierząt",
+  "quest.twr.443AD02B85632386.description.2": "Niedźwiedzie polarne, jelenie czy mamuty na lodzie morskim to dobry wybór, jest ich teraz za dużo",
+  "quest.twr.443AD02B85632386.description.3": "&6&lNiedźwiedzie polarne są w rzeczywistości zagrożonymi stworzeniami, proszę chroń dzikie zwierzęta!",
+  "quest.twr.4543F3B5F937E6B0.subtitle": "Jest w rzece",
+  "quest.twr.4543F3B5F937E6B0.description.1": "Wlać wapno palone do beczki z wodą, aby uzyskać wodę wapienną.",
+  "quest.twr.4543F3B5F937E6B0.description.2": "Gdzie mogę znaleźć piasek?",
+  "quest.twr.4543F3B5F937E6B0.description.3": "Oczywiście jest w rzece",
+  "quest.twr.4543F3B5F937E6B0.description.4": "(Właściwie pustynia też jest w porządku)",
+  "quest.twr.4548F432A872DA92.subtitle": "Stowarzyszenie Ochrony Pożarów zdecydowanie to potępia",
+  "quest.twr.4548F432A872DA92.description.1": "Niektóre receptury wymagają do normalnego przetwarzania środowiska o wysokiej temperaturze.",
+  "quest.twr.4548F432A872DA92.description.2": "Ta komora spalania może to łatwo zrobić.",
+  "quest.twr.45E2EF843333B846.subtitle": "Narzędzia górnicze",
+  "quest.twr.45E2EF843333B846.description.1": "Jedno z ważnych narzędzi. Zacznij wydobywać!",
+  "quest.twr.45E2EF843333B846.description.2": "&6Po wykonaniu tej czynności możesz dowiedzieć się o generowaniu minerałów w rozdziale Informacje o świecie po lewej stronie.",
+  "quest.twr.4600CF7553C26ED0.subtitle": "Nie musisz robić tego sam",
+  "quest.twr.4600CF7553C26ED0.description.1": "Szlifuj przedmioty, które nie są tak twarde.",
+  "quest.twr.4625CA3FEAF6908B.subtitle": "Odporne na wysoką temperaturę",
+  "quest.twr.4625CA3FEAF6908B.description.1": "Wykorzystywana do budowy gablotek, a także może służyć do budowy domów.",
+  "quest.twr.46BF095F50804FCC.title": "Szczyt góry",
+  "quest.twr.46BF095F50804FCC.subtitle": "Uszkodzony statek",
+  "quest.twr.46BF095F50804FCC.description.1": "Statek kosmiczny był pokryty gęstym lodem i śniegiem, ale ciepło resztkowe z ogona otworzyło właz.",
+  "quest.twr.46BF095F50804FCC.description.2": "Cierpliwie sprawdziłeś najważniejszy inwentarz.",
+  "quest.twr.47F458D8E94E5367.subtitle": "Spalanie tlenu",
+  "quest.twr.47F458D8E94E5367.description.1": "Huhuhu ~",
+  "quest.twr.47F458D8E94E5367.description.2": "Zalecane są co najmniej dwa miechy wiatrowe.",
+  "quest.twr.47F458D8E94E5367.description.3": "&6&lZwróć uwagę na orientację otworu wentylacyjnego",
+  "quest.twr.47F9EC8C18040D6D.subtitle": "Latanie na śniegu",
+  "quest.twr.4845A9B7B7B2B4A5.subtitle": "Naśladuj gracza prawym przyciskiem myszy",
+  "quest.twr.48C50ABC7AE7C575.title": "Węgiel koksowy",
+  "quest.twr.48C50ABC7AE7C575.subtitle": "Trwały",
+  "quest.twr.48C50ABC7AE7C575.description.1": "Podobny do węgla drzewnego, ale może palić się dłużej.",
+  "quest.twr.48D63E2DA4BF2E9C.subtitle": "Miska ryżu dla matki i dziecka",
+  "quest.twr.48D63E2DA4BF2E9C.description.1": "Moczenie węgla drzewnego w oleju i tłoczenie go może nieznacznie poprawić efektywność wykorzystania węgla drzewnego. Ale węgiel drzewny jest zbyt sypki, trzeba zapłacić dużo oleju, aby go związać.",
+  "quest.twr.48F3102B3AA99313.description.1": "Jeden z surowców cegieł ogniotrwałych.",
+  "quest.twr.48F3102B3AA99313.description.2": "&rozproszył się w górnej skale osadowej",
+  "quest.twr.4926C4062339E018.subtitle": "Stosowany w urządzeniach elektrycznych i sprzęcie energetycznym",
+  "quest.twr.4A4D6D0DC9B348C1.subtitle": "Młotek",
+  "quest.twr.4A4D6D0DC9B348C1.description.1": "Kamień był kuty.",
+  "quest.twr.4B6840707D77E2C0.subtitle": "Podstawowy materiał",
+  "quest.twr.4B6840707D77E2C0.description.1": "Ma lepszą wydajność niż czysta miedź.",
+  "quest.twr.4BBE69E2E2A4276F.title": "Podgrzewacz",
+  "quest.twr.4BBE69E2E2A4276F.subtitle": "Rozbuduj swoją bazę",
+  "quest.twr.4BBE69E2E2A4276F.description.1": "Lekki blok inżynieryjny znajduje się na dole, a dwa bloki z blachy stalowej znajdują się na górze. Kliknij prawym przyciskiem myszy młotkiem inżyniera",
+  "quest.twr.4BBE69E2E2A4276F.description.2": "Użyj rurek cieplnych, aby połączyć się z generatorem drugiego poziomu w pracy",
+  "quest.twr.4BBE69E2E2A4276F.description.3": "Może ogrzać część otoczenia i stopić śnieg i lód",
+  "quest.twr.4BD8236FEEBD7D3A.subtitle": "Twardy kamień",
+  "quest.twr.4BD8236FEEBD7D3A.description.1": "&6Kamień uzyskuje się przez wypalanie w piecu garncarskim&4&lz dowolnym innym kamieniem &r&6.",
+  "quest.twr.4BD8236FEEBD7D3A.description.3": "&6&lPiec garncarski musi być otoczony blokami ze wszystkich stron.",
+  "quest.twr.4BD8236FEEBD7D3A.description.5": "&6&lKliknij prawym przyciskiem myszy, aby umieścić kamienie, kliknij prawym przyciskiem myszy sześć słomek i trzy kłody, aby je wypełnić.",
+  "quest.twr.4BD8236FEEBD7D3A.description.6": "Po napełnieniu przytrzymaj narzędzie zapłonu i przytrzymaj prawy przycisk, aby go zapalić.",
+  "quest.twr.4CC5E16EFDE1368C.subtitle": "Solidne czarne złoto",
+  "quest.twr.4CC5E16EFDE1368C.description.1": "Rodzaj żelazostopu niskoemisyjnego.",
+  "quest.twr.4CC5E16EFDE1368C.description.2": "Bardzo ciemna, bardzo twarda.",
+  "quest.twr.4CC5E16EFDE1368C.description.3": "Służy do wykonywania większości konstrukcji mechanicznych, takich jak wały.",
+  "quest.twr.4CD30E566C5776E0.subtitle": "Narzędzia do aktualizacji",
+  "quest.twr.4CD30E566C5776E0.description.1": "Narzędzia z brązu są twardsze i trwalsze niż narzędzia krzemienne.",
+  "quest.twr.4D0ECD01E0CC7C8C.description.1": "Działa przy dostarczaniu impulsów czerwonego kamienia.",
+  "quest.twr.4DD7D3E4613000E4.subtitle": "Prosta obrona",
+  "quest.twr.4E2FF1AFA626A42B.subtitle": "Rośliny odporne",
+  "quest.twr.4E2FF1AFA626A42B.description.1": "Żyto jest jedną z najbardziej odpornych na niskie temperatury roślin uprawnych. Żyto możesz zbierać po włączeniu generatora jako początkowej racji żywnościowej.",
+  "quest.twr.4E3C1F4BDB921B8E.title": "Kabina",
+  "quest.twr.4E3C1F4BDB921B8E.subtitle": "Dobra?",
+  "quest.twr.4E3C1F4BDB921B8E.description.1": "Tutaj przechowywane są początkowe zapasy: czysta woda, żywność i ubrania.",
+  "quest.twr.4E3C1F4BDB921B8E.description.2": "Pospiesz się i wyposaż ich.",
+  "quest.twr.4E3C1F4BDB921B8E.description.3": "Nie zapomnij zabrać ze sobą tej łopaty, bardzo się przyda.",
+  "quest.twr.4F279E9DBFD52861.subtitle": "Szybkie strzelanie",
+  "quest.twr.4F279E9DBFD52861.description.1": "Powstaje przez wypalanie dowolnego kamienia zawierającego węglan wapnia.",
+  "quest.twr.50428AA91D1E1EFF.title": "Przetwarzanie zgniłego mięsa",
+  "quest.twr.50428AA91D1E1EFF.subtitle": "Symulator jadalni",
+  "quest.twr.50428AA91D1E1EFF.description.1": "Zgniłe mięso jest obrzydliwe. Jeśli potraktujemy to specjalnie, prawdopodobnie dostaniemy normalną kuchnię.",
+  "quest.twr.506C01A9BE167F7F.subtitle": "Zimowy staw rybny",
+  "quest.twr.506C01A9BE167F7F.description.1": "Włóż dowolną siatkę do sieci, aby złapać rybę",
+  "quest.twr.506C01A9BE167F7F.description.2": "& 6 Muszą być dokładnie zanurzone w wodzie, aby działały",
+  "quest.twr.5287CFB7B7D5285E.subtitle": "Piec koksowniczy!",
+  "quest.twr.5287CFB7B7D5285E.description.1": "Dzięki piecowi koksowniczemu nie ma potrzeby ciągłego układania dołów na węgiel drzewny!",
+  "quest.twr.52B0059C59DF67B5.subtitle": "Chociaż może być używany jako barwnik, jest również kopalnią miedzi",
+  "quest.twr.52B0059C59DF67B5.description.1": "Wygenerowano w:",
+  "quest.twr.52B0059C59DF67B5.description.2": "Wśród tufu, czarno-białego marmuru, brekcji.",
+  "quest.twr.539631D18E7A9B4A.description.1": "Wygenerowano w:",
+  "quest.twr.539631D18E7A9B4A.description.2": "Wśród kamieni kredowych, łupków węglowych, dolomitów, tufów, brekcji, mułowców.",
+  "quest.twr.543F5BC239D07C40.title": "&Części 6FTB",
+  "quest.twr.543F5BC239D07C40.subtitle": "Odbieranie porcji ma znaczenie",
+  "quest.twr.543F5BC239D07C40.description.1": "Naciśnij E, aby otworzyć ekwipunek i kliknij małą mapę w lewym górnym rogu.",
+  "quest.twr.543F5BC239D07C40.description.2": "Lub naciśnij M, aby otworzyć mapę, taką samą jak mała mapa w lewym górnym rogu.",
+  "quest.twr.543F5BC239D07C40.description.4": "&6&lProszę używać systemu zespołu ftbteam do zarządzania uprawnieniami",
+  "quest.twr.5581901DD85F746D.subtitle": "Fluor",
+  "quest.twr.5581901DD85F746D.description.1": "Wygenerowano w:",
+  "quest.twr.5581901DD85F746D.description.2": "Wśród łupków miki, ryolitu, komatytu, bazaltu porfirowego, granitu, diorytu, pegmatytu.",
+  "quest.twr.55BE6F159CF89342.subtitle": "Ekstraktor",
+  "quest.twr.55BE6F159CF89342.description.1": "&6Połóż go na bagażniku Saringi i zawieś puste wiadro, aby zebrać lateks",
+  "quest.twr.55C39831FBBB94D8.title": "Generator czwartego poziomu",
+  "quest.twr.55C39831FBBB94D8.subtitle": "Jeszcze nie wypuszczony",
+  "quest.twr.57C83EF2BAA418AD.subtitle": "Hotter",
+  "quest.twr.57C83EF2BAA418AD.description.1": "From T2 Generator, Generator needs heat conducting medium to utilize its full strength. Not providing heat conducting medium to it will result in nothing different than T1 Generator. You can visit this in detial in JEI. ",
+  "quest.twr.57C83EF2BAA418AD.description.2": "Input water can provide energy, but it will not boost the heating range nor the temperature.",
+  "quest.twr.57C83EF2BAA418AD.description.3": "Input steam can allow T2 Generator to operate at its optimum while boosting its heating range and temperature.",
+  "quest.twr.5808CFED17AE91D4.subtitle": "Składnik do wytapiania",
+  "quest.twr.5808CFED17AE91D4.description.1": "Surowiec do wytopu aluminium.",
+  "quest.twr.5845439CF721309F.subtitle": "Ogromny stres",
+  "quest.twr.5845439CF721309F.description.1": "Praktyczna maszyna, dzięki której możesz zwiększyć produkcję talerzy i oczywiście możesz też zrobić czekoladę.",
+  "quest.twr.586D66C71A378A82.title": "Miedziana taca",
+  "quest.twr.586D66C71A378A82.subtitle": "Metalowy talerz",
+  "quest.twr.586D66C71A378A82.description.1": "Strategia prymitywna zamienia dwie sztabki w jedną płytkę.",
+  "quest.twr.58912971B356779C.subtitle": "Może być nawet używany do gotowania",
+  "quest.twr.58912971B356779C.description.1": "Użyj rurek cieplnych, aby połączyć się z generatorem drugiego poziomu w pracy",
+  "quest.twr.58912971B356779C.description.2": "Przytrzymaj odpowiedni przedmiot i kliknij prawym przyciskiem myszy, aby naładować za pomocą pary/ciepła",
+  "quest.twr.58912971B356779C.description.3": "Takich jak: kamizelki grzewcze, butelki na wodę i wszelka żywność, która musi być wędzona",
+  "quest.twr.58AB0B83E545475C.subtitle": "Śpij spokojnie",
+  "quest.twr.58EF2132D0431323.title": "Rozmyślanie",
+  "quest.twr.58EF2132D0431323.subtitle": "Ważna umiejętność",
+  "quest.twr.58EF2132D0431323.description.1": "Rozważanie to bardzo ważna umiejętność.",
+  "quest.twr.58EF2132D0431323.description.2": "Jeśli pod przedmiotem znajduje się przypomnienie o Rozważaniu, naciśnij i przytrzymaj W, aby wejść do sceny Rozważania.",
+  "quest.twr.58EF2132D0431323.description.3": "Rozważanie może pomóc w zrozumieniu celu bloku lub tego, jak zbudować strukturę.",
+  "quest.twr.5907E1263E6D81E2.subtitle": "Duże ilości ołowiu",
+  "quest.twr.5907E1263E6D81E2.description.1": "Wygenerowano w:",
+  "quest.twr.5907E1263E6D81E2.description.2": "Wśród łupków miki, ryolitów, komatytów i czerwono-czarnego dacytu.",
+  "quest.twr.5B8BA38FF8C93A1A.subtitle": "Najbardziej podstawowy drut",
+  "quest.twr.5C3681B30ADB26B9.subtitle": "Owsianka żytnia, ale z trocinami",
+  "quest.twr.5C3681B30ADB26B9.description.1": "Wymaga garnka do zrobienia.",
+  "quest.twr.5C3681B30ADB26B9.description.2": "formuła:",
+  "quest.twr.5C3681B30ADB26B9.description.3": "1 część mąki żytniej + 1 miska + 1 część trocin + dowolne nadzienie (niejadalne)",
+  "quest.twr.5C8730E4484959B9.title": "Pierwszy krok doposażenia",
+  "quest.twr.5C8730E4484959B9.subtitle": "Początek rzemiosła",
+  "quest.twr.5C8730E4484959B9.description.1": "Przekuj wszystkie swoje narzędzia.",
+  "quest.twr.5CCD8F05D7402D4B.subtitle": "Towary premium",
+  "quest.twr.5D52744D5382A6CA.title": "Niebieskawy aluminium",
+  "quest.twr.5D52744D5382A6CA.subtitle": "Lekki i elastyczny",
+  "quest.twr.5D52744D5382A6CA.description.1": "Wysokowydajny metal przemysłowy na zimno.",
+  "quest.twr.5D803F0865A90DE0.subtitle": "Zrób drogę",
+  "quest.twr.5D803F0865A90DE0.description.1": "Oczywiście możesz odśnieżać",
+  "quest.twr.5DD231E4178E830D.subtitle": "Coś w środku",
+  "quest.twr.5DD231E4178E830D.description.1": "&6Może być bezkształtny w połączeniu z dowolnym elementem zbroi, który nie może się ogrzać.",
+  "quest.twr.5DD231E4178E830D.description.2": "Spraw, aby miał właściwości rozgrzewające słomy.",
+  "quest.twr.5E3A878B95133DAD.subtitle": "doktorat w geologii",
+  "quest.twr.5E3A878B95133DAD.description.1": "Dostarcza dokładnych informacji na temat rudy w małym regionie.",
+  "quest.twr.5F455ED38549D9EF.title": "Generator trzeciego poziomu",
+  "quest.twr.5F455ED38549D9EF.subtitle": "Jeszcze nie wypuszczony",
+  "quest.twr.6000F43C135FC068.subtitle": "Siła ludu",
+  "quest.twr.6000F43C135FC068.description.1": "Moc generowana przez ręczną korbę nie jest duża, ale przy dużym kole zębatym wystarczy wypompować ilość pary, która może napędzać silnik parowy z brązu.",
+  "quest.twr.6000F43C135FC068.description.2": "Po skonfigurowaniu silnika parowego możesz uwolnić ręce.",
+  "quest.twr.6000F43C135FC068.description.3": "Potrzebujesz go do napędzania niektórych podstawowych maszyn, takich jak miksery.",
+  "quest.twr.60C1118A879D4548.title": "Epoka lodowcowa — powrót mamuta",
+  "quest.twr.60C1118A879D4548.subtitle": "\"Idę, umierasz\"",
+  "quest.twr.60F112EDA31F73F5.title": "Zima",
+  "quest.twr.60F112EDA31F73F5.subtitle": "Wstęp",
+  "quest.twr.60F112EDA31F73F5.description.1": "Gdy właz się otworzył, zobaczyłeś na zewnątrz ogromną przestrzeń bieli.",
+  "quest.twr.60F112EDA31F73F5.description.2": "Przypominając sobie, co powiedział mi kapitan przed wyjazdem: „Ten świat jest już zagrożony, musisz zrobić wszystko, aby przywrócić ten świat do normy”.",
+  "quest.twr.60F112EDA31F73F5.description.3": "\"Nie mam nic do pomocy, mogę tylko życzyć powodzenia\".",
+  "quest.twr.60F112EDA31F73F5.description.4": "Wracając z pamięci, wyszedłeś z włazu, rozejrzałeś się: cisza.",
+  "quest.twr.60F112EDA31F73F5.description.5": "Zrozumiałeś, że teraz możesz polegać tylko na sobie.",
+  "quest.twr.61DD1DCCB9CCBFBF.subtitle": "Duże ilości cyny",
+  "quest.twr.61DD1DCCB9CCBFBF.description.1": "Wygenerowano w:",
+  "quest.twr.61DD1DCCB9CCBFBF.description.2": "Pegmatyt, ryolit, kwarcyt, piaskowiec kwarcowy",
+  "quest.twr.634DBB9E76CD029B.subtitle": "Dodatkowe informacje",
+  "quest.twr.634DBB9E76CD029B.description.1": "&6Jako elektryk ta para okularów jest niezbędna.",
+  "quest.twr.634DBB9E76CD029B.description.2": "Po jego założeniu można zobaczyć wiele wewnętrznych informacji o maszynach i urządzeniach parowych.",
+  "quest.twr.6356C6E09463F6AE.subtitle": "Brykiety w wersji na węgiel drzewny",
+  "quest.twr.6356C6E09463F6AE.description.1": "Po wyschnięciu otrzymujesz węgiel drzewny o strukturze plastra miodu.",
+  "quest.twr.6417209CD8ADABEC.description.1": "Służy do wykonywania cegieł ogniotrwałych.",
+  "quest.twr.643B93BCE91A0BB9.subtitle": "Po prostu sprasuj siano razem",
+  "quest.twr.643B93BCE91A0BB9.description.1": "Samo belowanie i suszenie siana może zwiększyć wydajność spalania.",
+  "quest.twr.647F24083B2703FF.subtitle": "Duży krystalizator",
+  "quest.twr.647F24083B2703FF.description.1": "Krystalizator do produkcji luzem.",
+  "quest.twr.647F24083B2703FF.description.2": "Posiada dwa gniazda wejściowe.",
+  "quest.twr.6577F4E013F76B98.subtitle": "Krzemionka",
+  "quest.twr.66505076652885B8.subtitle": "FBI otwiera drzwi",
+  "quest.twr.66505076652885B8.description.1": "Drzwi wykonane z brązu. Może być używany jako część wykopu na węgiel drzewny dla łatwego dostępu.",
+  "quest.twr.66505076652885B8.description.2": "Uwaga: Kierunek drzwi powinien dotykać stosu węgla w wyrobisku węgla drzewnego.",
+  "quest.twr.66A550B05F529CD5.title": "Większy alternator",
+  "quest.twr.66A550B05F529CD5.subtitle": "Obfita energia",
+  "quest.twr.66EFFD59083624BF.subtitle": "Surowa cegła z piasku",
+  "quest.twr.66EFFD59083624BF.description.1": "Cegły z piasku mają dobre właściwości termoizolacyjne.",
+  "quest.twr.6738A3C34A872FED.subtitle": "Odporność na wysoką temperaturę",
+  "quest.twr.6738A3C34A872FED.description.1": "Wymaga miksera i palnika Blaze",
+  "quest.twr.6746167385331F16.subtitle": "Czy naprawdę możesz to wypić?",
+  "quest.twr.6746167385331F16.description.1": "Zupa jarzynowa przeszywająca gardło.",
+  "quest.twr.6746167385331F16.description.2": "Przepis:",
+  "quest.twr.6746167385331F16.description.3": "Co najmniej 1 część dowolnego warzywa + 1 część trocin + 1 miska + dowolne nadzienie (niejadalne)",
+  "quest.twr.67486831FE3C0FBA.subtitle": "To inny rodzaj pieca",
+  "quest.twr.67486831FE3C0FBA.description.1": "Zobacz główny blok, aby zastanowić się, jak budować",
+  "quest.twr.67486831FE3C0FBA.description.2": "Umieść odpowiedni (kompletny blok) na cegle ogniotrwałej",
+  "quest.twr.67486831FE3C0FBA.description.3": "&6Kliknij prawym przyciskiem myszy główny blok z krzemieniem i stalą, co wymaga otwartego powietrza.",
+  "quest.twr.678491900C7F03F2.description.1": "Redstone można uzyskać, przetwarzając cynober",
+  "quest.twr.688C57B7BC46E723.subtitle": "Magazynowanie energii",
+  "quest.twr.688C57B7BC46E723.description.1": "Musisz użyć mechanicznej ręki i przenośnika taśmowego, aby zbudować linię montażową do montażu kondensatora.",
+  "quest.twr.689BB00EC2454F1F.subtitle": "Mały brzuch, duża pojemność.",
+  "quest.twr.689BB00EC2454F1F.description.1": "&6Jeden węgiel może przetopić tylko jedną rudę,",
+  "quest.twr.689BB00EC2454F1F.description.2": "Być może użycie węgla zaoszczędzi trochę więcej.",
+  "quest.twr.69D939596ED4C0AF.title": "Generator pierwszego poziomu",
+  "quest.twr.69D939596ED4C0AF.subtitle": "Duży kominek",
+  "quest.twr.69D939596ED4C0AF.description.1": "Generator jest rdzeniem tego modpacka, dużej wieloblokowej struktury używanej do ogrzewania otoczenia. Zastanów się nad &b&lGenerator Core&r i sprawdź strukturę multibloków.",
+  "quest.twr.69D939596ED4C0AF.description.2": "Możesz również spojrzeć na strukturę tutaj, porządkując klocki od góry do dołu:",
+  "quest.twr.69D939596ED4C0AF.description.3": "AAA ABA AA ABA A = Cegła generatora",
+  "quest.twr.69D939596ED4C0AF.description.4": "AAA BCB BBB = wzmacniacz generatora",
+  "quest.twr.69D939596ED4C0AF.description.5": "AAA ABA AA AAA C = Rdzeń generatora",
+  "quest.twr.69D939596ED4C0AF.description.6": "Po ustawieniu konstrukcji kliknij w bok młotkiem inżyniera.",
+  "quest.twr.69D939596ED4C0AF.description.7": "W przyszłości można to ulepszyć.",
+  "quest.twr.6B7D4F59C921C1FC.subtitle": "Jeśli chcesz się wzbogacić, zacznij od drzewa",
+  "quest.twr.6B7D4F59C921C1FC.description.1": "To ważne narzędzie, możesz teraz szybciej ścinać drzewa.",
+  "quest.twr.6C49B6777A13CC02.subtitle": "Srebro szterlingowe",
+  "quest.twr.6C49B6777A13CC02.description.1": "Wygenerowano w:",
+  "quest.twr.6C49B6777A13CC02.description.2": "Wśród łupków miki, ryolitu, komatytu, bazaltu porfirowego, granitu, diorytu, pegmatytu.",
+  "quest.twr.6C86BD5F9112256F.title": "Statek",
+  "quest.twr.6C86BD5F9112256F.subtitle": "Gdzie ja jestem?",
+  "quest.twr.6C86BD5F9112256F.description.1": "&l Statek kosmiczny, którym tym razem pilotowałem (jeszcze nie obiekt fizyczny) jest jednym z niewielu promów kosmicznych, które nadal mogą normalnie funkcjonować na stacji kosmicznej.",
+  "quest.twr.6C86BD5F9112256F.description.3": "Musisz jak najszybciej zdobyć zapasy.",
+  "quest.twr.6C86BD5F9112256F.description.4": "W przeciwnym razie w tę piekielną pogodę wkrótce zamarzniesz na śmierć!",
+  "quest.twr.6CF9868197215C1D.subtitle": "Duża miska",
+  "quest.twr.6CF9868197215C1D.description.1": "&6Przetwarzaj glinę, aby uzyskać gliniane wiadra.",
+  "quest.twr.6CF9868197215C1D.description.2": "Zawiera różne płyny, podobne do ogólnej jednostki płynów.",
+  "quest.twr.6D01046E549A087E.title": "Biała rzodkiew",
+  "quest.twr.6D01046E549A087E.subtitle": "warzywo",
+  "quest.twr.6D01046E549A087E.description.1": "Odporne warzywo, które może rosnąć w bardzo niskich temperaturach.",
+  "quest.twr.6D92E93A0811C1FD.subtitle": "Lepki",
+  "quest.twr.6D92E93A0811C1FD.description.1": "Wydaje się, że w korycie rzeki coś się znajduje",
+  "quest.twr.6D92E93A0811C1FD.description.2": "Jeśli chcesz gliny, idź nad rzekę, aby ją wykopać.",
+  "quest.twr.6D92E93A0811C1FD.description.3": "To ma sens, prawda?",
+  "quest.twr.6E83E2133A978D34.subtitle": "Nosić",
+  "quest.twr.6F39341180466270.description.1": "Wygenerowano w:",
+  "quest.twr.6F39341180466270.description.2": "Wśród kamieni kredowych, łupków węglowych, tufów, mułowców.",
+  "quest.twr.707E5C06843421A7.title": "Gravel with Copper",
+  "quest.twr.707E5C06843421A7.description.1": "Generated in the river bed. Dig to get copper ore. ",
+  "quest.twr.70E6A4B9946F263A.subtitle": "Must-have na zimę",
+  "quest.twr.70E6A4B9946F263A.description.1": "Może być NAPRAWDĘ zimno, jeśli nie nosisz ubrań.",
+  "quest.twr.7175C1158EE9178A.subtitle": "Nie trumna",
+  "quest.twr.7175C1158EE9178A.description.1": "Wykonany z płyty kamiennej. Może przechowywać trochę rzeczy.",
+  "quest.twr.718403EB34A5B46F.subtitle": "Proste przetwarzanie",
+  "quest.twr.718403EB34A5B46F.description.1": "Kliknij prawym przyciskiem myszy i użyj noża krzemiennego do obróbki skóry.",
+  "quest.twr.71D389AF87847D7B.description.1": "Jego odporność na ciepło jest lepsza niż cegieł piaskowych i można go używać do produkcji cegieł wielkopiecowych.",
+  "quest.twr.72D5B725766622F4.subtitle": "Inny rodzaj czerwonego kamienia",
+  "quest.twr.72D5B725766622F4.description.1": "Wygenerowano w:",
+  "quest.twr.72D5B725766622F4.description.2": "Wśród łupków miki, ryolitów, komatytów i czerwono-czarnego dacytu.",
+  "quest.twr.7359422ABAFA7721.subtitle": "Zupa z bałaganu warzywnego",
+  "quest.twr.7359422ABAFA7721.description.1": "Zwykła zupa jarzynowa.",
+  "quest.twr.7359422ABAFA7721.description.2": "formuła:",
+  "quest.twr.7359422ABAFA7721.description.3": "Co najmniej 1,75 porcji dowolnego warzywa + 1 miska + dowolne nadzienie (niejadalne)",
+  "quest.twr.73ADDB2F9A4F7C5D.subtitle": "Pełen miłości",
+  "quest.twr.73ADDB2F9A4F7C5D.description.1": "Spędziłeś 4 dni rozgrzewając dwa grządki, a teraz możesz wreszcie cieszyć się efektami.",
+  "quest.twr.74780AAD5FDF8870.subtitle": "CaCO3",
+  "quest.twr.74780AAD5FDF8870.description.1": "Składa się głównie z węglanu wapnia.",
+  "quest.twr.7491448A8055DBE6.subtitle": "Niebezpieczna bestia",
+  "quest.twr.7491448A8055DBE6.description.1": "Te bestie mają wyjątkowo ostre zęby",
+  "quest.twr.7491448A8055DBE6.description.2": "Przeważnie podróżuje samotnie",
+  "quest.twr.7491448A8055DBE6.description.3": "Jednak zbliżanie się do jednego z nich nie jest mądrym wyborem",
+  "quest.twr.75154C5A6E2F3257.title": "Żelazo",
+  "quest.twr.75154C5A6E2F3257.subtitle": "Prawdziwy metal nieszlachetny",
+  "quest.twr.75154C5A6E2F3257.description.1": "Zdobądź sprzęt",
+  "quest.twr.75154C5A6E2F3257.description.2": "&6Większość magnetytu pojawia się w górnej skale osadowej",
+  "quest.twr.7521769E8333942B.subtitle": "Prymitywne bronie",
+  "quest.twr.7521769E8333942B.description.1": "Świat jest niebezpieczny, a niektóre nieokiełznane stworzenia są dzikie.",
+  "quest.twr.7521769E8333942B.description.2": "Może być rzutowany jako włócznia.",
+  "quest.twr.7612A96FFEFC5635.title": "Brązowy kocioł",
+  "quest.twr.7612A96FFEFC5635.subtitle": "Mały krok dla ludzkości",
+  "quest.twr.7612A96FFEFC5635.description.1": "Zużywając wodę i spalając każdy palny materiał w celu wytworzenia pary. Lepiej zajrzyj do rozdziału Przetwarzanie paliwa w księdze zadań.",
+  "quest.twr.7612A96FFEFC5635.description.2": "Kocioł &6&l musi być umieszczony na górze komory spalania",
+  "quest.twr.7612A96FFEFC5635.description.3": "The &6&l boiler must be placed on top of the burning chamber",
+  "quest.twr.76B2B1A3EC6D92CD.subtitle": "Prymitywne paliwo, ale też filtruje wodę",
+  "quest.twr.76B2B1A3EC6D92CD.description.1": "Tanie i wydajne paliwo.",
+  "quest.twr.76B2B1A3EC6D92CD.description.2": "Metoda budowy:",
+  "quest.twr.76B2B1A3EC6D92CD.description.3": "&6Ułóż kłody na stos i &4&l zapieczętuj&r&6 w zamkniętej przestrzeni,",
+  "quest.twr.76B2B1A3EC6D92CD.description.4": "&6Zostaw otwór do zapłonu i natychmiast go zakryj.",
+  "quest.twr.76B2B1A3EC6D92CD.description.5": "Poczekaj, aż wypalanie się zakończy, aby zdobyć węgiel.",
+  "quest.twr.770CD4281B427FDC.subtitle": "Niepalny węgiel drzewny",
+  "quest.twr.770CD4281B427FDC.description.1": "Dopóki zmienia się kształt drewna, może ono palić się pełniej.",
+  "quest.twr.77A7511048D5767B.subtitle": "Zrobione z kamienia!",
+  "quest.twr.77A7511048D5767B.description.1": "W przypadku zwykłych dołów na węgiel drzewny wystarczy brud.",
+  "quest.twr.77A7511048D5767B.description.2": "Ale jeśli chcesz produkować koks, musisz zbudować kopalnię węgla drzewnego z kamiennych cegieł.",
+  "quest.twr.77A7511048D5767B.description.3": "Aby wyprodukować koks, musisz mieć &6&l stos węgla, a nie stos kłód",
+  "quest.twr.7887EB905BAA7BEF.subtitle": "Nie grafit",
+  "quest.twr.7887EB905BAA7BEF.description.1": "Kliknij prawym przyciskiem myszy, aby otworzyć interfejs użytkownika i dodać elementy.",
+  "quest.twr.7887EB905BAA7BEF.description.2": "&eShift-Puste-ręcznie-kliknij go prawym przyciskiem myszy, aby zmielić.",
+  "quest.twr.79D38F0D4D3E5482.subtitle": "Tak głęboka łopata",
+  "quest.twr.79D38F0D4D3E5482.description.1": "Zapewnia szerszą informację geologiczną na mniejszym obszarze.",
+  "quest.twr.7AA152F9B5AF6677.subtitle": "W mroźną zimę ugotujmy garnek gorących potraw.",
+  "quest.twr.7AA152F9B5AF6677.description.1": "Wielofunkcyjny garnek, który integruje smażenie, duszenie i duszenie.",
+  "quest.twr.7AA152F9B5AF6677.description.2": "Użycie jest bardzo proste. Po prostu wrzuć jedzenie z dowolnym opisem wartości składnika, ugotuj i gotowe. Co do tego, co wychodzi...",
+  "quest.twr.7AFE32B08BB6CE6C.title": "Lista programistów",
+  "quest.twr.7AFE32B08BB6CE6C.subtitle": "Osoby zaangażowane w rozwój",
+  "quest.twr.7AFE32B08BB6CE6C.description.1": "&lTeamMoeg-TWRDev jest głównym zespołem programistów tego pakietu modów.",
+  "quest.twr.7C30A1316BF232EC.subtitle": "Tlenek żelaza",
+  "quest.twr.7C30A1316BF232EC.description.1": "Wygenerowano w:",
+  "quest.twr.7C30A1316BF232EC.description.2": "Wśród dolomitu, kredy, brekcji, tufu, łupków węglowych.",
+  "quest.twr.7D2807571451631F.subtitle": "Tlenek cyny",
+  "quest.twr.7D2807571451631F.description.1": "Wygenerowano w:",
+  "quest.twr.7D2807571451631F.description.2": "Wśród diorytu, granodiorytu, granitu, szarego granitu, gabro piroksenu, białego marmuru.",
+  "quest.twr.7D2826CCB69C5EE8.subtitle": "Lepsze niż kamienny młotek",
+  "quest.twr.7D5541059C15C6AE.subtitle": "Zaawansowana logistyka",
+  "quest.twr.7E3F0C805E2BBB9F.subtitle": "Rodzaj kowadła",
+  "quest.twr.7E3F0C805E2BBB9F.description.1": "Mocna i wytrzymała podstawa.",
+  "quest.twr.7E3F0C805E2BBB9F.description.2": "&6Po założeniu surowców kliknij lewym przyciskiem wymagane narzędzie, aby zakończyć przetwarzanie.",
+  "quest.twr.7EDDAD2D1E2B0613.subtitle": "Silniejszy",
+  "quest.twr.7EDDAD2D1E2B0613.description.1": "Zużywa mniej stresu niż koła zębate z brązu.",
+  "quest.twr.7F84766122DC4753.subtitle": "Montaż o wysokiej precyzji",
+  "quest.twr.7F84766122DC4753.description.1": "Niezbędną żywicę można wyekstrahować ze świerka, jodły, cedru itp."
 }

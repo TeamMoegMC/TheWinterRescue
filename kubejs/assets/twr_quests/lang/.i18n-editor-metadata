@@ -1,4 +1,4 @@
-minify_resources=1
+minify_resources=0
 resource_definition={LOCALE}
 resource_structure=Flat
 resource_type=JSON
