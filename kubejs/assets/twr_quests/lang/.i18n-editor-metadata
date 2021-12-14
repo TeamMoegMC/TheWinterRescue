@@ -1,0 +1,5 @@
+minify_resources=1
+resource_definition={LOCALE}
+resource_structure=Flat
+resource_type=JSON
+flatten_json=0
