@@ -124,6 +124,11 @@ onEvent('recipes', (event) => {
     ]
 
     const recipes = [
+		flint_shapedRecipe(Item.of('4x minecraft:arrow'), ['A', 'B', 'C'], {
+            A: Item.of('stone_age:bone_arrow_head').toJson(),
+            B: Item.of('#forge:rods/wooden').toJson(),
+			C: Item.of('#forge:feathers').toJson()
+        }, Item.of('stone_age:flint_knife')),
 		flint_shapedRecipe(Item.of('frostedheart:hand_stove'), [' B ', 'BAB', ' B '], {
             A: '#forge:clay_balls',
             B: '#forge:plates/copper'
@@ -283,11 +288,7 @@ onEvent('recipes', (event) => {
             A: Item.of('minecraft:stone').toJson(),
             B: Item.of('rankine:mortar').toJson()
         }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('minecraft:arrow'), ['A', 'B', 'C'], {
-            A: Item.of('stone_age:bone_arrow_head').toJson(),
-            B: Item.of('#forge:rods/wooden').toJson(),
-			C: Item.of('#forge:feathers').toJson()
-        }, Item.of('stone_age:flint_knife')),
+		
 		flint_shapedRecipe(Item.of('frostedheart:charcoal_stick',2), ['A'], {
             A: Item.of('kubejs:charcoal_briquette').toJson()
         }, Item.of('stone_age:flint_knife')),
