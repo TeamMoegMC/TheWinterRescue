@@ -127,7 +127,35 @@ onEvent('block.loot_tables', event => {
 			pool.addItem('primalwinter:snowy_vine', 1)
 		})
 	})
-	event.addSimpleBlock('primalwinter:snowy_vine')
+	event.modifyBlock("primalwinter:snowy_vine", table => {
+		table.addPool(pool =>{
+			pool.addCondition({
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "tag": "frostedheart:knife"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "enchantments": [
+                          {
+                            "enchantment": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                })
+			pool.addItem('primalwinter:snowy_vine', 1)
+		})
+	})
 })
 
 
