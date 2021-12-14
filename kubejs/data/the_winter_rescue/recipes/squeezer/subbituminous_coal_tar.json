@@ -5,11 +5,10 @@
 	"amount":100
   },
   "result":{
-    "item":"rankine:biomass",
-	"count":2
+    "item":"kubejs:coal_dust"
   },
   "input":{
-	"item":"minecraft:birch_log"
+	"item":"rankine:subbituminous_coal"
   },
   "energy":12800
 }
