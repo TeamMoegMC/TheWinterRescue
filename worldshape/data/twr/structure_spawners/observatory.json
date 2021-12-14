@@ -4,13 +4,13 @@
       "id": "twr:observatory"
   },
 
-  "averageSpacing": 5,
+  "averageSpacing": 10,
   "avoidOthers": true,
   
   "placement": {
       "offset": 0,
       "terraform": -1,
-      "minY": 60,
+      "minY": 100,
       "maxY": 200,
       "type": "surface"
   },
@@ -21,9 +21,7 @@
 
   "biomes": [
       "#taiga",
-      "#extreme_hills",
-      "#plains",
-      "#forest"
+      "#extreme_hills"
   ]
 
 }
