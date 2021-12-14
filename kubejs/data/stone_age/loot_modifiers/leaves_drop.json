@@ -1,0 +1,10 @@
+{
+  "type": "stone_age:leaves_drop",
+  "conditions": [
+    {
+      "condition": "stone_age:match_tag",
+      "tag": "minecraft:leaves"
+    }
+  ],
+  "chance": 0.1
+}
