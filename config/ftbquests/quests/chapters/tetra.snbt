@@ -44,7 +44,7 @@
 				{
 					id: "69827A684F506414"
 					type: "item"
-					title: "任意锤子"
+					title: "{quest.twr.11DD149796E14E81.69827A684F506414}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
