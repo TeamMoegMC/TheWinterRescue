@@ -3,8 +3,8 @@
   "conditions": [
     {
       "condition": "stone_age:match_tag",
-      "tag": "kubejs:snowy_leaves"
+      "tag": "kubejs:rankine_leaves"
     }
   ],
-  "chance": 0.25
+  "chance": 0.1
 }
