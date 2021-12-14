@@ -12,8 +12,8 @@
 		{
 			title: "{quest.twr.69D939596ED4C0AF.title}"
 			icon: "frostedheart:generator"
-			x: 0.5d
-			y: 0.0d
+			x: -16.0d
+			y: -4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.69D939596ED4C0AF.subtitle}"
 			description: [
@@ -29,6 +29,7 @@
 				"0A9A5166127945AB"
 				"573841FD8018D4B1"
 			]
+			size: 4.0d
 			id: "69D939596ED4C0AF"
 			tasks: [
 				{
@@ -72,8 +73,8 @@
 		{
 			title: "{quest.twr.2D570AD59FE2D6E1.title}"
 			icon: "frostedheart:generator_t2"
-			x: 0.5d
-			y: 2.0d
+			x: -8.0d
+			y: -4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.2D570AD59FE2D6E1.subtitle}"
 			description: [
@@ -91,6 +92,7 @@
 				"0019852CD6EC0354"
 			]
 			hide: true
+			size: 4.0d
 			id: "2D570AD59FE2D6E1"
 			tasks: [{
 				id: "0FAB6E315ECD3A7F"
@@ -105,11 +107,12 @@
 		}
 		{
 			title: "{quest.twr.5F455ED38549D9EF.title}"
-			x: 0.5d
-			y: 4.0d
+			x: 0.0d
+			y: -4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.5F455ED38549D9EF.subtitle}"
 			dependencies: ["2D570AD59FE2D6E1"]
+			size: 4.0d
 			id: "5F455ED38549D9EF"
 			tasks: [{
 				id: "7E661B77895EA858"
@@ -119,11 +122,12 @@
 		}
 		{
 			title: "{quest.twr.55C39831FBBB94D8.title}"
-			x: 0.5d
-			y: 6.0d
+			x: 8.0d
+			y: -4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.55C39831FBBB94D8.subtitle}"
 			dependencies: ["5F455ED38549D9EF"]
+			size: 4.0d
 			id: "55C39831FBBB94D8"
 			tasks: [{
 				id: "63016D35FF201A5F"
@@ -134,8 +138,8 @@
 		{
 			title: "{quest.twr.4BBE69E2E2A4276F.title}"
 			icon: "frostedheart:heat_radiator"
-			x: 4.0d
-			y: 2.0d
+			x: -10.0d
+			y: -11.0d
 			shape: "gear"
 			subtitle: "{quest.twr.4BBE69E2E2A4276F.subtitle}"
 			description: [
@@ -144,6 +148,7 @@
 				"{quest.twr.4BBE69E2E2A4276F.description.3}"
 			]
 			dependencies: ["3EF706F5A31CDDD6"]
+			size: 2.0d
 			id: "4BBE69E2E2A4276F"
 			tasks: [
 				{
@@ -160,8 +165,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 0.5d
+			x: -8.0d
+			y: -12.0d
 			subtitle: "{quest.twr.58912971B356779C.subtitle}"
 			description: [
 				"{quest.twr.58912971B356779C.description.1}"
@@ -169,6 +174,7 @@
 				"{quest.twr.58912971B356779C.description.3}"
 			]
 			dependencies: ["3EF706F5A31CDDD6"]
+			size: 2.0d
 			id: "58912971B356779C"
 			tasks: [{
 				id: "5936B9467F9C1E93"
@@ -177,8 +183,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 0.5d
+			x: -10.0d
+			y: -14.0d
 			subtitle: "{quest.twr.2E54EBA4E016412C.subtitle}"
 			description: [
 				"{quest.twr.2E54EBA4E016412C.description.1}"
@@ -186,6 +192,7 @@
 				"{quest.twr.2E54EBA4E016412C.description.3}"
 			]
 			dependencies: ["58912971B356779C"]
+			size: 2.0d
 			id: "2E54EBA4E016412C"
 			tasks: [{
 				id: "5AFE1335BBD8F8C1"
@@ -200,11 +207,12 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.0d
+			x: -8.0d
+			y: -9.0d
 			subtitle: "{quest.twr.3EF706F5A31CDDD6.subtitle}"
 			description: ["{quest.twr.3EF706F5A31CDDD6.description.1}"]
 			dependencies: ["2D570AD59FE2D6E1"]
+			size: 2.0d
 			id: "3EF706F5A31CDDD6"
 			tasks: [{
 				id: "0640ED64D787FA86"
@@ -215,14 +223,15 @@
 		{
 			title: "{quest.twr.00FD2A2F4601287B.title}"
 			icon: "minecraft:coal"
-			x: 2.0d
-			y: 0.0d
+			x: -16.0d
+			y: -9.0d
 			subtitle: "{quest.twr.00FD2A2F4601287B.subtitle}"
 			description: [
 				"{quest.twr.00FD2A2F4601287B.description.1}"
 				"{quest.twr.00FD2A2F4601287B.description.2}"
 			]
 			dependencies: ["69D939596ED4C0AF"]
+			size: 2.0d
 			id: "00FD2A2F4601287B"
 			tasks: [{
 				id: "4965F8923CFE2918"
@@ -232,10 +241,11 @@
 		{
 			title: "{quest.twr.2E96E546DCA1486C.title}"
 			icon: "minecraft:charcoal"
-			x: -1.0d
-			y: 0.0d
+			x: -16.0d
+			y: 1.0d
 			description: ["{quest.twr.2E96E546DCA1486C.description.1}"]
 			dependencies: ["69D939596ED4C0AF"]
+			size: 2.0d
 			id: "2E96E546DCA1486C"
 			tasks: [{
 				id: "4ACC9E95EA81E727"
@@ -250,8 +260,8 @@
 					energy: 240
 				}
 			}
-			x: -1.0d
-			y: 2.0d
+			x: -8.0d
+			y: 1.0d
 			subtitle: "{quest.twr.57C83EF2BAA418AD.subtitle}"
 			description: [
 				"{quest.twr.57C83EF2BAA418AD.description.1}"
@@ -259,6 +269,7 @@
 				"{quest.twr.57C83EF2BAA418AD.description.3}"
 			]
 			dependencies: ["2D570AD59FE2D6E1"]
+			size: 2.0d
 			id: "57C83EF2BAA418AD"
 			tasks: [{
 				id: "2138101237058A9B"
@@ -267,9 +278,10 @@
 			}]
 		}
 		{
+			title: "The Generator"
 			icon: "frostedheart:generator_core_t1"
-			x: 0.5d
-			y: -2.0d
+			x: -20.5d
+			y: -4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.573841FD8018D4B1.subtitle}"
 			description: [
@@ -278,11 +290,11 @@
 				"{quest.twr.573841FD8018D4B1.description.3}"
 			]
 			dependencies: ["0A9A5166127945AB"]
+			size: 2.0d
 			id: "573841FD8018D4B1"
 			tasks: [{
 				id: "65A5E15C81C7DC26"
 				type: "checkmark"
-				title: "能量塔"
 			}]
 		}
 	]

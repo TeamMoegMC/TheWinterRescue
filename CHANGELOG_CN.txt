@@ -1,3 +1,32 @@
+冬季救援 Beta-0.4.7 更新公告
+* 新增
+工业级多方块电解池
+烹饪锅有JEI页面了
+添加了电极制作
+世界里会生成一些天文台
+* 改动
+更新了能量塔、电解槽、能量管道的材质渲染
+降低了高炉冶炼初等矿物和矿粉的所需时间
+移除了不必要的JEI页面
+Tetra斧头现在能连锁砍树了
+* 修复
+修复了某些启动报错
+修复了一些木头能被手挖
+* 优化
+优化了部分物品合成
+优化了一些机器逻辑
+* 新增模组
+WorldShape
+* 更新模组
+FrostedHeart
+SteamPowered
+CharcoalPit
+StoneAge
+ImmersiveIndustry
+CrockPot
+WaterSource
+InventoryProfileNext
+
 冬季救援 Beta-0.4.6 更新公告
 * 新增：
 真实运动机构能耗设定：在运动机构上添加更多的方块会根据相应的位置按照力矩和空气阻力增加所需的能耗

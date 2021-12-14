@@ -1842,7 +1842,7 @@
 				{
 					id: "358AAF5CE7EE2574"
 					type: "item"
-					title: "任意燃料棒"
+					title: "Any fuel rod"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
