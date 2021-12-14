@@ -265,7 +265,7 @@
 			description: [
 				"{quest.twr.4138E3A9915F811C.description.1}"
 				"{quest.twr.4138E3A9915F811C.description.2}"
-				"玩到这里，你已经是一个&a成熟的整合包玩家&r了，&6&l你应该学会自己根据&bJEI&6和&b模组手册&6决定你要制作的东西&r。"
+				"{quest.twr.4138E3A9915F811C.description.3}"
 			]
 			dependencies: ["5D52744D5382A6CA"]
 			id: "4138E3A9915F811C"
@@ -394,8 +394,8 @@
 			y: 0.5d
 			subtitle: "{quest.twr.66A550B05F529CD5.subtitle}"
 			description: [
-				"还在和一堆飞轮打交道？试试蒸汽涡轮机吧"
-				"搭建方法详见工程师手册。"
+				"{quest.twr.66A550B05F529CD5.description.1}"
+				"{quest.twr.66A550B05F529CD5.description.2}"
 			]
 			dependencies: ["4138E3A9915F811C"]
 			id: "66A550B05F529CD5"
@@ -433,8 +433,8 @@
 		{
 			x: -2.0d
 			y: -1.5d
-			subtitle: "任务书#2"
-			description: ["沉浸工程和相关MOD的多方块结构都可以在里面找到。"]
+			subtitle: "{quest.twr.6EC18F90620F0A48.subtitle}"
+			description: ["{quest.twr.6EC18F90620F0A48.description.1}"]
 			dependencies: ["5D52744D5382A6CA"]
 			id: "6EC18F90620F0A48"
 			tasks: [{
@@ -444,14 +444,14 @@
 			}]
 		}
 		{
-			title: "工业电解槽"
+			title: "{quest.twr.45FBD9AC4E48BF09.title}"
 			icon: "immersiveindustry:industrial_electrolyzer"
 			x: -6.5d
 			y: -1.5d
-			subtitle: "效率增长1800%%"
+			subtitle: "{quest.twr.45FBD9AC4E48BF09.subtitle}"
 			description: [
-				"工业电解槽速度更快，更节能，而且能生产更多的配方。你需要石墨电极来让他工作。"
-				"搭建方法详见工程师手册。"
+				"{quest.twr.45FBD9AC4E48BF09.description.1}"
+				"{quest.twr.45FBD9AC4E48BF09.description.2}"
 			]
 			dependencies: ["18D8751ED2B62FF2"]
 			id: "45FBD9AC4E48BF09"
@@ -472,10 +472,10 @@
 			icon: "immersiveengineering:metal_press"
 			x: -4.5d
 			y: -1.5d
-			subtitle: "科技的乐趣"
+			subtitle: "{quest.twr.18D8751ED2B62FF2.subtitle}"
 			description: [
-				"再次增产板材，并且能生产石墨电极。"
-				"搭建方法详见工程师手册。"
+				"{quest.twr.18D8751ED2B62FF2.description.1}"
+				"{quest.twr.18D8751ED2B62FF2.description.2}"
 			]
 			dependencies: ["4138E3A9915F811C"]
 			id: "18D8751ED2B62FF2"

@@ -393,7 +393,7 @@
 				"{quest.twr.1CD9EB4A39925BB8.description.4}"
 				"{quest.twr.1CD9EB4A39925BB8.description.5}"
 				"{quest.twr.1CD9EB4A39925BB8.description.6}"
-				"服主如果不懂如何设置权限，请直接给予OP。"
+				"{quest.twr.1CD9EB4A39925BB8.description.7}"
 			]
 			id: "1CD9EB4A39925BB8"
 			tasks: [{

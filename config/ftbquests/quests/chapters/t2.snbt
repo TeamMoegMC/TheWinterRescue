@@ -646,7 +646,7 @@
 			}]
 		}
 		{
-			title: "砂纸"
+			title: "{quest.twr.6439CF1B54CEF092.title}"
 			x: -11.5d
 			y: 3.5d
 			subtitle: "{quest.twr.6439CF1B54CEF092.subtitle}"
@@ -1095,10 +1095,10 @@
 		{
 			x: -10.0d
 			y: 0.0d
-			subtitle: "奇观误国"
+			subtitle: "{quest.twr.2659A48FDF01B1B7.subtitle}"
 			description: [
-				"可以用于搭建一个多方块显示游戏内时间的时钟。"
-				"&m不推荐用来工作，因为它的速度太慢了"
+				"{quest.twr.2659A48FDF01B1B7.description.1}"
+				"{quest.twr.2659A48FDF01B1B7.description.2}"
 			]
 			dependencies: ["0F8B1303FEF36BD1"]
 			id: "2659A48FDF01B1B7"
@@ -1111,11 +1111,11 @@
 		{
 			x: -22.0d
 			y: -0.5d
-			subtitle: "就是一个垃圾桶"
+			subtitle: "{quest.twr.7C21BA2D2453AA79.subtitle}"
 			description: [
-				"杂酚油多到用不完？试试这款焚油器吧。"
-				"只要放在焦炉上方，就可以快速销毁焦炉里的杂酚油。"
-				"也可以用泵泵入流体以提高销毁速率，&m但请不要尝试用它来加热&r。"
+				"{quest.twr.7C21BA2D2453AA79.description.1}"
+				"{quest.twr.7C21BA2D2453AA79.description.2}"
+				"{quest.twr.7C21BA2D2453AA79.description.3}"
 			]
 			dependencies: ["5287CFB7B7D5285E"]
 			id: "7C21BA2D2453AA79"

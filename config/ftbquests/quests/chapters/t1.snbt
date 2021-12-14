@@ -1108,7 +1108,7 @@
 			description: [
 				"{quest.twr.062E137E7ECB4C99.description.1}"
 				"{quest.twr.062E137E7ECB4C99.description.2}"
-				"破坏时保存内容物。"
+				"{quest.twr.062E137E7ECB4C99.description.3}"
 			]
 			dependencies: ["689BB00EC2454F1F"]
 			id: "062E137E7ECB4C99"
@@ -1728,7 +1728,7 @@
 			x: 8.0d
 			y: 5.0d
 			subtitle: "{quest.twr.190859211258D56B.subtitle}"
-			description: ["青铜斧子可以用于批量砍树，建议制作。"]
+			description: ["{quest.twr.190859211258D56B.description.1}"]
 			dependencies: ["4CD30E566C5776E0"]
 			id: "190859211258D56B"
 			tasks: [{
@@ -1779,7 +1779,7 @@
 			subtitle: "{quest.twr.1A4B718B8132E2BA.subtitle}"
 			description: [
 				"{quest.twr.1A4B718B8132E2BA.description.1}"
-				"&c&l建议开始游玩前先设置一遍。"
+				"{quest.twr.1A4B718B8132E2BA.description.2}"
 			]
 			id: "1A4B718B8132E2BA"
 			tasks: [{
@@ -1818,12 +1818,12 @@
 			}
 			x: 3.0d
 			y: 4.5d
-			subtitle: "便携式篝火"
+			subtitle: "{quest.twr.0E067BFAE2FB5441.subtitle}"
 			description: [
-				"铜制手炉可以让你在&6&l最低限度的装备&r下保持温暖。"
-				"与任意燃料棒无序合成即可添加燃料，内部最多可以插入2根燃料棒。"
-				"燃料烧完后，&6&l手持手炉右键敲击地面倒出灰烬。"
-				"手持和放在副手均有效果。"
+				"{quest.twr.0E067BFAE2FB5441.description.1}"
+				"{quest.twr.0E067BFAE2FB5441.description.2}"
+				"{quest.twr.0E067BFAE2FB5441.description.3}"
+				"{quest.twr.0E067BFAE2FB5441.description.4}"
 			]
 			dependencies: ["586D66C71A378A82"]
 			id: "0E067BFAE2FB5441"
@@ -1857,12 +1857,12 @@
 			icon: "minecraft:netherrack"
 			x: 4.0d
 			y: -5.0d
-			subtitle: "行不通的"
+			subtitle: "{quest.twr.3B306015B7675BD1.subtitle}"
 			description: [
-				"拿到陶土桶之后，我猜你肯定会想到浇筑地狱门。"
-				"然而这里太冷了，并不能使用&5&l火焰魔法&r。"
-				"也许你需要&6&l另辟蹊径&r，但无论如何，以你现在对世界的了解水平不足以找到别的方法了。"
-				"（在任务进程到打开地狱门之前，&c&l你都不会用到地狱相关的材料&r。）"
+				"{quest.twr.3B306015B7675BD1.description.1}"
+				"{quest.twr.3B306015B7675BD1.description.2}"
+				"{quest.twr.3B306015B7675BD1.description.3}"
+				"{quest.twr.3B306015B7675BD1.description.4}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["6CF9868197215C1D"]

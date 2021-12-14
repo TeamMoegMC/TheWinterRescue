@@ -376,8 +376,8 @@
 		{
 			x: 1.0d
 			y: 0.5d
-			subtitle: "深入了解"
-			description: ["想了解更多世界相关的信息？请参考兰金计划的教程书。"]
+			subtitle: "{quest.twr.7FA0ADDB6ABCAB6A.subtitle}"
+			description: ["{quest.twr.7FA0ADDB6ABCAB6A.description.1}"]
 			dependencies: ["181378ABF5CCD166"]
 			id: "7FA0ADDB6ABCAB6A"
 			tasks: [{
@@ -395,7 +395,7 @@
 		{
 			x: 4.0d
 			y: 4.0d
-			description: ["生成于板岩，白色大理岩，碳质页岩中"]
+			description: ["{quest.twr.3AC7F7FF3EDA24F5.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
@@ -409,8 +409,8 @@
 		{
 			x: 4.0d
 			y: 5.0d
-			subtitle: "生成在变质岩和侵入岩"
-			description: ["生成于云母片岩、黑色大理岩、板岩、矽卡岩、伟晶岩、片麻岩中"]
+			subtitle: "{quest.twr.1EAA26CFD9FF2633.subtitle}"
+			description: ["{quest.twr.1EAA26CFD9FF2633.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
 			hide: true
