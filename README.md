@@ -6,7 +6,6 @@
 	<a href="https://www.curseforge.com/minecraft/modpacks/the-winter-rescue"><img src="https://cf.way2muchnoise.eu/title/535790.svg?badge_style=flat" alt="Curseforge Downloads"></a>
     	<a href="https://www.curseforge.com/minecraft/modpacks/the-winter-rescue"><img src="http://cf.way2muchnoise.eu/full_535790_downloads.svg?badge_style=flat" alt="Curseforge Downloads"></a>
 	<a href="https://www.curseforge.com/minecraft/modpacks/the-winter-rescue"><img src="https://cf.way2muchnoise.eu/versions/For%20MC_535790_all.svg?badge_style=flat" alt="Curseforge Downloads"></a>
-	<a href="https://crowdin.com/project/the-winter-rescue"><img alt="Crowdin" src="https://badges.crowdin.net/the-winter-rescue/localized.svg"></a>
 </h4>	
 	
 <h4 align="center">
