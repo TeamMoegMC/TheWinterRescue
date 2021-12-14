@@ -1663,7 +1663,7 @@
 			description: [
 				"{quest.twr.79D38F0D4D3E5482.description.1}"
 				"{quest.twr.79D38F0D4D3E5482.description.2}"
-				"&e铜探铲的深度范围较小，如果需要找深层矿可能需要一些技巧……"
+				"{quest.twr.79D38F0D4D3E5482.description.3}"
 			]
 			dependencies: ["1DF200F6772308C7"]
 			hide_text_until_complete: true

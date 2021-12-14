@@ -278,7 +278,7 @@
 			}]
 		}
 		{
-			title: "The Generator"
+			title: "{quest.twr.573841FD8018D4B1.title}"
 			icon: "frostedheart:generator_core_t1"
 			x: -20.5d
 			y: -4.0d
