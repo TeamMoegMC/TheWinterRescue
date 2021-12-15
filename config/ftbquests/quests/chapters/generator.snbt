@@ -29,7 +29,7 @@
 				"0A9A5166127945AB"
 				"573841FD8018D4B1"
 			]
-			size: 4.0d
+			size: 2.5d
 			id: "69D939596ED4C0AF"
 			tasks: [
 				{
@@ -92,7 +92,7 @@
 				"0019852CD6EC0354"
 			]
 			hide: true
-			size: 4.0d
+			size: 2.5d
 			id: "2D570AD59FE2D6E1"
 			tasks: [{
 				id: "0FAB6E315ECD3A7F"
@@ -112,7 +112,7 @@
 			shape: "gear"
 			subtitle: "{quest.twr.5F455ED38549D9EF.subtitle}"
 			dependencies: ["2D570AD59FE2D6E1"]
-			size: 4.0d
+			size: 2.5d
 			id: "5F455ED38549D9EF"
 			tasks: [{
 				id: "7E661B77895EA858"
@@ -127,7 +127,7 @@
 			shape: "gear"
 			subtitle: "{quest.twr.55C39831FBBB94D8.subtitle}"
 			dependencies: ["5F455ED38549D9EF"]
-			size: 4.0d
+			size: 2.5d
 			id: "55C39831FBBB94D8"
 			tasks: [{
 				id: "63016D35FF201A5F"
@@ -148,7 +148,7 @@
 				"{quest.twr.4BBE69E2E2A4276F.description.3}"
 			]
 			dependencies: ["3EF706F5A31CDDD6"]
-			size: 2.0d
+			size: 1.5d
 			id: "4BBE69E2E2A4276F"
 			tasks: [
 				{
@@ -174,7 +174,7 @@
 				"{quest.twr.58912971B356779C.description.3}"
 			]
 			dependencies: ["3EF706F5A31CDDD6"]
-			size: 2.0d
+			size: 1.5d
 			id: "58912971B356779C"
 			tasks: [{
 				id: "5936B9467F9C1E93"
@@ -192,7 +192,7 @@
 				"{quest.twr.2E54EBA4E016412C.description.3}"
 			]
 			dependencies: ["58912971B356779C"]
-			size: 2.0d
+			size: 1.5d
 			id: "2E54EBA4E016412C"
 			tasks: [{
 				id: "5AFE1335BBD8F8C1"
@@ -212,7 +212,7 @@
 			subtitle: "{quest.twr.3EF706F5A31CDDD6.subtitle}"
 			description: ["{quest.twr.3EF706F5A31CDDD6.description.1}"]
 			dependencies: ["2D570AD59FE2D6E1"]
-			size: 2.0d
+			size: 1.5d
 			id: "3EF706F5A31CDDD6"
 			tasks: [{
 				id: "0640ED64D787FA86"
@@ -231,7 +231,7 @@
 				"{quest.twr.00FD2A2F4601287B.description.2}"
 			]
 			dependencies: ["69D939596ED4C0AF"]
-			size: 2.0d
+			size: 1.5d
 			id: "00FD2A2F4601287B"
 			tasks: [{
 				id: "4965F8923CFE2918"
@@ -245,7 +245,7 @@
 			y: 1.0d
 			description: ["{quest.twr.2E96E546DCA1486C.description.1}"]
 			dependencies: ["69D939596ED4C0AF"]
-			size: 2.0d
+			size: 1.5d
 			id: "2E96E546DCA1486C"
 			tasks: [{
 				id: "4ACC9E95EA81E727"
@@ -253,7 +253,6 @@
 			}]
 		}
 		{
-			title: "热传导介质"
 			icon: {
 				id: "frostedheart:steam_bottle"
 				Count: 1b
@@ -270,11 +269,12 @@
 				"{quest.twr.57C83EF2BAA418AD.description.3}"
 			]
 			dependencies: ["2D570AD59FE2D6E1"]
-			size: 2.0d
+			size: 1.5d
 			id: "57C83EF2BAA418AD"
 			tasks: [{
 				id: "2138101237058A9B"
 				type: "checkmark"
+				title: "热传导介质"
 			}]
 		}
 		{
