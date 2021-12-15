@@ -449,7 +449,7 @@
 			}]
 		}
 		{
-			icon: "immersiveengineering:alloybrick"
+			icon: "immersiveengineering:alloy_smelter"
 			x: 4.5d
 			y: 3.5d
 			shape: "gear"
@@ -460,6 +460,7 @@
 				"{quest.twr.162264AE4B9EE1A9.description.3}"
 			]
 			dependencies: ["586D66C71A378A82"]
+			size: 1.2d
 			id: "162264AE4B9EE1A9"
 			tasks: [
 				{
@@ -1639,7 +1640,7 @@
 		}
 		{
 			x: -0.5d
-			y: 5.0d
+			y: 5.5d
 			subtitle: "{quest.twr.7175C1158EE9178A.subtitle}"
 			description: ["{quest.twr.7175C1158EE9178A.description.1}"]
 			dependencies: ["4A4D6D0DC9B348C1"]

@@ -113,12 +113,14 @@
 			}]
 		}
 		{
+			icon: "immersiveengineering:coke_oven"
 			x: -20.5d
 			y: -0.5d
 			subtitle: "{quest.twr.5287CFB7B7D5285E.subtitle}"
 			description: ["{quest.twr.5287CFB7B7D5285E.description.1}"]
 			dependencies: ["328D948C4C800873"]
 			hide: true
+			size: 1.2d
 			id: "5287CFB7B7D5285E"
 			tasks: [{
 				id: "7ACB518CB5F4ED6D"
@@ -128,6 +130,7 @@
 			}]
 		}
 		{
+			icon: "immersiveengineering:blast_furnace"
 			x: -13.0d
 			y: 1.0d
 			description: ["{quest.twr.0E27E31FF6145D05.description.1}"]
@@ -135,6 +138,7 @@
 				"71D389AF87847D7B"
 				"3A91A02EB59A7919"
 			]
+			size: 1.2d
 			id: "0E27E31FF6145D05"
 			tasks: [{
 				id: "7C428261CFB3FFC3"
@@ -711,7 +715,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -3.0d
 			y: -1.5d
 			subtitle: "{quest.twr.016B841B20166EA8.subtitle}"
 			description: [
@@ -734,8 +738,8 @@
 		}
 		{
 			title: "{quest.twr.19038BB5A9E42055.title}"
-			icon: "rankine:high_refractory_bricks"
-			x: -4.5d
+			icon: "immersiveindustry:crucible"
+			x: -4.2d
 			y: -1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.19038BB5A9E42055.subtitle}"
@@ -745,6 +749,7 @@
 				"{quest.twr.19038BB5A9E42055.description.3}"
 			]
 			dependencies: ["6738A3C34A872FED"]
+			size: 1.2d
 			id: "19038BB5A9E42055"
 			tasks: [
 				{

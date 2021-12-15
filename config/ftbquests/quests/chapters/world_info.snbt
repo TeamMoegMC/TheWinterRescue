@@ -12,7 +12,7 @@
 			title: "{quest.twr.181378ABF5CCD166.title}"
 			icon: "minecraft:grass_block"
 			x: -0.5d
-			y: 0.6d
+			y: 0.5d
 			shape: "gear"
 			subtitle: "{quest.twr.181378ABF5CCD166.subtitle}"
 			description: [
