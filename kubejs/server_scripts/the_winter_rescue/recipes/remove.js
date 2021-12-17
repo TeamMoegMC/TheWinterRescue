@@ -165,6 +165,10 @@ onEvent('recipes', (event) => {
 	event.remove({input:'create:dough'});
     event.remove({type: 'minecraft:smelting', input: 'rankine:magnetite_block'});
     event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
+	event.remove({mod: 'rankine',type: 'minecraft:smelting', output: '#forge:ingots'});
+    event.remove({mod: 'rankine',type: 'minecraft:blasting', output: '#forge:ingots'});
+	event.remove({mod: 'rankine',type: 'minecraft:smelting', output: '#forge:storage_blocks'});
+    event.remove({mod: 'rankine',type: 'minecraft:blasting', output: '#forge:storage_blocks'});
 	event.remove({type: 'minecraft:blasting', output: 'immersiveengineering:ingot_hop_graphite'});
 	event.remove({type: 'minecraft:smelting', output: 'immersiveengineering:ingot_hop_graphite'});
 	//event.remove({type: 'minecraft:blasting'});

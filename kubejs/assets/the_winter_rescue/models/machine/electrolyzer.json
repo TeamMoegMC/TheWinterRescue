@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:block/orientable_with_bottom",
-  "textures": {
-    "top": "the_winter_rescue:block/electrolyzer_top",
-    "bottom": "the_winter_rescue:block/electrolyzer_top",
-    "side": "the_winter_rescue:block/electrolyzer_top",
-    "front": "the_winter_rescue:block/electrolyzer"
-  }
-}

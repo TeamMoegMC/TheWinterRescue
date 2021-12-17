@@ -279,10 +279,11 @@ onEvent('recipes', (event) => {
                     A: '#forge:plates/copper',
                     B: 'minecraft:stone_bricks'
         }),
-		shapedRecipe('frostedheart:soil_thermometer', ['BCB', 'ACA', ' A '], {
+		shapedRecipe('frostedheart:soil_thermometer', ['BDB', 'ACA', ' A '], {
             A: '#forge:plates/iron',
             B: 'minecraft:glass',
-            C: 'rankine:cinnabar'
+            C: 'rankine:mercury_ingot',
+			D: 'create:precision_mechanism'
         }),
 		shapedRecipe('frostedheart:buff_coat', ['AAA', 'CBC', 'AAA'], {
             A: 'minecraft:leather',
@@ -299,8 +300,8 @@ onEvent('recipes', (event) => {
             B: 'stone_age:leather_strip',
             C: 'immersiveengineering:wire_copper'
         }),
-		shapedRecipe('frostedheart:mercury_body_thermometer', [' BA', 'BAB', 'CB '], {
-            A: 'rankine:cinnabar',
+		shapedRecipe('frostedheart:mercury_body_thermometer', [' BB', 'BAB', 'CB '], {
+            A: 'rankine:mercury_ingot',
             B: 'minecraft:glass',
             C: '#forge:plates/iron'
         }),

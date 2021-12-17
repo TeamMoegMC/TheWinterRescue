@@ -288,7 +288,12 @@ onEvent('recipes', (event) => {
             A: Item.of('minecraft:stone').toJson(),
             B: Item.of('rankine:mortar').toJson()
         }, Item.of('stone_age:flint_knife')),
-		
+		flint_shapedRecipe(Item.of('minecraft:gold_nugget', 4), ['A'], {
+            A: Item.of('kubejs:gold').toJson()
+        }, Item.of('#forge:hammers')),
+		flint_shapedRecipe(Item.of('rankine:silver_nugget', 4), ['A'], {
+            A: Item.of('kubejs:silver').toJson()
+        }, Item.of('#forge:hammers')),
 		flint_shapedRecipe(Item.of('frostedheart:charcoal_stick',2), ['A'], {
             A: Item.of('kubejs:charcoal_briquette').toJson()
         }, Item.of('stone_age:flint_knife')),

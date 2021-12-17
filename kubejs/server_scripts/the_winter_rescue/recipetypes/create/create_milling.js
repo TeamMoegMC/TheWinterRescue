@@ -19,6 +19,7 @@ onEvent('recipes', (event) => {
 	{output:[Item.of('rankine:sawdust').withChance(0.8)],input: '#minecraft:planks'},
 	{output:[Item.of('kubejs:bituminous_coal_dust')],input: '#forge:graphite'},
 	{output:[Item.of('rankine:sawdust').withChance(0.4)],input: 'minecraft:stick'},
+	{output: '3x minecraft:redstone', input: 'kubejs:washed_ore_cinnabar'},
 	{output:["frostedheart:rye_flour",Item.of("2x frostedheart:rye_flour").withChance(0.25),Item.of("frostedheart:rye_block").withChance(0.1)],input: 'frostedheart:rye'}
 	]
 	recipes.forEach((recipe) => {

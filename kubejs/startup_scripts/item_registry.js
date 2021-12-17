@@ -30,7 +30,10 @@ onEvent('item.registry', event => {
 		'frozen_white_turnip',
 		'bounded_graphite',
 		'shaped_bounded_graphite',
-		'rough_graphite_electrode'
+		'rough_graphite_electrode',
+		"rusted_iron_ingot",
+		"rusted_copper_ingot",
+		"gray_tin_ingot"
 	];
 
 	let rawOres = [

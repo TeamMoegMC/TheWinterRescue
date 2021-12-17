@@ -52,19 +52,18 @@ onEvent('recipes', (event) => {
 
     var data = {
         recipes: [
-    {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_magnetite'},
-    {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_pyrite'},
-    {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_malachite'},
-    {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_native_copper'},
-    {output: 'immersiveengineering:ingot_silver', input: 'kubejs:washed_ore_silver'},
-    {output: 'minecraft:gold_ingot', input: 'kubejs:washed_ore_gold'},
-    {output: 'immersiveengineering:ingot_nickel', input: 'kubejs:washed_ore_pentlandite'},
-    {output: '3x minecraft:redstone', input: 'kubejs:washed_ore_cinnabar'},
-    {output: '2x rankine:salt', input: 'kubejs:washed_ore_halite'}
+    {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_magnetite',time:300},
+    {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_pyrite',time:300},
+    {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_malachite',time:150},
+    {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_native_copper',time:150},
+    {output: 'immersiveengineering:ingot_silver', input: 'kubejs:washed_ore_silver',time:150},
+    {output: 'minecraft:gold_ingot', input: 'kubejs:washed_ore_gold',time:150},
+    {output: 'immersiveengineering:ingot_nickel', input: 'kubejs:washed_ore_pentlandite',time:300},
+    {output: '2x rankine:salt', input: 'kubejs:washed_ore_halite',time:150}
      ]
     };
 	data.recipes.forEach((recipe) => {
-    event.recipes.immersiveengineeringBlastFurnace(recipe.output, recipe.input, 'immersiveengineering:slag').time(300);
+    event.recipes.immersiveengineeringBlastFurnace(recipe.output, recipe.input, 'immersiveengineering:slag').time(recipe.time);
     });
 });
 

@@ -4,14 +4,6 @@
     "advancements.the_winter_rescue.root.title": "冬季救援",
     "advancements.the_winter_rescue.root.description": "地球上的最后一个秋天已经过去很久了，你需要拯救自己，并尽可能，找到冰封了人类的秘密...",
 
-    "block.cm.the_winter_rescue.bronze_boiler" : "青铜蒸汽锅炉",
-    "block.cm.the_winter_rescue.cast_iron_boiler" : "铸铁蒸汽锅炉",
-    "block.cm.the_winter_rescue.steel_boiler" : "钢蒸汽锅炉",
-    "block.cm.the_winter_rescue.bronze_burner" : "青铜燃烧室",
-    "block.cm.the_winter_rescue.cast_iron_burner" : "铸铁燃烧室",
-    "block.cm.the_winter_rescue.steel_burner" : "钢燃烧室",
-    "block.cm.the_winter_rescue.electrolyzer" : "电解机",
-
     "info.jei.the_winter_rescue.disabled": "此物品已被整合包禁用",
     "info.jei.the_winter_rescue.energy_core": "所有空间站人类的科技结晶。用于制作能量塔。保证它的安全！",
     "info.jei.the_winter_rescue.power_glitch": "这些装置可能导致无限能源BUG。",
