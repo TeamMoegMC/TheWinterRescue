@@ -65,3 +65,6 @@ The fourth modpack developed by TeamMoeg is finally here. Based on Minecraft 1.1
 ## Like Our Modpack?
 
 - TeamMoeg has developed and will maintain this Modpack for Free, but maintaining the servers cost money. Consider Sponsoring us at [Patreon](https://www.patreon.com/TeamMoeg) or [Aifadian (China)](https://afdian.net/@teammoeg)
+
+## Wanna Contribute to our language files?
+Our language files are located in [.minecraft/kubejs/assets/](https://github.com/TeamMoegMC/TheWinterRescue/tree/master/kubejs/assets), feel free to make contributions. wE suggest read [this](https://github.com/TeamMoegMC/TheWinterRescue/tree/master/kubejs/assets/README.md) first.
