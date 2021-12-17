@@ -1,4 +1,4 @@
-# Contributing to Translation files
+# Contributing to Translation Files
 We welcome any player to contribute to our translation files. Here are some instructions.
 ## Folder Structure
 Each folder in this folder represent a mod and named after modid. Before contributing to these files, please check out that coresponding mod does NOT contains your language, and always consider contributing to the original mod first.  
