@@ -16,7 +16,15 @@ You can use any tool or editor if you like, just keep the json file pretty forma
 If you find something wrong or inproper, feel free to send issue(Question) including correct translation or prs to us, we would review and change asap.
 ## Reminders
 - Please DO NOT change or translate any folder name.   
-- You should state What you have done in commit message or pull-request message, so that we could easily review and merge.  
+- You should keep file extensions the same with the original file name. Such as, Source file is `en_us.json` and translated file should be name after `<locale code>.json`.
+ 
+Above are essential rules. __Not following these rules would cause your files INVALID and NOT being able to take effect!__
+
+Also, we recommend to follow these rules:
+- You should state What you have done in commit message or pull-request message, so that we could easily review and merge. 
+  
+Following these rules would make our work easier.  
+__Thank you for your cooperation.__  
 ## Other mods
 Some of the mods are made by us:
 1. [Immersive Industry](https://github.com/TeamMoegMC/ImmersiveIndustry)
