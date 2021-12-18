@@ -1,0 +1,30 @@
+{
+  "itemGroup.frozenup.item_group": "Зимняя история",
+
+  "item.frozenup.frozen_truffle": "Замороженные трюфели",
+  "item.frozenup.truffle": "Трюфель",
+  "item.frozenup.truffle_muffin": "Кексы с трюфелями",
+  "item.frozenup.chilloo_spawn_egg": "Яйцо призыва чиллу",
+  "item.frozenup.chilloo_feather": "перо чиллу",
+  "item.frozenup.empty_mug": "пустая кружка",
+  "item.frozenup.mug_of_chocolate_milk": "кружка шоколадного молока",
+  "item.frozenup.mug_of_truffle_hot_chocolate": "кружка горячего шоколада с трюфелем",
+  "item.frozenup.mug_of_milk": "кружка молока",
+
+  "block.frozenup.chilloo_feather_block": "блок перьев чиллу",
+  "block.frozenup.chilloo_feather_block_carpet": "ковер из перьев чиллу",
+  "block.frozenup.truffle_cake": "трюфельный торт",
+  "block.frozenup.chilloo_feather_lamp": "лампа из перьев чиллу",
+  "block.frozenup.empty_mug": "пустая кружка",
+  "block.frozenup.mug_of_milk": "кружка молока",
+  "block.frozenup.mug_of_chocolate_milk": "кружка шоколадного молока",
+  "block.frozenup.mug_of_truffle_hot_chocolate": "кружка горячего шоколада с трюфелем",
+
+  "entity.frozenup.chilloo": "чилло",
+
+  "subtitles.frozenup.entity.chilloo.ambient": "чиллаут эмбиент",
+  "subtitles.frozenup.entity.chilloo.hurt": "чиллу больно",
+  "subtitles.frozenup.entity.chilloo.death": "чиллу умер",
+  "subtitles.frozenup.block.chilloo_feather_lamp.toggle_on": "лампа с перьями чилло включить",
+  "subtitles.frozenup.block.chilloo_feather_lamp.toggle_off": "лампа с перьями чилло  выключить"
+}
