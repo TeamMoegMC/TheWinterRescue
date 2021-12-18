@@ -355,6 +355,8 @@ def assembleCurseFormatWithMods(modpack_name):
             print("SUCCESSFULLY assembled " + modpack_name + "-V" + dict["version"] + ".zip, see twr dev env")
         manifest.close()
         shutil.rmtree("runners/pack")
+        shutil.copy(modpack_name + "-V" + dict["version"] + ".zip", "/Users/wyc/Downloads")
+        os.remove(modpack_name + "-V" + dict["version"] + ".zip")
         print("===CF with Mods Pack Compelete===\n")
     except OSError as error:
         print(error)
@@ -393,6 +395,8 @@ def assembleServerFiles(modpack_name):
             shutil.make_archive(modpack_name + "-Server-V" + dict["version"], 'zip', "serverfiles")
             print("SUCCESSFULLY assembled " + modpack_name + "-Server-V" + dict["version"] + ".zip, see twr dev env")
         manifest.close()
+        shutil.copy(modpack_name + "-Server-V" + dict["version"] + ".zip", "/Users/wyc/Downloads")
+        os.remove(modpack_name + "-Server-V" + dict["version"] + ".zip")
         print("===Server Pack Compelete===\n")
     except OSError as error:
         print(error)
