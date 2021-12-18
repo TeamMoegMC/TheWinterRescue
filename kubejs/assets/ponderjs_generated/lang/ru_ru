@@ -1,0 +1,31 @@
+{
+  "the_winter_rescue.ponder.tag.bloomery.description": "Построй Bloomery",
+  "the_winter_rescue.ponder.tag.bloomery": "Bloomery",
+  "charcoal_pit.ponder.main_bloomery.basic_usage.text_1": "Правый щелчок сильфона",
+  "charcoal_pit.ponder.main_bloomery.basic_usage.header": "Bloomery",
+
+  "the_winter_rescue.ponder.tag.generator.description": "Генераторная сборка",
+  "the_winter_rescue.ponder.tag.generator": "Генератор",
+  "frostedheart.ponder.generator_core_t1.basic_usage.text_1": "Щелкните правой кнопкой мыши с помощью молотка инженера",
+  "frostedheart.ponder.generator_core_t1.basic_usage.header": "Генератор",
+
+  "the_winter_rescue.ponder.tag.crucible.description": "Построить тигель сталелитейного завода",
+  "the_winter_rescue.ponder.tag.crucible": "Сталелитейный тигель",
+  "immersiveindustry.ponder.burning_chamber_core.basic_usage.text_1": "Щелкните правой кнопкой мыши с помощью молотка инженера",
+  "immersiveindustry.ponder.burning_chamber_core.basic_usage.header": "Сталелитейный тигель",
+
+  "the_winter_rescue.ponder.tag.steam_turbine.description": "Построить паровую турбину",
+  "the_winter_rescue.ponder.tag.steam_turbine": "Паровая турбина",
+  "immersiveindustry.ponder.steam_turbine.basic_usage.text_1": "Правый щелчок хвоста с инженерным молотком",
+  "immersiveindustry.ponder.steam_turbine.basic_usage.header": "Паровая турбина",
+
+  "the_winter_rescue.ponder.tag.generator_t2.description": "Паровая турбина T2",
+  "the_winter_rescue.ponder.tag.generator_t2": "Генератор T2",
+  "frostedheart.ponder.generator_t2.basic_usage.text_1": "Щелкните правой кнопкой мыши с помощью молотка инженера",
+  "frostedheart.ponder.generator_t2.basic_usage.header": "ГенераторT2",
+  
+  "the_winter_rescue.ponder.tag.beehive_oven_pit.description": "Постройте яму для ульевой печи",
+  "the_winter_rescue.ponder.tag.beehive_oven_pit": "Яма для улья",
+  "frostedheart.ponder.beehive_oven_pit.basic_usage.text_1": "Щелкните правой кнопкой мыши с кремнем и сталью",
+  "frostedheart.ponder.beehive_oven_pit.basic_usage.header": "Яма для улья"
+}
