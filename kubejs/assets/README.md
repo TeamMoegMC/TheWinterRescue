@@ -23,9 +23,13 @@ Some of the mods are made by us:
 2. [Steam Powered](https://github.com/TeamMoegMC/SteamPowered)
 3. [Weather Forecast](https://github.com/TeamMoegMC/WeatherForecast)
 4. [Frosted Heart](https://github.com/TeamMoegMC/FrostedHeart)
+5. [Stew Craft](https://github.com/TeamMoegMC/StewCraft)
+6. [With Her Eyes](https://github.com/TeamMoegMC/WithHerEyes)
+
 And These are mods we forked and changed for our modpack:
-1. [Charcoal Pit](https://github.com/TeamMoegMC/CharcoalPit2)
-2. [TWR Stone Age](https://github.com/TeamMoegMC/StoneAge)
+6. [TWR Charcoal Pit](https://github.com/TeamMoegMC/CharcoalPit2)
+7. [TWR Stone Age](https://github.com/TeamMoegMC/StoneAge)
+
 You can check them out and contribute to them.  
 ## Credits
 We would give credits for everyone who actively contribute to any of our mods or this modpack. Thank you in advance.
