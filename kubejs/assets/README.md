@@ -14,6 +14,9 @@ You are welcomed to contribute to these folders.
 You can do the translations on your local path, Just copy `en_us.json` or `zh_cn.json` and modify to your own language. If you finished, just make a pull-request to our project and we would review and merge asap.  
 You can use any tool or editor if you like, just keep the json file pretty formatted so anyone else could easily edit it.  
 If you find something wrong or inproper, feel free to send issue(Question) including correct translation or prs to us, we would review and change asap.
+## Reminders
+- Please DO NOT change or translate any folder name.   
+- You should state What you have done in commit message or pull-request message, so that we could easily review and merge.  
 ## Other mods
 Some of the mods are made by us:
 1. [Immersive Industry](https://github.com/TeamMoegMC/ImmersiveIndustry)
