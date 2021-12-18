@@ -1,0 +1,30 @@
+{
+    "advancements.the_winter_rescue.generator_core_t1.title": "Башня Огня",
+    "advancements.the_winter_rescue.generator_core_t1.description": "Постройте генератор уровня 1!",
+    "advancements.the_winter_rescue.root.title": "Зимнее спасение",
+    "advancements.the_winter_rescue.root.description": "Последняя осень на Земле давно прошла. Вам нужно спастись и, надеюсь, раскрыть тайну, замораживающую человечество ...",
+
+    "block.cm.the_winter_rescue.bronze_boiler" : "Бронзовый котел",
+    "block.cm.the_winter_rescue.cast_iron_boiler" : "Чугунный котел",
+    "block.cm.the_winter_rescue.steel_boiler" : "Стальной котел",
+    "block.cm.the_winter_rescue.bronze_burner" : "Бронзовая горящая камера",
+    "block.cm.the_winter_rescue.cast_iron_burner" : "Камера горения чугуна",
+    "block.cm.the_winter_rescue.steel_burner" : "Стальная камера горения",
+    "block.cm.the_winter_rescue.electrolyzer" : "Электролизер",
+
+    "info.jei.the_winter_rescue.disabled": "Этот элемент отключен в модпаке.",
+    "info.jei.the_winter_rescue.energy_core": "Ядро технологий всего Космического Человечества. Используется для создания Генератора, береги его!",
+    "info.jei.the_winter_rescue.power_glitch": "Это хитроумное изобретение может привести к бесконечным сбоям в электроснабжении.",
+    "info.jei.the_winter_rescue.later_tech": "Этот предмет будет разблокирован позже. Пожалуйста, подождите обновления. ",
+
+    "tooltip.the_winter_rescue.replaced_recipe": "Связанные рецепты можно заменить другими способами",
+    "tooltip.the_winter_rescue.snowy_vine": "Получается при срезании листьев кремневым ножом.",
+    "tooltip.the_winter_rescue.flint_knife": "Получите снежные лозы, если срежете листья",
+    "tooltip.the_winter_rescue.flint_knife_2": "Щелкните правой кнопкой мыши кремнием на верстак, чтобы создать",
+    "tooltip.the_winter_rescue.tanning_rack": "После размещения предмета для дубления щелкните его правой кнопкой мыши кремневым ножом, чтобы продолжить.",
+    "tooltip.the_winter_rescue.clay_tool": "Используйте инструмент для глины, чтобы щелкнуть правой кнопкой мыши по глиняному блоку, чтобы сделать гончарную посуду.",
+    "tooltip.the_winter_rescue.activated_carbon": "Получается с помощью древесного угля на парогенераторе.",
+    "tooltip.the_winter_rescue.campfire": "Нажмите Q, чтобы залить его топливом и зажечь зажигалкой!",
+    "tooltip.the_winter_rescue.lining": "Бесформенное создание его с любым оборудованием, чтобы придать ему согревающий эффект!"
+
+}
