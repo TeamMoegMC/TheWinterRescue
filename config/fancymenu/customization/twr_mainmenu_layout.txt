@@ -273,18 +273,18 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = mid-left
   restartbackgroundanimations = true
   buttonaction = opencustomgui
   backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
   description = %local:twr.update.tooltip% %n% %local:twr.update.tooltip_2%
   label = %local:twr.update.title%
   loopbackgroundanimations = true
-  x = 6
-  width = 121
+  x = -16
+  width = 97
   actionid = 9d60c09f-c9bb-48c3-b955-fc5211ab5f5d1637830697235
   action = addbutton
-  y = 26
+  y = -21
   backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
   value = twr.menu.update
   height = 20

@@ -440,6 +440,8 @@ def assembleFatPackage(modpack_name, instances_abs_loc, extra_package_rel_loc, p
             shutil.make_archive(modpack_name + "-V" + dict["version"], 'zip', "runners/pack")
             print("SUCCESSFULLY assembled " + modpack_name + "-V" + dict["version"] + ", see twr dev env")
         manifest.close()
+        shutil.copy(modpack_name + "-V" + dict["version"] + ".zip", "/Users/wyc/Downloads")
+        os.remove(modpack_name + "-V" + dict["version"] + ".zip")
         shutil.rmtree("runners/pack/.minecraft")
         shutil.rmtree("runners/pack")
         print("===Fat Pack Compelete===\n")
