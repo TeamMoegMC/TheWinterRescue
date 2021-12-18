@@ -51,19 +51,7 @@ onEvent('recipes', (event) => {
             F: 'create:shaft',
         })
     ]
-	let shapeless=[
-		{output:'9x minecraft:iron_ingot',input:'minecraft:iron_block'},
-		{output:'9x minecraft:gold_ingot',input:'minecraft:gold_block'},
-		{output:'9x minecraft:diamond',input:'minecraft:diamond_block'},
-		{output:'9x minecraft:emerald',input:'minecraft:emerald_block'},
-		{output:'9x minecraft:lapis_lazuli',input:'minecraft:lapis_block'},
-		{output:'9x minecraft:netherite_ingot',input:'minecraft:netherite_block'}
-	]
-	shapeless.forEach((r)=>{
-		recipes.push(shapedRecipe(r.output, ['A'], {
-            A: r.input
-        }))
-	})
+
     recipes.forEach((recipe) => {
         event.remove({output: recipe.result, type: 'create:mechanical_crafting'});
         event.recipes.createMechanicalCrafting(recipe)

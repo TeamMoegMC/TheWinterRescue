@@ -68,7 +68,6 @@ onEvent('item.tags', (event) => {
 	event.add("forge:ores/tin","kubejs:gray_tin_ingot")
 	event.add("forge:ores/iron","kubejs:rusted_iron_ingot")
 	event.add("the_winter_rescue:bloom_iron","kubejs:rusted_iron_ingot")
-	event.add("immersiveindustry:electrodes","immersiveengineering:graphite_electrode");
 	event.add("kubejs:tetra_hammer","tetra:modular_double")
 	event.add("rankine:tree_choppers","tetra:modular_double")
 		event.add('minecraft:shulker_box', 'minecraft:shulker_box')

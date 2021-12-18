@@ -44,18 +44,12 @@ onEvent('recipes', (event) => {
     });
 	let shapeless = [
         'minecraft:ender_eye',
-		'minecraft:diamond',
-		'minecraft:emerald',
-		'minecraft:lapis_lazuli',
-		'minecraft:netherite_ingot_from_netherite_block',
         'rankine:fire_clay_ball',
 		'rankine:vulcanized_rubber',
 		'rankine:sodium_hydroxide',
 		'rankine:kaolinite_ball'
     ]
 	let shapelessName = [
-		'minecraft:iron_ingot_from_iron_block',
-		'minecraft:gold_ingot_from_gold_block'
     ]
 	let shapedName = [
 		'rankine:bucket_brass',
