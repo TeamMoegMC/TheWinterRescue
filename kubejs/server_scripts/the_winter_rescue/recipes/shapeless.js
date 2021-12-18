@@ -28,7 +28,9 @@ onEvent('recipes', (event) => {
 		shapelessRecipe('9x create:brass_ingot',['#forge:storage_blocks/brass']),
 		shapelessRecipe('9x create:copper_ingot',['#forge:storage_blocks/copper']),
 		shapelessRecipe({"item":'frostedheart:straw_briquette_red_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:red_mushroom']),
-		shapelessRecipe({"item":'frostedheart:straw_briquette_brown_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:brown_mushroom'])
+		shapelessRecipe({"item":'frostedheart:straw_briquette_brown_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:brown_mushroom']),
+		shapelessRecipe(Item.of('frostedheart:advanced_thermos', '{Damage:0,Fluid:{FluidName:"frostedheart:wolfberry_tea",Amount:3000}}'), [Item.of('frostedheart:advanced_thermos', '{Damage:0,Fluid:{FluidName:"frostedheart:hot_water",Amount:3000}}'), 'frostedheart:dried_wolfberries']),
+		shapelessRecipe(Item.of('frostedheart:thermos', '{Damage:0,Fluid:{FluidName:"frostedheart:wolfberry_tea",Amount:1500}}'), [Item.of('frostedheart:thermos', '{Damage:0,Fluid:{FluidName:"frostedheart:hot_water",Amount:1500}}'), 'frostedheart:dried_wolfberries'])
     ]
 	Ingredient.of("#forge:vertical_slabs").getItemIds().forEach((name)=>{
 		let i=Ingredient.of(name.replace("_vertical",""));
