@@ -253,7 +253,7 @@
 			}]
 		}
 		{
-		    title: "{quest.twr.57C83EF2BAA418AD.title}"
+			title: "{quest.twr.57C83EF2BAA418AD.title}"
 			icon: {
 				id: "frostedheart:steam_bottle"
 				Count: 1b
