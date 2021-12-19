@@ -17,10 +17,12 @@ If you find something wrong or inproper, feel free to send issue(Question) inclu
 ## Reminders
 - Please DO NOT change or translate any folder name.   
 - You should keep file extensions the same with the original file name. Such as, Source file is `en_us.json` and translated file should be name after `<locale code>.json`.
+- If you want to leave a blank text, do NOT just leave it empty or delete it, fill a space inside. 
  
 Above are essential rules. __Not following these rules would cause your files INVALID and NOT being able to take effect!__
 
 Also, we recommend to follow these rules:
+- Test your translations in your own game before uploading to ensure no language problem or file syntax error.
 - You should state What you have done in commit message or pull-request message, so that we could easily review and merge. 
   
 Following these rules would make our work easier.  
