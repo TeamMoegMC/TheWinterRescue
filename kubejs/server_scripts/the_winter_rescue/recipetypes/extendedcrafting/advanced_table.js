@@ -20,11 +20,11 @@ onEvent('recipes', (event) => {
             C: '#forge:plates/bronze',
             D: 'minecraft:lava_bucket',
         }),
-        shapedRecipe('immersiveindustry:electrolyzer', ['AAAAA', 'ABECA', 'ABDCA', 'AAAAA'], {
+        shapedRecipe('immersiveindustry:electrolyzer', ['ABCBA', 'AAAAA', 'ACBCA', 'AADAA'], {
             A: 'immersiveengineering:plate_steel',
             B: '#forge:ingots/silver',
             C: '#forge:ingots/gold',
-            D: 'minecraft:glass',
+            D: 'immersiveengineering:wirecoil_copper',
             E: 'immersiveengineering:circuit_board',
         })
     ]
