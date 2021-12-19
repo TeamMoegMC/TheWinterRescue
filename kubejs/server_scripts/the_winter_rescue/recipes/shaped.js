@@ -10,6 +10,10 @@ onEvent('recipes', (event) => {
             B: 'minecraft:piston',
             C: 'charcoal_pit:bellows'
         }),
+        shapedRecipe('rankine:beehive_oven_pit', [' A ', 'ABA', ' A '], {
+                    A: 'rankine:refractory_bricks',
+                    B: 'minecraft:iron_ingot'
+        }),
         shapedRecipe('minecraft:hay_block', ['AAA', 'AAA', 'AAA'], {
             A: 'charcoal_pit:straw'
         }),
