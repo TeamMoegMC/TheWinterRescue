@@ -1,6 +1,7 @@
 
 [Miscellaneous]
 	#Unused for now!
-	#Display chunk border while holding Core Samples, default=true
+	#Display chunk border while holding Core Samples
+	#Default: true
 	sample_displayBorder = true
 

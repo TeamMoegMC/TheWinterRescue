@@ -1,40 +1,56 @@
+
+#List of diet groups
 [[groups]]
-    name = "proteins"
-    icon = "minecraft:cooked_beef"
-    color = "#d4781c"
-    order = 0
-    default_value = 0.7
-    gain_multiplier = 0.1
-    decay_multiplier = 0.1
+	color = "#aaffaa"
+	decay_multiplier = 0.1
+	name = "proteins"
+	icon = "kubejs:protein"
+	gain_multiplier = 0.1
+	default_value = 0.7
+	order = 0
+
 [[groups]]
-    name = "grains"
-    icon = "minecraft:bread"
-    color = "#d4a31c"
-    order = 0
-    default_value = 0.7
-    gain_multiplier = 0.1
-    decay_multiplier = 0.1
+	color = "#aaffaa"
+	decay_multiplier = 0.1
+	name = "grains"
+	icon = "kubejs:grains"
+	gain_multiplier = 0.1
+	default_value = 0.7
+	order = 0
+
 [[groups]]
-    name = "vegetables"
-    icon = "minecraft:carrot"
-    color = "#31d41c"
-    order = 0
-    default_value = 0.7
-    gain_multiplier = 0.1
-    decay_multiplier = 0.1
+	color = "#aaffaa"
+	decay_multiplier = 0.1
+	name = "plant_oil"
+	icon = "kubejs:plant_oil"
+	gain_multiplier = 0.1
+	default_value = 0.7
+	order = 0
+
 [[groups]]
-    name = "fruits"
-    icon = "minecraft:apple"
-    color = "#d41c53"
-    order = 0
-    default_value = 0.7
-    gain_multiplier = 0.1
-    decay_multiplier = 0.1
+	color = "#aaffaa"
+	decay_multiplier = 0.1
+	name = "fruits"
+	icon = "kubejs:fruits_and_vegs"
+	gain_multiplier = 0.1
+	default_value = 0.7
+	order = 0
+
 [[groups]]
-    name = "sugars"
-    icon = "minecraft:honey_bottle"
-    color = "#ff8fe9"
-    order = 1
-    default_value = 0.7
-    gain_multiplier = 0.1
-    decay_multiplier = 0.1
+	color = "#ffaaaa"
+	decay_multiplier = 0.1
+	name = "sugars"
+	icon = "kubejs:diabetes_risks"
+	gain_multiplier = 0.1
+	default_value = 0.5
+	order = 1
+
+[[groups]]
+	color = "#ffaaaa"
+	decay_multiplier = 0.05
+	name = "vitamin"
+	icon = "kubejs:vitamin_toxicity"
+	gain_multiplier = 0.1
+	default_value = 0.5
+	order = 1
+

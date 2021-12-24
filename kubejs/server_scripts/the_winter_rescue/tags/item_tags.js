@@ -68,6 +68,23 @@ onEvent('item.tags', (event) => {
 	event.add("forge:ores/tin","kubejs:gray_tin_ingot")
 	event.add("forge:ores/iron","kubejs:rusted_iron_ingot")
 	event.add("the_winter_rescue:bloom_iron","kubejs:rusted_iron_ingot")
+	event.add("diet:sugars",Ingredient.of("#diet:fruits").getItemIds());
+	event.add("diet:fruits",Ingredient.of("#diet:vegetables").getItemIds());
+	event.add("diet:vitamin",Ingredient.of("#diet:proteins").getItemIds());
+	
+	event.add("diet:plant_oil","kubejs:plant_oil");
+	event.add("diet:plant_oil","#forge:crops/corn");
+	event.add("diet:plant_oil","#forge:corn");
+	event.add("diet:plant_oil","#forge:crops/walnut");
+	event.add("diet:plant_oil","rankine:roasted_walnut");
+	event.add("diet:plant_oil","rankine:trail_mix");
+	event.add("diet:plant_oil","charcoal_pit:corn_kernels");
+	event.add("diet:plant_oil","charcoal_pit:popcorn");
+	event.add("diet:plant_oil","charcoal_pit:cooked_chestnut");
+	event.add("diet:plant_oil","charcoal_pit:chocolate");
+	event.add("diet:plant_oil","crockpot:popcorn");
+	event.add("diet:proteins","#diet:plant_oil")
+	event.remove("diet:vitamin",Ingredient.of("#diet:plant_oil").getItemIds())
 	event.add("kubejs:tetra_hammer","tetra:modular_double")
 	event.add("rankine:tree_choppers","tetra:modular_double")
 		event.add('minecraft:shulker_box', 'minecraft:shulker_box')

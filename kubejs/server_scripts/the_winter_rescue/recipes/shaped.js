@@ -270,6 +270,12 @@ onEvent('recipes', (event) => {
             B: '#forge:ingots/tungsten',
             C: 'create:refined_radiance',
             D: 'minecraft:white_stained_glass_pane'
+        }),
+        shapedRecipe('8x create:gantry_shaft', ['BAD', 'BCB', 'DAB'], {
+            A: '#forge:rods/cast_iron',
+            B: '#forge:ingots/cast_iron',
+            C: '#forge:dusts/redstone',
+			D: '#minecraft:planks'
         })
     ]
 

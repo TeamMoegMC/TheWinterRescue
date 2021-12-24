@@ -1,7 +1,0 @@
-
-[createmodify]
-	#Set to false to automatically disassemble contraptions formed before this mod installed
-	allowUnverifiedContraption = true
-	#Cart Assembler is not very "Realistic", so you can choose to disable it.
-	allowCartAssembler = false
-

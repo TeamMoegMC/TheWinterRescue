@@ -10,5 +10,9 @@
     "tag": "forge:water",
     "amount": 500
   },
+  "result_fluid": {
+    "tag": "forge:acid/hydrochloric",
+    "amount": 500
+  },
   "time": 240
 }

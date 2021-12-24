@@ -54,7 +54,7 @@
 [steam]
 	#HU generation for each fuel burning tick. 10HU=1mb of steam. THIS AFFECT ALL BURNERS AND BOILERS!
 	#Range: 0 ~ 655360
-	HuPerFuelTick = 24
+	HuPerFuelTick = 27
 	#This defines how many mbs of steam does a mb of water can turn into.
 	#Range: 0.0 ~ 100000.0
 	steamPerWater = 12.0

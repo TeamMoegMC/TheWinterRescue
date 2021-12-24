@@ -33,7 +33,13 @@ onEvent('item.registry', event => {
 		'rough_graphite_electrode',
 		"rusted_iron_ingot",
 		"rusted_copper_ingot",
-		"gray_tin_ingot"
+		"gray_tin_ingot",
+		'fruits_and_vegs',
+		'grains',
+		'plant_oil',
+		'protein',
+		'diabetes_risks',
+		'vitamin_toxicity'
 	];
 
 	let rawOres = [

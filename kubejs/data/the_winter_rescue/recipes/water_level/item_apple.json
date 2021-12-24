@@ -1,0 +1,8 @@
+{
+    "type": "watersource:water_level_item",
+    "ingredient": {
+        "tag": "forge:berries"
+    },
+	"waterLevel": 1,
+	"waterSaturationLevel": 0
+}
