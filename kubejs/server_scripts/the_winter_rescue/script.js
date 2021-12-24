@@ -6,7 +6,6 @@ settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
 console.info('[KUBEJS_SERVER] Server Scripts Loaded/Reloaded!')
-
 /* Tutorial
 var x = event.variableName
 

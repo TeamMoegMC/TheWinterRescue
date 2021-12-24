@@ -79,3 +79,4 @@ replay_*
 /*.zip
 /mods-server/
 __pycache__/
+config/.twrp*
