@@ -107,33 +107,33 @@
 		movementDirt = 0.0
 		#Movement speed modifier for walking on Mud.
 		#Range: -1.0 ~ 1.0
-		movementMud = -0.02
+		movementMud = 0.0
 		#Movement speed modifier for walking on Roman Cooncrete.
 		#Range: -1.0 ~ 1.0
-		movementRomanConcrete = 0.1
+		movementRomanConcrete = 0.0
 		#Movement speed modifier for walking on Sand blocks.
 		#Range: -1.0 ~ 1.0
-		movementSand = -0.02
+		movementSand = 0.0
 		#Movement speed modifier for walking on Snow.
 		#Range: -1.0 ~ 1.0
-		movementSnow = -0.02
+		movementSnow = 0.0
 		#Movement speed modifier for walking on Grass Paths.
 		#Range: -1.0 ~ 1.0
-		movementGrassPath = 0.02
+		movementGrassPath = 0.0
 		#Movement speed modifier for walking on Brick / Stone Bricks and variants.
 		#Range: -1.0 ~ 1.0
-		movementBricks = 0.05
+		movementBricks = 0.0
 		#Movement speed modifier for walking on Concrete / Gravel Concrete.
 		#Range: -1.0 ~ 1.0
-		movementConcrete = 0.05
+		movementConcrete = 0.0
 		#Movement speed modifier for walking on #forge:polished_stone blocks.
 		#Range: -1.0 ~ 1.0
-		movementPolishedStone = 0.02
+		movementPolishedStone = 0.0
 		#Set to false to disable movement speed modifiers.
-		movementModifiersEnabled = true
+		movementModifiersEnabled = false
 		#Movement speed modifier for walking on Planks and wooden variants.
 		#Range: -1.0 ~ 1.0
-		movementWooden = 0.02
+		movementWooden = 0.0
 
 	#Tree Chopping
 	[general.treeChopping]
