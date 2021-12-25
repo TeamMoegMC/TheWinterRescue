@@ -82,6 +82,7 @@
 			subtitle: "{quest.twr.5C8730E4484959B9.subtitle}"
 			description: ["{quest.twr.5C8730E4484959B9.description.1}"]
 			dependencies: ["328D948C4C800873"]
+			hide: true
 			id: "5C8730E4484959B9"
 			tasks: [{
 				id: "3A742F617D2CB6B9"
@@ -89,7 +90,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -2.5d
 			y: 3.0d
 			subtitle: "{quest.twr.0B94C2D4FAB6A54B.subtitle}"
 			description: [
@@ -114,11 +115,12 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 3.0d
+			x: -1.5d
+			y: 1.5d
 			subtitle: "{quest.twr.06919E56E850B946.subtitle}"
 			description: ["{quest.twr.06919E56E850B946.description.1}"]
 			dependencies: ["11DD149796E14E81"]
+			hide: true
 			id: "06919E56E850B946"
 			tasks: [{
 				id: "50AA21266B159CBE"

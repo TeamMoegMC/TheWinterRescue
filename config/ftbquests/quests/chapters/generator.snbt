@@ -25,10 +25,7 @@
 				"{quest.twr.69D939596ED4C0AF.description.6}"
 				"{quest.twr.69D939596ED4C0AF.description.7}"
 			]
-			dependencies: [
-				"0A9A5166127945AB"
-				"573841FD8018D4B1"
-			]
+			dependencies: ["573841FD8018D4B1"]
 			size: 2.5d
 			id: "69D939596ED4C0AF"
 			tasks: [
@@ -231,6 +228,7 @@
 				"{quest.twr.00FD2A2F4601287B.description.2}"
 			]
 			dependencies: ["69D939596ED4C0AF"]
+			hide: true
 			size: 1.5d
 			id: "00FD2A2F4601287B"
 			tasks: [{
@@ -245,6 +243,7 @@
 			y: 1.0d
 			description: ["{quest.twr.2E96E546DCA1486C.description.1}"]
 			dependencies: ["69D939596ED4C0AF"]
+			hide: true
 			size: 1.5d
 			id: "2E96E546DCA1486C"
 			tasks: [{
@@ -290,6 +289,7 @@
 				"{quest.twr.573841FD8018D4B1.description.3}"
 			]
 			dependencies: ["0A9A5166127945AB"]
+			hide: true
 			size: 2.0d
 			id: "573841FD8018D4B1"
 			tasks: [{

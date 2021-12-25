@@ -58,6 +58,7 @@
 			y: 0.5d
 			subtitle: "{quest.twr.7D5541059C15C6AE.subtitle}"
 			dependencies: ["5D52744D5382A6CA"]
+			hide: true
 			id: "7D5541059C15C6AE"
 			tasks: [{
 				id: "7F1470EBD9B0FB04"
@@ -268,6 +269,7 @@
 				"{quest.twr.4138E3A9915F811C.description.3}"
 			]
 			dependencies: ["5D52744D5382A6CA"]
+			hide: true
 			id: "4138E3A9915F811C"
 			tasks: [{
 				id: "5CCDBD5B8CBA19F9"
@@ -436,6 +438,7 @@
 			subtitle: "{quest.twr.6EC18F90620F0A48.subtitle}"
 			description: ["{quest.twr.6EC18F90620F0A48.description.1}"]
 			dependencies: ["5D52744D5382A6CA"]
+			hide: true
 			id: "6EC18F90620F0A48"
 			tasks: [{
 				id: "58310A095E49F03B"

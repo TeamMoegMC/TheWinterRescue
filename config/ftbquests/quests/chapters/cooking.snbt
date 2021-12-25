@@ -106,6 +106,7 @@
 				"{quest.twr.7AA152F9B5AF6677.description.2}"
 			]
 			dependencies: ["328D948C4C800873"]
+			hide: true
 			id: "7AA152F9B5AF6677"
 			tasks: [{
 				id: "52F890F133BBE3C5"
@@ -206,6 +207,7 @@
 			y: -0.5d
 			subtitle: "{quest.twr.5CCD8F05D7402D4B.subtitle}"
 			dependencies: ["20E078A9220D6114"]
+			hide: true
 			id: "5CCD8F05D7402D4B"
 			tasks: [{
 				id: "1D51F8E3BB119A14"
