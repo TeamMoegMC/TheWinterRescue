@@ -46,8 +46,8 @@
 			}]
 		}
 		{
-			x: -15.5d
-			y: -1.0d
+			x: -16.0d
+			y: -1.25d
 			description: ["{quest.twr.060F482D9D3374F9.description.1}"]
 			dependencies: [
 				"7887EB905BAA7BEF"
@@ -569,6 +569,7 @@
 		{
 			x: -11.5d
 			y: -3.5d
+			shape: "gear"
 			subtitle: "{quest.twr.197308226CAE52C4.subtitle}"
 			description: [
 				"{quest.twr.197308226CAE52C4.description.1}"
@@ -576,6 +577,7 @@
 				"{quest.twr.197308226CAE52C4.description.3}"
 			]
 			dependencies: ["17C359DCF058E698"]
+			size: 1.2d
 			id: "197308226CAE52C4"
 			tasks: [{
 				id: "50543ED5E6259184"
