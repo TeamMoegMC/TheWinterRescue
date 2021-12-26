@@ -754,6 +754,7 @@
 				"{quest.twr.19038BB5A9E42055.description.1}"
 				"{quest.twr.19038BB5A9E42055.description.2}"
 				"{quest.twr.19038BB5A9E42055.description.3}"
+				"可以从顶面自动输入物品，也可以向坩埚内投入物品。从侧面上半部分导出产物，从下方燃烧室处输入燃料。"
 			]
 			dependencies: ["6738A3C34A872FED"]
 			size: 1.2d

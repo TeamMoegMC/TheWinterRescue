@@ -56,6 +56,7 @@ onEvent('item.tags', (event) => {
 	event.add("kubejs:fuel_stick","frostedheart:coal_stick")
 	event.add("kubejs:fuel_stick","kubejs:straw_briquette")
 	event.add("frostedheart:ash","charcoal_pit:ash")
+	event.add("frostedheart:cow_feed","charcoal_pit:straw");
 	event.add("kubejs:coal_dust","kubejs:anthracite_dust")
 	event.add("kubejs:coal_dust","kubejs:bituminous_coal_dust")
 	event.add("kubejs:coal_dust","kubejs:subbituminous_coal_dust")

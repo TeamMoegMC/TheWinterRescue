@@ -30,7 +30,7 @@
 	#Force tool for wood material - harvestable only with axe
 	forceToolForWood = true
 	#Remove spawning of vanilla animals like cows, pigs, sheeps
-	removeVanillaGeneratedAnimals = false
+	removeVanillaGeneratedAnimals = true
 	#Usage of water per tick when activated aqueduct
 	#Range: > 1
 	aqueductUsePerTick = 1

@@ -79,5 +79,89 @@
 				item: "rankine:packaged_tool"
 			}]
 		}
+		{
+			title: "驯化野生动物"
+			icon: "stone_age:auroch_spawn_egg"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "中和"
+			description: [
+				"野生动物的经济价值很低，它不会额外产出物品，还会攻击人类，也许你可以尝试驯化它？"
+				"它的攻击性是后天获得的，也许你可以圈养它，并且使它繁殖后代，在数代之后也许就可以完全驯化了。"
+			]
+			dependencies: ["2D570AD59FE2D6E1"]
+			hide: true
+			id: "7762BF27B2BB8236"
+			tasks: [{
+				id: "67D25E6118AEA96F"
+				type: "item"
+				item: "minecraft:wheat"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			subtitle: "驯化野牛"
+			description: ["驯化后的野牛便是奶牛了，奶牛吃草或喂食干草或小麦以后可以产奶。"]
+			dependencies: ["7762BF27B2BB8236"]
+			id: "25F5289EF9A76559"
+			tasks: [{
+				id: "6186DEAFF4D38610"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			title: "德式佳肴"
+			x: 6.5d
+			y: 0.0d
+			description: ["驯服猪之后，就可以吃肉了。"]
+			dependencies: ["7762BF27B2BB8236"]
+			id: "7AC1F59A495B58AE"
+			tasks: [{
+				id: "0766B832E872F03D"
+				type: "kill"
+				entity: "minecraft:pig"
+				value: 1L
+			}]
+		}
+		{
+			title: "薅羊毛"
+			x: 5.0d
+			y: -1.5d
+			subtitle: "驯化野羊"
+			description: [
+				"驯化野羊成绵羊，就可以剪毛了。"
+				"它需要吃草以长出羊毛。"
+			]
+			dependencies: ["7762BF27B2BB8236"]
+			id: "7A2CCE64AEE955EC"
+			tasks: [{
+				id: "2475D6D68D373C1D"
+				type: "item"
+				title: "Any #minecraft:wool"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				count: 64L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "驯化野鸡"
+			description: ["驯化野鸡后即可产蛋。"]
+			dependencies: ["7762BF27B2BB8236"]
+			id: "4CC2FB4B9CE2367B"
+			tasks: [{
+				id: "08563B09C9C8534B"
+				type: "item"
+				item: "minecraft:egg"
+			}]
+		}
 	]
 }
