@@ -157,6 +157,9 @@ onEvent('recipes', (event) => {
     event.remove({input: 'minecraft:redstone_ore'});
 	event.remove({output: '#minecraft:planks'});
 	event.remove({input:'create:dough'});
+	event.remove({type:'rankine:crucible'});
+	event.remove({type:'rankine:alloying'});
+	event.remove({type:"rankine:evaporation"});
     event.remove({type: 'minecraft:smelting', input: 'rankine:magnetite_block'});
     event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
 	event.remove({mod: 'rankine',type: 'minecraft:smelting', output: '#forge:ingots'});

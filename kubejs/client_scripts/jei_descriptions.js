@@ -21,7 +21,6 @@ onEvent('jei.information', (event) => {
             description: [text.translate("info.jei.the_winter_rescue.later_tech")]
         }
     ];
-
     recipes.forEach((recipe) => {
         recipe.items.forEach((item) => {
             event.add(item, recipe.description);

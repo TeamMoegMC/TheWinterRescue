@@ -11,5 +11,5 @@ onEvent('jei.remove.recipes', (event) => {
             console.log(`Category: ${recipe.category}, Hiding: ${id}`);
             event.remove(recipe.category, [id]);
         });
-    });
+    });	
 });
