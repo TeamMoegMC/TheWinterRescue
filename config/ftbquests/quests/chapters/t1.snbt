@@ -1899,16 +1899,16 @@
 			}]
 		}
 		{
-			title: "挖出石头"
+			title: "{quest.twr.1837531DB19C9023.title}"
 			x: -1.25d
 			y: 2.0d
 			shape: "gear"
-			subtitle: "地层剧变"
+			subtitle: "{quest.twr.1837531DB19C9023.subtitle}"
 			description: [
-				"这里的地质与一款叫《我的世界》的游戏完全不同"
-				"这里石头分为了很多种类型。"
-				"&6但是每一种类型都可以被烧制成为石头，"
-				"&c&l这是石头的唯一来源。"
+				"{quest.twr.1837531DB19C9023.description.1}"
+				"{quest.twr.1837531DB19C9023.description.2}"
+				"{quest.twr.1837531DB19C9023.description.3}"
+				"{quest.twr.1837531DB19C9023.description.4}"
 			]
 			dependencies: ["45E2EF843333B846"]
 			id: "1837531DB19C9023"
