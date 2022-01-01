@@ -26,7 +26,7 @@
 			tasks: [{
 				id: "6895A9C90F35FF32"
 				type: "checkmark"
-				title: "坠毁"
+				title: "{quest.twr.60F112EDA31F73F5.6895A9C90F35FF32.title}"
 			}]
 		}
 		{
@@ -44,7 +44,7 @@
 			tasks: [{
 				id: "4B27147A3A002991"
 				type: "checkmark"
-				title: "星际历史"
+				title: "{quest.twr.2E0E35B379A20F7C.4B27147A3A002991.title}"
 			}]
 		}
 		{
@@ -64,7 +64,7 @@
 			tasks: [{
 				id: "739D90B64EFDC7EB"
 				type: "checkmark"
-				title: "飞船"
+				title: "{quest.twr.6C86BD5F9112256F.739D90B64EFDC7EB.title}"
 			}]
 		}
 		{
@@ -84,7 +84,7 @@
 			tasks: [{
 				id: "53E219EA9212DEC4"
 				type: "checkmark"
-				title: "山顶"
+				title: "{quest.twr.46BF095F50804FCC.53E219EA9212DEC4.title}"
 			}]
 		}
 		{
@@ -105,7 +105,7 @@
 			tasks: [{
 				id: "2CFE3196473A13A5"
 				type: "checkmark"
-				title: "物品仓"
+				title: "{quest.twr.4E3C1F4BDB921B8E.2CFE3196473A13A5.title}"
 			}]
 			rewards: [
 				{
@@ -165,7 +165,7 @@
 			tasks: [{
 				id: "2128950991D0C6FA"
 				type: "checkmark"
-				title: "私人物品"
+				title: "{quest.twr.25061B159D32453A.2128950991D0C6FA.title}"
 			}]
 			rewards: [
 				{
@@ -212,7 +212,7 @@
 			tasks: [{
 				id: "7C0099E0D08A878E"
 				type: "checkmark"
-				title: "离开"
+				title: "{quest.twr.2422C77587FDEE28.7C0099E0D08A878E.title}"
 			}]
 			rewards: [{
 				id: "60623506E241F58E"
@@ -233,7 +233,7 @@
 				{
 					id: "34E10961B27ECEE7"
 					type: "item"
-					title: "dashuaibia - Dev / Design"
+					title: "{quest.twr.7AFE32B08BB6CE6C.34E10961B27ECEE7.title}"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -249,7 +249,7 @@
 				{
 					id: "2D8A63312752F201"
 					type: "item"
-					title: "YueSha - Dev / Design"
+					title: "{quest.twr.7AFE32B08BB6CE6C.2D8A63312752F201.title}"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -265,7 +265,7 @@
 				{
 					id: "2170C50DC7187B7B"
 					type: "item"
-					title: "duck_egg - Dev / Design"
+					title: "{quest.twr.7AFE32B08BB6CE6C.2170C50DC7187B7B.title}"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -281,7 +281,7 @@
 				{
 					id: "259B555091E40BFA"
 					type: "item"
-					title: "Evan - Operation / Management"
+					title: "{quest.twr.7AFE32B08BB6CE6C.259B555091E40BFA.title}"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -297,7 +297,7 @@
 				{
 					id: "16C294F014C3A727"
 					type: "item"
-					title: "Lyuuke - Texture / Model"
+					title: "{quest.twr.7AFE32B08BB6CE6C.16C294F014C3A727.title}"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -311,7 +311,7 @@
 				{
 					id: "6892D13E32E2236B"
 					type: "item"
-					title: "goumo_g - Texture / Model"
+					title: "{quest.twr.7AFE32B08BB6CE6C.6892D13E32E2236B.title}"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -325,7 +325,7 @@
 				{
 					id: "0944042120B83038"
 					type: "item"
-					title: "khjxiaogu - Dev / Design"
+					title: "{quest.twr.7AFE32B08BB6CE6C.0944042120B83038.title}"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -339,7 +339,7 @@
 				{
 					id: "635EDDFEA43C1BBC"
 					type: "item"
-					title: "Fu_Yang - Map / Build"
+					title: "{quest.twr.7AFE32B08BB6CE6C.635EDDFEA43C1BBC.title}"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b
@@ -353,7 +353,7 @@
 				{
 					id: "510D7660772B2BF2"
 					type: "item"
-					title: "03110 - Map / Build"
+					title: "{quest.twr.7AFE32B08BB6CE6C.510D7660772B2BF2.title}"
 					item: {
 						id: "minecraft:player_head"
 						Count: 1b

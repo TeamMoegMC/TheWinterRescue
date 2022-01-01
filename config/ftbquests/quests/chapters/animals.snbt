@@ -80,14 +80,14 @@
 			}]
 		}
 		{
-			title: "驯化野生动物"
+			title: "{quest.twr.7762BF27B2BB8236.title}"
 			icon: "stone_age:auroch_spawn_egg"
 			x: 5.0d
 			y: 0.0d
-			subtitle: "中和"
+			subtitle: "{quest.twr.7762BF27B2BB8236.subtitle}"
 			description: [
-				"野生动物的经济价值很低，它不会额外产出物品，还会攻击人类，也许你可以尝试驯化它？"
-				"它的攻击性是后天获得的，也许你可以圈养它，并且使它繁殖后代，在数代之后也许就可以完全驯化了。"
+				"{quest.twr.7762BF27B2BB8236.description.0}"
+				"{quest.twr.7762BF27B2BB8236.description.1}"
 			]
 			dependencies: ["2D570AD59FE2D6E1"]
 			hide: true
@@ -101,8 +101,8 @@
 		{
 			x: 5.0d
 			y: 1.5d
-			subtitle: "驯化野牛"
-			description: ["驯化后的野牛便是奶牛了，奶牛吃草或喂食干草或小麦以后可以产奶。"]
+			subtitle: "{quest.twr.25F5289EF9A76559.subtitle}"
+			description: ["{quest.twr.25F5289EF9A76559.description.0}"]
 			dependencies: ["7762BF27B2BB8236"]
 			id: "25F5289EF9A76559"
 			tasks: [{
@@ -112,11 +112,11 @@
 			}]
 		}
 		{
-			title: "猪肉"
+			title: "{quest.twr.7AC1F59A495B58AE.title}"
 			x: 6.5d
 			y: 0.0d
-			subtitle: "德式佳肴"
-			description: ["驯服猪之后，就可以吃肉了。"]
+			subtitle: "{quest.twr.7AC1F59A495B58AE.subtitle}"
+			description: ["{quest.twr.7AC1F59A495B58AE.description.0}"]
 			dependencies: ["7762BF27B2BB8236"]
 			id: "7AC1F59A495B58AE"
 			tasks: [{
@@ -127,20 +127,20 @@
 			}]
 		}
 		{
-			title: "薅羊毛"
+			title: "{quest.twr.7A2CCE64AEE955EC.title}"
 			x: 5.0d
 			y: -1.5d
-			subtitle: "驯化野羊"
+			subtitle: "{quest.twr.7A2CCE64AEE955EC.subtitle}"
 			description: [
-				"驯化野羊成绵羊，就可以剪毛了。"
-				"它需要吃草以长出羊毛。"
+				"{quest.twr.7A2CCE64AEE955EC.description.0}"
+				"{quest.twr.7A2CCE64AEE955EC.description.1}"
 			]
 			dependencies: ["7762BF27B2BB8236"]
 			id: "7A2CCE64AEE955EC"
 			tasks: [{
 				id: "2475D6D68D373C1D"
 				type: "item"
-				title: "Any #minecraft:wool"
+				title: "{quest.twr.7A2CCE64AEE955EC.2475D6D68D373C1D.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -154,8 +154,8 @@
 		{
 			x: 3.5d
 			y: 0.0d
-			subtitle: "驯化野鸡"
-			description: ["驯化野鸡后即可产蛋。"]
+			subtitle: "{quest.twr.4CC2FB4B9CE2367B.subtitle}"
+			description: ["{quest.twr.4CC2FB4B9CE2367B.description.0}"]
 			dependencies: ["7762BF27B2BB8236"]
 			id: "4CC2FB4B9CE2367B"
 			tasks: [{

@@ -25,7 +25,7 @@
 				{
 					id: "079F2D4900B8B247"
 					type: "item"
-					title: "Any #forge:dusts/aluminum"
+					title: "{quest.twr.5D52744D5382A6CA.079F2D4900B8B247.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -37,7 +37,7 @@
 				{
 					id: "33F1689BF5E74F5D"
 					type: "item"
-					title: "Any #forge:ingots/aluminum"
+					title: "{quest.twr.5D52744D5382A6CA.33F1689BF5E74F5D.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -322,7 +322,7 @@
 			tasks: [{
 				id: "147D66FD5DDDF718"
 				type: "item"
-				title: "Any #forge:ingots/steel"
+				title: "{quest.twr.0019852CD6EC0354.147D66FD5DDDF718.title}"
 				icon: "immersiveengineering:ingot_steel"
 				item: {
 					id: "itemfilters:tag"
@@ -438,7 +438,7 @@
 			subtitle: "{quest.twr.6EC18F90620F0A48.subtitle}"
 			description: [
 				"{quest.twr.6EC18F90620F0A48.description.1}"
-				"多方块结构展示中&c&l标红的方块&r是工程师锤的敲击位置。"
+				"{quest.twr.6EC18F90620F0A48.description.1}"
 			]
 			dependencies: ["5D52744D5382A6CA"]
 			hide: true

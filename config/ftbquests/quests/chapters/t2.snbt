@@ -666,7 +666,7 @@
 			tasks: [{
 				id: "4CDAED608D6CC193"
 				type: "item"
-				title: "Any #create:sandpaper"
+				title: "{quest.twr.6439CF1B54CEF092.4CDAED608D6CC193.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -754,8 +754,8 @@
 				"{quest.twr.19038BB5A9E42055.description.1}"
 				"{quest.twr.19038BB5A9E42055.description.2}"
 				"{quest.twr.19038BB5A9E42055.description.3}"
-				"可以从顶面自动输入物品，也可以向坩埚内投入物品。从侧面上半部分导出产物，从下方燃烧室处输入燃料。"
-				"&6&l如果鼓风正确并且已填充燃料，界面左下角的指示灯将会亮起。"
+				"{quest.twr.19038BB5A9E42055.description.3}"
+				"{quest.twr.19038BB5A9E42055.description.4}"
 			]
 			dependencies: ["6738A3C34A872FED"]
 			size: 1.2d
@@ -1084,7 +1084,7 @@
 			tasks: [{
 				id: "1D1735E320565F58"
 				type: "item"
-				title: "Any #forge:ingots/nickel"
+				title: "{quest.twr.3A91A02EB59A7919.1D1735E320565F58.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

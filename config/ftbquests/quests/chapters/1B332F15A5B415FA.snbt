@@ -19,7 +19,7 @@
 			tasks: [{
 				id: "691CC697E60DDBBC"
 				type: "item"
-				title: "Any #kubejs:coal_dust"
+				title: "{quest.twr.04B97BB52527FB7A.691CC697E60DDBBC.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

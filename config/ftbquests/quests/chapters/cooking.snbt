@@ -185,7 +185,7 @@
 			tasks: [{
 				id: "0A913ECAD3E5B736"
 				type: "item"
-				title: "Any #forge:dusts/wood"
+				title: "{quest.twr.20F1DD1209093059.0A913ECAD3E5B736.title}"
 				item: "rankine:sawdust"
 			}]
 		}

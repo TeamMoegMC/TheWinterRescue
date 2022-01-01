@@ -236,7 +236,7 @@
 			tasks: [{
 				id: "56616CBB1C923EE5"
 				type: "item"
-				title: "Any #minecraft:planks"
+				title: "{quest.twr.19603323EAAFF726.56616CBB1C923EE5.title}"
 				tags: ["plank"]
 				item: {
 					id: "itemfilters:tag"
@@ -443,7 +443,7 @@
 			tasks: [{
 				id: "1FD4E3357F016517"
 				type: "item"
-				title: "Any #forge:plates/copper"
+				title: "{quest.twr.586D66C71A378A82.1FD4E3357F016517.title}"
 				icon: "create:copper_sheet"
 				item: {
 					id: "itemfilters:tag"
@@ -533,7 +533,7 @@
 			tasks: [{
 				id: "0F08400AFE76BD5F"
 				type: "item"
-				title: "Any #forge:ingots"
+				title: "{quest.twr.3C4CEEBFF8DCF448.0F08400AFE76BD5F.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -598,7 +598,7 @@
 			tasks: [{
 				id: "1019411D398ECFCE"
 				type: "item"
-				title: "Any #forge:ingots/iron"
+				title: "{quest.twr.75154C5A6E2F3257.1019411D398ECFCE.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1426,7 +1426,7 @@
 			tasks: [{
 				id: "0758A45D51C54F20"
 				type: "checkmark"
-				title: "使用"
+				title: "{quest.twr.1F615C38B1A015E5.0758A45D51C54F20.title}"
 			}]
 		}
 		{
@@ -1449,7 +1449,7 @@
 				{
 					id: "69D366F12DFD2674"
 					type: "item"
-					title: "Any #ages_api:fishing_net_meshes"
+					title: "{quest.twr.506C01A9BE167F7F.69D366F12DFD2674.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1565,7 +1565,7 @@
 			tasks: [{
 				id: "4955B8E28DC29D7C"
 				type: "checkmark"
-				title: "思索"
+				title: "{quest.twr.58EF2132D0431323.4955B8E28DC29D7C.title}"
 			}]
 		}
 		{
@@ -1608,7 +1608,7 @@
 			tasks: [{
 				id: "74FC4561FBA9442D"
 				type: "checkmark"
-				title: "Wiki"
+				title: "{quest.twr.1B3C8681DF78AD16.74FC4561FBA9442D.title}"
 			}]
 		}
 		{
@@ -1861,7 +1861,7 @@
 				{
 					id: "358AAF5CE7EE2574"
 					type: "item"
-					title: "Any fuel rod"
+					title: "{quest.twr.0E067BFAE2FB5441.358AAF5CE7EE2574.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1890,7 +1890,7 @@
 			tasks: [{
 				id: "655CEC449A64354A"
 				type: "checkmark"
-				title: "地狱"
+				title: "{quest.twr.3B306015B7675BD1.655CEC449A64354A.title}"
 			}]
 			rewards: [{
 				id: "79D06247FDD06DB9"

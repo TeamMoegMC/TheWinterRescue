@@ -23,7 +23,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "加工台"
+			title: "{quest.twr.11DD149796E14E81.title}"
 			icon: "tetra:basic_workbench"
 			x: -2.5d
 			y: 1.5d
@@ -139,13 +139,13 @@
 			}]
 		}
 		{
-			title: "获得宝石"
+			title: "{quest.twr.34E4EC05F478BB1B.title}"
 			x: -4.0d
 			y: 1.5d
-			subtitle: "一锤定音"
+			subtitle: "{quest.twr.34E4EC05F478BB1B.subtitle}"
 			description: [
-				"挖不到宝石矿？这个星球上大型可见的宝石矿早已被采空了。"
-				"如果你想获得宝石，你需要先&b前往地底挖掘石头获得晶洞&r，然后&6&l放在加工台里面用&b锤子&6破开&r。"
+				"{quest.twr.34E4EC05F478BB1B.description.0}"
+				"{quest.twr.34E4EC05F478BB1B.description.1}"
 			]
 			dependencies: ["11DD149796E14E81"]
 			id: "34E4EC05F478BB1B"
