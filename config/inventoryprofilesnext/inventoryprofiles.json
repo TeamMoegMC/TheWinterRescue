@@ -4,5 +4,12 @@
     },
     "GuiSettings": {
         "continuous_crafting_saved_value": false
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": ""
+            }
+        }
     }
 }

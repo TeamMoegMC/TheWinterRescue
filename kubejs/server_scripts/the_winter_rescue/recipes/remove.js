@@ -33,6 +33,7 @@ onEvent('recipes', (event) => {
         'engineersdecor:labeled_crate',
         'engineersdecor:factory_dropper',
         'engineersdecor:small_waste_incinerator',
+		'engineersdecor:metal_crafting_table',
 		'rankine:prospecting_stick',
 		'minecraft:cobweb',
 		'rankine:evaporation_tower',

@@ -37,6 +37,7 @@
 /kubejs/.idea
 hs_err_*
 replay_*
+config/inventoryprofilesnext/
 
 # server side
 /dumps/
@@ -80,3 +81,4 @@ replay_*
 /mods-server/
 __pycache__/
 config/.twrp*
+

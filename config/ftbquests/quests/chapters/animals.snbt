@@ -112,9 +112,10 @@
 			}]
 		}
 		{
-			title: "德式佳肴"
+			title: "猪肉"
 			x: 6.5d
 			y: 0.0d
+			subtitle: "德式佳肴"
 			description: ["驯服猪之后，就可以吃肉了。"]
 			dependencies: ["7762BF27B2BB8236"]
 			id: "7AC1F59A495B58AE"
