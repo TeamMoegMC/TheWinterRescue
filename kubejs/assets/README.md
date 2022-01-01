@@ -9,6 +9,8 @@ These following folders are related to our project:
 3. `the_winter_rescue/lang` is hints and advancements translation folder.
 4. `tips/lang` is in-game tips translation folder.
 5. `twr_quests/lang` is quest book translation folder.
+6. `diet/lang` is diet language and our custom diet group translation folder, __do not contribute this to Diet Mod__.    
+
 You are welcomed to contribute to these folders. 
 ## Contributing
 You can do the translations on your local path, Just copy `en_us.json` or `zh_cn.json` and modify to your own language. If you finished, just make a pull-request to our project and we would review and merge asap.  
