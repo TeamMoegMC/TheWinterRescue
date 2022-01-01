@@ -1,7 +1,7 @@
 #Range: 0 ~ 4096
 electrolyzerConsume = 24
 #Range: 0 ~ 4096
-steamTurbineGenerator = 192
+steamTurbineGenerator = 224
 #Range: 0.0 ~ 96000.0
 electrodeCost = 0.25
 

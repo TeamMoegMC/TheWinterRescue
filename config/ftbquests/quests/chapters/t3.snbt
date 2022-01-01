@@ -436,7 +436,10 @@
 			x: -2.0d
 			y: -1.5d
 			subtitle: "{quest.twr.6EC18F90620F0A48.subtitle}"
-			description: ["{quest.twr.6EC18F90620F0A48.description.1}"]
+			description: [
+				"{quest.twr.6EC18F90620F0A48.description.1}"
+				"多方块结构展示中&c&l标红的方块&r是工程师锤的敲击位置。"
+			]
 			dependencies: ["5D52744D5382A6CA"]
 			hide: true
 			id: "6EC18F90620F0A48"
