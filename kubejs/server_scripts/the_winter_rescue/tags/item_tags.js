@@ -70,8 +70,10 @@ onEvent('item.tags', (event) => {
 	event.add("forge:ores/iron","kubejs:rusted_iron_ingot")
 	event.add("the_winter_rescue:bloom_iron","kubejs:rusted_iron_ingot")
 	event.add("diet:sugars",Ingredient.of("#diet:fruits").getItemIds());
+	
 	event.add("diet:fruits",Ingredient.of("#diet:vegetables").getItemIds());
 	event.add("diet:vitamin",Ingredient.of("#diet:proteins").getItemIds());
+	//event.removeAll("diet:vegetables")
 	
 	event.add("diet:plant_oil","kubejs:plant_oil");
 	event.add("diet:plant_oil","#forge:crops/corn");
@@ -85,6 +87,19 @@ onEvent('item.tags', (event) => {
 	event.add("diet:plant_oil","charcoal_pit:chocolate");
 	event.add("diet:plant_oil","crockpot:popcorn");
 	event.add("diet:proteins","#diet:plant_oil")
+	event.add("diet:proteins","create:bar_of_chocolate");
+	event.add("diet:proteins","create:sweet_roll");
+	event.add("diet:proteins","minecraft:cake");
+	event.add("diet:proteins","rankine:pancake_batter")
+	event.add("diet:proteins","frozenup:mug_of_milk")
+	event.add("diet:proteins","#forge:milk");
+	event.add("diet:proteins","frozenup:mug_of_chocolate_milk")
+	event.add("diet:proteins","frozenup:mug_of_truffle_hot_chocolate")
+	event.add("diet:proteins","crockpot:hot_cocoa");
+	event.add("diet:proteins","crockpot:ice_cream");
+	event.add("diet:proteins","crockpot:avaj");
+	event.add("diet:grains","frozenup:truffle_muffin");
+	//event.add("diet:proteins","minecraft:milk");
 	event.remove("diet:vitamin",Ingredient.of("#diet:plant_oil").getItemIds())
 	event.add("kubejs:tetra_hammer","tetra:modular_double")
 	event.add("rankine:tree_choppers","tetra:modular_double")

@@ -1,0 +1,8 @@
+{
+    "type": "watersource:water_level_item",
+    "ingredient": {
+        "item": "minecraft:milk_bucket"
+    },
+	"waterLevel": 4,
+	"waterSaturationLevel": 6
+}
