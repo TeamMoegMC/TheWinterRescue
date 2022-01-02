@@ -345,5 +345,36 @@
 				item: "crockpot:meat_balls"
 			}]
 		}
+		{
+			x: 0.5d
+			y: -3.0d
+			subtitle: "{quest.twr.64B11670694B854C.subtitle}"
+			description: [
+				"{quest.twr.64B11670694B854C.description.1}"
+				"{quest.twr.64B11670694B854C.description.2}"
+			]
+			dependencies: ["328D948C4C800873"]
+			hide: true
+			id: "64B11670694B854C"
+			tasks: [{
+				id: "1B12095312E36420"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			subtitle: "{quest.twr.529E18F00974DC2D.subtitle}"
+			description: ["{quest.twr.529E18F00974DC2D.description.1}"]
+			dependencies: ["328D948C4C800873"]
+			hide: true
+			id: "529E18F00974DC2D"
+			tasks: [{
+				id: "1E62175F01B70310"
+				type: "item"
+				item: "rankine:black_walnut"
+			}]
+		}
 	]
 }

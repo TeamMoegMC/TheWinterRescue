@@ -828,10 +828,15 @@
   "quest.twr.7AFE32B08BB6CE6C.635EDDFEA43C1BBC.title": "Fu_Yang - 建筑设计",
   "quest.twr.7AFE32B08BB6CE6C.510D7660772B2BF2.title": "03110 - 建筑设计",
   "quest.twr.7AFE32B08BB6CE6C.16C294F014C3A727.title": "Lyuuke - 模型材质",
-  "quest.twr.543F5BC239D07C40.description.4": "&c&l加入队伍之前请先取消掉自己所有圈地！",
+  "quest.twr.543F5BC239D07C40.description.5": "&c&l加入队伍之前请先取消掉自己所有圈地！",
   "quest.twr.4785733C81711840.subtitle": "只是一个水缸加俩电极",
   "quest.twr.4785733C81711840.description.4": "你以后可能需要一个更大的家伙……",
   "quest.twr.4785733C81711840.description.3": "除顶面和左右外，都可以输入流体；除左右外都可以输入/输出物品；从右侧的&6&l能量接口&r处输入能量。",
   "quest.twr.4785733C81711840.description.2": "这台电解机很简陋，无法收集产生的气体，也无法生产一些大功率的配方，但是足以用来生产&b铝&r了。",
-  "quest.twr.4785733C81711840.description.1": "我有一个电极，我有一个钢盆，啪，简易电解机。"
+  "quest.twr.4785733C81711840.description.1": "我有一个电极，我有一个钢盆，啪，简易电解机。",
+  "quest.twr.64B11670694B854C.description.2": "水果虽好，可不要贪吃哦。",
+  "quest.twr.64B11670694B854C.description.1": "只有位于温暖环境下的树才会结果。",
+  "quest.twr.529E18F00974DC2D.subtitle": "补脑就喝六个核弹",
+  "quest.twr.64B11670694B854C.subtitle": "一天一……",
+  "quest.twr.529E18F00974DC2D.description.1": "只有位于温暖环境下的树才会结果。"
 }
