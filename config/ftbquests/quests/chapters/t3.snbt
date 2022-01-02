@@ -410,6 +410,13 @@
 		{
 			x: 0.0d
 			y: -3.5d
+			subtitle: "{quest.twr.4785733C81711840.subtitle}"
+			description: [
+				"{quest.twr.4785733C81711840.description.1}"
+				"{quest.twr.4785733C81711840.description.2}"
+				"{quest.twr.4785733C81711840.description.3}"
+				"{quest.twr.4785733C81711840.description.4}"
+			]
 			dependencies: [
 				"0019852CD6EC0354"
 				"1F2BD4A72596B287"

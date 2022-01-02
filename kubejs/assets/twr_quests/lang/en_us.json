@@ -828,5 +828,10 @@
   "quest.twr.7AFE32B08BB6CE6C.635EDDFEA43C1BBC.title": "Fu_Yang - Map / Build",
   "quest.twr.7AFE32B08BB6CE6C.510D7660772B2BF2.title": "03110 - Map / Build",
   "quest.twr.7AFE32B08BB6CE6C.16C294F014C3A727.title": "Lyuuke - Texture / Model",
-  "quest.twr.543F5BC239D07C40.description.4": "&c&lRemove all your claimed chunks before joining new team!"
+  "quest.twr.543F5BC239D07C40.description.4": "&c&lRemove all your claimed chunks before joining new team!",
+  "quest.twr.4785733C81711840.subtitle": "Just a pot with electrodes",
+  "quest.twr.4785733C81711840.description.4": "You may need a larger one later.",
+  "quest.twr.4785733C81711840.description.3": "Energy goes right at the energy interface. No interface on the left. All the rest can be fluid and item interface except up is item only.",
+  "quest.twr.4785733C81711840.description.2": "This electrolyzer is so simple that it cannot collect gas or making high power recipes. But is enough for producing &baluminum&r.",
+  "quest.twr.4785733C81711840.description.1": "I have an electrode. I have a steel pot. Pa! Electrolyzer!"
 }
