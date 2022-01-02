@@ -41,10 +41,8 @@ onEvent('recipes', (event) => {
         ['create:dough','minecraft:sugar']},
 	{output:
         ['kubejs:bounded_graphite'],input:
-        ['4x #forge:dusts/hop_graphite',Fluid.of('kubejs:tar',1000)]},
-    {output:
-        [Fluid.of('kubejs:hydrochloric_acid', 1000)],input:
-        [Fluid.of('minecraft:water', 1000), Fluid.of('frostedheart:chlorine', 500)]}
+        ['4x #forge:dusts/hop_graphite',Fluid.of('kubejs:tar',1000)]}
+    
 	]
 	let heated = [
     {output:
@@ -59,6 +57,9 @@ onEvent('recipes', (event) => {
         {output:
         [Fluid.of('kubejs:magnesium_chlorine', 250)],input:
         ['rankine:magnesia', Fluid.of('kubejs:hydrochloric_acid', 500)]},
+		{output:
+        [Fluid.of('kubejs:hydrochloric_acid', 1000)],input:
+        [Fluid.of('minecraft:water', 1000), Fluid.of('frostedheart:chlorine', 500)]}
 	]
 	//event.recipes.createMixing(Fluid.of('frostedheart:hot_water', 1000),Fluid.of('watersource:purified_water', 1000)).processingTime(10000).heated();
 	recipes.forEach((recipe) => {
