@@ -17,7 +17,8 @@ let colors=["white",
 ];
 onEvent('item.tags', (event) => {
     event.add('itemfilters:check_nbt', 'tetra:modular_double')
-
+	event.add('frostedheart:knife', 'tetra:modular_sword')
+	//event.add('ages_api:knives','#frostedheart:knife')
     event.add('forge:plates/bronze', "steampowered:bronze_sheet")
     event.add('forge:plates/cast_iron', "kubejs:cast_iron_plate")
     event.add('forge:plates/tungsten_steel', "kubejs:tungsten_steel_plate")

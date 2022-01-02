@@ -4,5 +4,7 @@
 {"from":{"tag":"forge:ingots/copper"},"to":"kubejs:rusted_copper_ingot"},
 {"from":{"tag":"forge:ingots/tin"},"to":"kubejs:gray_tin_ingot"}
 ],
-"conditions": []
+"conditions": [
+{"condition":"frostedheart:treasure"}
+]
 }

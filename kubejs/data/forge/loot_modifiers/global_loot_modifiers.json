@@ -1,6 +1,7 @@
 {
   "replace": false,
   "entries": [
-    "the_winter_rescue:degrade"
+    "the_winter_rescue:degrade",
+	"the_winter_rescue:fruits"
   ]
 }
