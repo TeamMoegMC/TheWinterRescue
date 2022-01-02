@@ -18,7 +18,7 @@ onEvent('fluid.registry', event => {
   });
 */
   event.create('lime_water').textureThin(0xB0C4DE)
-  event.create('chlorine').textureThin(0xB0C4DE)
+  event.create('magnesium_chlorine').textureThin(0xB0C4DE)
   event.create('sulfuric_acid').textureThin(0xEEE8AA)
   event.create('hydrochloric_acid').textureThin(0xAAFFAA)
   event.create('cryolite').textureThin(0x90EE90)

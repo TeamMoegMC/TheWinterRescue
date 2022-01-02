@@ -1070,19 +1070,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "59D0AC43D7948FF2"
-				type: "item"
-				item: {
-					id: "rankine:bronze_alloy"
-					Count: 1b
-					tag: {
-						StoredComposition: [{
-							comp: "80Cu-20Sn"
-						}]
-					}
-				}
-			}]
 		}
 		{
 			x: 5.5d

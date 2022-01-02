@@ -109,12 +109,14 @@
   "item.kubejs.rusted_copper_ingot": "锈铜锭",
   "item.kubejs.gray_tin_ingot": "灰锡锭",
   "item.kubejs.hydrochloric_acid_bucket": "盐酸桶",
+  "item.kubejs.magnesium_chlorine_bucket": "熔融氯化镁桶",
   "fluid.kubejs.lime_water": "石灰水",
   "fluid.kubejs.chlorine": "氯气",
   "fluid.kubejs.cryolite": "冰晶石",
   "fluid.kubejs.sulfuric_acid": "硫酸",
   "fluid.kubejs.hydrochloric_acid": "盐酸",
   "fluid.kubejs.tar": "焦油",
+  "fluid.kubejs.magnesium_chlorine": "熔融氯化镁",
   
   "itemGroup.kubejs.kubejs": "Kubejs"
 }

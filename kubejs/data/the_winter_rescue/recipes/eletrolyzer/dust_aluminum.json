@@ -11,8 +11,8 @@
     "amount": 100
   },
   "result_fluid": {
-    "tag": "forge:gas/fluorine",
-    "amount": 390
+    "fluid": "frostedheart:fluorine",
+    "amount": 240
   },
   "time": 240
 }

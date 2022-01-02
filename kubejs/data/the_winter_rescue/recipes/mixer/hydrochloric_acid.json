@@ -1,0 +1,15 @@
+{
+		"type": "immersiveengineering:mixer",
+        "inputs": [{
+          "base_ingredient":{"tag": "forge:salt"},
+          "count":2
+        }
+        ],
+        "result": {
+            "fluid": "kubejs:hydrochloric_acid","amount": 1000
+        },
+		"fluid": {
+            "tag": "the_winter_rescue:fluidsulfuricacid","amount": 1000
+        },
+		"energy": 2000
+}

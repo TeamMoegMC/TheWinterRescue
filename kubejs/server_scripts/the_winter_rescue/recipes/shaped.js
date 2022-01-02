@@ -368,7 +368,7 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/copper',
             C: 'immersiveengineering:circuit_board'
         }),
-        shapedRecipe('immersiveindustry:burning_chamber', ['ABA', 'BAB', 'ABA'], {
+        shapedRecipe('2x immersiveindustry:burning_chamber', ['ABA', 'BAB', 'ABA'], {
             A: '#forge:plates/cast_iron',
             B: '#forge:plates/iron'
         }),

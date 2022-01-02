@@ -1,11 +1,9 @@
 {
 		"type": "immersiveengineering:mixer",
         "inputs": [{
-            "tag": "forge:dusts/sulfur"
-        },
-		{
-            "tag": "forge:dusts/sulfur"
-        }],
+            "base_ingredient":{"tag": "forge:dusts/sulfur"},
+            "count":2
+          }],
         "result": {
             "fluid": "kubejs:sulfuric_acid","amount": 800
         },

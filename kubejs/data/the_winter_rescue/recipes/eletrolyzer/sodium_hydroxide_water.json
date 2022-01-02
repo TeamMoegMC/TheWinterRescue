@@ -12,7 +12,7 @@
     "amount": 16000
   },
   "result_fluid": {
-    "tag": "forge:water",
+    "fluid": "minecraft:water",
     "amount": 8000
   },
   "large_only":true,

@@ -1,18 +1,15 @@
 {
   "type": "immersiveindustry:electrolyzer",
   "result": {
-    "item": "rankine:sodium_hydroxide"
-  },
-  "input": {
-    "tag": "forge:salt"
+    "item": "kubejs:magnesium_dust"
   },
   "fluid": {
-    "tag": "forge:water",
-    "amount": 500
+    "tag": "the_winter_rescue:magnesium_chlorine",
+    "amount": 250
   },
   "result_fluid": {
     "fluid": "frostedheart:chlorine",
-    "amount": 250
+    "amount": 240
   },
   "time": 240
 }

@@ -754,7 +754,6 @@
 				"{quest.twr.19038BB5A9E42055.description.1}"
 				"{quest.twr.19038BB5A9E42055.description.2}"
 				"{quest.twr.19038BB5A9E42055.description.3}"
-				"{quest.twr.19038BB5A9E42055.description.3}"
 				"{quest.twr.19038BB5A9E42055.description.4}"
 			]
 			dependencies: ["6738A3C34A872FED"]
