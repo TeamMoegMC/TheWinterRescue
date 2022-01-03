@@ -1,0 +1,8 @@
+{
+    "ModSettings": {
+        "first_run": false
+    },
+    "AutoRefillSettings": {
+        "refill_before_tool_break": false
+    }
+}
