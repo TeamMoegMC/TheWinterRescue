@@ -37,7 +37,7 @@
 /kubejs/.idea
 hs_err_*
 replay_*
-
+/config/inventoryprofilesnext/
 
 # server side
 /dumps/
