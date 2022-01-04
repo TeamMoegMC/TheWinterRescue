@@ -1,13 +1,26 @@
 {
-  "the_winter_rescue.ponder.tag.bloomery.description": "Build Bloomery",
   "the_winter_rescue.ponder.tag.bloomery": "Bloomery",
-  "charcoal_pit.ponder.main_bloomery.basic_usage.text_1": "Right Click Bellows",
-  "charcoal_pit.ponder.main_bloomery.basic_usage.header": "Bloomery",
+  "the_winter_rescue.ponder.tag.bloomery.description": "A machine used for iron and nickel processing",
 
-  "the_winter_rescue.ponder.tag.generator.description": "Build Generator",
-  "the_winter_rescue.ponder.tag.generator": "Generator",
-  "frostedheart.ponder.generator_core_t1.basic_usage.text_1": "Right Click With Engineer's Hammer",
-  "frostedheart.ponder.generator_core_t1.basic_usage.header": "Generator",
+  "the_winter_rescue.ponder.bloomery.assembly.header": "Assembling the Bloomery",
+  "the_winter_rescue.ponder.bloomery.assembly.text_1": "A single Bellow is required for the Bloomery to work",
+  "the_winter_rescue.ponder.bloomery.assembly.text_2": "Make sure to check it's vent orientation",
+  "the_winter_rescue.ponder.bloomery.assembly.text_3": "If the vent doesnt face the Tuyere, the Bellow will not work",
+  "the_winter_rescue.ponder.bloomery.assembly.text_4": "Right-Click to push air in using the Bellow",
+  "the_winter_rescue.ponder.bloomery.assembly.text_5": "Another Tuyere can be added on this side, just make sure to check it's vent direction",
+  "the_winter_rescue.ponder.bloomery.assembly.text_6": "Another layer can be placed for 2x processing. You cannot stack another layer after this one",
+  
+  "the_winter_rescue.ponder.bloomery.basic_usage.header": "Using the Bloomery",
+  "the_winter_rescue.ponder.bloomery.basic_usage.text_1": "To start processing, use Shift + Right-Click with the ore in hand (not blocks)",
+
+
+  "the_winter_rescue.ponder.tag.generator": "The Generator",
+  "the_winter_rescue.ponder.tag.generator.description": "The heart of your steam engines",
+
+  "the_winter_rescue.ponder.generator_construction_t1.basic_usage.header": "Assembling the tier 1 generator",
+  "the_winter_rescue.ponder.generator_construction_t1.basic_usage.text_1": "Right-Click to assemble",
+  "the_winter_rescue.ponder.generator_construction_t2.basic_usage.header": "Assembling the tier 2 generator",
+  "the_winter_rescue.ponder.generator_construction_t2.basic_usage.text_1": "Right-Click to assemble",
 
   "the_winter_rescue.ponder.tag.crucible.description": "Build Steel Mill Crucible",
   "the_winter_rescue.ponder.tag.crucible": "Steel Mill Crucible",
@@ -18,11 +31,6 @@
   "the_winter_rescue.ponder.tag.steam_turbine": "Steam Turbine",
   "immersiveindustry.ponder.steam_turbine.basic_usage.text_1": "Right Click Tail With Engineer's Hammer",
   "immersiveindustry.ponder.steam_turbine.basic_usage.header": "Steam Turbine",
-
-  "the_winter_rescue.ponder.tag.generator_t2.description": "Build Generator T2",
-  "the_winter_rescue.ponder.tag.generator_t2": "Generator T2",
-  "frostedheart.ponder.generator_t2.basic_usage.text_1": "Right Click With Engineer's Hammer",
-  "frostedheart.ponder.generator_t2.basic_usage.header": "Generator T2",
   
   "the_winter_rescue.ponder.tag.beehive_oven_pit.description": "Build Beehive Oven Pit",
   "the_winter_rescue.ponder.tag.beehive_oven_pit": "Beehive Oven Pit",
