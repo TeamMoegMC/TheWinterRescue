@@ -107,7 +107,7 @@
 		e_furnace_automatic_pulling = false
 		#Defines how much time the Small Milking Machine needs work. Note this is a permanent standby power, not only when the device does something. Use zero to disable energy dependency and energy handling of the machine. The config value can be changed on-the-fly for tuning.
 		#Range: 0 ~ 1024
-		milking_machine_energy_consumption = 0
+		milking_machine_energy_consumption = 16
 		#Defines how many millibuckets can be transferred (per tick) through the valves. That is technically the 'storage size' specified for blocks that want to fill fluids into the valve (the valve has no container and forward that to the output block), The value can be changed on-the-fly for tuning. 
 		#Range: 1 ~ 32000
 		pipevalve_max_flowrate = 1000
@@ -144,7 +144,7 @@
 		chair_mob_standup_probability_percent = 1.0
 		#Defines (for each individual cow) the minimum time between milking.
 		#Range: 1000 ~ 24000
-		milking_machine_milking_delay = 4000
+		milking_machine_milking_delay = 14400
 		#Defines if the Small Block Breaker does not work without RF power.
 		block_breaker_requires_power = true
 

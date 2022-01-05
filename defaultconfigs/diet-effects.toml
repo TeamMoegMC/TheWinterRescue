@@ -11,7 +11,7 @@
 		below = 0.1
 		match = "every"
 		above = 0.0
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
 
@@ -24,7 +24,7 @@
 		below = 0.2
 		match = "every"
 		above = 0.1
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
 
@@ -37,7 +37,7 @@
 		below = 0.3
 		match = "every"
 		above = 0.2
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
 
@@ -50,7 +50,7 @@
 		below = 0.4
 		match = "every"
 		above = 0.3
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
 
@@ -63,7 +63,7 @@
 		below = 0.5
 		match = "every"
 		above = 0.4
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
 
@@ -76,7 +76,7 @@
 		below = 0.6
 		match = "every"
 		above = 0.5
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
 
@@ -89,7 +89,7 @@
 		below = 0.7
 		match = "every"
 		above = 0.6
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
 
@@ -102,7 +102,7 @@
 		below = 0.9
 		match = "every"
 		above = 0.8
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "plant_oil", "grains"]
 
 [[effects]]
 
@@ -115,7 +115,7 @@
 		below = 1.0
 		match = "every"
 		above = 0.9
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "plant_oil", "grains"]
 
 [[effects]]
 
@@ -133,7 +133,7 @@
 		below = 1.0
 		match = "all"
 		above = 0.8
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "plant_oil", "grains"]
 
 [[effects]]
 
@@ -156,7 +156,7 @@
 		below = 0.2
 		match = "any"
 		above = 0.0
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "plant_oil", "grains"]
 
 [[effects]]
 
@@ -174,7 +174,7 @@
 		below = 1.0
 		match = "every"
 		above = 0.8
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "plant_oil", "grains"]
 
 [[effects]]
 
@@ -192,7 +192,7 @@
 		below = 0.2
 		match = "every"
 		above = 0.0
-		groups = ["proteins", "fruits", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
 

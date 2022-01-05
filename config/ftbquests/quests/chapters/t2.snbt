@@ -1138,5 +1138,28 @@
 				item: "frostedheart:oil_burner"
 			}]
 		}
+		{
+			x: -7.5d
+			y: 0.0d
+			subtitle: "{quest.twr.739B9AF9D9C2EC05.subtitle}"
+			description: ["{quest.twr.739B9AF9D9C2EC05.description.1}"]
+			dependencies: [
+				"2659A48FDF01B1B7"
+				"39C5B2690D8A6DEC"
+			]
+			dependency_requirement: "one_completed"
+			id: "739B9AF9D9C2EC05"
+			tasks: [{
+				id: "2ED97FB90AF6FE84"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 }

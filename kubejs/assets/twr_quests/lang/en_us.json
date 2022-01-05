@@ -610,7 +610,7 @@
   "quest.twr.6667AA13CA3DAC9B.description.2": "we recommend you to follow the path guided by the quest book.",
   "quest.twr.6667AA13CA3DAC9B.description.3": "If some quests are locked or cannot complete,",
   "quest.twr.6667AA13CA3DAC9B.description.4": "probably some other previous quest are incomplete",
-  "quest.twr.6667AA13CA3DAC9B.description.5": "&lCheck the requirements of a quest from the triangle on the top-left",
+  "quest.twr.6667AA13CA3DAC9B.description.5": "&a&lCheck the requirements of a quest from the triangle on the top-left",
   "quest.twr.6667AA13CA3DAC9B.description.6": "&6&lUnder any circumstances, the Quest Book is always your best friend",
   "quest.twr.6667AA13CA3DAC9B.description.7": "&c&lif you encounter problems or questions",
   "quest.twr.6667AA13CA3DAC9B.description.8": "&b&lPlease read each chapter carefully",
@@ -838,5 +838,15 @@
   "quest.twr.64B11670694B854C.description.1": "Fruit trees would produce fruits ONLY if they are in warm environment.",
   "quest.twr.529E18F00974DC2D.subtitle": "Eating walnut benefits your brain",
   "quest.twr.64B11670694B854C.subtitle": "A day an ...",
-  "quest.twr.529E18F00974DC2D.description.1": "Fruit trees would produce fruits ONLY if they are in warm environment."
+  "quest.twr.529E18F00974DC2D.description.1": "Fruit trees would produce fruits ONLY if they are in warm environment.",
+  "quest.twr.3B5663CF194B054C.description.9": "&c&lAttention! Please read this quest patiently.",
+  "quest.twr.58EF2132D0431323.description.4": " ",
+  "quest.twr.6667AA13CA3DAC9B.description.9": " ",
+  "quest.twr.6667AA13CA3DAC9B.description.10": "&c&lAttention! Please read this quest patiently.",
+  "quest.twr.1F615C38B1A015E5.description.6": " ",
+  "quest.twr.739B9AF9D9C2EC05.subtitle": "Inseparable",
+  "quest.twr.3B5663CF194B054C.description.8": " ",
+  "quest.twr.1F615C38B1A015E5.description.7": "&c&lAttention! Please read this quest patiently.",
+  "quest.twr.739B9AF9D9C2EC05.description.1": "Superglue can be apply to blocks to attach blocks to the contraption. But only blocks with contact can stick to each other.",
+  "quest.twr.58EF2132D0431323.description.5": "&c&lAttention! Please read this quest patiently."
 }

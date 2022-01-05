@@ -16,6 +16,7 @@ let colors=["white",
 "red"
 ];
 onEvent('item.tags', (event) => {
+	console.info(Ingredient.of("#diet:proteins").getItemIds())
     event.add('itemfilters:check_nbt', 'tetra:modular_double')
 	event.add('frostedheart:knife', 'tetra:modular_sword')
 	//event.add('ages_api:knives','#frostedheart:knife')
@@ -70,10 +71,8 @@ onEvent('item.tags', (event) => {
 	event.add("forge:ores/tin","kubejs:gray_tin_ingot")
 	event.add("forge:ores/iron","kubejs:rusted_iron_ingot")
 	event.add("the_winter_rescue:bloom_iron","kubejs:rusted_iron_ingot")
-	event.add("diet:sugars",Ingredient.of("#diet:fruits").getItemIds());
-	
-	event.add("diet:fruits",Ingredient.of("#diet:vegetables").getItemIds());
-	event.add("diet:vitamin",Ingredient.of("#diet:proteins").getItemIds());
+	event.add("diet:sugars","#diet:fruits");
+	event.add("diet:vegetables","#diet:fruits")
 	//event.removeAll("diet:vegetables")
 	
 	event.add("diet:plant_oil","kubejs:plant_oil");
@@ -87,8 +86,8 @@ onEvent('item.tags', (event) => {
 	event.add("diet:plant_oil","charcoal_pit:cooked_chestnut");
 	event.add("diet:plant_oil","charcoal_pit:chocolate");
 	event.add("diet:plant_oil","crockpot:popcorn");
-	event.add("diet:proteins","#diet:plant_oil")
-	event.add("diet:proteins","create:bar_of_chocolate");
+	//event.add("diet:proteins","#diet:plant_oil")
+	event.add("diet:plant_oil","create:bar_of_chocolate");
 	event.add("diet:proteins","create:sweet_roll");
 	event.add("diet:proteins","minecraft:cake");
 	event.add("diet:proteins","rankine:pancake_batter")
@@ -96,12 +95,15 @@ onEvent('item.tags', (event) => {
 	event.add("diet:proteins","#forge:milk");
 	event.add("diet:proteins","frozenup:mug_of_chocolate_milk")
 	event.add("diet:proteins","frozenup:mug_of_truffle_hot_chocolate")
-	event.add("diet:proteins","crockpot:hot_cocoa");
+	event.add("diet:plant_oil","crockpot:hot_cocoa");
 	event.add("diet:proteins","crockpot:ice_cream");
-	event.add("diet:proteins","crockpot:avaj");
+	event.add("diet:plant_oil","crockpot:avaj");
 	event.add("diet:grains","frozenup:truffle_muffin");
 	//event.add("diet:proteins","minecraft:milk");
-	event.remove("diet:vitamin",Ingredient.of("#diet:plant_oil").getItemIds())
+	//event.add("diet:proteins","#forge:corn");
+	event.add("diet:proteins","#forge:cheese");
+	event.remove("diet:vegetables","crockpot:popcorn");
+	//event.add("diet:proteins","#forge:crops/corn");
 	event.add("kubejs:tetra_hammer","tetra:modular_double")
 	event.add("rankine:tree_choppers","tetra:modular_double")
 		event.add('minecraft:shulker_box', 'minecraft:shulker_box')

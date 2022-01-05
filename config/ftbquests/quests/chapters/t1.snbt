@@ -1337,6 +1337,8 @@
 				"{quest.twr.3B5663CF194B054C.description.5}"
 				"{quest.twr.3B5663CF194B054C.description.6}"
 				"{quest.twr.3B5663CF194B054C.description.7}"
+				"{quest.twr.3B5663CF194B054C.description.8}"
+				"{quest.twr.3B5663CF194B054C.description.9}"
 			]
 			id: "3B5663CF194B054C"
 			tasks: [{
@@ -1408,6 +1410,8 @@
 				"{quest.twr.1F615C38B1A015E5.description.3}"
 				"{quest.twr.1F615C38B1A015E5.description.4}"
 				"{quest.twr.1F615C38B1A015E5.description.5}"
+				"{quest.twr.1F615C38B1A015E5.description.6}"
+				"{quest.twr.1F615C38B1A015E5.description.7}"
 			]
 			id: "1F615C38B1A015E5"
 			tasks: [{
@@ -1547,6 +1551,8 @@
 				"{quest.twr.58EF2132D0431323.description.1}"
 				"{quest.twr.58EF2132D0431323.description.2}"
 				"{quest.twr.58EF2132D0431323.description.3}"
+				"{quest.twr.58EF2132D0431323.description.4}"
+				"{quest.twr.58EF2132D0431323.description.5}"
 			]
 			id: "58EF2132D0431323"
 			tasks: [{
@@ -1767,6 +1773,8 @@
 				"{quest.twr.6667AA13CA3DAC9B.description.6}"
 				"{quest.twr.6667AA13CA3DAC9B.description.7}"
 				"{quest.twr.6667AA13CA3DAC9B.description.8}"
+				"{quest.twr.6667AA13CA3DAC9B.description.9}"
+				"{quest.twr.6667AA13CA3DAC9B.description.10}"
 			]
 			size: 1.2d
 			id: "6667AA13CA3DAC9B"
