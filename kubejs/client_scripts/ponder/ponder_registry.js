@@ -1,6 +1,10 @@
+// priority: 0
+
 onEvent("ponder.registry", event => {
+    // Bloomery
     event.create("the_winter_rescue:bloomery", ["charcoal_pit:main_bloomery", "charcoal_pit:sandy_tuyere", "charcoal_pit:sandy_brick"])
         .tag("the_winter_rescue:bloomery")
+        // bloomery building
         .scene("assembly", "1", "kubejs:bloomery", (scene, util) => {
             scene.showBasePlate()
             scene.idle(20)
@@ -60,12 +64,13 @@ onEvent("ponder.registry", event => {
             scene.overlay().showText(50)
                 .colored(PonderPalette.GREEN)
                 .text("Another layer can be placed for 2x processing. You cannot stack another layer after this one - UNTRANSLATED")
-                .pointAt(util.vector().centerOf(posutil.grid().at(2, 3, 2)))
+                .pointAt(util.vector().centerOf(util.grid().at(2, 3, 2)))
             scene.idle(40)
         })
-        .scene("usage", "1", "kubejs:bloomery", (scene, util) => {
+        // bloomery usage
+        .scene("usage", "Using the bloomery - UNTRANSLATED", "kubejs:bloomery", (scene, util) => {
             scene.showBasePlate()
-            scene.idle(10)
+            scene.idle(5)
             scene.world().showSection(util.select().layer(1), Facing.down)
             scene.idle(5)
             scene.world().showSection(util.select().layer(2), Facing.down)
@@ -73,45 +78,56 @@ onEvent("ponder.registry", event => {
         
             const center = util.grid().at(2, 2, 2)
 
-            scene.addKeyframe()
             scene.overlay().showOutline(PonderPalette.GREEN, new Object(), util.select().position(center), 50)
             scene.overlay().showText(50)
                 .colored(PonderPalette.GREEN)
-                .text("To start processing, use Shift + Right-Click with the ore in hand (not blocks) - UNTRANSLATED")
+                .text("To start processing, use Shift + Right-Click with the first ore in hand (not blocks) - UNTRANSLATED")
                 .pointAt(util.vector().centerOf(center))
-            scene.idle(20)
             scene.overlay().showControls(new PonderInput(util.vector().blockSurface(center, Facing.down), PonderPointing.RIGHT)
                 .rightClick()
                 .whileSneaking()
-                .withItem("rankine:magnetite"), 50)
-            scene.world().setBlock(center, util.getDefaultState("charcoal_pit:bloomery"), true)
-            scene.world().modifyBlock(center, state => state.with("stage", 1))
-            scene.idle(10)
-            scene.world().modifyBlock(center, state => state.with("stage", 2))
-            scene.idle(10)
-            scene.world().modifyBlock(center, state => state.with("stage", 3))
-            scene.idle(10)
-            scene.world().modifyBlock(center, state => state.with("stage", 4))
-            scene.idle(20)
+                .withItem("rankine:magnetite"), 20)
+            scene.idle(50)
+
+            scene.addKeyframe()
+            scene.overlay().showText(40)
+                .colored(PonderPalette.GREEN)
+                .text("After the initial placement, Right-Click the pile with the ore and charcoal - UNTRANSLATED")
+                .pointAt(util.vector().centerOf(center))
+            scene.overlay().showControls(new PonderInput(util.vector().blockSurface(center, Facing.down), PonderPointing.RIGHT)
+                .rightClick()
+                .withItem("rankine:magnetite"), 40)
+            scene.idle(50)
 
             scene.overlay().showControls(new PonderInput(util.vector().blockSurface(center, Facing.down), PonderPointing.RIGHT)
                 .rightClick()
-                .whileSneaking()
-                .withItem("minecraft:charcoal"), 50)
-            scene.world().modifyBlock(center, state => state.with("stage", 5))
-            scene.idle(10)
-            scene.world().modifyBlock(center, state => state.with("stage", 6))
-            scene.idle(10)
-            scene.world().modifyBlock(center, state => state.with("stage", 7))
-            scene.idle(10)
-            scene.world().modifyBlock(center, state => state.with("stage", 8))
-            scene.idle(20)
+                .withItem("minecraft:charcoal"), 40)
+
+
+            const sectionFromTo = util.select().fromTo(1, 5, 1, 3, 7, 3);
+            const theSection = scene.world().showIndependentSectionImmediately(sectionFromTo);
+            scene.world().moveSection(theSection, util.vector().of(0, -4, 0), 0)
+            scene.idle(50)
+
+            scene.addKeyframe()
+            scene.overlay().showText(40)
+                .colored(PonderPalette.GREEN)
+                .text("After filling it up, start it by using a firestarter - UNTRANSLATED")
+                .pointAt(util.vector().centerOf(center))
+            scene.overlay().showControls(new PonderInput(util.vector().blockSurface(util.grid().at(2, 3, 2), Facing.down), PonderPointing.RIGHT)
+                .rightClick()
+                .withItem("charcoal_pit:fire_starter"), 40)
+            scene.world().replaceBlocks(sectionFromTo, util.getDefaultState("minecraft:air"), false)
+
+            const swapBlockFromTo = util.select().fromTo(1, 8, 1, 3, 9, 3);
             
-            scene.addKeyframe()
-
-
+            scene.world().moveSection(scene.world().showIndependentSectionImmediately(swapBlockFromTo), util.vector().of(0, -7, 0), 0)
             scene.idle(40)
-            scene.addKeyframe()
+
+            scene.overlay().showText(40)
+                .colored(PonderPalette.GREEN)
+                .text("Once it's done burning, you can mine it up and collect the iron. - UNTRANSLATED")
+                .pointAt(util.vector().centerOf(center))
             scene.idle(40)
         })
 
@@ -163,6 +179,7 @@ onEvent("ponder.registry", event => {
         .scene("basic_usage", "", "kubejs:generator_t2", (scene, util) => {
             scene.configureBasePlate(0, 0, 5)
             scene.showBasePlate()
+            scene.scaleSceneView(1.5) // zoom out, t2 is big
             scene.idle(10)
 
             // Generic build
@@ -199,41 +216,61 @@ onEvent("ponder.registry", event => {
             scene.idle(40)
         })
 
-    event.create("immersiveindustry:burning_chamber", ["immersiveindustry:burning_chamber", "rankine:high_refractory_bricks"])
+    // Crucible
+    event.create("the_winter_rescue:steel_mill", ["immersiveindustry:crucible", "immersiveindustry:burning_chamber", "rankine:high_refractory_bricks"])
         .tag("the_winter_rescue:crucible")
-        .scene("basic_usage", "", "kubejs:crucible", (scene, util) => {
-            var pos = util.grid().at(1, 1, 0)
+        .scene("basic_usage", "", "kubejs:steel_mill_crucible", (scene, util) => {
+            scene.configureBasePlate(0, 0, 5)
             scene.showBasePlate()
-            scene.idle(40)
+            scene.idle(10)
 
+            // Generic build
             scene.world().showSection(util.select().layer(1), Facing.down)
+            scene.addKeyframe()
             scene.idle(40)
-
             scene.world().showSection(util.select().layer(2), Facing.down)
+            scene.addKeyframe()
             scene.idle(40)
-
             scene.world().showSection(util.select().layer(3), Facing.down)
+            scene.addKeyframe()
+            scene.idle(40)
+            scene.world().showSection(util.select().layer(4), Facing.down)
+            scene.addKeyframe()
             scene.idle(40)
 
-            // show right click, use visual queues instead of text
+            const pos = util.grid().at(2, 2, 1)
+            // text
+            scene.overlay().showText(40)
+                .text("Right-Click to assemble - UNTRANSLATED")
+                .pointAt(util.vector().centerOf(pos))
+            scene.idle(20)
             scene.overlay().showControls(new PonderInput(util.vector().blockSurface(pos, Facing.down), PonderPointing.RIGHT)
                 .rightClick().withItem("immersiveengineering:hammer"),
                 40)
+            scene.world().moveSection(scene.world().showIndependentSectionImmediately(util.select().fromTo(1, 6, 1, 3, 10, 3)), util.vector().of(0, -5, 0), 0)
+            scene.world().replaceBlocks(util.select().fromTo(1, 1, 1, 3, 4, 3), util.getDefaultState("minecraft:air"), true)
             scene.idle(40)
         })
 
-    event.create("immersiveindustry:steam_turbine", ["immersiveengineering:generator"])
+    event.create("the_winter_rescue:steam_turbine", ["immersiveengineering:generator"])
         .tag("the_winter_rescue:steam_turbine")
         .scene("basic_usage", "", "kubejs:steam_turbine", (scene, util) => {
             var pos = util.grid().at(6, 2, 1)
+            scene.configureBasePlate(0, 0, 9)
 			scene.showBasePlate()
 			scene.idle(20)
+
             scene.world().showSection(util.select().layer(1), Facing.down)
-            scene.idle(60)
-            scene.world().showSection(util.select().layer(2), Facing.down)
-            scene.idle(60)
-            scene.world().showSection(util.select().layer(3), Facing.down)
+            scene.addKeyframe()
             scene.idle(40)
+            scene.world().showSection(util.select().layer(2), Facing.down)
+            scene.addKeyframe()
+            scene.idle(40)
+            scene.world().showSection(util.select().layer(3), Facing.down)
+            scene.addKeyframe()
+            scene.idle(40)
+
+            scene.rotateCameraY(120)
             scene.overlay().showText(60)
                 .text("")
                 .pointAt(util.vector().centerOf(pos))

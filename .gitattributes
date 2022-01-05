@@ -1,0 +1,7 @@
+* text=auto
+
+## Enforce binary mode
+*.gif binary
+*.jpg binary
+*.png binary
+*.nbt binary
