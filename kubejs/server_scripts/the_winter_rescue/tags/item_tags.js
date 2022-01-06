@@ -16,7 +16,7 @@ let colors=["white",
 "red"
 ];
 onEvent('item.tags', (event) => {
-	console.info(Ingredient.of("#diet:proteins").getItemIds())
+	console.info(Ingredient.of("#diet:fruits").getItemIds())
     event.add('itemfilters:check_nbt', 'tetra:modular_double')
 	event.add('frostedheart:knife', 'tetra:modular_sword')
 	//event.add('ages_api:knives','#frostedheart:knife')
@@ -71,9 +71,9 @@ onEvent('item.tags', (event) => {
 	event.add("forge:ores/tin","kubejs:gray_tin_ingot")
 	event.add("forge:ores/iron","kubejs:rusted_iron_ingot")
 	event.add("the_winter_rescue:bloom_iron","kubejs:rusted_iron_ingot")
-	event.add("diet:sugars","#diet:fruits");
-	event.add("diet:vegetables","#diet:fruits")
-	//event.removeAll("diet:vegetables")
+	//event.add("diet:sugars","#diet:fruits");
+	//event.add("diet:vegetables","#diet:fruits")
+	event.removeAll("diet:fruits")
 	
 	event.add("diet:plant_oil","kubejs:plant_oil");
 	event.add("diet:plant_oil","#forge:crops/corn");

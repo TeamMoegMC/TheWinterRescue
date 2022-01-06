@@ -1,0 +1,27 @@
+{
+  "type": "crockpot:crock_pot_cooking",
+  "requirements": [
+    {
+      "type": "category_min_exclusive",
+      "category": "MONSTER",
+      "min": 0.0
+    },
+	{
+		"type": "combination_or",
+		"first":{
+		  "type": "category_min_exclusive",
+		  "category": "INEDIBLE",
+		  "min": 0.0
+		},
+		"second":{
+		  "type": "category_min_exclusive",
+		  "category": "FROZEN",
+		  "min": 0.0
+		}
+	}
+  ],
+  "result": "crockpot:wet_goop",
+  "cookingtime": 400,
+  "priority": 5,
+  "potlevel": 0
+}
