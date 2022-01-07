@@ -122,11 +122,11 @@ onEvent("ponder.registry", event => {
             const swapBlockFromTo = util.select().fromTo(1, 8, 1, 3, 9, 3);
             
             scene.world().moveSection(scene.world().showIndependentSectionImmediately(swapBlockFromTo), util.vector().of(0, -7, 0), 0)
-            scene.idle(40)
+            scene.idle(50)
 
             scene.overlay().showText(40)
                 .colored(PonderPalette.GREEN)
-                .text("Once it's done burning, you can mine it up and collect the iron. - UNTRANSLATED")
+                .text("Once it's done burning, you can mine it up and collect the iron - UNTRANSLATED")
                 .pointAt(util.vector().centerOf(center))
             scene.idle(40)
         })
@@ -142,6 +142,7 @@ onEvent("ponder.registry", event => {
         .tag("the_winter_rescue:generator")
         .scene("basic_usage", "", "kubejs:generator_t1", (scene, util) => {
             scene.configureBasePlate(0, 0, 5)
+            scene.scaleSceneView(0.7) // zoom out, t2 is big
             scene.showBasePlate()
             scene.idle(10)
 
@@ -178,8 +179,8 @@ onEvent("ponder.registry", event => {
         .tag("the_winter_rescue:generator")
         .scene("basic_usage", "", "kubejs:generator_t2", (scene, util) => {
             scene.configureBasePlate(0, 0, 5)
+            scene.scaleSceneView(0.6) // zoom out, t2 is big
             scene.showBasePlate()
-            scene.scaleSceneView(1.5) // zoom out, t2 is big
             scene.idle(10)
 
             // Generic build
@@ -202,7 +203,7 @@ onEvent("ponder.registry", event => {
             scene.addKeyframe()
             scene.idle(40)
 
-            const pos = util.grid().at(2, 3, 1)
+            const pos = util.grid().at(2, 2, 1)
             // text
             scene.overlay().showText(40)
                 .text("Right-Click to assemble")
@@ -221,6 +222,7 @@ onEvent("ponder.registry", event => {
         .tag("the_winter_rescue:crucible")
         .scene("basic_usage", "", "kubejs:steel_mill_crucible", (scene, util) => {
             scene.configureBasePlate(0, 0, 5)
+            scene.scaleSceneView(0.7) // zoom out, t2 is big
             scene.showBasePlate()
             scene.idle(10)
 
@@ -252,11 +254,12 @@ onEvent("ponder.registry", event => {
             scene.idle(40)
         })
 
-    event.create("the_winter_rescue:steam_turbine", ["immersiveengineering:generator"])
+    event.create("the_winter_rescue:steam_turbine", ["immersiveindustry:steam_turbine", "immersiveengineering:generator"])
         .tag("the_winter_rescue:steam_turbine")
         .scene("basic_usage", "", "kubejs:steam_turbine", (scene, util) => {
-            var pos = util.grid().at(6, 2, 1)
-            scene.configureBasePlate(0, 0, 9)
+            scene.rotateCameraY(130)
+            scene.scaleSceneView(0.7) // zoom out, t2 is big
+            scene.configureBasePlate(0, 0, 9) // baseplace is a square
 			scene.showBasePlate()
 			scene.idle(20)
 
@@ -270,26 +273,55 @@ onEvent("ponder.registry", event => {
             scene.addKeyframe()
             scene.idle(40)
 
-            scene.rotateCameraY(120)
-            scene.overlay().showText(60)
-                .text("")
+            scene.rotateCameraY(-110)
+            const pos = util.grid().at(2, 2, 1)
+            scene.overlay().showText(40)
+                .text("Right-Click to assemble - UNTRANSLATED")
                 .pointAt(util.vector().centerOf(pos))
+            scene.idle(20)
+            scene.overlay().showControls(new PonderInput(util.vector().blockSurface(pos, Facing.down), PonderPointing.RIGHT)
+                .rightClick().withItem("immersiveengineering:hammer"),
+                40)
+            scene.world().moveSection(scene.world().showIndependentSectionImmediately(util.select().fromTo(1, 5, 1, 3, 10, 7)), util.vector().of(0, -4, 0), 0)
+            scene.world().replaceBlocks(util.select().fromTo(1, 1, 1, 3, 3, 7), util.getDefaultState("minecraft:air"), true)
             scene.idle(60)
         })
 
-	event.create("frostedheart:beehive_oven_pit", ["rankine:beehive_oven_pit"])
+	event.create("the_winter_rescue:beehive_oven_pit", ["rankine:beehive_oven_pit"])
         .tag("the_winter_rescue:beehive_oven_pit")
         .scene("basic_usage", "", "kubejs:beehive_oven_pit", (scene, util) => {
-            var pos = util.grid().at(1, 0, 1)
+            scene.configureBasePlate(0, 0, 5)
+            scene.rotateCameraY(-70)
 			scene.showBasePlate()
-			scene.idle(40)
-            scene.world().showSection(util.select().layer(1), Facing.down)
-            scene.idle(40)
-			scene.overlay().showText(40)
-                .text("")
-                .pointAt(util.vector().centerOf(pos))
 			scene.idle(20)
-			scene.world().modifyBlock(pos, state => state.with("lit", true))
-			scene.idle(60)
+
+            scene.world().showSection(util.select().layer(1), Facing.down)
+            scene.addKeyframe()
+            scene.idle(40)
+            
+			scene.overlay().showText(40)
+                .text("Place marble on the top without blocking the beehive oven pit - UNTRANSLATED")
+                .pointAt(util.vector().centerOf(util.grid().at(2, 2, 2)))
+            scene.overlay().showOutline(PonderPalette.GREEN, new Object(), util.select().fromTo(1, 2, 1, 3, 2, 3), 40)
+            scene.world().showSection(util.select().layer(2), Facing.down)
+            scene.addKeyframe()
+            scene.idle(50)
+
+            const pos = util.grid().at(2, 1, 2);
+			scene.overlay().showText(40)
+                .text("After placing the blocks, use a flint and steel to turn it on - UNTRANSLATED")
+                .pointAt(util.vector().centerOf(pos))
+            scene.overlay().showControls(new PonderInput(util.vector().blockSurface(pos, Facing.down), PonderPointing.DOWN)
+                .rightClick().withItem("minecraft:flint_and_steel"),
+                40)
+            scene.addKeyframe()
+			scene.idle(40)
+
+			scene.overlay().showText(40)
+                .text("Once it finishes, you will get quicklime from the marble - UNTRANSLATED")
+                .pointAt(util.vector().centerOf(pos))
+            scene.world().moveSection(scene.world().showIndependentSectionImmediately(util.select().fromTo(1, 3, 1, 3, 5, 3)), util.vector().of(0, -3, 0), 0)
+            scene.world().replaceBlocks(util.select().fromTo(1, 1, 1, 3, 1, 3), util.getDefaultState("minecraft:air"), false)
+            scene.idle(40)
         })
 })
