@@ -2,6 +2,8 @@
   "replace": false,
   "entries": [
     "the_winter_rescue:degrade",
-	"the_winter_rescue:fruits"
+	"the_winter_rescue:fruits",
+	"the_winter_rescue:damage",
+	"the_winter_rescue:dechant"
   ]
 }

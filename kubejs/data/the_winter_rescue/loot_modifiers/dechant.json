@@ -1,0 +1,9 @@
+{"type": "frostedheart:dechant",
+"removed":[
+"minecraft:mending"
+],
+"conditions": [
+{"condition":"frostedheart:treasure"},
+{"condition":"minecraft:random_chance","chance":0.9}
+]
+}

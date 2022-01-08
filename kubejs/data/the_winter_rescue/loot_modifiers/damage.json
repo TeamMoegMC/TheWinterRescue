@@ -1,0 +1,7 @@
+{"type": "frostedheart:damage",
+"min":0.25,
+"max":0.75,
+"conditions": [
+{"condition":"frostedheart:treasure"}
+]
+}
