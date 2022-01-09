@@ -38,9 +38,7 @@
 hs_err_*
 replay_*
 /config/inventoryprofilesnext/
-/config/.twrtoken
-/config/.twrchannel
-/config/.twrlastversion
+config/.*
 
 # server side
 /dumps/
@@ -84,4 +82,3 @@ replay_*
 /mods-server/
 __pycache__/
 config/.twrp*
-
