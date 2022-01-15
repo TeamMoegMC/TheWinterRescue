@@ -49,7 +49,7 @@
 	dynamoEfficiency = 0.6
 	#If dynamo is disabled in the server config, the following will be ignored!
 	#Range: 0 ~ 8192
-	dynamoFeMaxOut = 128
+	dynamoFeMaxOut = 256
 
 [steam]
 	#HU generation for each fuel burning tick. 10HU=1mb of steam. THIS AFFECT ALL BURNERS AND BOILERS!
