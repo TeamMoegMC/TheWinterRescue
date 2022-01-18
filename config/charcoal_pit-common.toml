@@ -29,7 +29,7 @@
 [Bloomery]
 	#The time blooms take to cool down
 	#Range: > 1000
-	BloomCooldown = 1000
+	BloomCooldown = 1600
 	#The minimum time the bloomery takes to finish. 1000 Ticks = 1 MC hour
 	#Range: > 1000
 	BloomeryTime = 2000
