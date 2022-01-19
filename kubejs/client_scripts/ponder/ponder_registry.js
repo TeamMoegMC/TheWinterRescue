@@ -179,7 +179,7 @@ onEvent("ponder.registry", event => {
         .tag("the_winter_rescue:generator")
         .scene("basic_usage", "", "kubejs:generator_t2", (scene, util) => {
             scene.configureBasePlate(0, 0, 5)
-            scene.scaleSceneView(0.6) // zoom out, t2 is big
+            scene.scaleSceneView(0.5) // zoom out, t2 is big
             scene.showBasePlate()
             scene.idle(10)
 
@@ -202,6 +202,9 @@ onEvent("ponder.registry", event => {
             scene.world().showSection(util.select().layer(6), Facing.down)
             scene.addKeyframe()
             scene.idle(40)
+            scene.world().showSection(util.select().layer(7), Facing.down)
+            scene.addKeyframe()
+            scene.idle(40)
 
             const pos = util.grid().at(2, 2, 1)
             // text
@@ -213,7 +216,7 @@ onEvent("ponder.registry", event => {
                 .rightClick().withItem("immersiveengineering:hammer"),
                 40)
             scene.world().moveSection(scene.world().showIndependentSectionImmediately(util.select().fromTo(1, 8, 1, 3, 15, 3)), util.vector().of(0, -8, 0), 0)
-            scene.world().replaceBlocks(util.select().fromTo(1, 1, 1, 3, 6, 3), util.getDefaultState("minecraft:air"), true)
+            scene.world().replaceBlocks(util.select().fromTo(1, 1, 1, 3, 7, 3), util.getDefaultState("minecraft:air"), true)
             scene.idle(40)
         })
 
