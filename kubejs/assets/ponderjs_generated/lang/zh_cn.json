@@ -4,11 +4,11 @@
   "charcoal_pit.ponder.main_bloomery.basic_usage.text_1": "右击风箱吹气",
   "charcoal_pit.ponder.main_bloomery.basic_usage.header": "锻铁炉",
 
-  "the_winter_rescue.ponder.tag.generator": "The Generator - TRANSLATE ME PLEASE!!",
-  "the_winter_rescue.ponder.tag.generator.description": "The heart of your steam engines. - TRANSLATE ME PLEASE!!",
+  "the_winter_rescue.ponder.tag.generator": "能量塔",
+  "the_winter_rescue.ponder.tag.generator.description": "搭建能量塔",
 
-  "the_winter_rescue.ponder.generator_construction_t1.basic_usage.header": "Assembling the tier 1 generator. - TRANSLATE ME PLEASE!!",
-  "the_winter_rescue.ponder.generator_construction_t2.basic_usage.header": "Assembling the tier 2 generator. - TRANSLATE ME PLEASE!!",
+  "the_winter_rescue.ponder.generator_construction_t1.basic_usage.header": "搭建T1能量塔",
+  "the_winter_rescue.ponder.generator_construction_t2.basic_usage.header": "搭建T2能量塔",
 
   "the_winter_rescue.ponder.tag.crucible.description": "搭建炼钢坩埚",
   "the_winter_rescue.ponder.tag.crucible": "炼钢坩埚",

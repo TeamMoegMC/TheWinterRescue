@@ -24,11 +24,10 @@
   "the_winter_rescue.ponder.generator_construction_t2.basic_usage.header": "Assembling the tier 2 generator",
   "the_winter_rescue.ponder.generator_construction_t2.basic_usage.text_1": "Right-Click with the Engineer's Hammer to assemble",
 
-  "the_winter_rescue.ponder.tag.crucible": "Steel Mill Crucible",
+  "the_winter_rescue.ponder.tag.crucible": "Steel Crucible",
   "the_winter_rescue.ponder.tag.crucible.description": "Basic steel processing",
 
-  "the_winter_rescue.ponder.steel_mill.basic_usage.header": "Assembling the Steel Mill Crucible",
-  "the_winter_rescue.ponder.steel_mill.basic_usage.text_1": "Right-Click with the Engineer's Hammer to assemble",
+  "the_winter_rescue.ponder.steel_mill.assembly.header": "Assembling the Steel Crucible",
 
   "the_winter_rescue.ponder.tag.steam_turbine": "Steam Turbine",
   "the_winter_rescue.ponder.tag.steam_turbine.description": "Advanced power generation",
