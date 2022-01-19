@@ -68,17 +68,27 @@ config/.*
 /spigot.yml
 /wepif.yml
 /whitelist.json
+/serverfiles/
+/mods-server/
+config/.twrp*
+
+# editors
 /.idea/
 /resourcepacks/
-/youdao_api.py
-/google_api.py
-/*.json
+.vscode
+
+# python
+__pycache__/
 /runner.py
 /runners/
-/serverfiles/
+/youdao_api.py
+/google_api.py
+
 /mec_package/
 /confbackup/
+
 /*.zip
 /mods-server/
 __pycache__/
 config/.twrp*
+/*.json
