@@ -51,15 +51,15 @@
 		#Iron Tools
 		[general.vanillaTools.ironTools]
 			#Disable the use of the iron axe (still allows crafting for other recipes). This is enabled by default for progression.
-			disableIronAxe = true
+			disableIronAxe = false
 			#Disable the use of the iron hoe (still allows crafting for other recipes). This is enabled by default for progression.
-			disableIronHoe = true
+			disableIronHoe = false
 			#Disable the use of the iron shovel (still allows crafting for other recipes). This is enabled by default for progression.
-			disableIronShovel = true
+			disableIronShovel = false
 			#Disable the use of the iron pickaxe (still allows crafting for other recipes). This is enabled by default for progression.
-			disableIronPickaxe = true
+			disableIronPickaxe = false
 			#Disable the use of the iron sword (still allows crafting for other recipes). This is enabled by default for progression.
-			disableIronSword = true
+			disableIronSword = false
 
 		#Stone Tools
 		[general.vanillaTools.stoneTools]

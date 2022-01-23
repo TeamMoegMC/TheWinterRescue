@@ -2,7 +2,7 @@
 
 onEvent("ponder.registry", event => {
     // Bloomery
-    event.create("the_winter_rescue:bloomery", ["charcoal_pit:main_bloomery", "charcoal_pit:sandy_tuyere", "charcoal_pit:sandy_brick"])
+    event.create("the_winter_rescue:bloomery", ["charcoal_pit:main_bloomery", "charcoal_pit:sandy_tuyere", "charcoal_pit:sandy_brick","charcoal_pit:bellows"])
         .tag("the_winter_rescue:bloomery")
         // bloomery building
         .scene("assembly", "1", "kubejs:bloomery", (scene, util) => {

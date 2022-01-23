@@ -315,7 +315,7 @@
   "quest.twr.31ED006279866288.description.2": "云母片岩，流纹岩，科马提岩，红黑英安岩当中。",
   "quest.twr.31ED006279866288.subtitle": "在一些岩浆岩中",
   "quest.twr.328D948C4C800873.description.1": "&l这是? 真正的工作台!",
-  "quest.twr.328D948C4C800873.description.2": "&6目前已经解锁了一些支线，可以考虑去看看。",
+  "quest.twr.328D948C4C800873.description.2": "目前已经解锁了一些&b支线&6，可以考虑去看看。",
   "quest.twr.328D948C4C800873.subtitle": "真正的工作台",
   "quest.twr.32A497C69C641D2B.description.1": "&6&l蒸汽通入&b速率&6需要足够大才能使它运转起来。",
   "quest.twr.32A497C69C641D2B.description.2": "可以使用护目镜查看运行状态",
@@ -516,9 +516,9 @@
   "quest.twr.50428AA91D1E1EFF.title": "腐肉处理",
   "quest.twr.506C01A9BE167F7F.69D366F12DFD2674.title": "渔网",
   "quest.twr.506C01A9BE167F7F.description.1": "把任意网放进渔网内即可捕鱼",
-  "quest.twr.506C01A9BE167F7F.description.2": "&6需要四周彻底的浸入水中才能工作",
+  "quest.twr.506C01A9BE167F7F.description.2": "&6需要四周(3x3x2)彻底的浸入水中才能工作",
   "quest.twr.506C01A9BE167F7F.subtitle": "冬日鱼塘",
-  "quest.twr.5287CFB7B7D5285E.description.1": "有了焦炉，就再也不需要一次次地布置木炭坑了！使用焦炉砖搭建3*3*3实心结构并用锤子敲击侧面中心即可组成高炉。",
+  "quest.twr.5287CFB7B7D5285E.description.1": "有了焦炉，就再也不需要一次次地布置木炭坑了！使用焦炉砖搭建3*3*3实心结构并用锤子敲击侧面中心即可组成焦炉。",
   "quest.twr.5287CFB7B7D5285E.subtitle": "焦炉！",
   "quest.twr.529E18F00974DC2D.description.1": "只有位于温暖环境下的树才会结果。",
   "quest.twr.529E18F00974DC2D.subtitle": "补脑就喝六个核弹",
@@ -749,7 +749,7 @@
   "quest.twr.7612A96FFEFC5635.subtitle": "人类的一小步",
   "quest.twr.7612A96FFEFC5635.title": "青铜锅炉",
   "quest.twr.76B2B1A3EC6D92CD.description.1": "便宜高效的燃料。",
-  "quest.twr.76B2B1A3EC6D92CD.description.2": "搭建方法(木炭坑大小不定):",
+  "quest.twr.76B2B1A3EC6D92CD.description.2": "搭建方法(&a木炭坑大小不定&f):",
   "quest.twr.76B2B1A3EC6D92CD.description.3": "&6把原木堆&b&l密封&r&6在一个小空间里面，",
   "quest.twr.76B2B1A3EC6D92CD.description.4": "&6留一个口子点火，着了立马把火盖上。&c是把火覆盖掉，而不是封住！",
   "quest.twr.76B2B1A3EC6D92CD.description.5": "静待烧制完成后挖开即可获得木炭。",
@@ -818,5 +818,6 @@
   "quest.twr.7F84766122DC4753.description.1": "需要的树脂可以从&b云杉，胶枞，雪松&r等提取。",
   "quest.twr.7F84766122DC4753.subtitle": "高精组装",
   "quest.twr.7FA0ADDB6ABCAB6A.description.1": "想了解更多世界相关的信息？请参考兰金计划的教程书。",
-  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "深入了解"
+  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "深入了解",
+  "quest.twr.328D948C4C800873.description.3": "&6还可以利用更好的材料升级一些工具了。"
 }

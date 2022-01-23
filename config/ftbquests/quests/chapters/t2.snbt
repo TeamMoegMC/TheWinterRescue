@@ -16,6 +16,7 @@
 			description: [
 				"{quest.twr.328D948C4C800873.description.1}"
 				"{quest.twr.328D948C4C800873.description.2}"
+				"{quest.twr.328D948C4C800873.description.3}"
 			]
 			dependencies: ["75154C5A6E2F3257"]
 			hide: false

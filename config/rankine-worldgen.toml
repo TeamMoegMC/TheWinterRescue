@@ -85,13 +85,13 @@
 	#Range: 0 ~ 256
 	mountainHeight = 65
 	#Blocks to generate in Mountain Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	mountainBlockList = ["rankine:hornblende_andesite", "minecraft:andesite", "rankine:red_dacite", "rankine:pegmatite", "rankine:dolostone", "minecraft:andesite", "rankine:breccia"]
+	mountainBlockList = ["rankine:pyroxene_gabbro", "minecraft:andesite", "rankine:red_dacite", "rankine:pegmatite", "rankine:dolostone", "rankine:breccia"]
 	#Blocks to generate in River Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
 	riverBlockList = ["rankine:mica_schist", "rankine:black_dacite", "rankine:white_marble", "rankine:tufa_limestone"]
 	#Blocks to generate in Nether layering. Layers generate from bottom to top. Leave empty to leave it as default gen.
 	netherStoneList = ["rankine:black_sand", "minecraft:blackstone", "rankine:purple_porphyry", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "minecraft:netherrack", "rankine:red_porphyry"]
 	#Blocks to generate in Icy Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	icyBlockList = ["rankine:mica_schist", "rankine:black_dacite", "rankine:black_marble", "rankine:dolostone", "rankine:carbonaceous_shale"]
+	icyBlockList = ["minecraft:diorite", "rankine:black_dacite", "rankine:black_marble", "rankine:dolostone", "rankine:carbonaceous_shale"]
 	#Blocks to generate in Plains Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
 	plainsBlockList = ["rankine:mica_schist", "minecraft:granite", "rankine:black_dacite", "rankine:white_marble", "rankine:dolostone", "rankine:carbonaceous_shale"]
 	#Determines the type of stone layer generation in the End. 0 is disabled (end stone and other features). 1 will only replace end stone with Rankine stones. 2 will replace any block in the tag #forge:base_stone_end.
@@ -110,7 +110,7 @@
 	#Range: 0 ~ 256
 	mesaHeight = 65
 	#Blocks to generate in Jungle Biomes. Layers generate from bottom to top. Leave empty to leave it as vanilla stone.
-	jungleBlockList = ["rankine:mica_schist", "rankine:red_dacite", "rankine:slate", "rankine:black_marble", "rankine:dolostone"]
+	jungleBlockList = ["rankine:granodiorite", "rankine:red_dacite", "rankine:slate", "rankine:black_marble", "rankine:dolostone"]
 	#Sets the average height of a biome type. The thickness of a layer is biome height / number of layers. Anything above this height will generally generate as the last layer.
 	#Range: 0 ~ 256
 	riverHeight = 65
@@ -909,7 +909,7 @@
 		#Range: 0 ~ 500
 		nativeCopperOreMegaVeinSize = 500
 		#Blocks to generate Native Copper Ore in if nativeCopperOreStoneSpecific is enabled. The entries can be either individual blocks or tags. Use B#<modname:block_name> for blocks and T#<modname::tag_name> for tags (Ex: B#rankine:slate and T#forge:stones/gabbro). Rankine stones and some modded stones support background stone imitation.
-		nativeCopperOreBlockList = ["B#minecraft:andesite", "B#rankine:black_dacite", "B#rankine:red_dacite", "B#rankine:tholeiitic_basalt", "B#rankine:slate"]
+		nativeCopperOreBlockList = [""]
 		#Dimensions to generate Native Copper Ore in (supports overworld / nether / end). The same spawning parameters are used if multiple dimenstions are listed. Leave empty to disable Native Copper Ore generation.
 		nativeCopperOreDimList = []
 		#If true, a mega Native Copper Ore vein will generate according to the parameters nativeCopperOreMegaVeinSize andnativeCopperOreMegaVeinChance

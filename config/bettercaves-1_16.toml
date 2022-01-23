@@ -50,11 +50,11 @@
 			# The block used for lava generation at and below the Liquid Altitude.
 			#     Defaults to regular lava if an invalid block is given.
 			# Default: minecraft:lava
-			"Lava Block" = "minecraft:lava"
+			"Lava Block" = "rankine:basaltic_tuff"
 			# The block used for water generation in water caves/caverns at and below the Liquid Altitude.
 			#     Defaults to regular water if an invalid block is given.
 			# Default: minecraft:water
-			"Water Block" = "minecraft:water"
+			"Water Block" = "minecraft:ice"
 
 		###########################################################################################################
 		## Settings used in the generation of water regions.
