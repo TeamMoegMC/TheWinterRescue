@@ -99,6 +99,10 @@ onEvent('item.tags', (event) => {
 	event.add("diet:proteins","crockpot:ice_cream");
 	event.add("diet:plant_oil","crockpot:avaj");
 	event.add("diet:grains","frozenup:truffle_muffin");
+	event.add("diet:vitamin","stone_age:fat");
+	event.add("diet:vitamin","stone_age:cooked_fat");
+	event.remove("diet:vegetables","crockpot:corn")
+	event.add("diet:grains","crockpot:corn")
 	//event.add("diet:proteins","minecraft:milk");
 	//event.add("diet:proteins","#forge:corn");
 	event.add("diet:proteins","#forge:cheese");
