@@ -774,6 +774,7 @@
 				id: "6505E5BF6A293CD1"
 				type: "item"
 				item: "minecraft:stone_bricks"
+				count: 6L
 			}]
 		}
 		{

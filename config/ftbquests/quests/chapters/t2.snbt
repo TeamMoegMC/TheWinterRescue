@@ -306,8 +306,9 @@
 		}
 		{
 			x: -8.0d
-			y: 10.5d
+			y: 10.0d
 			subtitle: "{quest.twr.0FEC22A5C56936DC.subtitle}"
+			description: ["{quest.twr.0FEC22A5C56936DC.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "0FEC22A5C56936DC"
 			tasks: [{
@@ -343,6 +344,7 @@
 			x: -8.0d
 			y: 8.5d
 			subtitle: "{quest.twr.0972243D44A0CF46.subtitle}"
+			description: ["{quest.twr.0972243D44A0CF46.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "0972243D44A0CF46"
 			tasks: [{
@@ -399,7 +401,7 @@
 		}
 		{
 			x: -8.0d
-			y: 6.5d
+			y: 7.0d
 			subtitle: "{quest.twr.7EDDAD2D1E2B0613.subtitle}"
 			description: ["{quest.twr.7EDDAD2D1E2B0613.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
@@ -580,6 +582,7 @@
 				"{quest.twr.197308226CAE52C4.description.1}"
 				"{quest.twr.197308226CAE52C4.description.2}"
 				"{quest.twr.197308226CAE52C4.description.3}"
+				"{quest.twr.197308226CAE52C4.description.4}"
 			]
 			dependencies: ["17C359DCF058E698"]
 			size: 1.2d
@@ -797,6 +800,7 @@
 		{
 			x: -11.5d
 			y: 10.0d
+			description: ["{quest.twr.4B46838E7C65D4C4.description.1}"]
 			dependencies: ["55BE6F159CF89342"]
 			id: "4B46838E7C65D4C4"
 			tasks: [{
@@ -1006,7 +1010,10 @@
 		{
 			x: -17.5d
 			y: -5.0d
-			description: ["{quest.twr.103E4FC987E00FC7.description.1}"]
+			description: [
+				"{quest.twr.103E4FC987E00FC7.description.1}"
+				"{quest.twr.103E4FC987E00FC7.description.2}"
+			]
 			dependencies: ["3E8F565DE61309B2"]
 			id: "103E4FC987E00FC7"
 			tasks: [{
@@ -1047,6 +1054,7 @@
 		{
 			x: -15.5d
 			y: -5.0d
+			description: ["{quest.twr.0C424AAC550ACF02.description.1}"]
 			dependencies: ["634DBB9E76CD029B"]
 			id: "0C424AAC550ACF02"
 			tasks: [{
@@ -1160,6 +1168,18 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 10.0d
+			description: ["{quest.twr.2F9F42B32CEDA8B6.description.1}"]
+			dependencies: ["17F033FB5ACAACFB"]
+			id: "2F9F42B32CEDA8B6"
+			tasks: [{
+				id: "642066C8A0E1D945"
+				type: "item"
+				item: "create:rotation_speed_controller"
 			}]
 		}
 	]
