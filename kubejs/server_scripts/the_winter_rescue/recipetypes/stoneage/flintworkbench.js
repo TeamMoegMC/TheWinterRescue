@@ -299,6 +299,11 @@ onEvent('recipes', (event) => {
         }, Item.of('stone_age:flint_knife')),
 		flint_shapedRecipe(Item.of('frostedheart:coal_stick',2), ['A'], {
             A: Item.of('kubejs:coal_briquette').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('rankine:flint_hoe'), ['AB', ' C', ' C'], {
+            A: Item.of('minecraft:flint').toJson(),
+            B: Item.of('rankine:rope').toJson(),
+            C: Item.of('minecraft:stick').toJson()
         }, Item.of('stone_age:flint_knife'))
     ]
     event.remove({output: 'charcoal_pit:unfired_sandy_brick', type: 'minecraft:crafting_shapeless'});

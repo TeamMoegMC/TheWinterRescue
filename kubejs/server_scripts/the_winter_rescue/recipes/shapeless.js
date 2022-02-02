@@ -17,7 +17,6 @@ onEvent('recipes', (event) => {
     ]
 	event.recipes.createSplashing(["rankine:mortar"],"rankine:dry_mortar");
     var newShapelessRecipes = [
-		shapelessRecipe('2x charcoal_pit:tiny_coke', ['#forge:coal_coke']),
 		shapelessRecipe('frostedheart:raw_rye_bread', ['2x frostedheart:rye_flour','minecraft:water_bucket']),
 		shapelessRecipe('watersource:purified_water_bottle', ['frostedheart:steam_bottle','minecraft:snowball']),
 		shapelessRecipe('immersiveengineering:crate', ['immersiveengineering:reinforced_crate']),
