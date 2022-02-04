@@ -421,7 +421,7 @@
   "quest.twr.4138E3A9915F811C.title": "IE轻型机器",
   "quest.twr.417AC14073DD4249.description.1": "简陋的床，可以用于设置重生点。",
   "quest.twr.417AC14073DD4249.subtitle": "入不了梦",
-  "quest.twr.41D8E04627E55A86.description.1": "你现在可以更方便处理木头了",
+  "quest.twr.41D8E04627E55A86.description.1": "你现在可以更方便处理木头了。",
   "quest.twr.42AF456D165CBF75.description.1": "需要使用加工刀进行加工。",
   "quest.twr.42AF456D165CBF75.description.2": "韧性不错的材料",
   "quest.twr.42AF456D165CBF75.description.3": "可用于制作比普通绳子更结实的绑带(皮带)",
@@ -751,7 +751,7 @@
   "quest.twr.76B2B1A3EC6D92CD.description.1": "便宜高效的燃料。",
   "quest.twr.76B2B1A3EC6D92CD.description.2": "搭建方法(&a木炭坑大小不定&f):",
   "quest.twr.76B2B1A3EC6D92CD.description.3": "&6把原木堆&b&l密封&r&6在一个小空间里面，",
-  "quest.twr.76B2B1A3EC6D92CD.description.4": "&6留一个口子点火，着了立马把火盖上。&c是把火覆盖掉，而不是封住！",
+  "quest.twr.76B2B1A3EC6D92CD.description.4": "&6留一个口子点火，着了&b立马把火覆盖灭掉。",
   "quest.twr.76B2B1A3EC6D92CD.description.5": "静待烧制完成后挖开即可获得木炭。",
   "quest.twr.76B2B1A3EC6D92CD.subtitle": "原始燃料，还能过滤水",
   "quest.twr.76B2B1A3EC6D92CD.title": "木炭坑",
@@ -827,5 +827,6 @@
   "quest.twr.4B46838E7C65D4C4.description.1": "硫粉需要给黄铁矿进一步处理得到。",
   "quest.twr.103E4FC987E00FC7.description.2": "&6转速与应力消耗息息相关，&c切勿过度提速。",
   "quest.twr.0C424AAC550ACF02.description.1": "通过它与护目镜配合可以清晰的观察到应力消耗。",
-  "quest.twr.2F9F42B32CEDA8B6.description.1": "有了它就可以不再需要齿轮组来进行变速了。"
+  "quest.twr.2F9F42B32CEDA8B6.description.1": "有了它就可以不再需要齿轮组来进行变速了。",
+  "quest.twr.41D8E04627E55A86.description.2": "它不止可以处理木头，还可以砍树。"
 }

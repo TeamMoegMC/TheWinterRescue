@@ -751,7 +751,7 @@
   "quest.twr.76B2B1A3EC6D92CD.description.1": "Cheap and efficient fuel.",
   "quest.twr.76B2B1A3EC6D92CD.description.2": "Construction method(&asize varies&f):",
   "quest.twr.76B2B1A3EC6D92CD.description.3": "&b&lseal &6&rLog Pile&6 in a closed space,",
-  "quest.twr.76B2B1A3EC6D92CD.description.4": "&6Leave a hole for ignition, and immediately cover it after ignition. &cReplace the fire instead of just cover it.",
+  "quest.twr.76B2B1A3EC6D92CD.description.4": "&6Leave a hole for ignition, and &bimmediately use block put out fire it after ignition.",
   "quest.twr.76B2B1A3EC6D92CD.description.5": "Wait until the process complete and dig out charcoals.",
   "quest.twr.76B2B1A3EC6D92CD.subtitle": "Primitive fuel, and filters water",
   "quest.twr.76B2B1A3EC6D92CD.title": "Charcoal Pit",
@@ -827,5 +827,6 @@
   "quest.twr.4B46838E7C65D4C4.description.1": "The sulfur needs to handle pyrite.",
   "quest.twr.103E4FC987E00FC7.description.2": "&6Rotation speed is closely related to stress consumption.",
   "quest.twr.0C424AAC550ACF02.description.1": "By goggles observe stress consumption.",
-  "quest.twr.2F9F42B32CEDA8B6.description.1": "Can no longer need gear use to change speed."
+  "quest.twr.2F9F42B32CEDA8B6.description.1": "Can no longer need gear use to change speed.",
+  "quest.twr.41D8E04627E55A86.description.2": "It can also cut down trees."
 }
