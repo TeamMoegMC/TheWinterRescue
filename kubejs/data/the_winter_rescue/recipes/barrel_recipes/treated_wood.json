@@ -4,7 +4,7 @@
   	"tag":"minecraft:planks"
   },
   "fluid_in":{
-  	"fluid":"charcoal_pit:creosote_still",
+  	"fluid":"immersiveengineering:creosote",
   	"amount": 250
   },
   "item_out":{

@@ -1,10 +1,11 @@
 onEvent('recipes', (event) => {
     let recipes = [
-        shapedRecipe('steampowered:bronze_flywheel', [' DDD ', 'DACAD', 'DCBCD', 'DACAD', ' DDD '], {
+        shapedRecipe('steampowered:bronze_flywheel', [' DED ', 'DACAD', 'ECBCE', 'DACAD', ' DED '], {
             A: 'steampowered:bronze_cogwheel',
             B: 'steampowered:bronze_large_cogwheel',
             C: 'create:shaft',
-            D: '#forge:plates/bronze'
+            D: '#forge:ingots/bronze',
+            E: '#forge:plates/bronze'
         }),
         shapedRecipe('steampowered:bronze_steam_engine', ['DCEDD', 'CCABF', 'DCEDD'], {
             A: 'steampowered:bronze_cogwheel',

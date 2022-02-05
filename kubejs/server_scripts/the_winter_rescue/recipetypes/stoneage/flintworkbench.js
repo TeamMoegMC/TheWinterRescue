@@ -196,11 +196,6 @@ onEvent('recipes', (event) => {
             B: Ingredient.of('#minecraft:logs').toJson(),
             C: Item.of('minecraft:glass').toJson()
         }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('watersource:primitive_strainer'), ['AAA', 'BBB', 'CCC'], {
-            A: Item.of('minecraft:charcoal').toJson(),
-            B: Item.of('minecraft:sand').toJson(),
-            C: Item.of('minecraft:clay_ball').toJson()
-        }, Item.of('stone_age:flint_knife')),
 		flint_shapedRecipe(Item.of('kubejs:wet_straw_briquette'), ['AAA', 'A A', 'AAA'], {
             A: Item.of('charcoal_pit:straw').toJson()
         }, Item.of('stone_age:flint_knife')),
@@ -316,6 +311,11 @@ onEvent('recipes', (event) => {
             A: Item.of('minecraft:flint').toJson(),
             B: Item.of('rankine:rope').toJson(),
             C: Item.of('minecraft:stick').toJson()
+        }, Item.of('stone_age:flint_knife')),
+        flint_shapedRecipe(Item.of('watersource:primitive_strainer'), ['AAA', 'BBB', 'CCC'], {
+            A: Item.of('minecraft:charcoal').toJson(),
+            B: Item.of('minecraft:sand').toJson(),
+            C: Item.of('minecraft:clay_ball').toJson()
         }, Item.of('stone_age:flint_knife'))
     ]
     event.remove({output: 'charcoal_pit:unfired_sandy_brick', type: 'minecraft:crafting_shapeless'});
