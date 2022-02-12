@@ -1099,7 +1099,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 3.0d
 			y: -1.0d
 			subtitle: "{quest.twr.062E137E7ECB4C99.subtitle}"
 			description: [
@@ -1919,6 +1919,45 @@
 				}
 				count: 8L
 			}]
+		}
+		{
+			title: "{block.thermopolium.stew_pot}"
+			icon: "thermopolium:stew_pot"
+			x: 1.0d
+			y: -5.0d
+			subtitle: "{quest.twr.11A33F924E78C874.subtitle}"
+			description: [
+				"{quest.twr.11A33F924E78C874.description.1}"
+				"{quest.twr.11A33F924E78C874.description.2}"
+				"{quest.twr.11A33F924E78C874.description.3}"
+			]
+			dependencies: ["6D92E93A0811C1FD"]
+			hide: true
+			id: "11A33F924E78C874"
+			tasks: [
+				{
+					id: "31258D4C379187F7"
+					type: "item"
+					item: "thermopolium:clay_cistern"
+				}
+				{
+					id: "15C534E182DED1EC"
+					type: "item"
+					item: "thermopolium:stew_pot"
+				}
+				{
+					id: "2943C3BA554D6BD1"
+					type: "item"
+					title: "{quest.twr.11A33F924E78C874.2943C3BA554D6BD1.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "thermopolium:stoves"
+						}
+					}
+				}
+			]
 		}
 	]
 }

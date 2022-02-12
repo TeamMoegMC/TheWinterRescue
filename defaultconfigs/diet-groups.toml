@@ -47,7 +47,7 @@
 
 [[groups]]
 	color = "#ffaaaa"
-	decay_multiplier = 0.12
+	decay_multiplier = 0.1
 	name = "vitamin"
 	icon = "kubejs:vitamin_toxicity"
 	gain_multiplier = 0.1

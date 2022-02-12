@@ -54,6 +54,7 @@ onEvent('item.tags', (event) => {
 	event.add('immersiveengineering:forbidden_in_crates', '#charcoal_pit:ceramic_pots')
 	event.add('immersiveengineering:forbidden_in_crates', 'charcoal_pit:clay_pot')
 	event.add('immersiveengineering:forbidden_in_crates', '#storagedrawers:drawers')
+	event.add('immersiveengineering:forbidden_in_crates', 'storagedrawers:compacting_drawers_3')
 	event.add("kubejs:fuel_stick","frostedheart:charcoal_stick")
 	event.add("kubejs:fuel_stick","frostedheart:coal_stick")
 	event.add("kubejs:fuel_stick","kubejs:straw_briquette")

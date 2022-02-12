@@ -2,7 +2,8 @@
 "removed":[
 {"item":"minecraft:apple"},
 {"item":"rankine:black_walnut"},
-{"item":"rankine:coconut"}
+{"item":"rankine:coconut"},
+{"item":"rankine:juniper_berries"}
 ],
 "conditions": [
 {"condition":"stone_age:match_tag","tag":"minecraft:leaves"},

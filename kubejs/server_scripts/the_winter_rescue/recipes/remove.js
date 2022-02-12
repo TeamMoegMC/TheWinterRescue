@@ -50,7 +50,10 @@ onEvent('recipes', (event) => {
         'rankine:fire_clay_ball',
 		'rankine:vulcanized_rubber',
 		'rankine:sodium_hydroxide',
-		'rankine:kaolinite_ball'
+		'rankine:kaolinite_ball',
+		'minecraft:rabbit_stew',
+		'minecraft:wheat',
+		'minecraft:mushroom_stew'
     ]
 	let shapelessName = [
     ]

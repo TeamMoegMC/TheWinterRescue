@@ -53,6 +53,14 @@ onEvent('recipes', (event) => {
         }, Item.of('stone_age:flint_knife'))
     ]
     const change_recipes = [
+		flint_shapedRecipe(Item.of('thermopolium:clay_cistern'), ['CCC', 'CSC', 'CCC'], {
+            C: Ingredient.of('#forge:clay_balls').toJson(),
+            S: Item.of('#forge:rods/wooden').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('thermopolium:kitchen_stove_t1'), ['DDD', 'SSS', 'S S'], {
+            D: Item.of('minecraft:dirt').toJson(),
+            S: Ingredient.of('#forge:stone').toJson()
+        }, Ingredient.of('#forge:hammers')),
 	    flint_shapedRecipe(Item.of('charcoal_pit:main_bloomery'), ['ABA', 'BCB', 'ABA'], {
             A: Item.of('rankine:mortar').toJson(),
             B: Item.of('steampowered:bronze_sheet').toJson(),

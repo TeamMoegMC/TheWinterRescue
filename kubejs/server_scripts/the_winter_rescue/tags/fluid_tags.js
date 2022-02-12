@@ -2,6 +2,7 @@ onEvent('fluid.tags', (event) => {
 	event.add('forge:steam', 'steampowered:steam')
 	event.add('frostedheart:hot_drink', 'steampowered:steam')
 	event.add('frostedheart:drink', 'steampowered:steam')
+	event.add('frostedheart:drink', 'minecraft:milk')
 	event.add('the_winter_rescue:fluidsulfuricacid','kubejs:sulfuric_acid')
 	event.add('the_winter_rescue:cryolite','kubejs:cryolite')
 	event.add('the_winter_rescue:magnesium_chlorine','kubejs:magnesium_chlorine')

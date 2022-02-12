@@ -52,7 +52,7 @@ onEvent('recipes', (event) => {
         ['kubejs:aluminium_hydroxide_dust'],input:
         ['rankine:sodium_hydroxide', '2x kubejs:washed_ore_bauxite']},
 	{output:
-        [Fluid.of('frostedheart:hot_water', 1000)],input:
+        [Fluid.of('thermopolium:nail_soup', 1000)],input:
         ['kubejs:activated_carbon', Fluid.of('minecraft:water', 1000)]},
         {output:
         [Fluid.of('kubejs:magnesium_chlorine', 250)],input:
@@ -61,7 +61,7 @@ onEvent('recipes', (event) => {
         [Fluid.of('kubejs:hydrochloric_acid', 1000)],input:
         [Fluid.of('minecraft:water', 1000), Fluid.of('frostedheart:chlorine', 500)]}
 	]
-	//event.recipes.createMixing(Fluid.of('frostedheart:hot_water', 1000),Fluid.of('watersource:purified_water', 1000)).processingTime(10000).heated();
+	//event.recipes.createMixing(Fluid.of('thermopolium:nail_soup', 1000),Fluid.of('watersource:purified_water', 1000)).processingTime(10000).heated();
 	recipes.forEach((recipe) => {
         event.recipes.createMixing(recipe.output, recipe.input);
     });

@@ -188,6 +188,11 @@ onEvent('recipes', (event) => {
             D: '#forge:plates/cast_iron',
             E: 'steampowered:cast_iron_cogwheel'
         }),
+		shapedRecipe('create:item_drain', ['A', 'B','C'], {
+            A: 'immersiveengineering:conveyor_basic',
+			B: 'minecraft:iron_bars',
+            C: 'create:copper_casing'
+        }),
         shapedRecipe('extendedcrafting:pedestal', ['DDD', 'EBE', 'DCD'], {
             B: 'rankine:cast_iron_support',
             D: '#forge:plates/cast_iron',
