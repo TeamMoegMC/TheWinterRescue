@@ -46,7 +46,7 @@ onEvent('recipes', (event) => {
 	]
 	let heated = [
     {output:
-        ['rankine:high_refractory_brick'],input:
+        ['2x rankine:high_refractory_brick'],input:
         ['4x rankine:fire_clay_ball', '2x rankine:magnesia', '2x rankine:quicklime']},
     {output:
         ['kubejs:aluminium_hydroxide_dust'],input:

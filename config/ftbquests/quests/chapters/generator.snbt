@@ -21,9 +21,6 @@
 				"{quest.twr.69D939596ED4C0AF.description.2}"
 				"{quest.twr.69D939596ED4C0AF.description.3}"
 				"{quest.twr.69D939596ED4C0AF.description.4}"
-				"{quest.twr.69D939596ED4C0AF.description.5}"
-				"{quest.twr.69D939596ED4C0AF.description.6}"
-				"{quest.twr.69D939596ED4C0AF.description.7}"
 			]
 			dependencies: ["573841FD8018D4B1"]
 			size: 2.5d
@@ -78,11 +75,6 @@
 				"{quest.twr.2D570AD59FE2D6E1.description.1}"
 				"{quest.twr.2D570AD59FE2D6E1.description.2}"
 				"{quest.twr.2D570AD59FE2D6E1.description.3}"
-				"{quest.twr.2D570AD59FE2D6E1.description.4}"
-				"{quest.twr.2D570AD59FE2D6E1.description.5}"
-				"{quest.twr.2D570AD59FE2D6E1.description.6}"
-				"{quest.twr.2D570AD59FE2D6E1.description.7}"
-				"{quest.twr.2D570AD59FE2D6E1.description.8}"
 			]
 			dependencies: [
 				"69D939596ED4C0AF"

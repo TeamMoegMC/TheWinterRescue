@@ -13,7 +13,7 @@ backups_to_keep = 5
 #360 - backups every 6 hours
 #1440 - backups once every day
 #Range: 1 ~ 43800
-backup_timer = 120
+backup_timer = 240
 #0 - Disabled (output = folders)
 #1 - Best speed
 #9 - Smallest file size
