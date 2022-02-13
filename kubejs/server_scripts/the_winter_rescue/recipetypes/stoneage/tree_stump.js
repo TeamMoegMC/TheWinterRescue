@@ -28,7 +28,7 @@ onEvent('recipes', (event) => {
             Ingredient.of('#forge:hammers'), 2),
         tree_stumpRecipe(Item.of('immersiveengineering:slab_treated_wood_horizontal', 2), Item.of('immersiveengineering:treated_wood_horizontal'),
             Ingredient.of('#forge:axes'), 2),
-		tree_stumpRecipe(Item.of('creosoted_sawdust_briquette'), Item.of('kubejs:creosoted_sawdust'),
+		tree_stumpRecipe(Item.of('kubejs:creosoted_sawdust_briquette'), Item.of('kubejs:creosoted_sawdust'),
             Ingredient.of('#forge:hammers'), 2)
     ]
     const wood_recipes = []
