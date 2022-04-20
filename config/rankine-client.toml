@@ -1,0 +1,8 @@
+
+#Settings for general mechanics
+[general]
+	#Enable grass color variation within a biome.
+	grassColorNoise = true
+	#Enable grass coloring based of temperature. WIP
+	grassTempColor = false
+

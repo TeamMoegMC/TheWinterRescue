@@ -7,5 +7,12 @@
     },
     "AutoRefillSettings": {
         "refill_before_tool_break": false
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": ""
+            }
+        }
     }
 }

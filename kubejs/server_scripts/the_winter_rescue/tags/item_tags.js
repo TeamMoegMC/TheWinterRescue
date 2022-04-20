@@ -19,6 +19,7 @@ onEvent('item.tags', (event) => {
 	console.info(Ingredient.of("#diet:fruits").getItemIds())
     event.add('itemfilters:check_nbt', 'tetra:modular_double')
 	event.add('frostedheart:knife', 'tetra:modular_sword')
+	event.add('frostedheart:knife', '#forge:knives')
 	//event.add('ages_api:knives','#frostedheart:knife')
     event.add('forge:plates/bronze', "steampowered:bronze_sheet")
     event.add('forge:plates/cast_iron', "kubejs:cast_iron_plate")
@@ -27,8 +28,9 @@ onEvent('item.tags', (event) => {
     event.add('forge:plates/battery_alloy', "kubejs:battery_alloy_plate")
     event.add('forge:ingots/battery_alloy', "kubejs:battery_alloy")
     event.add('forge:dusts/wood', "rankine:sawdust")
-
-    event.add('the_winter_rescue:flux_block', "rankine:tufa_limestone")
+	event.add("forge:ingots/antimony","rankine:antimony");
+	event.add("forge:rods/cast_iron","kubejs:cast_iron_rod")
+    event.add('the_winter_rescue:flux_block', "rankine:limestone")
     event.add('the_winter_rescue:flux_block', "rankine:white_marble")
     event.add('the_winter_rescue:flux_block', "rankine:black_marble")
     event.add('the_winter_rescue:flux_block', "rankine:dolostone")

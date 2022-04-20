@@ -179,7 +179,7 @@
 	#Enable/Disable Project Rankine ores in End.
 	generateEndOres = false
 	#Enable/Disable Project Rankine ores in world.
-	generateOverworldOres = true
+	generateOverworldOres = false
 	#Enable/Disable Project Rankine ores in Nether.
 	generateNetherOres = false
 

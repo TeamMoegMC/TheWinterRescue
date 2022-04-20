@@ -529,6 +529,7 @@
 				"{quest.twr.3C4CEEBFF8DCF448.description.2}"
 			]
 			dependencies: ["689BB00EC2454F1F"]
+			hide: true
 			id: "3C4CEEBFF8DCF448"
 			tasks: [{
 				id: "0F08400AFE76BD5F"

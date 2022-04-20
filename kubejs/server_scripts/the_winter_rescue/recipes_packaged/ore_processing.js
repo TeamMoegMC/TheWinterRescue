@@ -48,7 +48,7 @@ onEvent('recipes', (event) => {
     event.smelting('immersiveengineering:ingot_lead', 'kubejs:washed_ore_galena');
     event.smelting('rankine:tin_ingot', 'kubejs:washed_ore_cassiterite');
     event.smelting('rankine:tin_ingot', 'kubejs:washed_ore_native_tin');
-    event.smelting('rankine:antimony_ingot', 'kubejs:washed_ore_stibnite');
+    event.smelting('rankine:antimony', 'kubejs:washed_ore_stibnite');
 
     var data = {
         recipes: [
@@ -59,7 +59,7 @@ onEvent('recipes', (event) => {
     {output: 'immersiveengineering:ingot_silver', input: 'kubejs:washed_ore_silver',time:150},
     {output: 'minecraft:gold_ingot', input: 'kubejs:washed_ore_gold',time:150},
     {output: 'immersiveengineering:ingot_nickel', input: 'kubejs:washed_ore_pentlandite',time:300},
-    {output: '2x rankine:salt', input: 'kubejs:washed_ore_halite',time:150}
+    {output: '2x rankine:sodium_chloride', input: 'kubejs:washed_ore_halite',time:150}
      ]
     };
 	data.recipes.forEach((recipe) => {

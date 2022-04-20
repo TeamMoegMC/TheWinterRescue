@@ -14,7 +14,7 @@ onEvent('recipes', (event) => {
                 output: '4x kubejs:battery_alloy',
                 time: 400
             },
-			{input1: '#forge:ingots/zinc', input2: '2x #forge:ingots/copper', output: '3x rankine:brass_alloy', time: 400},
+			{input1: '#forge:ingots/zinc', input2: '2x #forge:ingots/copper', output: '3x rankine:brass_ingot', time: 400},
             // {
             //     input1: '#forge:glass',
             //     input2: Ingredient.of('#forge:ingots/copper', 3),

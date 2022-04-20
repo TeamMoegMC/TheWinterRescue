@@ -40,7 +40,10 @@ onEvent('recipes', (event) => {
 		'rankine:evaporation_tower',
         'charcoal_pit:copper_block',
 		'immersiveengineering:crate',
-		'create:schematicannon'
+		'create:schematicannon',
+		'supplementaries:present',
+		'supplementaries:planter',
+		'supplementaries:sack',
     ]
     workbench.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shaped', output: Item});
@@ -50,7 +53,7 @@ onEvent('recipes', (event) => {
         'rankine:fire_clay_ball',
 		'rankine:vulcanized_rubber',
 		'rankine:sodium_hydroxide',
-		'rankine:kaolinite_ball',
+		'rankine:kaolinite',
 		'minecraft:rabbit_stew',
 		'minecraft:wheat',
 		'minecraft:mushroom_stew'
@@ -102,7 +105,7 @@ onEvent('recipes', (event) => {
         'minecraft:iron_ingot',
         'rankine:aluminum_ingot',
         'rankine:nickel_ingot',
-        'rankine:antimony_ingot',
+        'rankine:antimony',
         'rankine:magnesium_ingot',
         'rankine:tungsten_ingot',
         'rankine:titanium_ingot',
@@ -112,7 +115,8 @@ onEvent('recipes', (event) => {
         'rankine:titanium_block',
         'rankine:nickel_block',
         'rankine:aluminum_block',
-        'rankine:chromium_block'
+        'rankine:chromium_block',
+		'minecraft:air'
     ]
     smelting.forEach((Item) => {
         event.remove({type: 'minecraft:blasting', output: Item});
@@ -140,7 +144,7 @@ onEvent('recipes', (event) => {
     // Remove by Types
 	
 	event.remove({type: 'rankine:crushing'})
-	event.remove({type: 'charcoal_pit:orekiln', output: 'rankine:bronze_alloy'})
+	event.remove({type: 'charcoal_pit:orekiln', output: 'rankine:bronze_ingot'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:radiator'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:rs_engineering'})
     event.remove({type: 'immersiveengineering:hammer_crushing'})
@@ -166,6 +170,9 @@ onEvent('recipes', (event) => {
 	event.remove({type:'rankine:crucible'});
 	event.remove({type:'rankine:alloying'});
 	event.remove({type:"rankine:evaporation"});
+	event.remove({type:"rankine:fusion_furnace"});
+	event.remove({type:"rankine:air_distillation"});
+	
     event.remove({type: 'minecraft:smelting', input: 'rankine:magnetite_block'});
     event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
 	event.remove({mod: 'rankine',type: 'minecraft:smelting', output: '#forge:ingots'});

@@ -1,7 +1,7 @@
 onEvent('recipes', (event) => {
     let items = [
         {output: 'rankine:alumina', input: 'kubejs:bauxite'},
-        {output: '4x rankine:kaolinite_ball', input: 'rankine:kaolinite_block'},
+        {output: '4x rankine:kaolinite', input: 'rankine:kaolin'},
 
         {output: "2x kubejs:wet_coal_briquette", input: "kubejs:wet_coal_dust"},
         {output: "4x kubejs:creosoted_coal_briquette", input: ["kubejs:anthracite_dust",Fluid.of('immersiveengineering:creosote', 100)]},

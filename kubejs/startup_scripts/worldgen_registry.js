@@ -2,17 +2,17 @@ console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Worldgen Registered!')
 
 onEvent('worldgen.add', event => {
 	  event.addOre(ore => {
-    ore.block = 'rankine:kaolinite_block' 
+    ore.block = 'rankine:kaolin' 
     ore.spawnsIn.blacklist = false
     ore.spawnsIn.values = [
-      'rankine:tufa_limestone',
+      'rankine:limestone',
 	  'rankine:dolostone',
 	  'rankine:chalk',
-	  'rankine:carbonaceous_shale',
+	  'rankine:shale',
 	  'rankine:siltstone'
     ]
     ore.biomes.blacklist = true
-	    ore.biomes.values = [
+	ore.biomes.values = [
 	  '#nether',
 	  '#the_end'
     ]

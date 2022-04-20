@@ -27,6 +27,10 @@ onEvent('recipes', (event) => {
             B: 'immersiveengineering:metal_barrel',
             C: 'rankine:tree_tap'
         }),
+		shapedRecipe('rankine:tree_tap', ['AAA', '  B'], {
+            A: '#forge:rods/cast_iron',
+            B: 'minecraft:bucket'
+        }),
 		shapedRecipe('4x immersiveengineering:conveyor_basic', ['ACA', 'ABA'], {
             A: '#forge:plates/steel',
             B: 'minecraft:redstone',
@@ -97,7 +101,7 @@ onEvent('recipes', (event) => {
         shapedRecipe('2x immersiveengineering:heavy_engineering', ['ABA', 'BCB', 'ABA'], {
             A: '#forge:plates/tungsten_steel',
             B: 'immersiveengineering:component_steel',
-            C: 'rankine:tungsten_heavy_alloy'
+            C: 'rankine:tungsten_heavy_alloy_ingot'
         }),
         shapedRecipe('2x immersiveengineering:light_engineering', ['ABA', 'BCB', 'ABA'], {
             A: '#forge:plates/aluminum',
@@ -150,16 +154,6 @@ onEvent('recipes', (event) => {
         }),
         shapedRecipe('2x rankine:rope', ['AA', 'A '], {
             A: 'charcoal_pit:straw'
-        }),
-        shapedRecipe('rankine:fluid_drain', ['L L', 'LFL', 'PLP'], {
-            L: '#forge:ingots/stainless_steel',
-            P: 'immersiveengineering:fluid_pipe',
-            F: '#the_winter_rescue:cogwheels'
-        }),
-        shapedRecipe('rankine:fluid_drain', ['L L', 'LFL', 'PLP'], {
-            L: '#forge:ingots/cast_iron',
-            P: 'immersiveengineering:fluid_pipe',
-            F: '#the_winter_rescue:cogwheels'
         }),
         shapedRecipe('elevatorid:elevator_white', ['AAA', 'BBB', 'AAA'], {
             A: '#forge:plates/steel',
@@ -276,6 +270,26 @@ onEvent('recipes', (event) => {
             C: 'create:refined_radiance',
             D: 'minecraft:white_stained_glass_pane'
         }),
+		shapedRecipe('4x supplementaries:checker_block', ['AB', 'BA'], {
+            A: 'rankine:black_marble',
+            B: 'rankine:white_marble'
+        }),
+		shapedRecipe('2x supplementaries:daub', ['AB', 'BA'], {
+            A: 'minecraft:clay',
+            B: 'charcoal_pit:straw'
+        }),
+		shapedRecipe('supplementaries:cage', ['AAA', 'WBW','CCC'], {
+            A: '#forge:plates/steel',
+            B: '#immersiveengineering:scaffoldings/steel',
+			W: 'frostedheart:buff_coat',
+			C: '#forge:treated_wood'
+        }),
+		shapedRecipe('supplementaries:cage', ['AAA', 'WBW','CCC'], {
+            A: '#forge:plates/steel',
+            B: '#immersiveengineering:scaffoldings/steel',
+			W: 'frostedheart:gambeson',
+			C: '#forge:treated_wood'
+        }),
         shapedRecipe('8x create:gantry_shaft', ['BAD', 'BCB', 'DAB'], {
             A: '#forge:rods/cast_iron',
             B: '#forge:ingots/cast_iron',
@@ -290,6 +304,7 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'immersiveengineering:plantoil_bucket'
         }),
+		
         shapedRecipe('frostedheart:oil_burner', ['A A', 'AAA', 'BBB'], {
                     A: '#forge:plates/copper',
                     B: 'minecraft:stone_bricks'
@@ -297,7 +312,7 @@ onEvent('recipes', (event) => {
 		shapedRecipe('frostedheart:soil_thermometer', ['BDB', 'ACA', ' A '], {
             A: '#forge:plates/iron',
             B: 'minecraft:glass',
-            C: 'rankine:mercury_ingot',
+            C: 'rankine:mercury',
 			D: 'create:precision_mechanism'
         }),
 		shapedRecipe('frostedheart:buff_coat', ['AAA', 'CBC', 'AAA'], {
@@ -316,7 +331,7 @@ onEvent('recipes', (event) => {
             C: 'immersiveengineering:wire_copper'
         }),
 		shapedRecipe('frostedheart:mercury_body_thermometer', [' BB', 'BAB', 'CB '], {
-            A: 'rankine:mercury_ingot',
+            A: 'rankine:mercury',
             B: 'minecraft:glass',
             C: '#forge:plates/iron'
         }),

@@ -21,8 +21,8 @@ onEvent('recipes', (event) => {
 	 {output:'kubejs:straw_briquette', input:'kubejs:wet_straw_briquette'},
 	{output:'#forge:ingots/tin',input: 'kubejs:gray_tin_ingot'},
 	{output: 'rankine:magnesia', input: 'kubejs:washed_ore_magnesite'},
-	{output: 'rankine:mercury_ingot', input: 'rankine:cinnabar'},
-	{output: 'rankine:mercury_ingot', input: 'kubejs:washed_ore_cinnabar'}
+	{output: 'rankine:mercury', input: 'rankine:cinnabar'},
+	{output: 'rankine:mercury', input: 'kubejs:washed_ore_cinnabar'}
     ];
 
     recipes.forEach((recipe) => {

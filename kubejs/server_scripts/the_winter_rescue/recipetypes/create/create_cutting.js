@@ -16,6 +16,7 @@ onEvent('recipes', (event) => {
     const woods = []
 	//auto bulk slab recipes
 	Ingredient.of("#minecraft:planks").getItemIds().forEach((name)=>{
+		if(name.indexOf("culms")==-1)
 		woods.push(name.replace("_planks",""));
 	});
 	Ingredient.of("#minecraft:logs").getItemIds().forEach((name)=>{

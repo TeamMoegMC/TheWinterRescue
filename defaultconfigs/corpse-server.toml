@@ -26,8 +26,8 @@ death_storage_duration = -1
 	[corpse.despawn]
 		#The time passed (in ticks) after a corpse despawns (only if empty)
 		#Range: > 20
-		time = 600
+		time = 60
 		#The time passed (in ticks) after a corpse despawns even if its not empty (-1 = never)
 		#Range: > -1
-		force_time = 36000
+		force_time = -1
 

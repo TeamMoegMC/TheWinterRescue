@@ -6,16 +6,9 @@ onEvent('recipes', (event) => {
 
     var changeShapelessRecipes = [
         shapelessRecipe('frozenup:truffle_muffin', ['frostedheart:rye_flour', 'minecraft:sugar', 'frozenup:truffle']),
-		shapelessRecipe('2x rankine:dry_mortar', ['rankine:quicklime','#minecraft:sand']),
-		shapelessRecipe('rankine:dry_mortar', ['#forge:clay','#minecraft:sand',"minecraft:dirt"]),
-		shapelessRecipe('2x rankine:dry_mortar', ['#forge:clay_balls','#minecraft:sand',"rankine:tufa_limestone"]),
-		shapelessRecipe('2x rankine:dry_mortar', ['#forge:clay_balls','#minecraft:sand',"minecraft:dirt"]),
-		shapelessRecipe('3x rankine:dry_mortar', ['rankine:quicklime',"#rankine:mortar_special"]),
-		shapelessRecipe('2x rankine:dry_mortar', ['#forge:ash','#minecraft:sand',"#forge:slag"]),
 		shapelessRecipe('2x minecraft:flint', ['minecraft:gravel','minecraft:gravel','minecraft:gravel']),
 		shapelessRecipe('9x charcoal_pit:straw', ['minecraft:hay_block'])
     ]
-	event.recipes.createSplashing(["rankine:mortar"],"rankine:dry_mortar");
     var newShapelessRecipes = [
 		shapelessRecipe('frostedheart:raw_rye_bread', ['2x frostedheart:rye_flour','minecraft:water_bucket']),
 		shapelessRecipe('watersource:purified_water_bottle', ['frostedheart:steam_bottle','minecraft:snowball']),

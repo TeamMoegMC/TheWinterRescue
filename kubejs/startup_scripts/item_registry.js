@@ -40,7 +40,8 @@ onEvent('item.registry', event => {
 		'protein',
 		'diabetes_risks',
 		'vitamin_toxicity',
-		'creosoted_sawdust'
+		'creosoted_sawdust',
+		'cast_iron_rod'
 	];
 
 	let rawOres = [
