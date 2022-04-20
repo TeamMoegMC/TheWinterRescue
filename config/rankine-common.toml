@@ -40,7 +40,7 @@
 	[general.totems]
 		#Chance for an extra block to be dropped when using the Totem of Promising
 		#Range: 0.0 ~ 1.0
-		totemOfPromisingChance = 0.15
+		totemOfPromisingChance = 0.0
 
 	#Movement speed modifiers
 	[general.movementModifiers]
@@ -49,7 +49,7 @@
 		movementDirt = 0.0
 		#Movement speed modifier for walking on Mud.
 		#Range: -1.0 ~ 1.0
-		movementMud = 0.0
+		movementMud = -0.1
 		#Movement speed modifier for walking on Roman Cooncrete.
 		#Range: -1.0 ~ 1.0
 		movementRomanConcrete = 0.0
@@ -80,7 +80,7 @@
 	#Enchantments
 	[general.enchantments]
 		#Enables the Prying enchantment to work on players (when hit by crowbar, chance to drop held item).
-		playerPryingEnchantment = true
+		playerPryingEnchantment = false
 
 	#Miscellaneous
 	[general.misc]
@@ -91,7 +91,7 @@
 		sluicingCooldown = true
 		#Chance for a glowstone to spawn gas block when broken. The chance is for the Nether and the End is 5x more likely.
 		#Range: 0.0 ~ 1.0
-		glowstoneGasChance = 0.01
+		glowstoneGasChance = 0.0
 		#If enabled, alloy-related content in the player's inventory will always refresh on world join. Useful for modifying element recipes and quickly determining changes.
 		refreshAlloys = false
 		#If enabled, dyes can be used on blocks in-world to dye them (includes concrete, concrete powder, terracotta, glazed terracotta, stained glass, stained glass panes, leds, wool)
@@ -103,7 +103,7 @@
 		flintDropChance = 0.15
 		#Chance for a dirt block to drop a vegetable/seed
 		#Range: 0.0 ~ 1.0
-		foragingChance = 0.15
+		foragingChance = 0.0
 		#The radius at which Ice Melt will melt snow and ice.
 		#Range: 0 ~ 16
 		iceMeltRange = 3
@@ -111,7 +111,7 @@
 		#Range: 0.0 ~ 1.0
 		grassGrowChance = 5.0E-4
 		#No more infinite water
-		disableWater = true
+		disableWater = false
 		#The range of the fire extinguisher.
 		#Range: 0 ~ 64
 		fireExtinguisherRange = 16
@@ -127,14 +127,14 @@
 		igneousGen = true
 		#Chance for a geode to be found in stone.
 		#Range: 0.0 ~ 1.0
-		geodeChance = 5.0E-4
+		geodeChance = 0.0
 		#Adds a trade to the Wandering Trader for a random tool which is not restricted by alloy constraints. May be unbalanced due to complete randomness.
 		wanderingSpecial = false
 		#Amount of additional exhaustion when breaking a block.
 		#Range: 0.0 ~ 1.0
 		breakExhaustion = 0.0
 		#Makes axes required to harvest logs.
-		axesOnly = false
+		axesOnly = true
 		#Chance for ice to break when walking on it.
 		#Range: 0.0 ~ 1.0
 		iceBreak = 0.002
@@ -376,37 +376,37 @@
 	#Rankine Tools
 	[tools.rankineTools]
 		#Disable status bar message from compass.
-		disableCompass = false
+		disableCompass = true
 		#Disable status bar message from thermometer.
-		disableThermometer = false
+		disableThermometer = true
 		#Disable status bar message from altimeter.
-		disableAltimeter = false
+		disableAltimeter = true
 		#Disable status bar message from speedometer.
-		disableSpeedometer = false
+		disableSpeedometer = true
 		#Disable status bar message from clock.
 		disableClock = false
 		#Disable the use of the wooden mallet (still allows crafting for other recipes). This is enabled by default for progression.
 		disableWoodenMallet = true
 		#Disable status bar message from magnetometer.
-		disableMagnetometer = false
+		disableMagnetometer = true
 		#Disable status bar message from photometer.
-		disablePhotmeter = false
+		disablePhotmeter = true
 		#Number of blocks away that the Prospecting Stick can detect ore.
 		#Range: 0 ~ 64
-		prospectingStickRange = 6
+		prospectingStickRange = 0
 		#Chance for the Prospecting Stick to return a sample. The chance for a sample to be returned from a stone cobble is half that.
 		#Range: 0.0 ~ 1.0
 		cobbleSampleChance = 0.8
 		#Number of blocks away that the Ore Detector can detect ore. Square radius.
 		#Range: 0 ~ 16
-		oreDetectorRange = 7
+		oreDetectorRange = 0
 		#Enable the use of the rock drill.
-		rockDrill = true
+		rockDrill = false
 		#Number of blocks away that the Magnetometer can detect ore. Square radius.
 		#Range: 0 ~ 16
 		magnetometerRange = 6
 		#Disable status bar message from biometer.
-		disableBiometer = false
+		disableBiometer = true
 
 #Block Properties
 [blockProperties]
@@ -634,7 +634,7 @@
 	#Enables the generation of fumaroles. More options to come.
 	generateFumaroles = true
 	#Generate antimatter in the End.
-	antimatterGen = true
+	antimatterGen = false
 	#The number of blocks that Soul Sandstone will generate up or down from Soul Sand.
 	#Range: > 0
 	soulSandstoneLayerThickness = 3
@@ -654,7 +654,7 @@
 	#Enable/Disable Project Rankine wild crops in world.
 	generateWildCrops = true
 	#Enables the generation of alluvium disks.
-	generateAlluvium = true
+	generateAlluvium = false
 	#Enable to generate meteorites in the end.
 	endMeteoriteGen = true
 
@@ -709,7 +709,7 @@
 	overworldIntrusionShrink = 0.05
 	#Chance for an overworld intrusion to contain cinnabar ore. Separate from the ore defined in the WorldGen settings.
 	#Range: 0.0 ~ 1.0
-	intrusionCinnabar = 0.025
+	intrusionCinnabar = 0.0
 	#Enables the generation of intrusions.
 	generateIntrusions = true
 
@@ -750,5 +750,5 @@
 	#   Size: Int to generate
 	#   Density: Double to determine the density of the ore vein
 	#   Ore: resource loacation of the block to generate
-	oreSettings = [["rankine:stibnite_ore", ["all"], "default", 50, 75, 4, 1.0, 9, 1.0], ["rankine:native_tin_ore", ["all"], "default", 50, 75, 4, 1.0, 12, 1.0], ["rankine:native_lead_ore", ["all"], "default", 50, 75, 4, 1.0, 8, 1.0], ["rankine:native_silver_ore", ["all"], "default", 50, 75, 4, 1.0, 8, 1.0], ["rankine:native_bismuth_ore", ["all"], "default", 50, 75, 4, 1.0, 6, 1.0], ["rankine:lignite_ore", ["all"], "default", 40, 75, 15, 0.8, 3, 1.0], ["rankine:stibnite_ore", ["all"], "default", 75, 128, 4, 1.0, 9, 1.0], ["rankine:native_tin_ore", ["all"], "default", 75, 128, 4, 1.0, 12, 1.0], ["rankine:native_lead_ore", ["all"], "default", 75, 128, 4, 1.0, 8, 1.0], ["rankine:native_silver_ore", ["all"], "default", 75, 128, 4, 1.0, 8, 1.0], ["rankine:native_bismuth_ore", ["all"], "default", 75, 128, 4, 1.0, 6, 1.0], ["rankine:lignite_ore", ["all"], "default", 75, 128, 15, 0.8, 3, 1.0], ["rankine:native_gold_ore", ["all"], "default", 20, 60, 5, 1.0, 4, 1.0], ["rankine:native_gold_ore", ["all"], "default", 60, 128, 5, 1.0, 3, 1.0], ["rankine:pyrite_ore", ["all"], "default", 20, 60, 5, 1.0, 3, 1.0], ["rankine:pyrite_ore", ["all"], "default", 60, 128, 5, 1.0, 4, 1.0], ["rankine:subbituminous_ore", ["all"], "sphere", 20, 60, 3, 0.5, 1, 0.2], ["rankine:bituminous_ore", ["all"], "sphere", 5, 30, 3, 0.5, 1, 0.2], ["rankine:hematite_ore", ["all"], "sphere", 30, 60, 3, 0.5, 1, 0.5], ["rankine:hematite_ore", ["all"], "sphere", 70, 120, 3, 0.5, 1, 0.5], ["rankine:chalcocite_ore", ["all"], "sphere", 40, 60, 3, 0.6, 1, 0.3], ["rankine:chalcocite_ore", ["all"], "sphere", 70, 120, 3, 0.6, 1, 0.3], ["rankine:magnesite_ore", ["all"], "sphere", 10, 30, 3, 0.3, 1, 0.5], ["rankine:chromite_ore", ["all"], "sphere", 5, 15, 3, 0.2, 1, 0.3], ["rankine:cobaltite_ore", ["all"], "sphere", 5, 10, 3, 0.2, 1, 0.1], ["rankine:cryolite_ore", ["extreme_hills", "taiga", "icy"], "sphere", 5, 20, 3, 0.6, 1, 0.2], ["rankine:bauxite_ore", ["desert", "mesa", "savanna", "jungle", "swamp", "plains", "forest", "taiga"], "sphere", 30, 60, 3, 0.2, 1, 0.2], ["rankine:celestine_ore", ["jungle", "swamp", "plains", "forest", "taiga"], "sphere", 10, 40, 3, 0.6, 1, 0.1], ["rankine:sphalerite_ore", ["desert", "mesa", "savanna", "plains"], "sphere", 30, 60, 3, 0.6, 1, 0.2], ["rankine:pentlandite_ore", ["ocean", "beach", "mushroom", "desert", "mesa"], "sphere", 10, 40, 3, 0.6, 1, 0.2], ["rankine:galena_ore", ["all"], "sphere", 5, 30, 4, 0.2, 1, 0.2], ["rankine:acanthite_ore", ["all"], "sphere", 5, 30, 4, 0.2, 1, 0.2], ["rankine:pyrolusite_ore", ["all"], "sphere", 5, 30, 4, 0.3, 1, 0.2], ["rankine:plumbago_ore", ["all"], "default", 5, 30, 8, 1.0, 1, 1.0], ["rankine:lazurite_ore", ["all"], "sphere", 10, 50, 3, 0.2, 1, 0.2], ["rankine:sperrylite_ore", ["all"], "default", 6, 10, 10, 1.0, 1, 1.0], ["rankine:bog_iron", ["swamp", "jungle"], "disk", 40, 65, 4, 0.3, 1, 1.0], ["rankine:ironstone", ["desert", "savanna", "mesa"], "disk", 40, 65, 4, 0.3, 1, 1.0], ["rankine:kaolin", ["swamp", "jungle", "mushroom"], "disk", 40, 70, 4, 0.7, 1, 0.4], ["rankine:fire_clay", ["all"], "disk", 55, 70, 3, 0.6, 1, 1.0], ["rankine:sylvinite", ["beach", "ocean", "desert"], "disk", 30, 50, 4, 0.6, 1, 0.5], ["rankine:phosphorite", ["beach", "ocean", "desert"], "disk", 30, 50, 4, 0.6, 1, 0.4], ["rankine:phosphorite", ["extreme_hills"], "disk", 70, 100, 4, 0.6, 1, 0.5], ["rankine:sodium_chloride_block", ["river", "ocean", "desert", "mesa"], "disk", 30, 60, 3, 0.3, 1, 0.5], ["rankine:pink_salt_block", ["extreme_hills"], "disk", 70, 100, 3, 0.3, 1, 0.3], ["rankine:snowflake_obsidian", ["all"], "disk", 0, 7, 4, 1.0, 1, 0.4], ["rankine:blood_obsidian", ["all"], "disk", 0, 7, 4, 1.0, 1, 0.4], ["rankine:basaltic_tuff", ["ocean", "beach", "mushroom", "none"], "disk", 20, 50, 6, 1.0, 1, 0.4], ["rankine:andesitic_tuff", ["extreme_hills"], "disk", 70, 100, 6, 1.0, 1, 0.4], ["rankine:rhyolitic_tuff", ["savanna", "mesa", "desert", "plains"], "disk", 10, 40, 6, 1.0, 1, 0.4], ["rankine:kimberlitic_tuff", ["all"], "disk", 0, 15, 4, 1.0, 1, 0.4], ["rankine:komatiitic_tuff", ["minecraft:nether_wastes"], "disk", 10, 30, 6, 1.0, 1, 0.4], ["rankine:native_sulfur_ore", ["nether"], "default", 20, 75, 5, 1.0, 12, 1.0], ["rankine:native_arsenic_ore", ["nether"], "default", 20, 75, 5, 1.0, 12, 1.0], ["rankine:anthracite_ore", ["nether"], "sphere", 30, 90, 3, 0.6, 1, 0.2], ["rankine:magnetite_ore", ["nether"], "sphere", 60, 120, 3, 0.6, 1, 0.1], ["rankine:cobaltite_ore", ["nether"], "sphere", 60, 120, 3, 0.6, 1, 0.1], ["rankine:wolframite_ore", ["nether"], "sphere", 60, 120, 3, 0.6, 1, 0.1], ["rankine:ilmenite_ore", ["nether"], "sphere", 60, 120, 3, 0.6, 1, 0.1], ["rankine:sperrylite_ore", ["nether"], "sphere", 90, 120, 2, 0.6, 1, 0.1], ["rankine:coltan_ore", ["nether"], "sphere", 10, 40, 2, 0.5, 1, 0.2], ["rankine:monazite_ore", ["nether"], "sphere", 10, 40, 2, 0.5, 1, 0.2], ["rankine:interspinifex_ore", ["minecraft:crimson_forest"], "default", 50, 90, 6, 1.0, 8, 1.0], ["rankine:native_gallium_ore", ["the_end"], "default", 10, 60, 4, 1.0, 15, 1.0], ["rankine:native_indium_ore", ["the_end"], "default", 10, 60, 4, 1.0, 15, 1.0], ["rankine:native_selenium_ore", ["the_end"], "default", 10, 60, 4, 1.0, 15, 1.0], ["rankine:native_tellurium_ore", ["the_end"], "default", 10, 60, 4, 1.0, 15, 1.0], ["rankine:molybdenite_ore", ["the_end"], "sphere", 10, 60, 3, 0.6, 1, 0.5], ["rankine:uraninite_ore", ["the_end"], "sphere", 10, 60, 3, 0.6, 1, 0.5], ["rankine:xenotime_ore", ["the_end"], "sphere", 10, 60, 3, 0.6, 1, 0.5], ["rankine:greenockite_ore", ["the_end"], "sphere", 10, 60, 3, 0.6, 1, 0.5]]
+	oreSettings = []
 
