@@ -5,10 +5,7 @@
     "minecraft:iron_door",
 	"rankine:bronze_door",
     "minecraft:iron_trapdoor",
-    "charcoal_pit:brick_collector",
     "charcoal_pit:sandy_collector",
-    "charcoal_pit:nether_collector",
-    "charcoal_pit:end_collector",
 	"minecraft:stone_bricks"
   ]
 }
