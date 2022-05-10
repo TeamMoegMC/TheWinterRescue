@@ -31,6 +31,17 @@ onEvent('recipes', (event) => {
             A: '#forge:rods/cast_iron',
             B: 'minecraft:bucket'
         }),
+		
+		shapedRecipe('4x immersiveengineering:stick_steel', ['  A', ' A ','A  '], {
+            A: '#forge:ingots/steel'
+        }),
+		shapedRecipe('4x kubejs:cast_iron_rod', ['  A', ' A ','A  '], {
+            A: '#forge:ingots/cast_iron'
+        }),
+		shapedRecipe('6x rankine:cast_iron_support', ['AAA', ' B ','B B'], {
+            A: '#forge:ingots/cast_iron',
+			B: '#forge:rods/cast_iron'
+        }),
 		shapedRecipe('4x immersiveengineering:conveyor_basic', ['ACA', 'ABA'], {
             A: '#forge:plates/steel',
             B: 'minecraft:redstone',

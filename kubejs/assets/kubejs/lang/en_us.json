@@ -111,6 +111,7 @@
   "item.kubejs.gray_tin_ingot": "Gray Tin Ingot",
   "item.kubejs.magnesium_chlorine_bucket": "Molten Magnesium Chlorine Bucket",
   "item.kubejs.creosoted_sawdust": "Creosoted Sawdust",
+  "item.kubejs.cast_iron_rod": "Cast Iron Rod",
   "fluid.kubejs.lime_water": "Lime Water",
   "fluid.kubejs.chlorine": "Chlorine",
   "fluid.kubejs.cryolite": "Cryolite",
@@ -143,6 +144,7 @@
   "immersiveindustry.ponder.burning_chamber.basic_usage.header": "",
   "the_winter_rescue.ponder.tag.bloomery.description": "",
   "charcoal_pit.ponder.main_bloomery.basic_usage.header": "1",
+  
   "the_winter_rescue.ponder.generator_construction_t1.basic_usage.text_1": "Right-Click to assemble",
   "the_winter_rescue.ponder.bloomery.assembly.header": "1",
   "the_winter_rescue.ponder.generator_construction_t2.basic_usage.text_1": "Right-Click to assemble",

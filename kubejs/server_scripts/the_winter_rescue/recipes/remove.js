@@ -49,7 +49,9 @@ onEvent('recipes', (event) => {
 		'rankine:distillation_tower',
 		'rankine:air_distillation_packing',
 		'rankine:gas_bottler',
-		'rankine:gas_vent'
+		'rankine:gas_vent',
+		"rankine:mixing_barrel",
+		"rankine:cast_iron_support"
     ]
     workbench.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shaped', output: Item});
@@ -160,6 +162,7 @@ onEvent('recipes', (event) => {
     event.remove({type: 'create:splashing', input: 'minecraft:gravel'})
     event.remove({type: 'rankine:crucible', output: '#forge:ingots/steel'})
     event.remove({type: 'rankine:alloying', output: '#forge:ingots/steel'})
+	event.remove({type: "rankine:alloy_crafting"})
     event.remove({input: 'notreepunching:plant_string'})
     event.remove({type: 'rankine:beehive_oven'})
     event.remove({input: 'rankine:element_transmuter'})
@@ -179,6 +182,7 @@ onEvent('recipes', (event) => {
 	event.remove({type:"rankine:fusion_furnace"});
 	event.remove({type:"rankine:air_distillation"});
 	event.remove({type:"rankine:stripping"});
+	event.remove({type:"rankine:mixing"});
     event.remove({type: 'minecraft:smelting', input: 'rankine:magnetite_block'});
     event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
 	event.remove({mod: 'rankine',type: 'minecraft:smelting', output: '#forge:ingots'});

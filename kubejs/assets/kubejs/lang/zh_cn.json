@@ -118,6 +118,6 @@
   "fluid.kubejs.hydrochloric_acid": "盐酸",
   "fluid.kubejs.tar": "焦油",
   "fluid.kubejs.magnesium_chlorine": "熔融氯化镁",
-  
+  "item.kubejs.cast_iron_rod": "铸铁杆",
   "itemGroup.kubejs.kubejs": "Kubejs"
 }
