@@ -27,7 +27,7 @@
 	[blocks.sack]
 		#How many slots should a sack have
 		#Range: 1 ~ 27
-		slots = 9
+		slots = 1
 		#Penalize the player with slowness effect when carrying too many sacks
 		sack_penalty = true
 		#Maximum number of sacks after which the slowness effect will be applied. each multiple of this number will further slow the player down
@@ -176,19 +176,19 @@
 	[spawns.structures]
 
 		[spawns.structures.wild_flax]
-			enabled = true
+			enabled = false
 
 		[spawns.structures.way_sign]
 			#Average distance apart in chunks between spawn attempts
 			#Range: 0 ~ 1001
 			average_distance = 19
 			#With this option road signs will display the distance to the structure that they are pointing to
-			show_distance_text = true
+			show_distance_text = false
 			#list of structure that a sign can point to. Note that they will only spawn in dimensions where vanilla villages can
 			villages = ["minecraft:village", "repurposed_structures:village_badlands", "repurposed_structures:village_dark_oak", "repurposed_structures:village_birch", "repurposed_structures:village_giant_taiga", "repurposed_structures:village_mushroom", "repurposed_structures:village_jungle", "repurposed_structures:village_mountains", "repurposed_structures:village_oak", "repurposed_structures:village_swamp", "pokecube:village", "pokecube_legends:village", "pokecube_legends:village/ocean", "valhelsia_structures:castle", "valhelsia_structures:castle_ruin", "valhelsia_structures:small_castle", "valhelsia_structures:tower_ruin", "stoneholm:underground_village", "blue_skies:gatekeeper_house", "feywild:library", "feywild:blacksmith"]
 			#Minimum distance apart in chunks between spawn attempts. 1001 to disable them entirely
 			#Range: 0 ~ 1001
-			minimum_distance = 10
+			minimum_distance = 1001
 
 #entities parameters
 [entities]

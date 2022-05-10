@@ -44,6 +44,12 @@ onEvent('recipes', (event) => {
 		'supplementaries:present',
 		'supplementaries:planter',
 		'supplementaries:sack',
+		'rankine:material_testing_table',
+		'rankine:fusion_furnace',
+		'rankine:distillation_tower',
+		'rankine:air_distillation_packing',
+		'rankine:gas_bottler',
+		'rankine:gas_vent'
     ]
     workbench.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shaped', output: Item});
@@ -172,7 +178,7 @@ onEvent('recipes', (event) => {
 	event.remove({type:"rankine:evaporation"});
 	event.remove({type:"rankine:fusion_furnace"});
 	event.remove({type:"rankine:air_distillation"});
-	
+	event.remove({type:"rankine:stripping"});
     event.remove({type: 'minecraft:smelting', input: 'rankine:magnetite_block'});
     event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
 	event.remove({mod: 'rankine',type: 'minecraft:smelting', output: '#forge:ingots'});
