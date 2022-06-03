@@ -21,14 +21,14 @@
 		treeChopSpeedFactor = 0.9
 		#Chance for leaves to drop leaf litter on break from chopping
 		#Range: 0.0 ~ 1.0
-		leafLitterChanceChop = 0.1
+		leafLitterChanceChop = 0.0
 		#Creates stumps when tree chopping.
-		createStumps = true
+		createStumps = false
 		#Enable full tree chopping using #rankine:tree_choppers
 		treeChopping = true
 		#Chance for leaves to drop leaf litter on a random tick
 		#Range: 0.0 ~ 1.0
-		leafLitterChance = 0.005
+		leafLitterChance = 0.0
 		#The range to force break leaves.
 		#Range: 0 ~ 10
 		forceBreakRange = 3
@@ -167,7 +167,7 @@
 		fumaroleDepositChance = 0.1
 		#Chance for a mineral block to be removed from any rock generator process.
 		#Range: 0.0 ~ 1.0
-		rockGenRemovalChance = 0.01
+		rockGenRemovalChance = 0.0
 		#Chance for flint to be consumed when lighting a fire.
 		#Range: 0.0 ~ 1.0
 		flintFireChance = 0.3
@@ -627,7 +627,7 @@
 	#Range: > 1
 	soilNoiseScale = 60
 	#Enables the generation of evaporite disks.
-	generateEvaporite = true
+	generateEvaporite = false
 	#Enables the generation of white sand disks in beaches.
 	generateWhiteSand = false
 	#Enables the generation of mud blocks near water. This can be slightly laggy.
@@ -642,7 +642,7 @@
 	#If enabled, replaces vanilla ores with the Rankine counterparts (mostly for texture purposes). Results may vary due to the order of feature placements.
 	replaceVanillaOres = false
 	#Enables the generation of black sand disks in the Nether.
-	generateBlackSand = true
+	generateBlackSand = false
 	#The chance a meteroite will be big.
 	#Range: 0.0 ~ 1.0
 	meteoriteBigChance = 0.25
@@ -684,10 +684,10 @@
 [columns]
 	#Determines the chance per x,z coordinate for columns to generate.
 	#Range: 0.0 ~ 1.0
-	columnChance = 0.15
+	columnChance = 0.1
 	#The chance for columns to generate as full columns instead of stalactites.
 	#Range: 0.0 ~ 1.0
-	columnFrequency = 0.1
+	columnFrequency = 0.05
 	#Enables the generation of stone columns.
 	generateColumns = true
 
@@ -741,22 +741,21 @@
 	#       Block: resource location of block to grow above grassy soils (ex: "rankine:stinging_nettle")
 	#       Weight: weight of the block to generate (ex: "2")
 	biomeSettings = [
-	["swamp", ["rankine:silty_loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:mica_schist","rankine:mica_schist", "rankine:red_dacite", "rankine:slate", "rankine:black_marble", "rankine:dolostone", "rankine:mudstone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["savanna", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:rhyolite","rankine:rhyolite", "rankine:red_dacite", "rankine:white_marble", "rankine:limestone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["desert", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:rhyolite","rankine:rhyolite", "rankine:red_dacite", "rankine:quartzite", "rankine:limestone", "rankine:quartz_sandstone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["forest", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:gray_granite","rankine:gray_granite", "rankine:komatiite", "rankine:black_dacite", "rankine:black_marble", "rankine:dolostone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["taiga", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:gray_granite","rankine:gray_granite", "rankine:komatiite", "rankine:black_dacite", "rankine:pegmatite", "rankine:breccia"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["mesa", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:granodiorite","rankine:granodiorite", "rankine:rhyolite", "rankine:red_dacite", "rankine:quartzite", "rankine:limestone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["extreme_hills", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:gabbro","rankine:gabbro", "minecraft:andesite", "rankine:red_dacite", "rankine:pegmatite", "rankine:dolostone", "rankine:breccia", "rankine:evaporite"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["river", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:mica_schist","rankine:mica_schist", "rankine:black_dacite", "rankine:white_marble", "rankine:evaporite", "rankine:limestone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["beach", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:mica_schist","rankine:mica_schist", "rankine:black_dacite", "rankine:white_marble", "rankine:dolostone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["plains", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:mica_schist","rankine:mica_schist", "minecraft:granite", "rankine:black_dacite", "rankine:white_marble", "rankine:dolostone", "rankine:shale"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["jungle", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:granodiorite","rankine:granodiorite", "rankine:red_dacite", "rankine:slate", "rankine:black_marble", "rankine:dolostone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["mushroom", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:tholeiitic_basalt","rankine:tholeiitic_basalt", "rankine:chalk", "rankine:slate", "rankine:skarn"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["icy", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["minecraft:diorite","minecraft:diorite", "rankine:black_dacite", "rankine:black_marble", "rankine:dolostone", "rankine:shale"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["ocean", ["rankine:loam_grass_block", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam_grass_block", "rankine:sandy_loam", "rankine:sandy_clay_loam"], [], ["rankine:tholeiitic_basalt","rankine:tholeiitic_basalt", "rankine:chalk", "rankine:slate", "rankine:breccia"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["nether", [], [], [], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["the_end", [], [], [], [], "minecraft:air", "minecraft:air", "minecraft:air"]]
+	["swamp", ["rankine:silty_loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:mica_schist","rankine:mica_schist", "rankine:red_dacite", "rankine:slate", "rankine:black_marble", "rankine:dolostone", "rankine:mudstone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["savanna", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:rhyolite","rankine:rhyolite", "rankine:red_dacite", "rankine:white_marble", "rankine:limestone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["desert", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:rhyolite","rankine:rhyolite", "rankine:red_dacite", "rankine:quartzite", "rankine:limestone", "rankine:quartz_sandstone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["forest", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:gray_granite","rankine:gray_granite", "rankine:komatiite", "rankine:black_dacite", "rankine:black_marble", "rankine:dolostone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["taiga", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:gray_granite","rankine:gray_granite", "rankine:komatiite", "rankine:black_dacite", "rankine:pegmatite", "rankine:shale"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["mesa", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:granodiorite","rankine:granodiorite", "rankine:rhyolite", "rankine:red_dacite", "rankine:quartzite", "rankine:limestone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["extreme_hills", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:gabbro","rankine:gabbro", "minecraft:andesite", "rankine:red_dacite", "rankine:pegmatite", "rankine:dolostone", "rankine:siltstone", "rankine:evaporite"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["river", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:mica_schist","rankine:mica_schist", "rankine:black_dacite", "rankine:white_marble", "rankine:evaporite", "rankine:mudstone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["beach", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:mica_schist","rankine:mica_schist", "rankine:black_dacite", "rankine:white_marble", "rankine:dolostone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["plains", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:mica_schist","rankine:mica_schist", "minecraft:granite", "rankine:black_dacite", "rankine:white_marble", "rankine:dolostone", "rankine:shale"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["jungle", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:granodiorite","rankine:granodiorite", "rankine:red_dacite", "rankine:slate", "rankine:black_marble", "rankine:dolostone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["mushroom", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:tholeiitic_basalt","rankine:tholeiitic_basalt", "rankine:chalk", "rankine:slate", "rankine:skarn"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["icy", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["minecraft:diorite","minecraft:diorite", "rankine:black_dacite", "rankine:black_marble", "rankine:dolostone", "rankine:shale"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["ocean", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:tholeiitic_basalt","rankine:tholeiitic_basalt", "rankine:chalk", "rankine:slate", "rankine:siltstone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
+	["none", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:mica_schist", "rankine:mica_schist", "rankine:black_dacite", "rankine:white_marble", "rankine:dolostone"], [], "minecraft:air", "minecraft:air", "minecraft:air"]]
 
 #Ore Feature Settings
 [oreGen]

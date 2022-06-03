@@ -1,5 +1,5 @@
-var ores = ["rankine:magnetite", "kubejs:pyrite", "kubejs:native_copper", "rankine:malachite", "rankine:pentlandite", "kubejs:native_tin", "rankine:cassiterite", "kubejs:bauxite", "rankine:stibnite", "rankine:cinnabar", "rankine:magnesite", "rankine:galena", "kubejs:halite", "rankine:fluorite", "rankine:vanadinite", "kubejs:silver", "kubejs:gold"];
-var ore_name = ["magnetite", "pyrite", "native_copper", "malachite", "pentlandite", "native_tin", "cassiterite", "bauxite", "stibnite", "cinnabar", "magnesite", "galena", "halite", "fluorite", "vanadinite", "silver", "gold"];
+var ores = ["rankine:magnetite", "kubejs:pyrite", "rankine:chalcocite", "rankine:malachite", "rankine:pentlandite", "kubejs:native_tin", "rankine:cassiterite", "kubejs:bauxite", "rankine:stibnite", "rankine:cinnabar", "rankine:magnesite", "rankine:galena", "kubejs:halite", "rankine:fluorite", "rankine:vanadinite", "kubejs:silver", "kubejs:gold", "rankine:hematite"];
+var ore_name = ["magnetite", "pyrite", "chalcocite", "malachite", "pentlandite", "native_tin", "cassiterite", "bauxite", "stibnite", "cinnabar", "magnesite", "galena", "halite", "fluorite", "vanadinite", "silver", "gold", "hematite"];
 var by_products = [];
 var i;
 var ores_i;
@@ -54,8 +54,9 @@ onEvent('recipes', (event) => {
         recipes: [
     {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_magnetite',time:300},
     {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_pyrite',time:300},
+    {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_hematite',time:300},
     {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_malachite',time:150},
-    {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_native_copper',time:150},
+    {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_chalcocite',time:150},
     {output: 'immersiveengineering:ingot_silver', input: 'kubejs:washed_ore_silver',time:150},
     {output: 'minecraft:gold_ingot', input: 'kubejs:washed_ore_gold',time:150},
     {output: 'immersiveengineering:ingot_nickel', input: 'kubejs:washed_ore_pentlandite',time:300},

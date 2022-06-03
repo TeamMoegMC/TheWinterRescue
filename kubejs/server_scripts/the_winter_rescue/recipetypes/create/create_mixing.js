@@ -8,7 +8,7 @@ onEvent('recipes', (event) => {
         ['2x #forge:dusts/sulfur', Fluid.of('minecraft:water', 500)]},
     {output:
         [Fluid.of('kubejs:cryolite', 500)],input:
-        ['2x minecraft:glowstone_dust', 'kubejs:aluminium_hydroxide_dust', Fluid.of('kubejs:sulfuric_acid', 500)]},
+        ['2x kubejs:fluorite_dust', 'kubejs:aluminium_hydroxide_dust', Fluid.of('kubejs:sulfuric_acid', 500)]},
     {output:
         ['3x rankine:vulcanized_rubber'],input:
         ['immersiveengineering:dust_sulfur', Fluid.of('rankine:latex', 500)]},
