@@ -39,10 +39,6 @@ const disabledItems = [
     'create:windmill_bearing',
     'create:flywheel',
     'create:furnace_engine',
-	'steampowered:steel_sheet',
-	'steampowered:steel_ingot',
-	'steampowered:cast_iron_plate',
-	'steampowered:cast_iron_ingot',
 
     // create: causes infinite power
     'create:mechanical_piston',

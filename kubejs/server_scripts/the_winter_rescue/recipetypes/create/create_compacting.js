@@ -15,6 +15,7 @@ onEvent('recipes', (event) => {
         {output: "4x kubejs:bound_coal_briquette", input: [Fluid.of('create:honey', 125),"#forge:dusts/coal_coke"]},
         {output: "5x kubejs:bound_coal_briquette", input: [Fluid.of('create:honey', 125),"kubejs:anthracite_dust"]},
         {output: "3x kubejs:bound_charcoal_briquette", input: [Fluid.of('create:honey', 250),"2x kubejs:charcoal_dust"]},
+        {output: "rankine:invar_block", input: ["9x kubejs:invar_steel_plate"]},
         {output: "kubejs:wet_straw_briquette", input: ["8x charcoal_pit:straw"]}
     ]
     let heated = [

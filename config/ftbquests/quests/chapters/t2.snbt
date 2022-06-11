@@ -166,15 +166,7 @@
 			tasks: [{
 				id: "3BE5CEBDB19E17D3"
 				type: "item"
-				item: {
-					id: "rankine:cast_iron_alloy"
-					Count: 1b
-					tag: {
-						StoredComposition: [{
-							comp: "96Fe-4C"
-						}]
-					}
-				}
+				item: "rankine:cast_iron_ingot"
 			}]
 			rewards: [{
 				id: "27C10D5B04888E5E"

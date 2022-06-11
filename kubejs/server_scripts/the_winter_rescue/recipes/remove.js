@@ -215,11 +215,7 @@ onEvent('recipes', (event) => {
         'immersiveengineering:capacitor_lv',
         'immersiveengineering:capacitor_mv',
         'immersiveengineering:capacitor_hv',
-		'immersiveengineering:dust_hop_graphite',
-		'steampowered:steel_sheet',
-		'steampowered:steel_ingot',
-		'steampowered:cast_iron_plate',
-		'steampowered:cast_iron_ingot',
+		'immersiveengineering:dust_hop_graphite'
     ]
 
     removeOnly.forEach((removeItem) => {

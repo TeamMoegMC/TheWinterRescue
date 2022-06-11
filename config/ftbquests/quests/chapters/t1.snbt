@@ -575,9 +575,9 @@
 				item: "charcoal_pit:main_bloomery"
 			}]
 			rewards: [{
-				id: "2DB795A761EECE67"
+				id: "6C7DEB837717A6F3"
 				type: "item"
-				item: "kubejs:native_copper"
+				item: "rankine:chalcocite"
 				count: 4
 			}]
 		}
@@ -922,19 +922,11 @@
 				item: "charcoal_pit:sandy_brick"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "68427BE729DBF2DC"
-					type: "item"
-					item: "crockpot:surf_n_turf"
-				}
-				{
-					id: "43CA49FF24234C35"
-					type: "item"
-					item: "kubejs:pyrite"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "68427BE729DBF2DC"
+				type: "item"
+				item: "crockpot:surf_n_turf"
+			}]
 		}
 		{
 			icon: {

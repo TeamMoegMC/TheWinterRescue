@@ -48,7 +48,7 @@
 			tasks: [{
 				id: "7879CE737B0505EC"
 				type: "item"
-				item: "kubejs:native_copper"
+				item: "rankine:chalcocite"
 			}]
 		}
 		{
@@ -413,7 +413,7 @@
 			description: ["{quest.twr.1EAA26CFD9FF2633.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
-			hide: true
+			hide_text_until_complete: true
 			id: "1EAA26CFD9FF2633"
 			tasks: [{
 				id: "1E6EEEDDC45EF1D7"
