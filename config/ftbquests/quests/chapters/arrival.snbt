@@ -68,10 +68,30 @@
 			}]
 		}
 		{
+			title: "{quest.twr.46BF095F50804FCC.title}"
+			icon: "minecraft:andesite"
+			x: -4.5d
+			y: -4.5d
+			shape: "circle"
+			subtitle: "{quest.twr.46BF095F50804FCC.subtitle}"
+			description: [
+				"{quest.twr.46BF095F50804FCC.description.1}"
+				"{quest.twr.46BF095F50804FCC.description.2}"
+			]
+			dependencies: ["6C86BD5F9112256F"]
+			hide: true
+			id: "46BF095F50804FCC"
+			tasks: [{
+				id: "53E219EA9212DEC4"
+				type: "checkmark"
+				title: "{quest.twr.46BF095F50804FCC.53E219EA9212DEC4.title}"
+			}]
+		}
+		{
 			title: "{quest.twr.4E3C1F4BDB921B8E.title}"
 			icon: "ironchest:crystal_chest"
 			x: -4.5d
-			y: -4.5d
+			y: -6.0d
 			shape: "hexagon"
 			subtitle: "{quest.twr.4E3C1F4BDB921B8E.subtitle}"
 			description: [
@@ -79,7 +99,7 @@
 				"{quest.twr.4E3C1F4BDB921B8E.description.2}"
 				"{quest.twr.4E3C1F4BDB921B8E.description.3}"
 			]
-			dependencies: ["6C86BD5F9112256F"]
+			dependencies: ["46BF095F50804FCC"]
 			hide: true
 			id: "4E3C1F4BDB921B8E"
 			tasks: [{
@@ -87,26 +107,94 @@
 				type: "checkmark"
 				title: "{quest.twr.4E3C1F4BDB921B8E.2CFE3196473A13A5.title}"
 			}]
-			rewards: [{
-				id: "293435A006B6506D"
-				type: "item"
-				item: {
-					id: "watersource:leather_water_bag"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Fluid: {
-							FluidName: "watersource:purified_water"
-							Amount: 1500
+			rewards: [
+				{
+					id: "293435A006B6506D"
+					type: "item"
+					item: {
+						id: "watersource:leather_water_bag"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Fluid: {
+								FluidName: "watersource:purified_water"
+								Amount: 1500
+							}
 						}
 					}
 				}
+				{
+					id: "4742CC827D918A82"
+					type: "item"
+					item: "frostedheart:rye_bread"
+					count: 16
+				}
+				{
+					id: "2C9D6F73CC2F7140"
+					type: "item"
+					item: "rankine:bandage"
+					count: 16
+				}
+				{
+					id: "776CB8D1394BCF3D"
+					type: "item"
+					item: {
+						id: "rankine:invar_shovel"
+						Count: 1b
+						tag: {
+							Damage: 80
+							StoredComposition: [{
+								comp: "90Fe-10Ni"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{quest.twr.25061B159D32453A.title}"
+			icon: "weatherforecast:weather_radar"
+			x: -4.5d
+			y: -3.0d
+			shape: "hexagon"
+			subtitle: "{quest.twr.25061B159D32453A.subtitle}"
+			description: ["{quest.twr.25061B159D32453A.description.1}"]
+			dependencies: ["46BF095F50804FCC"]
+			hide: true
+			id: "25061B159D32453A"
+			tasks: [{
+				id: "2128950991D0C6FA"
+				type: "checkmark"
+				title: "{quest.twr.25061B159D32453A.2128950991D0C6FA.title}"
 			}]
+			rewards: [
+				{
+					id: "6E7DBD6C35101C24"
+					type: "item"
+					item: "watersource:coconut_milk_bottle"
+				}
+				{
+					id: "497B6A90AFBC58A2"
+					type: "item"
+					item: "weatherforecast:weather_radar"
+				}
+				{
+					id: "6D475F27EC0C257A"
+					type: "item"
+					item: {
+						id: "weatherforecast:weather_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "{quest.twr.2422C77587FDEE28.title}"
 			icon: "minecraft:writable_book"
-			x: -3.0d
+			x: -2.5d
 			y: -4.5d
 			subtitle: "{quest.twr.2422C77587FDEE28.subtitle}"
 			description: [
@@ -115,7 +203,10 @@
 				"{quest.twr.2422C77587FDEE28.description.3}"
 				"{quest.twr.2422C77587FDEE28.description.4}"
 			]
-			dependencies: ["4E3C1F4BDB921B8E"]
+			dependencies: [
+				"4E3C1F4BDB921B8E"
+				"25061B159D32453A"
+			]
 			hide: true
 			id: "2422C77587FDEE28"
 			tasks: [{

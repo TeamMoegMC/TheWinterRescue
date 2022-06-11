@@ -46,6 +46,7 @@ onEvent('item.tags', (event) => {
     event.add('the_winter_rescue:large_cogwheels', "steampowered:cast_iron_large_cogwheel")
     event.add('the_winter_rescue:large_cogwheels', "steampowered:steel_large_cogwheel")
 
+    event.add('forge:ores/copper', "kubejs:native_copper")
     event.add('forge:ores/copper', "rankine:malachite")
     event.add('forge:ores/tin', "kubejs:native_tin")
     event.add('forge:ores/tin', "rankine:cassiterite")
@@ -71,6 +72,7 @@ onEvent('item.tags', (event) => {
 	event.add("forge:ores/copper","kubejs:rusted_copper_ingot")
 	event.add("forge:ores/tin","kubejs:gray_tin_ingot")
 	event.add("forge:ores/iron","kubejs:rusted_iron_ingot")
+	event.add("the_winter_rescue:bloom_iron","kubejs:rusted_iron_ingot")
 	//event.add("diet:sugars","#diet:fruits");
 	//event.add("diet:vegetables","#diet:fruits")
 	event.removeAll("diet:fruits")

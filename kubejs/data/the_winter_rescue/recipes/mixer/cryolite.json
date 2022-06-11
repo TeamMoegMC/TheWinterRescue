@@ -1,7 +1,7 @@
 {
 		"type": "immersiveengineering:mixer",
         "inputs": [{
-            "base_ingredient":{"item":"kubejs:fluorite_dust"},
+            "base_ingredient":{"item":"minecraft:glowstone_dust"},
             "count":2
           },
           {

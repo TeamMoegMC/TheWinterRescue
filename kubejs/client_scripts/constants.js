@@ -12,6 +12,7 @@ const regexHide = [
 const serverItemsToHide = [
     'minecraft:blast_furnace',
     'minecraft:furnace',
+    'minecraft:iron_pickaxe',
 	'minecraft:diamond_pickaxe',
 
     // ie

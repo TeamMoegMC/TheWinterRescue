@@ -21,14 +21,14 @@
 		treeChopSpeedFactor = 0.9
 		#Chance for leaves to drop leaf litter on break from chopping
 		#Range: 0.0 ~ 1.0
-		leafLitterChanceChop = 0.0
+		leafLitterChanceChop = 0.1
 		#Creates stumps when tree chopping.
-		createStumps = false
+		createStumps = true
 		#Enable full tree chopping using #rankine:tree_choppers
 		treeChopping = true
 		#Chance for leaves to drop leaf litter on a random tick
 		#Range: 0.0 ~ 1.0
-		leafLitterChance = 0.0
+		leafLitterChance = 0.005
 		#The range to force break leaves.
 		#Range: 0 ~ 10
 		forceBreakRange = 3
@@ -153,21 +153,21 @@
 		#Change the output of a stone generator from stone to metamorphic rocks.
 		metamorphicGen = true
 		#Allows crowbars to move blocks below where the player is standing.
-		crowbarFromAbove = false
+		crowbarFromAbove = true
 		#If enabled, sticks will drop from logs when stripped (30% chance).
-		strippablesSticks = false
+		strippablesSticks = true
 		#Lightning strikes creating fulgurite and glasses
-		enableLightningConversion = false
+		enableLightningConversion = true
 		#Enables the Rankine Journal (a guide to the mod, requires Patchouli)
 		startingBook = false
 		#Adds trades for Project Rankine to Villagers and the Wandering Trader.
-		villageTrades = false
+		villageTrades = true
 		#Chance for a fumarole to convert blocks into fumarole deposits.
 		#Range: 0.0 ~ 1.0
 		fumaroleDepositChance = 0.1
 		#Chance for a mineral block to be removed from any rock generator process.
 		#Range: 0.0 ~ 1.0
-		rockGenRemovalChance = 0.0
+		rockGenRemovalChance = 0.01
 		#Chance for flint to be consumed when lighting a fire.
 		#Range: 0.0 ~ 1.0
 		flintFireChance = 0.3
@@ -270,9 +270,9 @@
 #Settings for Gases.
 [gases]
 	#If enabled, gas effects will work against undead mobs.
-	gasAffectUndead = false
+	gasAffectUndead = true
 	#Enables blocks which emit gases on random tick.
-	enableGasVents = false
+	enableGasVents = true
 	#Enables gas blocks to have a chance to remove themselves on random tick (based on the gas).
 	enableGasDissipation = true
 	#If enabled, gases will move on random tick and dissipate at or above y-level 95 (EXPERIMENTAL).
@@ -294,28 +294,28 @@
 		#Wooden Tools
 		[tools.vanillaTools.woodenTools]
 			#Disable the use of the wooden sword (still allows crafting for other recipes). This is disabled by default for progression.
-			disableWoodenSword = true
+			disableWoodenSword = false
 			#Disable the use of the wooden axe (still allows crafting for other recipes). This is disabled by default for progression.
-			disableWoodenAxe = true
+			disableWoodenAxe = false
 			#Disable the use of the wooden hoe (still allows crafting for other recipes). This is disabled by default for progression.
-			disableWoodenHoe = true
+			disableWoodenHoe = false
 			#Disable the use of the wooden shovel (still allows crafting for other recipes). This is disabled by default for progression.
-			disableWoodenShovel = true
+			disableWoodenShovel = false
 			#Disable the use of the wooden pickaxe (still allows crafting for other recipes). This is disabled by default for progression.
-			disableWoodenPickaxe = true
+			disableWoodenPickaxe = false
 
 		#Diamond Tools
 		[tools.vanillaTools.diamondTools]
 			#Disable the use of the diamond axe (still allows crafting for other recipes). This is disabled by default for progression.
-			disableDiamondAxe = true
+			disableDiamondAxe = false
 			#Disable the use of the diamond pickaxe (still allows crafting for other recipes). This is disabled by default for progression.
-			disableDiamondPickaxe = true
+			disableDiamondPickaxe = false
 			#Disable the use of the diamond hoe (still allows crafting for other recipes). This is disabled by default for progression.
-			disableDiamondHoe = true
+			disableDiamondHoe = false
 			#Disable the use of the diamond shovel (still allows crafting for other recipes). This is disabled by default for progression.
-			disableDiamondShovel = true
+			disableDiamondShovel = false
 			#Disable the use of the diamond sword (still allows crafting for other recipes). This is disabled by default for progression.
-			disableDiamondSword = true
+			disableDiamondSword = false
 
 		#Iron Tools
 		[tools.vanillaTools.ironTools]
@@ -333,15 +333,15 @@
 		#Stone Tools
 		[tools.vanillaTools.stoneTools]
 			#Disable the use of the stone sword (still allows crafting for other recipes). This is disabled by default for progression.
-			disableStoneSword = true
+			disableStoneSword = false
 			#Disable the use of the stone shovel (still allows crafting for other recipes). This is disabled by default for progression.
-			disableStoneShovel = true
+			disableStoneShovel = false
 			#Disable the use of the stone axe (still allows crafting for other recipes). This is disabled by default for progression.
-			disableStoneAxe = true
+			disableStoneAxe = false
 			#Disable the use of the stone pickaxe (still allows crafting for other recipes). This is disabled by default for progression.
-			disableStonePickaxe = true
+			disableStonePickaxe = false
 			#Disable the use of the stone hoe (still allows crafting for other recipes). This is disabled by default for progression.
-			disableStoneHoe = true
+			disableStoneHoe = false
 
 		#Netherite Tools
 		[tools.vanillaTools.netheriteTools]
@@ -359,15 +359,15 @@
 		#Gold Tools
 		[tools.vanillaTools.goldTools]
 			#Disable the use of the gold pickaxe (still allows crafting for other recipes). This is disabled by default for progression.
-			disableGoldPickaxe = true
+			disableGoldPickaxe = false
 			#Disable the use of the gold sword (still allows crafting for other recipes). This is disabled by default for progression.
-			disableGoldSword = true
+			disableGoldSword = false
 			#Disable the use of the gold axe (still allows crafting for other recipes). This is disabled by default for progression.
-			disableGoldAxe = true
+			disableGoldAxe = false
 			#Disable the use of the gold hoe (still allows crafting for other recipes). This is disabled by default for progression.
-			disableGoldHoe = true
+			disableGoldHoe = false
 			#Disable the use of the gold shovel (still allows crafting for other recipes). This is disabled by default for progression.
-			disableGoldShovel = true
+			disableGoldShovel = false
 
 	#Rankine Tools
 	[tools.rankineTools]
@@ -467,7 +467,7 @@
 	cryoliteOreHL = 2
 	#Harvest Level of Pyrite Ore.
 	#Range: 0 ~ 4
-	pyriteOreHL = 1
+	pyriteOreHL = 2
 	#Harvest Level of Pyrolusite Ore.
 	#Range: 0 ~ 4
 	pyrolusiteOreHL = 3
@@ -503,13 +503,13 @@
 	celestineOreHL = 3
 	#Harvest Level of Magnetite Ore.
 	#Range: 0 ~ 4
-	magnetiteOreHL = 1
+	magnetiteOreHL = 3
 	#Harvest Level of Hematite Ore.
 	#Range: 0 ~ 4
-	hematiteOreHL = 1
+	hematiteOreHL = 2
 	#Harvest Level of Subbituminous Ore.
 	#Range: 0 ~ 4
-	subbituminousOreHL = 1
+	subbituminousOreHL = 2
 	#Harvest Level of Ilmenite Ore.
 	#Range: 0 ~ 4
 	ilmeniteOreHL = 3
@@ -536,7 +536,7 @@
 	galenaOreHL = 2
 	#Harvest Level of Cassiterite Ore.
 	#Range: 0 ~ 4
-	cassiteriteOreHL = 0
+	cassiteriteOreHL = 2
 	#Harvest Level of Pentlandite Ore.
 	#Range: 0 ~ 4
 	pentlanditeOreHL = 2
@@ -545,7 +545,7 @@
 	nativeBismuthOreHL = 1
 	#Harvest Level of Lignite Ore.
 	#Range: 0 ~ 4
-	ligniteOreHL = 0
+	ligniteOreHL = 1
 	#Harvest Level of Lonsdaleite Ore.
 	#Range: 0 ~ 5
 	lonsdaleiteOreHL = 5
@@ -557,7 +557,7 @@
 	taeniteOreHL = 2
 	#Harvest Level of Cinnabar Ore.
 	#Range: 0 ~ 4
-	cinnabarOreHL = 1
+	cinnabarOreHL = 2
 	#Harvest Level of Wolframite Ore.
 	#Range: 0 ~ 4
 	wolframiteOreHL = 3
@@ -566,19 +566,19 @@
 	nativeSulfurOreHL = 1
 	#Harvest Level of Bauxite Ore.
 	#Range: 0 ~ 4
-	bauxiteOreHL = 1
+	bauxiteOreHL = 2
 	#Harvest Level of Native Gold Ore.
 	#Range: 0 ~ 4
 	nativeGoldOreHL = 0
 	#Harvest Level of Malachite Ore.
 	#Range: 0 ~ 4
-	malachiteOreHL = 0
+	malachiteOreHL = 3
 	#Harvest Level of Kamacite Ore.
 	#Range: 0 ~ 4
 	kamaciteOreHL = 2
 	#Harvest Level of Chalcocite Ore.
 	#Range: 0 ~ 4
-	chalcociteOreHL = 0
+	chalcociteOreHL = 2
 	#Harvest Level of Magnesite Ore.
 	#Range: 0 ~ 4
 	magnesiteOreHL = 2
@@ -615,7 +615,7 @@
 	#Generates the Overworld with a flat bedrock layer.
 	flatBedrock = false
 	#Enables the generation of fumaroles. More options to come.
-	generateFumaroles = false
+	generateFumaroles = true
 	#Generate antimatter in the End.
 	antimatterGen = false
 	#The number of blocks that Soul Sandstone will generate up or down from Soul Sand.
@@ -627,22 +627,22 @@
 	#Range: > 1
 	soilNoiseScale = 60
 	#Enables the generation of evaporite disks.
-	generateEvaporite = false
+	generateEvaporite = true
 	#Enables the generation of white sand disks in beaches.
-	generateWhiteSand = false
+	generateWhiteSand = true
 	#Enables the generation of mud blocks near water. This can be slightly laggy.
-	generateMud = false
+	generateMud = true
 	#Enables the generation of alluvium disks.
 	generateAlluvium = false
 	#Enable to generate meteorites in the end.
-	endMeteoriteGen = false
+	endMeteoriteGen = true
 	#The chance for an end meteroite.
 	#Range: 0.0 ~ 1.0
 	endMeteoriteChance = 0.03
 	#If enabled, replaces vanilla ores with the Rankine counterparts (mostly for texture purposes). Results may vary due to the order of feature placements.
-	replaceVanillaOres = false
+	replaceVanillaOres = true
 	#Enables the generation of black sand disks in the Nether.
-	generateBlackSand = false
+	generateBlackSand = true
 	#The chance a meteroite will be big.
 	#Range: 0.0 ~ 1.0
 	meteoriteBigChance = 0.25
@@ -650,11 +650,11 @@
 	generateMushrooms = true
 	#The chance a meteroite will spawn in the Overworld. Higher numbers increase rarity.
 	#Range: > 0
-	meteoriteChance = 80
+	meteoriteChance = 70
 	#Enable/Disable Project Rankine flowers and berry bushes in world.
 	generateFlora = true
 	#Enables the generation of fire clay underneath blocks in #forge:ores/coal
-	generateFireClayUnderCoal = false
+	generateFireClayUnderCoal = true
 	#Generates the Nether with a flat bedrock layer.
 	flatBedrockNether = false
 	#Enable/Disable Project Rankine trees in world.
@@ -684,10 +684,10 @@
 [columns]
 	#Determines the chance per x,z coordinate for columns to generate.
 	#Range: 0.0 ~ 1.0
-	columnChance = 0.1
+	columnChance = 0.15
 	#The chance for columns to generate as full columns instead of stalactites.
 	#Range: 0.0 ~ 1.0
-	columnFrequency = 0.05
+	columnFrequency = 0.1
 	#Enables the generation of stone columns.
 	generateColumns = true
 
@@ -715,7 +715,7 @@
 	#Range: 0.0 ~ 1.0
 	intrusionCinnabar = 0.0
 	#Enables the generation of intrusions.
-	generateIntrusions = false
+	generateIntrusions = true
 
 #Biome Feature Settings
 [biomeGen]
@@ -740,22 +740,7 @@
 	#   [Vegetation]: [Block|Weight]
 	#       Block: resource location of block to grow above grassy soils (ex: "rankine:stinging_nettle")
 	#       Weight: weight of the block to generate (ex: "2")
-	biomeSettings = [
-	["swamp", ["rankine:silty_loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:mica_schist","rankine:mica_schist", "rankine:red_dacite", "rankine:slate", "rankine:black_marble", "rankine:dolostone", "rankine:mudstone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["savanna", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:rhyolite","rankine:rhyolite", "rankine:red_dacite", "rankine:white_marble", "rankine:limestone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["desert", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:rhyolite","rankine:rhyolite", "rankine:red_dacite", "rankine:gneiss", "rankine:limestone", "rankine:quartzite"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["forest", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:gray_granite","rankine:gray_granite", "rankine:komatiite", "rankine:black_dacite", "rankine:black_marble", "rankine:dolostone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["taiga", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:gray_granite","rankine:gray_granite", "rankine:komatiite", "rankine:black_dacite", "rankine:pegmatite", "rankine:shale"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["mesa", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:granodiorite","rankine:granodiorite", "rankine:rhyolite", "rankine:red_dacite", "rankine:quartzite", "rankine:limestone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["extreme_hills", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:gabbro","rankine:gabbro", "minecraft:andesite", "rankine:red_dacite", "rankine:pegmatite", "rankine:dolostone", "rankine:siltstone", "rankine:evaporite"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["river", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:mica_schist","rankine:mica_schist", "rankine:black_dacite", "rankine:white_marble", "rankine:evaporite", "rankine:mudstone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["beach", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:mica_schist","rankine:mica_schist", "rankine:black_dacite", "rankine:white_marble", "rankine:dolostone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["plains", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:mica_schist","rankine:mica_schist", "minecraft:granite", "rankine:black_dacite", "rankine:white_marble", "rankine:dolostone", "rankine:shale"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["jungle", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:granodiorite","rankine:granodiorite", "rankine:red_dacite", "rankine:slate", "rankine:black_marble", "rankine:dolostone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["mushroom", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:tholeiitic_basalt","rankine:tholeiitic_basalt", "rankine:chalk", "rankine:slate", "rankine:skarn"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["icy", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["minecraft:diorite","minecraft:diorite", "rankine:black_dacite", "rankine:black_marble", "rankine:dolostone", "rankine:shale"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["ocean", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:tholeiitic_basalt","rankine:tholeiitic_basalt", "rankine:chalk", "rankine:slate", "rankine:siltstone"], [], "minecraft:air", "minecraft:air", "minecraft:air"],
-	["none", ["rankine:loam_grass_block", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam", "rankine:loam"], [], ["rankine:mica_schist", "rankine:mica_schist", "rankine:black_dacite", "rankine:white_marble", "rankine:dolostone"], [], "minecraft:air", "minecraft:air", "minecraft:air"]]
+	biomeSettings = [["minecraft:soul_sand_valley", [], ["minecraft:air|15|minecraft:air|0.0", "rankine:scoria|1|rankine:scoria|0.0", "rankine:pumice|1|rankine:pumice|0.0"], ["rankine:blueschist", "rankine:blueschist", "rankine:blueschist", "rankine:blueschist", "rankine:honeystone", "rankine:honeystone", "rankine:honeystone", "rankine:wehrlite"], [], "rankine:dark_gravel", "minecraft:air", "minecraft:air"], ["minecraft:basalt_deltas", [], ["minecraft:air|15|minecraft:air|0.0", "rankine:scoria|1|rankine:scoria|0.0", "rankine:pumice|1|rankine:pumice|0.0"], ["minecraft:blackstone", "minecraft:blackstone", "minecraft:blackstone", "minecraft:blackstone", "minecraft:basalt", "minecraft:basalt", "minecraft:basalt", "rankine:dunite"], [], "rankine:dark_gravel", "minecraft:air", "minecraft:air"], ["minecraft:crimson_forest", [], ["minecraft:air|15|minecraft:air|0.0", "rankine:scoria|1|rankine:scoria|0.0", "rankine:pumice|1|rankine:pumice|0.0"], ["rankine:purple_porphyry", "rankine:purple_porphyry", "rankine:purple_porphyry", "rankine:purple_porphyry", "rankine:komatiite", "rankine:komatiite", "rankine:komatiite", "rankine:red_porphyry"], [], "rankine:dark_gravel", "minecraft:air", "minecraft:air"], ["minecraft:warped_forest", [], ["minecraft:air|15|minecraft:air|0.0", "rankine:scoria|1|rankine:scoria|0.0", "rankine:pumice|1|rankine:pumice|0.0"], ["rankine:lherzolite", "rankine:lherzolite", "rankine:lherzolite", "rankine:lherzolite", "rankine:pyroxenite", "rankine:pyroxenite", "rankine:pyroxenite", "rankine:harzburgite"], [], "rankine:dark_gravel", "minecraft:air", "minecraft:air"], ["minecraft:nether_wastes", [], ["minecraft:air|15|minecraft:air|0.0", "rankine:scoria|1|rankine:scoria|0.0", "rankine:pumice|1|rankine:pumice|0.0"], [], [], "rankine:dark_gravel", "minecraft:air", "minecraft:air"], ["none", ["rankine:sandy_loam", "rankine:sandy_loam", "rankine:sandy_clay_loam", "rankine:sandy_clay_loam", "rankine:sandy_clay_loam", "rankine:sandy_clay"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:gold_ore|0.03", "rankine:diabase|30|rankine:baddeleyite_ore|0.04", "rankine:red_porphyry|10|rankine:porphyry_copper|0.04"], ["rankine:wadsleyone", "rankine:troctolite", "rankine:gabbro", "rankine:slate", "rankine:shale", "rankine:tholeiitic_basalt"], ["rankine:short_grass|70", "minecraft:grass|10"], "rankine:dark_gravel", "minecraft:air", "minecraft:air"], ["mushroom", ["rankine:humus", "rankine:humus", "rankine:clay_loam", "rankine:clay_loam", "rankine:clay_loam", "rankine:clay_loam"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:coal_ore|0.03", "rankine:diabase|30|rankine:baddeleyite_ore|0.04", "rankine:red_porphyry|10|rankine:porphyry_copper|0.04", "rankine:pegmatite|1|rankine:coltan_ore|0.03", "rankine:pegmatite|1|rankine:beryl_ore|0.03", "rankine:pegmatite|1|rankine:uraninite_ore|0.03", "rankine:pegmatite|5|rankine:petalite_ore|0.04"], ["rankine:wadsleyone", "rankine:troctolite", "rankine:gabbro", "rankine:tholeiitic_basalt", "rankine:marlstone"], ["rankine:short_grass|70", "minecraft:grass|10", "minecraft:red_mushroom|10", "minecraft:brown_mushroom|10", "rankine:crimson_clover|10"], "rankine:light_gravel", "minecraft:air", "minecraft:air"], ["ocean", ["rankine:sandy_clay_loam", "rankine:sandy_clay_loam", "rankine:sandy_clay", "rankine:silty_clay_loam", "rankine:silty_clay_loam", "rankine:silty_clay"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:gold_ore|0.03", "rankine:diabase|30|rankine:baddeleyite_ore|0.04", "rankine:red_porphyry|10|rankine:porphyry_copper|0.04"], ["rankine:wadsleyone", "rankine:troctolite", "rankine:gabbro", "rankine:tholeiitic_basalt"], ["rankine:short_grass|70", "minecraft:grass|10"], "rankine:light_gravel", "minecraft:air", "minecraft:air"], ["beach", ["rankine:sandy_loam", "rankine:sandy_loam", "rankine:sandy_clay_loam", "rankine:sandy_clay_loam", "rankine:sandy_clay_loam", "rankine:sandy_clay"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:redstone_ore|0.03", "rankine:diabase|30|rankine:baddeleyite_ore|0.04", "rankine:red_porphyry|10|rankine:porphyry_copper|0.04"], ["rankine:wadsleyone", "rankine:troctolite", "rankine:gabbro", "rankine:tholeiitic_basalt", "rankine:chalk", "rankine:shale", "rankine:marlstone"], ["rankine:short_grass|70", "minecraft:grass|10", "rankine:yellow_clover|10", "rankine:stinging_nettle|1"], "rankine:light_gravel", "minecraft:air", "minecraft:air"], ["river", ["rankine:clay_loam", "rankine:clay_loam", "rankine:silty_clay", "rankine:silty_clay_loam", "rankine:silty_clay_loam", "rankine:silty_clay"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|5|rankine:kimberlitic_diamond_ore|0.05"], ["rankine:post_perovskite", "rankine:troctolite", "rankine:gabbro", "rankine:tholeiitic_basalt", "rankine:chalk", "rankine:shale", "rankine:shale", "rankine:anorthosite"], ["rankine:short_grass|20", "minecraft:grass|50", "rankine:stinging_nettle|1"], "minecraft:air", "rankine:silt", "minecraft:air"], ["savanna", ["rankine:silty_loam", "rankine:silty_loam", "rankine:silty_clay_loam", "rankine:sandy_loam", "rankine:sandy_loam", "rankine:sandy_clay_loam"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:redstone_ore|0.03", "rankine:norite|20|rankine:magnetite_ore|0.04", "rankine:norite|5|rankine:chromite_ore|0.04", "rankine:granodiorite|10|rankine:magnetite_ore|0.04", "rankine:granodiorite|5|rankine:wolframite_ore|0.04"], ["rankine:rose_marble", "rankine:red_dacite", "rankine:rhyolite", "rankine:quartzite", "rankine:siltstone", "rankine:graywacke"], ["rankine:short_grass|70", "minecraft:grass|10", "rankine:yellow_clover|10", "rankine:white_clover|10", "rankine:stinging_nettle|1"], "rankine:light_gravel", "minecraft:air", "minecraft:air"], ["mesa", ["rankine:silty_loam", "rankine:silty_loam", "rankine:silty_clay_loam", "rankine:silty_loam", "rankine:silty_loam", "rankine:silty_clay_loam"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:gold_ore|0.01", "rankine:red_porphyry|20|rankine:porphyry_copper|0.05", "rankine:red_porphyry|10|rankine:native_gold_ore|0.04", "rankine:red_porphyry|3|rankine:molybdenum_ore|0.03", "rankine:pegmatite|2|rankine:baddeleyite_ore|0.03", "rankine:pegmatite|1|rankine:coltan_ore|0.03", "rankine:pegmatite|1|rankine:beryl_ore|0.03", "rankine:pegmatite|1|rankine:uraninite_ore|0.03", "rankine:pegmatite|5|rankine:petalite_ore|0.04"], ["rankine:bridgmanham", "rankine:rose_marble", "rankine:red_dacite", "rankine:rhyolite", "rankine:quartzite", "rankine:siltstone", "rankine:arkose"], ["rankine:short_grass|70", "minecraft:grass|10", "rankine:yellow_clover|10", "rankine:stinging_nettle|1"], "rankine:light_gravel", "minecraft:air", "minecraft:air"], ["desert", ["rankine:loamy_sand", "rankine:loamy_sand", "rankine:loamy_sand", "rankine:loamy_sand", "rankine:loamy_sand", "rankine:loamy_sand"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:lapis_ore|0.03", "rankine:red_porphyry|20|rankine:porphyry_copper|0.05", "rankine:red_porphyry|10|rankine:native_gold_ore|0.04", "rankine:red_porphyry|3|rankine:molybdenum_ore|0.03", "rankine:pegmatite|2|rankine:baddeleyite_ore|0.03", "rankine:pegmatite|1|rankine:coltan_ore|0.03", "rankine:pegmatite|1|rankine:beryl_ore|0.03", "rankine:pegmatite|1|rankine:uraninite_ore|0.03", "rankine:pegmatite|5|rankine:petalite_ore|0.04"], ["rankine:bridgmanham", "rankine:rose_marble", "rankine:red_dacite", "rankine:rhyolite", "rankine:quartzite", "rankine:siltstone", "rankine:itacolumite"], ["rankine:short_grass|30", "minecraft:dead_bush|10", "rankine:stinging_nettle|1"], "rankine:light_gravel", "rankine:desert_sand", "rankine:desert_sandstone"], ["extreme_hills", ["rankine:sandy_loam", "rankine:sandy_loam", "rankine:sandy_clay_loam", "rankine:loamy_sand", "rankine:loamy_sand", "rankine:sandy_clay_loam"], ["minecraft:air|10|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:coal_ore|0.03", "rankine:shonkinite|20|rankine:beryl_ore|0.04", "minecraft:diorite|5|rankine:ilmenite_ore|0.04", "minecraft:diorite|10|rankine:magnetite_ore|0.04", "rankine:gray_granite|10|rankine:cassiterite_ore|0.04", "rankine:gray_granite|5|rankine:malachite_ore|0.04"], ["rankine:ringwoodine", "rankine:serpentinite", "rankine:greenschist", "rankine:mariposite", "rankine:gray_marble", "rankine:dolostone", "rankine:gneiss", "rankine:anorthosite", "rankine:hornblende_andesite"], ["rankine:short_grass|70", "minecraft:grass|10", "rankine:red_clover|10", "rankine:white_clover|10", "rankine:stinging_nettle|1"], "minecraft:air", "minecraft:air", "minecraft:air"], ["forest", ["rankine:loam", "rankine:loam", "rankine:clay_loam", "rankine:sandy_loam", "rankine:sandy_loam", "rankine:sandy_clay_loam"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:iron_ore|0.03", "minecraft:granite|10|rankine:cassiterite_ore|0.04", "minecraft:granite|15|rankine:malachite_ore|0.04", "rankine:granodiorite|15|rankine:magnetite_ore|0.04", "rankine:granodiorite|5|rankine:wolframite_ore|0.03"], ["rankine:sommanite", "rankine:black_dacite", "rankine:comendite", "rankine:black_marble", "rankine:soapstone", "rankine:anorthosite", "rankine:limestone"], ["rankine:short_grass|70", "minecraft:grass|10", "rankine:yellow_clover|10", "rankine:white_clover|10", "rankine:stinging_nettle|1"], "minecraft:air", "minecraft:air", "minecraft:air"], ["taiga", ["rankine:sandy_loam", "rankine:sandy_loam", "rankine:sandy_clay_loam", "rankine:loamy_sand", "rankine:loamy_sand", "rankine:sandy_clay_loam"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:iron_ore|0.03", "rankine:gray_granite|15|rankine:cassiterite_ore|0.04", "rankine:gray_granite|15|rankine:malachite_ore|0.04", "minecraft:diorite|15|rankine:magnetite_ore|0.04"], ["rankine:sommanite", "rankine:black_dacite", "rankine:comendite", "rankine:white_marble", "rankine:soapstone", "rankine:anorthosite", "rankine:dolostone"], ["rankine:short_grass|70", "minecraft:fern|10", "rankine:red_clover|10", "rankine:white_clover|10", "rankine:stinging_nettle|1"], "minecraft:air", "minecraft:air", "minecraft:air"], ["plains", ["rankine:sandy_loam", "rankine:sandy_loam", "rankine:sandy_clay_loam", "rankine:sandy_clay_loam", "rankine:sandy_clay_loam", "rankine:clay_loam"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:iron_ore|0.03", "minecraft:granite|15|rankine:cassiterite_ore|0.04", "minecraft:granite|10|rankine:malachite_ore|0.04", "rankine:granodiorite|15|rankine:magnetite_ore|0.04", "rankine:granodiorite|5|rankine:wolframite_ore|0.03"], ["rankine:bridgmanham", "rankine:red_dacite", "rankine:rhyolite", "rankine:gray_marble", "rankine:anorthosite", "rankine:limestone", "rankine:siltstone"], ["rankine:short_grass|70", "minecraft:grass|10", "rankine:crimson_clover|10", "rankine:white_clover|10", "rankine:stinging_nettle|1"], "minecraft:air", "minecraft:air", "minecraft:air"], ["icy", ["rankine:silty_loam", "rankine:silty_loam", "rankine:permafrost", "rankine:silty_clay_loam", "rankine:silty_clay_loam", "rankine:permafrost"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:redstone_ore|0.03", "minecraft:diorite|5|rankine:plumbago_ore|0.03", "minecraft:diorite|5|rankine:ilmenite_ore|0.04", "minecraft:diorite|10|rankine:magnetite_ore|0.04", "rankine:gray_granite|10|rankine:cassiterite_ore|0.04", "rankine:pegmatite|2|rankine:baddeleyite_ore|0.03", "rankine:pegmatite|1|rankine:coltan_ore|0.03", "rankine:pegmatite|1|rankine:beryl_ore|0.03", "rankine:pegmatite|1|rankine:uraninite_ore|0.03", "rankine:pegmatite|10|rankine:petalite_ore|0.04"], ["rankine:whiteschist", "rankine:white_marble", "rankine:comendite", "rankine:mica_schist", "rankine:phyllite", "minecraft:andesite", "rankine:chalk"], ["rankine:short_grass|70", "minecraft:fern|10", "rankine:red_clover|10", "rankine:white_clover|10", "rankine:stinging_nettle|1"], "minecraft:air", "minecraft:air", "minecraft:air"], ["jungle", ["rankine:humus", "rankine:humus", "rankine:laterite", "rankine:clay_loam", "rankine:clay_loam", "rankine:laterite"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:coal_ore|0.03", "rankine:norite|20|rankine:magnetite_ore|0.04", "rankine:norite|5|rankine:chromite_ore|0.04", "rankine:pegmatite|4|rankine:baddeleyite_ore|0.03", "rankine:pegmatite|2|rankine:coltan_ore|0.03", "rankine:pegmatite|2|rankine:beryl_ore|0.03", "rankine:pegmatite|2|rankine:uraninite_ore|0.03", "rankine:pegmatite|15|rankine:petalite_ore|0.04"], ["rankine:whiteschist", "rankine:eclogite", "rankine:gneiss", "rankine:mica_schist", "rankine:phyllite", "rankine:slate", "rankine:mudstone"], ["rankine:short_grass|70", "minecraft:grass|10", "rankine:crimson_clover|10", "rankine:yellow_clover|10", "rankine:stinging_nettle|1"], "rankine:dark_gravel", "minecraft:air", "minecraft:air"], ["swamp", ["rankine:loam", "rankine:loam", "rankine:clay_loam", "rankine:humus", "rankine:humus", "rankine:clay_loam"], ["minecraft:air|20|minecraft:air|0.0", "rankine:kimberlite|10|rankine:kimberlitic_diamond_ore|0.05", "minecraft:stone|10|minecraft:coal_ore|0.03", "rankine:shonkinite|20|rankine:magnetite_ore|0.04", "rankine:shonkinite|5|rankine:plumbago_ore|0.03", "rankine:gray_granite|10|rankine:cassiterite_ore|0.04", "rankine:gray_granite|10|rankine:malachite_ore|0.04"], ["rankine:post_perovskite", "rankine:eclogite", "rankine:gneiss", "rankine:mica_schist", "rankine:phyllite", "rankine:slate", "rankine:mudstone"], ["rankine:short_grass|70", "minecraft:grass|10", "rankine:red_clover|10", "rankine:stinging_nettle|1"], "rankine:dark_gravel", "minecraft:air", "minecraft:air"]]
 
 #Ore Feature Settings
 [oreGen]

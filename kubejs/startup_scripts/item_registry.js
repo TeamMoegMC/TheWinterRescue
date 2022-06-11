@@ -41,11 +41,11 @@ onEvent('item.registry', event => {
 		'diabetes_risks',
 		'vitamin_toxicity',
 		'creosoted_sawdust',
-		'cast_iron_rod',
-		'fluorite_dust'
+		'cast_iron_rod'
 	];
 
 	let rawOres = [
+		"native_copper",
 		"native_tin",
 		"silver",
 		"gold",
@@ -55,6 +55,7 @@ onEvent('item.registry', event => {
 	]
 
 	let ores = [
+		"ore_native_copper",
 		"ore_native_tin",
 		"ore_silver",
 		"ore_gold",
@@ -70,9 +71,7 @@ onEvent('item.registry', event => {
 		"ore_galena",
 		"ore_halite",
 		"ore_fluorite",
-		"ore_vanadinite",
-		"ore_hematite",
-		"ore_chalcocite"
+		"ore_vanadinite"
 	]
 
 	let oreStates = [
