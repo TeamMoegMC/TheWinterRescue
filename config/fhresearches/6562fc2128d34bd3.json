@@ -1,0 +1,26 @@
+{
+  "name": "Geology Understanding",
+  "desc": [
+    "Time for some geological prospection!"
+  ],
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:copper_pro_pick",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:exploration",
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 1.0,
+      "id": "4391043217e049ee",
+      "level": 1
+    }
+  ],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

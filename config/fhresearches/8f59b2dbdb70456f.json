@@ -1,0 +1,62 @@
+{
+  "name": "Sky Observation",
+  "desc": [
+    "In the high mountains covered with snow, you may find some deserted white domes.",
+    ""
+  ],
+  "icon": "weatherforecast:weather_radar",
+  "category": "frostedheart:exploration",
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "hint": "Try this one!",
+      "value": 0.5,
+      "id": "7a28b89294f74ae6",
+      "level": 0
+    },
+    {
+      "type": "kill",
+      "name": "@clue.frostedheart.kill",
+      "desc": "@entity.minecraft.zombie",
+      "hint": "Kill some evil creature",
+      "value": 0.1,
+      "id": "c5ea0db7336d4a66",
+      "always": false,
+      "entity": "minecraft:zombie"
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.4,
+      "id": "8e0d3c6e89654375",
+      "item": [
+        {
+          "item": "minecraft:iron_ingot"
+        },
+        {
+          "item": "minecraft:redstone"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "weatherforecast:weather_radar"
+    },
+    {
+      "item": "rankine:silicon"
+    }
+  ],
+  "effects": [
+    {
+      "type": "item",
+      "icon": "weatherforecast:weather_radar",
+      "id": "2890390d16704c5f",
+      "rewards": [
+        "weatherforecast:weather_radar"
+      ]
+    }
+  ],
+  "points": 2000
+}
