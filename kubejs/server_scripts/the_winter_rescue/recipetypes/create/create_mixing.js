@@ -19,14 +19,14 @@ onEvent('recipes', (event) => {
         ['2x kubejs:limed_coal'],input:
         ['kubejs:anthracite_dust', Fluid.of('kubejs:lime_water', 100)]},
     {output:
-        ['1x kubejs:limed_coal'],input:
+        ['kubejs:limed_coal'],input:
         ['kubejs:subbituminous_coal_dust', Fluid.of('kubejs:lime_water', 100)]},
     {output:
-        ['1x kubejs:limed_coal'],input:
+        ['kubejs:limed_coal'],input:
         ['kubejs:coal_dust', Fluid.of('kubejs:lime_water', 100)]},
     {output:
         ['3x kubejs:limed_coal'],input:
-        ['kubejs:bituminous_coal_dust', Fluid.of('kubejs:lime_water', 200)]},
+        ['2x kubejs:bituminous_coal_dust', Fluid.of('kubejs:lime_water', 200)]},
     {output:
         ['2x kubejs:limed_coal'],input:
         ['3x kubejs:lignite_dust', Fluid.of('kubejs:lime_water', 200)]},
