@@ -256,7 +256,7 @@
 	[[effects.conditions]]
 		below = 0.2
 		match = "any"
-		above = 0
+		above = 0.0
 		groups = ["vegetables","proteins"]
 [[effects]]
 
