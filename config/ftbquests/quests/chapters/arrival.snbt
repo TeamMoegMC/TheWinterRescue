@@ -87,21 +87,59 @@
 				type: "checkmark"
 				title: "{quest.twr.4E3C1F4BDB921B8E.2CFE3196473A13A5.title}"
 			}]
-			rewards: [{
-				id: "293435A006B6506D"
-				type: "item"
-				item: {
-					id: "watersource:leather_water_bag"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Fluid: {
-							FluidName: "watersource:purified_water"
-							Amount: 1500
+			rewards: [
+				{
+					id: "293435A006B6506D"
+					type: "item"
+					item: {
+						id: "watersource:leather_water_bag"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Fluid: {
+								FluidName: "watersource:purified_water"
+								Amount: 1500
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "1F672A6673FD3E23"
+					type: "item"
+					item: {
+						id: "rankine:invar_shovel"
+						Count: 1b
+						tag: {
+							StoredAlloy: {
+								recipe: "rankine:alloying/invar_alloying"
+								comp: "67Fe-33Ni"
+							}
+							StoredAlloyStats: {
+								durability: 223
+								attackSpeed: 0.0f
+								corrResist: 0.0f
+								heatResist: 0.04f
+								toughness: 0.02f
+								harvestLevel: 2
+								miningSpeed: 4.26f
+								enchantability: 12
+								attackDamage: 3.6399999f
+							}
+							Damage: 80
+							Elements: [
+								{
+									percent: 67s
+									id: "rankine:elements/iron"
+								}
+								{
+									percent: 33s
+									id: "rankine:elements/nickel"
+								}
+							]
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "{quest.twr.2422C77587FDEE28.title}"
