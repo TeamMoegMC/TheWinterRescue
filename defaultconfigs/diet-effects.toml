@@ -1,12 +1,11 @@
 
 #List of diet effects
+#max health for balanced diet
 [[effects]]
-
 	[[effects.attributes]]
 		amount = -3.5
 		name = "minecraft:generic.max_health"
 		operation = "add"
-
 	[[effects.conditions]]
 		below = 0.1
 		match = "every"
@@ -14,12 +13,10 @@
 		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
-
 	[[effects.attributes]]
 		amount = -3.0
 		name = "minecraft:generic.max_health"
 		operation = "add"
-
 	[[effects.conditions]]
 		below = 0.2
 		match = "every"
@@ -27,12 +24,10 @@
 		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
-
 	[[effects.attributes]]
 		amount = -2.5
 		name = "minecraft:generic.max_health"
 		operation = "add"
-
 	[[effects.conditions]]
 		below = 0.3
 		match = "every"
@@ -40,12 +35,10 @@
 		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
-
 	[[effects.attributes]]
 		amount = -2.0
 		name = "minecraft:generic.max_health"
 		operation = "add"
-
 	[[effects.conditions]]
 		below = 0.4
 		match = "every"
@@ -53,12 +46,10 @@
 		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
-
 	[[effects.attributes]]
 		amount = -1.5
 		name = "minecraft:generic.max_health"
 		operation = "add"
-
 	[[effects.conditions]]
 		below = 0.5
 		match = "every"
@@ -66,12 +57,10 @@
 		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
-
 	[[effects.attributes]]
 		amount = -1.0
 		name = "minecraft:generic.max_health"
 		operation = "add"
-
 	[[effects.conditions]]
 		below = 0.6
 		match = "every"
@@ -79,12 +68,10 @@
 		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
-
 	[[effects.attributes]]
 		amount = -0.5
 		name = "minecraft:generic.max_health"
 		operation = "add"
-
 	[[effects.conditions]]
 		below = 0.7
 		match = "every"
@@ -193,7 +180,7 @@
 		match = "every"
 		above = 0.0
 		groups = ["proteins", "vegetables", "grains"]
-
+#Negative effects for lackage
 [[effects]]
 
 	[[effects.attributes]]
@@ -204,30 +191,83 @@
 	[[effects.status_effects]]
 		name = "minecraft:weakness"
 		power = 3
-
+	[[effects.status_effects]]
+		name = "frostedheart:anemia"
+		power = 0
 	[[effects.conditions]]
 		below = 1.0
 		match = "all"
 		above = 0.8
 		groups = ["vitamin"]
-
 [[effects]]
-
 	[[effects.status_effects]]
 		name = "minecraft:hunger"
+		power = 1
+	[[effects.conditions]]
+		below = 0.1
+		match = "all"
+		above = 0.0
+		groups = ["grains"]
+[[effects]]
+	[[effects.status_effects]]
+		name = "frostedheart:scurvy"
 		power = 1
 
 	[[effects.conditions]]
 		below = 0.1
 		match = "all"
 		above = 0.0
-		groups = ["grains"]
+		groups = ["vegetables"]
+[[effects]]
+	[[effects.status_effects]]
+		name = "frostedheart:scurvy"
+		power = 0
 
+	[[effects.conditions]]
+		below = 0.2
+		match = "all"
+		above = 0.1
+		groups = ["vegetables"]
+[[effects]]
+	[[effects.status_effects]]
+		name = "frostedheart:anemia"
+		power = 1
+
+	[[effects.conditions]]
+		below = 0.1
+		match = "all"
+		above = 0.0
+		groups = ["proteins"]
+[[effects]]
+	[[effects.status_effects]]
+		name = "frostedheart:anemia"
+		power = 0
+
+	[[effects.conditions]]
+		below = 0.2
+		match = "all"
+		above = 0.1
+		groups = ["proteins"]
+[[effects]]
+	[[effects.status_effects]]
+		name = "frostedheart:nyctalopia"
+		power = 0
+
+	[[effects.conditions]]
+		below = 0.2
+		match = "any"
+		above = 0
+		groups = ["vegetables","proteins"]
 [[effects]]
 
 	[[effects.attributes]]
 		amount = -0.2
 		name = "minecraft:generic.movement_speed"
+		operation = "multiply_base"
+	
+	[[effects.attributes]]
+		amount = 0.0
+		name = "diet:natural_regeneration"
 		operation = "multiply_base"
 
 	[[effects.status_effects]]

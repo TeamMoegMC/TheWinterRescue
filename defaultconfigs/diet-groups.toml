@@ -3,6 +3,7 @@
 [[groups]]
 	color = "#aaffaa"
 	decay_multiplier = 0.1
+	beneficial = true
 	name = "proteins"
 	icon = "kubejs:protein"
 	gain_multiplier = 0.1
@@ -12,6 +13,7 @@
 [[groups]]
 	color = "#aaffaa"
 	decay_multiplier = 0.1
+	beneficial = true
 	name = "grains"
 	icon = "kubejs:grains"
 	gain_multiplier = 0.1
@@ -21,6 +23,7 @@
 [[groups]]
 	color = "#aaffaa"
 	decay_multiplier = 0.1
+	beneficial = true
 	name = "plant_oil"
 	icon = "kubejs:plant_oil"
 	gain_multiplier = 0.1
@@ -30,6 +33,7 @@
 [[groups]]
 	color = "#aaffaa"
 	decay_multiplier = 0.1
+	beneficial = true
 	name = "vegetables"
 	icon = "kubejs:fruits_and_vegs"
 	gain_multiplier = 0.1
@@ -39,6 +43,7 @@
 [[groups]]
 	color = "#ffaaaa"
 	decay_multiplier = 0.1
+	beneficial = false
 	name = "sugars"
 	icon = "kubejs:diabetes_risks"
 	gain_multiplier = 0.1
@@ -48,6 +53,7 @@
 [[groups]]
 	color = "#ffaaaa"
 	decay_multiplier = 0.1
+	beneficial = false
 	name = "vitamin"
 	icon = "kubejs:vitamin_toxicity"
 	gain_multiplier = 0.1

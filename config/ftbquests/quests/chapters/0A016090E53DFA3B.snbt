@@ -1,0 +1,229 @@
+{
+	id: "0A016090E53DFA3B"
+	group: "7823E178F7BCBCB0"
+	order_index: 2
+	filename: "0A016090E53DFA3B"
+	title: "获得知识"
+	icon: {
+		id: "frostedheart:quill_and_ink"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["知识就是力量"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "研究基础知识"
+			icon: "frostedheart:drawing_desk"
+			x: -6.5d
+			y: -0.5d
+			subtitle: "开始获取知识"
+			description: [
+				"研究台可以用于查看科技树和进行研究。"
+				"&6&l点击“当前研究”下方的科技树按钮即可查看科技树。"
+				"研究分为五个大类，可以在科技树面板右上角的标签进行选择。"
+				"&6&l点击列表里面的一个研究可以查看它的研究关系。再次点击可以查看详情，&c在详情页面点击“提交物品并开始研究”即可进行研究！"
+				"研究关系则是当前研究的前置研究和后续研究列表，可以点击研究关系里的研究继续查看对应研究的关系。"
+			]
+			dependencies: ["6A22E2D62D4719BE"]
+			id: "391E30AD9CB7147F"
+			tasks: [{
+				id: "2D456863275FBF11"
+				type: "checkmark"
+				title: "已读"
+			}]
+		}
+		{
+			icon: "minecraft:string"
+			x: -4.5d
+			y: 1.5d
+			subtitle: "抽丝剥茧"
+			description: [
+				"完成线索可以按百分比提升研究进度，而且往往非常可观。"
+				"线索中会有对应的描述或者提示，一般会有一个要求，在开始对应研究后完成线索中的要求即可完成对应的线索。"
+				"&6比如完成研究论文指的是完成研究界面的小游戏。"
+				" "
+				"&6提交物品则是在研究台的“检验”格子放入需要研究的物品并点击检验。"
+			]
+			dependencies: ["391E30AD9CB7147F"]
+			id: "1DE66DB6DF406019"
+			tasks: [{
+				id: "2EBA1153448C9CF0"
+				type: "checkmark"
+				title: "线索"
+			}]
+		}
+		{
+			title: "编写研究论文"
+			icon: "minecraft:paper"
+			x: -4.5d
+			y: -2.0d
+			subtitle: "无任何水分"
+			description: [
+				"大多数研究都会有一个完成研究论文的线索。"
+				"&6&l在选中对应研究后，即可在绘图台产生当前研究的论文。"
+				"&6&l点击绘图台左下角的重置按钮即可消耗“纸”和“笔”产生一个对应研究，&c&l不同等级研究需要不同等级的纸和笔，详见后续任务。"
+				"&6&l点击左下角的帮助按钮可以查看研究论文的完成教程，如果文字看不清可以阅读后续任务。"
+				"&a&l产生和完成论文都需要消耗精力，精力的获取详见后续任务。"
+			]
+			dependencies: ["391E30AD9CB7147F"]
+			id: "1938FC4AAD99137E"
+			tasks: [{
+				id: "0A0A4C059B9D1326"
+				type: "checkmark"
+				title: "效果"
+			}]
+		}
+		{
+			icon: {
+				id: "frostedheart:charcoal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: -0.5d
+			subtitle: "初等书写工具"
+			description: ["完成初等的研究论文需要使用炭笔和石板。"]
+			dependencies: ["1938FC4AAD99137E"]
+			id: "3BBB2213C574F333"
+			tasks: [
+				{
+					id: "5A607BAFC8C0AABA"
+					type: "item"
+					item: {
+						id: "frostedheart:charcoal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "32DF146BA8073267"
+					type: "item"
+					item: "minecraft:stone_pressure_plate"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "frostedheart:quill_and_ink"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: -0.5d
+			subtitle: "简单书写"
+			description: ["完成更高等级的研究需要用到笔墨和纸张"]
+			dependencies: ["3BBB2213C574F333"]
+			id: "1B1E71042B20A174"
+			tasks: [
+				{
+					id: "4CAE6A7D06E0828A"
+					type: "item"
+					item: {
+						id: "frostedheart:quill_and_ink"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "13C03F4F281E5D5B"
+					type: "item"
+					item: "minecraft:paper"
+				}
+			]
+		}
+		{
+			icon: "immersiveengineering:electron_tube"
+			x: -3.0d
+			y: -3.5d
+			subtitle: "他好，我也好"
+			description: [
+				"要想完成研究论文，必须有足够的精力。"
+				"精力在一般情况下会自然恢复，&6&l膳食均衡可以提高精力的回复速度和上限。拥有充足而温暖的睡眠也可以提升回复速度和上限。"
+				"睡在能量塔旁边和穿保暖衣物均可提升睡眠质量，在多人游戏中依然有效。"
+				"&c&l死亡会把精力清零。"
+				"据说运气好的人能够从环境中获得一些启发，启发可以代替精力消耗。"
+			]
+			dependencies: ["1938FC4AAD99137E"]
+			id: "4F8E2D7FDA9A1D17"
+			tasks: [{
+				id: "58D65C019BCBE2B1"
+				type: "checkmark"
+				title: "精力"
+			}]
+		}
+		{
+			icon: {
+				id: "tetra:scroll_rolled"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							intricate: 0b
+							effects: ["tetra:gem_expertise"]
+							material: 0
+							ribbon: "2bffee"
+							glyphs: [
+								14
+								13
+								14
+								15
+							]
+							key: "gem_expertise"
+						}]
+					}
+				}
+			}
+			x: -2.5d
+			y: -2.0d
+			subtitle: "消消乐"
+			description: [
+				"完成研究的方法是消除界面上的所有元素。"
+				"选中一个&6可选的&r元素并且选中&6与它匹配的&r可选元素即可将它们全部消除。"
+				"要使得一个元素可选，需要使得它旁边&6相连两边及其夹角上均没有元素&r。特别的，棋盘外面的区域依然算作&6空白&r。"
+				"“材料”、“能源”、“化学”、“机械”这四种&6基础元素&r可以与&6相同&r的元素匹配。"
+				"所有&6基础元素&r都可以与“转换”元素匹配，“转换”元素也可以与另一个“转换元素”匹配。"
+				"“难题”与“解答”&6互相匹配&r。"
+				"罗马数字则需要与“研究”相匹配，且只能按&6&l数字的顺序&r进行消除，可以查看研究台右侧的顺序列表进行匹配。"
+				"“结论”元素在所有数字都匹配完成之后可以被选中，&6&l选中后就会立即消除&r。"
+				"&c&l棋盘右侧是统计面板，可以查看当前棋盘上棋子数量，如果某种数量是红色的代表它不成对，需要额外注意。"
+				"&6&l示意图详见研究台的帮助面板&r。"
+			]
+			dependencies: ["1938FC4AAD99137E"]
+			id: "3FEE911101C61CFB"
+			tasks: [{
+				id: "6A664AAE41DA218A"
+				type: "checkmark"
+				title: "完成研究论文"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			subtitle: "算力114514K"
+			description: [
+				"研究也可以通过提交足额的科技点数来完成。"
+				"科技点数需要对应的机器才能获取。"
+				"&c&l在拥有制作科技机器的技术前，所有研究都可以通过完成对应的线索来解锁。"
+			]
+			dependencies: ["391E30AD9CB7147F"]
+			id: "37726761B26CE51C"
+			tasks: [{
+				id: "67AE103E9E6F8142"
+				type: "checkmark"
+				title: "研究点数"
+			}]
+		}
+	]
+}
