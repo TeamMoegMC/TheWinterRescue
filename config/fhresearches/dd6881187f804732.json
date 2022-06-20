@@ -1,0 +1,15 @@
+{
+  "name": "金属工具",
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "rankine:bronze_pickaxe",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:ars",
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

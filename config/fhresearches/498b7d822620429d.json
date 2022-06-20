@@ -1,0 +1,15 @@
+{
+  "name": "隔热容器",
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:thermos",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:living",
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

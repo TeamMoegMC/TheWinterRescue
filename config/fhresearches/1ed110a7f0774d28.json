@@ -1,0 +1,15 @@
+{
+  "name": "高级地质探测",
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:copper_geologists_hammer",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:ars",
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}
