@@ -8,6 +8,9 @@
     }
   },
   "category": "frostedheart:ars",
+  "parents": [
+    "9484d2ac70654305"
+  ],
   "clues": [],
   "ingredients": [],
   "effects": [],

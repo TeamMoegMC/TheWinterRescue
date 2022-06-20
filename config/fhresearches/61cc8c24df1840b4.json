@@ -1,9 +1,10 @@
 {
-  "name": "煤炭提纯",
-  "icon": "minecraft:coal",
+  "name": "蒸汽往复运动机构",
+  "icon": "steampowered:bronze_steam_engine",
   "category": "frostedheart:production",
   "parents": [
-    "dd6664230a94b0d"
+    "a96366d5de3645a4",
+    "51aea9e7ab0c4f01"
   ],
   "clues": [],
   "ingredients": [],

@@ -1,10 +1,6 @@
 {
-  "name": "煤炭提纯",
-  "icon": "minecraft:coal",
+  "name": "打磨技艺",
   "category": "frostedheart:production",
-  "parents": [
-    "dd6664230a94b0d"
-  ],
   "clues": [],
   "ingredients": [],
   "effects": [],

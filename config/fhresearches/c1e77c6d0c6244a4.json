@@ -1,9 +1,9 @@
 {
-  "name": "煤炭提纯",
-  "icon": "minecraft:coal",
+  "name": "高效固体还原",
+  "icon": "immersiveengineering:blast_furnace",
   "category": "frostedheart:production",
   "parents": [
-    "dd6664230a94b0d"
+    "5f4f32d550354ae0"
   ],
   "clues": [],
   "ingredients": [],

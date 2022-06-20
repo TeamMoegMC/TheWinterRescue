@@ -2,6 +2,9 @@
   "name": "机械风箱",
   "icon": "charcoal_pit:mechanical_bellows",
   "category": "frostedheart:production",
+  "parents": [
+    "dd6664230a94b0d"
+  ],
   "clues": [],
   "ingredients": [],
   "effects": [],

@@ -1,9 +1,9 @@
 {
-  "name": "煤炭提纯",
-  "icon": "minecraft:coal",
+  "name": "动力流体运输",
+  "icon": "create:fluid_pipe",
   "category": "frostedheart:production",
   "parents": [
-    "dd6664230a94b0d"
+    "8b9ba09a30964cb4"
   ],
   "clues": [],
   "ingredients": [],

@@ -1,9 +1,9 @@
 {
-  "name": "煤炭提纯",
-  "icon": "minecraft:coal",
+  "name": "力学测量仪表",
+  "icon": "create:speedometer",
   "category": "frostedheart:production",
   "parents": [
-    "dd6664230a94b0d"
+    "8b9ba09a30964cb4"
   ],
   "clues": [],
   "ingredients": [],

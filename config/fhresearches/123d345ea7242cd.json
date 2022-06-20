@@ -1,9 +1,9 @@
 {
-  "name": "煤炭提纯",
-  "icon": "minecraft:coal",
+  "name": "机械冷成型技术",
+  "icon": "immersiveengineering:plate_constantan",
   "category": "frostedheart:production",
   "parents": [
-    "dd6664230a94b0d"
+    "c1e77c6d0c6244a4"
   ],
   "clues": [],
   "ingredients": [],

@@ -3,11 +3,14 @@
   "icon": {
     "type": "item",
     "item": {
-      "id": "frostedheart:copper_geologists_hammer",
+      "id": "frostedheart:copper_core_spade",
       "nbt": "{Damage:0}"
     }
   },
   "category": "frostedheart:ars",
+  "parents": [
+    "9d2b8c1517134f29"
+  ],
   "clues": [],
   "ingredients": [],
   "effects": [],

@@ -151,8 +151,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 2.5d
+			x: -11.5d
+			y: 1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.4CC5E16EFDE1368C.subtitle}"
 			description: [
@@ -211,8 +211,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 7.0d
+			x: 1.5d
+			y: 1.0d
 			subtitle: "{quest.twr.401439E8C1AA7A0A.subtitle}"
 			dependencies: ["064ECF25B9B8962B"]
 			id: "401439E8C1AA7A0A"
@@ -276,8 +276,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 1.0d
+			x: -5.0d
+			y: 5.5d
 			shape: "gear"
 			subtitle: "{quest.twr.32A497C69C641D2B.subtitle}"
 			description: [
@@ -285,10 +285,9 @@
 				"{quest.twr.32A497C69C641D2B.description.2}"
 			]
 			dependencies: [
-				"263F5ADF4A6CDF5A"
 				"7612A96FFEFC5635"
+				"17F033FB5ACAACFB"
 			]
-			size: 1.2d
 			id: "32A497C69C641D2B"
 			tasks: [{
 				id: "3B84D2B7F9F7E65F"
@@ -297,11 +296,11 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 10.0d
+			x: -5.0d
+			y: 7.0d
 			subtitle: "{quest.twr.0FEC22A5C56936DC.subtitle}"
 			description: ["{quest.twr.0FEC22A5C56936DC.description.1}"]
-			dependencies: ["17F033FB5ACAACFB"]
+			dependencies: ["32A497C69C641D2B"]
 			id: "0FEC22A5C56936DC"
 			tasks: [{
 				id: "0A9D080781143545"
@@ -310,8 +309,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 1.0d
+			x: -3.5d
+			y: 5.5d
 			shape: "gear"
 			subtitle: "{quest.twr.0F8B1303FEF36BD1.subtitle}"
 			description: [
@@ -333,11 +332,11 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 8.5d
+			x: -3.5d
+			y: 7.0d
 			subtitle: "{quest.twr.0972243D44A0CF46.subtitle}"
 			description: ["{quest.twr.0972243D44A0CF46.description.1}"]
-			dependencies: ["17F033FB5ACAACFB"]
+			dependencies: ["0F8B1303FEF36BD1"]
 			id: "0972243D44A0CF46"
 			tasks: [{
 				id: "410F9EB59C1233FA"
@@ -346,8 +345,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 11.5d
+			x: 0.5d
+			y: -1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.1F2BD4A72596B287.subtitle}"
 			description: [
@@ -368,8 +367,8 @@
 			}]
 		}
 		{
-			x: -15.5d
-			y: 2.0d
+			x: -12.5d
+			y: 2.5d
 			subtitle: "{quest.twr.29DCBBB54EE90E51.subtitle}"
 			description: [
 				"{quest.twr.29DCBBB54EE90E51.description.1}"
@@ -392,8 +391,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 7.0d
+			x: -8.5d
+			y: 3.5d
 			subtitle: "{quest.twr.7EDDAD2D1E2B0613.subtitle}"
 			description: ["{quest.twr.7EDDAD2D1E2B0613.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
@@ -405,8 +404,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 4.0d
+			x: -10.0d
+			y: 1.0d
 			subtitle: "{quest.twr.4600CF7553C26ED0.subtitle}"
 			description: ["{quest.twr.4600CF7553C26ED0.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
@@ -418,8 +417,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 7.0d
+			x: 1.5d
+			y: 3.5d
 			subtitle: "{quest.twr.064ECF25B9B8962B.subtitle}"
 			description: ["{quest.twr.064ECF25B9B8962B.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
@@ -471,7 +470,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -7.5d
 			y: 2.5d
 			shape: "gear"
 			subtitle: "{quest.twr.4548F432A872DA92.subtitle}"
@@ -494,8 +493,8 @@
 			}]
 		}
 		{
-			x: -15.5d
-			y: 4.0d
+			x: -10.5d
+			y: 2.5d
 			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
 			description: ["{quest.twr.15B365E3F3EAFE79.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
@@ -526,7 +525,7 @@
 		{
 			title: "{quest.twr.7612A96FFEFC5635.title}"
 			icon: "steampowered:bronze_boiler"
-			x: -11.5d
+			x: -5.0d
 			y: -0.5d
 			subtitle: "{quest.twr.7612A96FFEFC5635.subtitle}"
 			description: [
@@ -597,8 +596,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: 11.5d
+			x: 2.5d
+			y: -1.5d
 			subtitle: "{quest.twr.4926C4062339E018.subtitle}"
 			dependencies: ["1F2BD4A72596B287"]
 			hide: true
@@ -615,8 +614,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 10.0d
+			x: -2.5d
+			y: -1.5d
 			subtitle: "{quest.twr.5B8BA38FF8C93A1A.subtitle}"
 			dependencies: ["17F033FB5ACAACFB"]
 			hide: true
@@ -633,8 +632,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 8.5d
+			x: -6.5d
+			y: 3.5d
 			subtitle: "{quest.twr.17F033FB5ACAACFB.subtitle}"
 			description: ["{quest.twr.17F033FB5ACAACFB.description.1}"]
 			dependencies: ["1F94471C5310ECFA"]
@@ -654,8 +653,8 @@
 		}
 		{
 			title: "{quest.twr.6439CF1B54CEF092.title}"
-			x: -11.5d
-			y: 3.5d
+			x: -9.0d
+			y: 0.5d
 			subtitle: "{quest.twr.6439CF1B54CEF092.subtitle}"
 			dependencies: ["4600CF7553C26ED0"]
 			id: "6439CF1B54CEF092"
@@ -673,8 +672,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 4.0d
+			x: -7.5d
+			y: 1.0d
 			subtitle: "{quest.twr.279DA3B6F5DE7753.subtitle}"
 			dependencies: [
 				"6577F4E013F76B98"
@@ -688,8 +687,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 4.5d
+			x: -9.0d
+			y: 1.5d
 			subtitle: "{quest.twr.6577F4E013F76B98.subtitle}"
 			description: ["{quest.twr.6577F4E013F76B98.description.1}"]
 			dependencies: ["4600CF7553C26ED0"]
@@ -701,8 +700,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 5.5d
+			x: -6.5d
+			y: 1.0d
 			subtitle: "{quest.twr.1F94471C5310ECFA.subtitle}"
 			dependencies: ["279DA3B6F5DE7753"]
 			id: "1F94471C5310ECFA"
@@ -718,14 +717,14 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -1.5d
+			x: 0.5d
+			y: 2.5d
 			subtitle: "{quest.twr.016B841B20166EA8.subtitle}"
 			description: [
 				"{quest.twr.016B841B20166EA8.description.1}"
 				"{quest.twr.016B841B20166EA8.description.2}"
 			]
-			dependencies: ["19038BB5A9E42055"]
+			dependencies: ["1F2BD4A72596B287"]
 			id: "016B841B20166EA8"
 			tasks: [{
 				id: "0E15A479D897542E"
@@ -742,8 +741,8 @@
 		{
 			title: "{quest.twr.19038BB5A9E42055.title}"
 			icon: "immersiveindustry:crucible"
-			x: -4.2d
-			y: -1.5d
+			x: 7.5d
+			y: 2.5d
 			shape: "gear"
 			subtitle: "{quest.twr.19038BB5A9E42055.subtitle}"
 			description: [
@@ -752,8 +751,10 @@
 				"{quest.twr.19038BB5A9E42055.description.3}"
 				"{quest.twr.19038BB5A9E42055.description.4}"
 			]
-			dependencies: ["6738A3C34A872FED"]
-			size: 1.2d
+			dependencies: [
+				"6738A3C34A872FED"
+				"016B841B20166EA8"
+			]
 			id: "19038BB5A9E42055"
 			tasks: [
 				{
@@ -777,11 +778,14 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -1.5d
+			x: -4.0d
+			y: 2.5d
 			subtitle: "{quest.twr.6738A3C34A872FED.subtitle}"
 			description: ["{quest.twr.6738A3C34A872FED.description.1}"]
-			dependencies: ["29556685F57F6657"]
+			dependencies: [
+				"29556685F57F6657"
+				"4548F432A872DA92"
+			]
 			id: "6738A3C34A872FED"
 			tasks: [{
 				id: "4FDFAF777C766C70"
@@ -790,8 +794,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 10.0d
+			x: 5.5d
+			y: 3.5d
 			description: ["{quest.twr.4B46838E7C65D4C4.description.1}"]
 			dependencies: ["55BE6F159CF89342"]
 			id: "4B46838E7C65D4C4"
@@ -825,14 +829,11 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -4.0d
 			y: -1.5d
 			subtitle: "{quest.twr.29556685F57F6657.subtitle}"
 			description: ["{quest.twr.29556685F57F6657.description.1}"]
-			dependencies: [
-				"67486831FE3C0FBA"
-				"4548F432A872DA92"
-			]
+			dependencies: ["67486831FE3C0FBA"]
 			hide: true
 			id: "29556685F57F6657"
 			tasks: [{
@@ -842,7 +843,7 @@
 			}]
 		}
 		{
-			x: -9.0d
+			x: -11.5d
 			y: -1.5d
 			subtitle: "{quest.twr.4F279E9DBFD52861.subtitle}"
 			description: ["{quest.twr.4F279E9DBFD52861.description.1}"]
@@ -855,8 +856,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: 7.0d
+			x: -0.5d
+			y: 1.0d
 			subtitle: "{quest.twr.688C57B7BC46E723.subtitle}"
 			description: ["{quest.twr.688C57B7BC46E723.description.1}"]
 			dependencies: [
@@ -871,8 +872,8 @@
 			}]
 		}
 		{
-			x: -15.5d
-			y: 5.5d
+			x: -2.5d
+			y: 1.0d
 			subtitle: "{quest.twr.4845A9B7B7B2B4A5.subtitle}"
 			dependencies: ["1F94471C5310ECFA"]
 			hide: true
@@ -884,8 +885,8 @@
 			}]
 		}
 		{
-			x: -15.5d
-			y: 11.5d
+			x: 4.0d
+			y: -1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.7F84766122DC4753.subtitle}"
 			description: ["{quest.twr.7F84766122DC4753.description.1}"]
@@ -921,33 +922,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 2.5d
-			shape: "gear"
-			subtitle: "{quest.twr.263F5ADF4A6CDF5A.subtitle}"
-			dependencies: ["4CC5E16EFDE1368C"]
-			id: "263F5ADF4A6CDF5A"
-			tasks: [{
-				id: "279A50D7F6558E15"
-				type: "item"
-				item: "extendedcrafting:advanced_table"
-			}]
-		}
-		{
-			x: -15.5d
-			y: 3.0d
-			subtitle: "{quest.twr.248D44C92972DF23.subtitle}"
-			dependencies: ["4CC5E16EFDE1368C"]
-			id: "248D44C92972DF23"
-			tasks: [{
-				id: "7A337FEB6672E042"
-				type: "item"
-				item: "extendedcrafting:handheld_table"
-			}]
-		}
-		{
-			x: -8.5d
-			y: 1.0d
+			x: -1.5d
+			y: 5.5d
 			description: [
 				"{quest.twr.41D8E04627E55A86.description.1}"
 				"{quest.twr.41D8E04627E55A86.description.2}"
@@ -978,8 +954,8 @@
 		}
 		{
 			icon: "rankine:tree_tap"
-			x: -11.5d
-			y: 8.5d
+			x: 4.0d
+			y: 3.5d
 			subtitle: "{quest.twr.55BE6F159CF89342.subtitle}"
 			description: ["{quest.twr.55BE6F159CF89342.description.1}"]
 			dependencies: ["064ECF25B9B8962B"]
@@ -1059,8 +1035,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 2.0d
+			x: -1.5d
+			y: 6.5d
 			subtitle: "{quest.twr.39C5B2690D8A6DEC.subtitle}"
 			description: ["{quest.twr.39C5B2690D8A6DEC.description.1}"]
 			dependencies: ["0F8B1303FEF36BD1"]
@@ -1110,8 +1086,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 0.0d
+			x: -1.5d
+			y: 4.5d
 			subtitle: "{quest.twr.2659A48FDF01B1B7.subtitle}"
 			description: [
 				"{quest.twr.2659A48FDF01B1B7.description.1}"
@@ -1143,8 +1119,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: 1.0d
+			x: 0.0d
+			y: 5.5d
 			subtitle: "{quest.twr.739B9AF9D9C2EC05.subtitle}"
 			description: ["{quest.twr.739B9AF9D9C2EC05.description.1}"]
 			dependencies: [
@@ -1166,8 +1142,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 10.0d
+			x: -8.5d
+			y: 5.0d
 			description: ["{quest.twr.2F9F42B32CEDA8B6.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "2F9F42B32CEDA8B6"

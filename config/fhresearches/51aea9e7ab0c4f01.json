@@ -1,0 +1,19 @@
+{
+  "name": "蒸汽机",
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:steam_bottle",
+      "nbt": "{energy:240}"
+    }
+  },
+  "category": "frostedheart:production",
+  "parents": [
+    "f30fdfbf0b8245ed",
+    "5f4f32d550354ae0"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

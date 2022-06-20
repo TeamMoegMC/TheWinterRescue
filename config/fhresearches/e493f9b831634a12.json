@@ -1,15 +1,15 @@
 {
-  "name": "基本矿物探测",
+  "name": "打磨技艺",
   "icon": {
     "type": "item",
     "item": {
-      "id": "frostedheart:copper_pro_pick",
+      "id": "create:sand_paper",
       "nbt": "{Damage:0}"
     }
   },
   "category": "frostedheart:ars",
   "parents": [
-    "6562fc2128d34bd3"
+    "b598eef2208b4232"
   ],
   "clues": [],
   "ingredients": [],

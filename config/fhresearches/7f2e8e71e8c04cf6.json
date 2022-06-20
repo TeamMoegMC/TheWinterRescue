@@ -2,6 +2,9 @@
   "name": "较活泼金属冶炼",
   "icon": "minecraft:iron_ingot",
   "category": "frostedheart:production",
+  "parents": [
+    "9484d2ac70654305"
+  ],
   "clues": [],
   "ingredients": [],
   "effects": [],

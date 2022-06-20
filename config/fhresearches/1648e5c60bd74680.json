@@ -1,7 +1,7 @@
 {
-  "name": "煤炭提纯",
-  "icon": "minecraft:coal",
-  "category": "frostedheart:production",
+  "name": "便携式床",
+  "icon": "comforts:sleeping_bag_white",
+  "category": "frostedheart:living",
   "parents": [
     "dd6664230a94b0d"
   ],

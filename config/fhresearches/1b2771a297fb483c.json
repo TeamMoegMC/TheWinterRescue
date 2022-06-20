@@ -1,9 +1,10 @@
 {
-  "name": "煤炭提纯",
-  "icon": "minecraft:coal",
+  "name": "石英电子管",
+  "icon": "create:electron_tube",
   "category": "frostedheart:production",
   "parents": [
-    "dd6664230a94b0d"
+    "b598eef2208b4232",
+    "e493f9b831634a12"
   ],
   "clues": [],
   "ingredients": [],

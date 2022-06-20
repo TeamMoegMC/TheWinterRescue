@@ -1,8 +1,9 @@
 {
-  "name": "煤炭提纯",
-  "icon": "minecraft:coal",
+  "name": "机械制造装置",
+  "icon": "create:mechanical_crafter",
   "category": "frostedheart:production",
   "parents": [
+    "1b2771a297fb483c",
     "dd6664230a94b0d"
   ],
   "clues": [],
