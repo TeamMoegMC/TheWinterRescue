@@ -611,7 +611,7 @@
 	#Disable vanilla features in the overworld. Works by replacing the listed blocks in #rankine:vanilla_override with stones
 	disableVanillaOres = true
 	#Enable to generate meteorites in the overworld.
-	meteoriteGen = true
+	meteoriteGen = false
 	#Generates the Overworld with a flat bedrock layer.
 	flatBedrock = false
 	#Enables the generation of fumaroles. More options to come.
