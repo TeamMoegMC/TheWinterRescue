@@ -1,0 +1,19 @@
+{
+  "type": "rankine:sluicing",
+  "input": {
+    "item": "frostedheart:copper_gravel"
+  },
+  "tool": {
+    "tag": "rankine:gold_pans"
+  },
+  "outputs": [
+    {
+      "item": "minecraft:gravel",
+      "weight": 4
+    },
+    {
+      "item": "kubejs:native_copper",
+      "weight": 8
+    }
+  ]
+}

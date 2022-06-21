@@ -1,7 +1,6 @@
 var ore_blocks = [
 "rankine:magnetite_ore", 
 "rankine:pyrite_ore", 
-"rankine:native_copper_ore", 
 "rankine:malachite_ore", 
 "rankine:pentlandite_ore", 
 "rankine:native_tin_ore", 
@@ -21,7 +20,6 @@ var ore_blocks = [
 var ores = [
 "rankine:magnetite", 
 "kubejs:pyrite", 
-"kubejs:native_copper", 
 "rankine:malachite", 
 "rankine:pentlandite", 
 "kubejs:native_tin", 

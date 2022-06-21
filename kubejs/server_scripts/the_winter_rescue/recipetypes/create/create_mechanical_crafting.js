@@ -49,6 +49,21 @@ onEvent('recipes', (event) => {
             D: '#forge:plates/steel',
             E: 'create:propeller',
             F: 'create:shaft'
+        }),
+        shapedRecipe('create:blaze_burner', ['EC CE', 'EBDBE', 'EBBBE', 'AAAAA'], {
+            A: 'kubejs:cast_iron_plate',
+            B: '#forge:plates/constantan',
+            C: '#forge:plates/bronze',
+            D: 'minecraft:lava_bucket',
+			E: '#forge:ingots/cast_iron'
+        }),
+        shapedRecipe('immersiveindustry:electrolyzer', ['FFEFF','ABCBA', 'AAAAA', 'ACBCA', 'FFDFF'], {
+            A: 'immersiveengineering:plate_steel',
+            B: '#forge:ingots/silver',
+            C: '#forge:ingots/gold',
+            D: 'immersiveengineering:wirecoil_copper',
+            E: 'immersiveengineering:circuit_board',
+			F: '#forge:ingots/steel'
         })
     ]
     recipes.forEach((recipe) => {
