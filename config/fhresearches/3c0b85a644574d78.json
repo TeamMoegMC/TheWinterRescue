@@ -4,6 +4,19 @@
   "category": "frostedheart:production",
   "clues": [],
   "ingredients": [],
-  "effects": [],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "6106c61efbc34848",
+      "item": "stone_age:millstone"
+    },
+    {
+      "type": "use",
+      "id": "71f815f27a146b2",
+      "blocks": [
+        "stone_age:millstone"
+      ]
+    }
+  ],
   "points": 2000
 }
