@@ -1,7 +1,7 @@
 {
   "name": "更大的储物空间",
   "icon": "minecraft:barrel",
-  "category": "frostedheart:production",
+  "category": "frostedheart:ars",
   "parents": [
     "9484d2ac70654305"
   ],

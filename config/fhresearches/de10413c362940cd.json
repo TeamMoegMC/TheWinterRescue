@@ -5,7 +5,7 @@
     "base": "immersiveengineering:creosote_bucket",
     "small": "minecraft:campfire"
   },
-  "category": "frostedheart:production",
+  "category": "frostedheart:ars",
   "parents": [
     "55260982a83e43fc",
     "ee8b1ed21332400f"

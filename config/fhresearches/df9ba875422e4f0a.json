@@ -16,7 +16,7 @@
       "type": "item",
       "name": "@clue.frostedheart.item",
       "desc": "铜锭x4",
-      "value": 0.25,
+      "value": 0.5,
       "id": "251f28056836468f",
       "item": {
         "count": 4,
