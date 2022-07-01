@@ -1,0 +1,13 @@
+{
+  "name": "机械冷成型技术",
+  "icon": "immersiveengineering:plate_constantan",
+  "category": "frostedheart:production",
+  "parents": [
+    "transmission",
+    "transmission_machinery"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

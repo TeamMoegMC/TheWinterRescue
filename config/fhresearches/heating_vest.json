@@ -1,0 +1,12 @@
+{
+  "name": "加热背心",
+  "icon": "frostedheart:heater_vest",
+  "category": "frostedheart:living",
+  "parents": [
+    "generator_T2"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

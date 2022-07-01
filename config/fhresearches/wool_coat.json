@@ -1,0 +1,18 @@
+{
+  "name": "羊毛大衣",
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:wool_hat",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:living",
+  "parents": [
+    "crucible"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

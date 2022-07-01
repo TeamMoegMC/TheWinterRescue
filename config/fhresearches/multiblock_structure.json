@@ -1,0 +1,12 @@
+{
+  "name": "工业化结构",
+  "icon": "immersiveengineering:light_engineering",
+  "category": "frostedheart:production",
+  "parents": [
+    "electrolyzer"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

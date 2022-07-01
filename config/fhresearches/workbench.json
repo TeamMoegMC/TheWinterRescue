@@ -1,0 +1,12 @@
+{
+  "name": "基本制作工具制造",
+  "icon": "minecraft:crafting_table",
+  "category": "frostedheart:ars",
+  "parents": [
+    "iron"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

@@ -1,0 +1,13 @@
+{
+  "name": "活泼金属的冶炼",
+  "icon": "immersiveindustry:electrolyzer",
+  "category": "frostedheart:production",
+  "parents": [
+    "crucible",
+    "assembly_line"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

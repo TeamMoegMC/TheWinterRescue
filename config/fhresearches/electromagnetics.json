@@ -1,0 +1,12 @@
+{
+  "name": "电与磁的关系",
+  "icon": "immersiveengineering:wirecoil_copper",
+  "category": "frostedheart:production",
+  "parents": [
+    "mechanical_crafter"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

@@ -1,0 +1,17 @@
+{
+  "name": "加热处理",
+  "icon": {
+    "type": "combined",
+    "base": "create:basin",
+    "small": "minecraft:campfire"
+  },
+  "category": "frostedheart:production",
+  "parents": [
+    "mechanical_crafter",
+    "123d345ea7242cd"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

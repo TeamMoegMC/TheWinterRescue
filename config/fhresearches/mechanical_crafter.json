@@ -1,0 +1,13 @@
+{
+  "name": "机械制造装置",
+  "icon": "create:mechanical_crafter",
+  "category": "frostedheart:production",
+  "parents": [
+    "simple_machines",
+    "steam_powerd"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

@@ -1,0 +1,12 @@
+{
+  "name": "蒸汽轮机",
+  "icon": "immersiveindustry:steam_turbine",
+  "category": "frostedheart:ars",
+  "parents": [
+    "multiblock_structure"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

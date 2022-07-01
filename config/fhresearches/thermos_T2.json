@@ -1,0 +1,18 @@
+{
+  "name": "隔热容器T2",
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:advanced_thermos",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:living",
+  "parents": [
+    "electrolyzer"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

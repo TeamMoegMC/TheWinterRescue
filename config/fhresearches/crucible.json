@@ -1,0 +1,13 @@
+{
+  "name": "钢的冶炼",
+  "icon": "immersiveindustry:crucible",
+  "category": "frostedheart:production",
+  "parents": [
+    "heating_basin",
+    "beehive_oven_pit"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

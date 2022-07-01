@@ -1,0 +1,12 @@
+{
+  "name": "简单机械研究",
+  "icon": "create:millstone",
+  "category": "frostedheart:production",
+  "parents": [
+    "blast_furnace"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

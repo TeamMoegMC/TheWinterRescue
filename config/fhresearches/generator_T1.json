@@ -1,0 +1,77 @@
+{
+  "name": "能量核心再利用",
+  "desc": [
+    "能量塔可以加热周围环境，对能量塔核心使用思索即可回忆搭建方式。",
+    "有了它，就可以种植少数耐寒作物了。"
+  ],
+  "descAlt": [
+    "飞船上拆下来的能量核心是否能再次使用呢？",
+    "虽然它的原始供能装置已经损坏，但是也许我可以稍微改变一下供能方式。",
+    "要是成功的话，也许我就可以用它加热周围环境了。"
+  ],
+  "icon": "frostedheart:energy_core",
+  "category": "frostedheart:rescue",
+  "clues": [
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "desc": "铜锭x4",
+      "value": 0.5,
+      "id": "251f28056836468f",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "create:copper_ingot"
+        }
+      },
+      "consume": true
+    },
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "e5cfcad4fa304b47",
+      "level": 0
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 8,
+      "base_ingredient": {
+        "item": "create:copper_ingot"
+      }
+    },
+    {
+      "count": 8,
+      "base_ingredient": {
+        "item": "minecraft:brick"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "158adfb5d2a649d0",
+      "item": "frostedheart:generator_core_t1"
+    },
+    {
+      "type": "item",
+      "id": "4994b13a11204080",
+      "rewards": [
+        "frostedheart:energy_core"
+      ]
+    },
+    {
+      "type": "multiblock",
+      "tooltip": [
+        "T1能量塔"
+      ],
+      "icon": "frostedheart:generator",
+      "id": "91c6a3ae87914f7a",
+      "multiblock": "frostedheart:multiblocks/generator"
+    }
+  ],
+  "points": 2000,
+  "showAltDesc": true,
+  "hideEffects": true
+}

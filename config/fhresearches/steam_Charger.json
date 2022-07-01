@@ -1,0 +1,12 @@
+{
+  "name": "蒸汽充气",
+  "icon": "frostedheart:charger",
+  "category": "frostedheart:living",
+  "parents": [
+    "generator_T2"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

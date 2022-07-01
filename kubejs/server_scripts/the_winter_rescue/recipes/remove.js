@@ -98,6 +98,7 @@ onEvent('recipes', (event) => {
 		"rankine:cadmium_telluride_cell",
 		"rankine:graphite_electrode",
 		"rankine:hard_carbon_electrode",
+		"rankine:wooden_hammer",
 		"supplementaries:cog_block",
 		"supplementaries:spring_launcher",
 		"supplementaries:bellows",
@@ -206,7 +207,6 @@ onEvent('recipes', (event) => {
     // Remove by Types
 	
 	event.remove({type: 'rankine:crushing'})
-	event.remove({type: 'charcoal_pit:orekiln', output: 'rankine:bronze_ingot'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:radiator'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:rs_engineering'})
     event.remove({type: 'immersiveengineering:hammer_crushing'})

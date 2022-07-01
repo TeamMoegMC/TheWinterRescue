@@ -1,0 +1,12 @@
+{
+  "name": "冲压的力量",
+  "icon": "immersiveengineering:metal_press",
+  "category": "frostedheart:production",
+  "parents": [
+    "multiblock_structure"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

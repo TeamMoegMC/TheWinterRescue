@@ -344,8 +344,8 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: 2.5d
+			x: -13.0d
+			y: 3.0d
 			subtitle: "{quest.twr.29DCBBB54EE90E51.subtitle}"
 			description: [
 				"{quest.twr.29DCBBB54EE90E51.description.1}"
@@ -407,8 +407,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 2.5d
+			x: -12.0d
+			y: 3.5d
 			subtitle: "{quest.twr.5845439CF721309F.subtitle}"
 			description: ["{quest.twr.5845439CF721309F.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
@@ -471,7 +471,7 @@
 		}
 		{
 			x: -13.0d
-			y: 2.5d
+			y: 2.0d
 			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
 			description: ["{quest.twr.15B365E3F3EAFE79.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
@@ -593,6 +593,7 @@
 		{
 			x: -6.0d
 			y: 3.5d
+			shape: "gear"
 			subtitle: "{quest.twr.17F033FB5ACAACFB.subtitle}"
 			description: ["{quest.twr.17F033FB5ACAACFB.description.1}"]
 			dependencies: [
@@ -883,8 +884,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 2.5d
+			x: -11.0d
+			y: 3.5d
 			description: [
 				"{quest.twr.41D8E04627E55A86.description.1}"
 				"{quest.twr.41D8E04627E55A86.description.2}"

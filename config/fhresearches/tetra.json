@@ -1,0 +1,12 @@
+{
+  "name": "打磨工具",
+  "icon": "tetra:basic_workbench",
+  "category": "frostedheart:ars",
+  "parents": [
+    "workbench"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

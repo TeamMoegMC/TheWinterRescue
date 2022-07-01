@@ -1,0 +1,12 @@
+{
+  "name": "传动机械",
+  "icon": "steampowered:bronze_large_cogwheel",
+  "category": "frostedheart:production",
+  "parents": [
+    "workbench"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}

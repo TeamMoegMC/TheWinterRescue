@@ -1,0 +1,12 @@
+{
+  "name": "大电解",
+  "icon": "immersiveindustry:industrial_electrolyzer",
+  "category": "frostedheart:ars",
+  "parents": [
+    "metal_press"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [],
+  "points": 2000
+}
