@@ -13,38 +13,36 @@
   "category": "frostedheart:rescue",
   "clues": [
     {
-      "type": "item",
-      "name": "@clue.frostedheart.item",
-      "desc": "铜锭x4",
-      "value": 0.5,
-      "id": "251f28056836468f",
-      "item": {
-        "count": 4,
-        "base_ingredient": {
-          "item": "create:copper_ingot"
-        }
-      },
-      "consume": true
-    },
-    {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "e5cfcad4fa304b47",
       "level": 0
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.25,
+      "id": "7b267ec81b4447f9",
+      "item": {
+        "item": "frostedheart:generator_brick"
+      }
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.25,
+      "id": "b9e02434b4704850",
+      "item": {
+        "item": "frostedheart:generator_amplifier_r1"
+      }
     }
   ],
   "ingredients": [
     {
-      "count": 8,
+      "count": 4,
       "base_ingredient": {
         "item": "create:copper_ingot"
-      }
-    },
-    {
-      "count": 8,
-      "base_ingredient": {
-        "item": "minecraft:brick"
       }
     }
   ],
@@ -71,7 +69,7 @@
       "multiblock": "frostedheart:multiblocks/generator"
     }
   ],
-  "points": 2000,
+  "points": 1000,
   "showAltDesc": true,
   "hideEffects": true
 }

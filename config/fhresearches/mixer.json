@@ -7,6 +7,17 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "ffd2c74f98494956",
+      "item": "create:mechanical_mixer"
+    },
+    {
+      "type": "recipe",
+      "id": "8f50d8ed61ee479f",
+      "item": "create:basin"
+    }
+  ],
+  "points": 1500
 }

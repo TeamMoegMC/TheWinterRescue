@@ -1115,5 +1115,17 @@
 				item: "create:rotation_speed_controller"
 			}]
 		}
+		{
+			x: -7.0d
+			y: 2.0d
+			dependencies: ["17F033FB5ACAACFB"]
+			hide: true
+			id: "7A518EEBDC903884"
+			tasks: [{
+				id: "34BA62FED4C7DF3F"
+				type: "item"
+				item: "frostedheart:mechanical_calculator"
+			}]
+		}
 	]
 }

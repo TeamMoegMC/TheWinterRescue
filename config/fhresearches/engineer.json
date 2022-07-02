@@ -1,0 +1,23 @@
+{
+  "name": "工程师机器",
+  "icon": "engineersdecor:small_tree_cutter",
+  "category": "frostedheart:ars",
+  "parents": [
+    "crucible"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "d6f2d442e8fe4510",
+      "item": "engineersdecor:factory_hopper"
+    },
+    {
+      "type": "recipe",
+      "id": "295d3e9a2e6d422b",
+      "item": "engineersdecor:small_tree_cutter"
+    }
+  ],
+  "points": 4000
+}

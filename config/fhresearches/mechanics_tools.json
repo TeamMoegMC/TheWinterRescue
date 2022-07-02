@@ -7,6 +7,17 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "2f4271397c284cd4",
+      "item": "create:wrench"
+    },
+    {
+      "type": "recipe",
+      "id": "ec34cd963df643f8",
+      "item": "create:goggles"
+    }
+  ],
+  "points": 1250
 }

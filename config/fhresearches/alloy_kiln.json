@@ -1,9 +1,46 @@
 {
-  "name": "高效的合金冶炼",
-  "icon": "immersiveengineering:alloy_smelter",
+  "name": "更高效的合金冶炼",
+  "icon": "rankine:bronze_ingot",
   "category": "frostedheart:production",
-  "clues": [],
+  "clues": [
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "2bca44f6f387479f",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "rankine:bronze_ingot"
+        }
+      }
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "af99accd2d29459c",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "minecraft:brick"
+        }
+      }
+    }
+  ],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveengineering:alloy_smelter",
+      "id": "1bb68ce233ef4f21",
+      "multiblock": "immersiveengineering:multiblocks/alloy_smelter"
+    },
+    {
+      "type": "recipe",
+      "id": "350c485a4b92425c",
+      "item": "immersiveengineering:alloybrick"
+    }
+  ],
+  "points": 800
 }

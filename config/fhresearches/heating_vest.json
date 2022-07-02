@@ -7,6 +7,12 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "eede9e221b03433f",
+      "item": "frostedheart:heater_vest"
+    }
+  ],
+  "points": 4000
 }

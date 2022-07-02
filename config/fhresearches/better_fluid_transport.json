@@ -1,0 +1,23 @@
+{
+  "name": "更好的流体运输",
+  "icon": "immersiveengineering:fluid_pump",
+  "category": "frostedheart:ars",
+  "parents": [
+    "electrolyzer"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "a6204703f5a44c31",
+      "item": "immersiveengineering:fluid_pipe"
+    },
+    {
+      "type": "recipe",
+      "id": "a9694a53bbab41d6",
+      "item": "immersiveengineering:fluid_pump"
+    }
+  ],
+  "points": 4000
+}

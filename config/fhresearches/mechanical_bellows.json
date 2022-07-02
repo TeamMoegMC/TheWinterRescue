@@ -7,6 +7,12 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "b814b77435e341c5",
+      "item": "charcoal_pit:mechanical_bellows"
+    }
+  ],
+  "points": 1000
 }

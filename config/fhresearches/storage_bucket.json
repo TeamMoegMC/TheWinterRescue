@@ -1,9 +1,15 @@
 {
-  "name": "更大的储物空间",
+  "name": "储物空间提升",
   "icon": "minecraft:barrel",
   "category": "frostedheart:ars",
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "e642f75e66ea4da9",
+      "item": "minecraft:barrel"
+    }
+  ],
+  "points": 600
 }

@@ -7,6 +7,14 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "use",
+      "id": "a451e5ccab974fb1",
+      "blocks": [
+        "tetra:basic_workbench"
+      ]
+    }
+  ],
+  "points": 1200
 }

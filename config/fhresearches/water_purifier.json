@@ -8,6 +8,22 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "7740ba2c53c84f03",
+      "item": "watersource:wooden_water_filter"
+    },
+    {
+      "type": "recipe",
+      "id": "1cf7ecdaceb743cd",
+      "item": "watersource:primitive_strainer"
+    },
+    {
+      "type": "recipe",
+      "id": "3a415b55c5794687",
+      "item": "watersource:paper_strainer"
+    }
+  ],
+  "points": 800
 }

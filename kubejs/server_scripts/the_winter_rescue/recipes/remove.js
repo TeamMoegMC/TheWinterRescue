@@ -223,7 +223,6 @@ onEvent('recipes', (event) => {
     event.remove({mod: 'theoneprobe'});
     event.remove({mod: 'extendedcrafting'});
     event.remove({mod: 'immersivepetroleum'});
-	event.remove({mod: 'immersiveindustry'});
     event.remove({input: 'minecraft:sugar_cane', output: 'minecraft:paper'});
     event.remove({input: 'immersiveengineering:dust_wood', output: 'minecraft:paper'});
     event.remove({input: 'rankine:alloy_template', output: 'minecraft:paper'});

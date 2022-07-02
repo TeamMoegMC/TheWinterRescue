@@ -1,12 +1,23 @@
 {
   "name": "高炉自动化升级",
-  "icon": "immersiveengineering:advanced_blast_furnace",
+  "icon": {
+    "type": "combined",
+    "base": "immersiveengineering:ingot_steel",
+    "small": "create:smart_chute"
+  },
   "category": "frostedheart:ars",
   "parents": [
     "crucible"
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveengineering:advanced_blast_furnace",
+      "id": "e0f18345940740b9",
+      "multiblock": "immersiveengineering:multiblocks/improved_blast_furnace"
+    }
+  ],
+  "points": 4000
 }

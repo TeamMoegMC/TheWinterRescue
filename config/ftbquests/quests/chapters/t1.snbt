@@ -354,9 +354,10 @@
 				item: "rankine:copper_ingot"
 			}]
 			rewards: [{
-				id: "6975052D3C879463"
+				id: "2A1C7E868C707E47"
 				type: "item"
-				item: "frostedheart:energy_core"
+				item: "rankine:chalcocite"
+				count: 2
 			}]
 		}
 		{
@@ -1998,6 +1999,7 @@
 				"避免摄入过多&c糖分&r，这会导致&c糖尿病&r，使得伤口&a难以自然愈合&r，并且使人感到异常饥饿。"
 			]
 			dependencies: ["215BC2E7271F1478"]
+			hide: true
 			id: "24E7D1E02BE55A8E"
 			tasks: [{
 				id: "047874DA9F5AB4B1"

@@ -7,6 +7,22 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "d76e3f1a415f45a9",
+      "item": "create:gantry_shaft"
+    },
+    {
+      "type": "recipe",
+      "id": "668cc07c7c504f1a",
+      "item": "create:clockwork_bearing"
+    },
+    {
+      "type": "recipe",
+      "id": "eae55cce82b941a4",
+      "item": "create:super_glue"
+    }
+  ],
+  "points": 2500
 }

@@ -7,6 +7,13 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "frostedheart:heat_radiator",
+      "id": "6931e12b7a594fea",
+      "multiblock": "frostedheart:multiblocks/heat_radiator"
+    }
+  ],
+  "points": 4000
 }

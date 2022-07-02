@@ -1,0 +1,19 @@
+{
+  "name": "发酵",
+  "icon": "immersiveengineering:ethanol_bucket",
+  "category": "frostedheart:production",
+  "parents": [
+    "multiblock_structure"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveengineering:fermenter",
+      "id": "2c104e5484a04ea7",
+      "multiblock": "immersiveengineering:multiblocks/fermenter"
+    }
+  ],
+  "points": 5000
+}

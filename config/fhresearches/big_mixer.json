@@ -1,0 +1,19 @@
+{
+  "name": "大搅拌机",
+  "icon": "immersiveengineering:mixer",
+  "category": "frostedheart:production",
+  "parents": [
+    "multiblock_structure"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveengineering:mixer",
+      "id": "447aa475382f4b84",
+      "multiblock": "immersiveengineering:multiblocks/mixer"
+    }
+  ],
+  "points": 5000
+}

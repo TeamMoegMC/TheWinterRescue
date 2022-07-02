@@ -7,6 +7,18 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveengineering:blast_furnace",
+      "id": "8a9d01be7d574eaa",
+      "multiblock": "immersiveengineering:multiblocks/blast_furnace"
+    },
+    {
+      "type": "recipe",
+      "id": "7a59b074753747e6",
+      "item": "immersiveengineering:blastbrick"
+    }
+  ],
+  "points": 1750
 }

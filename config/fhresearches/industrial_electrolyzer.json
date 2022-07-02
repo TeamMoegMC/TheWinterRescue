@@ -1,12 +1,25 @@
 {
   "name": "大电解",
-  "icon": "immersiveindustry:industrial_electrolyzer",
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "immersiveengineering:graphite_electrode",
+      "nbt": "{graphDmg:0}"
+    }
+  },
   "category": "frostedheart:ars",
   "parents": [
     "metal_press"
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveindustry:industrial_electrolyzer",
+      "id": "8eb48e58afd24a02",
+      "multiblock": "immersiveindustry:multiblocks/industrial_electrolyzer"
+    }
+  ],
+  "points": 6000
 }

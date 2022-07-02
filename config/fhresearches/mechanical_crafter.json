@@ -3,11 +3,17 @@
   "icon": "create:mechanical_crafter",
   "category": "frostedheart:production",
   "parents": [
-    "simple_machines",
-    "steam_powerd"
+    "steam_powerd",
+    "electron_tube"
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "b9e9e9c71b7d416e",
+      "item": "create:mechanical_crafter"
+    }
+  ],
   "points": 2000
 }

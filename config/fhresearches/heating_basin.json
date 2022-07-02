@@ -12,6 +12,12 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "687b592d2b5c41df",
+      "item": "create:blaze_burner"
+    }
+  ],
+  "points": 2500
 }

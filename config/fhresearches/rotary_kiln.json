@@ -3,10 +3,17 @@
   "icon": "immersiveindustry:rotary_kiln",
   "category": "frostedheart:ars",
   "parents": [
-    "multiblock_structure"
+    "squeezer"
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveindustry:rotary_kiln",
+      "id": "b51f3e53bee04af0",
+      "multiblock": "immersiveindustry:multiblocks/rotary_kiln"
+    }
+  ],
+  "points": 6000
 }

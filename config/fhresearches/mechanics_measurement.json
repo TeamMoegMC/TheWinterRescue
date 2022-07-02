@@ -7,6 +7,17 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "6f01401c712d4a2d",
+      "item": "create:speedometer"
+    },
+    {
+      "type": "recipe",
+      "id": "deba63d6981d4580",
+      "item": "create:stressometer"
+    }
+  ],
+  "points": 1250
 }

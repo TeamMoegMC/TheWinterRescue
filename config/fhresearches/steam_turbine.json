@@ -1,12 +1,24 @@
 {
   "name": "蒸汽轮机",
-  "icon": "immersiveindustry:steam_turbine",
+  "icon": {
+    "type": "combined",
+    "base": "immersiveengineering:generator",
+    "small": "steampowered:pressurized_steam_container"
+  },
   "category": "frostedheart:ars",
   "parents": [
-    "multiblock_structure"
+    "squeezer",
+    "fermenter"
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveindustry:steam_turbine",
+      "id": "94083d6042b43d2",
+      "multiblock": "immersiveindustry:multiblocks/steam_turbine"
+    }
+  ],
+  "points": 6000
 }

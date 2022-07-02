@@ -7,6 +7,27 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "a6ea06ff08b4a27",
+      "item": "steampowered:bronze_large_cogwheel"
+    },
+    {
+      "type": "recipe",
+      "id": "afbec057af9c49af",
+      "item": "steampowered:bronze_cogwheel"
+    },
+    {
+      "type": "recipe",
+      "id": "6aa606dd64b94197",
+      "item": "create:shaft"
+    },
+    {
+      "type": "recipe",
+      "id": "7866174699b54cd8",
+      "item": "create:hand_crank"
+    }
+  ],
+  "points": 1500
 }

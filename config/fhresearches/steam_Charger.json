@@ -7,6 +7,12 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "878258aafdca48fb",
+      "item": "frostedheart:charger"
+    }
+  ],
+  "points": 4000
 }

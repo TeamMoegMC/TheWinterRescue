@@ -3,10 +3,17 @@
   "icon": "immersiveindustry:car_kiln",
   "category": "frostedheart:production",
   "parents": [
-    "multiblock_structure"
+    "squeezer"
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveindustry:car_kiln",
+      "id": "eb4a4d16a7a3400c",
+      "multiblock": "immersiveindustry:multiblocks/car_kiln"
+    }
+  ],
+  "points": 6000
 }

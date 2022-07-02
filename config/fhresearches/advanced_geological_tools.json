@@ -13,6 +13,17 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "43a44e2e25ed4931",
+      "item": "frostedheart:copper_core_spade"
+    },
+    {
+      "type": "recipe",
+      "id": "15ebf6acdd874eef",
+      "item": "frostedheart:copper_geologists_hammer"
+    }
+  ],
+  "points": 800
 }

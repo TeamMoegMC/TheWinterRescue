@@ -1,0 +1,23 @@
+{
+  "name": "自动化合成",
+  "icon": {
+    "type": "combined",
+    "base": "minecraft:crafting_table",
+    "small": "minecraft:furnace_minecart"
+  },
+  "category": "frostedheart:production",
+  "parents": [
+    "multiblock_structure"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveengineering:assembler",
+      "id": "a926e6d9bfeb471e",
+      "multiblock": "immersiveengineering:multiblocks/assembler"
+    }
+  ],
+  "points": 5000
+}

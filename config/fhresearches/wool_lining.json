@@ -1,24 +1,24 @@
 {
-  "name": "隔热容器T2",
+  "name": "羊毛内衬",
   "icon": {
     "type": "item",
     "item": {
-      "id": "frostedheart:advanced_thermos",
+      "id": "frostedheart:gambeson",
       "nbt": "{Damage:0}"
     }
   },
   "category": "frostedheart:living",
   "parents": [
-    "electrolyzer"
+    "crucible"
   ],
   "clues": [],
   "ingredients": [],
   "effects": [
     {
       "type": "recipe",
-      "id": "2859cb96ccf842e2",
-      "item": "frostedheart:advanced_thermos"
+      "id": "440a98aed33e41ce",
+      "item": "frostedheart:gambeson"
     }
   ],
-  "points": 4000
+  "points": 3500
 }

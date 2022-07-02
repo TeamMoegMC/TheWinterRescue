@@ -7,6 +7,21 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "multiblock",
+      "tooltip": [
+        "Coke Oven"
+      ],
+      "icon": "immersiveengineering:coke_oven",
+      "id": "6d782276c0774dd4",
+      "multiblock": "immersiveengineering:multiblocks/coke_oven"
+    },
+    {
+      "type": "recipe",
+      "id": "5938110ad0154232",
+      "item": "immersiveengineering:cokebrick"
+    }
+  ],
+  "points": 800
 }

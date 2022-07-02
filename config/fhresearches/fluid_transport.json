@@ -7,6 +7,22 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "bb870b08370d472f",
+      "item": "create:fluid_pipe"
+    },
+    {
+      "type": "recipe",
+      "id": "9bb14fc7e47640d6",
+      "item": "create:mechanical_pump"
+    },
+    {
+      "type": "recipe",
+      "id": "31145c0bc7d4435b",
+      "item": "create:fluid_tank"
+    }
+  ],
+  "points": 1200
 }

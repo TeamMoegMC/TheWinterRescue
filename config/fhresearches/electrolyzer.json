@@ -1,6 +1,6 @@
 {
   "name": "活泼金属的冶炼",
-  "icon": "immersiveindustry:electrolyzer",
+  "icon": "immersiveengineering:dust_aluminum",
   "category": "frostedheart:production",
   "parents": [
     "crucible",
@@ -8,6 +8,12 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "3f1dfd24a4324bae",
+      "item": "immersiveindustry:electrolyzer"
+    }
+  ],
+  "points": 4000
 }

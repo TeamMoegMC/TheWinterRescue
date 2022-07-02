@@ -1,0 +1,22 @@
+{
+  "name": "压缩式存储",
+  "icon": {
+    "type": "combined",
+    "base": "minecraft:chest",
+    "small": "rankine:compressed_biomass"
+  },
+  "category": "frostedheart:ars",
+  "parents": [
+    "workbench"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "8c647bca78294fb3",
+      "item": "storagedrawers:compacting_drawers_3"
+    }
+  ],
+  "points": 1500
+}

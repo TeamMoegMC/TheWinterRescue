@@ -7,6 +7,12 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "a97c8f1a0df84f38",
+      "item": "minecraft:crafting_table"
+    }
+  ],
+  "points": 1200
 }

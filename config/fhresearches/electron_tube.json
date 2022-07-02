@@ -1,0 +1,28 @@
+{
+  "name": "智能化",
+  "icon": "create:electron_tube",
+  "category": "frostedheart:production",
+  "parents": [
+    "simple_machines"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "7f09f15f3749468c",
+      "item": "create:deployer"
+    },
+    {
+      "type": "recipe",
+      "id": "41c6c03849954567",
+      "item": "create:mechanical_arm"
+    },
+    {
+      "type": "recipe",
+      "id": "b57d5551a07844b1",
+      "item": "create:electron_tube"
+    }
+  ],
+  "points": 1750
+}

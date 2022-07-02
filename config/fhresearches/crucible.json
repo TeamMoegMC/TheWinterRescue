@@ -1,13 +1,25 @@
 {
   "name": "钢的冶炼",
-  "icon": "immersiveindustry:crucible",
+  "icon": "immersiveengineering:ingot_steel",
   "category": "frostedheart:production",
   "parents": [
-    "heating_basin",
-    "beehive_oven_pit"
+    "beehive_oven_pit",
+    "heating_basin"
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveindustry:crucible",
+      "id": "3bbf2ad41ee0444f",
+      "multiblock": "immersiveindustry:multiblocks/crucible"
+    },
+    {
+      "type": "recipe",
+      "id": "6e6cf95ee4324e31",
+      "item": "immersiveindustry:burning_chamber"
+    }
+  ],
+  "points": 3500
 }

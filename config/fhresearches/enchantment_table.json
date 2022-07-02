@@ -7,6 +7,12 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "fdb784870461417f",
+      "item": "minecraft:enchanting_table"
+    }
+  ],
+  "points": 1200
 }

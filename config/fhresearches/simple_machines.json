@@ -7,6 +7,23 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "name": "是",
+      "id": "dc0086f2b0a04669",
+      "item": "create:millstone"
+    },
+    {
+      "type": "recipe",
+      "id": "a60284eb340e468e",
+      "item": "create:mechanical_saw"
+    },
+    {
+      "type": "recipe",
+      "id": "3d71b57970614d47",
+      "item": "create:encased_fan"
+    }
+  ],
+  "points": 1750
 }

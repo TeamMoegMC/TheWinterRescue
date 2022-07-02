@@ -10,6 +10,12 @@
   "category": "frostedheart:living",
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "915e5759ba344d58",
+      "item": "frostedheart:thermos"
+    }
+  ],
+  "points": 800
 }

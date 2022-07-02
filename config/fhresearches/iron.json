@@ -2,8 +2,47 @@
   "name": "较活泼金属冶炼",
   "icon": "minecraft:iron_ingot",
   "category": "frostedheart:production",
-  "clues": [],
+  "parents": [
+    "alloy_kiln"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "9a1f4df2a1f44142",
+      "level": 1
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.25,
+      "id": "1aeb1af04bf144eb",
+      "item": {
+        "item": "charcoal_pit:bellows"
+      }
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.25,
+      "id": "dbdfca5ade1f4736",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "rankine:bronze_ingot"
+        }
+      },
+      "consume": true
+    }
+  ],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "c520be3259914225",
+      "item": "charcoal_pit:main_bloomery"
+    }
+  ],
+  "points": 1000
 }

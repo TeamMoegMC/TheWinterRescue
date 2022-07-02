@@ -2,21 +2,22 @@
   "name": "固体研磨",
   "icon": "kubejs:charcoal_dust",
   "category": "frostedheart:production",
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 1.0,
+      "id": "ba87ce6b61e44b26",
+      "level": 1
+    }
+  ],
   "ingredients": [],
   "effects": [
     {
       "type": "recipe",
       "id": "6106c61efbc34848",
       "item": "stone_age:millstone"
-    },
-    {
-      "type": "use",
-      "id": "71f815f27a146b2",
-      "blocks": [
-        "stone_age:millstone"
-      ]
     }
   ],
-  "points": 2000
+  "points": 800
 }

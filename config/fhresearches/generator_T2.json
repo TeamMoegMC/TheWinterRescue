@@ -7,6 +7,18 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "frostedheart:generator_t2",
+      "id": "5c48befb1df4af1",
+      "multiblock": "frostedheart:multiblocks/generator_t2"
+    },
+    {
+      "type": "recipe",
+      "id": "2416a9bba39e4e5e",
+      "item": "frostedheart:heat_pipe"
+    }
+  ],
+  "points": 4000
 }

@@ -7,6 +7,17 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "d16d016f4df84131",
+      "item": "immersiveengineering:light_engineering"
+    },
+    {
+      "type": "recipe",
+      "id": "ee10ccb46fc6449e",
+      "item": "immersiveengineering:rs_engineering"
+    }
+  ],
+  "points": 5000
 }

@@ -17,19 +17,7 @@
       "level": 2
     }
   ],
-  "ingredients": [
-    {
-      "item": "frostedheart:generator_core_t1"
-    }
-  ],
-  "effects": [
-    {
-      "type": "item",
-      "id": "31bbc58c8e6a4784",
-      "rewards": [
-        "frostedheart:generator_core_t1"
-      ]
-    }
-  ],
-  "points": 2000
+  "ingredients": [],
+  "effects": [],
+  "points": 500
 }

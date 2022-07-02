@@ -1,0 +1,25 @@
+{
+  "name": "研究效率提升",
+  "icon": "frostedheart:mechanical_calculator",
+  "category": "frostedheart:ars",
+  "parents": [
+    "mechanical_crafter"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "e1369ba74eba4709",
+      "item": "frostedheart:mechanical_calculator"
+    },
+    {
+      "type": "use",
+      "id": "9c370dbd24084a38",
+      "blocks": [
+        "frostedheart:mechanical_calculator"
+      ]
+    }
+  ],
+  "points": 2250
+}

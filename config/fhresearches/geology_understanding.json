@@ -21,6 +21,23 @@
     }
   ],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "icon": {
+        "type": "combined",
+        "base": {
+          "type": "item",
+          "item": {
+            "id": "frostedheart:copper_pro_pick",
+            "nbt": "{Damage:0}"
+          }
+        },
+        "small": "minecraft:crafting_table"
+      },
+      "id": "e1b61496f49f4857",
+      "item": "frostedheart:copper_pro_pick"
+    }
+  ],
+  "points": 500
 }

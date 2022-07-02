@@ -4,6 +4,22 @@
   "category": "frostedheart:living",
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "69684c4aa1f4d7a",
+      "item": "frostedheart:hand_stove"
+    },
+    {
+      "type": "recipe",
+      "id": "e2e1ed4879604392",
+      "item": "frostedheart:coal_stick"
+    },
+    {
+      "type": "recipe",
+      "id": "45341024a9784ce4",
+      "item": "frostedheart:charcoal_stick"
+    }
+  ],
+  "points": 800
 }

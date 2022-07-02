@@ -7,6 +7,17 @@
   ],
   "clues": [],
   "ingredients": [],
-  "effects": [],
-  "points": 2000
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "a8045c2fe61849b9",
+      "item": "immersiveengineering:wirecoil_copper"
+    },
+    {
+      "type": "recipe",
+      "id": "33b90660c1b843e6",
+      "item": "steampowered:alternator"
+    }
+  ],
+  "points": 2500
 }

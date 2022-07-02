@@ -1,0 +1,19 @@
+{
+  "name": "工业挤压",
+  "icon": "immersiveengineering:squeezer",
+  "category": "frostedheart:production",
+  "parents": [
+    "multiblock_structure"
+  ],
+  "clues": [],
+  "ingredients": [],
+  "effects": [
+    {
+      "type": "multiblock",
+      "icon": "immersiveengineering:squeezer",
+      "id": "4d8ca58a1d414fb2",
+      "multiblock": "immersiveengineering:multiblocks/squeezer"
+    }
+  ],
+  "points": 5000
+}
