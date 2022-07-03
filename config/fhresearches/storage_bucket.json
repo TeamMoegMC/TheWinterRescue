@@ -2,7 +2,26 @@
   "name": "储物空间提升",
   "icon": "minecraft:barrel",
   "category": "frostedheart:ars",
-  "clues": [],
+  "clues": [
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "78c0cf0ff5774b01",
+      "item": {
+        "item": "stone_age:stone_chest"
+      }
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "42a8d2f5abf545bf",
+      "item": {
+        "item": "steampowered:bronze_sheet"
+      }
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

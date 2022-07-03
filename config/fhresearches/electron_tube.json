@@ -5,7 +5,24 @@
   "parents": [
     "simple_machines"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "38231bf8830e4daf",
+      "level": 2
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "a12cd0b816d46ff",
+      "item": {
+        "item": "create:polished_rose_quartz"
+      }
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

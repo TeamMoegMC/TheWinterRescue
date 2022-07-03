@@ -5,7 +5,15 @@
   "parents": [
     "generator_T2"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.3,
+      "id": "7dff3442dedc4173",
+      "level": 3
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

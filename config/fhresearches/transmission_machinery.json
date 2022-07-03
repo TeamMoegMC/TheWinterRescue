@@ -5,7 +5,28 @@
   "parents": [
     "workbench"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "5196c8e264dc41e6",
+      "level": 1
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.0,
+      "id": "9c8abd778cc04c1a",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "rankine:bronze_ingot"
+        }
+      },
+      "consume": true
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

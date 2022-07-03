@@ -5,7 +5,15 @@
   "parents": [
     "multiblock_structure"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.25,
+      "id": "a6e20d3749444d07",
+      "level": 3
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

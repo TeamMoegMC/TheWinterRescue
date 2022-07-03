@@ -5,7 +5,28 @@
   "parents": [
     "workbench"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "27b6af1bfc154174",
+      "level": 0
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "d6ba935397e64525",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "minecraft:coal"
+        }
+      },
+      "consume": true
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

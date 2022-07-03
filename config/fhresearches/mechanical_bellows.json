@@ -5,7 +5,29 @@
   "parents": [
     "workbench"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "4d55f6e23e944a4f",
+      "item": {
+        "item": "minecraft:piston"
+      }
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "7c4fa978bc624cb2",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "minecraft:redstone"
+        }
+      }
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

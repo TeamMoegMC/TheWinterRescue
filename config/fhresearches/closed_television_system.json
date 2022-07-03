@@ -12,9 +12,9 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.0,
+      "value": 1.0,
       "id": "18118d68c14340ee",
-      "level": 2
+      "level": 0
     }
   ],
   "ingredients": [],

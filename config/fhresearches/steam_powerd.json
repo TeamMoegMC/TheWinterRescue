@@ -14,10 +14,17 @@
   ],
   "clues": [
     {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "f3dceb073ccd440f",
+      "level": 1
+    },
+    {
       "type": "item",
       "name": "@clue.frostedheart.item",
       "value": 0.25,
-      "id": "e65d351786d41cb",
+      "id": "43d70558bc714902",
       "item": {
         "item": "steampowered:bronze_burner"
       }
@@ -26,20 +33,38 @@
       "type": "item",
       "name": "@clue.frostedheart.item",
       "value": 0.25,
-      "id": "4678355a9c5a474f",
+      "id": "f2f99cca81a04bca",
       "item": {
         "item": "steampowered:bronze_boiler"
       }
-    },
-    {
-      "type": "game",
-      "name": "@clue.frostedheart.minigame",
-      "value": 0.5,
-      "id": "f81cfe9c4e6d4c20",
-      "level": 2
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 32,
+      "base_ingredient": {
+        "item": "steampowered:bronze_sheet"
+      }
+    },
+    {
+      "count": 12,
+      "base_ingredient": {
+        "item": "rankine:bronze_ingot"
+      }
+    },
+    {
+      "count": 8,
+      "base_ingredient": {
+        "item": "kubejs:cast_iron_plate"
+      }
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "rankine:cast_iron_ingot"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "item",

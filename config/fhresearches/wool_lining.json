@@ -11,7 +11,15 @@
   "parents": [
     "crucible"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.25,
+      "id": "26ae318159284bec",
+      "level": 3
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

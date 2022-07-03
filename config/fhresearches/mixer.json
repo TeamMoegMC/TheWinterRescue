@@ -5,7 +5,24 @@
   "parents": [
     "transmission_machinery"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "e01900bbb5d948b3",
+      "level": 1
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "4d4a1257e1c64949",
+      "item": {
+        "item": "create:whisk"
+      }
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

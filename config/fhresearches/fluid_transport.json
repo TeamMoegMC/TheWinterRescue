@@ -5,7 +5,25 @@
   "parents": [
     "transmission_machinery"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "38eede3f9a0e4996",
+      "level": 1
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "dd7c07ca7b0845d0",
+      "item": {
+        "item": "minecraft:water_bucket"
+      },
+      "consume": true
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

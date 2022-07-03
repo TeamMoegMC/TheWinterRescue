@@ -11,7 +11,15 @@
   "parents": [
     "metal_press"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.2,
+      "id": "c9ab5f35c66e4d15",
+      "level": 3
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

@@ -8,7 +8,33 @@
     }
   },
   "category": "frostedheart:living",
-  "clues": [],
+  "clues": [
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "aae45b8a643e4e72",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "minecraft:leather"
+        }
+      }
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "cbec03d3ebaf4b10",
+      "item": {
+        "type": "forge:nbt",
+        "item": "frostedheart:straw_lining",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "consume": true
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

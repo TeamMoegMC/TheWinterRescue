@@ -5,7 +5,39 @@
   "parents": [
     "mixer"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "7b0380fa39924e97",
+      "level": 2
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.25,
+      "id": "8990547adf2b4f07",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "rankine:invar_ingot"
+        }
+      }
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.25,
+      "id": "67c2d1728d8a4af1",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "rankine:fire_clay_ball"
+        }
+      }
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

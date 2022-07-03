@@ -5,7 +5,36 @@
   "parents": [
     "blast_furnace"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "934e81ca10ef487a",
+      "level": 2
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.25,
+      "id": "8512fdd888294123",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "rankine:cast_iron_ingot"
+        }
+      }
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.25,
+      "id": "28a84ca3f12e4f8c",
+      "item": {
+        "item": "create:propeller"
+      }
+    }
+  ],
   "ingredients": [],
   "effects": [
     {
@@ -13,11 +42,6 @@
       "name": "是",
       "id": "dc0086f2b0a04669",
       "item": "create:millstone"
-    },
-    {
-      "type": "recipe",
-      "id": "a60284eb340e468e",
-      "item": "create:mechanical_saw"
     },
     {
       "type": "recipe",

@@ -9,7 +9,28 @@
   "parents": [
     "workbench"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "abc01458e013403c",
+      "item": {
+        "tag": "storagedrawers:drawers"
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "3060db5d73bf4028",
+      "item": {
+        "item": "storagedrawers:iron_storage_upgrade"
+      },
+      "consume": true
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

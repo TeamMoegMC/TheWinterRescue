@@ -5,7 +5,15 @@
   "parents": [
     "squeezer"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.2,
+      "id": "558625025aee400b",
+      "level": 3
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

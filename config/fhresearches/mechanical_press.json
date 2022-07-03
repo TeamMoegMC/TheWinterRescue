@@ -5,7 +5,24 @@
   "parents": [
     "blast_furnace"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "28ab353d187e4c53",
+      "level": 2
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "1fd198f02090444c",
+      "item": {
+        "item": "minecraft:iron_block"
+      }
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

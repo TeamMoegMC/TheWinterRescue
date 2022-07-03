@@ -11,7 +11,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "9a1f4df2a1f44142",
-      "level": 1
+      "level": 0
     },
     {
       "type": "item",
@@ -26,14 +26,13 @@
       "type": "item",
       "name": "@clue.frostedheart.item",
       "value": 0.25,
-      "id": "dbdfca5ade1f4736",
+      "id": "6fea538c5b184ec7",
       "item": {
         "count": 4,
         "base_ingredient": {
-          "item": "rankine:bronze_ingot"
+          "item": "charcoal_pit:sandy_brick_item"
         }
-      },
-      "consume": true
+      }
     }
   ],
   "ingredients": [],

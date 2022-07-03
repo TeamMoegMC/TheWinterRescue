@@ -4,11 +4,17 @@
   "category": "frostedheart:production",
   "clues": [
     {
-      "type": "game",
-      "name": "@clue.frostedheart.minigame",
+      "type": "item",
+      "name": "@clue.frostedheart.item",
       "value": 1.0,
-      "id": "ba87ce6b61e44b26",
-      "level": 1
+      "id": "2413cd14ad3043af",
+      "item": {
+        "count": 3,
+        "base_ingredient": {
+          "item": "minecraft:stone"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [],

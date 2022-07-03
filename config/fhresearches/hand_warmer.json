@@ -2,7 +2,27 @@
   "name": "阴燃利用",
   "icon": "frostedheart:charcoal_stick",
   "category": "frostedheart:living",
-  "clues": [],
+  "clues": [
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "a158221148e344a2",
+      "item": {
+        "tag": "forge:ingots/copper"
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "d21353778ef84e43",
+      "item": {
+        "item": "minecraft:charcoal"
+      }
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

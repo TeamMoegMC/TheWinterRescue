@@ -1,25 +1,25 @@
 {
-  "name": "附魔技艺",
-  "icon": "minecraft:enchanting_table",
-  "category": "frostedheart:ars",
+  "name": "砍伐大树",
+  "icon": "minecraft:stripped_birch_log",
+  "category": "frostedheart:production",
   "parents": [
-    "tetra"
+    "blast_furnace"
   ],
   "clues": [
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
-      "id": "a292677f06d14e6e",
-      "level": 1
+      "id": "556440486f0e4c91",
+      "level": 2
     },
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
       "value": 0.5,
-      "id": "d04a1b21631444a7",
+      "id": "ac56e12c56774da1",
       "item": {
-        "tag": "forge:bookshelves"
+        "item": "minecraft:stonecutter"
       }
     }
   ],
@@ -27,9 +27,9 @@
   "effects": [
     {
       "type": "recipe",
-      "id": "fdb784870461417f",
-      "item": "minecraft:enchanting_table"
+      "id": "68704f366ba4fcd",
+      "item": "create:mechanical_saw"
     }
   ],
-  "points": 1200
+  "points": 1000
 }

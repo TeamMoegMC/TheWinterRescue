@@ -10,7 +10,15 @@
     "squeezer",
     "fermenter"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.2,
+      "id": "db17de1fd15c4a39",
+      "level": 3
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

@@ -5,7 +5,28 @@
   "parents": [
     "iron"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "a572816614394407",
+      "level": 0
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "c9c9916a0d144d6d",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "immersiveengineering:treated_wood_horizontal"
+        }
+      },
+      "consume": true
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

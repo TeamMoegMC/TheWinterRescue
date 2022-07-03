@@ -5,7 +5,15 @@
   "parents": [
     "transmission_machinery"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 1.0,
+      "id": "502a0efe53d1437c",
+      "level": 1
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

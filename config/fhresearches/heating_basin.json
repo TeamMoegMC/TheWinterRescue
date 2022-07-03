@@ -10,7 +10,15 @@
     "mechanical_crafter",
     "123d345ea7242cd"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.4,
+      "id": "dad9034ff1445e3",
+      "level": 2
+    }
+  ],
   "ingredients": [],
   "effects": [
     {

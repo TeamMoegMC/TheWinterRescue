@@ -5,7 +5,15 @@
   "parents": [
     "mechanical_crafter"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.4,
+      "id": "a2eef0a3915341bd",
+      "level": 2
+    }
+  ],
   "ingredients": [],
   "effects": [
     {
