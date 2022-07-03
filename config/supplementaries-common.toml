@@ -242,9 +242,9 @@
 
 	[tweaks.placeable_sticks]
 		#Allow placeable sticks
-		sticks = true
+		sticks = false
 		#Allow placeable blaze rods
-		blaze_rods = true
+		blaze_rods = false
 
 	[tweaks.bottle_xp]
 		#bottling health cost
@@ -266,7 +266,7 @@
 
 	[tweaks.throwable_bricks]
 		#Throw bricks at your foes! Might break glass blocks
-		enabled = true
+		enabled = false
 
 	[tweaks.raked_gravel]
 		#allow gravel to be raked with a hoe

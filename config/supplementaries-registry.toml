@@ -4,90 +4,90 @@
 
 	[initialization.general]
 		#Enable Creative Tab
-		creative_tab = false
+		creative_tab = true
 		#Enables custom Configured config screen
-		custom_configured_screen = true
+		custom_configured_screen = false
 		#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
-		dispensers = true
+		dispensers = false
 		#Creates a creative tab full of filled jars
 		jar_tab = false
 
 	[initialization.entities]
-		firefly = true
+		firefly = false
 
 	[initialization.blocks]
 		clock_block = true
-		speaker_block = true
-		sack = true
+		speaker_block = false
+		sack = false
 		#WIP
 		laser_block = false
-		bellows = true
-		hanging_sign = true
-		bomb = true
+		bellows = false
+		hanging_sign = false
+		bomb = false
 		#WIP
 		amethyst_arrow = false
 		cage = true
-		stone_tile = true
-		blaze_rod = true
-		bamboo_spikes = true
+		stone_tile = false
+		blaze_rod = false
+		bamboo_spikes = false
 		hourglass = true
-		raked_gravel = true
+		raked_gravel = false
 		jar = true
-		stick = true
-		rope_arrow = true
-		checker_block = true
-		slingshot = true
-		wattle_and_daub = true
-		stone_lamp = true
-		cog_block = true
-		crank = true
+		stick = false
+		rope_arrow = false
+		checker_block = false
+		slingshot = false
+		wattle_and_daub = false
+		stone_lamp = false
+		cog_block = false
+		crank = false
 		copper_lantern = true
 		pancake = true
 		statue = true
-		iron_gate = true
-		bamboo_spikes_tipped = true
-		netherite_trapdoor = true
-		wrench = true
+		iron_gate = false
+		bamboo_spikes_tipped = false
+		netherite_trapdoor = false
+		wrench = false
 		fodder = true
-		end_stone_lamp = true
+		end_stone_lamp = false
 		globe = true
 		sconce = true
-		candelabra = true
-		timber_frame = true
-		spring_launcher = true
-		safe = true
-		sconce_lever = true
+		candelabra = false
+		timber_frame = false
+		spring_launcher = false
+		safe = false
+		sconce_lever = false
 		#WIP
-		present = true
-		sign_post = true
-		pedestal = true
-		blackboard = true
-		netherite_door = true
-		candle_holder = true
+		present = false
+		sign_post = false
+		pedestal = false
+		blackboard = false
+		netherite_door = false
+		candle_holder = false
 		flag = true
-		flint_block = true
+		flint_block = false
 		candy = true
-		rope = true
+		rope = false
 		notice_board = true
-		redstone_illuminator = true
+		redstone_illuminator = false
 		crimson_lantern = true
-		lock_block = true
+		lock_block = false
 		flax = true
 		planter = true
-		wind_vane = true
-		item_shelf = true
-		turn_table = true
-		faucet = true
-		blackstone_lamp = true
-		daub = true
-		gold_trapdoor = true
-		feather_block = true
-		deepslate_lamp = true
-		magma_cream_block = true
-		goblet = true
+		wind_vane = false
+		item_shelf = false
+		turn_table = false
+		faucet = false
+		blackstone_lamp = false
+		daub = false
+		gold_trapdoor = false
+		feather_block = false
+		deepslate_lamp = false
+		magma_cream_block = false
+		goblet = false
 		sconce_green = false
-		flute = true
-		pulley_block = true
-		gold_door = true
-		shulker_shell = true
+		flute = false
+		pulley_block = false
+		gold_door = false
+		shulker_shell = false
 
