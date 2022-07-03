@@ -11,7 +11,27 @@
   "parents": [
     "geology_understanding"
   ],
-  "clues": [],
+  "clues": [
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.5,
+      "id": "55860762a3d9449e",
+      "level": 0
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.5,
+      "id": "ec765f7623834d73",
+      "item": {
+        "type": "forge:nbt",
+        "item": "frostedheart:copper_pro_pick",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      }
+    }
+  ],
   "ingredients": [],
   "effects": [
     {
