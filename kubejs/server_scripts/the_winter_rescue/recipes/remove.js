@@ -117,6 +117,7 @@ onEvent('recipes', (event) => {
 		'rankine:vulcanized_rubber',
 		'rankine:sodium_hydroxide',
 		'rankine:kaolinite',
+		'rankine:high_refractory_brick',
 		'minecraft:rabbit_stew',
 		'minecraft:wheat',
 		'minecraft:mushroom_stew'
@@ -263,7 +264,6 @@ onEvent('recipes', (event) => {
         'create:copper_ingot',
         'create:andesite_alloy',
         '#create:crushed_ores',
-        'rankine:high_refractory_brick',
         'rankine:ultra_high_refractory_brick',
         'immersiveengineering:capacitor_lv',
         'immersiveengineering:capacitor_mv',

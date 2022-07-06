@@ -420,6 +420,16 @@ onEvent('recipes', (event) => {
             A: '#forge:plates/brass',
             B: 'create:electron_tube',
             C: 'create:shaft'
+        }),
+        shapedRecipe('2x immersiveindustry:rotary_kiln_cylinder', ['AAA', 'CCC', 'BBB'], {
+            A: 'immersiveindustry:refractory_kiln_brick',
+            B: '#forge:plates/steel',
+            C: 'rankine:refractory_brick'
+        }),
+        shapedRecipe('2x immersiveindustry:car_kiln_brick', ['AAA', 'ACA', 'BBB'], {
+            A: 'immersiveindustry:refractory_kiln_brick',
+            B: '#forge:plates/steel',
+            C: 'kubejs:constantan_coil'
         })
     ]
 

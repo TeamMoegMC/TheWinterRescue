@@ -17,7 +17,7 @@
 
 	[initialization.blocks]
 		clock_block = true
-		speaker_block = false
+		speaker_block = true
 		sack = false
 		#WIP
 		laser_block = false
@@ -56,7 +56,7 @@
 		timber_frame = false
 		spring_launcher = false
 		safe = false
-		sconce_lever = false
+		sconce_lever = true
 		#WIP
 		present = false
 		sign_post = false
@@ -72,9 +72,9 @@
 		redstone_illuminator = false
 		crimson_lantern = true
 		lock_block = false
-		flax = true
+		flax = false
 		planter = true
-		wind_vane = false
+		wind_vane = true
 		item_shelf = false
 		turn_table = false
 		faucet = false

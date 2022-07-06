@@ -10,7 +10,7 @@ onEvent('item.registry', event => {
 		'aluminium_hydroxide_dust',
 		'kaolin_dust',
 		'tungsten_steel',
-		'constantan_wire',
+		'constantan_coil',
 		'battery_alloy',
 		'magnesium_dust',
 		'frozen_auroch_meat',
