@@ -42,7 +42,7 @@
     {
       "count": 4,
       "base_ingredient": {
-        "item": "create:copper_ingot"
+        "tag": "forge:ingots/copper"
       }
     }
   ],

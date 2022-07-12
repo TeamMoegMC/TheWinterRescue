@@ -3,15 +3,49 @@
   "icon": "frostedheart:mechanical_calculator",
   "category": "frostedheart:ars",
   "parents": [
-    "mechanical_crafter"
+    "mechanical_crafter",
+    "steam_powerd"
   ],
   "clues": [
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 1.0,
+      "value": 0.25,
       "id": "cb966495bd5f4efe",
-      "level": 3
+      "level": 0
+    },
+    {
+      "type": "game",
+      "name": "@clue.frostedheart.minigame",
+      "value": 0.25,
+      "id": "a45806f695af494c",
+      "level": 0
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.25,
+      "id": "c6b9a2fac4b14436",
+      "item": {
+        "count": 16,
+        "base_ingredient": {
+          "tag": "the_winter_rescue:cogwheels"
+        }
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "name": "@clue.frostedheart.item",
+      "value": 0.25,
+      "id": "593d54b210e7473d",
+      "item": {
+        "count": 8,
+        "base_ingredient": {
+          "tag": "the_winter_rescue:large_cogwheels"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [],

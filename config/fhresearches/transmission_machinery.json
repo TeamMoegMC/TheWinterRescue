@@ -16,7 +16,7 @@
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
-      "value": 0.0,
+      "value": 0.5,
       "id": "9c8abd778cc04c1a",
       "item": {
         "count": 4,

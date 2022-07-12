@@ -18,6 +18,9 @@
   "effects": [
     {
       "type": "multiblock",
+      "tooltip": [
+        "二级能量塔"
+      ],
       "icon": "frostedheart:generator_t2",
       "id": "5c48befb1df4af1",
       "multiblock": "frostedheart:multiblocks/generator_t2"
