@@ -15,6 +15,12 @@
     }
   ],
   "ingredients": [],
-  "effects": [],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "ebf7580a48194e65",
+      "item": "immersiveengineering:circuit_board"
+    }
+  ],
   "points": 3500
 }

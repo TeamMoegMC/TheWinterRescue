@@ -269,6 +269,11 @@ onEvent('recipes', (event) => {
         flint_shapedRecipe(Item.of('frostedheart:hay_boots'), ['ABA', 'ABA'], {
             A: Item.of('charcoal_pit:straw').toJson(),
             B: Item.of('rankine:rope').toJson()
+        }, Item.of('stone_age:flint_knife')),
+        flint_shapedRecipe(Item.of('frostedheart:drawing_desk'), ['BB ', 'CAB', 'AAB'], {
+            A: Ingredient.of('#minecraft:planks').toJson(),
+            B: Ingredient.of('#minecraft:wooden_slabs').toJson(),
+            C: Ingredient.of('#forge:plates/copper').toJson(),
         }, Item.of('stone_age:flint_knife'))
     ]
     const only_flint_recipes = [

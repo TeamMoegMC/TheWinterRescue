@@ -69,9 +69,8 @@ onEvent('block.loot_tables', event => {
 			pool.addItem('minecraft:flint', 4)
 		})
 	};
-	
-	event.modifyBlock('primalwinter:snowy_dirt',modseedfunction)
-	event.modifyBlock('minecraft:grass',modseedfunction)
+
+	event.modifyBlock('#forge:grass_blocks',modseedfunction)
 	
 	/*event.addBlock('minecraft:dirt', table => {
 		table.addPool(pool=> {

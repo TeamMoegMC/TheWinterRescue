@@ -1263,7 +1263,7 @@
 		}
 		{
 			title: "{quest.twr.33B6E7B60783C72B.title}"
-			x: -8.0d
+			x: -9.0d
 			y: 1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.33B6E7B60783C72B.subtitle}"
@@ -1304,7 +1304,7 @@
 		{
 			title: "{quest.twr.215BC2E7271F1478.title}"
 			icon: "crockpot:food_category_meat"
-			x: -9.0d
+			x: -8.0d
 			y: 1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.215BC2E7271F1478.subtitle}"
@@ -1786,23 +1786,6 @@
 			}]
 		}
 		{
-			title: "{quest.twr.1A4B718B8132E2BA.title}"
-			icon: "storagedrawers:shroud_key"
-			x: -7.0d
-			y: 1.5d
-			shape: "gear"
-			subtitle: "{quest.twr.1A4B718B8132E2BA.subtitle}"
-			description: [
-				"{quest.twr.1A4B718B8132E2BA.description.1}"
-				"{quest.twr.1A4B718B8132E2BA.description.2}"
-			]
-			id: "1A4B718B8132E2BA"
-			tasks: [{
-				id: "45B10CA984D5E6B0"
-				type: "checkmark"
-			}]
-		}
-		{
 			x: 3.5d
 			y: 5.0d
 			subtitle: "{quest.twr.7887EB905BAA7BEF.subtitle}"
@@ -1985,8 +1968,8 @@
 		}
 		{
 			icon: "crockpot:turkey_dinner"
-			x: -9.0d
-			y: 3.0d
+			x: -8.0d
+			y: 2.5d
 			subtitle: "人是铁，饭是钢"
 			description: [
 				"太空生活人员需要补充足量营养。"

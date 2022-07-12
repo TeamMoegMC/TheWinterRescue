@@ -1,0 +1,10 @@
+{
+  "type": "immersiveindustry:rotary_kiln",
+  "input": {
+    "item": "kubejs:flux"
+  },
+  "result": {
+    "item": "rankine:quicklime"
+  },
+  "time": 400
+}

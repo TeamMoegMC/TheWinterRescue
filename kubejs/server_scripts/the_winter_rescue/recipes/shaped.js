@@ -430,7 +430,16 @@ onEvent('recipes', (event) => {
             A: 'immersiveindustry:refractory_kiln_brick',
             B: '#forge:plates/steel',
             C: 'kubejs:constantan_coil'
+        }),
+        shapedRecipe('frostedheart:quill_and_ink', [' C', 'AB'], {
+            A: 'minecraft:feather',
+            B: 'minecraft:glass_bottle',
+            C: 'minecraft:ink_sac'
+        }),
+        shapedRecipe('frostedheart:charcoal', [' A', 'A '], {
+            A: 'minecraft:charcoal'
         })
+
     ]
 
     /**
