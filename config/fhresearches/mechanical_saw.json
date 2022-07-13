@@ -1,5 +1,5 @@
 {
-  "name": "砍伐大树",
+  "name": "原木处理",
   "icon": "minecraft:stripped_birch_log",
   "category": "frostedheart:production",
   "parents": [
@@ -11,7 +11,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "556440486f0e4c91",
-      "level": 2
+      "level": 1
     },
     {
       "type": "item",

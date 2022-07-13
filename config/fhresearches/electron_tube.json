@@ -1,5 +1,5 @@
 {
-  "name": "智能化",
+  "name": "真空管初步",
   "icon": "create:electron_tube",
   "category": "frostedheart:production",
   "parents": [
@@ -11,7 +11,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "38231bf8830e4daf",
-      "level": 2
+      "level": 1
     },
     {
       "type": "item",

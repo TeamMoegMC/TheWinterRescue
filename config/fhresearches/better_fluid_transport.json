@@ -1,7 +1,7 @@
 {
-  "name": "更好的流体运输",
+  "name": "流体力学初步",
   "icon": "immersiveengineering:fluid_pump",
-  "category": "frostedheart:ars",
+  "category": "frostedheart:production",
   "parents": [
     "electrolyzer"
   ],
@@ -11,7 +11,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.3,
       "id": "350827af7cbd4bcd",
-      "level": 3
+      "level": 1
     }
   ],
   "ingredients": [],

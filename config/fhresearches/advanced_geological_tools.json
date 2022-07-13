@@ -1,5 +1,5 @@
 {
-  "name": "高级地质探测工具",
+  "name": "地质学初步",
   "icon": {
     "type": "item",
     "item": {
@@ -7,7 +7,7 @@
       "nbt": "{Damage:0}"
     }
   },
-  "category": "frostedheart:ars",
+  "category": "frostedheart:exploration",
   "parents": [
     "geology_understanding"
   ],

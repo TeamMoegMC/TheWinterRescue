@@ -1,5 +1,5 @@
 {
-  "name": "大电解",
+  "name": "导电材料突破",
   "icon": {
     "type": "item",
     "item": {
@@ -17,7 +17,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.2,
       "id": "c9ab5f35c66e4d15",
-      "level": 3
+      "level": 1
     }
   ],
   "ingredients": [],

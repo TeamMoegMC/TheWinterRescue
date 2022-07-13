@@ -92,3 +92,7 @@ __pycache__/
 __pycache__/
 config/.twrp*
 /*.json
+
+# MACOS Shit
+.DS_Store
+*.icloud

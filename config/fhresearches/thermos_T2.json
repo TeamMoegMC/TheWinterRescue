@@ -1,5 +1,5 @@
 {
-  "name": "隔热容器T2",
+  "name": "进阶隔热容器",
   "icon": {
     "type": "item",
     "item": {
@@ -17,7 +17,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.25,
       "id": "587048a44a004a5d",
-      "level": 3
+      "level": 1
     }
   ],
   "ingredients": [],

@@ -1,7 +1,7 @@
 {
   "name": "工业木炭处理",
   "icon": "immersiveindustry:rotary_kiln",
-  "category": "frostedheart:ars",
+  "category": "frostedheart:production",
   "parents": [
     "squeezer"
   ],
@@ -11,7 +11,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.2,
       "id": "558625025aee400b",
-      "level": 3
+      "level": 1
     }
   ],
   "ingredients": [],

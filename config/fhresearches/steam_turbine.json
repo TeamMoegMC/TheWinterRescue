@@ -5,7 +5,7 @@
     "base": "immersiveengineering:generator",
     "small": "steampowered:pressurized_steam_container"
   },
-  "category": "frostedheart:ars",
+  "category": "frostedheart:production",
   "parents": [
     "squeezer",
     "fermenter"
@@ -16,7 +16,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.2,
       "id": "db17de1fd15c4a39",
-      "level": 3
+      "level": 1
     }
   ],
   "ingredients": [],
