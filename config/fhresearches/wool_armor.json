@@ -15,11 +15,11 @@
     {
       "type": "kill",
       "name": "@clue.frostedheart.kill",
-      "desc": "@entity.minecraft.sheep",
+      "desc": "@entity.stone_age.mouflon",
       "value": 0.5,
       "id": "8582f18d6e7b4169",
       "always": false,
-      "entity": "minecraft:sheep"
+      "entity": "stone_age:mouflon"
     },
     {
       "type": "item",
