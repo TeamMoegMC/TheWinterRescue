@@ -36,6 +36,15 @@ onEvent('recipes', (event) => {
             E: 'create:propeller',
             F: 'create:shaft'
         }),
+		shapedRecipe('frostedheart:mechanical_calculator', ['GABAG', 'ABABA', 'BHDDD','PIAAA','PDDDD'], {
+            A: 'steampowered:cast_iron_cogwheel',
+            B: 'steampowered:cast_iron_large_cogwheel',
+            D: 'create:precision_mechanism',
+			G: '#forge:plates/cast_iron',
+			H: '#minecraft:planks',
+			I: 'minecraft:bell',
+			P: 'minecraft:piston'
+        }),
         shapedRecipe('steampowered:steel_flywheel', [' DDD ', 'DACAD', 'DCBCD', 'DACAD', ' DDD '], {
             A: 'steampowered:steel_cogwheel',
             B: 'steampowered:steel_large_cogwheel',

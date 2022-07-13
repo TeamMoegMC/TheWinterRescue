@@ -18,7 +18,20 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 4,
+      "base_ingredient": {
+        "tag": "forge:plates/steel"
+      }
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "immersiveengineering:blastbrick"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "multiblock",

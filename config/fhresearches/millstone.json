@@ -6,13 +6,22 @@
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
-      "value": 1.0,
+      "value": 0.75,
       "id": "2413cd14ad3043af",
       "item": {
         "count": 3,
         "base_ingredient": {
           "item": "minecraft:stone"
         }
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "c498cf4e9dbb4c7e",
+      "item": {
+        "tag": "minecraft:coals"
       },
       "consume": true
     }

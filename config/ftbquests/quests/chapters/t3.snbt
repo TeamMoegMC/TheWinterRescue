@@ -298,7 +298,7 @@
 			tasks: [{
 				id: "5D0D6C54B66023E4"
 				type: "item"
-				item: "modularrouters:item_router"
+				item: "immersiveengineering:storage_aluminum"
 			}]
 		}
 		{

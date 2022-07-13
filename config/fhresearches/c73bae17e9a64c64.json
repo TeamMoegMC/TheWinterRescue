@@ -1,0 +1,35 @@
+{
+  "name": "测量土壤温度",
+  "icon": "frostedheart:soil_thermometer",
+  "category": "frostedheart:living",
+  "parents": [
+    "f728ccba1bda4e29"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 1.0,
+      "id": "c8dbb91bb89f42ac",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 16,
+      "base_ingredient": {
+        "item": "minecraft:dirt"
+      }
+    },
+    {
+      "item": "frostedheart:mercury_body_thermometer"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "4b7f02c44a714ea8",
+      "item": "frostedheart:soil_thermometer"
+    }
+  ],
+  "points": 1000
+}

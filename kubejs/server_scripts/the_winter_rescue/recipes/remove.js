@@ -131,7 +131,8 @@ onEvent('recipes', (event) => {
 		'minecraft:bucket',
 		'rankine:hopper_from_metals',
 		'rankine:minecart_from_metals',
-		'stone_age:backpack'
+		'stone_age:backpack',
+		"minecraft:white_wool_from_string"
     ]
 	shapelessName.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shapeless', id: Item});

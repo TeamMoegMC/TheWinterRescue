@@ -1,0 +1,61 @@
+{
+  "name": "堆放矿物拆解工具",
+  "icon": "minecraft:diamond_block",
+  "category": "frostedheart:ars",
+  "parents": [
+    "mechanical_crafter",
+    "geology_understanding"
+  ],
+  "clues": [
+    {
+      "type": "item",
+      "value": 0.5,
+      "id": "36e8d22dd35240b6",
+      "item": {
+        "count": 2,
+        "base_ingredient": {
+          "item": "minecraft:iron_block"
+        }
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "value": 0.5,
+      "id": "5612d1fa13a74a38",
+      "item": {
+        "tag": "forge:hammers"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 2,
+      "base_ingredient": {
+        "item": "minecraft:iron_block"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "tooltip": [
+        "允许手动拆解矿物块"
+      ],
+      "icon": {
+        "type": "combined",
+        "base": "minecraft:iron_block",
+        "small": "minecraft:crafting_table"
+      },
+      "id": "e5b639d249cd46dd",
+      "recipes": [
+        "minecraft:diamond",
+        "minecraft:emerald",
+        "minecraft:gold_ingot_from_gold_block",
+        "minecraft:iron_ingot_from_iron_block",
+        "minecraft:lapis_lazuli"
+      ]
+    }
+  ],
+  "points": 1000
+}

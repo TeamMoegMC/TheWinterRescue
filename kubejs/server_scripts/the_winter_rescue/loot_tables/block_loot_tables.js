@@ -1,4 +1,7 @@
-var ore_blocks = [
+
+
+onEvent('block.loot_tables', event => {
+	var ore_blocks = [
 "rankine:magnetite_ore", 
 "rankine:pyrite_ore", 
 "rankine:malachite_ore", 
@@ -39,8 +42,6 @@ var ores = [
 var i;
 var ores_i;
 var ore_blocks_i;
-
-onEvent('block.loot_tables', event => {
     for (i = 0; i < ores.length; i++) {
         ores_i = ores[i];
         ore_blocks_i = ore_blocks[i];

@@ -1,56 +1,58 @@
 {
-  "name": "高效固体还原",
-  "icon": "immersiveengineering:blast_furnace",
+  "name": "精密机构制作",
+  "icon": "create:precision_mechanism",
   "category": "frostedheart:production",
   "parents": [
-    "mixer"
+    "electron_tube"
   ],
   "clues": [
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
-      "id": "7b0380fa39924e97",
+      "id": "a21aedfe36fc498c",
       "level": 1
     },
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
       "value": 0.25,
-      "id": "8990547adf2b4f07",
+      "id": "ab34d7c839044724",
       "item": {
         "count": 4,
         "base_ingredient": {
-          "tag": "forge:ingots/invar"
+          "item": "create:electron_tube"
         }
-      }
+      },
+      "consume": true
     },
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
+      "desc": "任意齿轮 x4",
       "value": 0.25,
-      "id": "67c2d1728d8a4af1",
+      "id": "24e463212dc74849",
       "item": {
         "count": 4,
         "base_ingredient": {
-          "item": "rankine:fire_clay_ball"
+          "tag": "the_winter_rescue:cogwheels"
         }
-      }
+      },
+      "consume": true
     }
   ],
   "ingredients": [],
   "effects": [
     {
-      "type": "multiblock",
-      "icon": "immersiveengineering:blast_furnace",
-      "id": "8a9d01be7d574eaa",
-      "multiblock": "immersiveengineering:multiblocks/blast_furnace"
+      "type": "recipe",
+      "id": "a342be80757547d6",
+      "item": "create:precision_mechanism"
     },
     {
       "type": "recipe",
-      "id": "7a59b074753747e6",
-      "item": "immersiveengineering:blastbrick"
+      "id": "d0ec6c32ebb544e0",
+      "item": "create:rotation_speed_controller"
     }
   ],
-  "points": 1750
+  "points": 1000
 }

@@ -30,6 +30,11 @@
       "type": "recipe",
       "id": "eae55cce82b941a4",
       "item": "create:super_glue"
+    },
+    {
+      "type": "recipe",
+      "id": "294543cb1944798",
+      "item": "create:gantry_carriage"
     }
   ],
   "points": 2500

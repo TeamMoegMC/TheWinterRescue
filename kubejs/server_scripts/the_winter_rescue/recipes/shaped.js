@@ -10,6 +10,7 @@ onEvent('recipes', (event) => {
             B: 'minecraft:piston',
             C: 'charcoal_pit:bellows'
         }),
+		
         shapedRecipe('rankine:beehive_oven_pit', [' A ', 'ABA', ' A '], {
                     A: 'rankine:refractory_bricks',
                     B: 'minecraft:iron_ingot'
@@ -52,56 +53,7 @@ onEvent('recipes', (event) => {
             B: '#the_winter_rescue:cogwheels',
             C: 'immersiveengineering:stick_treated'
         }),
-        shapedRecipe('modularrouters:blank_module', ['BC', 'AA', 'AA'], {
-            A: '#forge:plates/aluminum',
-            B: 'immersiveengineering:wire_copper',
-            C: 'immersiveengineering:circuit_board'
-        }),
-        shapedRecipe('modularrouters:item_router', ['ABA', 'ACA', 'ABA'], {
-            A: '#forge:plates/aluminum',
-            B: '#the_winter_rescue:cogwheels',
-            C: 'modularrouters:blank_module'
-        }),
-        shapedRecipe('modularrouters:blank_upgrade', ['ABA', 'BAC', 'AD '], {
-            A: '#forge:plates/aluminum',
-            B: '#forge:plates/steel',
-            C: 'immersiveengineering:circuit_board',
-            D: 'immersiveengineering:wire_copper'
-        }),
-        shapedRecipe('modularrouters:fluid_module', ['AB', 'CB'], {
-            A: 'modularrouters:blank_module',
-            B: 'immersiveengineering:wire_copper',
-            C: 'immersiveengineering:circuit_board'
-        }),
-        shapedRecipe('modularrouters:fluid_module_2', ['CB', 'AC', 'CB'], {
-            A: 'modularrouters:blank_module',
-            B: 'immersiveengineering:wire_copper',
-            C: 'immersiveengineering:circuit_board'
-        }),
-        shapedRecipe('modularrouters:puller_module_1', ['AB', 'BC'], {
-            A: 'modularrouters:blank_module',
-            B: 'immersiveengineering:conveyor_covered',
-            C: 'immersiveengineering:wire_copper'
-        }),
-        shapedRecipe('modularrouters:puller_module_2', ['AA', 'AA', 'AB'], {
-            A: 'modularrouters:puller_module_1',
-            B: 'immersiveengineering:wire_copper'
-        }),
-        shapedRecipe('modularrouters:sender_module_1', ['AB', 'BC'], {
-            A: 'modularrouters:puller_module_1',
-            B: 'immersiveengineering:conveyor_covered',
-            C: 'minecraft:piston'
-        }),
-        shapedRecipe('modularrouters:sender_module_2', ['AB', 'BB', 'BC'], {
-            A: 'modularrouters:puller_module_2',
-            B: 'immersiveengineering:conveyor_covered',
-            C: 'minecraft:piston'
-        }),
-        shapedRecipe('modularrouters:void_module', ['ABA', 'BCB', 'ABA'], {
-            A: 'minecraft:flint_and_steel',
-            B: '#the_winter_rescue:cogwheels',
-            C: 'modularrouters:blank_module'
-        }),
+        
         shapedRecipe('engineersdecor:small_tree_cutter', ['ABA', 'ACE', 'ADA'], {
             A: '#forge:plates/steel',
             B: 'immersiveengineering:circuit_board',
@@ -294,7 +246,10 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'immersiveengineering:plantoil_bucket'
         }),
-		
+		shapedRecipe('comforts:sleeping_bag_white', ['BBB', 'A A', 'BBB'], {
+            A: 'immersiveengineering:wire_copper',
+            B: '#forge:leather'
+        }),
         shapedRecipe('frostedheart:oil_burner', ['A A', 'AAA', 'BBB'], {
                     A: '#forge:plates/copper',
                     B: 'minecraft:stone_bricks'

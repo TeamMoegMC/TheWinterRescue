@@ -223,5 +223,24 @@
 				title: "研究点数"
 			}]
 		}
+		{
+			x: -1.0d
+			y: 1.5d
+			subtitle: "提升算力是第一要务"
+			description: [
+				"有些研究过于复杂，无法手动计算，必须借助计算器的帮助了。&e从侧面接入动力，可以传输应力，需要应力64xRPM。&r"
+				"计算器在不工作的时候不会消耗应力，内部具有计算结果的缓存。如果计算缓存满了则会停止工作。"
+			]
+			dependencies: [
+				"3BBB2213C574F333"
+				"3A3B51CF7F606665"
+			]
+			id: "2148082183BBDF76"
+			tasks: [{
+				id: "508F33F5681A36B0"
+				type: "item"
+				item: "frostedheart:mechanical_calculator"
+			}]
+		}
 	]
 }

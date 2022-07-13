@@ -34,19 +34,6 @@
 			}]
 		}
 		{
-			x: -17.5d
-			y: 1.0d
-			subtitle: "{quest.twr.58AB0B83E545475C.subtitle}"
-			dependencies: ["328D948C4C800873"]
-			hide: true
-			id: "58AB0B83E545475C"
-			tasks: [{
-				id: "347504B8E2BFCB48"
-				type: "item"
-				item: "minecraft:white_bed"
-			}]
-		}
-		{
 			x: -16.0d
 			y: -1.25d
 			description: ["{quest.twr.060F482D9D3374F9.description.1}"]
