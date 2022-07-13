@@ -25,6 +25,7 @@
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
+      "hint": "提交砂砖物品，不是砂砖方块",
       "value": 0.25,
       "id": "6fea538c5b184ec7",
       "item": {

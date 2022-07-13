@@ -10,7 +10,8 @@
   "category": "frostedheart:production",
   "parents": [
     "fluid_transport",
-    "mixer"
+    "mixer",
+    "blast_furnace"
   ],
   "clues": [
     {
