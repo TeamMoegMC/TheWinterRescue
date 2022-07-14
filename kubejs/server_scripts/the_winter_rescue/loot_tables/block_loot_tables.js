@@ -14,8 +14,9 @@ onEvent('block.loot_tables', event => {
 "rankine:magnesite_ore", 
 "rankine:galena_ore",
 "rankine:vanadinite_ore", 
-"rankine:native_silver_ore", 
-"rankine:native_gold_ore"
+"rankine:native_silver_ore",
+"rankine:native_gold_ore",
+"frostedheart:copper_gravel"
 // "rankine:sphalerite_ore"
 ];
 var ores = [
@@ -32,7 +33,8 @@ var ores = [
 "rankine:galena",
 "rankine:vanadinite", 
 "kubejs:silver", 
-"kubejs:gold"
+"kubejs:gold",
+"rankine:malachite"
 // "rankine:sphalerite"
 ];
 var i;

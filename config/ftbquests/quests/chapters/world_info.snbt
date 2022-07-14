@@ -324,6 +324,7 @@
 		{
 			x: -0.5d
 			y: 4.0d
+			shape: "circle"
 			description: [
 				"{quest.twr.2A8533418E3A8B06.description.1}"
 				"{quest.twr.2A8533418E3A8B06.description.2}"
@@ -419,6 +420,24 @@
 				id: "1E6EEEDDC45EF1D7"
 				type: "item"
 				item: "rankine:graphite"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			subtitle: "在少数沉积岩中"
+			description: [
+				"生成于："
+				"粉砂岩，泥岩，板岩，安山岩中。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "4D1B960E67D023C4"
+			tasks: [{
+				id: "62EA52A8EA9DAD8E"
+				type: "item"
+				item: "rankine:hematite"
 			}]
 		}
 	]
