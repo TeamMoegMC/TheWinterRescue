@@ -58,7 +58,7 @@ onEvent('recipes', (event) => {
             S: Item.of('#forge:rods/wooden').toJson()
         }, Item.of('stone_age:flint_knife')),
 		flint_shapedRecipe(Item.of('thermopolium:kitchen_stove_t1'), ['DDD', 'SSS', 'S S'], {
-            D: Item.of('minecraft:dirt').toJson(),
+            D: Ingredient.of('#forge:dirt').toJson(),
             S: Ingredient.of('#forge:stone').toJson()
         }, Ingredient.of('#forge:hammers')),
 	    flint_shapedRecipe(Item.of('charcoal_pit:main_bloomery'), ['ABA', 'BCB', 'ABA'], {

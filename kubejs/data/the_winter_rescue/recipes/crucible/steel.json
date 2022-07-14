@@ -3,11 +3,9 @@
   "result": {
     "item": "immersiveengineering:ingot_steel"
   },
-  "input": {
-    "item": "minecraft:iron_ingot"
-  },
-  "input2": {
-    "item": "kubejs:flux"
-  },
+  "inputs": [
+    {"item": "minecraft:iron_ingot"},
+    {"item": "kubejs:flux"}
+  ],
   "time": 1200
 }

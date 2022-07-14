@@ -1,3 +1,5 @@
+
+onEvent('recipes', (event) => {
 var ores = ["rankine:magnetite", "kubejs:pyrite", "rankine:chalcocite", "rankine:malachite", "rankine:pentlandite", "kubejs:native_tin", "rankine:cassiterite", "kubejs:bauxite", "rankine:stibnite", "rankine:cinnabar", "rankine:magnesite", "rankine:galena", "kubejs:halite", "rankine:fluorite", "rankine:vanadinite", "kubejs:silver", "kubejs:gold", "rankine:hematite"];
 var ore_name = ["magnetite", "pyrite", "chalcocite", "malachite", "pentlandite", "native_tin", "cassiterite", "bauxite", "stibnite", "cinnabar", "magnesite", "galena", "halite", "fluorite", "vanadinite", "silver", "gold", "hematite"];
 var by_products = [];
@@ -15,7 +17,6 @@ ore_name中的1号位置(第二个元素)是pyrite(黄铁矿)，这行代码将�
 */
 by_products[1] = [Item.of("rankine:sulfur").withChance(0.5)];
 
-onEvent('recipes', (event) => {
     for (i = 0; i < ores.length; i++) {
         ores_i = ores[i];
         ore_name_i = ore_name[i];

@@ -12,9 +12,7 @@ onEvent('block.loot_tables', event => {
 "rankine:stibnite_ore", 
 "rankine:cinnabar_ore", 
 "rankine:magnesite_ore", 
-"rankine:galena_ore", 
-"rankine:halite_ore", 
-"rankine:fluorite_ore", 
+"rankine:galena_ore",
 "rankine:vanadinite_ore", 
 "rankine:native_silver_ore", 
 "rankine:native_gold_ore"
@@ -31,9 +29,7 @@ var ores = [
 "rankine:stibnite", 
 "rankine:cinnabar", 
 "rankine:magnesite", 
-"rankine:galena", 
-"kubejs:halite", 
-"rankine:fluorite", 
+"rankine:galena",
 "rankine:vanadinite", 
 "kubejs:silver", 
 "kubejs:gold"
@@ -56,7 +52,7 @@ var ore_blocks_i;
         // })
     }
 //若要修改矿石掉落物，将矿石本身放在ore_blicks里，掉落物放在ores里。貌似必须是双引号才行(
-	var modseedfunction= table => {
+	/*var modseedfunction= table => {
 		table.addPool(pool=> {
 			pool.survivesExplosion()
 			pool.randomChance(0.15)
@@ -71,22 +67,26 @@ var ore_blocks_i;
 		})
 	};
 
-	event.modifyBlock('#forge:grass_blocks',modseedfunction)
+	event.modifyBlock('primalwinter:snowy_dirt',modseedfunction)*/
 	
-	/*event.addBlock('minecraft:dirt', table => {
+	event.addBlock('primalwinter:snowy_dirt', table => {
+		table.addPool(pool=> {
+		pool.survivesExplosion()
+		pool.addItem('rankine:loam')
+		}),
 		table.addPool(pool=> {
 			pool.survivesExplosion()
-            pool.addItem('minecraft:dirt', 80)
-            pool.addItem('kubejs:frozen_seeds_melon', 1)
-            pool.addItem('kubejs:frozen_seeds_wheat', 1)
-            pool.addItem('kubejs:frozen_seeds_pumpkin', 1)
-            pool.addItem('kubejs:frozen_seeds_beetroots', 1)
-            pool.addItem('kubejs:frozen_seeds_unknown', 4)
-            pool.addItem('kubejs:frozen_seeds_blackwheat', 1)
+			pool.randomChance(0.15)
+            pool.addItem('frostedheart:frozen_seeds', 4)
+            //pool.addItem('kubejs:frozen_seeds_wheat', 1)
+            //pool.addItem('kubejs:frozen_seeds_pumpkin', 1)
+            //pool.addItem('kubejs:frozen_seeds_beetroots', 1)
+            //pool.addItem('kubejs:frozen_seeds_unknown', 4)
+            //pool.addItem('kubejs:frozen_seeds_blackwheat', 1)
             pool.addItem('kubejs:frozen_white_turnip', 1)
-			pool.addItem('minecraft:flint', 3)
+			pool.addItem('minecraft:flint', 4)
 		})
-	})*/
+	})
 	
 	event.modifyBlock('primalwinter:snowy_sand', table => {
 		table.addPool(pool =>{
