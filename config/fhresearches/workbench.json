@@ -20,9 +20,17 @@
       "id": "c9c9916a0d144d6d",
       "item": {
         "count": 4,
-        "base_ingredient": {
-          "tag": "forge:treated_wood"
-        }
+        "base_ingredient": [
+          {
+            "item": "immersiveengineering:treated_wood_horizontal"
+          },
+          {
+            "item": "immersiveengineering:treated_wood_vertical"
+          },
+          {
+            "item": "immersiveengineering:treated_wood_packaged"
+          }
+        ]
       },
       "consume": true
     }
@@ -33,6 +41,13 @@
       "type": "recipe",
       "id": "a97c8f1a0df84f38",
       "item": "minecraft:crafting_table"
+    },
+    {
+      "type": "use",
+      "id": "e273d064cb6e4f05",
+      "blocks": [
+        "minecraft:crafting_table"
+      ]
     }
   ],
   "points": 1200

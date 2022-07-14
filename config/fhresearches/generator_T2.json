@@ -3,6 +3,7 @@
   "icon": "frostedheart:generator_t2",
   "category": "frostedheart:rescue",
   "parents": [
+    "generator_T1",
     "crucible"
   ],
   "clues": [
