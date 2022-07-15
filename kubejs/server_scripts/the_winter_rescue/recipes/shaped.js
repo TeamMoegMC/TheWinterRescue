@@ -386,9 +386,12 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'kubejs:constantan_coil'
         }),
-        
         shapedRecipe('frostedheart:charcoal', [' A', 'A '], {
             A: 'minecraft:charcoal'
+        }),
+        shapedRecipe('2x rankine:tap_line', ['ABA'], {
+            A: 'kubejs:cast_iron_rod',
+            B: '#forge:ingots/cast_iron'
         })
 
     ]

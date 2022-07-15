@@ -913,11 +913,23 @@
 			description: ["{quest.twr.55BE6F159CF89342.description.1}"]
 			dependencies: ["1F2BD4A72596B287"]
 			id: "55BE6F159CF89342"
-			tasks: [{
-				id: "2FFA0D6FE0FC9143"
-				type: "item"
-				item: "rankine:tree_tap"
-			}]
+			tasks: [
+				{
+					id: "2FFA0D6FE0FC9143"
+					type: "item"
+					item: "rankine:tree_tap"
+				}
+				{
+					id: "4B6CBEEBEBDCE204"
+					type: "item"
+					item: "rankine:tap_line"
+				}
+				{
+					id: "7C92DD3FB4C1D3E7"
+					type: "item"
+					item: "rankine:flood_gate"
+				}
+			]
 			rewards: [{
 				id: "637C54ABCD6B2265"
 				type: "item"

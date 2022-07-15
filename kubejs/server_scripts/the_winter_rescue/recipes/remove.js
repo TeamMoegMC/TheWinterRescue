@@ -70,7 +70,6 @@ onEvent('recipes', (event) => {
 		"rankine:plutonium_rtg",
 		"rankine:americium_rtg",
 		"rankine:curium_rtg",
-		"rankine:flood_gate",
 		"rankine:shulker_gas_vacuum",
 		"rankine:emergency_flotation_device",
 		"rankine:alnico_magnet",
