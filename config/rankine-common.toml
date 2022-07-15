@@ -136,7 +136,7 @@
 		#Range: 0.0 ~ 1.0
 		breakExhaustion = 0.0
 		#Makes axes required to harvest logs.
-		axesOnly = true
+		axesOnly = false
 		#Chance for ice to break when walking on it.
 		#Range: 0.0 ~ 1.0
 		iceBreak = 0.002
