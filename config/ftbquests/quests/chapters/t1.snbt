@@ -647,7 +647,6 @@
 			description: [
 				"{quest.twr.29533DFBD579CA2F.description.1}"
 				"{quest.twr.29533DFBD579CA2F.description.2}"
-				"&c&l制作该物品需要在研究台中解锁对应研究。"
 			]
 			dependencies: [
 				"47F458D8E94E5367"
@@ -846,7 +845,6 @@
 				"{quest.twr.13AA30FB9CD620EB.description.2}"
 				"{quest.twr.13AA30FB9CD620EB.description.3}"
 				"{quest.twr.13AA30FB9CD620EB.description.4}"
-				"&c&l制作该物品需要在研究台中解锁对应研究。"
 			]
 			dependencies: [
 				"4543F3B5F937E6B0"
@@ -1909,8 +1907,8 @@
 		{
 			title: "{block.thermopolium.stew_pot}"
 			icon: "thermopolium:stew_pot"
-			x: 0.5d
-			y: -1.0d
+			x: 1.5d
+			y: -0.5d
 			subtitle: "{quest.twr.11A33F924E78C874.subtitle}"
 			description: [
 				"{quest.twr.11A33F924E78C874.description.1}"

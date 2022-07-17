@@ -47,6 +47,7 @@ onEvent('item.tags', (event) => {
     event.add('the_winter_rescue:large_cogwheels', "steampowered:steel_large_cogwheel")
 
     event.add('forge:ores/copper', "rankine:malachite")
+    event.add('forge:ores/copper', "rankine:chalcocite")
     event.add('forge:ores/tin', "kubejs:native_tin")
     event.add('forge:ores/tin', "rankine:cassiterite")
 	event.add('immersiveengineering:forbidden_in_crates', '#create:toolboxes')
