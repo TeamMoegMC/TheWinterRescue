@@ -3,7 +3,7 @@
   "icon": "frostedheart:soil_thermometer",
   "category": "frostedheart:living",
   "parents": [
-    "f728ccba1bda4e29"
+    "precision_mechanism"
   ],
   "clues": [
     {

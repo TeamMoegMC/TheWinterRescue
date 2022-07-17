@@ -349,10 +349,10 @@
 				item: "create:encased_fan"
 			}]
 			rewards: [{
-				id: "567F999FFE8A3442"
+				id: "45E9FE5EEEEA947B"
 				type: "item"
-				item: "rankine:cast_iron_rod"
-				count: 4
+				item: "kubejs:cast_iron_rod"
+				count: 3
 			}]
 		}
 		{

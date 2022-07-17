@@ -323,6 +323,9 @@ onEvent('recipes', (event) => {
             A: Item.of('minecraft:charcoal').toJson(),
             B: Item.of('minecraft:sand').toJson(),
             C: Item.of('minecraft:clay_ball').toJson()
+        }, Item.of('stone_age:flint_knife')),
+        flint_shapedRecipe(Item.of('2x minecraft:bowl'), ['A A', ' A '], {
+            A: Ingredient.of('#minecraft:planks').toJson()
         }, Item.of('stone_age:flint_knife'))
     ]
     event.remove({output: 'charcoal_pit:unfired_sandy_brick', type: 'minecraft:crafting_shapeless'});

@@ -117,6 +117,7 @@ onEvent('recipes', (event) => {
 		'rankine:sodium_hydroxide',
 		'rankine:kaolinite',
 		'rankine:high_refractory_brick',
+		'#forge:plates',
 		'minecraft:rabbit_stew',
 		'minecraft:wheat',
 		'minecraft:mushroom_stew'
@@ -213,8 +214,8 @@ onEvent('recipes', (event) => {
     event.remove({type: 'immersiveengineering:hammer_crushing'})
 	event.remove({type: 'immersiveengineering:generated_list'})
     event.remove({type: 'minecraft:crafting_shapeless', input: 'immersiveengineering:hammer'})
-	event.remove({type: 'minecraft:crafting_shapeless', output: '#forge:plates'})
     event.remove({type: 'create:splashing', input: 'minecraft:gravel'})
+    event.remove({type: 'create:splashing', input: 'minecraft:red_sand'})
     event.remove({type: 'rankine:crucible', output: '#forge:ingots/steel'})
     event.remove({type: 'rankine:alloying', output: '#forge:ingots/steel'})
 	event.remove({type: "rankine:alloy_crafting"})
@@ -245,6 +246,7 @@ onEvent('recipes', (event) => {
     event.remove({mod: 'rankine',type: 'minecraft:blasting', output: '#forge:storage_blocks'});
 	event.remove({type: 'minecraft:blasting', output: 'immersiveengineering:ingot_hop_graphite'});
 	event.remove({type: 'minecraft:smelting', output: 'immersiveengineering:ingot_hop_graphite'});
+	event.remove({type: 'minecraft:campfire_cooking', output: 'rankine:refractory_brick'});
 	//event.remove({type: 'minecraft:blasting'});
 	['minecraft:air',
 	'stone_age:backpack'].forEach((disabledItem) => {

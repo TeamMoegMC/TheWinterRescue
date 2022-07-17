@@ -589,7 +589,7 @@
 	coltanOreHL = 4
 	#Harvest Level of Bituminous Ore.
 	#Range: 0 ~ 4
-	bituminousOreHL = 3
+	bituminousOreHL = 1
 	#Harvest Level of Bismuthinite Ore.
 	#Range: 0 ~ 4
 	bismuthiniteOreHL = 3
