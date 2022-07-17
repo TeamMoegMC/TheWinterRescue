@@ -101,6 +101,7 @@ onEvent('item.tags', (event) => {
 	event.add("diet:grains","frozenup:truffle_muffin");
 	event.add("diet:vitamin","stone_age:fat");
 	event.add("diet:vitamin","stone_age:cooked_fat");
+
 	event.remove("diet:vegetables","crockpot:corn")
 	event.add("diet:grains","crockpot:corn")
 	//event.add("diet:proteins","minecraft:milk");
@@ -114,5 +115,6 @@ onEvent('item.tags', (event) => {
 	colors.forEach(clr=>{
 		event.add('minecraft:shulker_box', 'minecraft:'+clr+'_shulker_box')
 	})
-
+	event.add('thermopolium:container','frostedheart:advanced_thermos');
+	event.add('thermopolium:container','frostedheart:thermos');
 });
