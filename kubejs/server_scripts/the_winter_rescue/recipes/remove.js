@@ -215,6 +215,7 @@ onEvent('recipes', (event) => {
 	event.remove({type: 'immersiveengineering:generated_list'})
     event.remove({type: 'minecraft:crafting_shapeless', input: 'immersiveengineering:hammer'})
     event.remove({type: 'create:splashing', input: 'minecraft:gravel'})
+    event.remove({type: 'create:splashing', input: 'minecraft:red_sand'})
     event.remove({type: 'rankine:crucible', output: '#forge:ingots/steel'})
     event.remove({type: 'rankine:alloying', output: '#forge:ingots/steel'})
 	event.remove({type: "rankine:alloy_crafting"})
