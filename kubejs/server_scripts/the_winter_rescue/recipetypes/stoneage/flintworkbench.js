@@ -120,10 +120,7 @@ onEvent('recipes', (event) => {
         flint_shapedRecipe(Item.of('minecraft:barrel'), ['ABA', 'A A', 'AAA'], {
             A: Ingredient.of('#minecraft:planks').toJson(),
             B: Ingredient.of('#forge:plates/bronze').toJson()
-        }, Ingredient.of('#forge:axes')),
-        flint_shapedRecipe(Item.of('charcoal_pit:coal_pile'), ['AAA', 'AAA', 'AAA'], {
-        A: Item.of('minecraft:coal').toJson()
-        }, Ingredient.of('#forge:shovels'))
+        }, Ingredient.of('#forge:axes'))
     ]
 
     const recipes = [
@@ -326,7 +323,10 @@ onEvent('recipes', (event) => {
         }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('2x minecraft:bowl'), ['A A', ' A '], {
             A: Ingredient.of('#minecraft:planks').toJson()
-        }, Item.of('stone_age:flint_knife'))
+        }, Item.of('stone_age:flint_knife')),
+        flint_shapedRecipe(Item.of('charcoal_pit:coal_pile'), ['AAA', 'AAA', 'AAA'], {
+        A: Item.of('minecraft:coal').toJson()
+        }, Ingredient.of('#forge:shovels'))
     ]
     event.remove({output: 'charcoal_pit:unfired_sandy_brick', type: 'minecraft:crafting_shapeless'});
 
