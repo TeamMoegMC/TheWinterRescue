@@ -149,23 +149,7 @@ onEvent('recipes', (event) => {
     shapeless.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shapeless', output: Item});
     });
-    let modularrouters = [
-        'modularrouters:activator_module',
-        'modularrouters:breaker_module',
-        'modularrouters:dropper_module',
-        'modularrouters:extruder_module_1',
-        'modularrouters:extruder_module_2',
-        'modularrouters:flinger_module',
-        'modularrouters:placer_module',
-        'modularrouters:player_module',
-        'modularrouters:sender_module_3',
-        'modularrouters:vacuum_module',
-        'modularrouters:stack_upgrade',
-        'modularrouters:speed_upgrade'
-    ]
-    modularrouters.forEach((Item) => {
-        event.remove({output: Item});
-    });
+
     let smelting = [
         'minecraft:iron_ingot',
         'rankine:aluminum_ingot',

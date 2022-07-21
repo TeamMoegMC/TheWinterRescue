@@ -81,7 +81,7 @@
 		#Allows all entities to be captured by cages and jars. Not meant for survival
 		allow_all_mobs = false
 		#Dynamically allows all small mobs inside cages depending on their hitbox size
-		cage_auto_detect = false
+		cage_auto_detect = true
 
 	[blocks.globe]
 		#how many globe trades to give to the wandering trader. This will effectively increase the chance of him having a globe trader. Increase this if you have other mods that add stuff to that trader
