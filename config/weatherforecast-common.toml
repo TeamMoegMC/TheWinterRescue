@@ -1,7 +1,0 @@
-#Enables the weather forecast system. 
-enablesTemperatureForecast = true
-#Requires the player to have the temperature probe item to show temperature orb overlay. 
-requiresTemperatureProbe = true
-#Provides the player initial weather tools on first login. 
-giveInitialWeatherTools = false
-

@@ -1,1 +1,3 @@
+#Enables the weather forecast system. 
+enablesTemperatureForecast = true
 
