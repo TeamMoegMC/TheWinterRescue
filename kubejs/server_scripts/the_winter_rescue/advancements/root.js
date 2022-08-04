@@ -4,7 +4,7 @@ onEvent('server.datapack.high_priority', (event) => {
         {
             "display": {
                 "icon": {
-                    "item": "weatherforecast:temperature_probe"
+                    "item": "frostedheart:temperature_probe"
                 },
                 "title": {
                     "translate": "advancements.the_winter_rescue.root.title"
