@@ -5,7 +5,7 @@ RotaryKilnBaseTickEnergy = 48
 #Range: 0 ~ 4096
 CarKilnBaseTickEnergy = 64
 #Range: 0 ~ 4096
-SteamTurbineGenerator = 1024
+SteamTurbineGenerator = 224
 #Range: 0.0 ~ 96000.0
 ElectrodeCost = 0.25
 
