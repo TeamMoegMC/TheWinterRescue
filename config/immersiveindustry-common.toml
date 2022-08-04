@@ -1,5 +1,11 @@
 #Range: 0 ~ 4096
-steamTurbineGenerator = 224
+ElectrolyzerBaseTickEnergy = 32
+#Range: 0 ~ 4096
+RotaryKilnBaseTickEnergy = 48
+#Range: 0 ~ 4096
+CarKilnBaseTickEnergy = 64
+#Range: 0 ~ 4096
+SteamTurbineGenerator = 1024
 #Range: 0.0 ~ 96000.0
-electrodeCost = 0.25
+ElectrodeCost = 0.25
 
