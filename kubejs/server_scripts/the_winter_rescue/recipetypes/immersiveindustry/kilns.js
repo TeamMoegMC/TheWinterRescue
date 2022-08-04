@@ -34,12 +34,12 @@ onEvent('recipes', (event) => {
 	carkilnr("charcoal_pit:unfired_sandy_brick","charcoal_pit:sandy_brick_item");
 	carkilnr("minecraft:netherrack","minecraft:nether_brick");
 	carkilnr("#forge:stone","minecraft:stone");
-	carkilnr("rankine:fire_clay_ball","rankine:refractory_brick");
 	carkilnr("thermopolium:clay_cistern","thermopolium:stew_pot");
 	carkilnr("minecraft:clay","minecraft:terracotta");
 	carkilnr("#minecraft:sand","minecraft:glass");
 	rotkiln("kubejs:aluminium_hydroxide_dust",'kubejs:aluminium_oxide_dust');
 	rotkiln('kubejs:washed_ore_magnesite','rankine:magnesia');
+	rotkiln('kubejs:flux','rankine:quicklime');
 	[{input: '#kubejs:coal_dust',output: 'minecraft:black_dye'},
      {input: 'kubejs:charcoal_dust',output: 'minecraft:black_dye'},
 	 {output:'kubejs:coal_briquette', input:'kubejs:wet_coal_briquette'},
