@@ -25,11 +25,11 @@
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
-      "desc": "任意小齿轮 x16",
+      "desc": "任意小齿轮 x12",
       "value": 0.25,
       "id": "c6b9a2fac4b14436",
       "item": {
-        "count": 16,
+        "count": 12,
         "base_ingredient": {
           "tag": "the_winter_rescue:cogwheels"
         }
@@ -39,11 +39,11 @@
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
-      "desc": "任意大齿轮 x8",
+      "desc": "任意大齿轮 x4",
       "value": 0.25,
       "id": "593d54b210e7473d",
       "item": {
-        "count": 8,
+        "count": 4,
         "base_ingredient": {
           "tag": "the_winter_rescue:large_cogwheels"
         }
