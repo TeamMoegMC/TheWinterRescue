@@ -1,5 +1,5 @@
 {
-  "name": "蒸汽能量塔",
+  "name": "@",
   "icon": "frostedheart:generator_t2",
   "category": "frostedheart:rescue",
   "parents": [
@@ -20,7 +20,8 @@
     {
       "type": "multiblock",
       "tooltip": [
-        "二级能量塔"
+        "@",
+        "@"
       ],
       "icon": "frostedheart:generator_t2",
       "id": "5c48befb1df4af1",
