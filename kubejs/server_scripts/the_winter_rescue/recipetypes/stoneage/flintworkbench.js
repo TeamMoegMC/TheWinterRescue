@@ -324,7 +324,7 @@ onEvent('recipes', (event) => {
         flint_shapedRecipe(Item.of('2x minecraft:bowl'), ['A A', ' A '], {
             A: Ingredient.of('#minecraft:planks').toJson()
         }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('charcoal_pit:coal_pile'), ['AAA', 'AAA', 'AAA'], {
+        flint_shapedRecipe(Item.of('charcoal_pit:coal_pile'), ['AAA', 'A A', 'AAA'], {
         A: Item.of('minecraft:coal').toJson()
         }, Ingredient.of('#forge:shovels'))
     ]

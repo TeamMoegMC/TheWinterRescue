@@ -246,6 +246,9 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'immersiveengineering:plantoil_bucket'
         }),
+		shapedRecipe('charcoal_pit:coal_pile', ['AAA', 'A A', 'AAA'], {
+        A: Item.of('minecraft:coal').toJson()
+        }),
 		shapedRecipe('comforts:sleeping_bag_white', ['BBB', 'A A', 'BBB'], {
             A: 'immersiveengineering:wire_copper',
             B: '#forge:leather'
