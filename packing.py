@@ -1,3 +1,7 @@
+"""
+Deprecated by the the new TWR Startup Script System
+"""
+
 import os
 import json
 import shutil

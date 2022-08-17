@@ -1,3 +1,8 @@
+"""
+Replace the keys in fhresearches to '@'
+Should run after extract_localization_symbol.sc
+"""
+
 import json
 import os
 
@@ -120,5 +125,6 @@ def process_research(file):
 
 if __name__ == '__main__':
     # loop through all files in the current directory
-    for file in os.listdir(os.getcwd()):
-        process_research(file)
+    research_dir = os.getcwd()+'/config/fhresearches/'
+    for file in os.listdir(research_dir):
+        process_research(research_dir+file)
