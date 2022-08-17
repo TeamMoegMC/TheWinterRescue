@@ -25,7 +25,7 @@
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
-      "desc": "@",
+      "desc": "任意小齿轮 x12",
       "value": 0.25,
       "id": "c6b9a2fac4b14436",
       "item": {
@@ -39,7 +39,7 @@
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
-      "desc": "@",
+      "desc": "任意大齿轮 x4",
       "value": 0.25,
       "id": "593d54b210e7473d",
       "item": {

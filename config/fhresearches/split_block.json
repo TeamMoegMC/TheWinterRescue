@@ -40,7 +40,7 @@
     {
       "type": "recipe",
       "tooltip": [
-        "@"
+        "允许手动拆解矿物块"
       ],
       "icon": {
         "type": "combined",

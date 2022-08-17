@@ -18,11 +18,11 @@
   "ingredients": [],
   "effects": [
     {
-      "name": "@",
+      "name": "一座进阶能量塔",
       "type": "multiblock",
       "tooltip": [
-        "@",
-        "@"
+        "这座蒸汽驱动的能量塔不仅仅能加热环境",
+        "它还能为你的工厂提供澎湃的高压蒸汽"
       ],
       "icon": "frostedheart:generator_t2",
       "id": "5c48befb1df4af1",
