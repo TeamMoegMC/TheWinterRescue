@@ -60,9 +60,11 @@
       ]
     },
     {
+      "name": "初级能量塔",
       "type": "multiblock",
       "tooltip": [
-        "T1能量塔"
+        "最基础的能量塔",
+        "可以加热周围环境"
       ],
       "icon": "frostedheart:generator",
       "id": "91c6a3ae87914f7a",
