@@ -1,7 +1,7 @@
 {
-  "name": "岩石的性质",
+  "name": "@",
   "desc": [
-    "是时候进行一些地质探测了"
+    "@"
   ],
   "icon": {
     "type": "item",
@@ -39,5 +39,9 @@
       "item": "frostedheart:copper_pro_pick"
     }
   ],
-  "points": 500
+  "points": 500,
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

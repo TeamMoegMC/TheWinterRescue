@@ -1,5 +1,5 @@
 {
-  "name": "工业挤压",
+  "name": "@",
   "icon": "immersiveengineering:squeezer",
   "category": "frostedheart:production",
   "parents": [
@@ -23,5 +23,12 @@
       "multiblock": "immersiveengineering:multiblocks/squeezer"
     }
   ],
-  "points": 5000
+  "points": 5000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

@@ -1,5 +1,5 @@
 {
-  "name": "进阶隔热容器",
+  "name": "@",
   "icon": {
     "type": "item",
     "item": {
@@ -28,5 +28,12 @@
       "item": "frostedheart:advanced_thermos"
     }
   ],
-  "points": 4000
+  "points": 4000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

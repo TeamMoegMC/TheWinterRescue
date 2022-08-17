@@ -1,5 +1,5 @@
 {
-  "name": "精密机构制作",
+  "name": "@",
   "icon": "create:precision_mechanism",
   "category": "frostedheart:production",
   "parents": [
@@ -29,7 +29,7 @@
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
-      "desc": "任意齿轮 x4",
+      "desc": "@",
       "value": 0.25,
       "id": "24e463212dc74849",
       "item": {
@@ -54,5 +54,12 @@
       "item": "create:rotation_speed_controller"
     }
   ],
-  "points": 1000
+  "points": 1000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

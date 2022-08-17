@@ -1,5 +1,5 @@
 {
-  "name": "工业化砖窑",
+  "name": "@",
   "icon": "immersiveindustry:car_kiln",
   "category": "frostedheart:production",
   "parents": [
@@ -23,5 +23,12 @@
       "multiblock": "immersiveindustry:multiblocks/car_kiln"
     }
   ],
-  "points": 6000
+  "points": 6000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

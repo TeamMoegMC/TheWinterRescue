@@ -1,5 +1,5 @@
 {
-  "name": "煤炭提纯",
+  "name": "@",
   "icon": "minecraft:coal",
   "category": "frostedheart:ars",
   "parents": [
@@ -32,7 +32,7 @@
     {
       "type": "multiblock",
       "tooltip": [
-        "Coke Oven"
+        "@"
       ],
       "icon": "immersiveengineering:coke_oven",
       "id": "6d782276c0774dd4",
@@ -44,5 +44,12 @@
       "item": "immersiveengineering:cokebrick"
     }
   ],
-  "points": 800
+  "points": 800,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

@@ -1,5 +1,5 @@
 {
-  "name": "工业化结构",
+  "name": "@",
   "icon": "immersiveengineering:light_engineering",
   "category": "frostedheart:production",
   "parents": [
@@ -27,5 +27,12 @@
       "item": "immersiveengineering:rs_engineering"
     }
   ],
-  "points": 5000
+  "points": 5000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

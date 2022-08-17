@@ -1,5 +1,5 @@
 {
-  "name": "内衬保暖",
+  "name": "@",
   "icon": {
     "type": "item",
     "item": {
@@ -43,5 +43,12 @@
       "item": "frostedheart:buff_coat"
     }
   ],
-  "points": 800
+  "points": 800,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

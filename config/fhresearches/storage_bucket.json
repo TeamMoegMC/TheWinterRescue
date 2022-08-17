@@ -1,5 +1,5 @@
 {
-  "name": "储物空间提升",
+  "name": "@",
   "icon": "minecraft:barrel",
   "category": "frostedheart:ars",
   "clues": [
@@ -30,5 +30,12 @@
       "item": "minecraft:barrel"
     }
   ],
-  "points": 600
+  "points": 600,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

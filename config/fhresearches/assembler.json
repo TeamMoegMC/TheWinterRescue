@@ -1,5 +1,5 @@
 {
-  "name": "自动化合成",
+  "name": "@",
   "icon": {
     "type": "combined",
     "base": "minecraft:crafting_table",
@@ -27,5 +27,12 @@
       "multiblock": "immersiveengineering:multiblocks/assembler"
     }
   ],
-  "points": 5000
+  "points": 5000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

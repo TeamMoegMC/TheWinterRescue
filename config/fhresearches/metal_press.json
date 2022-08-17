@@ -1,5 +1,5 @@
 {
-  "name": "冲压的力量",
+  "name": "@",
   "icon": "immersiveengineering:mold_plate",
   "category": "frostedheart:production",
   "parents": [
@@ -33,5 +33,12 @@
       "multiblock": "immersiveengineering:multiblocks/metal_press"
     }
   ],
-  "points": 5000
+  "points": 5000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

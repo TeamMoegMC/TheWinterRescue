@@ -1,5 +1,5 @@
 {
-  "name": "机械制造装置",
+  "name": "@",
   "icon": "create:mechanical_crafter",
   "category": "frostedheart:production",
   "parents": [
@@ -32,5 +32,12 @@
       "item": "create:mechanical_crafter"
     }
   ],
-  "points": 2000
+  "points": 2000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

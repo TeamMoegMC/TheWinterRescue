@@ -1,5 +1,5 @@
 {
-  "name": "活泼金属的冶炼",
+  "name": "@",
   "icon": "immersiveengineering:dust_aluminum",
   "category": "frostedheart:production",
   "parents": [
@@ -23,5 +23,12 @@
       "item": "immersiveindustry:electrolyzer"
     }
   ],
-  "points": 4000
+  "points": 4000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

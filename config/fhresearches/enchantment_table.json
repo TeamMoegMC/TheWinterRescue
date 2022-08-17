@@ -1,5 +1,5 @@
 {
-  "name": "附魔技艺",
+  "name": "@",
   "icon": "minecraft:enchanting_table",
   "category": "frostedheart:ars",
   "parents": [
@@ -31,5 +31,12 @@
       "item": "minecraft:enchanting_table"
     }
   ],
-  "points": 1200
+  "points": 1200,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

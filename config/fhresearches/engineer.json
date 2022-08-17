@@ -1,5 +1,5 @@
 {
-  "name": "工程师机器",
+  "name": "@",
   "icon": "engineersdecor:small_tree_cutter",
   "category": "frostedheart:ars",
   "parents": [
@@ -27,5 +27,12 @@
       "item": "engineersdecor:small_tree_cutter"
     }
   ],
-  "points": 4000
+  "points": 4000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

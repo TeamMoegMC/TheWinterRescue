@@ -1,5 +1,5 @@
 {
-  "name": "高炉自动化升级",
+  "name": "@",
   "icon": {
     "type": "combined",
     "base": "immersiveengineering:ingot_steel",
@@ -40,5 +40,12 @@
       "multiblock": "immersiveengineering:multiblocks/improved_blast_furnace"
     }
   ],
-  "points": 4000
+  "points": 4000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

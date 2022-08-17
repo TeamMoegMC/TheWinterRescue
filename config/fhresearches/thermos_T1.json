@@ -1,5 +1,5 @@
 {
-  "name": "基础隔热容器",
+  "name": "@",
   "icon": {
     "type": "item",
     "item": {
@@ -31,5 +31,12 @@
       "item": "frostedheart:thermos"
     }
   ],
-  "points": 800
+  "points": 800,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

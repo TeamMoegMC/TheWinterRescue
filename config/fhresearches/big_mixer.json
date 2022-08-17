@@ -1,5 +1,5 @@
 {
-  "name": "大量混合",
+  "name": "@",
   "icon": "immersiveengineering:mixer",
   "category": "frostedheart:production",
   "parents": [
@@ -23,5 +23,12 @@
       "multiblock": "immersiveengineering:multiblocks/mixer"
     }
   ],
-  "points": 5000
+  "points": 5000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

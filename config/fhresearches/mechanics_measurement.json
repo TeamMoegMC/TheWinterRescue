@@ -1,5 +1,5 @@
 {
-  "name": "力学测量仪表",
+  "name": "@",
   "icon": "create:speedometer",
   "category": "frostedheart:ars",
   "parents": [
@@ -27,5 +27,12 @@
       "item": "create:stressometer"
     }
   ],
-  "points": 1250
+  "points": 1250,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

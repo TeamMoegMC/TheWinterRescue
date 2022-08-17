@@ -1,5 +1,5 @@
 {
-  "name": "地质学初步",
+  "name": "@",
   "icon": {
     "type": "item",
     "item": {
@@ -45,5 +45,12 @@
       "item": "frostedheart:copper_geologists_hammer"
     }
   ],
-  "points": 800
+  "points": 800,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

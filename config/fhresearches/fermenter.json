@@ -1,5 +1,5 @@
 {
-  "name": "发酵",
+  "name": "@",
   "icon": "immersiveengineering:ethanol_bucket",
   "category": "frostedheart:production",
   "parents": [
@@ -23,5 +23,12 @@
       "multiblock": "immersiveengineering:multiblocks/fermenter"
     }
   ],
-  "points": 5000
+  "points": 5000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

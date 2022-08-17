@@ -1,5 +1,5 @@
 {
-  "name": "动力流体运输",
+  "name": "@",
   "icon": "create:fluid_pipe",
   "category": "frostedheart:production",
   "parents": [
@@ -42,5 +42,12 @@
       "item": "create:fluid_tank"
     }
   ],
-  "points": 1200
+  "points": 1200,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

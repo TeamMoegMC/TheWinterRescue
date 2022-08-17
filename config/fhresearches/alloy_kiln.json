@@ -1,5 +1,5 @@
 {
-  "name": "合金冶炼窑",
+  "name": "@",
   "icon": "rankine:bronze_ingot",
   "category": "frostedheart:production",
   "clues": [
@@ -39,5 +39,12 @@
       "item": "immersiveengineering:alloybrick"
     }
   ],
-  "points": 800
+  "points": 800,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

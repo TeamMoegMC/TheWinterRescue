@@ -1,5 +1,5 @@
 {
-  "name": "简单机械研究",
+  "name": "@",
   "icon": "create:millstone",
   "category": "frostedheart:production",
   "parents": [
@@ -39,7 +39,7 @@
   "effects": [
     {
       "type": "recipe",
-      "name": "是",
+      "name": "@",
       "id": "dc0086f2b0a04669",
       "item": "create:millstone"
     },
@@ -49,5 +49,12 @@
       "item": "create:encased_fan"
     }
   ],
-  "points": 1750
+  "points": 1750,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

@@ -1,5 +1,5 @@
 {
-  "name": "阴燃利用",
+  "name": "@",
   "icon": "frostedheart:charcoal_stick",
   "category": "frostedheart:living",
   "clues": [
@@ -41,5 +41,12 @@
       "item": "frostedheart:charcoal_stick"
     }
   ],
-  "points": 800
+  "points": 800,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

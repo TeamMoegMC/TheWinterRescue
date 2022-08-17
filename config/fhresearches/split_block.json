@@ -1,5 +1,5 @@
 {
-  "name": "堆放矿物拆解工具",
+  "name": "@",
   "icon": "minecraft:diamond_block",
   "category": "frostedheart:ars",
   "parents": [
@@ -40,7 +40,7 @@
     {
       "type": "recipe",
       "tooltip": [
-        "允许手动拆解矿物块"
+        "@"
       ],
       "icon": {
         "type": "combined",
@@ -57,5 +57,12 @@
       ]
     }
   ],
-  "points": 1000
+  "points": 1000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

@@ -1,5 +1,5 @@
 {
-  "name": "羊毛内衬",
+  "name": "@",
   "icon": {
     "type": "item",
     "item": {
@@ -28,5 +28,12 @@
       "item": "frostedheart:gambeson"
     }
   ],
-  "points": 3500
+  "points": 3500,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

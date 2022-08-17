@@ -1,5 +1,5 @@
 {
-  "name": "蒸汽充气",
+  "name": "@",
   "icon": "frostedheart:charger",
   "category": "frostedheart:living",
   "parents": [
@@ -22,5 +22,12 @@
       "item": "frostedheart:charger"
     }
   ],
-  "points": 4000
+  "points": 4000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

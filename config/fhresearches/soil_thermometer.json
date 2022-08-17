@@ -1,5 +1,5 @@
 {
-  "name": "测量土壤温度",
+  "name": "@",
   "icon": "frostedheart:soil_thermometer",
   "category": "frostedheart:living",
   "parents": [
@@ -31,5 +31,12 @@
       "item": "frostedheart:soil_thermometer"
     }
   ],
-  "points": 1000
+  "points": 1000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

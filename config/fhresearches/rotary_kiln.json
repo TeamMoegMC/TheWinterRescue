@@ -1,5 +1,5 @@
 {
-  "name": "工业木炭处理",
+  "name": "@",
   "icon": "immersiveindustry:rotary_kiln",
   "category": "frostedheart:production",
   "parents": [
@@ -23,5 +23,12 @@
       "multiblock": "immersiveindustry:multiblocks/rotary_kiln"
     }
   ],
-  "points": 6000
+  "points": 6000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

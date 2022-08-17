@@ -1,5 +1,5 @@
 {
-  "name": "打磨工具",
+  "name": "@",
   "icon": "tetra:basic_workbench",
   "category": "frostedheart:ars",
   "parents": [
@@ -24,5 +24,12 @@
       ]
     }
   ],
-  "points": 1200
+  "points": 1200,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

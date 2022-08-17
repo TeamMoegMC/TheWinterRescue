@@ -1,5 +1,5 @@
 {
-  "name": "羊毛大衣",
+  "name": "@",
   "icon": {
     "type": "item",
     "item": {
@@ -54,5 +54,12 @@
       "item": "frostedheart:wool_boots"
     }
   ],
-  "points": 1000
+  "points": 1000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

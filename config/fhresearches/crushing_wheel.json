@@ -1,5 +1,5 @@
 {
-  "name": "矿物粉碎流程",
+  "name": "@",
   "icon": "kubejs:crushed_ore_galena",
   "category": "frostedheart:production",
   "parents": [
@@ -22,5 +22,12 @@
       "item": "create:crushing_wheel"
     }
   ],
-  "points": 2500
+  "points": 2500,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

@@ -1,5 +1,5 @@
 {
-  "name": "传动机械",
+  "name": "@",
   "icon": "steampowered:bronze_large_cogwheel",
   "category": "frostedheart:production",
   "parents": [
@@ -50,5 +50,12 @@
       "item": "create:hand_crank"
     }
   ],
-  "points": 1500
+  "points": 1500,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

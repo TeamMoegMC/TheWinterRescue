@@ -1,5 +1,8 @@
 {
-    "research.frostedheart.generator_T2.name": "蒸汽能量塔",
+    "effect.frostedheart.generator_T2.effects.0_5c48befb1df4af1": "一座进阶能量塔",
     "effect.frostedheart.generator_T2.effects.0_5c48befb1df4af1.0": "这座蒸汽驱动的能量塔不仅仅能加热环境",
-    "effect.frostedheart.generator_T2.effects.0_5c48befb1df4af1.1": "它还能为你的工厂提供澎湃的高压蒸汽"
+    "effect.frostedheart.generator_T2.effects.0_5c48befb1df4af1.1": "它还能为你的工厂提供澎湃的高压蒸汽",
+    "effect.frostedheart.generator_T1.effects.2_91c6a3ae87914f7a": "一座初级能量塔",
+    "effect.frostedheart.generator_T1.effects.2_91c6a3ae87914f7a.0": "一座砖块垒起的火炉",
+    "effect.frostedheart.generator_T1.effects.2_91c6a3ae87914f7a.1": "使用铜板加固，可以提高火炉的耐久性"
 }

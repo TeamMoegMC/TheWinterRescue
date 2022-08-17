@@ -1,5 +1,5 @@
 {
-  "name": "流体力学初步",
+  "name": "@",
   "icon": "immersiveengineering:fluid_pump",
   "category": "frostedheart:production",
   "parents": [
@@ -27,5 +27,12 @@
       "item": "immersiveengineering:fluid_pump"
     }
   ],
-  "points": 4000
+  "points": 4000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

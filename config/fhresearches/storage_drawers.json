@@ -1,5 +1,5 @@
 {
-  "name": "压缩式存储",
+  "name": "@",
   "icon": {
     "type": "combined",
     "base": "minecraft:chest",
@@ -39,5 +39,12 @@
       "item": "storagedrawers:compacting_drawers_3"
     }
   ],
-  "points": 1500
+  "points": 1500,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

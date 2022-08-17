@@ -1,5 +1,5 @@
 {
-  "name": "电子装配线",
+  "name": "@",
   "icon": "create:deployer",
   "category": "frostedheart:production",
   "parents": [
@@ -22,5 +22,12 @@
       "item": "immersiveengineering:circuit_board"
     }
   ],
-  "points": 3500
+  "points": 3500,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

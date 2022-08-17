@@ -1,5 +1,5 @@
 {
-  "name": "力学工具",
+  "name": "@",
   "icon": "create:wrench",
   "category": "frostedheart:ars",
   "parents": [
@@ -27,5 +27,12 @@
       "item": "create:goggles"
     }
   ],
-  "points": 1250
+  "points": 1250,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

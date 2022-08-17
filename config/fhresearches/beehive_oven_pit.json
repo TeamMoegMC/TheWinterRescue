@@ -1,5 +1,5 @@
 {
-  "name": "固体热分解",
+  "name": "@",
   "icon": "rankine:beehive_oven_pit",
   "category": "frostedheart:production",
   "parents": [
@@ -47,5 +47,12 @@
       "item": "rankine:beehive_oven_pit"
     }
   ],
-  "points": 1500
+  "points": 1500,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

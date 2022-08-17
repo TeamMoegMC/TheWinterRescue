@@ -1,5 +1,5 @@
 {
-  "name": "机械冷成型技术",
+  "name": "@",
   "icon": "immersiveengineering:plate_constantan",
   "category": "frostedheart:production",
   "parents": [
@@ -31,5 +31,12 @@
       "item": "create:mechanical_press"
     }
   ],
-  "points": 1750
+  "points": 1750,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

@@ -1,5 +1,5 @@
 {
-  "name": "高效固体还原",
+  "name": "@",
   "icon": "immersiveengineering:blast_furnace",
   "category": "frostedheart:production",
   "parents": [
@@ -52,5 +52,12 @@
       "item": "immersiveengineering:blastbrick"
     }
   ],
-  "points": 1750
+  "points": 1750,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

@@ -1,5 +1,5 @@
 {
-  "name": "加热处理",
+  "name": "@",
   "icon": {
     "type": "combined",
     "base": "create:basin",
@@ -27,5 +27,12 @@
       "item": "create:blaze_burner"
     }
   ],
-  "points": 2500
+  "points": 2500,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

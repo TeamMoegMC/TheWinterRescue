@@ -1,5 +1,5 @@
 {
-  "name": "原木处理",
+  "name": "@",
   "icon": "minecraft:stripped_birch_log",
   "category": "frostedheart:production",
   "parents": [
@@ -31,5 +31,12 @@
       "item": "create:mechanical_saw"
     }
   ],
-  "points": 1000
+  "points": 1000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

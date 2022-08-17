@@ -1,5 +1,5 @@
 {
-  "name": "固体研磨",
+  "name": "@",
   "icon": "kubejs:charcoal_dust",
   "category": "frostedheart:production",
   "clues": [
@@ -34,5 +34,12 @@
       "item": "stone_age:millstone"
     }
   ],
-  "points": 800
+  "points": 800,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

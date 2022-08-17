@@ -1,5 +1,5 @@
 {
-  "name": "蒸汽轮机",
+  "name": "@",
   "icon": {
     "type": "combined",
     "base": "immersiveengineering:generator",
@@ -28,5 +28,12 @@
       "multiblock": "immersiveindustry:multiblocks/steam_turbine"
     }
   ],
-  "points": 6000
+  "points": 6000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

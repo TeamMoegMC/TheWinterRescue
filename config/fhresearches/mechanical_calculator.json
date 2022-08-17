@@ -1,5 +1,5 @@
 {
-  "name": "研究效率提升",
+  "name": "@",
   "icon": "frostedheart:mechanical_calculator",
   "category": "frostedheart:ars",
   "parents": [
@@ -25,7 +25,7 @@
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
-      "desc": "任意小齿轮 x12",
+      "desc": "@",
       "value": 0.25,
       "id": "c6b9a2fac4b14436",
       "item": {
@@ -39,7 +39,7 @@
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
-      "desc": "任意大齿轮 x4",
+      "desc": "@",
       "value": 0.25,
       "id": "593d54b210e7473d",
       "item": {
@@ -66,5 +66,12 @@
       ]
     }
   ],
-  "points": 2250
+  "points": 2250,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

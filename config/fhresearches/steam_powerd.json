@@ -1,5 +1,5 @@
 {
-  "name": "蒸汽动力",
+  "name": "@",
   "icon": {
     "type": "item",
     "item": {
@@ -82,5 +82,12 @@
       ]
     }
   ],
-  "points": 1750
+  "points": 1750,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

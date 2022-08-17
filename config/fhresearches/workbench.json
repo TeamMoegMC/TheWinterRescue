@@ -1,5 +1,5 @@
 {
-  "name": "合成技艺",
+  "name": "@",
   "icon": "minecraft:crafting_table",
   "category": "frostedheart:ars",
   "parents": [
@@ -50,5 +50,12 @@
       ]
     }
   ],
-  "points": 1200
+  "points": 1200,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

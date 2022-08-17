@@ -1,5 +1,5 @@
 {
-  "name": "加热背心",
+  "name": "@",
   "icon": "frostedheart:heater_vest",
   "category": "frostedheart:living",
   "parents": [
@@ -22,5 +22,12 @@
       "item": "frostedheart:heater_vest"
     }
   ],
-  "points": 4000
+  "points": 4000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

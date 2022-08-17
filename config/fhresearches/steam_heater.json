@@ -1,5 +1,5 @@
 {
-  "name": "蒸汽辐射技术",
+  "name": "@",
   "icon": "frostedheart:heat_radiator",
   "category": "frostedheart:rescue",
   "parents": [
@@ -23,5 +23,12 @@
       "multiblock": "frostedheart:multiblocks/heat_radiator"
     }
   ],
-  "points": 4000
+  "points": 4000,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

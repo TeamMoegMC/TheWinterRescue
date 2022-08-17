@@ -1,5 +1,5 @@
 {
-  "name": "钢铁冶炼",
+  "name": "@",
   "icon": "immersiveengineering:ingot_steel",
   "category": "frostedheart:production",
   "parents": [
@@ -28,5 +28,12 @@
       "item": "immersiveindustry:burning_chamber"
     }
   ],
-  "points": 3500
+  "points": 3500,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

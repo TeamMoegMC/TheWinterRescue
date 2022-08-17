@@ -1,5 +1,5 @@
 {
-  "name": "基本半导体元器件",
+  "name": "@",
   "icon": "create:electron_tube",
   "category": "frostedheart:production",
   "parents": [
@@ -41,5 +41,12 @@
       "item": "create:electron_tube"
     }
   ],
-  "points": 1750
+  "points": 1750,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

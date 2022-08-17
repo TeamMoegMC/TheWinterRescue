@@ -1,5 +1,5 @@
 {
-  "name": "纯净水过滤",
+  "name": "@",
   "icon": {
     "type": "item",
     "item": {
@@ -52,5 +52,12 @@
       "item": "watersource:paper_strainer"
     }
   ],
-  "points": 800
+  "points": 800,
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }
