@@ -60,11 +60,11 @@
       ]
     },
     {
-      "name": "一座初级能量塔",
+      "name": "@",
       "type": "multiblock",
       "tooltip": [
-        "一座砖块垒起的火炉",
-        "使用铜板加固，可以提高火炉的耐久性"
+        "@",
+        "@"
       ],
       "icon": "frostedheart:generator",
       "id": "91c6a3ae87914f7a",

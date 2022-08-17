@@ -29,7 +29,7 @@
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
-      "desc": "任意齿轮 x4",
+      "desc": "@",
       "value": 0.25,
       "id": "24e463212dc74849",
       "item": {

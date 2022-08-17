@@ -32,7 +32,7 @@
     {
       "type": "multiblock",
       "tooltip": [
-        "焦炉"
+        "@"
       ],
       "icon": "immersiveengineering:coke_oven",
       "id": "6d782276c0774dd4",

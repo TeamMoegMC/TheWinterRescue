@@ -16,7 +16,7 @@ def process_research(file):
         return
     # process the file
     data = load_json(file)
-
+    # print(data)
     # print('Processing:', file)
 
     # get the value of the key 'name'
@@ -67,21 +67,18 @@ def process_research(file):
                 # get the value of the key 'tooltip'
                 tooltip = effects[i]['tooltip']
                 for j in range(len(tooltip)):
-                    if tooltip[j] == '@':
-                        print('Empty tooltip in effects: ', file)
                     # if the element does not starts with '@', change it to '@'
                     if not tooltip[j].startswith('@'):
                         effects[i]['tooltip'][j] = '@'
+                        print('Replaced tooltip to @ in effects: ', file)
             # if exists key 'name' in effects
             if 'name' in effects[i]:
                 # get the value of the key 'name'
                 name = effects[i]['name']
-                if name == '@':
-                    print('Empty name in effects: ', file)
-
                 # if the element does not starts with '@', change it to '@'
                 if not name.startswith('@'):
                     effects[i]['name'] = '@'
+                    print('Replaced name to @ in effects: ', file)
         # update the value of the key 'effects'
         data['effects'] = effects
 
@@ -95,29 +92,26 @@ def process_research(file):
             if 'name' in clues[i]:
                 # get the value of the key 'name'
                 name = clues[i]['name']
-                if name == '@':
-                    print('Empty name in clues: ', file)
                 # if the element does not starts with '@', change it to '@'
                 if not name.startswith('@'):
                     clues[i]['name'] = '@'
+                    print('Replaced name to @ in clues: ', file)
             # if exists key 'desc' in clues
             if 'desc' in clues[i]:
                 # get the value of the key 'desc'
                 desc = clues[i]['desc']
-                if desc == '@':
-                    print('Empty desc in clues: ', file)
                 # if the element does not starts with '@', change it to '@'
                 if not desc.startswith('@'):
                     clues[i]['desc'] = '@'
+                    print('Replaced desc to @ in effects: ', file)
             # if exists key 'hint' in clues
             if 'hint' in clues[i]:
                 # get the value of the key 'hint'
                 hint = clues[i]['hint']
-                if hint == '@':
-                    print('Empty hint in clues: ', file)
                 # if the element does not starts with '@', change it to '@'
                 if not hint.startswith('@'):
                     clues[i]['hint'] = '@'
+                    print('Replaced hint to @ in effects: ', file)
         # update the value of the key 'clues'
         data['clues'] = clues
 

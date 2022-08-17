@@ -39,7 +39,7 @@
   "effects": [
     {
       "type": "recipe",
-      "name": "是",
+      "name": "@",
       "id": "dc0086f2b0a04669",
       "item": "create:millstone"
     },
