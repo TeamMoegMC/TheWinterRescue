@@ -96,5 +96,3 @@ config/.twrp*
 # MACOS Shit
 .DS_Store
 *.icloud
-
-/extract_localization_string.sc
