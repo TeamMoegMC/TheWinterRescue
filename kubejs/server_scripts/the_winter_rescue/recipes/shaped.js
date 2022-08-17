@@ -246,6 +246,18 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'immersiveengineering:plantoil_bucket'
         }),
+		shapedRecipe('create:filter', ['A A', 'B B', 'A A'], {
+            A: 'minecraft:string',
+            B: '#forge:nuggets/iron'
+        }),
+		shapedRecipe('create:attribute_filter', ['A A', 'B B', 'A A'], {
+            A: 'minecraft:string',
+            B: '#forge:nuggets/brass'
+        }),
+		shapedRecipe('create:nozzle', ['ABA', 'A A', 'BBB'], {
+            A: 'minecraft:string',
+            B: '#forge:ingots/cast_iron'
+        }),
 		shapedRecipe('charcoal_pit:coal_pile', ['AAA', 'A A', 'AAA'], {
         A: Item.of('minecraft:coal').toJson()
         }),
