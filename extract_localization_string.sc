@@ -146,6 +146,6 @@ def main(config: String, lang: String): Unit = {
     .filter(!_._2.matches("@\\S+")) // Eliminates values in the form "@xxx.xxx.xxxxx"
     .toMap //.toJson.sortedPrint
   print(
-    mergeLang(resFrag, langFrag)
+    mergeLang(resFrag, langFrag).toJson.sortedPrint
   )
 }
