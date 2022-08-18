@@ -19,8 +19,8 @@ jobs:
       - name: Setup ammonite
         uses: yilinwei/setup-ammonite@0.1.2
         with:
-          ammonite-version: 2.5.3
-          scala-version: 2.13.8
+          ammonite-version: 2.5.4
+          scala-version: 2.12
       
       - name: Run config -> lang script
         #run: amm $GITHUB_WORKSPACE/extract_localization_string.sc --config $GITHUB_WORKSPACE/config/fhresearches --lang $GITHUB_WORKSPACE/kubejs/assets/twr_researches/lang/zh_cn.json > $RUNNER_TEMP/temp.json && mv $RUNNER_TEMP/temp.json $GITHUB_WORKSPACE/kubejs/assets/twr_researches/lang/zh_cn.json
