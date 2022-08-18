@@ -24,9 +24,9 @@ jobs:
           
       - name: Setup Python
         uses: actions/setup-python@v4.2.0
-        with:
+        #with:
           # Version range or exact version of Python or PyPy to use, using SemVer's version range syntax. Reads from .python-version if unset.
-          python-version: # optional
+          #python-version: 
       
       - name: Run config -> lang script
         run: amm $GITHUB_WORKSPACE/extract_localization_string.sc --config $GITHUB_WORKSPACE/config/fhresearches --lang $GITHUB_WORKSPACE/kubejs/assets/twr_researches/lang/zh_cn.json > $RUNNER_TEMP/temp.json && mv $RUNNER_TEMP/temp.json $GITHUB_WORKSPACE/kubejs/assets/twr_researches/lang/zh_cn.json
