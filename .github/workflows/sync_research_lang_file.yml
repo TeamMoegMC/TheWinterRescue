@@ -21,9 +21,18 @@ jobs:
         with:
           ammonite-version: 2.5.4
           scala-version: 2.13
+          
+      - name: Setup Python
+        uses: actions/setup-python@v4.2.0
+        with:
+          # Version range or exact version of Python or PyPy to use, using SemVer's version range syntax. Reads from .python-version if unset.
+          python-version: # optional
       
       - name: Run config -> lang script
         run: amm $GITHUB_WORKSPACE/extract_localization_string.sc --config $GITHUB_WORKSPACE/config/fhresearches --lang $GITHUB_WORKSPACE/kubejs/assets/twr_researches/lang/zh_cn.json > $RUNNER_TEMP/temp.json && mv $RUNNER_TEMP/temp.json $GITHUB_WORKSPACE/kubejs/assets/twr_researches/lang/zh_cn.json
+      
+      - name: Run lang -> config script
+        run: python $GITHUB_WORKSPACE/inject_localization_symbol.py
         
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
