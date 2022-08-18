@@ -1,0 +1,27 @@
+name: Sync research configs and research language files
+
+on:
+  #push:
+    #branches: [ "master" ]
+  #pull_request:
+    #branches: [ "master" ]
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+      
+      - name: Setup ammonite
+        uses: yilinwei/setup-ammonite@0.1.0
+        with:
+          ammonite-version: 2.5.3
+          scala-version: 2.13.8
+      
+      - name: Run config -> lang script
+        #run: amm $GITHUB_WORKSPACE/extract_localization_string.sc --config $GITHUB_WORKSPACE/config/fhresearches --lang $GITHUB_WORKSPACE/kubejs/assets/twr_researches/lang/zh_cn.json > $RUNNER_TEMP/temp.json && mv $RUNNER_TEMP/temp.json $GITHUB_WORKSPACE/kubejs/assets/twr_researches/lang/zh_cn.json
+        run: amm $GITHUB_WORKSPACE/extract_localization_string.sc --config $GITHUB_WORKSPACE/config/fhresearches --lang $GITHUB_WORKSPACE/kubejs/assets/twr_researches/lang/zh_cn.json
