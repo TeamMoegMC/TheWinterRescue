@@ -1,5 +1,10 @@
 {
-  "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "frostedheart:generator_t2",
   "category": "frostedheart:rescue",
   "parents": [
@@ -18,8 +23,8 @@
   "ingredients": [],
   "effects": [
     {
-      "name": "@",
       "type": "multiblock",
+      "name": "@",
       "tooltip": [
         "@",
         "@"
@@ -35,11 +40,5 @@
     }
   ],
   "points": 4000,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }
