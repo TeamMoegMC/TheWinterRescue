@@ -5,6 +5,7 @@
 	filename: "1B332F15A5B415FA"
 	title: "{chapter.twr.1B332F15A5B415FA.title}"
 	icon: "kubejs:coal_briquette"
+	subtitle: ["{chapter.twr.1B332F15A5B415FA.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
