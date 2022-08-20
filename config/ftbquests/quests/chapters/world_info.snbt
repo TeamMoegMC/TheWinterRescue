@@ -425,10 +425,10 @@
 		{
 			x: -2.0d
 			y: 4.0d
-			subtitle: "在少数沉积岩中"
+			subtitle: "{quest.twr.4D1B960E67D023C4.subtitle}"
 			description: [
-				"生成于："
-				"粉砂岩，泥岩，板岩，安山岩中。"
+				"{quest.twr.4D1B960E67D023C4.description.1}"
+				"{quest.twr.4D1B960E67D023C4.description.2}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]

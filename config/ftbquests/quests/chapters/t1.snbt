@@ -1497,7 +1497,7 @@
 				"{quest.twr.1DF200F6772308C7.description.1}"
 				"{quest.twr.1DF200F6772308C7.description.2}"
 				"{quest.twr.1DF200F6772308C7.description.3}"
-				"&c&l制作该工具需要在研究台中解锁对应研究。"
+				"{quest.twr.1DF200F6772308C7.description.4}"
 			]
 			dependencies: ["6A22E2D62D4719BE"]
 			id: "1DF200F6772308C7"
@@ -1519,7 +1519,7 @@
 			subtitle: "{quest.twr.1974619E18DB754A.subtitle}"
 			description: [
 				"{quest.twr.1974619E18DB754A.description.1}"
-				"&c&l制作该物品需要在研究台中解锁对应研究。"
+				"{quest.twr.1974619E18DB754A.description.2}"
 			]
 			dependencies: ["6A22E2D62D4719BE"]
 			hide: true
@@ -1820,7 +1820,7 @@
 				"{quest.twr.0E067BFAE2FB5441.description.2}"
 				"{quest.twr.0E067BFAE2FB5441.description.3}"
 				"{quest.twr.0E067BFAE2FB5441.description.4}"
-				"&c&l制作该物品需要在研究台中解锁对应研究。"
+				"{quest.twr.0E067BFAE2FB5441.description.5}"
 			]
 			dependencies: ["6A22E2D62D4719BE"]
 			hide: true
@@ -1944,15 +1944,15 @@
 			]
 		}
 		{
-			title: "研究"
+			title: "{quest.twr.6A22E2D62D4719BE.title}"
 			x: 5.5d
 			y: 3.5d
 			shape: "gear"
-			subtitle: "知识就是力量"
+			subtitle: "{quest.twr.6A22E2D62D4719BE.subtitle}"
 			description: [
-				"虽然我有一定的基础知识，可以制造一些简单的物品，但是却不足以用于制造机器或者生产。"
-				"我需要继续进行研究和探索，才能为我的生存提供更好的条件。"
-				"&a&l章节《获得知识》已经开放，请前往该章节查看研究的具体方法。"
+				"{quest.twr.6A22E2D62D4719BE.description.1}"
+				"{quest.twr.6A22E2D62D4719BE.description.2}"
+				"{quest.twr.6A22E2D62D4719BE.description.3}"
 			]
 			dependencies: ["586D66C71A378A82"]
 			hide: true
@@ -1968,16 +1968,16 @@
 			icon: "crockpot:turkey_dinner"
 			x: -8.0d
 			y: 2.5d
-			subtitle: "人是铁，饭是钢"
+			subtitle: "{quest.twr.24E7D1E02BE55A8E.subtitle}"
 			description: [
-				"太空生活人员需要补充足量营养。"
-				"保持膳食均衡能提升一个人的战斗力。"
-				"&a蔬果&r摄入不足会导致&c坏血病&r，坏血病会使得伤口非常难以愈合。"
-				"&a蛋白质&r摄入不足会导致严重&c贫血&r，导致全身无力。"
-				"也需要摄入足量的&a植物油&r，也就是不饱和脂肪酸，可以使得人&a思维清晰&r。"
-				"适当的&a谷物&r摄入是必要的，谷物可以给人饱腹感。"
-				"避免摄入过多&c维生素D&r，这会导致维生素D中毒，导致&c轻度贫血&r和&c骨痛&r。"
-				"避免摄入过多&c糖分&r，这会导致&c糖尿病&r，使得伤口&a难以自然愈合&r，并且使人感到异常饥饿。"
+				"{quest.twr.24E7D1E02BE55A8E.description.1}"
+				"{quest.twr.24E7D1E02BE55A8E.description.2}"
+				"{quest.twr.24E7D1E02BE55A8E.description.3}"
+				"{quest.twr.24E7D1E02BE55A8E.description.4}"
+				"{quest.twr.24E7D1E02BE55A8E.description.5}"
+				"{quest.twr.24E7D1E02BE55A8E.description.6}"
+				"{quest.twr.24E7D1E02BE55A8E.description.7}"
+				"{quest.twr.24E7D1E02BE55A8E.description.8}"
 			]
 			dependencies: ["215BC2E7271F1478"]
 			hide: true

@@ -12,8 +12,8 @@
 		{
 			title: "{quest.twr.60F112EDA31F73F5.title}"
 			icon: "ftbquests:book"
-			x: -7.5d
-			y: -4.5d
+			x: -6.0d
+			y: -2.0d
 			subtitle: "{quest.twr.60F112EDA31F73F5.subtitle}"
 			description: [
 				"{quest.twr.60F112EDA31F73F5.description.1}"
@@ -22,6 +22,7 @@
 				"{quest.twr.60F112EDA31F73F5.description.4}"
 				"{quest.twr.60F112EDA31F73F5.description.5}"
 			]
+			dependencies: ["6C86BD5F9112256F"]
 			id: "60F112EDA31F73F5"
 			tasks: [{
 				id: "6895A9C90F35FF32"
@@ -30,36 +31,20 @@
 			}]
 		}
 		{
-			title: "{quest.twr.2E0E35B379A20F7C.title}"
-			icon: "minecraft:book"
-			x: -9.0d
-			y: -4.5d
-			shape: "gear"
-			subtitle: "{quest.twr.2E0E35B379A20F7C.subtitle}"
-			description: [
-				"{quest.twr.2E0E35B379A20F7C.description.1}"
-				"{quest.twr.2E0E35B379A20F7C.description.2}"
-			]
-			id: "2E0E35B379A20F7C"
-			tasks: [{
-				id: "4B27147A3A002991"
-				type: "checkmark"
-				title: "{quest.twr.2E0E35B379A20F7C.4B27147A3A002991.title}"
-			}]
-		}
-		{
 			title: "{quest.twr.6C86BD5F9112256F.title}"
 			icon: "create:propeller"
 			x: -6.0d
-			y: -4.5d
-			shape: "gear"
+			y: -3.0d
+			shape: "hexagon"
 			subtitle: "{quest.twr.6C86BD5F9112256F.subtitle}"
 			description: [
 				"{quest.twr.6C86BD5F9112256F.description.1}"
 				"{quest.twr.6C86BD5F9112256F.description.2}"
 				"{quest.twr.6C86BD5F9112256F.description.3}"
 				"{quest.twr.6C86BD5F9112256F.description.4}"
+				"{quest.twr.6C86BD5F9112256F.description.5}"
 			]
+			dependencies: ["1337E25DE8FDFC42"]
 			id: "6C86BD5F9112256F"
 			tasks: [{
 				id: "739D90B64EFDC7EB"
@@ -69,17 +54,17 @@
 		}
 		{
 			title: "{quest.twr.4E3C1F4BDB921B8E.title}"
-			icon: "ironchest:crystal_chest"
-			x: -4.5d
-			y: -4.5d
-			shape: "hexagon"
+			icon: "frostedheart:relic_chest"
+			x: -6.0d
+			y: -5.0d
 			subtitle: "{quest.twr.4E3C1F4BDB921B8E.subtitle}"
 			description: [
 				"{quest.twr.4E3C1F4BDB921B8E.description.1}"
 				"{quest.twr.4E3C1F4BDB921B8E.description.2}"
 				"{quest.twr.4E3C1F4BDB921B8E.description.3}"
+				"{quest.twr.4E3C1F4BDB921B8E.description.4}"
 			]
-			dependencies: ["6C86BD5F9112256F"]
+			dependencies: ["744D35762CD9BD26"]
 			hide: true
 			id: "4E3C1F4BDB921B8E"
 			tasks: [{
@@ -87,27 +72,40 @@
 				type: "checkmark"
 				title: "{quest.twr.4E3C1F4BDB921B8E.2CFE3196473A13A5.title}"
 			}]
-			rewards: [{
-				id: "293435A006B6506D"
-				type: "item"
-				item: {
-					id: "watersource:leather_water_bag"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Fluid: {
-							FluidName: "watersource:purified_water"
-							Amount: 1500
+			rewards: [
+				{
+					id: "293435A006B6506D"
+					type: "item"
+					item: {
+						id: "watersource:leather_water_bag"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Fluid: {
+								FluidName: "watersource:purified_water"
+								Amount: 1500
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "49F3280D5CEED77B"
+					type: "item"
+					item: {
+						id: "rankine:invar_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "{quest.twr.2422C77587FDEE28.title}"
 			icon: "minecraft:writable_book"
-			x: -3.0d
-			y: -4.5d
+			x: -6.0d
+			y: -1.0d
 			subtitle: "{quest.twr.2422C77587FDEE28.subtitle}"
 			description: [
 				"{quest.twr.2422C77587FDEE28.description.1}"
@@ -115,7 +113,7 @@
 				"{quest.twr.2422C77587FDEE28.description.3}"
 				"{quest.twr.2422C77587FDEE28.description.4}"
 			]
-			dependencies: ["4E3C1F4BDB921B8E"]
+			dependencies: ["60F112EDA31F73F5"]
 			hide: true
 			id: "2422C77587FDEE28"
 			tasks: [{
@@ -131,12 +129,104 @@
 			}]
 		}
 		{
+			title: "{quest.twr.543F5BC239D07C40.title}"
+			icon: "minecraft:oak_sapling"
+			x: -6.0d
+			y: 1.0d
+			subtitle: "{quest.twr.543F5BC239D07C40.subtitle}"
+			description: [
+				"{quest.twr.543F5BC239D07C40.description.1}"
+				"{quest.twr.543F5BC239D07C40.description.2}"
+				"{quest.twr.543F5BC239D07C40.description.3}"
+				"{quest.twr.543F5BC239D07C40.description.4}"
+				"{quest.twr.543F5BC239D07C40.description.5}"
+			]
+			dependencies: ["1CD9EB4A39925BB8"]
+			id: "543F5BC239D07C40"
+			tasks: [{
+				id: "7421B8D8B161FCBC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{quest.twr.1CD9EB4A39925BB8.title}"
+			icon: "minecraft:player_head"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "{quest.twr.1CD9EB4A39925BB8.subtitle}"
+			description: [
+				"{quest.twr.1CD9EB4A39925BB8.description.1}"
+				"{quest.twr.1CD9EB4A39925BB8.description.2}"
+				"{quest.twr.1CD9EB4A39925BB8.description.3}"
+				"{quest.twr.1CD9EB4A39925BB8.description.4}"
+				"{quest.twr.1CD9EB4A39925BB8.description.5}"
+				"{quest.twr.1CD9EB4A39925BB8.description.6}"
+				"{quest.twr.1CD9EB4A39925BB8.description.7}"
+			]
+			dependencies: ["2422C77587FDEE28"]
+			id: "1CD9EB4A39925BB8"
+			tasks: [{
+				id: "698704746E033DF8"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "44F6FB5102EE8558"
+				type: "item"
+				item: "frostedheart:rye_bread"
+			}]
+		}
+		{
+			title: "{quest.twr.744D35762CD9BD26.title}"
+			icon: "minecraft:fire_charge"
+			x: -6.0d
+			y: -6.0d
+			subtitle: "{quest.twr.744D35762CD9BD26.subtitle}"
+			description: [
+				"{quest.twr.744D35762CD9BD26.description.1}"
+				"{quest.twr.744D35762CD9BD26.description.2}"
+				"{quest.twr.744D35762CD9BD26.description.3}"
+				"{quest.twr.744D35762CD9BD26.description.4}"
+				"{quest.twr.744D35762CD9BD26.description.5}"
+				"{quest.twr.744D35762CD9BD26.description.6}"
+				"{quest.twr.744D35762CD9BD26.description.7}"
+			]
+			id: "744D35762CD9BD26"
+			tasks: [{
+				id: "23E2D5CDE38FFD85"
+				type: "checkmark"
+				title: "探索飞船，寻找物品仓"
+			}]
+		}
+		{
+			title: "{quest.twr.1337E25DE8FDFC42.title}"
+			x: -6.0d
+			y: -4.0d
+			subtitle: "{quest.twr.1337E25DE8FDFC42.subtitle}"
+			description: [
+				"{quest.twr.1337E25DE8FDFC42.description.1}"
+				"{quest.twr.1337E25DE8FDFC42.description.2}"
+				"{quest.twr.1337E25DE8FDFC42.description.3}"
+				"{quest.twr.1337E25DE8FDFC42.description.4}"
+				"{quest.twr.1337E25DE8FDFC42.description.5}"
+				"{quest.twr.1337E25DE8FDFC42.description.6}"
+			]
+			dependencies: ["4E3C1F4BDB921B8E"]
+			id: "1337E25DE8FDFC42"
+			tasks: [{
+				id: "47660484AED244B9"
+				type: "checkmark"
+				title: "寻找出口，开始回忆"
+				icon: "frostedheart:weather_radar"
+			}]
+		}
+		{
 			title: "{quest.twr.7AFE32B08BB6CE6C.title}"
 			icon: "minecraft:paper"
-			x: -9.0d
-			y: -6.0d
+			x: -6.0d
+			y: 2.0d
 			subtitle: "{quest.twr.7AFE32B08BB6CE6C.subtitle}"
 			description: ["{quest.twr.7AFE32B08BB6CE6C.description.1}"]
+			dependencies: ["543F5BC239D07C40"]
 			id: "7AFE32B08BB6CE6C"
 			tasks: [
 				{
@@ -201,6 +291,20 @@
 						}
 					}
 				}
+				{
+					id: "6C93768358C876B3"
+					type: "item"
+					title: "开发设计"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "khjxiaogu"
+							}
+						}
+					}
+				}
 			]
 			rewards: [
 				{
@@ -227,20 +331,6 @@
 						tag: {
 							SkullOwner: {
 								Name: "goumo_g"
-							}
-						}
-					}
-				}
-				{
-					id: "0944042120B83038"
-					type: "item"
-					title: "{quest.twr.7AFE32B08BB6CE6C.0944042120B83038.title}"
-					item: {
-						id: "minecraft:player_head"
-						Count: 1b
-						tag: {
-							SkullOwner: {
-								Name: "khjxiaogu"
 							}
 						}
 					}
@@ -273,52 +363,63 @@
 						}
 					}
 				}
+				{
+					id: "00F93CA0BAF2D75D"
+					type: "item"
+					title: "Jacky_Wang - 数值策划与设计"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "Jacky_Wang"
+							}
+						}
+					}
+				}
+				{
+					id: "39C423FA06EB4C9E"
+					type: "item"
+					title: "alphaGem - 数值策划与设计"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "alphaGem"
+							}
+						}
+					}
+				}
+				{
+					id: "2056FA4E16F0E34F"
+					type: "item"
+					title: "asdfghjkl - 数值策划与设计"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "asdfghjkl"
+							}
+						}
+					}
+				}
+				{
+					id: "56A394021604FE09"
+					type: "item"
+					title: "shidi - 质量保证测试"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "shidi"
+							}
+						}
+					}
+				}
 			]
-		}
-		{
-			title: "{quest.twr.543F5BC239D07C40.title}"
-			icon: "minecraft:oak_sapling"
-			x: -7.5d
-			y: -6.0d
-			subtitle: "{quest.twr.543F5BC239D07C40.subtitle}"
-			description: [
-				"{quest.twr.543F5BC239D07C40.description.1}"
-				"{quest.twr.543F5BC239D07C40.description.2}"
-				"{quest.twr.543F5BC239D07C40.description.3}"
-				"{quest.twr.543F5BC239D07C40.description.4}"
-				"{quest.twr.543F5BC239D07C40.description.5}"
-			]
-			id: "543F5BC239D07C40"
-			tasks: [{
-				id: "7421B8D8B161FCBC"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "{quest.twr.1CD9EB4A39925BB8.title}"
-			icon: "minecraft:player_head"
-			x: -6.0d
-			y: -6.0d
-			subtitle: "{quest.twr.1CD9EB4A39925BB8.subtitle}"
-			description: [
-				"{quest.twr.1CD9EB4A39925BB8.description.1}"
-				"{quest.twr.1CD9EB4A39925BB8.description.2}"
-				"{quest.twr.1CD9EB4A39925BB8.description.3}"
-				"{quest.twr.1CD9EB4A39925BB8.description.4}"
-				"{quest.twr.1CD9EB4A39925BB8.description.5}"
-				"{quest.twr.1CD9EB4A39925BB8.description.6}"
-				"{quest.twr.1CD9EB4A39925BB8.description.7}"
-			]
-			id: "1CD9EB4A39925BB8"
-			tasks: [{
-				id: "698704746E033DF8"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "44F6FB5102EE8558"
-				type: "item"
-				item: "frostedheart:rye_bread"
-			}]
 		}
 	]
 }
