@@ -1,0 +1,892 @@
+{
+	id: "0C07C58470EE031C"
+	group: "7823E178F7BCBCB0"
+	order_index: 1
+	filename: "0C07C58470EE031C"
+	title: "雪中生存"
+	icon: "minecraft:campfire"
+	subtitle: ["在暴风雪来临之前，建造一个庇护所，升起火堆，并囤好燃料。"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{quest.twr.6667AA13CA3DAC9B.title}"
+			icon: "ftbquests:book"
+			x: -6.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{quest.twr.6667AA13CA3DAC9B.subtitle}"
+			description: [
+				"{quest.twr.6667AA13CA3DAC9B.description.1}"
+				"{quest.twr.6667AA13CA3DAC9B.description.2}"
+				"{quest.twr.6667AA13CA3DAC9B.description.3}"
+				"{quest.twr.6667AA13CA3DAC9B.description.4}"
+				"{quest.twr.6667AA13CA3DAC9B.description.5}"
+				"{quest.twr.6667AA13CA3DAC9B.description.6}"
+				"{quest.twr.6667AA13CA3DAC9B.description.7}"
+				"{quest.twr.6667AA13CA3DAC9B.description.8}"
+				"{quest.twr.6667AA13CA3DAC9B.description.9}"
+				"{quest.twr.6667AA13CA3DAC9B.description.10}"
+			]
+			size: 1.2d
+			id: "6667AA13CA3DAC9B"
+			tasks: [{
+				id: "53400295DD5D4011"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{quest.twr.1F615C38B1A015E5.title}"
+			icon: "minecraft:book"
+			x: -5.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{quest.twr.1F615C38B1A015E5.subtitle}"
+			description: [
+				"{quest.twr.1F615C38B1A015E5.description.1}"
+				"{quest.twr.1F615C38B1A015E5.description.2}"
+				"{quest.twr.1F615C38B1A015E5.description.3}"
+				"{quest.twr.1F615C38B1A015E5.description.4}"
+				"{quest.twr.1F615C38B1A015E5.description.5}"
+				"{quest.twr.1F615C38B1A015E5.description.6}"
+				"{quest.twr.1F615C38B1A015E5.description.7}"
+			]
+			dependencies: ["6667AA13CA3DAC9B"]
+			id: "1F615C38B1A015E5"
+			tasks: [{
+				id: "0758A45D51C54F20"
+				type: "checkmark"
+				title: "{quest.twr.1F615C38B1A015E5.0758A45D51C54F20.title}"
+			}]
+		}
+		{
+			title: "{quest.twr.58EF2132D0431323.title}"
+			x: -4.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{quest.twr.58EF2132D0431323.subtitle}"
+			description: [
+				"{quest.twr.58EF2132D0431323.description.1}"
+				"{quest.twr.58EF2132D0431323.description.2}"
+				"{quest.twr.58EF2132D0431323.description.3}"
+				"{quest.twr.58EF2132D0431323.description.4}"
+				"{quest.twr.58EF2132D0431323.description.5}"
+			]
+			dependencies: ["1F615C38B1A015E5"]
+			id: "58EF2132D0431323"
+			tasks: [{
+				id: "4955B8E28DC29D7C"
+				type: "checkmark"
+				title: "{quest.twr.58EF2132D0431323.4955B8E28DC29D7C.title}"
+			}]
+		}
+		{
+			title: "{quest.twr.3B5663CF194B054C.title}"
+			x: -3.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{quest.twr.3B5663CF194B054C.subtitle}"
+			description: [
+				"{quest.twr.3B5663CF194B054C.description.1}"
+				"{quest.twr.3B5663CF194B054C.description.2}"
+				"{quest.twr.3B5663CF194B054C.description.3}"
+				"{quest.twr.3B5663CF194B054C.description.4}"
+				"{quest.twr.3B5663CF194B054C.description.5}"
+				"{quest.twr.3B5663CF194B054C.description.6}"
+				"{quest.twr.3B5663CF194B054C.description.7}"
+				"{quest.twr.3B5663CF194B054C.description.8}"
+				"{quest.twr.3B5663CF194B054C.description.9}"
+			]
+			dependencies: ["58EF2132D0431323"]
+			id: "3B5663CF194B054C"
+			tasks: [{
+				id: "3428FDD619813DBF"
+				type: "checkmark"
+				icon: "frostedheart:temperature_probe"
+			}]
+		}
+		{
+			title: "{quest.twr.33B6E7B60783C72B.title}"
+			x: -2.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{quest.twr.33B6E7B60783C72B.subtitle}"
+			description: [
+				"{quest.twr.33B6E7B60783C72B.description.1}"
+				"{quest.twr.33B6E7B60783C72B.description.2}"
+				"{quest.twr.33B6E7B60783C72B.description.3}"
+				"{quest.twr.33B6E7B60783C72B.description.4}"
+				"{quest.twr.33B6E7B60783C72B.description.5}"
+			]
+			dependencies: ["3B5663CF194B054C"]
+			id: "33B6E7B60783C72B"
+			tasks: [{
+				id: "6E14D0E983EACA58"
+				type: "checkmark"
+				icon: {
+					id: "watersource:leather_water_bag"
+					Count: 1b
+					tag: {
+						Damage: 1500
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FFC44858A17C847"
+				type: "item"
+				item: {
+					id: "watersource:wooden_cup_drink"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "watersource:purified_water"
+							Amount: 250
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{quest.twr.215BC2E7271F1478.title}"
+			icon: "crockpot:food_category_meat"
+			x: -1.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{quest.twr.215BC2E7271F1478.subtitle}"
+			description: [
+				"{quest.twr.215BC2E7271F1478.description.1}"
+				"{quest.twr.215BC2E7271F1478.description.2}"
+				"{quest.twr.215BC2E7271F1478.description.3}"
+				"{quest.twr.215BC2E7271F1478.description.4}"
+				"{quest.twr.215BC2E7271F1478.description.5}"
+			]
+			dependencies: ["33B6E7B60783C72B"]
+			id: "215BC2E7271F1478"
+			tasks: [{
+				id: "58F4265EA5C778FB"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "crockpot:turkey_dinner"
+			x: 0.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{quest.twr.24E7D1E02BE55A8E.subtitle}"
+			description: [
+				"{quest.twr.24E7D1E02BE55A8E.description.1}"
+				"{quest.twr.24E7D1E02BE55A8E.description.2}"
+				"{quest.twr.24E7D1E02BE55A8E.description.3}"
+				"{quest.twr.24E7D1E02BE55A8E.description.4}"
+				"{quest.twr.24E7D1E02BE55A8E.description.5}"
+				"{quest.twr.24E7D1E02BE55A8E.description.6}"
+				"{quest.twr.24E7D1E02BE55A8E.description.7}"
+				"{quest.twr.24E7D1E02BE55A8E.description.8}"
+			]
+			dependencies: ["215BC2E7271F1478"]
+			hide: true
+			id: "24E7D1E02BE55A8E"
+			tasks: [{
+				id: "047874DA9F5AB4B1"
+				type: "checkmark"
+				title: "{quest.twr.24E7D1E02BE55A8E.047874DA9F5AB4B1.title}"
+			}]
+			rewards: [{
+				id: "1BCCE95CAC67C16F"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			title: "{quest.twr.32E5D942F1FE8645.title}"
+			icon: "minecraft:flint"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "{quest.twr.32E5D942F1FE8645.subtitle}"
+			description: [
+				"{quest.twr.32E5D942F1FE8645.description.1}"
+				"{quest.twr.32E5D942F1FE8645.description.2}"
+				"{quest.twr.32E5D942F1FE8645.description.3}"
+				"{quest.twr.32E5D942F1FE8645.description.4}"
+				"{quest.twr.32E5D942F1FE8645.description.5}"
+			]
+			dependencies: ["56E5FD2809882B5F"]
+			hide: true
+			id: "32E5D942F1FE8645"
+			tasks: [
+				{
+					id: "559ABB075122B276"
+					type: "item"
+					item: "minecraft:flint"
+					count: 4L
+				}
+				{
+					id: "19FA38C832CBE31D"
+					type: "item"
+					item: "minecraft:stick"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			subtitle: "{quest.twr.3102993072F3C8B9.subtitle}"
+			description: [
+				"{quest.twr.3102993072F3C8B9.description.1}"
+				"{quest.twr.3102993072F3C8B9.description.2}"
+				"{quest.twr.3102993072F3C8B9.description.3}"
+				"{quest.twr.3102993072F3C8B9.description.4}"
+				"{quest.twr.3102993072F3C8B9.description.5}"
+			]
+			dependencies: ["32E5D942F1FE8645"]
+			hide: true
+			id: "3102993072F3C8B9"
+			tasks: [{
+				id: "081B951F9A018B3B"
+				type: "item"
+				item: "stone_age:flint_workbench"
+			}]
+			rewards: [{
+				id: "163A03C91746986A"
+				type: "item"
+				item: "minecraft:torch"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			subtitle: "{quest.twr.348EB1588EFAD2AB.subtitle}"
+			description: [
+				"{quest.twr.348EB1588EFAD2AB.description.1}"
+				"{quest.twr.348EB1588EFAD2AB.description.2}"
+				"{quest.twr.348EB1588EFAD2AB.description.3}"
+				"{quest.twr.348EB1588EFAD2AB.description.4}"
+			]
+			dependencies: ["3102993072F3C8B9"]
+			hide: true
+			id: "348EB1588EFAD2AB"
+			tasks: [{
+				id: "218222BA0E80D408"
+				type: "item"
+				item: {
+					id: "stone_age:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "77E24B555B4EFB31"
+				type: "item"
+				item: "minecraft:stick"
+				count: 4
+			}]
+		}
+		{
+			icon: {
+				id: "rankine:flint_knife"
+				Count: 1b
+				tag: {
+					Damage: 38
+				}
+			}
+			x: 4.5d
+			y: 1.5d
+			subtitle: "{quest.twr.14D7D98FC5264B03.subtitle}"
+			description: [
+				"{quest.twr.14D7D98FC5264B03.description.1}"
+				"{quest.twr.14D7D98FC5264B03.description.2}"
+				"{quest.twr.14D7D98FC5264B03.description.3}"
+			]
+			dependencies: ["3102993072F3C8B9"]
+			hide: true
+			id: "14D7D98FC5264B03"
+			tasks: [{
+				id: "2877C21663576225"
+				type: "item"
+				item: {
+					id: "rankine:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C6B8B365C014F06"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{quest.twr.1233EF3CDF5E33F8.subtitle}"
+			description: ["{quest.twr.1233EF3CDF5E33F8.description.1}"]
+			dependencies: ["14D7D98FC5264B03"]
+			hide: true
+			id: "1233EF3CDF5E33F8"
+			tasks: [{
+				id: "3349CF3A5F68D6F5"
+				type: "item"
+				item: "primalwinter:snowy_vine"
+				count: 10L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			shape: "square"
+			subtitle: "{quest.twr.1D7F2824DAF3BB7B.subtitle}"
+			description: [
+				"{quest.twr.1D7F2824DAF3BB7B.description.1}"
+				"{quest.twr.1D7F2824DAF3BB7B.description.2}"
+			]
+			dependencies: ["348EB1588EFAD2AB"]
+			hide: true
+			id: "1D7F2824DAF3BB7B"
+			tasks: [{
+				id: "4366249350406528"
+				type: "item"
+				item: "stone_age:drying_rack"
+			}]
+			rewards: [{
+				id: "7B7D0595E8C4F915"
+				type: "item"
+				item: "minecraft:flint"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{quest.twr.29BC87594650152D.subtitle}"
+			description: [
+				"{quest.twr.29BC87594650152D.description.1}"
+				"{quest.twr.29BC87594650152D.description.2}"
+			]
+			dependencies: [
+				"1D7F2824DAF3BB7B"
+				"1233EF3CDF5E33F8"
+			]
+			hide: true
+			id: "29BC87594650152D"
+			tasks: [{
+				id: "5DF3E0777A5A6D09"
+				type: "item"
+				item: "charcoal_pit:straw"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "4EC23DEAC9F9E125"
+					type: "item"
+					item: "minecraft:flint"
+				}
+				{
+					id: "1B12987080C1C9CE"
+					type: "item"
+					item: "rankine:banana_yucca"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "{quest.twr.70E6A4B9946F263A.subtitle}"
+			description: ["{quest.twr.70E6A4B9946F263A.description.1}"]
+			dependencies: ["29BC87594650152D"]
+			id: "70E6A4B9946F263A"
+			tasks: [{
+				id: "303116E572280BDC"
+				type: "item"
+				item: {
+					id: "frostedheart:hay_jacket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "20353DC728718A7E"
+				type: "item"
+				item: "minecraft:apple"
+			}]
+		}
+		{
+			title: "生火"
+			x: 9.0d
+			y: 0.0d
+			shape: "square"
+			subtitle: "{quest.twr.3B7B7A0BC0CF3CE0.subtitle}"
+			description: [
+				"{quest.twr.3B7B7A0BC0CF3CE0.description.1}"
+				"{quest.twr.3B7B7A0BC0CF3CE0.description.2}"
+			]
+			dependencies: ["29BC87594650152D"]
+			hide: true
+			id: "3B7B7A0BC0CF3CE0"
+			tasks: [
+				{
+					id: "6779340B748701AF"
+					type: "item"
+					item: "charcoal_pit:fire_starter"
+				}
+				{
+					id: "11B07F272C2A0E9B"
+					type: "item"
+					item: "minecraft:flint"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			subtitle: "{quest.twr.7521769E8333942B.subtitle}"
+			description: [
+				"{quest.twr.7521769E8333942B.description.1}"
+				"{quest.twr.7521769E8333942B.description.2}"
+			]
+			dependencies: ["29BC87594650152D"]
+			hide: true
+			id: "7521769E8333942B"
+			tasks: [{
+				id: "73D32EE1AFEFFA3C"
+				type: "item"
+				item: {
+					id: "rankine:flint_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "63D489676FBD6BBB"
+				type: "item"
+				item: {
+					id: "minecraft:splash_potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_strength"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			subtitle: "{quest.twr.443AD02B85632386.subtitle}"
+			description: [
+				"{quest.twr.443AD02B85632386.description.1}"
+				"{quest.twr.443AD02B85632386.description.2}"
+				"{quest.twr.443AD02B85632386.description.3}"
+			]
+			dependencies: ["7521769E8333942B"]
+			id: "443AD02B85632386"
+			tasks: [{
+				id: "6F52C9ED127AECCF"
+				type: "item"
+				item: "stone_age:raw_hide"
+				count: 4L
+			}]
+			rewards: [{
+				id: "4275790E4CE99758"
+				type: "item"
+				item: "minecraft:rabbit_foot"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			subtitle: "{quest.twr.2406D98489C938B8.subtitle}"
+			description: [
+				"{quest.twr.2406D98489C938B8.description.1}"
+				"{quest.twr.2406D98489C938B8.description.2}"
+			]
+			dependencies: ["443AD02B85632386"]
+			id: "2406D98489C938B8"
+			tasks: [{
+				id: "6898C42559ADDF9E"
+				type: "item"
+				item: {
+					id: "frostedheart:hide_jacket"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "63EF58D6EB60F38D"
+				type: "item"
+				item: "stone_age:raw_hide"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			subtitle: "{quest.twr.5D803F0865A90DE0.subtitle}"
+			description: ["{quest.twr.5D803F0865A90DE0.description.1}"]
+			dependencies: ["29BC87594650152D"]
+			hide: true
+			id: "5D803F0865A90DE0"
+			tasks: [{
+				id: "67B5CC79345AFB26"
+				type: "item"
+				item: {
+					id: "rankine:flint_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "14FB637B7233851C"
+				type: "item"
+				item: "crockpot:veg_stinger"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			shape: "square"
+			subtitle: "{quest.twr.6B7D4F59C921C1FC.subtitle}"
+			description: ["{quest.twr.6B7D4F59C921C1FC.description.1}"]
+			dependencies: ["29BC87594650152D"]
+			hide: true
+			id: "6B7D4F59C921C1FC"
+			tasks: [{
+				id: "38086DB999F82B30"
+				type: "item"
+				item: {
+					id: "rankine:flint_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "77E243CC8A67A530"
+				type: "item"
+				item: "charcoal_pit:straw"
+				count: 4
+			}]
+		}
+		{
+			title: "{quest.twr.76B2B1A3EC6D92CD.title}"
+			icon: "minecraft:charcoal"
+			x: 9.0d
+			y: -3.0d
+			subtitle: "{quest.twr.76B2B1A3EC6D92CD.subtitle}"
+			description: [
+				"{quest.twr.76B2B1A3EC6D92CD.description.1}"
+				"{quest.twr.76B2B1A3EC6D92CD.description.2}"
+				"{quest.twr.76B2B1A3EC6D92CD.description.3}"
+				"{quest.twr.76B2B1A3EC6D92CD.description.4}"
+				"{quest.twr.76B2B1A3EC6D92CD.description.5}"
+			]
+			dependencies: ["6B7D4F59C921C1FC"]
+			id: "76B2B1A3EC6D92CD"
+			tasks: [
+				{
+					id: "34D72F00CF39E4B0"
+					type: "item"
+					item: "charcoal_pit:log_pile"
+				}
+				{
+					id: "2DB3C08BDDB3E260"
+					type: "item"
+					item: "minecraft:charcoal"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "641441D9B61C43FB"
+				type: "item"
+				item: "kubejs:charcoal_briquette"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "{quest.twr.36960F1D7CDC8B30.subtitle}"
+			description: [
+				"{quest.twr.36960F1D7CDC8B30.description.1}"
+				"{quest.twr.36960F1D7CDC8B30.description.2}"
+				"{quest.twr.36960F1D7CDC8B30.description.3}"
+				"{quest.twr.36960F1D7CDC8B30.description.4}"
+				"{quest.twr.36960F1D7CDC8B30.description.5}"
+				"{quest.twr.36960F1D7CDC8B30.description.6}"
+				""
+				"完成后开启下一章节。"
+			]
+			dependencies: [
+				"6B7D4F59C921C1FC"
+				"3B7B7A0BC0CF3CE0"
+			]
+			id: "36960F1D7CDC8B30"
+			tasks: [{
+				id: "2EA574C52E7D6A74"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [
+				{
+					id: "29176E3625258812"
+					type: "item"
+					item: "crockpot:gazpacho"
+				}
+				{
+					id: "6F19F1FDBDC144F2"
+					type: "item"
+					item: "crockpot:kabobs"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -4.5d
+			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
+			description: [
+				"{quest.twr.643B93BCE91A0BB9.description.1}"
+				"{quest.twr.7E68FC6215F4FADC.description.2}"
+			]
+			dependencies: ["36960F1D7CDC8B30"]
+			hide: true
+			id: "7E68FC6215F4FADC"
+			tasks: [{
+				id: "2BA166AB2BD842B1"
+				type: "item"
+				item: "kubejs:straw_briquette"
+			}]
+			rewards: [{
+				id: "21F619AFDB48A366"
+				type: "item"
+				item: "kubejs:straw_briquette"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -3.0d
+			subtitle: "{quest.twr.04DC32D417FA819E.subtitle}"
+			description: ["{quest.twr.04DC32D417FA819E.description.1}"]
+			dependencies: ["36960F1D7CDC8B30"]
+			hide: true
+			id: "04DC32D417FA819E"
+			tasks: [{
+				id: "425DFBB0A9795761"
+				type: "item"
+				item: {
+					id: "watersource:wooden_cup_drink"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "watersource:purified_water"
+							Amount: 250
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "{quest.twr.45E2EF843333B846.subtitle}"
+			description: [
+				"{quest.twr.45E2EF843333B846.description.1}"
+				"{quest.twr.45E2EF843333B846.description.2}"
+			]
+			dependencies: ["29BC87594650152D"]
+			hide: true
+			id: "45E2EF843333B846"
+			tasks: [{
+				id: "0DA3A979A808DA51"
+				type: "item"
+				item: {
+					id: "rankine:flint_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6BD5B0EE2E7BB7C8"
+				type: "item"
+				item: "rankine:snowberries"
+			}]
+		}
+		{
+			title: "{quest.twr.1837531DB19C9023.title}"
+			x: 10.5d
+			y: 1.5d
+			shape: "gear"
+			subtitle: "{quest.twr.1837531DB19C9023.subtitle}"
+			description: [
+				"{quest.twr.1837531DB19C9023.description.1}"
+				"{quest.twr.1837531DB19C9023.description.2}"
+				"{quest.twr.1837531DB19C9023.description.3}"
+				"{quest.twr.1837531DB19C9023.description.4}"
+			]
+			dependencies: ["45E2EF843333B846"]
+			id: "1837531DB19C9023"
+			tasks: [{
+				id: "499B968D078E2A5A"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:stone"
+					}
+				}
+				count: 8L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			subtitle: "{quest.twr.718403EB34A5B46F.subtitle}"
+			description: ["{quest.twr.718403EB34A5B46F.description.1}"]
+			dependencies: ["348EB1588EFAD2AB"]
+			hide: true
+			id: "718403EB34A5B46F"
+			tasks: [{
+				id: "1D8EA544D790D174"
+				type: "item"
+				item: "stone_age:tanning_rack"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			subtitle: "{quest.twr.42AF456D165CBF75.subtitle}"
+			description: [
+				"{quest.twr.42AF456D165CBF75.description.1}"
+				"{quest.twr.42AF456D165CBF75.description.2}"
+				"{quest.twr.42AF456D165CBF75.description.3}"
+			]
+			dependencies: ["718403EB34A5B46F"]
+			id: "42AF456D165CBF75"
+			tasks: [{
+				id: "6C321E201EBDBE78"
+				type: "item"
+				item: "minecraft:leather"
+			}]
+			rewards: [{
+				id: "6F6F11EE99B02A40"
+				type: "item"
+				item: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						Damage: 150
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			subtitle: "{quest.twr.5DD231E4178E830D.subtitle}"
+			description: [
+				"{quest.twr.5DD231E4178E830D.description.1}"
+				"{quest.twr.5DD231E4178E830D.description.2}"
+			]
+			dependencies: ["42AF456D165CBF75"]
+			id: "5DD231E4178E830D"
+			tasks: [{
+				id: "3AE56D40A163154B"
+				type: "item"
+				item: {
+					id: "frostedheart:straw_lining"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			subtitle: "{quest.twr.4DD7D3E4613000E4.subtitle}"
+			dependencies: ["42AF456D165CBF75"]
+			hide: true
+			id: "4DD7D3E4613000E4"
+			tasks: [{
+				id: "07753AF4C71657C6"
+				type: "item"
+				item: {
+					id: "minecraft:leather_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "stone_age:fishing_net"
+			x: 7.5d
+			y: -4.5d
+			subtitle: "{quest.twr.506C01A9BE167F7F.subtitle}"
+			description: [
+				"{quest.twr.506C01A9BE167F7F.description.1}"
+				"{quest.twr.506C01A9BE167F7F.description.2}"
+			]
+			dependencies: ["42AF456D165CBF75"]
+			id: "506C01A9BE167F7F"
+			tasks: [
+				{
+					id: "788C94B540917172"
+					type: "item"
+					item: "stone_age:fishing_net"
+				}
+				{
+					id: "69D366F12DFD2674"
+					type: "item"
+					title: "{quest.twr.506C01A9BE167F7F.69D366F12DFD2674.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "ages_api:fishing_net_meshes"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "minecraft:book"
+			x: 1.2d
+			y: 0.0d
+			shape: "square"
+			subtitle: "必要的信息"
+			description: [
+				"在这个章节，你首要的目标是建造一个简易的&e庇护所&r，并升起&e火焰&r，取得温暖。"
+				"你必须抓紧时间，因为&c暴风雪&r将在&b一天后&r来临。"
+				"带上&b天气预报帽&r或者携带&b天气雷达&r，你可以看到未来的气候变化。"
+				"那么，事不宜迟，开始旅程吧！"
+			]
+			dependencies: ["24E7D1E02BE55A8E"]
+			size: 1.2d
+			id: "56E5FD2809882B5F"
+			tasks: [{
+				id: "384D3A68430787BB"
+				type: "checkmark"
+				title: "章节指引"
+			}]
+		}
+	]
+}

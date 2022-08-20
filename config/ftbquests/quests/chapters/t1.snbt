@@ -1,7 +1,7 @@
 {
 	id: "0F108F94F3A03203"
 	group: "7823E178F7BCBCB0"
-	order_index: 1
+	order_index: 2
 	filename: "t1"
 	title: "{chapter.twr.0F108F94F3A03203.title}"
 	icon: "minecraft:stone"
@@ -10,153 +10,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{quest.twr.32E5D942F1FE8645.title}"
-			icon: "minecraft:flint"
-			x: -9.5d
-			y: 0.0d
-			subtitle: "{quest.twr.32E5D942F1FE8645.subtitle}"
-			description: [
-				"{quest.twr.32E5D942F1FE8645.description.1}"
-				"{quest.twr.32E5D942F1FE8645.description.2}"
-				"{quest.twr.32E5D942F1FE8645.description.3}"
-				"{quest.twr.32E5D942F1FE8645.description.4}"
-				"{quest.twr.32E5D942F1FE8645.description.5}"
-			]
-			dependencies: [
-				"1F615C38B1A015E5"
-				"3B5663CF194B054C"
-				"6667AA13CA3DAC9B"
-			]
-			hide: true
-			id: "32E5D942F1FE8645"
-			tasks: [
-				{
-					id: "559ABB075122B276"
-					type: "item"
-					item: "minecraft:flint"
-				}
-				{
-					id: "19FA38C832CBE31D"
-					type: "item"
-					item: "minecraft:stick"
-				}
-			]
-		}
-		{
-			x: -8.0d
-			y: 0.0d
-			subtitle: "{quest.twr.3102993072F3C8B9.subtitle}"
-			description: [
-				"{quest.twr.3102993072F3C8B9.description.1}"
-				"{quest.twr.3102993072F3C8B9.description.2}"
-				"{quest.twr.3102993072F3C8B9.description.3}"
-				"{quest.twr.3102993072F3C8B9.description.4}"
-				"{quest.twr.3102993072F3C8B9.description.5}"
-			]
-			dependencies: ["32E5D942F1FE8645"]
-			hide: true
-			id: "3102993072F3C8B9"
-			tasks: [{
-				id: "081B951F9A018B3B"
-				type: "item"
-				item: "stone_age:flint_workbench"
-			}]
-			rewards: [{
-				id: "163A03C91746986A"
-				type: "item"
-				item: "minecraft:torch"
-			}]
-		}
-		{
-			x: -5.0d
-			y: -0.5d
-			subtitle: "{quest.twr.1D7F2824DAF3BB7B.subtitle}"
-			description: [
-				"{quest.twr.1D7F2824DAF3BB7B.description.1}"
-				"{quest.twr.1D7F2824DAF3BB7B.description.2}"
-			]
-			dependencies: ["348EB1588EFAD2AB"]
-			hide: true
-			id: "1D7F2824DAF3BB7B"
-			tasks: [{
-				id: "4366249350406528"
-				type: "item"
-				item: "stone_age:drying_rack"
-			}]
-			rewards: [{
-				id: "7B7D0595E8C4F915"
-				type: "item"
-				item: "minecraft:flint"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 0.0d
-			shape: "gear"
-			subtitle: "{quest.twr.29BC87594650152D.subtitle}"
-			description: [
-				"{quest.twr.29BC87594650152D.description.1}"
-				"{quest.twr.29BC87594650152D.description.2}"
-			]
-			dependencies: [
-				"1D7F2824DAF3BB7B"
-				"1233EF3CDF5E33F8"
-			]
-			hide: true
-			size: 1.2d
-			id: "29BC87594650152D"
-			tasks: [{
-				id: "5DF3E0777A5A6D09"
-				type: "item"
-				item: "charcoal_pit:straw"
-				count: 4L
-			}]
-			rewards: [
-				{
-					id: "4EC23DEAC9F9E125"
-					type: "item"
-					item: "minecraft:flint"
-				}
-				{
-					id: "1B12987080C1C9CE"
-					type: "item"
-					item: "rankine:banana_yucca"
-				}
-			]
-		}
-		{
-			x: -2.0d
-			y: -5.0d
-			subtitle: "{quest.twr.36960F1D7CDC8B30.subtitle}"
-			description: [
-				"{quest.twr.36960F1D7CDC8B30.description.1}"
-				"{quest.twr.36960F1D7CDC8B30.description.2}"
-				"{quest.twr.36960F1D7CDC8B30.description.3}"
-				"{quest.twr.36960F1D7CDC8B30.description.4}"
-				"{quest.twr.36960F1D7CDC8B30.description.5}"
-				"{quest.twr.36960F1D7CDC8B30.description.6}"
-			]
-			dependencies: ["6B7D4F59C921C1FC"]
-			id: "36960F1D7CDC8B30"
-			tasks: [{
-				id: "2EA574C52E7D6A74"
-				type: "item"
-				item: "minecraft:campfire"
-			}]
-			rewards: [
-				{
-					id: "29176E3625258812"
-					type: "item"
-					item: "crockpot:gazpacho"
-				}
-				{
-					id: "6F19F1FDBDC144F2"
-					type: "item"
-					item: "crockpot:kabobs"
-				}
-			]
-		}
-		{
+			title: "我甚至进入了石器时代"
 			icon: "minecraft:stone"
 			x: -0.5d
 			y: 0.0d
@@ -174,6 +28,7 @@
 				"1837531DB19C9023"
 				"6B7D4F59C921C1FC"
 				"3B7B7A0BC0CF3CE0"
+				"36960F1D7CDC8B30"
 			]
 			id: "4BD8236FEEBD7D3A"
 			tasks: [
@@ -203,9 +58,10 @@
 			]
 		}
 		{
+			title: "结实的案板"
 			x: -0.5d
-			y: -4.0d
-			shape: "gear"
+			y: 1.5d
+			shape: "square"
 			subtitle: "{quest.twr.7E3F0C805E2BBB9F.subtitle}"
 			description: [
 				"{quest.twr.7E3F0C805E2BBB9F.description.1}"
@@ -214,17 +70,35 @@
 			dependencies: ["4BD8236FEEBD7D3A"]
 			hide: true
 			id: "7E3F0C805E2BBB9F"
-			tasks: [{
-				id: "78D4D4C0E2691057"
+			tasks: [
+				{
+					id: "78D4D4C0E2691057"
+					type: "item"
+					item: "stone_age:tree_stump"
+				}
+				{
+					id: "08909EDAE28ACCEB"
+					type: "item"
+					item: {
+						id: "rankine:stone_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6115BE94578D7A3D"
 				type: "item"
-				item: "stone_age:tree_stump"
+				item: "crockpot:fish_tacos"
 			}]
 		}
 		{
 			title: "{quest.twr.19603323EAAFF726.title}"
 			icon: "minecraft:oak_planks"
 			x: 1.0d
-			y: -4.0d
+			y: 1.5d
 			subtitle: "{quest.twr.19603323EAAFF726.subtitle}"
 			description: [
 				"{quest.twr.19603323EAAFF726.description.1}"
@@ -248,65 +122,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
-			shape: "gear"
-			subtitle: "{quest.twr.6B7D4F59C921C1FC.subtitle}"
-			description: ["{quest.twr.6B7D4F59C921C1FC.description.1}"]
-			dependencies: ["29BC87594650152D"]
-			hide: true
-			id: "6B7D4F59C921C1FC"
-			tasks: [{
-				id: "38086DB999F82B30"
-				type: "item"
-				item: {
-					id: "rankine:flint_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "77E243CC8A67A530"
-				type: "item"
-				item: "charcoal_pit:straw"
-				count: 4
-			}]
-		}
-		{
-			x: -3.0d
-			y: 2.0d
-			shape: "gear"
-			subtitle: "{quest.twr.45E2EF843333B846.subtitle}"
-			description: [
-				"{quest.twr.45E2EF843333B846.description.1}"
-				"{quest.twr.45E2EF843333B846.description.2}"
-			]
-			dependencies: ["29BC87594650152D"]
-			hide: true
-			id: "45E2EF843333B846"
-			tasks: [{
-				id: "0DA3A979A808DA51"
-				type: "item"
-				item: {
-					id: "rankine:flint_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "6BD5B0EE2E7BB7C8"
-				type: "item"
-				item: "rankine:snowberries"
-			}]
-		}
-		{
-			x: 3.5d
-			y: -0.5d
-			shape: "gear"
+			x: 1.0d
+			y: -1.5d
 			subtitle: "{quest.twr.689BB00EC2454F1F.subtitle}"
 			description: [
 				"{quest.twr.689BB00EC2454F1F.description.1}"
@@ -321,8 +138,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -5.5d
+			x: 2.5d
+			y: 1.5d
 			subtitle: "{quest.twr.417AC14073DD4249.subtitle}"
 			description: ["{quest.twr.417AC14073DD4249.description.1}"]
 			dependencies: ["19603323EAAFF726"]
@@ -335,9 +152,9 @@
 		}
 		{
 			title: "{quest.twr.0A9A5166127945AB.title}"
-			x: 3.5d
-			y: 1.0d
-			shape: "gear"
+			x: 2.5d
+			y: -1.5d
+			shape: "square"
 			subtitle: "{quest.twr.0A9A5166127945AB.subtitle}"
 			description: [
 				"{quest.twr.0A9A5166127945AB.description.1}"
@@ -361,83 +178,15 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 0.5d
-			subtitle: "{quest.twr.718403EB34A5B46F.subtitle}"
-			description: ["{quest.twr.718403EB34A5B46F.description.1}"]
-			dependencies: ["4BD8236FEEBD7D3A"]
-			hide: true
-			id: "718403EB34A5B46F"
-			tasks: [{
-				id: "1D8EA544D790D174"
-				type: "item"
-				item: "stone_age:tanning_rack"
-			}]
-		}
-		{
-			x: 0.5d
-			y: 1.5d
-			subtitle: "{quest.twr.42AF456D165CBF75.subtitle}"
-			description: [
-				"{quest.twr.42AF456D165CBF75.description.1}"
-				"{quest.twr.42AF456D165CBF75.description.2}"
-				"{quest.twr.42AF456D165CBF75.description.3}"
-			]
-			dependencies: ["718403EB34A5B46F"]
-			id: "42AF456D165CBF75"
-			tasks: [{
-				id: "6C321E201EBDBE78"
-				type: "item"
-				item: "minecraft:leather"
-			}]
-			rewards: [{
-				id: "6F6F11EE99B02A40"
-				type: "item"
-				item: {
-					id: "minecraft:bow"
-					Count: 1b
-					tag: {
-						Damage: 150
-					}
-				}
-			}]
-		}
-		{
-			x: -0.5d
-			y: 3.5d
-			shape: "gear"
-			subtitle: "{quest.twr.4A4D6D0DC9B348C1.subtitle}"
-			description: ["{quest.twr.4A4D6D0DC9B348C1.description.1}"]
-			dependencies: ["4BD8236FEEBD7D3A"]
-			hide: true
-			id: "4A4D6D0DC9B348C1"
-			tasks: [{
-				id: "76979FA29AAF6129"
-				type: "item"
-				item: {
-					id: "rankine:stone_hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "0D4B8E84CB7E9B61"
-				type: "item"
-				item: "crockpot:fish_tacos"
-			}]
-		}
-		{
 			title: "{quest.twr.586D66C71A378A82.title}"
-			x: 3.5d
-			y: 3.5d
+			x: 2.5d
+			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.586D66C71A378A82.subtitle}"
 			description: ["{quest.twr.586D66C71A378A82.description.1}"]
 			dependencies: [
-				"4A4D6D0DC9B348C1"
 				"0A9A5166127945AB"
+				"7E3F0C805E2BBB9F"
 			]
 			hide: true
 			id: "586D66C71A378A82"
@@ -457,8 +206,8 @@
 		}
 		{
 			icon: "immersiveengineering:alloy_smelter"
-			x: 8.0d
-			y: 5.0d
+			x: 7.0d
+			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.162264AE4B9EE1A9.subtitle}"
 			description: [
@@ -466,7 +215,10 @@
 				"{quest.twr.162264AE4B9EE1A9.description.2}"
 				"{quest.twr.162264AE4B9EE1A9.description.3}"
 			]
-			dependencies: ["4B6840707D77E2C0"]
+			dependencies: [
+				"4B6840707D77E2C0"
+				"6A22E2D62D4719BE"
+			]
 			hide: true
 			id: "162264AE4B9EE1A9"
 			tasks: [
@@ -503,8 +255,8 @@
 			]
 		}
 		{
-			x: 9.5d
-			y: 3.5d
+			x: 8.5d
+			y: 0.0d
 			subtitle: "{quest.twr.4B6840707D77E2C0.subtitle}"
 			description: ["{quest.twr.4B6840707D77E2C0.description.1}"]
 			dependencies: [
@@ -521,9 +273,9 @@
 		}
 		{
 			title: "{quest.twr.3C4CEEBFF8DCF448.title}"
-			x: 8.0d
-			y: 1.0d
-			shape: "gear"
+			x: 1.0d
+			y: 0.0d
+			shape: "square"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
 			description: [
 				"{quest.twr.3C4CEEBFF8DCF448.description.1}"
@@ -551,8 +303,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 0.5d
+			x: 11.5d
+			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.13D9DE54DF8117C2.subtitle}"
 			description: [
@@ -567,7 +319,6 @@
 				"29533DFBD579CA2F"
 				"4CD30E566C5776E0"
 			]
-			size: 1.2d
 			id: "13D9DE54DF8117C2"
 			tasks: [{
 				id: "1A5C62932CF1E4C8"
@@ -583,8 +334,8 @@
 		}
 		{
 			title: "{quest.twr.75154C5A6E2F3257.title}"
-			x: 15.5d
-			y: 0.5d
+			x: 13.2d
+			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.75154C5A6E2F3257.subtitle}"
 			description: [
@@ -617,8 +368,8 @@
 		}
 		{
 			x: -0.5d
-			y: -2.0d
-			shape: "gear"
+			y: -1.5d
+			shape: "square"
 			subtitle: "{quest.twr.6D92E93A0811C1FD.subtitle}"
 			description: [
 				"{quest.twr.6D92E93A0811C1FD.description.1}"
@@ -641,8 +392,8 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -3.5d
+			x: 11.5d
+			y: -4.5d
 			subtitle: "{quest.twr.29533DFBD579CA2F.subtitle}"
 			description: [
 				"{quest.twr.29533DFBD579CA2F.description.1}"
@@ -660,10 +411,14 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -4.0d
+			x: 1.0d
+			y: 3.0d
+			shape: "square"
 			subtitle: "{quest.twr.3078BCEE3E402DED.subtitle}"
-			description: ["{quest.twr.3078BCEE3E402DED.description.1}"]
+			description: [
+				"{quest.twr.3078BCEE3E402DED.description.1}"
+				""
+			]
 			dependencies: ["19603323EAAFF726"]
 			id: "3078BCEE3E402DED"
 			tasks: [{
@@ -678,8 +433,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -4.0d
+			x: 2.5d
+			y: 3.0d
 			subtitle: "{quest.twr.74780AAD5FDF8870.subtitle}"
 			description: ["{quest.twr.74780AAD5FDF8870.description.1}"]
 			dependencies: ["3078BCEE3E402DED"]
@@ -691,8 +446,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -2.0d
+			x: -0.5d
+			y: -3.0d
 			subtitle: "{quest.twr.6CF9868197215C1D.subtitle}"
 			description: [
 				"{quest.twr.6CF9868197215C1D.description.1}"
@@ -719,8 +474,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -4.0d
+			x: 4.0d
+			y: 3.0d
 			subtitle: "{quest.twr.35E5CE37A2F8EB90.subtitle}"
 			description: ["{quest.twr.35E5CE37A2F8EB90.description.1}"]
 			dependencies: ["74780AAD5FDF8870"]
@@ -733,8 +488,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -2.0d
+			x: 4.0d
+			y: -3.0d
 			shape: "gear"
 			subtitle: "{quest.twr.4543F3B5F937E6B0.subtitle}"
 			description: [
@@ -761,8 +516,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -0.5d
+			x: 5.5d
+			y: -4.5d
 			subtitle: "{quest.twr.77A7511048D5767B.subtitle}"
 			description: [
 				"{quest.twr.77A7511048D5767B.description.1}"
@@ -780,8 +535,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -2.0d
+			x: 10.0d
+			y: -3.0d
 			subtitle: "{quest.twr.1C8171C8FD1D0CD5.subtitle}"
 			description: [
 				"{quest.twr.1C8171C8FD1D0CD5.description.1}"
@@ -796,8 +551,8 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -2.0d
+			x: 11.5d
+			y: -3.0d
 			subtitle: "{quest.twr.47F458D8E94E5367.subtitle}"
 			description: [
 				"{quest.twr.47F458D8E94E5367.description.1}"
@@ -819,8 +574,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -0.5d
+			x: 5.5d
+			y: -6.0d
 			subtitle: "{quest.twr.66505076652885B8.subtitle}"
 			description: [
 				"{quest.twr.66505076652885B8.description.1}"
@@ -837,8 +592,8 @@
 		}
 		{
 			icon: "charcoal_pit:sandy_collector"
-			x: 9.5d
-			y: -2.0d
+			x: 10.0d
+			y: -4.5d
 			subtitle: "{quest.twr.13AA30FB9CD620EB.subtitle}"
 			description: [
 				"{quest.twr.13AA30FB9CD620EB.description.1}"
@@ -859,42 +614,8 @@
 			}]
 		}
 		{
-			title: "{quest.twr.76B2B1A3EC6D92CD.title}"
-			icon: "minecraft:charcoal"
-			x: -3.0d
-			y: -3.5d
-			subtitle: "{quest.twr.76B2B1A3EC6D92CD.subtitle}"
-			description: [
-				"{quest.twr.76B2B1A3EC6D92CD.description.1}"
-				"{quest.twr.76B2B1A3EC6D92CD.description.2}"
-				"{quest.twr.76B2B1A3EC6D92CD.description.3}"
-				"{quest.twr.76B2B1A3EC6D92CD.description.4}"
-				"{quest.twr.76B2B1A3EC6D92CD.description.5}"
-			]
-			dependencies: ["6B7D4F59C921C1FC"]
-			id: "76B2B1A3EC6D92CD"
-			tasks: [
-				{
-					id: "34D72F00CF39E4B0"
-					type: "item"
-					item: "charcoal_pit:log_pile"
-				}
-				{
-					id: "2DB3C08BDDB3E260"
-					type: "item"
-					item: "minecraft:charcoal"
-					consume_items: true
-				}
-			]
-			rewards: [{
-				id: "641441D9B61C43FB"
-				type: "item"
-				item: "kubejs:charcoal_briquette"
-			}]
-		}
-		{
-			x: 7.0d
-			y: -3.5d
+			x: 1.0d
+			y: -4.5d
 			subtitle: "{quest.twr.66EFFD59083624BF.subtitle}"
 			description: ["{quest.twr.66EFFD59083624BF.description.1}"]
 			dependencies: ["6CF9868197215C1D"]
@@ -906,8 +627,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -3.5d
+			x: 4.0d
+			y: -4.5d
 			shape: "gear"
 			subtitle: "{quest.twr.4625CA3FEAF6908B.subtitle}"
 			description: ["{quest.twr.4625CA3FEAF6908B.description.1}"]
@@ -930,45 +651,9 @@
 			}]
 		}
 		{
-			icon: {
-				id: "rankine:flint_knife"
-				Count: 1b
-				tag: {
-					Damage: 38
-				}
-			}
-			x: -6.5d
-			y: 0.5d
-			subtitle: "{quest.twr.14D7D98FC5264B03.subtitle}"
-			description: [
-				"{quest.twr.14D7D98FC5264B03.description.1}"
-				"{quest.twr.14D7D98FC5264B03.description.2}"
-				"{quest.twr.14D7D98FC5264B03.description.3}"
-			]
-			dependencies: ["3102993072F3C8B9"]
-			hide: true
-			id: "14D7D98FC5264B03"
-			tasks: [{
-				id: "2877C21663576225"
-				type: "item"
-				item: {
-					id: "rankine:flint_knife"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "1C6B8B365C014F06"
-				type: "item"
-				item: "minecraft:flint"
-			}]
-		}
-		{
 			title: "{quest.twr.48C50ABC7AE7C575.title}"
-			x: 6.0d
-			y: -0.5d
+			x: 7.0d
+			y: -6.0d
 			subtitle: "{quest.twr.48C50ABC7AE7C575.subtitle}"
 			description: ["{quest.twr.48C50ABC7AE7C575.description.1}"]
 			dependencies: ["77A7511048D5767B"]
@@ -999,54 +684,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -0.5d
-			subtitle: "{quest.twr.348EB1588EFAD2AB.subtitle}"
-			description: [
-				"{quest.twr.348EB1588EFAD2AB.description.1}"
-				"{quest.twr.348EB1588EFAD2AB.description.2}"
-				"{quest.twr.348EB1588EFAD2AB.description.3}"
-				"{quest.twr.348EB1588EFAD2AB.description.4}"
-			]
-			dependencies: ["3102993072F3C8B9"]
-			hide: true
-			id: "348EB1588EFAD2AB"
-			tasks: [{
-				id: "218222BA0E80D408"
-				type: "item"
-				item: {
-					id: "stone_age:flint_knife"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "77E24B555B4EFB31"
-				type: "item"
-				item: "minecraft:stick"
-				count: 4
-			}]
-		}
-		{
-			x: -5.0d
-			y: 0.5d
-			subtitle: "{quest.twr.1233EF3CDF5E33F8.subtitle}"
-			description: ["{quest.twr.1233EF3CDF5E33F8.description.1}"]
-			dependencies: ["14D7D98FC5264B03"]
-			hide: true
-			id: "1233EF3CDF5E33F8"
-			tasks: [{
-				id: "3349CF3A5F68D6F5"
-				type: "item"
-				item: "primalwinter:snowy_vine"
-				count: 10L
-			}]
-		}
-		{
-			x: 14.0d
-			y: 3.5d
+			x: 10.0d
+			y: 0.0d
 			subtitle: "{quest.twr.4CD30E566C5776E0.subtitle}"
 			description: ["{quest.twr.4CD30E566C5776E0.description.1}"]
 			dependencies: ["4B6840707D77E2C0"]
@@ -1067,8 +706,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 5.0d
+			x: 10.0d
+			y: -1.5d
 			subtitle: "{quest.twr.7D2826CCB69C5EE8.subtitle}"
 			dependencies: ["4B6840707D77E2C0"]
 			id: "7D2826CCB69C5EE8"
@@ -1094,8 +733,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -0.5d
+			x: 1.0d
+			y: -3.0d
 			subtitle: "{quest.twr.062E137E7ECB4C99.subtitle}"
 			description: [
 				"{quest.twr.062E137E7ECB4C99.description.1}"
@@ -1117,87 +756,9 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -2.0d
-			subtitle: "{quest.twr.7521769E8333942B.subtitle}"
-			description: [
-				"{quest.twr.7521769E8333942B.description.1}"
-				"{quest.twr.7521769E8333942B.description.2}"
-			]
-			dependencies: ["29BC87594650152D"]
-			hide: true
-			id: "7521769E8333942B"
-			tasks: [{
-				id: "73D32EE1AFEFFA3C"
-				type: "item"
-				item: {
-					id: "rankine:flint_spear"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "63D489676FBD6BBB"
-				type: "item"
-				item: {
-					id: "minecraft:splash_potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:strong_strength"
-					}
-				}
-			}]
-		}
-		{
-			x: 1.5d
-			y: 1.5d
-			subtitle: "{quest.twr.4DD7D3E4613000E4.subtitle}"
-			dependencies: ["42AF456D165CBF75"]
-			hide: true
-			id: "4DD7D3E4613000E4"
-			tasks: [{
-				id: "07753AF4C71657C6"
-				type: "item"
-				item: {
-					id: "minecraft:leather_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: -5.0d
-			y: 2.0d
-			subtitle: "{quest.twr.5D803F0865A90DE0.subtitle}"
-			description: ["{quest.twr.5D803F0865A90DE0.description.1}"]
-			dependencies: ["29BC87594650152D"]
-			hide: true
-			id: "5D803F0865A90DE0"
-			tasks: [{
-				id: "67B5CC79345AFB26"
-				type: "item"
-				item: {
-					id: "rankine:flint_shovel"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "14FB637B7233851C"
-				type: "item"
-				item: "crockpot:veg_stinger"
-			}]
-		}
-		{
 			title: "{quest.twr.3EE690327B36D6E0.title}"
-			x: 5.5d
-			y: 5.0d
+			x: 7.0d
+			y: -1.5d
 			subtitle: "{quest.twr.3EE690327B36D6E0.subtitle}"
 			description: ["{quest.twr.3EE690327B36D6E0.description.1}"]
 			dependencies: [
@@ -1226,8 +787,8 @@
 		}
 		{
 			icon: "watersource:wooden_water_filter"
-			x: 5.5d
-			y: 6.0d
+			x: 7.0d
+			y: -3.0d
 			subtitle: "{quest.twr.3622C3DFDB5D8E02.subtitle}"
 			description: [
 				"{quest.twr.3622C3DFDB5D8E02.description.1}"
@@ -1260,237 +821,8 @@
 			]
 		}
 		{
-			title: "{quest.twr.33B6E7B60783C72B.title}"
-			x: -9.0d
-			y: 1.5d
-			shape: "gear"
-			subtitle: "{quest.twr.33B6E7B60783C72B.subtitle}"
-			description: [
-				"{quest.twr.33B6E7B60783C72B.description.1}"
-				"{quest.twr.33B6E7B60783C72B.description.2}"
-				"{quest.twr.33B6E7B60783C72B.description.3}"
-				"{quest.twr.33B6E7B60783C72B.description.4}"
-				"{quest.twr.33B6E7B60783C72B.description.5}"
-			]
-			id: "33B6E7B60783C72B"
-			tasks: [{
-				id: "6E14D0E983EACA58"
-				type: "checkmark"
-				icon: {
-					id: "watersource:leather_water_bag"
-					Count: 1b
-					tag: {
-						Damage: 1500
-					}
-				}
-			}]
-			rewards: [{
-				id: "1FFC44858A17C847"
-				type: "item"
-				item: {
-					id: "watersource:wooden_cup_drink"
-					Count: 1b
-					tag: {
-						Fluid: {
-							FluidName: "watersource:purified_water"
-							Amount: 250
-						}
-					}
-				}
-			}]
-		}
-		{
-			title: "{quest.twr.215BC2E7271F1478.title}"
-			icon: "crockpot:food_category_meat"
-			x: -8.0d
-			y: 1.5d
-			shape: "gear"
-			subtitle: "{quest.twr.215BC2E7271F1478.subtitle}"
-			description: [
-				"{quest.twr.215BC2E7271F1478.description.1}"
-				"{quest.twr.215BC2E7271F1478.description.2}"
-				"{quest.twr.215BC2E7271F1478.description.3}"
-				"{quest.twr.215BC2E7271F1478.description.4}"
-				"{quest.twr.215BC2E7271F1478.description.5}"
-			]
-			id: "215BC2E7271F1478"
-			tasks: [{
-				id: "58F4265EA5C778FB"
-				type: "checkmark"
-			}]
-		}
-		{
-			title: "{quest.twr.3B5663CF194B054C.title}"
-			x: -10.5d
-			y: 1.0d
-			shape: "gear"
-			subtitle: "{quest.twr.3B5663CF194B054C.subtitle}"
-			description: [
-				"{quest.twr.3B5663CF194B054C.description.1}"
-				"{quest.twr.3B5663CF194B054C.description.2}"
-				"{quest.twr.3B5663CF194B054C.description.3}"
-				"{quest.twr.3B5663CF194B054C.description.4}"
-				"{quest.twr.3B5663CF194B054C.description.5}"
-				"{quest.twr.3B5663CF194B054C.description.6}"
-				"{quest.twr.3B5663CF194B054C.description.7}"
-				"{quest.twr.3B5663CF194B054C.description.8}"
-				"{quest.twr.3B5663CF194B054C.description.9}"
-			]
-			id: "3B5663CF194B054C"
-			tasks: [{
-				id: "3428FDD619813DBF"
-				type: "checkmark"
-				icon: "frostedheart:temperature_probe"
-			}]
-		}
-		{
-			x: -4.5d
-			y: -3.5d
-			subtitle: "{quest.twr.443AD02B85632386.subtitle}"
-			description: [
-				"{quest.twr.443AD02B85632386.description.1}"
-				"{quest.twr.443AD02B85632386.description.2}"
-				"{quest.twr.443AD02B85632386.description.3}"
-			]
-			dependencies: ["7521769E8333942B"]
-			id: "443AD02B85632386"
-			tasks: [{
-				id: "6F52C9ED127AECCF"
-				type: "item"
-				item: "stone_age:raw_hide"
-				count: 4L
-			}]
-			rewards: [{
-				id: "4275790E4CE99758"
-				type: "item"
-				item: "minecraft:rabbit_foot"
-			}]
-		}
-		{
-			x: -5.5d
-			y: -5.0d
-			subtitle: "{quest.twr.2406D98489C938B8.subtitle}"
-			description: [
-				"{quest.twr.2406D98489C938B8.description.1}"
-				"{quest.twr.2406D98489C938B8.description.2}"
-			]
-			dependencies: ["443AD02B85632386"]
-			id: "2406D98489C938B8"
-			tasks: [{
-				id: "6898C42559ADDF9E"
-				type: "item"
-				item: {
-					id: "frostedheart:hide_jacket"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "63EF58D6EB60F38D"
-				type: "item"
-				item: "stone_age:raw_hide"
-			}]
-		}
-		{
-			title: "{quest.twr.1F615C38B1A015E5.title}"
-			icon: "minecraft:book"
-			x: -10.5d
-			y: -1.0d
-			shape: "gear"
-			subtitle: "{quest.twr.1F615C38B1A015E5.subtitle}"
-			description: [
-				"{quest.twr.1F615C38B1A015E5.description.1}"
-				"{quest.twr.1F615C38B1A015E5.description.2}"
-				"{quest.twr.1F615C38B1A015E5.description.3}"
-				"{quest.twr.1F615C38B1A015E5.description.4}"
-				"{quest.twr.1F615C38B1A015E5.description.5}"
-				"{quest.twr.1F615C38B1A015E5.description.6}"
-				"{quest.twr.1F615C38B1A015E5.description.7}"
-			]
-			id: "1F615C38B1A015E5"
-			tasks: [{
-				id: "0758A45D51C54F20"
-				type: "checkmark"
-				title: "{quest.twr.1F615C38B1A015E5.0758A45D51C54F20.title}"
-			}]
-		}
-		{
-			icon: "stone_age:fishing_net"
-			x: 0.5d
-			y: 2.5d
-			subtitle: "{quest.twr.506C01A9BE167F7F.subtitle}"
-			description: [
-				"{quest.twr.506C01A9BE167F7F.description.1}"
-				"{quest.twr.506C01A9BE167F7F.description.2}"
-			]
-			dependencies: ["42AF456D165CBF75"]
-			id: "506C01A9BE167F7F"
-			tasks: [
-				{
-					id: "788C94B540917172"
-					type: "item"
-					item: "stone_age:fishing_net"
-				}
-				{
-					id: "69D366F12DFD2674"
-					type: "item"
-					title: "{quest.twr.506C01A9BE167F7F.69D366F12DFD2674.title}"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "ages_api:fishing_net_meshes"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: -2.0d
-			y: 0.0d
-			shape: "gear"
-			subtitle: "{quest.twr.3B7B7A0BC0CF3CE0.subtitle}"
-			description: [
-				"{quest.twr.3B7B7A0BC0CF3CE0.description.1}"
-				"{quest.twr.3B7B7A0BC0CF3CE0.description.2}"
-			]
-			dependencies: ["29BC87594650152D"]
-			hide: true
-			id: "3B7B7A0BC0CF3CE0"
-			tasks: [{
-				id: "6779340B748701AF"
-				type: "item"
-				item: "charcoal_pit:fire_starter"
-			}]
-		}
-		{
-			x: -0.5d
-			y: -5.0d
-			subtitle: "{quest.twr.04DC32D417FA819E.subtitle}"
-			description: ["{quest.twr.04DC32D417FA819E.description.1}"]
-			dependencies: ["36960F1D7CDC8B30"]
-			hide: true
-			id: "04DC32D417FA819E"
-			tasks: [{
-				id: "425DFBB0A9795761"
-				type: "item"
-				item: {
-					id: "watersource:wooden_cup_drink"
-					Count: 1b
-					tag: {
-						Fluid: {
-							FluidName: "watersource:purified_water"
-							Amount: 250
-						}
-					}
-				}
-			}]
-		}
-		{
 			x: 5.5d
-			y: 1.0d
+			y: 1.5d
 			shape: "gear"
 			subtitle: "{quest.twr.1DF200F6772308C7.subtitle}"
 			description: [
@@ -1514,8 +846,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 2.0d
+			x: 8.5d
+			y: 3.0d
 			subtitle: "{quest.twr.1974619E18DB754A.subtitle}"
 			description: [
 				"{quest.twr.1974619E18DB754A.description.1}"
@@ -1542,93 +874,8 @@
 			}]
 		}
 		{
-			title: "{quest.twr.58EF2132D0431323.title}"
-			x: -8.0d
-			y: -1.5d
-			shape: "gear"
-			subtitle: "{quest.twr.58EF2132D0431323.subtitle}"
-			description: [
-				"{quest.twr.58EF2132D0431323.description.1}"
-				"{quest.twr.58EF2132D0431323.description.2}"
-				"{quest.twr.58EF2132D0431323.description.3}"
-				"{quest.twr.58EF2132D0431323.description.4}"
-				"{quest.twr.58EF2132D0431323.description.5}"
-			]
-			id: "58EF2132D0431323"
-			tasks: [{
-				id: "4955B8E28DC29D7C"
-				type: "checkmark"
-				title: "{quest.twr.58EF2132D0431323.4955B8E28DC29D7C.title}"
-			}]
-		}
-		{
-			x: -4.5d
-			y: -1.5d
-			subtitle: "{quest.twr.70E6A4B9946F263A.subtitle}"
-			description: ["{quest.twr.70E6A4B9946F263A.description.1}"]
-			dependencies: ["29BC87594650152D"]
-			id: "70E6A4B9946F263A"
-			tasks: [{
-				id: "303116E572280BDC"
-				type: "item"
-				item: {
-					id: "frostedheart:hay_jacket"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "20353DC728718A7E"
-				type: "item"
-				item: "minecraft:apple"
-			}]
-		}
-		{
-			title: "{quest.twr.1B3C8681DF78AD16.title}"
-			icon: "minecraft:writable_book"
-			x: -9.0d
-			y: -1.5d
-			shape: "gear"
-			subtitle: "{quest.twr.1B3C8681DF78AD16.subtitle}"
-			description: [
-				"{quest.twr.1B3C8681DF78AD16.description.1}"
-				"{quest.twr.1B3C8681DF78AD16.description.2}"
-				"{quest.twr.1B3C8681DF78AD16.description.3}"
-			]
-			id: "1B3C8681DF78AD16"
-			tasks: [{
-				id: "74FC4561FBA9442D"
-				type: "checkmark"
-				title: "{quest.twr.1B3C8681DF78AD16.74FC4561FBA9442D.title}"
-			}]
-		}
-		{
-			x: 1.5d
-			y: 2.5d
-			subtitle: "{quest.twr.5DD231E4178E830D.subtitle}"
-			description: [
-				"{quest.twr.5DD231E4178E830D.description.1}"
-				"{quest.twr.5DD231E4178E830D.description.2}"
-			]
-			dependencies: ["42AF456D165CBF75"]
-			id: "5DD231E4178E830D"
-			tasks: [{
-				id: "3AE56D40A163154B"
-				type: "item"
-				item: {
-					id: "frostedheart:straw_lining"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 9.5d
-			y: 5.0d
+			x: 8.5d
+			y: 1.5d
 			subtitle: "{quest.twr.0B9DBC18CEEC4CB2.subtitle}"
 			description: ["{quest.twr.0B9DBC18CEEC4CB2.description.1}"]
 			dependencies: ["4B6840707D77E2C0"]
@@ -1647,10 +894,10 @@
 		}
 		{
 			x: -0.5d
-			y: 5.0d
+			y: 3.0d
 			subtitle: "{quest.twr.7175C1158EE9178A.subtitle}"
 			description: ["{quest.twr.7175C1158EE9178A.description.1}"]
-			dependencies: ["4A4D6D0DC9B348C1"]
+			dependencies: ["7E3F0C805E2BBB9F"]
 			id: "7175C1158EE9178A"
 			tasks: [{
 				id: "405CDF6B2D5C5DC7"
@@ -1665,8 +912,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 1.0d
+			x: 7.0d
+			y: 3.0d
 			subtitle: "{quest.twr.79D38F0D4D3E5482.subtitle}"
 			description: [
 				"{quest.twr.79D38F0D4D3E5482.description.1}"
@@ -1690,8 +937,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 1.0d
+			x: 5.5d
+			y: 3.0d
 			subtitle: "{quest.twr.5E3A878B95133DAD.subtitle}"
 			description: [
 				"{quest.twr.5E3A878B95133DAD.description.1}"
@@ -1714,33 +961,11 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -5.0d
-			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
-			description: [
-				"{quest.twr.643B93BCE91A0BB9.description.1}"
-				"{quest.twr.7E68FC6215F4FADC.description.2}"
-			]
-			dependencies: ["36960F1D7CDC8B30"]
-			hide: true
-			id: "7E68FC6215F4FADC"
-			tasks: [{
-				id: "2BA166AB2BD842B1"
-				type: "item"
-				item: "kubejs:straw_briquette"
-			}]
-			rewards: [{
-				id: "21F619AFDB48A366"
-				type: "item"
-				item: "kubejs:straw_briquette"
-			}]
-		}
-		{
-			x: 15.5d
-			y: 3.5d
+			x: 10.0d
+			y: 1.5d
 			subtitle: "{quest.twr.190859211258D56B.subtitle}"
 			description: ["{quest.twr.190859211258D56B.description.1}"]
-			dependencies: ["4CD30E566C5776E0"]
+			dependencies: ["4B6840707D77E2C0"]
 			id: "190859211258D56B"
 			tasks: [{
 				id: "7279CB115270D37C"
@@ -1758,34 +983,8 @@
 			}]
 		}
 		{
-			title: "{quest.twr.6667AA13CA3DAC9B.title}"
-			icon: "ftbquests:book"
-			x: -11.5d
-			y: 0.0d
-			shape: "gear"
-			subtitle: "{quest.twr.6667AA13CA3DAC9B.subtitle}"
-			description: [
-				"{quest.twr.6667AA13CA3DAC9B.description.1}"
-				"{quest.twr.6667AA13CA3DAC9B.description.2}"
-				"{quest.twr.6667AA13CA3DAC9B.description.3}"
-				"{quest.twr.6667AA13CA3DAC9B.description.4}"
-				"{quest.twr.6667AA13CA3DAC9B.description.5}"
-				"{quest.twr.6667AA13CA3DAC9B.description.6}"
-				"{quest.twr.6667AA13CA3DAC9B.description.7}"
-				"{quest.twr.6667AA13CA3DAC9B.description.8}"
-				"{quest.twr.6667AA13CA3DAC9B.description.9}"
-				"{quest.twr.6667AA13CA3DAC9B.description.10}"
-			]
-			size: 1.2d
-			id: "6667AA13CA3DAC9B"
-			tasks: [{
-				id: "53400295DD5D4011"
-				type: "checkmark"
-			}]
-		}
-		{
-			x: 3.5d
-			y: 5.0d
+			x: 5.5d
+			y: -1.5d
 			subtitle: "{quest.twr.7887EB905BAA7BEF.subtitle}"
 			description: [
 				"{quest.twr.7887EB905BAA7BEF.description.1}"
@@ -1812,8 +1011,8 @@
 					Damage: 0
 				}
 			}
-			x: 6.0d
-			y: 2.0d
+			x: 7.0d
+			y: 1.5d
 			subtitle: "{quest.twr.0E067BFAE2FB5441.subtitle}"
 			description: [
 				"{quest.twr.0E067BFAE2FB5441.description.1}"
@@ -1853,8 +1052,8 @@
 		}
 		{
 			icon: "minecraft:netherrack"
-			x: 1.5d
-			y: -3.0d
+			x: -0.5d
+			y: -4.5d
 			subtitle: "{quest.twr.3B306015B7675BD1.subtitle}"
 			description: [
 				"{quest.twr.3B306015B7675BD1.description.1}"
@@ -1878,37 +1077,10 @@
 			}]
 		}
 		{
-			title: "{quest.twr.1837531DB19C9023.title}"
-			x: -1.5d
-			y: 2.0d
-			shape: "gear"
-			subtitle: "{quest.twr.1837531DB19C9023.subtitle}"
-			description: [
-				"{quest.twr.1837531DB19C9023.description.1}"
-				"{quest.twr.1837531DB19C9023.description.2}"
-				"{quest.twr.1837531DB19C9023.description.3}"
-				"{quest.twr.1837531DB19C9023.description.4}"
-			]
-			dependencies: ["45E2EF843333B846"]
-			id: "1837531DB19C9023"
-			tasks: [{
-				id: "499B968D078E2A5A"
-				type: "item"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:stone"
-					}
-				}
-				count: 8L
-			}]
-		}
-		{
 			title: "{block.thermopolium.stew_pot}"
 			icon: "thermopolium:stew_pot"
-			x: 1.5d
-			y: -0.5d
+			x: -2.0d
+			y: -1.5d
 			subtitle: "{quest.twr.11A33F924E78C874.subtitle}"
 			description: [
 				"{quest.twr.11A33F924E78C874.description.1}"
@@ -1945,8 +1117,8 @@
 		}
 		{
 			title: "{quest.twr.6A22E2D62D4719BE.title}"
-			x: 5.5d
-			y: 3.5d
+			x: 5.3999999999999995d
+			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.6A22E2D62D4719BE.subtitle}"
 			description: [
@@ -1962,35 +1134,6 @@
 				id: "3DBF7D165A3ACC76"
 				type: "item"
 				item: "frostedheart:drawing_desk"
-			}]
-		}
-		{
-			icon: "crockpot:turkey_dinner"
-			x: -8.0d
-			y: 2.5d
-			subtitle: "{quest.twr.24E7D1E02BE55A8E.subtitle}"
-			description: [
-				"{quest.twr.24E7D1E02BE55A8E.description.1}"
-				"{quest.twr.24E7D1E02BE55A8E.description.2}"
-				"{quest.twr.24E7D1E02BE55A8E.description.3}"
-				"{quest.twr.24E7D1E02BE55A8E.description.4}"
-				"{quest.twr.24E7D1E02BE55A8E.description.5}"
-				"{quest.twr.24E7D1E02BE55A8E.description.6}"
-				"{quest.twr.24E7D1E02BE55A8E.description.7}"
-				"{quest.twr.24E7D1E02BE55A8E.description.8}"
-			]
-			dependencies: ["215BC2E7271F1478"]
-			hide: true
-			id: "24E7D1E02BE55A8E"
-			tasks: [{
-				id: "047874DA9F5AB4B1"
-				type: "checkmark"
-				title: "{quest.twr.24E7D1E02BE55A8E.047874DA9F5AB4B1.title}"
-			}]
-			rewards: [{
-				id: "1BCCE95CAC67C16F"
-				type: "item"
-				item: "minecraft:apple"
 			}]
 		}
 	]

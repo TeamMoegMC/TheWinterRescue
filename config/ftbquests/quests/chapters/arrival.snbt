@@ -12,8 +12,8 @@
 		{
 			title: "{quest.twr.60F112EDA31F73F5.title}"
 			icon: "ftbquests:book"
-			x: -6.0d
-			y: -2.0d
+			x: -5.0d
+			y: -0.5d
 			subtitle: "{quest.twr.60F112EDA31F73F5.subtitle}"
 			description: [
 				"{quest.twr.60F112EDA31F73F5.description.1}"
@@ -34,7 +34,7 @@
 			title: "{quest.twr.6C86BD5F9112256F.title}"
 			icon: "create:propeller"
 			x: -6.0d
-			y: -3.0d
+			y: -0.5d
 			subtitle: "{quest.twr.6C86BD5F9112256F.subtitle}"
 			description: [
 				"{quest.twr.6C86BD5F9112256F.description.1}"
@@ -54,8 +54,8 @@
 		{
 			title: "{quest.twr.4E3C1F4BDB921B8E.title}"
 			icon: "frostedheart:relic_chest"
-			x: -6.0d
-			y: -5.0d
+			x: -8.0d
+			y: -0.5d
 			subtitle: "{quest.twr.4E3C1F4BDB921B8E.subtitle}"
 			description: [
 				"{quest.twr.4E3C1F4BDB921B8E.description.1}"
@@ -103,8 +103,8 @@
 		{
 			title: "{quest.twr.2422C77587FDEE28.title}"
 			icon: "minecraft:writable_book"
-			x: -6.0d
-			y: -1.0d
+			x: -4.0d
+			y: -0.5d
 			subtitle: "{quest.twr.2422C77587FDEE28.subtitle}"
 			description: [
 				"{quest.twr.2422C77587FDEE28.description.1}"
@@ -130,8 +130,8 @@
 		{
 			title: "{quest.twr.543F5BC239D07C40.title}"
 			icon: "minecraft:oak_sapling"
-			x: -6.0d
-			y: 1.0d
+			x: -2.0d
+			y: -0.5d
 			subtitle: "{quest.twr.543F5BC239D07C40.subtitle}"
 			description: [
 				"{quest.twr.543F5BC239D07C40.description.1}"
@@ -146,12 +146,17 @@
 				id: "7421B8D8B161FCBC"
 				type: "checkmark"
 			}]
+			rewards: [{
+				id: "2F3CEB557C7CEFB7"
+				type: "item"
+				item: "frostedheart:rye_bread"
+			}]
 		}
 		{
 			title: "{quest.twr.1CD9EB4A39925BB8.title}"
 			icon: "minecraft:player_head"
-			x: -6.0d
-			y: 0.0d
+			x: -3.0d
+			y: -0.5d
 			subtitle: "{quest.twr.1CD9EB4A39925BB8.subtitle}"
 			description: [
 				"{quest.twr.1CD9EB4A39925BB8.description.1}"
@@ -177,8 +182,8 @@
 		{
 			title: "{quest.twr.744D35762CD9BD26.title}"
 			icon: "minecraft:fire_charge"
-			x: -6.0d
-			y: -6.0d
+			x: -9.0d
+			y: -0.5d
 			subtitle: "{quest.twr.744D35762CD9BD26.subtitle}"
 			description: [
 				"{quest.twr.744D35762CD9BD26.description.1}"
@@ -198,8 +203,8 @@
 		}
 		{
 			title: "{quest.twr.1337E25DE8FDFC42.title}"
-			x: -6.0d
-			y: -4.0d
+			x: -7.0d
+			y: -0.5d
 			subtitle: "{quest.twr.1337E25DE8FDFC42.subtitle}"
 			description: [
 				"{quest.twr.1337E25DE8FDFC42.description.1}"
@@ -210,7 +215,6 @@
 				"{quest.twr.1337E25DE8FDFC42.description.6}"
 				"{quest.twr.1337E25DE8FDFC42.description.7}"
 				"{quest.twr.1337E25DE8FDFC42.description.8}"
-				"{quest.twr.1337E25DE8FDFC42.description.9}"
 			]
 			dependencies: ["4E3C1F4BDB921B8E"]
 			id: "1337E25DE8FDFC42"
@@ -224,8 +228,8 @@
 		{
 			title: "{quest.twr.7AFE32B08BB6CE6C.title}"
 			icon: "minecraft:paper"
-			x: -6.0d
-			y: 2.0d
+			x: -1.0d
+			y: -0.5d
 			subtitle: "{quest.twr.7AFE32B08BB6CE6C.subtitle}"
 			description: ["{quest.twr.7AFE32B08BB6CE6C.description.1}"]
 			dependencies: ["543F5BC239D07C40"]
@@ -422,6 +426,25 @@
 					}
 				}
 			]
+		}
+		{
+			title: "{quest.twr.1B3C8681DF78AD16.title}"
+			icon: "minecraft:writable_book"
+			x: 0.0d
+			y: -0.5d
+			subtitle: "{quest.twr.1B3C8681DF78AD16.subtitle}"
+			description: [
+				"{quest.twr.1B3C8681DF78AD16.description.1}"
+				"{quest.twr.1B3C8681DF78AD16.description.2}"
+				"{quest.twr.1B3C8681DF78AD16.description.3}"
+			]
+			dependencies: ["7AFE32B08BB6CE6C"]
+			id: "1B3C8681DF78AD16"
+			tasks: [{
+				id: "74FC4561FBA9442D"
+				type: "checkmark"
+				title: "{quest.twr.1B3C8681DF78AD16.74FC4561FBA9442D.title}"
+			}]
 		}
 	]
 }

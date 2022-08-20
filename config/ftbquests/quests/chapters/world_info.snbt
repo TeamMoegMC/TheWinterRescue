@@ -5,6 +5,7 @@
 	filename: "world_info"
 	title: "{chapter.twr.683664CACFD52C99.title}"
 	icon: "minecraft:grass_block"
+	subtitle: ["有关这个世界你所知道的一切信息。"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
