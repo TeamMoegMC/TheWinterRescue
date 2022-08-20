@@ -210,6 +210,7 @@
 				"{quest.twr.1337E25DE8FDFC42.description.6}"
 				"{quest.twr.1337E25DE8FDFC42.description.7}"
 				"{quest.twr.1337E25DE8FDFC42.description.8}"
+				"{quest.twr.1337E25DE8FDFC42.description.9}"
 			]
 			dependencies: ["4E3C1F4BDB921B8E"]
 			id: "1337E25DE8FDFC42"
