@@ -10,7 +10,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "我甚至进入了石器时代"
+			title: "{quest.twr.4BD8236FEEBD7D3A.title}"
 			icon: "minecraft:stone"
 			x: -0.5d
 			y: 0.0d
@@ -58,7 +58,7 @@
 			]
 		}
 		{
-			title: "结实的案板"
+			title: "{quest.twr.7E3F0C805E2BBB9F.title}"
 			x: -0.5d
 			y: 1.5d
 			shape: "square"
@@ -417,7 +417,7 @@
 			subtitle: "{quest.twr.3078BCEE3E402DED.subtitle}"
 			description: [
 				"{quest.twr.3078BCEE3E402DED.description.1}"
-				""
+				"{quest.twr.3078BCEE3E402DED.description.2}"
 			]
 			dependencies: ["19603323EAAFF726"]
 			id: "3078BCEE3E402DED"

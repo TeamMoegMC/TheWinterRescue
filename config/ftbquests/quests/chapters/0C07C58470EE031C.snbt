@@ -418,7 +418,7 @@
 			}]
 		}
 		{
-			title: "生火"
+			title: "{quest.twr.3B7B7A0BC0CF3CE0.title}"
 			x: 9.0d
 			y: 0.0d
 			shape: "square"
@@ -626,8 +626,8 @@
 				"{quest.twr.36960F1D7CDC8B30.description.4}"
 				"{quest.twr.36960F1D7CDC8B30.description.5}"
 				"{quest.twr.36960F1D7CDC8B30.description.6}"
-				""
-				"完成后开启下一章节。"
+				"{quest.twr.36960F1D7CDC8B30.description.7}"
+				"{quest.twr.36960F1D7CDC8B30.description.8}"
 			]
 			dependencies: [
 				"6B7D4F59C921C1FC"
@@ -872,12 +872,12 @@
 			x: 1.2d
 			y: 0.0d
 			shape: "square"
-			subtitle: "必要的信息"
+			subtitle: "{quest.twr.56E5FD2809882B5F.subtitle}"
 			description: [
-				"在这个章节，你首要的目标是建造一个简易的&e庇护所&r，并升起&e火焰&r，取得温暖。"
-				"你必须抓紧时间，因为&c暴风雪&r将在&b一天后&r来临。"
-				"带上&b天气预报帽&r或者携带&b天气雷达&r，你可以看到未来的气候变化。"
-				"那么，事不宜迟，开始旅程吧！"
+				"{quest.twr.56E5FD2809882B5F.description.1}"
+				"{quest.twr.56E5FD2809882B5F.description.2}"
+				"{quest.twr.56E5FD2809882B5F.description.3}"
+				"{quest.twr.56E5FD2809882B5F.description.4}"
 			]
 			dependencies: ["24E7D1E02BE55A8E"]
 			size: 1.2d
@@ -885,7 +885,7 @@
 			tasks: [{
 				id: "384D3A68430787BB"
 				type: "checkmark"
-				title: "章节指引"
+				title: "{quest.twr.56E5FD2809882B5F.384D3A68430787BB.title}"
 			}]
 		}
 	]
