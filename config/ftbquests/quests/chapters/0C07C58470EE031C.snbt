@@ -28,6 +28,7 @@
 				"{quest.twr.6667AA13CA3DAC9B.description.9}"
 				"{quest.twr.6667AA13CA3DAC9B.description.10}"
 			]
+			dependencies: ["1B3C8681DF78AD16"]
 			size: 1.2d
 			id: "6667AA13CA3DAC9B"
 			tasks: [{
