@@ -1340,7 +1340,7 @@
 			tasks: [{
 				id: "3428FDD619813DBF"
 				type: "checkmark"
-				icon: "weatherforecast:temperature_probe"
+				icon: "frostedheart:temperature_probe"
 			}]
 		}
 		{

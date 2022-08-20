@@ -107,7 +107,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "weatherforecast:weather_radar"
+          "name": "frostedheart:weather_radar"
         }
       ]
     }
