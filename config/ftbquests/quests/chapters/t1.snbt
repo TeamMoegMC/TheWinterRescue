@@ -1985,7 +1985,7 @@
 			tasks: [{
 				id: "047874DA9F5AB4B1"
 				type: "checkmark"
-				title: "额外读物：乘员膳食指引"
+				title: "{quest.twr.24E7D1E02BE55A8E.047874DA9F5AB4B1.title}"
 			}]
 			rewards: [{
 				id: "1BCCE95CAC67C16F"

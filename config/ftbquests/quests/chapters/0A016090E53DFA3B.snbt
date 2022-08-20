@@ -3,7 +3,7 @@
 	group: "7823E178F7BCBCB0"
 	order_index: 2
 	filename: "0A016090E53DFA3B"
-	title: "{chapter.twr.0A016090E53DFA3B.title}"
+	title: "获得知识"
 	icon: {
 		id: "frostedheart:quill_and_ink"
 		Count: 1b
@@ -11,7 +11,7 @@
 			Damage: 0
 		}
 	}
-	subtitle: ["{chapter.twr.0A016090E53DFA3B.subtitle}"]
+	subtitle: ["知识就是力量"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -33,7 +33,7 @@
 			tasks: [{
 				id: "2D456863275FBF11"
 				type: "checkmark"
-				title: "已读"
+				title: "{quest.twr.391E30AD9CB7147F.2D456863275FBF11.title}"
 			}]
 		}
 		{
@@ -53,7 +53,7 @@
 			tasks: [{
 				id: "2EBA1153448C9CF0"
 				type: "checkmark"
-				title: "线索"
+				title: "{quest.twr.1DE66DB6DF406019.2EBA1153448C9CF0.title}"
 			}]
 		}
 		{
@@ -74,7 +74,7 @@
 			tasks: [{
 				id: "0A0A4C059B9D1326"
 				type: "checkmark"
-				title: "效果"
+				title: "{quest.twr.1938FC4AAD99137E.0A0A4C059B9D1326.title}"
 			}]
 		}
 		{
@@ -160,7 +160,7 @@
 			tasks: [{
 				id: "58D65C019BCBE2B1"
 				type: "checkmark"
-				title: "精力"
+				title: "{quest.twr.4F8E2D7FDA9A1D17.58D65C019BCBE2B1.title}"
 			}]
 		}
 		{
@@ -203,7 +203,7 @@
 			tasks: [{
 				id: "6A664AAE41DA218A"
 				type: "checkmark"
-				title: "完成研究论文"
+				title: "{quest.twr.3FEE911101C61CFB.6A664AAE41DA218A.title}"
 			}]
 		}
 		{
@@ -220,7 +220,7 @@
 			tasks: [{
 				id: "67AE103E9E6F8142"
 				type: "checkmark"
-				title: "研究点数"
+				title: "{quest.twr.37726761B26CE51C.67AE103E9E6F8142.title}"
 			}]
 		}
 		{
