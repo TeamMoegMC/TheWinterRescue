@@ -160,7 +160,6 @@
 				"{quest.twr.0A9A5166127945AB.description.1}"
 				"{quest.twr.0A9A5166127945AB.description.2}"
 				"{quest.twr.0A9A5166127945AB.description.3}"
-				"{quest.twr.0A9A5166127945AB.description.4}"
 				"{quest.twr.0A9A5166127945AB.description.5}"
 			]
 			dependencies: ["689BB00EC2454F1F"]

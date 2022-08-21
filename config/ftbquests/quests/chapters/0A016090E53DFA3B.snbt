@@ -59,7 +59,7 @@
 		{
 			title: "{quest.twr.1938FC4AAD99137E.title}"
 			icon: "minecraft:paper"
-			x: -4.5d
+			x: -6.5d
 			y: -2.0d
 			subtitle: "{quest.twr.1938FC4AAD99137E.subtitle}"
 			description: [
@@ -85,7 +85,7 @@
 					Damage: 0
 				}
 			}
-			x: -3.0d
+			x: -4.5d
 			y: -0.5d
 			subtitle: "{quest.twr.3BBB2213C574F333.subtitle}"
 			description: ["{quest.twr.3BBB2213C574F333.description.1}"]
@@ -118,7 +118,7 @@
 					Damage: 0
 				}
 			}
-			x: -1.0d
+			x: -2.5d
 			y: -0.5d
 			subtitle: "{quest.twr.1B1E71042B20A174.subtitle}"
 			description: ["{quest.twr.1B1E71042B20A174.description.1}"]
@@ -145,7 +145,7 @@
 		}
 		{
 			icon: "immersiveengineering:electron_tube"
-			x: -3.0d
+			x: -6.5d
 			y: -3.5d
 			subtitle: "{quest.twr.4F8E2D7FDA9A1D17.subtitle}"
 			description: [
@@ -185,7 +185,7 @@
 					}
 				}
 			}
-			x: -2.5d
+			x: -4.5d
 			y: -2.0d
 			subtitle: "{quest.twr.3FEE911101C61CFB.subtitle}"
 			description: [
@@ -224,7 +224,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -2.5d
 			y: 1.5d
 			subtitle: "{quest.twr.2148082183BBDF76.subtitle}"
 			description: [

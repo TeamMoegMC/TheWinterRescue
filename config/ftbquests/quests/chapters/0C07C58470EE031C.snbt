@@ -12,7 +12,7 @@
 		{
 			title: "{quest.twr.6667AA13CA3DAC9B.title}"
 			icon: "ftbquests:book"
-			x: -6.0d
+			x: -3.5999999999999996d
 			y: 0.0d
 			shape: "square"
 			subtitle: "{quest.twr.6667AA13CA3DAC9B.subtitle}"
@@ -39,7 +39,7 @@
 		{
 			title: "{quest.twr.1F615C38B1A015E5.title}"
 			icon: "minecraft:book"
-			x: -5.0d
+			x: -2.0d
 			y: 0.0d
 			shape: "square"
 			subtitle: "{quest.twr.1F615C38B1A015E5.subtitle}"
@@ -62,7 +62,7 @@
 		}
 		{
 			title: "{quest.twr.58EF2132D0431323.title}"
-			x: -4.0d
+			x: -1.0d
 			y: 0.0d
 			shape: "square"
 			subtitle: "{quest.twr.58EF2132D0431323.subtitle}"
@@ -83,7 +83,7 @@
 		}
 		{
 			title: "{quest.twr.3B5663CF194B054C.title}"
-			x: -3.0d
+			x: 0.0d
 			y: 0.0d
 			shape: "square"
 			subtitle: "{quest.twr.3B5663CF194B054C.subtitle}"
@@ -108,8 +108,8 @@
 		}
 		{
 			title: "{quest.twr.33B6E7B60783C72B.title}"
-			x: -2.0d
-			y: 0.0d
+			x: 0.0d
+			y: -1.0d
 			shape: "square"
 			subtitle: "{quest.twr.33B6E7B60783C72B.subtitle}"
 			description: [
@@ -150,8 +150,8 @@
 		{
 			title: "{quest.twr.215BC2E7271F1478.title}"
 			icon: "crockpot:food_category_meat"
-			x: -1.0d
-			y: 0.0d
+			x: 0.0d
+			y: 1.0d
 			shape: "square"
 			subtitle: "{quest.twr.215BC2E7271F1478.subtitle}"
 			description: [
@@ -161,7 +161,7 @@
 				"{quest.twr.215BC2E7271F1478.description.4}"
 				"{quest.twr.215BC2E7271F1478.description.5}"
 			]
-			dependencies: ["33B6E7B60783C72B"]
+			dependencies: ["3B5663CF194B054C"]
 			id: "215BC2E7271F1478"
 			tasks: [{
 				id: "58F4265EA5C778FB"
@@ -171,7 +171,7 @@
 		{
 			icon: "crockpot:turkey_dinner"
 			x: 0.0d
-			y: 0.0d
+			y: 2.0d
 			shape: "square"
 			subtitle: "{quest.twr.24E7D1E02BE55A8E.subtitle}"
 			description: [
@@ -880,13 +880,44 @@
 				"{quest.twr.56E5FD2809882B5F.description.3}"
 				"{quest.twr.56E5FD2809882B5F.description.4}"
 			]
-			dependencies: ["24E7D1E02BE55A8E"]
+			dependencies: ["3B5663CF194B054C"]
 			size: 1.2d
 			id: "56E5FD2809882B5F"
 			tasks: [{
 				id: "384D3A68430787BB"
 				type: "checkmark"
 				title: "{quest.twr.56E5FD2809882B5F.384D3A68430787BB.title}"
+			}]
+		}
+		{
+			title: "{quest.twr.63E5A6B843181EE1.title}"
+			x: 10.5d
+			y: 0.0d
+			subtitle: "{quest.twr.63E5A6B843181EE1.subtitle}"
+			description: [
+				"{quest.twr.63E5A6B843181EE1.description.1}"
+				"{quest.twr.63E5A6B843181EE1.description.2}"
+				"{quest.twr.63E5A6B843181EE1.description.3}"
+			]
+			dependencies: ["6B7D4F59C921C1FC"]
+			id: "63E5A6B843181EE1"
+			tasks: [{
+				id: "3D4AE72AF4AB36A0"
+				type: "item"
+				title: "{quest.twr.63E5A6B843181EE1.3D4AE72AF4AB36A0.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "rankine:gold_pans"
+					}
+				}
+			}]
+			rewards: [{
+				id: "14A643F302CD6541"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 8
 			}]
 		}
 	]

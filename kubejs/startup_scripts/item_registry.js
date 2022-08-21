@@ -47,7 +47,6 @@ onEvent('item.registry', event => {
 
 	let rawOres = [
 		"native_tin",
-		"native_copper",
 		"silver",
 		"gold",
 		"pyrite",

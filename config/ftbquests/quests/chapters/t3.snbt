@@ -290,5 +290,44 @@
 				}
 			]
 		}
+		{
+			title: "{quest.twr.0430A33A91D78414.title}"
+			icon: "immersiveindustry:rotary_kiln"
+			x: -4.5d
+			y: 2.5d
+			subtitle: "{quest.twr.0430A33A91D78414.subtitle}"
+			description: [
+				"{quest.twr.0430A33A91D78414.description.1}"
+				"{quest.twr.0430A33A91D78414.description.2}"
+				"{quest.twr.0430A33A91D78414.description.3}"
+			]
+			dependencies: ["4138E3A9915F811C"]
+			id: "0430A33A91D78414"
+			tasks: [{
+				id: "53A17C4EEE300E27"
+				type: "item"
+				item: "immersiveindustry:rotary_kiln_cylinder"
+				count: 11L
+			}]
+		}
+		{
+			title: "{quest.twr.144F3D2FC5F7F034.title}"
+			x: -2.5d
+			y: 2.5d
+			subtitle: "{quest.twr.144F3D2FC5F7F034.subtitle}"
+			description: [
+				"{quest.twr.144F3D2FC5F7F034.description.1}"
+				"{quest.twr.144F3D2FC5F7F034.description.2}"
+				"{quest.twr.144F3D2FC5F7F034.description.3}"
+			]
+			dependencies: ["4138E3A9915F811C"]
+			id: "144F3D2FC5F7F034"
+			tasks: [{
+				id: "30FE03FF1CD4B48B"
+				type: "item"
+				item: "immersiveindustry:car_kiln_brick"
+				count: 10L
+			}]
+		}
 	]
 }
