@@ -2,7 +2,7 @@
 [death_penalty]
 	#The reduction in percentage applied to all diet groups upon death.
 	#Range: 0.0 ~ 1.0
-	deathPenaltyLoss = 0.1
+	deathPenaltyLoss = 0.05
 	#The method to apply for losses due to death penalties.
 	#AMOUNT = Reduce by a flat percentage amount
 	#PERCENT = Reduce by a percent of the current value
@@ -11,7 +11,7 @@
 	deathPenaltyMethod = "AMOUNT"
 	#The minimum percentage that diet groups can be reduced to upon death.
 	#Range: 0.0 ~ 1.0
-	deathPenaltyMin = 0.5
+	deathPenaltyMin = 0.3
 
 [calculation]
 	#List of food quality overrides for diet gain values.

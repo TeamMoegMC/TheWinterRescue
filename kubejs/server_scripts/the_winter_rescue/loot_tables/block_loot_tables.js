@@ -15,8 +15,7 @@ onEvent('block.loot_tables', event => {
 "rankine:galena_ore",
 "rankine:vanadinite_ore", 
 "rankine:native_silver_ore",
-"rankine:native_gold_ore",
-"frostedheart:copper_gravel"
+"rankine:native_gold_ore"
 // "rankine:sphalerite_ore"
 ];
 var ores = [
@@ -33,8 +32,7 @@ var ores = [
 "rankine:galena",
 "rankine:vanadinite", 
 "kubejs:silver", 
-"kubejs:gold",
-"rankine:malachite"
+"kubejs:gold"
 // "rankine:sphalerite"
 ];
 var i;
@@ -54,6 +52,7 @@ var ore_blocks_i;
         // })
     }
 //若要修改矿石掉落物，将矿石本身放在ore_blicks里，掉落物放在ores里。貌似必须是双引号才行(
+//!!!不要再添加铜矿沙砾了，那个是在别的地方做了合成表!!!
 	/*var modseedfunction= table => {
 		table.addPool(pool=> {
 			pool.survivesExplosion()

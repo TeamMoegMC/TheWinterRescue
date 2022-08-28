@@ -4,7 +4,7 @@ onEvent('recipes', (event) => {
             "type": "immersiveindustry:car_kiln",
             "input": Item.of(input).toJson(),
             "result": Item.of(output).toJson(),
-            "time": 200
+            "time": 600
         })
 	}
 	function rotkiln(input,output){
@@ -37,6 +37,7 @@ onEvent('recipes', (event) => {
 	carkilnr("thermopolium:clay_cistern","thermopolium:stew_pot");
 	carkilnr("minecraft:clay","minecraft:terracotta");
 	carkilnr("#minecraft:sand","minecraft:glass");
+	carkilnr("rankine:fire_clay_ball","rankine:refractory_brick");
 	rotkiln("kubejs:aluminium_hydroxide_dust",'kubejs:aluminium_oxide_dust');
 	rotkiln('kubejs:washed_ore_magnesite','rankine:magnesia');
 	rotkiln('kubejs:flux','rankine:quicklime');
