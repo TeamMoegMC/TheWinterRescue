@@ -32,6 +32,7 @@
 			description: [
 				"{quest.twr.11DD149796E14E81.description.1}"
 				"{quest.twr.11DD149796E14E81.description.2}"
+				"{quest.twr.11DD149796E14E81.description.3}"
 			]
 			dependencies: ["5C8730E4484959B9"]
 			size: 1.2d

@@ -660,7 +660,7 @@
 	#Enable/Disable Project Rankine trees in world.
 	generateTrees = true
 	#Enable/Disable Project Rankine wild crops in world.
-	generateWildCrops = true
+	generateWildCrops = false
 
 #Settings for stone layering
 [layers]
