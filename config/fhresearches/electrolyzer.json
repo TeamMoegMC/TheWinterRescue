@@ -10,7 +10,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.25,
+      "value": 0.35,
       "id": "d594ab74bcd5477d",
       "level": 1
     }
@@ -23,7 +23,7 @@
       "item": "immersiveindustry:electrolyzer"
     }
   ],
-  "points": 4000,
+  "points": 2750,
   "desc": [
     "@"
   ],

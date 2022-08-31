@@ -9,7 +9,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.4,
+      "value": 0.45,
       "id": "a5b15ed5c6ee494c",
       "level": 1
     }
@@ -27,7 +27,7 @@
       "item": "steampowered:alternator"
     }
   ],
-  "points": 2500,
+  "points": 2000,
   "desc": [
     "@"
   ],

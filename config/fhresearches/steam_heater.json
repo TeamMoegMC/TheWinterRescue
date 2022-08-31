@@ -9,7 +9,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.25,
+      "value": 0.35,
       "id": "ae5d7e4c7d9245c1",
       "level": 1
     }
@@ -23,7 +23,7 @@
       "multiblock": "frostedheart:multiblocks/heat_radiator"
     }
   ],
-  "points": 4000,
+  "points": 2750,
   "desc": [
     "@"
   ],

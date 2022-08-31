@@ -15,7 +15,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.2,
+      "value": 0.3,
       "id": "c9ab5f35c66e4d15",
       "level": 1
     }
@@ -29,7 +29,7 @@
       "multiblock": "immersiveindustry:multiblocks/industrial_electrolyzer"
     }
   ],
-  "points": 6000,
+  "points": 3500,
   "desc": [
     "@"
   ],

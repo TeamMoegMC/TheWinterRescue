@@ -129,9 +129,6 @@ onEvent('recipes', (event) => {
             B: Item.of('#forge:rods/wooden').toJson(),
 			C: Item.of('#forge:feathers').toJson()
         }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:wooden_gold_pan'), ['   ','AAA',' A '], {
-            A: Ingredient.of('#minecraft:planks').toJson(),
-        }, Item.of('stone_age:flint_knife')),
 		flint_shapedRecipe(Item.of('frostedheart:hand_stove'), [' B ', 'BAB', ' B '], {
             A: '#forge:clay_balls',
             B: '#forge:plates/copper'
@@ -280,6 +277,9 @@ onEvent('recipes', (event) => {
         flint_shapedRecipe(Item.of('minecraft:stone_bricks', 5), ['ABA', 'BAB', 'ABA'], {
             A: Item.of('minecraft:stone').toJson(),
             B: Item.of('rankine:mortar').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('rankine:wooden_gold_pan'), ['   ','AAA',' A '], {
+            A: Ingredient.of('#minecraft:planks').toJson(),
         }, Item.of('stone_age:flint_knife')),
 		flint_shapedRecipe(Item.of('frostedheart:charcoal_stick',2), ['A'], {
             A: Item.of('kubejs:charcoal_briquette').toJson()
