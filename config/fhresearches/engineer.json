@@ -9,7 +9,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.3,
+      "value": 0.35,
       "id": "f951dd580614a9b",
       "level": 1
     }
@@ -27,7 +27,7 @@
       "item": "engineersdecor:small_tree_cutter"
     }
   ],
-  "points": 4000,
+  "points": 2750,
   "desc": [
     "@"
   ],

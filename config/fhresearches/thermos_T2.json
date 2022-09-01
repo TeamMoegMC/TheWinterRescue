@@ -15,7 +15,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.25,
+      "value": 0.4,
       "id": "587048a44a004a5d",
       "level": 1
     }
@@ -28,7 +28,7 @@
       "item": "frostedheart:advanced_thermos"
     }
   ],
-  "points": 4000,
+  "points": 2500,
   "desc": [
     "@"
   ],

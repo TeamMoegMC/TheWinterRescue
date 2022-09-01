@@ -9,7 +9,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.25,
+      "value": 0.35,
       "id": "a6e20d3749444d07",
       "level": 1
     }
@@ -23,7 +23,7 @@
       "multiblock": "immersiveengineering:multiblocks/squeezer"
     }
   ],
-  "points": 5000,
+  "points": 3000,
   "desc": [
     "@"
   ],
