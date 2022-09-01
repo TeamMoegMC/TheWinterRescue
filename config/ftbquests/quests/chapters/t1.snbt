@@ -31,18 +31,11 @@
 				"36960F1D7CDC8B30"
 			]
 			id: "4BD8236FEEBD7D3A"
-			tasks: [
-				{
-					id: "30BFAF8DEF443159"
-					type: "item"
-					item: "minecraft:stone"
-				}
-				{
-					id: "24AD4A7EB1417B80"
-					type: "item"
-					item: "charcoal_pit:fire_starter"
-				}
-			]
+			tasks: [{
+				id: "30BFAF8DEF443159"
+				type: "item"
+				item: "minecraft:stone"
+			}]
 			rewards: [
 				{
 					id: "0BDCC5409A0391EB"
