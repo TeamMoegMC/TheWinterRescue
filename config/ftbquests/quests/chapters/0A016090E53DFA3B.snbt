@@ -29,6 +29,7 @@
 				"{quest.twr.391E30AD9CB7147F.description.5}"
 			]
 			dependencies: ["6A22E2D62D4719BE"]
+			hide: true
 			id: "391E30AD9CB7147F"
 			tasks: [{
 				id: "2D456863275FBF11"
@@ -49,6 +50,7 @@
 				"{quest.twr.1DE66DB6DF406019.description.5}"
 			]
 			dependencies: ["391E30AD9CB7147F"]
+			hide: true
 			id: "1DE66DB6DF406019"
 			tasks: [{
 				id: "2EBA1153448C9CF0"
@@ -70,6 +72,7 @@
 				"{quest.twr.1938FC4AAD99137E.description.5}"
 			]
 			dependencies: ["391E30AD9CB7147F"]
+			hide: true
 			id: "1938FC4AAD99137E"
 			tasks: [{
 				id: "0A0A4C059B9D1326"
@@ -123,6 +126,7 @@
 			subtitle: "{quest.twr.1B1E71042B20A174.subtitle}"
 			description: ["{quest.twr.1B1E71042B20A174.description.1}"]
 			dependencies: ["3BBB2213C574F333"]
+			hide: true
 			id: "1B1E71042B20A174"
 			tasks: [
 				{
@@ -197,6 +201,7 @@
 				"{quest.twr.3FEE911101C61CFB.description.6}"
 				"{quest.twr.3FEE911101C61CFB.description.7}"
 				"{quest.twr.3FEE911101C61CFB.description.8}"
+				"&e*如果发现界面上的元素已经无法消除了，说明游戏失败，需要重新开局。"
 			]
 			dependencies: ["1938FC4AAD99137E"]
 			id: "3FEE911101C61CFB"
@@ -216,6 +221,7 @@
 				"{quest.twr.37726761B26CE51C.description.3}"
 			]
 			dependencies: ["391E30AD9CB7147F"]
+			hide: true
 			id: "37726761B26CE51C"
 			tasks: [{
 				id: "67AE103E9E6F8142"
@@ -235,6 +241,7 @@
 				"3BBB2213C574F333"
 				"3A3B51CF7F606665"
 			]
+			hide: true
 			id: "2148082183BBDF76"
 			tasks: [{
 				id: "508F33F5681A36B0"
