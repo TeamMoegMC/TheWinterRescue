@@ -9,7 +9,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.25,
+      "value": 0.35,
       "id": "2929a10897b34151",
       "level": 1
     }
@@ -27,7 +27,7 @@
       "item": "immersiveengineering:rs_engineering"
     }
   ],
-  "points": 5000,
+  "points": 3000,
   "desc": [
     "@"
   ],

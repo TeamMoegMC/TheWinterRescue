@@ -9,7 +9,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.2,
+      "value": 0.3,
       "id": "558625025aee400b",
       "level": 1
     }
@@ -23,7 +23,7 @@
       "multiblock": "immersiveindustry:multiblocks/rotary_kiln"
     }
   ],
-  "points": 6000,
+  "points": 3500,
   "desc": [
     "@"
   ],
