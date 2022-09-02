@@ -940,7 +940,7 @@
   "quest.twr.25E712ACCAB68E99.description.5": " ",
   "quest.twr.25E712ACCAB68E99.description.4": "&e&l因此，请尽可能避免死亡。",
   "quest.twr.3FEE911101C61CFB.description.9": "&e*如果发现界面上的元素已经无法消除了，说明游戏失败，需要重新开局。",
-  "quest.twr.25E712ACCAB68E99.description.1": "默认情况下，死亡会掉落除了&b装备、手上工具以及饰品&r外的全部物品（&e可以在配置中修改&r）。"
+  "quest.twr.25E712ACCAB68E99.description.1": "默认情况下，死亡会掉落除了&b装备、手上工具以及饰品&r外的全部物品（&e可以在配置中修改&r）。",
   "quest.twr.28F313C8E1312A2B.description.1": "虽然大多河流已经冰封，但是冰下依旧藏着丰富的资源。",
   "quest.twr.28F313C8E1312A2B.description.10": "未来，加热背心或者海带内衬可以帮助你在不失温的情况下方便潜水。",
   "quest.twr.29C8077E15E6C418.subtitle": "就地取材",
@@ -960,7 +960,6 @@
   "quest.twr.28F313C8E1312A2B.description.4": "为了避免湿身带来的致命失温，请在下水前听从以下建议：",
   "quest.twr.28F313C8E1312A2B.description.3": "然而，在这冷天中下水是个麻烦事。",
   "quest.twr.162264AE4B9EE1A9.description.4": "&c&l制作该物品需要完成相应研究。",
-  "quest.twr.3FEE911101C61CFB.description.9": "&e*如果发现界面上的元素已经无法消除了，说明游戏失败，需要重新开局。",
   "quest.twr.28F313C8E1312A2B.description.2": "你可以在河床上发现大量的粘土，沙砾，以及&e铜矿沙砾&r。",
   "quest.twr.28F313C8E1312A2B.6CB265B632F3388D.title": "我已了解，下水前一定注意。"
 }
