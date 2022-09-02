@@ -213,7 +213,18 @@
 					item: "minecraft:stick"
 					count: 4L
 				}
+				{
+					id: "3C62C361C6F72668"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 4L
+				}
 			]
+			rewards: [{
+				id: "46B9AF1EE822EEDD"
+				type: "item"
+				item: "minecraft:oxeye_daisy"
+			}]
 		}
 		{
 			x: 4.5d
@@ -378,7 +389,13 @@
 			rewards: [{
 				id: "1B12987080C1C9CE"
 				type: "item"
-				item: "rankine:banana_yucca"
+				item: {
+					id: "thermopolium:egg_drop_soup"
+					Count: 1b
+					tag: {
+						type: "thermopolium:egg_drop_soup"
+					}
+				}
 			}]
 		}
 		{
@@ -634,12 +651,25 @@
 				type: "item"
 				item: "minecraft:campfire"
 			}]
-			rewards: [{
-				id: "6F19F1FDBDC144F2"
-				type: "item"
-				item: "crockpot:kabobs"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "6F19F1FDBDC144F2"
+					type: "item"
+					item: "crockpot:kabobs"
+					count: 2
+				}
+				{
+					id: "4762E8ECB85E73FC"
+					type: "item"
+					item: {
+						id: "thermopolium:stracciatella"
+						Count: 1b
+						tag: {
+							type: "thermopolium:stracciatella"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 10.5d
@@ -656,11 +686,13 @@
 				id: "2BA166AB2BD842B1"
 				type: "item"
 				item: "kubejs:straw_briquette"
+				count: 8L
 			}]
 			rewards: [{
 				id: "21F619AFDB48A366"
 				type: "item"
-				item: "kubejs:straw_briquette"
+				item: "minecraft:coal"
+				count: 2
 			}]
 		}
 		{
@@ -856,6 +888,17 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2FAF12DDAE7E3B53"
+				type: "item"
+				item: {
+					id: "stone_age:grass_mesh"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			icon: "minecraft:book"
@@ -910,17 +953,17 @@
 			}]
 		}
 		{
-			title: "庇护所"
+			title: "{quest.twr.29C8077E15E6C418.title}"
 			x: 7.5d
 			y: 3.0d
 			shape: "gear"
-			subtitle: "就地取材"
+			subtitle: "{quest.twr.29C8077E15E6C418.subtitle}"
 			description: [
-				"只要用铲子就可以获取几乎无限的雪球。"
-				"不会轻易融化，是制造庇护所的不二之选。"
-				"如果你能获得大量的干草，茅草也是不错的选择。"
-				""
-				"&3完成后开启下一章节。"
+				"{quest.twr.29C8077E15E6C418.description.1}"
+				"{quest.twr.29C8077E15E6C418.description.2}"
+				"{quest.twr.29C8077E15E6C418.description.3}"
+				"{quest.twr.29C8077E15E6C418.description.4}"
+				"{quest.twr.29C8077E15E6C418.description.5}"
 			]
 			dependencies: ["5D803F0865A90DE0"]
 			id: "29C8077E15E6C418"
@@ -944,6 +987,57 @@
 					count: 4
 				}
 			]
+		}
+		{
+			title: "{quest.twr.28F313C8E1312A2B.title}"
+			icon: {
+				id: "rankine:diving_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 12.0d
+			y: -3.0d
+			subtitle: "{quest.twr.28F313C8E1312A2B.subtitle}"
+			description: [
+				"{quest.twr.28F313C8E1312A2B.description.1}"
+				"{quest.twr.28F313C8E1312A2B.description.2}"
+				"{quest.twr.28F313C8E1312A2B.description.3}"
+				"{quest.twr.28F313C8E1312A2B.description.4}"
+				"{quest.twr.28F313C8E1312A2B.description.5}"
+				"{quest.twr.28F313C8E1312A2B.description.6}"
+				"{quest.twr.28F313C8E1312A2B.description.7}"
+				"{quest.twr.28F313C8E1312A2B.description.8}"
+				"{quest.twr.28F313C8E1312A2B.description.9}"
+				"{quest.twr.28F313C8E1312A2B.description.10}"
+			]
+			dependencies: ["36960F1D7CDC8B30"]
+			id: "28F313C8E1312A2B"
+			tasks: [
+				{
+					id: "6CB265B632F3388D"
+					type: "checkmark"
+					title: "{quest.twr.28F313C8E1312A2B.6CB265B632F3388D.title}"
+				}
+				{
+					id: "03F658FFD68FB1EE"
+					type: "item"
+					item: "frostedheart:copper_gravel"
+				}
+			]
+			rewards: [{
+				id: "28F59C600B7E4F88"
+				type: "item"
+				item: {
+					id: "thermopolium:seaweed_soup"
+					Count: 1b
+					tag: {
+						type: "thermopolium:seaweed_soup"
+					}
+				}
+				count: 4
+			}]
 		}
 	]
 }

@@ -206,7 +206,7 @@
 				"{quest.twr.162264AE4B9EE1A9.description.1}"
 				"{quest.twr.162264AE4B9EE1A9.description.2}"
 				"{quest.twr.162264AE4B9EE1A9.description.3}"
-				"&c&l制作该物品需要完成相应研究。"
+				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
 			dependencies: [
 				"4B6840707D77E2C0"

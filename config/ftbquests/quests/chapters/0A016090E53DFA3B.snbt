@@ -201,7 +201,7 @@
 				"{quest.twr.3FEE911101C61CFB.description.6}"
 				"{quest.twr.3FEE911101C61CFB.description.7}"
 				"{quest.twr.3FEE911101C61CFB.description.8}"
-				"&e*如果发现界面上的元素已经无法消除了，说明游戏失败，需要重新开局。"
+				"{quest.twr.3FEE911101C61CFB.description.9}"
 			]
 			dependencies: ["1938FC4AAD99137E"]
 			id: "3FEE911101C61CFB"
