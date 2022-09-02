@@ -152,7 +152,7 @@ customization {
   y = 43
   scale = 1.0
   alignment = left
-  value = shidi
+  value = shidi655
 }
 
 customization {
