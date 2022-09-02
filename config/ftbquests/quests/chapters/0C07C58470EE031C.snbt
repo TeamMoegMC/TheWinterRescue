@@ -132,20 +132,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "1FFC44858A17C847"
-				type: "item"
-				item: {
-					id: "watersource:wooden_cup_drink"
-					Count: 1b
-					tag: {
-						Fluid: {
-							FluidName: "watersource:purified_water"
-							Amount: 250
-						}
-					}
-				}
-			}]
 		}
 		{
 			title: "{quest.twr.215BC2E7271F1478.title}"
@@ -227,7 +213,18 @@
 					item: "minecraft:stick"
 					count: 4L
 				}
+				{
+					id: "3C62C361C6F72668"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 4L
+				}
 			]
+			rewards: [{
+				id: "46B9AF1EE822EEDD"
+				type: "item"
+				item: "minecraft:oxeye_daisy"
+			}]
 		}
 		{
 			x: 4.5d
@@ -319,6 +316,7 @@
 				id: "1C6B8B365C014F06"
 				type: "item"
 				item: "minecraft:flint"
+				count: 2
 			}]
 		}
 		{
@@ -334,7 +332,13 @@
 				id: "3349CF3A5F68D6F5"
 				type: "item"
 				item: "primalwinter:snowy_vine"
-				count: 10L
+				count: 16L
+			}]
+			rewards: [{
+				id: "68A0A825B611BB51"
+				type: "item"
+				item: "minecraft:stick"
+				count: 4
 			}]
 		}
 		{
@@ -358,6 +362,7 @@
 				id: "7B7D0595E8C4F915"
 				type: "item"
 				item: "minecraft:flint"
+				count: 2
 			}]
 		}
 		{
@@ -381,18 +386,17 @@
 				item: "charcoal_pit:straw"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "4EC23DEAC9F9E125"
-					type: "item"
-					item: "minecraft:flint"
+			rewards: [{
+				id: "1B12987080C1C9CE"
+				type: "item"
+				item: {
+					id: "thermopolium:egg_drop_soup"
+					Count: 1b
+					tag: {
+						type: "thermopolium:egg_drop_soup"
+					}
 				}
-				{
-					id: "1B12987080C1C9CE"
-					type: "item"
-					item: "rankine:banana_yucca"
-				}
-			]
+			}]
 		}
 		{
 			x: 6.0d
@@ -499,7 +503,8 @@
 			rewards: [{
 				id: "4275790E4CE99758"
 				type: "item"
-				item: "minecraft:rabbit_foot"
+				item: "stone_age:raw_hide"
+				count: 4
 			}]
 		}
 		{
@@ -526,7 +531,13 @@
 			rewards: [{
 				id: "63EF58D6EB60F38D"
 				type: "item"
-				item: "stone_age:raw_hide"
+				item: {
+					id: "frostedheart:hide_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -551,7 +562,7 @@
 			rewards: [{
 				id: "14FB637B7233851C"
 				type: "item"
-				item: "crockpot:veg_stinger"
+				item: "frostedheart:rye_bread"
 			}]
 		}
 		{
@@ -642,14 +653,21 @@
 			}]
 			rewards: [
 				{
-					id: "29176E3625258812"
-					type: "item"
-					item: "crockpot:gazpacho"
-				}
-				{
 					id: "6F19F1FDBDC144F2"
 					type: "item"
 					item: "crockpot:kabobs"
+					count: 2
+				}
+				{
+					id: "4762E8ECB85E73FC"
+					type: "item"
+					item: {
+						id: "thermopolium:stracciatella"
+						Count: 1b
+						tag: {
+							type: "thermopolium:stracciatella"
+						}
+					}
 				}
 			]
 		}
@@ -668,11 +686,13 @@
 				id: "2BA166AB2BD842B1"
 				type: "item"
 				item: "kubejs:straw_briquette"
+				count: 8L
 			}]
 			rewards: [{
 				id: "21F619AFDB48A366"
 				type: "item"
-				item: "kubejs:straw_briquette"
+				item: "minecraft:coal"
+				count: 2
 			}]
 		}
 		{
@@ -783,6 +803,7 @@
 				id: "6C321E201EBDBE78"
 				type: "item"
 				item: "minecraft:leather"
+				count: 4L
 			}]
 			rewards: [{
 				id: "6F6F11EE99B02A40"
@@ -867,6 +888,17 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "2FAF12DDAE7E3B53"
+				type: "item"
+				item: {
+					id: "stone_age:grass_mesh"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 		{
 			icon: "minecraft:book"
@@ -958,6 +990,93 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			title: "{quest.twr.29C8077E15E6C418.title}"
+			x: 7.5d
+			y: 3.0d
+			shape: "gear"
+			subtitle: "{quest.twr.29C8077E15E6C418.subtitle}"
+			description: [
+				"{quest.twr.29C8077E15E6C418.description.1}"
+				"{quest.twr.29C8077E15E6C418.description.2}"
+				"{quest.twr.29C8077E15E6C418.description.3}"
+				"{quest.twr.29C8077E15E6C418.description.4}"
+				"{quest.twr.29C8077E15E6C418.description.5}"
+			]
+			dependencies: ["5D803F0865A90DE0"]
+			id: "29C8077E15E6C418"
+			tasks: [{
+				id: "7CAEAA529B84A90D"
+				type: "item"
+				item: "rankine:packed_snow"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "67FB1A7A368B0BCE"
+					type: "item"
+					item: "charcoal_pit:thatch"
+					count: 8
+				}
+				{
+					id: "24F9E5EE5A414695"
+					type: "item"
+					item: "minecraft:torch"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "{quest.twr.28F313C8E1312A2B.title}"
+			icon: {
+				id: "rankine:diving_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 12.0d
+			y: -3.0d
+			subtitle: "{quest.twr.28F313C8E1312A2B.subtitle}"
+			description: [
+				"{quest.twr.28F313C8E1312A2B.description.1}"
+				"{quest.twr.28F313C8E1312A2B.description.2}"
+				"{quest.twr.28F313C8E1312A2B.description.3}"
+				"{quest.twr.28F313C8E1312A2B.description.4}"
+				"{quest.twr.28F313C8E1312A2B.description.5}"
+				"{quest.twr.28F313C8E1312A2B.description.6}"
+				"{quest.twr.28F313C8E1312A2B.description.7}"
+				"{quest.twr.28F313C8E1312A2B.description.8}"
+				"{quest.twr.28F313C8E1312A2B.description.9}"
+				"{quest.twr.28F313C8E1312A2B.description.10}"
+			]
+			dependencies: ["36960F1D7CDC8B30"]
+			id: "28F313C8E1312A2B"
+			tasks: [
+				{
+					id: "6CB265B632F3388D"
+					type: "checkmark"
+					title: "{quest.twr.28F313C8E1312A2B.6CB265B632F3388D.title}"
+				}
+				{
+					id: "03F658FFD68FB1EE"
+					type: "item"
+					item: "frostedheart:copper_gravel"
+				}
+			]
+			rewards: [{
+				id: "28F59C600B7E4F88"
+				type: "item"
+				item: {
+					id: "thermopolium:seaweed_soup"
+					Count: 1b
+					tag: {
+						type: "thermopolium:seaweed_soup"
+					}
+				}
+				count: 4
 			}]
 		}
 	]

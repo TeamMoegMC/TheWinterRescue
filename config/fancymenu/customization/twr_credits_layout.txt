@@ -9,8 +9,8 @@ customization-meta {
 }
 
 customization {
-  path = config/fancymenu_assets/background/snowy_blue_trees.png
-  action = texturizebackground
+  keepaspectratio = false
+  action = backgroundoptions
 }
 
 customization {
@@ -32,7 +32,7 @@ customization {
   action = addtexture
   actionid = 397e4600-a933-4b58-8782-fc20bd1baa631630689132767
   y = -65
-  height = 164
+  height = 191
 }
 
 customization {
@@ -50,10 +50,10 @@ customization {
 customization {
   orientation = mid-centered
   shadow = false
-  x = -20
+  x = -55
   action = addtext
   actionid = 5e71119c-9d40-4340-8950-e31c2073b8ef1630689208797
-  y = -18
+  y = -16
   scale = 1.0
   alignment = left
   value = YueSha
@@ -62,10 +62,10 @@ customization {
 customization {
   orientation = mid-centered
   shadow = false
-  x = -28
+  x = -65
   action = addtext
   actionid = f7542427-e0a7-4b0a-b21b-2784d3ba05bb1630689259810
-  y = -5
+  y = -4
   scale = 1.0
   alignment = left
   value = dashuaibia
@@ -74,7 +74,7 @@ customization {
 customization {
   orientation = mid-centered
   shadow = false
-  x = -26
+  x = -65
   action = addtext
   actionid = 1b2aa706-46db-4c0b-8f21-2ec61cb861cc1630689276882
   y = 8
@@ -86,7 +86,7 @@ customization {
 customization {
   orientation = mid-centered
   shadow = false
-  x = -25
+  x = -65
   action = addtext
   actionid = 22c10434-6201-4243-a251-e24488eea0141630689285176
   y = 20
@@ -98,10 +98,10 @@ customization {
 customization {
   orientation = mid-centered
   shadow = false
-  x = -20
+  x = 12
   action = addtext
   actionid = 2d5e2830-10c4-4576-aaf2-2903840c646e1630689301157
-  y = 33
+  y = -4
   scale = 1.0
   alignment = left
   value = Lyuuke
@@ -110,10 +110,10 @@ customization {
 customization {
   orientation = mid-centered
   shadow = false
-  x = -22
+  x = 9
   action = addtext
   actionid = 5a5fc302-a6f8-44df-9385-d8cccc5547451630689314902
-  y = 44
+  y = 8
   scale = 1.0
   alignment = left
   value = goumo_g
@@ -122,12 +122,60 @@ customization {
 customization {
   orientation = mid-centered
   shadow = false
-  x = -26
+  x = 7
   action = addtext
   actionid = 2f119ff4-05c1-426c-9d48-4099594171c01631118277100
-  y = 56
+  y = -16
   scale = 1.0
   alignment = left
   value = khjxiaogu
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 7
+  action = addtext
+  actionid = 3ea30382-259a-4acc-888c-012a586c3b121662102496889
+  y = 20
+  scale = 1.0
+  alignment = left
+  value = asdfghjkl
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -52
+  action = addtext
+  actionid = 0cbc37d9-e645-4d8d-a7f6-76759d61d32b1662102527176
+  y = 43
+  scale = 1.0
+  alignment = left
+  value = shidi655
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 2
+  action = addtext
+  actionid = 7c74a9bb-7464-4332-b8fd-54d8203394eb1662102548227
+  y = 31
+  scale = 1.0
+  alignment = left
+  value = Jacky_Wang
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -71
+  action = addtext
+  actionid = b2b64992-dba8-4e23-8c15-791cd8b4c60e1662102563093
+  y = 31
+  scale = 1.0
+  alignment = left
+  value = alphaGem618
 }
 
