@@ -930,5 +930,15 @@
   "quest.twr.0430A33A91D78414.title": "旋转窑",
   "quest.twr.11DD149796E14E81.description.3": "&6注意：改造后的工具不能再用于合成。",
   "quest.twr.63E5A6B843181EE1.3D4AE72AF4AB36A0.title": "任意淘金盘",
-  "quest.twr.144F3D2FC5F7F034.title": "台式车窑"
+  "quest.twr.144F3D2FC5F7F034.title": "台式车窑",
+  "quest.twr.25E712ACCAB68E99.subtitle": "人被杀，就会死",
+  "quest.twr.25E712ACCAB68E99.title": "死亡惩罚",
+  "quest.twr.25E712ACCAB68E99.description.6": "&c&l现实中没有复活键。",
+  "quest.twr.25E712ACCAB68E99.7DCB592CE89499A1.title": "活下去",
+  "quest.twr.25E712ACCAB68E99.description.3": "死亡还会清空你的&b精力&r，&a精力会影响到后续的游戏进度&r。",
+  "quest.twr.25E712ACCAB68E99.description.2": "并且死亡会降低营养值。",
+  "quest.twr.25E712ACCAB68E99.description.5": " ",
+  "quest.twr.25E712ACCAB68E99.description.4": "&e&l因此，请尽可能避免死亡。",
+  "quest.twr.3FEE911101C61CFB.description.9": "&e*如果发现界面上的元素已经无法消除了，说明游戏失败，需要重新开局。",
+  "quest.twr.25E712ACCAB68E99.description.1": "默认情况下，死亡会掉落除了&b装备、手上工具以及饰品&r外的全部物品（&e可以在配置中修改&r）。"
 }

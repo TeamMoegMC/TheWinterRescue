@@ -920,5 +920,45 @@
 				count: 8
 			}]
 		}
+		{
+			title: "{quest.twr.25E712ACCAB68E99.title}"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "stone_age:stone_tablet"
+				}
+			}
+			x: 1.0d
+			y: 1.0d
+			shape: "square"
+			subtitle: "{quest.twr.25E712ACCAB68E99.subtitle}"
+			description: [
+				"{quest.twr.25E712ACCAB68E99.description.1}"
+				"{quest.twr.25E712ACCAB68E99.description.2}"
+				"{quest.twr.25E712ACCAB68E99.description.3}"
+				"{quest.twr.25E712ACCAB68E99.description.4}"
+				"{quest.twr.25E712ACCAB68E99.description.5}"
+				"{quest.twr.25E712ACCAB68E99.description.6}"
+			]
+			dependencies: ["3B5663CF194B054C"]
+			id: "25E712ACCAB68E99"
+			tasks: [{
+				id: "7DCB592CE89499A1"
+				type: "checkmark"
+				title: "{quest.twr.25E712ACCAB68E99.7DCB592CE89499A1.title}"
+			}]
+			rewards: [{
+				id: "0D52FDC00F0AF410"
+				type: "item"
+				item: {
+					id: "frostedheart:straw_lining"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 }

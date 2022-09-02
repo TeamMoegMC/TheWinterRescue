@@ -897,7 +897,7 @@
   "quest.twr.391E30AD9CB7147F.subtitle": "开始获取知识",
   "quest.twr.4F8E2D7FDA9A1D17.description.5": "据说运气好的人能够从环境中获得一些启发，启发可以代替精力消耗。",
   "quest.twr.7AFE32B08BB6CE6C.00F93CA0BAF2D75D.title": "Jacky_Wang - 数值策划与设计",
-  "quest.twr.4F8E2D7FDA9A1D17.description.2": "精力在一般情况下会自然恢复，&6&l膳食均衡可以提高精力的回复速度和上限。拥有充足而温暖的睡眠也可以提升回复速度和上限。",
+  "quest.twr.4F8E2D7FDA9A1D17.description.2": "精力在外出探索或者居家工作时会自然恢复，&6&l膳食均衡可以提高精力的回复速度和上限。拥有适当而温暖的睡眠也可以提升回复速度，&c&l但是睡眠并不会直接提升精力&r。",
   "quest.twr.4F8E2D7FDA9A1D17.description.1": "要想完成研究论文，必须有足够的精力。",
   "quest.twr.37726761B26CE51C.67AE103E9E6F8142.title": "研究点数",
   "quest.twr.1DE66DB6DF406019.2EBA1153448C9CF0.title": "线索",
@@ -940,5 +940,15 @@
   "quest.twr.0430A33A91D78414.title": "旋转窑",
   "quest.twr.11DD149796E14E81.description.3": "&6注意：改造后的工具不能再用于合成。",
   "quest.twr.63E5A6B843181EE1.3D4AE72AF4AB36A0.title": "任意淘金盘",
-  "quest.twr.144F3D2FC5F7F034.title": "台式车窑"
+  "quest.twr.144F3D2FC5F7F034.title": "台式车窑",
+  "quest.twr.25E712ACCAB68E99.subtitle": "人被杀，就会死",
+  "quest.twr.25E712ACCAB68E99.title": "死亡惩罚",
+  "quest.twr.25E712ACCAB68E99.description.6": "&c&l现实中没有复活键。",
+  "quest.twr.25E712ACCAB68E99.7DCB592CE89499A1.title": "活下去",
+  "quest.twr.25E712ACCAB68E99.description.3": "死亡还会清空你的&b精力&r，&a精力会影响到后续的游戏进度&r。",
+  "quest.twr.25E712ACCAB68E99.description.2": "并且死亡会降低营养值。",
+  "quest.twr.25E712ACCAB68E99.description.5": " ",
+  "quest.twr.25E712ACCAB68E99.description.4": "&e&l因此，请尽可能避免死亡。",
+  "quest.twr.3FEE911101C61CFB.description.9": "&e*如果发现界面上的元素已经无法消除了，说明游戏失败，需要重新开局。",
+  "quest.twr.25E712ACCAB68E99.description.1": "默认情况下，死亡会掉落除了&b装备、手上工具以及饰品&r外的全部物品（&e可以在配置中修改&r）。"
 }
