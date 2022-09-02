@@ -132,20 +132,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "1FFC44858A17C847"
-				type: "item"
-				item: {
-					id: "watersource:wooden_cup_drink"
-					Count: 1b
-					tag: {
-						Fluid: {
-							FluidName: "watersource:purified_water"
-							Amount: 250
-						}
-					}
-				}
-			}]
 		}
 		{
 			title: "{quest.twr.215BC2E7271F1478.title}"
@@ -319,6 +305,7 @@
 				id: "1C6B8B365C014F06"
 				type: "item"
 				item: "minecraft:flint"
+				count: 2
 			}]
 		}
 		{
@@ -334,7 +321,13 @@
 				id: "3349CF3A5F68D6F5"
 				type: "item"
 				item: "primalwinter:snowy_vine"
-				count: 10L
+				count: 16L
+			}]
+			rewards: [{
+				id: "68A0A825B611BB51"
+				type: "item"
+				item: "minecraft:stick"
+				count: 4
 			}]
 		}
 		{
@@ -358,6 +351,7 @@
 				id: "7B7D0595E8C4F915"
 				type: "item"
 				item: "minecraft:flint"
+				count: 2
 			}]
 		}
 		{
@@ -381,18 +375,11 @@
 				item: "charcoal_pit:straw"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "4EC23DEAC9F9E125"
-					type: "item"
-					item: "minecraft:flint"
-				}
-				{
-					id: "1B12987080C1C9CE"
-					type: "item"
-					item: "rankine:banana_yucca"
-				}
-			]
+			rewards: [{
+				id: "1B12987080C1C9CE"
+				type: "item"
+				item: "rankine:banana_yucca"
+			}]
 		}
 		{
 			x: 6.0d
@@ -499,7 +486,8 @@
 			rewards: [{
 				id: "4275790E4CE99758"
 				type: "item"
-				item: "minecraft:rabbit_foot"
+				item: "stone_age:raw_hide"
+				count: 4
 			}]
 		}
 		{
@@ -526,7 +514,13 @@
 			rewards: [{
 				id: "63EF58D6EB60F38D"
 				type: "item"
-				item: "stone_age:raw_hide"
+				item: {
+					id: "frostedheart:hide_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 		{
@@ -551,7 +545,7 @@
 			rewards: [{
 				id: "14FB637B7233851C"
 				type: "item"
-				item: "crockpot:veg_stinger"
+				item: "frostedheart:rye_bread"
 			}]
 		}
 		{
@@ -640,18 +634,12 @@
 				type: "item"
 				item: "minecraft:campfire"
 			}]
-			rewards: [
-				{
-					id: "29176E3625258812"
-					type: "item"
-					item: "crockpot:gazpacho"
-				}
-				{
-					id: "6F19F1FDBDC144F2"
-					type: "item"
-					item: "crockpot:kabobs"
-				}
-			]
+			rewards: [{
+				id: "6F19F1FDBDC144F2"
+				type: "item"
+				item: "crockpot:kabobs"
+				count: 2
+			}]
 		}
 		{
 			x: 10.5d
@@ -783,6 +771,7 @@
 				id: "6C321E201EBDBE78"
 				type: "item"
 				item: "minecraft:leather"
+				count: 4L
 			}]
 			rewards: [{
 				id: "6F6F11EE99B02A40"
@@ -921,12 +910,17 @@
 			}]
 		}
 		{
+			title: "庇护所"
 			x: 7.5d
 			y: 3.0d
+			shape: "gear"
 			subtitle: "就地取材"
 			description: [
 				"只要用铲子就可以获取几乎无限的雪球。"
 				"不会轻易融化，是制造庇护所的不二之选。"
+				"如果你能获得大量的干草，茅草也是不错的选择。"
+				""
+				"&3完成后开启下一章节。"
 			]
 			dependencies: ["5D803F0865A90DE0"]
 			id: "29C8077E15E6C418"
@@ -934,7 +928,22 @@
 				id: "7CAEAA529B84A90D"
 				type: "item"
 				item: "rankine:packed_snow"
+				count: 16L
 			}]
+			rewards: [
+				{
+					id: "67FB1A7A368B0BCE"
+					type: "item"
+					item: "charcoal_pit:thatch"
+					count: 8
+				}
+				{
+					id: "24F9E5EE5A414695"
+					type: "item"
+					item: "minecraft:torch"
+					count: 4
+				}
+			]
 		}
 	]
 }

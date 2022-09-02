@@ -206,6 +206,7 @@
 				"{quest.twr.162264AE4B9EE1A9.description.1}"
 				"{quest.twr.162264AE4B9EE1A9.description.2}"
 				"{quest.twr.162264AE4B9EE1A9.description.3}"
+				"&c&l制作该物品需要完成相应研究。"
 			]
 			dependencies: [
 				"4B6840707D77E2C0"
@@ -859,11 +860,29 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "0B646747A6DAECF3"
-				type: "item"
-				item: "crockpot:fruit_medley"
-			}]
+			rewards: [
+				{
+					id: "132A3F95D668750B"
+					type: "item"
+					item: "frostedheart:dried_wolfberries"
+				}
+				{
+					id: "3FEAB9291763975A"
+					type: "item"
+					item: "frostedheart:wolfberries"
+				}
+				{
+					id: "3838D10F90DA4157"
+					type: "item"
+					item: {
+						id: "thermopolium:goji_tongsui"
+						Count: 1b
+						tag: {
+							type: "thermopolium:goji_tongsui"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 8.5d
