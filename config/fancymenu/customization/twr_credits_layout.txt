@@ -140,7 +140,7 @@ customization {
   y = 20
   scale = 1.0
   alignment = left
-  value = asdfghjkl
+  value = rozhisings
 }
 
 customization {
