@@ -892,10 +892,11 @@
   "quest.twr.1938FC4AAD99137E.0A0A4C059B9D1326.title": "效果",
   "quest.twr.744D35762CD9BD26.title": "失败的降落",
   "quest.twr.744D35762CD9BD26.23E2D5CDE38FFD85.title": "探索飞船，寻找物品仓",
-  "quest.twr.4F8E2D7FDA9A1D17.description.4": "&c&l死亡会把精力清零。",
-  "quest.twr.4F8E2D7FDA9A1D17.description.3": "睡在能量塔旁边和穿保暖衣物均可提升睡眠质量，在多人游戏中依然有效。",
+  "quest.twr.4F8E2D7FDA9A1D17.description.5": "&c&l死亡会把精力清零。",
+  "quest.twr.4F8E2D7FDA9A1D17.description.4": "睡在能量塔旁边和穿保暖衣物均可提升睡眠质量，在多人游戏中依然有效。",
+  "quest.twr.4F8E2D7FDA9A1D17.description.3": "只有&6&l在线并且不处于过热或者失温状态&r时才会恢复精力，如果多人组队建议让所有人都参与研究以获得最大效率。并建议&c&l避免把所有精力耗尽&r，耗尽之后精力恢复速度会&c显著减慢&r，并且需要更长时间才能恢复正常。",
   "quest.twr.391E30AD9CB7147F.subtitle": "开始获取知识",
-  "quest.twr.4F8E2D7FDA9A1D17.description.5": "据说运气好的人能够从环境中获得一些启发，启发可以代替精力消耗。",
+  "quest.twr.4F8E2D7FDA9A1D17.description.6": "据说运气好的人能够从环境中获得一些启发，启发可以代替精力消耗。",
   "quest.twr.7AFE32B08BB6CE6C.00F93CA0BAF2D75D.title": "Jacky_Wang - 数值策划与设计",
   "quest.twr.4F8E2D7FDA9A1D17.description.2": "精力在外出探索或者居家工作时会自然恢复，&6&l膳食均衡可以提高精力的回复速度和上限。拥有适当而温暖的睡眠也可以提升回复速度，&c&l但是睡眠并不会直接提升精力&r。",
   "quest.twr.4F8E2D7FDA9A1D17.description.1": "要想完成研究论文，必须有足够的精力。",
@@ -972,5 +973,11 @@
   "quest.twr.28F313C8E1312A2B.description.3": "然而，在这冷天中下水是个麻烦事。",
   "quest.twr.162264AE4B9EE1A9.description.4": "&c&l制作该物品需要完成相应研究。",
   "quest.twr.28F313C8E1312A2B.description.2": "你可以在河床上发现大量的粘土，沙砾，以及&e铜矿沙砾&r。",
-  "quest.twr.28F313C8E1312A2B.6CB265B632F3388D.title": "我已了解，下水前一定注意。"
+  "quest.twr.28F313C8E1312A2B.6CB265B632F3388D.title": "我已了解，下水前一定注意。",
+  "quest.twr.690B75C64EB9A7C1.description.1": "多人组队时，所有人的研究解锁进度随组队共享。",
+  "quest.twr.690B75C64EB9A7C1.description.2": "但是多人的组队，每个人的精力获取速度随着队伍中&6在线人数&r的增加而有所下降。",
+  "quest.twr.690B75C64EB9A7C1.description.3": "因此，建议维护队伍中所有人的身体健康并让他们都参与研究以获得最大效率。",
+  "quest.twr.690B75C64EB9A7C1.description.4": "并且在队伍中，&c&l精力耗尽&r的惩罚更高，因此请不要&m压榨&r队友。",
+  "quest.twr.690B75C64EB9A7C1.subtitle": "友谊是魔法",
+  "quest.twr.690B75C64EB9A7C1.title": "多人组队研究须知"
 }

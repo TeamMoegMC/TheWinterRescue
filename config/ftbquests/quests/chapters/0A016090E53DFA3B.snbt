@@ -158,6 +158,7 @@
 				"{quest.twr.4F8E2D7FDA9A1D17.description.3}"
 				"{quest.twr.4F8E2D7FDA9A1D17.description.4}"
 				"{quest.twr.4F8E2D7FDA9A1D17.description.5}"
+				"{quest.twr.4F8E2D7FDA9A1D17.description.6}"
 			]
 			dependencies: ["1938FC4AAD99137E"]
 			id: "4F8E2D7FDA9A1D17"
@@ -247,6 +248,25 @@
 				id: "508F33F5681A36B0"
 				type: "item"
 				item: "frostedheart:mechanical_calculator"
+			}]
+		}
+		{
+			title: "{quest.twr.690B75C64EB9A7C1.title}"
+			icon: "minecraft:compass"
+			x: -4.5d
+			y: -3.5d
+			subtitle: "{quest.twr.690B75C64EB9A7C1.subtitle}"
+			description: [
+				"{quest.twr.690B75C64EB9A7C1.description.1}"
+				"{quest.twr.690B75C64EB9A7C1.description.2}"
+				"{quest.twr.690B75C64EB9A7C1.description.3}"
+				"{quest.twr.690B75C64EB9A7C1.description.4}"
+			]
+			dependencies: ["4F8E2D7FDA9A1D17"]
+			id: "690B75C64EB9A7C1"
+			tasks: [{
+				id: "21383D39C08AA7AC"
+				type: "checkmark"
 			}]
 		}
 	]

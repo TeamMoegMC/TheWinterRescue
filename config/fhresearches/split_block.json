@@ -1,5 +1,10 @@
 {
-  "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "minecraft:diamond_block",
   "category": "frostedheart:ars",
   "parents": [
@@ -23,9 +28,77 @@
       "type": "item",
       "value": 0.5,
       "id": "5612d1fa13a74a38",
-      "item": {
-        "tag": "forge:hammers"
-      }
+      "item": [
+        {
+          "item": "rankine:wooden_hammer"
+        },
+        {
+          "item": "rankine:stone_hammer"
+        },
+        {
+          "item": "rankine:pewter_hammer"
+        },
+        {
+          "item": "rankine:alloy_hammer"
+        },
+        {
+          "item": "rankine:bronze_hammer"
+        },
+        {
+          "item": "rankine:invar_hammer"
+        },
+        {
+          "item": "rankine:steel_hammer"
+        },
+        {
+          "item": "rankine:stainless_steel_hammer"
+        },
+        {
+          "item": "rankine:nickel_superalloy_hammer"
+        },
+        {
+          "item": "rankine:cobalt_superalloy_hammer"
+        },
+        {
+          "item": "rankine:tungsten_heavy_alloy_hammer"
+        },
+        {
+          "item": "rankine:rose_gold_hammer"
+        },
+        {
+          "item": "rankine:blue_gold_hammer"
+        },
+        {
+          "item": "rankine:green_gold_hammer"
+        },
+        {
+          "item": "rankine:white_gold_hammer"
+        },
+        {
+          "item": "rankine:purple_gold_hammer"
+        },
+        {
+          "item": "rankine:black_gold_hammer"
+        },
+        {
+          "item": "rankine:amalgam_hammer"
+        },
+        {
+          "item": "rankine:ender_amalgam_hammer"
+        },
+        {
+          "item": "rankine:titanium_alloy_hammer"
+        },
+        {
+          "item": "rankine:niobium_alloy_hammer"
+        },
+        {
+          "item": "rankine:zirconium_alloy_hammer"
+        },
+        {
+          "item": "rankine:osmiridium_hammer"
+        }
+      ]
     }
   ],
   "ingredients": [
@@ -44,7 +117,13 @@
       ],
       "icon": {
         "type": "combined",
-        "base": "minecraft:iron_block",
+        "base": [
+          "minecraft:iron_block",
+          "minecraft:gold_block",
+          "minecraft:diamond_block",
+          "minecraft:emerald_block",
+          "minecraft:lapis_block"
+        ],
         "small": "minecraft:crafting_table"
       },
       "id": "e5b639d249cd46dd",
@@ -58,11 +137,5 @@
     }
   ],
   "points": 1000,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }
