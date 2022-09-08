@@ -94,8 +94,9 @@
 			description: [
 				"{quest.twr.7762BF27B2BB8236.description.0}"
 				"{quest.twr.7762BF27B2BB8236.description.1}"
+				"动物只能在0度以上生存，否则会逐渐扣血然后死亡。"
 			]
-			dependencies: ["2D570AD59FE2D6E1"]
+			dependencies: ["69D939596ED4C0AF"]
 			hide: true
 			id: "7762BF27B2BB8236"
 			tasks: [{
@@ -168,6 +169,20 @@
 				id: "08563B09C9C8534B"
 				type: "item"
 				item: "minecraft:egg"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			subtitle: "马戏团"
+			description: ["使用内衬保护的笼子可以运输小体型的动物和动物幼体。"]
+			dependencies: ["19038BB5A9E42055"]
+			hide: true
+			id: "2B0D00CB09B96703"
+			tasks: [{
+				id: "7B3171D6519196C5"
+				type: "item"
+				item: "supplementaries:cage"
 			}]
 		}
 	]

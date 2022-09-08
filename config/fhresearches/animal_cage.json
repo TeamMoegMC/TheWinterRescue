@@ -1,0 +1,98 @@
+{
+  "name": "动物笼子",
+  "desc": [
+    "使用内衬保护的笼子可以运输动物幼体和小型动物，干净又卫生！"
+  ],
+  "descAlt": [
+    "长距离运输动物难度很大，要保持温度同时尽可能进行维生，需要研究一下如何完善整个制作。"
+  ],
+  "icon": "supplementaries:cage",
+  "category": "frostedheart:ars",
+  "parents": [
+    "crucible"
+  ],
+  "clues": [
+    {
+      "type": "kill",
+      "desc": "@entity.stone_age.mouflon",
+      "value": 0.25,
+      "id": "aa0b5f53776f467c",
+      "always": false,
+      "entity": "stone_age:mouflon"
+    },
+    {
+      "type": "game",
+      "value": 0.5,
+      "id": "8ddb982329754dfb",
+      "level": 1
+    },
+    {
+      "type": "kill",
+      "desc": "@entity.stone_age.mammoth",
+      "value": 0.25,
+      "id": "97a6c0da64144a5e",
+      "always": false,
+      "entity": "stone_age:mammoth"
+    },
+    {
+      "type": "kill",
+      "desc": "@entity.stone_age.auroch",
+      "value": 0.25,
+      "id": "2aca0c7f71f14c28",
+      "always": false,
+      "entity": "stone_age:auroch"
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 6,
+      "base_ingredient": {
+        "tag": "forge:plates/steel"
+      }
+    },
+    {
+      "count": 2,
+      "base_ingredient": [
+        {
+          "item": "frostedheart:buff_coat"
+        },
+        {
+          "item": "frostedheart:gambeson"
+        }
+      ]
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "tag": "immersiveengineering:scaffoldings/steel"
+      }
+    },
+    {
+      "count": 6,
+      "base_ingredient": {
+        "item": "charcoal_pit:straw"
+      }
+    },
+    {
+      "count": 6,
+      "base_ingredient": {
+        "tag": "forge:treated_wood"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "5acc6356a60b4822",
+      "item": "supplementaries:cage"
+    },
+    {
+      "type": "item",
+      "id": "88694e96eb3240b9",
+      "rewards": [
+        "supplementaries:cage"
+      ]
+    }
+  ],
+  "points": 4000
+}
