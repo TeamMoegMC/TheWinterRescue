@@ -354,9 +354,10 @@
 				}
 			}]
 			rewards: [{
-				id: "6C87C9B0343098B3"
+				id: "1666EFFB1AC8F007"
 				type: "item"
-				item: "rankine:packaged_tool"
+				item: "rankine:magnetite"
+				count: 4
 			}]
 		}
 		{

@@ -30,9 +30,9 @@
 				value: 1L
 			}]
 			rewards: [{
-				id: "46D7668CA4C6BD1E"
+				id: "0E9461528FD7710E"
 				type: "item"
-				item: "rankine:packaged_tool"
+				item: "stone_age:cooked_mammoth_meat"
 			}]
 		}
 		{
@@ -57,9 +57,10 @@
 				}
 			]
 			rewards: [{
-				id: "7C762F9E4FDCC25C"
+				id: "6100E4D684D5FFC1"
 				type: "item"
-				item: "rankine:packaged_tool"
+				item: "frozenup:truffle_muffin"
+				count: 2
 			}]
 		}
 		{
@@ -80,9 +81,9 @@
 				value: 1L
 			}]
 			rewards: [{
-				id: "6E4AC3CE88C2F451"
+				id: "0C2F387D45A1FF48"
 				type: "item"
-				item: "rankine:packaged_tool"
+				item: "stone_age:cooked_tiger_meat"
 			}]
 		}
 		{
