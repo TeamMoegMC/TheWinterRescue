@@ -810,7 +810,6 @@
   "quest.twr.2F9F42B32CEDA8B6.description.1": "有了它就可以不再需要齿轮组来进行变速了。",
   "quest.twr.41D8E04627E55A86.description.2": "它不止可以处理木头，还可以砍树。",
   "chapter.twr.0A016090E53DFA3B.title": "获得知识",
-  "chapter.twr.0A016090E53DFA3B.subtitle": "知识就是力量。",
   "quest.twr.1B1E71042B20A174.description.1": "完成更高等级的研究需要用到笔墨和纸张",
   "quest.twr.7AFE32B08BB6CE6C.56A394021604FE09.title": "shidi655 - 质量保证测试",
   "quest.twr.3FEE911101C61CFB.6A664AAE41DA218A.title": "完成研究论文",
@@ -952,7 +951,6 @@
   "quest.twr.25E712ACCAB68E99.description.4": "&e&l因此，请尽可能避免死亡。",
   "quest.twr.3FEE911101C61CFB.description.9": "&e*如果发现界面上的元素已经无法消除了，说明游戏失败，需要重新开局。",
   "quest.twr.25E712ACCAB68E99.description.1": "默认情况下，死亡会掉落除了&b装备、手上工具以及饰品&r外的全部物品（&e可以在配置中修改&r）。",
-  "quest.twr.144F3D2FC5F7F034.title": "台式车窑",
   "quest.twr.28F313C8E1312A2B.description.1": "虽然大多河流已经冰封，但是冰下依旧藏着丰富的资源。",
   "quest.twr.28F313C8E1312A2B.description.10": "未来，加热背心或者海带内衬可以帮助你在不失温的情况下方便潜水。",
   "quest.twr.29C8077E15E6C418.subtitle": "就地取材",
@@ -986,8 +984,5 @@
   "chapter.twr.0A016090E53DFA3B.subtitle.0": "知识就是力量",
   "chapter.twr.683664CACFD52C99.subtitle.0": "有关这个世界你所知道的一切信息。",
   "chapter.twr.0C07C58470EE031C.subtitle.0": "在暴风雪来临之前，建造一个庇护所，升起火堆，并囤好燃料。",
-  "chapter.twr.0A016090E53DFA3B.subtitle.0": "知识就是力量",
-  "chapter.twr.0C07C58470EE031C.title": "雪中生存",
-  "chapter.twr.0C07C58470EE031C.subtitle.0": "在暴风雪来临之前，建造一个庇护所，升起火堆，并囤好燃料。",
-  "chapter.twr.0A016090E53DFA3B.title": "获得知识"
+  "chapter.twr.0C07C58470EE031C.title": "雪中生存"
 }
