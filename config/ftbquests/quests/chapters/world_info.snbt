@@ -1,10 +1,16 @@
 {
 	id: "683664CACFD52C99"
 	group: "7668DAE31E3EF623"
-	order_index: 5
+	order_index: 0
 	filename: "world_info"
 	title: "{chapter.twr.683664CACFD52C99.title}"
-	icon: "minecraft:grass_block"
+	icon: {
+		id: "rankine:flint_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
 	subtitle: ["有关这个世界你所知道的一切信息。"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

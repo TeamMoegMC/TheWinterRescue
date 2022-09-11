@@ -29,6 +29,7 @@
 				"{quest.twr.391E30AD9CB7147F.description.5}"
 			]
 			dependencies: ["6A22E2D62D4719BE"]
+			hide: true
 			id: "391E30AD9CB7147F"
 			tasks: [{
 				id: "2D456863275FBF11"
@@ -49,6 +50,7 @@
 				"{quest.twr.1DE66DB6DF406019.description.5}"
 			]
 			dependencies: ["391E30AD9CB7147F"]
+			hide: true
 			id: "1DE66DB6DF406019"
 			tasks: [{
 				id: "2EBA1153448C9CF0"
@@ -70,6 +72,7 @@
 				"{quest.twr.1938FC4AAD99137E.description.5}"
 			]
 			dependencies: ["391E30AD9CB7147F"]
+			hide: true
 			id: "1938FC4AAD99137E"
 			tasks: [{
 				id: "0A0A4C059B9D1326"
@@ -123,6 +126,7 @@
 			subtitle: "{quest.twr.1B1E71042B20A174.subtitle}"
 			description: ["{quest.twr.1B1E71042B20A174.description.1}"]
 			dependencies: ["3BBB2213C574F333"]
+			hide: true
 			id: "1B1E71042B20A174"
 			tasks: [
 				{
@@ -154,6 +158,7 @@
 				"{quest.twr.4F8E2D7FDA9A1D17.description.3}"
 				"{quest.twr.4F8E2D7FDA9A1D17.description.4}"
 				"{quest.twr.4F8E2D7FDA9A1D17.description.5}"
+				"{quest.twr.4F8E2D7FDA9A1D17.description.6}"
 			]
 			dependencies: ["1938FC4AAD99137E"]
 			id: "4F8E2D7FDA9A1D17"
@@ -197,6 +202,7 @@
 				"{quest.twr.3FEE911101C61CFB.description.6}"
 				"{quest.twr.3FEE911101C61CFB.description.7}"
 				"{quest.twr.3FEE911101C61CFB.description.8}"
+				"{quest.twr.3FEE911101C61CFB.description.9}"
 			]
 			dependencies: ["1938FC4AAD99137E"]
 			id: "3FEE911101C61CFB"
@@ -216,6 +222,7 @@
 				"{quest.twr.37726761B26CE51C.description.3}"
 			]
 			dependencies: ["391E30AD9CB7147F"]
+			hide: true
 			id: "37726761B26CE51C"
 			tasks: [{
 				id: "67AE103E9E6F8142"
@@ -235,11 +242,31 @@
 				"3BBB2213C574F333"
 				"3A3B51CF7F606665"
 			]
+			hide: true
 			id: "2148082183BBDF76"
 			tasks: [{
 				id: "508F33F5681A36B0"
 				type: "item"
 				item: "frostedheart:mechanical_calculator"
+			}]
+		}
+		{
+			title: "{quest.twr.690B75C64EB9A7C1.title}"
+			icon: "minecraft:compass"
+			x: -4.5d
+			y: -3.5d
+			subtitle: "{quest.twr.690B75C64EB9A7C1.subtitle}"
+			description: [
+				"{quest.twr.690B75C64EB9A7C1.description.1}"
+				"{quest.twr.690B75C64EB9A7C1.description.2}"
+				"{quest.twr.690B75C64EB9A7C1.description.3}"
+				"{quest.twr.690B75C64EB9A7C1.description.4}"
+			]
+			dependencies: ["4F8E2D7FDA9A1D17"]
+			id: "690B75C64EB9A7C1"
+			tasks: [{
+				id: "21383D39C08AA7AC"
+				type: "checkmark"
 			}]
 		}
 	]

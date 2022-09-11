@@ -214,6 +214,7 @@ onEvent('recipes', (event) => {
     event.remove({input: 'rankine:alloy_template', output: 'minecraft:paper'});
     event.remove({input: 'minecraft:redstone_ore'});
 	event.remove({output: '#minecraft:planks'});
+	event.remove({output: 'create:chromatic_compound'});
 	event.remove({input:'create:dough'});
 	event.remove({type:'rankine:crucible'});
 	event.remove({type:'rankine:alloying'});

@@ -48,9 +48,10 @@
 				}
 			]
 			rewards: [{
-				id: "3E7CEE2FC39DF5E2"
+				id: "602B98FFFFC76CD9"
 				type: "item"
-				item: "rankine:packaged_tool"
+				item: "kubejs:bauxite"
+				count: 4
 			}]
 		}
 		{

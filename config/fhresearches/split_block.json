@@ -1,5 +1,10 @@
 {
-  "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "minecraft:diamond_block",
   "category": "frostedheart:ars",
   "parents": [
@@ -23,9 +28,11 @@
       "type": "item",
       "value": 0.5,
       "id": "5612d1fa13a74a38",
-      "item": {
-        "tag": "forge:hammers"
-      }
+      "item": [
+        {
+          "tag": "forge:hammers"
+        }
+      ]
     }
   ],
   "ingredients": [
@@ -44,7 +51,13 @@
       ],
       "icon": {
         "type": "combined",
-        "base": "minecraft:iron_block",
+        "base": [
+          "minecraft:iron_block",
+          "minecraft:gold_block",
+          "minecraft:diamond_block",
+          "minecraft:emerald_block",
+          "minecraft:lapis_block"
+        ],
         "small": "minecraft:crafting_table"
       },
       "id": "e5b639d249cd46dd",
@@ -58,11 +71,5 @@
     }
   ],
   "points": 1000,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

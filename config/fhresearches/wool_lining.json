@@ -15,7 +15,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.25,
+      "value": 0.5,
       "id": "26ae318159284bec",
       "level": 1
     }
@@ -28,7 +28,7 @@
       "item": "frostedheart:gambeson"
     }
   ],
-  "points": 3500,
+  "points": 2500,
   "desc": [
     "@"
   ],

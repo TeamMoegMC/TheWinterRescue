@@ -1,10 +1,16 @@
 {
 	id: "75A05D5EAF6602DE"
 	group: "7668DAE31E3EF623"
-	order_index: 4
+	order_index: 1
 	filename: "animals"
 	title: "{chapter.twr.75A05D5EAF6602DE.title}"
-	icon: "stone_age:antler"
+	icon: {
+		id: "rankine:flint_spear"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
 	subtitle: ["{chapter.twr.75A05D5EAF6602DE.subtitle}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -24,9 +30,9 @@
 				value: 1L
 			}]
 			rewards: [{
-				id: "46D7668CA4C6BD1E"
+				id: "0E9461528FD7710E"
 				type: "item"
-				item: "rankine:packaged_tool"
+				item: "stone_age:cooked_mammoth_meat"
 			}]
 		}
 		{
@@ -51,9 +57,10 @@
 				}
 			]
 			rewards: [{
-				id: "7C762F9E4FDCC25C"
+				id: "6100E4D684D5FFC1"
 				type: "item"
-				item: "rankine:packaged_tool"
+				item: "frozenup:truffle_muffin"
+				count: 2
 			}]
 		}
 		{
@@ -74,9 +81,9 @@
 				value: 1L
 			}]
 			rewards: [{
-				id: "6E4AC3CE88C2F451"
+				id: "0C2F387D45A1FF48"
 				type: "item"
-				item: "rankine:packaged_tool"
+				item: "stone_age:cooked_tiger_meat"
 			}]
 		}
 		{
@@ -88,8 +95,9 @@
 			description: [
 				"{quest.twr.7762BF27B2BB8236.description.0}"
 				"{quest.twr.7762BF27B2BB8236.description.1}"
+				"{quest.twr.7762BF27B2BB8236.description.3}"
 			]
-			dependencies: ["2D570AD59FE2D6E1"]
+			dependencies: ["69D939596ED4C0AF"]
 			hide: true
 			id: "7762BF27B2BB8236"
 			tasks: [{
@@ -162,6 +170,20 @@
 				id: "08563B09C9C8534B"
 				type: "item"
 				item: "minecraft:egg"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			subtitle: "{quest.twr.2B0D00CB09B96703.subtitle}"
+			description: ["{quest.twr.2B0D00CB09B96703.description.1}"]
+			dependencies: ["19038BB5A9E42055"]
+			hide: true
+			id: "2B0D00CB09B96703"
+			tasks: [{
+				id: "7B3171D6519196C5"
+				type: "item"
+				item: "supplementaries:cage"
 			}]
 		}
 	]

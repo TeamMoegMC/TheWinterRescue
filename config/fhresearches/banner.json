@@ -1,0 +1,85 @@
+{
+  "name": "你不应该看到这个",
+  "desc": [
+    "这是Ban列表研究",
+    "你不应该看到这个",
+    "请不要作弊"
+  ],
+  "icon": "minecraft:barrier",
+  "category": "frostedheart:rescue",
+  "clues": [],
+  "ingredients": [],
+  "effects": [
+    {
+      "type": "multiblock",
+      "id": "fe14e4e345db4201",
+      "multiblock": "immersiveengineering:multiblocks/arcfurnace"
+    },
+    {
+      "type": "multiblock",
+      "id": "5be326ef430442f3",
+      "multiblock": "immersivepetroleum:multiblocks/cokerunit"
+    },
+    {
+      "type": "multiblock",
+      "id": "d4a45ad1a56541a3",
+      "multiblock": "immersiveengineering:multiblocks/diesel_generator"
+    },
+    {
+      "type": "multiblock",
+      "id": "5b6ba3bfcd43ea",
+      "multiblock": "immersivepetroleum:multiblocks/distillationtower"
+    },
+    {
+      "type": "multiblock",
+      "id": "4778c2bd97464689",
+      "multiblock": "immersiveengineering:multiblocks/excavator"
+    },
+    {
+      "type": "multiblock",
+      "id": "2f3961a8cf5b4e30",
+      "multiblock": "immersivepetroleum:multiblocks/hydrotreater"
+    },
+    {
+      "type": "multiblock",
+      "id": "347c0f6c35e9450b",
+      "multiblock": "immersiveengineering:multiblocks/lightning_rod"
+    },
+    {
+      "type": "multiblock",
+      "id": "8d664d0982fc446f",
+      "multiblock": "immersivepetroleum:multiblocks/pumpjack"
+    },
+    {
+      "type": "multiblock",
+      "id": "be5e11c42909448e",
+      "multiblock": "immersiveengineering:multiblocks/refinery"
+    },
+    {
+      "type": "multiblock",
+      "id": "1faf7deded1340fd",
+      "multiblock": "immersiveengineering:multiblocks/sawmill"
+    },
+    {
+      "type": "recipe",
+      "id": "8de6ab8dae04adf",
+      "item": "crockpot:crock_pot_advanced"
+    },
+    {
+      "type": "recipe",
+      "id": "1dd0dbd49e01455e",
+      "item": "crockpot:crock_pot_ultimate"
+    },
+    {
+      "type": "use",
+      "id": "538d21ab33a647d9",
+      "blocks": [
+        "crockpot:crock_pot_advanced",
+        "crockpot:crock_pot_ultimate"
+      ]
+    }
+  ],
+  "points": 276447232,
+  "hidden": true,
+  "locked": true
+}
