@@ -1,9 +1,9 @@
 {
-  "name": "你不应该看到这个",
+  "name": "@",
   "desc": [
-    "这是Ban列表研究",
-    "你不应该看到这个",
-    "请不要作弊"
+    "@",
+    "@",
+    "@"
   ],
   "icon": "minecraft:barrier",
   "category": "frostedheart:rescue",
@@ -81,5 +81,9 @@
   ],
   "points": 276447232,
   "hidden": true,
-  "locked": true
+  "locked": true,
+  "descAlt": [
+    "@"
+  ],
+  "showAltDesc": true
 }

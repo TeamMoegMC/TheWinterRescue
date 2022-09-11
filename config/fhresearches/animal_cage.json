@@ -1,10 +1,10 @@
 {
-  "name": "动物笼子",
+  "name": "@",
   "desc": [
-    "使用内衬保护的笼子可以运输动物幼体和小型动物，干净又卫生！"
+    "@"
   ],
   "descAlt": [
-    "长距离运输动物难度很大，要保持温度同时尽可能进行维生，需要研究一下如何完善整个制作。"
+    "@"
   ],
   "icon": "supplementaries:cage",
   "category": "frostedheart:ars",
@@ -94,5 +94,6 @@
       ]
     }
   ],
-  "points": 4000
+  "points": 4000,
+  "showAltDesc": true
 }
