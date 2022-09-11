@@ -137,7 +137,6 @@ def main(config: String, lang: String): Unit = {
     .filter { case (n, _) => n.last == "json" }
     .map { case (n, f) => (n.head, f) }
     .map { case (name, file) =>
-      println(name)
       val source = Source.fromFile(file)
       val res = parseConfig(name, source.getLines().mkString)
       source.close()
