@@ -95,7 +95,7 @@
 			description: [
 				"{quest.twr.7762BF27B2BB8236.description.0}"
 				"{quest.twr.7762BF27B2BB8236.description.1}"
-				"动物只能在0度以上生存，否则会逐渐扣血然后死亡。"
+				"{quest.twr.7762BF27B2BB8236.description.3}"
 			]
 			dependencies: ["69D939596ED4C0AF"]
 			hide: true
@@ -175,8 +175,8 @@
 		{
 			x: 6.5d
 			y: -1.5d
-			subtitle: "马戏团"
-			description: ["使用内衬保护的笼子可以运输小体型的动物和动物幼体。"]
+			subtitle: "{quest.twr.2B0D00CB09B96703.subtitle}"
+			description: ["{quest.twr.2B0D00CB09B96703.description.1}"]
 			dependencies: ["19038BB5A9E42055"]
 			hide: true
 			id: "2B0D00CB09B96703"
