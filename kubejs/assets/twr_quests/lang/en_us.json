@@ -808,8 +808,6 @@
   "quest.twr.0C424AAC550ACF02.description.1": "By goggles observe stress consumption.",
   "quest.twr.2F9F42B32CEDA8B6.description.1": "Can no longer need gear use to change speed.",
   "quest.twr.41D8E04627E55A86.description.2": "It can also cut down trees.",
-  "chapter.twr.0A016090E53DFA3B.title": "Getting knowledge",
-  "chapter.twr.0A016090E53DFA3B.subtitle": "Knowledge is Power",
   "quest.twr.1B1E71042B20A174.description.1": "Quill, ink and paper are required to complete higher level researches.",
   "quest.twr.7AFE32B08BB6CE6C.56A394021604FE09.title": "shidi655 - Numerical Setup & QA",
   "quest.twr.3FEE911101C61CFB.6A664AAE41DA218A.title": "Complete the research paper",
@@ -980,11 +978,9 @@
   "quest.twr.2B0D00CB09B96703.description.1": "Protected cage with inner lining would keep animal inside from cold to death.",
   "quest.twr.2B0D00CB09B96703.subtitle": "Circus",
   "quest.twr.7762BF27B2BB8236.description.3": "Animal only live with temperature above 0 degrees.",
-  "chapter.twr.0A016090E53DFA3B.subtitle.0": "知识就是力量",
+  "chapter.twr.0A016090E53DFA3B.subtitle.0": "Knowledge is Power",
   "chapter.twr.683664CACFD52C99.subtitle.0": "有关这个世界你所知道的一切信息。",
-  "chapter.twr.0C07C58470EE031C.subtitle.0": "在暴风雪来临之前，建造一个庇护所，升起火堆，并囤好燃料。",
-  "chapter.twr.0A016090E53DFA3B.subtitle.0": "知识就是力量",
   "chapter.twr.0C07C58470EE031C.title": "雪中生存",
   "chapter.twr.0C07C58470EE031C.subtitle.0": "在暴风雪来临之前，建造一个庇护所，升起火堆，并囤好燃料。",
-  "chapter.twr.0A016090E53DFA3B.title": "获得知识"
+  "chapter.twr.0A016090E53DFA3B.title": "Getting knowledge"
 }
