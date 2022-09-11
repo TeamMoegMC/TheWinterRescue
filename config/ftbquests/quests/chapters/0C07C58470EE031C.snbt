@@ -3,9 +3,9 @@
 	group: "7823E178F7BCBCB0"
 	order_index: 1
 	filename: "0C07C58470EE031C"
-	title: "雪中生存"
+	title: "{chapter.twr.0C07C58470EE031C.title}"
 	icon: "minecraft:campfire"
-	subtitle: ["在暴风雪来临之前，建造一个庇护所，升起火堆，并囤好燃料。"]
+	subtitle: ["{chapter.twr.0C07C58470EE031C.subtitle.0}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

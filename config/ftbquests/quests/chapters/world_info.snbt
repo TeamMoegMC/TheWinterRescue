@@ -11,7 +11,7 @@
 			Damage: 0
 		}
 	}
-	subtitle: ["有关这个世界你所知道的一切信息。"]
+	subtitle: ["{chapter.twr.683664CACFD52C99.subtitle.0}"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
