@@ -30,6 +30,10 @@ function beehiveRecipe(input, result) {
     return {type: 'rankine:beehive_oven', input: input, result: result};
 }
 
+function inspireRecipe(input, result) {
+    return {type: 'frostedheart:inspire', item: Item.of(input).toJson(), amount: result};
+}
+
 function unificationBlacklistEntry(material, type) {
     return {material: material, type: type};
 }

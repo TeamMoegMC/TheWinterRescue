@@ -159,6 +159,7 @@
 				"{quest.twr.4F8E2D7FDA9A1D17.description.4}"
 				"{quest.twr.4F8E2D7FDA9A1D17.description.5}"
 				"{quest.twr.4F8E2D7FDA9A1D17.description.6}"
+				"如果&e营养条件、休息条件过差&r，或者&e用尽了精力&r，则会获得沮丧状态，&c&l表明精力回复率很低&r。"
 			]
 			dependencies: ["1938FC4AAD99137E"]
 			id: "4F8E2D7FDA9A1D17"
