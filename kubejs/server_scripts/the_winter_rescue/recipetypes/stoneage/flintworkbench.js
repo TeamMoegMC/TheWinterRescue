@@ -193,7 +193,7 @@ onEvent('recipes', (event) => {
         flint_shapedRecipe(Item.of('frostedheart:rye_bread'), ['AAA'], {
             A: Item.of('frostedheart:rye').toJson()
         }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('watersource:wooden_cup', 2), ['A A', 'A A', ' A '], {
+        flint_shapedRecipe(Item.of('watersource:wooden_cup', 4), ['A A', 'A A', ' A '], {
             A: Ingredient.of('#minecraft:planks').toJson()
         }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('watersource:wooden_water_filter'), ['BCB', 'AAA', 'BCB'], {
@@ -271,6 +271,11 @@ onEvent('recipes', (event) => {
             A: Ingredient.of('#minecraft:planks').toJson(),
             B: Ingredient.of('#minecraft:wooden_slabs').toJson(),
             C: Ingredient.of('#forge:plates/copper').toJson(),
+        }, Item.of('stone_age:flint_knife')),
+        flint_shapedRecipe(Item.of('comforts:sleeping_bag_brown'), ['BBB', 'ACA', 'BBB'], {
+            A: Item.of('stone_age:leather_strip').toJson(),
+            B: Ingredient.of('#forge:leather').toJson(),
+            C: Item.of('frostedheart:straw_lining').toJson()
         }, Item.of('stone_age:flint_knife'))
     ]
     const only_flint_recipes = [
