@@ -1094,7 +1094,7 @@
 				"{quest.twr.6E83E2133A978D34.description.1}"
 				"{quest.twr.6E83E2133A978D34.description.2}"
 			]
-			dependencies: ["42AF456D165CBF75"]
+			dependencies: ["5DD231E4178E830D"]
 			hide: true
 			id: "6E83E2133A978D34"
 			tasks: [{
