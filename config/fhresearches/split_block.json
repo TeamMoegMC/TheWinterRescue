@@ -29,11 +29,9 @@
       "type": "item",
       "value": 0.5,
       "id": "5612d1fa13a74a38",
-      "item": [
-        {
-          "tag": "forge:hammers"
-        }
-      ]
+      "item": {
+        "tag": "forge:hammers"
+      }
     }
   ],
   "ingredients": [
@@ -71,6 +69,6 @@
       ]
     }
   ],
-  "points": 1000,
+  "points": 2000,
   "showAltDesc": true
 }

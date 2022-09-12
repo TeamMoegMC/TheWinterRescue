@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "kubejs:crushed_ore_galena",
   "category": "frostedheart:production",
   "parents": [
@@ -9,7 +15,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.45,
+      "value": 0.75,
       "id": "a2eef0a3915341bd",
       "level": 1
     }
@@ -22,12 +28,6 @@
       "item": "create:crushing_wheel"
     }
   ],
-  "points": 2000,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 4000,
   "showAltDesc": true
 }

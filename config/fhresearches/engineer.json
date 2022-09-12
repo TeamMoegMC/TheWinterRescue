@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "engineersdecor:small_tree_cutter",
   "category": "frostedheart:ars",
   "parents": [
@@ -9,7 +15,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.35,
+      "value": 0.5,
       "id": "f951dd580614a9b",
       "level": 1
     }
@@ -27,12 +33,6 @@
       "item": "engineersdecor:small_tree_cutter"
     }
   ],
-  "points": 2750,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 4000,
   "showAltDesc": true
 }

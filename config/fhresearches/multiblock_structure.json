@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "immersiveengineering:light_engineering",
   "category": "frostedheart:production",
   "parents": [
@@ -9,7 +15,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.35,
+      "value": 0.6,
       "id": "2929a10897b34151",
       "level": 1
     }
@@ -27,12 +33,6 @@
       "item": "immersiveengineering:rs_engineering"
     }
   ],
-  "points": 3000,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 6000,
   "showAltDesc": true
 }

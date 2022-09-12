@@ -118,4 +118,11 @@ onEvent('item.tags', (event) => {
 	})
 	event.add('thermopolium:container','frostedheart:advanced_thermos');
 	event.add('thermopolium:container','frostedheart:thermos');
+	event.add('frostedheart:electronic_junk',"kubejs:damaged_gpu")
+    event.add('frostedheart:electronic_junk',"kubejs:damaged_circuit_board")
+    event.add('frostedheart:electronic_junk',"kubejs:damaged_electric_motor")
+    event.add('frostedheart:electronic_junk',"kubejs:damaged_camera")
+    event.add('frostedheart:electronic_junk',"kubejs:burnt_circuit_board")
+    event.add('frostedheart:electronic_junk',"kubejs:broken_robot_1")
+    event.add('frostedheart:electronic_junk',"kubejs:broken_robot_2")
 });

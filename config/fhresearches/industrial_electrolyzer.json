@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": {
     "type": "item",
     "item": {
@@ -29,12 +35,6 @@
       "multiblock": "immersiveindustry:multiblocks/industrial_electrolyzer"
     }
   ],
-  "points": 3250,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 8000,
   "showAltDesc": true
 }

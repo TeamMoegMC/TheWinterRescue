@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": {
     "type": "combined",
     "base": "immersiveengineering:generator",
@@ -28,12 +34,6 @@
       "multiblock": "immersiveindustry:multiblocks/steam_turbine"
     }
   ],
-  "points": 3500,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 8000,
   "showAltDesc": true
 }

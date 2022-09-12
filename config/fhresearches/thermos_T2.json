@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": {
     "type": "item",
     "item": {
@@ -28,12 +34,6 @@
       "item": "frostedheart:advanced_thermos"
     }
   ],
-  "points": 2500,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 4000,
   "showAltDesc": true
 }

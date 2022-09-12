@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "immersiveengineering:dust_aluminum",
   "category": "frostedheart:production",
   "parents": [
@@ -23,12 +29,6 @@
       "item": "immersiveindustry:electrolyzer"
     }
   ],
-  "points": 2500,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 4000,
   "showAltDesc": true
 }

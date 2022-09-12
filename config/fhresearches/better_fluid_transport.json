@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "immersiveengineering:fluid_pump",
   "category": "frostedheart:production",
   "parents": [
@@ -27,12 +33,6 @@
       "item": "immersiveengineering:fluid_pump"
     }
   ],
-  "points": 2500,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 5000,
   "showAltDesc": true
 }

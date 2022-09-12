@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "immersiveindustry:rotary_kiln",
   "category": "frostedheart:production",
   "parents": [
@@ -23,12 +29,6 @@
       "multiblock": "immersiveindustry:multiblocks/rotary_kiln"
     }
   ],
-  "points": 3500,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 8000,
   "showAltDesc": true
 }

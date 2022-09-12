@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "immersiveengineering:ingot_steel",
   "category": "frostedheart:production",
   "parents": [
@@ -9,7 +15,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.4,
+      "value": 0.6,
       "id": "b273c6897df04409",
       "level": 1
     }
@@ -28,12 +34,6 @@
       "item": "immersiveindustry:burning_chamber"
     }
   ],
-  "points": 2250,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 3000,
   "showAltDesc": true
 }

@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "frostedheart:heat_radiator",
   "category": "frostedheart:rescue",
   "parents": [
@@ -9,7 +15,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.35,
+      "value": 0.5,
       "id": "ae5d7e4c7d9245c1",
       "level": 1
     }
@@ -23,12 +29,6 @@
       "multiblock": "frostedheart:multiblocks/heat_radiator"
     }
   ],
-  "points": 2750,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 3000,
   "showAltDesc": true
 }

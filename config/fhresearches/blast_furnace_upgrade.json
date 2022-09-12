@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": {
     "type": "combined",
     "base": "immersiveengineering:ingot_steel",
@@ -13,7 +19,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.35,
+      "value": 0.6,
       "id": "309a1cdd00054398",
       "level": 1
     }
@@ -40,12 +46,6 @@
       "multiblock": "immersiveengineering:multiblocks/improved_blast_furnace"
     }
   ],
-  "points": 3000,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 6000,
   "showAltDesc": true
 }

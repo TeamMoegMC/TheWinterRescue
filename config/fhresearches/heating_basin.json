@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": {
     "type": "combined",
     "base": "create:basin",
@@ -8,13 +14,15 @@
   "category": "frostedheart:production",
   "parents": [
     "mechanical_crafter",
-    "123d345ea7242cd"
+    "",
+    "123d345ea7242cd",
+    ""
   ],
   "clues": [
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.45,
+      "value": 0.75,
       "id": "dad9034ff1445e3",
       "level": 1
     }
@@ -27,12 +35,6 @@
       "item": "create:blaze_burner"
     }
   ],
-  "points": 2500,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 4000,
   "showAltDesc": true
 }

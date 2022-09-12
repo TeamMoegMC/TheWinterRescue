@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "immersiveengineering:mold_plate",
   "category": "frostedheart:production",
   "parents": [
@@ -9,7 +15,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.25,
+      "value": 0.3,
       "id": "bf1c581c7b7441c9",
       "level": 1
     }
@@ -33,12 +39,6 @@
       "multiblock": "immersiveengineering:multiblocks/metal_press"
     }
   ],
-  "points": 3250,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 6000,
   "showAltDesc": true
 }

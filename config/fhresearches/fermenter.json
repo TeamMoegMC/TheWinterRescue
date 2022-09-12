@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "immersiveengineering:ethanol_bucket",
   "category": "frostedheart:production",
   "parents": [
@@ -9,7 +15,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.3,
+      "value": 0.4,
       "id": "b96eebcdeb1c4689",
       "level": 1
     }
@@ -23,12 +29,6 @@
       "multiblock": "immersiveengineering:multiblocks/fermenter"
     }
   ],
-  "points": 3000,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 6000,
   "showAltDesc": true
 }

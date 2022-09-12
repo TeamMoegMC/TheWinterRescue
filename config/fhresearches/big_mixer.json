@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "immersiveengineering:mixer",
   "category": "frostedheart:production",
   "parents": [
@@ -9,7 +15,7 @@
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.3,
+      "value": 0.4,
       "id": "522526f83bfa4da0",
       "level": 1
     }
@@ -23,12 +29,6 @@
       "multiblock": "immersiveengineering:multiblocks/mixer"
     }
   ],
-  "points": 3250,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 6000,
   "showAltDesc": true
 }
