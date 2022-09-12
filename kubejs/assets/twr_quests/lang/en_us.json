@@ -983,5 +983,22 @@
   "chapter.twr.0C07C58470EE031C.title": "Survive in the Snow",
   "chapter.twr.0C07C58470EE031C.subtitle.0": "Before the blizzard hits, build a shelter, light up campfire, and prepare enough fuel.",
   "chapter.twr.0A016090E53DFA3B.title": "Getting knowledge",
-  "quest.twr.4F8E2D7FDA9A1D17.description.7": "If your &enutrition level is low and resting environment is bad&r, or if you &eused all your inspiration&r, you will gain the lethargic state, &c&lindiciating very low inspiration regeneration rate&r."
+  "quest.twr.4F8E2D7FDA9A1D17.description.7": "If your &enutrition level is low and resting environment is bad&r, or if you &eused all your inspiration&r, you will gain the lethargic state, &c&lindiciating very low inspiration regeneration rate&r.",
+  "quest.twr.7627D80D3091F54C.description.6": "There can be doors or trapdoors on the Wall and Ceiling, but the entire structure must be completely closed. ",
+  "quest.twr.7627D80D3091F54C.subtitle": "Sauna Therapy",
+  "quest.twr.7627D80D3091F54C.description.7": "",
+  "quest.twr.7627D80D3091F54C.description.8": "One sauna therapy takes around 50 seconds. You will gain large amount of inspiration reward immediately and “Sauna Therapy” effect for the entire day, continously regenerating inspiration.",
+  "quest.twr.7627D80D3091F54C.description.9": "If possessing the “Sauna Therapy” effect, you cannot gain this effect again or any additional inspiration.",
+  "quest.twr.6E83E2133A978D34.description.2": "Warm enough to fall asleep inside.",
+  "quest.twr.6E83E2133A978D34.description.1": "Use leather to wrap up straw lining. You now get a sleepbag. ",
+  "quest.twr.7627D80D3091F54C.description.13": "Medicine Therapy is not in conflict with the “Sauna Therapy” effect mentioned above, but gaining medical effect needs longer time. ",
+  "quest.twr.7627D80D3091F54C.description.1": "Sauna is the best choice to &6regenerate inspiration&r and  &egain beneficial buffs&r.",
+  "quest.twr.7627D80D3091F54C.description.2": "&lSauna is a multiblock structure: &r",
+  "quest.twr.7627D80D3091F54C.description.12": "The sauna time needed to gain the buff and the buff itself both depend on the medicine. You may view it in JEI.",
+  "quest.twr.7627D80D3091F54C.description.3": "&bThe Floor&r consists of Sauna Vent and wooden planks. All planks must be within 5-block distance from the vent. No shape restriction. ",
+  "quest.twr.7627D80D3091F54C.description.11": "Place medicine on the Sauna Vent to gain beneficial buffs.",
+  "quest.twr.7627D80D3091F54C.title": "Sauna Time!",
+  "quest.twr.7627D80D3091F54C.description.4": "&bThe Wall&r consists of wooden planks and must be built on the peripheral of The Floor. The height must be 3 (not including the floor but including the ceiling).",
+  "quest.twr.7627D80D3091F54C.description.10": "",
+  "quest.twr.7627D80D3091F54C.description.5": "&bThe Ceiling&r consists of wooden planks. The height is at the third block of the wall. It must cover up the entire opening above. "
 }

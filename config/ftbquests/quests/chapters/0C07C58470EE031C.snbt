@@ -1091,8 +1091,8 @@
 			y: -6.0d
 			subtitle: "{quest.twr.6E83E2133A978D34.subtitle}"
 			description: [
-				"用皮革包裹起干草内衬就能得到一个简易的睡袋。"
-				"足够暖和，可以睡得着觉了。"
+				"{quest.twr.6E83E2133A978D34.description.1}"
+				"{quest.twr.6E83E2133A978D34.description.2}"
 			]
 			dependencies: ["42AF456D165CBF75"]
 			hide: true
