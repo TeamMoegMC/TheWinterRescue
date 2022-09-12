@@ -1,0 +1,6 @@
+{"type": "frostedheart:add_loot",
+"loot_table":"the_winter_rescue:chests/inspire_items",
+"conditions": [
+{"condition":"frostedheart:treasure"}
+]
+}

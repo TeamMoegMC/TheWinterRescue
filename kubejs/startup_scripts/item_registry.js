@@ -42,7 +42,14 @@ onEvent('item.registry', event => {
 		'vitamin_toxicity',
 		'creosoted_sawdust',
 		'cast_iron_rod',
-		'fluorite_dust'
+		'fluorite_dust',
+		'damaged_gpu',
+		'damaged_circuit_board',
+		'damaged_electric_motor',
+		'damaged_camera',
+		'burnt_circuit_board',
+		'broken_robot_1',
+		'broken_robot_2'
 	];
 
 	let rawOres = [

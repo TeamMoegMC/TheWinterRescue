@@ -4,6 +4,7 @@
     "the_winter_rescue:degrade",
 	"the_winter_rescue:fruits",
 	"the_winter_rescue:damage",
-	"the_winter_rescue:dechant"
+	"the_winter_rescue:dechant",
+    "the_winter_rescue:add_loot"
   ]
 }

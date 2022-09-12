@@ -1,5 +1,3 @@
-
-
 onEvent('block.loot_tables', event => {
 	var ore_blocks = [
 "rankine:magnetite_ore", 
