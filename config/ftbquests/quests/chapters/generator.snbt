@@ -289,5 +289,39 @@
 				type: "checkmark"
 			}]
 		}
+		{
+			title: "{quest.twr.7627D80D3091F54C.title}"
+			x: -6.0d
+			y: -11.0d
+			subtitle: "{quest.twr.7627D80D3091F54C.subtitle}"
+			description: [
+				"{quest.twr.7627D80D3091F54C.description.1}"
+				"{quest.twr.7627D80D3091F54C.description.2}"
+				"{quest.twr.7627D80D3091F54C.description.3}"
+				"{quest.twr.7627D80D3091F54C.description.4}"
+				"{quest.twr.7627D80D3091F54C.description.5}"
+				"{quest.twr.7627D80D3091F54C.description.6}"
+				"{quest.twr.7627D80D3091F54C.description.7}"
+				"{quest.twr.7627D80D3091F54C.description.8}"
+				"{quest.twr.7627D80D3091F54C.description.9}"
+				"{quest.twr.7627D80D3091F54C.description.10}"
+				"{quest.twr.7627D80D3091F54C.description.11}"
+				"{quest.twr.7627D80D3091F54C.description.12}"
+				"{quest.twr.7627D80D3091F54C.description.13}"
+			]
+			dependencies: ["3EF706F5A31CDDD6"]
+			size: 1.5d
+			id: "7627D80D3091F54C"
+			tasks: [{
+				id: "6414963E6FF9F5AF"
+				type: "item"
+				item: "frostedheart:sauna_vent"
+			}]
+			rewards: [{
+				id: "10BFAA3DDA2E2F5D"
+				type: "item"
+				item: "minecraft:sugar_cane"
+			}]
+		}
 	]
 }

@@ -703,20 +703,27 @@
 			dependencies: ["36960F1D7CDC8B30"]
 			hide: true
 			id: "04DC32D417FA819E"
-			tasks: [{
-				id: "425DFBB0A9795761"
-				type: "item"
-				item: {
-					id: "watersource:wooden_cup_drink"
-					Count: 1b
-					tag: {
-						Fluid: {
-							FluidName: "watersource:purified_water"
-							Amount: 250
+			tasks: [
+				{
+					id: "425DFBB0A9795761"
+					type: "item"
+					item: {
+						id: "watersource:wooden_cup_drink"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "watersource:purified_water"
+								Amount: 250
+							}
 						}
 					}
 				}
-			}]
+				{
+					id: "7910A9F1725CA178"
+					type: "item"
+					item: "watersource:wooden_cup"
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -1076,6 +1083,29 @@
 						type: "thermopolium:seaweed_soup"
 					}
 				}
+				count: 4
+			}]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			subtitle: "{quest.twr.6E83E2133A978D34.subtitle}"
+			description: [
+				"{quest.twr.6E83E2133A978D34.description.1}"
+				"{quest.twr.6E83E2133A978D34.description.2}"
+			]
+			dependencies: ["5DD231E4178E830D"]
+			hide: true
+			id: "6E83E2133A978D34"
+			tasks: [{
+				id: "087679BD11ADFB69"
+				type: "item"
+				item: "comforts:sleeping_bag_brown"
+			}]
+			rewards: [{
+				id: "3FCC2D2BE95727D1"
+				type: "item"
+				item: "minecraft:oak_log"
 				count: 4
 			}]
 		}

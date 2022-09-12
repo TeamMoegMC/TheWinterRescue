@@ -12,14 +12,13 @@
 		{
 			title: "{quest.twr.5D52744D5382A6CA.title}"
 			icon: "immersiveengineering:ingot_aluminum"
-			x: 0.0d
-			y: 0.5d
+			x: 3.0d
+			y: -5.0d
 			shape: "gear"
 			subtitle: "{quest.twr.5D52744D5382A6CA.subtitle}"
 			description: ["{quest.twr.5D52744D5382A6CA.description.1}"]
 			dependencies: ["5808CFED17AE91D4"]
 			hide: true
-			size: 1.2d
 			id: "5D52744D5382A6CA"
 			tasks: [
 				{
@@ -56,8 +55,8 @@
 		}
 		{
 			title: "{quest.twr.4138E3A9915F811C.title}"
-			x: -2.5d
-			y: 0.5d
+			x: 4.5d
+			y: -5.0d
 			subtitle: "{quest.twr.4138E3A9915F811C.subtitle}"
 			description: [
 				"{quest.twr.4138E3A9915F811C.description.1}"
@@ -74,8 +73,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -1.5d
+			x: 1.5d
+			y: -5.0d
 			subtitle: "{quest.twr.5808CFED17AE91D4.subtitle}"
 			description: ["{quest.twr.5808CFED17AE91D4.description.1}"]
 			dependencies: ["4785733C81711840"]
@@ -89,7 +88,7 @@
 		{
 			title: "{quest.twr.0019852CD6EC0354.title}"
 			icon: "immersiveengineering:ingot_steel"
-			x: 0.0d
+			x: -1.5d
 			y: -5.0d
 			shape: "gear"
 			subtitle: "{quest.twr.0019852CD6EC0354.subtitle}"
@@ -124,8 +123,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -6.0d
+			x: -1.5d
+			y: -3.5d
 			dependencies: ["0019852CD6EC0354"]
 			id: "6927FCD3D4A96E1C"
 			tasks: [{
@@ -135,8 +134,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -5.0d
+			x: -3.0d
+			y: -6.5d
 			dependencies: ["0019852CD6EC0354"]
 			id: "07D09F067CE6B708"
 			tasks: [{
@@ -146,9 +145,9 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -4.0d
-			dependencies: ["07D09F067CE6B708"]
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["0019852CD6EC0354"]
 			id: "4DE01CED0E30AD08"
 			tasks: [{
 				id: "0A23FB35CA0CBF1D"
@@ -157,8 +156,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -5.0d
+			x: -3.0d
+			y: -3.5d
 			dependencies: ["0019852CD6EC0354"]
 			id: "2516E94BD07F34E5"
 			tasks: [
@@ -177,8 +176,8 @@
 		{
 			title: "{quest.twr.66A550B05F529CD5.title}"
 			icon: "immersiveindustry:steam_turbine"
-			x: -4.5d
-			y: 0.5d
+			x: 6.0d
+			y: -3.5d
 			subtitle: "{quest.twr.66A550B05F529CD5.subtitle}"
 			description: [
 				"{quest.twr.66A550B05F529CD5.description.1}"
@@ -194,7 +193,7 @@
 		}
 		{
 			x: 0.0d
-			y: -3.5d
+			y: -5.0d
 			subtitle: "{quest.twr.4785733C81711840.subtitle}"
 			description: [
 				"{quest.twr.4785733C81711840.description.1}"
@@ -214,7 +213,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -1.5d
 			y: -6.5d
 			dependencies: ["0019852CD6EC0354"]
 			id: "104E63CD1BF438BC"
@@ -225,14 +224,14 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.5d
+			x: 6.0d
+			y: -6.5d
 			subtitle: "{quest.twr.6EC18F90620F0A48.subtitle}"
 			description: [
 				"{quest.twr.6EC18F90620F0A48.description.1}"
 				"{quest.twr.6EC18F90620F0A48.description.1}"
 			]
-			dependencies: ["5D52744D5382A6CA"]
+			dependencies: ["4138E3A9915F811C"]
 			hide: true
 			id: "6EC18F90620F0A48"
 			tasks: [{
@@ -244,8 +243,8 @@
 		{
 			title: "{quest.twr.45FBD9AC4E48BF09.title}"
 			icon: "immersiveindustry:industrial_electrolyzer"
-			x: -6.5d
-			y: -1.5d
+			x: 4.5d
+			y: -8.0d
 			subtitle: "{quest.twr.45FBD9AC4E48BF09.subtitle}"
 			description: [
 				"{quest.twr.45FBD9AC4E48BF09.description.1}"
@@ -268,8 +267,8 @@
 		{
 			title: "{block.immersiveengineering.metal_press}"
 			icon: "immersiveengineering:metal_press"
-			x: -4.5d
-			y: -1.5d
+			x: 4.5d
+			y: -6.5d
 			subtitle: "{quest.twr.18D8751ED2B62FF2.subtitle}"
 			description: [
 				"{quest.twr.18D8751ED2B62FF2.description.1}"
@@ -294,8 +293,8 @@
 		{
 			title: "{quest.twr.0430A33A91D78414.title}"
 			icon: "immersiveindustry:rotary_kiln"
-			x: -4.5d
-			y: 2.5d
+			x: 4.5d
+			y: -3.5d
 			subtitle: "{quest.twr.0430A33A91D78414.subtitle}"
 			description: [
 				"{quest.twr.0430A33A91D78414.description.1}"
@@ -313,8 +312,8 @@
 		}
 		{
 			title: "{quest.twr.144F3D2FC5F7F034.title}"
-			x: -2.5d
-			y: 2.5d
+			x: 4.5d
+			y: -2.0d
 			subtitle: "{quest.twr.144F3D2FC5F7F034.subtitle}"
 			description: [
 				"{quest.twr.144F3D2FC5F7F034.description.1}"

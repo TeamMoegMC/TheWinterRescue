@@ -261,10 +261,6 @@ onEvent('recipes', (event) => {
 		shapedRecipe('charcoal_pit:coal_pile', ['AAA', 'A A', 'AAA'], {
         A: Item.of('minecraft:coal').toJson()
         }),
-		shapedRecipe('comforts:sleeping_bag_white', ['BBB', 'A A', 'BBB'], {
-            A: 'immersiveengineering:wire_copper',
-            B: '#forge:leather'
-        }),
         shapedRecipe('frostedheart:oil_burner', ['A A', 'AAA', 'BBB'], {
                     A: '#forge:plates/copper',
                     B: 'minecraft:stone_bricks'
@@ -311,6 +307,12 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: '#forge:plates/copper',
 			D: 'minecraft:bucket'
+        }),
+        shapedRecipe('frostedheart:sauna_vent', ['DBD', 'BCB', 'AAA'], {
+            A: 'immersiveengineering:treated_wood_horizontal',
+            B: 'kubejs:invar_steel_plate',
+			C: 'minecraft:bucket',
+            D: 'rankine:invar_bars'
         }),
 		shapedRecipe('frostedheart:advanced_thermos', ['ABA', 'CBC', 'CBC'], {
             A: '#forge:plates/iron',
