@@ -308,6 +308,10 @@
 				"{quest.twr.7627D80D3091F54C.description.11}"
 				"{quest.twr.7627D80D3091F54C.description.12}"
 				"{quest.twr.7627D80D3091F54C.description.13}"
+				"{quest.twr.7627D80D3091F54C.description.14}"
+				"{quest.twr.7627D80D3091F54C.description.15}"
+				"{quest.twr.7627D80D3091F54C.description.16}"
+				"{quest.twr.7627D80D3091F54C.description.17}"
 			]
 			dependencies: ["3EF706F5A31CDDD6"]
 			size: 1.5d

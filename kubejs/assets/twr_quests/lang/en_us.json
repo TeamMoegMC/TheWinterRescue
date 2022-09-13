@@ -1006,5 +1006,9 @@
   "quest.twr.6496F756C2514C7A.description.2": "Put them into drawing desk and inspire to get knowledge. &e&lKnowledge can be used to write paper instead of inspiration&r, but you may need a lot of them.",
   "quest.twr.6496F756C2514C7A.description.1": "You may find old broken electronic device in ruins or human settlements. They are broken and can no longer use. But their excellent design may inspire you.",
   "quest.twr.6496F756C2514C7A.title": "Electronic Waste",
-  "quest.twr.6496F756C2514C7A.6CC4B72975823D53.title": "Any broken electronic device"
+  "quest.twr.6496F756C2514C7A.6CC4B72975823D53.title": "Any broken electronic device",
+  "quest.twr.7627D80D3091F54C.description.16": "",
+  "quest.twr.7627D80D3091F54C.description.15": "You must completely undress yourself before entering the Sauna, otherwise you won't get any effects.",
+  "quest.twr.7627D80D3091F54C.description.14": "",
+  "quest.twr.7627D80D3091F54C.description.17": "Connect the Sauna Vent to a heat network powered by the Generator to make it work."
 }
