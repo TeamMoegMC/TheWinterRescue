@@ -71,10 +71,6 @@ onEvent('recipes', (event) => {
             B: Item.of('charcoal_pit:sandy_brick_item').toJson(),
             C: Ingredient.of('#forge:plates/copper').toJson()
         }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('immersiveengineering:alloybrick', 2), ['BA', 'AB'], {
-            A: Item.of('minecraft:brick').toJson(),
-            B: Ingredient.of('#forge:plates/copper').toJson()
-        }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('charcoal_pit:bellows'), ['ABA', 'CCC', 'ABA'], {
             A: Item.of('immersiveengineering:treated_wood_horizontal').toJson(),
             B: Item.of('immersiveengineering:slab_treated_wood_horizontal').toJson(),

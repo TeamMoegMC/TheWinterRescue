@@ -52,4 +52,5 @@ onEvent('block.tags', (event) => {
 	event.add('kubejs:snowy_leaves', snowyLeaveBlocks)
 	event.add('kubejs:rankine_leaves',rankineLeaveBlocks)
 	event.add('forge:ores', 'rankine:pyrite_ore')
+	event.add('forge:dirt', 'primalwinter:snowy_dirt')
 });
