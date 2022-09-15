@@ -71,10 +71,6 @@ onEvent('recipes', (event) => {
             B: Item.of('charcoal_pit:sandy_brick_item').toJson(),
             C: Ingredient.of('#forge:plates/copper').toJson()
         }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('immersiveengineering:alloybrick', 2), ['BA', 'AB'], {
-            A: Item.of('minecraft:brick').toJson(),
-            B: Ingredient.of('#forge:plates/copper').toJson()
-        }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('charcoal_pit:bellows'), ['ABA', 'CCC', 'ABA'], {
             A: Item.of('immersiveengineering:treated_wood_horizontal').toJson(),
             B: Item.of('immersiveengineering:slab_treated_wood_horizontal').toJson(),
@@ -108,7 +104,7 @@ onEvent('recipes', (event) => {
             B: Item.of('rankine:rope').toJson(),
             C: Item.of('minecraft:stick').toJson()
         }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('charcoal_pit:clay_pot'), ['AAA', 'A A', 'AAA'], {
+        flint_shapedRecipe(Item.of('2x charcoal_pit:clay_pot'), ['AAA', 'A A', 'AAA'], {
             A: Item.of('minecraft:clay_ball').toJson()
         }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('charcoal_pit:barrel'), ['AAA', 'A A', 'AAA'], {
@@ -135,6 +131,11 @@ onEvent('recipes', (event) => {
         }, Ingredient.of('#forge:hammers')),
         flint_shapedRecipe(Item.of('immersiveengineering:hammer'), [' AC', ' BA', 'B  '], {
             A: Ingredient.of('#forge:ingots/copper').toJson(),
+            B: Ingredient.of('#forge:rods/wooden').toJson(),
+            C: Item.of('stone_age:leather_strip').toJson()
+        }, Item.of('stone_age:flint_knife')),
+        flint_shapedRecipe(Item.of('immersiveengineering:hammer'), [' AC', ' BA', 'B  '], {
+            A: Ingredient.of('#forge:ingots/bronze').toJson(),
             B: Ingredient.of('#forge:rods/wooden').toJson(),
             C: Item.of('stone_age:leather_strip').toJson()
         }, Item.of('stone_age:flint_knife')),
@@ -260,7 +261,7 @@ onEvent('recipes', (event) => {
             A: Item.of('charcoal_pit:straw').toJson(),
             B: Item.of('rankine:rope').toJson()
         }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('kubejs:clay_bucket'), ['A A', 'A A', 'AAA'], {
+		flint_shapedRecipe(Item.of('kubejs:clay_bucket'), ['A A', ' A ', '   '], {
             A: Item.of('minecraft:clay_ball').toJson()
         }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('frostedheart:hay_boots'), ['ABA', 'ABA'], {
@@ -276,7 +277,11 @@ onEvent('recipes', (event) => {
             A: Item.of('stone_age:leather_strip').toJson(),
             B: Ingredient.of('#forge:leather').toJson(),
             C: Item.of('frostedheart:straw_lining').toJson()
-        }, Item.of('stone_age:flint_knife'))
+        }, Item.of('stone_age:flint_knife')),
+        flint_shapedRecipe(Item.of('immersiveengineering:alloybrick', 2), ['BA', 'AB'], {
+            A: Item.of('minecraft:brick').toJson(),
+            B: Ingredient.of('#forge:plates/bronze').toJson()
+        }, Item.of('stone_age:flint_knife')),
     ]
     const only_flint_recipes = [
         flint_shapedRecipe(Item.of('minecraft:stone_bricks', 5), ['ABA', 'BAB', 'ABA'], {

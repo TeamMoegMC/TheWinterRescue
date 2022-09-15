@@ -1109,5 +1109,31 @@
 				count: 4
 			}]
 		}
+		{
+			title: "{quest.twr.601652521AB22ED5.title}"
+			x: 9.0d
+			y: 3.0d
+			subtitle: "{quest.twr.601652521AB22ED5.subtitle}"
+			description: [
+				"{quest.twr.601652521AB22ED5.description.1}"
+				"{quest.twr.601652521AB22ED5.description.2}"
+				"{quest.twr.601652521AB22ED5.description.3}"
+				"{quest.twr.601652521AB22ED5.description.4}"
+			]
+			dependencies: ["45E2EF843333B846"]
+			id: "601652521AB22ED5"
+			tasks: [{
+				id: "0FB405721BB51185"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16L
+			}]
+			rewards: [{
+				id: "78AB41310C63106D"
+				type: "item"
+				item: "kubejs:coal_briquette"
+				count: 4
+			}]
+		}
 	]
 }
