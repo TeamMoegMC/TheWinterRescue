@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": {
     "type": "item",
     "item": {
@@ -9,7 +15,7 @@
   },
   "category": "frostedheart:living",
   "parents": [
-    "lining_upgrade"
+    "crucible"
   ],
   "clues": [
     {
@@ -54,12 +60,6 @@
       "item": "frostedheart:wool_boots"
     }
   ],
-  "points": 1000,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
+  "points": 1500,
   "showAltDesc": true
 }

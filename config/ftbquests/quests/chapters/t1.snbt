@@ -26,9 +26,8 @@
 			]
 			dependencies: [
 				"1837531DB19C9023"
-				"6B7D4F59C921C1FC"
-				"3B7B7A0BC0CF3CE0"
 				"36960F1D7CDC8B30"
+				"29C8077E15E6C418"
 			]
 			id: "4BD8236FEEBD7D3A"
 			tasks: [{
