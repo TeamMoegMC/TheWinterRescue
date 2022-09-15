@@ -312,6 +312,7 @@
 		}
 		{
 			title: "{quest.twr.144F3D2FC5F7F034.title}"
+			icon: "immersiveindustry:car_kiln"
 			x: 4.5d
 			y: -2.0d
 			subtitle: "{quest.twr.144F3D2FC5F7F034.subtitle}"
