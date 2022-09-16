@@ -105,7 +105,7 @@
   "research.frostedheart.heating_vest.desc_alt.0": "有没有什么办法能抵御真正的严寒呢？呃……把蒸汽穿在身上？",
   "research.frostedheart.heating_vest.name": "加热背心",
   "research.frostedheart.industrial_electrolyzer.desc.0": "有了石墨电极，我们就可以制造工业级电解器了。",
-  "research.frostedheart.industrial_electrolyzer.desc_alt.0": "石墨是一种良好的导电材料，也许可以改进我们的电解器。",
+  "research.frostedheart.industrial_electrolyzer.desc_alt.0": "石墨是一种优良的电极材料：在水基环境里基本上是惰性的，导电性也不错。我可以用它来改进电解器。",
   "research.frostedheart.industrial_electrolyzer.name": "导电材料突破",
   "research.frostedheart.iron.desc.0": "我设计了一种拥有狭长的柱状炉膛的设备。矿物和木炭一层层交替从炉顶加入，细长的炉膛允许热空气在上升过程中持续被途中阴燃的木炭所加热，达到非常高的温度；烧完的木炭会自动落入炉底的灰箱，铁水也可以从中下部的出口导出，我只需要一直从顶部加料就能实现持续生产。现在我终于有一种步入工业时代的感觉了，走路都更硬气了。",
   "research.frostedheart.iron.desc_alt.0": "我记得如果想要将铁从它的氧化物中提取出来，需要还原剂和高温——非常高的高温。原来埋坑烧柴的办法不够用了，因为这样每次加料和出料都要等温度降下来之后才能进行，下一轮生产又需要费老大劲儿把温度烧上来。我需要设计一个巧妙的装置，既能达到所需的高温，又能一边烧一边加料",
