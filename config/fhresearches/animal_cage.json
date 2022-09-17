@@ -24,6 +24,7 @@
       "type": "game",
       "value": 0.5,
       "id": "8ddb982329754dfb",
+      "required": true,
       "level": 1
     },
     {

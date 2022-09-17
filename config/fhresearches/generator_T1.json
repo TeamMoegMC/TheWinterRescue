@@ -17,6 +17,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "e5cfcad4fa304b47",
+      "required": true,
       "level": 0
     },
     {
@@ -60,8 +61,8 @@
       ]
     },
     {
-      "name": "@",
       "type": "multiblock",
+      "name": "@",
       "tooltip": [
         "@",
         "@"

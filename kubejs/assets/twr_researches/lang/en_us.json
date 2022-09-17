@@ -202,5 +202,7 @@
   "research.frostedheart.wool_lining.name": "Wool Lining",
   "research.frostedheart.workbench.desc.0": "Finally I've got the crafting table! Now I can make doors, chests, and so much more! The possibilities are endless!",
   "research.frostedheart.workbench.desc_alt.0": "Today is probably a great day: I got iron and better planks---so, under the cold temperature the workbench should not break anymore. So start now!",
-  "research.frostedheart.workbench.name": "Crafting Techniques"
+  "research.frostedheart.workbench.name": "Crafting Techniques",
+  "clue.frostedheart.split_block.clue.1_5612d1fa13a74a38.desc": "Any hammer",
+  "clue.frostedheart.storage_drawers.clue.0_abc01458e013403c.desc": "Any drawer"
 }

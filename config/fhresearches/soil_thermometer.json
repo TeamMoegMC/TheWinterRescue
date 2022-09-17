@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "frostedheart:soil_thermometer",
   "category": "frostedheart:living",
   "parents": [
@@ -32,11 +38,5 @@
     }
   ],
   "points": 1000,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

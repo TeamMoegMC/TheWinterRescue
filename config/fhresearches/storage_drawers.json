@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": {
     "type": "combined",
     "base": "minecraft:chest",
@@ -13,6 +19,7 @@
     {
       "type": "item",
       "name": "@clue.frostedheart.item",
+      "desc": "@",
       "value": 0.5,
       "id": "abc01458e013403c",
       "item": {
@@ -40,11 +47,5 @@
     }
   ],
   "points": 1500,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

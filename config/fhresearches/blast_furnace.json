@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "immersiveengineering:blast_furnace",
   "category": "frostedheart:production",
   "parents": [
@@ -11,6 +17,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "7b0380fa39924e97",
+      "required": true,
       "level": 0
     },
     {
@@ -53,11 +60,5 @@
     }
   ],
   "points": 1500,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

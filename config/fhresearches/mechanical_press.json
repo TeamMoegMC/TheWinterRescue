@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "immersiveengineering:plate_constantan",
   "category": "frostedheart:production",
   "parents": [
@@ -11,6 +17,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "28ab353d187e4c53",
+      "required": true,
       "level": 1
     },
     {
@@ -32,11 +39,5 @@
     }
   ],
   "points": 1750,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

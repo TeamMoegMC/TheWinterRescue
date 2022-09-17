@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "create:precision_mechanism",
   "category": "frostedheart:production",
   "parents": [
@@ -11,6 +17,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "a21aedfe36fc498c",
+      "required": true,
       "level": 1
     },
     {
@@ -55,11 +62,5 @@
     }
   ],
   "points": 1000,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

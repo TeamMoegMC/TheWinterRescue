@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "rankine:beehive_oven_pit",
   "category": "frostedheart:production",
   "parents": [
@@ -11,6 +17,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "78b7a83e73604773",
+      "required": true,
       "level": 1
     },
     {
@@ -48,11 +55,5 @@
     }
   ],
   "points": 1500,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

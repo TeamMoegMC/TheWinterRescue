@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "frostedheart:mechanical_calculator",
   "category": "frostedheart:ars",
   "parents": [
@@ -13,6 +19,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.25,
       "id": "cb966495bd5f4efe",
+      "required": true,
       "level": 0
     },
     {
@@ -20,6 +27,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.25,
       "id": "a45806f695af494c",
+      "required": true,
       "level": 0
     },
     {
@@ -67,11 +75,5 @@
     }
   ],
   "points": 2000,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

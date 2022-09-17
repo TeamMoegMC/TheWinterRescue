@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "minecraft:iron_ingot",
   "category": "frostedheart:production",
   "parents": [
@@ -11,6 +17,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "9a1f4df2a1f44142",
+      "required": true,
       "level": 0
     },
     {
@@ -45,11 +52,5 @@
     }
   ],
   "points": 1000,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

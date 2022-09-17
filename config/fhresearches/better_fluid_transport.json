@@ -17,6 +17,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.4,
       "id": "350827af7cbd4bcd",
+      "required": true,
       "level": 1
     }
   ],

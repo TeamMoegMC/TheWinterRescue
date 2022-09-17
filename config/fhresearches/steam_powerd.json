@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": {
     "type": "item",
     "item": {
@@ -19,6 +25,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "f3dceb073ccd440f",
+      "required": true,
       "level": 1
     },
     {
@@ -83,11 +90,5 @@
     }
   ],
   "points": 1750,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }
