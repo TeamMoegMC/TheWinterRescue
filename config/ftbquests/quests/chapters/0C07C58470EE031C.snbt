@@ -394,6 +394,37 @@
 					Count: 1b
 					tag: {
 						type: "thermopolium:egg_drop_soup"
+						soup: {
+							effects: [{
+								Ambient: 0b
+								CurativeItems: [{
+									id: "minecraft:milk_bucket"
+									Count: 1b
+								}]
+								ShowIcon: 1b
+								ShowParticles: 1b
+								Duration: 900
+								Id: 1b
+								Amplifier: 0b
+							}]
+							feffects: [ ]
+							sat: 2.72f
+							heal: 5
+							items: [
+								{
+									id: "minecraft:porkchop"
+									Count: 1b
+									th_countf: 0.25f
+								}
+								{
+									id: "minecraft:egg"
+									Count: 1b
+									th_countf: 1.0f
+								}
+							]
+							base: "thermopolium:nail_soup"
+							afluid: 0.25f
+						}
 					}
 				}
 			}]
@@ -666,6 +697,42 @@
 						Count: 1b
 						tag: {
 							type: "thermopolium:stracciatella"
+							soup: {
+								effects: [{
+									Ambient: 0b
+									CurativeItems: [{
+										id: "minecraft:milk_bucket"
+										Count: 1b
+									}]
+									ShowIcon: 1b
+									ShowParticles: 1b
+									Duration: 675
+									Id: 1b
+									Amplifier: 0b
+								}]
+								feffects: [ ]
+								sat: 2.525f
+								heal: 5
+								items: [
+									{
+										id: "minecraft:porkchop"
+										Count: 1b
+										th_countf: 0.0625f
+									}
+									{
+										id: "minecraft:egg"
+										Count: 1b
+										th_countf: 1.0f
+									}
+									{
+										id: "rankine:asparagus"
+										Count: 1b
+										th_countf: 0.5625f
+									}
+								]
+								base: "thermopolium:nail_soup"
+								afluid: 0.25f
+							}
 						}
 					}
 				}
@@ -1081,6 +1148,37 @@
 					Count: 1b
 					tag: {
 						type: "thermopolium:seaweed_soup"
+						soup: {
+							effects: [{
+								Ambient: 0b
+								CurativeItems: [{
+									id: "minecraft:milk_bucket"
+									Count: 1b
+								}]
+								ShowIcon: 1b
+								ShowParticles: 1b
+								Duration: 900
+								Id: 13b
+								Amplifier: 0b
+							}]
+							feffects: [ ]
+							sat: 0.7f
+							heal: 4
+							items: [
+								{
+									id: "minecraft:kelp"
+									Count: 1b
+									th_countf: 1.75f
+								}
+								{
+									id: "minecraft:porkchop"
+									Count: 1b
+									th_countf: 0.25f
+								}
+							]
+							base: "thermopolium:nail_soup"
+							afluid: 0.25f
+						}
 					}
 				}
 				count: 4

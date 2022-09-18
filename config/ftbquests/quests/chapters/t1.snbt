@@ -879,6 +879,42 @@
 						Count: 1b
 						tag: {
 							type: "thermopolium:goji_tongsui"
+							soup: {
+								effects: [{
+									Ambient: 0b
+									CurativeItems: [{
+										id: "minecraft:milk_bucket"
+										Count: 1b
+									}]
+									ShowIcon: 1b
+									ShowParticles: 1b
+									Duration: 225
+									Id: 10b
+									Amplifier: 0b
+								}]
+								feffects: [ ]
+								sat: 0.7f
+								heal: 2
+								items: [
+									{
+										id: "minecraft:sugar_cane"
+										Count: 1b
+										th_countf: 0.75f
+									}
+									{
+										id: "minecraft:honey_bottle"
+										Count: 1b
+										th_countf: 0.25f
+									}
+									{
+										id: "frostedheart:wolfberries"
+										Count: 1b
+										th_countf: 0.5f
+									}
+								]
+								base: "thermopolium:nail_soup"
+								afluid: 0.25f
+							}
 						}
 					}
 				}

@@ -301,9 +301,7 @@
 				item: {
 					id: "thermopolium:mushroom_soup"
 					Count: 1b
-					tag: {
-						type: "thermopolium:mushroom_soup"
-					}
+					tag: { }
 				}
 			}]
 			rewards: [
@@ -392,11 +390,9 @@
 			description: [
 				"{quest.twr.516392D8FE0C7E91.description.1}"
 				"{quest.twr.516392D8FE0C7E91.description.2}"
+				"{quest.twr.516392D8FE0C7E91.description.3}"
 			]
-			dependencies: [
-				"328D948C4C800873"
-				"11A33F924E78C874"
-			]
+			dependencies: ["11A33F924E78C874"]
 			hide: true
 			id: "516392D8FE0C7E91"
 			tasks: [{
