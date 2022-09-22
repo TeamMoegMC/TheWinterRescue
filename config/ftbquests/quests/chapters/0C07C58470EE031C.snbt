@@ -573,7 +573,7 @@
 		}
 		{
 			x: 7.5d
-			y: 1.5d
+			y: 3.0d
 			subtitle: "{quest.twr.5D803F0865A90DE0.subtitle}"
 			description: ["{quest.twr.5D803F0865A90DE0.description.1}"]
 			dependencies: ["29BC87594650152D"]
@@ -626,8 +626,8 @@
 		{
 			title: "{quest.twr.76B2B1A3EC6D92CD.title}"
 			icon: "minecraft:charcoal"
-			x: 9.0d
-			y: -3.0d
+			x: 10.5d
+			y: -1.5d
 			subtitle: "{quest.twr.76B2B1A3EC6D92CD.subtitle}"
 			description: [
 				"{quest.twr.76B2B1A3EC6D92CD.description.1}"
@@ -659,7 +659,7 @@
 		}
 		{
 			x: 10.5d
-			y: -1.5d
+			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.36960F1D7CDC8B30.subtitle}"
 			description: [
@@ -676,6 +676,7 @@
 				"6B7D4F59C921C1FC"
 				"3B7B7A0BC0CF3CE0"
 			]
+			size: 1.2d
 			id: "36960F1D7CDC8B30"
 			tasks: [{
 				id: "2EA574C52E7D6A74"
@@ -739,8 +740,8 @@
 			]
 		}
 		{
-			x: 10.5d
-			y: -4.5d
+			x: 12.0d
+			y: 0.0d
 			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
 			description: [
 				"{quest.twr.643B93BCE91A0BB9.description.1}"
@@ -763,8 +764,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -3.0d
+			x: 12.0d
+			y: -1.5d
 			subtitle: "{quest.twr.04DC32D417FA819E.subtitle}"
 			description: ["{quest.twr.04DC32D417FA819E.description.1}"]
 			dependencies: ["36960F1D7CDC8B30"]
@@ -834,6 +835,7 @@
 				"{quest.twr.1837531DB19C9023.description.4}"
 			]
 			dependencies: ["45E2EF843333B846"]
+			size: 1.3d
 			id: "1837531DB19C9023"
 			tasks: [{
 				id: "499B968D078E2A5A"
@@ -997,8 +999,8 @@
 		}
 		{
 			title: "{quest.twr.63E5A6B843181EE1.title}"
-			x: 10.5d
-			y: 0.0d
+			x: 9.0d
+			y: -3.0d
 			subtitle: "{quest.twr.63E5A6B843181EE1.subtitle}"
 			description: [
 				"{quest.twr.63E5A6B843181EE1.description.1}"
@@ -1068,7 +1070,7 @@
 		}
 		{
 			title: "{quest.twr.29C8077E15E6C418.title}"
-			x: 7.5d
+			x: 10.5d
 			y: 3.0d
 			shape: "gear"
 			subtitle: "{quest.twr.29C8077E15E6C418.subtitle}"
@@ -1080,6 +1082,7 @@
 				"{quest.twr.29C8077E15E6C418.description.5}"
 			]
 			dependencies: ["5D803F0865A90DE0"]
+			size: 1.2d
 			id: "29C8077E15E6C418"
 			tasks: [{
 				id: "7CAEAA529B84A90D"
@@ -1111,7 +1114,7 @@
 					Damage: 0
 				}
 			}
-			x: 12.0d
+			x: 10.5d
 			y: -3.0d
 			subtitle: "{quest.twr.28F313C8E1312A2B.subtitle}"
 			description: [

@@ -437,4 +437,37 @@ onEvent("ponder.registry", event => {
 			scene.world().modifyBlock(pos, state => state.with("lit",true))
             scene.idle(40)
         })
+	event.create("the_winter_rescue:charcoal_pit", ["charcoal_pit:log_pile"])
+        .tag("the_winter_rescue:charcoal_pit")
+        .scene("basic_usage", "", "kubejs:charcoal_pit", (scene, util) => {
+            scene.showBasePlate()
+            scene.idle(20)
+
+            scene.world().showSection(util.select().layer(1), Facing.down)
+            scene.world().showSection(util.select().layer(2), Facing.down)
+            scene.addKeyframe()
+            scene.idle(40)
+			
+			scene.overlay().showControls(new PonderInput(util.vector().blockSurface(util.grid().at(2, 2, 2), Facing.down), PonderPointing.RIGHT)
+                .rightClick()
+                .withItem("charcoal_pit:fire_starter"), 40)
+			scene.addKeyframe()
+			scene.idle(20)
+
+			const pos = util.grid().at(2, 2, 2)
+			scene.world().setBlock(pos, util.getDefaultState("minecraft:fire"), true)
+			scene.world().modifyBlock(util.grid().at(2, 2, 2), state => state.with("lit", true))
+			scene.addKeyframe()
+			scene.idle(30)
+			
+			scene.world().setBlock(pos, util.getDefaultState("minecraft:dirt"), true)
+			scene.addKeyframe()
+			scene.idle(60)
+
+			scene.world().moveSection(scene.world().showIndependentSectionImmediately(util.select().fromTo(0, 4, 0, 4, 5, 4)), util.vector().of(0, -3, 0), 0)
+            scene.world().replaceBlocks(util.select().fromTo(1, 1, 1, 3, 2, 3), util.getDefaultState("minecraft:air"), false)
+            scene.addKeyframe()
+            scene.idle(40)
+        })
+    
 })

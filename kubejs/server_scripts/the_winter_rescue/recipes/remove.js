@@ -104,8 +104,8 @@ onEvent('recipes', (event) => {
 		"supplementaries:wind_vane",
 		"supplementaries:faucet",
 		"supplementaries:bomb",
-		"supplementaries:wrench"
-		
+		"crockpot:crock_pot_advanced",
+		"crockpot:crock_pot_ultimate"
     ]
     workbench.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shaped', output: Item});
