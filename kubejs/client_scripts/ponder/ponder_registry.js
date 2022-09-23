@@ -457,16 +457,20 @@ onEvent("ponder.registry", event => {
 			const pos = util.grid().at(2, 2, 2)
 			scene.world().setBlock(pos, util.getDefaultState("minecraft:fire"), true)
 			scene.world().modifyBlock(util.grid().at(2, 2, 2), state => state.with("lit", true))
-			scene.addKeyframe()
 			scene.idle(30)
 			
 			scene.world().setBlock(pos, util.getDefaultState("minecraft:dirt"), true)
+			scene.world().showSection(util.select().position(pos), Facing.down)
 			scene.addKeyframe()
 			scene.idle(60)
+			scene.world().hideSection(util.select().fromTo(1, 1, 1, 3, 2, 3), Facing.down)
+			scene.idle(20)
 
-			scene.world().moveSection(scene.world().showIndependentSectionImmediately(util.select().fromTo(0, 4, 0, 4, 5, 4)), util.vector().of(0, -3, 0), 0)
+			scene.world().moveSection(scene.world().showIndependentSection(util.select().fromTo(0, 4, 0, 4, 4, 4), Facing.down), util.vector().of(0, -3, 0), 0)
             scene.world().replaceBlocks(util.select().fromTo(1, 1, 1, 3, 2, 3), util.getDefaultState("minecraft:air"), false)
             scene.addKeyframe()
+            scene.idle(40)
+            scene.world().moveSection(scene.world().showIndependentSection(util.select().fromTo(1, 5, 1, 3, 5, 3), Facing.down), util.vector().of(0, -3, 0), 0)
             scene.idle(40)
         })
     

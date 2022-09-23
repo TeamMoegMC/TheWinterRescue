@@ -1213,7 +1213,7 @@
 		{
 			title: "{quest.twr.601652521AB22ED5.title}"
 			x: 9.0d
-			y: 3.0d
+			y: 2.5d
 			subtitle: "{quest.twr.601652521AB22ED5.subtitle}"
 			description: [
 				"{quest.twr.601652521AB22ED5.description.1}"
@@ -1222,6 +1222,7 @@
 				"{quest.twr.601652521AB22ED5.description.4}"
 			]
 			dependencies: ["45E2EF843333B846"]
+			hide: true
 			id: "601652521AB22ED5"
 			tasks: [{
 				id: "0FB405721BB51185"
