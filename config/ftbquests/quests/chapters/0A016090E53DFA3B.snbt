@@ -63,6 +63,7 @@
 			icon: "minecraft:paper"
 			x: -6.5d
 			y: -2.0d
+			shape: "gear"
 			subtitle: "{quest.twr.1938FC4AAD99137E.subtitle}"
 			description: [
 				"{quest.twr.1938FC4AAD99137E.description.1}"
@@ -90,11 +91,10 @@
 			}
 			x: -4.5d
 			y: -2.0d
-			shape: "gear"
+			shape: "square"
 			subtitle: "{quest.twr.3BBB2213C574F333.subtitle}"
 			description: ["{quest.twr.3BBB2213C574F333.description.1}"]
 			dependencies: ["1938FC4AAD99137E"]
-			size: 1.1d
 			id: "3BBB2213C574F333"
 			tasks: [
 				{
