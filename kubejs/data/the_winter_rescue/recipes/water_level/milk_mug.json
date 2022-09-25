@@ -3,6 +3,6 @@
     "ingredient": {
         "item": "frozenup:mug_of_milk"
     },
-	"waterLevel": 4,
-	"waterSaturationLevel": 6
+	"waterLevel": 8,
+	"waterSaturationLevel": 9
 }

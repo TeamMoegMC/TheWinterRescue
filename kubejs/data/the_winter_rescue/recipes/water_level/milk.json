@@ -3,6 +3,6 @@
     "ingredient": {
         "item": "minecraft:milk_bucket"
     },
-	"waterLevel": 4,
-	"waterSaturationLevel": 6
+	"waterLevel": 8,
+	"waterSaturationLevel": 9
 }

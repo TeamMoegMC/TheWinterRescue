@@ -4,6 +4,6 @@
     "item": "frostedheart:advanced_thermos"
   },
   "fluid": "minecraft:milk",
-  "waterLevel": 1,
-  "waterSaturationLevel": 1
+  "waterLevel": 2,
+  "waterSaturationLevel": 2
 }
