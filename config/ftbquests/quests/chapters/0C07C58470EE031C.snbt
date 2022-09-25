@@ -840,6 +840,7 @@
 			tasks: [{
 				id: "499B968D078E2A5A"
 				type: "item"
+				title: "任意岩石"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

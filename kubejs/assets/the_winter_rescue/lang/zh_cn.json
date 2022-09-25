@@ -57,5 +57,6 @@
 "the_winter_rescue.ponder.generator_construction_t2.usage.text_2": "从这些位置的底部输出能量",
 "the_winter_rescue.ponder.generator_construction_t2.usage.text_1": "从底部中心输入热介质",
 "the_winter_rescue.ponder.charcoal_pit.basic_usage.header": "",
-"the_winter_rescue.ponder.pottery_kiln.basic_usage.header": ""
+"the_winter_rescue.ponder.pottery_kiln.basic_usage.header": "",
+"the_winter_rescue.ponder.pottery_kiln.basic_usage.text_1": "周围方块可以是任何方块，并非一定为泥土"
 }

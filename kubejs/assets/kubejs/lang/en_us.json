@@ -194,5 +194,6 @@
   "the_winter_rescue.ponder.charcoal_pit.basic_usage.header": "",
   "the_winter_rescue.ponder.pottery_kiln.basic_usage.header": "",
   "the_winter_rescue.ponder.tag.charcoal_pit": "",
-  "the_winter_rescue.ponder.tag.charcoal_pit.description": ""
+  "the_winter_rescue.ponder.tag.charcoal_pit.description": "",
+  "the_winter_rescue.ponder.pottery_kiln.basic_usage.text_1": "Surrounding blocks can be ANY block, not just dirt."
 }
