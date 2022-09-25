@@ -1,1 +1,6 @@
 
+[diet_compat]
+	harmful_modifier = 0.6
+	#beneficial and harmful diet value modifier when cooked into soup.
+	beneficial_modifier = 1.3
+
