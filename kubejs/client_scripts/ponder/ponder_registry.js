@@ -445,7 +445,6 @@ onEvent("ponder.registry", event => {
 
             scene.world().showSection(util.select().layer(1), Facing.down)
             scene.world().showSection(util.select().layer(2), Facing.down)
-            scene.addKeyframe()
             scene.idle(30)
 			
 			scene.overlay().showControls(new PonderInput(util.vector().blockSurface(util.grid().at(2, 2, 2), Facing.down), PonderPointing.RIGHT)
