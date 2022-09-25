@@ -29,12 +29,19 @@
 				"36960F1D7CDC8B30"
 				"29C8077E15E6C418"
 			]
+			size: 1.2d
 			id: "4BD8236FEEBD7D3A"
-			tasks: [{
-				id: "30BFAF8DEF443159"
-				type: "item"
-				item: "minecraft:stone"
-			}]
+			tasks: [
+				{
+					id: "011A9EDCF3272C2E"
+					type: "checkmark"
+				}
+				{
+					id: "3951E51612CBC2CA"
+					type: "item"
+					item: "minecraft:stone"
+				}
+			]
 			rewards: [
 				{
 					id: "0BDCC5409A0391EB"
