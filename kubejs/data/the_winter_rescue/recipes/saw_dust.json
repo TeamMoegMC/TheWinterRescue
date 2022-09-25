@@ -1,0 +1,13 @@
+{
+  "type": "thermopolium:food",
+  "heal": 3,
+  "sat": 1.0,
+  "items": [
+    {
+      "item": "rankine:sawdust"
+    }
+  ],
+  "item": {
+    "item": "rankine:sawdust"
+  }
+}

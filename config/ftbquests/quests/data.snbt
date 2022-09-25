@@ -16,6 +16,6 @@
 	}
 	disable_gui: false
 	grid_scale: 0.5d
-	pause_game: false
+	pause_game: true
 	lock_message: ""
 }

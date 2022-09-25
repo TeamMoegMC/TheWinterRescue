@@ -146,6 +146,7 @@
 				"{quest.twr.215BC2E7271F1478.description.3}"
 				"{quest.twr.215BC2E7271F1478.description.4}"
 				"{quest.twr.215BC2E7271F1478.description.5}"
+				"{quest.twr.215BC2E7271F1478.description.6}"
 			]
 			dependencies: ["3B5663CF194B054C"]
 			id: "215BC2E7271F1478"
