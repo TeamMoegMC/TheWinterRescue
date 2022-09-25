@@ -53,7 +53,9 @@
 "the_winter_rescue.ponder.steel_mill.basic_usage.text_5": "冶炼原料也可以从顶上输入坩埚",
 "the_winter_rescue.ponder.steel_mill.basic_usage.text_7": "从侧面坩埚部分可以抽取产物",
 "the_winter_rescue.ponder.steel_mill.basic_usage.text_6": "可以从燃烧室的位置输入焦煤",
-  "the_winter_rescue.ponder.generator_construction_t2.usage.header": "",
-  "the_winter_rescue.ponder.generator_construction_t2.usage.text_2": "从这些位置的底部输出能量",
-  "the_winter_rescue.ponder.generator_construction_t2.usage.text_1": "从底部中心输入热介质"
+"the_winter_rescue.ponder.generator_construction_t2.usage.header": "",
+"the_winter_rescue.ponder.generator_construction_t2.usage.text_2": "从这些位置的底部输出能量",
+"the_winter_rescue.ponder.generator_construction_t2.usage.text_1": "从底部中心输入热介质",
+"the_winter_rescue.ponder.charcoal_pit.basic_usage.header": "",
+"the_winter_rescue.ponder.pottery_kiln.basic_usage.header": ""
 }

@@ -2,7 +2,7 @@
 #List of diet groups
 [[groups]]
 	color = "#aaffaa"
-	decay_multiplier = 0.1
+	decay_multiplier = 1.0
 	beneficial = true
 	name = "proteins"
 	icon = "kubejs:protein"
@@ -12,7 +12,7 @@
 
 [[groups]]
 	color = "#aaffaa"
-	decay_multiplier = 0.1
+	decay_multiplier = 1.0
 	beneficial = true
 	name = "grains"
 	icon = "kubejs:grains"
@@ -22,7 +22,7 @@
 
 [[groups]]
 	color = "#aaffaa"
-	decay_multiplier = 0.1
+	decay_multiplier = 1.0
 	beneficial = true
 	name = "plant_oil"
 	icon = "kubejs:plant_oil"
@@ -32,7 +32,7 @@
 
 [[groups]]
 	color = "#aaffaa"
-	decay_multiplier = 0.1
+	decay_multiplier = 1.0
 	beneficial = true
 	name = "vegetables"
 	icon = "kubejs:fruits_and_vegs"
@@ -42,7 +42,7 @@
 
 [[groups]]
 	color = "#ffaaaa"
-	decay_multiplier = 0.1
+	decay_multiplier = 10.0
 	beneficial = false
 	name = "sugars"
 	icon = "kubejs:diabetes_risks"
@@ -52,7 +52,7 @@
 
 [[groups]]
 	color = "#ffaaaa"
-	decay_multiplier = 0.1
+	decay_multiplier = 10.0
 	beneficial = false
 	name = "vitamin"
 	icon = "kubejs:vitamin_toxicity"

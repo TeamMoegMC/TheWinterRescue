@@ -190,5 +190,9 @@
   "the_winter_rescue.ponder.generator_construction_t2.basic_usage.text_2": "Input heat medium from bottom center",
   "the_winter_rescue.ponder.generator_construction_t2.usage.header": "",
   "the_winter_rescue.ponder.generator_construction_t2.usage.text_2": "Export energy from the bottom of these locations",
-  "the_winter_rescue.ponder.generator_construction_t2.usage.text_1": "Input heat medium from bottom center"
+  "the_winter_rescue.ponder.generator_construction_t2.usage.text_1": "Input heat medium from bottom center",
+  "the_winter_rescue.ponder.charcoal_pit.basic_usage.header": "",
+  "the_winter_rescue.ponder.pottery_kiln.basic_usage.header": "",
+  "the_winter_rescue.ponder.tag.charcoal_pit": "",
+  "the_winter_rescue.ponder.tag.charcoal_pit.description": ""
 }

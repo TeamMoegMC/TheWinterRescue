@@ -1164,7 +1164,7 @@
 		}
 		{
 			title: "{quest.twr.6A22E2D62D4719BE.title}"
-			x: 5.3999999999999995d
+			x: 5.5d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.6A22E2D62D4719BE.subtitle}"

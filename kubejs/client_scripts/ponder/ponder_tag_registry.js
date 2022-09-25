@@ -10,4 +10,5 @@ onEvent("ponder.tag.registry", event => {
 	event.create("the_winter_rescue:steam_turbine", "immersiveindustry:steam_turbine", "", "")
     // misc
 	event.create("the_winter_rescue:beehive_oven_pit", "rankine:beehive_oven_pit", "", "")
+	event.create("the_winter_rescue:charcoal_pit", "charcoal_pit:log_pile", "", "")
 })
