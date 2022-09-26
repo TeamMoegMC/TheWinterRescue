@@ -467,8 +467,11 @@ onEvent("ponder.registry", event => {
 			scene.world().hideIndependentSection(theSection, Facing.down)
 			scene.idle(20)
 
+			scene.world().setBlock(util.grid().at(2, 3, 2), util.getDefaultState("minecraft:air"), false)
+			scene.world().replaceBlocks(util.select().fromTo(1, 1, 1, 3, 1, 3), util.getDefaultState("minecraft:air"), false)
 			scene.world().moveSection(scene.world().showIndependentSection(util.select().fromTo(0, 4, 0, 4, 4, 4), Facing.down), util.vector().of(0, -3, 0), 0)
-            scene.world().replaceBlocks(util.select().fromTo(1, 1, 1, 3, 2, 3), util.getDefaultState("minecraft:air"), false)
+            scene.world().setBlocks(util.select().fromTo(1, 1, 1, 3, 1, 3), util.getDefaultState("charcoal_pit:log_pile"), false)
+            scene.world().showSection(util.select().fromTo(1, 1, 1, 3, 1, 3), Facing.down)
             scene.addKeyframe()
             scene.idle(40)
 
@@ -478,6 +481,15 @@ onEvent("ponder.registry", event => {
 			scene.idle(20)
 
             scene.world().setBlocks(util.select().fromTo(1, 2, 1, 3, 2, 3), util.getDefaultState("minecraft:fire"), false)
+            scene.world().modifyBlock(util.grid().at(2, 1, 2), state => state.with("lit", true))
+            scene.world().modifyBlock(util.grid().at(1, 1, 2), state => state.with("lit", true))
+            scene.world().modifyBlock(util.grid().at(3, 1, 2), state => state.with("lit", true))
+            scene.world().modifyBlock(util.grid().at(2, 1, 1), state => state.with("lit", true))
+            scene.world().modifyBlock(util.grid().at(1, 1, 1), state => state.with("lit", true))
+            scene.world().modifyBlock(util.grid().at(3, 1, 1), state => state.with("lit", true))
+            scene.world().modifyBlock(util.grid().at(2, 1, 3), state => state.with("lit", true))
+            scene.world().modifyBlock(util.grid().at(1, 1, 3), state => state.with("lit", true))
+            scene.world().modifyBlock(util.grid().at(3, 1, 3), state => state.with("lit", true))
 			scene.idle(40)
             
             scene.world().replaceBlocks(util.select().fromTo(1, 2, 1, 3, 2, 3), util.getDefaultState("minecraft:air"), false)

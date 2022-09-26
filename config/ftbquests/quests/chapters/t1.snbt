@@ -968,6 +968,7 @@
 		{
 			x: 7.0d
 			y: 3.0d
+			shape: "rsquare"
 			subtitle: "{quest.twr.79D38F0D4D3E5482.subtitle}"
 			description: [
 				"{quest.twr.79D38F0D4D3E5482.description.1}"
@@ -993,6 +994,7 @@
 		{
 			x: 5.5d
 			y: 3.0d
+			shape: "rsquare"
 			subtitle: "{quest.twr.5E3A878B95133DAD.subtitle}"
 			description: [
 				"{quest.twr.5E3A878B95133DAD.description.1}"
@@ -1039,6 +1041,7 @@
 		{
 			x: 5.5d
 			y: -1.5d
+			shape: "square"
 			subtitle: "{quest.twr.7887EB905BAA7BEF.subtitle}"
 			description: [
 				"{quest.twr.7887EB905BAA7BEF.description.1}"
