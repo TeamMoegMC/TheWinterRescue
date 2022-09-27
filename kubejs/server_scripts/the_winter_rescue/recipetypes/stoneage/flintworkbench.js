@@ -131,11 +131,6 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/copper'
         }, Ingredient.of('#forge:hammers')),
         flint_shapedRecipe(Item.of('immersiveengineering:hammer'), [' AC', ' BA', 'B  '], {
-            A: Ingredient.of('#forge:ingots/copper').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson(),
-            C: Item.of('stone_age:leather_strip').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('immersiveengineering:hammer'), [' AC', ' BA', 'B  '], {
             A: Ingredient.of('#forge:ingots/bronze').toJson(),
             B: Ingredient.of('#forge:rods/wooden').toJson(),
             C: Item.of('stone_age:leather_strip').toJson()

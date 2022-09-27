@@ -118,7 +118,7 @@ onEvent('item.registry', event => {
 		"anthracite_dust":2600,
 		"bituminous_coal_dust":2000,
 		"subbituminous_coal_dust":1300,
-		"lignite_dust":1000,
+		"lignite_dust":1100,
 		"coal_dust":1300,
 		"charcoal_dust":1100,
 		"limed_coal":0,
@@ -131,7 +131,7 @@ onEvent('item.registry', event => {
 		"wet_coal_briquette":1200,
 		"wet_straw_briquette":400,
 		"charcoal_briquette":1600,
-		"coal_briquette":1600,
+		"coal_briquette":1800,
 		"sawdust_briquette":1600,
 		"straw_briquette":800
 	}

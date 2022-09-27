@@ -132,7 +132,6 @@
 			icon: "minecraft:oak_sapling"
 			x: -2.0d
 			y: -1.0d
-			shape: "rsquare"
 			subtitle: "{quest.twr.543F5BC239D07C40.subtitle}"
 			description: [
 				"{quest.twr.543F5BC239D07C40.description.1}"
@@ -436,7 +435,6 @@
 			icon: "minecraft:writable_book"
 			x: -2.0d
 			y: 0.0d
-			shape: "rsquare"
 			subtitle: "{quest.twr.1B3C8681DF78AD16.subtitle}"
 			description: [
 				"{quest.twr.1B3C8681DF78AD16.description.1}"
