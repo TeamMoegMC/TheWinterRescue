@@ -617,6 +617,7 @@
 		{
 			x: 1.0d
 			y: -4.5d
+			shape: "square"
 			subtitle: "{quest.twr.66EFFD59083624BF.subtitle}"
 			description: ["{quest.twr.66EFFD59083624BF.description.1}"]
 			dependencies: ["6CF9868197215C1D"]
