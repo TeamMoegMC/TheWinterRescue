@@ -27,10 +27,6 @@ onEvent('recipes', (event) => {
             A: Ingredient.of('#minecraft:wooden_slabs').toJson(),
             B: Item.of('charcoal_pit:straw').toJson()
         }, Ingredient.of('#forge:axes')),
-        flint_shapedRecipe(Item.of('immersiveengineering:alloybrick', 2), ['BA', 'AB'], {
-            A: Item.of('minecraft:brick').toJson(),
-            B: Ingredient.of('#forge:plates/bronze').toJson()
-        }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('charcoal_pit:log_pile'), ['AAA', 'AAA', 'AAA'], {
             A: Ingredient.of('#minecraft:logs_that_burn').toJson()
         }, Ingredient.of('#forge:axes')),
@@ -57,6 +53,10 @@ onEvent('recipes', (event) => {
         }, Item.of('stone_age:flint_knife'))
     ]
     const change_recipes = [
+        flint_shapedRecipe(Item.of('immersiveengineering:alloybrick', 2), ['BA', 'AB'], {
+            A: Item.of('minecraft:brick').toJson(),
+            B: Ingredient.of('#forge:plates/bronze').toJson()
+        }, Item.of('stone_age:flint_knife')),
 		flint_shapedRecipe(Item.of('thermopolium:clay_cistern'), ['CCC', 'CSC', 'CCC'], {
             C: Ingredient.of('#forge:clay_balls').toJson(),
             S: Item.of('#forge:rods/wooden').toJson()

@@ -130,7 +130,7 @@ onEvent('item.registry', event => {
 		"creosoted_sawdust_briquette":1300,
 		"wet_coal_briquette":1200,
 		"wet_straw_briquette":400,
-		"charcoal_briquette":1600,
+		"charcoal_briquette":1800,
 		"coal_briquette":1800,
 		"sawdust_briquette":1600,
 		"straw_briquette":800
