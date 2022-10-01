@@ -241,7 +241,7 @@
 			description: [
 				"{quest.twr.2148082183BBDF76.description.1}"
 				"{quest.twr.2148082183BBDF76.description.2}"
-				"计算器&c没有界面&r。&e在开始研究后&r，&c右键&r计算器取得内部科技点。佩戴护目镜可以查看工作情况和科技点累积数量。"
+				"{quest.twr.2148082183BBDF76.description.3}"
 			]
 			dependencies: [
 				"3BBB2213C574F333"
@@ -308,18 +308,18 @@
 		{
 			x: -6.5d
 			y: -5.0d
-			subtitle: "累了困了，喝&kabcd"
+			subtitle: "{quest.twr.2ED180AF29DA4A90.subtitle}"
 			description: [
 				"{quest.twr.4F8E2D7FDA9A1D17.description.7}"
-				"沮丧状态仅是一个标志，&c&l无法被消除&r，只有当精力回复率或者总量较高时会自动消失。"
-				"某些器械或者设备可以给予有助于精力提升的buff。"
+				"{quest.twr.2ED180AF29DA4A90.description.2}"
+				"{quest.twr.2ED180AF29DA4A90.description.3}"
 			]
 			dependencies: ["4F8E2D7FDA9A1D17"]
 			id: "2ED180AF29DA4A90"
 			tasks: [{
 				id: "597C01D2306DDADF"
 				type: "checkmark"
-				title: "精力相关状态效果"
+				title: "{quest.twr.2ED180AF29DA4A90.597C01D2306DDADF.title}"
 			}]
 		}
 	]

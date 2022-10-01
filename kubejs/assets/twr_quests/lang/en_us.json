@@ -1020,5 +1020,10 @@
   "quest.twr.516392D8FE0C7E91.description.3": "Just cook your handy cooking ingredient to get great benefits. Fantastic!",
   "quest.twr.215BC2E7271F1478.description.6": "&cHarmful&r ones gain and decay faster than &abeneficial&r ones. So there's no need to avoid &charmful nutrition values&r, just keep a balanced diet would be very well.",
   "quest.twr.1837531DB19C9023.499B968D078E2A5A.title": "Any type of rock",
-  "quest.twr.11A33F924E78C874.description.4": "&dIf we are running out of food, why not just cook sawdust in the pot for food?"
+  "quest.twr.11A33F924E78C874.description.4": "&dIf we are running out of food, why not just cook sawdust in the pot for food?",
+  "quest.twr.2ED180AF29DA4A90.description.3": "Some machines or device would speed up the inspiration recover process.",
+  "quest.twr.2ED180AF29DA4A90.description.2": "Lethargic is just a status effect. &c&lIt can't be removed&r, but it would disappear when you have a nice inspiration recover rate or when you get enough inspiration.",
+  "quest.twr.2ED180AF29DA4A90.597C01D2306DDADF.title": "Inspiration related effects",
+  "quest.twr.2148082183BBDF76.description.3": "Mechanical calculator have &cNO GUI&r. &cRight click&r the calculator after starting a research to gain the points inside, but would reset any existed calculations. With goggles, you would be able to inspect its working status and stored points.",
+  "quest.twr.2ED180AF29DA4A90.subtitle": "Take &kabcds"
 }

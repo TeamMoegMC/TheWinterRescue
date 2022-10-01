@@ -1021,5 +1021,10 @@
   "quest.twr.516392D8FE0C7E91.description.3": "只需把手头的食材加水炖了，就可以获得有较高加成的食物，妙啊！",
   "quest.twr.215BC2E7271F1478.description.6": "&c有害营养&r与&a有益营养&r的补充和消耗速度并不一致，且&c有害营养&e&l下降更快&r，所以无需完全避免&c有害营养&r，只需平衡饮食即可。",
   "quest.twr.1837531DB19C9023.499B968D078E2A5A.title": "任意岩石",
-  "quest.twr.11A33F924E78C874.description.4": "&d要是实在没东西吃了，可以用锅煮锯屑，至少能吃饱。"
+  "quest.twr.11A33F924E78C874.description.4": "&d要是实在没东西吃了，可以用锅煮锯屑，至少能吃饱。",
+  "quest.twr.2ED180AF29DA4A90.description.3": "某些器械或者设备可以给予有助于精力提升的buff。",
+  "quest.twr.2ED180AF29DA4A90.description.2": "沮丧状态仅是一个标志，&c&l无法被消除&r，只有当精力回复率或者总量较高时会自动消失。",
+  "quest.twr.2ED180AF29DA4A90.597C01D2306DDADF.title": "精力相关状态效果",
+  "quest.twr.2148082183BBDF76.description.3": "计算器&c没有界面&r。&e在开始研究后&r，&c右键&r计算器取得内部科技点，但是会重置当前正在进行的运算。佩戴护目镜可以查看工作情况和科技点累积数量。",
+  "quest.twr.2ED180AF29DA4A90.subtitle": "累了困了，喝&kabcd"
 }
