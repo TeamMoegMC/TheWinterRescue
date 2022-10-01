@@ -131,7 +131,7 @@
 			title: "{quest.twr.543F5BC239D07C40.title}"
 			icon: "minecraft:oak_sapling"
 			x: -2.0d
-			y: -0.5d
+			y: -1.0d
 			subtitle: "{quest.twr.543F5BC239D07C40.subtitle}"
 			description: [
 				"{quest.twr.543F5BC239D07C40.description.1}"
@@ -228,11 +228,14 @@
 		{
 			title: "{quest.twr.7AFE32B08BB6CE6C.title}"
 			icon: "minecraft:paper"
-			x: 0.0d
+			x: -1.0d
 			y: -0.5d
 			subtitle: "{quest.twr.7AFE32B08BB6CE6C.subtitle}"
 			description: ["{quest.twr.7AFE32B08BB6CE6C.description.1}"]
-			dependencies: ["1B3C8681DF78AD16"]
+			dependencies: [
+				"1B3C8681DF78AD16"
+				"543F5BC239D07C40"
+			]
 			id: "7AFE32B08BB6CE6C"
 			tasks: [
 				{
@@ -430,15 +433,15 @@
 		{
 			title: "{quest.twr.1B3C8681DF78AD16.title}"
 			icon: "minecraft:writable_book"
-			x: -1.0d
-			y: -0.5d
+			x: -2.0d
+			y: 0.0d
 			subtitle: "{quest.twr.1B3C8681DF78AD16.subtitle}"
 			description: [
 				"{quest.twr.1B3C8681DF78AD16.description.1}"
 				"{quest.twr.1B3C8681DF78AD16.description.2}"
 				"{quest.twr.1B3C8681DF78AD16.description.3}"
 			]
-			dependencies: ["543F5BC239D07C40"]
+			dependencies: ["1CD9EB4A39925BB8"]
 			id: "1B3C8681DF78AD16"
 			tasks: [{
 				id: "74FC4561FBA9442D"

@@ -125,6 +125,7 @@
 			}
 			x: -2.5d
 			y: -2.0d
+			shape: "rsquare"
 			subtitle: "{quest.twr.1B1E71042B20A174.subtitle}"
 			description: ["{quest.twr.1B1E71042B20A174.description.1}"]
 			dependencies: ["3BBB2213C574F333"]
@@ -235,6 +236,7 @@
 		{
 			x: -2.5d
 			y: -0.5d
+			shape: "gear"
 			subtitle: "{quest.twr.2148082183BBDF76.subtitle}"
 			description: [
 				"{quest.twr.2148082183BBDF76.description.1}"
@@ -246,6 +248,7 @@
 				"3A3B51CF7F606665"
 			]
 			hide: true
+			size: 1.1d
 			id: "2148082183BBDF76"
 			tasks: [{
 				id: "508F33F5681A36B0"

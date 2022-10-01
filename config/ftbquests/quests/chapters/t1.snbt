@@ -219,6 +219,7 @@
 				"6A22E2D62D4719BE"
 			]
 			hide: true
+			size: 1.1d
 			id: "162264AE4B9EE1A9"
 			tasks: [
 				{
@@ -616,6 +617,7 @@
 		{
 			x: 1.0d
 			y: -4.5d
+			shape: "square"
 			subtitle: "{quest.twr.66EFFD59083624BF.subtitle}"
 			description: ["{quest.twr.66EFFD59083624BF.description.1}"]
 			dependencies: ["6CF9868197215C1D"]
@@ -968,6 +970,7 @@
 		{
 			x: 7.0d
 			y: 3.0d
+			shape: "rsquare"
 			subtitle: "{quest.twr.79D38F0D4D3E5482.subtitle}"
 			description: [
 				"{quest.twr.79D38F0D4D3E5482.description.1}"
@@ -993,6 +996,7 @@
 		{
 			x: 5.5d
 			y: 3.0d
+			shape: "rsquare"
 			subtitle: "{quest.twr.5E3A878B95133DAD.subtitle}"
 			description: [
 				"{quest.twr.5E3A878B95133DAD.description.1}"
@@ -1039,6 +1043,7 @@
 		{
 			x: 5.5d
 			y: -1.5d
+			shape: "square"
 			subtitle: "{quest.twr.7887EB905BAA7BEF.subtitle}"
 			description: [
 				"{quest.twr.7887EB905BAA7BEF.description.1}"
