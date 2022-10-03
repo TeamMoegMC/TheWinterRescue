@@ -204,5 +204,7 @@
   "research.frostedheart.workbench.desc_alt.0": "今天或许是个好日子：我有铁了，我有更好的木板了——这样的话，在这么寒冷的天气下合成的工作台或许不至于开裂了。那么立刻行动吧。",
   "research.frostedheart.workbench.name": "合成技艺",
   "clue.frostedheart.split_block.clue.1_5612d1fa13a74a38.desc": "任意锤子",
-  "clue.frostedheart.storage_drawers.clue.0_abc01458e013403c.desc": "任意抽屉"
+  "clue.frostedheart.storage_drawers.clue.0_abc01458e013403c.desc": "任意抽屉",
+  "effect.frostedheart.steam_powerd.effects.2_8eed770cafe84d50.0": "任意飞轮",
+  "effect.frostedheart.steam_powerd.effects.5_48ac6b57ae2145c1.0": "任意蒸汽引擎"
 }

@@ -268,8 +268,8 @@
 		}
 		{
 			icon: "steampowered:cast_iron_steam_engine"
-			x: -5.5d
-			y: 4.0d
+			x: -7.0d
+			y: 2.5d
 			subtitle: "{quest.twr.0FEC22A5C56936DC.subtitle}"
 			description: ["{quest.twr.0FEC22A5C56936DC.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
@@ -334,8 +334,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 2.5d
+			x: -7.0d
+			y: 4.0d
 			subtitle: "{quest.twr.7EDDAD2D1E2B0613.subtitle}"
 			description: ["{quest.twr.7EDDAD2D1E2B0613.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
@@ -1079,7 +1079,7 @@
 		}
 		{
 			x: -5.5d
-			y: 5.5d
+			y: 4.0d
 			description: ["{quest.twr.2F9F42B32CEDA8B6.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "2F9F42B32CEDA8B6"
@@ -1087,18 +1087,6 @@
 				id: "642066C8A0E1D945"
 				type: "item"
 				item: "create:rotation_speed_controller"
-			}]
-		}
-		{
-			x: -5.5d
-			y: 7.0d
-			dependencies: ["17F033FB5ACAACFB"]
-			hide: true
-			id: "7A518EEBDC903884"
-			tasks: [{
-				id: "34BA62FED4C7DF3F"
-				type: "item"
-				item: "frostedheart:mechanical_calculator"
 			}]
 		}
 	]

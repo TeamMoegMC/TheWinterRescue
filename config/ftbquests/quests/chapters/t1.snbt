@@ -12,7 +12,7 @@
 		{
 			title: "{quest.twr.4BD8236FEEBD7D3A.title}"
 			icon: "minecraft:stone"
-			x: -0.5d
+			x: -1.0d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.4BD8236FEEBD7D3A.subtitle}"
@@ -58,8 +58,8 @@
 		}
 		{
 			title: "{quest.twr.7E3F0C805E2BBB9F.title}"
-			x: 1.0d
-			y: 0.0d
+			x: -1.0d
+			y: 1.5d
 			shape: "square"
 			subtitle: "{quest.twr.7E3F0C805E2BBB9F.subtitle}"
 			description: [
@@ -96,8 +96,8 @@
 		{
 			title: "{quest.twr.19603323EAAFF726.title}"
 			icon: "minecraft:oak_planks"
-			x: 1.0d
-			y: 1.5d
+			x: 0.5d
+			y: 3.0d
 			subtitle: "{quest.twr.19603323EAAFF726.subtitle}"
 			description: [
 				"{quest.twr.19603323EAAFF726.description.1}"
@@ -137,8 +137,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 3.0d
+			x: 0.5d
+			y: 4.5d
 			subtitle: "{quest.twr.417AC14073DD4249.subtitle}"
 			description: ["{quest.twr.417AC14073DD4249.description.1}"]
 			dependencies: ["19603323EAAFF726"]
@@ -151,8 +151,8 @@
 		}
 		{
 			title: "{quest.twr.0A9A5166127945AB.title}"
-			x: 2.5d
-			y: -1.5d
+			x: 1.0d
+			y: 0.0d
 			shape: "square"
 			subtitle: "{quest.twr.0A9A5166127945AB.subtitle}"
 			description: [
@@ -177,7 +177,7 @@
 		}
 		{
 			title: "{quest.twr.586D66C71A378A82.title}"
-			x: 4.0d
+			x: 3.85d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.586D66C71A378A82.subtitle}"
@@ -274,8 +274,8 @@
 		}
 		{
 			title: "{quest.twr.3C4CEEBFF8DCF448.title}"
-			x: 2.5d
-			y: 0.0d
+			x: 4.0d
+			y: -1.5d
 			shape: "square"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
 			description: [
@@ -369,7 +369,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: -1.0d
 			y: -1.5d
 			shape: "square"
 			subtitle: "{quest.twr.6D92E93A0811C1FD.subtitle}"
@@ -394,7 +394,7 @@
 			}]
 		}
 		{
-			x: 11.5d
+			x: 8.0d
 			y: -4.5d
 			subtitle: "{quest.twr.29533DFBD579CA2F.subtitle}"
 			description: [
@@ -413,7 +413,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 2.5d
 			y: 3.0d
 			shape: "square"
 			subtitle: "{quest.twr.3078BCEE3E402DED.subtitle}"
@@ -436,7 +436,7 @@
 		}
 		{
 			x: 2.5d
-			y: 3.0d
+			y: 1.5d
 			subtitle: "{quest.twr.74780AAD5FDF8870.subtitle}"
 			description: ["{quest.twr.74780AAD5FDF8870.description.1}"]
 			dependencies: ["3078BCEE3E402DED"]
@@ -448,8 +448,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -3.0d
+			x: -1.0d
+			y: -4.5d
 			subtitle: "{quest.twr.6CF9868197215C1D.subtitle}"
 			description: [
 				"{quest.twr.6CF9868197215C1D.description.1}"
@@ -476,8 +476,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 3.0d
+			x: 2.5d
+			y: -3.0d
 			subtitle: "{quest.twr.35E5CE37A2F8EB90.subtitle}"
 			description: ["{quest.twr.35E5CE37A2F8EB90.description.1}"]
 			dependencies: ["74780AAD5FDF8870"]
@@ -490,8 +490,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -3.0d
+			x: 2.5d
+			y: -4.5d
 			shape: "gear"
 			subtitle: "{quest.twr.4543F3B5F937E6B0.subtitle}"
 			description: [
@@ -518,8 +518,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -4.5d
+			x: 2.5d
+			y: -5.5d
 			subtitle: "{quest.twr.77A7511048D5767B.subtitle}"
 			description: [
 				"{quest.twr.77A7511048D5767B.description.1}"
@@ -537,8 +537,8 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -3.0d
+			x: 8.0d
+			y: -8.5d
 			subtitle: "{quest.twr.1C8171C8FD1D0CD5.subtitle}"
 			description: [
 				"{quest.twr.1C8171C8FD1D0CD5.description.1}"
@@ -553,8 +553,8 @@
 			}]
 		}
 		{
-			x: 11.5d
-			y: -3.0d
+			x: 8.0d
+			y: -6.5d
 			subtitle: "{quest.twr.47F458D8E94E5367.subtitle}"
 			description: [
 				"{quest.twr.47F458D8E94E5367.description.1}"
@@ -576,8 +576,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -6.0d
+			x: 2.5d
+			y: -6.5d
 			subtitle: "{quest.twr.66505076652885B8.subtitle}"
 			description: [
 				"{quest.twr.66505076652885B8.description.1}"
@@ -594,8 +594,8 @@
 		}
 		{
 			icon: "charcoal_pit:sandy_collector"
-			x: 10.0d
-			y: -4.5d
+			x: 6.0d
+			y: -8.5d
 			subtitle: "{quest.twr.13AA30FB9CD620EB.subtitle}"
 			description: [
 				"{quest.twr.13AA30FB9CD620EB.description.1}"
@@ -603,10 +603,7 @@
 				"{quest.twr.13AA30FB9CD620EB.description.3}"
 				"{quest.twr.13AA30FB9CD620EB.description.4}"
 			]
-			dependencies: [
-				"4543F3B5F937E6B0"
-				"66EFFD59083624BF"
-			]
+			dependencies: ["66EFFD59083624BF"]
 			hide: true
 			id: "13AA30FB9CD620EB"
 			tasks: [{
@@ -616,8 +613,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -4.5d
+			x: 4.0d
+			y: -8.5d
 			shape: "square"
 			subtitle: "{quest.twr.66EFFD59083624BF.subtitle}"
 			description: ["{quest.twr.66EFFD59083624BF.description.1}"]
@@ -655,8 +652,8 @@
 		}
 		{
 			title: "{quest.twr.48C50ABC7AE7C575.title}"
-			x: 7.0d
-			y: -6.0d
+			x: 1.5d
+			y: -5.5d
 			subtitle: "{quest.twr.48C50ABC7AE7C575.subtitle}"
 			description: ["{quest.twr.48C50ABC7AE7C575.description.1}"]
 			dependencies: ["77A7511048D5767B"]
@@ -950,8 +947,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 1.5d
+			x: -1.0d
+			y: 3.0d
 			subtitle: "{quest.twr.7175C1158EE9178A.subtitle}"
 			description: ["{quest.twr.7175C1158EE9178A.description.1}"]
 			dependencies: ["7E3F0C805E2BBB9F"]
@@ -1113,7 +1110,7 @@
 		{
 			icon: "minecraft:netherrack"
 			x: -0.5d
-			y: -4.5d
+			y: -7.0d
 			subtitle: "{quest.twr.3B306015B7675BD1.subtitle}"
 			description: [
 				"{quest.twr.3B306015B7675BD1.description.1}"
@@ -1139,8 +1136,8 @@
 		{
 			title: "{block.thermopolium.stew_pot}"
 			icon: "thermopolium:stew_pot"
-			x: -2.0d
-			y: -1.5d
+			x: -2.5d
+			y: -3.0d
 			subtitle: "{quest.twr.11A33F924E78C874.subtitle}"
 			description: [
 				"{quest.twr.11A33F924E78C874.description.1}"
@@ -1195,6 +1192,25 @@
 				id: "3DBF7D165A3ACC76"
 				type: "item"
 				item: "frostedheart:drawing_desk"
+			}]
+		}
+		{
+			title: "{quest.twr.688E6165A1E9A28C.title}"
+			icon: "frostedheart:energy_core"
+			x: 4.0d
+			y: 1.5d
+			subtitle: "{quest.twr.688E6165A1E9A28C.subtitle}"
+			description: [
+				"{quest.twr.688E6165A1E9A28C.description.1}"
+				"{quest.twr.688E6165A1E9A28C.description.2}"
+				"{quest.twr.688E6165A1E9A28C.description.3}"
+				"{quest.twr.688E6165A1E9A28C.description.4}"
+			]
+			dependencies: ["6A22E2D62D4719BE"]
+			id: "688E6165A1E9A28C"
+			tasks: [{
+				id: "57A59958B75B2BF9"
+				type: "checkmark"
 			}]
 		}
 	]

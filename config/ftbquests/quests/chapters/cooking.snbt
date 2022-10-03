@@ -236,7 +236,8 @@
 			}]
 		}
 		{
-			x: 4.0d
+			title: "{quest.twr.0CA87739C86BB0C6.title}"
+			x: 5.0d
 			y: -5.0d
 			subtitle: "{quest.twr.0CA87739C86BB0C6.subtitle}"
 			description: [
@@ -250,35 +251,12 @@
 			tasks: [{
 				id: "3890274B4A2DD114"
 				type: "item"
+				title: "{quest.twr.0CA87739C86BB0C6.3890274B4A2DD114.title}"
 				item: {
-					id: "frostedheart:straw_briquette_red_mushroom"
+					id: "itemfilters:tag"
 					Count: 1b
 					tag: {
-						Damage: 4800
-					}
-				}
-			}]
-		}
-		{
-			x: 6.0d
-			y: -5.0d
-			subtitle: "{quest.twr.0B511A89E11B553A.subtitle}"
-			description: [
-				"{quest.twr.0B511A89E11B553A.description.1}"
-				"{quest.twr.0B511A89E11B553A.description.2}"
-				"{quest.twr.0B511A89E11B553A.description.3}"
-			]
-			dependencies: ["32DB7CCD0A73D98F"]
-			hide: true
-			id: "0B511A89E11B553A"
-			tasks: [{
-				id: "76AA93BE9D89864E"
-				type: "item"
-				item: {
-					id: "frostedheart:straw_briquette_brown_mushroom"
-					Count: 1b
-					tag: {
-						Damage: 4800
+						value: "frostedheart:mushroom_base"
 					}
 				}
 			}]
@@ -287,10 +265,12 @@
 			x: 5.0d
 			y: -7.0d
 			subtitle: "{quest.twr.73ADDB2F9A4F7C5D.subtitle}"
-			description: ["{quest.twr.73ADDB2F9A4F7C5D.description.1}"]
+			description: [
+				"{quest.twr.73ADDB2F9A4F7C5D.description.1}"
+				"{quest.twr.73ADDB2F9A4F7C5D.description.2}"
+			]
 			dependencies: [
 				"0CA87739C86BB0C6"
-				"0B511A89E11B553A"
 				"516392D8FE0C7E91"
 			]
 			hide: true
@@ -303,6 +283,7 @@
 					Count: 1b
 					tag: { }
 				}
+				consume_items: false
 			}]
 			rewards: [
 				{

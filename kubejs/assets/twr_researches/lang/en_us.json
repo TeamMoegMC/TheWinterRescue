@@ -204,5 +204,7 @@
   "research.frostedheart.workbench.desc_alt.0": "Today is probably a great day: I got iron and better planks---so, under the cold temperature the workbench should not break anymore. So start now!",
   "research.frostedheart.workbench.name": "Crafting Techniques",
   "clue.frostedheart.split_block.clue.1_5612d1fa13a74a38.desc": "Any hammer",
-  "clue.frostedheart.storage_drawers.clue.0_abc01458e013403c.desc": "Any drawer"
+  "clue.frostedheart.storage_drawers.clue.0_abc01458e013403c.desc": "Any drawer",
+  "effect.frostedheart.steam_powerd.effects.2_8eed770cafe84d50.0": "Any flywheel",
+  "effect.frostedheart.steam_powerd.effects.5_48ac6b57ae2145c1.0": "Any steam engine"
 }

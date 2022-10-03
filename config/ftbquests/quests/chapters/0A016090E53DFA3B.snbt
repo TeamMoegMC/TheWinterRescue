@@ -322,5 +322,26 @@
 				title: "{quest.twr.2ED180AF29DA4A90.597C01D2306DDADF.title}"
 			}]
 		}
+		{
+			title: "{quest.twr.37B4F2A2F05B5332.title}"
+			icon: "frostedheart:mechanical_calculator"
+			x: -2.5d
+			y: 1.0d
+			shape: "square"
+			subtitle: "{quest.twr.37B4F2A2F05B5332.subtitle}"
+			description: [
+				"{quest.twr.37B4F2A2F05B5332.description.1}"
+				"{quest.twr.37B4F2A2F05B5332.description.2}"
+				"{quest.twr.37B4F2A2F05B5332.description.3}"
+				"{quest.twr.37B4F2A2F05B5332.description.4}"
+				"{quest.twr.37B4F2A2F05B5332.description.5}"
+			]
+			dependencies: ["2148082183BBDF76"]
+			id: "37B4F2A2F05B5332"
+			tasks: [{
+				id: "5A776C2750943747"
+				type: "checkmark"
+			}]
+		}
 	]
 }

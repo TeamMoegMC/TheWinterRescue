@@ -19,6 +19,12 @@
       "id": "558625025aee400b",
       "required": true,
       "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.2,
+      "id": "461880d426be4c16",
+      "level": 1
     }
   ],
   "ingredients": [],

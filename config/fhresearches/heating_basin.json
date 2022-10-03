@@ -14,9 +14,7 @@
   "category": "frostedheart:production",
   "parents": [
     "mechanical_crafter",
-    "",
-    "123d345ea7242cd",
-    ""
+    "mechanical_calculator"
   ],
   "clues": [
     {
@@ -25,6 +23,12 @@
       "value": 0.75,
       "id": "dad9034ff1445e3",
       "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.2,
+      "id": "7a9c4e0b7c434689",
       "level": 1
     }
   ],

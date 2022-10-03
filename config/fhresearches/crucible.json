@@ -19,6 +19,12 @@
       "id": "b273c6897df04409",
       "required": true,
       "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.2,
+      "id": "1641155720c64541",
+      "level": 1
     }
   ],
   "ingredients": [],
@@ -35,6 +41,6 @@
       "item": "immersiveindustry:burning_chamber"
     }
   ],
-  "points": 3000,
+  "points": 5000,
   "showAltDesc": true
 }

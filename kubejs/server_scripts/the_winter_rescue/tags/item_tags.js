@@ -118,6 +118,8 @@ onEvent('item.tags', (event) => {
 	})
 	event.add('thermopolium:container','frostedheart:advanced_thermos');
 	event.add('thermopolium:container','frostedheart:thermos');
+	event.add('frostedheart:mushroom_base',"frostedheart:straw_briquette_red_mushroom")
+	event.add('frostedheart:mushroom_base',"frostedheart:straw_briquette_brown_mushroom")
 	event.add('frostedheart:electronic_junk',"kubejs:damaged_gpu")
     event.add('frostedheart:electronic_junk',"kubejs:damaged_circuit_board")
     event.add('frostedheart:electronic_junk',"kubejs:damaged_electric_motor")

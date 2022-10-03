@@ -23,6 +23,13 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.3,
       "id": "c9ab5f35c66e4d15",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.2,
+      "id": "b7dde65c53414fe1",
       "level": 1
     }
   ],

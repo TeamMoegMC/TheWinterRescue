@@ -9,15 +9,22 @@
   "icon": "immersiveengineering:wirecoil_copper",
   "category": "frostedheart:production",
   "parents": [
-    "mechanical_crafter"
+    "mechanical_crafter",
+    "mechanical_calculator"
   ],
   "clues": [
     {
       "type": "game",
       "name": "@clue.frostedheart.minigame",
-      "value": 0.75,
+      "value": 0.5,
       "id": "a5b15ed5c6ee494c",
       "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "6d73a2dec83e4cdb",
       "level": 1
     }
   ],

@@ -87,6 +87,46 @@
       "rewards": [
         "steampowered:bronze_flywheel"
       ]
+    },
+    {
+      "type": "recipe",
+      "tooltip": [
+        "@"
+      ],
+      "id": "8eed770cafe84d50",
+      "item": "steampowered:bronze_flywheel"
+    },
+    {
+      "type": "recipe",
+      "id": "b209969ec10f46c4",
+      "hidden": true,
+      "item": "steampowered:cast_iron_flywheel"
+    },
+    {
+      "type": "recipe",
+      "id": "561c41b2d3314472",
+      "hidden": true,
+      "item": "steampowered:steel_flywheel"
+    },
+    {
+      "type": "recipe",
+      "tooltip": [
+        "@"
+      ],
+      "id": "48ac6b57ae2145c1",
+      "item": "steampowered:bronze_steam_engine"
+    },
+    {
+      "type": "recipe",
+      "id": "c583350d09044465",
+      "hidden": true,
+      "item": "steampowered:cast_iron_steam_engine"
+    },
+    {
+      "type": "recipe",
+      "id": "bb416da471994df0",
+      "hidden": true,
+      "item": "steampowered:steel_steam_engine"
     }
   ],
   "points": 1750,

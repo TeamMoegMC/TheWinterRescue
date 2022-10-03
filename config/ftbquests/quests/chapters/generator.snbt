@@ -327,5 +327,28 @@
 				item: "minecraft:sugar_cane"
 			}]
 		}
+		{
+			title: "{quest.twr.743FEA6865CD1D90.title}"
+			x: -12.0d
+			y: -6.75d
+			subtitle: "{quest.twr.743FEA6865CD1D90.subtitle}"
+			description: [
+				"{quest.twr.743FEA6865CD1D90.description.1}"
+				"{quest.twr.743FEA6865CD1D90.description.2}"
+			]
+			dependencies: ["69D939596ED4C0AF"]
+			size: 1.5d
+			id: "743FEA6865CD1D90"
+			tasks: [{
+				id: "66C370B5B08D3156"
+				type: "item"
+				item: "frostedheart:frozen_seeds"
+			}]
+			rewards: [{
+				id: "674D2C504E2A20C3"
+				type: "item"
+				item: "kubejs:frozen_white_turnip"
+			}]
+		}
 	]
 }
