@@ -280,7 +280,7 @@
 				"{quest.twr.573841FD8018D4B1.description.2}"
 				"{quest.twr.573841FD8018D4B1.description.3}"
 			]
-			dependencies: ["0A9A5166127945AB"]
+			dependencies: ["586D66C71A378A82"]
 			hide: true
 			size: 2.0d
 			id: "573841FD8018D4B1"

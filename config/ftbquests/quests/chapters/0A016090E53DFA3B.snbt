@@ -39,7 +39,7 @@
 		}
 		{
 			icon: "minecraft:string"
-			x: -4.5d
+			x: -6.5d
 			y: 1.5d
 			subtitle: "{quest.twr.1DE66DB6DF406019.subtitle}"
 			description: [
@@ -216,8 +216,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 1.5d
+			x: -4.5d
+			y: 1.0d
 			subtitle: "{quest.twr.37726761B26CE51C.subtitle}"
 			description: [
 				"{quest.twr.37726761B26CE51C.description.1}"

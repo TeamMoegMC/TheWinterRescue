@@ -58,8 +58,8 @@
 		}
 		{
 			title: "{quest.twr.7E3F0C805E2BBB9F.title}"
-			x: -0.5d
-			y: 1.5d
+			x: 1.0d
+			y: 0.0d
 			shape: "square"
 			subtitle: "{quest.twr.7E3F0C805E2BBB9F.subtitle}"
 			description: [
@@ -137,8 +137,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.5d
+			x: -0.5d
+			y: 3.0d
 			subtitle: "{quest.twr.417AC14073DD4249.subtitle}"
 			description: ["{quest.twr.417AC14073DD4249.description.1}"]
 			dependencies: ["19603323EAAFF726"]
@@ -177,7 +177,7 @@
 		}
 		{
 			title: "{quest.twr.586D66C71A378A82.title}"
-			x: 2.5d
+			x: 4.0d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.586D66C71A378A82.subtitle}"
@@ -187,6 +187,7 @@
 				"7E3F0C805E2BBB9F"
 			]
 			hide: true
+			size: 1.1d
 			id: "586D66C71A378A82"
 			tasks: [{
 				id: "1FD4E3357F016517"
@@ -273,7 +274,7 @@
 		}
 		{
 			title: "{quest.twr.3C4CEEBFF8DCF448.title}"
-			x: 1.0d
+			x: 2.5d
 			y: 0.0d
 			shape: "square"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
@@ -282,7 +283,6 @@
 				"{quest.twr.3C4CEEBFF8DCF448.description.2}"
 			]
 			dependencies: ["689BB00EC2454F1F"]
-			hide: true
 			id: "3C4CEEBFF8DCF448"
 			tasks: [{
 				id: "0F08400AFE76BD5F"
@@ -319,6 +319,7 @@
 				"29533DFBD579CA2F"
 				"4CD30E566C5776E0"
 			]
+			hide: true
 			id: "13D9DE54DF8117C2"
 			tasks: [{
 				id: "1A5C62932CF1E4C8"
@@ -950,7 +951,7 @@
 		}
 		{
 			x: -0.5d
-			y: 3.0d
+			y: 1.5d
 			subtitle: "{quest.twr.7175C1158EE9178A.subtitle}"
 			description: ["{quest.twr.7175C1158EE9178A.description.1}"]
 			dependencies: ["7E3F0C805E2BBB9F"]
