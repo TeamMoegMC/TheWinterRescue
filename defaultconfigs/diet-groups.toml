@@ -42,21 +42,21 @@
 
 [[groups]]
 	color = "#ffaaaa"
-	decay_multiplier = 10.0
+	decay_multiplier = 1.5
 	beneficial = false
 	name = "sugars"
 	icon = "kubejs:diabetes_risks"
-	gain_multiplier = 0.1
+	gain_multiplier = 0.15
 	default_value = 0.5
 	order = 1
 
 [[groups]]
 	color = "#ffaaaa"
-	decay_multiplier = 10.0
+	decay_multiplier = 1.5
 	beneficial = false
 	name = "vitamin"
 	icon = "kubejs:vitamin_toxicity"
-	gain_multiplier = 0.1
+	gain_multiplier = 0.15
 	default_value = 0.5
 	order = 1
 
