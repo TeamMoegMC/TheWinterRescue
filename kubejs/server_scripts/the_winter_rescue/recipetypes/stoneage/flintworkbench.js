@@ -53,6 +53,33 @@ onEvent('recipes', (event) => {
         }, Item.of('stone_age:flint_knife'))
     ]
     const change_recipes = [
+		flint_shapedRecipe(Item.of('rankine:bronze_hammer'), ['AAC', ' BA', 'B A'], {
+            A: Ingredient.of('#forge:ingots/bronze').toJson(),
+            B: Item.of('minecraft:stick').toJson(),
+            C: Item.of('stone_age:leather_strip').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('rankine:bronze_pickaxe'), ['ACA', ' B ', ' B '], {
+            A: Item.of('rankine:bronze_ingot').toJson(),
+            B: Ingredient.of('#forge:rods/wooden').toJson(),
+            C: Ingredient.of('#forge:plates/bronze').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('rankine:bronze_axe'), ['AC', 'AB', ' B'], {
+            A: Item.of('rankine:bronze_ingot').toJson(),
+            B: Ingredient.of('#forge:rods/wooden').toJson(),
+            C: Ingredient.of('#forge:plates/bronze').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('rankine:bronze_hoe'), ['AA', ' B', ' B'], {
+            A: Item.of('rankine:bronze_ingot').toJson(),
+            B: Ingredient.of('#forge:rods/wooden').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('rankine:bronze_sword'), ['A', 'A', 'B'], {
+            A: Item.of('rankine:bronze_ingot').toJson(),
+            B: Ingredient.of('#forge:rods/wooden').toJson()
+        }, Item.of('stone_age:flint_knife')),
+		flint_shapedRecipe(Item.of('rankine:bronze_shovel'), ['A', 'B', 'B'], {
+            A: Ingredient.of('#forge:plates/bronze').toJson(),
+            B: Ingredient.of('#forge:rods/wooden').toJson()
+        }, Item.of('stone_age:flint_knife')),
         flint_shapedRecipe(Item.of('immersiveengineering:alloybrick', 2), ['BA', 'AB'], {
             A: Item.of('minecraft:brick').toJson(),
             B: Ingredient.of('#forge:plates/bronze').toJson()
@@ -291,33 +318,6 @@ onEvent('recipes', (event) => {
         }, Item.of('stone_age:flint_knife')),
 		flint_shapedRecipe(Item.of('frostedheart:coal_stick',2), ['A'], {
             A: Item.of('kubejs:coal_briquette').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_hammer'), ['AAC', ' BA', 'B A'], {
-            A: Ingredient.of('#forge:ingots/bronze').toJson(),
-            B: Item.of('minecraft:stick').toJson(),
-            C: Item.of('stone_age:leather_strip').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_pickaxe'), ['ACA', ' B ', ' B '], {
-            A: Item.of('rankine:bronze_ingot').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson(),
-            C: Ingredient.of('#forge:plates/bronze').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_axe'), ['AC', 'AB', ' B'], {
-            A: Item.of('rankine:bronze_ingot').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson(),
-            C: Ingredient.of('#forge:plates/bronze').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_hoe'), ['AA', ' B', ' B'], {
-            A: Item.of('rankine:bronze_ingot').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_sword'), ['A', 'A', 'B'], {
-            A: Item.of('rankine:bronze_ingot').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_shovel'), ['A', 'B', 'B'], {
-            A: Ingredient.of('#forge:plates/bronze').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson()
         }, Item.of('stone_age:flint_knife')),
 		flint_shapedRecipe(Item.of('rankine:flint_hoe'), ['AB', ' C', ' C'], {
             A: Item.of('minecraft:flint').toJson(),
