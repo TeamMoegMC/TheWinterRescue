@@ -49,13 +49,7 @@
 					id: "0E2B848932AC874B"
 					type: "item"
 					item: "frostedheart:rye_block"
-					count: 6
-				}
-				{
-					id: "53F5D9973B4BF63B"
-					type: "item"
-					item: "frostedheart:white_turnip_block"
-					count: 3
+					count: 5
 				}
 				{
 					id: "6CE43A2025345119"
@@ -329,8 +323,9 @@
 		}
 		{
 			title: "{quest.twr.743FEA6865CD1D90.title}"
-			x: -12.0d
+			x: -13.5d
 			y: -6.75d
+			shape: "rsquare"
 			subtitle: "{quest.twr.743FEA6865CD1D90.subtitle}"
 			description: [
 				"{quest.twr.743FEA6865CD1D90.description.1}"
@@ -348,6 +343,7 @@
 				id: "674D2C504E2A20C3"
 				type: "item"
 				item: "kubejs:frozen_white_turnip"
+				count: 4
 			}]
 		}
 	]

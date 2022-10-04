@@ -58,8 +58,8 @@
 		}
 		{
 			title: "{quest.twr.7E3F0C805E2BBB9F.title}"
-			x: -1.0d
-			y: 1.5d
+			x: 0.5d
+			y: 0.0d
 			shape: "square"
 			subtitle: "{quest.twr.7E3F0C805E2BBB9F.subtitle}"
 			description: [
@@ -97,7 +97,7 @@
 			title: "{quest.twr.19603323EAAFF726.title}"
 			icon: "minecraft:oak_planks"
 			x: 0.5d
-			y: 3.0d
+			y: 1.5d
 			subtitle: "{quest.twr.19603323EAAFF726.subtitle}"
 			description: [
 				"{quest.twr.19603323EAAFF726.description.1}"
@@ -121,7 +121,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.5d
 			y: -1.5d
 			subtitle: "{quest.twr.689BB00EC2454F1F.subtitle}"
 			description: [
@@ -137,8 +137,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 4.5d
+			x: -1.0d
+			y: 3.0d
 			subtitle: "{quest.twr.417AC14073DD4249.subtitle}"
 			description: ["{quest.twr.417AC14073DD4249.description.1}"]
 			dependencies: ["19603323EAAFF726"]
@@ -151,8 +151,8 @@
 		}
 		{
 			title: "{quest.twr.0A9A5166127945AB.title}"
-			x: 1.0d
-			y: 0.0d
+			x: 2.5d
+			y: -1.5d
 			shape: "square"
 			subtitle: "{quest.twr.0A9A5166127945AB.subtitle}"
 			description: [
@@ -274,8 +274,8 @@
 		}
 		{
 			title: "{quest.twr.3C4CEEBFF8DCF448.title}"
-			x: 4.0d
-			y: -1.5d
+			x: 2.5d
+			y: 0.0d
 			shape: "square"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
 			description: [
@@ -316,8 +316,8 @@
 				"{quest.twr.13D9DE54DF8117C2.description.6}"
 			]
 			dependencies: [
-				"29533DFBD579CA2F"
 				"4CD30E566C5776E0"
+				"47F458D8E94E5367"
 			]
 			hide: true
 			id: "13D9DE54DF8117C2"
@@ -394,17 +394,15 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 11.5d
 			y: -4.5d
 			subtitle: "{quest.twr.29533DFBD579CA2F.subtitle}"
 			description: [
 				"{quest.twr.29533DFBD579CA2F.description.1}"
 				"{quest.twr.29533DFBD579CA2F.description.2}"
 			]
-			dependencies: [
-				"47F458D8E94E5367"
-				"4625CA3FEAF6908B"
-			]
+			dependencies: ["4625CA3FEAF6908B"]
+			hide: true
 			id: "29533DFBD579CA2F"
 			tasks: [{
 				id: "1560043C1CB2DD3B"
@@ -413,7 +411,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 0.5d
 			y: 3.0d
 			shape: "square"
 			subtitle: "{quest.twr.3078BCEE3E402DED.subtitle}"
@@ -436,7 +434,7 @@
 		}
 		{
 			x: 2.5d
-			y: 1.5d
+			y: 3.0d
 			subtitle: "{quest.twr.74780AAD5FDF8870.subtitle}"
 			description: ["{quest.twr.74780AAD5FDF8870.description.1}"]
 			dependencies: ["3078BCEE3E402DED"]
@@ -519,7 +517,7 @@
 		}
 		{
 			x: 2.5d
-			y: -5.5d
+			y: -6.0d
 			subtitle: "{quest.twr.77A7511048D5767B.subtitle}"
 			description: [
 				"{quest.twr.77A7511048D5767B.description.1}"
@@ -537,8 +535,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -8.5d
+			x: 10.0d
+			y: -3.0d
 			subtitle: "{quest.twr.1C8171C8FD1D0CD5.subtitle}"
 			description: [
 				"{quest.twr.1C8171C8FD1D0CD5.description.1}"
@@ -553,15 +551,18 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -6.5d
+			x: 11.5d
+			y: -3.0d
 			subtitle: "{quest.twr.47F458D8E94E5367.subtitle}"
 			description: [
 				"{quest.twr.47F458D8E94E5367.description.1}"
 				"{quest.twr.47F458D8E94E5367.description.2}"
 				"{quest.twr.47F458D8E94E5367.description.3}"
 			]
-			dependencies: ["1C8171C8FD1D0CD5"]
+			dependencies: [
+				"1C8171C8FD1D0CD5"
+				"29533DFBD579CA2F"
+			]
 			id: "47F458D8E94E5367"
 			tasks: [{
 				id: "58333247C08A3B90"
@@ -576,7 +577,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 1.5d
 			y: -6.5d
 			subtitle: "{quest.twr.66505076652885B8.subtitle}"
 			description: [
@@ -594,8 +595,8 @@
 		}
 		{
 			icon: "charcoal_pit:sandy_collector"
-			x: 6.0d
-			y: -8.5d
+			x: 10.0d
+			y: -4.5d
 			subtitle: "{quest.twr.13AA30FB9CD620EB.subtitle}"
 			description: [
 				"{quest.twr.13AA30FB9CD620EB.description.1}"
@@ -603,7 +604,7 @@
 				"{quest.twr.13AA30FB9CD620EB.description.3}"
 				"{quest.twr.13AA30FB9CD620EB.description.4}"
 			]
-			dependencies: ["66EFFD59083624BF"]
+			dependencies: ["4625CA3FEAF6908B"]
 			hide: true
 			id: "13AA30FB9CD620EB"
 			tasks: [{
@@ -613,8 +614,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -8.5d
+			x: 0.5d
+			y: -4.5d
 			shape: "square"
 			subtitle: "{quest.twr.66EFFD59083624BF.subtitle}"
 			description: ["{quest.twr.66EFFD59083624BF.description.1}"]
@@ -627,14 +628,14 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 5.5d
 			y: -4.5d
-			shape: "gear"
+			shape: "square"
 			subtitle: "{quest.twr.4625CA3FEAF6908B.subtitle}"
 			description: ["{quest.twr.4625CA3FEAF6908B.description.1}"]
 			dependencies: [
-				"66EFFD59083624BF"
 				"4543F3B5F937E6B0"
+				"66EFFD59083624BF"
 			]
 			hide: true
 			id: "4625CA3FEAF6908B"
@@ -642,7 +643,7 @@
 				id: "3F54F0BF03485EB3"
 				type: "item"
 				item: "charcoal_pit:sandy_brick"
-				count: 4L
+				count: 2L
 			}]
 			rewards: [{
 				id: "68427BE729DBF2DC"
@@ -652,8 +653,8 @@
 		}
 		{
 			title: "{quest.twr.48C50ABC7AE7C575.title}"
-			x: 1.5d
-			y: -5.5d
+			x: 3.5d
+			y: -6.5d
 			subtitle: "{quest.twr.48C50ABC7AE7C575.subtitle}"
 			description: ["{quest.twr.48C50ABC7AE7C575.description.1}"]
 			dependencies: ["77A7511048D5767B"]
@@ -733,7 +734,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.5d
 			y: -3.0d
 			subtitle: "{quest.twr.062E137E7ECB4C99.subtitle}"
 			description: [
@@ -832,6 +833,7 @@
 				"{quest.twr.1DF200F6772308C7.description.4}"
 			]
 			dependencies: ["6A22E2D62D4719BE"]
+			size: 1.1d
 			id: "1DF200F6772308C7"
 			tasks: [{
 				id: "0ADDCCA2956B7182"
@@ -948,7 +950,7 @@
 		}
 		{
 			x: -1.0d
-			y: 3.0d
+			y: 1.5d
 			subtitle: "{quest.twr.7175C1158EE9178A.subtitle}"
 			description: ["{quest.twr.7175C1158EE9178A.description.1}"]
 			dependencies: ["7E3F0C805E2BBB9F"]
@@ -966,7 +968,7 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 6.0d
 			y: 3.0d
 			shape: "rsquare"
 			subtitle: "{quest.twr.79D38F0D4D3E5482.subtitle}"
@@ -992,7 +994,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 5.0d
 			y: 3.0d
 			shape: "rsquare"
 			subtitle: "{quest.twr.5E3A878B95133DAD.subtitle}"
@@ -1109,8 +1111,9 @@
 		}
 		{
 			icon: "minecraft:netherrack"
-			x: -0.5d
-			y: -7.0d
+			x: -1.0d
+			y: -6.0d
+			shape: "rsquare"
 			subtitle: "{quest.twr.3B306015B7675BD1.subtitle}"
 			description: [
 				"{quest.twr.3B306015B7675BD1.description.1}"
@@ -1199,6 +1202,7 @@
 			icon: "frostedheart:energy_core"
 			x: 4.0d
 			y: 1.5d
+			shape: "rsquare"
 			subtitle: "{quest.twr.688E6165A1E9A28C.subtitle}"
 			description: [
 				"{quest.twr.688E6165A1E9A28C.description.1}"

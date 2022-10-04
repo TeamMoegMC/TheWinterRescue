@@ -112,6 +112,8 @@ onEvent('item.tags', (event) => {
 	//event.add("diet:proteins","#forge:crops/corn");
 	event.add("kubejs:tetra_hammer","tetra:modular_double")
 	event.add("rankine:tree_choppers","tetra:modular_double")
+	event.add("rankine:tree_choppers","minecraft:iron_axe")
+	event.add("forge:axes","minecraft:iron_axe")
 		event.add('minecraft:shulker_box', 'minecraft:shulker_box')
 	colors.forEach(clr=>{
 		event.add('minecraft:shulker_box', 'minecraft:'+clr+'_shulker_box')
