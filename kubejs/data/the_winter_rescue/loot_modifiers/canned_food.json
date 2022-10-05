@@ -1,0 +1,8 @@
+{"type": "frostedheart:replace_loot",
+"changes":[
+
+],
+"conditions": [
+{"condition":"frostedheart:treasure"}
+]
+}

@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
 	"rankine:sawdust",
-	"immersiveengineering:dust_wood"
+	"immersiveengineering:dust_wood",
+	"frostedheart:military_rations"
   ]
 }
