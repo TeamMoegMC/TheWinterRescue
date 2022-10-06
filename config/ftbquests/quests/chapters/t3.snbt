@@ -227,10 +227,7 @@
 			x: 6.0d
 			y: -6.5d
 			subtitle: "{quest.twr.6EC18F90620F0A48.subtitle}"
-			description: [
-				"{quest.twr.6EC18F90620F0A48.description.1}"
-				"{quest.twr.6EC18F90620F0A48.description.1}"
-			]
+			description: ["{quest.twr.6EC18F90620F0A48.description.1}"]
 			dependencies: ["4138E3A9915F811C"]
 			hide: true
 			id: "6EC18F90620F0A48"

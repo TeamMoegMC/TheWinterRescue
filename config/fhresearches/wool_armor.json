@@ -19,19 +19,20 @@
   ],
   "clues": [
     {
-      "type": "kill",
-      "name": "@clue.frostedheart.kill",
-      "desc": "@entity.stone_age.mouflon",
+      "type": "item",
       "value": 0.5,
-      "id": "8582f18d6e7b4169",
-      "always": false,
-      "entity": "stone_age:mouflon"
+      "id": "594fc6ab84b04b83",
+      "item": {
+        "count": 2,
+        "base_ingredient": {
+          "item": "minecraft:wheat"
+        }
+      }
     },
     {
       "type": "item",
-      "name": "@clue.frostedheart.item",
       "value": 0.5,
-      "id": "475fdfc3ce274ec2",
+      "id": "9a01e71a70584b34",
       "item": {
         "tag": "minecraft:wool"
       }

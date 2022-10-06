@@ -327,7 +327,7 @@
 			icon: "frostedheart:mechanical_calculator"
 			x: -2.5d
 			y: 1.0d
-			shape: "square"
+			shape: "rsquare"
 			subtitle: "{quest.twr.37B4F2A2F05B5332.subtitle}"
 			description: [
 				"{quest.twr.37B4F2A2F05B5332.description.1}"
