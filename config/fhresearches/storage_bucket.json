@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "minecraft:barrel",
   "category": "frostedheart:ars",
   "clues": [
@@ -22,20 +28,34 @@
       }
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 2,
+      "base_ingredient": {
+        "tag": "forge:plates/bronze"
+      }
+    },
+    {
+      "count": 8,
+      "base_ingredient": {
+        "tag": "minecraft:planks"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "recipe",
       "id": "e642f75e66ea4da9",
       "item": "minecraft:barrel"
+    },
+    {
+      "type": "item",
+      "id": "2d44dfdac3f9440e",
+      "rewards": [
+        "minecraft:barrel"
+      ]
     }
   ],
   "points": 600,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

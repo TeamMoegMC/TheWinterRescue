@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "minecraft:coal",
   "category": "frostedheart:ars",
   "parents": [
@@ -11,6 +17,7 @@
       "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "27b6af1bfc154174",
+      "required": true,
       "level": 0
     },
     {
@@ -19,10 +26,19 @@
       "value": 0.5,
       "id": "d6ba935397e64525",
       "item": {
-        "count": 4,
+        "count": 8,
         "base_ingredient": {
           "item": "minecraft:coal"
         }
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "value": 0.5,
+      "id": "69b761398e8547cb",
+      "item": {
+        "tag": "forge:coal_coke"
       },
       "consume": true
     }
@@ -45,11 +61,5 @@
     }
   ],
   "points": 800,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

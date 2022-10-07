@@ -24,7 +24,17 @@
       "level": 0
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 16,
+      "base_ingredient": {
+        "tag": "forge:stone"
+      }
+    },
+    {
+      "tag": "forge:plates/copper"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

@@ -246,6 +246,11 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'immersiveengineering:plantoil_bucket'
         }),
+		shapedRecipe('frostedheart:rubbing_pad', ['AAA', 'BBB', 'AAA'], {
+            A: '#forge:plates/cast_iron',
+            B: '#forge:ingots/cast_iron'
+        }),
+		
 		shapedRecipe('create:filter', ['A A', 'B B', 'A A'], {
             A: 'minecraft:string',
             B: '#forge:nuggets/iron'

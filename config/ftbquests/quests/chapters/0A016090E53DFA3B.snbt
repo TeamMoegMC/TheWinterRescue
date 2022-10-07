@@ -343,5 +343,30 @@
 				type: "checkmark"
 			}]
 		}
+		{
+			x: -2.5d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "{quest.twr.5D7B5ABC70D38636.subtitle}"
+			description: [
+				"{quest.twr.5D7B5ABC70D38636.description.1}"
+				"{quest.twr.5D7B5ABC70D38636.description.2}"
+				"{quest.twr.5D7B5ABC70D38636.description.3}"
+				"{quest.twr.5D7B5ABC70D38636.description.4}"
+			]
+			dependencies: ["2148082183BBDF76"]
+			id: "5D7B5ABC70D38636"
+			tasks: [{
+				id: "0CE7434E21F44E0A"
+				type: "item"
+				item: {
+					id: "frostedheart:rubbing_tool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 }

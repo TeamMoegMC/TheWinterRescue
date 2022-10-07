@@ -9,7 +9,8 @@
   "icon": "minecraft:enchanting_table",
   "category": "frostedheart:ars",
   "parents": [
-    "tetra"
+    "tetra",
+    "blast_furnace"
   ],
   "clues": [
     {
@@ -31,7 +32,23 @@
       }
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "minecraft:paper"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

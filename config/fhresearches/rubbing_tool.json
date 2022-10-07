@@ -1,0 +1,94 @@
+{
+  "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:rubbing_tool",
+      "nbt": "{Damage:0}"
+    }
+  },
+  "category": "frostedheart:ars",
+  "parents": [
+    "mechanical_calculator"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "e1b4f383d5e345ea",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "c5d4328814d0411c",
+      "required": true,
+      "item": {
+        "item": "frostedheart:mechanical_calculator"
+      }
+    },
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "dccec6b8dfba4031",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 16,
+      "base_ingredient": {
+        "item": "frostedheart:generator_ash"
+      }
+    },
+    {
+      "count": 8,
+      "base_ingredient": {
+        "item": "kubejs:cast_iron_plate"
+      }
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "minecraft:paper"
+      }
+    },
+    {
+      "count": 6,
+      "base_ingredient": {
+        "tag": "forge:ingots/cast_iron"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "aaa0b83225764405",
+      "item": "frostedheart:rubbing_tool"
+    },
+    {
+      "type": "item",
+      "id": "180bd6b689cb4911",
+      "rewards": [
+        {
+          "id": "frostedheart:rubbing_tool",
+          "nbt": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "type": "recipe",
+      "id": "8fcad1495d7c409b",
+      "item": "frostedheart:rubbing_pad"
+    }
+  ],
+  "points": 4000,
+  "showAltDesc": true
+}

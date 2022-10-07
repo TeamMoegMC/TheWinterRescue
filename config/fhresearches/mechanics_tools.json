@@ -1,9 +1,16 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "create:wrench",
   "category": "frostedheart:ars",
   "parents": [
-    "transmission_machinery"
+    "transmission_machinery",
+    "blast_furnace"
   ],
   "clues": [
     {
@@ -14,7 +21,20 @@
       "level": 0
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 2,
+      "base_ingredient": {
+        "tag": "the_winter_rescue:cogwheels"
+      }
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "tag": "the_winter_rescue:large_cogwheels"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "recipe",
@@ -28,11 +48,5 @@
     }
   ],
   "points": 1250,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

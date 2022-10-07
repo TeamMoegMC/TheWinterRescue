@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "create:speedometer",
   "category": "frostedheart:ars",
   "parents": [
@@ -14,7 +20,11 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "minecraft:compass"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",
@@ -28,11 +38,5 @@
     }
   ],
   "points": 1250,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

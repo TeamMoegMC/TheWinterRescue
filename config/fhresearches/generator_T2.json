@@ -34,7 +34,32 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 4,
+      "base_ingredient": {
+        "tag": "forge:plates/copper"
+      }
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "kubejs:invar_steel_plate"
+      }
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "tag": "immersiveengineering:scaffoldings/steel"
+      }
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "item": "rankine:high_refractory_bricks"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "multiblock",

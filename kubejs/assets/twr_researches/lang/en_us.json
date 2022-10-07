@@ -206,5 +206,8 @@
   "clue.frostedheart.split_block.clue.1_5612d1fa13a74a38.desc": "Any hammer",
   "clue.frostedheart.storage_drawers.clue.0_abc01458e013403c.desc": "Any drawer",
   "effect.frostedheart.steam_powerd.effects.2_8eed770cafe84d50.0": "Any flywheel",
-  "effect.frostedheart.steam_powerd.effects.5_48ac6b57ae2145c1.0": "Any steam engine"
+  "effect.frostedheart.steam_powerd.effects.5_48ac6b57ae2145c1.0": "Any steam engine",
+  "research.frostedheart.rubbing_tool.name": "Rubbing Tool",
+  "research.frostedheart.rubbing_tool.desc.0": "With rubbing tool, I can make machines without intelligent operate and record data from mechanical calculators.",
+  "research.frostedheart.rubbing_tool.desc_alt.0": "I am somehow tired of operating and recording data from mechanical calculator on my own."
 }
