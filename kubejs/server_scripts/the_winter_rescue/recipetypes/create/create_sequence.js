@@ -31,10 +31,19 @@ onEvent('recipes', (event) => {
 
     event.recipes.createSequencedAssembly([
         Item.of('immersiveengineering:circuit_board')
-    ], '#forge:plates/copper', [
-        event.recipes.createFilling('create:copper_sheet', ['create:copper_sheet', Fluid.of('rankine:resin', 500)]),
-        event.recipes.createDeploying('create:copper_sheet', ['create:copper_sheet', 'create:electron_tube']),
-        event.recipes.createDeploying('create:copper_sheet', ['create:copper_sheet', 'immersiveengineering:wire_copper']),
-        event.recipes.createPressing('create:copper_sheet', ['create:copper_sheet']),
-    ]).transitionalItem('create:copper_sheet').loops(1)
+    ], 'engineersdecor:halfslab_treated_wood', [
+		event.recipes.createDeploying('kubejs:pcb_base', ['kubejs:pcb_base', 'immersiveengineering:wirecoil_copper']),
+		event.recipes.createDeploying('kubejs:pcb_base', ['kubejs:pcb_base', 'minecraft:green_dye']),
+		event.recipes.createFilling('kubejs:pcb_base', ['kubejs:pcb_base', Fluid.of('rankine:resin', 500)]),
+		event.recipes.createDeploying('kubejs:pcb_base', ['kubejs:pcb_base', 'minecraft:gold_nugget']),
+        event.recipes.createPressing('kubejs:pcb_base', ['kubejs:pcb_base']),
+		event.recipes.createDeploying('kubejs:pcb_base', ['kubejs:pcb_base', 'create:electron_tube']),
+    ]).transitionalItem('kubejs:pcb_base').loops(1)
+	event.recipes.createSequencedAssembly([
+        Item.of('kubejs:servo_core')
+    ], 'immersiveengineering:circuit_board', [
+        event.recipes.createDeploying('immersiveengineering:circuit_board', ['create:copper_sheet', 'kubejs:motor']),
+        event.recipes.createDeploying('immersiveengineering:circuit_board', ['create:copper_sheet', 'immersiveengineering:wirecoil_copper']),
+		event.recipes.createFilling('immersiveengineering:circuit_board', ['create:copper_sheet', Fluid.of('rankine:resin', 100)]),
+    ]).transitionalItem('immersiveengineering:circuit_board').loops(4)
 });

@@ -31,7 +31,7 @@
     {
       "count": 2,
       "base_ingredient": {
-        "item": "immersiveengineering:circuit_board"
+        "item": "kubejs:servo_core"
       }
     }
   ],

@@ -35,7 +35,7 @@
       }
     },
     {
-      "item": "immersiveengineering:circuit_board"
+      "item": "kubejs:servo_core"
     }
   ],
   "effects": [

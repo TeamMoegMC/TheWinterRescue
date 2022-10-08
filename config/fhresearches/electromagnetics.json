@@ -58,6 +58,11 @@
       "type": "recipe",
       "id": "33b90660c1b843e6",
       "item": "steampowered:alternator"
+    },
+    {
+      "type": "recipe",
+      "id": "deac752e9d6c4f95",
+      "item": "kubejs:motor"
     }
   ],
   "points": 4000,

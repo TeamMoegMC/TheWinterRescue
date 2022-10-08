@@ -33,6 +33,12 @@
       "base_ingredient": {
         "item": "immersiveindustry:car_kiln_brick"
       }
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "item": "kubejs:servo_core"
+      }
     }
   ],
   "effects": [

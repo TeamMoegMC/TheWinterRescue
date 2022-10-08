@@ -43,9 +43,14 @@ onEvent('recipes', (event) => {
             A: '#forge:ingots/cast_iron',
 			B: '#forge:rods/cast_iron'
         }),
-		shapedRecipe('4x immersiveengineering:conveyor_basic', ['ACA', 'ABA'], {
+		shapedRecipe('3x immersiveengineering:conveyor_basic', ['ACA', 'ABA'], {
             A: '#forge:plates/steel',
             B: 'minecraft:redstone',
+            C: 'create:belt_connector'
+        }),
+		shapedRecipe('6x immersiveengineering:conveyor_basic', ['ACA', 'ABA'], {
+            A: '#forge:plates/steel',
+            B: 'kubejs:motor',
             C: 'create:belt_connector'
         }),
 		shapedRecipe('create:wrench', ['AA', 'AB', ' C'], {
@@ -56,7 +61,7 @@ onEvent('recipes', (event) => {
         
         shapedRecipe('engineersdecor:small_tree_cutter', ['ABA', 'ACE', 'ADA'], {
             A: '#forge:plates/steel',
-            B: 'immersiveengineering:circuit_board',
+            B: 'kubejs:servo_core',
             C: 'immersiveengineering:light_engineering',
             D: 'immersiveengineering:treated_wood_horizontal',
             E: 'immersiveengineering:sawblade'
@@ -75,12 +80,12 @@ onEvent('recipes', (event) => {
             A: '#forge:plates/steel',
             B: 'immersiveengineering:fluid_pipe',
             C: '#forge:plates/aluminum',
-            D: 'immersiveengineering:circuit_board'
+            D: 'kubejs:servo_core'
         }),
         shapedRecipe('engineersdecor:factory_hopper', [' C ', 'ABA', 'AAA'], {
             A: '#forge:plates/steel',
             B: 'minecraft:hopper',
-            C: 'immersiveengineering:circuit_board'
+            C: 'kubejs:servo_core'
         }),
         shapedRecipe('2x immersiveengineering:generator', ['ABA', 'BCB', 'ABA'], {
             A: 'immersiveengineering:sheetmetal_steel',
@@ -250,7 +255,11 @@ onEvent('recipes', (event) => {
             A: '#forge:plates/cast_iron',
             B: '#forge:ingots/cast_iron'
         }),
-		
+		shapedRecipe('kubejs:motor', [' AC', 'ABA', ' A '], {
+            A: 'immersiveengineering:wirecoil_copper',
+            B: '#forge:rods/cast_iron',
+			C: '#forge:plates/aluminum'
+        }),
 		shapedRecipe('create:filter', ['A A', 'B B', 'A A'], {
             A: 'minecraft:string',
             B: '#forge:nuggets/iron'
@@ -353,7 +362,7 @@ onEvent('recipes', (event) => {
 		shapedRecipe('immersiveengineering:rs_engineering', ['ABA', 'BCB', 'ABA'], {
             A: 'immersiveengineering:sheetmetal_iron',
             B: '#forge:plates/copper',
-            C: 'immersiveengineering:circuit_board'
+            C: 'kubejs:servo_core'
         }),
         shapedRecipe('2x immersiveindustry:burning_chamber', ['ABA', 'BAB', 'ABA'], {
             A: '#forge:plates/cast_iron',

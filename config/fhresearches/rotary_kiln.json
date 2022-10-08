@@ -33,6 +33,18 @@
       "base_ingredient": {
         "item": "immersiveindustry:rotary_kiln_cylinder"
       }
+    },
+    {
+      "count": 2,
+      "base_ingredient": {
+        "item": "kubejs:servo_core"
+      }
+    },
+    {
+      "count": 8,
+      "base_ingredient": {
+        "item": "kubejs:motor"
+      }
     }
   ],
   "effects": [

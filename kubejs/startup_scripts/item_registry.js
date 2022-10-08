@@ -49,7 +49,10 @@ onEvent('item.registry', event => {
 		'damaged_camera',
 		'burnt_circuit_board',
 		'broken_robot_1',
-		'broken_robot_2'
+		'broken_robot_2',
+		'servo_core',
+		'motor',
+		'pcb_base'
 	];
 
 	let rawOres = [
