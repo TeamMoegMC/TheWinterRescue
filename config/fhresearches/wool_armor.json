@@ -38,7 +38,11 @@
       }
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "tag": "minecraft:wool"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

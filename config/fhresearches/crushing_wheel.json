@@ -28,7 +28,14 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 4,
+      "base_ingredient": {
+        "tag": "forge:ingots/cast_iron"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

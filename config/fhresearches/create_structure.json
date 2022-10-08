@@ -28,7 +28,14 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 8,
+      "base_ingredient": {
+        "item": "minecraft:redstone"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

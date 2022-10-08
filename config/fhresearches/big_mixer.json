@@ -21,7 +21,14 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "create:mechanical_mixer"
+    },
+    {
+      "item": "create:basin"
+    }
+  ],
   "effects": [
     {
       "type": "multiblock",

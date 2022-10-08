@@ -27,7 +27,31 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:sugar_cane"
+      },
+      {
+        "item": "minecraft:apple"
+      },
+      {
+        "item": "minecraft:potato"
+      },
+      {
+        "item": "minecraft:melon_slice"
+      },
+      {
+        "item": "minecraft:beetroot"
+      }
+    ],
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "charcoal_pit:straw"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "multiblock",

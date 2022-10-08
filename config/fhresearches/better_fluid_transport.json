@@ -27,7 +27,17 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "create:mechanical_pump"
+    },
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "item": "immersiveengineering:circuit_board"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

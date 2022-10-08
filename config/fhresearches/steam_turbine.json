@@ -26,7 +26,14 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 3,
+      "base_ingredient": {
+        "item": "create:encased_fan"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "multiblock",

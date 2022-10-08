@@ -31,7 +31,14 @@
       }
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "create:electron_tube"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

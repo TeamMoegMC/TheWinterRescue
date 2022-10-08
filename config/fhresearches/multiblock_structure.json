@@ -27,7 +27,17 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "immersiveengineering:component_iron"
+      }
+    },
+    {
+      "item": "immersiveengineering:circuit_board"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

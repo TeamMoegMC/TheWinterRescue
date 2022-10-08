@@ -21,7 +21,17 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "create:copper_sheet"
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "immersiveengineering:wirecoil_copper"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

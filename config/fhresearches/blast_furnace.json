@@ -45,7 +45,11 @@
       }
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "rankine:refractory_bricks"
+    }
+  ],
   "effects": [
     {
       "type": "multiblock",

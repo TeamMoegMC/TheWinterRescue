@@ -30,7 +30,11 @@
       }
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

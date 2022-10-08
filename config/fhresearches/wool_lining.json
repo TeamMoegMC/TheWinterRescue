@@ -26,7 +26,14 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "item": "frostedheart:wool_jacket",
+      "count": 1,
+      "nbt": "{Damage:0}"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

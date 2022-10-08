@@ -40,7 +40,17 @@
       "consume": true
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "kubejs:charcoal_dust"
+    },
+    {
+      "tag": "forge:sand"
+    },
+    {
+      "tag": "forge:dirt"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

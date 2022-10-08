@@ -46,7 +46,14 @@
       "consume": true
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "kubejs:flux"
+    },
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

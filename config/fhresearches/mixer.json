@@ -30,7 +30,14 @@
       }
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "tag": "forge:plates/iron"
+    },
+    {
+      "item": "minecraft:cauldron"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",
@@ -41,6 +48,13 @@
       "type": "recipe",
       "id": "8f50d8ed61ee479f",
       "item": "create:basin"
+    },
+    {
+      "type": "item",
+      "id": "6238470d69594c59",
+      "rewards": [
+        "create:basin"
+      ]
     }
   ],
   "points": 1500,

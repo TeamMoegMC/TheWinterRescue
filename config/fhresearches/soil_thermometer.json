@@ -23,7 +23,7 @@
     {
       "count": 16,
       "base_ingredient": {
-        "item": "minecraft:dirt"
+        "tag": "forge:dirt"
       }
     },
     {

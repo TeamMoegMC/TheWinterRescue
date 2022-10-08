@@ -27,7 +27,14 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "immersiveindustry:rotary_kiln_cylinder"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "multiblock",

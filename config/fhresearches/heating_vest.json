@@ -21,7 +21,23 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "tag": "forge:plates/copper"
+    },
+    {
+      "tag": "forge:plates/steel"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "frostedheart:steam_bottle",
+      "count": 1,
+      "nbt": "{energy:240}"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

@@ -30,7 +30,20 @@
       }
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 2,
+      "base_ingredient": {
+        "item": "minecraft:quartz"
+      }
+    },
+    {
+      "count": 8,
+      "base_ingredient": {
+        "item": "minecraft:redstone"
+      }
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

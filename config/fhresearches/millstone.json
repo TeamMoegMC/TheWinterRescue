@@ -1,5 +1,11 @@
 {
   "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
   "icon": "kubejs:charcoal_dust",
   "category": "frostedheart:production",
   "clues": [
@@ -26,20 +32,31 @@
       "consume": true
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "count": 2,
+      "base_ingredient": {
+        "item": "minecraft:stone"
+      }
+    },
+    {
+      "item": "minecraft:charcoal"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",
       "id": "6106c61efbc34848",
       "item": "stone_age:millstone"
+    },
+    {
+      "type": "item",
+      "id": "387f44097efa4676",
+      "rewards": [
+        "kubejs:charcoal_dust"
+      ]
     }
   ],
   "points": 800,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

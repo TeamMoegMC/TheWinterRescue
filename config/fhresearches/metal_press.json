@@ -27,7 +27,11 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "create:mechanical_press"
+    }
+  ],
   "effects": [
     {
       "type": "multiblock",

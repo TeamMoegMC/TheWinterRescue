@@ -31,7 +31,17 @@
       }
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "tag": "forge:plates/bronze"
+    },
+    {
+      "item": "charcoal_pit:ceramic_pot"
+    },
+    {
+      "tag": "forge:clay_balls"
+    }
+  ],
   "effects": [
     {
       "type": "multiblock",

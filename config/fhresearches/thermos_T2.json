@@ -32,7 +32,23 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "tag": "forge:plates/aluminum"
+    },
+    {
+      "tag": "forge:plates/steel"
+    },
+    {
+      "item": "kubejs:invar_steel_plate"
+    },
+    {
+      "tag": "forge:plates/copper"
+    },
+    {
+      "tag": "forge:plates/iron"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

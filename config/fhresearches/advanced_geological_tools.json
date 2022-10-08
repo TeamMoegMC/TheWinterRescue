@@ -39,7 +39,11 @@
       }
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "tag": "forge:plates/copper"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

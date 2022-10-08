@@ -28,7 +28,17 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "tag": "forge:ingots/silver"
+    },
+    {
+      "item": "kubejs:aluminium_hydroxide_dust"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

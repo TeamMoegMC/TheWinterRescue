@@ -43,7 +43,14 @@
       }
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "tag": "the_winter_rescue:bloom_iron"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",

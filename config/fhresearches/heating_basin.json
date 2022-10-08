@@ -32,12 +32,29 @@
       "level": 1
     }
   ],
-  "ingredients": [],
+  "ingredients": [
+    {
+      "item": "create:empty_blaze_burner"
+    },
+    {
+      "tag": "forge:plates/constantan"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    }
+  ],
   "effects": [
     {
       "type": "recipe",
       "id": "687b592d2b5c41df",
       "item": "create:blaze_burner"
+    },
+    {
+      "type": "item",
+      "id": "d82f6ca75174f52",
+      "rewards": [
+        "minecraft:bucket"
+      ]
     }
   ],
   "points": 4000,
