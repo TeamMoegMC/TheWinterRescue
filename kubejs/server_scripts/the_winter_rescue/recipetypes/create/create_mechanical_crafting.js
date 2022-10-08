@@ -41,7 +41,7 @@ onEvent('recipes', (event) => {
             B: 'create:shaft',
             D: 'create:precision_mechanism',
 			G: '#forge:plates/cast_iron',
-			H: '#forge:treated_woood',
+			H: '#forge:treated_wood',
 			I: 'minecraft:bell',
 			P: 'minecraft:piston'
         }),
