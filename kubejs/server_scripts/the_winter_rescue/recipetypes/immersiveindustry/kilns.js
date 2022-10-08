@@ -2,24 +2,24 @@ onEvent('recipes', (event) => {
     function carkiln(input,output){
         event.custom({
             "type": "immersiveindustry:car_kiln",
-            "input": Item.of(input).toJson(),
-            "result": Item.of(output).toJson(),
+            "input": Ingredient.of(input),
+            "result": Item.of(output),
             "time": 600
         })
 	}
 	function rotkiln(input,output){
         event.custom({
             "type": "immersiveindustry:rotary_kiln",
-            "input": Item.of(input).toJson(),
-            "result": Item.of(output).toJson(),
+            "input": Ingredient.of(input),
+            "result": Item.of(output),
             "time": 200
         })
 	}
 	function rotkilnte(input,output,time,enery){
         event.custom({
             "type": "immersiveindustry:rotary_kiln",
-            "input": Item.of(input).toJson(),
-            "result": Item.of(output).toJson(),
+            "input": Ingredient.of(input),
+            "result": Item.of(output),
             "time": time,
 			"tickEnergy":energy
         })
@@ -40,7 +40,7 @@ onEvent('recipes', (event) => {
 	carkilnr("rankine:fire_clay_ball","rankine:refractory_brick");
 	rotkiln("kubejs:aluminium_hydroxide_dust",'kubejs:aluminium_oxide_dust');
 	rotkiln('kubejs:washed_ore_magnesite','rankine:magnesia');
-	rotkiln('kubejs:flux','rankine:quicklime');
+	rotkiln('kubejs:flux','2x rankine:quicklime');
 	[{input: '#kubejs:coal_dust',output: 'minecraft:black_dye'},
      {input: 'kubejs:charcoal_dust',output: 'minecraft:black_dye'},
 	 {output:'kubejs:coal_briquette', input:'kubejs:wet_coal_briquette'},
