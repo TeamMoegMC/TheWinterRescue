@@ -20,6 +20,7 @@
 			icon: "frostedheart:drawing_desk"
 			x: -6.5d
 			y: -0.5d
+			shape: "rsquare"
 			subtitle: "{quest.twr.391E30AD9CB7147F.subtitle}"
 			description: [
 				"{quest.twr.391E30AD9CB7147F.description.1}"
@@ -29,7 +30,7 @@
 				"{quest.twr.391E30AD9CB7147F.description.5}"
 			]
 			dependencies: ["6A22E2D62D4719BE"]
-			hide: true
+			size: 1.2d
 			id: "391E30AD9CB7147F"
 			tasks: [{
 				id: "2D456863275FBF11"
