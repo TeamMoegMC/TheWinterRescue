@@ -15,7 +15,7 @@
       "value": 0.5,
       "id": "2bca44f6f387479f",
       "item": {
-        "tag": "forge:ingots/bronze"
+        "tag": "forge:plates/bronze"
       }
     },
     {
@@ -32,9 +32,6 @@
     }
   ],
   "ingredients": [
-    {
-      "tag": "forge:plates/bronze"
-    },
     {
       "item": "charcoal_pit:ceramic_pot"
     },
