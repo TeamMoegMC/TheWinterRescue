@@ -855,9 +855,9 @@
   "quest.twr.24E7D1E02BE55A8E.description.4": "&a蛋白质&r摄入不足会导致严重&c贫血&r，导致全身无力。",
   "quest.twr.24E7D1E02BE55A8E.description.8": "避免摄入过多&c糖分&r，这会导致&c糖尿病&r，使得伤口&a难以自然愈合&r，并且使人感到异常饥饿。",
   "quest.twr.1938FC4AAD99137E.subtitle": "无任何水分",
-  "quest.twr.1938FC4AAD99137E.description.4": "&6&l点击左下角的帮助按钮可以查看研究论文的完成教程，如果文字看不清可以阅读后续任务。",
-  "quest.twr.1938FC4AAD99137E.description.3": "&6&l点击绘图台左下角的重置按钮即可消耗“纸”和“笔”产生一个对应研究，&c&l不同等级研究需要不同等级的纸和笔，详见后续任务。",
-  "quest.twr.1938FC4AAD99137E.description.5": "&a&l产生和完成论文都需要消耗精力，精力的获取详见后续任务。",
+  "quest.twr.1938FC4AAD99137E.description.4": "点击左下角的&c&l帮助按钮&r可以查看研究论文的完成教程，&6如果文字看不清可以阅读后续任务&r。",
+  "quest.twr.1938FC4AAD99137E.description.3": "点击绘图台左下角的&c&l重置按钮&r即可消耗“纸”和“笔”&6&l产生一个对应研究&r，&c&l不同等级研究需要不同等级的纸和笔&r，详见后续任务。",
+  "quest.twr.1938FC4AAD99137E.description.5": "产生和完成论文都需要消耗精力，精力的获取详见后续任务。",
   "quest.twr.3FEE911101C61CFB.description.8": "&b示意图详见研究台的帮助面板&r。",
   "quest.twr.1DE66DB6DF406019.description.5": "&6提交物品则是在研究台的“检验”格子放入需要研究的物品并点击检验。",
   "quest.twr.1DE66DB6DF406019.description.4": " ",
@@ -1047,5 +1047,9 @@
   "quest.twr.5D7B5ABC70D38636.description.2": "拓印工具可以装载在机械手上从而从所对的计算器中收集所有科技点数。",
   "quest.twr.5D7B5ABC70D38636.subtitle": "活字乱刷术",
   "quest.twr.5D7B5ABC70D38636.description.3": "拓印工具需要在&6开始研究&r后，放入&6绘图台&r进行&6检验&r以绑定对应的研究，才能用于收集科技点，&c&l没有绑定研究的拓印工具不能用于收取科技点&r。",
-  "quest.twr.5D7B5ABC70D38636.description.4": "在收集了一些科技点之后，可以放在&6绘图台检验&r以取出里面的科技点，科技点直接添加到&e&l绑定的科技&r上，多余的科技点则会&c浪费&r掉。"
+  "quest.twr.5D7B5ABC70D38636.description.4": "在收集了一些科技点之后，可以放在&6绘图台检验&r以取出里面的科技点，科技点直接添加到&e&l绑定的科技&r上，多余的科技点则会&c浪费&r掉。",
+  "quest.twr.7E9108130096673E.description.1": "比面包便宜且更容易制作，但是干吃容易口渴，但是可以烹饪化开食用。",
+  "quest.twr.7E9108130096673E.subtitle": "科技与狠活",
+  "quest.twr.4600CF7553C26ED0.title": "动力石磨",
+  "quest.twr.0B94C2D4FAB6A54B.title": "工具改造"
 }

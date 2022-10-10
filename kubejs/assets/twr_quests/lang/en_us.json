@@ -1046,5 +1046,9 @@
   "quest.twr.5D7B5ABC70D38636.description.2": "Rubbing tool can be mounted on machine arms to gather research points.",
   "quest.twr.5D7B5ABC70D38636.subtitle": "Send me a copy",
   "quest.twr.5D7B5ABC70D38636.description.3": "Rubbing tool must be assigned to an research by &6putting in a draw desk and examine&r before gathering research points. &c&lUnassigned ones does not accept any research points&r.",
-  "quest.twr.5D7B5ABC70D38636.description.4": "After gathering some points inside, it can be &6put into draw desk and examine&r to draw its points into assigned research. &cExceeded points would be wasted."
+  "quest.twr.5D7B5ABC70D38636.description.4": "After gathering some points inside, it can be &6put into draw desk and examine&r to draw its points into assigned research. &cExceeded points would be wasted.",
+  "quest.twr.7E9108130096673E.description.1": "Cheaper than bread, just like bread. But recommend cook before eating",
+  "quest.twr.7E9108130096673E.subtitle": "Food Science",
+  "quest.twr.4600CF7553C26ED0.title": "Mechanical Grinder",
+  "quest.twr.0B94C2D4FAB6A54B.title": "Tool modification"
 }

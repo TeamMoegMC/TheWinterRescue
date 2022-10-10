@@ -92,6 +92,7 @@
 			}]
 		}
 		{
+			title: "{quest.twr.0B94C2D4FAB6A54B.title}"
 			x: -2.5d
 			y: 3.0d
 			subtitle: "{quest.twr.0B94C2D4FAB6A54B.subtitle}"

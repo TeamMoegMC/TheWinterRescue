@@ -341,7 +341,7 @@
 			}]
 		}
 		{
-			title: "动力石磨"
+			title: "{quest.twr.4600CF7553C26ED0.title}"
 			x: -10.0d
 			y: 1.0d
 			subtitle: "{quest.twr.4600CF7553C26ED0.subtitle}"

@@ -397,14 +397,19 @@
 		{
 			x: -7.0d
 			y: 1.5d
-			subtitle: "科技与狠活"
-			description: ["比面包便宜一些，和面包一样。"]
+			subtitle: "{quest.twr.7E9108130096673E.subtitle}"
+			description: ["{quest.twr.7E9108130096673E.description.1}"]
 			dependencies: ["5845439CF721309F"]
 			id: "7E9108130096673E"
 			tasks: [{
 				id: "3BC620D32AE2B1A0"
 				type: "item"
 				item: "frostedheart:compressed_biscuits"
+			}]
+			rewards: [{
+				id: "622459A6275FFC66"
+				type: "item"
+				item: "frostedheart:dried_vegetables"
 			}]
 		}
 	]
