@@ -23,4 +23,5 @@ onEvent('fluid.registry', event => {
   event.create('hydrochloric_acid').textureThin(0xAAFFAA)
   event.create('cryolite').textureThin(0x90EE90)
   event.create('tar').textureThick(0x000000).viscosity(1150).density(950)
+  event.create('protein').textureStill("kubejs:block/protein_fluid").textureFlowing("kubejs:block/protein_fluid").viscosity(200).density(200)
 })

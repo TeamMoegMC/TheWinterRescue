@@ -1,6 +1,20 @@
 {"type": "frostedheart:replace_loot",
 "changes":[
-
+{"from":{"item":"minecraft:bread"},"to":"frostedheart:compressed_biscuits_pack"},
+{"from":{"item":"minecraft:potato"},"to":"frostedheart:dried_vegetables"},
+{"from":{"item":"minecraft:apple"},"to":"frostedheart:dried_vegetables"},
+{"from":{"item":"minecraft:melon_slice"},"to":"frostedheart:packed_nuts"},
+{"from":{"item":"minecraft:cookie"},"to":"frostedheart:packed_nuts"},
+{"from":{"item":"minecraft:mushroom_stew"},"to":"frostedheart:dried_vegetables"},
+{"from":{"item":"minecraft:beetroot"},"to":"frostedheart:dried_vegetables"},
+{"from":{"item":"minecraft:wheat"},"to":"charcoal_pit:straw"},
+{"from":{"item":"minecraft:wheat"},"to":"charcoal_pit:straw"},
+{"from":{"item":"minecraft:pumpkin"},"to":"frostedheart:dried_vegetables"},
+{"from":{"item":"minecraft:sweet_berries"},"to":"frostedheart:packed_nuts"},
+{"from":{"item":"minecraft:glistering_melon_slice"},"to":"frostedheart:packed_nuts"},
+{"from":{"item":"minecraft:mushroom_stew"},"to":"frostedheart:military_rations"},
+{"from":{"item":"minecraft:cooked_cod"},"to":"frostedheart:military_rations"},
+{"from":{"item":"minecraft:cooked_salmon"},"to":"frostedheart:military_rations"}
 ],
 "conditions": [
 {"condition":"frostedheart:treasure"}

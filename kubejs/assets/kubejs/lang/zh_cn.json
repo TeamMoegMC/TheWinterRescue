@@ -123,6 +123,7 @@
   "item.kubejs.servo_core": "伺服器控制器",
   "item.kubejs.motor": "小型马达",
   "item.kubejs.pcb_base": "电路基板",
+  "item.kubejs.protein_bucket":"蛋白质浓浆桶",
   "fluid.kubejs.lime_water": "石灰水",
   "fluid.kubejs.chlorine": "氯气",
   "fluid.kubejs.cryolite": "冰晶石",
@@ -130,5 +131,6 @@
   "fluid.kubejs.hydrochloric_acid": "盐酸",
   "fluid.kubejs.tar": "焦油",
   "fluid.kubejs.magnesium_chlorine": "熔融氯化镁",
+  "fluid.kubejs.protein":"蛋白质浓浆",
   "itemGroup.kubejs.kubejs": "Kubejs"
 }
