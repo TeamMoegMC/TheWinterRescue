@@ -286,6 +286,7 @@
 				"{quest.twr.6496F756C2514C7A.description.2}"
 			]
 			dependencies: ["4F8E2D7FDA9A1D17"]
+			optional: true
 			id: "6496F756C2514C7A"
 			tasks: [{
 				id: "6CC4B72975823D53"
@@ -355,6 +356,7 @@
 				"{quest.twr.5D7B5ABC70D38636.description.4}"
 			]
 			dependencies: ["2148082183BBDF76"]
+			optional: true
 			id: "5D7B5ABC70D38636"
 			tasks: [{
 				id: "0CE7434E21F44E0A"

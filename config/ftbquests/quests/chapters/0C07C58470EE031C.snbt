@@ -173,6 +173,7 @@
 			]
 			dependencies: ["215BC2E7271F1478"]
 			hide: true
+			optional: true
 			id: "24E7D1E02BE55A8E"
 			tasks: [{
 				id: "047874DA9F5AB4B1"
@@ -379,7 +380,6 @@
 				"1D7F2824DAF3BB7B"
 				"1233EF3CDF5E33F8"
 			]
-			hide: true
 			id: "29BC87594650152D"
 			tasks: [{
 				id: "5DF3E0777A5A6D09"
@@ -436,6 +436,7 @@
 			subtitle: "{quest.twr.70E6A4B9946F263A.subtitle}"
 			description: ["{quest.twr.70E6A4B9946F263A.description.1}"]
 			dependencies: ["29BC87594650152D"]
+			optional: true
 			id: "70E6A4B9946F263A"
 			tasks: [{
 				id: "303116E572280BDC"
@@ -548,6 +549,7 @@
 				"{quest.twr.2406D98489C938B8.description.2}"
 			]
 			dependencies: ["443AD02B85632386"]
+			optional: true
 			id: "2406D98489C938B8"
 			tasks: [{
 				id: "6898C42559ADDF9E"
@@ -751,6 +753,7 @@
 			]
 			dependencies: ["36960F1D7CDC8B30"]
 			hide: true
+			optional: true
 			id: "7E68FC6215F4FADC"
 			tasks: [{
 				id: "2BA166AB2BD842B1"
@@ -859,7 +862,6 @@
 			subtitle: "{quest.twr.718403EB34A5B46F.subtitle}"
 			description: ["{quest.twr.718403EB34A5B46F.description.1}"]
 			dependencies: ["348EB1588EFAD2AB"]
-			hide: true
 			id: "718403EB34A5B46F"
 			tasks: [{
 				id: "1D8EA544D790D174"
@@ -877,6 +879,7 @@
 				"{quest.twr.42AF456D165CBF75.description.3}"
 			]
 			dependencies: ["718403EB34A5B46F"]
+			hide: true
 			id: "42AF456D165CBF75"
 			tasks: [{
 				id: "6C321E201EBDBE78"
@@ -905,6 +908,7 @@
 				"{quest.twr.5DD231E4178E830D.description.2}"
 			]
 			dependencies: ["42AF456D165CBF75"]
+			optional: true
 			id: "5DD231E4178E830D"
 			tasks: [{
 				id: "3AE56D40A163154B"
@@ -924,6 +928,7 @@
 			subtitle: "{quest.twr.4DD7D3E4613000E4.subtitle}"
 			dependencies: ["42AF456D165CBF75"]
 			hide: true
+			optional: true
 			id: "4DD7D3E4613000E4"
 			tasks: [{
 				id: "07753AF4C71657C6"
@@ -947,6 +952,7 @@
 				"{quest.twr.506C01A9BE167F7F.description.2}"
 			]
 			dependencies: ["42AF456D165CBF75"]
+			optional: true
 			id: "506C01A9BE167F7F"
 			tasks: [
 				{
@@ -1011,6 +1017,7 @@
 				"{quest.twr.63E5A6B843181EE1.description.3}"
 			]
 			dependencies: ["6B7D4F59C921C1FC"]
+			optional: true
 			id: "63E5A6B843181EE1"
 			tasks: [{
 				id: "3D4AE72AF4AB36A0"
@@ -1133,6 +1140,7 @@
 				"{quest.twr.28F313C8E1312A2B.description.10}"
 			]
 			dependencies: ["36960F1D7CDC8B30"]
+			optional: true
 			id: "28F313C8E1312A2B"
 			tasks: [
 				{
@@ -1200,6 +1208,7 @@
 			]
 			dependencies: ["5DD231E4178E830D"]
 			hide: true
+			optional: true
 			id: "6E83E2133A978D34"
 			tasks: [{
 				id: "087679BD11ADFB69"

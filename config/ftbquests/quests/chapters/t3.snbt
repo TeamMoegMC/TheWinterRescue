@@ -62,6 +62,7 @@
 				"{quest.twr.4138E3A9915F811C.description.1}"
 				"{quest.twr.4138E3A9915F811C.description.2}"
 				"{quest.twr.4138E3A9915F811C.description.3}"
+				"{quest.twr.4138E3A9915F811C.description.4}"
 			]
 			dependencies: ["5D52744D5382A6CA"]
 			hide: true
