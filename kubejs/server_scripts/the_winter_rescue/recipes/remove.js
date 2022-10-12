@@ -151,7 +151,7 @@ onEvent('recipes', (event) => {
     shapeless.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shapeless', output: Item});
     });
-
+	event.remove({type: 'minecraft:crafting_shapeless', input: "4x #minecraft:stairs"});
     let smelting = [
         'minecraft:iron_ingot',
         'rankine:aluminum_ingot',
