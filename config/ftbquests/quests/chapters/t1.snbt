@@ -206,7 +206,7 @@
 			icon: "immersiveengineering:alloy_smelter"
 			x: 4.5d
 			y: 0.5d
-			shape: "gear"
+			shape: "square"
 			subtitle: "{quest.twr.162264AE4B9EE1A9.subtitle}"
 			description: [
 				"{quest.twr.162264AE4B9EE1A9.description.1}"
@@ -313,7 +313,6 @@
 			dependencies: [
 				"4CD30E566C5776E0"
 				"47F458D8E94E5367"
-				"162264AE4B9EE1A9"
 			]
 			hide: true
 			id: "13D9DE54DF8117C2"
@@ -552,6 +551,7 @@
 		{
 			x: 7.0d
 			y: -2.5d
+			shape: "gear"
 			subtitle: "{quest.twr.47F458D8E94E5367.subtitle}"
 			description: [
 				"{quest.twr.47F458D8E94E5367.description.1}"
@@ -688,6 +688,7 @@
 		{
 			x: 7.0d
 			y: 3.5d
+			shape: "gear"
 			subtitle: "{quest.twr.4CD30E566C5776E0.subtitle}"
 			description: ["{quest.twr.4CD30E566C5776E0.description.1}"]
 			dependencies: ["4B6840707D77E2C0"]
