@@ -8,9 +8,6 @@
   ],
   "icon": "minecraft:iron_ingot",
   "category": "frostedheart:production",
-  "parents": [
-    "alloy_kiln"
-  ],
   "clues": [
     {
       "type": "game",

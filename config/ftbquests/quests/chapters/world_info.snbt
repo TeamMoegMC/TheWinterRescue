@@ -447,5 +447,23 @@
 				item: "rankine:hematite"
 			}]
 		}
+		{
+			x: 2.5d
+			y: 5.0d
+			subtitle: "{quest.twr.0ED9C71E91687BFA.subtitle}"
+			description: [
+				"{quest.twr.0ED9C71E91687BFA.description.1}"
+				"{quest.twr.0ED9C71E91687BFA.description.2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "68C644E5FFF125A6"
+			tasks: [{
+				id: "416DCDB44697EC89"
+				type: "item"
+				item: "kubejs:halite"
+			}]
+		}
 	]
 }
