@@ -465,5 +465,23 @@
 				item: "kubejs:halite"
 			}]
 		}
+		{
+			x: 2.5d
+			y: 6.0d
+			subtitle: "{quest.twr.122E83F324DB80B7.subtitle}"
+			description: [
+				"{quest.twr.0ED9C71E91687BFA.description.1}"
+				"{quest.twr.122E83F324DB80B7.description.2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "122E83F324DB80B7"
+			tasks: [{
+				id: "52DE6D41702EFF05"
+				type: "item"
+				item: "rankine:evaporite"
+			}]
+		}
 	]
 }
