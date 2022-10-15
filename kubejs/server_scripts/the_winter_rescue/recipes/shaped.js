@@ -246,6 +246,12 @@ onEvent('recipes', (event) => {
     ]
 
     var newRecipes = [
+		shapedRecipe('frostedheart:heat_incubator', ['  D', ' CA', 'DBD'], {
+            A: 'frostedheart:heat_pipe',
+            B: '#forge:plates/steel',
+            C: 'frostedheart:incubator',
+			D: '#forge:plates/copper'
+        }),
 	    shapedRecipe('2x immersiveengineering:radiator', ['ABA', 'BCB', 'ABA'], {
             A: 'immersiveengineering:sheetmetal_steel',
             B: '#forge:plates/steel',

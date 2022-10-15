@@ -208,5 +208,17 @@
   "effect.frostedheart.steam_powerd.effects.5_48ac6b57ae2145c1.0": "Any steam engine",
   "research.frostedheart.rubbing_tool.name": "Rubbing Tool",
   "research.frostedheart.rubbing_tool.desc.0": "With rubbing tool, I can make machines without intelligent operate and record data from mechanical calculators.",
-  "research.frostedheart.rubbing_tool.desc_alt.0": "I am somehow tired of operating and recording data from mechanical calculator on my own."
+  "research.frostedheart.rubbing_tool.desc_alt.0": "I am somehow tired of operating and recording data from mechanical calculator on my own.",
+  "research.frostedheart.heat_incubator.name": "Improved Incubator",
+  "research.frostedheart.crushing_wheel.desc_alt.1": "I need mechanical calculators to help with my research.",
+  "research.frostedheart.heat_incubator.desc.0": "With steam incubator, growing fungis is a lot easier.",
+  "research.frostedheart.heat_incubator.desc_alt.0": "Using quicklime to power incubators is a bit expensive. Maybe I can heat it up with heat.",
+  "research.frostedheart.rubbing_tool.desc_alt.1": "I need mechanical calculators to help with my research.",
+  "research.frostedheart.incubator.desc.1": "Although I would require a lot of quicklime to power it up.",
+  "research.frostedheart.incubator.desc.0": "With this device, I can grow fungis easier. ",
+  "research.frostedheart.electromagnetics.desc_alt.1": "I need mechanical calculators to help with my research.",
+  "research.frostedheart.incubator.desc_alt.1": "I need a stationary mushroom incubator.",
+  "research.frostedheart.incubator.desc_alt.0": "Though taking a mushroom bed with me is convenient, it occupies my inventory.",
+  "research.frostedheart.heating_basin.desc_alt.1": "I need mechanical calculators to help with my research.",
+  "research.frostedheart.incubator.name": "Better fungis incubating"
 }

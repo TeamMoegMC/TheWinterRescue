@@ -208,5 +208,17 @@
   "effect.frostedheart.steam_powerd.effects.5_48ac6b57ae2145c1.0": "任意蒸汽引擎",
   "research.frostedheart.rubbing_tool.name": "拓印工具",
   "research.frostedheart.rubbing_tool.desc.0": "有了拓印工具，我可以用没有智能的机械手来协助我的科研了，尽管它们有可能会做无用功。",
-  "research.frostedheart.rubbing_tool.desc_alt.0": "我已经厌倦了需要手动输入并阅读计算器的数值，我需要一个可以自动记录计算器输出结果的工具。"
+  "research.frostedheart.rubbing_tool.desc_alt.0": "我已经厌倦了需要手动输入并阅读计算器的数值，我需要一个可以自动记录计算器输出结果的工具。",
+  "research.frostedheart.heat_incubator.name": "改进培养箱",
+  "research.frostedheart.crushing_wheel.desc_alt.1": "我需要计算器帮助我研究。",
+  "research.frostedheart.heat_incubator.desc.0": "有了蒸汽培养箱，养殖真菌变得更容易了。",
+  "research.frostedheart.heat_incubator.desc_alt.0": "培养箱使用生石灰来驱动有点过于昂贵了，也许我可以尝试改进一下直接使用能量塔产生的热能。",
+  "research.frostedheart.rubbing_tool.desc_alt.1": "我需要计算器帮助我研究。",
+  "research.frostedheart.incubator.desc.1": "尽管我目前需要使用生石灰来持续提供热量。",
+  "research.frostedheart.incubator.desc.0": "有了这个设备，我就可以很方便的养殖各种真菌了。",
+  "research.frostedheart.electromagnetics.desc_alt.1": "我需要计算器帮助我研究。",
+  "research.frostedheart.incubator.desc_alt.1": "我需要一个固定的真菌养殖设备。",
+  "research.frostedheart.incubator.desc_alt.0": "虽然在身上携带菌床十分方便，但是它确实也挤占了身上的空间。",
+  "research.frostedheart.heating_basin.desc_alt.1": "我需要计算器帮助我研究。",
+  "research.frostedheart.incubator.name": "进阶真菌养殖"
 }

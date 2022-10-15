@@ -229,6 +229,7 @@
 			}]
 		}
 		{
+			icon: "stone_age:flint_workbench"
 			x: 4.5d
 			y: 0.0d
 			subtitle: "{quest.twr.3102993072F3C8B9.subtitle}"
@@ -242,11 +243,17 @@
 			dependencies: ["32E5D942F1FE8645"]
 			hide: true
 			id: "3102993072F3C8B9"
-			tasks: [{
-				id: "081B951F9A018B3B"
-				type: "item"
-				item: "stone_age:flint_workbench"
-			}]
+			tasks: [
+				{
+					id: "081B951F9A018B3B"
+					type: "item"
+					item: "stone_age:flint_workbench"
+				}
+				{
+					id: "4C8BCF32AD2C1D1C"
+					type: "checkmark"
+				}
+			]
 			rewards: [{
 				id: "163A03C91746986A"
 				type: "item"
@@ -662,6 +669,7 @@
 			}]
 		}
 		{
+			icon: "minecraft:campfire"
 			x: 10.5d
 			y: 0.0d
 			shape: "gear"
@@ -682,11 +690,17 @@
 			]
 			size: 1.2d
 			id: "36960F1D7CDC8B30"
-			tasks: [{
-				id: "2EA574C52E7D6A74"
-				type: "item"
-				item: "minecraft:campfire"
-			}]
+			tasks: [
+				{
+					id: "2EA574C52E7D6A74"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "3A3418B5C34E9427"
+					type: "checkmark"
+				}
+			]
 			rewards: [
 				{
 					id: "6F19F1FDBDC144F2"
@@ -799,6 +813,13 @@
 			]
 		}
 		{
+			icon: {
+				id: "rankine:flint_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 9.0d
 			y: 1.5d
 			shape: "square"
@@ -810,17 +831,23 @@
 			dependencies: ["29BC87594650152D"]
 			hide: true
 			id: "45E2EF843333B846"
-			tasks: [{
-				id: "0DA3A979A808DA51"
-				type: "item"
-				item: {
-					id: "rankine:flint_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0DA3A979A808DA51"
+					type: "item"
+					item: {
+						id: "rankine:flint_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "5B39530C17ED28F6"
+					type: "checkmark"
+				}
+			]
 			rewards: [{
 				id: "6BD5B0EE2E7BB7C8"
 				type: "item"
@@ -1080,7 +1107,7 @@
 		}
 		{
 			title: "{quest.twr.29C8077E15E6C418.title}"
-			x: 10.5d
+			x: 11.4d
 			y: 3.0d
 			shape: "gear"
 			subtitle: "{quest.twr.29C8077E15E6C418.subtitle}"

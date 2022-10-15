@@ -34,6 +34,15 @@ function inspireRecipe(input, result) {
     return {type: 'frostedheart:inspire', item: Item.of(input).toJson(), amount: result};
 }
 
+function incubateRecipeI(input,catalyst,use_catalyst,result,time,water) {
+    return {type: "frostedheart:incubate",input: input,consume_catalyst:use_catalyst,catalyst:catalyst,output: result,time:time,water:water};
+}
+function incubateRecipeF(input,catalyst,use_catalyst,result,resultfluid,time,water) {
+    return {type: "frostedheart:incubate",consume_catalyst:use_catalyst,input: input,catalyst:catalyst,fluid:resultfluid,output: result,time:time,water:water};
+}
+function incubateRecipe(input,catalyst,use_catalyst,result,resultfluid,time,water) {
+    return {type: "frostedheart:incubate",input: input,consume_catalyst:use_catalyst,catalyst:catalyst,output: result,fluid:resultfluid,time:time,water:water};
+}
 function unificationBlacklistEntry(material, type) {
     return {material: material, type: type};
 }

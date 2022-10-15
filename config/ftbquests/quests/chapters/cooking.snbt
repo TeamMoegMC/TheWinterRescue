@@ -412,5 +412,77 @@
 				item: "frostedheart:dried_vegetables"
 			}]
 		}
+		{
+			title: "{quest.twr.027E793362A7ECBE.title}"
+			icon: "frostedheart:incubator"
+			x: -7.0d
+			y: -3.0d
+			subtitle: "{quest.twr.027E793362A7ECBE.subtitle}"
+			description: [
+				"{quest.twr.027E793362A7ECBE.description.1}"
+				"{quest.twr.027E793362A7ECBE.description.2}"
+				"{quest.twr.027E793362A7ECBE.description.3}"
+				"{quest.twr.027E793362A7ECBE.description.4}"
+				"{quest.twr.027E793362A7ECBE.description.5}"
+			]
+			dependencies: [
+				"7A992B9F9DB079E6"
+				"047F11A29F16A270"
+			]
+			dependency_requirement: "one_completed"
+			id: "027E793362A7ECBE"
+			tasks: [{
+				id: "5C70667695F8ECB2"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{quest.twr.2292AB368EF121C2.title}"
+			icon: "minecraft:brown_mushroom"
+			x: -8.0d
+			y: -4.5d
+			description: ["{quest.twr.2292AB368EF121C2.description.1}"]
+			dependencies: ["027E793362A7ECBE"]
+			id: "2292AB368EF121C2"
+			tasks: [
+				{
+					id: "5656D07546CDEC9C"
+					type: "item"
+					title: "{quest.twr.2292AB368EF121C2.5656D07546CDEC9C.title}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:edible_mushrooms"
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "1C4A593BD5882B95"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			subtitle: "{quest.twr.432F702802327860.subtitle}"
+			description: [
+				"{quest.twr.432F702802327860.description.1}"
+				"{quest.twr.432F702802327860.description.2}"
+				"{quest.twr.432F702802327860.description.3}"
+			]
+			dependencies: [
+				"027E793362A7ECBE"
+				"688E6165A1E9A28C"
+			]
+			id: "432F702802327860"
+			tasks: [{
+				id: "4D5CC18CB0A34A9A"
+				type: "item"
+				item: "charcoal_pit:chocolate"
+			}]
+		}
 	]
 }

@@ -1,0 +1,76 @@
+{
+  "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "icon": "frostedheart:heat_incubator",
+  "category": "frostedheart:living",
+  "parents": [
+    "generator_T2",
+    "incubator"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.5,
+      "id": "36aa2cf8504c4b0a",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "e89b03090942472e",
+      "item": {
+        "item": "frostedheart:charger"
+      }
+    },
+    {
+      "type": "item",
+      "value": 0.15,
+      "id": "f25d445155045ee",
+      "item": {
+        "type": "forge:nbt",
+        "item": "frostedheart:steam_bottle",
+        "count": 1,
+        "nbt": "{energy:240}"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "frostedheart:incubator"
+    },
+    {
+      "count": 6,
+      "base_ingredient": {
+        "tag": "forge:plates/copper"
+      }
+    },
+    {
+      "tag": "forge:plates/steel"
+    },
+    {
+      "item": "frostedheart:heat_pipe"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "c2e507a8822b40d2",
+      "item": "frostedheart:heat_incubator"
+    },
+    {
+      "type": "item",
+      "id": "c7c2d7043404aee",
+      "rewards": [
+        "frostedheart:heat_incubator"
+      ]
+    }
+  ],
+  "points": 3000,
+  "showAltDesc": true
+}

@@ -148,6 +148,10 @@ onEvent('recipes', (event) => {
     ]
 
     const recipes = [
+		flint_shapedRecipe(Item.of('frostedheart:incubator'), ['AAA', 'A B', 'BBB'], {
+            A: Item.of('#minecraft:planks').toJson(),
+            B: Item.of('minecraft:stone').toJson()
+        }, Ingredient.of('#forge:hammers')),
 		flint_shapedRecipe(Item.of('4x minecraft:arrow'), ['A', 'B', 'C'], {
             A: Item.of('stone_age:bone_arrow_head').toJson(),
             B: Item.of('#forge:rods/wooden').toJson(),

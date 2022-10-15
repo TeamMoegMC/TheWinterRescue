@@ -1234,5 +1234,22 @@
 				type: "checkmark"
 			}]
 		}
+		{
+			x: 3.5d
+			y: 1.5d
+			subtitle: "{quest.twr.7A992B9F9DB079E6.subtitle}"
+			description: [
+				"{quest.twr.7A992B9F9DB079E6.description.1}"
+				"{quest.twr.7A992B9F9DB079E6.description.2}"
+			]
+			dependencies: ["6A22E2D62D4719BE"]
+			optional: true
+			id: "7A992B9F9DB079E6"
+			tasks: [{
+				id: "341D662BEB1B0054"
+				type: "item"
+				item: "frostedheart:incubator"
+			}]
+		}
 	]
 }

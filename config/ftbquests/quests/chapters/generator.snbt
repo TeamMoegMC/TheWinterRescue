@@ -346,5 +346,23 @@
 				count: 4
 			}]
 		}
+		{
+			x: -5.25d
+			y: -9.0d
+			subtitle: "{quest.twr.047F11A29F16A270.subtitle}"
+			description: [
+				"{quest.twr.047F11A29F16A270.description.1}"
+				"{quest.twr.047F11A29F16A270.description.2}"
+				"{quest.twr.047F11A29F16A270.description.3}"
+			]
+			dependencies: ["3EF706F5A31CDDD6"]
+			size: 1.5d
+			id: "047F11A29F16A270"
+			tasks: [{
+				id: "07C0F9F23935FAB8"
+				type: "item"
+				item: "frostedheart:heat_incubator"
+			}]
+		}
 	]
 }

@@ -118,11 +118,14 @@ onEvent('item.tags', (event) => {
 	colors.forEach(clr=>{
 		event.add('minecraft:shulker_box', 'minecraft:'+clr+'_shulker_box')
 	})
+	event.add('kubejs:straw_briquettes','kubejs:wet_straw_briquette');
+	event.add('kubejs:straw_briquettes','kubejs:straw_briquette');
 	event.add('thermopolium:container','frostedheart:advanced_thermos');
 	event.add('thermopolium:container','frostedheart:thermos');
 	event.add('thermopolium:cereals/baked','frostedheart:military_rations');
 	event.add('thermopolium:vegetables','frostedheart:military_rations');
 	event.add('thermopolium:meats/meat','frostedheart:military_rations');
+	event.add('thermopolium:meats/meat','charcoal_pit:chocolate');
 	event.add('thermopolium:vegetables','frostedheart:dried_vegetables');
 	event.add('frostedheart:mushroom_base',"frostedheart:straw_briquette_red_mushroom")
 	event.add('frostedheart:mushroom_base',"frostedheart:straw_briquette_brown_mushroom")

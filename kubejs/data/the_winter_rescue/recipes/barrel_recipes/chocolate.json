@@ -1,0 +1,16 @@
+{
+  "type": "charcoal_pit:barrel",
+  "item_in":{
+  	"item":"frostedheart:generator_ash"
+  },
+  "fluid_in":{
+  	"fluid":"kubejs:protein",
+  	"amount": 1000
+  },
+  "item_out":{
+  	"item":"charcoal_pit:chocolate"
+  },
+  "flags": 1,
+  "out_amount":6,
+  "time": 2400
+}
