@@ -82,10 +82,6 @@ onEvent('item.tags', (event) => {
 	event.add("diet:plant_oil","#forge:crops/walnut");
 	event.add("diet:plant_oil","rankine:roasted_walnut");
 	event.add("diet:plant_oil","rankine:trail_mix");
-	event.add("diet:plant_oil","charcoal_pit:corn_kernels");
-	event.add("diet:plant_oil","charcoal_pit:popcorn");
-	event.add("diet:plant_oil","charcoal_pit:cooked_chestnut");
-	event.add("diet:plant_oil","charcoal_pit:chocolate");
 	event.add("diet:plant_oil","crockpot:popcorn");
 	//event.add("diet:proteins","#diet:plant_oil")
 	event.add("diet:plant_oil","create:bar_of_chocolate");

@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-	"rankine:popcorn",
-	"charcoal_pit:corn"
+	"rankine:popcorn"
   ]
 }

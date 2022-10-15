@@ -1,9 +1,5 @@
 {
   "replace": false,
   "values": [
-	"charcoal_pit:cooked_calamari",
-	"charcoal_pit:calamari",
-	"charcoal_pit:turtle_raw",
-	"charcoal_pit:turtle_cooked"
   ]
 }

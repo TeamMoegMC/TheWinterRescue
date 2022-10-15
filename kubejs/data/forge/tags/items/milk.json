@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
 	"rankine:unaged_cheese",
-	"rankine:aged_cheese",
-	"charcoal_pit:cheese"
+	"rankine:aged_cheese"
   ]
 }
