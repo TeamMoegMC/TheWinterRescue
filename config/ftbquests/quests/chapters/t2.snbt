@@ -545,17 +545,25 @@
 			}]
 		}
 		{
+			icon: "immersiveengineering:connector_lv"
 			x: -4.0d
 			y: 5.5d
 			subtitle: "{quest.twr.5B8BA38FF8C93A1A.subtitle}"
 			dependencies: ["1F2BD4A72596B287"]
 			hide: true
 			id: "5B8BA38FF8C93A1A"
-			tasks: [{
-				id: "097290DF7B43D5D8"
-				type: "item"
-				item: "immersiveengineering:wirecoil_copper"
-			}]
+			tasks: [
+				{
+					id: "67831B39F4534271"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "47201FE01EF70A2A"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+			]
 			rewards: [{
 				id: "6F846FE58AFEAF31"
 				type: "item"

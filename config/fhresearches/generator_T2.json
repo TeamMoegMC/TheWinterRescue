@@ -79,5 +79,6 @@
     }
   ],
   "points": 6000,
-  "showAltDesc": true
+  "showAltDesc": true,
+  "hideEffects": true
 }

@@ -270,6 +270,7 @@
 				"{quest.twr.690B75C64EB9A7C1.description.4}"
 			]
 			dependencies: ["4F8E2D7FDA9A1D17"]
+			hide: true
 			id: "690B75C64EB9A7C1"
 			tasks: [{
 				id: "21383D39C08AA7AC"
@@ -279,7 +280,7 @@
 		{
 			title: "{quest.twr.6496F756C2514C7A.title}"
 			icon: "kubejs:damaged_gpu"
-			x: -9.0d
+			x: -8.5d
 			y: -3.5d
 			subtitle: "{quest.twr.6496F756C2514C7A.subtitle}"
 			description: [
@@ -287,6 +288,7 @@
 				"{quest.twr.6496F756C2514C7A.description.2}"
 			]
 			dependencies: ["4F8E2D7FDA9A1D17"]
+			hide: true
 			optional: true
 			id: "6496F756C2514C7A"
 			tasks: [{
@@ -317,6 +319,7 @@
 				"{quest.twr.2ED180AF29DA4A90.description.3}"
 			]
 			dependencies: ["4F8E2D7FDA9A1D17"]
+			hide: true
 			id: "2ED180AF29DA4A90"
 			tasks: [{
 				id: "597C01D2306DDADF"
