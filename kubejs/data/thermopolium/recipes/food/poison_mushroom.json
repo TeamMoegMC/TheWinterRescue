@@ -1,0 +1,42 @@
+{
+  "type": "thermopolium:food",
+  "heal": 3,
+  "sat": 0.5,
+  "items": [
+    {
+      "item": "rankine:artist_conk_mushroom"
+    },
+    {
+      "item": "rankine:tinder_conk_mushroom"
+    },
+    {
+      "item": "rankine:turkey_tail_mushroom"
+    },
+    {
+      "item": "rankine:cinnabar_polypore_mushroom"
+    }
+  ],
+  "effects": [
+    {
+      "level": 2,
+      "time": 400,
+      "effect": "minecraft:poison",
+      "chance": 1.0
+    },
+    {
+      "level": 1,
+      "time": 1200,
+      "effect": "minecraft:hunger",
+      "chance": 1.0
+    },
+    {
+      "level": 0,
+      "time": 400,
+      "effect": "minecraft:nausea",
+      "chance": 1.0
+    }
+  ],
+  "item": {
+    "item": "minecraft:red_mushroom"
+  }
+}
