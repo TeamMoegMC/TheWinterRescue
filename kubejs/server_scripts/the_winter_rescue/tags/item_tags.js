@@ -75,7 +75,8 @@ onEvent('item.tags', (event) => {
 	//event.add("diet:sugars","#diet:fruits");
 	//event.add("diet:vegetables","#diet:fruits")
 	event.removeAll("diet:fruits")
-	
+	//event.remove("thermopolium:mushroom","#forge:mushrooms");
+	//event.add("thermopolium:mushroom","#forge:edible_mushrooms");
 	event.add("diet:plant_oil","kubejs:plant_oil");
 	event.add("diet:plant_oil","#forge:crops/corn");
 	event.add("diet:plant_oil","#forge:corn");
@@ -126,7 +127,9 @@ onEvent('item.tags', (event) => {
 	event.add('thermopolium:vegetables','frostedheart:white_turnip_block');
 	event.add('thermopolium:vegetables','frostedheart:dried_vegetables');
 	event.add('frostedheart:mushroom_base',"frostedheart:straw_briquette_red_mushroom")
-	event.add('frostedheart:mushroom_base',"frostedheart:straw_briquette_brown_mushroom")
+	event.add('the_winter_rescue:leather',"minecraft:leather")
+	event.add('the_winter_rescue:leather',"#forge:rubber")
+	event.add('frostedheart:electronic_junk',"kubejs:damaged_gpu")
 	event.add('frostedheart:electronic_junk',"kubejs:damaged_gpu")
     event.add('frostedheart:electronic_junk',"kubejs:damaged_circuit_board")
     event.add('frostedheart:electronic_junk',"kubejs:damaged_electric_motor")

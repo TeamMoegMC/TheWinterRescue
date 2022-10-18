@@ -22,7 +22,12 @@ onEvent('item.modification', event => {
 			item.burnTime = 0
 		})
 	});
-
+	event.modify("minecraft:dried_kelp_block", item => {
+			item.burnTime = 0
+		})
+		event.modify("immersiveengineering:dust_coke", item => {
+			item.burnTime = 3600
+		})
 	// modify burn time of snowy vine, 20 ticks, which is half of straw
 	event.modify('primalwinter:snowy_vine', item => {
 		item.burnTime = 20

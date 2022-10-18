@@ -41,7 +41,10 @@ onEvent('recipes', (event) => {
         ['create:dough','minecraft:sugar']},
 	{output:
         ['kubejs:bounded_graphite'],input:
-        ['4x #forge:dusts/hop_graphite',Fluid.of('kubejs:tar',1000)]}
+        ['4x #forge:dusts/hop_graphite',Fluid.of('kubejs:tar',1000)]},
+	{output:
+        ['8x immersiveengineering:treated_wood_horizontal'],input:
+        ['8x #minecraft:planks',Fluid.of('immersiveengineering:creosote',1000)]}
     
 	]
 	let heated = [

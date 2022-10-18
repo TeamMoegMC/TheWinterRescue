@@ -16,7 +16,7 @@ onEvent('recipes', (event) => {
         event.recipes.createDeploying('kubejs:incomplete_capacitor_mv', ['kubejs:incomplete_capacitor_mv', '#forge:dusts/redstone']),
         event.recipes.createDeploying('kubejs:incomplete_capacitor_mv', ['kubejs:incomplete_capacitor_mv', 'immersiveengineering:wirecoil_electrum']),
         event.recipes.createDeploying('kubejs:incomplete_capacitor_mv', ['kubejs:incomplete_capacitor_mv', '#forge:plates/aluminum']),
-        event.recipes.createDeploying('kubejs:incomplete_capacitor_mv', ['create:incomplete_large_cogwheel', '#forge:treated_wood']),
+        event.recipes.createDeploying('kubejs:incomplete_capacitor_mv', ['kubejs:incomplete_capacitor_mv', '#forge:treated_wood']),
     ]).transitionalItem('kubejs:battery_alloy_plate').loops(6)
 
     event.recipes.createSequencedAssembly([
@@ -42,8 +42,8 @@ onEvent('recipes', (event) => {
 	event.recipes.createSequencedAssembly([
         Item.of('kubejs:servo_core')
     ], 'immersiveengineering:circuit_board', [
-        event.recipes.createDeploying('immersiveengineering:circuit_board', ['create:copper_sheet', 'kubejs:motor']),
-        event.recipes.createDeploying('immersiveengineering:circuit_board', ['create:copper_sheet', 'immersiveengineering:wirecoil_copper']),
-		event.recipes.createFilling('immersiveengineering:circuit_board', ['create:copper_sheet', Fluid.of('rankine:resin', 100)]),
+        event.recipes.createDeploying('immersiveengineering:circuit_board', ['immersiveengineering:circuit_board', 'kubejs:motor']),
+        event.recipes.createDeploying('immersiveengineering:circuit_board', ['immersiveengineering:circuit_board', 'immersiveengineering:wirecoil_copper']),
+		event.recipes.createFilling('immersiveengineering:circuit_board', ['immersiveengineering:circuit_board', Fluid.of('rankine:resin', 100)]),
     ]).transitionalItem('immersiveengineering:circuit_board').loops(4)
 });

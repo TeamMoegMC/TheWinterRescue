@@ -1,5 +1,12 @@
 //priority: 1005
 
+function IEIngredient(input) {
+	let inp=Ingredient.of(input);
+    return {base_ingredient: inp.withCount(1).toJson(), count: inp.getCount()};
+}
+function FluidTag(tag,amount) {
+    return {"tag":tag,"amount":amount};
+}
 function shapedRecipe(result, pattern, key, id) {
     return {result: result, pattern: pattern, key: key, id: id};
 }
@@ -34,15 +41,39 @@ function inspireRecipe(input, result) {
     return {type: 'frostedheart:inspire', item: Item.of(input).toJson(), amount: result};
 }
 
-function incubateRecipeI(input,catalyst,use_catalyst,result,time,water) {
-    return {type: "frostedheart:incubate",input: input,consume_catalyst:use_catalyst,catalyst:catalyst,output: result,time:time,water:water};
+function incubateItemRecipe(input,catalyst,use_catalyst,result,time,water) {
+    return {type: "frostedheart:incubate",input: IEIngredient(input),consume_catalyst:use_catalyst,catalyst:IEIngredient(catalyst),output: Item.of(result),time:time,water:water};
 }
-function incubateRecipeF(input,catalyst,use_catalyst,result,resultfluid,time,water) {
-    return {type: "frostedheart:incubate",consume_catalyst:use_catalyst,input: input,catalyst:catalyst,fluid:resultfluid,output: result,time:time,water:water};
+function incubateFluidRecipe(input,catalyst,use_catalyst,result,resultfluid,time,water) {
+    return {type: "frostedheart:incubate",input: IEIngredient(input),consume_catalyst:use_catalyst,catalyst:IEIngredient(catalyst),fluid:FluidStack.of(resultfluid),output: Item.of(result),time:time,water:water};
 }
 function incubateRecipe(input,catalyst,use_catalyst,result,resultfluid,time,water) {
-    return {type: "frostedheart:incubate",input: input,consume_catalyst:use_catalyst,catalyst:catalyst,output: result,fluid:resultfluid,time:time,water:water};
+    return {type: "frostedheart:incubate",input: IEIngredient(input),consume_catalyst:use_catalyst,catalyst:IEIngredient(catalyst),output: result,fluid:FluidStack.of(resultfluid),time:time,water:water};
 }
+function carkilnRecipe(inputs,output,time,energy,start_cost){
+	let ings=[];
+	inputs.forEach((key)=>{
+		ings.push(IEIngredient(key));
+	})
+	return {
+		"type": "immersiveindustry:car_kiln",
+		"inputs": ings,
+		"result": Item.of(output),
+		"time": time,
+		"tickEnergy":energy,
+		"start_fluid_cost":start_cost
+	};
+}
+function rotarykilnRecipe(input,output,time,energy){
+	return {
+		"type": "immersiveindustry:rotary_kiln",
+		"input": IEIngredient(input),
+		"result": Item.of(output),
+		"time": time,
+		"tickEnergy":energy
+	};
+}
+
 function unificationBlacklistEntry(material, type) {
     return {material: material, type: type};
 }

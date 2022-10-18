@@ -124,9 +124,7 @@ onEvent('recipes', (event) => {
 		'minecraft:wheat',
 		'minecraft:mushroom_stew'
     ]
-	let shapelessName = [
-    ]
-	let shapedName = [
+	let Names = [
 		'rankine:bucket_brass',
 		'rankine:bucket_misc',
 		'rankine:bucket_steel',
@@ -136,11 +134,8 @@ onEvent('recipes', (event) => {
 		'stone_age:backpack',
 		"minecraft:white_wool_from_string"
     ]
-	shapelessName.forEach((Item) => {
-        event.remove({type: 'minecraft:crafting_shapeless', id: Item});
-    });
-	shapedName.forEach((Item) => {
-        event.remove({type: 'minecraft:crafting_shaped', id: Item});
+	Names.forEach((Item) => {
+        event.remove({id: Item});
     });
 	let shaped=[
 		"#elevatorid:elevators"
@@ -185,7 +180,8 @@ onEvent('recipes', (event) => {
     });
 
     let createMillingAndCrushing = [
-        'minecraft:black_dye'
+        'minecraft:black_dye',
+		'create:wheat_flour'
     ]
     createMillingAndCrushing.forEach((Item) => {
         event.remove({type: 'create:milling', output: Item})
