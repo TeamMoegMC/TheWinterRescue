@@ -127,6 +127,7 @@ onEvent('item.tags', (event) => {
 	event.add('thermopolium:vegetables','frostedheart:white_turnip_block');
 	event.add('thermopolium:vegetables','frostedheart:dried_vegetables');
 	event.add('frostedheart:mushroom_base',"frostedheart:straw_briquette_red_mushroom")
+	event.add('frostedheart:mushroom_base',"frostedheart:straw_briquette_brown_mushroom")
 	event.add('the_winter_rescue:leather',"minecraft:leather")
 	event.add('the_winter_rescue:leather',"#forge:rubber")
 	event.add('frostedheart:electronic_junk',"kubejs:damaged_gpu")
