@@ -453,7 +453,7 @@
 						id: "itemfilters:tag"
 						Count: 1b
 						tag: {
-							value: "forge:edible_mushrooms"
+							value: "forge:mushrooms"
 						}
 					}
 					count: 8L
@@ -482,6 +482,30 @@
 				id: "4D5CC18CB0A34A9A"
 				type: "item"
 				item: "charcoal_pit:chocolate"
+			}]
+		}
+		{
+			title: "{quest.twr.42D8CA1487A024B8.title}"
+			x: -1.5d
+			y: -7.0d
+			subtitle: "{quest.twr.42D8CA1487A024B8.subtitle}"
+			description: [
+				"{quest.twr.42D8CA1487A024B8.description.1}"
+				"{quest.twr.42D8CA1487A024B8.description.2}"
+			]
+			dependencies: ["516392D8FE0C7E91"]
+			id: "42D8CA1487A024B8"
+			tasks: [{
+				id: "75525042F72AA878"
+				type: "item"
+				title: "{quest.twr.42D8CA1487A024B8.75525042F72AA878.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:mushrooms"
+					}
+				}
 			}]
 		}
 	]

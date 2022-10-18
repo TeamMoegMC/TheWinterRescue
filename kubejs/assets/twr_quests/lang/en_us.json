@@ -1081,5 +1081,10 @@
   "quest.twr.047F11A29F16A270.description.3": "&d&lRefer to chapter \"A Day of Siberian Chef\"",
   "quest.twr.76723451C6850C81.33BB3D36B1C4EA5D.title": "Health warning",
   "quest.twr.7A992B9F9DB079E6.description.1": "Incubators can incubate any sort of decomposer and produce related products.",
-  "quest.twr.2292AB368EF121C2.5656D07546CDEC9C.title": "Any edible fungis"
+  "quest.twr.2292AB368EF121C2.5656D07546CDEC9C.title": "Any fungis",
+  "quest.twr.42D8CA1487A024B8.subtitle": "It's poisonous!",
+  "quest.twr.42D8CA1487A024B8.description.1": "You may find wild mushrooms on tree chunks, they can be cooked into soup.",
+  "quest.twr.42D8CA1487A024B8.description.2": "But not all mushrooms are edible, cooking can't remove their toxicity.",
+  "quest.twr.42D8CA1487A024B8.75525042F72AA878.title": "Any mushroom",
+  "quest.twr.42D8CA1487A024B8.title": "Mushrooms"
 }
