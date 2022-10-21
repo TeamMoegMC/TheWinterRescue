@@ -35,7 +35,7 @@ Some of the mods are made by us:
 2. [Steam Powered](https://github.com/TeamMoegMC/SteamPowered)
 3. [Weather Forecast](https://github.com/TeamMoegMC/WeatherForecast)
 4. [Frosted Heart](https://github.com/TeamMoegMC/FrostedHeart)
-5. [Stew Craft](https://github.com/TeamMoegMC/StewCraft)(still in draft)
+5. [Thermopolium](https://github.com/TeamMoegMC/Thermopolium)
 6. [With Her Eyes](https://github.com/TeamMoegMC/WithHerEyes)(still in draft)
 
 And These are mods we forked and changed for our modpack:
