@@ -224,7 +224,7 @@
 			icon: "rankine:lignite"
 			x: 4.0d
 			y: 2.0d
-			subtitle: "在一些沉积岩中"
+			subtitle: "{quest.twr.539631D18E7A9B4A.subtitle}"
 			description: [
 				"{quest.twr.539631D18E7A9B4A.description.1}"
 				"{quest.twr.539631D18E7A9B4A.description.2}"
@@ -351,7 +351,7 @@
 		{
 			x: 2.5d
 			y: 3.0d
-			subtitle: "在一些沉积岩中"
+			subtitle: "{quest.twr.1120D6251E9B42C4.subtitle}"
 			description: [
 				"{quest.twr.1120D6251E9B42C4.description.1}"
 				"{quest.twr.1120D6251E9B42C4.description.2}"
