@@ -1,6 +1,7 @@
 # Contributing to Translation Files
 We welcome any player to contribute to our translation files. Here are some instructions.
 ## Folder Structure
+The main resource Folder located in `kubejs/assets/`.
 Each folder in this folder represent a mod and named after modid. Before contributing to these files, please check out that coresponding mod does NOT contains your language, and always consider contributing to the original mod first.  
 
 These following folders are related to our project:
@@ -10,6 +11,7 @@ These following folders are related to our project:
 4. `tips/lang` is in-game tips translation folder.
 5. `twr_quests/lang` is quest book translation folder.
 6. `diet/lang` is diet language and our custom diet group translation folder, __do not contribute this to Diet Mod__.    
+7. `twr_researches/lang` is research text translation folder.
 
 You are welcomed to contribute to these folders. 
 ## Contributing
