@@ -486,5 +486,20 @@
 				item: "rankine:evaporite"
 			}]
 		}
+		{
+			x: -6.5d
+			y: 2.0d
+			subtitle: "{quest.twr.73242CFC1E655F2D.subtitle}"
+			description: ["{quest.twr.73242CFC1E655F2D.description.1}"]
+			hide_dependency_lines: true
+			dependencies: ["181378ABF5CCD166"]
+			hide_text_until_complete: true
+			id: "73242CFC1E655F2D"
+			tasks: [{
+				id: "29005A15A2EBDBEE"
+				type: "item"
+				item: "rankine:kaolin"
+			}]
+		}
 	]
 }

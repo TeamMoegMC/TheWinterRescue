@@ -30,7 +30,7 @@
   ],
   "ingredients": [
     {
-      "tag": "forge:edible_mushrooms"
+      "tag": "forge:mushrooms"
     },
     {
       "tag": "kubejs:straw_briquettes"
