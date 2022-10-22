@@ -137,6 +137,29 @@ onEvent('recipes', (event) => {
 	Names.forEach((Item) => {
         event.remove({id: Item});
     });
+	/*let Pot = [
+		'potato_souffle',
+		'perogies',
+		'moqueca',
+		'gazpacho',
+		'asparagus_soup',
+		'tea',
+		"veg_stinger",
+		"bone_soup",
+		"surf_n_turf",
+		"hot_cocoa",
+		"seafood_gumbo",
+		"tropical_bouillabaisse",
+		"mushy_cake",
+		"ceviche",
+		"avaj",
+		"iced_tea",
+		"california_roll",
+		"monster_tartare"
+    ]
+	Pot.forEach((Item) => {
+        event.remove({id: "crock_pot:crock_pot_cooking/"+Item});
+    });*/
 	let shaped=[
 		"#elevatorid:elevators"
 	]
