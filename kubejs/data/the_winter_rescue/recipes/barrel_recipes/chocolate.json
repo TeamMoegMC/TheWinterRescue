@@ -8,7 +8,7 @@
   	"amount": 1000
   },
   "item_out":{
-  	"item":"charcoal_pit:chocolate"
+  	"item":"frostedheart:chocolate"
   },
   "flags": 1,
   "out_amount":6,
