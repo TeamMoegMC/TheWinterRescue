@@ -94,6 +94,13 @@
       "blocks": [
         "frostedheart:mechanical_calculator"
       ]
+    },
+    {
+      "type": "item",
+      "id": "5a433bcb281c4239",
+      "rewards": [
+        "frostedheart:mechanical_calculator"
+      ]
     }
   ],
   "points": 2000,

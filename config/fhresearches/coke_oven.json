@@ -6,7 +6,7 @@
   "descAlt": [
     "@"
   ],
-  "icon": "minecraft:coal",
+  "icon": "immersiveengineering:coal_coke",
   "category": "frostedheart:ars",
   "parents": [
     "workbench"

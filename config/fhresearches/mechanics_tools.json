@@ -9,8 +9,7 @@
   "icon": "create:wrench",
   "category": "frostedheart:ars",
   "parents": [
-    "transmission_machinery",
-    "blast_furnace"
+    "transmission_machinery"
   ],
   "clues": [
     {
@@ -26,12 +25,6 @@
       "count": 2,
       "base_ingredient": {
         "tag": "the_winter_rescue:cogwheels"
-      }
-    },
-    {
-      "count": 2,
-      "base_ingredient": {
-        "tag": "the_winter_rescue:large_cogwheels"
       }
     }
   ],
