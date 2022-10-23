@@ -214,10 +214,7 @@
 				"{quest.twr.162264AE4B9EE1A9.description.3}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			dependencies: [
-				"6A22E2D62D4719BE"
-				"4B6840707D77E2C0"
-			]
+			dependencies: ["6A22E2D62D4719BE"]
 			hide: true
 			id: "162264AE4B9EE1A9"
 			tasks: [
@@ -541,6 +538,7 @@
 				"{quest.twr.1C8171C8FD1D0CD5.description.2}"
 			]
 			dependencies: ["13AA30FB9CD620EB"]
+			hide: true
 			id: "1C8171C8FD1D0CD5"
 			tasks: [{
 				id: "0858859213DC6012"
@@ -605,7 +603,6 @@
 				"{quest.twr.13AA30FB9CD620EB.description.4}"
 			]
 			dependencies: ["4625CA3FEAF6908B"]
-			hide: true
 			id: "13AA30FB9CD620EB"
 			tasks: [{
 				id: "55E5BC7F36B1F814"

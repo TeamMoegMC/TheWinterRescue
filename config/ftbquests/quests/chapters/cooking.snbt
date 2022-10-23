@@ -100,6 +100,7 @@
 		{
 			x: -2.0d
 			y: -3.0d
+			shape: "rsquare"
 			subtitle: "{quest.twr.7AA152F9B5AF6677.subtitle}"
 			description: [
 				"{quest.twr.7AA152F9B5AF6677.description.1}"
@@ -129,6 +130,7 @@
 			title: "{quest.twr.6D01046E549A087E.title}"
 			x: 5.0d
 			y: -0.5d
+			shape: "rsquare"
 			subtitle: "{quest.twr.6D01046E549A087E.subtitle}"
 			description: ["{quest.twr.6D01046E549A087E.description.1}"]
 			dependencies: ["69D939596ED4C0AF"]
@@ -192,6 +194,7 @@
 		{
 			x: -2.0d
 			y: -0.5d
+			shape: "rsquare"
 			subtitle: "{quest.twr.4E2FF1AFA626A42B.subtitle}"
 			description: ["{quest.twr.4E2FF1AFA626A42B.description.1}"]
 			dependencies: ["69D939596ED4C0AF"]
@@ -365,8 +368,9 @@
 		}
 		{
 			title: "{quest.twr.516392D8FE0C7E91.title}"
-			x: 0.5d
+			x: 3.0d
 			y: -7.0d
+			shape: "rsquare"
 			subtitle: "{quest.twr.516392D8FE0C7E91.subtitle}"
 			description: [
 				"{quest.twr.516392D8FE0C7E91.description.1}"
@@ -486,7 +490,7 @@
 		}
 		{
 			title: "{quest.twr.42D8CA1487A024B8.title}"
-			x: -1.5d
+			x: 0.5d
 			y: -7.0d
 			subtitle: "{quest.twr.42D8CA1487A024B8.subtitle}"
 			description: [
