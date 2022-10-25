@@ -485,7 +485,7 @@
 			tasks: [{
 				id: "4D5CC18CB0A34A9A"
 				type: "item"
-				item: "charcoal_pit:chocolate"
+				item: "frostedheart:chocolate"
 			}]
 		}
 		{

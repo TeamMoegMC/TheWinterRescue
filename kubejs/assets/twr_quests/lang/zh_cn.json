@@ -1041,7 +1041,7 @@
   "quest.twr.743FEA6865CD1D90.subtitle": "星球绿化进度0.000001%%",
   "quest.twr.688E6165A1E9A28C.description.1": "我一时半会是没法逃出这里了。光靠打猎获取食物过于冒险了。但是天气太冷了，&c以至于难以维持合适的温湿度来种植作物&r。",
   "quest.twr.73ADDB2F9A4F7C5D.description.2": "&e使用蘑菇或任意其它原料，且蘑菇的数量超过其它原料的数量，放入锅中烹饪即可获得蘑菇汤。",
-  "quest.twr.688E6165A1E9A28C.description.2": "我也许可以考虑重复利用从飞船下拆下来的能量塔核心。",
+  "quest.twr.688E6165A1E9A28C.description.2": "我也许可以考虑重复利用从飞船下拆下来的能量塔核心。&c&l（无实物，完成研究获得）",
   "quest.twr.688E6165A1E9A28C.description.3": "&e&l参见研究：能量塔核心再利用。",
   "quest.twr.5D7B5ABC70D38636.description.1": "经常要在计算器旁边等待科技点收集？救星来了！",
   "quest.twr.5D7B5ABC70D38636.description.2": "拓印工具可以装载在机械手上从而从所对的计算器中收集所有科技点数。",
@@ -1091,5 +1091,6 @@
   "quest.twr.539631D18E7A9B4A.subtitle": "在一些沉积岩中",
   "quest.twr.1120D6251E9B42C4.subtitle": "在一些沉积岩中",
   "quest.twr.73242CFC1E655F2D.description.1": "生成在浅层的石灰岩、白云岩、白垩岩、页岩、粉砂岩中。",
-  "quest.twr.73242CFC1E655F2D.subtitle": "在上层沉积岩中"
+  "quest.twr.73242CFC1E655F2D.subtitle": "在上层沉积岩中",
+  "quest.twr.17C359DCF058E698.description.2": ""
 }

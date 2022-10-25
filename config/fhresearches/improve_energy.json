@@ -1,0 +1,87 @@
+{
+  "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "icon": "minecraft:paper",
+  "category": "frostedheart:ars",
+  "parents": [
+    "transmission_machinery"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.5,
+      "id": "ee175cefc3da4e2b",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.1,
+      "id": "785921606fb34945",
+      "required": true,
+      "item": {
+        "type": "forge:nbt",
+        "item": "frostedheart:charcoal",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "value": 0.1,
+      "id": "9c3155e3579245b9",
+      "required": true,
+      "item": {
+        "type": "forge:nbt",
+        "item": "frostedheart:charcoal",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "value": 0.1,
+      "id": "a2448f4c621c4f14",
+      "required": true,
+      "item": {
+        "type": "forge:nbt",
+        "item": "frostedheart:charcoal",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "consume": true
+    },
+    {
+      "type": "game",
+      "value": 0.2,
+      "id": "3707af210b674faf",
+      "required": true,
+      "level": 0
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 16,
+      "base_ingredient": {
+        "item": "minecraft:paper"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "stats",
+      "id": "9ae5061280a14bea",
+      "vars": "max_energy",
+      "val": 10000.0
+    }
+  ],
+  "points": 2000,
+  "showAltDesc": true
+}

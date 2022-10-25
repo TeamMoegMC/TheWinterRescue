@@ -307,8 +307,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 5.5d
+			x: -12.5d
+			y: 2.5d
 			subtitle: "{quest.twr.29DCBBB54EE90E51.subtitle}"
 			description: [
 				"{quest.twr.29DCBBB54EE90E51.description.1}"
@@ -436,8 +436,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 7.0d
+			x: -10.5d
+			y: 2.5d
 			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
 			description: ["{quest.twr.15B365E3F3EAFE79.description.1}"]
 			hide_dependency_lines: false
@@ -501,7 +501,10 @@
 			y: -3.5d
 			shape: "rsquare"
 			subtitle: "{quest.twr.17C359DCF058E698.subtitle}"
-			description: ["{quest.twr.17C359DCF058E698.description.1}"]
+			description: [
+				"{quest.twr.17C359DCF058E698.description.1}"
+				"{quest.twr.17C359DCF058E698.description.2}"
+			]
 			dependencies: ["3E8F565DE61309B2"]
 			hide: true
 			id: "17C359DCF058E698"
@@ -598,8 +601,8 @@
 		}
 		{
 			title: "{quest.twr.6439CF1B54CEF092.title}"
-			x: -8.5d
-			y: 1.0d
+			x: -9.0d
+			y: 0.0d
 			subtitle: "{quest.twr.6439CF1B54CEF092.subtitle}"
 			dependencies: ["4600CF7553C26ED0"]
 			id: "6439CF1B54CEF092"
@@ -617,8 +620,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 2.5d
+			x: -8.0d
+			y: 1.0d
 			subtitle: "{quest.twr.279DA3B6F5DE7753.subtitle}"
 			dependencies: [
 				"6577F4E013F76B98"
@@ -632,8 +635,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 2.5d
+			x: -9.0d
+			y: 2.0d
 			subtitle: "{quest.twr.6577F4E013F76B98.subtitle}"
 			description: ["{quest.twr.6577F4E013F76B98.description.1}"]
 			dependencies: ["4600CF7553C26ED0"]
@@ -879,8 +882,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 4.0d
+			x: -13.5d
+			y: 2.5d
 			description: [
 				"{quest.twr.41D8E04627E55A86.description.1}"
 				"{quest.twr.41D8E04627E55A86.description.2}"

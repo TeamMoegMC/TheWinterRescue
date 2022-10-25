@@ -1,0 +1,12 @@
+{
+  "type": "immersiveindustry:electrolyzer",
+  "result": {
+    "item": "rankine:sodium_ingot"
+  },
+  "input": {
+    "base_ingredient":{"item": "rankine:sodium_hydroxide"},
+	"count":2
+  },
+  "large_only":true,
+  "time": 240
+}

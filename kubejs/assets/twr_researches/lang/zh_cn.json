@@ -220,5 +220,8 @@
   "research.frostedheart.incubator.desc_alt.1": "我需要一个固定的真菌养殖设备。",
   "research.frostedheart.incubator.desc_alt.0": "虽然在身上携带菌床十分方便，但是它确实也挤占了身上的空间。",
   "research.frostedheart.heating_basin.desc_alt.1": "我需要计算器帮助我研究。",
-  "research.frostedheart.incubator.name": "进阶真菌养殖"
+  "research.frostedheart.incubator.name": "进阶真菌养殖",
+  "research.frostedheart.improve_energy.name": "论文练习",
+  "research.frostedheart.improve_energy.desc.0": "通过一系列练习，我的运算和写作能力提升了。",
+  "research.frostedheart.improve_energy.desc_alt.0": "我认为我的灵感太容易枯竭了，也许我应该进行一系列练习来提升我自己的能力。"
 }

@@ -47,8 +47,16 @@ onEvent('recipes', (event) => {
 		[Fluid.of('kubejs:protein', 500),Fluid.of('minecraft:water', 500),"minecraft:sugar"]},
 	{output:
         ['8x immersiveengineering:treated_wood_horizontal'],input:
-        ['8x #minecraft:planks',Fluid.of('immersiveengineering:creosote',1000)]}
-		
+	['8x #minecraft:planks',Fluid.of('immersiveengineering:creosote',1000)]},
+	{output:
+        ['rankine:pulp'],input:
+        ['4x #forge:dusts/wood','#forge:clay_balls',Fluid.of('minecraft:water',1000)]},
+	{output:
+        ['rankine:sodium_sulfide'],input:
+        ['rankine:sodium_ingot','#forge:dusts/sulfur']},
+	{output:
+        ['4x rankine:pulp'],input:
+        ['8x #forge:dusts/wood','rankine:sodium_sulfide','rankine:sodium_hydroxide',Fluid.of('minecraft:water',1000)]}
     
 	]
 	let heated = [

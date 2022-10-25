@@ -23,6 +23,7 @@
       "name": "@clue.frostedheart.item",
       "value": 0.5,
       "id": "42a8d2f5abf545bf",
+      "required": true,
       "item": {
         "item": "steampowered:bronze_sheet"
       }

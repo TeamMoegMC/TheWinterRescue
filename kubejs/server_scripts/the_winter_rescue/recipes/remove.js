@@ -212,7 +212,7 @@ onEvent('recipes', (event) => {
     });
 
     // Remove by Types
-	
+	event.remove({mod: 'rankine', output: "#forge:sheetmetal"});
 	event.remove({type: 'rankine:crushing'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:radiator'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:rs_engineering'})
