@@ -18,8 +18,8 @@
 		{
 			title: "{quest.twr.391E30AD9CB7147F.title}"
 			icon: "frostedheart:drawing_desk"
-			x: -6.5d
-			y: -0.5d
+			x: -10.799999999999999d
+			y: -0.6d
 			shape: "rsquare"
 			subtitle: "{quest.twr.391E30AD9CB7147F.subtitle}"
 			description: [
@@ -29,7 +29,6 @@
 				"{quest.twr.391E30AD9CB7147F.description.4}"
 				"{quest.twr.391E30AD9CB7147F.description.5}"
 			]
-			dependencies: ["6A22E2D62D4719BE"]
 			size: 1.2d
 			id: "391E30AD9CB7147F"
 			tasks: [{
@@ -39,9 +38,9 @@
 			}]
 		}
 		{
-			icon: "minecraft:string"
-			x: -6.5d
-			y: 1.5d
+			icon: "storagedrawers:drawer_key"
+			x: -8.5d
+			y: -2.0d
 			subtitle: "{quest.twr.1DE66DB6DF406019.subtitle}"
 			description: [
 				"{quest.twr.1DE66DB6DF406019.description.1}"
@@ -73,7 +72,7 @@
 				"{quest.twr.1938FC4AAD99137E.description.4}"
 				"{quest.twr.1938FC4AAD99137E.description.5}"
 			]
-			dependencies: ["391E30AD9CB7147F"]
+			dependencies: ["1DE66DB6DF406019"]
 			hide: true
 			id: "1938FC4AAD99137E"
 			tasks: [{
@@ -194,7 +193,7 @@
 					}
 				}
 			}
-			x: -4.5d
+			x: -6.5d
 			y: -0.5d
 			subtitle: "{quest.twr.3FEE911101C61CFB.subtitle}"
 			description: [
@@ -217,7 +216,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -8.5d
 			y: 1.0d
 			subtitle: "{quest.twr.37726761B26CE51C.subtitle}"
 			description: [
@@ -235,8 +234,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -0.5d
+			x: -5.5d
+			y: 1.1d
 			shape: "gear"
 			subtitle: "{quest.twr.2148082183BBDF76.subtitle}"
 			description: [
@@ -245,8 +244,8 @@
 				"{quest.twr.2148082183BBDF76.description.3}"
 			]
 			dependencies: [
-				"3BBB2213C574F333"
 				"17F033FB5ACAACFB"
+				"37726761B26CE51C"
 			]
 			hide: true
 			size: 1.1d
@@ -330,8 +329,8 @@
 		{
 			title: "{quest.twr.37B4F2A2F05B5332.title}"
 			icon: "frostedheart:mechanical_calculator"
-			x: -2.5d
-			y: 1.0d
+			x: -5.5d
+			y: 2.5d
 			shape: "rsquare"
 			subtitle: "{quest.twr.37B4F2A2F05B5332.subtitle}"
 			description: [
@@ -349,8 +348,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 2.5d
+			x: -5.5d
+			y: 4.0d
 			shape: "rsquare"
 			subtitle: "{quest.twr.5D7B5ABC70D38636.subtitle}"
 			description: [
