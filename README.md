@@ -30,9 +30,9 @@
 <p align="center">are the only light in this frosted world</p>
 
 
-<h3 align="center">You were able to:</h3>
+<h3 align="center">You will be able to:</h3>
 
-<h4 align="center">Experience a realistic yet life-threatening temperature system seen nonwhere</h4>
+<h4 align="center">Experience a realistic yet life-threatening temperature system seen nowhere</h4>
 
 <h4 align="center">Find over 30 types of rock layers and ore veins under the snow land</h4>
 
@@ -40,7 +40,7 @@
 
 <h4 align="center">Build from Flint Tools to Steam Flywheels to Industrial Multiblocks</h4>
 
-<h4 align="center">Build your own type of Steam Punk base with hundreds types of bricks, planks, and metal</h4>
+<h4 align="center">Build your own type of Steampunk base with hundreds types of bricks, planks, and metal</h4>
 
 <h4 align="center">And, Defend yourself from the Winter with a Generator Tower</h4>
 
