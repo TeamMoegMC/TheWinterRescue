@@ -82,7 +82,7 @@
   "research.frostedheart.fluid_transport.desc.0": "Nice, these pipes are strong and durable.",
   "research.frostedheart.fluid_transport.desc_alt.0": "Using buckets to transport all these liquids is becoming tedious, maybe I can create some kind of closed pipe to move them around?",
   "research.frostedheart.fluid_transport.name": "Fluid Transportation",
-  "research.frostedheart.generator_T1.desc.0": "The Generator will not only warm up me like campfire did, but also warm up the surrounding area! Maybe now I can grow some cold-resistent crops?",
+  "research.frostedheart.generator_T1.desc.0": "The Generator will not only warm me up like campfire did, but also warm up the surrounding area! Maybe now I can grow some cold-resistent crops?",
   "research.frostedheart.generator_T1.desc.1": "Ponder with the Engery Core to get instructions on how to build it.",
   "research.frostedheart.generator_T1.desc_alt.0": "I managed to remove the energy core of the space shuttle in one piece, maybe I can repurpose it?",
   "research.frostedheart.generator_T1.desc_alt.1": "Its original energy supply is depleted, maybe I can find another way to power it?",
@@ -131,7 +131,7 @@
   "research.frostedheart.mechanics_measurement.desc_alt.0": "Rotate, rotate, rotate, yes great, it rotates... what why it stops again? Reset! What, why the cogwheel breaks... I need something to help me check what's wrong!",
   "research.frostedheart.mechanics_measurement.name": "Watch The Gauge!",
   "research.frostedheart.mechanics_tools.desc.0": "Wrench is a nice tool. It effectively let me adjust the direction of devices, saving me a lot of time. Googles present primary information about current devices. At least I can research problems in my designs. ",
-  "research.frostedheart.mechanics_tools.desc_alt.0": "Got it reverse again!!! If there is a tool to precisely adjust the current devices without replacing them, that would be super.",
+  "research.frostedheart.mechanics_tools.desc_alt.0": "Got it reversed again!!! If there is a tool to precisely adjust the current devices without replacing them, that would be super.",
   "research.frostedheart.mechanics_tools.name": "Engineering Gear",
   "research.frostedheart.metal_press.desc.0": "I believe this is the best design under current cold technique. Though it's slower, but I can not only make plates,, I can even make wires, rods, and even casings with similar design. But if I want to increase the efficiency further to prevent breakage, hot processing is a must.",
   "research.frostedheart.metal_press.desc_alt.0": "The rolling machine is a good cold metal processing device. But because of its instatbility it mostly cost waste in material. If we somehow fix the material and use mold to control it, we may increase the efficiency of metal processing.",
@@ -139,7 +139,7 @@
   "research.frostedheart.millstone.desc.0": "Using rotational force to grind items down is exhausting but it's the best method I have at the moment...",
   "research.frostedheart.millstone.desc_alt.0": "Manually grinding materials doesn't yield as much as I'd hoped, maybe I can automate this in some way?",
   "research.frostedheart.millstone.name": "Grinding",
-  "research.frostedheart.mixer.desc.0": "Mixing egg, wll, good, but that's it. Mixing is mostly even, but looking for real homogenity is nonsense. I need to find a better machine to process this.",
+  "research.frostedheart.mixer.desc.0": "Mixing egg, well, good, but that's it. Mixing is mostly even, but looking for real homogenity is nonsense. I need to find a better machine to process this.",
   "research.frostedheart.mixer.desc_alt.0": "Combined material is something I have always been looking for, but the necessary process it to mix them together. The most common ways needs high temperature, water, etc. OK those methods are not I can test now. I just want to get some bricks, maybe egg mixer is a good choice.",
   "research.frostedheart.mixer.name": "Mixing",
   "research.frostedheart.multiblock_structure.desc.0": "Now I can start building large machines using these standard structural elements!",
@@ -173,7 +173,7 @@
   "research.frostedheart.steam_turbine.desc_alt.0": "Transforming rotational energy to electric energy can convert energy that are not possible to store into energy that can be stored. But, a severe problem is, the current efficiency is too low. If I can increase the efficiency I can reduce my reliance on fuel. ",
   "research.frostedheart.steam_turbine.name": "Steam Turbine",
   "research.frostedheart.storage_bucket.desc.0": "Under reasonable research, wooden barrel is necessarily a storage device for me. It has same storage as a chest but needs a bronze plate to keep it in place. Too expensive... I should better get my workbench soon. ",
-  "research.frostedheart.storage_bucket.desc_alt.0": "For now, crafting a chest is far for me. But my inventory and stone chest are too small for satisify my increasing storage demand. Now I need a device that does not require workbench to craft to store my stuff. Maybe this only exists in imagination. ",
+  "research.frostedheart.storage_bucket.desc_alt.0": "For now, crafting a chest is far for me. But my sutff won't fit in inventory and stone chests anymore. Now I need a device that does not require workbench to craft to store my stuff. Could it be possible? ",
   "research.frostedheart.storage_bucket.name": "Better Storage",
   "research.frostedheart.storage_drawers.desc.0": "Compacting drawers are nice and all but it would be nice to have something to manage them. Out of sight, out of mind.",
   "research.frostedheart.storage_drawers.desc_alt.0": "Simply compressing materials into blocks is not enough to make up for my lack of storage space. I wonder if I can compress them further?",
@@ -223,5 +223,5 @@
   "research.frostedheart.incubator.name": "Better fungis incubating",
   "research.frostedheart.improve_energy.name": "Paperwork practice",
   "research.frostedheart.improve_energy.desc.0": "Through some practice, I gain some tricks on writing papers.",
-  "research.frostedheart.improve_energy.desc_alt.0": "I am too easy to run out of inspiration. Maybe it is worth spending a little time in improving my abilities."
+  "research.frostedheart.improve_energy.desc_alt.0": "I have a problem with my lack of inspiration. Maybe it is worth spending some time improving my abilities."
 }
