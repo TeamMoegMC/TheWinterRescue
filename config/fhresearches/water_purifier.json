@@ -21,14 +21,12 @@
   "clues": [
     {
       "type": "game",
-      "name": "@clue.frostedheart.minigame",
       "value": 0.5,
       "id": "c9a8f9b6b6a843d3",
       "level": 0
     },
     {
       "type": "item",
-      "name": "@clue.frostedheart.item",
       "value": 0.5,
       "id": "236d1079c1964f49",
       "item": {

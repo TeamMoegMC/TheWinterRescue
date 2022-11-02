@@ -17,7 +17,6 @@
   "clues": [
     {
       "type": "game",
-      "name": "@clue.frostedheart.minigame",
       "value": 1.0,
       "id": "4391043217e049ee",
       "required": true,

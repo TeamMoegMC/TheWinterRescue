@@ -11,7 +11,6 @@
   "clues": [
     {
       "type": "item",
-      "name": "@clue.frostedheart.item",
       "value": 0.75,
       "id": "2413cd14ad3043af",
       "item": {

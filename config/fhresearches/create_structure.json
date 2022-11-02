@@ -14,7 +14,6 @@
   "clues": [
     {
       "type": "game",
-      "name": "@clue.frostedheart.minigame",
       "value": 0.65,
       "id": "121a09d3594f4163",
       "required": true,
@@ -22,7 +21,6 @@
     },
     {
       "type": "game",
-      "name": "@clue.frostedheart.minigame",
       "value": 0.35,
       "id": "3e8f0631d17949fa",
       "level": 1

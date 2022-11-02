@@ -11,7 +11,7 @@
   "clues": [
     {
       "type": "item",
-      "name": "@clue.frostedheart.item",
+
       "value": 0.5,
       "id": "2bca44f6f387479f",
       "item": {
@@ -20,7 +20,6 @@
     },
     {
       "type": "item",
-      "name": "@clue.frostedheart.item",
       "value": 0.5,
       "id": "af99accd2d29459c",
       "item": {

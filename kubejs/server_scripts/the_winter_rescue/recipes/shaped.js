@@ -434,8 +434,14 @@ onEvent('recipes', (event) => {
             B: '#forge:ingots/cast_iron'
         })
 
-    ]
-
+    ];
+	(["spruce","oak","birch","jungle","acacia","dark_oak"]).forEach((name)=>{
+		newRecipes.push(shapedRecipe('minecraft:'+name+'_boat', ['A A','AAA'], {
+            A: 'minecraft:'+name+'_planks'
+        }))
+		
+		
+	});
     /**
      * Remove a recipe from minecraft crafting table and add new one
      */

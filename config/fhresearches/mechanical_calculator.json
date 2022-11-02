@@ -16,7 +16,6 @@
   "clues": [
     {
       "type": "game",
-      "name": "@clue.frostedheart.minigame",
       "value": 0.25,
       "id": "cb966495bd5f4efe",
       "required": true,
@@ -24,7 +23,6 @@
     },
     {
       "type": "game",
-      "name": "@clue.frostedheart.minigame",
       "value": 0.25,
       "id": "a45806f695af494c",
       "required": true,
@@ -32,7 +30,6 @@
     },
     {
       "type": "item",
-      "name": "@clue.frostedheart.item",
       "desc": "@",
       "value": 0.25,
       "id": "c6b9a2fac4b14436",
@@ -46,7 +43,6 @@
     },
     {
       "type": "item",
-      "name": "@clue.frostedheart.item",
       "desc": "@",
       "value": 0.25,
       "id": "593d54b210e7473d",

@@ -20,7 +20,6 @@
   "clues": [
     {
       "type": "game",
-      "name": "@clue.frostedheart.minigame",
       "value": 0.75,
       "id": "26ae318159284bec",
       "level": 1
