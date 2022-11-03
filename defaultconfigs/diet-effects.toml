@@ -143,7 +143,7 @@
 		below = 0.2
 		match = "any"
 		above = 0.0
-		groups = ["proteins", "vegetables", "plant_oil", "grains"]
+		groups = ["proteins", "vegetables", "grains"]
 
 [[effects]]
 
