@@ -6,7 +6,11 @@
   "descAlt": [
     "@"
   ],
-  "icon": "create:millstone",
+  "icon": {
+    "type": "combined",
+    "base": "create:millstone",
+    "small": "create:encased_fan"
+  },
   "category": "frostedheart:production",
   "parents": [
     "blast_furnace"
@@ -21,6 +25,7 @@
     },
     {
       "type": "item",
+      
       "value": 0.25,
       "id": "8512fdd888294123",
       "item": {

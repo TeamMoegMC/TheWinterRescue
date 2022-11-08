@@ -6,7 +6,11 @@
   "descAlt": [
     "@"
   ],
-  "icon": "minecraft:stripped_birch_log",
+  "icon": {
+    "type": "combined",
+    "base": "minecraft:stripped_birch_log",
+    "small": "immersiveengineering:sawblade"
+  },
   "category": "frostedheart:production",
   "parents": [
     "blast_furnace"
@@ -21,6 +25,7 @@
     },
     {
       "type": "item",
+      
       "value": 0.5,
       "id": "ac56e12c56774da1",
       "item": {

@@ -6,7 +6,11 @@
   "descAlt": [
     "@"
   ],
-  "icon": "immersiveengineering:plate_constantan",
+  "icon": {
+    "type": "combined",
+    "base": "immersiveengineering:plate_constantan",
+    "small": "create:mechanical_press"
+  },
   "category": "frostedheart:production",
   "parents": [
     "blast_furnace"
