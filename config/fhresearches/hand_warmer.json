@@ -6,7 +6,17 @@
   "descAlt": [
     "@"
   ],
-  "icon": "frostedheart:charcoal_stick",
+  "icon": {
+    "type": "combined",
+    "base": {
+      "type": "item",
+      "item": {
+        "id": "frostedheart:hand_stove",
+        "nbt": "{Damage:0}"
+      }
+    },
+    "small": "frostedheart:coal_stick"
+  },
   "category": "frostedheart:living",
   "clues": [
     {

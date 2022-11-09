@@ -8,7 +8,11 @@
     "@",
     "@"
   ],
-  "icon": "minecraft:red_mushroom",
+  "icon": {
+    "type": "combined",
+    "base": "minecraft:red_mushroom",
+    "small": "frostedheart:incubator"
+  },
   "category": "frostedheart:living",
   "clues": [
     {

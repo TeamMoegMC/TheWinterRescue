@@ -15,9 +15,8 @@
   },
   "category": "frostedheart:production",
   "parents": [
-    "fluid_transport",
-    "mixer",
-    "blast_furnace"
+    "simple_machines",
+    "fluid_transport"
   ],
   "clues": [
     {

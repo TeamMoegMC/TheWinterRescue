@@ -307,7 +307,7 @@
 			}]
 		}
 		{
-			x: -12.5d
+			x: -13.5d
 			y: 2.5d
 			subtitle: "{quest.twr.29DCBBB54EE90E51.subtitle}"
 			description: [
@@ -373,7 +373,7 @@
 			}]
 		}
 		{
-			x: -11.5d
+			x: -10.5d
 			y: 2.5d
 			subtitle: "{quest.twr.5845439CF721309F.subtitle}"
 			description: ["{quest.twr.5845439CF721309F.description.1}"]
@@ -436,7 +436,7 @@
 			}]
 		}
 		{
-			x: -10.5d
+			x: -12.5d
 			y: 2.5d
 			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
 			description: ["{quest.twr.15B365E3F3EAFE79.description.1}"]
@@ -882,7 +882,7 @@
 			}]
 		}
 		{
-			x: -13.5d
+			x: -11.5d
 			y: 2.5d
 			description: [
 				"{quest.twr.41D8E04627E55A86.description.1}"

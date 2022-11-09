@@ -9,11 +9,11 @@
   "icon": {
     "type": "combined",
     "base": "minecraft:stripped_birch_log",
-    "small": "immersiveengineering:sawblade"
+    "small": "create:mechanical_saw"
   },
   "category": "frostedheart:production",
   "parents": [
-    "blast_furnace"
+    "simple_machines"
   ],
   "clues": [
     {
@@ -25,7 +25,6 @@
     },
     {
       "type": "item",
-      
       "value": 0.5,
       "id": "ac56e12c56774da1",
       "item": {

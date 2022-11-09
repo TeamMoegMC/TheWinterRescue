@@ -13,7 +13,7 @@
   },
   "category": "frostedheart:production",
   "parents": [
-    "blast_furnace"
+    "simple_machines"
   ],
   "clues": [
     {
