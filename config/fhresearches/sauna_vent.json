@@ -1,0 +1,60 @@
+{
+  "name": "@",
+  "desc": [
+    "@"
+  ],
+  "descAlt": [
+    "@"
+  ],
+  "icon": "frostedheart:sauna_vent",
+  "category": "frostedheart:rescue",
+  "parents": [
+    "steam_heater",
+    "heating_vest"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.5,
+      "id": "1a7681e011ca44e4",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "31ce65091f394ea1",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "item": "frostedheart:steam_bottle",
+      "count": 1,
+      "nbt": "{energy:240}"
+    },
+    {
+      "count": 8,
+      "base_ingredient": {
+        "tag": "minecraft:planks"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "aa6927e4f2164989",
+      "item": "frostedheart:sauna_vent"
+    },
+    {
+      "type": "use",
+      "id": "7e0bd48fb9094af6",
+      "blocks": [
+        "frostedheart:sauna_vent"
+      ]
+    }
+  ],
+  "points": 4000,
+  "showAltDesc": true
+}

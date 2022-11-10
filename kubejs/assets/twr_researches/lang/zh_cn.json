@@ -223,5 +223,8 @@
   "research.frostedheart.incubator.name": "进阶真菌养殖",
   "research.frostedheart.improve_energy.name": "论文练习",
   "research.frostedheart.improve_energy.desc.0": "通过一系列练习，我的运算和写作能力提升了。",
-  "research.frostedheart.improve_energy.desc_alt.0": "我认为我的灵感太容易枯竭了，也许我应该进行一系列练习来提升我自己的能力。"
+  "research.frostedheart.improve_energy.desc_alt.0": "我认为我的灵感太容易枯竭了，也许我应该进行一系列练习来提升我自己的能力。",
+  "research.frostedheart.sauna_vent.desc.0": "用这个，我可以在一个密闭空间内充满蒸汽，从而提升我的体质。",
+  "research.frostedheart.sauna_vent.name": "桑拿适配性",
+  "research.frostedheart.sauna_vent.desc_alt.0": "既然蒸汽可以通过散热器等方法传导热力，那么能不能直接喷出来加热一个固定空间呢？"
 }

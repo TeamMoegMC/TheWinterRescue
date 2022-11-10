@@ -223,5 +223,8 @@
   "research.frostedheart.incubator.name": "Better fungis incubating",
   "research.frostedheart.improve_energy.name": "Paperwork practice",
   "research.frostedheart.improve_energy.desc.0": "Through some practice, I gain some tricks on writing papers.",
-  "research.frostedheart.improve_energy.desc_alt.0": "I have a problem with my lack of inspiration. Maybe it is worth spending some time improving my abilities."
+  "research.frostedheart.improve_energy.desc_alt.0": "I have a problem with my lack of inspiration. Maybe it is worth spending some time improving my abilities.",
+  "research.frostedheart.sauna_vent.desc.0": "Now that I can make enclosed room and fill with steam to improve my body.",
+  "research.frostedheart.sauna_vent.name": "Sauna Reliability",
+  "research.frostedheart.sauna_vent.desc_alt.0": "I already learnt that heat can be trasferred from steam, but what about directly touch with steam?"
 }
