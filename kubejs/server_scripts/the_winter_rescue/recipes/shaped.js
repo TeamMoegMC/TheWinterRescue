@@ -278,9 +278,6 @@ onEvent('recipes', (event) => {
             A: 'minecraft:string',
             B: '#forge:ingots/cast_iron'
         }),
-		shapedRecipe('charcoal_pit:coal_pile', ['AAA', 'A A', 'AAA'], {
-        A: Item.of('minecraft:coal').toJson()
-        }),
         shapedRecipe('frostedheart:oil_burner', ['A A', 'AAA', 'BBB'], {
                     A: '#forge:plates/copper',
                     B: 'minecraft:stone_bricks'
