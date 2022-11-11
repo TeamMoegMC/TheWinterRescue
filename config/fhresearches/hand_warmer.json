@@ -8,13 +8,7 @@
   ],
   "icon": {
     "type": "combined",
-    "base": {
-      "type": "item",
-      "item": {
-        "id": "frostedheart:hand_stove",
-        "nbt": "{Damage:0}"
-      }
-    },
+    "base": "frostedheart:hand_stove",
     "small": "frostedheart:coal_stick"
   },
   "category": "frostedheart:living",

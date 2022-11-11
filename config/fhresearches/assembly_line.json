@@ -18,6 +18,12 @@
       "id": "fcc284f00d824e5a",
       "required": true,
       "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.15,
+      "id": "804e4d61fc2c486c",
+      "level": 1
     }
   ],
   "ingredients": [

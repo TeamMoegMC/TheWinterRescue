@@ -16,14 +16,14 @@
   "clues": [
     {
       "type": "game",
-      "value": 0.5,
+      "value": 0.6,
       "id": "a5b15ed5c6ee494c",
       "required": true,
       "level": 1
     },
     {
       "type": "game",
-      "value": 0.25,
+      "value": 0.2,
       "id": "6d73a2dec83e4cdb",
       "level": 1
     }

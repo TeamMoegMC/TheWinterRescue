@@ -1,7 +1,7 @@
 onEvent('recipes', (event) => {
     let recipes = [
             {input: 'immersiveengineering:dust_aluminum', output: 'immersiveengineering:ingot_aluminum', time: 800},
-            {input: 'minecraft:iron_ingot', output: 'rankine:cast_iron_ingot', time: 1000},
+            {input: 'minecraft:iron_ingot', output: 'rankine:cast_iron_ingot', time: 900},
             {input: 'rankine:malachite', output: 'rankine:copper_ingot', time: 200},
             {input: 'rankine:chalcocite', output: 'rankine:copper_ingot', time: 200},
             {input: 'kubejs:native_tin', output: 'rankine:tin_ingot', time: 200},

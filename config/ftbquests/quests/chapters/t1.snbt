@@ -944,6 +944,7 @@
 				"4B6840707D77E2C0"
 				"6A22E2D62D4719BE"
 			]
+			hide: true
 			optional: true
 			id: "0B9DBC18CEEC4CB2"
 			tasks: [{
