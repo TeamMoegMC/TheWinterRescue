@@ -58,6 +58,7 @@
 		}
 		{
 			title: "{quest.twr.7E3F0C805E2BBB9F.title}"
+			icon: "stone_age:tree_stump"
 			x: -9.0d
 			y: -1.0d
 			shape: "square"
@@ -105,6 +106,7 @@
 				"{quest.twr.19603323EAAFF726.description.3}"
 			]
 			dependencies: ["7E3F0C805E2BBB9F"]
+			hide: true
 			id: "19603323EAAFF726"
 			tasks: [{
 				id: "56616CBB1C923EE5"
@@ -129,6 +131,7 @@
 				"{quest.twr.689BB00EC2454F1F.description.2}"
 			]
 			dependencies: ["6D92E93A0811C1FD"]
+			hide: true
 			id: "689BB00EC2454F1F"
 			tasks: [{
 				id: "196FB59FF81963A6"
@@ -164,7 +167,7 @@
 				"{quest.twr.0A9A5166127945AB.description.5}"
 			]
 			dependencies: ["689BB00EC2454F1F"]
-			size: 1.2d
+			size: 1.1d
 			id: "0A9A5166127945AB"
 			tasks: [{
 				id: "29F602476C2217BC"
@@ -432,6 +435,7 @@
 			subtitle: "{quest.twr.74780AAD5FDF8870.subtitle}"
 			description: ["{quest.twr.74780AAD5FDF8870.description.1}"]
 			dependencies: ["7E3F0C805E2BBB9F"]
+			hide: true
 			id: "74780AAD5FDF8870"
 			tasks: [{
 				id: "49B8EB773F01535C"
@@ -492,11 +496,9 @@
 				"{quest.twr.4543F3B5F937E6B0.description.4}"
 			]
 			dependencies: [
-				"6CF9868197215C1D"
 				"35E5CE37A2F8EB90"
 				"3078BCEE3E402DED"
 			]
-			hide: true
 			size: 1.1d
 			id: "4543F3B5F937E6B0"
 			tasks: [{
@@ -512,6 +514,7 @@
 			}]
 		}
 		{
+			icon: "charcoal_pit:coke"
 			x: -2.0d
 			y: -2.5d
 			shape: "rsquare"
@@ -525,11 +528,29 @@
 			hide: true
 			optional: true
 			id: "77A7511048D5767B"
-			tasks: [{
-				id: "6505E5BF6A293CD1"
+			tasks: [
+				{
+					id: "6505E5BF6A293CD1"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 6L
+				}
+				{
+					id: "75940626B4026E4A"
+					type: "item"
+					item: "charcoal_pit:coke"
+				}
+			]
+			rewards: [{
+				id: "738A66C188F6E750"
 				type: "item"
-				item: "minecraft:stone_bricks"
-				count: 6L
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 61
+					}
+				}
 			}]
 		}
 		{
@@ -574,7 +595,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -2.0d
 			y: -3.5d
 			subtitle: "{quest.twr.66505076652885B8.subtitle}"
 			description: [
@@ -642,40 +663,6 @@
 				id: "68427BE729DBF2DC"
 				type: "item"
 				item: "crockpot:surf_n_turf"
-			}]
-		}
-		{
-			title: "{quest.twr.48C50ABC7AE7C575.title}"
-			x: -1.5d
-			y: -3.5d
-			subtitle: "{quest.twr.48C50ABC7AE7C575.subtitle}"
-			description: ["{quest.twr.48C50ABC7AE7C575.description.1}"]
-			dependencies: ["77A7511048D5767B"]
-			hide: true
-			optional: true
-			id: "48C50ABC7AE7C575"
-			tasks: [
-				{
-					id: "548199B8B53D01A4"
-					type: "item"
-					item: "charcoal_pit:coke"
-				}
-				{
-					id: "3D2E0315411C28F8"
-					type: "item"
-					item: "charcoal_pit:coal_pile"
-				}
-			]
-			rewards: [{
-				id: "7704D7AFB8F2FD12"
-				type: "item"
-				item: {
-					id: "minecraft:flint_and_steel"
-					Count: 1b
-					tag: {
-						Damage: 64
-					}
-				}
 			}]
 		}
 		{
