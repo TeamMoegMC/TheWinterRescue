@@ -24,7 +24,7 @@ onEvent('recipes', (event) => {
 		shapelessRecipe(Item.of('frostedheart:advanced_thermos', '{Damage:0,Fluid:{FluidName:"frostedheart:wolfberry_tea",Amount:3000}}'), [Item.of('frostedheart:advanced_thermos', '{Damage:0,Fluid:{FluidName:"thermopolium:nail_soup",Amount:3000}}'), 'frostedheart:dried_wolfberries']),
 		shapelessRecipe(Item.of('frostedheart:thermos', '{Damage:0,Fluid:{FluidName:"frostedheart:wolfberry_tea",Amount:1500}}'), [Item.of('frostedheart:thermos', '{Damage:0,Fluid:{FluidName:"thermopolium:nail_soup",Amount:1500}}'), 'frostedheart:dried_wolfberries']),
 		shapelessRecipe('frostedheart:quill_and_ink', ['minecraft:feather', 'minecraft:glass_bottle','4x frostedheart:generator_ash']),
-		shapelessRecipe('frostedheart:rubbing_tool', ['4x frostedheart:generator_ash', 'minecraft:paper',"frostedheart:rubbing_pad"]),
+		shapelessRecipe('frostedheart:rubbing_tool', ['4x frostedheart:generator_ash', 'minecraft:paper',"frostedheart:rubbing_pad"])
 	]
 	Ingredient.of("#forge:vertical_slabs").getItemIds().forEach((name)=>{
 		let i=Ingredient.of(name.replace("_vertical",""));

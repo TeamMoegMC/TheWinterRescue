@@ -80,7 +80,7 @@ onEvent('recipes', (event) => {
             A: Ingredient.of('#forge:plates/bronze').toJson(),
             B: Ingredient.of('#forge:rods/wooden').toJson()
         }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('immersiveengineering:alloybrick', 2), ['BA', 'AB'], {
+        flint_shapedRecipe(Item.of('immersiveengineering:alloybrick', 4), ['ABA', 'B B', 'ABA'], {
             A: Item.of('minecraft:brick').toJson(),
             B: Ingredient.of('#forge:plates/bronze').toJson()
         }, Item.of('stone_age:flint_knife')),

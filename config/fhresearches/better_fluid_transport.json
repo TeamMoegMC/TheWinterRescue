@@ -40,13 +40,18 @@
   "effects": [
     {
       "type": "recipe",
-      "id": "a6204703f5a44c31",
-      "item": "immersiveengineering:fluid_pipe"
+      "id": "a9694a53bbab41d6",
+      "item": "immersiveengineering:fluid_pump"
     },
     {
       "type": "recipe",
-      "id": "a9694a53bbab41d6",
-      "item": "immersiveengineering:fluid_pump"
+      "id": "7ee9ad8007024b7c",
+      "item": "engineersdecor:small_fluid_funnel"
+    },
+    {
+      "type": "recipe",
+      "id": "d052211335924e3f",
+      "item": "engineersdecor:straight_pipe_valve"
     }
   ],
   "points": 5000,

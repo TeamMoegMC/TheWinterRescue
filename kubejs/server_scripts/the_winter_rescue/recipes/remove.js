@@ -29,7 +29,6 @@ onEvent('recipes', (event) => {
         'engineersdecor:small_freezer',
         'engineersdecor:small_electrical_furnace',
 		'engineersdecor:small_lab_furnace',
-        'engineersdecor:small_fluid_funnel',
         'engineersdecor:factory_placer',
         'engineersdecor:labeled_crate',
         'engineersdecor:factory_dropper',
