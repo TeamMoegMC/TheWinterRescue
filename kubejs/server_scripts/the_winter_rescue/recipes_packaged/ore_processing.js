@@ -57,15 +57,32 @@ by_products[1] = [Item.of("rankine:sulfur").withChance(0.5)];
     {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_pyrite',time:300},
     {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_hematite',time:300},
     {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_malachite',time:150},
-    {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_chalcocite',time:150},
+    {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_chalcocite',time:120},
     {output: 'immersiveengineering:ingot_silver', input: 'kubejs:washed_ore_silver',time:150},
     {output: 'minecraft:gold_ingot', input: 'kubejs:washed_ore_gold',time:150},
     {output: 'immersiveengineering:ingot_nickel', input: 'kubejs:washed_ore_pentlandite',time:300},
-    {output: '2x rankine:sodium_chloride', input: 'kubejs:washed_ore_halite',time:150}
+	{output: 'immersiveengineering:ingot_nickel', input: 'kubejs:nickel_matte',time:300},
+	{output: 'rankine:antimony', input: 'kubejs:antimony_oxide',time:80},
+	{output: 'rankine:copper_ingot', input: 'kubejs:copper_oxide',time:150},
+	{output: 'immersiveengineering:ingot_lead', input: 'kubejs:lead_oxide',time:80}
      ]
     };
 	data.recipes.forEach((recipe) => {
     event.recipes.immersiveengineeringBlastFurnace(recipe.output, recipe.input, 'immersiveengineering:slag').time(recipe.time);
     });
+	function rotarySulfate(input,output,energy,sulfur,chance){
+		return rotarykilnRecipe3(input,output,Fluid.of("frostedheart:sulfur_dioxide",sulfur).toJson(),200,energy,output,chance)
+	}
+	let kilnRecipes=[
+		rotarySulfate("kubejs:washed_ore_chalcocite","kubejs:copper_oxide",32,125,0.25),
+		rotarykilnRecipe2("kubejs:washed_ore_malachite","kubejs:copper_oxide",200,32,0.25),
+		rotarySulfate("kubejs:washed_ore_pyrite","kubejs:washed_ore_hematite",64,250,0),
+		rotarySulfate("kubejs:washed_ore_galena","kubejs:lead_oxide",32,250,0.25),
+		rotarykilnRecipe3("kubejs:washed_ore_pentlandite","kubejs:nickel_matte",Fluid.of("frostedheart:sulfur_dioxide",250).toJson(),200,64,"kubejs:iron_slag",1),
+		rotarySulfate("kubejs:washed_ore_stibnite","kubejs:antimony_oxide",32,250,0.25)
+	]
+	kilnRecipes.forEach((recipe)=>{event.custom(recipe);console.info(recipe)});
+	
 });
 
+			

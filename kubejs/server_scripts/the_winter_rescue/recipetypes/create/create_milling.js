@@ -22,7 +22,9 @@ onEvent('recipes', (event) => {
 	{output: '3x minecraft:redstone', input: 'kubejs:washed_ore_cinnabar'},
 	{output:["frostedheart:rye_flour",Item.of("charcoal_pit:straw"),Item.of("2x frostedheart:rye_flour").withChance(0.25),Item.of("frostedheart:rye_block").withChance(0.1)],input: 'frostedheart:rye'},
 	{output:["create:wheat_flour",Item.of("charcoal_pit:straw"),Item.of("2x create:wheat_flour").withChance(0.25),Item.of("minecraft:wheat_seeds").withChance(0.25)],input: 'minecraft:wheat'},
-	{output:[Item.of('3x minecraft:green_dye')],input: 'kubejs:washed_ore_malachite'}
+	{output:[Item.of('3x minecraft:green_dye')],input: 'kubejs:washed_ore_malachite'},
+	{output:[Item.of('immersiveengineering:dust_iron')],input: 'minecraft:iron_ingot'},
+	{output:[Item.of('4x minecraft:red_dye')],input: 'kubejs:washed_ore_hematite'}
 	]
 	recipes.forEach((recipe) => {
         event.recipes.createMilling(recipe.output, recipe.input);

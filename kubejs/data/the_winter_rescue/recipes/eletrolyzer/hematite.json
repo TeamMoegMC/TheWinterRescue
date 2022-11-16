@@ -1,15 +1,15 @@
 {
   "type": "immersiveindustry:electrolyzer",
   "result": {
-    "item": "kubejs:magnesium_dust"
+    "item": "kubejs:washed_ore_hematite"
   },
   "fluid": {
-    "tag": "the_winter_rescue:magnesium_chloride",
-    "amount": 250
+    "tag": "the_winter_rescue:ferrous_chloride",
+    "amount": 375
   },
   "result_fluid": {
     "fluid": "frostedheart:chlorine",
-    "amount": 225
+    "amount": 350
   },
   "time": 240
 }

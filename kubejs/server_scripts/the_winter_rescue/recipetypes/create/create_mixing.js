@@ -4,9 +4,6 @@ onEvent('recipes', (event) => {
         ['3x rankine:fire_clay_ball'],input:
         ['4x kubejs:kaolin_dust', '4x kubejs:impure_alumina_dust', 'minecraft:clay_ball']},
     {output:
-        [Fluid.of('kubejs:sulfuric_acid', 500)],input:
-        ['2x #forge:dusts/sulfur', Fluid.of('minecraft:water', 500)]},
-    {output:
         [Fluid.of('kubejs:cryolite', 500)],input:
         ['2x kubejs:fluorite_dust', 'kubejs:aluminium_hydroxide_dust', Fluid.of('kubejs:sulfuric_acid', 500)]},
     {output:
@@ -45,6 +42,27 @@ onEvent('recipes', (event) => {
 	{output: 
 		[Fluid.of('minecraft:milk', 1000)], input: 
 		[Fluid.of('kubejs:protein', 500),Fluid.of('minecraft:water', 500),"minecraft:sugar"]},
+	{output: 
+		[Fluid.of('kubejs:ferrous_chloride', 375)], input: 
+		[Fluid.of('kubejs:hydrochloric_acid', 750),'kubejs:washed_ore_hematite']},
+	{output: 
+		[Fluid.of('kubejs:ferrous_chloride', 250),"immersiveengineering:slag"], input: 
+		[Fluid.of('kubejs:hydrochloric_acid', 500),'kubejs:iron_slag']},
+	{output: 
+		[Fluid.of('kubejs:ferric_chloride', 500)], input: 
+		[Fluid.of('kubejs:ferrous_chloride', 500),'#forge:dusts/iron']},
+	{output: 
+		[Fluid.of('kubejs:ferrous_chloride', 250)], input: 
+		[Fluid.of('kubejs:hydrochloric_acid', 500),'kubejs:rusted_iron_ingot']},
+	{output: 
+		[Fluid.of('kubejs:copper_chloride', 300)], input: 
+		[Fluid.of('kubejs:hydrochloric_acid', 600),'kubejs:copper_oxide']},
+		{output: 
+		[Fluid.of('kubejs:copper_chloride', 300)], input: 
+		[Fluid.of('kubejs:hydrochloric_acid', 600),'kubejs:washed_ore_malachite']},
+	{output: 
+		[Fluid.of('minecraft:milk', 1000)], input: 
+		[Fluid.of('kubejs:protein', 500),Fluid.of('minecraft:water', 500),"minecraft:sugar"]},
 	{output:
         ['8x immersiveengineering:treated_wood_horizontal'],input:
 	['8x #minecraft:planks',Fluid.of('immersiveengineering:creosote',1000)]},
@@ -63,6 +81,12 @@ onEvent('recipes', (event) => {
     {output:
         ['2x rankine:high_refractory_brick'],input:
         ['4x rankine:fire_clay_ball', '2x rankine:magnesia', '2x rankine:quicklime']},
+	{output:
+        [Fluid.of('kubejs:sulfuric_acid', 500)],input:
+        ['2x #forge:dusts/sulfur', Fluid.of('minecraft:water', 500)]},
+	{output:
+        [Fluid.of('kubejs:sulfuric_acid', 500)],input:
+        [Fluid.of('frostedheart:sulfur_dioxide',250), Fluid.of('minecraft:water', 500)]},
     {output:
         ['kubejs:aluminium_hydroxide_dust'],input:
         ['rankine:sodium_hydroxide', '2x kubejs:washed_ore_bauxite']},
@@ -70,7 +94,7 @@ onEvent('recipes', (event) => {
         [Fluid.of('thermopolium:nail_soup', 1000)],input:
         ['kubejs:activated_carbon', Fluid.of('minecraft:water', 1000)]},
     {output:
-        [Fluid.of('kubejs:magnesium_chlorine', 250)],input:
+        [Fluid.of('kubejs:magnesium_chloride', 250)],input:
         ['rankine:magnesia', Fluid.of('kubejs:hydrochloric_acid', 500)]},
 	{output:
         [Fluid.of('kubejs:hydrochloric_acid', 1000)],input:

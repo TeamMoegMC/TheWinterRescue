@@ -1,10 +1,10 @@
 {
   "type": "immersiveindustry:electrolyzer",
   "result": {
-    "item": "kubejs:magnesium_dust"
+    "item": "immersiveengineering:dust_copper"
   },
   "fluid": {
-    "tag": "the_winter_rescue:magnesium_chloride",
+    "tag": "the_winter_rescue:copper_chloride",
     "amount": 250
   },
   "result_fluid": {

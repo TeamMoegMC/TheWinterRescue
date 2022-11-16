@@ -5,8 +5,11 @@ onEvent('fluid.tags', (event) => {
 	event.add('frostedheart:drink', 'minecraft:milk')
 	event.add('the_winter_rescue:fluidsulfuricacid','kubejs:sulfuric_acid')
 	event.add('the_winter_rescue:cryolite','kubejs:cryolite')
-	event.add('the_winter_rescue:magnesium_chlorine','kubejs:magnesium_chlorine')
+	event.add('the_winter_rescue:magnesium_chloride','kubejs:magnesium_chloride')
+	event.add('the_winter_rescue:ferric_chloride','kubejs:ferric_chloride')
+	event.add('the_winter_rescue:copper_chloride','kubejs:copper_chloride')
 	event.add('forge:gas/fluorine','frostedheart:fluorine')
 	event.add('forge:gas/chlorine','frostedheart:chlorine')
 	event.add('forge:acid/hydrochloric','kubejs:hydrochloric_acid')
+	event.add('the_winter_rescue:ferrous_chloride','kubejs:ferrous_chloride')
 });

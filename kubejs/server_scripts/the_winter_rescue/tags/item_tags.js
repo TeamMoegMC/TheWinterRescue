@@ -16,7 +16,6 @@ let colors=["white",
 "red"
 ];
 onEvent('item.tags', (event) => {
-	console.info(Ingredient.of("#diet:fruits").getItemIds())
     event.add('itemfilters:check_nbt', 'tetra:modular_double')
 	event.add('frostedheart:knife', 'tetra:modular_sword')
 	event.add('frostedheart:knife', '#forge:knives')
@@ -45,7 +44,6 @@ onEvent('item.tags', (event) => {
     event.add('the_winter_rescue:large_cogwheels', "steampowered:bronze_large_cogwheel")
     event.add('the_winter_rescue:large_cogwheels', "steampowered:cast_iron_large_cogwheel")
     event.add('the_winter_rescue:large_cogwheels', "steampowered:steel_large_cogwheel")
-
     event.add('forge:ores/copper', "rankine:malachite")
     event.add('forge:ores/copper', "rankine:chalcocite")
     event.add('forge:ores/tin', "kubejs:native_tin")
@@ -72,41 +70,17 @@ onEvent('item.tags', (event) => {
 	event.add("forge:ores/copper","kubejs:rusted_copper_ingot")
 	event.add("forge:ores/tin","kubejs:gray_tin_ingot")
 	event.add("forge:ores/iron","kubejs:rusted_iron_ingot")
-	//event.add("diet:sugars","#diet:fruits");
-	//event.add("diet:vegetables","#diet:fruits")
 	event.removeAll("diet:fruits")
+	event.removeAll("diet:vegetables")
+	event.removeAll("diet:plant_oil")
+	event.removeAll("diet:protein")
+	event.removeAll("diet:foods")
+	event.removeAll("diet:sugar")
+	event.removeAll("diet:vitamin")
 	//event.remove("thermopolium:mushroom","#forge:mushrooms");
 	//event.add("thermopolium:mushroom","#forge:edible_mushrooms");
-	event.add("diet:plant_oil","kubejs:plant_oil");
-	event.add("diet:plant_oil","#forge:crops/corn");
-	event.add("diet:plant_oil","#forge:corn");
-	event.add("diet:plant_oil","#forge:crops/walnut");
-	event.add("diet:plant_oil","rankine:roasted_walnut");
-	event.add("diet:plant_oil","rankine:trail_mix");
-	event.add("diet:plant_oil","crockpot:popcorn");
-	//event.add("diet:proteins","#diet:plant_oil")
-	event.add("diet:plant_oil","create:bar_of_chocolate");
-	event.add("diet:proteins","create:sweet_roll");
-	event.add("diet:proteins","minecraft:cake");
-	event.add("diet:proteins","rankine:pancake_batter")
-	event.add("diet:proteins","frozenup:mug_of_milk")
-	event.add("diet:proteins","#forge:milk");
-	event.add("diet:proteins","frozenup:mug_of_chocolate_milk")
-	event.add("diet:proteins","frozenup:mug_of_truffle_hot_chocolate")
-	event.add("diet:plant_oil","crockpot:hot_cocoa");
-	event.add("diet:proteins","crockpot:ice_cream");
-	event.add("diet:plant_oil","crockpot:avaj");
-	event.add("diet:grains","frozenup:truffle_muffin");
-	event.add("diet:vitamin","stone_age:fat");
-	event.add("diet:vitamin","stone_age:cooked_fat");
 
-	event.remove("diet:vegetables","crockpot:corn")
-	event.add("diet:grains","crockpot:corn")
-	//event.add("diet:proteins","minecraft:milk");
-	//event.add("diet:proteins","#forge:corn");
-	event.add("diet:proteins","#forge:cheese");
-	event.remove("diet:vegetables","crockpot:popcorn");
-	//event.add("diet:proteins","#forge:crops/corn");
+
 	event.add("kubejs:tetra_hammer","tetra:modular_double")
 	event.add("rankine:tree_choppers","tetra:modular_double")
 	event.add("rankine:tree_choppers","minecraft:iron_axe")

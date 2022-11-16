@@ -73,7 +73,29 @@ function rotarykilnRecipe(input,output,time,energy){
 		"tickEnergy":energy
 	};
 }
-
+function rotarykilnRecipe2(input,output,time,energy,byproduct,chance){
+	return {
+		"type": "immersiveindustry:rotary_kiln",
+		"input": IEIngredient(input),
+		"byproduct": IEIngredient(byproduct),
+		"chance":chance,
+		"result": Item.of(output),
+		"time": time,
+		"tickEnergy":energy
+	};
+}
+function rotarykilnRecipe3(input,output,output_fluid,time,energy,byproduct,chance){
+	return {
+		"type": "immersiveindustry:rotary_kiln",
+		"input": IEIngredient(input),
+		"byproduct": Item.of(byproduct),
+		"result_fluid": output_fluid,
+		"chance":chance,
+		"result": Item.of(output),
+		"time": time,
+		"tickEnergy":energy
+	};
+}
 function unificationBlacklistEntry(material, type) {
     return {material: material, type: type};
 }

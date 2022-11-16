@@ -25,6 +25,8 @@ onEvent('recipes', (event) => {
 	carkilnReplace("#minecraft:sand","minecraft:glass"),
 	carkilnReplace("rankine:fire_clay_ball","rankine:refractory_brick")
 	]
+	
+
 	let simpleCarkiln=[{input: '#kubejs:coal_dust',output: 'minecraft:black_dye'},
      {input: 'kubejs:charcoal_dust',output: 'minecraft:black_dye'},
 	 {output:'kubejs:coal_briquette', input:'kubejs:wet_coal_briquette'},

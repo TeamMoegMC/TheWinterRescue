@@ -52,7 +52,12 @@ onEvent('item.registry', event => {
 		'broken_robot_2',
 		'servo_core',
 		'motor',
-		'pcb_base'
+		'pcb_base',
+		'copper_oxide',
+		'nickel_matte',
+		'lead_oxide',
+		'antimony_oxide',
+		'iron_slag'
 	];
 
 	let rawOres = [
