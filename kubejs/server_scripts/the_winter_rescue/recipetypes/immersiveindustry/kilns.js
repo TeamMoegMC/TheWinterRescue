@@ -38,6 +38,7 @@ onEvent('recipes', (event) => {
 	{output: 'rankine:mercury', input: 'rankine:cinnabar'},
 	{output: 'rankine:mercury', input: 'kubejs:washed_ore_cinnabar'}
 	]
+
 	
 	
 	

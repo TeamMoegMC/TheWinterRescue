@@ -131,6 +131,7 @@ onEvent('item.tags', (event) => {
 	event.add('frostedheart:mushroom_base',"frostedheart:straw_briquette_brown_mushroom")
 	event.add('the_winter_rescue:leather',"minecraft:leather")
 	event.add('the_winter_rescue:leather',"#forge:rubber")
+	event.add('ftbultimine:included_tools','create:cogwheel')
 	event.add('frostedheart:electronic_junk',"kubejs:damaged_gpu")
 	event.add('frostedheart:electronic_junk',"kubejs:damaged_gpu")
     event.add('frostedheart:electronic_junk',"kubejs:damaged_circuit_board")

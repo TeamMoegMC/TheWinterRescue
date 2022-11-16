@@ -1,0 +1,12 @@
+
+[client]
+	#Use the side of the block hit to determine shape mining direction
+	"Use Side Hit" = true
+	#Allows players to cancel excavation by releasing the keys
+	"Must Hold" = true
+	#Excavation mode (-1 Disabled, 0 = Keybind, 1 = Sneak, 2 = Always)
+	#Range: -1 ~ 2
+	Mode = 0
+	#Show an outline when using the shape mining function
+	"Show Outline" = true
+
