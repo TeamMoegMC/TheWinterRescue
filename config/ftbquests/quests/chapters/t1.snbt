@@ -35,6 +35,7 @@
 				{
 					id: "011A9EDCF3272C2E"
 					type: "checkmark"
+					title: "{quest.twr.4BD8236FEEBD7D3A.011A9EDCF3272C2E.title}"
 				}
 				{
 					id: "3951E51612CBC2CA"
@@ -58,7 +59,6 @@
 		}
 		{
 			title: "{quest.twr.7E3F0C805E2BBB9F.title}"
-			icon: "stone_age:tree_stump"
 			x: -9.0d
 			y: -1.0d
 			shape: "square"

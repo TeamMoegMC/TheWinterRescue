@@ -1,8 +1,18 @@
 {
   "the_winter_rescue.ponder.tag.bloomery.description": "搭建锻铁炉",
   "the_winter_rescue.ponder.tag.bloomery": "锻铁炉",
-  "charcoal_pit.ponder.main_bloomery.basic_usage.text_1": "右击风箱吹气",
-  "charcoal_pit.ponder.main_bloomery.basic_usage.header": "锻铁炉",
+  "the_winter_rescue.ponder.bloomery.usage.text_4": "当它燃烧结束后，你必须立即多次挖掘来获得铁锭",
+  "the_winter_rescue.ponder.bloomery.usage.text_3": "填满之后，在上方点火即可开始冶炼",
+  "the_winter_rescue.ponder.bloomery.usage.text_2": "放置一个之后，分别用矿石和木炭或焦煤右击多次以填满",
+  "the_winter_rescue.ponder.bloomery.usage.text_1": "首先需要手持一个矿石潜行+右键放置",
+  "the_winter_rescue.ponder.bloomery.assembly.text_1": "锻铁炉至少需要一个风箱才能工作",
+  "the_winter_rescue.ponder.bloomery.usage.header": "使用锻铁炉",
+  "the_winter_rescue.ponder.bloomery.assembly.text_5": "这个位置也可以放风箱，但是要注意风口方向",
+  "the_winter_rescue.ponder.bloomery.assembly.text_4": "右键风箱以鼓风",
+  "the_winter_rescue.ponder.bloomery.assembly.text_3": "如果风箱口没有对着锻铁炉，冶炼就会失败",
+  "the_winter_rescue.ponder.bloomery.assembly.text_2": "请务必注意风箱口必须对准锻铁炉口",
+  "the_winter_rescue.ponder.bloomery.assembly.text_6": "如果想要一次冶炼更多，可以再加一层，但是只能额外加一层。",
+  "the_winter_rescue.ponder.bloomery.assembly.header": "搭建锻铁炉",
 
   "the_winter_rescue.ponder.tag.generator": "能量塔",
   "the_winter_rescue.ponder.tag.generator.description": "搭建能量塔",
@@ -12,19 +22,41 @@
 
   "the_winter_rescue.ponder.tag.crucible.description": "搭建炼钢坩埚",
   "the_winter_rescue.ponder.tag.crucible": "炼钢坩埚",
-  "immersiveindustry.ponder.burning_chamber.basic_usage.text_1": "使用工程师锤子右击",
-  "immersiveindustry.ponder.burning_chamber.basic_usage.header": "炼钢坩埚",
 
   "the_winter_rescue.ponder.tag.steam_turbine.description": "搭建蒸汽涡轮机",
   "the_winter_rescue.ponder.tag.steam_turbine": "蒸汽涡轮机",
-  "immersiveindustry.ponder.steam_turbine.basic_usage.text_1": "工程师锤子右击尾部",
-  "immersiveindustry.ponder.steam_turbine.basic_usage.header": "蒸汽涡轮机",
-  
+  "the_winter_rescue.ponder.steam_turbine.basic_usage.text_1": "使用工程师锤右键完成组装",
+  "the_winter_rescue.ponder.steam_turbine.basic_usage.text_2": "在这里输入蒸汽",
+
+  "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.header": "蜂窝炉",
   "the_winter_rescue.ponder.tag.beehive_oven_pit.description": "搭建蜂窝炉",
   "the_winter_rescue.ponder.tag.beehive_oven_pit": "蜂窝炉",
-  "frostedheart.ponder.beehive_oven_pit.basic_usage.text_1": "使用打火石右击",
-  "frostedheart.ponder.beehive_oven_pit.basic_usage.header": "蜂窝炉",
+  "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_3": "冶炼需要一段时间，完成之后就会变成生石灰",
+  "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_2": "放置完要冶炼的方块后，用打火石右键中心方块启动",
+  "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_1": "把要冶炼的方块（比如大理石）放在蜂窝炉上方，不要堵住中心方块",
 
   "the_winter_rescue.ponder.tag.charcoal_pit.description": "木炭坑",
-  "the_winter_rescue.ponder.tag.charcoal_pit": "木炭坑"
+  "the_winter_rescue.ponder.tag.charcoal_pit": "木炭坑",
+
+  "the_winter_rescue.ponder.generator_construction_t1.basic_usage.text_1": "使用工程师锤右键完成组装",
+  "the_winter_rescue.ponder.generator_construction_t2.basic_usage.text_1": "使用工程师锤右键完成组装",
+  "the_winter_rescue.ponder.steam_turbine.basic_usage.header": "",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.header": "坩埚用法",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_1": "在这里安装高炉鼓风机",
+
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_2": "你必须在这给鼓风机供能",
+  "the_winter_rescue.ponder.steel_mill.assembly.text_1": "右键完成组装",
+  "the_winter_rescue.ponder.steel_mill.assembly.text_2": "在这里安装高炉鼓风机",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_3": "你可以使用GUI或者自动化",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_4": "冶炼原料也可以丢入坩埚中",
+  "the_winter_rescue.ponder.steel_mill.assembly.header": "搭建炼钢坩埚",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_5": "冶炼原料也可以从顶上输入坩埚",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_7": "从侧面坩埚部分可以抽取产物",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_6": "可以从燃烧室的位置输入焦煤",
+  "the_winter_rescue.ponder.generator_construction_t2.usage.header": "使用方式",
+  "the_winter_rescue.ponder.generator_construction_t2.usage.text_2": "从这些位置的底部输出能量",
+  "the_winter_rescue.ponder.generator_construction_t2.usage.text_1": "从底部中心输入热介质",
+  "the_winter_rescue.ponder.charcoal_pit.basic_usage.header": "木炭坑",
+  "the_winter_rescue.ponder.pottery_kiln.basic_usage.header": "陶窑",
+  "the_winter_rescue.ponder.pottery_kiln.basic_usage.text_1": "周围方块可以是任何方块，并非一定为泥土"
 }

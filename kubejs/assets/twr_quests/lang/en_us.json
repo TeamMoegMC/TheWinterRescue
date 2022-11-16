@@ -849,7 +849,7 @@
   "quest.twr.24E7D1E02BE55A8E.description.4": "Inadequate &aprotein&r intake can lead to severe &canemia&r, leading to general weakness.",
   "quest.twr.24E7D1E02BE55A8E.description.8": "Avoid eating too much &csugar&r, which can lead to &cdiabetes&r, make it &aharder for wounds to heal naturally&r, and make people feel unusually hungry.",
   "quest.twr.1938FC4AAD99137E.subtitle": "Without any fraud",
-  "quest.twr.1938FC4AAD99137E.description.4": "Click the &c&lhelp button&r in the bottom right corner to view the tutorial of the research paper. &6If the text is not clear, you can read the subsequent tasks&r.",
+  "quest.twr.1938FC4AAD99137E.description.4": "Click the &a&lhelp button&r in the bottom right corner to view the tutorial of the research paper. &6If the text is not clear, you can read the subsequent tasks&r.",
   "quest.twr.1938FC4AAD99137E.description.3": "Clicking the &c&lrenew button&r in the bottom right corner of the drawing desk to consume paper and pen &6&lto generate a new puzzle&r, &c&lDifferent levels of writing instruments are required for different levels of research, see follow-up tasks for details.",
   "quest.twr.1938FC4AAD99137E.description.5": "&aStarting new papers and finishing papers cost inspiration. See following quests for more details.",
   "quest.twr.3FEE911101C61CFB.description.8": "&bSchematic diagrams can be found in the tutorial panel of the drawing desk.&r",
@@ -1085,5 +1085,6 @@
   "quest.twr.1120D6251E9B42C4.subtitle": "Majority of Sedimentary Rocks",
   "quest.twr.73242CFC1E655F2D.description.1": "Generates in surface limestone, dolostone, chalk, shale, and siltstone.",
   "quest.twr.73242CFC1E655F2D.subtitle": "Among Surface Sedimentary",
-  "quest.twr.17C359DCF058E698.description.2": ""
+  "quest.twr.17C359DCF058E698.description.2": "",
+  "quest.twr.4BD8236FEEBD7D3A.011A9EDCF3272C2E.title": "I already have a warm shelter"
 }

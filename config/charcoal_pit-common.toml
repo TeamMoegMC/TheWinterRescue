@@ -5,7 +5,7 @@
 	CharcoalCreosote = 200
 	#The time coke ovens take to finish. 1000 Ticks = 1 MC hour
 	#Range: > 1000
-	CokeTime = 5000
+	CokeTime = 5600
 	#The time charcoal pits take to finish. 1000 Ticks = 1 MC hour
 	#Range: > 1000
 	CharcoalTime = 5000

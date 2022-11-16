@@ -1,0 +1,44 @@
+{
+  "name": "@",
+  "icon": "frostedheart:iron_pro_pick",
+  "category": "frostedheart:exploration",
+  "parents": [
+    "advanced_geological_tools",
+    "workbench"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 1.0,
+      "id": "99efa4d4fdb8437a",
+      "required": true,
+      "level": 0
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "immersiveengineering:stick_treated"
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "id": "571084a34e5b48c4",
+      "item": "frostedheart:iron_pro_pick"
+    },
+    {
+      "type": "recipe",
+      "id": "2307b43b389b496e",
+      "item": "frostedheart:iron_core_spade"
+    },
+    {
+      "type": "recipe",
+      "id": "7c42cfa996594af6",
+      "item": "frostedheart:iron_geologists_hammer"
+    }
+  ],
+  "points": 1000
+}
