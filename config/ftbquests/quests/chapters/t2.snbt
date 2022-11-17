@@ -1134,5 +1134,23 @@
 				item: "create:rotation_speed_controller"
 			}]
 		}
+		{
+			title: "{quest.twr.289D04E29639F155.title}"
+			icon: "minecraft:white_wool"
+			x: -16.0d
+			y: -0.5d
+			subtitle: "{quest.twr.289D04E29639F155.subtitle}"
+			description: [
+				"{quest.twr.289D04E29639F155.description.1}"
+				"{quest.twr.289D04E29639F155.description.2}"
+				"{quest.twr.289D04E29639F155.description.3}"
+			]
+			dependencies: ["3549A50510878505"]
+			id: "289D04E29639F155"
+			tasks: [{
+				id: "3B146E51998BDF7A"
+				type: "checkmark"
+			}]
+		}
 	]
 }

@@ -1087,5 +1087,10 @@
   "quest.twr.7F84766122DC4753.description.2": "If you can't find any cactus, you may also &emill malachite&r for green dye. &cRefer to JEI for more help&r.",
   "quest.twr.7F84766122DC4753.subtitle": "High-precision assembly",
   "quest.twr.7FA0ADDB6ABCAB6A.description.1": "Interested in learning more geology of this world? Project Rankine's Journal is your best guide!",
-  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "Deeper(literal) Knowledge"
+  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "Deeper(literal) Knowledge",
+  "quest.twr.289D04E29639F155.description.1": "You may want to make automated device by now.",
+  "quest.twr.289D04E29639F155.description.2": "Although you can get wool, you may be too lazy to do so.",
+  "quest.twr.289D04E29639F155.description.3": "&eAll create recipes with wool&r can use &bstrings&r instead. (See JEI)",
+  "quest.twr.289D04E29639F155.subtitle": "Not clue.",
+  "quest.twr.289D04E29639F155.title": "Subtitution for wool"
 }

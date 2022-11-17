@@ -1088,5 +1088,10 @@
   "quest.twr.7F84766122DC4753.description.2": "如果找不到仙人掌，也可以&e研磨孔雀石&r得到绿色染料哦。&c详见JEI&r。",
   "quest.twr.7F84766122DC4753.subtitle": "高精组装",
   "quest.twr.7FA0ADDB6ABCAB6A.description.1": "想了解更多世界相关的信息？请参考兰金计划的教程书。",
-  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "深入了解"
+  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "深入了解",
+  "quest.twr.289D04E29639F155.description.1": "走到这里，你可能已经开始想用自动化了。",
+  "quest.twr.289D04E29639F155.description.2": "虽然现阶段已经可以获取羊毛了，但是你可能懒得去获得。",
+  "quest.twr.289D04E29639F155.description.3": "所有&eCreate合成表中使用的羊毛&r都可以用&b线&r替代。（详见JEI）",
+  "quest.twr.289D04E29639F155.subtitle": "这不是线索",
+  "quest.twr.289D04E29639F155.title": "羊毛的替代品"
 }

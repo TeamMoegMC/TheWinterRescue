@@ -82,6 +82,15 @@
       "tooltip": [
         "@"
       ],
+      "icon": {
+        "type": "combined",
+        "base": [
+          "steampowered:bronze_flywheel",
+          "steampowered:cast_iron_flywheel",
+          "steampowered:steel_flywheel"
+        ],
+        "small": "minecraft:crafting_table"
+      },
       "id": "8eed770cafe84d50",
       "item": "steampowered:bronze_flywheel"
     },
@@ -102,6 +111,15 @@
       "tooltip": [
         "@"
       ],
+      "icon": {
+        "type": "combined",
+        "base": [
+          "steampowered:bronze_steam_engine",
+          "steampowered:cast_iron_steam_engine",
+          "steampowered:steel_steam_engine"
+        ],
+        "small": "minecraft:crafting_table"
+      },
       "id": "48ac6b57ae2145c1",
       "item": "steampowered:bronze_steam_engine"
     },

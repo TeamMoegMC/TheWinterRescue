@@ -1,5 +1,11 @@
 {
-  "icon": "frostedheart:iron_pro_pick",
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:iron_pro_pick",
+      "nbt": "{Damage:0}"
+    }
+  },
   "category": "frostedheart:exploration",
   "parents": [
     "advanced_geological_tools",
@@ -37,6 +43,24 @@
       "type": "recipe",
       "id": "7c42cfa996594af6",
       "item": "frostedheart:iron_geologists_hammer"
+    },
+    {
+      "type": "recipe",
+      "id": "97d96966722040d0",
+      "item": "frostedheart:steel_pro_pick"
+    },
+    {
+      "type": "recipe",
+      "id": "efe5ab6ad2754cff",
+      "item": "frostedheart:steel_core_spade"
+    },
+    {
+      "type": "recipe",
+      "id": "9bc96ef91aef4a3c",
+      "item": {
+        "id": "frostedheart:steel_geologists_hammer",
+        "nbt": "{Damage:0}"
+      }
     }
   ],
   "points": 1000
