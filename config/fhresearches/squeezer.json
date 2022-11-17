@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "immersiveengineering:squeezer",
   "category": "frostedheart:production",
   "parents": [

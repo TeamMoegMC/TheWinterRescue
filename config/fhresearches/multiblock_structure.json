@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "immersiveengineering:light_engineering",
   "category": "frostedheart:production",
   "parents": [

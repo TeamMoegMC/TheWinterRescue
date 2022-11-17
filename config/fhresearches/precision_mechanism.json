@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "create:precision_mechanism",
   "category": "frostedheart:production",
   "parents": [
@@ -33,7 +26,6 @@
     },
     {
       "type": "item",
-      "desc": "@",
       "value": 0.25,
       "id": "24e463212dc74849",
       "item": {

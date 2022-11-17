@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "rankine:beehive_oven_pit",
   "category": "frostedheart:production",
   "parents": [

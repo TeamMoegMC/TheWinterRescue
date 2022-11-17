@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "minecraft:iron_ingot",
   "category": "frostedheart:production",
   "clues": [

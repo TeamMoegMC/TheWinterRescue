@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "frostedheart:mechanical_calculator",
   "category": "frostedheart:ars",
   "parents": [
@@ -30,11 +23,10 @@
     },
     {
       "type": "item",
-      "desc": "@",
       "value": 0.25,
       "id": "c6b9a2fac4b14436",
       "item": {
-        "count": 8,
+        "count": 12,
         "base_ingredient": {
           "tag": "the_winter_rescue:cogwheels"
         }
@@ -43,7 +35,6 @@
     },
     {
       "type": "item",
-      "desc": "@",
       "value": 0.25,
       "id": "593d54b210e7473d",
       "item": {

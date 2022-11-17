@@ -1,12 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@",
-    "@"
-  ],
   "icon": "kubejs:crushed_ore_galena",
   "category": "frostedheart:production",
   "parents": [

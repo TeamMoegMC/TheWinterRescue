@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "frostedheart:sauna_vent",
   "category": "frostedheart:rescue",
   "parents": [

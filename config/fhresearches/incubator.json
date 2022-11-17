@@ -1,13 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@",
-    "@"
-  ],
-  "descAlt": [
-    "@",
-    "@"
-  ],
   "icon": {
     "type": "combined",
     "base": "minecraft:red_mushroom",

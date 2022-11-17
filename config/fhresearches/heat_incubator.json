@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "frostedheart:heat_incubator",
   "category": "frostedheart:living",
   "parents": [

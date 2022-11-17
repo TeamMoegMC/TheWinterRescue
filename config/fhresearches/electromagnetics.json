@@ -1,12 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@",
-    "@"
-  ],
   "icon": "immersiveengineering:wirecoil_copper",
   "category": "frostedheart:production",
   "parents": [

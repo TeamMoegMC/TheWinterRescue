@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "immersiveengineering:fluid_pump",
   "category": "frostedheart:production",
   "parents": [

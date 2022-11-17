@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "tetra:basic_workbench",
   "category": "frostedheart:ars",
   "parents": [

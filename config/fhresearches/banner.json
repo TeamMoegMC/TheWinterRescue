@@ -1,10 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@",
-    "@",
-    "@"
-  ],
   "icon": "minecraft:barrier",
   "category": "frostedheart:rescue",
   "clues": [],
@@ -82,8 +76,5 @@
   "points": 276447232,
   "hidden": true,
   "locked": true,
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

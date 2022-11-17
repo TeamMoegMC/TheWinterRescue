@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "minecraft:diamond_block",
   "category": "frostedheart:ars",
   "parents": [
@@ -28,7 +21,6 @@
     },
     {
       "type": "item",
-      "desc": "@",
       "value": 0.5,
       "id": "5612d1fa13a74a38",
       "item": {

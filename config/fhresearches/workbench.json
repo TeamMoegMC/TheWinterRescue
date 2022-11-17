@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "minecraft:crafting_table",
   "category": "frostedheart:ars",
   "parents": [

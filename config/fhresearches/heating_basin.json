@@ -1,12 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@",
-    "@"
-  ],
   "icon": {
     "type": "combined",
     "base": "create:basin",

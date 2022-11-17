@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "steampowered:bronze_large_cogwheel",
   "category": "frostedheart:production",
   "parents": [

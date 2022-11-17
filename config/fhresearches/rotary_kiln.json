@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "immersiveindustry:rotary_kiln",
   "category": "frostedheart:production",
   "parents": [

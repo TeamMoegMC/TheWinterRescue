@@ -1,14 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@",
-    "@"
-  ],
-  "descAlt": [
-    "@",
-    "@",
-    "@"
-  ],
   "icon": "frostedheart:energy_core",
   "category": "frostedheart:rescue",
   "clues": [
@@ -58,8 +48,8 @@
       ]
     },
     {
-      "type": "multiblock",
       "name": "@",
+      "type": "multiblock",
       "tooltip": [
         "@",
         "@"

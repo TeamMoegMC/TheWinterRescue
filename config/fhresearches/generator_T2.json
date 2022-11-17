@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "frostedheart:generator_t2",
   "category": "frostedheart:rescue",
   "parents": [
@@ -61,8 +54,8 @@
   ],
   "effects": [
     {
-      "type": "multiblock",
       "name": "@",
+      "type": "multiblock",
       "tooltip": [
         "@",
         "@"

@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "engineersdecor:small_tree_cutter",
   "category": "frostedheart:ars",
   "parents": [

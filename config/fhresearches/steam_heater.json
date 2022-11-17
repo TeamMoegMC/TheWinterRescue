@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "frostedheart:heat_radiator",
   "category": "frostedheart:rescue",
   "parents": [

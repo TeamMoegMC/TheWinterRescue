@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": {
     "type": "combined",
     "base": "immersiveengineering:plate_constantan",

@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "supplementaries:cage",
   "category": "frostedheart:ars",
   "parents": [
@@ -14,7 +7,6 @@
   "clues": [
     {
       "type": "kill",
-      "desc": "@entity.stone_age.mouflon",
       "value": 0.25,
       "id": "aa0b5f53776f467c",
       "always": false,
@@ -29,7 +21,6 @@
     },
     {
       "type": "kill",
-      "desc": "@entity.stone_age.mammoth",
       "value": 0.25,
       "id": "97a6c0da64144a5e",
       "always": false,
@@ -37,7 +28,6 @@
     },
     {
       "type": "kill",
-      "desc": "@entity.stone_age.auroch",
       "value": 0.25,
       "id": "2aca0c7f71f14c28",
       "always": false,

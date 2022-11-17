@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": {
     "type": "combined",
     "base": "minecraft:chest",
@@ -18,7 +11,6 @@
   "clues": [
     {
       "type": "item",
-      "desc": "@",
       "value": 0.5,
       "id": "abc01458e013403c",
       "required": true,

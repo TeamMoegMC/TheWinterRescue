@@ -1,5 +1,4 @@
 {
-  "name": "@",
   "icon": {
     "type": "item",
     "item": {
@@ -31,11 +30,5 @@
     }
   ],
   "points": 800,
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "showAltDesc": true
 }

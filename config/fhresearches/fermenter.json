@@ -1,11 +1,4 @@
 {
-  "name": "@",
-  "desc": [
-    "@"
-  ],
-  "descAlt": [
-    "@"
-  ],
   "icon": "immersiveengineering:ethanol_bucket",
   "category": "frostedheart:production",
   "parents": [
