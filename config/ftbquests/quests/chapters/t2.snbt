@@ -848,7 +848,10 @@
 			y: 5.5d
 			shape: "gear"
 			subtitle: "{quest.twr.7F84766122DC4753.subtitle}"
-			description: ["{quest.twr.7F84766122DC4753.description.1}"]
+			description: [
+				"{quest.twr.7F84766122DC4753.description.1}"
+				"{quest.twr.7F84766122DC4753.description.2}"
+			]
 			dependencies: [
 				"4845A9B7B7B2B4A5"
 				"55BE6F159CF89342"
