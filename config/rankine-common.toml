@@ -179,18 +179,6 @@
 	#If disabled, the beehive ovens will not require sky access.
 	#Range: 0 ~ 400
 	beehiveOvenAirHeight = 16
-	#The number of ticks it takes the Ground Tap to process
-	#Range: > 0
-	groundTapSpeed = 600
-	#Range for the Simple Magnet. The Alnico and Rare Earth versions scale at x2 and x3 respectively.
-	#Range: 1 ~ 8
-	magnetRange = 3
-	#Maximum height a charcoal pile can be
-	#Range: 1 ~ 10
-	charcoalPitHeight = 5
-	#Defines the power requirement for one process in the induction furnace.
-	#Range: 0 ~ 10000
-	inductionFurnacePower = 16
 	#Processing speed of the air distillation tower
 	#Range: > 10
 	airDistillationSpeed = 100
@@ -200,20 +188,29 @@
 	#Range for the Simple Electromagnet. The Alnico and Rare Earth versions scale at x2 and x3 respectively.
 	#Range: 1 ~ 10
 	electromagnetRange = 5
+	#The number of ticks it takes the Ground Tap to process
+	#Range: > 0
+	groundTapSpeed = 600
+	#Range for the Simple Magnet. The Alnico and Rare Earth versions scale at x2 and x3 respectively.
+	#Range: 1 ~ 8
+	magnetRange = 3
 	#Require the material of the block to be Material.IRON in order for the electromagnet to pull the block. If disabled, it will pick up any block as long as it is not a FluidBlock, Tile Entity, or in the rankine:magnet_banned tag (these blocks are also banned if this value is true).
 	electromagnetMaterialReq = true
 	#The number of ticks it takes the Charcoal Pit to process. There is some randomization.
 	#Range: > 1
 	charcoalPitSpeed = 5
+	#Maximum height a charcoal pile can be
+	#Range: 1 ~ 10
+	charcoalPitHeight = 5
+	#Defines the power requirement for one process in the induction furnace.
+	#Range: 0 ~ 10000
+	inductionFurnacePower = 16
 	#The number of ticks it takes the Gas Bottler to process
 	#Range: > 0
 	gasBottlerSpeed = 60
 	#Defines the power requirement for one process in the gyratory crusher (multiplied by the tier of the current crushing head).
 	#Range: 0 ~ 10000
 	gyratoryCrusherPower = 1
-	#Maximum height of the evaporation tower. Height affects yields. Set to 0 to disable functionality.
-	#Range: 0 ~ 30
-	evaporationTowerHeight = 30
 
 #Settings for alloys and alloy tools
 [alloys]
@@ -391,6 +388,8 @@
 		disablePhotmeter = true
 		#Disable the use of the stone hammer (still allows crafting for other recipes). This is enabled by default for progression.
 		disableStoneHammer = false
+		#Enable the bonus feature of the Alloy Pickaxe, which causes nuggets to drop from mining certain ores.
+		enableAlloyPickaxeBonus = false
 		#Number of blocks away that the Prospecting Stick can detect ore.
 		#Range: 0 ~ 64
 		prospectingStickRange = 0
@@ -610,6 +609,8 @@
 	#Size parameter for meteorites. Higher number is bigger.
 	#Range: 0 ~ 5
 	meteoriteSize = 1
+	#Generate Corn in Plains biomes
+	generateWildCorn = true
 	#Disable vanilla features in the overworld. Works by replacing the listed blocks in #rankine:vanilla_override with stones
 	disableVanillaOres = true
 	#Enable to generate meteorites in the overworld.
@@ -620,9 +621,13 @@
 	generateFumaroles = false
 	#Generate antimatter in the End.
 	antimatterGen = false
+	#Generate Barley in Plains biomes
+	generateWildBarley = true
 	#The number of blocks that Soul Sandstone will generate up or down from Soul Sand.
 	#Range: > 0
 	soulSandstoneLayerThickness = 3
+	#Generate Jute in Jungle biomes
+	generateWildJute = true
 	#Enable/Disable Project Rankine cobbles in world.
 	generateCobbles = false
 	#This determines how mixed the two types of soil are per biome. Larger numbers mean larger patches.
@@ -636,31 +641,43 @@
 	generateMud = false
 	#Enable to generate meteorites in the end.
 	endMeteoriteGen = false
+	#Generate Asparagus in Beach biomes
+	generateWildAsparagus = true
 	#The chance for an end meteroite.
 	#Range: 0.0 ~ 1.0
 	endMeteoriteChance = 0.03
 	#If enabled, replaces vanilla ores with the Rankine counterparts (mostly for texture purposes). Results may vary due to the order of feature placements.
 	replaceVanillaOres = false
+	#Generate Rye in Savanna biomes
+	generateWildRye = true
 	#Enables the generation of black sand disks in the Nether.
 	generateBlackSand = false
 	#The chance a meteroite will be big.
 	#Range: 0.0 ~ 1.0
 	meteoriteBigChance = 0.25
+	#Generate Millet in Savanna biomes
+	generateWildMillet = true
 	#Enable/Disable Project Rankine mushrooms in world.
 	generateMushrooms = true
 	#The chance a meteroite will spawn in the Overworld. Higher numbers increase rarity.
 	#Range: > 0
 	meteoriteChance = 80
+	#Generate Rice in River and Swamp biomes
+	generateWildRice = true
 	#Enable/Disable Project Rankine flowers and berry bushes in world.
 	generateFlora = true
 	#Enables the generation of fire clay underneath blocks in #forge:ores/coal
 	generateFireClayUnderCoal = false
 	#Generates the Nether with a flat bedrock layer.
 	flatBedrockNether = false
+	#Generate Oat in Plains biomes
+	generateWildOat = true
 	#Enable/Disable Project Rankine trees in world.
 	generateTrees = true
-	#Enable/Disable Project Rankine wild crops in world.
-	generateWildCrops = false
+	#Generate Cotton in Plains biomes
+	generateWildCotton = true
+	#Generate Sorghum in Plains and Savanna biomes
+	generateWildSorghum = true
 
 #Settings for stone layering
 [layers]

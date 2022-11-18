@@ -55,10 +55,15 @@ function carkilnRecipe(inputs,output,time,energy,start_cost){
 	inputs.forEach((key)=>{
 		ings.push(IEIngredient(key));
 	})
+	let outs=[];
+	output.forEach((key)=>{
+		outs.push(IEIngredient(key));
+		
+	})
 	return {
 		"type": "immersiveindustry:car_kiln",
 		"inputs": ings,
-		"result": Item.of(output),
+		"results": outs,
 		"time": time,
 		"tickEnergy":energy,
 		"start_fluid_cost":start_cost

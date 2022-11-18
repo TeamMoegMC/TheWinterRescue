@@ -63,7 +63,7 @@ by_products[1] = [Item.of("rankine:sulfur").withChance(0.5)];
     {output: 'immersiveengineering:ingot_nickel', input: 'kubejs:washed_ore_pentlandite',time:300},
 	{output: 'immersiveengineering:ingot_nickel', input: 'kubejs:nickel_matte',time:300},
 	{output: 'rankine:antimony', input: 'kubejs:antimony_oxide',time:80},
-	{output: 'rankine:copper_ingot', input: 'kubejs:copper_oxide',time:150},
+	{output: 'rankine:copper_ingot', input: 'kubejs:copper_oxide',time:90},
 	{output: 'immersiveengineering:ingot_lead', input: 'kubejs:lead_oxide',time:80}
      ]
     };
@@ -71,15 +71,19 @@ by_products[1] = [Item.of("rankine:sulfur").withChance(0.5)];
     event.recipes.immersiveengineeringBlastFurnace(recipe.output, recipe.input, 'immersiveengineering:slag').time(recipe.time);
     });
 	function rotarySulfate(input,output,energy,sulfur,chance){
+		if(chance==0)
+			return rotarykilnRecipe3(input,output,Fluid.of("frostedheart:sulfur_dioxide",sulfur).toJson(),200,energy)
 		return rotarykilnRecipe3(input,output,Fluid.of("frostedheart:sulfur_dioxide",sulfur).toJson(),200,energy,output,chance)
 	}
 	let kilnRecipes=[
-		rotarySulfate("kubejs:washed_ore_chalcocite","kubejs:copper_oxide",32,125,0.25),
-		rotarykilnRecipe2("kubejs:washed_ore_malachite","kubejs:copper_oxide",200,32,0.25),
+		rotarySulfate("kubejs:washed_ore_chalcocite","kubejs:copper_oxide",32,125,0),
+		rotarykilnRecipe2("kubejs:washed_ore_malachite","kubejs:copper_oxide",200,32),
+		rotarykilnRecipe2("kubejs:washed_ore_magnetite","kubejs:washed_ore_hematite",200,32,"kubejs:washed_ore_hematite",0.25),
 		rotarySulfate("kubejs:washed_ore_pyrite","kubejs:washed_ore_hematite",64,250,0),
 		rotarySulfate("kubejs:washed_ore_galena","kubejs:lead_oxide",32,250,0.25),
 		rotarykilnRecipe3("kubejs:washed_ore_pentlandite","kubejs:nickel_matte",Fluid.of("frostedheart:sulfur_dioxide",250).toJson(),200,64,"kubejs:iron_slag",1),
-		rotarySulfate("kubejs:washed_ore_stibnite","kubejs:antimony_oxide",32,250,0.25)
+		rotarySulfate("kubejs:washed_ore_stibnite","kubejs:antimony_oxide",32,250,0.25),
+		carkilnRecipe(["3x kubejs:nickel_matte","2x rankine:quicklime"],["3x immersiveengineering:ingot_nickel","3x immersiveengineering:slag","kubejs:nickel_matte"],1200)
 	]
 	kilnRecipes.forEach((recipe)=>{event.custom(recipe);console.info(recipe)});
 	

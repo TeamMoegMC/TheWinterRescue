@@ -53,28 +53,10 @@
       "type": "multiblock",
       "id": "1faf7deded1340fd",
       "multiblock": "immersiveengineering:multiblocks/sawmill"
-    },
-    {
-      "type": "recipe",
-      "id": "8de6ab8dae04adf",
-      "item": "crockpot:crock_pot_advanced"
-    },
-    {
-      "type": "recipe",
-      "id": "1dd0dbd49e01455e",
-      "item": "crockpot:crock_pot_ultimate"
-    },
-    {
-      "type": "use",
-      "id": "538d21ab33a647d9",
-      "blocks": [
-        "crockpot:crock_pot_advanced",
-        "crockpot:crock_pot_ultimate"
-      ]
     }
   ],
   "points": 276447232,
+  "showAltDesc": true,
   "hidden": true,
-  "locked": true,
-  "showAltDesc": true
+  "locked": true
 }

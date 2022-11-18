@@ -55,8 +55,8 @@ onEvent('recipes', (event) => {
 		[Fluid.of('kubejs:ferrous_chloride', 250)], input: 
 		[Fluid.of('kubejs:hydrochloric_acid', 500),'kubejs:rusted_iron_ingot']},
 	{output: 
-		[Fluid.of('kubejs:copper_chloride', 300)], input: 
-		[Fluid.of('kubejs:hydrochloric_acid', 600),'kubejs:copper_oxide']},
+		[Fluid.of('kubejs:copper_chloride', 375)], input: 
+		[Fluid.of('kubejs:hydrochloric_acid', 750),'kubejs:copper_oxide']},
 		{output: 
 		[Fluid.of('kubejs:copper_chloride', 300)], input: 
 		[Fluid.of('kubejs:hydrochloric_acid', 600),'kubejs:washed_ore_malachite']},

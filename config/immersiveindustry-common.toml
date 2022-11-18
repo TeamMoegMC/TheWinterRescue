@@ -1,7 +1,7 @@
 #Range: 0 ~ 4096
 ElectrolyzerBaseTickEnergy = 32
 #Range: 0 ~ 4096
-RotaryKilnBaseTickEnergy = 48
+RotaryKilnBaseTickEnergy = 32
 #Range: 0 ~ 4096
 CarKilnBaseTickEnergy = 64
 #Range: 0 ~ 4096
