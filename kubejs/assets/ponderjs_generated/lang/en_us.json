@@ -1,0 +1,68 @@
+{
+  "the_winter_rescue.ponder.tag.bloomery": "Bloomery",
+  "the_winter_rescue.ponder.tag.bloomery.description": "A machine used for iron and nickel processing",
+
+  "the_winter_rescue.ponder.bloomery.assembly.header": "Assembling the Bloomery",
+  "the_winter_rescue.ponder.bloomery.assembly.text_1": "A single Bellow is required for the Bloomery to work",
+  "the_winter_rescue.ponder.bloomery.assembly.text_2": "Make sure to check it's vent orientation",
+  "the_winter_rescue.ponder.bloomery.assembly.text_3": "If the vent doesn't face the Tuyere, the Bellow will not work",
+  "the_winter_rescue.ponder.bloomery.assembly.text_4": "Right-Click to push air in using the Bellow",
+  "the_winter_rescue.ponder.bloomery.assembly.text_5": "Another Tuyere can be added on this side, just make sure to check it's vent direction",
+  "the_winter_rescue.ponder.bloomery.assembly.text_6": "Another layer can be placed for 2x processing. You cannot stack another layer after this one",
+  
+  "the_winter_rescue.ponder.bloomery.usage.header": "Using the Bloomery",
+  "the_winter_rescue.ponder.bloomery.usage.text_1": "To start processing, use Shift + Right-Click with the first ore in hand (not blocks)",
+  "the_winter_rescue.ponder.bloomery.usage.text_2": "After the initial placement, Right-Click the pile with the ore and charcoal",
+  "the_winter_rescue.ponder.bloomery.usage.text_3": "After filling it up, start it by using a firestarter",
+  "the_winter_rescue.ponder.bloomery.usage.text_4": "Once it's done burning, you can mine it up and collect the iron",
+  "the_winter_rescue.ponder.tag.generator": "The Generator",
+  "the_winter_rescue.ponder.tag.generator.description": "The heart of your steam engines",
+
+  "the_winter_rescue.ponder.generator_construction_t1.basic_usage.header": "Assembling the tier 1 generator",
+  "the_winter_rescue.ponder.generator_construction_t1.basic_usage.text_1": "Right-Click with the Engineer's Hammer to assemble",
+  "the_winter_rescue.ponder.generator_construction_t2.basic_usage.header": "Assembling the tier 2 generator",
+  "the_winter_rescue.ponder.generator_construction_t2.basic_usage.text_1": "Right-Click with the Engineer's Hammer to assemble",
+
+  "the_winter_rescue.ponder.tag.crucible": "Steel Crucible",
+  "the_winter_rescue.ponder.tag.crucible.description": "Basic steel processing",
+
+  "the_winter_rescue.ponder.steel_mill.assembly.header": "Assembling the Steel Crucible",
+
+  "the_winter_rescue.ponder.tag.steam_turbine": "Steam Turbine",
+  "the_winter_rescue.ponder.tag.steam_turbine.description": "Advanced power generation",
+  "the_winter_rescue.ponder.steam_turbine.basic_usage.header": "Assembling the Steam Turbine",
+  "the_winter_rescue.ponder.steam_turbine.basic_usage.text_1": "Right-Click with the Engineer's Hammer to assemble",
+  "the_winter_rescue.ponder.steam_turbine.basic_usage.text_2": "Input steam here",
+
+
+  "the_winter_rescue.ponder.tag.beehive_oven_pit": "Beehive Oven Pit",
+  "the_winter_rescue.ponder.tag.beehive_oven_pit.description": "Assembling the Beehive Oven Pit",
+
+  "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.header": "Beehive Oven Pit",
+  "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_1": "Place marble on the top without blocking the beehive oven pit",
+  "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_2": "After placing the blocks, use a flint and steel to turn it on",
+  "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_3": "Once it finishes, you will get quicklime from the marble",
+
+  "the_winter_rescue.ponder.tag.charcoal_pit.description": "Charcoal Pit",
+  "the_winter_rescue.ponder.tag.charcoal_pit": "Charcoal Pit",
+  "the_winter_rescue.ponder.charcoal_pit.basic_usage.header": "Charcoal Pit",
+  "the_winter_rescue.ponder.tag.generator_t2": "",
+  "the_winter_rescue.ponder.tag.generator_t2.description": "",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.header": "Crucible Usage",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_1": "Install Preheater here",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_2": "Power must be provided here",
+  "the_winter_rescue.ponder.steel_mill.assembly.text_1": "Right-Click to assemble",
+  "the_winter_rescue.ponder.steel_mill.assembly.text_2": "Install Preheater here",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_3": "You can either use GUI or automation input",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_4": "Ingredients can be throw into crucible",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_5": "Ingredients can also insert into crucible on the top",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_7": "Products can be extracted from sides of the crucible part",
+  "the_winter_rescue.ponder.steel_mill.basic_usage.text_6": "Coke coal can insert to the burners",
+  "the_winter_rescue.ponder.generator_construction_t2.basic_usage.text_3": "Export energy from these locations",
+  "the_winter_rescue.ponder.generator_construction_t2.basic_usage.text_2": "Input heat medium from bottom center",
+  "the_winter_rescue.ponder.generator_construction_t2.usage.header": "Usage",
+  "the_winter_rescue.ponder.generator_construction_t2.usage.text_2": "Export energy from the bottom of these locations",
+  "the_winter_rescue.ponder.generator_construction_t2.usage.text_1": "Input heat medium from bottom center",
+  "the_winter_rescue.ponder.pottery_kiln.basic_usage.header": "Pottery Kiln",
+  "the_winter_rescue.ponder.pottery_kiln.basic_usage.text_1": "Surrounding blocks can be ANY block, not just dirt."
+}
