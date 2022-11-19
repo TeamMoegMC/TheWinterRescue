@@ -57,10 +57,7 @@
     {
       "type": "recipe",
       "id": "9bc96ef91aef4a3c",
-      "item": {
-        "id": "frostedheart:steel_geologists_hammer",
-        "nbt": "{Damage:0}"
-      }
+      "item": "frostedheart:steel_geologists_hammer"
     }
   ],
   "points": 1000

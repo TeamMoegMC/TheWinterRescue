@@ -229,6 +229,7 @@
 			}]
 		}
 		{
+			title: "{quest.twr.3102993072F3C8B9.title}"
 			icon: "stone_age:flint_workbench"
 			x: 4.5d
 			y: 0.0d
@@ -245,13 +246,13 @@
 			id: "3102993072F3C8B9"
 			tasks: [
 				{
-					id: "081B951F9A018B3B"
-					type: "item"
-					item: "stone_age:flint_workbench"
-				}
-				{
 					id: "4C8BCF32AD2C1D1C"
 					type: "checkmark"
+				}
+				{
+					id: "5EAF6B48C8FA678E"
+					type: "item"
+					item: "stone_age:flint_workbench"
 				}
 			]
 			rewards: [{
@@ -669,6 +670,7 @@
 			}]
 		}
 		{
+			title: "{quest.twr.36960F1D7CDC8B30.title}"
 			icon: "minecraft:campfire"
 			x: 10.5d
 			y: 0.0d
@@ -692,13 +694,13 @@
 			id: "36960F1D7CDC8B30"
 			tasks: [
 				{
-					id: "2EA574C52E7D6A74"
-					type: "item"
-					item: "minecraft:campfire"
-				}
-				{
 					id: "3A3418B5C34E9427"
 					type: "checkmark"
+				}
+				{
+					id: "53009548E322202C"
+					type: "item"
+					item: "minecraft:campfire"
 				}
 			]
 			rewards: [

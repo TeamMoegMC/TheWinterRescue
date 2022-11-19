@@ -1181,6 +1181,7 @@
 		}
 		{
 			title: "{quest.twr.6A22E2D62D4719BE.title}"
+			icon: "frostedheart:drawing_desk"
 			x: 2.0d
 			y: 0.5d
 			shape: "gear"
@@ -1194,11 +1195,17 @@
 			hide: false
 			size: 1.8d
 			id: "6A22E2D62D4719BE"
-			tasks: [{
-				id: "3DBF7D165A3ACC76"
-				type: "item"
-				item: "frostedheart:drawing_desk"
-			}]
+			tasks: [
+				{
+					id: "1AD34D8CE24475FE"
+					type: "checkmark"
+				}
+				{
+					id: "1D0325923AB6FD28"
+					type: "item"
+					item: "frostedheart:drawing_desk"
+				}
+			]
 		}
 		{
 			title: "{quest.twr.688E6165A1E9A28C.title}"
