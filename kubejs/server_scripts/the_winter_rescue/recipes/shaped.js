@@ -10,7 +10,12 @@ onEvent('recipes', (event) => {
             B: 'minecraft:piston',
             C: 'charcoal_pit:bellows'
         }),
-		
+		shapedRecipe('engineersdecor:small_fluid_funnel', ['AAA', 'CBC', 'CDC'], {
+            A: 'minecraft:hopper',
+            B: 'engineersdecor:fluid_barrel',
+            C: 'engineersdecor:metal_bar',
+			D: 'immersiveengineering:circuit_board'
+        }),
         shapedRecipe('rankine:beehive_oven_pit', [' A ', 'ABA', ' A '], {
                     A: 'rankine:refractory_bricks',
                     B: 'minecraft:iron_ingot'

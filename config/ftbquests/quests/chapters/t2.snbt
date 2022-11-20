@@ -191,19 +191,6 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: 2.5d
-			subtitle: "{quest.twr.401439E8C1AA7A0A.subtitle}"
-			dependencies: ["064ECF25B9B8962B"]
-			hide: true
-			id: "401439E8C1AA7A0A"
-			tasks: [{
-				id: "21FDBD8C0467F592"
-				type: "item"
-				item: "kubejs:battery_alloy"
-			}]
-		}
-		{
 			x: -19.0d
 			y: 1.0d
 			shape: "gear"
@@ -285,8 +272,8 @@
 			]
 		}
 		{
-			x: -4.0d
-			y: 4.0d
+			x: -3.0d
+			y: 2.5d
 			shape: "gear"
 			subtitle: "{quest.twr.1F2BD4A72596B287.subtitle}"
 			description: [
@@ -359,8 +346,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.0d
+			x: -3.0d
+			y: 4.0d
 			shape: "rsquare"
 			subtitle: "{quest.twr.064ECF25B9B8962B.subtitle}"
 			description: ["{quest.twr.064ECF25B9B8962B.description.1}"]
@@ -413,8 +400,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: 2.5d
+			x: -3.0d
+			y: 1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.4548F432A872DA92.subtitle}"
 			description: [
@@ -549,8 +536,8 @@
 		}
 		{
 			icon: "immersiveengineering:connector_lv"
-			x: -4.0d
-			y: 5.5d
+			x: -1.0d
+			y: 2.5d
 			subtitle: "{quest.twr.5B8BA38FF8C93A1A.subtitle}"
 			dependencies: ["1F2BD4A72596B287"]
 			hide: true
@@ -665,8 +652,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 5.5d
+			x: 0.5d
+			y: 1.0d
 			shape: "rsquare"
 			subtitle: "{quest.twr.016B841B20166EA8.subtitle}"
 			description: [
@@ -690,8 +677,8 @@
 		{
 			title: "{quest.twr.19038BB5A9E42055.title}"
 			icon: "immersiveindustry:crucible"
-			x: -2.5d
-			y: 4.0d
+			x: 2.2d
+			y: -0.55d
 			shape: "gear"
 			subtitle: "{quest.twr.19038BB5A9E42055.subtitle}"
 			description: [
@@ -729,8 +716,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 2.5d
+			x: -1.0d
+			y: -0.5d
 			shape: "rsquare"
 			subtitle: "{quest.twr.6738A3C34A872FED.subtitle}"
 			description: ["{quest.twr.6738A3C34A872FED.description.1}"]
@@ -747,14 +734,12 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 7.0d
+			x: -1.0d
+			y: 5.5d
 			description: ["{quest.twr.4B46838E7C65D4C4.description.1}"]
-			dependencies: [
-				"55BE6F159CF89342"
-				"064ECF25B9B8962B"
-			]
+			dependencies: ["55BE6F159CF89342"]
 			hide: true
+			optional: true
 			id: "4B46838E7C65D4C4"
 			tasks: [{
 				id: "2BADA53AE3BE71DA"
@@ -787,7 +772,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -3.0d
 			y: -2.0d
 			subtitle: "{quest.twr.29556685F57F6657.subtitle}"
 			description: ["{quest.twr.29556685F57F6657.description.1}"]
@@ -815,15 +800,13 @@
 			}]
 		}
 		{
-			x: -0.25d
-			y: 4.0d
+			x: -3.0d
+			y: 7.0d
 			subtitle: "{quest.twr.688C57B7BC46E723.subtitle}"
 			description: ["{quest.twr.688C57B7BC46E723.description.1}"]
-			dependencies: [
-				"401439E8C1AA7A0A"
-				"4845A9B7B7B2B4A5"
-			]
+			dependencies: ["4845A9B7B7B2B4A5"]
 			hide: true
+			optional: true
 			id: "688C57B7BC46E723"
 			tasks: [{
 				id: "1C0663BDDF3D6C78"
@@ -832,8 +815,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 1.5d
+			x: -3.0d
+			y: 5.5d
 			subtitle: "{quest.twr.4845A9B7B7B2B4A5.subtitle}"
 			dependencies: ["17F033FB5ACAACFB"]
 			id: "4845A9B7B7B2B4A5"
@@ -844,8 +827,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 5.5d
+			x: 2.5d
+			y: 4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.7F84766122DC4753.subtitle}"
 			description: [
@@ -919,12 +902,12 @@
 		}
 		{
 			icon: "rankine:tree_tap"
-			x: -2.5d
-			y: 7.0d
+			x: -1.0d
+			y: 4.0d
 			shape: "rsquare"
 			subtitle: "{quest.twr.55BE6F159CF89342.subtitle}"
 			description: ["{quest.twr.55BE6F159CF89342.description.1}"]
-			dependencies: ["5B8BA38FF8C93A1A"]
+			dependencies: ["064ECF25B9B8962B"]
 			id: "55BE6F159CF89342"
 			tasks: [
 				{
