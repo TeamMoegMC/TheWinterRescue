@@ -15,6 +15,7 @@ let colors=["white",
 "green",
 "red"
 ];
+
 onEvent('item.tags', (event) => {
     event.add('itemfilters:check_nbt', 'tetra:modular_double')
 	event.add('frostedheart:knife', 'tetra:modular_sword')
@@ -105,7 +106,7 @@ onEvent('item.tags', (event) => {
 	event.add('frostedheart:mushroom_base',"frostedheart:straw_briquette_brown_mushroom")
 	event.add('the_winter_rescue:leather',"minecraft:leather")
 	event.add('the_winter_rescue:leather',"#forge:rubber")
-	event.add('ftbultimine:included_tools','create:cogwheel')
+	
 	event.add('frostedheart:electronic_junk',"kubejs:damaged_gpu")
 	event.add('frostedheart:electronic_junk',"kubejs:damaged_gpu")
     event.add('frostedheart:electronic_junk',"kubejs:damaged_circuit_board")
@@ -114,4 +115,13 @@ onEvent('item.tags', (event) => {
     event.add('frostedheart:electronic_junk',"kubejs:burnt_circuit_board")
     event.add('frostedheart:electronic_junk',"kubejs:broken_robot_1")
     event.add('frostedheart:electronic_junk',"kubejs:broken_robot_2")
+	
+	//Why we disable ftb ultimine? We consider it have a bad impact on player experience, since it greatly reduce difficulty of this modpack and can easily cause bug or cheat.	
+	//为何要禁止连锁挖矿？我们以前认为使用连锁挖矿是个人行为，可以让后期不想挖矿的玩家偷懒。
+	//但是部分玩家和游戏UP向各种所有玩家推荐连锁挖矿。
+	//甚至一些新手玩家刚刚下载整合包就已经前来询问连锁挖矿相关问题，并直接安装连锁挖矿，而不是先体验整合包内容。
+	//而新手玩家上手直接使用连锁挖矿显然是非常影响整体游戏体验的，也与我们设计的初衷相悖，因此我们被迫提高连锁挖矿的门槛。
+	//如果你坚持要使用连锁挖矿，可以自行把对应的内容去除，但是出现任何问题后果自负。并且请不要向他人宣传连锁挖矿。
+	//最终，我们是不推荐擅自修改整合包内容的，这样极大降低游戏体验。如果实在要爽，不如直接开创造。
+	event.add('ftbultimine:included_tools','create:cogwheel')
 });

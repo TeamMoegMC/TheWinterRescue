@@ -349,6 +349,11 @@
   "quest.twr.2659A48FDF01B1B7.description.2": "&m不推荐用来工作，因为它的速度太慢了",
   "quest.twr.2659A48FDF01B1B7.subtitle": "奇观误国",
   "quest.twr.279DA3B6F5DE7753.subtitle": "掺合了红石的二氧化硅晶体",
+  "quest.twr.289D04E29639F155.description.1": "走到这里，你可能已经开始想用自动化了。",
+  "quest.twr.289D04E29639F155.description.2": "虽然现阶段已经可以获取羊毛了，但是你可能懒得去获得。",
+  "quest.twr.289D04E29639F155.description.3": "所有&eCreate合成表中使用的羊毛&r都可以用&b线&r替代。（详见JEI）",
+  "quest.twr.289D04E29639F155.subtitle": "这不是线索",
+  "quest.twr.289D04E29639F155.title": "羊毛的替代品",
   "quest.twr.28F313C8E1312A2B.6CB265B632F3388D.title": "我已了解，下水前一定注意。",
   "quest.twr.28F313C8E1312A2B.description.1": "虽然大多河流已经冰封，但是冰下依旧藏着丰富的资源。",
   "quest.twr.28F313C8E1312A2B.description.2": "你可以在河床上发现大量的粘土，沙砾，以及&e铜矿沙砾&r。",
@@ -555,7 +560,6 @@
   "quest.twr.3FEE911101C61CFB.description.8": "&b示意图详见研究台的帮助面板&r。",
   "quest.twr.3FEE911101C61CFB.description.9": "&e*如果发现界面上的元素已经无法消除了，说明游戏失败，需要重新开局。",
   "quest.twr.3FEE911101C61CFB.subtitle": "消消乐",
-  "quest.twr.401439E8C1AA7A0A.subtitle": "制造电容",
   "quest.twr.40254682DFE145B8.description.1": "生成于:",
   "quest.twr.40254682DFE145B8.description.2": "闪长岩，流纹岩，辉长岩，花岗闪长岩，科马提岩",
   "quest.twr.40254682DFE145B8.subtitle": "在一些岩浆岩中",
@@ -1091,9 +1095,5 @@
   "quest.twr.7F84766122DC4753.subtitle": "高精组装",
   "quest.twr.7FA0ADDB6ABCAB6A.description.1": "想了解更多世界相关的信息？请参考兰金计划的教程书。",
   "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "深入了解",
-  "quest.twr.289D04E29639F155.description.1": "走到这里，你可能已经开始想用自动化了。",
-  "quest.twr.289D04E29639F155.description.2": "虽然现阶段已经可以获取羊毛了，但是你可能懒得去获得。",
-  "quest.twr.289D04E29639F155.description.3": "所有&eCreate合成表中使用的羊毛&r都可以用&b线&r替代。（详见JEI）",
-  "quest.twr.289D04E29639F155.subtitle": "这不是线索",
-  "quest.twr.289D04E29639F155.title": "羊毛的替代品"
+  "quest.twr.3B5663CF194B054C.description.10": "如果您所在的地区使用华氏度，可以在frostedheart的客户端配置中启用。"
 }

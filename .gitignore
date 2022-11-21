@@ -39,6 +39,7 @@ hs_err_*
 replay_*
 /config/inventoryprofilesnext/
 config/.*
+schematics/
 
 # server side
 /dumps/

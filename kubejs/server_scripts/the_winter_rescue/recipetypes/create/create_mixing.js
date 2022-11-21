@@ -9,6 +9,9 @@ onEvent('recipes', (event) => {
     {output:
         ['3x rankine:vulcanized_rubber'],input:
         ['immersiveengineering:dust_sulfur', Fluid.of('rankine:latex', 500)]},
+		{output:
+        ['3x rankine:vulcanized_rubber'],input:
+        [Fluid.of('frostedheart:sulfur_dioxide', 125), Fluid.of('rankine:latex', 500)]},
     {output:
         [Fluid.of('kubejs:lime_water', 1000)],input:
         ['rankine:quicklime', Fluid.of('minecraft:water', 1000)]},
@@ -110,4 +113,5 @@ onEvent('recipes', (event) => {
 	heated.forEach((recipe) => {
         event.recipes.createMixing(recipe.output, recipe.input).heated();
     });
+	event.recipes.createFilling('minecraft:leather', ['stone_age:raw_hide', Fluid.of('frostedheart:sulfur_dioxide', 250)]);
 });

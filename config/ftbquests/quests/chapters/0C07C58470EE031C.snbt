@@ -97,6 +97,7 @@
 				"{quest.twr.3B5663CF194B054C.description.7}"
 				"{quest.twr.3B5663CF194B054C.description.8}"
 				"{quest.twr.3B5663CF194B054C.description.9}"
+				"{quest.twr.3B5663CF194B054C.description.10}"
 			]
 			dependencies: ["58EF2132D0431323"]
 			id: "3B5663CF194B054C"

@@ -348,6 +348,11 @@
   "quest.twr.2659A48FDF01B1B7.description.2": "&mWhy would you ever use it to power a machine???",
   "quest.twr.2659A48FDF01B1B7.subtitle": "Spectacular! But what's the point...",
   "quest.twr.279DA3B6F5DE7753.subtitle": "Silica crystals blended with redstone",
+  "quest.twr.289D04E29639F155.description.1": "You may want to make automated device by now.",
+  "quest.twr.289D04E29639F155.description.2": "Although you can get wool, you may be too lazy to do so.",
+  "quest.twr.289D04E29639F155.description.3": "&eAll create recipes with wool&r can use &bstrings&r instead. (See JEI)",
+  "quest.twr.289D04E29639F155.subtitle": "Not clue.",
+  "quest.twr.289D04E29639F155.title": "Subtitution for wool",
   "quest.twr.28F313C8E1312A2B.6CB265B632F3388D.title": "I've understood, and will be careful before get in the water.",
   "quest.twr.28F313C8E1312A2B.description.1": "Although most rivers are frozen, but there is still a wealth of resources hidden beneath the ice.",
   "quest.twr.28F313C8E1312A2B.description.2": "You can find large amounts of clay, gravel, and &eCopper gravel&r.",
@@ -554,7 +559,6 @@
   "quest.twr.3FEE911101C61CFB.description.8": "&bSchematic diagrams can be found in the tutorial panel of the drawing desk.&r",
   "quest.twr.3FEE911101C61CFB.description.9": "&e*If the elements on the board don't match with each other any more, the puzzle fails and needs to be restarted by clicking the refresh button.",
   "quest.twr.3FEE911101C61CFB.subtitle": "puzzle",
-  "quest.twr.401439E8C1AA7A0A.subtitle": "Manufacturing capacitor",
   "quest.twr.40254682DFE145B8.description.1": "Generated in:",
   "quest.twr.40254682DFE145B8.description.2": "Diorite, rhyolite, gabbro, granodiorite, and komatiite",
   "quest.twr.40254682DFE145B8.subtitle": "Among some igneous",
@@ -1090,9 +1094,5 @@
   "quest.twr.7F84766122DC4753.subtitle": "High-precision assembly",
   "quest.twr.7FA0ADDB6ABCAB6A.description.1": "Interested in learning more geology of this world? Project Rankine's Journal is your best guide!",
   "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "Deeper(literal) Knowledge",
-  "quest.twr.289D04E29639F155.description.1": "You may want to make automated device by now.",
-  "quest.twr.289D04E29639F155.description.2": "Although you can get wool, you may be too lazy to do so.",
-  "quest.twr.289D04E29639F155.description.3": "&eAll create recipes with wool&r can use &bstrings&r instead. (See JEI)",
-  "quest.twr.289D04E29639F155.subtitle": "Not clue.",
-  "quest.twr.289D04E29639F155.title": "Subtitution for wool"
+  "quest.twr.3B5663CF194B054C.description.10": "If you wish to use fahrenheit, you can set it in frostedheart client configuration. "
 }

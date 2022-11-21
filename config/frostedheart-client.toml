@@ -11,4 +11,6 @@ tempOrbOffsetX = 0
 tempOrbOffsetY = 0
 #Enables The Winter Rescue HUD. THIS IS MODPACK CORE FEATURE, DISABLING IS NOT RECOMMENDED. 
 enableHUD = true
+#Use Fahrenheit temperature instead of celsus.
+useFahrenheit = false
 
