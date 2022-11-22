@@ -16,6 +16,21 @@ onEvent('recipes', (event) => {
             C: 'engineersdecor:metal_bar',
 			D: 'immersiveengineering:circuit_board'
         }),
+		shapedRecipe('2x create:brass_funnel', [' A ', 'BCB', ' C '], {
+            A: 'create:electron_tube',
+            B: '#forge:ingots/brass',
+            C: '#the_winter_rescue:leather'
+        }),
+		shapedRecipe('4x create:andesite_funnel', [' A ', 'ACA', ' C '], {
+            A: '#forge:rods/cast_iron',
+            C: '#the_winter_rescue:leather'
+        }),
+		shapedRecipe('engineersdecor:small_fluid_funnel', ['AAA', 'CBC', 'CDC'], {
+            A: 'minecraft:hopper',
+            B: 'engineersdecor:fluid_barrel',
+            C: 'engineersdecor:metal_bar',
+			D: 'immersiveengineering:circuit_board'
+        }),
         shapedRecipe('rankine:beehive_oven_pit', [' A ', 'ABA', ' A '], {
                     A: 'rankine:refractory_bricks',
                     B: 'minecraft:iron_ingot'
