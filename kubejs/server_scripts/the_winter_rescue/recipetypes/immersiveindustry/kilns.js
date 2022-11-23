@@ -14,7 +14,7 @@ onEvent('recipes', (event) => {
 	carkilnRecipe(["3x rankine:fire_clay_ball","5x kubejs:aluminium_oxide_dust","immersiveengineering:dust_hop_graphite"],["3x immersiveindustry:refractory_kiln_brick"],600),
 	rotarykilnRecipe("kubejs:aluminium_hydroxide_dust",'kubejs:aluminium_oxide_dust'),
 	rotarykilnRecipe('kubejs:washed_ore_magnesite','rankine:magnesia'),
-	rotarykilnRecipe2('kubejs:flux','2x rankine:quicklime','rankine:quicklime',0.25),
+	rotarykilnRecipe2('kubejs:flux','2x rankine:quicklime',200,32,'rankine:quicklime',0.25),
 	carkilnReplace("kubejs:clay_bucket","frostedheart:ceramic_bucket"),
 	carkilnReplace("charcoal_pit:clay_pot","charcoal_pit:ceramic_pot"),
 	carkilnReplace("charcoal_pit:unfired_sandy_brick","charcoal_pit:sandy_brick_item"),
