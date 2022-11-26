@@ -257,6 +257,17 @@ onEvent('recipes', (event) => {
 			W: 'frostedheart:gambeson',
 			C: '#forge:treated_wood'
         }),
+        shapedRecipe('create:mechanical_mixer', [' A ', 'DCD', ' B '], {
+            A: '#forge:ingots/iron',
+            B: 'create:whisk',
+            C: '#forge:sheetmetals/iron',
+            D: '#the_winter_rescue:cogwheels'
+        }),
+        shapedRecipe('create:hand_crank', [' C ', 'BBB', '  A'], {
+            A: '#forge:ingots/iron',
+            B: '#minecraft:planks',
+            C: 'create:shaft'
+        }),
         shapedRecipe('8x create:gantry_shaft', ['BAD', 'BCB', 'DAB'], {
             A: '#forge:rods/cast_iron',
             B: '#forge:ingots/cast_iron',
@@ -398,20 +409,9 @@ onEvent('recipes', (event) => {
         shapedRecipe('3x create:shaft', ['A', 'A','A'], {
             A: '#forge:ingots/iron'
         }),
-        shapedRecipe('create:hand_crank', [' C ', 'BBB', '  A'], {
-            A: '#forge:ingots/iron',
-            B: '#minecraft:planks',
-            C: 'create:shaft'
-        }),
         shapedRecipe('create:whisk', ['BAB', 'BAB', 'BBB'], {
             A: '#forge:ingots/iron',
             B: '#forge:plates/iron'
-        }),
-        shapedRecipe('create:mechanical_mixer', [' A ', 'DCD', ' B '], {
-            A: '#forge:ingots/iron',
-            B: 'create:whisk',
-            C: '#forge:sheetmetals/iron',
-            D: '#the_winter_rescue:cogwheels'
         }),
         shapedRecipe('create:basin', ['A A', 'AAA'], {
             A: '#forge:plates/iron'
