@@ -1,5 +1,9 @@
 {
-  "icon": "tetra:basic_workbench",
+  "icon": {
+    "type": "combined",
+    "base": "tetra:basic_workbench",
+    "small": "rankine:bronze_pickaxe"
+  },
   "category": "frostedheart:ars",
   "parents": [
     "workbench"
