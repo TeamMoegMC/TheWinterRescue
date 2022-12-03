@@ -215,6 +215,7 @@
 			}]
 		}
 		{
+			icon: "immersiveengineering:advanced_blast_furnace"
 			x: -1.5d
 			y: -6.5d
 			dependencies: ["0019852CD6EC0354"]
