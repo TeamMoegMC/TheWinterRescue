@@ -10,7 +10,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -2.0d
+			x: -1.5d
 			y: 1.5d
 			dependencies: ["4E2FF1AFA626A42B"]
 			id: "68CF06AA926D32E6"
@@ -37,7 +37,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: 0.0d
 			y: 3.5d
 			subtitle: "{quest.twr.04E9589E45C56536.subtitle}"
 			description: [
@@ -53,7 +53,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: -1.0d
 			y: 3.5d
 			subtitle: "{quest.twr.5C3681B30ADB26B9.subtitle}"
 			description: [
@@ -70,7 +70,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -2.0d
 			y: 3.5d
 			subtitle: "{quest.twr.1AA5B1B0025EA6E6.subtitle}"
 			description: ["{quest.twr.1AA5B1B0025EA6E6.description.1}"]
@@ -84,11 +84,10 @@
 		}
 		{
 			title: "{quest.twr.0732C5BB3471FFA7.title}"
-			x: -4.5d
-			y: -0.5d
+			x: 1.5d
+			y: -2.5d
 			subtitle: "{quest.twr.0732C5BB3471FFA7.subtitle}"
 			description: ["{quest.twr.0732C5BB3471FFA7.description.1}"]
-			hide_dependency_lines: true
 			dependencies: ["7AA152F9B5AF6677"]
 			id: "0732C5BB3471FFA7"
 			tasks: [{
@@ -98,8 +97,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -3.0d
+			x: 1.5d
+			y: -4.0d
 			shape: "rsquare"
 			subtitle: "{quest.twr.7AA152F9B5AF6677.subtitle}"
 			description: [
@@ -128,7 +127,7 @@
 		}
 		{
 			title: "{quest.twr.6D01046E549A087E.title}"
-			x: 5.0d
+			x: 1.5d
 			y: -0.5d
 			shape: "rsquare"
 			subtitle: "{quest.twr.6D01046E549A087E.subtitle}"
@@ -142,7 +141,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 2.0d
 			y: 1.5d
 			subtitle: "{quest.twr.7359422ABAFA7721.subtitle}"
 			description: [
@@ -159,7 +158,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 1.0d
 			y: 1.5d
 			subtitle: "{quest.twr.6746167385331F16.subtitle}"
 			description: [
@@ -177,11 +176,14 @@
 		}
 		{
 			title: "{quest.twr.20F1DD1209093059.title}"
-			x: -7.0d
-			y: -0.5d
+			x: -6.0d
+			y: -2.5d
 			subtitle: "{quest.twr.20F1DD1209093059.subtitle}"
 			description: ["{quest.twr.20F1DD1209093059.description.1}"]
-			dependencies: ["7887EB905BAA7BEF"]
+			dependencies: [
+				"7887EB905BAA7BEF"
+				"516392D8FE0C7E91"
+			]
 			hide: true
 			id: "20F1DD1209093059"
 			tasks: [{
@@ -192,7 +194,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -1.5d
 			y: -0.5d
 			shape: "rsquare"
 			subtitle: "{quest.twr.4E2FF1AFA626A42B.subtitle}"
@@ -206,8 +208,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -0.5d
+			x: -6.0d
+			y: 1.5d
 			subtitle: "{quest.twr.5CCD8F05D7402D4B.subtitle}"
 			dependencies: ["20E078A9220D6114"]
 			hide: true
@@ -225,8 +227,8 @@
 		}
 		{
 			title: "{quest.twr.32DB7CCD0A73D98F.title}"
-			x: 5.0d
-			y: -3.0d
+			x: -3.5d
+			y: -4.0d
 			subtitle: "{quest.twr.32DB7CCD0A73D98F.subtitle}"
 			description: ["{quest.twr.32DB7CCD0A73D98F.description.1}"]
 			dependencies: ["29BC87594650152D"]
@@ -240,8 +242,8 @@
 		}
 		{
 			title: "{quest.twr.0CA87739C86BB0C6.title}"
-			x: 5.0d
-			y: -5.0d
+			x: -3.5d
+			y: -2.5d
 			subtitle: "{quest.twr.0CA87739C86BB0C6.subtitle}"
 			description: [
 				"{quest.twr.0CA87739C86BB0C6.description.1}"
@@ -265,8 +267,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: -7.0d
+			x: -5.0d
+			y: -2.5d
 			subtitle: "{quest.twr.73ADDB2F9A4F7C5D.subtitle}"
 			description: [
 				"{quest.twr.73ADDB2F9A4F7C5D.description.1}"
@@ -305,8 +307,8 @@
 		}
 		{
 			title: "{quest.twr.50428AA91D1E1EFF.title}"
-			x: -5.0d
-			y: -3.0d
+			x: 3.0d
+			y: -4.0d
 			subtitle: "{quest.twr.50428AA91D1E1EFF.subtitle}"
 			description: ["{quest.twr.50428AA91D1E1EFF.description.1}"]
 			dependencies: ["7AA152F9B5AF6677"]
@@ -319,8 +321,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -5.0d
+			x: 3.0d
+			y: -2.5d
 			subtitle: "{quest.twr.0B7A7EF07D539FC5.subtitle}"
 			description: ["{quest.twr.0B7A7EF07D539FC5.description.1}"]
 			dependencies: [
@@ -336,8 +338,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -3.0d
+			x: -4.0d
+			y: -0.5d
 			subtitle: "{quest.twr.64B11670694B854C.subtitle}"
 			description: [
 				"{quest.twr.64B11670694B854C.description.1}"
@@ -353,8 +355,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -5.0d
+			x: -6.0d
+			y: -0.5d
 			subtitle: "{quest.twr.529E18F00974DC2D.subtitle}"
 			description: ["{quest.twr.529E18F00974DC2D.description.1}"]
 			dependencies: ["328D948C4C800873"]
@@ -368,8 +370,8 @@
 		}
 		{
 			title: "{quest.twr.516392D8FE0C7E91.title}"
-			x: 3.0d
-			y: -7.0d
+			x: -6.0d
+			y: -4.0d
 			shape: "rsquare"
 			subtitle: "{quest.twr.516392D8FE0C7E91.subtitle}"
 			description: [
@@ -399,7 +401,7 @@
 			}]
 		}
 		{
-			x: -7.0d
+			x: -4.0d
 			y: 1.5d
 			subtitle: "{quest.twr.7E9108130096673E.subtitle}"
 			description: ["{quest.twr.7E9108130096673E.description.1}"]
@@ -419,8 +421,8 @@
 		{
 			title: "{quest.twr.027E793362A7ECBE.title}"
 			icon: "frostedheart:incubator"
-			x: -7.0d
-			y: -3.0d
+			x: -1.5d
+			y: -4.0d
 			subtitle: "{quest.twr.027E793362A7ECBE.subtitle}"
 			description: [
 				"{quest.twr.027E793362A7ECBE.description.1}"
@@ -443,8 +445,8 @@
 		{
 			title: "{quest.twr.2292AB368EF121C2.title}"
 			icon: "minecraft:brown_mushroom"
-			x: -8.0d
-			y: -4.5d
+			x: -2.0d
+			y: -2.5d
 			description: ["{quest.twr.2292AB368EF121C2.description.1}"]
 			dependencies: ["027E793362A7ECBE"]
 			id: "2292AB368EF121C2"
@@ -469,8 +471,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -4.5d
+			x: -1.0d
+			y: -2.5d
 			subtitle: "{quest.twr.432F702802327860.subtitle}"
 			description: [
 				"{quest.twr.432F702802327860.description.1}"
@@ -490,8 +492,8 @@
 		}
 		{
 			title: "{quest.twr.42D8CA1487A024B8.title}"
-			x: 0.5d
-			y: -7.0d
+			x: -7.0d
+			y: -2.5d
 			subtitle: "{quest.twr.42D8CA1487A024B8.subtitle}"
 			description: [
 				"{quest.twr.42D8CA1487A024B8.description.1}"

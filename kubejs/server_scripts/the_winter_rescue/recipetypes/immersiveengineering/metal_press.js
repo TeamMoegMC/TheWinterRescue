@@ -46,13 +46,13 @@ onEvent('recipes', (event) => {
         },
 
         {
-            output: 'immersiveengineering:wire_copper',
-            input: '#forge:plates/copper',
+            output: '3x immersiveengineering:wire_copper',
+            input: '2x #forge:plates/copper',
             mold: 'immersiveengineering:mold_wire'
         },
         {
-            output: 'immersiveengineering:wire_electrum',
-            input: '#forge:plates/electrum',
+            output: '3x immersiveengineering:wire_electrum',
+            input: '2x #forge:plates/electrum',
             mold: 'immersiveengineering:mold_wire'
         },
         {output: 'kubejs:constantan_coil', input: '4x #forge:plates/constantan', mold: 'immersiveengineering:mold_wire'}
