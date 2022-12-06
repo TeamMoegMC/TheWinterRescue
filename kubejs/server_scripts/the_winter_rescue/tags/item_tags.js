@@ -71,6 +71,7 @@ onEvent('item.tags', (event) => {
 	event.add("forge:ores/copper","kubejs:rusted_copper_ingot")
 	event.add("forge:ores/tin","kubejs:gray_tin_ingot")
 	event.add("forge:ores/iron","kubejs:rusted_iron_ingot")
+	event.add("forge:dusts/zinc","kubejs:zinc_dust")
 	event.removeAll("diet:fruits")
 	event.removeAll("diet:vegetables")
 	event.removeAll("diet:plant_oil")

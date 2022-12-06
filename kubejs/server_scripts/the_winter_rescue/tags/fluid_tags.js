@@ -12,4 +12,5 @@ onEvent('fluid.tags', (event) => {
 	event.add('forge:gas/chlorine','frostedheart:chlorine')
 	event.add('forge:acid/hydrochloric','kubejs:hydrochloric_acid')
 	event.add('the_winter_rescue:ferrous_chloride','kubejs:ferrous_chloride')
+	event.add('the_winter_rescue:zinc_sulfate','kubejs:zinc_sulfate')
 });

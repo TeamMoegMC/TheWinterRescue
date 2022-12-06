@@ -57,7 +57,9 @@ onEvent('item.registry', event => {
 		'nickel_matte',
 		'lead_oxide',
 		'antimony_oxide',
-		'iron_slag'
+		'iron_slag',
+		'zinc_dust',
+		'zinc_oxide'
 	];
 
 	let rawOres = [
@@ -87,7 +89,8 @@ onEvent('item.registry', event => {
 		"ore_fluorite",
 		"ore_vanadinite",
 		"ore_hematite",
-		"ore_chalcocite"
+		"ore_chalcocite",
+		"ore_sphalerite"
 	]
 
 	let oreStates = [

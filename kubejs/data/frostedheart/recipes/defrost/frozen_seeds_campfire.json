@@ -7,7 +7,8 @@
 		"minecraft:pumpkin_seeds",
 		"minecraft:beetroot_seeds",
 		"crockpot:unknown_seeds",
-		"frostedheart:wolfberries"
+		"frostedheart:wolfberries",
+		"immersiveengineering:seed"
 	],
 	"ingredient": {
 		"item": "frostedheart:frozen_seeds"

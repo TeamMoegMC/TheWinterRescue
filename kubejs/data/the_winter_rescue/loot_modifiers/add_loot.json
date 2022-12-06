@@ -2,6 +2,6 @@
 "loot_table":"the_winter_rescue:inspire_items",
 "conditions": [
 {"condition":"frostedheart:treasure"},
-{"condition":"minecraft:random_chance","chance":0.4}
+{"condition":"minecraft:random_chance","chance":0.2}
 ]
 }

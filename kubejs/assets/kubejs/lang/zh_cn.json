@@ -82,6 +82,10 @@
   "item.kubejs.washed_ore_fluorite": "洗净萤石矿",
   "item.kubejs.washed_ore_vanadinite": "洗净钒铅矿",
   "item.kubejs.washed_ore_hematite": "洗净赤铁矿",
+  "item.kubejs.washed_ore_sphalerite": "洗净闪锌矿",
+  "item.kubejs.crushed_ore_sphalerite": "粉碎闪锌矿",
+  "item.kubejs.zinc_dust": "锌粉",
+  "item.kubejs.zinc_oxide": "氧化锌粉",
   "item.kubejs.anthracite_dust":"无烟煤粉",
   "item.kubejs.bituminous_coal_dust":"烟煤粉",
   "item.kubejs.subbituminous_coal_dust":"亚烟煤粉",
@@ -132,6 +136,7 @@
   "item.kubejs.ferrous_chloride_bucket":"氯化铁桶",
   "item.kubejs.ferric_chloride_bucket":"氯化亚铁桶",
   "item.kubejs.copper_chloride_bucket":"氯化铜桶",
+  "item.kubejs.zinc_sulfate_bucket":"硫酸锌桶",
   "fluid.kubejs.lime_water": "石灰水",
   "fluid.kubejs.chlorine": "氯气",
   "fluid.kubejs.cryolite": "冰晶石",
@@ -143,5 +148,6 @@
   "fluid.kubejs.ferrous_chloride":"氯化铁",
   "fluid.kubejs.ferric_chloride":"氯化亚铁",
   "fluid.kubejs.copper_chloride":"氯化铜",
+  "fluid.kubejs.zinc_sulfate":"硫酸锌",
   "itemGroup.kubejs.kubejs": "Kubejs"
 }

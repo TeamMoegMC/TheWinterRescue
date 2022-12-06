@@ -1,7 +1,7 @@
 
 onEvent('recipes', (event) => {
-var ores = ["rankine:magnetite", "kubejs:pyrite", "rankine:chalcocite", "rankine:malachite", "rankine:pentlandite", "kubejs:native_tin", "rankine:cassiterite", "kubejs:bauxite", "rankine:stibnite", "rankine:cinnabar", "rankine:magnesite", "rankine:galena", "kubejs:halite", "rankine:fluorite", "rankine:vanadinite", "kubejs:silver", "kubejs:gold", "rankine:hematite"];
-var ore_name = ["magnetite", "pyrite", "chalcocite", "malachite", "pentlandite", "native_tin", "cassiterite", "bauxite", "stibnite", "cinnabar", "magnesite", "galena", "halite", "fluorite", "vanadinite", "silver", "gold", "hematite"];
+var ores = ["rankine:magnetite", "kubejs:pyrite", "rankine:chalcocite", "rankine:malachite", "rankine:pentlandite", "kubejs:native_tin", "rankine:cassiterite", "kubejs:bauxite", "rankine:stibnite", "rankine:cinnabar", "rankine:magnesite", "rankine:galena", "kubejs:halite", "rankine:fluorite", "rankine:vanadinite", "kubejs:silver", "kubejs:gold", "rankine:hematite","rankine:sphalerite"];
+var ore_name = ["magnetite", "pyrite", "chalcocite", "malachite", "pentlandite", "native_tin", "cassiterite", "bauxite", "stibnite", "cinnabar", "magnesite", "galena", "halite", "fluorite", "vanadinite", "silver", "gold", "hematite","sphalerite"];
 var by_products = [];
 var i;
 var ores_i;
@@ -64,7 +64,8 @@ by_products[1] = [Item.of("rankine:sulfur").withChance(0.5)];
 	{output: 'immersiveengineering:ingot_nickel', input: 'kubejs:nickel_matte',time:300},
 	{output: 'rankine:antimony', input: 'kubejs:antimony_oxide',time:80},
 	{output: 'rankine:copper_ingot', input: 'kubejs:copper_oxide',time:90},
-	{output: 'immersiveengineering:ingot_lead', input: 'kubejs:lead_oxide',time:80}
+	{output: 'immersiveengineering:ingot_lead', input: 'kubejs:lead_oxide',time:80},
+	{output: 'rankine:zinc_ingot', input: 'kubejs:washed_ore_sphalerite',time:150}
      ]
     };
 	data.recipes.forEach((recipe) => {
@@ -81,6 +82,7 @@ by_products[1] = [Item.of("rankine:sulfur").withChance(0.5)];
 		rotarykilnRecipe2("kubejs:washed_ore_magnetite","kubejs:washed_ore_hematite",200,32,"kubejs:washed_ore_hematite",0.25),
 		rotarySulfate("kubejs:washed_ore_pyrite","kubejs:washed_ore_hematite",64,250,0),
 		rotarySulfate("kubejs:washed_ore_galena","kubejs:lead_oxide",32,250,0.25),
+		rotarySulfate("kubejs:washed_ore_sphalerite","kubejs:zinc_oxide",32,250,0),
 		rotarykilnRecipe3("kubejs:washed_ore_pentlandite","kubejs:nickel_matte",Fluid.of("frostedheart:sulfur_dioxide",250).toJson(),200,64,"kubejs:iron_slag",1),
 		rotarySulfate("kubejs:washed_ore_stibnite","kubejs:antimony_oxide",32,250,0.25),
 		carkilnRecipe(["3x kubejs:nickel_matte","2x rankine:quicklime"],["3x immersiveengineering:ingot_nickel","3x immersiveengineering:slag","kubejs:nickel_matte"],1200)

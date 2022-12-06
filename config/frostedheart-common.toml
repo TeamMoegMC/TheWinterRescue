@@ -1,3 +1,5 @@
 #Enables the weather forecast system. 
 enablesTemperatureForecast = true
+#BlackListed mods to kick player
+"Mod Blacklist" = []
 

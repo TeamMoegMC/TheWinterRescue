@@ -22,6 +22,7 @@ onEvent('fluid.registry', event => {
   event.create('ferrous_chloride').textureThin(0xBB3333)
   event.create('ferric_chloride').textureThin(0xB0FFDE)
   event.create('copper_chloride').textureThin(0xB0FFDE)
+  event.create('zinc_sulfate').textureThin(0xB0C4FF)
   event.create('lime_water').textureThin(0xB0C4DE)
   event.create('magnesium_chloride').textureThin(0xDEDEEE)
   event.create('sulfuric_acid').textureThin(0xEEE8AA)

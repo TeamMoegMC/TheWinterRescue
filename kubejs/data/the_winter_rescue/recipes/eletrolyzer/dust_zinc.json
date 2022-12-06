@@ -1,0 +1,15 @@
+{
+  "type": "immersiveindustry:electrolyzer",
+  "result": {
+    "item": "kubejs:zinc_dust"
+  },
+  "fluid": {
+    "tag": "the_winter_rescue:zinc_sulfate",
+    "amount": 250
+  },
+  "result_fluid": {
+    "fluid": "kubejs:sulfuric_acid",
+    "amount": 450
+  },
+  "time": 240
+}
