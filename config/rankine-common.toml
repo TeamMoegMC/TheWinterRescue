@@ -111,7 +111,7 @@
 		iceMeltRange = 3
 		#Chance for a grass block to grow something on a random tick.
 		#Range: 0.0 ~ 1.0
-		grassGrowChance = 5.0E-4
+		grassGrowChance = 0.0
 		#No more infinite water
 		disableWater = false
 		#The range of the fire extinguisher.
