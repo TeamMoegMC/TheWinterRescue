@@ -2,6 +2,7 @@
   "icon": "immersiveindustry:car_kiln",
   "category": "frostedheart:production",
   "parents": [
+    "metal_press",
     "squeezer"
   ],
   "clues": [

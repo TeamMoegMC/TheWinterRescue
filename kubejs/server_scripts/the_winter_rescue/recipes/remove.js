@@ -227,8 +227,8 @@ onEvent('recipes', (event) => {
     event.remove({type: 'rankine:beehive_oven'})
     event.remove({input: 'rankine:element_transmuter'})
     event.remove({mod: 'theoneprobe'});
-    event.remove({mod: 'extendedcrafting'});
     event.remove({mod: 'immersivepetroleum'});
+	event.remove({mod: 'steampowered'});
 	event.remove({type:'immersiveengineering:crusher',input:'#forge:ores'});
 	event.remove({type:'immersiveengineering:arc_furnace',input:'#forge:ores'});
     event.remove({input: 'minecraft:sugar_cane', output: 'minecraft:paper'});
