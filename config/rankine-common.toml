@@ -178,7 +178,7 @@
 [machines]
 	#If disabled, the beehive ovens will not require sky access.
 	#Range: 0 ~ 400
-	beehiveOvenAirHeight = 16
+	beehiveOvenAirHeight = 8
 	#Processing speed of the air distillation tower
 	#Range: > 10
 	airDistillationSpeed = 100

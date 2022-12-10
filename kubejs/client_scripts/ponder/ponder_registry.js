@@ -506,13 +506,13 @@ onEvent("ponder.registry", event => {
 			scene.overlay().showControls(new PonderInput(util.vector().blockSurface(util.grid().at(1, 1, 1), Facing.down), PonderPointing.RIGHT)
                 .whileSneaking()
                 .rightClick()
-                .withItem("charcoal_pit:clay_pot"), 40)
+                .withItem("rankine:limestone"), 40)
 			scene.idle(40)
 
 			scene.world().showSection(util.select().layer(1), Facing.down)
 			scene.idle(40)
 
-            scene.overlay().showText(100)
+            scene.overlay().showText(60)
                 .text("Surrounding blocks can be ANY block, not just dirt.")
                 .pointAt(util.grid().at(2,1,2))
 

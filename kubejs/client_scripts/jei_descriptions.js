@@ -6,10 +6,6 @@ onEvent('jei.information', (event) => {
         },
         {
             items: [
-                'create:mechanical_piston',
-                'create:sticky_mechanical_piston',
-                'create:piston_extension_pole',
-                'create:cart_assembler'
             ],
             description: [text.translate("info.jei.the_winter_rescue.power_glitch")]
         },

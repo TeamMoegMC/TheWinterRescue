@@ -18,6 +18,8 @@ const serverItemsToHide = [
     'immersiveengineering:toolbox',
     'immersiveengineering:sorter',
     'immersiveengineering:fluid_sorter',
+    'immersiveengineering:watermill'
+    'immersiveengineering:windmill'
 	'engineersdecor:metal_crafting_table',
 
     // rankine items
@@ -48,6 +50,11 @@ const serverItemsToHide = [
     'create:windmill_bearing',
     'create:flywheel',
     'create:furnace_engine',
+
+    'create:mechanical_piston',
+    'create:sticky_mechanical_piston',
+    'create:piston_extension_pole',
+    'create:cart_assembler'
 
     // rankine machines
     'rankine:diamond_anvil_cell',

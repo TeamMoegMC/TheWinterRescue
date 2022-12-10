@@ -83,7 +83,7 @@
 			y: 0.0d
 			subtitle: "{quest.twr.5C8730E4484959B9.subtitle}"
 			description: ["{quest.twr.5C8730E4484959B9.description.1}"]
-			dependencies: ["328D948C4C800873"]
+			dependencies: ["75154C5A6E2F3257"]
 			hide: true
 			id: "5C8730E4484959B9"
 			tasks: [{
