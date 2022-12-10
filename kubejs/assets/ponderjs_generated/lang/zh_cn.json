@@ -32,7 +32,7 @@
   "the_winter_rescue.ponder.tag.beehive_oven_pit.description": "搭建蜂窝炉",
   "the_winter_rescue.ponder.tag.beehive_oven_pit": "蜂窝炉",
   "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_3": "冶炼需要一段时间，完成之后就会变成生石灰",
-  "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_2": "放置完要冶炼的方块后，用打火石右键中心方块启动",
+  "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_2": "放置完要冶炼的方块后，用打火石右键中心方块启动，需要露天",
   "the_winter_rescue.ponder.beehive_oven_pit.basic_usage.text_1": "把要冶炼的方块（比如大理石）放在蜂窝炉上方，不要堵住中心方块",
 
   "the_winter_rescue.ponder.tag.charcoal_pit.description": "木炭坑",
