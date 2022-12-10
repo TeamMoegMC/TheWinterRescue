@@ -525,6 +525,7 @@
   "quest.twr.3B5663CF194B054C.description.7": "&6&l如果你需要种植，也许需要一台加热设备。",
   "quest.twr.3B5663CF194B054C.description.8": " ",
   "quest.twr.3B5663CF194B054C.description.9": "&c&l本任务内容非常重要！请耐心仔细阅读！",
+  "quest.twr.3B5663CF194B054C.description.10": "如果您所在的地区使用华氏度，可以在frostedheart的客户端配置中启用。",
   "quest.twr.3B5663CF194B054C.subtitle": "温度",
   "quest.twr.3B5663CF194B054C.title": "温度",
   "quest.twr.3B7B7A0BC0CF3CE0.description.1": "使用起火器，长按右键即可点火。",
@@ -1094,6 +1095,5 @@
   "quest.twr.7F84766122DC4753.description.2": "如果找不到仙人掌，也可以&e研磨孔雀石&r得到绿色染料哦。&c详见JEI&r。",
   "quest.twr.7F84766122DC4753.subtitle": "高精组装",
   "quest.twr.7FA0ADDB6ABCAB6A.description.1": "想了解更多世界相关的信息？请参考兰金计划的教程书。",
-  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "深入了解",
-  "quest.twr.3B5663CF194B054C.description.10": "如果您所在的地区使用华氏度，可以在frostedheart的客户端配置中启用。"
+  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "深入了解"
 }
