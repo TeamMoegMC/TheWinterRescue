@@ -1,7 +1,7 @@
 {
   "icon": {
     "type": "combined",
-    "base": "immersiveengineering:ingot_steel",
+    "base": "rankine:cast_iron_ingot",
     "small": "create:smart_chute"
   },
   "category": "frostedheart:production",
@@ -37,11 +37,6 @@
       "icon": "immersiveengineering:advanced_blast_furnace",
       "id": "e0f18345940740b9",
       "multiblock": "immersiveengineering:multiblocks/improved_blast_furnace"
-    },
-    {
-      "type": "recipe",
-      "id": "6e1a5f2f4a6b4143",
-      "item": "immersiveengineering:blastbrick_reinforced"
     }
   ],
   "points": 6000,
