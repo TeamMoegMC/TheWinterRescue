@@ -227,5 +227,14 @@
   "research.frostedheart.wool_lining.name": "Wool Lining",
   "research.frostedheart.workbench.desc.0": "Finally I've got the crafting table! Now I can make doors, chests, and so much more! The possibilities are endless!",
   "research.frostedheart.workbench.desc_alt.0": "Today is probably a great day: I got iron and better planks---so, under the cold temperature the workbench should not break anymore. So start now!",
-  "research.frostedheart.workbench.name": "Crafting Techniques"
+  "research.frostedheart.workbench.name": "Crafting Techniques",
+  "research.frostedheart.generator_efficiency_2.name": "Generator Efficiency 2",
+  "research.frostedheart.generator_heat_1.name": "Generator Energy 1",
+  "research.frostedheart.generator_efficiency_2.desc.0": "With better insulation, generators can burn more efficiently now.",
+  "research.frostedheart.generator_efficiency_1.name": "Generator Efficiency 1",
+  "research.frostedheart.generator_efficiency_2.desc_alt.0": "Generator is like some kind of bigger kiln, why not use the insulation technique from kilns on generators?",
+  "research.frostedheart.generator_heat_1.desc_alt.0": "An idea goes into my mind just after I finished the designed of steam turbine. Why not install better boilers to improve energy generation of the generator without extra fuel cost?",
+  "research.frostedheart.generator_efficiency_1.desc.0": "With new burner and bellows, generators can burn more efficiently now.",
+  "research.frostedheart.generator_heat_1.desc.0": "With improved boiler, generators can generate more energy.",
+  "research.frostedheart.generator_efficiency_1.desc_alt.0": "As my knowledge extends, I find that better ventilation as long as better burner can improve burning efficiency."
 }

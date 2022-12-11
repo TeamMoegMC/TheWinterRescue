@@ -121,7 +121,8 @@ onEvent('recipes', (event) => {
 		'#forge:plates',
 		'minecraft:rabbit_stew',
 		'minecraft:wheat',
-		'minecraft:mushroom_stew'
+		'minecraft:mushroom_stew',
+		'create:tree_fertilizer'
     ]
 	let Names = [
 		'rankine:bucket_brass',

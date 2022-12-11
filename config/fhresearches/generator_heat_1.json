@@ -1,0 +1,68 @@
+{
+  "name": "@",
+  "icon": {
+    "type": "combined",
+    "base": "frostedheart:heat_pipe",
+    "small": {
+      "type": "internal",
+      "name": "plus"
+    }
+  },
+  "category": "frostedheart:rescue",
+  "parents": [
+    "steam_heater",
+    "steam_turbine"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.3,
+      "id": "ca114bb45b384bb1",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.2,
+      "id": "1081475ea53f417c",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "steampowered:steel_boiler"
+      }
+    },
+    {
+      "count": 16,
+      "base_ingredient": {
+        "item": "immersiveengineering:radiator"
+      }
+    },
+    {
+      "count": 64,
+      "base_ingredient": {
+        "item": "kubejs:invar_steel_plate"
+      }
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "item": "immersiveengineering:fluid_pump"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "stats",
+      "id": "64580f6865d14082",
+      "vars": "generator_heat",
+      "val": 20.0,
+      "percent": true
+    }
+  ],
+  "points": 8000,
+  "showAltDesc": true
+}

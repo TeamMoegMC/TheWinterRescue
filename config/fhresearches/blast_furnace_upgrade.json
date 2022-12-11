@@ -37,6 +37,11 @@
       "icon": "immersiveengineering:advanced_blast_furnace",
       "id": "e0f18345940740b9",
       "multiblock": "immersiveengineering:multiblocks/improved_blast_furnace"
+    },
+    {
+      "type": "recipe",
+      "id": "6b44c4c45ae54c3e",
+      "item": "immersiveengineering:blastbrick_reinforced"
     }
   ],
   "points": 6000,

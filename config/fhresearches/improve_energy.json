@@ -7,56 +7,31 @@
   "clues": [
     {
       "type": "game",
-      "value": 0.5,
+      "value": 0.25,
       "id": "ee175cefc3da4e2b",
       "required": true,
       "level": 1
     },
     {
-      "type": "item",
-      "value": 0.1,
-      "id": "785921606fb34945",
+      "type": "game",
+      "value": 0.25,
+      "id": "3707af210b674faf",
       "required": true,
-      "item": {
-        "type": "forge:nbt",
-        "item": "frostedheart:charcoal",
-        "count": 1,
-        "nbt": "{Damage:0}"
-      },
-      "consume": true
-    },
-    {
-      "type": "item",
-      "value": 0.1,
-      "id": "9c3155e3579245b9",
-      "required": true,
-      "item": {
-        "type": "forge:nbt",
-        "item": "frostedheart:charcoal",
-        "count": 1,
-        "nbt": "{Damage:0}"
-      },
-      "consume": true
-    },
-    {
-      "type": "item",
-      "value": 0.1,
-      "id": "a2448f4c621c4f14",
-      "required": true,
-      "item": {
-        "type": "forge:nbt",
-        "item": "frostedheart:charcoal",
-        "count": 1,
-        "nbt": "{Damage:0}"
-      },
-      "consume": true
+      "level": 1
     },
     {
       "type": "game",
-      "value": 0.2,
-      "id": "3707af210b674faf",
+      "value": 0.25,
+      "id": "a1a62983ab1f4aa0",
       "required": true,
-      "level": 0
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.25,
+      "id": "ca136b2cfb5340de",
+      "required": true,
+      "level": 1
     }
   ],
   "ingredients": [

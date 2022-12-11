@@ -2,7 +2,8 @@
   "icon": "immersiveengineering:ingot_steel",
   "category": "frostedheart:production",
   "parents": [
-    "heating_basin"
+    "heating_basin",
+    "electromagnetics"
   ],
   "clues": [
     {

@@ -54,8 +54,8 @@
   ],
   "effects": [
     {
-      "name": "@",
       "type": "multiblock",
+      "name": "@",
       "tooltip": [
         "@",
         "@"
@@ -68,6 +68,11 @@
       "type": "recipe",
       "id": "2416a9bba39e4e5e",
       "item": "frostedheart:heat_pipe"
+    },
+    {
+      "type": "recipe",
+      "id": "ac97c8c704e24f71",
+      "item": "frostedheart:charger"
     }
   ],
   "points": 6000,
