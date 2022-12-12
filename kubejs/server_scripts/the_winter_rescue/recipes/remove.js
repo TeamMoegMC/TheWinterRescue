@@ -15,6 +15,8 @@ onEvent('recipes', (event) => {
         'immersiveengineering:circuit_table',
 		'immersiveengineering:watermill',
 		'immersiveengineering:windmill',
+		'immersiveengineering:windmill_blade',
+		'immersiveengineering:waterwheel_segment',
 		'engineersdecor:metal_bar',
         'immersivepetroleum:speedboat',
         'immersiveengineering:sample_drill',
