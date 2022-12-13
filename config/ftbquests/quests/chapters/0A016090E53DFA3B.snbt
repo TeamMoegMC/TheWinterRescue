@@ -18,7 +18,7 @@
 		{
 			title: "{quest.twr.391E30AD9CB7147F.title}"
 			icon: "frostedheart:drawing_desk"
-			x: -10.799999999999999d
+			x: -10.5d
 			y: -0.6d
 			shape: "rsquare"
 			subtitle: "{quest.twr.391E30AD9CB7147F.subtitle}"
@@ -30,6 +30,7 @@
 				"{quest.twr.391E30AD9CB7147F.description.5}"
 			]
 			dependencies: ["6A22E2D62D4719BE"]
+			hide: true
 			size: 1.2d
 			id: "391E30AD9CB7147F"
 			tasks: [{
@@ -194,8 +195,8 @@
 					}
 				}
 			}
-			x: -6.5d
-			y: -0.5d
+			x: -4.5d
+			y: -0.75d
 			subtitle: "{quest.twr.3FEE911101C61CFB.subtitle}"
 			description: [
 				"{quest.twr.3FEE911101C61CFB.description.1}"
@@ -208,7 +209,7 @@
 				"{quest.twr.3FEE911101C61CFB.description.8}"
 				"{quest.twr.3FEE911101C61CFB.description.9}"
 			]
-			dependencies: ["1938FC4AAD99137E"]
+			dependencies: ["3BBB2213C574F333"]
 			id: "3FEE911101C61CFB"
 			tasks: [{
 				id: "6A664AAE41DA218A"
@@ -236,7 +237,7 @@
 		}
 		{
 			x: -5.5d
-			y: 1.1d
+			y: 1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.2148082183BBDF76.subtitle}"
 			description: [
@@ -330,7 +331,7 @@
 		{
 			title: "{quest.twr.37B4F2A2F05B5332.title}"
 			icon: "frostedheart:mechanical_calculator"
-			x: -5.5d
+			x: -4.5d
 			y: 2.5d
 			shape: "rsquare"
 			subtitle: "{quest.twr.37B4F2A2F05B5332.subtitle}"
@@ -349,8 +350,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 4.0d
+			x: -6.5d
+			y: 2.5d
 			shape: "rsquare"
 			subtitle: "{quest.twr.5D7B5ABC70D38636.subtitle}"
 			description: [
