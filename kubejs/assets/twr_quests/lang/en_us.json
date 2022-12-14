@@ -252,7 +252,7 @@
   "quest.twr.1C8171C8FD1D0CD5.description.2": "If it doesn’t work, just put a little less plank according to the proportion.",
   "quest.twr.1C8171C8FD1D0CD5.subtitle": "Hardly deteriorate",
   "quest.twr.1CD9EB4A39925BB8.description.1": "&6You are recommended to create a team whether on singleplayer or multiplayer.",
-  "quest.twr.1CD9EB4A39925BB8.description.2": "Create Team: /ftbteams party craft TEAM_NAME",
+  "quest.twr.1CD9EB4A39925BB8.description.2": "Create Team: /ftbteams party create TEAM_NAME",
   "quest.twr.1CD9EB4A39925BB8.description.3": "Note: If you already created a team, the command won't work.",
   "quest.twr.1CD9EB4A39925BB8.description.4": "Note: Creating a new team will start a new quest team, &4reseting your progress.",
   "quest.twr.1CD9EB4A39925BB8.description.5": "",

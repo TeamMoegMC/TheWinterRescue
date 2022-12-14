@@ -1247,5 +1247,14 @@
 				item: "frostedheart:incubator"
 			}]
 		}
+		{
+			title: "染色保温杯"
+			x: -0.5d
+			y: 2.5d
+			subtitle: "搞点颜色"
+			description: ["难以区分你的一背包保温杯？救星来了，可以往保温杯套上装饰性的背带并染色。"]
+			dependencies: ["1974619E18DB754A"]
+			id: "139033FEB9593ABE"
+		}
 	]
 }
