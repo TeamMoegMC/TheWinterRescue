@@ -279,6 +279,7 @@
 				"516392D8FE0C7E91"
 			]
 			hide: true
+			dependency_requirement: "one_completed"
 			id: "73ADDB2F9A4F7C5D"
 			tasks: [{
 				id: "5BD2C17CD0BF4D84"

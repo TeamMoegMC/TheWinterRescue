@@ -1237,7 +1237,6 @@
 				"{quest.twr.6E83E2133A978D34.description.2}"
 			]
 			dependencies: ["5DD231E4178E830D"]
-			hide: true
 			optional: true
 			id: "6E83E2133A978D34"
 			tasks: [{
