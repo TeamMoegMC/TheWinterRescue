@@ -118,9 +118,10 @@
 				}
 			}]
 			rewards: [{
-				id: "2EC2C206211EF6F5"
+				id: "39C53B6E5D60BA64"
 				type: "item"
-				item: "rankine:packaged_tool"
+				item: "immersiveengineering:coal_coke"
+				count: 4
 			}]
 		}
 		{
