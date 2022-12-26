@@ -50,17 +50,15 @@ The fourth modpack developed by TeamMoeg is finally here. Based on Minecraft 1.1
 
 ## Download Latest
 
-[CurseForge](https://curseforge.com/minecraft/modpacks/the-winter-resuce)
+[CurseForge](https://curseforge.com/minecraft/modpacks/the-winter-rescue)
 [MCBBS](https://www.mcbbs.net/thread-1227167-1-1.html)
 
 ## Join Community
 
 - [Official Wiki (Chinese Version)](https://wiki.teammoeg.com/)
-- [Official Wiki (English Version)](https://the-winter-rescue.fandom.com/wiki/The_Winter_Rescue_Wiki)
-- [Official Forum](https://forum.teammoeg.com/)
+- [Official Wiki (English Version)](https://wiki.teammoeg.com/index.php?title=The_Winter_Rescue)
 - [Official Discord Chat](https://discord.gg/BWn6E94)
-- [Official Kaiheila Chat](https://kaihei.co/JLpNWi)
-- QQ Group Chat Number: 771843370
+- QQ Group Chat Number: 830331279
 
 ## Like Our Modpack?
 
