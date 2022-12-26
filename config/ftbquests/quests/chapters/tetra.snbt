@@ -157,5 +157,62 @@
 				item: "tetra:geode"
 			}]
 		}
+		{
+			title: "{quest.twr.6D7D911961F81187.title}"
+			icon: {
+				id: "tetra:modular_double"
+				Count: 1b
+				tag: {
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "7cf61115-4289-4a30-8ad7-8939c97807e4"
+					"double/basic_hammer_right_material": "basic_hammer/iron"
+					Damage: 0
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/basic_hammer_left_material": "basic_hammer/iron"
+				}
+			}
+			x: 0.5d
+			y: 1.5d
+			subtitle: "{quest.twr.6D7D911961F81187.subtitle}"
+			description: [
+				"{quest.twr.6D7D911961F81187.description.1}"
+				"{quest.twr.6D7D911961F81187.description.2}"
+				"{quest.twr.6D7D911961F81187.description.3}"
+				"{quest.twr.6D7D911961F81187.description.4}"
+			]
+			dependencies: ["11DD149796E14E81"]
+			id: "6D7D911961F81187"
+			tasks: [{
+				id: "60A28D9B4471872B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{quest.twr.603CDF88D762FEA8.title}"
+			icon: {
+				id: "frostedheart:copper_pro_pick"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: 4.5d
+			description: [
+				"{quest.twr.603CDF88D762FEA8.description.1}"
+				"{quest.twr.603CDF88D762FEA8.description.2}"
+			]
+			dependencies: [
+				"1DF200F6772308C7"
+				"11DD149796E14E81"
+			]
+			id: "603CDF88D762FEA8"
+			tasks: [{
+				id: "5D1BE9C3088BE400"
+				type: "checkmark"
+			}]
+		}
 	]
 }

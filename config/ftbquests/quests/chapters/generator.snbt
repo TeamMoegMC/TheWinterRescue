@@ -367,8 +367,8 @@
 		{
 			x: -8.0d
 			y: -14.0d
-			subtitle: "加速生长"
-			description: ["使用树木肥料可以在没有温度加成的前提下使得大多数树木快速生长。"]
+			subtitle: "{quest.twr.0BDD1D411E09DB4A.subtitle}"
+			description: ["{quest.twr.0BDD1D411E09DB4A.description.1}"]
 			dependencies: ["58912971B356779C"]
 			size: 1.5d
 			id: "0BDD1D411E09DB4A"

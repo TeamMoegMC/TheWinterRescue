@@ -920,6 +920,7 @@
 			]
 		}
 		{
+			title: "{quest.twr.0B9DBC18CEEC4CB2.title}"
 			x: 4.0d
 			y: 2.0d
 			shape: "rsquare"
@@ -1248,11 +1249,11 @@
 			}]
 		}
 		{
-			title: "染色保温杯"
+			title: "{quest.twr.139033FEB9593ABE.title}"
 			x: -0.5d
 			y: 2.5d
-			subtitle: "搞点颜色"
-			description: ["难以区分你的一背包保温杯？救星来了，可以往保温杯套上装饰性的背带并染色。"]
+			subtitle: "{quest.twr.139033FEB9593ABE.subtitle}"
+			description: ["{quest.twr.139033FEB9593ABE.description.1}"]
 			dependencies: ["1974619E18DB754A"]
 			id: "139033FEB9593ABE"
 		}
