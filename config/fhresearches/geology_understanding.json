@@ -9,11 +9,13 @@
   "category": "frostedheart:exploration",
   "clues": [
     {
-      "type": "game",
+      "type": "item",
       "value": 1.0,
-      "id": "4391043217e049ee",
+      "id": "7d438a01c77f4067",
       "required": true,
-      "level": 0
+      "item": {
+        "tag": "forge:plates/copper"
+      }
     }
   ],
   "ingredients": [
@@ -22,9 +24,6 @@
       "base_ingredient": {
         "tag": "forge:stone"
       }
-    },
-    {
-      "tag": "forge:plates/copper"
     }
   ],
   "effects": [
