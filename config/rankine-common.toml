@@ -610,7 +610,7 @@
 	#Range: 0 ~ 5
 	meteoriteSize = 1
 	#Generate Corn in Plains biomes
-	generateWildCorn = true
+	generateWildCorn = false
 	#Disable vanilla features in the overworld. Works by replacing the listed blocks in #rankine:vanilla_override with stones
 	disableVanillaOres = true
 	#Enable to generate meteorites in the overworld.
@@ -622,12 +622,12 @@
 	#Generate antimatter in the End.
 	antimatterGen = false
 	#Generate Barley in Plains biomes
-	generateWildBarley = true
+	generateWildBarley = false
 	#The number of blocks that Soul Sandstone will generate up or down from Soul Sand.
 	#Range: > 0
 	soulSandstoneLayerThickness = 3
 	#Generate Jute in Jungle biomes
-	generateWildJute = true
+	generateWildJute = false
 	#Enable/Disable Project Rankine cobbles in world.
 	generateCobbles = false
 	#This determines how mixed the two types of soil are per biome. Larger numbers mean larger patches.
@@ -642,42 +642,42 @@
 	#Enable to generate meteorites in the end.
 	endMeteoriteGen = false
 	#Generate Asparagus in Beach biomes
-	generateWildAsparagus = true
+	generateWildAsparagus = false
 	#The chance for an end meteroite.
 	#Range: 0.0 ~ 1.0
 	endMeteoriteChance = 0.03
 	#If enabled, replaces vanilla ores with the Rankine counterparts (mostly for texture purposes). Results may vary due to the order of feature placements.
 	replaceVanillaOres = false
 	#Generate Rye in Savanna biomes
-	generateWildRye = true
+	generateWildRye = false
 	#Enables the generation of black sand disks in the Nether.
 	generateBlackSand = false
 	#The chance a meteroite will be big.
 	#Range: 0.0 ~ 1.0
 	meteoriteBigChance = 0.25
 	#Generate Millet in Savanna biomes
-	generateWildMillet = true
+	generateWildMillet = false
 	#Enable/Disable Project Rankine mushrooms in world.
 	generateMushrooms = true
 	#The chance a meteroite will spawn in the Overworld. Higher numbers increase rarity.
 	#Range: > 0
 	meteoriteChance = 80
 	#Generate Rice in River and Swamp biomes
-	generateWildRice = true
+	generateWildRice = false
 	#Enable/Disable Project Rankine flowers and berry bushes in world.
-	generateFlora = true
+	generateFlora = false
 	#Enables the generation of fire clay underneath blocks in #forge:ores/coal
 	generateFireClayUnderCoal = false
 	#Generates the Nether with a flat bedrock layer.
 	flatBedrockNether = false
 	#Generate Oat in Plains biomes
-	generateWildOat = true
+	generateWildOat = false
 	#Enable/Disable Project Rankine trees in world.
 	generateTrees = true
 	#Generate Cotton in Plains biomes
-	generateWildCotton = true
+	generateWildCotton = false
 	#Generate Sorghum in Plains and Savanna biomes
-	generateWildSorghum = true
+	generateWildSorghum = false
 
 #Settings for stone layering
 [layers]

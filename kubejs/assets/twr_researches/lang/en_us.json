@@ -236,5 +236,12 @@
   "research.frostedheart.wool_lining.name": "Wool Lining",
   "research.frostedheart.workbench.desc.0": "Finally I've got the crafting table! Now I can make doors, chests, and so much more! The possibilities are endless!",
   "research.frostedheart.workbench.desc_alt.0": "Today is probably a great day: I got iron and better planks---so, under the cold temperature the workbench should not break anymore. So start now!",
-  "research.frostedheart.workbench.name": "Crafting Techniques"
+  "research.frostedheart.workbench.name": "Crafting Techniques",
+  "research.frostedheart.gain_experience.desc.1": "&aThis is a infinite research.",
+  "research.frostedheart.generator_regain.desc.0": "I accidentally lose my energy core in the frosted land. Maybe I can recall my memory to find it.",
+  "research.frostedheart.generator_regain.desc.2": "&aThis is a infinite research.",
+  "research.frostedheart.generator_regain.desc.1": "&c&lA team can only build one generator, claim repeatly is pointless.",
+  "research.frostedheart.gain_experience.name": "Self Reflection",
+  "research.frostedheart.generator_regain.name": "Energy Core Regain",
+  "research.frostedheart.gain_experience.desc.0": "I can do some self reflection and get knowledge."
 }

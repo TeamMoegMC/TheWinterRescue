@@ -1,0 +1,45 @@
+{
+  "name": "@",
+  "icon": {
+    "type": "combined",
+    "base": "minecraft:experience_bottle",
+    "small": {
+      "type": "internal",
+      "name": "inf"
+    }
+  },
+  "category": "frostedheart:ars",
+  "parents": [
+    "enchantment_table",
+    "mechanical_calculator"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 0.75,
+      "id": "d21c70fc7a8145ae",
+      "required": true,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "value": 0.2,
+      "id": "656768aa54574228",
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "effects": [
+    {
+      "type": "experience",
+      "id": "b2cfb1fd0c1a4da5",
+      "experience": 250
+    }
+  ],
+  "points": 4000,
+  "infinite": true
+}

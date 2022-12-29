@@ -79,6 +79,7 @@ by_products[1] = [Item.of("rankine:sulfur").withChance(0.5)];
 	let kilnRecipes=[
 		rotarySulfate("kubejs:washed_ore_chalcocite","kubejs:copper_oxide",32,125,0),
 		rotarykilnRecipe2("kubejs:washed_ore_malachite","kubejs:copper_oxide",200,32),
+		rotarySulfate("#forge:dusts/sulfur","minecraft:air",32,125,0),
 		rotarykilnRecipe2("kubejs:washed_ore_magnetite","kubejs:washed_ore_hematite",200,32,"kubejs:washed_ore_hematite",0.25),
 		rotarySulfate("kubejs:washed_ore_pyrite","kubejs:washed_ore_hematite",64,250,0),
 		rotarySulfate("kubejs:washed_ore_galena","kubejs:lead_oxide",32,250,0.25),

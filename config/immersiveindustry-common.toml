@@ -8,4 +8,6 @@ CarKilnBaseTickEnergy = 64
 SteamTurbineGenerator = 224
 #Range: 0.0 ~ 96000.0
 ElectrodeCost = 0.25
+#Range: > 0
+CrucibleBurntime = 800
 

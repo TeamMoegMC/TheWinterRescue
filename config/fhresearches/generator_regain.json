@@ -1,0 +1,43 @@
+{
+  "name": "@",
+  "icon": {
+    "type": "combined",
+    "base": "frostedheart:energy_core",
+    "small": {
+      "type": "internal",
+      "name": "inf"
+    }
+  },
+  "category": "frostedheart:rescue",
+  "parents": [
+    "generator_T1"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "value": 1.0,
+      "id": "b05c80c481fc48af",
+      "required": true,
+      "level": 0
+    }
+  ],
+  "ingredients": [
+    {
+      "count": 64,
+      "base_ingredient": {
+        "tag": "forge:ingots/copper"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "item",
+      "id": "cafaf5f98b434fbb",
+      "rewards": [
+        "frostedheart:energy_core"
+      ]
+    }
+  ],
+  "points": 4000,
+  "infinite": true
+}

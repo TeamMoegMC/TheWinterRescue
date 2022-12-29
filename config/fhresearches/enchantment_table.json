@@ -45,6 +45,13 @@
       "type": "recipe",
       "id": "fdb784870461417f",
       "item": "minecraft:enchanting_table"
+    },
+    {
+      "type": "use",
+      "id": "36b873d9a8254f13",
+      "blocks": [
+        "minecraft:enchanting_table"
+      ]
     }
   ],
   "points": 1200,
