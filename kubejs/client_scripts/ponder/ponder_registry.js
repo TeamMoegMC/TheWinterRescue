@@ -218,7 +218,7 @@ onEvent("ponder.registry", event => {
             scene.world().moveSection(scene.world().showIndependentSectionImmediately(util.select().fromTo(1, 8, 1, 3, 15, 3)), util.vector().of(0, -8, 0), 0)
             scene.world().replaceBlocks(util.select().fromTo(1, 1, 1, 3, 7, 3), util.getDefaultState("minecraft:air"), false)
             scene.idle(40)
-        }).scene("usage", "", "kubejs:generator_t2", (scene, util) => {
+        })/*.scene("usage", "", "kubejs:generator_t2", (scene, util) => {
             scene.configureBasePlate(0, 0, 5)
             scene.scaleSceneView(1)
             scene.showBasePlate()
@@ -229,7 +229,7 @@ onEvent("ponder.registry", event => {
 			scene.addKeyframe()
 			scene.overlay().showOutline(PonderPalette.GREEN, new Object(), util.select().position(2,1,2), 20)
 			scene.overlay().showText(20)
-                .text("Input heat medium from bottom center")
+                .text("Input heat medium from bottom blue marked ")
                 .pointAt(util.vector().blockSurface(util.grid().at(2, 1, 2), Facing.down))
             scene.idle(40)
 			scene.addKeyframe()
@@ -244,7 +244,7 @@ onEvent("ponder.registry", event => {
 			scene.idle(20)
 			scene.rotateCameraY(180)
 			scene.idle(40)
-        })
+        })*/
 
     // Crucible
     event.create("the_winter_rescue:steel_mill", ["immersiveindustry:crucible", "immersiveindustry:burning_chamber", "rankine:high_refractory_bricks"])

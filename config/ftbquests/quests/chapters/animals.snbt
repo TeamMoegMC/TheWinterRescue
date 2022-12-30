@@ -203,5 +203,22 @@
 				title: "{quest.twr.76723451C6850C81.33BB3D36B1C4EA5D.title}"
 			}]
 		}
+		{
+			title: "{quest.twr.76BFBA40C36D0699.title}"
+			icon: "frostedheart:temperature_probe"
+			x: 6.5d
+			y: 1.5d
+			subtitle: "{quest.twr.76BFBA40C36D0699.subtitle}"
+			description: [
+				"{quest.twr.76BFBA40C36D0699.description.1}"
+				"{quest.twr.76BFBA40C36D0699.description.2}"
+			]
+			dependencies: ["7762BF27B2BB8236"]
+			id: "76BFBA40C36D0699"
+			tasks: [{
+				id: "10A1AE9D210063AE"
+				type: "checkmark"
+			}]
+		}
 	]
 }

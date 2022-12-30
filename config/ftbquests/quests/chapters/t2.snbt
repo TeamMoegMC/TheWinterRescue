@@ -27,11 +27,21 @@
 				type: "item"
 				item: "minecraft:crafting_table"
 			}]
-			rewards: [{
-				id: "05A8B8F3C3113194"
-				type: "item"
-				item: "crockpot:turkey_dinner"
-			}]
+			rewards: [
+				{
+					id: "05A8B8F3C3113194"
+					type: "item"
+					item: "crockpot:turkey_dinner"
+				}
+				{
+					id: "7045243DE877407E"
+					type: "command"
+					title: "{quest.twr.328D948C4C800873.7045243DE877407E.title}"
+					icon: "minecraft:filled_map"
+					command: "/ftbchunks admin extra_claim_chunks @p set 16"
+					player_command: false
+				}
+			]
 		}
 		{
 			x: -16.0d

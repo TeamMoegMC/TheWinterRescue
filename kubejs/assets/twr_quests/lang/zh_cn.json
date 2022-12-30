@@ -405,8 +405,6 @@
   "quest.twr.2B0D00CB09B96703.description.1": "使用内衬保护的笼子可以运输小体型的动物和动物幼体。",
   "quest.twr.2B0D00CB09B96703.subtitle": "马戏团",
   "quest.twr.2D570AD59FE2D6E1.description.1": "对&6&l殷钢块&r进行思索查看搭建结构        &b&l如果结构顶部显示不下，将“视频设置”-“界面尺寸”降低即可",
-  "quest.twr.2D570AD59FE2D6E1.description.2": "热介质&b&l底部中心&r输入。",
-  "quest.twr.2D570AD59FE2D6E1.description.3": "可以在&6&l底面&r任意其他方块输出热能。",
   "quest.twr.2D570AD59FE2D6E1.subtitle": "能源供给",
   "quest.twr.2D570AD59FE2D6E1.title": "二级能量塔",
   "quest.twr.2E54EBA4E016412C.description.1": "需要在蒸汽充气机充能才能使用",
@@ -1110,5 +1108,16 @@
   "quest.twr.7F84766122DC4753.description.2": "如果找不到仙人掌，也可以&e研磨孔雀石&r得到绿色染料哦。&c详见JEI&r。",
   "quest.twr.7F84766122DC4753.subtitle": "高精组装",
   "quest.twr.7FA0ADDB6ABCAB6A.description.1": "想了解更多世界相关的信息？请参考兰金计划的教程书。",
-  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "深入了解"
+  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "深入了解",
+  "quest.twr.1415012F2B5B47D9.description.1": "排气口可以销毁任何气体，可以用于自动化。",
+  "quest.twr.5D7B5ABC70D38636.description.6": "&e&l提示：可能需要用红石计时器来使用这一工具。",
+  "quest.twr.76BFBA40C36D0699.title": "动物福利",
+  "quest.twr.543F5BC239D07C40.description.6": "&e在后续游戏中会逐步增大可圈地的范围。",
+  "quest.twr.76BFBA40C36D0699.subtitle": "请保护动物",
+  "quest.twr.1415012F2B5B47D9.subtitle": "气体焚化炉",
+  "quest.twr.2D570AD59FE2D6E1.description.2": "红石信号接口用于切换状态，不提供信号时保持状态，1-5关闭能量塔，6-10开启能量塔，11以上开启能量塔并过载。&c你可能需要用IE的红石线缆来控制。",
+  "quest.twr.76BFBA40C36D0699.description.2": "它需要&e完全吃饱才会开始繁殖&r，并且在气温较冷（0~-15C）的时候会消耗储存的脂肪来保暖。",
+  "quest.twr.76BFBA40C36D0699.description.1": "驯化后的动物依然具备一定的抗逆性。",
+  "quest.twr.328D948C4C800873.7045243DE877407E.title": "增加16个区块领地",
+  "quest.twr.2D570AD59FE2D6E1.description.3": "蓝色接口用于输入流体，橙色接口用于输出能量。可以从能量塔任意位置输入输出物品。"
 }

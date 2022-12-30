@@ -360,6 +360,7 @@
 				"{quest.twr.5D7B5ABC70D38636.description.3}"
 				"{quest.twr.5D7B5ABC70D38636.description.4}"
 				"{quest.twr.5D7B5ABC70D38636.description.5}"
+				"{quest.twr.5D7B5ABC70D38636.description.6}"
 			]
 			dependencies: ["2148082183BBDF76"]
 			optional: true

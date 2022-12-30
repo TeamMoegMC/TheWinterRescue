@@ -404,8 +404,6 @@
   "quest.twr.2B0D00CB09B96703.description.1": "Protected cage with inner lining would keep animal inside from cold to death.",
   "quest.twr.2B0D00CB09B96703.subtitle": "Circus",
   "quest.twr.2D570AD59FE2D6E1.description.1": "Ponder about &6&lInvar Block&r, check the structure &b&lIf the top of the structure is not displayed, just reduce \"Video Settings\"-\"GUI Size\"",
-  "quest.twr.2D570AD59FE2D6E1.description.2": "Input heat medium at the &6&lBottom center&r.",
-  "quest.twr.2D570AD59FE2D6E1.description.3": "The heat energy can be outputted at the neighboring four faces at the bottom.",
   "quest.twr.2D570AD59FE2D6E1.subtitle": "Heat Supply",
   "quest.twr.2D570AD59FE2D6E1.title": "Tier Two Generator",
   "quest.twr.2E54EBA4E016412C.description.1": "You need to charge it with steam charger to use it",
@@ -1109,5 +1107,16 @@
   "quest.twr.7F84766122DC4753.description.2": "If you can't find any cactus, you may also &emill malachite&r for green dye. &cRefer to JEI for more help&r.",
   "quest.twr.7F84766122DC4753.subtitle": "High-precision assembly",
   "quest.twr.7FA0ADDB6ABCAB6A.description.1": "Interested in learning more geology of this world? Project Rankine's Journal is your best guide!",
-  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "Deeper(literal) Knowledge"
+  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "Deeper(literal) Knowledge",
+  "quest.twr.1415012F2B5B47D9.description.1": "Gas vent can destroy and input gas, suitable for automation.",
+  "quest.twr.5D7B5ABC70D38636.description.6": "&e&lTips: you need to use redstone timer for this.",
+  "quest.twr.76BFBA40C36D0699.title": "Animal welfare",
+  "quest.twr.543F5BC239D07C40.description.6": "&eChunk limit would increase as game proceeed.",
+  "quest.twr.76BFBA40C36D0699.subtitle": "Protect animal",
+  "quest.twr.1415012F2B5B47D9.subtitle": "Gas Incinerator",
+  "quest.twr.2D570AD59FE2D6E1.description.2": "Redstone interface can be used to switch mode. No redstone signal would keep unchanged, 1-5 would shut down generator, 6-10 would turn it on, 11 or more would turn on overdrive. &cYou may need redstone wire from IE to control it.",
+  "quest.twr.76BFBA40C36D0699.description.2": "They need to be &efully feed to breed&r, and they would use its fat to resist cold from -15C to 0C.",
+  "quest.twr.76BFBA40C36D0699.description.1": "Domesticated Animals can still resist some cold.",
+  "quest.twr.328D948C4C800873.7045243DE877407E.title": "Add 16 chunks.",
+  "quest.twr.2D570AD59FE2D6E1.description.3": "Blue interface is fluid input, Orange one is energy output. Item can input and output anywhere."
 }

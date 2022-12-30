@@ -139,6 +139,7 @@
 				"{quest.twr.543F5BC239D07C40.description.3}"
 				"{quest.twr.543F5BC239D07C40.description.4}"
 				"{quest.twr.543F5BC239D07C40.description.5}"
+				"{quest.twr.543F5BC239D07C40.description.6}"
 			]
 			dependencies: ["1CD9EB4A39925BB8"]
 			id: "543F5BC239D07C40"

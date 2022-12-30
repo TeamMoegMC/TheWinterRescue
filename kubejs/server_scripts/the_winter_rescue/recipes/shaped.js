@@ -283,6 +283,11 @@ onEvent('recipes', (event) => {
             C: 'frostedheart:incubator',
 			D: '#forge:plates/copper'
         }),
+		shapedRecipe('frostedheart:gas_vent', ['ABA', 'BCB'], {
+            A: 'kubejs:invar_steel_plate',
+            B: 'immersiveengineering:fluid_pipe',
+            C: '#forge:plates/steel'
+        }),
 	    shapedRecipe('2x immersiveengineering:radiator', ['ABA', 'BCB', 'ABA'], {
             A: 'immersiveengineering:sheetmetal_steel',
             B: '#forge:plates/steel',

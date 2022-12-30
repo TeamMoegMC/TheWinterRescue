@@ -332,5 +332,18 @@
 				count: 10L
 			}]
 		}
+		{
+			x: 3.0d
+			y: -6.5d
+			subtitle: "{quest.twr.1415012F2B5B47D9.subtitle}"
+			description: ["{quest.twr.1415012F2B5B47D9.description.1}"]
+			dependencies: ["4138E3A9915F811C"]
+			id: "1415012F2B5B47D9"
+			tasks: [{
+				id: "64CBB98E32CA7E77"
+				type: "item"
+				item: "frostedheart:gas_vent"
+			}]
+		}
 	]
 }
