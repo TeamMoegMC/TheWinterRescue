@@ -378,5 +378,26 @@
 				item: "create:tree_fertilizer"
 			}]
 		}
+		{
+			title: "{quest.twr.7762BF27B2BB8236.title}"
+			icon: "stone_age:auroch_spawn_egg"
+			x: -13.5d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "{quest.twr.7762BF27B2BB8236.subtitle}"
+			description: [
+				"{quest.twr.7762BF27B2BB8236.description.0}"
+				"{quest.twr.7762BF27B2BB8236.description.1}"
+				"{quest.twr.7762BF27B2BB8236.description.3}"
+			]
+			dependencies: ["69D939596ED4C0AF"]
+			size: 1.5d
+			id: "7762BF27B2BB8236"
+			tasks: [{
+				id: "67D25E6118AEA96F"
+				type: "item"
+				item: "minecraft:wheat"
+			}]
+		}
 	]
 }
