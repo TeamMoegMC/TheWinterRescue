@@ -26,6 +26,42 @@
       "value": 0.2,
       "id": "1081475ea53f417c",
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.125,
+      "id": "b15134711c934d1b",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "kubejs:servo_core"
+        }
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "value": 0.125,
+      "id": "3ba9a41d71174c1d",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "kubejs:servo_core"
+        }
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "value": 0.125,
+      "id": "9789c8df764c449a",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "kubejs:servo_core"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [

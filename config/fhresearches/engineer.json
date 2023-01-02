@@ -10,6 +10,30 @@
       "value": 0.5,
       "id": "f951dd580614a9b",
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "23c322140e10469a",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "kubejs:servo_core"
+        }
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "value": 0.1875,
+      "id": "847c42f8b9124bf8",
+      "item": {
+        "count": 16,
+        "base_ingredient": {
+          "item": "immersiveengineering:circuit_board"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [

@@ -15,6 +15,17 @@
       "id": "309a1cdd00054398",
       "required": true,
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "8cb6f537c2e74b2b",
+      "item": {
+        "count": 32,
+        "base_ingredient": {
+          "tag": "forge:plates/steel"
+        }
+      }
     }
   ],
   "ingredients": [

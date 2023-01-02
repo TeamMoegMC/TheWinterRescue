@@ -17,6 +17,30 @@
       "value": 0.2,
       "id": "4df5fbeb8e024f0a",
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.2,
+      "id": "f48a72c281184d7a",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "kubejs:servo_core"
+        }
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "value": 0.1,
+      "id": "10da963f5344453e",
+      "item": {
+        "count": 2,
+        "base_ingredient": {
+          "item": "kubejs:servo_core"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [
