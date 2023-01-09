@@ -2,6 +2,10 @@ name: Suggestion
 description: Any feature you want us to add? Give us a suggestion.
 title: "[Suggestion] "
 labels: enhancement
+assignees: 
+  - khjxiaogu
+  - dashuaibia
+  - yuesha-yc
 body:
   - type: markdown
     attributes:
