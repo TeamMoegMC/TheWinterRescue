@@ -2,6 +2,9 @@ name: Question
 description: Submit a question if you are not sure if this is a bug.
 title: "[Question] "
 labels: question
+assignees: 
+  - khjxiaogu
+  - yuesha-yc
 body:
   - type: markdown
     attributes:
