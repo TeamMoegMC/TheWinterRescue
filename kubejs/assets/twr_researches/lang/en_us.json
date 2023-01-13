@@ -1,4 +1,5 @@
 {
+  "clue.frostedheart.crucible.clue.2_293efb899ab946c1.hint": "Require block!",
   "clue.frostedheart.iron.clue.1_6fea538c5b184ec7.hint": "Sandy Brick (item), not Sandy Bricks (block)",
   "clue.frostedheart.mechanical_calculator.clue.2_c6b9a2fac4b14436.desc": "Any Cogwwheel x8",
   "clue.frostedheart.mechanical_calculator.clue.3_593d54b210e7473d.desc": "Any Large Cogwheel x4",
@@ -243,6 +244,5 @@
   "research.frostedheart.wool_lining.name": "Wool Lining",
   "research.frostedheart.workbench.desc.0": "Finally I've got the crafting table! Now I can make doors, chests, and so much more! The possibilities are endless!",
   "research.frostedheart.workbench.desc_alt.0": "Today is probably a great day: I got iron and better planks---so, under the cold temperature the workbench should not break anymore. So start now!",
-  "research.frostedheart.workbench.name": "Crafting Techniques",
-  "clue.frostedheart.crucible.clue.2_293efb899ab946c1.hint": "Require block!"
+  "research.frostedheart.workbench.name": "Crafting Techniques"
 }
