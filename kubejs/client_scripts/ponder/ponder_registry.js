@@ -247,7 +247,7 @@ onEvent("ponder.registry", event => {
         })*/
 
     // Crucible
-    event.create("the_winter_rescue:steel_mill", ["immersiveindustry:crucible", "immersiveindustry:burning_chamber", "rankine:high_refractory_bricks"])
+    event.create("the_winter_rescue:steel_mill", ["immersiveindustry:crucible", "immersiveindustry:burning_chamber", "rankine:high_refractory_bricks", "immersiveengineering:blastfurnace_preheater"])
         .tag("the_winter_rescue:crucible")
         .scene("assembly", "", "kubejs:steel_mill_crucible", (scene, util) => {
             scene.configureBasePlate(0, 0, 5)

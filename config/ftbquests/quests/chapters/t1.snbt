@@ -414,10 +414,7 @@
 			y: -2.5d
 			shape: "square"
 			subtitle: "{quest.twr.3078BCEE3E402DED.subtitle}"
-			description: [
-				"{quest.twr.3078BCEE3E402DED.description.1}"
-				"{quest.twr.3078BCEE3E402DED.description.2}"
-			]
+			description: ["{quest.twr.3078BCEE3E402DED.description.1}"]
 			dependencies: ["19603323EAAFF726"]
 			id: "3078BCEE3E402DED"
 			tasks: [{

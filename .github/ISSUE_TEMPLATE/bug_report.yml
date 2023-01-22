@@ -2,6 +2,10 @@ name: Bug Report
 description: Meet some crash or glitch? Submit a bug report.
 title: "[Bug] "
 labels: bug
+assignees: 
+  - khjxiaogu
+  - dashuaibia
+  - yuesha-yc
 body:
   - type: markdown
     attributes:
