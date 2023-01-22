@@ -1154,8 +1154,8 @@
 					Damage: 0
 				}
 			}
-			x: 10.5d
-			y: -3.0d
+			x: 12.0d
+			y: 1.5d
 			subtitle: "{quest.twr.28F313C8E1312A2B.subtitle}"
 			description: [
 				"{quest.twr.28F313C8E1312A2B.description.1}"
@@ -1276,6 +1276,23 @@
 				type: "item"
 				item: "kubejs:coal_briquette"
 				count: 4
+			}]
+		}
+		{
+			title: "{quest.twr.7EFFAF6A69D2EE66.title}"
+			icon: "minecraft:oak_sapling"
+			x: 10.5d
+			y: -3.0d
+			subtitle: "{quest.twr.7EFFAF6A69D2EE66.subtitle}"
+			description: [
+				"{quest.twr.7EFFAF6A69D2EE66.description.1}"
+				"{quest.twr.7EFFAF6A69D2EE66.description.2}"
+			]
+			dependencies: ["6B7D4F59C921C1FC"]
+			id: "7EFFAF6A69D2EE66"
+			tasks: [{
+				id: "483C18090B96035F"
+				type: "checkmark"
 			}]
 		}
 	]

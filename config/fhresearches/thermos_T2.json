@@ -22,6 +22,18 @@
       "value": 0.4,
       "id": "61de1d3709fa4a80",
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.15,
+      "id": "5cdfa597760f4ed2",
+      "item": {
+        "count": 10,
+        "base_ingredient": {
+          "tag": "forge:plates/aluminum"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [

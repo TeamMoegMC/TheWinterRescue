@@ -93,8 +93,7 @@ onEvent('item.tags', (event) => {
 	})
 	event.add('kubejs:straw_briquettes','kubejs:wet_straw_briquette');
 	event.add('kubejs:straw_briquettes','kubejs:straw_briquette');
-	event.add('thermopolium:container','frostedheart:advanced_thermos');
-	event.add('thermopolium:container','frostedheart:thermos');
+	event.add('thermopolium:container','#frostedheart:thermos');
 	event.add('thermopolium:cereals/baked','frostedheart:military_rations');
 	event.add('thermopolium:cereals/baked','frostedheart:rye_bread');
 	event.add('thermopolium:vegetables','frostedheart:military_rations');

@@ -32,6 +32,18 @@
       "value": 0.25,
       "id": "dccec6b8dfba4031",
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.2,
+      "id": "c63eed3e6f43436b",
+      "item": {
+        "count": 40,
+        "base_ingredient": {
+          "tag": "forge:coal_coke"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [

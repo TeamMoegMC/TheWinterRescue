@@ -304,7 +304,7 @@
 			}]
 		}
 		{
-			x: -13.5d
+			x: -13.0d
 			y: 2.5d
 			subtitle: "{quest.twr.29DCBBB54EE90E51.subtitle}"
 			description: [
@@ -370,7 +370,7 @@
 			}]
 		}
 		{
-			x: -10.5d
+			x: -10.0d
 			y: 2.5d
 			subtitle: "{quest.twr.5845439CF721309F.subtitle}"
 			description: ["{quest.twr.5845439CF721309F.description.1}"]
@@ -433,7 +433,7 @@
 			}]
 		}
 		{
-			x: -12.5d
+			x: -12.0d
 			y: 2.5d
 			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
 			description: ["{quest.twr.15B365E3F3EAFE79.description.1}"]
@@ -878,7 +878,7 @@
 			}]
 		}
 		{
-			x: -11.5d
+			x: -11.0d
 			y: 2.5d
 			description: [
 				"{quest.twr.41D8E04627E55A86.description.1}"
@@ -1042,10 +1042,11 @@
 			}]
 		}
 		{
-			x: -19.0d
-			y: 2.5d
+			x: -11.5d
+			y: 3.5d
 			description: ["{quest.twr.2EBC4AB3DDFC6BA0.description.1}"]
-			dependencies: ["3E8F565DE61309B2"]
+			hide_dependency_lines: true
+			dependencies: ["4CC5E16EFDE1368C"]
 			optional: true
 			id: "2EBC4AB3DDFC6BA0"
 			tasks: [{
@@ -1143,6 +1144,31 @@
 			tasks: [{
 				id: "3B146E51998BDF7A"
 				type: "checkmark"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "2182E10307C48C0C"
+			tasks: [{
+				id: "35416713A9BF4DCC"
+				type: "item"
+				item: "create:clutch"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -12.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["4CC5E16EFDE1368C"]
+			id: "13C2EB9EA47611F4"
+			tasks: [{
+				id: "6D971A19B10D5971"
+				type: "item"
+				item: "create:encased_chain_drive"
 			}]
 		}
 	]

@@ -18,6 +18,18 @@
       "value": 0.2,
       "id": "1641155720c64541",
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.16,
+      "id": "293efb899ab946c1",
+      "item": {
+        "count": 12,
+        "base_ingredient": {
+          "item": "rankine:high_refractory_bricks"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [

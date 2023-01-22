@@ -1264,6 +1264,18 @@
 			description: ["{quest.twr.139033FEB9593ABE.description.1}"]
 			dependencies: ["1974619E18DB754A"]
 			id: "139033FEB9593ABE"
+			tasks: [{
+				id: "37481E6ADB51B8CD"
+				type: "item"
+				title: "{quest.twr.139033FEB9593ABE.37481E6ADB51B8CD.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "frostedheart:colored_thermos"
+					}
+				}
+			}]
 		}
 	]
 }

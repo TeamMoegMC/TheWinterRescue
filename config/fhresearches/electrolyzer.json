@@ -18,6 +18,18 @@
       "value": 0.25,
       "id": "dc66f68d04244263",
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "dcf22d464ba34c83",
+      "item": {
+        "count": 32,
+        "base_ingredient": {
+          "item": "minecraft:gold_ingot"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [

@@ -18,6 +18,18 @@
       "value": 0.2,
       "id": "6d73a2dec83e4cdb",
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.175,
+      "id": "c2477c47da734861",
+      "item": {
+        "count": 32,
+        "base_ingredient": {
+          "item": "immersiveengineering:wire_copper"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [

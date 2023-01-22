@@ -1,7 +1,7 @@
 {
   "type": "watersource:water_level_fluid",
   "ingredient": {
-    "item": "frostedheart:thermos"
+    "tag": "frostedheart:thermos"
   },
   "fluid": "minecraft:milk",
   "waterLevel": 2,

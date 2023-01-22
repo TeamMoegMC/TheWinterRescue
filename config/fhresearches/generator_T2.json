@@ -24,6 +24,18 @@
       "value": 0.1,
       "id": "baa56071bf5f4adf",
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "501e511b94e247d5",
+      "item": {
+        "count": 8,
+        "base_ingredient": {
+          "item": "rankine:invar_block"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [

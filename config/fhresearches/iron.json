@@ -11,14 +11,6 @@
     },
     {
       "type": "item",
-      "value": 0.25,
-      "id": "1aeb1af04bf144eb",
-      "item": {
-        "item": "charcoal_pit:bellows"
-      }
-    },
-    {
-      "type": "item",
       "hint": "@",
       "value": 0.25,
       "id": "6fea538c5b184ec7",
@@ -27,6 +19,14 @@
         "base_ingredient": {
           "item": "charcoal_pit:sandy_brick_item"
         }
+      }
+    },
+    {
+      "type": "item",
+      "value": 0.25,
+      "id": "1aeb1af04bf144eb",
+      "item": {
+        "item": "charcoal_pit:bellows"
       }
     }
   ],

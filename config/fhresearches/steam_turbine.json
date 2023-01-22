@@ -16,6 +16,54 @@
       "id": "db17de1fd15c4a39",
       "required": true,
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.125,
+      "id": "daf8d2abc45e4f0c",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "kubejs:servo_core"
+        }
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "value": 0.125,
+      "id": "841fa9765e194322",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "kubejs:servo_core"
+        }
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "value": 0.125,
+      "id": "4b6c9f6e150a4f40",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "kubejs:servo_core"
+        }
+      },
+      "consume": true
+    },
+    {
+      "type": "item",
+      "value": 0.125,
+      "id": "a2713d1391ce4100",
+      "item": {
+        "count": 4,
+        "base_ingredient": {
+          "item": "kubejs:servo_core"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [

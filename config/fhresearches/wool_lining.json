@@ -16,6 +16,18 @@
       "value": 0.75,
       "id": "26ae318159284bec",
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.2,
+      "id": "9c3daf2b8525454e",
+      "item": {
+        "count": 6,
+        "base_ingredient": {
+          "tag": "minecraft:wool"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [

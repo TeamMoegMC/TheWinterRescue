@@ -17,6 +17,18 @@
       "value": 0.15,
       "id": "804e4d61fc2c486c",
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.2,
+      "id": "e9143e3c11864ef3",
+      "item": {
+        "count": 32,
+        "base_ingredient": {
+          "item": "immersiveengineering:wirecoil_copper"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [

@@ -18,6 +18,18 @@
       "value": 0.2,
       "id": "68321e95321b4456",
       "level": 1
+    },
+    {
+      "type": "item",
+      "value": 0.175,
+      "id": "153d8d1b66784e95",
+      "item": {
+        "count": 20,
+        "base_ingredient": {
+          "tag": "forge:ingots/cast_iron"
+        }
+      },
+      "consume": true
     }
   ],
   "ingredients": [
