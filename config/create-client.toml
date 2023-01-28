@@ -70,7 +70,7 @@
 	[client.ponder]
 		# 
 		#Slow down a ponder scene whenever there is text on screen.
-		comfyReading = false
+		comfyReading = true
 
 	# 
 	#Settings for the Goggle Overlay

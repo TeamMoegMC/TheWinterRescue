@@ -18,10 +18,29 @@
     },
     {
       "type": "item",
-      "value": 0.5,
+      "value": 0.25,
       "id": "1fd198f02090444c",
       "item": {
         "item": "minecraft:iron_block"
+      }
+    },
+    {
+      "type": "item",
+      "value": 0.1,
+      "id": "f69fc49b25d14d99",
+      "item": {
+        "count": 2,
+        "base_ingredient": {
+          "tag": "the_winter_rescue:cogwheels"
+        }
+      }
+    },
+    {
+      "type": "item",
+      "value": 0.15,
+      "id": "2562a0d18a024a78",
+      "item": {
+        "item": "create:basin"
       }
     }
   ],
