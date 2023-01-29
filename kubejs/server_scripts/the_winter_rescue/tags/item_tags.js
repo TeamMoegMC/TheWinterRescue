@@ -65,6 +65,8 @@ onEvent('item.tags', (event) => {
 	event.add("kubejs:coal_dust","kubejs:subbituminous_coal_dust")
 	event.add("kubejs:coal_dust","kubejs:lignite_dust")
 	event.add("kubejs:coal_dust","kubejs:coal_dust")
+	event.add("kubejs:kiln_dust","kubejs:charcoal_dust")
+	event.add("kubejs:kiln_dust","kubejs:coal_dust")
 	event.add("kubejs:fuel_glue","minecraft:slime_ball")
 	event.add("kubejs:fuel_glue","create:dough")
 	event.add("kubejs:fuel_glue","#forge:bitumen")
