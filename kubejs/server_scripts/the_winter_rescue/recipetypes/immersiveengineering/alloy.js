@@ -20,8 +20,8 @@ onEvent('recipes', (event) => {
             //     input2: Ingredient.of('#forge:ingots/copper', 3),
             //     output: Item.of('tconstruct:tinkers_bronze_ingot', 3)
             // }
-            {input1: '#forge:ores/copper', input2: '#kubejs:kiln_dust', output: 'rankine:copper_ingot', time: 300},
-            {input1: '#forge:ores/tin', input2: '#kubejs:kiln_dust', output: 'rankine:tin_ingot', time: 300}
+            {input1: '#forge:ores/copper', input2: '2x #kubejs:kiln_dust', output: 'rankine:copper_ingot', time: 250},
+            {input1: '#forge:ores/tin', input2: '2x #kubejs:kiln_dust', output: 'rankine:tin_ingot', time: 250}
         ]
     recipes.forEach((recipe) => {
         event.recipes.immersiveengineering.alloy(recipe.output, recipe.input1, recipe.input2, recipe.time);
