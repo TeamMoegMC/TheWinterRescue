@@ -10,8 +10,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -22.0d
+			x: -28.5d
 			y: -0.5d
+			shape: "gear"
 			subtitle: "{quest.twr.328D948C4C800873.subtitle}"
 			description: [
 				"{quest.twr.328D948C4C800873.description.1}"
@@ -44,54 +45,37 @@
 			]
 		}
 		{
-			x: -16.0d
+			x: -19.5d
 			y: 1.0d
+			shape: "gear"
 			description: ["{quest.twr.060F482D9D3374F9.description.1}"]
 			dependencies: ["3549A50510878505"]
-			id: "060F482D9D3374F9"
-			tasks: [{
-				id: "786C91AE939F3CC1"
-				type: "item"
-				item: "kubejs:impure_alumina_dust"
-			}]
-		}
-		{
-			x: -16.0d
-			y: 2.5d
-			description: [
-				"{quest.twr.48F3102B3AA99313.description.1}"
-				"{quest.twr.48F3102B3AA99313.description.2}"
-			]
-			dependencies: ["3549A50510878505"]
-			id: "48F3102B3AA99313"
-			tasks: [{
-				id: "1889B5889AC25666"
-				type: "item"
-				item: "kubejs:kaolin_dust"
-			}]
-		}
-		{
-			x: -14.5d
-			y: 1.0d
-			shape: "rsquare"
-			description: ["{quest.twr.6417209CD8ADABEC.description.1}"]
-			dependencies: [
-				"060F482D9D3374F9"
-				"48F3102B3AA99313"
-			]
-			id: "6417209CD8ADABEC"
-			tasks: [{
-				id: "6C0B8B2338C1B759"
-				type: "item"
-				item: "rankine:fire_clay_ball"
-			}]
-		}
-		{
-			x: -14.5d
-			y: -0.5d
-			description: ["{quest.twr.71D389AF87847D7B.description.1}"]
-			dependencies: ["6417209CD8ADABEC"]
 			hide: true
+			id: "060F482D9D3374F9"
+			tasks: [
+				{
+					id: "786C91AE939F3CC1"
+					type: "item"
+					item: "kubejs:impure_alumina_dust"
+				}
+				{
+					id: "536902CC7045DD19"
+					type: "item"
+					item: "kubejs:kaolin_dust"
+				}
+				{
+					id: "480469CDC1333BF7"
+					type: "item"
+					item: "rankine:fire_clay_ball"
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 1.0d
+			shape: "gear"
+			description: ["{quest.twr.71D389AF87847D7B.description.1}"]
+			dependencies: ["060F482D9D3374F9"]
 			id: "71D389AF87847D7B"
 			tasks: [{
 				id: "2D3A613BFCA83255"
@@ -107,7 +91,7 @@
 		}
 		{
 			icon: "immersiveengineering:coke_oven"
-			x: -22.0d
+			x: -28.5d
 			y: -2.0d
 			subtitle: "{quest.twr.5287CFB7B7D5285E.subtitle}"
 			description: ["{quest.twr.5287CFB7B7D5285E.description.1}"]
@@ -124,8 +108,9 @@
 		}
 		{
 			icon: "immersiveengineering:blast_furnace"
-			x: -13.0d
+			x: -16.5d
 			y: 1.0d
+			shape: "gear"
 			description: ["{quest.twr.0E27E31FF6145D05.description.1}"]
 			dependencies: [
 				"71D389AF87847D7B"
@@ -140,7 +125,7 @@
 			}]
 		}
 		{
-			x: -11.5d
+			x: -14.5d
 			y: 1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.4CC5E16EFDE1368C.subtitle}"
@@ -150,7 +135,6 @@
 				"{quest.twr.4CC5E16EFDE1368C.description.3}"
 			]
 			dependencies: ["0E27E31FF6145D05"]
-			hide: true
 			id: "4CC5E16EFDE1368C"
 			tasks: [{
 				id: "3BE5CEBDB19E17D3"
@@ -164,7 +148,7 @@
 			}]
 		}
 		{
-			x: -22.0d
+			x: -28.5d
 			y: 2.5d
 			description: ["{quest.twr.4D0ECD01E0CC7C8C.description.1}"]
 			dependencies: ["678491900C7F03F2"]
@@ -182,7 +166,7 @@
 			}]
 		}
 		{
-			x: -22.0d
+			x: -28.5d
 			y: 1.0d
 			description: ["{quest.twr.678491900C7F03F2.description.1}"]
 			dependencies: ["328D948C4C800873"]
@@ -201,8 +185,8 @@
 			}]
 		}
 		{
-			x: -19.0d
-			y: 1.0d
+			x: -24.0d
+			y: -0.5d
 			shape: "gear"
 			subtitle: "{quest.twr.3E8F565DE61309B2.subtitle}"
 			description: [
@@ -219,14 +203,14 @@
 			}]
 		}
 		{
-			x: -20.5d
+			x: -27.0d
 			y: -0.5d
+			shape: "gear"
 			description: [
 				"{quest.twr.404CFF89CCFE9D6B.description.1}"
 				"{quest.twr.404CFF89CCFE9D6B.description.2}"
 			]
 			dependencies: ["328D948C4C800873"]
-			hide: true
 			id: "404CFF89CCFE9D6B"
 			tasks: [{
 				id: "5A7562201B27BBF3"
@@ -236,13 +220,14 @@
 		}
 		{
 			icon: "steampowered:bronze_steam_engine"
-			x: -5.5d
-			y: -0.5d
+			x: -9.5d
+			y: -2.0d
 			shape: "gear"
 			subtitle: "{quest.twr.32A497C69C641D2B.subtitle}"
 			description: [
 				"{quest.twr.32A497C69C641D2B.description.1}"
 				"{quest.twr.32A497C69C641D2B.description.2}"
+				"别忘了在&b绘图桌&r领取你做出的原型机！"
 			]
 			dependencies: ["7612A96FFEFC5635"]
 			id: "32A497C69C641D2B"
@@ -261,11 +246,12 @@
 		}
 		{
 			icon: "steampowered:cast_iron_steam_engine"
-			x: -7.0d
+			x: -8.0d
 			y: 2.5d
 			subtitle: "{quest.twr.0FEC22A5C56936DC.subtitle}"
 			description: ["{quest.twr.0FEC22A5C56936DC.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
+			hide: true
 			optional: true
 			id: "0FEC22A5C56936DC"
 			tasks: [
@@ -282,8 +268,8 @@
 			]
 		}
 		{
-			x: -3.0d
-			y: 2.5d
+			x: -3.5d
+			y: -0.5d
 			shape: "gear"
 			subtitle: "{quest.twr.1F2BD4A72596B287.subtitle}"
 			description: [
@@ -291,12 +277,25 @@
 				"{quest.twr.1F2BD4A72596B287.description.2}"
 			]
 			dependencies: ["17F033FB5ACAACFB"]
+			hide: true
 			id: "1F2BD4A72596B287"
-			tasks: [{
-				id: "48D033DB353BBA5A"
-				type: "item"
-				item: "steampowered:alternator"
-			}]
+			tasks: [
+				{
+					id: "48D033DB353BBA5A"
+					type: "item"
+					item: "steampowered:alternator"
+				}
+				{
+					id: "785FDD0A154F74DA"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "22250C2AF8004310"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+			]
 			rewards: [{
 				id: "6EA26A223214988C"
 				type: "item"
@@ -304,16 +303,16 @@
 			}]
 		}
 		{
-			x: -13.0d
+			x: -16.0d
 			y: 2.5d
 			subtitle: "{quest.twr.29DCBBB54EE90E51.subtitle}"
 			description: [
 				"{quest.twr.29DCBBB54EE90E51.description.1}"
 				"{quest.twr.29DCBBB54EE90E51.description.2}"
 				"{quest.twr.29DCBBB54EE90E51.description.3}"
-				"{quest.twr.29DCBBB54EE90E51.description.4}"
 			]
 			dependencies: ["4CC5E16EFDE1368C"]
+			hide: true
 			id: "29DCBBB54EE90E51"
 			tasks: [{
 				id: "5388D141B1BE4837"
@@ -328,11 +327,12 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 4.0d
+			x: -5.0d
+			y: 2.5d
 			subtitle: "{quest.twr.7EDDAD2D1E2B0613.subtitle}"
 			description: ["{quest.twr.7EDDAD2D1E2B0613.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
+			hide: true
 			optional: true
 			id: "7EDDAD2D1E2B0613"
 			tasks: [{
@@ -343,11 +343,13 @@
 		}
 		{
 			title: "{quest.twr.4600CF7553C26ED0.title}"
-			x: -10.0d
+			x: -12.5d
 			y: 1.0d
+			shape: "gear"
 			subtitle: "{quest.twr.4600CF7553C26ED0.subtitle}"
 			description: ["{quest.twr.4600CF7553C26ED0.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
+			hide: true
 			id: "4600CF7553C26ED0"
 			tasks: [{
 				id: "4E1FECD14F37C151"
@@ -356,12 +358,13 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 4.0d
-			shape: "rsquare"
+			x: -3.5d
+			y: 1.0d
+			shape: "gear"
 			subtitle: "{quest.twr.064ECF25B9B8962B.subtitle}"
 			description: ["{quest.twr.064ECF25B9B8962B.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
+			hide: true
 			id: "064ECF25B9B8962B"
 			tasks: [{
 				id: "31772825C65C597E"
@@ -370,11 +373,13 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 2.5d
+			x: -14.5d
+			y: -0.5d
+			shape: "gear"
 			subtitle: "{quest.twr.5845439CF721309F.subtitle}"
 			description: ["{quest.twr.5845439CF721309F.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
+			hide_text_until_complete: true
 			id: "5845439CF721309F"
 			tasks: [{
 				id: "3C9C4DA2CDEAEBEA"
@@ -383,35 +388,30 @@
 			}]
 		}
 		{
-			x: -17.5d
+			x: -21.0d
 			y: 1.0d
+			shape: "gear"
 			subtitle: "{quest.twr.3549A50510878505.subtitle}"
 			description: ["{quest.twr.3549A50510878505.description.1}"]
 			dependencies: ["3E8F565DE61309B2"]
 			hide: true
 			id: "3549A50510878505"
-			tasks: [{
-				id: "73AFD699A6DA7ADC"
-				type: "item"
-				item: "create:mechanical_mixer"
-			}]
+			tasks: [
+				{
+					id: "73AFD699A6DA7ADC"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "053D9DF075718E57"
+					type: "item"
+					item: "create:basin"
+				}
+			]
 		}
 		{
-			x: -17.5d
-			y: 2.5d
-			subtitle: "{quest.twr.3CC2245A281AABC1.subtitle}"
-			description: ["{quest.twr.3CC2245A281AABC1.description.1}"]
-			dependencies: ["3549A50510878505"]
-			id: "3CC2245A281AABC1"
-			tasks: [{
-				id: "35B67DF507A4055F"
-				type: "item"
-				item: "create:basin"
-			}]
-		}
-		{
-			x: -3.0d
-			y: 1.0d
+			x: -3.5d
+			y: -2.0d
 			shape: "gear"
 			subtitle: "{quest.twr.4548F432A872DA92.subtitle}"
 			description: [
@@ -419,6 +419,7 @@
 				"{quest.twr.4548F432A872DA92.description.2}"
 			]
 			dependencies: ["17F033FB5ACAACFB"]
+			hide: true
 			id: "4548F432A872DA92"
 			tasks: [{
 				id: "10B09A0AE270B39F"
@@ -433,12 +434,13 @@
 			}]
 		}
 		{
-			x: -12.0d
-			y: 2.5d
+			x: -15.0d
+			y: 3.0d
 			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
 			description: ["{quest.twr.15B365E3F3EAFE79.description.1}"]
 			hide_dependency_lines: false
 			dependencies: ["4CC5E16EFDE1368C"]
+			hide: true
 			id: "15B365E3F3EAFE79"
 			tasks: [{
 				id: "49FB5CCF0097B1A4"
@@ -447,8 +449,9 @@
 			}]
 		}
 		{
-			x: -20.5d
-			y: 1.0d
+			x: -25.5d
+			y: -0.5d
+			shape: "gear"
 			subtitle: "{quest.twr.6000F43C135FC068.subtitle}"
 			description: [
 				"{quest.twr.6000F43C135FC068.description.1}"
@@ -466,8 +469,9 @@
 		{
 			title: "{quest.twr.7612A96FFEFC5635.title}"
 			icon: "steampowered:bronze_boiler"
-			x: -11.5d
-			y: -0.5d
+			x: -18.0d
+			y: -2.0d
+			shape: "gear"
 			subtitle: "{quest.twr.7612A96FFEFC5635.subtitle}"
 			description: [
 				"{quest.twr.7612A96FFEFC5635.description.1}"
@@ -478,7 +482,7 @@
 				"197308226CAE52C4"
 				"71D389AF87847D7B"
 			]
-			hide: true
+			hide: false
 			id: "7612A96FFEFC5635"
 			tasks: [
 				{
@@ -494,9 +498,9 @@
 			]
 		}
 		{
-			x: -14.5d
-			y: -3.5d
-			shape: "rsquare"
+			x: -21.0d
+			y: -2.0d
+			shape: "gear"
 			subtitle: "{quest.twr.17C359DCF058E698.subtitle}"
 			description: [
 				"{quest.twr.17C359DCF058E698.description.1}"
@@ -512,8 +516,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: -3.5d
+			x: -19.5d
+			y: -2.0d
 			shape: "gear"
 			subtitle: "{quest.twr.197308226CAE52C4.subtitle}"
 			description: [
@@ -524,7 +528,6 @@
 			]
 			dependencies: ["17C359DCF058E698"]
 			hide: true
-			size: 1.2d
 			id: "197308226CAE52C4"
 			tasks: [{
 				id: "50543ED5E6259184"
@@ -533,7 +536,7 @@
 			}]
 		}
 		{
-			x: -16.0d
+			x: -21.0d
 			y: -3.5d
 			dependencies: ["17C359DCF058E698"]
 			optional: true
@@ -545,34 +548,8 @@
 			}]
 		}
 		{
-			icon: "immersiveengineering:connector_lv"
-			x: -1.0d
-			y: 2.5d
-			subtitle: "{quest.twr.5B8BA38FF8C93A1A.subtitle}"
-			dependencies: ["1F2BD4A72596B287"]
-			hide: true
-			id: "5B8BA38FF8C93A1A"
-			tasks: [
-				{
-					id: "67831B39F4534271"
-					type: "item"
-					item: "immersiveengineering:connector_lv"
-				}
-				{
-					id: "47201FE01EF70A2A"
-					type: "item"
-					item: "immersiveengineering:wirecoil_copper"
-				}
-			]
-			rewards: [{
-				id: "6F846FE58AFEAF31"
-				type: "item"
-				item: "immersiveengineering:wirecoil_copper_ins"
-			}]
-		}
-		{
-			x: -5.5d
-			y: 1.0d
+			x: -6.5d
+			y: -0.5d
 			shape: "gear"
 			subtitle: "{quest.twr.17F033FB5ACAACFB.subtitle}"
 			description: ["{quest.twr.17F033FB5ACAACFB.description.1}"]
@@ -581,7 +558,7 @@
 				"32A497C69C641D2B"
 			]
 			hide: true
-			size: 1.1d
+			size: 2.0d
 			id: "17F033FB5ACAACFB"
 			tasks: [{
 				id: "760B8D8FBB365594"
@@ -597,56 +574,46 @@
 			}]
 		}
 		{
-			title: "{quest.twr.6439CF1B54CEF092.title}"
-			x: -9.0d
-			y: 0.0d
-			subtitle: "{quest.twr.6439CF1B54CEF092.subtitle}"
+			x: -11.0d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "{quest.twr.279DA3B6F5DE7753.subtitle}"
 			dependencies: ["4600CF7553C26ED0"]
-			id: "6439CF1B54CEF092"
-			tasks: [{
-				id: "4CDAED608D6CC193"
-				type: "item"
-				title: "{quest.twr.6439CF1B54CEF092.4CDAED608D6CC193.title}"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "create:sandpaper"
+			id: "279DA3B6F5DE7753"
+			tasks: [
+				{
+					id: "0106FEE55AE2DE31"
+					type: "item"
+					item: "create:polished_rose_quartz"
+				}
+				{
+					id: "23635250F74FF7CF"
+					type: "item"
+					item: "minecraft:quartz"
+				}
+				{
+					id: "6EA2092A24799526"
+					type: "item"
+					title: "任意砂纸"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "create:sandpaper"
+						}
 					}
 				}
-			}]
-		}
-		{
-			x: -8.0d
-			y: 1.0d
-			subtitle: "{quest.twr.279DA3B6F5DE7753.subtitle}"
-			dependencies: [
-				"6577F4E013F76B98"
-				"6439CF1B54CEF092"
 			]
-			id: "279DA3B6F5DE7753"
-			tasks: [{
-				id: "0106FEE55AE2DE31"
+			rewards: [{
+				id: "072940FEEC9ED4EF"
 				type: "item"
-				item: "create:polished_rose_quartz"
+				item: "crockpot:jammy_preserves"
 			}]
 		}
 		{
-			x: -9.0d
-			y: 2.0d
-			subtitle: "{quest.twr.6577F4E013F76B98.subtitle}"
-			description: ["{quest.twr.6577F4E013F76B98.description.1}"]
-			dependencies: ["4600CF7553C26ED0"]
-			id: "6577F4E013F76B98"
-			tasks: [{
-				id: "708E2C252A9CAB7E"
-				type: "item"
-				item: "minecraft:quartz"
-			}]
-		}
-		{
-			x: -7.0d
+			x: -9.5d
 			y: 1.0d
+			shape: "gear"
 			subtitle: "{quest.twr.1F94471C5310ECFA.subtitle}"
 			dependencies: ["279DA3B6F5DE7753"]
 			id: "1F94471C5310ECFA"
@@ -662,15 +629,15 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 1.0d
-			shape: "rsquare"
+			x: -1.5d
+			y: -0.5d
+			shape: "gear"
 			subtitle: "{quest.twr.016B841B20166EA8.subtitle}"
 			description: [
 				"{quest.twr.016B841B20166EA8.description.1}"
 				"{quest.twr.016B841B20166EA8.description.2}"
 			]
-			dependencies: ["5B8BA38FF8C93A1A"]
+			dependencies: ["1F2BD4A72596B287"]
 			id: "016B841B20166EA8"
 			tasks: [{
 				id: "0E15A479D897542E"
@@ -687,8 +654,8 @@
 		{
 			title: "{quest.twr.19038BB5A9E42055.title}"
 			icon: "immersiveindustry:crucible"
-			x: 2.2d
-			y: -0.55d
+			x: 0.5d
+			y: -0.5d
 			shape: "gear"
 			subtitle: "{quest.twr.19038BB5A9E42055.subtitle}"
 			description: [
@@ -696,13 +663,14 @@
 				"{quest.twr.19038BB5A9E42055.description.2}"
 				"{quest.twr.19038BB5A9E42055.description.3}"
 				"{quest.twr.19038BB5A9E42055.description.4}"
+				""
+				"章节《&b蒸汽驱动&r》已开放！"
 			]
 			dependencies: [
 				"6738A3C34A872FED"
 				"016B841B20166EA8"
 			]
 			hide: true
-			size: 1.1d
 			id: "19038BB5A9E42055"
 			tasks: [
 				{
@@ -726,16 +694,16 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -0.5d
-			shape: "rsquare"
+			x: -1.5d
+			y: -2.0d
+			shape: "gear"
 			subtitle: "{quest.twr.6738A3C34A872FED.subtitle}"
 			description: ["{quest.twr.6738A3C34A872FED.description.1}"]
 			dependencies: [
 				"29556685F57F6657"
 				"4548F432A872DA92"
 			]
-			hide: true
+			hide: false
 			id: "6738A3C34A872FED"
 			tasks: [{
 				id: "4FDFAF777C766C70"
@@ -744,8 +712,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: 5.5d
+			x: -3.5d
+			y: 2.5d
 			description: ["{quest.twr.4B46838E7C65D4C4.description.1}"]
 			dependencies: ["55BE6F159CF89342"]
 			hide: true
@@ -758,8 +726,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: -2.0d
+			x: -18.0d
+			y: 2.5d
 			shape: "gear"
 			subtitle: "{quest.twr.67486831FE3C0FBA.subtitle}"
 			description: [
@@ -782,10 +750,12 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.0d
+			x: -3.5d
+			y: -3.5d
+			shape: "gear"
 			subtitle: "{quest.twr.29556685F57F6657.subtitle}"
 			description: ["{quest.twr.29556685F57F6657.description.1}"]
+			hide_dependency_lines: true
 			dependencies: ["67486831FE3C0FBA"]
 			hide: true
 			id: "29556685F57F6657"
@@ -796,8 +766,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -2.0d
+			x: -18.0d
+			y: 4.0d
 			subtitle: "{quest.twr.4F279E9DBFD52861.subtitle}"
 			description: ["{quest.twr.4F279E9DBFD52861.description.1}"]
 			dependencies: ["67486831FE3C0FBA"]
@@ -810,8 +780,8 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 7.0d
+			x: -3.5d
+			y: 4.0d
 			subtitle: "{quest.twr.688C57B7BC46E723.subtitle}"
 			description: ["{quest.twr.688C57B7BC46E723.description.1}"]
 			dependencies: ["4845A9B7B7B2B4A5"]
@@ -825,10 +795,14 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 5.5d
+			x: -1.5d
+			y: 2.5d
+			shape: "gear"
 			subtitle: "{quest.twr.4845A9B7B7B2B4A5.subtitle}"
+			description: ["可用于序列组装配方，具体请查看JEI。"]
+			hide_dependency_lines: true
 			dependencies: ["17F033FB5ACAACFB"]
+			hide: true
 			id: "4845A9B7B7B2B4A5"
 			tasks: [{
 				id: "797605E2CAEAC528"
@@ -837,8 +811,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 4.0d
+			x: 0.5d
+			y: 1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.7F84766122DC4753.subtitle}"
 			description: [
@@ -863,12 +837,12 @@
 			}]
 		}
 		{
-			x: -19.0d
-			y: -2.0d
+			x: -24.0d
+			y: -3.5d
 			subtitle: "{quest.twr.5C078D2F43CA4048.subtitle}"
 			description: ["{quest.twr.5C078D2F43CA4048.description.1}"]
-			dependencies: ["3E8F565DE61309B2"]
-			hide: true
+			dependencies: ["103E4FC987E00FC7"]
+			hide: false
 			optional: true
 			id: "5C078D2F43CA4048"
 			tasks: [{
@@ -878,13 +852,14 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: 2.5d
+			x: -14.0d
+			y: 3.0d
 			description: [
 				"{quest.twr.41D8E04627E55A86.description.1}"
 				"{quest.twr.41D8E04627E55A86.description.2}"
 			]
 			dependencies: ["4CC5E16EFDE1368C"]
+			hide: true
 			id: "41D8E04627E55A86"
 			tasks: [{
 				id: "48F77C1ACADE71D8"
@@ -893,15 +868,14 @@
 			}]
 		}
 		{
-			x: -19.0d
+			x: -25.5d
 			y: -3.5d
-			shape: "rsquare"
 			subtitle: "{quest.twr.634DBB9E76CD029B.subtitle}"
 			description: [
 				"{quest.twr.634DBB9E76CD029B.description.1}"
 				"{quest.twr.634DBB9E76CD029B.description.2}"
 			]
-			dependencies: ["5C078D2F43CA4048"]
+			dependencies: ["103E4FC987E00FC7"]
 			optional: true
 			id: "634DBB9E76CD029B"
 			tasks: [{
@@ -912,9 +886,9 @@
 		}
 		{
 			icon: "rankine:tree_tap"
-			x: -1.0d
-			y: 4.0d
-			shape: "rsquare"
+			x: -1.5d
+			y: 1.0d
+			shape: "gear"
 			subtitle: "{quest.twr.55BE6F159CF89342.subtitle}"
 			description: ["{quest.twr.55BE6F159CF89342.description.1}"]
 			dependencies: ["064ECF25B9B8962B"]
@@ -943,13 +917,14 @@
 			}]
 		}
 		{
-			x: -19.0d
-			y: -0.5d
+			x: -24.0d
+			y: -2.0d
 			description: [
 				"{quest.twr.103E4FC987E00FC7.description.1}"
 				"{quest.twr.103E4FC987E00FC7.description.2}"
 			]
 			dependencies: ["3E8F565DE61309B2"]
+			hide: true
 			id: "103E4FC987E00FC7"
 			tasks: [{
 				id: "634013FA9B2698E8"
@@ -958,10 +933,11 @@
 			}]
 		}
 		{
-			x: -23.5d
+			x: -30.0d
 			y: -0.5d
 			subtitle: "{quest.twr.47F9EC8C18040D6D.subtitle}"
 			dependencies: ["328D948C4C800873"]
+			hide: true
 			optional: true
 			id: "47F9EC8C18040D6D"
 			tasks: [{
@@ -988,10 +964,10 @@
 			}]
 		}
 		{
-			x: -17.5d
+			x: -22.5d
 			y: -3.5d
 			description: ["{quest.twr.0C424AAC550ACF02.description.1}"]
-			dependencies: ["634DBB9E76CD029B"]
+			dependencies: ["103E4FC987E00FC7"]
 			optional: true
 			id: "0C424AAC550ACF02"
 			tasks: [{
@@ -1001,32 +977,41 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -0.5d
+			x: -10.5d
+			y: -3.5d
 			subtitle: "{quest.twr.39C5B2690D8A6DEC.subtitle}"
 			description: ["{quest.twr.39C5B2690D8A6DEC.description.1}"]
 			dependencies: ["32A497C69C641D2B"]
+			hide: true
 			optional: true
 			id: "39C5B2690D8A6DEC"
-			tasks: [{
-				id: "199407EF0012107B"
-				type: "item"
-				item: "create:gantry_shaft"
-			}]
+			tasks: [
+				{
+					id: "199407EF0012107B"
+					type: "item"
+					item: "create:gantry_shaft"
+				}
+				{
+					id: "7F207F0B6FB5225F"
+					type: "item"
+					item: "create:gantry_carriage"
+				}
+			]
 		}
 		{
 			title: "{quest.twr.3A91A02EB59A7919.title}"
 			icon: "immersiveengineering:ingot_nickel"
-			x: -14.5d
-			y: 2.5d
+			x: -16.5d
+			y: -0.5d
+			shape: "gear"
 			subtitle: "{quest.twr.3A91A02EB59A7919.subtitle}"
 			description: [
 				"{quest.twr.3A91A02EB59A7919.description.1}"
 				"{quest.twr.3A91A02EB59A7919.description.2}"
 				"{quest.twr.3A91A02EB59A7919.description.3}"
 			]
-			dependencies: ["6417209CD8ADABEC"]
-			hide: true
+			hide_dependency_lines: true
+			dependencies: ["71D389AF87847D7B"]
 			id: "3A91A02EB59A7919"
 			tasks: [{
 				id: "1D1735E320565F58"
@@ -1042,11 +1027,12 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: 3.5d
+			x: -13.0d
+			y: 2.5d
+			subtitle: "传动优化"
 			description: ["{quest.twr.2EBC4AB3DDFC6BA0.description.1}"]
-			hide_dependency_lines: true
 			dependencies: ["4CC5E16EFDE1368C"]
+			hide: true
 			optional: true
 			id: "2EBC4AB3DDFC6BA0"
 			tasks: [{
@@ -1056,14 +1042,15 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -1.5d
+			x: -8.5d
+			y: -3.5d
 			subtitle: "{quest.twr.2659A48FDF01B1B7.subtitle}"
 			description: [
 				"{quest.twr.2659A48FDF01B1B7.description.1}"
 				"{quest.twr.2659A48FDF01B1B7.description.2}"
 			]
 			dependencies: ["32A497C69C641D2B"]
+			hide: true
 			optional: true
 			id: "2659A48FDF01B1B7"
 			tasks: [{
@@ -1073,7 +1060,7 @@
 			}]
 		}
 		{
-			x: -22.0d
+			x: -28.5d
 			y: -3.5d
 			subtitle: "{quest.twr.7C21BA2D2453AA79.subtitle}"
 			description: [
@@ -1091,15 +1078,12 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -1.5d
-			shape: "rsquare"
+			x: -9.5d
+			y: -3.5d
 			subtitle: "{quest.twr.739B9AF9D9C2EC05.subtitle}"
 			description: ["{quest.twr.739B9AF9D9C2EC05.description.1}"]
-			dependencies: [
-				"39C5B2690D8A6DEC"
-				"2659A48FDF01B1B7"
-			]
+			dependencies: ["32A497C69C641D2B"]
+			hide: true
 			dependency_requirement: "one_completed"
 			optional: true
 			id: "739B9AF9D9C2EC05"
@@ -1116,10 +1100,11 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 4.0d
+			x: -6.5d
+			y: 2.5d
 			description: ["{quest.twr.2F9F42B32CEDA8B6.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
+			hide: true
 			optional: true
 			id: "2F9F42B32CEDA8B6"
 			tasks: [{
@@ -1131,8 +1116,9 @@
 		{
 			title: "{quest.twr.289D04E29639F155.title}"
 			icon: "minecraft:white_wool"
-			x: -16.0d
-			y: -0.5d
+			x: -21.0d
+			y: 2.5d
+			shape: "hexagon"
 			subtitle: "{quest.twr.289D04E29639F155.subtitle}"
 			description: [
 				"{quest.twr.289D04E29639F155.description.1}"
@@ -1147,28 +1133,41 @@
 			}]
 		}
 		{
+			icon: "immersiveengineering:electron_tube"
 			x: -10.5d
-			y: 3.5d
+			y: 4.0d
+			shape: "hexagon"
+			description: ["记得使用思索查看新机器的功能！"]
 			hide_dependency_lines: true
 			dependencies: ["4CC5E16EFDE1368C"]
-			id: "2182E10307C48C0C"
+			hide: true
+			id: "7D2BB5CE05B6723F"
 			tasks: [{
-				id: "35416713A9BF4DCC"
-				type: "item"
-				item: "create:clutch"
+				id: "74E26CF35B0C0C6E"
+				type: "checkmark"
+				title: "思索"
 			}]
 		}
 		{
-			disable_toast: true
-			x: -12.5d
-			y: 3.5d
-			hide_dependency_lines: true
-			dependencies: ["4CC5E16EFDE1368C"]
-			id: "13C2EB9EA47611F4"
+			icon: "frostedheart:mechanical_calculator"
+			x: -6.5d
+			y: -3.5d
+			shape: "gear"
+			subtitle: "纯机械结构"
+			description: [
+				"你可能已经发现一些研究&b只靠线索&r无法完成了。"
+				""
+				"这时你就需要一台&b机械计算器&r，给它接入应力就能产生科技点，具体介绍参考章节《&b获取知识&r》。"
+				""
+				"别忘了在&b绘图桌&r领取你做出的原型机！"
+			]
+			dependencies: ["17F033FB5ACAACFB"]
+			size: 1.5d
+			id: "64BD0FE7784B0BEB"
 			tasks: [{
-				id: "6D971A19B10D5971"
-				type: "item"
-				item: "create:encased_chain_drive"
+				id: "1B6C447B300EEE7B"
+				type: "checkmark"
+				title: "机械计算器"
 			}]
 		}
 	]

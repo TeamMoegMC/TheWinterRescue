@@ -35,7 +35,6 @@
 				"{quest.twr.11DD149796E14E81.description.3}"
 			]
 			dependencies: ["5C8730E4484959B9"]
-			size: 1.2d
 			id: "11DD149796E14E81"
 			tasks: [
 				{
@@ -81,6 +80,7 @@
 			title: "{quest.twr.5C8730E4484959B9.title}"
 			x: -2.5d
 			y: 0.0d
+			shape: "gear"
 			subtitle: "{quest.twr.5C8730E4484959B9.subtitle}"
 			description: ["{quest.twr.5C8730E4484959B9.description.1}"]
 			dependencies: ["75154C5A6E2F3257"]
@@ -198,8 +198,8 @@
 					Damage: 0
 				}
 			}
-			x: -2.5d
-			y: 4.5d
+			x: -1.0d
+			y: 3.0d
 			description: [
 				"{quest.twr.603CDF88D762FEA8.description.1}"
 				"{quest.twr.603CDF88D762FEA8.description.2}"
@@ -208,10 +208,154 @@
 				"1DF200F6772308C7"
 				"11DD149796E14E81"
 			]
+			hide: true
 			id: "603CDF88D762FEA8"
 			tasks: [{
 				id: "5D1BE9C3088BE400"
 				type: "checkmark"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			subtitle: "不是晾干架"
+			description: [
+				"右键可以把物品挂上去。"
+				"改造时加工台会自动使用周围工具架上的工具，&b背包中的工具会被优先使用&r。"
+			]
+			dependencies: ["11DD149796E14E81"]
+			hide: true
+			id: "6F2C2CCC90E4C4F6"
+			tasks: [{
+				id: "142C0935AFCC6338"
+				type: "item"
+				item: "tetra:rack"
+			}]
+		}
+		{
+			title: "工具腰带"
+			x: -4.0d
+			y: 3.0d
+			description: [
+				"腰带能为你提供更多的快捷栏位。"
+				""
+				"手持右键即可打开GUI，你能在其中放入物品和查看快捷键。"
+			]
+			dependencies: ["11DD149796E14E81"]
+			id: "762141CEF64385FC"
+			tasks: [{
+				id: "5759B64888947DE8"
+				type: "item"
+				item: {
+					id: "tetra:modular_toolbelt"
+					Count: 1b
+					tag: {
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "create:red_sand_paper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 4.5d
+			shape: "hexagon"
+			description: [
+				"工具在使用过程中会积攒&b打磨值&r，满了之后会在右上角提示。"
+				"此时你就可以把工具放进加工台，选择部位和属性进行打磨，属性打磨至&b2和4级&r时会消耗完整度。"
+				""
+				"工具的单项属性被打磨至5级时会出现额外选项：&b挖掘等级+1&r。"
+			]
+			id: "7DC424AE6C863411"
+			tasks: [{
+				id: "186DB8CB34E6C717"
+				type: "checkmark"
+				title: "打磨"
+			}]
+		}
+		{
+			icon: "minecraft:iron_ingot"
+			x: 2.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: [
+				"在&b全息球&r中选择\"双头工具>头部>任意部位\"即可查看该部位可使用的材料以及材料属性和对比。"
+				""
+				"镐子的两个头部为相同材料时&b挖掘等级+1&r"
+			]
+			id: "43C8F5C863F12A5E"
+			tasks: [{
+				id: "2DCC527066D5B5D4"
+				type: "checkmark"
+				title: "材料属性"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 6.0d
+			shape: "hexagon"
+			description: [
+				"不同材料会消耗不同完整度，&b打磨&r和&b加装部件&r也会消耗完整度。"
+				""
+				"工具部件在使用过程中会逐渐&b稳固&r，稳固等级每次增加都会&b+1完整度上限&r，此外一些部位的&b改装&r也能增加完整度上限。"
+			]
+			id: "18A5F787CC9E6ECA"
+			tasks: [{
+				id: "47953B6A6AFAE166"
+				type: "checkmark"
+				title: "完整度"
+			}]
+		}
+		{
+			title: "更多完整度"
+			x: -5.5d
+			y: 4.5d
+			description: ["在&b获取羊毛&r之后就能获得更多完整度，现在能为腰带添加各种强力改装了！"]
+			dependencies: ["762141CEF64385FC"]
+			id: "469A40EB19ACE723"
+			tasks: [{
+				id: "20BE12091228596E"
+				type: "item"
+				title: "任意羊毛"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+			}]
+		}
+		{
+			icon: "immersiveengineering:screwdriver"
+			x: -4.0d
+			y: 4.5d
+			description: [
+				"&b储物袋&r非常实用，能提供更多背包空间。"
+				"一些改装使用特殊材料不会消耗完整度。"
+			]
+			dependencies: ["762141CEF64385FC"]
+			id: "179C32EE245E4653"
+			tasks: [{
+				id: "76C3B8A622BA2048"
+				type: "checkmark"
+				title: "改装你的腰带"
 			}]
 		}
 	]

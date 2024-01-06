@@ -1,7 +1,7 @@
 {
 	id: "00A96B3C8C24C472"
 	group: "7668DAE31E3EF623"
-	order_index: 3
+	order_index: 2
 	filename: "generator"
 	title: "{chapter.twr.00A96B3C8C24C472.title}"
 	icon: "frostedheart:generator_core_t1"
@@ -260,6 +260,17 @@
 			tasks: [{
 				id: "2138101237058A9B"
 				type: "checkmark"
+			}]
+			rewards: [{
+				id: "089676C2DB2178E3"
+				type: "item"
+				item: {
+					id: "frostedheart:steam_bottle"
+					Count: 1b
+					tag: {
+						energy: 240
+					}
+				}
 			}]
 		}
 		{
