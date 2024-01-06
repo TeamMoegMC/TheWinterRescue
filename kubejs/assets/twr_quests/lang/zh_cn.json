@@ -452,7 +452,7 @@
   "quest.twr.32E5D942F1FE8645.description.2": "在潮湿平坦的群系中，你会找到&e滨菊&r。",
   "quest.twr.32E5D942F1FE8645.description.3": "这种花下方藏着&b沙砾&r或者&b粘土&r。",
   "quest.twr.32E5D942F1FE8645.description.4": "挖掘&e覆雪的泥土&r或者三个沙砾合成也可以获得&b燧石&r",
-  "quest.twr.32E5D942F1FE8645.description.5": "河床下也藏着这些资源，不过在升起火前不要轻易下水。",
+  "quest.twr.32E5D942F1FE8645.description.5": "河床下也藏着这些资源，不过在升起火前&4不要轻易下水&r。",
   "quest.twr.32E5D942F1FE8645.subtitle": "收集基础物资",
   "quest.twr.32E5D942F1FE8645.title": "“真正的西伯利亚”挖土豆",
   "quest.twr.33B6E7B60783C72B.description.1": "水分很重要。",
@@ -659,7 +659,7 @@
   "quest.twr.4BD8236FEEBD7D3A.title": "我甚至进入了石器时代",
   "quest.twr.4CC2FB4B9CE2367B.description.0": "驯化野鸡成为家鸡，然后喂食种子即可产蛋。",
   "quest.twr.4CC2FB4B9CE2367B.subtitle": "驯化野鸡",
-  "quest.twr.4CC5E16EFDE1368C.description.1": "经过精加工的低含碳量铁合金锭。",
+  "quest.twr.4CC5E16EFDE1368C.description.1": "去除了多余杂质的高含碳量铁碳合金。",
   "quest.twr.4CC5E16EFDE1368C.description.2": "很♂黑，很♂硬。",
   "quest.twr.4CC5E16EFDE1368C.description.3": "用于制作大多数机械动力物品。",
   "quest.twr.4CC5E16EFDE1368C.subtitle": "黑金",
@@ -1124,5 +1124,7 @@
   "quest.twr.7F84766122DC4753.description.2": "如果找不到仙人掌，也可以&e研磨孔雀石&r得到绿色染料哦。&c详见JEI&r。",
   "quest.twr.7F84766122DC4753.subtitle": "高精组装",
   "quest.twr.7FA0ADDB6ABCAB6A.description.1": "想了解更多世界相关的信息？请参考兰金计划的教程书。",
-  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "深入了解"
+  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "深入了解",
+  "quest.twr.488FDD6F73BC99BA.subtitle": "大锤八十",
+  "quest.twr.488FDD6F73BC99BA.description.1": "在树桩的支撑下，你可以砸开一些易碎的物品，或是把金属砸成板。"
 }

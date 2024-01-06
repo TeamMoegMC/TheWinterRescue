@@ -117,12 +117,28 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "39C53B6E5D60BA64"
-				type: "item"
-				item: "immersiveengineering:coal_coke"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "39C53B6E5D60BA64"
+					type: "item"
+					item: "immersiveengineering:coal_coke"
+					count: 4
+				}
+				{
+					id: "0A8683A1AA985357"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -1.5d

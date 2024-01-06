@@ -29,11 +29,6 @@
 			}]
 			rewards: [
 				{
-					id: "05A8B8F3C3113194"
-					type: "item"
-					item: "crockpot:turkey_dinner"
-				}
-				{
 					id: "7045243DE877407E"
 					type: "command"
 					title: "{quest.twr.328D948C4C800873.7045243DE877407E.title}"
@@ -41,13 +36,23 @@
 					command: "/ftbchunks admin extra_claim_chunks @p set 16"
 					player_command: false
 				}
+				{
+					id: "5DB66EDDAB95BB94"
+					type: "item"
+					item: "frostedheart:packed_nuts"
+					count: 2
+				}
 			]
 		}
 		{
 			x: -16.0d
-			y: 1.0d
+			y: 0.5d
 			description: ["{quest.twr.060F482D9D3374F9.description.1}"]
-			dependencies: ["3549A50510878505"]
+			hide_dependency_lines: true
+			dependencies: [
+				"3549A50510878505"
+				"7887EB905BAA7BEF"
+			]
 			id: "060F482D9D3374F9"
 			tasks: [{
 				id: "786C91AE939F3CC1"
@@ -57,12 +62,16 @@
 		}
 		{
 			x: -16.0d
-			y: 2.5d
+			y: 1.5d
 			description: [
 				"{quest.twr.48F3102B3AA99313.description.1}"
 				"{quest.twr.48F3102B3AA99313.description.2}"
 			]
-			dependencies: ["3549A50510878505"]
+			hide_dependency_lines: true
+			dependencies: [
+				"3549A50510878505"
+				"7887EB905BAA7BEF"
+			]
 			id: "48F3102B3AA99313"
 			tasks: [{
 				id: "1889B5889AC25666"
@@ -78,6 +87,7 @@
 			dependencies: [
 				"060F482D9D3374F9"
 				"48F3102B3AA99313"
+				"3549A50510878505"
 			]
 			id: "6417209CD8ADABEC"
 			tasks: [{
@@ -99,11 +109,6 @@
 				item: "rankine:refractory_bricks"
 				count: 4L
 			}]
-			rewards: [{
-				id: "6D99474993F887ED"
-				type: "item"
-				item: "crockpot:stuffed_eggplant"
-			}]
 		}
 		{
 			icon: "immersiveengineering:coke_oven"
@@ -121,6 +126,37 @@
 				item: "immersiveengineering:cokebrick"
 				count: 27L
 			}]
+			rewards: [
+				{
+					id: "4EE939130EA7AB3D"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+				{
+					id: "21B8111FB5F48B45"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+					count: 2
+				}
+			]
 		}
 		{
 			icon: "immersiveengineering:blast_furnace"
@@ -137,6 +173,20 @@
 				type: "item"
 				item: "immersiveengineering:blastbrick"
 				count: 27L
+			}]
+			rewards: [{
+				id: "413595EF013338BA"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -158,9 +208,18 @@
 				item: "rankine:cast_iron_ingot"
 			}]
 			rewards: [{
-				id: "27C10D5B04888E5E"
+				id: "6E63FD342E324BA5"
 				type: "item"
-				item: "crockpot:tropical_bouillabaisse"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -258,11 +317,16 @@
 					item: "steampowered:bronze_flywheel"
 				}
 			]
+			rewards: [{
+				id: "32FFB59DE5105E16"
+				type: "item"
+				item: "frostedheart:packed_nuts"
+			}]
 		}
 		{
 			icon: "steampowered:cast_iron_steam_engine"
 			x: -7.0d
-			y: 2.5d
+			y: 4.0d
 			subtitle: "{quest.twr.0FEC22A5C56936DC.subtitle}"
 			description: ["{quest.twr.0FEC22A5C56936DC.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
@@ -280,6 +344,20 @@
 					item: "steampowered:cast_iron_flywheel"
 				}
 			]
+			rewards: [{
+				id: "1AE90DC16497D4E6"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
 		}
 		{
 			x: -3.0d
@@ -298,9 +376,9 @@
 				item: "steampowered:alternator"
 			}]
 			rewards: [{
-				id: "6EA26A223214988C"
+				id: "7A8AAB40E6E8D743"
 				type: "item"
-				item: "crockpot:hot_chili"
+				item: "frostedheart:packed_nuts"
 			}]
 		}
 		{
@@ -328,11 +406,12 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: 4.0d
+			x: -11.5d
+			y: 4.5d
 			subtitle: "{quest.twr.7EDDAD2D1E2B0613.subtitle}"
 			description: ["{quest.twr.7EDDAD2D1E2B0613.description.1}"]
-			dependencies: ["17F033FB5ACAACFB"]
+			hide_dependency_lines: true
+			dependencies: ["4CC5E16EFDE1368C"]
 			optional: true
 			id: "7EDDAD2D1E2B0613"
 			tasks: [{
@@ -354,6 +433,11 @@
 				type: "item"
 				item: "create:millstone"
 			}]
+			rewards: [{
+				id: "1B4F55B56AA710CB"
+				type: "item"
+				item: "frostedheart:packed_nuts"
+			}]
 		}
 		{
 			x: -3.0d
@@ -368,6 +452,12 @@
 				type: "item"
 				item: "create:crushing_wheel"
 			}]
+			rewards: [{
+				id: "4EE2B79839959E85"
+				type: "item"
+				item: "rankine:hematite"
+				count: 16
+			}]
 		}
 		{
 			x: -10.0d
@@ -380,6 +470,11 @@
 				id: "3C9C4DA2CDEAEBEA"
 				type: "item"
 				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "0CFE76A0303223BE"
+				type: "item"
+				item: "frostedheart:packed_nuts"
 			}]
 		}
 		{
@@ -394,6 +489,11 @@
 				id: "73AFD699A6DA7ADC"
 				type: "item"
 				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "57DC48D80A83536C"
+				type: "item"
+				item: "frostedheart:packed_nuts"
 			}]
 		}
 		{
@@ -462,6 +562,11 @@
 				type: "item"
 				item: "create:hand_crank"
 			}]
+			rewards: [{
+				id: "27F4551B00A182AD"
+				type: "item"
+				item: "crockpot:bone_stew"
+			}]
 		}
 		{
 			title: "{quest.twr.7612A96FFEFC5635.title}"
@@ -492,9 +597,23 @@
 					item: "steampowered:bronze_boiler"
 				}
 			]
+			rewards: [{
+				id: "0D32AB538830D61C"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:fortune"
+						}]
+					}
+				}
+			}]
 		}
 		{
-			x: -14.5d
+			x: -19.0d
 			y: -3.5d
 			shape: "rsquare"
 			subtitle: "{quest.twr.17C359DCF058E698.subtitle}"
@@ -504,15 +623,21 @@
 			]
 			dependencies: ["3E8F565DE61309B2"]
 			hide: true
+			size: 1.1d
 			id: "17C359DCF058E698"
 			tasks: [{
 				id: "26C5FFE011F0C78A"
 				type: "item"
 				item: "create:fluid_pipe"
 			}]
+			rewards: [{
+				id: "15202EF7EA3546B0"
+				type: "item"
+				item: "frostedheart:packed_nuts"
+			}]
 		}
 		{
-			x: -11.5d
+			x: -11.4d
 			y: -3.5d
 			shape: "gear"
 			subtitle: "{quest.twr.197308226CAE52C4.subtitle}"
@@ -524,6 +649,7 @@
 			]
 			dependencies: ["17C359DCF058E698"]
 			hide: true
+			dependency_requirement: "all_started"
 			size: 1.2d
 			id: "197308226CAE52C4"
 			tasks: [{
@@ -533,7 +659,7 @@
 			}]
 		}
 		{
-			x: -16.0d
+			x: -20.5d
 			y: -3.5d
 			dependencies: ["17C359DCF058E698"]
 			optional: true
@@ -590,10 +716,18 @@
 				count: 9L
 			}]
 			rewards: [{
-				id: "1D6D6B95BF1192EB"
+				id: "73DB766753A4ECE1"
 				type: "item"
-				item: "crockpot:cooked_eggplant"
-				count: 8
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
 			}]
 		}
 		{
@@ -656,9 +790,9 @@
 				item: "create:electron_tube"
 			}]
 			rewards: [{
-				id: "48E4844E00BBCB9C"
+				id: "126072669316B1CA"
 				type: "item"
-				item: "crockpot:flower_salad"
+				item: "frostedheart:packed_nuts"
 			}]
 		}
 		{
@@ -678,9 +812,9 @@
 				item: "immersiveengineering:blastfurnace_preheater"
 			}]
 			rewards: [{
-				id: "651DA3357DE6C062"
+				id: "2AB175B4A2D8A394"
 				type: "item"
-				item: "crockpot:california_roll"
+				item: "frostedheart:packed_nuts"
 				count: 4
 			}]
 		}
@@ -775,11 +909,18 @@
 				type: "item"
 				item: "rankine:beehive_oven_pit"
 			}]
-			rewards: [{
-				id: "1C09568153E99A49"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "1C09568153E99A49"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7BD7C8A754635C14"
+					type: "item"
+					item: "frostedheart:packed_nuts"
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -788,20 +929,36 @@
 			description: ["{quest.twr.29556685F57F6657.description.1}"]
 			dependencies: ["67486831FE3C0FBA"]
 			hide: true
+			dependency_requirement: "one_started"
 			id: "29556685F57F6657"
 			tasks: [{
 				id: "24B9A949656EBA70"
 				type: "item"
 				item: "rankine:magnesia_block"
 			}]
+			rewards: [{
+				id: "3CF0F39326AA8E4C"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
 		}
 		{
-			x: -8.5d
+			x: -16.0d
 			y: -2.0d
 			subtitle: "{quest.twr.4F279E9DBFD52861.subtitle}"
 			description: ["{quest.twr.4F279E9DBFD52861.description.1}"]
 			dependencies: ["67486831FE3C0FBA"]
 			hide: true
+			optional: true
 			id: "4F279E9DBFD52861"
 			tasks: [{
 				id: "3BC11F00CF381B42"
@@ -857,14 +1014,14 @@
 				item: "immersiveengineering:circuit_board"
 			}]
 			rewards: [{
-				id: "1A439AE94554B9CB"
+				id: "3207DBB3DD9F44DA"
 				type: "item"
-				item: "crockpot:jammy_preserves"
+				item: "frostedheart:packed_nuts"
 			}]
 		}
 		{
-			x: -19.0d
-			y: -2.0d
+			x: -20.5d
+			y: 2.5d
 			subtitle: "{quest.twr.5C078D2F43CA4048.subtitle}"
 			description: ["{quest.twr.5C078D2F43CA4048.description.1}"]
 			dependencies: ["3E8F565DE61309B2"]
@@ -891,10 +1048,16 @@
 				type: "item"
 				item: "create:mechanical_saw"
 			}]
+			rewards: [{
+				id: "69A26266F5E221A8"
+				type: "item"
+				item: "minecraft:stripped_oak_log"
+				count: 16
+			}]
 		}
 		{
-			x: -19.0d
-			y: -3.5d
+			x: -20.5d
+			y: 4.0d
 			shape: "rsquare"
 			subtitle: "{quest.twr.634DBB9E76CD029B.subtitle}"
 			description: [
@@ -944,12 +1107,13 @@
 		}
 		{
 			x: -19.0d
-			y: -0.5d
+			y: 2.5d
 			description: [
 				"{quest.twr.103E4FC987E00FC7.description.1}"
 				"{quest.twr.103E4FC987E00FC7.description.2}"
 			]
 			dependencies: ["3E8F565DE61309B2"]
+			dependency_requirement: "all_started"
 			id: "103E4FC987E00FC7"
 			tasks: [{
 				id: "634013FA9B2698E8"
@@ -988,8 +1152,8 @@
 			}]
 		}
 		{
-			x: -17.5d
-			y: -3.5d
+			x: -19.0d
+			y: 4.0d
 			description: ["{quest.twr.0C424AAC550ACF02.description.1}"]
 			dependencies: ["634DBB9E76CD029B"]
 			optional: true
@@ -1025,6 +1189,7 @@
 				"{quest.twr.3A91A02EB59A7919.description.2}"
 				"{quest.twr.3A91A02EB59A7919.description.3}"
 			]
+			hide_dependency_lines: true
 			dependencies: ["6417209CD8ADABEC"]
 			hide: true
 			id: "3A91A02EB59A7919"
@@ -1131,7 +1296,7 @@
 		{
 			title: "{quest.twr.289D04E29639F155.title}"
 			icon: "minecraft:white_wool"
-			x: -16.0d
+			x: -17.5d
 			y: -0.5d
 			subtitle: "{quest.twr.289D04E29639F155.subtitle}"
 			description: [
@@ -1139,7 +1304,8 @@
 				"{quest.twr.289D04E29639F155.description.2}"
 				"{quest.twr.289D04E29639F155.description.3}"
 			]
-			dependencies: ["3549A50510878505"]
+			hide_dependency_lines: false
+			dependencies: ["3E8F565DE61309B2"]
 			id: "289D04E29639F155"
 			tasks: [{
 				id: "3B146E51998BDF7A"

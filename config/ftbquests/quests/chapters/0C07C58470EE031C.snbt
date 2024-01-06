@@ -758,6 +758,12 @@
 						}
 					}
 				}
+				{
+					id: "4DFC9C9C875C7131"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 4
+				}
 			]
 		}
 		{
@@ -1135,13 +1141,24 @@
 					id: "67FB1A7A368B0BCE"
 					type: "item"
 					item: "charcoal_pit:thatch"
-					count: 8
+					count: 16
 				}
 				{
 					id: "24F9E5EE5A414695"
 					type: "item"
 					item: "minecraft:torch"
 					count: 4
+				}
+				{
+					id: "7D1EA009319DA5E7"
+					type: "item"
+					item: "rankine:packed_snow"
+					count: 16
+				}
+				{
+					id: "6A15D3E28394323D"
+					type: "item"
+					item: "minecraft:oak_door"
 				}
 			]
 		}

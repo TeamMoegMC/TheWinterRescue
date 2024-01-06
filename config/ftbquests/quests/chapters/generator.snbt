@@ -56,6 +56,11 @@
 					type: "xp_levels"
 					xp_levels: 5
 				}
+				{
+					id: "3212B1A896F2438A"
+					type: "item"
+					item: "kubejs:coal_briquette"
+				}
 			]
 		}
 		{
