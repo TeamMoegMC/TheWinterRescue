@@ -218,10 +218,10 @@
 		{
 			x: -5.5d
 			y: 1.5d
-			subtitle: "不是晾干架"
+			subtitle: "{quest.twr.6F2C2CCC90E4C4F6.subtitle}"
 			description: [
-				"右键可以把物品挂上去。"
-				"改造时加工台会自动使用周围工具架上的工具，&b背包中的工具会被优先使用&r。"
+				"{quest.twr.6F2C2CCC90E4C4F6.description.1}"
+				"{quest.twr.6F2C2CCC90E4C4F6.description.2}"
 			]
 			dependencies: ["11DD149796E14E81"]
 			hide: true
@@ -233,13 +233,13 @@
 			}]
 		}
 		{
-			title: "工具腰带"
+			title: "{quest.twr.762141CEF64385FC.title}"
 			x: -4.0d
 			y: 3.0d
 			description: [
-				"腰带能为你提供更多的快捷栏位。"
-				""
-				"手持右键即可打开GUI，你能在其中放入物品和查看快捷键。"
+				"{quest.twr.762141CEF64385FC.description.1}"
+				"{quest.twr.762141CEF64385FC.description.2}"
+				"{quest.twr.762141CEF64385FC.description.3}"
 			]
 			dependencies: ["11DD149796E14E81"]
 			id: "762141CEF64385FC"
@@ -270,16 +270,16 @@
 			y: 4.5d
 			shape: "hexagon"
 			description: [
-				"工具在使用过程中会积攒&b打磨值&r，满了之后会在右上角提示。"
-				"此时你就可以把工具放进加工台，选择部位和属性进行打磨，属性打磨至&b2和4级&r时会消耗完整度。"
-				""
-				"工具的单项属性被打磨至5级时会出现额外选项：&b挖掘等级+1&r。"
+				"{quest.twr.7DC424AE6C863411.description.1}"
+				"{quest.twr.7DC424AE6C863411.description.2}"
+				"{quest.twr.7DC424AE6C863411.description.3}"
+				"{quest.twr.7DC424AE6C863411.description.4}"
 			]
 			id: "7DC424AE6C863411"
 			tasks: [{
 				id: "186DB8CB34E6C717"
 				type: "checkmark"
-				title: "打磨"
+				title: "{quest.twr.7DC424AE6C863411.186DB8CB34E6C717.title}"
 			}]
 		}
 		{
@@ -288,15 +288,15 @@
 			y: 3.0d
 			shape: "hexagon"
 			description: [
-				"在&b全息球&r中选择\"双头工具>头部>任意部位\"即可查看该部位可使用的材料以及材料属性和对比。"
-				""
-				"镐子的两个头部为相同材料时&b挖掘等级+1&r"
+				"{quest.twr.43C8F5C863F12A5E.description.1}"
+				"{quest.twr.43C8F5C863F12A5E.description.2}"
+				"{quest.twr.43C8F5C863F12A5E.description.3}"
 			]
 			id: "43C8F5C863F12A5E"
 			tasks: [{
 				id: "2DCC527066D5B5D4"
 				type: "checkmark"
-				title: "材料属性"
+				title: "{quest.twr.43C8F5C863F12A5E.2DCC527066D5B5D4.title}"
 			}]
 		}
 		{
@@ -311,28 +311,28 @@
 			y: 6.0d
 			shape: "hexagon"
 			description: [
-				"不同材料会消耗不同完整度，&b打磨&r和&b加装部件&r也会消耗完整度。"
-				""
-				"工具部件在使用过程中会逐渐&b稳固&r，稳固等级每次增加都会&b+1完整度上限&r，此外一些部位的&b改装&r也能增加完整度上限。"
+				"{quest.twr.18A5F787CC9E6ECA.description.1}"
+				"{quest.twr.18A5F787CC9E6ECA.description.2}"
+				"{quest.twr.18A5F787CC9E6ECA.description.3}"
 			]
 			id: "18A5F787CC9E6ECA"
 			tasks: [{
 				id: "47953B6A6AFAE166"
 				type: "checkmark"
-				title: "完整度"
+				title: "{quest.twr.18A5F787CC9E6ECA.47953B6A6AFAE166.title}"
 			}]
 		}
 		{
-			title: "更多完整度"
+			title: "{quest.twr.469A40EB19ACE723.title}"
 			x: -5.5d
 			y: 4.5d
-			description: ["在&b获取羊毛&r之后就能获得更多完整度，现在能为腰带添加各种强力改装了！"]
+			description: ["{quest.twr.469A40EB19ACE723.description.1}"]
 			dependencies: ["762141CEF64385FC"]
 			id: "469A40EB19ACE723"
 			tasks: [{
 				id: "20BE12091228596E"
 				type: "item"
-				title: "任意羊毛"
+				title: "{quest.twr.469A40EB19ACE723.20BE12091228596E.title}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -347,15 +347,15 @@
 			x: -4.0d
 			y: 4.5d
 			description: [
-				"&b储物袋&r非常实用，能提供更多背包空间。"
-				"一些改装使用特殊材料不会消耗完整度。"
+				"{quest.twr.179C32EE245E4653.description.1}"
+				"{quest.twr.179C32EE245E4653.description.2}"
 			]
 			dependencies: ["762141CEF64385FC"]
 			id: "179C32EE245E4653"
 			tasks: [{
 				id: "76C3B8A622BA2048"
 				type: "checkmark"
-				title: "改装你的腰带"
+				title: "{quest.twr.179C32EE245E4653.76C3B8A622BA2048.title}"
 			}]
 		}
 	]

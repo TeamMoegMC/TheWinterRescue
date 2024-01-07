@@ -294,7 +294,7 @@
 				"{quest.twr.75154C5A6E2F3257.description.3}"
 				"{quest.twr.75154C5A6E2F3257.description.4}"
 				"{quest.twr.75154C5A6E2F3257.description.5}"
-				"章节《&b蒸汽驱动&r》已开放！"
+				"{quest.twr.75154C5A6E2F3257.description.6}"
 			]
 			dependencies: ["13D9DE54DF8117C2"]
 			hide: true
@@ -383,7 +383,7 @@
 			}]
 		}
 		{
-			title: "助焊剂"
+			title: "{quest.twr.74780AAD5FDF8870.title}"
 			x: -6.0d
 			y: -0.5d
 			shape: "gear"
@@ -395,7 +395,7 @@
 				{
 					id: "12A0DA88BBDE3896"
 					type: "item"
-					title: "点击查看所有能被粉碎为助焊剂的岩石"
+					title: "{quest.twr.74780AAD5FDF8870.12A0DA88BBDE3896.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1244,15 +1244,15 @@
 			x: -9.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "从石器到铁器"
-			description: ["在这个章节，你的主要目标是寻找矿物并制作&b绘图桌&r，有了它你就可以开始研究，解锁更多物品和配方，最终冶炼出第一块铁，进入铁器时代。"]
+			subtitle: "{quest.twr.3BF2DCE33791510B.subtitle}"
+			description: ["{quest.twr.3BF2DCE33791510B.description.1}"]
 			dependencies: ["4BD8236FEEBD7D3A"]
 			hide: true
 			id: "3BF2DCE33791510B"
 			tasks: [{
 				id: "3805747E0E29652E"
 				type: "checkmark"
-				title: "章节指引"
+				title: "{quest.twr.3BF2DCE33791510B.3805747E0E29652E.title}"
 			}]
 		}
 		{

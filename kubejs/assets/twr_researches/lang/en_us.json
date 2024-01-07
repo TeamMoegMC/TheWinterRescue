@@ -3,6 +3,7 @@
   "clue.frostedheart.iron.clue.1_6fea538c5b184ec7.hint": "Sandy Brick (item), not Sandy Bricks (block)",
   "clue.frostedheart.mechanical_calculator.clue.2_c6b9a2fac4b14436.desc": "Any Cogwwheel x8",
   "clue.frostedheart.mechanical_calculator.clue.3_593d54b210e7473d.desc": "Any Large Cogwheel x4",
+  "clue.frostedheart.mechanical_press.clue.2_f69fc49b25d14d99.desc": "Any cogwheels x2",
   "clue.frostedheart.precision_mechanism.clue.2_24e463212dc74849.desc": "Any Cogwheel x4",
   "clue.frostedheart.split_block.clue.1_5612d1fa13a74a38.desc": "Any hammer",
   "clue.frostedheart.storage_drawers.clue.0_abc01458e013403c.desc": "Any drawer",
@@ -244,6 +245,5 @@
   "research.frostedheart.wool_lining.name": "Wool Lining",
   "research.frostedheart.workbench.desc.0": "Finally I've got the crafting table! Now I can make doors, chests, and so much more! The possibilities are endless!",
   "research.frostedheart.workbench.desc_alt.0": "Today is probably a great day: I got iron and better planks---so, under the cold temperature the workbench should not break anymore. So start now!",
-  "research.frostedheart.workbench.name": "Crafting Techniques",
-  "clue.frostedheart.mechanical_press.clue.2_f69fc49b25d14d99.desc": "Any cogwheels x2"
+  "research.frostedheart.workbench.name": "Crafting Techniques"
 }

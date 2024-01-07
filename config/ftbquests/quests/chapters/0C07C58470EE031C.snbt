@@ -237,7 +237,7 @@
 				{
 					id: "5EAF6B48C8FA678E"
 					type: "item"
-					title: "燧石工作台 - 点击查看合成配方"
+					title: "{quest.twr.3102993072F3C8B9.5EAF6B48C8FA678E.title}"
 					item: "stone_age:flint_workbench"
 				}
 			]
@@ -778,7 +778,7 @@
 			subtitle: "{quest.twr.04DC32D417FA819E.subtitle}"
 			description: [
 				"{quest.twr.04DC32D417FA819E.description.1}"
-				"再烧一次就能获得热水，喝下后能增加你的体温。"
+				"{quest.twr.04DC32D417FA819E.description.2}"
 			]
 			dependencies: ["36960F1D7CDC8B30"]
 			hide: true
@@ -931,8 +931,8 @@
 			description: [
 				"{quest.twr.5DD231E4178E830D.description.1}"
 				"{quest.twr.5DD231E4178E830D.description.2}"
-				""
-				"注意：易燃"
+				"{quest.twr.5DD231E4178E830D.description.3}"
+				"{quest.twr.5DD231E4178E830D.description.4}"
 			]
 			dependencies: ["42AF456D165CBF75"]
 			optional: true
@@ -1263,16 +1263,16 @@
 			}]
 		}
 		{
-			title: "配置选项"
+			title: "{quest.twr.270CAEEC664E3D0B.title}"
 			icon: "crockpot:watermelon_icle"
 			x: -1.5d
 			y: 5.0d
 			shape: "hexagon"
-			subtitle: "暴风雪不够冷?"
+			subtitle: "{quest.twr.270CAEEC664E3D0B.subtitle}"
 			description: [
-				"打开文件\"&o&7saves\\\\你的存档\\\\serverconfig\\\\frostedheart-server.toml&r\"可以更改体温系统的难度，也可以单独修改体温变化速率，或是关闭死亡保存快捷栏物品。"
-				""
-				"你也可以在\"&o&7config\\\\frostedheart-client.toml&r\"中更改温度显示单位，温度球的显示位置，或者关闭整合包自定义HUD(不推荐)。"
+				"{quest.twr.270CAEEC664E3D0B.description.1}"
+				"{quest.twr.270CAEEC664E3D0B.description.2}"
+				"{quest.twr.270CAEEC664E3D0B.description.3}"
 			]
 			dependencies: ["660F95E6765CD77A"]
 			hide: true
@@ -1288,16 +1288,16 @@
 			x: 1.5d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "常回家看看"
+			subtitle: "{quest.twr.660F95E6765CD77A.subtitle}"
 			description: [
-				"边框为齿轮的任务是&b章节主线任务&r，你需要完成之后才能进行下一步。"
-				""
-				"圆形的任务是&b支线任务&r，并不需要急着完成。"
-				""
-				"六边形的任务是提示和帮助，能解决大部分游玩过程中的问题，&b请务必仔细阅读&r。"
-				""
-				"随着流程推进你会获得更多提示，别忘了查看它们！"
-				"&o&7这么多文字可能看起来很累，你最先需要了解的是温度和饮水！"
+				"{quest.twr.660F95E6765CD77A.description.1}"
+				"{quest.twr.660F95E6765CD77A.description.2}"
+				"{quest.twr.660F95E6765CD77A.description.3}"
+				"{quest.twr.660F95E6765CD77A.description.4}"
+				"{quest.twr.660F95E6765CD77A.description.5}"
+				"{quest.twr.660F95E6765CD77A.description.6}"
+				"{quest.twr.660F95E6765CD77A.description.7}"
+				"{quest.twr.660F95E6765CD77A.description.8}"
 			]
 			dependencies: ["6667AA13CA3DAC9B"]
 			hide: true
@@ -1305,29 +1305,29 @@
 			tasks: [{
 				id: "71D0A569C8AC4690"
 				type: "checkmark"
-				title: "帮助"
+				title: "{quest.twr.660F95E6765CD77A.71D0A569C8AC4690.title}"
 			}]
 		}
 		{
-			title: "体温"
+			title: "{quest.twr.76E0A57CE55FFCEA.title}"
 			icon: "frostedheart:mercury_body_thermometer"
 			x: 1.5d
 			y: 5.5d
 			shape: "hexagon"
 			description: [
-				"体温变化速率受到&b环境温度&r和&6衣物保暖数值&r影响。"
-				""
-				"当体温开始降低时，你的经验条会被&b温度指示条&r替换，完全变红后获得&b失温效果&r并开始&b受到伤害&r。"
-				"体温变化速率过高时也会被烫伤或冻伤。"
-				""
-				"在做出体温计之前你无法查看详细体温数值。"
+				"{quest.twr.76E0A57CE55FFCEA.description.1}"
+				"{quest.twr.76E0A57CE55FFCEA.description.2}"
+				"{quest.twr.76E0A57CE55FFCEA.description.3}"
+				"{quest.twr.76E0A57CE55FFCEA.description.4}"
+				"{quest.twr.76E0A57CE55FFCEA.description.5}"
+				"{quest.twr.76E0A57CE55FFCEA.description.6}"
 			]
 			dependencies: ["2DFCACEE88BDF18B"]
 			id: "76E0A57CE55FFCEA"
 			tasks: [{
 				id: "6D6B476F48C9D98E"
 				type: "checkmark"
-				title: "体温"
+				title: "{quest.twr.76E0A57CE55FFCEA.6D6B476F48C9D98E.title}"
 			}]
 		}
 		{
@@ -1335,11 +1335,11 @@
 			x: 1.5d
 			y: 3.5d
 			shape: "hexagon"
-			subtitle: "划重点"
+			subtitle: "{quest.twr.2DFCACEE88BDF18B.subtitle}"
 			description: [
-				"温度是冬季救援中的基础设定，分清不同温度的作用非常重要。"
-				""
-				"如果你希望将温度单位更改为华氏度，请参考(任务：配置选项)。"
+				"{quest.twr.2DFCACEE88BDF18B.description.1}"
+				"{quest.twr.2DFCACEE88BDF18B.description.2}"
+				"{quest.twr.2DFCACEE88BDF18B.description.3}"
 			]
 			dependencies: ["660F95E6765CD77A"]
 			hide: true
@@ -1347,25 +1347,25 @@
 			tasks: [{
 				id: "068140961FE866D0"
 				type: "checkmark"
-				title: "温度"
+				title: "{quest.twr.2DFCACEE88BDF18B.068140961FE866D0.title}"
 			}]
 		}
 		{
-			title: "土壤温度"
+			title: "{quest.twr.797D120146136A5C.title}"
 			icon: "frostedheart:soil_thermometer"
 			x: 0.5d
 			y: 6.0d
 			shape: "hexagon"
-			subtitle: "不需要担心作物过季"
+			subtitle: "{quest.twr.797D120146136A5C.subtitle}"
 			description: [
-				"土壤温度比较特殊，它不会受到环境温度影响，&b只会被能加热土壤的设备提高&r，例如能量塔，或是因为天气原因降低。"
-				""
-				"土壤温度决定了作物能否在当前位置生长和种植。"
-				"达到&b最低种植温度&r的作物会&b缓慢&r生长，在合适的温度区间恢复到&b正常速度&r。"
-				""
-				"种植后如果土壤温度低于最低种植温度会导致作物&b停止生长&r，继续降低甚至会让作物枯萎。"
-				""
-				"你需要使用&b土壤温度计&r测量土壤温度。"
+				"{quest.twr.797D120146136A5C.description.1}"
+				"{quest.twr.797D120146136A5C.description.2}"
+				"{quest.twr.797D120146136A5C.description.3}"
+				"{quest.twr.797D120146136A5C.description.4}"
+				"{quest.twr.797D120146136A5C.description.5}"
+				"{quest.twr.797D120146136A5C.description.6}"
+				"{quest.twr.797D120146136A5C.description.7}"
+				"{quest.twr.797D120146136A5C.description.8}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4B6FFA5A9140019F"]
@@ -1374,15 +1374,15 @@
 			tasks: [{
 				id: "1924CA73AA697024"
 				type: "checkmark"
-				title: "土壤温度"
+				title: "{quest.twr.797D120146136A5C.1924CA73AA697024.title}"
 			}]
 		}
 		{
 			x: 16.0d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "不是很结实"
-			description: ["在&b背包&r中把干草搓成绳子，能用来制作一些简易的工具"]
+			subtitle: "{quest.twr.4B6FFA5A9140019F.subtitle}"
+			description: ["{quest.twr.4B6FFA5A9140019F.description.1}"]
 			dependencies: ["29BC87594650152D"]
 			id: "4B6FFA5A9140019F"
 			tasks: [{
@@ -1444,12 +1444,12 @@
 			y: 6.0d
 			shape: "hexagon"
 			description: [
-				"你肯定已经注意到了快捷栏上面的温度球，它显示的是你所在位置的&b环境温度&r。"
-				""
-				"环境温度受到日夜、天气、海拔等多种因素影响。"
-				"你也可以通过&6营火&r等方法手动提高。"
-				""
-				"简单来说&b环境温度越低，体温下降越快&r。"
+				"{quest.twr.49C0A13F97114740.description.1}"
+				"{quest.twr.49C0A13F97114740.description.2}"
+				"{quest.twr.49C0A13F97114740.description.3}"
+				"{quest.twr.49C0A13F97114740.description.4}"
+				"{quest.twr.49C0A13F97114740.description.5}"
+				"{quest.twr.49C0A13F97114740.description.6}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["2DFCACEE88BDF18B"]
@@ -1457,11 +1457,11 @@
 			tasks: [{
 				id: "2864531689489974"
 				type: "checkmark"
-				title: "环境温度"
+				title: "{quest.twr.49C0A13F97114740.2864531689489974.title}"
 			}]
 		}
 		{
-			title: "种植作物"
+			title: "{quest.twr.477565C132877FBA.title}"
 			icon: {
 				id: "rankine:flint_hoe"
 				Count: 1b
@@ -1472,15 +1472,15 @@
 			x: 16.0d
 			y: 4.0d
 			shape: "hexagon"
-			subtitle: "我们还是干点别的吧?"
+			subtitle: "{quest.twr.477565C132877FBA.subtitle}"
 			description: [
-				"你可能会想做一把锄头用来种地，"
-				"但是这鬼地方太冷了，大部分作物都&b无法生长&r。"
-				"也许你需要某种&b稳定的加热设备&r，很显然营火并不是合适的选择。"
-				""
-				"关于土壤温度可以查看左侧解锁的新教程。"
-				""
-				"现在你只能靠其他方法获取食物。"
+				"{quest.twr.477565C132877FBA.description.1}"
+				"{quest.twr.477565C132877FBA.description.2}"
+				"{quest.twr.477565C132877FBA.description.3}"
+				"{quest.twr.477565C132877FBA.description.4}"
+				"{quest.twr.477565C132877FBA.description.5}"
+				"{quest.twr.477565C132877FBA.description.6}"
+				"{quest.twr.477565C132877FBA.description.7}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["4B6FFA5A9140019F"]
@@ -1496,15 +1496,15 @@
 			x: 20.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "别靠太近"
+			subtitle: "{quest.twr.654627121432688E.subtitle}"
 			description: [
-				"当营火被点燃时，它会向周围环境释放\"&6热流&r\"。"
-				""
-				"热流会&b随距离衰减&r，最简单的例子就是你越靠近营火，你感受到的环境温度越高。"
-				""
-				"热流也会被墙壁&b反射&r，在营火周围放置方块能&b聚集分散的热流，使温度上升&r，同时热流也能穿过不完整方块。"
-				""
-				"因此一个类似壁炉的结构是真实有效的，而在空旷的野外放置的营火也会让效果大打折扣。"
+				"{quest.twr.654627121432688E.description.1}"
+				"{quest.twr.654627121432688E.description.2}"
+				"{quest.twr.654627121432688E.description.3}"
+				"{quest.twr.654627121432688E.description.4}"
+				"{quest.twr.654627121432688E.description.5}"
+				"{quest.twr.654627121432688E.description.6}"
+				"{quest.twr.654627121432688E.description.7}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["36960F1D7CDC8B30"]
@@ -1513,11 +1513,11 @@
 			tasks: [{
 				id: "43282F7A52C25B6F"
 				type: "checkmark"
-				title: "热对流系统"
+				title: "{quest.twr.654627121432688E.43282F7A52C25B6F.title}"
 			}]
 		}
 		{
-			title: "额外读物：保暖指南"
+			title: "{quest.twr.125F6ADB0DEA3EEA.title}"
 			icon: {
 				id: "frostedheart:gambeson"
 				Count: 1b
@@ -1528,19 +1528,19 @@
 			x: 1.5d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "在这个冰天雪地里，保持体温非常重要"
+			subtitle: "{quest.twr.125F6ADB0DEA3EEA.subtitle}"
 			description: [
-				"●穿戴有&6保暖效果&r的衣物能有效阻止&b环境温度&r导致的体温变化&o&7(包括升温)&r，你的宇航服保暖性能优异，能为你争取宝贵的生存时间"
-				""
-				"●避免下水，潮湿会导致衣物保暖&b大幅下降&r。"
-				""
-				"●避免站在室外，燃起营火取暖"
-				""
-				"●饮用热水，或来一碗热汤"
-				""
-				"&m&o&7●点燃自己"
-				""
-				"如果您认为体温系统过于困难可以参考任务\"配置选项\"进行修改。"
+				"{quest.twr.125F6ADB0DEA3EEA.description.1}"
+				"{quest.twr.125F6ADB0DEA3EEA.description.2}"
+				"{quest.twr.125F6ADB0DEA3EEA.description.3}"
+				"{quest.twr.125F6ADB0DEA3EEA.description.4}"
+				"{quest.twr.125F6ADB0DEA3EEA.description.5}"
+				"{quest.twr.125F6ADB0DEA3EEA.description.6}"
+				"{quest.twr.125F6ADB0DEA3EEA.description.7}"
+				"{quest.twr.125F6ADB0DEA3EEA.description.8}"
+				"{quest.twr.125F6ADB0DEA3EEA.description.9}"
+				"{quest.twr.125F6ADB0DEA3EEA.description.10}"
+				"{quest.twr.125F6ADB0DEA3EEA.description.11}"
 			]
 			dependencies: ["76E0A57CE55FFCEA"]
 			hide: true

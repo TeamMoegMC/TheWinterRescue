@@ -36,11 +36,11 @@
 			}]
 		}
 		{
-			title: "奇洛"
+			title: "{quest.twr.20E078A9220D6114.title}"
 			x: 5.0d
 			y: 3.0d
 			subtitle: "{quest.twr.20E078A9220D6114.subtitle}"
-			description: ["极为罕见，它能在草方块中翻出来一些东西。"]
+			description: ["{quest.twr.20E078A9220D6114.description.1}"]
 			hide_dependency_lines: true
 			dependencies: [
 				"7521769E8333942B"

@@ -227,7 +227,7 @@
 			description: [
 				"{quest.twr.32A497C69C641D2B.description.1}"
 				"{quest.twr.32A497C69C641D2B.description.2}"
-				"别忘了在&b绘图桌&r领取你做出的原型机！"
+				"{quest.twr.32A497C69C641D2B.description.3}"
 			]
 			dependencies: ["7612A96FFEFC5635"]
 			id: "32A497C69C641D2B"
@@ -594,7 +594,7 @@
 				{
 					id: "6EA2092A24799526"
 					type: "item"
-					title: "任意砂纸"
+					title: "{quest.twr.279DA3B6F5DE7753.6EA2092A24799526.title}"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -663,8 +663,8 @@
 				"{quest.twr.19038BB5A9E42055.description.2}"
 				"{quest.twr.19038BB5A9E42055.description.3}"
 				"{quest.twr.19038BB5A9E42055.description.4}"
-				""
-				"章节《&b蒸汽驱动&r》已开放！"
+				"{quest.twr.19038BB5A9E42055.description.5}"
+				"{quest.twr.19038BB5A9E42055.description.6}"
 			]
 			dependencies: [
 				"6738A3C34A872FED"
@@ -799,7 +799,7 @@
 			y: 2.5d
 			shape: "gear"
 			subtitle: "{quest.twr.4845A9B7B7B2B4A5.subtitle}"
-			description: ["可用于序列组装配方，具体请查看JEI。"]
+			description: ["{quest.twr.4845A9B7B7B2B4A5.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["17F033FB5ACAACFB"]
 			hide: true
@@ -1029,7 +1029,7 @@
 		{
 			x: -13.0d
 			y: 2.5d
-			subtitle: "传动优化"
+			subtitle: "{quest.twr.2EBC4AB3DDFC6BA0.subtitle}"
 			description: ["{quest.twr.2EBC4AB3DDFC6BA0.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
 			hide: true
@@ -1137,7 +1137,7 @@
 			x: -10.5d
 			y: 4.0d
 			shape: "hexagon"
-			description: ["记得使用思索查看新机器的功能！"]
+			description: ["{quest.twr.7D2BB5CE05B6723F.description.1}"]
 			hide_dependency_lines: true
 			dependencies: ["4CC5E16EFDE1368C"]
 			hide: true
@@ -1145,7 +1145,7 @@
 			tasks: [{
 				id: "74E26CF35B0C0C6E"
 				type: "checkmark"
-				title: "思索"
+				title: "{quest.twr.7D2BB5CE05B6723F.74E26CF35B0C0C6E.title}"
 			}]
 		}
 		{
@@ -1153,13 +1153,13 @@
 			x: -6.5d
 			y: -3.5d
 			shape: "gear"
-			subtitle: "纯机械结构"
+			subtitle: "{quest.twr.64BD0FE7784B0BEB.subtitle}"
 			description: [
-				"你可能已经发现一些研究&b只靠线索&r无法完成了。"
-				""
-				"这时你就需要一台&b机械计算器&r，给它接入应力就能产生科技点，具体介绍参考章节《&b获取知识&r》。"
-				""
-				"别忘了在&b绘图桌&r领取你做出的原型机！"
+				"{quest.twr.64BD0FE7784B0BEB.description.1}"
+				"{quest.twr.64BD0FE7784B0BEB.description.2}"
+				"{quest.twr.64BD0FE7784B0BEB.description.3}"
+				"{quest.twr.64BD0FE7784B0BEB.description.4}"
+				"{quest.twr.64BD0FE7784B0BEB.description.5}"
 			]
 			dependencies: ["17F033FB5ACAACFB"]
 			size: 1.5d
@@ -1167,7 +1167,7 @@
 			tasks: [{
 				id: "1B6C447B300EEE7B"
 				type: "checkmark"
-				title: "机械计算器"
+				title: "{quest.twr.64BD0FE7784B0BEB.1B6C447B300EEE7B.title}"
 			}]
 		}
 	]

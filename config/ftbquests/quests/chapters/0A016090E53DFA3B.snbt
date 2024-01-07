@@ -24,13 +24,13 @@
 			subtitle: "{quest.twr.391E30AD9CB7147F.subtitle}"
 			description: [
 				"{quest.twr.391E30AD9CB7147F.description.1}"
-				""
-				"&c①&r点击科技树按钮打开科技树界面，在左侧列表里点击研究查看研究关系。"
-				"再次点击打开详细介绍，选择&b[提交材料并开始研究]&r即可开始一项研究。"
-				""
-				"&b②&r点击暂停研究按钮可以取消当前研究，&b研究进度会被保存&r。"
-				""
-				"&a⑤&r你的物品栏。"
+				"{quest.twr.391E30AD9CB7147F.description.2}"
+				"{quest.twr.391E30AD9CB7147F.description.3}"
+				"{quest.twr.391E30AD9CB7147F.description.4}"
+				"{quest.twr.391E30AD9CB7147F.description.5}"
+				"{quest.twr.391E30AD9CB7147F.description.6}"
+				"{quest.twr.391E30AD9CB7147F.description.7}"
+				"{quest.twr.391E30AD9CB7147F.description.8}"
 				"{image:twr_quests:textures/quest/draw_desk.png width:387 height:198 align:1 fit:true}"
 			]
 			dependencies: ["6A22E2D62D4719BE"]
@@ -54,7 +54,7 @@
 				"{quest.twr.1DE66DB6DF406019.description.2}"
 				"{quest.twr.1DE66DB6DF406019.description.3}"
 				"{quest.twr.1DE66DB6DF406019.description.4}"
-				"&5③&r如果线索需要你&b研究或提交物品&r，在上面的栏位放入物品，再点击下面的按钮研究此物品。"
+				"{quest.twr.1DE66DB6DF406019.description.5}"
 				"{image:twr_quests:textures/quest/draw_desk.png width:387 height:198 align:1 fit:true}"
 			]
 			dependencies: ["391E30AD9CB7147F"]
@@ -76,13 +76,13 @@
 			description: [
 				"{quest.twr.1938FC4AAD99137E.description.1}"
 				"{quest.twr.1938FC4AAD99137E.description.2}"
-				"&6④&r在这里放入纸和笔，不同等级的研究需要对应的纸和笔，例如&b初级研究需要石质压力板和炭笔&r。"
-				""
-				"&9⑧&r点击右下角的&b重置按钮&r消耗“纸”和“笔”生成研究论文。"
-				"点击帮助按钮&r查看研究论文教程，或是阅读后续任务。"
+				"{quest.twr.1938FC4AAD99137E.description.3}"
+				"{quest.twr.1938FC4AAD99137E.description.4}"
+				"{quest.twr.1938FC4AAD99137E.description.5}"
+				"{quest.twr.1938FC4AAD99137E.description.6}"
 				"{image:twr_quests:textures/quest/draw_desk.png width:387 height:198 align:1 fit:true}"
-				""
-				"产生和完成论文都需要消耗&b精力&r，精力的获取详见后续任务。"
+				"{quest.twr.1938FC4AAD99137E.description.8}"
+				"{quest.twr.1938FC4AAD99137E.description.9}"
 			]
 			dependencies: ["1DE66DB6DF406019"]
 			hide: true
@@ -170,7 +170,7 @@
 			}]
 		}
 		{
-			title: "机械计算器"
+			title: "{quest.twr.2148082183BBDF76.title}"
 			icon: "frostedheart:mechanical_calculator"
 			x: -6.5d
 			y: 1.0d
@@ -341,13 +341,13 @@
 			x: -4.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "消消乐"
+			subtitle: "{quest.twr.1340B00283A4D085.subtitle}"
 			description: [
-				"完成研究的方法是消除界面上的所有元素。"
-				""
-				"&e⑥&r研究小游戏的棋盘，所有可互动元素都在这里。"
-				""
-				"&d⑦&r统计面板，显示了棋盘上的元素数量，如果某种元素数量是&c单数&r代表它&b不成对&r，需要额外注意。"
+				"{quest.twr.1340B00283A4D085.description.1}"
+				"{quest.twr.1340B00283A4D085.description.2}"
+				"{quest.twr.1340B00283A4D085.description.3}"
+				"{quest.twr.1340B00283A4D085.description.4}"
+				"{quest.twr.1340B00283A4D085.description.5}"
 				"{image:twr_quests:textures/quest/draw_desk.png width:387 height:198 align:1 fit:true}"
 			]
 			dependencies: ["1938FC4AAD99137E"]
@@ -355,24 +355,24 @@
 			tasks: [{
 				id: "3680291ED52D3A59"
 				type: "checkmark"
-				title: "完成研究论文"
+				title: "{quest.twr.1340B00283A4D085.3680291ED52D3A59.title}"
 			}]
 		}
 		{
 			icon: "crockpot:salmon_sushi"
 			x: -4.5d
 			y: -0.5d
-			subtitle: "Sigma's Garden"
+			subtitle: "{quest.twr.4D3FCF56475C0CD7.subtitle}"
 			description: [
-				"&c①&r选中一个&b可被选中&r的元素点击&o&7(再次点击取消选择)&r，然后点击另一个相同的元素即可消除。"
-				""
-				"&b②&r元素&b相邻的两个边&r和它们之间的夹角都是空白时可被选中，棋盘之外的区域算空白。"
-				""
-				"&5③&r灰色的基础元素可以和相同的元素匹配，蓝色的“谜题”和“发现”互相匹配。"
-				""
-				"&6④&r“转换”可以和基础元素或它自己匹配。"
-				""
-				"&a⑤&r罗马数字&b按照顺序&r和“发现”匹配，数字消除完毕后就可以点击“结论”消除它。"
+				"{quest.twr.4D3FCF56475C0CD7.description.1}"
+				"{quest.twr.4D3FCF56475C0CD7.description.2}"
+				"{quest.twr.4D3FCF56475C0CD7.description.3}"
+				"{quest.twr.4D3FCF56475C0CD7.description.4}"
+				"{quest.twr.4D3FCF56475C0CD7.description.5}"
+				"{quest.twr.4D3FCF56475C0CD7.description.6}"
+				"{quest.twr.4D3FCF56475C0CD7.description.7}"
+				"{quest.twr.4D3FCF56475C0CD7.description.8}"
+				"{quest.twr.4D3FCF56475C0CD7.description.9}"
 				"{image:twr_quests:textures/quest/research_game.png width:243 height:170 align:1 fit:true}"
 			]
 			hide_dependency_lines: true
@@ -381,7 +381,7 @@
 			tasks: [{
 				id: "74EA581650245E6D"
 				type: "checkmark"
-				title: "消除规则"
+				title: "{quest.twr.4D3FCF56475C0CD7.74EA581650245E6D.title}"
 			}]
 			rewards: [{
 				id: "6B501B88DE8C0101"
