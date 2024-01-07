@@ -465,7 +465,7 @@
   "quest.twr.4BD8236FEEBD7D3A.subtitle": "Twardy kamień",
   "quest.twr.4CC2FB4B9CE2367B.description.0": "Domesticating Pheasants then feed hens with seeds to make them lay eggs.",
   "quest.twr.4CC2FB4B9CE2367B.subtitle": "Domesticating Pheasants",
-  "quest.twr.4CC5E16EFDE1368C.description.1": "Rodzaj Wysokowęglowy żelazostop.",
+  "quest.twr.4CC5E16EFDE1368C.description.1": "Rodzaj żelazostopu niskoemisyjnego.",
   "quest.twr.4CC5E16EFDE1368C.description.2": "Bardzo ciemna, bardzo twarda.",
   "quest.twr.4CC5E16EFDE1368C.description.3": "Służy do wykonywania większości konstrukcji mechanicznych, takich jak wały.",
   "quest.twr.4CC5E16EFDE1368C.subtitle": "Solidne czarne złoto",
@@ -977,7 +977,5 @@
   "quest.twr.690B75C64EB9A7C1.title": "Tips for doing research in multiplayer",
   "quest.twr.2B0D00CB09B96703.description.1": "Protected cage with inner lining would keep animal inside from cold to death.",
   "quest.twr.2B0D00CB09B96703.subtitle": "Circus",
-  "quest.twr.7762BF27B2BB8236.description.3": "Animal only live with temperature above 0 degrees.",
-  "quest.twr.488FDD6F73BC99BA.subtitle": "Smash it!",
-  "quest.twr.488FDD6F73BC99BA.description.1": "You can smash some fragile objects or make metal plates on the tree stump."
+  "quest.twr.7762BF27B2BB8236.description.3": "Animal only live with temperature above 0 degrees."
 }

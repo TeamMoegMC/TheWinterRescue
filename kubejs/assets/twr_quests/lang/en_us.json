@@ -451,7 +451,7 @@
   "quest.twr.32E5D942F1FE8645.description.2": "You may found Oxeye Daisy in the flat, moist biomes.",
   "quest.twr.32E5D942F1FE8645.description.3": "Clay and Gravel hide beneath these flowers.",
   "quest.twr.32E5D942F1FE8645.description.4": "You can also dig snowy dirt or crafting three gravels to obtain flints.",
-  "quest.twr.32E5D942F1FE8645.description.5": "These resources are also hidden under riverbeds, but &4do not go into water&r before getting a campfire.",
+  "quest.twr.32E5D942F1FE8645.description.5": "These resources are also hidden under riverbeds, but do not go into water before getting a campfire.",
   "quest.twr.32E5D942F1FE8645.subtitle": "Gathering basic resources",
   "quest.twr.32E5D942F1FE8645.title": "\"Real Siberian\" digging potatoes",
   "quest.twr.33B6E7B60783C72B.description.1": "Water in your body is very important.",
@@ -658,7 +658,7 @@
   "quest.twr.4BD8236FEEBD7D3A.title": "I made it to Stone Age",
   "quest.twr.4CC2FB4B9CE2367B.description.0": "Domesticating Pheasants then feed hens with seeds to make them lay eggs.",
   "quest.twr.4CC2FB4B9CE2367B.subtitle": "Domesticating Pheasants",
-  "quest.twr.4CC5E16EFDE1368C.description.1": "High carbon ferroalloy with excess impurities removed.A type of high-carbon ferroalloy.",
+  "quest.twr.4CC5E16EFDE1368C.description.1": "A type of low-carbon ferroalloy.",
   "quest.twr.4CC5E16EFDE1368C.description.2": "Very dark, very hard.",
   "quest.twr.4CC5E16EFDE1368C.description.3": "Used to make most Mechanical structures like shafts.",
   "quest.twr.4CC5E16EFDE1368C.subtitle": "Solid Black Metal",
@@ -1123,7 +1123,5 @@
   "quest.twr.7F84766122DC4753.description.2": "If you can't find any cactus, you may also &emill malachite&r for green dye. &cRefer to JEI for more help&r.",
   "quest.twr.7F84766122DC4753.subtitle": "High-precision assembly",
   "quest.twr.7FA0ADDB6ABCAB6A.description.1": "Interested in learning more geology of this world? Project Rankine's Journal is your best guide!",
-  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "Deeper(literal) Knowledge",
-  "quest.twr.488FDD6F73BC99BA.subtitle": "Smash it!",
-  "quest.twr.488FDD6F73BC99BA.description.1": "You can smash some fragile objects or make metal plates on the tree stump."
+  "quest.twr.7FA0ADDB6ABCAB6A.subtitle": "Deeper(literal) Knowledge"
 }

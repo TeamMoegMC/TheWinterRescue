@@ -152,12 +152,6 @@
 					item: "minecraft:paper"
 				}
 			]
-			rewards: [{
-				id: "1BB725A9E74ED8BA"
-				type: "item"
-				item: "minecraft:book"
-				count: 4
-			}]
 		}
 		{
 			icon: "immersiveengineering:electron_tube"
