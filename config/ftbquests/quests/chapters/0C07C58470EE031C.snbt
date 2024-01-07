@@ -215,7 +215,7 @@
 		{
 			title: "{quest.twr.3102993072F3C8B9.title}"
 			icon: "stone_age:flint_workbench"
-			x: 7.5d
+			x: 5.5d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.3102993072F3C8B9.subtitle}"
@@ -227,7 +227,7 @@
 				"{quest.twr.3102993072F3C8B9.description.5}"
 			]
 			hide_dependency_lines: false
-			dependencies: ["348EB1588EFAD2AB"]
+			dependencies: ["32E5D942F1FE8645"]
 			id: "3102993072F3C8B9"
 			tasks: [
 				{
@@ -248,7 +248,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 7.5d
 			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.348EB1588EFAD2AB.subtitle}"
@@ -347,7 +347,10 @@
 				"{quest.twr.1D7F2824DAF3BB7B.description.1}"
 				"{quest.twr.1D7F2824DAF3BB7B.description.2}"
 			]
-			dependencies: ["348EB1588EFAD2AB"]
+			dependencies: [
+				"348EB1588EFAD2AB"
+				"3102993072F3C8B9"
+			]
 			hide: false
 			id: "1D7F2824DAF3BB7B"
 			tasks: [{
@@ -502,17 +505,30 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "63D489676FBD6BBB"
-				type: "item"
-				item: {
-					id: "minecraft:splash_potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:strong_strength"
+			rewards: [
+				{
+					id: "63D489676FBD6BBB"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
 					}
 				}
-			}]
+				{
+					id: "5F362019D014FFA6"
+					type: "item"
+					item: {
+						id: "minecraft:shield"
+						Count: 1b
+						tag: {
+							Damage: 160
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 14.5d
@@ -805,6 +821,11 @@
 					item: "watersource:wooden_cup"
 				}
 			]
+			rewards: [{
+				id: "7CA4A46181EDBD4F"
+				type: "item"
+				item: "minecraft:beetroot_soup"
+			}]
 		}
 		{
 			icon: {
@@ -1104,6 +1125,11 @@
 					type: "item"
 					item: "minecraft:torch"
 					count: 4
+				}
+				{
+					id: "5EADC63CEDDAB661"
+					type: "item"
+					item: "minecraft:oak_door"
 				}
 			]
 		}

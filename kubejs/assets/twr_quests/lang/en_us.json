@@ -416,6 +416,7 @@
   "quest.twr.2ED180AF29DA4A90.subtitle": "Take &kabcds",
   "quest.twr.2F9F42B32CEDA8B6.description.1": "Can no longer need gear use to change speed.",
   "quest.twr.3078BCEE3E402DED.description.1": "Basic liquid container for cool liquids.",
+  "quest.twr.3078BCEE3E402DED.description.2": "Right click on water block with an empty barrel to fill it directly.",
   "quest.twr.3078BCEE3E402DED.subtitle": "Very full",
   "quest.twr.3102993072F3C8B9.description.1": "Since there's no suitable materials for use, you have no choice but to use this primitive crafting bench.",
   "quest.twr.3102993072F3C8B9.description.2": " ",
@@ -616,7 +617,7 @@
   "quest.twr.4BD8236FEEBD7D3A.title": "I made it to Stone Age",
   "quest.twr.4CC2FB4B9CE2367B.description.0": "Domesticating Pheasants then feed hens with seeds to make them lay eggs.",
   "quest.twr.4CC2FB4B9CE2367B.subtitle": "Domesticating Pheasants",
-  "quest.twr.4CC5E16EFDE1368C.description.1": "A type of low-carbon ferroalloy.",
+  "quest.twr.4CC5E16EFDE1368C.description.1": "A type of high-carbon ferroalloy.",
   "quest.twr.4CC5E16EFDE1368C.description.2": "Very dark, very hard.",
   "quest.twr.4CC5E16EFDE1368C.description.3": "Used to make most Mechanical structures like shafts.",
   "quest.twr.4CC5E16EFDE1368C.subtitle": "Solid Black Metal",
@@ -1237,5 +1238,6 @@
   "quest.twr.391E30AD9CB7147F.description.4": "再次点击打开详细介绍，选择&b[提交材料并开始研究]&r即可开始一项研究。",
   "quest.twr.391E30AD9CB7147F.description.5": "",
   "quest.twr.391E30AD9CB7147F.description.2": "",
-  "quest.twr.391E30AD9CB7147F.description.3": "&c①&r点击科技树按钮打开科技树界面，在左侧列表里点击研究查看研究关系。"
+  "quest.twr.391E30AD9CB7147F.description.3": "&c①&r点击科技树按钮打开科技树界面，在左侧列表里点击研究查看研究关系。",
+  "quest.twr.060F482D9D3374F9.title": "耐火黏土"
 }

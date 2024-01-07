@@ -71,6 +71,12 @@
 				type: "item"
 				item: "immersiveengineering:light_engineering"
 			}]
+			rewards: [{
+				id: "2924187E6BB3656F"
+				type: "item"
+				item: "frostedheart:packed_nuts"
+				count: 4
+			}]
 		}
 		{
 			x: 1.5d
@@ -118,12 +124,28 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "39C53B6E5D60BA64"
-				type: "item"
-				item: "immersiveengineering:coal_coke"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "39C53B6E5D60BA64"
+					type: "item"
+					item: "immersiveengineering:coal_coke"
+					count: 4
+				}
+				{
+					id: "261E622AD7EFC543"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+			]
 		}
 		{
 			x: -1.5d

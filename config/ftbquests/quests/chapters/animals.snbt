@@ -29,11 +29,19 @@
 				entity: "stone_age:mammoth"
 				value: 1L
 			}]
-			rewards: [{
-				id: "0E9461528FD7710E"
-				type: "item"
-				item: "stone_age:cooked_mammoth_meat"
-			}]
+			rewards: [
+				{
+					id: "0E9461528FD7710E"
+					type: "item"
+					item: "stone_age:cooked_mammoth_meat"
+				}
+				{
+					id: "634C3F7F330D4BDD"
+					type: "item"
+					item: "stone_age:raw_hide"
+					count: 4
+				}
+			]
 		}
 		{
 			title: "{quest.twr.20E078A9220D6114.title}"
@@ -89,11 +97,19 @@
 				entity: "stone_age:saber_tooth_tiger"
 				value: 1L
 			}]
-			rewards: [{
-				id: "0C2F387D45A1FF48"
-				type: "item"
-				item: "stone_age:cooked_tiger_meat"
-			}]
+			rewards: [
+				{
+					id: "0C2F387D45A1FF48"
+					type: "item"
+					item: "stone_age:cooked_tiger_meat"
+				}
+				{
+					id: "5E451309C765EBE8"
+					type: "item"
+					item: "stone_age:raw_hide"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 3.5d

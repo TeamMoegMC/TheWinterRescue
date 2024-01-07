@@ -418,7 +418,7 @@
   "quest.twr.2ED180AF29DA4A90.subtitle": "累了困了，喝&kabcd",
   "quest.twr.2F9F42B32CEDA8B6.description.1": "有了它就可以不再需要齿轮组来进行变速了。",
   "quest.twr.3078BCEE3E402DED.description.1": "是时候把饮用水储存起来了。",
-  "quest.twr.3078BCEE3E402DED.description.2": "",
+  "quest.twr.3078BCEE3E402DED.description.2": "用空的木桶对着水源方块右键可以直接装满木桶。",
   "quest.twr.3078BCEE3E402DED.subtitle": "装满满的",
   "quest.twr.3102993072F3C8B9.description.1": "由于目前没有合适的材料，所以只能采用这种原始的工作台。",
   "quest.twr.3102993072F3C8B9.description.2": " ",
@@ -619,7 +619,7 @@
   "quest.twr.4BD8236FEEBD7D3A.title": "我甚至进入了石器时代",
   "quest.twr.4CC2FB4B9CE2367B.description.0": "驯化野鸡成为家鸡，然后喂食种子即可产蛋。",
   "quest.twr.4CC2FB4B9CE2367B.subtitle": "驯化野鸡",
-  "quest.twr.4CC5E16EFDE1368C.description.1": "经过精加工的低含碳量铁合金锭。",
+  "quest.twr.4CC5E16EFDE1368C.description.1": "经过精加工的高含碳量铁合金锭。",
   "quest.twr.4CC5E16EFDE1368C.description.2": "很♂黑，很♂硬。",
   "quest.twr.4CC5E16EFDE1368C.description.3": "用于制作大多数机械动力物品。",
   "quest.twr.4CC5E16EFDE1368C.subtitle": "黑金",
@@ -1240,5 +1240,6 @@
   "quest.twr.391E30AD9CB7147F.description.4": "再次点击打开详细介绍，选择&b[提交材料并开始研究]&r即可开始一项研究。",
   "quest.twr.391E30AD9CB7147F.description.5": "",
   "quest.twr.391E30AD9CB7147F.description.2": "",
-  "quest.twr.391E30AD9CB7147F.description.3": "&c①&r点击科技树按钮打开科技树界面，在左侧列表里点击研究查看研究关系。"
+  "quest.twr.391E30AD9CB7147F.description.3": "&c①&r点击科技树按钮打开科技树界面，在左侧列表里点击研究查看研究关系。",
+  "quest.twr.060F482D9D3374F9.title": "耐火黏土"
 }
