@@ -14,6 +14,7 @@
 			icon: "ftbquests:book"
 			x: -5.0d
 			y: -0.5d
+			shape: "gear"
 			subtitle: "{quest.twr.60F112EDA31F73F5.subtitle}"
 			description: [
 				"{quest.twr.60F112EDA31F73F5.description.1}"
@@ -35,6 +36,7 @@
 			icon: "create:propeller"
 			x: -6.0d
 			y: -0.5d
+			shape: "gear"
 			subtitle: "{quest.twr.6C86BD5F9112256F.subtitle}"
 			description: [
 				"{quest.twr.6C86BD5F9112256F.description.1}"
@@ -56,6 +58,7 @@
 			icon: "frostedheart:relic_chest"
 			x: -8.0d
 			y: -0.5d
+			shape: "gear"
 			subtitle: "{quest.twr.4E3C1F4BDB921B8E.subtitle}"
 			description: [
 				"{quest.twr.4E3C1F4BDB921B8E.description.1}"
@@ -105,6 +108,7 @@
 			icon: "minecraft:writable_book"
 			x: -4.0d
 			y: -0.5d
+			shape: "gear"
 			subtitle: "{quest.twr.2422C77587FDEE28.subtitle}"
 			description: [
 				"{quest.twr.2422C77587FDEE28.description.1}"
@@ -123,61 +127,9 @@
 			rewards: [{
 				id: "60623506E241F58E"
 				type: "advancement"
+				auto: "enabled"
 				advancement: "the_winter_rescue:root"
 				criterion: ""
-			}]
-		}
-		{
-			title: "{quest.twr.543F5BC239D07C40.title}"
-			icon: "minecraft:oak_sapling"
-			x: -2.0d
-			y: -1.0d
-			subtitle: "{quest.twr.543F5BC239D07C40.subtitle}"
-			description: [
-				"{quest.twr.543F5BC239D07C40.description.1}"
-				"{quest.twr.543F5BC239D07C40.description.2}"
-				"{quest.twr.543F5BC239D07C40.description.3}"
-				"{quest.twr.543F5BC239D07C40.description.4}"
-				"{quest.twr.543F5BC239D07C40.description.5}"
-				"{quest.twr.543F5BC239D07C40.description.6}"
-			]
-			dependencies: ["1CD9EB4A39925BB8"]
-			id: "543F5BC239D07C40"
-			tasks: [{
-				id: "7421B8D8B161FCBC"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "2F3CEB557C7CEFB7"
-				type: "item"
-				item: "frostedheart:rye_bread"
-			}]
-		}
-		{
-			title: "{quest.twr.1CD9EB4A39925BB8.title}"
-			icon: "minecraft:player_head"
-			x: -3.0d
-			y: -0.5d
-			subtitle: "{quest.twr.1CD9EB4A39925BB8.subtitle}"
-			description: [
-				"{quest.twr.1CD9EB4A39925BB8.description.1}"
-				"{quest.twr.1CD9EB4A39925BB8.description.2}"
-				"{quest.twr.1CD9EB4A39925BB8.description.3}"
-				"{quest.twr.1CD9EB4A39925BB8.description.4}"
-				"{quest.twr.1CD9EB4A39925BB8.description.5}"
-				"{quest.twr.1CD9EB4A39925BB8.description.6}"
-				"{quest.twr.1CD9EB4A39925BB8.description.7}"
-			]
-			dependencies: ["2422C77587FDEE28"]
-			id: "1CD9EB4A39925BB8"
-			tasks: [{
-				id: "698704746E033DF8"
-				type: "checkmark"
-			}]
-			rewards: [{
-				id: "44F6FB5102EE8558"
-				type: "item"
-				item: "frostedheart:rye_bread"
 			}]
 		}
 		{
@@ -185,6 +137,7 @@
 			icon: "minecraft:fire_charge"
 			x: -9.0d
 			y: -0.5d
+			shape: "gear"
 			subtitle: "{quest.twr.744D35762CD9BD26.subtitle}"
 			description: [
 				"{quest.twr.744D35762CD9BD26.description.1}"
@@ -197,6 +150,8 @@
 				"{quest.twr.744D35762CD9BD26.description.8}"
 				"{quest.twr.744D35762CD9BD26.description.9}"
 			]
+			dependencies: ["1CD9EB4A39925BB8"]
+			hide: true
 			id: "744D35762CD9BD26"
 			tasks: [{
 				id: "23E2D5CDE38FFD85"
@@ -208,6 +163,7 @@
 			title: "{quest.twr.1337E25DE8FDFC42.title}"
 			x: -7.0d
 			y: -0.5d
+			shape: "gear"
 			subtitle: "{quest.twr.1337E25DE8FDFC42.subtitle}"
 			description: [
 				"{quest.twr.1337E25DE8FDFC42.description.1}"
@@ -231,14 +187,19 @@
 		{
 			title: "{quest.twr.7AFE32B08BB6CE6C.title}"
 			icon: "minecraft:paper"
-			x: -1.0d
-			y: -0.5d
+			x: -4.0d
+			y: 1.0d
+			shape: "hexagon"
 			subtitle: "{quest.twr.7AFE32B08BB6CE6C.subtitle}"
-			description: ["{quest.twr.7AFE32B08BB6CE6C.description.1}"]
-			dependencies: [
-				"1B3C8681DF78AD16"
-				"543F5BC239D07C40"
+			description: [
+				"{quest.twr.7AFE32B08BB6CE6C.description.1}"
+				"{quest.twr.7AFE32B08BB6CE6C.description.2}"
+				"{quest.twr.7AFE32B08BB6CE6C.description.3}"
+				"{quest.twr.7AFE32B08BB6CE6C.description.4}"
+				"{quest.twr.7AFE32B08BB6CE6C.description.5}"
 			]
+			hide_dependency_lines: true
+			dependencies: ["2422C77587FDEE28"]
 			id: "7AFE32B08BB6CE6C"
 			tasks: [
 				{
@@ -434,22 +395,57 @@
 			]
 		}
 		{
-			title: "{quest.twr.1B3C8681DF78AD16.title}"
-			icon: "minecraft:writable_book"
-			x: -2.0d
-			y: 0.0d
-			subtitle: "{quest.twr.1B3C8681DF78AD16.subtitle}"
+			title: "{quest.twr.1CD9EB4A39925BB8.title}"
+			icon: "minecraft:player_head"
+			x: -10.0d
+			y: -0.5d
+			shape: "gear"
+			subtitle: "{quest.twr.1CD9EB4A39925BB8.subtitle}"
 			description: [
-				"{quest.twr.1B3C8681DF78AD16.description.1}"
-				"{quest.twr.1B3C8681DF78AD16.description.2}"
-				"{quest.twr.1B3C8681DF78AD16.description.3}"
+				"{quest.twr.1CD9EB4A39925BB8.description.1}"
+				"{quest.twr.1CD9EB4A39925BB8.description.2}"
+				"{quest.twr.1CD9EB4A39925BB8.description.3}"
+				"{quest.twr.1CD9EB4A39925BB8.description.4}"
+				"{quest.twr.1CD9EB4A39925BB8.description.5}"
+				"{quest.twr.1CD9EB4A39925BB8.description.6}"
+				"{quest.twr.1CD9EB4A39925BB8.description.7}"
+			]
+			id: "1CD9EB4A39925BB8"
+			tasks: [{
+				id: "698704746E033DF8"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "44F6FB5102EE8558"
+				type: "item"
+				item: "frostedheart:rye_bread"
+			}]
+		}
+		{
+			title: "{quest.twr.543F5BC239D07C40.title}"
+			icon: "minecraft:oak_sapling"
+			x: -10.0d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "{quest.twr.543F5BC239D07C40.subtitle}"
+			description: [
+				"{quest.twr.543F5BC239D07C40.description.1}"
+				"{quest.twr.543F5BC239D07C40.description.2}"
+				"{quest.twr.543F5BC239D07C40.description.3}"
+				"{quest.twr.543F5BC239D07C40.description.4}"
+				"{quest.twr.543F5BC239D07C40.description.5}"
+				"{quest.twr.543F5BC239D07C40.description.6}"
 			]
 			dependencies: ["1CD9EB4A39925BB8"]
-			id: "1B3C8681DF78AD16"
+			id: "543F5BC239D07C40"
 			tasks: [{
-				id: "74FC4561FBA9442D"
+				id: "7421B8D8B161FCBC"
 				type: "checkmark"
-				title: "{quest.twr.1B3C8681DF78AD16.74FC4561FBA9442D.title}"
+			}]
+			rewards: [{
+				id: "2F3CEB557C7CEFB7"
+				type: "item"
+				item: "frostedheart:rye_bread"
 			}]
 		}
 	]

@@ -36,32 +36,36 @@
 			}]
 		}
 		{
-			icon: "frozenup:chilloo_spawn_egg"
-			x: 1.5d
-			y: 0.0d
+			title: "{quest.twr.20E078A9220D6114.title}"
+			x: 5.0d
+			y: 3.0d
 			subtitle: "{quest.twr.20E078A9220D6114.subtitle}"
-			dependencies: ["7521769E8333942B"]
+			description: ["{quest.twr.20E078A9220D6114.description.1}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"7521769E8333942B"
+				"76BFBA40C36D0699"
+			]
+			hide: true
 			id: "20E078A9220D6114"
-			tasks: [
+			tasks: [{
+				id: "11A9CA1F97143B6A"
+				type: "item"
+				item: "frozenup:frozen_truffle"
+			}]
+			rewards: [
 				{
-					id: "05B7A25D32BE3A83"
-					type: "kill"
-					icon: "frozenup:chilloo_spawn_egg"
-					entity: "frozenup:chilloo"
-					value: 1L
+					id: "6100E4D684D5FFC1"
+					type: "item"
+					item: "frozenup:truffle_muffin"
+					count: 2
 				}
 				{
-					id: "11A9CA1F97143B6A"
+					id: "7E06293A478622ED"
 					type: "item"
-					item: "frozenup:frozen_truffle"
+					item: "frozenup:mug_of_truffle_hot_chocolate"
 				}
 			]
-			rewards: [{
-				id: "6100E4D684D5FFC1"
-				type: "item"
-				item: "frozenup:truffle_muffin"
-				count: 2
-			}]
 		}
 		{
 			x: 0.0d
@@ -72,7 +76,12 @@
 				"{quest.twr.7491448A8055DBE6.description.2}"
 				"{quest.twr.7491448A8055DBE6.description.3}"
 			]
-			dependencies: ["7521769E8333942B"]
+			hide_dependency_lines: true
+			dependencies: [
+				"7521769E8333942B"
+				"76723451C6850C81"
+			]
+			hide: true
 			id: "7491448A8055DBE6"
 			tasks: [{
 				id: "6B7A74E6A2E785B9"
@@ -87,7 +96,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 3.5d
 			y: 1.5d
 			subtitle: "{quest.twr.25F5289EF9A76559.subtitle}"
 			description: ["{quest.twr.25F5289EF9A76559.description.0}"]
@@ -102,7 +111,8 @@
 		}
 		{
 			title: "{quest.twr.7AC1F59A495B58AE.title}"
-			x: 3.5d
+			icon: "minecraft:porkchop"
+			x: 5.0d
 			y: 1.5d
 			subtitle: "{quest.twr.7AC1F59A495B58AE.subtitle}"
 			description: ["{quest.twr.7AC1F59A495B58AE.description.0}"]
@@ -118,7 +128,7 @@
 		}
 		{
 			title: "{quest.twr.7A2CCE64AEE955EC.title}"
-			x: 5.0d
+			x: 3.5d
 			y: 0.0d
 			subtitle: "{quest.twr.7A2CCE64AEE955EC.subtitle}"
 			description: [
@@ -143,7 +153,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 5.0d
 			y: 0.0d
 			subtitle: "{quest.twr.4CC2FB4B9CE2367B.subtitle}"
 			description: ["{quest.twr.4CC2FB4B9CE2367B.description.0}"]
@@ -157,7 +167,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 5.0d
 			y: -1.5d
 			subtitle: "{quest.twr.2B0D00CB09B96703.subtitle}"
 			description: ["{quest.twr.2B0D00CB09B96703.description.1}"]
@@ -171,7 +181,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 0.0d
 			y: -1.5d
 			shape: "rsquare"
 			subtitle: "{quest.twr.76723451C6850C81.subtitle}"
@@ -190,8 +200,8 @@
 		{
 			title: "{quest.twr.76BFBA40C36D0699.title}"
 			icon: "frostedheart:temperature_probe"
-			x: 6.5d
-			y: 0.0d
+			x: 3.5d
+			y: -1.5d
 			subtitle: "{quest.twr.76BFBA40C36D0699.subtitle}"
 			description: [
 				"{quest.twr.76BFBA40C36D0699.description.1}"

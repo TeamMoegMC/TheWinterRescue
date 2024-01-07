@@ -377,9 +377,10 @@
 			hide_text_until_complete: false
 			id: "707E5C06843421A7"
 			tasks: [{
-				id: "244DC5B1EED909E7"
+				id: "05D317EDBEE17EA2"
 				type: "item"
 				item: "frostedheart:copper_gravel"
+
 			}]
 		}
 		{
