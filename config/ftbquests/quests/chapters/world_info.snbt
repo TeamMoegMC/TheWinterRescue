@@ -379,9 +379,7 @@
 			tasks: [{
 				id: "244DC5B1EED909E7"
 				type: "item"
-				title: "{quest.twr.707E5C06843421A7.244DC5B1EED909E7.title}"
-				icon: "frostedheart:copper_gravel"
-				item: "kubejs:native_copper"
+				item: "frostedheart:copper_gravel"
 			}]
 		}
 		{

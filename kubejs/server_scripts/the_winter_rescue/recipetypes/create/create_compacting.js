@@ -21,8 +21,6 @@ onEvent('recipes', (event) => {
         {output: "kubejs:wet_straw_briquette", input: ["8x charcoal_pit:straw"]}
     ]
     let heated = [
-        {output: "kubejs:creosoted_charcoal_briquette", input: ["kubejs:charcoal_dust",Fluid.of('immersiveengineering:creosote',250)]},
-        {output: "kubejs:creosoted_sawdust_briquette", input: ["4x #forge:dusts/wood",Fluid.of('immersiveengineering:creosote', 10)]},
 		{output: "2x frostedheart:compressed_biscuits", input: [Fluid.of('minecraft:water', 400),"2x create:wheat_flour"]},
 		{output: "2x frostedheart:compressed_biscuits", input: [Fluid.of('minecraft:water', 400),"3x frostedheart:rye_flour"]},
 		{output: "5x frostedheart:compressed_biscuits", input: [Fluid.of('immersiveengineering:plantoil', 100),"6x frostedheart:rye_flour"]},
