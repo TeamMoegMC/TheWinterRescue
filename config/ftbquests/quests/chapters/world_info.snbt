@@ -377,30 +377,9 @@
 			hide_text_until_complete: false
 			id: "707E5C06843421A7"
 			tasks: [{
-				id: "244DC5B1EED909E7"
+				id: "05D317EDBEE17EA2"
 				type: "item"
-				title: "{quest.twr.707E5C06843421A7.244DC5B1EED909E7.title}"
-				icon: "frostedheart:copper_gravel"
-				item: "kubejs:native_copper"
-			}]
-		}
-		{
-			x: 1.0d
-			y: 0.5d
-			subtitle: "{quest.twr.7FA0ADDB6ABCAB6A.subtitle}"
-			description: ["{quest.twr.7FA0ADDB6ABCAB6A.description.1}"]
-			dependencies: ["181378ABF5CCD166"]
-			id: "7FA0ADDB6ABCAB6A"
-			tasks: [{
-				id: "1D86C1365882CDC2"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "rankine:rankine_journal"
-					}
-				}
+				item: "frostedheart:copper_gravel"
 			}]
 		}
 		{

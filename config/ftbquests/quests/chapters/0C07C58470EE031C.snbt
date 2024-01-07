@@ -12,9 +12,9 @@
 		{
 			title: "{quest.twr.6667AA13CA3DAC9B.title}"
 			icon: "ftbquests:book"
-			x: -3.5999999999999996d
+			x: 1.5d
 			y: 0.0d
-			shape: "square"
+			shape: "gear"
 			subtitle: "{quest.twr.6667AA13CA3DAC9B.subtitle}"
 			description: [
 				"{quest.twr.6667AA13CA3DAC9B.description.1}"
@@ -28,8 +28,8 @@
 				"{quest.twr.6667AA13CA3DAC9B.description.9}"
 				"{quest.twr.6667AA13CA3DAC9B.description.10}"
 			]
-			dependencies: ["1CD9EB4A39925BB8"]
-			size: 1.2d
+			dependencies: ["2422C77587FDEE28"]
+			hide: true
 			id: "6667AA13CA3DAC9B"
 			tasks: [{
 				id: "53400295DD5D4011"
@@ -39,9 +39,9 @@
 		{
 			title: "{quest.twr.1F615C38B1A015E5.title}"
 			icon: "minecraft:book"
-			x: -2.0d
-			y: 0.0d
-			shape: "square"
+			x: 7.5d
+			y: 2.0d
+			shape: "hexagon"
 			subtitle: "{quest.twr.1F615C38B1A015E5.subtitle}"
 			description: [
 				"{quest.twr.1F615C38B1A015E5.description.1}"
@@ -52,7 +52,9 @@
 				"{quest.twr.1F615C38B1A015E5.description.6}"
 				"{quest.twr.1F615C38B1A015E5.description.7}"
 			]
-			dependencies: ["6667AA13CA3DAC9B"]
+			hide_dependency_lines: true
+			dependencies: ["32E5D942F1FE8645"]
+			hide: true
 			id: "1F615C38B1A015E5"
 			tasks: [{
 				id: "0758A45D51C54F20"
@@ -62,9 +64,10 @@
 		}
 		{
 			title: "{quest.twr.58EF2132D0431323.title}"
-			x: -1.0d
+			icon: "immersiveengineering:electron_tube"
+			x: 19.0d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			subtitle: "{quest.twr.58EF2132D0431323.subtitle}"
 			description: [
 				"{quest.twr.58EF2132D0431323.description.1}"
@@ -73,7 +76,9 @@
 				"{quest.twr.58EF2132D0431323.description.4}"
 				"{quest.twr.58EF2132D0431323.description.5}"
 			]
-			dependencies: ["1F615C38B1A015E5"]
+			hide_dependency_lines: true
+			dependencies: ["6B7D4F59C921C1FC"]
+			hide: true
 			id: "58EF2132D0431323"
 			tasks: [{
 				id: "4955B8E28DC29D7C"
@@ -82,36 +87,11 @@
 			}]
 		}
 		{
-			title: "{quest.twr.3B5663CF194B054C.title}"
-			x: 0.0d
-			y: 0.0d
-			shape: "square"
-			subtitle: "{quest.twr.3B5663CF194B054C.subtitle}"
-			description: [
-				"{quest.twr.3B5663CF194B054C.description.1}"
-				"{quest.twr.3B5663CF194B054C.description.2}"
-				"{quest.twr.3B5663CF194B054C.description.3}"
-				"{quest.twr.3B5663CF194B054C.description.4}"
-				"{quest.twr.3B5663CF194B054C.description.5}"
-				"{quest.twr.3B5663CF194B054C.description.6}"
-				"{quest.twr.3B5663CF194B054C.description.7}"
-				"{quest.twr.3B5663CF194B054C.description.8}"
-				"{quest.twr.3B5663CF194B054C.description.9}"
-				"{quest.twr.3B5663CF194B054C.description.10}"
-			]
-			dependencies: ["58EF2132D0431323"]
-			id: "3B5663CF194B054C"
-			tasks: [{
-				id: "3428FDD619813DBF"
-				type: "checkmark"
-				icon: "frostedheart:temperature_probe"
-			}]
-		}
-		{
 			title: "{quest.twr.33B6E7B60783C72B.title}"
-			x: 0.0d
-			y: -1.0d
-			shape: "square"
+			icon: "watersource:purified_water_bottle"
+			x: 3.0d
+			y: 4.0d
+			shape: "hexagon"
 			subtitle: "{quest.twr.33B6E7B60783C72B.subtitle}"
 			description: [
 				"{quest.twr.33B6E7B60783C72B.description.1}"
@@ -120,7 +100,8 @@
 				"{quest.twr.33B6E7B60783C72B.description.4}"
 				"{quest.twr.33B6E7B60783C72B.description.5}"
 			]
-			dependencies: ["3B5663CF194B054C"]
+			dependencies: ["660F95E6765CD77A"]
+			hide: true
 			id: "33B6E7B60783C72B"
 			tasks: [{
 				id: "6E14D0E983EACA58"
@@ -136,10 +117,10 @@
 		}
 		{
 			title: "{quest.twr.215BC2E7271F1478.title}"
-			icon: "crockpot:food_category_meat"
-			x: 0.0d
-			y: 1.0d
-			shape: "square"
+			icon: "kubejs:fruits_and_vegs"
+			x: 4.5d
+			y: 5.0d
+			shape: "hexagon"
 			subtitle: "{quest.twr.215BC2E7271F1478.subtitle}"
 			description: [
 				"{quest.twr.215BC2E7271F1478.description.1}"
@@ -148,8 +129,10 @@
 				"{quest.twr.215BC2E7271F1478.description.4}"
 				"{quest.twr.215BC2E7271F1478.description.5}"
 				"{quest.twr.215BC2E7271F1478.description.6}"
+				"{quest.twr.215BC2E7271F1478.description.7}"
 			]
-			dependencies: ["3B5663CF194B054C"]
+			dependencies: ["660F95E6765CD77A"]
+			hide: true
 			id: "215BC2E7271F1478"
 			tasks: [{
 				id: "58F4265EA5C778FB"
@@ -158,9 +141,9 @@
 		}
 		{
 			icon: "crockpot:turkey_dinner"
-			x: 0.0d
-			y: 2.0d
-			shape: "square"
+			x: 4.5d
+			y: 6.5d
+			shape: "hexagon"
 			subtitle: "{quest.twr.24E7D1E02BE55A8E.subtitle}"
 			description: [
 				"{quest.twr.24E7D1E02BE55A8E.description.1}"
@@ -174,7 +157,6 @@
 			]
 			dependencies: ["215BC2E7271F1478"]
 			hide: true
-			optional: true
 			id: "24E7D1E02BE55A8E"
 			tasks: [{
 				id: "047874DA9F5AB4B1"
@@ -190,8 +172,9 @@
 		{
 			title: "{quest.twr.32E5D942F1FE8645.title}"
 			icon: "minecraft:flint"
-			x: 3.0d
+			x: 3.5d
 			y: 0.0d
+			shape: "gear"
 			subtitle: "{quest.twr.32E5D942F1FE8645.subtitle}"
 			description: [
 				"{quest.twr.32E5D942F1FE8645.description.1}"
@@ -200,7 +183,7 @@
 				"{quest.twr.32E5D942F1FE8645.description.4}"
 				"{quest.twr.32E5D942F1FE8645.description.5}"
 			]
-			dependencies: ["56E5FD2809882B5F"]
+			dependencies: ["6667AA13CA3DAC9B"]
 			hide: true
 			id: "32E5D942F1FE8645"
 			tasks: [
@@ -232,8 +215,9 @@
 		{
 			title: "{quest.twr.3102993072F3C8B9.title}"
 			icon: "stone_age:flint_workbench"
-			x: 4.5d
+			x: 7.5d
 			y: 0.0d
+			shape: "gear"
 			subtitle: "{quest.twr.3102993072F3C8B9.subtitle}"
 			description: [
 				"{quest.twr.3102993072F3C8B9.description.1}"
@@ -242,8 +226,8 @@
 				"{quest.twr.3102993072F3C8B9.description.4}"
 				"{quest.twr.3102993072F3C8B9.description.5}"
 			]
-			dependencies: ["32E5D942F1FE8645"]
-			hide: true
+			hide_dependency_lines: false
+			dependencies: ["348EB1588EFAD2AB"]
 			id: "3102993072F3C8B9"
 			tasks: [
 				{
@@ -253,6 +237,7 @@
 				{
 					id: "5EAF6B48C8FA678E"
 					type: "item"
+					title: "燧石工作台 - 点击查看合成配方"
 					item: "stone_age:flint_workbench"
 				}
 			]
@@ -263,8 +248,9 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -1.5d
+			x: 5.5d
+			y: 0.0d
+			shape: "gear"
 			subtitle: "{quest.twr.348EB1588EFAD2AB.subtitle}"
 			description: [
 				"{quest.twr.348EB1588EFAD2AB.description.1}"
@@ -272,7 +258,7 @@
 				"{quest.twr.348EB1588EFAD2AB.description.3}"
 				"{quest.twr.348EB1588EFAD2AB.description.4}"
 			]
-			dependencies: ["3102993072F3C8B9"]
+			dependencies: ["32E5D942F1FE8645"]
 			hide: true
 			id: "348EB1588EFAD2AB"
 			tasks: [{
@@ -301,15 +287,16 @@
 					Damage: 38
 				}
 			}
-			x: 4.5d
-			y: 1.5d
+			x: 5.5d
+			y: -2.0d
+			shape: "gear"
 			subtitle: "{quest.twr.14D7D98FC5264B03.subtitle}"
 			description: [
 				"{quest.twr.14D7D98FC5264B03.description.1}"
 				"{quest.twr.14D7D98FC5264B03.description.2}"
 				"{quest.twr.14D7D98FC5264B03.description.3}"
 			]
-			dependencies: ["3102993072F3C8B9"]
+			dependencies: ["32E5D942F1FE8645"]
 			hide: true
 			id: "14D7D98FC5264B03"
 			tasks: [{
@@ -331,13 +318,12 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 1.5d
-			shape: "square"
+			x: 9.5d
+			y: -2.0d
+			shape: "gear"
 			subtitle: "{quest.twr.1233EF3CDF5E33F8.subtitle}"
 			description: ["{quest.twr.1233EF3CDF5E33F8.description.1}"]
 			dependencies: ["14D7D98FC5264B03"]
-			hide: true
 			id: "1233EF3CDF5E33F8"
 			tasks: [{
 				id: "3349CF3A5F68D6F5"
@@ -353,16 +339,16 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -1.5d
-			shape: "square"
+			x: 9.5d
+			y: 0.0d
+			shape: "gear"
 			subtitle: "{quest.twr.1D7F2824DAF3BB7B.subtitle}"
 			description: [
 				"{quest.twr.1D7F2824DAF3BB7B.description.1}"
 				"{quest.twr.1D7F2824DAF3BB7B.description.2}"
 			]
 			dependencies: ["348EB1588EFAD2AB"]
-			hide: true
+			hide: false
 			id: "1D7F2824DAF3BB7B"
 			tasks: [{
 				id: "4366249350406528"
@@ -377,9 +363,9 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 11.5d
 			y: 0.0d
-			shape: "square"
+			shape: "gear"
 			subtitle: "{quest.twr.29BC87594650152D.subtitle}"
 			description: [
 				"{quest.twr.29BC87594650152D.description.1}"
@@ -440,11 +426,12 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 0.0d
+			x: 11.5d
+			y: 2.0d
 			subtitle: "{quest.twr.70E6A4B9946F263A.subtitle}"
 			description: ["{quest.twr.70E6A4B9946F263A.description.1}"]
 			dependencies: ["29BC87594650152D"]
+			hide: true
 			optional: true
 			id: "70E6A4B9946F263A"
 			tasks: [{
@@ -466,15 +453,16 @@
 		}
 		{
 			title: "{quest.twr.3B7B7A0BC0CF3CE0.title}"
-			x: 9.0d
-			y: 0.0d
-			shape: "square"
+			x: 22.0d
+			y: 2.0d
+			shape: "gear"
 			subtitle: "{quest.twr.3B7B7A0BC0CF3CE0.subtitle}"
 			description: [
 				"{quest.twr.3B7B7A0BC0CF3CE0.description.1}"
 				"{quest.twr.3B7B7A0BC0CF3CE0.description.2}"
 			]
-			dependencies: ["29BC87594650152D"]
+			hide_dependency_lines: true
+			dependencies: ["4B6FFA5A9140019F"]
 			hide: true
 			id: "3B7B7A0BC0CF3CE0"
 			tasks: [
@@ -492,15 +480,16 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: -1.5d
+			x: 14.5d
+			y: -2.0d
 			subtitle: "{quest.twr.7521769E8333942B.subtitle}"
 			description: [
 				"{quest.twr.7521769E8333942B.description.1}"
 				"{quest.twr.7521769E8333942B.description.2}"
 			]
-			dependencies: ["29BC87594650152D"]
+			dependencies: ["4B6FFA5A9140019F"]
 			hide: true
+			optional: true
 			id: "7521769E8333942B"
 			tasks: [{
 				id: "73D32EE1AFEFFA3C"
@@ -526,8 +515,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -3.0d
+			x: 14.5d
+			y: -4.0d
 			subtitle: "{quest.twr.443AD02B85632386.subtitle}"
 			description: [
 				"{quest.twr.443AD02B85632386.description.1}"
@@ -535,6 +524,7 @@
 				"{quest.twr.443AD02B85632386.description.3}"
 			]
 			dependencies: ["7521769E8333942B"]
+			optional: true
 			id: "443AD02B85632386"
 			tasks: [{
 				id: "6F52C9ED127AECCF"
@@ -550,8 +540,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -4.5d
+			x: 16.0d
+			y: -4.0d
 			subtitle: "{quest.twr.2406D98489C938B8.subtitle}"
 			description: [
 				"{quest.twr.2406D98489C938B8.description.1}"
@@ -584,12 +574,11 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: 3.0d
-			shape: "square"
+			x: 14.5d
+			y: 2.0d
 			subtitle: "{quest.twr.5D803F0865A90DE0.subtitle}"
 			description: ["{quest.twr.5D803F0865A90DE0.description.1}"]
-			dependencies: ["29BC87594650152D"]
+			dependencies: ["4B6FFA5A9140019F"]
 			hide: true
 			id: "5D803F0865A90DE0"
 			tasks: [{
@@ -610,12 +599,12 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -1.5d
-			shape: "square"
+			x: 17.5d
+			y: 2.0d
+			shape: "gear"
 			subtitle: "{quest.twr.6B7D4F59C921C1FC.subtitle}"
 			description: ["{quest.twr.6B7D4F59C921C1FC.description.1}"]
-			dependencies: ["29BC87594650152D"]
+			dependencies: ["4B6FFA5A9140019F"]
 			hide: true
 			id: "6B7D4F59C921C1FC"
 			tasks: [{
@@ -639,8 +628,9 @@
 		{
 			title: "{quest.twr.76B2B1A3EC6D92CD.title}"
 			icon: "minecraft:charcoal"
-			x: 10.5d
-			y: -1.5d
+			x: 17.5d
+			y: 0.0d
+			shape: "gear"
 			subtitle: "{quest.twr.76B2B1A3EC6D92CD.subtitle}"
 			description: [
 				"{quest.twr.76B2B1A3EC6D92CD.description.1}"
@@ -673,8 +663,8 @@
 		{
 			title: "{quest.twr.36960F1D7CDC8B30.title}"
 			icon: "minecraft:campfire"
-			x: 10.5d
-			y: 0.0d
+			x: 20.5d
+			y: 2.0d
 			shape: "gear"
 			subtitle: "{quest.twr.36960F1D7CDC8B30.subtitle}"
 			description: [
@@ -684,14 +674,11 @@
 				"{quest.twr.36960F1D7CDC8B30.description.4}"
 				"{quest.twr.36960F1D7CDC8B30.description.5}"
 				"{quest.twr.36960F1D7CDC8B30.description.6}"
-				"{quest.twr.36960F1D7CDC8B30.description.7}"
-				"{quest.twr.36960F1D7CDC8B30.description.8}"
 			]
 			dependencies: [
 				"6B7D4F59C921C1FC"
 				"3B7B7A0BC0CF3CE0"
 			]
-			size: 1.2d
 			id: "36960F1D7CDC8B30"
 			tasks: [
 				{
@@ -761,8 +748,8 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: 0.0d
+			x: 20.5d
+			y: 4.0d
 			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
 			description: [
 				"{quest.twr.643B93BCE91A0BB9.description.1}"
@@ -786,12 +773,16 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -1.5d
+			x: 19.0d
+			y: 4.0d
 			subtitle: "{quest.twr.04DC32D417FA819E.subtitle}"
-			description: ["{quest.twr.04DC32D417FA819E.description.1}"]
+			description: [
+				"{quest.twr.04DC32D417FA819E.description.1}"
+				"再烧一次就能获得热水，喝下后能增加你的体温。"
+			]
 			dependencies: ["36960F1D7CDC8B30"]
 			hide: true
+			optional: true
 			id: "04DC32D417FA819E"
 			tasks: [
 				{
@@ -823,15 +814,15 @@
 					Damage: 0
 				}
 			}
-			x: 9.0d
-			y: 1.5d
-			shape: "square"
+			x: 17.5d
+			y: -2.0d
+			shape: "gear"
 			subtitle: "{quest.twr.45E2EF843333B846.subtitle}"
 			description: [
 				"{quest.twr.45E2EF843333B846.description.1}"
 				"{quest.twr.45E2EF843333B846.description.2}"
 			]
-			dependencies: ["29BC87594650152D"]
+			dependencies: ["4B6FFA5A9140019F"]
 			hide: true
 			id: "45E2EF843333B846"
 			tasks: [
@@ -859,18 +850,16 @@
 		}
 		{
 			title: "{quest.twr.1837531DB19C9023.title}"
-			x: 10.5d
-			y: 1.5d
+			x: 20.5d
+			y: -2.0d
 			shape: "gear"
 			subtitle: "{quest.twr.1837531DB19C9023.subtitle}"
 			description: [
 				"{quest.twr.1837531DB19C9023.description.1}"
 				"{quest.twr.1837531DB19C9023.description.2}"
 				"{quest.twr.1837531DB19C9023.description.3}"
-				"{quest.twr.1837531DB19C9023.description.4}"
 			]
 			dependencies: ["45E2EF843333B846"]
-			size: 1.2d
 			id: "1837531DB19C9023"
 			tasks: [{
 				id: "499B968D078E2A5A"
@@ -887,11 +876,14 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -3.0d
+			x: 13.0d
+			y: -4.0d
 			subtitle: "{quest.twr.718403EB34A5B46F.subtitle}"
 			description: ["{quest.twr.718403EB34A5B46F.description.1}"]
-			dependencies: ["348EB1588EFAD2AB"]
+			hide_dependency_lines: true
+			dependencies: ["4B6FFA5A9140019F"]
+			hide: true
+			optional: true
 			id: "718403EB34A5B46F"
 			tasks: [{
 				id: "1D8EA544D790D174"
@@ -900,16 +892,19 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -3.0d
+			x: 14.5d
+			y: -6.0d
 			subtitle: "{quest.twr.42AF456D165CBF75.subtitle}"
 			description: [
 				"{quest.twr.42AF456D165CBF75.description.1}"
 				"{quest.twr.42AF456D165CBF75.description.2}"
 				"{quest.twr.42AF456D165CBF75.description.3}"
 			]
-			dependencies: ["718403EB34A5B46F"]
-			hide: true
+			dependencies: [
+				"718403EB34A5B46F"
+				"443AD02B85632386"
+			]
+			optional: true
 			id: "42AF456D165CBF75"
 			tasks: [{
 				id: "6C321E201EBDBE78"
@@ -930,12 +925,14 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -4.5d
+			x: 14.5d
+			y: -8.0d
 			subtitle: "{quest.twr.5DD231E4178E830D.subtitle}"
 			description: [
 				"{quest.twr.5DD231E4178E830D.description.1}"
 				"{quest.twr.5DD231E4178E830D.description.2}"
+				""
+				"注意：易燃"
 			]
 			dependencies: ["42AF456D165CBF75"]
 			optional: true
@@ -953,11 +950,10 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -4.5d
+			x: 13.0d
+			y: -7.0d
 			subtitle: "{quest.twr.4DD7D3E4613000E4.subtitle}"
 			dependencies: ["42AF456D165CBF75"]
-			hide: true
 			optional: true
 			id: "4DD7D3E4613000E4"
 			tasks: [{
@@ -974,8 +970,8 @@
 		}
 		{
 			icon: "stone_age:fishing_net"
-			x: 7.5d
-			y: -4.5d
+			x: 16.0d
+			y: -7.0d
 			subtitle: "{quest.twr.506C01A9BE167F7F.subtitle}"
 			description: [
 				"{quest.twr.506C01A9BE167F7F.description.1}"
@@ -1017,9 +1013,9 @@
 		}
 		{
 			icon: "minecraft:book"
-			x: 1.2d
+			x: -0.5d
 			y: 0.0d
-			shape: "square"
+			shape: "hexagon"
 			subtitle: "{quest.twr.56E5FD2809882B5F.subtitle}"
 			description: [
 				"{quest.twr.56E5FD2809882B5F.description.1}"
@@ -1027,45 +1023,13 @@
 				"{quest.twr.56E5FD2809882B5F.description.3}"
 				"{quest.twr.56E5FD2809882B5F.description.4}"
 			]
-			dependencies: ["3B5663CF194B054C"]
-			size: 1.2d
+			dependencies: ["2422C77587FDEE28"]
+			hide: true
 			id: "56E5FD2809882B5F"
 			tasks: [{
 				id: "384D3A68430787BB"
 				type: "checkmark"
 				title: "{quest.twr.56E5FD2809882B5F.384D3A68430787BB.title}"
-			}]
-		}
-		{
-			title: "{quest.twr.63E5A6B843181EE1.title}"
-			x: 9.0d
-			y: -3.0d
-			subtitle: "{quest.twr.63E5A6B843181EE1.subtitle}"
-			description: [
-				"{quest.twr.63E5A6B843181EE1.description.1}"
-				"{quest.twr.63E5A6B843181EE1.description.2}"
-				"{quest.twr.63E5A6B843181EE1.description.3}"
-			]
-			dependencies: ["6B7D4F59C921C1FC"]
-			optional: true
-			id: "63E5A6B843181EE1"
-			tasks: [{
-				id: "3D4AE72AF4AB36A0"
-				type: "item"
-				title: "{quest.twr.63E5A6B843181EE1.3D4AE72AF4AB36A0.title}"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "rankine:gold_pans"
-					}
-				}
-			}]
-			rewards: [{
-				id: "14A643F302CD6541"
-				type: "item"
-				item: "minecraft:gravel"
-				count: 8
 			}]
 		}
 		{
@@ -1077,9 +1041,9 @@
 					"patchouli:book": "stone_age:stone_tablet"
 				}
 			}
-			x: 1.0d
-			y: 1.0d
-			shape: "square"
+			x: 16.0d
+			y: -2.0d
+			shape: "hexagon"
 			subtitle: "{quest.twr.25E712ACCAB68E99.subtitle}"
 			description: [
 				"{quest.twr.25E712ACCAB68E99.description.1}"
@@ -1089,7 +1053,9 @@
 				"{quest.twr.25E712ACCAB68E99.description.5}"
 				"{quest.twr.25E712ACCAB68E99.description.6}"
 			]
-			dependencies: ["3B5663CF194B054C"]
+			hide_dependency_lines: true
+			dependencies: ["4B6FFA5A9140019F"]
+			hide: true
 			id: "25E712ACCAB68E99"
 			tasks: [{
 				id: "7DCB592CE89499A1"
@@ -1110,19 +1076,15 @@
 		}
 		{
 			title: "{quest.twr.29C8077E15E6C418.title}"
-			x: 11.4d
-			y: 3.0d
-			shape: "gear"
+			x: 14.5d
+			y: 4.0d
 			subtitle: "{quest.twr.29C8077E15E6C418.subtitle}"
 			description: [
 				"{quest.twr.29C8077E15E6C418.description.1}"
 				"{quest.twr.29C8077E15E6C418.description.2}"
 				"{quest.twr.29C8077E15E6C418.description.3}"
-				"{quest.twr.29C8077E15E6C418.description.4}"
-				"{quest.twr.29C8077E15E6C418.description.5}"
 			]
 			dependencies: ["5D803F0865A90DE0"]
-			size: 1.2d
 			id: "29C8077E15E6C418"
 			tasks: [{
 				id: "7CAEAA529B84A90D"
@@ -1154,8 +1116,8 @@
 					Damage: 0
 				}
 			}
-			x: 12.0d
-			y: 1.5d
+			x: 22.0d
+			y: 4.0d
 			subtitle: "{quest.twr.28F313C8E1312A2B.subtitle}"
 			description: [
 				"{quest.twr.28F313C8E1312A2B.description.1}"
@@ -1170,6 +1132,7 @@
 				"{quest.twr.28F313C8E1312A2B.description.10}"
 			]
 			dependencies: ["36960F1D7CDC8B30"]
+			hide: true
 			optional: true
 			id: "28F313C8E1312A2B"
 			tasks: [
@@ -1229,8 +1192,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -6.0d
+			x: 14.5d
+			y: -10.0d
 			subtitle: "{quest.twr.6E83E2133A978D34.subtitle}"
 			description: [
 				"{quest.twr.6E83E2133A978D34.description.1}"
@@ -1253,8 +1216,8 @@
 		}
 		{
 			title: "{quest.twr.601652521AB22ED5.title}"
-			x: 9.0d
-			y: 2.5d
+			x: 17.5d
+			y: -4.0d
 			subtitle: "{quest.twr.601652521AB22ED5.subtitle}"
 			description: [
 				"{quest.twr.601652521AB22ED5.description.1}"
@@ -1264,6 +1227,7 @@
 			]
 			dependencies: ["45E2EF843333B846"]
 			hide: true
+			optional: true
 			id: "601652521AB22ED5"
 			tasks: [{
 				id: "0FB405721BB51185"
@@ -1281,18 +1245,331 @@
 		{
 			title: "{quest.twr.7EFFAF6A69D2EE66.title}"
 			icon: "minecraft:oak_sapling"
-			x: 10.5d
-			y: -3.0d
+			x: 16.0d
+			y: 2.0d
+			shape: "hexagon"
 			subtitle: "{quest.twr.7EFFAF6A69D2EE66.subtitle}"
 			description: [
 				"{quest.twr.7EFFAF6A69D2EE66.description.1}"
 				"{quest.twr.7EFFAF6A69D2EE66.description.2}"
 			]
+			hide_dependency_lines: true
 			dependencies: ["6B7D4F59C921C1FC"]
+			hide: true
 			id: "7EFFAF6A69D2EE66"
 			tasks: [{
 				id: "483C18090B96035F"
 				type: "checkmark"
+			}]
+		}
+		{
+			title: "配置选项"
+			icon: "crockpot:watermelon_icle"
+			x: -1.5d
+			y: 5.0d
+			shape: "hexagon"
+			subtitle: "暴风雪不够冷?"
+			description: [
+				"打开文件\"&o&7saves\\\\你的存档\\\\serverconfig\\\\frostedheart-server.toml&r\"可以更改体温系统的难度，也可以单独修改体温变化速率，或是关闭死亡保存快捷栏物品。"
+				""
+				"你也可以在\"&o&7config\\\\frostedheart-client.toml&r\"中更改温度显示单位，温度球的显示位置，或者关闭整合包自定义HUD(不推荐)。"
+			]
+			dependencies: ["660F95E6765CD77A"]
+			hide: true
+			id: "270CAEEC664E3D0B"
+			tasks: [{
+				id: "1548932BA7FE9AA4"
+				type: "checkmark"
+				icon: "frostedheart:mercury_body_thermometer"
+			}]
+		}
+		{
+			icon: "rankine:pia"
+			x: 1.5d
+			y: 2.0d
+			shape: "hexagon"
+			subtitle: "常回家看看"
+			description: [
+				"边框为齿轮的任务是&b章节主线任务&r，你需要完成之后才能进行下一步。"
+				""
+				"圆形的任务是&b支线任务&r，并不需要急着完成。"
+				""
+				"六边形的任务是提示和帮助，能解决大部分游玩过程中的问题，&b请务必仔细阅读&r。"
+				""
+				"随着流程推进你会获得更多提示，别忘了查看它们！"
+				"&o&7这么多文字可能看起来很累，你最先需要了解的是温度和饮水！"
+			]
+			dependencies: ["6667AA13CA3DAC9B"]
+			hide: true
+			id: "660F95E6765CD77A"
+			tasks: [{
+				id: "71D0A569C8AC4690"
+				type: "checkmark"
+				title: "帮助"
+			}]
+		}
+		{
+			title: "体温"
+			icon: "frostedheart:mercury_body_thermometer"
+			x: 1.5d
+			y: 5.5d
+			shape: "hexagon"
+			description: [
+				"体温变化速率受到&b环境温度&r和&6衣物保暖数值&r影响。"
+				""
+				"当体温开始降低时，你的经验条会被&b温度指示条&r替换，完全变红后获得&b失温效果&r并开始&b受到伤害&r。"
+				"体温变化速率过高时也会被烫伤或冻伤。"
+				""
+				"在做出体温计之前你无法查看详细体温数值。"
+			]
+			dependencies: ["2DFCACEE88BDF18B"]
+			id: "76E0A57CE55FFCEA"
+			tasks: [{
+				id: "6D6B476F48C9D98E"
+				type: "checkmark"
+				title: "体温"
+			}]
+		}
+		{
+			icon: "frostedheart:temperature_probe"
+			x: 1.5d
+			y: 3.5d
+			shape: "hexagon"
+			subtitle: "划重点"
+			description: [
+				"温度是冬季救援中的基础设定，分清不同温度的作用非常重要。"
+				""
+				"如果你希望将温度单位更改为华氏度，请参考(任务：配置选项)。"
+			]
+			dependencies: ["660F95E6765CD77A"]
+			hide: true
+			id: "2DFCACEE88BDF18B"
+			tasks: [{
+				id: "068140961FE866D0"
+				type: "checkmark"
+				title: "温度"
+			}]
+		}
+		{
+			title: "土壤温度"
+			icon: "frostedheart:soil_thermometer"
+			x: 0.5d
+			y: 6.0d
+			shape: "hexagon"
+			subtitle: "不需要担心作物过季"
+			description: [
+				"土壤温度比较特殊，它不会受到环境温度影响，&b只会被能加热土壤的设备提高&r，例如能量塔，或是因为天气原因降低。"
+				""
+				"土壤温度决定了作物能否在当前位置生长和种植。"
+				"达到&b最低种植温度&r的作物会&b缓慢&r生长，在合适的温度区间恢复到&b正常速度&r。"
+				""
+				"种植后如果土壤温度低于最低种植温度会导致作物&b停止生长&r，继续降低甚至会让作物枯萎。"
+				""
+				"你需要使用&b土壤温度计&r测量土壤温度。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4B6FFA5A9140019F"]
+			hide: true
+			id: "797D120146136A5C"
+			tasks: [{
+				id: "1924CA73AA697024"
+				type: "checkmark"
+				title: "土壤温度"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "不是很结实"
+			description: ["在&b背包&r中把干草搓成绳子，能用来制作一些简易的工具"]
+			dependencies: ["29BC87594650152D"]
+			id: "4B6FFA5A9140019F"
+			tasks: [{
+				id: "22A1B13A6277575D"
+				type: "item"
+				item: "rankine:rope"
+			}]
+		}
+		{
+			title: "{quest.twr.4BD8236FEEBD7D3A.title}"
+			icon: "minecraft:stone"
+			x: 22.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "{quest.twr.4BD8236FEEBD7D3A.subtitle}"
+			description: [
+				"{quest.twr.4BD8236FEEBD7D3A.description.1}"
+				"{quest.twr.4BD8236FEEBD7D3A.description.2}"
+				"{quest.twr.4BD8236FEEBD7D3A.description.3}"
+				"{quest.twr.4BD8236FEEBD7D3A.description.4}"
+				"{quest.twr.4BD8236FEEBD7D3A.description.5}"
+				"{quest.twr.4BD8236FEEBD7D3A.description.6}"
+			]
+			dependencies: [
+				"1837531DB19C9023"
+				"36960F1D7CDC8B30"
+			]
+			size: 1.2d
+			id: "4BD8236FEEBD7D3A"
+			tasks: [
+				{
+					id: "011A9EDCF3272C2E"
+					type: "checkmark"
+					title: "{quest.twr.4BD8236FEEBD7D3A.011A9EDCF3272C2E.title}"
+				}
+				{
+					id: "3951E51612CBC2CA"
+					type: "item"
+					item: "minecraft:stone"
+				}
+			]
+			rewards: [
+				{
+					id: "0BDCC5409A0391EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "127A3EB9E4204639"
+					type: "item"
+					item: "rankine:rope"
+					count: 10
+				}
+			]
+		}
+		{
+			icon: "minecraft:soul_campfire"
+			x: 2.5d
+			y: 6.0d
+			shape: "hexagon"
+			description: [
+				"你肯定已经注意到了快捷栏上面的温度球，它显示的是你所在位置的&b环境温度&r。"
+				""
+				"环境温度受到日夜、天气、海拔等多种因素影响。"
+				"你也可以通过&6营火&r等方法手动提高。"
+				""
+				"简单来说&b环境温度越低，体温下降越快&r。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2DFCACEE88BDF18B"]
+			id: "49C0A13F97114740"
+			tasks: [{
+				id: "2864531689489974"
+				type: "checkmark"
+				title: "环境温度"
+			}]
+		}
+		{
+			title: "种植作物"
+			icon: {
+				id: "rankine:flint_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 16.0d
+			y: 4.0d
+			shape: "hexagon"
+			subtitle: "我们还是干点别的吧?"
+			description: [
+				"你可能会想做一把锄头用来种地，"
+				"但是这鬼地方太冷了，大部分作物都&b无法生长&r。"
+				"也许你需要某种&b稳定的加热设备&r，很显然营火并不是合适的选择。"
+				""
+				"关于土壤温度可以查看左侧解锁的新教程。"
+				""
+				"现在你只能靠其他方法获取食物。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4B6FFA5A9140019F"]
+			hide: true
+			id: "477565C132877FBA"
+			tasks: [{
+				id: "111E3936E84ED168"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "minecraft:campfire"
+			x: 20.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "别靠太近"
+			description: [
+				"当营火被点燃时，它会向周围环境释放\"&6热流&r\"。"
+				""
+				"热流会&b随距离衰减&r，最简单的例子就是你越靠近营火，你感受到的环境温度越高。"
+				""
+				"热流也会被墙壁&b反射&r，在营火周围放置方块能&b聚集分散的热流，使温度上升&r，同时热流也能穿过不完整方块。"
+				""
+				"因此一个类似壁炉的结构是真实有效的，而在空旷的野外放置的营火也会让效果大打折扣。"
+			]
+			hide_dependency_lines: true
+			dependencies: ["36960F1D7CDC8B30"]
+			hide: true
+			id: "654627121432688E"
+			tasks: [{
+				id: "43282F7A52C25B6F"
+				type: "checkmark"
+				title: "热对流系统"
+			}]
+		}
+		{
+			title: "额外读物：保暖指南"
+			icon: {
+				id: "frostedheart:gambeson"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: 7.0d
+			shape: "hexagon"
+			subtitle: "在这个冰天雪地里，保持体温非常重要"
+			description: [
+				"●穿戴有&6保暖效果&r的衣物能有效阻止&b环境温度&r导致的体温变化&o&7(包括升温)&r，你的宇航服保暖性能优异，能为你争取宝贵的生存时间"
+				""
+				"●避免下水，潮湿会导致衣物保暖&b大幅下降&r。"
+				""
+				"●避免站在室外，燃起营火取暖"
+				""
+				"●饮用热水，或来一碗热汤"
+				""
+				"&m&o&7●点燃自己"
+				""
+				"如果您认为体温系统过于困难可以参考任务\"配置选项\"进行修改。"
+			]
+			dependencies: ["76E0A57CE55FFCEA"]
+			hide: true
+			id: "125F6ADB0DEA3EEA"
+			tasks: [{
+				id: "19EBF82E7D63F17D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{quest.twr.1B3C8681DF78AD16.title}"
+			icon: "minecraft:writable_book"
+			x: 0.0d
+			y: 4.0d
+			shape: "hexagon"
+			subtitle: "{quest.twr.1B3C8681DF78AD16.subtitle}"
+			description: [
+				"{quest.twr.1B3C8681DF78AD16.description.1}"
+				"{quest.twr.1B3C8681DF78AD16.description.2}"
+				"{quest.twr.1B3C8681DF78AD16.description.3}"
+			]
+			hide_dependency_lines: false
+			dependencies: ["660F95E6765CD77A"]
+			hide: true
+			id: "1B3C8681DF78AD16"
+			tasks: [{
+				id: "74FC4561FBA9442D"
+				type: "checkmark"
+				title: "{quest.twr.1B3C8681DF78AD16.74FC4561FBA9442D.title}"
 			}]
 		}
 	]
