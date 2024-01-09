@@ -329,7 +329,7 @@
 				id: "3349CF3A5F68D6F5"
 				type: "item"
 				item: "primalwinter:snowy_vine"
-				count: 16L
+				count: 32L
 			}]
 			rewards: [{
 				id: "68A0A825B611BB51"
@@ -383,7 +383,7 @@
 				id: "5DF3E0777A5A6D09"
 				type: "item"
 				item: "charcoal_pit:straw"
-				count: 4L
+				count: 32L
 			}]
 			rewards: [{
 				id: "1B12987080C1C9CE"
@@ -548,12 +548,19 @@
 				item: "stone_age:raw_hide"
 				count: 4L
 			}]
-			rewards: [{
-				id: "4275790E4CE99758"
-				type: "item"
-				item: "stone_age:raw_hide"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "4275790E4CE99758"
+					type: "item"
+					item: "stone_age:raw_hide"
+					count: 4
+				}
+				{
+					id: "5BCFBE4EFFD32289"
+					type: "choice"
+					table_id: 389061185286350382L
+				}
+			]
 		}
 		{
 			x: 16.0d
@@ -1111,14 +1118,14 @@
 				id: "7CAEAA529B84A90D"
 				type: "item"
 				item: "rankine:packed_snow"
-				count: 16L
+				count: 32L
 			}]
 			rewards: [
 				{
 					id: "67FB1A7A368B0BCE"
 					type: "item"
 					item: "charcoal_pit:thatch"
-					count: 8
+					count: 16
 				}
 				{
 					id: "24F9E5EE5A414695"
@@ -1237,7 +1244,7 @@
 				id: "3FCC2D2BE95727D1"
 				type: "item"
 				item: "minecraft:oak_log"
-				count: 4
+				count: 16
 			}]
 		}
 		{
@@ -1415,6 +1422,7 @@
 				id: "22A1B13A6277575D"
 				type: "item"
 				item: "rankine:rope"
+				count: 4L
 			}]
 		}
 		{

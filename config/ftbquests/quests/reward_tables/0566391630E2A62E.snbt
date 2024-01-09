@@ -1,0 +1,44 @@
+{
+	id: "0566391630E2A62E"
+	order_index: 0
+	title: "燧石工具包"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "rankine:flint_spear"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "rankine:flint_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "rankine:flint_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "rankine:flint_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}
