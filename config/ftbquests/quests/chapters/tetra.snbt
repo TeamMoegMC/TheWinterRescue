@@ -275,6 +275,9 @@
 				"{quest.twr.7DC424AE6C863411.description.3}"
 				"{quest.twr.7DC424AE6C863411.description.4}"
 			]
+			hide_dependency_lines: true
+			dependencies: ["11DD149796E14E81"]
+			hide: true
 			id: "7DC424AE6C863411"
 			tasks: [{
 				id: "186DB8CB34E6C717"
@@ -292,6 +295,9 @@
 				"{quest.twr.43C8F5C863F12A5E.description.2}"
 				"{quest.twr.43C8F5C863F12A5E.description.3}"
 			]
+			hide_dependency_lines: true
+			dependencies: ["11DD149796E14E81"]
+			hide: true
 			id: "43C8F5C863F12A5E"
 			tasks: [{
 				id: "2DCC527066D5B5D4"
@@ -315,6 +321,9 @@
 				"{quest.twr.18A5F787CC9E6ECA.description.2}"
 				"{quest.twr.18A5F787CC9E6ECA.description.3}"
 			]
+			hide_dependency_lines: true
+			dependencies: ["11DD149796E14E81"]
+			hide: true
 			id: "18A5F787CC9E6ECA"
 			tasks: [{
 				id: "47953B6A6AFAE166"

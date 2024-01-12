@@ -50,8 +50,8 @@
 		{
 			title: "{quest.twr.19603323EAAFF726.title}"
 			icon: "minecraft:oak_planks"
-			x: -5.0d
-			y: -1.5d
+			x: -6.5d
+			y: -1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.19603323EAAFF726.subtitle}"
 			description: [
@@ -60,6 +60,7 @@
 				"{quest.twr.19603323EAAFF726.description.3}"
 			]
 			dependencies: ["7E3F0C805E2BBB9F"]
+			hide: true
 			id: "19603323EAAFF726"
 			tasks: [{
 				id: "56616CBB1C923EE5"
@@ -77,7 +78,7 @@
 		}
 		{
 			x: -5.0d
-			y: 2.0d
+			y: 2.5d
 			shape: "gear"
 			subtitle: "{quest.twr.689BB00EC2454F1F.subtitle}"
 			description: [
@@ -93,8 +94,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -4.0d
+			x: -8.0d
+			y: -1.0d
 			subtitle: "{quest.twr.417AC14073DD4249.subtitle}"
 			description: ["{quest.twr.417AC14073DD4249.description.1}"]
 			dependencies: ["19603323EAAFF726"]
@@ -110,7 +111,7 @@
 		{
 			title: "{quest.twr.0A9A5166127945AB.title}"
 			x: -2.5d
-			y: 2.0d
+			y: 2.5d
 			shape: "gear"
 			subtitle: "{quest.twr.0A9A5166127945AB.subtitle}"
 			description: [
@@ -135,7 +136,7 @@
 		}
 		{
 			title: "{quest.twr.586D66C71A378A82.title}"
-			x: -1.0d
+			x: -0.5d
 			y: 0.5d
 			shape: "gear"
 			subtitle: "{quest.twr.586D66C71A378A82.subtitle}"
@@ -208,8 +209,8 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 3.5d
+			x: -0.5d
+			y: 4.5d
 			shape: "gear"
 			subtitle: "{quest.twr.4B6840707D77E2C0.subtitle}"
 			description: ["{quest.twr.4B6840707D77E2C0.description.1}"]
@@ -227,7 +228,7 @@
 		{
 			title: "{quest.twr.3C4CEEBFF8DCF448.title}"
 			x: -2.5d
-			y: 5.0d
+			y: 4.5d
 			shape: "gear"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
 			description: [
@@ -235,7 +236,7 @@
 				"{quest.twr.3C4CEEBFF8DCF448.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["0A9A5166127945AB"]
+			dependencies: ["689BB00EC2454F1F"]
 			hide: true
 			id: "3C4CEEBFF8DCF448"
 			tasks: [{
@@ -324,6 +325,7 @@
 			]
 			dependencies: ["13D9DE54DF8117C2"]
 			hide: true
+			size: 1.5d
 			id: "75154C5A6E2F3257"
 			tasks: [{
 				id: "1019411D398ECFCE"
@@ -346,7 +348,7 @@
 		}
 		{
 			x: -7.5d
-			y: 2.0d
+			y: 2.5d
 			shape: "gear"
 			subtitle: "{quest.twr.6D92E93A0811C1FD.subtitle}"
 			description: [
@@ -371,7 +373,7 @@
 		}
 		{
 			x: 9.0d
-			y: -5.5d
+			y: -4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.29533DFBD579CA2F.subtitle}"
 			description: [
@@ -387,8 +389,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -3.5d
+			x: -6.5d
+			y: -4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.3078BCEE3E402DED.subtitle}"
 			description: [
@@ -411,12 +413,13 @@
 		{
 			title: "{quest.twr.74780AAD5FDF8870.title}"
 			icon: "kubejs:flux"
-			x: -2.5d
+			x: -3.5d
 			y: -1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.74780AAD5FDF8870.subtitle}"
 			description: ["{quest.twr.74780AAD5FDF8870.description.1}"]
 			dependencies: ["7E3F0C805E2BBB9F"]
+			hide: true
 			id: "74780AAD5FDF8870"
 			tasks: [
 				{
@@ -440,7 +443,7 @@
 		}
 		{
 			x: -6.5d
-			y: 4.0d
+			y: 4.5d
 			subtitle: "{quest.twr.6CF9868197215C1D.subtitle}"
 			description: [
 				"{quest.twr.6CF9868197215C1D.description.1}"
@@ -468,8 +471,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.0d
+			x: -3.5d
+			y: -4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.35E5CE37A2F8EB90.subtitle}"
 			description: ["{quest.twr.35E5CE37A2F8EB90.description.1}"]
@@ -483,7 +486,7 @@
 			}]
 		}
 		{
-			x: -1.0d
+			x: -5.0d
 			y: -5.5d
 			shape: "gear"
 			subtitle: "{quest.twr.4543F3B5F937E6B0.subtitle}"
@@ -513,7 +516,7 @@
 		}
 		{
 			icon: "charcoal_pit:coke"
-			x: -1.0d
+			x: -5.0d
 			y: -7.5d
 			subtitle: "{quest.twr.77A7511048D5767B.subtitle}"
 			description: [
@@ -572,8 +575,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: -7.5d
+			x: 11.5d
+			y: -2.5d
 			shape: "gear"
 			subtitle: "{quest.twr.1C8171C8FD1D0CD5.subtitle}"
 			description: [
@@ -589,8 +592,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -5.5d
+			x: 11.0d
+			y: -1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.47F458D8E94E5367.subtitle}"
 			description: [
@@ -613,7 +616,7 @@
 			}]
 		}
 		{
-			x: -3.0d
+			x: -3.5d
 			y: -7.5d
 			subtitle: "{quest.twr.66505076652885B8.subtitle}"
 			description: [
@@ -636,8 +639,8 @@
 		}
 		{
 			icon: "charcoal_pit:sandy_collector"
-			x: 6.5d
-			y: -7.5d
+			x: 12.0d
+			y: -4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.13AA30FB9CD620EB.subtitle}"
 			description: [
@@ -655,7 +658,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 10.5d
 			y: -5.5d
 			shape: "gear"
 			subtitle: "{quest.twr.4625CA3FEAF6908B.subtitle}"
@@ -684,8 +687,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 3.5d
+			x: -0.5d
+			y: 6.5d
 			subtitle: "{quest.twr.4CD30E566C5776E0.subtitle}"
 			description: ["{quest.twr.4CD30E566C5776E0.description.1}"]
 			dependencies: ["4B6840707D77E2C0"]
@@ -712,8 +715,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 4.5d
+			x: -1.5d
+			y: 6.5d
 			subtitle: "{quest.twr.7D2826CCB69C5EE8.subtitle}"
 			dependencies: ["4B6840707D77E2C0"]
 			hide: true
@@ -743,7 +746,7 @@
 		{
 			disable_toast: true
 			x: -5.0d
-			y: 4.0d
+			y: 4.5d
 			subtitle: "{quest.twr.062E137E7ECB4C99.subtitle}"
 			description: [
 				"{quest.twr.062E137E7ECB4C99.description.1}"
@@ -767,7 +770,7 @@
 		}
 		{
 			title: "{quest.twr.3EE690327B36D6E0.title}"
-			x: 6.0d
+			x: 5.0d
 			y: -4.0d
 			subtitle: "{quest.twr.3EE690327B36D6E0.subtitle}"
 			description: ["{quest.twr.3EE690327B36D6E0.description.1}"]
@@ -795,7 +798,7 @@
 		}
 		{
 			icon: "watersource:wooden_water_filter"
-			x: 7.5d
+			x: 6.5d
 			y: -4.0d
 			subtitle: "{quest.twr.3622C3DFDB5D8E02.subtitle}"
 			description: [
@@ -856,7 +859,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 5.0d
 			y: 3.0d
 			subtitle: "{quest.twr.1974619E18DB754A.subtitle}"
 			description: [
@@ -940,8 +943,8 @@
 		}
 		{
 			title: "{quest.twr.0B9DBC18CEEC4CB2.title}"
-			x: -1.0d
-			y: 5.0d
+			x: 3.0d
+			y: 4.5d
 			subtitle: "{quest.twr.0B9DBC18CEEC4CB2.subtitle}"
 			description: [
 				"{quest.twr.0B9DBC18CEEC4CB2.description.1}"
@@ -968,11 +971,12 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -1.5d
+			x: -5.0d
+			y: -1.0d
 			subtitle: "{quest.twr.7175C1158EE9178A.subtitle}"
 			description: ["{quest.twr.7175C1158EE9178A.description.1}"]
 			dependencies: ["7E3F0C805E2BBB9F"]
+			hide: true
 			optional: true
 			id: "7175C1158EE9178A"
 			tasks: [{
@@ -988,7 +992,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 3.0d
 			y: -4.0d
 			subtitle: "{quest.twr.79D38F0D4D3E5482.subtitle}"
 			description: [
@@ -1012,7 +1016,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 1.5d
 			y: -4.0d
 			subtitle: "{quest.twr.5E3A878B95133DAD.subtitle}"
 			description: [
@@ -1036,7 +1040,7 @@
 		}
 		{
 			x: 0.5d
-			y: 2.5d
+			y: 6.5d
 			subtitle: "{quest.twr.190859211258D56B.subtitle}"
 			description: ["{quest.twr.190859211258D56B.description.1}"]
 			dependencies: ["4B6840707D77E2C0"]
@@ -1095,7 +1099,7 @@
 					Damage: 0
 				}
 			}
-			x: 5.0d
+			x: 3.0d
 			y: 3.0d
 			subtitle: "{quest.twr.0E067BFAE2FB5441.subtitle}"
 			description: [
@@ -1137,8 +1141,8 @@
 		}
 		{
 			icon: "minecraft:netherrack"
-			x: -9.5d
-			y: 2.0d
+			x: -7.5d
+			y: 6.5d
 			shape: "hexagon"
 			subtitle: "{quest.twr.3B306015B7675BD1.subtitle}"
 			description: [
@@ -1167,7 +1171,7 @@
 			title: "{block.thermopolium.stew_pot}"
 			icon: "thermopolium:stew_pot"
 			x: -8.5d
-			y: 4.0d
+			y: 4.5d
 			subtitle: "{quest.twr.11A33F924E78C874.subtitle}"
 			description: [
 				"{quest.twr.11A33F924E78C874.description.1}"
@@ -1297,7 +1301,7 @@
 		}
 		{
 			title: "{quest.twr.139033FEB9593ABE.title}"
-			x: 3.0d
+			x: 5.0d
 			y: 4.5d
 			subtitle: "{quest.twr.139033FEB9593ABE.subtitle}"
 			description: ["{quest.twr.139033FEB9593ABE.description.1}"]
@@ -1320,7 +1324,7 @@
 		}
 		{
 			icon: "minecraft:book"
-			x: -9.0d
+			x: -9.5d
 			y: 0.5d
 			shape: "gear"
 			subtitle: "{quest.twr.3BF2DCE33791510B.subtitle}"
@@ -1336,8 +1340,8 @@
 		}
 		{
 			title: "{quest.twr.63E5A6B843181EE1.title}"
-			x: -4.0d
-			y: 3.0d
+			x: -0.5d
+			y: 2.5d
 			subtitle: "{quest.twr.63E5A6B843181EE1.subtitle}"
 			description: [
 				"{quest.twr.63E5A6B843181EE1.description.1}"

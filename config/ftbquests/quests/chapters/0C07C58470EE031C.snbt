@@ -228,6 +228,7 @@
 			]
 			hide_dependency_lines: false
 			dependencies: ["32E5D942F1FE8645"]
+			hide: true
 			id: "3102993072F3C8B9"
 			tasks: [
 				{
@@ -259,7 +260,7 @@
 				"{quest.twr.348EB1588EFAD2AB.description.4}"
 			]
 			dependencies: ["32E5D942F1FE8645"]
-			hide: true
+			hide: false
 			id: "348EB1588EFAD2AB"
 			tasks: [{
 				id: "218222BA0E80D408"
@@ -347,10 +348,7 @@
 				"{quest.twr.1D7F2824DAF3BB7B.description.1}"
 				"{quest.twr.1D7F2824DAF3BB7B.description.2}"
 			]
-			dependencies: [
-				"348EB1588EFAD2AB"
-				"3102993072F3C8B9"
-			]
+			dependencies: ["348EB1588EFAD2AB"]
 			hide: false
 			id: "1D7F2824DAF3BB7B"
 			tasks: [{
