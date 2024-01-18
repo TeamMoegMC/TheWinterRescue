@@ -150,7 +150,6 @@
 				"{quest.twr.744D35762CD9BD26.description.8}"
 				"{quest.twr.744D35762CD9BD26.description.9}"
 			]
-			dependencies: ["1CD9EB4A39925BB8"]
 			hide: true
 			id: "744D35762CD9BD26"
 			tasks: [{
@@ -397,7 +396,7 @@
 		{
 			title: "{quest.twr.1CD9EB4A39925BB8.title}"
 			icon: "minecraft:player_head"
-			x: -10.0d
+			x: -2.5d
 			y: -0.5d
 			shape: "gear"
 			subtitle: "{quest.twr.1CD9EB4A39925BB8.subtitle}"
@@ -410,6 +409,7 @@
 				"{quest.twr.1CD9EB4A39925BB8.description.6}"
 				"{quest.twr.1CD9EB4A39925BB8.description.7}"
 			]
+			dependencies: ["2422C77587FDEE28"]
 			id: "1CD9EB4A39925BB8"
 			tasks: [{
 				id: "698704746E033DF8"
@@ -424,7 +424,7 @@
 		{
 			title: "{quest.twr.543F5BC239D07C40.title}"
 			icon: "minecraft:oak_sapling"
-			x: -10.0d
+			x: -2.5d
 			y: 1.0d
 			shape: "hexagon"
 			subtitle: "{quest.twr.543F5BC239D07C40.subtitle}"
