@@ -13,4 +13,10 @@ tempOrbOffsetY = 0
 enableHUD = true
 #Use Fahrenheit temperature instead of celsus.
 useFahrenheit = false
+#Enables the frozen overlay when player is freezing. 
+enableFrozenOverlay = true
+#Enables the vignette when player is freezing. 
+enableFrozenVignette = true
+#Enables the vignette when player is too hot. 
+enableHeatVignette = true
 
