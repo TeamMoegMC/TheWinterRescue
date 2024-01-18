@@ -59,6 +59,11 @@
 @startLayer
 @freeLayer n=layer1
 @ImageLayer n=bg s=twr_scenario:black.png tw=256 th=256 uw=256 uh=256 z=-999
+@showLayer t=20 trans=fadein
+@delay t=20
+
+@startLayer
+
 @TextLayer n=tl text="而且我知道，地球仍有一个渺茫的希望。" cv=1 ch=1 resize=2 clr=0xFFFFFF
 @showLayer t=20 trans=fadein
 @delay t=80
