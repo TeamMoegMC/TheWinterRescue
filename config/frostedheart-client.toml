@@ -22,3 +22,13 @@ enableHeatVignette = true
 #Enables the frozen sound when player is freezing. 
 enableFrozenSound = true
 
+[scenario]
+	#Base text appear speed, actual speed may change by scenario if necessary, speed 1 is 0.5 character per tick.
+	#Range: 1.0E-6 ~ 100000.0
+	textSpeed = 1.0
+	#Tick before click when a click is required to progress
+	#Range: 0 ~ 500
+	autoModeInterval = 40
+	#EnableaAuto click when scenario requires
+	autoMode = true
+

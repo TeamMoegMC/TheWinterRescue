@@ -3,14 +3,15 @@
 @actTitle t="冰星迫降" st="完成剧情"
 @showTitle t="第一章 第一节" st="冰星迫降"
 @delay t=60
+@stopbgm
 头好疼，这是，哪里？我怎么会在这里？[l][er]
 这里是...飞船船舱，我是...[delay t=20]我是...[l][er]
 @bgm n="frostedheart:the_fall_of_arcana"
 @fullScreenDialog show=1
 @startLayer
-@ImageLayer n=bg s=twr_scenario:white.png tw=256 th=256 uw=256 uh=256 z=-999
-@TextLayer n=tl text="我是..." cv=1 ch=1 resize=4 clr=0
-@showLayer t=20 trans=crossfade
+@FillRect n=bg clr=0xFFFFFFFF z=-999
+@TextLayer n=tl text="&0我是…&r" resize=72 x=916 y=540
+@showLayer t=20 trans=fadein
 @speed v=0.6
 @delay t=20
 
@@ -21,116 +22,131 @@
 @delay t=20
 
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:1c.png tw=1024 th=1024 uw=2048 uh=1170
+@ImageLayer n=layer1 s=twr_scenario:1.png
 @showLayer t=20 trans=fadein
 @delay t=20
-几乎从我拥有记忆的那一天起，地球就是白色的。[l][er]
-
+地球打我记事起就是一片雪白。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:2.png tw=1024 th=1024 uw=2048 uh=1170
+@ImageLayer n=layer1 s=twr_scenario:2.png
 @showLayer t=20 trans=fadeout
 @delay t=20
-我与上百万人一同在哥伦比亚特生活。[delay t=20]一座围绕着曾经的蓝色星球的自给自足的太空城，它以其为所有空间站中最大的为荣。[l][er]
-
+这颗曾经蔚蓝的行星上空环绕着哥伦比亚特[l]——我与其他百万人的住所。这是一座自给自足、规模睥睨其他空间站的太空城。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:3.png tw=1024 th=1024 uw=2048 uh=1170
-@showLayer t=60 trans=left
-它本应是一座方舟，不过它很快就变了。[delay t=20]它成为了少数人的天堂，悬浮在冰封的地狱之上，那里有数亿人慢慢消失。[l][er]
-
+@ImageLayer n=layer1 s=twr_scenario:3.png
+@FillRect n=overlay clr=0xFF000000 w=1024 x=1024
+@showLayer t=60 trans=overdown
+成为人类的方舟曾是这里的使命，但好景不长。[l]
+@startLayer
+@freeLayer n=overlay
+@showLayer t=60 trans=overup
+如今它只是少数人的港湾，冷漠地俯瞰着这片冰结的地狱，任由其上数十亿人的命运如风中残烛。[l][er]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:4.png tw=1024 th=1024 uw=2048 uh=1170
 @showLayer t=40 trans=left
-记忆同样会消退。人们，新一代，开始忘记那场冻结一切的大灾难。法案已经通过——空间站不再向地球上的人们提供援助。[l][er]
-
+记忆也如残烛般熄灭。那场冻结一切的浩劫已在新世代的记忆中荡然无存。[l]于是法案通过得堪称自然：再不会向留在地上的人投送援助了。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:5_1.png tw=1024 th=1024 uw=2048 uh=1170
+@ImageLayer n=layer1 s=twr_scenario:5.png tw=1024 th=1024 uw=2048 uh=1170
+@FillRect n=overlay1 clr=0xFF000000 w=694
+@FillRect n=overlay2 clr=0xFF000000 w=694 x=1354
 @showLayer t=40 trans=fadeout
-
-不能这样，这对我来说太残酷了。[l]
+可这于我又是何等残酷。[l]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:5_2.png tw=1024 th=1024 uw=2048 uh=1170
-@showLayer t=20 trans=fadeout
-我所有的亲人都被这场寒潮夺走了。[l]
+@freeLayer n=overlay1
+@showLayer t=40 trans=overdown
+我的所有至亲消逝在那场严寒中，[l]
 @startLayer
-
-@ImageLayer n=layer1 s=twr_scenario:5_3.png tw=1024 th=1024 uw=2048 uh=1170
-@showLayer t=20 trans=fadeout
-数以万计的人生活在同样的痛苦里。[l][er]
+@freeLayer n=overlay2
+@showLayer t=40 trans=overup
+与我同命相怜者也岂止百千。[l][er]
 @startLayer
 @freeLayer n=layer1
-@ImageLayer n=bg s=twr_scenario:black.png tw=256 th=256 uw=256 uh=256 z=-999
-@showLayer t=20 trans=fadein
-@delay t=20
-
+@FillRect n=bg clr=0xFF000000 z=-999
+@showLayer t=40 trans=overright
+@delay t=40
 @startLayer
-
-@TextLayer n=tl text="而且我知道，地球仍有一个渺茫的希望。" cv=1 ch=1 resize=2 clr=0xFFFFFF
+@TextLayer n=tl text="何况" resize=36 y=558 x=772
 @showLayer t=20 trans=fadein
-@delay t=80
+@delay t=40
+@startLayer
+@TextLayer n=tl text="何况希望还未消逝，" resize=36 y=558 x=772
+@showLayer t=20 trans=fadein
+@delay t=40 
+@startLayer
+@TextLayer n=tl text="何况希望还未消逝，虽然微茫。" resize=36 y=558 x=772
+@showLayer t=20 trans=fadein
+@delay t=60 
+
 @startLayer
 @freeLayer n=tl
-@showLayer t=40 trans=crossfade
+@showLayer t=20 trans=fadein
+@delay t=20 
 *midhalf
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:6.png tw=1024 th=1024 uw=2048 uh=1170
-@showLayer t=40 trans=nup
-二十年前，人类中最勇敢的一群人踏上了一场没有归途的冒险——向着地壳深处进发。我的母亲领导他们走向雪原深处。我从未来得及和她说过再见。[l][er]
+@ImageLayer n=layer1 s=twr_scenario:6.png
+@showLayer t=80 trans=overup
+二十年前，一群勇敢的人踏上了一条无归之路，一场指向地壳深处的冒险。领导他们的是我的母亲，但我甚至来不及向她道别。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:7_1.png tw=1024 th=1024 uw=2048 uh=1170
+@ImageLayer n=layer1 s=twr_scenario:7a.png
+@FillRect n=overlay1 clr=0xFF000000 w=846
+@FillRect n=overlay2 clr=0xFF000000 x=1500 w=548
 @showLayer t=20 trans=fadeout
-「解决危机，[l]
+他们想要解决危机、[wc]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:7_2.png tw=1024 th=1024 uw=2048 uh=1170
+@freeLayer n=overlay1
 @showLayer t=20 trans=fadeout
-揭示其根源。」[l]
+找出一切的祸根。[wc]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:7_3.png tw=1024 th=1024 uw=2048 uh=1170
+@freeLayer n=overlay2
 @showLayer t=20 trans=fadeout
-他们带着悲伤的野心离开，[l]
+他们化悲恸为雄心离开；[wc]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:7.png tw=1024 th=1024 uw=2048 uh=1170
+@ImageLayer n=layer1 s=twr_scenario:7.png
 @showLayer t=20 trans=fadeout
-但只给我们留下了拉长的绝望。[l][er]
+可在留下来的我们之间，日久天长，雄心发酵成了绝望。[l][er]
 
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:8_1.png tw=1024 th=1024 uw=2048 uh=1170
-@showLayer t=20 trans=fadeout
-我不相信奇迹，因为我是一名科学家。[l]
+@ImageLayer n=layer1 s=twr_scenario:8.png
+@FillRect n=overlay1 clr=0xFF000000       y=592 w=914  h=578
+@FillRect n=overlay2 clr=0xFF000000 x=914 y=578 w=1134 h=578
+@FillRect n=overlay3 clr=0xFF000000 x=988 w=1060 h=578
+@showLayer t=60 trans=fadein
+「奇迹」不是像我这样的科学家该相信的东西，[l]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:8_2.png tw=1024 th=1024 uw=2048 uh=1170
+@freeLayer n=overlay1
 @showLayer t=20 trans=fadeout
-但奇迹发生了：一次偶然的观测，一块区域大气的异常温度波动，[l]
+但就是发生了，调制在区域气温的起伏消长上，[l]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:8_3.png tw=1024 th=1024 uw=2048 uh=1170
+@freeLayer n=overlay2
 @showLayer t=20 trans=fadeout
-重复的摩斯电码。[l]
+那是一串以摩斯电码编码的ASCII字符。[wc]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:8.png tw=1024 th=1024 uw=2048 uh=1170
+@freeLayer n=overlay3
 @showLayer t=20 trans=fadeout
-它只是两个简单的字，全世界现在只有两个人知道：我的乳名。[l][er]
+不过是一个词而已，但世上只剩两个人知道。那是我的小名。[l][er]
 *half
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:9_1.png tw=1024 th=1024 uw=2048 uh=1170
+@ImageLayer n=layer1 s=twr_scenario:9.png
+@FillRect n=overlay1 clr=0xFF000000 w=1134
 @showLayer t=20 trans=fadein
-我知道她在呼唤我… 我已经等了二十年。[l]
+是她在叫我。为此我已等了二十年。[l]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:9.png tw=1024 th=1024 uw=2048 uh=1170
-@showLayer t=40 trans=fadein
-大气异常在黄石上方，那里现在是一片危险的冻土，火山活动也从未比以往更活跃，[l][er]
+@freeLayer n=overlay1
+@showLayer t=80 trans=overleft
+异常信号出现的地方是黄石，那里的火山活动如今依然活跃，虽然也已是一片冰封的荒原。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:10.png tw=1024 th=1024 uw=2048 uh=1170
-@showLayer t=40 trans=left
-大家都认为这不是奇迹，而是我的幻想。我只得独自踏上旅程，与几个相信我，或者相信着希望的人。[l][er]
+@ImageLayer n=layer1 s=twr_scenario:10.png
+@showLayer t=40 trans=right
+他们笑我把自己的幻想当成了奇迹。于是我只得找少数几位仍相信我、或仍相信希望的人一起，开始一趟孤独的旅程。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:11b.png tw=1024 th=1024 uw=2048 uh=1170
+@ImageLayer n=layer1 s=twr_scenario:11.png
 @showLayer t=40 trans=up
-我们登上「哥伦比亚特太空船 寒霜之心号」。但是我们的心不冷，我们的心从未如此暖和，从未如此燃烧过。[l][er]
+我们登上了「哥伦比亚特太空船 · 寒霜之心号」。但坐在这艘「寒霜之心号」中，我们的心潮炽烈如炭火。[l][er]
 @startLayer
 @freeLayer n=layer1
 @showLayer t=40 trans=fadeout
 @delay t=40
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:title.png tw=1024 th=1024 uw=2048 uh=1170
+@ImageLayer n=layer1 s=twr_scenario:title.png
 @showLayer t=40 trans=fadein
 @delay t=160
 @startLayer
