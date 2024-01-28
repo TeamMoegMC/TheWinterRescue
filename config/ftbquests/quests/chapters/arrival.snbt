@@ -10,100 +10,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "{quest.twr.60F112EDA31F73F5.title}"
-			icon: "ftbquests:book"
-			x: -5.0d
-			y: -0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.60F112EDA31F73F5.subtitle}"
-			description: [
-				"{quest.twr.60F112EDA31F73F5.description.1}"
-				"{quest.twr.60F112EDA31F73F5.description.2}"
-				"{quest.twr.60F112EDA31F73F5.description.3}"
-				"{quest.twr.60F112EDA31F73F5.description.4}"
-				"{quest.twr.60F112EDA31F73F5.description.5}"
-			]
-			dependencies: ["6C86BD5F9112256F"]
-			id: "60F112EDA31F73F5"
-			tasks: [{
-				id: "6895A9C90F35FF32"
-				type: "checkmark"
-				title: "{quest.twr.60F112EDA31F73F5.6895A9C90F35FF32.title}"
-			}]
-		}
-		{
-			title: "{quest.twr.6C86BD5F9112256F.title}"
-			icon: "create:propeller"
-			x: -6.0d
-			y: -0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.6C86BD5F9112256F.subtitle}"
-			description: [
-				"{quest.twr.6C86BD5F9112256F.description.1}"
-				"{quest.twr.6C86BD5F9112256F.description.2}"
-				"{quest.twr.6C86BD5F9112256F.description.3}"
-				"{quest.twr.6C86BD5F9112256F.description.4}"
-				"{quest.twr.6C86BD5F9112256F.description.5}"
-			]
-			dependencies: ["1337E25DE8FDFC42"]
-			id: "6C86BD5F9112256F"
-			tasks: [{
-				id: "739D90B64EFDC7EB"
-				type: "checkmark"
-				title: "{quest.twr.6C86BD5F9112256F.739D90B64EFDC7EB.title}"
-			}]
-		}
-		{
-			title: "{quest.twr.4E3C1F4BDB921B8E.title}"
-			icon: "frostedheart:relic_chest"
-			x: -8.0d
-			y: -0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.4E3C1F4BDB921B8E.subtitle}"
-			description: [
-				"{quest.twr.4E3C1F4BDB921B8E.description.1}"
-				"{quest.twr.4E3C1F4BDB921B8E.description.2}"
-				"{quest.twr.4E3C1F4BDB921B8E.description.3}"
-				"{quest.twr.4E3C1F4BDB921B8E.description.4}"
-			]
-			dependencies: ["744D35762CD9BD26"]
-			hide: true
-			id: "4E3C1F4BDB921B8E"
-			tasks: [{
-				id: "2CFE3196473A13A5"
-				type: "checkmark"
-				title: "{quest.twr.4E3C1F4BDB921B8E.2CFE3196473A13A5.title}"
-			}]
-			rewards: [
-				{
-					id: "293435A006B6506D"
-					type: "item"
-					item: {
-						id: "watersource:leather_water_bag"
-						Count: 1b
-						tag: {
-							Damage: 0
-							Fluid: {
-								FluidName: "watersource:purified_water"
-								Amount: 1500
-							}
-						}
-					}
-				}
-				{
-					id: "49F3280D5CEED77B"
-					type: "item"
-					item: {
-						id: "rankine:invar_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-		}
-		{
 			title: "{quest.twr.2422C77587FDEE28.title}"
 			icon: "minecraft:writable_book"
 			x: -4.0d
@@ -116,7 +22,7 @@
 				"{quest.twr.2422C77587FDEE28.description.3}"
 				"{quest.twr.2422C77587FDEE28.description.4}"
 			]
-			dependencies: ["60F112EDA31F73F5"]
+			dependencies: ["1CD9EB4A39925BB8"]
 			hide: true
 			id: "2422C77587FDEE28"
 			tasks: [{
@@ -135,16 +41,12 @@
 		{
 			title: "{quest.twr.744D35762CD9BD26.title}"
 			icon: "minecraft:fire_charge"
-			x: -9.0d
+			x: -7.0d
 			y: -0.5d
 			shape: "gear"
 			subtitle: "{quest.twr.744D35762CD9BD26.subtitle}"
 			description: [
 				"{quest.twr.744D35762CD9BD26.description.1}"
-				"{quest.twr.744D35762CD9BD26.description.2}"
-				"{quest.twr.744D35762CD9BD26.description.3}"
-				"{quest.twr.744D35762CD9BD26.description.4}"
-				"{quest.twr.744D35762CD9BD26.description.5}"
 				"{quest.twr.744D35762CD9BD26.description.6}"
 				"{quest.twr.744D35762CD9BD26.description.7}"
 				"{quest.twr.744D35762CD9BD26.description.8}"
@@ -159,35 +61,10 @@
 			}]
 		}
 		{
-			title: "{quest.twr.1337E25DE8FDFC42.title}"
-			x: -7.0d
-			y: -0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.1337E25DE8FDFC42.subtitle}"
-			description: [
-				"{quest.twr.1337E25DE8FDFC42.description.1}"
-				"{quest.twr.1337E25DE8FDFC42.description.2}"
-				"{quest.twr.1337E25DE8FDFC42.description.3}"
-				"{quest.twr.1337E25DE8FDFC42.description.4}"
-				"{quest.twr.1337E25DE8FDFC42.description.5}"
-				"{quest.twr.1337E25DE8FDFC42.description.6}"
-				"{quest.twr.1337E25DE8FDFC42.description.7}"
-				"{quest.twr.1337E25DE8FDFC42.description.8}"
-			]
-			dependencies: ["4E3C1F4BDB921B8E"]
-			id: "1337E25DE8FDFC42"
-			tasks: [{
-				id: "47660484AED244B9"
-				type: "checkmark"
-				title: "{quest.twr.1337E25DE8FDFC42.47660484AED244B9.title}"
-				icon: "frostedheart:weather_radar"
-			}]
-		}
-		{
 			title: "{quest.twr.7AFE32B08BB6CE6C.title}"
 			icon: "minecraft:paper"
-			x: -4.0d
-			y: 1.0d
+			x: -5.5d
+			y: -2.0d
 			shape: "hexagon"
 			subtitle: "{quest.twr.7AFE32B08BB6CE6C.subtitle}"
 			description: [
@@ -198,7 +75,7 @@
 				"{quest.twr.7AFE32B08BB6CE6C.description.5}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["2422C77587FDEE28"]
+			dependencies: ["1CD9EB4A39925BB8"]
 			id: "7AFE32B08BB6CE6C"
 			tasks: [
 				{
@@ -396,7 +273,7 @@
 		{
 			title: "{quest.twr.1CD9EB4A39925BB8.title}"
 			icon: "minecraft:player_head"
-			x: -2.5d
+			x: -5.5d
 			y: -0.5d
 			shape: "gear"
 			subtitle: "{quest.twr.1CD9EB4A39925BB8.subtitle}"
@@ -409,7 +286,7 @@
 				"{quest.twr.1CD9EB4A39925BB8.description.6}"
 				"{quest.twr.1CD9EB4A39925BB8.description.7}"
 			]
-			dependencies: ["2422C77587FDEE28"]
+			dependencies: ["744D35762CD9BD26"]
 			id: "1CD9EB4A39925BB8"
 			tasks: [{
 				id: "698704746E033DF8"
@@ -424,7 +301,7 @@
 		{
 			title: "{quest.twr.543F5BC239D07C40.title}"
 			icon: "minecraft:oak_sapling"
-			x: -2.5d
+			x: -5.5d
 			y: 1.0d
 			shape: "hexagon"
 			subtitle: "{quest.twr.543F5BC239D07C40.subtitle}"

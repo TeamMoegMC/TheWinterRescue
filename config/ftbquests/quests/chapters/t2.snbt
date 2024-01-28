@@ -133,12 +133,6 @@
 				item: "immersiveengineering:blastbrick"
 				count: 27L
 			}]
-			rewards: [{
-				id: "60494F3C9A0D5354"
-				type: "item"
-				item: "frostedheart:packed_nuts"
-				count: 2
-			}]
 		}
 		{
 			x: -14.5d
@@ -156,20 +150,6 @@
 				id: "3BE5CEBDB19E17D3"
 				type: "item"
 				item: "rankine:cast_iron_ingot"
-			}]
-			rewards: [{
-				id: "6873DF22F613BBE3"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:unbreaking"
-						}]
-					}
-				}
 			}]
 		}
 		{
@@ -226,11 +206,6 @@
 				type: "item"
 				item: "steampowered:bronze_cogwheel"
 			}]
-			rewards: [{
-				id: "6C13210CA3E58832"
-				type: "item"
-				item: "frostedheart:packed_nuts"
-			}]
 		}
 		{
 			x: -27.0d
@@ -273,20 +248,6 @@
 					item: "steampowered:bronze_flywheel"
 				}
 			]
-			rewards: [{
-				id: "0E5F3F5DA23B9CAD"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "minecraft:efficiency"
-						}]
-					}
-				}
-			}]
 		}
 		{
 			icon: "steampowered:cast_iron_steam_engine"
@@ -340,20 +301,6 @@
 					item: "immersiveengineering:wirecoil_copper"
 				}
 			]
-			rewards: [{
-				id: "5E88C6F6913AC531"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 4s
-							id: "minecraft:efficiency"
-						}]
-					}
-				}
-			}]
 		}
 		{
 			x: -16.0d
@@ -409,11 +356,6 @@
 				type: "item"
 				item: "create:millstone"
 			}]
-			rewards: [{
-				id: "6B19868893AA1656"
-				type: "item"
-				item: "frostedheart:packed_nuts"
-			}]
 		}
 		{
 			x: -2.5d
@@ -450,11 +392,6 @@
 				type: "item"
 				item: "create:mechanical_press"
 			}]
-			rewards: [{
-				id: "7D5720DCDD8E12B8"
-				type: "item"
-				item: "frostedheart:packed_nuts"
-			}]
 		}
 		{
 			x: -21.0d
@@ -477,11 +414,6 @@
 					item: "create:basin"
 				}
 			]
-			rewards: [{
-				id: "019008A66289D0CF"
-				type: "item"
-				item: "frostedheart:packed_nuts"
-			}]
 		}
 		{
 			x: -2.5d
@@ -520,11 +452,6 @@
 				id: "49FB5CCF0097B1A4"
 				type: "item"
 				item: "create:depot"
-			}]
-			rewards: [{
-				id: "584B193656D433DB"
-				type: "item"
-				item: "frostedheart:packed_nuts"
 			}]
 		}
 		{
@@ -580,20 +507,6 @@
 					item: "steampowered:bronze_boiler"
 				}
 			]
-			rewards: [{
-				id: "63089D717887F931"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:fortune"
-						}]
-					}
-				}
-			}]
 		}
 		{
 			x: -21.0d
@@ -611,11 +524,6 @@
 				id: "26C5FFE011F0C78A"
 				type: "item"
 				item: "create:fluid_pipe"
-			}]
-			rewards: [{
-				id: "61BFE8039201ED3E"
-				type: "item"
-				item: "frostedheart:packed_nuts"
 			}]
 		}
 		{
@@ -737,11 +645,6 @@
 				id: "0E15A479D897542E"
 				type: "item"
 				item: "immersiveengineering:blastfurnace_preheater"
-			}]
-			rewards: [{
-				id: "52DCC27EF3B289C7"
-				type: "item"
-				item: "frostedheart:packed_nuts"
 			}]
 		}
 		{
@@ -1138,11 +1041,6 @@
 				type: "item"
 				item: "create:gearbox"
 			}]
-			rewards: [{
-				id: "65A325952C163D61"
-				type: "item"
-				item: "frostedheart:packed_nuts"
-			}]
 		}
 		{
 			x: -8.5d
@@ -1178,20 +1076,6 @@
 				id: "235B545099D28CAC"
 				type: "item"
 				item: "frostedheart:oil_burner"
-			}]
-			rewards: [{
-				id: "1615ADA62FA9F49C"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:unbreaking"
-						}]
-					}
-				}
 			}]
 		}
 		{

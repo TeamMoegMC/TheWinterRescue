@@ -295,18 +295,9 @@
 				}
 			]
 			rewards: [{
-				id: "448FF6C2B6DFD36D"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 2s
-							id: "minecraft:unbreaking"
-						}]
-					}
-				}
+				id: "505EEA48D297FB96"
+				type: "choice"
+				table_id: 6579587557190678321L
 			}]
 		}
 		{
@@ -507,12 +498,6 @@
 				type: "item"
 				item: "rankine:mortar"
 			}]
-			rewards: [{
-				id: "2281B22FAAD810B3"
-				type: "item"
-				item: "minecraft:oak_log"
-				count: 10
-			}]
 		}
 		{
 			icon: "charcoal_pit:coke"
@@ -707,12 +692,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "65A4B584A4F47539"
-				type: "item"
-				item: "rankine:bronze_ingot"
-				count: 4
-			}]
 		}
 		{
 			x: -1.5d
@@ -765,7 +744,7 @@
 				id: "1021A9466C81E356"
 				type: "item"
 				item: "minecraft:stripped_oak_log"
-				count: 20
+				count: 4
 			}]
 		}
 		{
@@ -783,17 +762,6 @@
 				type: "item"
 				item: "minecraft:glass"
 				count: 10L
-			}]
-			rewards: [{
-				id: "55D780EE686F571B"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:water_breathing"
-					}
-				}
 			}]
 		}
 		{
@@ -1208,12 +1176,6 @@
 			]
 			rewards: [
 				{
-					id: "28E9A2FC0FD5DE01"
-					type: "item"
-					item: "frostedheart:military_rations"
-					count: 2
-				}
-				{
 					id: "20BE2D5B0F03748F"
 					type: "item"
 					item: "frostedheart:dried_vegetables"
@@ -1405,11 +1367,6 @@
 					item: "minecraft:stone_pressure_plate"
 				}
 			]
-			rewards: [{
-				id: "1934C05E903B2D94"
-				type: "item"
-				item: "frostedheart:packed_nuts"
-			}]
 		}
 	]
 }

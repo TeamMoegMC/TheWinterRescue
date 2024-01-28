@@ -273,12 +273,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "77E24B555B4EFB31"
-				type: "item"
-				item: "minecraft:stick"
-				count: 4
-			}]
 		}
 		{
 			icon: {
@@ -332,12 +326,6 @@
 				item: "primalwinter:snowy_vine"
 				count: 32L
 			}]
-			rewards: [{
-				id: "68A0A825B611BB51"
-				type: "item"
-				item: "minecraft:stick"
-				count: 4
-			}]
 		}
 		{
 			x: 9.5d
@@ -355,12 +343,6 @@
 				id: "4366249350406528"
 				type: "item"
 				item: "stone_age:drying_rack"
-			}]
-			rewards: [{
-				id: "7B7D0595E8C4F915"
-				type: "item"
-				item: "minecraft:flint"
-				count: 2
 			}]
 		}
 		{
@@ -503,30 +485,17 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "63D489676FBD6BBB"
-					type: "item"
-					item: {
-						id: "minecraft:splash_potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:strong_strength"
-						}
+			rewards: [{
+				id: "5F362019D014FFA6"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 160
 					}
 				}
-				{
-					id: "5F362019D014FFA6"
-					type: "item"
-					item: {
-						id: "minecraft:shield"
-						Count: 1b
-						tag: {
-							Damage: 160
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: 14.5d
@@ -546,19 +515,11 @@
 				item: "stone_age:raw_hide"
 				count: 4L
 			}]
-			rewards: [
-				{
-					id: "4275790E4CE99758"
-					type: "item"
-					item: "stone_age:raw_hide"
-					count: 4
-				}
-				{
-					id: "5BCFBE4EFFD32289"
-					type: "choice"
-					table_id: 389061185286350382L
-				}
-			]
+			rewards: [{
+				id: "5BCFBE4EFFD32289"
+				type: "choice"
+				table_id: 389061185286350382L
+			}]
 		}
 		{
 			x: 16.0d
@@ -576,17 +537,6 @@
 				type: "item"
 				item: {
 					id: "frostedheart:hide_jacket"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "63EF58D6EB60F38D"
-				type: "item"
-				item: {
-					id: "frostedheart:hide_hat"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -712,61 +662,53 @@
 					item: "minecraft:campfire"
 				}
 			]
-			rewards: [
-				{
-					id: "6F19F1FDBDC144F2"
-					type: "item"
-					item: "crockpot:kabobs"
-					count: 2
-				}
-				{
-					id: "4762E8ECB85E73FC"
-					type: "item"
-					item: {
-						id: "thermopolium:stracciatella"
-						Count: 1b
-						tag: {
-							type: "thermopolium:stracciatella"
-							soup: {
-								effects: [{
-									Ambient: 0b
-									CurativeItems: [{
-										id: "minecraft:milk_bucket"
-										Count: 1b
-									}]
-									ShowIcon: 1b
-									ShowParticles: 1b
-									Duration: 675
-									Id: 1b
-									Amplifier: 0b
+			rewards: [{
+				id: "4762E8ECB85E73FC"
+				type: "item"
+				item: {
+					id: "thermopolium:stracciatella"
+					Count: 1b
+					tag: {
+						type: "thermopolium:stracciatella"
+						soup: {
+							effects: [{
+								Ambient: 0b
+								CurativeItems: [{
+									id: "minecraft:milk_bucket"
+									Count: 1b
 								}]
-								feffects: [ ]
-								sat: 2.525f
-								heal: 5
-								items: [
-									{
-										id: "minecraft:porkchop"
-										Count: 1b
-										th_countf: 0.0625f
-									}
-									{
-										id: "minecraft:egg"
-										Count: 1b
-										th_countf: 1.0f
-									}
-									{
-										id: "rankine:asparagus"
-										Count: 1b
-										th_countf: 0.5625f
-									}
-								]
-								base: "thermopolium:nail_soup"
-								afluid: 0.25f
-							}
+								ShowIcon: 1b
+								ShowParticles: 1b
+								Duration: 675
+								Id: 1b
+								Amplifier: 0b
+							}]
+							feffects: [ ]
+							sat: 2.525f
+							heal: 5
+							items: [
+								{
+									id: "minecraft:porkchop"
+									Count: 1b
+									th_countf: 0.0625f
+								}
+								{
+									id: "minecraft:egg"
+									Count: 1b
+									th_countf: 1.0f
+								}
+								{
+									id: "rankine:asparagus"
+									Count: 1b
+									th_countf: 0.5625f
+								}
+							]
+							base: "thermopolium:nail_soup"
+							afluid: 0.25f
 						}
 					}
 				}
-			]
+			}]
 		}
 		{
 			x: 20.5d
@@ -785,12 +727,6 @@
 				type: "item"
 				item: "kubejs:straw_briquette"
 				count: 8L
-			}]
-			rewards: [{
-				id: "21F619AFDB48A366"
-				type: "item"
-				item: "minecraft:coal"
-				count: 2
 			}]
 		}
 		{
@@ -1219,7 +1155,6 @@
 						}
 					}
 				}
-				count: 4
 			}]
 		}
 		{
@@ -1466,7 +1401,7 @@
 					id: "127A3EB9E4204639"
 					type: "item"
 					item: "rankine:rope"
-					count: 10
+					count: 2
 				}
 			]
 		}

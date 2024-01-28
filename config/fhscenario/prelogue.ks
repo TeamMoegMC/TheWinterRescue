@@ -1,6 +1,6 @@
 
-@actTitle t="冰星迫降" st="完成剧情"
-@showTitle t="第一章 第一节" st="冰星迫降"
+@actTitle t="霜星迫降" st="完成剧情"
+@showTitle t="第一章 第一节" st="霜星迫降"
 @delay t=60
 @stopbgm
 头好疼，这是，哪里？我怎么会在这里？[l][er]
@@ -173,9 +173,39 @@
 @jump l=*chk
 *sel2
 @p
-[NoWait]我：[EndNoWait]好吧，我们只能弃船了，把还能用的雷达拆下来吧。[l]已经拆下来了。@p
-[NoWait]IIA：[EndNoWait]建议：设法寻求救援@p
+[NoWait]我：[EndNoWait]好吧，我们只能弃船了，把还能用的雷达拆下来吧，它应该能给我们提供一个天气预报。[l]好了，打开一下。[setResearchAttribute k=has_forecast v=1]@p
+[NoWait]我：[EndNoWait]天气预报接通了，似乎3天后会有一次暴风雪，接下来我应该干嘛呢？@p
+[NoWait]IIA：[EndNoWait]建议：设法寻求救援。@p
 [NoWait]我：[EndNoWait]没人能够救我们了，我们只能自救了。@p
+@hudDialog show=1
+@startLayer
+@DrawLine name=l1 sx="@1024+(uiScale)*16;" sy="@1152-(uiScale)*83;" dx=1224 dy=700 w="@uiScale*2;" clr=0xffeeee00
+@DrawLine name=l2 sx=1224 sy=700 dx=1324 dy=700 w="@uiScale*2;" clr=0xffeeee00
+@TextLayer n=tl text="&e体感温度" x=1330 y=684 resize=32 shadow=1
+@DrawLine name=l3 sx=1094 sy="@20*uiScale;" dx=1224 dy=250 w="@uiScale*2;" clr=0xffeeee00
+@DrawLine name=l4 sx=1224 sy=250 dx=1324 dy=250 w="@uiScale*2;" clr=0xffeeee00
+@TextLayer n=t2 text="&e最近5天天气预报" x=1330 y=234 resize=32 shadow=1
+@DrawLine name=l5 sx="@920-140*uiScale;" sy="@20*uiScale;" dx=412 dy=250 w="@uiScale*2;" clr=0xffeeee00
+@DrawLine name=l6 sx=412 sy=250 dx=320 dy=250 w="@uiScale*2;" clr=0xffeeee00
+@TextLayer n=t3 text="&e当前气温" x=172 y=234 resize=32 shadow=1 
+@DrawLine name=l7 sx="@980-100*uiScale;" sy="@20*uiScale;" dx=412 dy=296 w="@uiScale*2;" clr=0xffeeee00
+@DrawLine name=l8 sx=412 sy=296 dx=320 dy=296 w="@uiScale*2;" clr=0xffeeee00
+@TextLayer n=t4 text="&e游戏天数" x=172 y=280 resize=32 shadow=1
+@showLayer trans=overright t=40
+@delay t=40
+[link l=*cla]&e点击以继续[endlink]
+@wa
+*cla
+@hudDialog show=0
+[NoWait]我：[EndNoWait]取下飞船的物资吧！[l]
+@giveItem i=watersource:leather_water_bag n="{Damage:0,Fluid:{FluidName:\"watersource:purified_water\",Amount:1500}}"
+@giveItem i=rankine:invar_shovel
+@giveItem i=watersource:coconut_milk_bottle
+@giveItem i=minecraft:scaffolding c=8
+@giveItem i=frostedheart:military_rations c=16
+@p
+@showTitle t="第一章 第一节" st="已完成"
+@actTitle t="" st=""
 查看任务书以继续后续剧情。@p
 @s
 @call s="quest:744D35762CD9BD26?call"

@@ -383,25 +383,6 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 0.5d
-			subtitle: "{quest.twr.7FA0ADDB6ABCAB6A.subtitle}"
-			description: ["{quest.twr.7FA0ADDB6ABCAB6A.description.1}"]
-			dependencies: ["181378ABF5CCD166"]
-			id: "7FA0ADDB6ABCAB6A"
-			tasks: [{
-				id: "1D86C1365882CDC2"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "rankine:rankine_journal"
-					}
-				}
-			}]
-		}
-		{
 			x: 4.0d
 			y: 4.0d
 			description: ["{quest.twr.3AC7F7FF3EDA24F5.description.1}"]
