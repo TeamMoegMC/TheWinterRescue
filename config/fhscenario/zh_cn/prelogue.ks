@@ -1,17 +1,17 @@
 
-@actTitle t="Crashed in the frozen planet" st="Finish dialog"
-@showTitle t="Chapter 1 Act 1" st="Crashed in the frozen planet"
+@actTitle t="霜星迫降" st="完成剧情"
+@showTitle t="第一章 第一节" st="霜星迫降"
 @delay t=60
 @stopbgm
-Ouch, Ouch, where am I? What am I doing? [l][er]
-This is ... shuttle cabin. I am ...[delay t=20]I am ...[l][er]
+头好疼，这是，哪里？我怎么会在这里？[l][er]
+这里是...飞船船舱，我是...[delay t=20]我是...[l][er]
 @bgm n="frostedheart:the_fall_of_arcana"
 @fullScreenDialog show=1
 @startLayer
 @FillRect n=bg clr=0xFFFFFFFF z=-999
-@TextLayer n=tl text="&0I am...&r" resize=72 x=916 y=540
+@TextLayer n=tl text="&0我是…&r" resize=72 x=916 y=540
 @showLayer t=20 trans=fadein
-@speed v=2
+@speed v=0.6
 @delay t=20
 
 @startLayer
@@ -24,54 +24,54 @@ This is ... shuttle cabin. I am ...[delay t=20]I am ...[l][er]
 @ImageLayer n=layer1 s=twr_scenario:1.png
 @showLayer t=20 trans=fadein
 @delay t=20
-Since I could remember, the Earth is white. [l][er]
+地球打我记事起就是一片雪白。[l][er]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:2.png
 @showLayer t=20 trans=fadeout
 @delay t=20
-I live in Columbiat along with a million of others. [l]It prides as the largest among all. A self-sustaining space settlement orbiting the once-blue planet.[l][er]
+这颗曾经蔚蓝的行星上空环绕着哥伦比亚特[l]——我与其他百万人的住所。这是一座自给自足、规模睥睨其他空间站的太空城。[l][er]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:3.png
 @FillRect n=overlay clr=0xFF000000 w=1024 x=1024
 @showLayer t=60 trans=overdown
-It was meant to be an ark, but it never lasts.[l]
+成为人类的方舟曾是这里的使命，但好景不长。[l]
 @startLayer
 @freeLayer n=overlay
 @showLayer t=60 trans=overup
-It became a paradise for the few, floating above the frozen hell underneath, where billions were left to fade.[l][er]
+如今它只是少数人的港湾，冷漠地俯瞰着这片冰结的地狱，任由其上数十亿人的命运如风中残烛。[l][er]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:4.png tw=1024 th=1024 uw=2048 uh=1170
 @showLayer t=40 trans=left
-Memory fades too. People, the New Generation, started to forget the Apocalypse that froze everything. The bill has passed[l]- no support is going to Earth people again.[l][er]
+记忆也如残烛般熄灭。那场冻结一切的浩劫已在新世代的记忆中荡然无存。[l]于是法案通过得堪称自然：再不会向留在地上的人投送援助了。[l][er]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:5.png tw=1024 th=1024 uw=2048 uh=1170
 @FillRect n=overlay1 clr=0xFF000000 w=694
 @FillRect n=overlay2 clr=0xFF000000 w=694 x=1354
 @showLayer t=40 trans=fadeout
-No, it’s too cruel for me.[wc]
+可这于我又是何等残酷。[wc]
 @startLayer
 @freeLayer n=overlay1
 @showLayer t=40 trans=overdown
-All my loved ones were taken by the frost.[wc]
+我的所有至亲消逝在那场严寒中，[wc]
 @startLayer
 @freeLayer n=overlay2
 @showLayer t=40 trans=overup
-Thousands of others lived with same sorrow.[l][er]
+与我同命相怜者也岂止百千。[l][er]
 @startLayer
 @freeLayer n=layer1
 @FillRect n=bg clr=0xFF000000 z=-999
 @showLayer t=40 trans=overright
 @delay t=40
 @startLayer
-@TextLayer n=tl text="And I know," resize=18 y=567 x=859
+@TextLayer n=tl text="何况" resize=36 y=558 x=772
 @showLayer t=20 trans=fadein
 @delay t=40
 @startLayer
-@TextLayer n=tl text="And I know, there is still a hope, " resize=18 y=567 x=859
+@TextLayer n=tl text="何况希望还未消逝，" resize=36 y=558 x=772
 @showLayer t=20 trans=fadein
 @delay t=40 
 @startLayer
-@TextLayer n=tl text="And I know, there is still a hope, a faint hope." resize=18 y=567 x=859
+@TextLayer n=tl text="何况希望还未消逝，虽然微茫。" resize=36 y=558 x=772
 @showLayer t=20 trans=fadein
 @delay t=60 
 
@@ -83,25 +83,25 @@ Thousands of others lived with same sorrow.[l][er]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:6.png
 @showLayer t=80 trans=overup
-Twenty years ago, the bravest of humanity led an expedition of no return into the crust of Earth. Their leader was my mother, whom I never said goodbye too.[l][er]
+二十年前，一群勇敢的人踏上了一条无归之路，一场指向地壳深处的冒险。领导他们的是我的母亲，但我甚至来不及向她道别。[l][er]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:7a.png
 @FillRect n=overlay1 clr=0xFF000000 w=846
 @FillRect n=overlay2 clr=0xFF000000 x=1500 w=548
 @showLayer t=20 trans=fadeout
-“Solve the crisis.[wc]
+他们想要解决危机、[wc]
 @startLayer
 @freeLayer n=overlay1
 @showLayer t=20 trans=fadeout
-Unveil its roots.”[wc]
+找出一切的祸根。[wc]
 @startLayer
 @freeLayer n=overlay2
 @showLayer t=20 trans=fadeout
-They left with a sorrow ambition,[wc]
+他们化悲恸为雄心离开；[wc]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:7.png
 @showLayer t=20 trans=fadeout
-but only left us with prolonged despair.[l][er]
+可在留下来的我们之间，日久天长，雄心发酵成了绝望。[l][er]
 
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:8.png
@@ -109,37 +109,37 @@ but only left us with prolonged despair.[l][er]
 @FillRect n=overlay2 clr=0xFF000000 x=914 y=578 w=1134 h=578
 @FillRect n=overlay3 clr=0xFF000000 x=988 w=1060 h=578
 @showLayer t=60 trans=fadein
-I don’t trust miracles, as I grow up as a scientist.[wc]
+「奇迹」不是像我这样的科学家该相信的东西，[wc]
 @startLayer
 @freeLayer n=overlay1
 @showLayer t=20 trans=fadeout
-But it happened: encoded in regional atmospheric temperature fluctuation, [l]
+但就是发生了，调制在区域气温的起伏消长上，[l]
 @startLayer
 @freeLayer n=overlay2
 @showLayer t=20 trans=fadeout
-morse code, ASCII characters.[wc]
+那是一串以摩斯电码编码的ASCII字符。[wc]
 @startLayer
 @freeLayer n=overlay3
 @showLayer t=20 trans=fadeout
-It was a simple word — my nickname — that only two people in the world knows.[l][er]
+不过是一个词而已，但世上只剩两个人知道。那是我的小名。[l][er]
 *half
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:9.png
 @FillRect n=overlay1 clr=0xFF000000 w=1134
 @showLayer t=20 trans=fadein
-I know it is her calling me… I’ve been waiting for twenty years.[l]
+是她在叫我。为此我已等了二十年。[l]
 @startLayer
 @freeLayer n=overlay1
 @showLayer t=80 trans=overleft
-The anomaly was above the Yellowstone, now a dangerous frost land above an ever-active volcano.[l][er]
+异常信号出现的地方是黄石，那里的火山活动如今依然活跃，虽然也已是一片冰封的荒原。[l][er]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:10.png
 @showLayer t=40 trans=right
-A miracle that was my fantasy — that was their narrative. Thus I embark on a lone journey, with a few who believed in me, or hope.[l][er]
+他们笑我把自己的幻想当成了奇迹。于是我只得找少数几位仍相信我、或仍相信希望的人一起，开始一趟孤独的旅程。[l][er]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:11.png
 @showLayer t=40 trans=up
-“CS Frosted Heart” — the shuttle we onboard. But our hearts were never frozen — our hearts were burning as coal.[l][er]
+我们登上了「哥伦比亚特太空船 · 寒霜之心号」。但坐在这艘「寒霜之心号」中，我们的心潮炽烈如炭火。[l][er]
 @startLayer
 @freeLayer n=layer1
 @showLayer t=40 trans=fadeout
@@ -157,9 +157,9 @@ A miracle that was my fantasy — that was their narrative. Thus I embark on a l
 @speed v=1
 *endcutsence
 @delay t=20
-[NoWait] :[EndNoWait]Finally you are awake@p
-[NoWait]Me: [EndNoWait]Who? @p 
-[NoWait] :[EndNoWait]我是您的嵌入式智能助手（IIA），检测到您刚刚遇到了坠机，是否要进行坠机检查表？@p
+[NoWait]：[EndNoWait]您终于醒来了。@p
+[NoWait]我：[EndNoWait]是谁？@p
+[NoWait]：[EndNoWait]我是您的嵌入式智能助手（IIA），检测到您刚刚遇到了坠机，是否要进行坠机检查表？@p
 [NoWait]我：[EndNoWait]执行@p
 *chk
 [NoWait]IIA：[EndNoWait]推进器：[delay t=20][NoWait]&c无响应&r[EndNoWait]，导航：[delay t=20][NoWait]&c无响应&r[EndNoWait]
@@ -181,16 +181,16 @@ A miracle that was my fantasy — that was their narrative. Thus I embark on a l
 @startLayer
 @DrawLine name=l1 sx="@1024+(uiScale)*16;" sy="@1152-(uiScale)*83;" dx=1224 dy=700 w="@uiScale*2;" clr=0xffeeee00
 @DrawLine name=l2 sx=1224 sy=700 dx=1324 dy=700 w="@uiScale*2;" clr=0xffeeee00
-@TextLayer n=tl text="&eEffective temperature" x=1330 y=684 resize=32 shadow=1
+@TextLayer n=tl text="&e体感温度" x=1330 y=684 resize=32 shadow=1
 @DrawLine name=l3 sx=1094 sy="@20*uiScale;" dx=1224 dy=250 w="@uiScale*2;" clr=0xffeeee00
 @DrawLine name=l4 sx=1224 sy=250 dx=1324 dy=250 w="@uiScale*2;" clr=0xffeeee00
-@TextLayer n=t2 text="&eweather forecast within 5 days" x=1330 y=234 resize=32 shadow=1
+@TextLayer n=t2 text="&e最近5天天气预报" x=1330 y=234 resize=32 shadow=1
 @DrawLine name=l5 sx="@920-140*uiScale;" sy="@20*uiScale;" dx=412 dy=250 w="@uiScale*2;" clr=0xffeeee00
 @DrawLine name=l6 sx=412 sy=250 dx=320 dy=250 w="@uiScale*2;" clr=0xffeeee00
-@TextLayer n=t3 text="&eCurrent Temperature" x=172 y=234 resize=32 shadow=1 
+@TextLayer n=t3 text="&e当前气温" x=172 y=234 resize=32 shadow=1 
 @DrawLine name=l7 sx="@980-100*uiScale;" sy="@20*uiScale;" dx=412 dy=296 w="@uiScale*2;" clr=0xffeeee00
 @DrawLine name=l8 sx=412 sy=296 dx=320 dy=296 w="@uiScale*2;" clr=0xffeeee00
-@TextLayer n=t4 text="&eGame day" x=172 y=280 resize=32 shadow=1
+@TextLayer n=t4 text="&e游戏天数" x=172 y=280 resize=32 shadow=1
 @showLayer trans=overright t=40
 @delay t=40
 [link l=*cla]&e点击以继续[endlink]
