@@ -145,11 +145,16 @@
 @showLayer t=40 trans=fadeout
 @delay t=40
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:title.png
+@FillRect n=bg clr=0xFF000000
+@ImageLayer n=layer1 s=twr_scenario:twr_logo_title.png x=512 y=200 w=1024 h=256
+@ImageLayer n=layer2 s=twr_scenario:teammoeg_logo.png x=702 y=700 w=512 h=128
+@TextLayer n=tl text="出品" resize=32 y=748 x=1170
 @showLayer t=40 trans=fadein
 @delay t=160
 @startLayer
 @freeLayer n=layer1
+@freeLayer n=layer2
+@freeLayer n=tl
 @showLayer t=20 trans=fadeout
 @delay t=40
 @fullScreenDialog show=0
@@ -173,7 +178,7 @@
 @jump l=*chk
 *sel2
 @p
-[NoWait]我：[EndNoWait]好吧，我们只能弃船了，把还能用的雷达拆下来吧，它应该能给我们提供一个天气预报。[l]好了，打开一下。[setResearchAttribute k=has_forecast v=1]@p
+[NoWait]我：[EndNoWait]好吧，我们只能弃船了，把还能用的雷达拆下来吧，它应该能给我们提供一个天气预报。[l]好了，打开一下。[wc][setResearchAttribute k=has_forecast v=1]@p
 [NoWait]我：[EndNoWait]天气预报接通了，似乎3天后会有一次暴风雪，接下来我应该干嘛呢？@p
 [NoWait]IIA：[EndNoWait]建议：设法寻求救援。@p
 [NoWait]我：[EndNoWait]没人能够救我们了，我们只能自救了。@p
@@ -193,16 +198,12 @@
 @TextLayer n=t4 text="&e游戏天数" x=172 y=280 resize=32 shadow=1
 @showLayer trans=overright t=40
 @delay t=40
-[link l=*cla]&e点击以继续[endlink]
+[link l=*cla]&e点击以继续&r[endlink]
 @wa
 *cla
 @hudDialog show=0
 [NoWait]我：[EndNoWait]取下飞船的物资吧！[l]
-@giveItem i=watersource:leather_water_bag n="{Damage:0,Fluid:{FluidName:\"watersource:purified_water\",Amount:1500}}"
-@giveItem i=rankine:invar_shovel
-@giveItem i=watersource:coconut_milk_bottle
-@giveItem i=minecraft:scaffolding c=8
-@giveItem i=frostedheart:military_rations c=16
+@call s=prelogue_rewards
 @p
 @showTitle t="第一章 第一节" st="已完成"
 @actTitle t="" st=""
