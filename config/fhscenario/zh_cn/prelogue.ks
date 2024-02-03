@@ -21,17 +21,17 @@
 @delay t=20
 
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:1.png
+@ImageLayer n=layer1 s=twr_scenario:1.jpg
 @showLayer t=20 trans=fadein
 @delay t=20
 地球打我记事起就是一片雪白。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:2.png
+@ImageLayer n=layer1 s=twr_scenario:2.jpg
 @showLayer t=20 trans=fadeout
 @delay t=20
 这颗曾经蔚蓝的行星上空环绕着哥伦比亚特[l]——我与其他百万人的住所。这是一座自给自足、规模睥睨其他空间站的太空城。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:3.png
+@ImageLayer n=layer1 s=twr_scenario:3.jpg
 @FillRect n=overlay clr=0xFF000000 w=1024 x=1024
 @showLayer t=60 trans=overdown
 成为人类的方舟曾是这里的使命，但好景不长。[l]
@@ -40,11 +40,11 @@
 @showLayer t=60 trans=overup
 如今它只是少数人的港湾，冷漠地俯瞰着这片冰结的地狱，任由其上数十亿人的命运如风中残烛。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:4.png tw=1024 th=1024 uw=2048 uh=1170
+@ImageLayer n=layer1 s=twr_scenario:4.jpg tw=1024 th=1024 uw=2048 uh=1170
 @showLayer t=40 trans=left
 记忆也如残烛般熄灭。那场冻结一切的浩劫已在新世代的记忆中荡然无存。[l]于是法案通过得堪称自然：再不会向留在地上的人投送援助了。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:5.png tw=1024 th=1024 uw=2048 uh=1170
+@ImageLayer n=layer1 s=twr_scenario:5.jpg tw=1024 th=1024 uw=2048 uh=1170
 @FillRect n=overlay1 clr=0xFF000000 w=694
 @FillRect n=overlay2 clr=0xFF000000 w=694 x=1354
 @showLayer t=40 trans=fadeout
@@ -81,11 +81,11 @@
 @delay t=20 
 *midhalf
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:6.png
+@ImageLayer n=layer1 s=twr_scenario:6.jpg
 @showLayer t=80 trans=overup
 二十年前，一群勇敢的人踏上了一条无归之路，一场指向地壳深处的冒险。领导他们的是我的母亲，但我甚至来不及向她道别。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:7a.png
+@ImageLayer n=layer1 s=twr_scenario:7a.jpg
 @FillRect n=overlay1 clr=0xFF000000 w=846
 @FillRect n=overlay2 clr=0xFF000000 x=1500 w=548
 @showLayer t=20 trans=fadeout
@@ -99,12 +99,12 @@
 @showLayer t=20 trans=fadeout
 他们化悲恸为雄心离开；[wc]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:7.png
+@ImageLayer n=layer1 s=twr_scenario:7.jpg
 @showLayer t=20 trans=fadeout
 可在留下来的我们之间，日久天长，雄心发酵成了绝望。[l][er]
 
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:8.png
+@ImageLayer n=layer1 s=twr_scenario:8.jpg
 @FillRect n=overlay1 clr=0xFF000000       y=592 w=914  h=578
 @FillRect n=overlay2 clr=0xFF000000 x=914 y=578 w=1134 h=578
 @FillRect n=overlay3 clr=0xFF000000 x=988 w=1060 h=578
@@ -124,7 +124,7 @@
 不过是一个词而已，但世上只剩两个人知道。那是我的小名。[l][er]
 *half
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:9.png
+@ImageLayer n=layer1 s=twr_scenario:9.jpg
 @FillRect n=overlay1 clr=0xFF000000 w=1134
 @showLayer t=20 trans=fadein
 是她在叫我。为此我已等了二十年。[l]
@@ -133,11 +133,11 @@
 @showLayer t=80 trans=overleft
 异常信号出现的地方是黄石，那里的火山活动如今依然活跃，虽然也已是一片冰封的荒原。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:10.png
+@ImageLayer n=layer1 s=twr_scenario:10.jpg
 @showLayer t=40 trans=right
 他们笑我把自己的幻想当成了奇迹。于是我只得找少数几位仍相信我、或仍相信希望的人一起，开始一趟孤独的旅程。[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:11.png
+@ImageLayer n=layer1 s=twr_scenario:11.jpg
 @showLayer t=40 trans=up
 我们登上了「哥伦比亚特太空船 · 寒霜之心号」。但坐在这艘「寒霜之心号」中，我们的心潮炽烈如炭火。[l][er]
 @startLayer

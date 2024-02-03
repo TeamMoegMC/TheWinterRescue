@@ -21,17 +21,17 @@ This is ... shuttle cabin. I am ...[delay t=20]I am ...[l][er]
 @delay t=20
 
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:1.png
+@ImageLayer n=layer1 s=twr_scenario:1.jpg
 @showLayer t=20 trans=fadein
 @delay t=20
 Since I could remember, the Earth is white. [l][delay t=40][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:2.png
+@ImageLayer n=layer1 s=twr_scenario:2.jpg
 @showLayer t=20 trans=fadeout
 @delay t=20
 I live in Columbiat along with a million of others. [l]It prides as the largest among all. A self-sustaining space settlement orbiting the once-blue planet.[l][delay t=40][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:3.png
+@ImageLayer n=layer1 s=twr_scenario:3.jpg
 @FillRect n=overlay clr=0xFF000000 w=1024 x=1024
 @showLayer t=60 trans=overdown
 It was meant to be an ark, but it never lasts.[l]
@@ -40,11 +40,11 @@ It was meant to be an ark, but it never lasts.[l]
 @showLayer t=60 trans=overup
 It became a paradise for the few, floating above the frozen hell underneath, where billions were left to fade.[l][delay t=40][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:4.png tw=1024 th=1024 uw=2048 uh=1170
+@ImageLayer n=layer1 s=twr_scenario:4.jpg tw=1024 th=1024 uw=2048 uh=1170
 @showLayer t=40 trans=left
 Memory fades too. People, the New Generation, started to forget the Apocalypse that froze everything. The bill has passed[l] - no support is going to Earth people again.[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:5.png tw=1024 th=1024 uw=2048 uh=1170
+@ImageLayer n=layer1 s=twr_scenario:5.jpg tw=1024 th=1024 uw=2048 uh=1170
 @FillRect n=overlay1 clr=0xFF000000 w=694
 @FillRect n=overlay2 clr=0xFF000000 w=694 x=1354
 @showLayer t=40 trans=fadeout
@@ -81,11 +81,11 @@ Thousands of others lived with same sorrow.[l][er]
 @delay t=20 
 *midhalf
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:6.png
+@ImageLayer n=layer1 s=twr_scenario:6.jpg
 @showLayer t=80 trans=overup
 Twenty years ago, the bravest of humanity led an expedition of no return into the crust of Earth. Their leader was my mother, whom I never said goodbye too.[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:7a.png
+@ImageLayer n=layer1 s=twr_scenario:7a.jpg
 @FillRect n=overlay1 clr=0xFF000000 w=846
 @FillRect n=overlay2 clr=0xFF000000 x=1500 w=548
 @showLayer t=20 trans=fadeout
@@ -99,12 +99,12 @@ Unveil its roots.”[wc]
 @showLayer t=20 trans=fadeout
 They left with a sorrow ambition,[wc]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:7.png
+@ImageLayer n=layer1 s=twr_scenario:7.jpg
 @showLayer t=20 trans=fadeout
 but only left us with prolonged despair.[l][er]
 
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:8.png
+@ImageLayer n=layer1 s=twr_scenario:8.jpg
 @FillRect n=overlay1 clr=0xFF000000       y=592 w=914  h=578
 @FillRect n=overlay2 clr=0xFF000000 x=914 y=578 w=1134 h=578
 @FillRect n=overlay3 clr=0xFF000000 x=988 w=1060 h=578
@@ -124,7 +124,7 @@ morse code, ASCII characters.[wc]
 It was a simple word — my nickname — that only two people in the world knows.[l][er]
 *half
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:9.png
+@ImageLayer n=layer1 s=twr_scenario:9.jpg
 @FillRect n=overlay1 clr=0xFF000000 w=1134
 @showLayer t=20 trans=fadein
 I know it is her calling me… I’ve been waiting for twenty years.[l]
@@ -133,11 +133,11 @@ I know it is her calling me… I’ve been waiting for twenty years.[l]
 @showLayer t=80 trans=overleft
 The anomaly was above the Yellowstone, now a dangerous frost land above an ever-active volcano.[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:10.png
+@ImageLayer n=layer1 s=twr_scenario:10.jpg
 @showLayer t=40 trans=right
 A miracle that was my fantasy — that was their narrative. Thus I embark on a lone journey, with a few who believed in me, or hope.[l][er]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:11.png
+@ImageLayer n=layer1 s=twr_scenario:11.jpg
 @showLayer t=40 trans=up
 “CS Frosted Heart” — the shuttle we onboard. But our hearts were never frozen — our hearts were burning as coal.[l][er]
 @startLayer
