@@ -80,7 +80,7 @@ onEvent('recipes', (event) => {
         ['rankine:sodium_ingot','#forge:dusts/sulfur']},
 	{output:
         ['4x rankine:pulp'],input:
-        ['8x #forge:dusts/wood','rankine:sodium_sulfide','rankine:sodium_hydroxide',Fluid.of('minecraft:water',1000)]}
+        ['6x #forge:dusts/wood','rankine:sodium_sulfide','rankine:sodium_hydroxide',Fluid.of('minecraft:water',1000)]}
     
 	]
 	let heated = [

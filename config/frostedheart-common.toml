@@ -2,4 +2,6 @@
 enablesTemperatureForecast = true
 #BlackListed mods to kick player
 "Mod Blacklist" = []
+#Enables sending wanted food message. 
+enableDailyKitchen = true
 

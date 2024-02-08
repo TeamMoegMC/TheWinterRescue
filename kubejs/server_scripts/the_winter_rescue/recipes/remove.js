@@ -108,7 +108,8 @@ onEvent('recipes', (event) => {
 		"crockpot:crock_pot_advanced",
 		"crockpot:crock_pot_ultimate",
 		"engineersdecor:halfslab_treated_wood",
-		"minecraft:green_dye"
+		"minecraft:green_dye",
+		"rankine:cannonball"
     ]
     workbench.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shaped', output: Item});

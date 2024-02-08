@@ -18,7 +18,6 @@
 			subtitle: "{quest.twr.5D52744D5382A6CA.subtitle}"
 			description: ["{quest.twr.5D52744D5382A6CA.description.1}"]
 			dependencies: ["5808CFED17AE91D4"]
-			hide: true
 			id: "5D52744D5382A6CA"
 			tasks: [
 				{
@@ -57,6 +56,7 @@
 			title: "{quest.twr.4138E3A9915F811C.title}"
 			x: 4.5d
 			y: -5.0d
+			shape: "gear"
 			subtitle: "{quest.twr.4138E3A9915F811C.subtitle}"
 			description: [
 				"{quest.twr.4138E3A9915F811C.description.1}"
@@ -65,20 +65,27 @@
 				"{quest.twr.4138E3A9915F811C.description.4}"
 			]
 			dependencies: ["5D52744D5382A6CA"]
-			hide: true
 			id: "4138E3A9915F811C"
 			tasks: [{
 				id: "5CCDBD5B8CBA19F9"
 				type: "item"
 				item: "immersiveengineering:light_engineering"
 			}]
+			rewards: [{
+				id: "2924187E6BB3656F"
+				type: "item"
+				item: "frostedheart:packed_nuts"
+				count: 4
+			}]
 		}
 		{
 			x: 1.5d
 			y: -5.0d
+			shape: "gear"
 			subtitle: "{quest.twr.5808CFED17AE91D4.subtitle}"
 			description: ["{quest.twr.5808CFED17AE91D4.description.1}"]
 			dependencies: ["4785733C81711840"]
+			hide: true
 			id: "5808CFED17AE91D4"
 			tasks: [{
 				id: "417E9910C7BE0C2C"
@@ -128,6 +135,7 @@
 			x: -1.5d
 			y: -3.5d
 			dependencies: ["0019852CD6EC0354"]
+			hide: true
 			id: "6927FCD3D4A96E1C"
 			tasks: [{
 				id: "6CA2FEDEA9354124"
@@ -139,6 +147,7 @@
 			x: -3.0d
 			y: -6.5d
 			dependencies: ["0019852CD6EC0354"]
+			hide: true
 			id: "07D09F067CE6B708"
 			tasks: [{
 				id: "61371EAC59D39D34"
@@ -150,6 +159,7 @@
 			x: -3.0d
 			y: -5.0d
 			dependencies: ["0019852CD6EC0354"]
+			hide: true
 			id: "4DE01CED0E30AD08"
 			tasks: [{
 				id: "0A23FB35CA0CBF1D"
@@ -161,6 +171,7 @@
 			x: -3.0d
 			y: -3.5d
 			dependencies: ["0019852CD6EC0354"]
+			hide: true
 			id: "2516E94BD07F34E5"
 			tasks: [
 				{
@@ -186,6 +197,7 @@
 				"{quest.twr.66A550B05F529CD5.description.2}"
 			]
 			dependencies: ["4138E3A9915F811C"]
+			hide: true
 			id: "66A550B05F529CD5"
 			tasks: [{
 				id: "3BC96F9FDC016B05"
@@ -196,6 +208,7 @@
 		{
 			x: 0.0d
 			y: -5.0d
+			shape: "gear"
 			subtitle: "{quest.twr.4785733C81711840.subtitle}"
 			description: [
 				"{quest.twr.4785733C81711840.description.1}"
@@ -221,6 +234,7 @@
 			x: -1.5d
 			y: -6.5d
 			dependencies: ["0019852CD6EC0354"]
+			hide: true
 			id: "104E63CD1BF438BC"
 			tasks: [{
 				id: "6396EC0E24BC0195"
@@ -253,6 +267,7 @@
 				"{quest.twr.45FBD9AC4E48BF09.description.2}"
 			]
 			dependencies: ["18D8751ED2B62FF2"]
+			hide: true
 			id: "45FBD9AC4E48BF09"
 			tasks: [{
 				id: "45DB90E094FCB755"
@@ -277,6 +292,7 @@
 				"{quest.twr.18D8751ED2B62FF2.description.2}"
 			]
 			dependencies: ["4138E3A9915F811C"]
+			hide: true
 			id: "18D8751ED2B62FF2"
 			tasks: [
 				{
@@ -304,6 +320,7 @@
 				"{quest.twr.0430A33A91D78414.description.3}"
 			]
 			dependencies: ["4138E3A9915F811C"]
+			hide: true
 			id: "0430A33A91D78414"
 			tasks: [{
 				id: "53A17C4EEE300E27"
@@ -324,6 +341,7 @@
 				"{quest.twr.144F3D2FC5F7F034.description.3}"
 			]
 			dependencies: ["4138E3A9915F811C"]
+			hide: true
 			id: "144F3D2FC5F7F034"
 			tasks: [{
 				id: "30FE03FF1CD4B48B"
@@ -338,6 +356,7 @@
 			subtitle: "{quest.twr.1415012F2B5B47D9.subtitle}"
 			description: ["{quest.twr.1415012F2B5B47D9.description.1}"]
 			dependencies: ["4138E3A9915F811C"]
+			hide: true
 			id: "1415012F2B5B47D9"
 			tasks: [{
 				id: "64CBB98E32CA7E77"

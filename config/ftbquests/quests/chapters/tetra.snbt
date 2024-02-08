@@ -35,7 +35,6 @@
 				"{quest.twr.11DD149796E14E81.description.3}"
 			]
 			dependencies: ["5C8730E4484959B9"]
-			size: 1.2d
 			id: "11DD149796E14E81"
 			tasks: [
 				{
@@ -81,6 +80,7 @@
 			title: "{quest.twr.5C8730E4484959B9.title}"
 			x: -2.5d
 			y: 0.0d
+			shape: "gear"
 			subtitle: "{quest.twr.5C8730E4484959B9.subtitle}"
 			description: ["{quest.twr.5C8730E4484959B9.description.1}"]
 			dependencies: ["75154C5A6E2F3257"]
@@ -198,8 +198,8 @@
 					Damage: 0
 				}
 			}
-			x: -2.5d
-			y: 4.5d
+			x: -1.0d
+			y: 3.0d
 			description: [
 				"{quest.twr.603CDF88D762FEA8.description.1}"
 				"{quest.twr.603CDF88D762FEA8.description.2}"
@@ -208,10 +208,163 @@
 				"1DF200F6772308C7"
 				"11DD149796E14E81"
 			]
+			hide: true
 			id: "603CDF88D762FEA8"
 			tasks: [{
 				id: "5D1BE9C3088BE400"
 				type: "checkmark"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			subtitle: "{quest.twr.6F2C2CCC90E4C4F6.subtitle}"
+			description: [
+				"{quest.twr.6F2C2CCC90E4C4F6.description.1}"
+				"{quest.twr.6F2C2CCC90E4C4F6.description.2}"
+			]
+			dependencies: ["11DD149796E14E81"]
+			hide: true
+			id: "6F2C2CCC90E4C4F6"
+			tasks: [{
+				id: "142C0935AFCC6338"
+				type: "item"
+				item: "tetra:rack"
+			}]
+		}
+		{
+			title: "{quest.twr.762141CEF64385FC.title}"
+			x: -4.0d
+			y: 3.0d
+			description: [
+				"{quest.twr.762141CEF64385FC.description.1}"
+				"{quest.twr.762141CEF64385FC.description.2}"
+				"{quest.twr.762141CEF64385FC.description.3}"
+			]
+			dependencies: ["11DD149796E14E81"]
+			id: "762141CEF64385FC"
+			tasks: [{
+				id: "5759B64888947DE8"
+				type: "item"
+				item: {
+					id: "tetra:modular_toolbelt"
+					Count: 1b
+					tag: {
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "create:red_sand_paper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 4.5d
+			shape: "hexagon"
+			description: [
+				"{quest.twr.7DC424AE6C863411.description.1}"
+				"{quest.twr.7DC424AE6C863411.description.2}"
+				"{quest.twr.7DC424AE6C863411.description.3}"
+				"{quest.twr.7DC424AE6C863411.description.4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["11DD149796E14E81"]
+			hide: true
+			id: "7DC424AE6C863411"
+			tasks: [{
+				id: "186DB8CB34E6C717"
+				type: "checkmark"
+				title: "{quest.twr.7DC424AE6C863411.186DB8CB34E6C717.title}"
+			}]
+		}
+		{
+			icon: "minecraft:iron_ingot"
+			x: 2.0d
+			y: 3.0d
+			shape: "hexagon"
+			description: [
+				"{quest.twr.43C8F5C863F12A5E.description.1}"
+				"{quest.twr.43C8F5C863F12A5E.description.2}"
+				"{quest.twr.43C8F5C863F12A5E.description.3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["11DD149796E14E81"]
+			hide: true
+			id: "43C8F5C863F12A5E"
+			tasks: [{
+				id: "2DCC527066D5B5D4"
+				type: "checkmark"
+				title: "{quest.twr.43C8F5C863F12A5E.2DCC527066D5B5D4.title}"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.0d
+			y: 6.0d
+			shape: "hexagon"
+			description: [
+				"{quest.twr.18A5F787CC9E6ECA.description.1}"
+				"{quest.twr.18A5F787CC9E6ECA.description.2}"
+				"{quest.twr.18A5F787CC9E6ECA.description.3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["11DD149796E14E81"]
+			hide: true
+			id: "18A5F787CC9E6ECA"
+			tasks: [{
+				id: "47953B6A6AFAE166"
+				type: "checkmark"
+				title: "{quest.twr.18A5F787CC9E6ECA.47953B6A6AFAE166.title}"
+			}]
+		}
+		{
+			title: "{quest.twr.469A40EB19ACE723.title}"
+			x: -5.5d
+			y: 4.5d
+			description: ["{quest.twr.469A40EB19ACE723.description.1}"]
+			dependencies: ["762141CEF64385FC"]
+			id: "469A40EB19ACE723"
+			tasks: [{
+				id: "20BE12091228596E"
+				type: "item"
+				title: "{quest.twr.469A40EB19ACE723.20BE12091228596E.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+			}]
+		}
+		{
+			icon: "immersiveengineering:screwdriver"
+			x: -4.0d
+			y: 4.5d
+			description: [
+				"{quest.twr.179C32EE245E4653.description.1}"
+				"{quest.twr.179C32EE245E4653.description.2}"
+			]
+			dependencies: ["762141CEF64385FC"]
+			id: "179C32EE245E4653"
+			tasks: [{
+				id: "76C3B8A622BA2048"
+				type: "checkmark"
+				title: "{quest.twr.179C32EE245E4653.76C3B8A622BA2048.title}"
 			}]
 		}
 	]

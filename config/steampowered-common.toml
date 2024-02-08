@@ -6,6 +6,8 @@
 		castIronFlywheelCapacity = 64
 		#Range: 0 ~ 1048576
 		castIronFlywheelSteamStorage = 64000
+		#Range: 0.0 ~ 1.0
+		castIronFlywheelSuckEfficiency = 0.7
 		#Range: 0 ~ 8192
 		castIronFlywheelSpeed = 32
 		#Range: 0 ~ 8192
@@ -20,12 +22,16 @@
 		bronzeFlywheelSpeed = 32
 		#Range: 0 ~ 1048576
 		bronzeFlywheelSteamStorage = 32000
+		#Range: 0.0 ~ 1.0
+		bronzeFlywheelSuckEfficiency = 0.7
 
 	[flywheel.steel_flywheel]
 		#Range: 0 ~ 1048576
 		steelFlywheelSteamConsumptionPerTick = 48
 		#Range: 0 ~ 8192
 		steelFlywheelCapacity = 128
+		#Range: 0.0 ~ 1.0
+		steelFlywheelSuckEfficiency = 0.7
 		#Range: 0 ~ 1048576
 		steelFlywheelSteamStorage = 96000
 		#Range: 0 ~ 8192
