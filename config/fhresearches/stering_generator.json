@@ -1,0 +1,95 @@
+{
+  "name": "@",
+  "icon": "frostedheart:steam_core",
+  "category": "frostedheart:rescue",
+  "parents": [
+    "generator_T2",
+    "steam_powerd"
+  ],
+  "clues": [
+    {
+      "value": 0.5,
+      "id": "c0c5bb1722a540af",
+      "required": true,
+      "level": 1,
+      "type": "game"
+    },
+    {
+      "value": 0.25,
+      "id": "5767aa1aa2324a64",
+      "level": 1,
+      "type": "game"
+    },
+    {
+      "value": 0.05,
+      "id": "aee1b1345bfd4a02",
+      "item": {
+        "type": "forge:nbt",
+        "item": "frostedheart:steam_bottle",
+        "count": 1,
+        "nbt": "{energy:240}"
+      },
+      "consume": true,
+      "type": "item"
+    },
+    {
+      "value": 0.1,
+      "id": "4ca926d3228b4ef3",
+      "item": [
+        {
+          "item": "steampowered:steel_flywheel"
+        },
+        {
+          "item": "steampowered:cast_iron_flywheel"
+        }
+      ],
+      "consume": true,
+      "type": "item"
+    }
+  ],
+  "ingredients": [
+    [
+      {
+        "item": "steampowered:cast_iron_steam_engine"
+      },
+      {
+        "item": "steampowered:steel_steam_engine"
+      }
+    ],
+    {
+      "count": 6,
+      "base_ingredient": {
+        "item": "immersiveengineering:sheetmetal_steel"
+      }
+    },
+    {
+      "count": 4,
+      "base_ingredient": {
+        "tag": "forge:plates/copper"
+      }
+    },
+    {
+      "count": 6,
+      "base_ingredient": {
+        "item": "minecraft:glass_bottle"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "id": "53fc6626ebcf4270",
+      "rewards": [
+        "frostedheart:steam_core"
+      ],
+      "type": "item"
+    },
+    {
+      "id": "260547b9b7d048a4",
+      "item": "frostedheart:steam_core",
+      "type": "recipe"
+    }
+  ],
+  "points": 3000,
+  "showAltDesc": true,
+  "hideEffects": true
+}

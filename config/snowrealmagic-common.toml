@@ -2,7 +2,7 @@ placeSnowInBlock = true
 snowGravity = true
 snowAlwaysReplaceable = true
 #Unavailable if TerraForged mod installed
-snowAccumulationDuringSnowstorm = false
+snowAccumulationDuringSnowstorm = true
 #Unavailable if TerraForged mod installed
 snowAccumulationDuringSnowfall = false
 #9 = Unlimited

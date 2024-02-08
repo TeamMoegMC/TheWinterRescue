@@ -64,7 +64,7 @@
 		{
 			title: "{quest.twr.7AFE32B08BB6CE6C.title}"
 			icon: "minecraft:paper"
-			x: 14.5d
+			x: 16.0d
 			y: 4.5d
 			shape: "hexagon"
 			subtitle: "{quest.twr.7AFE32B08BB6CE6C.subtitle}"
@@ -269,6 +269,34 @@
 						}
 					}
 				}
+				{
+					id: "2BA61725827BDA54"
+					type: "item"
+					title: "{quest.twr.7AFE32B08BB6CE6C.2BA61725827BDA54.title}"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "ceary"
+							}
+						}
+					}
+				}
+				{
+					id: "207ADCEB4E94031A"
+					type: "item"
+					title: "{quest.twr.7AFE32B08BB6CE6C.207ADCEB4E94031A.title}"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Name: "guguSb"
+							}
+						}
+					}
+				}
 			]
 		}
 		{
@@ -333,7 +361,7 @@
 			tasks: [{
 				id: "73EC18187328FF62"
 				type: "custom"
-				title: "请退出本界面，并等待剧情触发"
+				title: "{quest.twr.4E2B2FEBD5031A2C.73EC18187328FF62.title}"
 				icon: "chisel:factory/hazard"
 			}]
 		}

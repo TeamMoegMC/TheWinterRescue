@@ -245,5 +245,8 @@
 	"research.frostedheart.wool_lining.name": "Wool Lining",
 	"research.frostedheart.workbench.desc.0": "Finally I've got the crafting table! Now I can make doors, chests, and so much more! The possibilities are endless!",
 	"research.frostedheart.workbench.desc_alt.0": "Today is probably a great day: I got iron and better planks---so, under the cold temperature the workbench should not break anymore. So start now!",
-	"research.frostedheart.workbench.name": "Crafting Techniques"
+	"research.frostedheart.workbench.name": "Crafting Techniques",
+	"research.frostedheart.stering_generator.desc.0": "由于其可扩展性和体积，我决心叫它“蒸汽核心”",
+	"research.frostedheart.stering_generator.desc_alt.0": "能量塔产生的高压蒸汽也许可以重新转换为动力，这样可以节省一些动力。",
+	"research.frostedheart.stering_generator.name": "斯特林发动机"
 }

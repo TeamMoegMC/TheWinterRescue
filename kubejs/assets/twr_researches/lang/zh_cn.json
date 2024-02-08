@@ -245,5 +245,8 @@
 	"research.frostedheart.wool_lining.name": "羊毛内衬",
 	"research.frostedheart.workbench.desc.0": "真所谓，开天辟地的大事。终于，终于……可以获得工作台了，可以合成箱子了，可以合成木门了……那么，就翻开新的篇章，大步前进吧。",
 	"research.frostedheart.workbench.desc_alt.0": "今天或许是个好日子：我有铁了，我有更好的木板了——这样的话，在这么寒冷的天气下合成的工作台或许不至于开裂了。那么立刻行动吧。",
-	"research.frostedheart.workbench.name": "合成技艺"
+	"research.frostedheart.workbench.name": "合成技艺",
+	"research.frostedheart.stering_generator.desc.0": "由于其可扩展性和体积，我决心叫它“蒸汽核心”",
+	"research.frostedheart.stering_generator.desc_alt.0": "能量塔产生的高压蒸汽也许可以重新转换为动力，这样可以节省一些动力。",
+	"research.frostedheart.stering_generator.name": "斯特林发动机"
 }

@@ -410,5 +410,19 @@
 				item: "minecraft:wheat"
 			}]
 		}
+		{
+			x: -11.0d
+			y: -9.0d
+			subtitle: "{quest.twr.39E837A6FC653395.subtitle}"
+			description: ["{quest.twr.39E837A6FC653395.description.1}"]
+			dependencies: ["3EF706F5A31CDDD6"]
+			size: 1.5d
+			id: "39E837A6FC653395"
+			tasks: [{
+				id: "3D3CE88847680E34"
+				type: "item"
+				item: "frostedheart:steam_core"
+			}]
+		}
 	]
 }
