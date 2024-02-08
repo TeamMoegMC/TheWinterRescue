@@ -3,4 +3,5 @@
 @giveItem i=watersource:coconut_milk_bottle
 @giveItem i=minecraft:scaffolding c=8
 @giveItem i=frostedheart:military_rations c=16
+@completequest q=4E2B2FEBD5031A2C
 @return
