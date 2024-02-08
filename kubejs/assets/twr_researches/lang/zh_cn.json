@@ -216,6 +216,9 @@
 	"research.frostedheart.steam_turbine.desc.0": "如果动力设备和发电设备结合起来，这样我就可以省去传输消耗，同时，由于动力设备置于发电设备之中，这样我就可以采用砖磁不转子的发电结构，大幅度减小发电消耗，同时也可以输出更高的电压。但是，蒸汽锅炉的产出终归是有限的。新的动力设备或者更大的蒸汽锅炉是急需考虑的事情。",
 	"research.frostedheart.steam_turbine.desc_alt.0": "将动能转换为电能，固然使得将不可储存的能量转变为可以储存的能量，但是，一个较为严重的问题是，目前的发电机的损耗非常大，要是能减小这一损耗，那么就可以减轻我目前对于燃料的依赖程度。",
 	"research.frostedheart.steam_turbine.name": "蒸汽轮机",
+	"research.frostedheart.stering_generator.desc.0": "由于其可扩展性和体积，我决心叫它“蒸汽核心”",
+	"research.frostedheart.stering_generator.desc_alt.0": "能量塔产生的高压蒸汽也许可以重新转换为动力，这样可以节省一些动力。",
+	"research.frostedheart.stering_generator.name": "斯特林发动机",
 	"research.frostedheart.storage_bucket.desc.0": "在合理的研究下，木桶作为我的存放设备已经是必然的了，和箱子一样的存放大小，但是需要消耗掉一个青铜板作为辅助设备，实在是太亏了,还是跑步进入工作台阶段吧。",
 	"research.frostedheart.storage_bucket.desc_alt.0": "目前来看，合成箱子是一件较为遥远的事情。但我的背包和石箱并不能满足我日益增长的存放需求。现在需要一个能不用工作台就能合成的设备来作为我的储存设备，或许这只能停留在构想阶段。",
 	"research.frostedheart.storage_bucket.name": "储物空间提升",
@@ -245,8 +248,5 @@
 	"research.frostedheart.wool_lining.name": "羊毛内衬",
 	"research.frostedheart.workbench.desc.0": "真所谓，开天辟地的大事。终于，终于……可以获得工作台了，可以合成箱子了，可以合成木门了……那么，就翻开新的篇章，大步前进吧。",
 	"research.frostedheart.workbench.desc_alt.0": "今天或许是个好日子：我有铁了，我有更好的木板了——这样的话，在这么寒冷的天气下合成的工作台或许不至于开裂了。那么立刻行动吧。",
-	"research.frostedheart.workbench.name": "合成技艺",
-	"research.frostedheart.stering_generator.desc.0": "由于其可扩展性和体积，我决心叫它“蒸汽核心”",
-	"research.frostedheart.stering_generator.desc_alt.0": "能量塔产生的高压蒸汽也许可以重新转换为动力，这样可以节省一些动力。",
-	"research.frostedheart.stering_generator.name": "斯特林发动机"
+	"research.frostedheart.workbench.name": "合成技艺"
 }
