@@ -251,6 +251,13 @@ onEvent('recipes', (event) => {
 			W: 'frostedheart:buff_coat',
 			C: '#forge:treated_wood'
         }),
+		shapedRecipe('frostedheart:steam_core', ['ASA', 'BWB','ACA'], {
+            A: '#forge:plates/steel',
+            B: '#immersiveengineering:scaffoldings/steel',
+			W: ['steampowered:steel_steam_engine','steampowered:cast_iron_steam_engine'],
+			C: 'frostedheart:heat_pipe',
+			S: 'create:shaft'
+        }),
 		shapedRecipe('supplementaries:cage', ['AAA', 'WBW','CCC'], {
             A: '#forge:plates/steel',
             B: '#immersiveengineering:scaffoldings/steel',

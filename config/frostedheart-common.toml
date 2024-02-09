@@ -4,4 +4,16 @@ enablesTemperatureForecast = true
 "Mod Blacklist" = []
 #Enables sending wanted food message. 
 enableDailyKitchen = true
+#The max power which steam core can store.Steam Core will cost the power stored without any heat source connected.
+#Range: 100.0 ~ 6000000.0
+steamCoreMaxPower = 600.0
+#SteamCore will cost such heat 20 times per second.
+#Range: 0.0 ~ 6000000.0
+steamCorePowerIntake = 8.0
+#The speed which steam core can provide.
+#Range: 0.0 ~ 256.0
+steamCoreGeneratedSpeed = 32.0
+#The capacity which steam core can provide.
+#Range: 0.0 ~ 256.0
+steamCoreCapacity = 32.0
 

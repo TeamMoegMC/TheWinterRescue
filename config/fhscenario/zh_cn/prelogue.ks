@@ -202,6 +202,7 @@
 @wa
 *cla
 @hudDialog show=0
+@er
 [NoWait]我：[EndNoWait]取下飞船的物资吧！[l]
 @call s=prelogue_rewards
 @p

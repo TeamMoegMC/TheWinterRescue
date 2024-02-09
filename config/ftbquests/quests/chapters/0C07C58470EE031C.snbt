@@ -89,8 +89,8 @@
 		{
 			title: "{quest.twr.33B6E7B60783C72B.title}"
 			icon: "watersource:purified_water_bottle"
-			x: 3.0d
-			y: 4.0d
+			x: -0.5d
+			y: 3.5d
 			shape: "hexagon"
 			subtitle: "{quest.twr.33B6E7B60783C72B.subtitle}"
 			description: [
@@ -118,8 +118,8 @@
 		{
 			title: "{quest.twr.215BC2E7271F1478.title}"
 			icon: "kubejs:fruits_and_vegs"
-			x: 4.5d
-			y: 5.0d
+			x: 3.5d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "{quest.twr.215BC2E7271F1478.subtitle}"
 			description: [
@@ -141,8 +141,8 @@
 		}
 		{
 			icon: "crockpot:turkey_dinner"
-			x: 4.5d
-			y: 6.5d
+			x: 3.5d
+			y: 3.5d
 			shape: "hexagon"
 			subtitle: "{quest.twr.24E7D1E02BE55A8E.subtitle}"
 			description: [
@@ -600,7 +600,7 @@
 			title: "{quest.twr.76B2B1A3EC6D92CD.title}"
 			icon: "minecraft:charcoal"
 			x: 17.5d
-			y: 0.0d
+			y: 4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.76B2B1A3EC6D92CD.subtitle}"
 			description: [
@@ -1229,27 +1229,6 @@
 			}]
 		}
 		{
-			title: "{quest.twr.270CAEEC664E3D0B.title}"
-			icon: "crockpot:watermelon_icle"
-			x: -1.5d
-			y: 5.0d
-			shape: "hexagon"
-			subtitle: "{quest.twr.270CAEEC664E3D0B.subtitle}"
-			description: [
-				"{quest.twr.270CAEEC664E3D0B.description.1}"
-				"{quest.twr.270CAEEC664E3D0B.description.2}"
-				"{quest.twr.270CAEEC664E3D0B.description.3}"
-			]
-			dependencies: ["660F95E6765CD77A"]
-			hide: true
-			id: "270CAEEC664E3D0B"
-			tasks: [{
-				id: "1548932BA7FE9AA4"
-				type: "checkmark"
-				icon: "frostedheart:mercury_body_thermometer"
-			}]
-		}
-		{
 			icon: "rankine:pia"
 			x: 1.5d
 			y: 2.0d
@@ -1288,32 +1267,12 @@
 				"{quest.twr.76E0A57CE55FFCEA.description.5}"
 				"{quest.twr.76E0A57CE55FFCEA.description.6}"
 			]
-			dependencies: ["2DFCACEE88BDF18B"]
+			dependencies: ["660F95E6765CD77A"]
 			id: "76E0A57CE55FFCEA"
 			tasks: [{
 				id: "6D6B476F48C9D98E"
 				type: "checkmark"
 				title: "{quest.twr.76E0A57CE55FFCEA.6D6B476F48C9D98E.title}"
-			}]
-		}
-		{
-			icon: "frostedheart:temperature_probe"
-			x: 1.5d
-			y: 3.5d
-			shape: "hexagon"
-			subtitle: "{quest.twr.2DFCACEE88BDF18B.subtitle}"
-			description: [
-				"{quest.twr.2DFCACEE88BDF18B.description.1}"
-				"{quest.twr.2DFCACEE88BDF18B.description.2}"
-				"{quest.twr.2DFCACEE88BDF18B.description.3}"
-			]
-			dependencies: ["660F95E6765CD77A"]
-			hide: true
-			id: "2DFCACEE88BDF18B"
-			tasks: [{
-				id: "068140961FE866D0"
-				type: "checkmark"
-				title: "{quest.twr.2DFCACEE88BDF18B.068140961FE866D0.title}"
 			}]
 		}
 		{
@@ -1327,14 +1286,13 @@
 				"{quest.twr.797D120146136A5C.description.1}"
 				"{quest.twr.797D120146136A5C.description.2}"
 				"{quest.twr.797D120146136A5C.description.3}"
-				"{quest.twr.797D120146136A5C.description.4}"
 				"{quest.twr.797D120146136A5C.description.5}"
 				"{quest.twr.797D120146136A5C.description.6}"
 				"{quest.twr.797D120146136A5C.description.7}"
 				"{quest.twr.797D120146136A5C.description.8}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["4B6FFA5A9140019F"]
+			dependencies: ["76E0A57CE55FFCEA"]
 			hide: true
 			id: "797D120146136A5C"
 			tasks: [{
@@ -1419,7 +1377,7 @@
 				"{quest.twr.49C0A13F97114740.description.6}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["2DFCACEE88BDF18B"]
+			dependencies: ["76E0A57CE55FFCEA"]
 			id: "49C0A13F97114740"
 			tasks: [{
 				id: "2864531689489974"
@@ -1459,6 +1417,7 @@
 			}]
 		}
 		{
+			title: "{quest.twr.654627121432688E.title}"
 			icon: "minecraft:campfire"
 			x: 20.5d
 			y: 0.0d
@@ -1467,11 +1426,6 @@
 			description: [
 				"{quest.twr.654627121432688E.description.1}"
 				"{quest.twr.654627121432688E.description.2}"
-				"{quest.twr.654627121432688E.description.3}"
-				"{quest.twr.654627121432688E.description.4}"
-				"{quest.twr.654627121432688E.description.5}"
-				"{quest.twr.654627121432688E.description.6}"
-				"{quest.twr.654627121432688E.description.7}"
 			]
 			hide_dependency_lines: true
 			dependencies: ["36960F1D7CDC8B30"]
@@ -1480,7 +1434,6 @@
 			tasks: [{
 				id: "43282F7A52C25B6F"
 				type: "checkmark"
-				title: "{quest.twr.654627121432688E.43282F7A52C25B6F.title}"
 			}]
 		}
 		{
@@ -1506,8 +1459,6 @@
 				"{quest.twr.125F6ADB0DEA3EEA.description.7}"
 				"{quest.twr.125F6ADB0DEA3EEA.description.8}"
 				"{quest.twr.125F6ADB0DEA3EEA.description.9}"
-				"{quest.twr.125F6ADB0DEA3EEA.description.10}"
-				"{quest.twr.125F6ADB0DEA3EEA.description.11}"
 			]
 			dependencies: ["76E0A57CE55FFCEA"]
 			hide: true
@@ -1520,8 +1471,8 @@
 		{
 			title: "{quest.twr.1B3C8681DF78AD16.title}"
 			icon: "minecraft:writable_book"
-			x: 0.0d
-			y: 4.0d
+			x: -0.5d
+			y: 2.0d
 			shape: "hexagon"
 			subtitle: "{quest.twr.1B3C8681DF78AD16.subtitle}"
 			description: [
