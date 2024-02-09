@@ -713,7 +713,7 @@
 	"quest.twr.4F8E2D7FDA9A1D17.description.2": "精力在外出探索或者居家工作时会自然恢复，&a&l膳食均衡可以提高精力的回复速度和上限。拥有适当而温暖的睡眠也可以提升回复速度，&c&l但是睡眠并不会直接提升精力&r。",
 	"quest.twr.4F8E2D7FDA9A1D17.description.3": "只有&6&l在线并且不处于过热或者失温状态&r时才会恢复精力，并建议&c&l避免把所有精力耗尽&r，耗尽之后精力恢复速度会&c显著减慢&r。",
 	"quest.twr.4F8E2D7FDA9A1D17.description.4": "睡在能量塔旁边和穿保暖衣物均可提升睡眠质量，在多人游戏中依然有效。",
-	"quest.twr.4F8E2D7FDA9A1D17.description.5": "&c&l死亡会把精力清零。",
+	"quest.twr.4F8E2D7FDA9A1D17.description.5": "&c&l死亡会把精力减半。",
 	"quest.twr.4F8E2D7FDA9A1D17.description.6": "据说运气好的人能够从环境中获得一些灵感，灵感可以代替精力消耗。",
 	"quest.twr.4F8E2D7FDA9A1D17.description.7": "如果&e营养条件、休息条件过差&r，或者&e用尽了精力&r，则会获得沮丧状态，&c&l表明精力回复率很低&r。",
 	"quest.twr.4F8E2D7FDA9A1D17.subtitle": "他好，我也好",
