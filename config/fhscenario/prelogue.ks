@@ -202,6 +202,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 [link l=*cla]&eClick to continue.&r[endlink]
 @wa
 *cla
+@er
 @hudDialog show=0
 [NoWait]Me :[EndNoWait]Taking out supplies from ship. [l]
 @call s=prelogue_rewards
