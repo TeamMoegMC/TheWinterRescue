@@ -673,7 +673,7 @@
 	#Generate Oat in Plains biomes
 	generateWildOat = false
 	#Enable/Disable Project Rankine trees in world.
-	generateTrees = false
+	generateTrees = true
 	#Generate Cotton in Plains biomes
 	generateWildCotton = false
 	#Generate Sorghum in Plains and Savanna biomes
