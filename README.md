@@ -64,7 +64,7 @@ Join our discord and go to channel twr-official-server and twr-official-server-v
 ## Wanna Contribute to Translations?
 Our language files are located in [kubejs/assets/](https://github.com/TeamMoegMC/TheWinterRescue/tree/master/kubejs/assets), feel free to make contributions. We suggest read [this](https://github.com/TeamMoegMC/TheWinterRescue/tree/master/kubejs/README.md) first.
 
-Update: We now have a [Crowin](https://crowdin.com/project/the-winter-rescue) project to facilitate translation. 
+Update: We now have a [Crowdin](https://crowdin.com/project/the-winter-rescue) project to facilitate translation. 
 
 ## Wanna Contribute to Development?
 Join the [Official Discord Chat](https://discord.gg/BWn6E94) and request the role directly! We are very inclusive to any type of support. Whether you are an 2D/3D artist, coder, writer, tester, or numerics ethusiat, we welcome you. Once you did your first PR, you would be in the Credits List in game. But finally, you would become part of a group of enthusiats who dream to create new worlds. 
