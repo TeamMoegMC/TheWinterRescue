@@ -31,9 +31,6 @@ onEvent('item.registry', event => {
 		'bounded_graphite',
 		'shaped_bounded_graphite',
 		'rough_graphite_electrode',
-		"rusted_iron_ingot",
-		"rusted_copper_ingot",
-		"gray_tin_ingot",
 		'fruits_and_vegs',
 		'grains',
 		'plant_oil',
@@ -97,12 +94,24 @@ onEvent('item.registry', event => {
 		"crushed",
 		"washed"
 	]
+
+	let ingots = [
+		"rusted_iron",
+		"rusted_copper",
+		"gray_tin",
+		"duralumin"
+	]
+
+	let nuggets = [
+		"duralumin"
+	]
 	
 	let plates = [
 		"cast_iron",
 		"battery_alloy",
 		"tungsten_steel",
-		"invar_steel"
+		"invar_steel",
+		"duralumin"
 	]
 	let fuel_procs=[
 		"anthracite_dust",
@@ -156,6 +165,14 @@ onEvent('item.registry', event => {
 			generalItems.push(`${state}_${ore}`);
 		});
 	});
+
+	ingots.forEach((ingot) => {
+		generalItems.push(`${ingot}_ingot`)
+	})
+
+	nuggets.forEach((nugget) => {
+		generalItems.push(`${nugget}_nugget`)
+	})
 	
 	plates.forEach((plate) => {
 		generalItems.push(`${plate}_plate`);
