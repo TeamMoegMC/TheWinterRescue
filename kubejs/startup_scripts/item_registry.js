@@ -13,6 +13,7 @@ onEvent('item.registry', event => {
 		'constantan_coil',
 		'battery_alloy',
 		'magnesium_dust',
+		"duralumin_dust",
 		'frozen_auroch_meat',
 		'frozen_beef',
 		'frozen_boar_meat',
