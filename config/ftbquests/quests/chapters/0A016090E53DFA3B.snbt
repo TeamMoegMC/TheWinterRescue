@@ -106,7 +106,10 @@
 			shape: "gear"
 			subtitle: "{quest.twr.1B1E71042B20A174.subtitle}"
 			description: ["{quest.twr.1B1E71042B20A174.description.1}"]
-			dependencies: ["2148082183BBDF76"]
+			dependencies: [
+				"32A497C69C641D2B"
+				"1F94471C5310ECFA"
+			]
 			hide: true
 			id: "1B1E71042B20A174"
 			tasks: [
@@ -182,8 +185,9 @@
 				"{quest.twr.2148082183BBDF76.description.3}"
 			]
 			dependencies: [
-				"17F033FB5ACAACFB"
 				"37726761B26CE51C"
+				"32A497C69C641D2B"
+				"1F94471C5310ECFA"
 			]
 			hide: true
 			id: "2148082183BBDF76"

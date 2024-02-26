@@ -1162,7 +1162,11 @@
 				"{quest.twr.64BD0FE7784B0BEB.description.4}"
 				"{quest.twr.64BD0FE7784B0BEB.description.5}"
 			]
-			dependencies: ["17F033FB5ACAACFB"]
+			hide_dependency_lines: true
+			dependencies: [
+				"32A497C69C641D2B"
+				"1F94471C5310ECFA"
+			]
 			size: 1.5d
 			id: "64BD0FE7784B0BEB"
 			tasks: [{
