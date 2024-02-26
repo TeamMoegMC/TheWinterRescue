@@ -63,15 +63,15 @@ Thousands of others lived with same sorrow.[l][er]
 @showLayer t=40 trans=overright
 @delay t=40
 @startLayer
-@TextLayer n=tl text="And I know," resize=18 y=567 x=688
+@TextLayer n=tl text="And I know," resize=18 y=567 x=688 clr=0xFFFFFFFF
 @showLayer t=20 trans=fadein
 @delay t=40
 @startLayer
-@TextLayer n=tl text="And I know, there is still a hope, " resize=18 y=567 x=688
+@TextLayer n=tl text="And I know, there is still a hope, " resize=18 y=567 x=688 clr=0xFFFFFFFF
 @showLayer t=20 trans=fadein
 @delay t=40 
 @startLayer
-@TextLayer n=tl text="And I know, there is still a hope, a faint hope." resize=18 y=567 x=688
+@TextLayer n=tl text="And I know, there is still a hope, a faint hope." resize=18 y=567 x=688 clr=0xFFFFFFFF
 @showLayer t=20 trans=fadein
 @delay t=60 
 
@@ -146,7 +146,7 @@ A miracle that was my fantasy — that was their narrative. Thus I embark on a l
 *intitle
 @delay t=40
 @startLayer
-@FillRect n=bg clr=0xFF000000
+@FillRect n=bg clr=0xFF000000 z=-999
 @ImageLayer n=layer1 s=twr_scenario:twr_logo_title.png x=512 y=200 w=1024 h=256
 @ImageLayer n=layer2 s=twr_scenario:teammoeg_logo.png x=702 y=700 w=512 h=128
 @TextLayer n=tl text="Presents." resize=36 y=748 x=1122

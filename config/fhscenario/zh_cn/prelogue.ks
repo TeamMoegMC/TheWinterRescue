@@ -6,10 +6,11 @@
 头好疼，这是，哪里？我怎么会在这里？[l][er]
 这里是...飞船船舱，我是...[delay t=20]我是...[l][er]
 @bgm n="frostedheart:the_fall_of_arcana"
+*tesst
 @fullScreenDialog show=1
 @startLayer
-@FillRect n=bg clr=0xFFFFFFFF z=-999
-@TextLayer n=tl text="&0我是…&r" resize=72 x=916 y=540
+@FillRect n=bg clr=0xFFFFFF z=-999
+@TextLayer n=tl text="&0我是…&r" resize=72 x=916 y=540 clr=0xFF000000
 @showLayer t=20 trans=fadein
 @speed v=0.6
 @delay t=20
@@ -144,8 +145,10 @@
 @freeLayer n=layer1
 @showLayer t=40 trans=fadeout
 @delay t=40
+*tesst2
+@fullScreenDialog show=1
 @startLayer
-@FillRect n=bg clr=0xFF000000
+@FillRect n=bg clr=0xFF000000 z=-999
 @ImageLayer n=layer1 s=twr_scenario:twr_logo_title.png x=512 y=200 w=1024 h=256
 @ImageLayer n=layer2 s=twr_scenario:teammoeg_logo.png x=702 y=700 w=512 h=128
 @TextLayer n=tl text="出品" resize=32 y=748 x=1170

@@ -9,7 +9,7 @@ enableDailyKitchen = true
 steamCoreMaxPower = 600.0
 #SteamCore will cost such heat 20 times per second.
 #Range: 0.0 ~ 6000000.0
-steamCorePowerIntake = 8.0
+steamCorePowerIntake = 4.0
 #The speed which steam core can provide.
 #Range: 0.0 ~ 256.0
 steamCoreGeneratedSpeed = 32.0
