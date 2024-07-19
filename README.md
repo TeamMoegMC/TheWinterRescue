@@ -76,10 +76,18 @@ Support us to let us create more! And find your name on our website and also a s
 
 ## Contributors 
 
-In the order of first joining, not contribution size:
+The Core Mod for The Winter Rescue Modpack.
 
-YueSha, Evan, duck_egg, dashuaibia, Lyuuke, khjxiaogu, gomou_g,
-Fu_Yang, OEIIO(03110), alphaGem, Jacky_Wang, asdfghjkl, shidi, LetterN,
-collin-marando, sayyidyofa, Whitealbum0, alyashour, AGmouse, Jerzerak, Dsanilin,
-Huaji_Qinmi, Heitao, ceary741, Gugusb, Winged-Hussars, IBlessus, GuardianWorld(Mixxs),
-Keisari, ewoudjie
+ (In the order of first joining, not contribution size)
+
+Development Team:
+- Technical: YueSha, duck_egg, dashuaibia, khjxiaogu
+- Art: Lyuuke, gomou_g, Fu_Yang, OEIIO(03110), Dsanilin
+- Design: alphaGem, Jacky_Wang,
+- QA: asdfghjkl, shidi
+- Operation: Evan
+
+Contributors:
+LetterN, collin-marando, sayyidyofa, Whitealbum0, alyashour, AGmouse, Jerzerak,
+nekocrane, Huaji_Qinmi, Heitao, ceary741, Gugusb, Winged-Hussars,
+IBlessus, GuardianWorld(Mixxs), Keisari, ewoudjie,
