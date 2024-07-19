@@ -81,10 +81,10 @@ The Core Mod for The Winter Rescue Modpack.
  (In the order of first joining, not contribution size)
 
 Development Team:
-- Technical: YueSha, duck_egg, dashuaibia, khjxiaogu
+- Developer: YueSha, duck_egg, dashuaibia, khjxiaogu
 - Art: Lyuuke, gomou_g, Fu_Yang, OEIIO(03110), Dsanilin
-- Design: alphaGem, Jacky_Wang,
-- QA: asdfghjkl, shidi
+- Design: alphaGem, Jacky_Wang, asdfghjkl
+- QA: shidi
 - Operation: Evan
 
 Contributors:
