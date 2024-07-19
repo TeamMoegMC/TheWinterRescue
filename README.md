@@ -73,3 +73,13 @@ Join the [Official Discord Chat](https://discord.gg/BWn6E94) and request the rol
 
 TeamMoeg has developed and will maintain this Modpack for Free, but maintaining the servers cost money. Consider Sponsoring us at [Patreon](https://www.patreon.com/TeamMoeg) or [Aifadian (China)](https://afdian.net/@teammoeg)
 Support us to let us create more! And find your name on our website and also a special role in our Discord. 
+
+## Contributors 
+
+In the order of first joining, not contribution size:
+
+YueSha, Evan, duck_egg, dashuaibia, Lyuuke, khjxiaogu, gomou_g,
+Fu_Yang, OEIIO(03110), alphaGem, Jacky_Wang, asdfghjkl, shidi, LetterN,
+collin-marando, sayyidyofa, Whitealbum0, alyashour, AGmouse, Jerzerak, Dsanilin,
+Huaji_Qinmi, Heitao, ceary741, Gugusb, Winged-Hussars, IBlessus, GuardianWorld(Mixxs),
+Keisari, ewoudjie
