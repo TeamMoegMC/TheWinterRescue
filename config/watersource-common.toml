@@ -22,12 +22,12 @@
 	#The probability of thirst effect when player drink water block water block.  Default:0.8
 	#玩家右键水方块时获得口渴效果的概率。默认：0.8
 	#Range: 0.0 ~ 1.0
-	thirstDebuffProbability = 1.0
+	thirstDebuffProbability = 0.5
 	# 
 	#The duration of thirst effect when player drink water from water block.(value * 0.05 = seconds)  Default:1200
 	#玩家右键水方块时获得口渴效果的持续时间（这个值 * 0.05 = 秒数）。默认：1200
 	#Range: 0 ~ 10800000
-	thirstDebuffDuration = 1200
+	thirstDebuffDuration = 200
 	# 
 	#The probability of poison effect when player drink water block water block.  Default:0.05
 	#玩家右键水方块时获得中毒效果的概率。默认：0.05

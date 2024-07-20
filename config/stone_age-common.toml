@@ -47,14 +47,14 @@
 		spawnDeerAllowedBiomesBlacklist = false
 		#Spawn max count of mob
 		#Range: 1 ~ 100
-		spawnDeerMaxCount = 10
+		spawnDeerMaxCount = 8
 		#Enable spawning of mob
 		spawnDeerEnable = true
 		#Spawn deer in allowed biomes
 		spawnDeerAllowedBiomes = ["minecraft:tall_birch_hills", "minecraft:eroded_badlands", "minecraft:taiga_hills", "minecraft:snowy_mountains", "minecraft:wooded_hills", "minecraft:snowy_taiga_mountains", "minecraft:shattered_savanna", "minecraft:modified_jungle_edge", "minecraft:gravelly_mountains", "minecraft:snowy_taiga", "minecraft:savanna", "minecraft:swamp", "minecraft:modified_badlands_plateau", "minecraft:snowy_beach", "minecraft:badlands", "minecraft:forest", "minecraft:bamboo_jungle", "minecraft:snowy_tundra", "minecraft:taiga", "minecraft:giant_tree_taiga", "minecraft:modified_gravelly_mountains", "minecraft:wooded_mountains", "minecraft:birch_forest", "minecraft:dark_forest_hills", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga_hills", "minecraft:jungle_hills", "minecraft:mountains", "minecraft:giant_tree_taiga_hills", "minecraft:jungle", "minecraft:savanna_plateau", "minecraft:badlands_plateau", "minecraft:snowy_taiga_hills", "minecraft:plains", "minecraft:beach", "minecraft:swamp_hills", "minecraft:wooded_badlands_plateau", "minecraft:jungle_edge", "minecraft:modified_wooded_badlands_plateau", "minecraft:modified_jungle", "minecraft:mountain_edge", "minecraft:ice_spikes", "minecraft:dark_forest", "minecraft:giant_spruce_taiga", "minecraft:bamboo_jungle_hills", "minecraft:birch_forest_hills", "minecraft:shattered_savanna_plateau", "minecraft:tall_birch_forest", "minecraft:taiga_mountains", "minecraft:flower_forest"]
 		#Spawn weight of mob
 		#Range: 0 ~ 100
-		spawnDeerWeight = 20
+		spawnDeerWeight = 8
 		#Spawn min count of mob
 		#Range: 1 ~ 100
 		spawnDeerMinCount = 4
@@ -64,7 +64,7 @@
 		boarBreedingResult = "minecraft:pig"
 		#Spawn weight of mob
 		#Range: 0 ~ 100
-		spawnBoarWeight = 10
+		spawnBoarWeight = 5
 		#Enable spawning of mob
 		spawnBoarEnable = true
 		#Spawn min count of mob
@@ -91,7 +91,7 @@
 		spawnWoollyRhinoEnable = true
 		#Spawn weight of mob
 		#Range: 0 ~ 100
-		spawnWoollyRhinoWeight = 10
+		spawnWoollyRhinoWeight = 2
 		#If spawnWoollyRhinoAllowedBiomes is blacklist
 		spawnWoollyRhinoAllowedBiomesBlacklist = false
 
@@ -134,7 +134,7 @@
 		spawnMouflonAllowedBiomesBlacklist = false
 		#Spawn weight of mob
 		#Range: 0 ~ 100
-		spawnMouflonWeight = 10
+		spawnMouflonWeight = 5
 		#Spawn min count of mob
 		#Range: 1 ~ 100
 		spawnMouflonMinCount = 4
@@ -158,7 +158,7 @@
 		spawnAurochEnable = true
 		#Spawn weight of mob
 		#Range: 0 ~ 100
-		spawnAurochWeight = 10
+		spawnAurochWeight = 5
 		#If spawnAurochAllowedBiomes is blacklist
 		spawnAurochAllowedBiomesBlacklist = false
 		#Spawn max count of mob
@@ -180,7 +180,7 @@
 		spawnSaberToothTigerAllowedBiomes = ["minecraft:tall_birch_hills", "minecraft:taiga_hills", "minecraft:snowy_mountains", "minecraft:giant_tree_taiga_hills", "minecraft:wooded_hills", "minecraft:jungle", "minecraft:snowy_taiga_mountains", "minecraft:shattered_savanna", "minecraft:modified_jungle_edge", "minecraft:savanna_plateau", "minecraft:mushroom_field_shore", "minecraft:snowy_taiga_hills", "minecraft:plains", "minecraft:snowy_taiga", "minecraft:beach", "minecraft:savanna", "minecraft:desert_lakes", "minecraft:jungle_edge", "minecraft:desert_hills", "minecraft:snowy_beach", "minecraft:modified_jungle", "minecraft:forest", "minecraft:bamboo_jungle", "minecraft:mushroom_fields", "minecraft:ice_spikes", "minecraft:snowy_tundra", "minecraft:dark_forest", "minecraft:giant_spruce_taiga", "minecraft:bamboo_jungle_hills", "minecraft:taiga", "minecraft:giant_tree_taiga", "minecraft:birch_forest_hills", "minecraft:shattered_savanna_plateau", "minecraft:tall_birch_forest", "minecraft:taiga_mountains", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:dark_forest_hills", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga_hills", "minecraft:desert", "minecraft:jungle_hills"]
 		#Spawn weight of mob
 		#Range: 0 ~ 100
-		spawnSaberToothTigerWeight = 5
+		spawnSaberToothTigerWeight = 2
 		#If spawnSaberToothTigerAllowedBiomes is blacklist
 		spawnSaberToothTigerAllowedBiomesBlacklist = false
 
@@ -191,7 +191,7 @@
 		spawnFowlAllowedBiomesBlacklist = false
 		#Spawn weight of mob
 		#Range: 0 ~ 100
-		spawnFowlWeight = 10
+		spawnFowlWeight = 5
 		#Spawn max count of mob
 		#Range: 1 ~ 100
 		spawnFowlMaxCount = 8
@@ -211,7 +211,7 @@
 		spawnMammothMaxCount = 4
 		#Spawn weight of mob
 		#Range: 0 ~ 100
-		spawnMammothWeight = 10
+		spawnMammothWeight = 1
 		#Enable spawning of mob
 		spawnMammothEnable = true
 		#Spawn mammoth in allowed biomes
