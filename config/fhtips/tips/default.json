@@ -1,0 +1,9 @@
+{
+  "onceOnly" : true,
+  "visibleTime" : 10000,
+  "contents" : [
+      "tips.frostedheart.default.title",
+      "tips.frostedheart.default.desc1",
+      "tips.frostedheart.default.desc2"
+  ]
+}
