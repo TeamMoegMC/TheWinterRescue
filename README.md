@@ -81,7 +81,7 @@ The Core Mod for The Winter Rescue Modpack.
  (In the order of first joining, not contribution size)
 
 Development Team:
-- Developer: YueSha, duck_egg, dashuaibia, khjxiaogu
+- Developer: YueSha, duck_egg, dashuaibia, khjxiaogu, yuqijun
 - Art: Lyuuke, gomou_g, Fu_Yang, OEIIO(03110), Dsanilin
 - Design: alphaGem, Jacky_Wang, asdfghjkl
 - QA: shidi
@@ -90,4 +90,4 @@ Development Team:
 Contributors:
 LetterN, collin-marando, sayyidyofa, Whitealbum0, alyashour, AGmouse, Jerzerak,
 nekocrane, Huaji_Qinmi, Heitao, ceary741, Gugusb, Winged-Hussars,
-IBlessus, GuardianWorld(Mixxs), Keisari, ewoudjie, ZXCZST
+IBlessus, GuardianWorld(Mixxs), Keisari, ewoudjie, ZXCZST, Lanshan
