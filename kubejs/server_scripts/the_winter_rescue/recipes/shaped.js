@@ -280,10 +280,62 @@ onEvent('recipes', (event) => {
             B: '#forge:ingots/cast_iron',
             C: '#forge:dusts/redstone',
 			D: '#minecraft:planks'
+        }),
+        shapedRecipe('minecraft:chest', ['AAA', 'A A', 'AAA'], {
+            A: '#forge:treated_wood'
         })
     ]
 
     var newRecipes = [
+        // Switch from flint workbench to crafting table
+        shapedRecipe('minecraft:crafting_table', ['AA', 'AA'], {
+            A: '#minecraft:planks'
+        }),
+
+        shapedRecipe('stone_age:drying_rack', ['AA', 'AA'], {
+            A: '#forge:rods/wooden'
+        }),
+
+        shapedRecipe('rankine:flint_pickaxe', ['CC', 'BA'], {
+            A: '#forge:rods/wooden',
+            B: '#forge:string',
+            C: 'minecraft:flint'
+        }),
+
+        shapedRecipe('rankine:flint_axe', ['CB', 'CA'], {
+            A: '#forge:rods/wooden',
+            B: '#forge:string',
+            C: 'minecraft:flint'
+        }),
+
+        shapedRecipe('rankine:flint_shovel', ['A ', 'CB'], {
+            A: '#forge:rods/wooden',
+            B: '#forge:string',
+            C: 'minecraft:flint'
+        }),
+
+        shapedRecipe('rankine:flint_spear', ['CB', 'A '], {
+            A: '#forge:rods/wooden',
+            B: '#forge:string',
+            C: 'minecraft:flint'
+        }),
+
+        shapedRecipe('minecraft:campfire', ['AA', 'BB'], {
+            A: 'charcoal_pit:straw',
+            B: '#minecraft:logs',
+        }),
+
+        shapedRecipe('stone_age:tree_stump', ['AA', 'BB'], {
+            A: '#minecraft:logs',
+            B: '#forge:stone',
+        }),
+
+        shapedRecipe('rankine:stone_hammer', ['CC', 'BA'], {
+            A: '#forge:rods/wooden',
+            B: '#forge:string',
+            C: '#forge:stone'
+        }),
+
 		shapedRecipe('frostedheart:heat_incubator', ['  D', ' CA', 'DBD'], {
             A: 'frostedheart:heat_pipe',
             B: '#forge:plates/steel',
@@ -328,7 +380,7 @@ onEvent('recipes', (event) => {
 		shapedRecipe('frostedheart:soil_thermometer', ['BDB', 'ACA', ' A '], {
             A: '#forge:plates/iron',
             B: 'minecraft:glass',
-            C: 'rankine:mercury',
+            C: 'minecraft:redstone',
 			D: 'create:precision_mechanism'
         }),
 		shapedRecipe('frostedheart:buff_coat', ['AAA', 'CBC', 'AAA'], {
@@ -347,7 +399,7 @@ onEvent('recipes', (event) => {
             C: 'immersiveengineering:wire_copper'
         }),
 		shapedRecipe('frostedheart:mercury_body_thermometer', [' BB', 'BAB', 'CB '], {
-            A: 'rankine:mercury',
+            A: 'minecraft:redstone',
             B: 'minecraft:glass',
             C: '#forge:plates/iron'
         }),

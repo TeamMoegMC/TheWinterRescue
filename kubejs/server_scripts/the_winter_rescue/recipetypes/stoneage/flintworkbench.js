@@ -23,374 +23,342 @@ onEvent('recipes', (event) => {
     ]
 
     const flint_change_recipes = [
-        flint_shapedRecipe(Item.of('stone_age:dried_grass_bed'), ['  B', 'BBB', 'AAA'], {
-            A: Ingredient.of('#minecraft:wooden_slabs').toJson(),
-            B: Item.of('charcoal_pit:straw').toJson()
-        }, Ingredient.of('#forge:axes')),
-        flint_shapedRecipe(Item.of('charcoal_pit:log_pile'), ['AAA', 'AAA', 'AAA'], {
-            A: Ingredient.of('#minecraft:logs_that_burn').toJson()
-        }, Ingredient.of('#forge:axes')),
-        flint_shapedRecipe(Item.of('minecraft:crafting_table'), ['AAA', 'BBB', 'CCC'], {
-            A: Item.of('minecraft:iron_ingot').toJson(),
-            B: Ingredient.of('immersiveengineering:treated_wood_horizontal').toJson(),
-            C: Ingredient.of('immersiveengineering:slab_treated_wood_horizontal').toJson()
-        }, Ingredient.of('#forge:axes')),
-        flint_shapedRecipe(Item.of('stone_age:millstone'), [' B ', ' C ', 'AAA'], {
-            A: Ingredient.of('#forge:stone').toJson(),
-            B: Item.of('minecraft:stick').toJson(),
-            C: Item.of('minecraft:stone').toJson()
-        }, Ingredient.of('#forge:hammers')),
-        flint_shapedRecipe(Item.of('stone_age:stone_chest'), ['BBB', 'ACA', 'AAA'], {
-            A: Item.of('minecraft:stone').toJson(),
-            B: Item.of('minecraft:stone_slab').toJson(),
-            C: Item.of('minecraft:clay_ball').toJson()
-        }, Ingredient.of('#forge:hammers')),
-        flint_shapedRecipe(Item.of('stone_age:grass_mesh'), ['A A', ' A ', 'A A'], {
-            A: Item.of('rankine:rope').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('stone_age:cobweb_mesh'), ['A A', ' A ', 'A A'], {
-            A: Item.of('minecraft:string').toJson()
-        }, Item.of('stone_age:flint_knife'))
+        shapedRecipe('stone_age:dried_grass_bed', ['  B', 'BBB', 'AAA'], {
+            A: '#minecraft:wooden_slabs',
+            B: 'charcoal_pit:straw'
+        }),
+        shapedRecipe('charcoal_pit:log_pile', ['AAA', 'AAA', 'AAA'], {
+            A: '#minecraft:logs_that_burn'
+        }),
+        shapedRecipe('stone_age:millstone', [' B ', ' C ', 'AAA'], {
+            A: '#forge:stone',
+            B: 'minecraft:stick',
+            C: 'minecraft:stone'
+        }),
+        shapedRecipe('stone_age:stone_chest', ['BBB', 'ACA', 'AAA'], {
+            A: 'minecraft:stone',
+            B: 'minecraft:stone_slab',
+            C: 'minecraft:clay_ball'
+        }),
+        shapedRecipe('stone_age:grass_mesh', ['A A', ' A ', 'A A'], {
+            A: 'rankine:rope'
+        }),
+        shapedRecipe('stone_age:cobweb_mesh', ['A A', ' A ', 'A A'], {
+            A: 'minecraft:string'
+        })
     ]
+
+
     const change_recipes = [
-		flint_shapedRecipe(Item.of('rankine:bronze_hammer'), ['AAC', ' BA', 'B A'], {
-            A: Ingredient.of('#forge:ingots/bronze').toJson(),
-            B: Item.of('minecraft:stick').toJson(),
-            C: Item.of('stone_age:leather_strip').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_pickaxe'), ['AAA', ' B ', ' B '], {
-            A: Item.of('rankine:bronze_ingot').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_axe'), ['AA', 'AB', ' B'], {
-            A: Item.of('rankine:bronze_ingot').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_hoe'), ['AA', ' B', ' B'], {
-            A: Item.of('rankine:bronze_ingot').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_sword'), ['A', 'A', 'B'], {
-            A: Item.of('rankine:bronze_ingot').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_shovel'), ['A', 'B', 'B'], {
-            A: Item.of('rankine:bronze_ingot').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:bronze_knife'), [' A', 'B '], {
-            A: Item.of('rankine:bronze_ingot').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('immersiveengineering:alloybrick', 4), ['ABA', 'B B', 'ABA'], {
-            A: Item.of('minecraft:brick').toJson(),
-            B: Ingredient.of('#forge:plates/bronze').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('thermopolium:clay_cistern'), ['CCC', 'CSC', 'CCC'], {
-            C: Ingredient.of('#forge:clay_balls').toJson(),
-            S: Item.of('#forge:rods/wooden').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('thermopolium:kitchen_stove_t1'), ['DDD', 'SSS', 'S S'], {
-            D: Ingredient.of('#forge:dirt').toJson(),
-            S: Ingredient.of('#forge:stone').toJson()
-        }, Ingredient.of('#forge:hammers')),
-	    flint_shapedRecipe(Item.of('charcoal_pit:main_bloomery'), ['ABA', 'BCB', 'ABA'], {
-            A: Item.of('rankine:mortar').toJson(),
-            B: Item.of('steampowered:bronze_sheet').toJson(),
-            C: Item.of('charcoal_pit:sandy_brick').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('charcoal_pit:sandy_tuyere'), ['BAB', 'ACA', 'BAB'], {
-            A: Item.of('rankine:mortar').toJson(),
-            B: Item.of('charcoal_pit:sandy_brick_item').toJson(),
-            C: Ingredient.of('#forge:plates/copper').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('charcoal_pit:bellows'), ['ABA', 'CCC', 'ABA'], {
-            A: Item.of('immersiveengineering:treated_wood_horizontal').toJson(),
-            B: Item.of('immersiveengineering:slab_treated_wood_horizontal').toJson(),
-            C: Item.of('minecraft:leather').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('charcoal_pit:sandy_brick', 2), ['BAB', 'ABA', 'BAB'], {
-            A: Item.of('rankine:mortar').toJson(),
-            B: Item.of('charcoal_pit:sandy_brick_item').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('charcoal_pit:unfired_sandy_brick', 4), ['ABA', 'BAB', 'ABA'], {
-            A: Item.of('minecraft:sand').toJson(),
-            B: Item.of('minecraft:clay_ball').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('rankine:flint_pickaxe'), ['ABA', ' C ', ' C '], {
-            A: Item.of('minecraft:flint').toJson(),
-            B: Item.of('rankine:rope').toJson(),
-            C: Item.of('minecraft:stick').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('rankine:flint_axe'), ['AB', 'AC', ' C'], {
-            A: Item.of('minecraft:flint').toJson(),
-            B: Item.of('rankine:rope').toJson(),
-            C: Item.of('minecraft:stick').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('rankine:flint_spear'), [' AA', ' BA', 'C  '], {
-            A: Item.of('minecraft:flint').toJson(),
-            B: Item.of('rankine:rope').toJson(),
-            C: Item.of('minecraft:stick').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('rankine:flint_shovel'), ['A', 'B', 'C'], {
-            A: Item.of('minecraft:flint').toJson(),
-            B: Item.of('rankine:rope').toJson(),
-            C: Item.of('minecraft:stick').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('charcoal_pit:barrel'), ['AAA', 'A A', 'AAA'], {
-            A: Ingredient.of('#minecraft:wooden_slabs').toJson()
-        }, Ingredient.of('#forge:axes')),
-        flint_shapedRecipe(Item.of('rankine:bronze_door'), ['AA', 'AA', 'AA'], {
-            A: Ingredient.of('#forge:ingots/bronze').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('minecraft:barrel'), ['ABA', 'A A', 'AAA'], {
-            A: Ingredient.of('#minecraft:planks').toJson(),
-            B: Ingredient.of('#forge:plates/bronze').toJson()
-        }, Ingredient.of('#forge:axes')),
-		flint_shapedRecipe(Item.of('charcoal_pit:coal_pile'), ['AAA', 'ABA', 'AAA'], {
-        A: Item.of('minecraft:coal').toJson(),
-		B: Item.of('charcoal_pit:ash').toJson()
-        }, Ingredient.of('#forge:shovels'))
+        shapedRecipe('rankine:bronze_hammer', ['AAC', ' BA', 'B A'], {
+            A: '#forge:ingots/bronze',
+            B: 'minecraft:stick',
+            C: 'stone_age:leather_strip'
+        }),
+        shapedRecipe('rankine:bronze_pickaxe', ['AAA', ' B ', ' B '], {
+            A: 'rankine:bronze_ingot',
+            B: '#forge:rods/wooden'
+        }),
+        shapedRecipe('rankine:bronze_axe', ['AA', 'AB', ' B'], {
+            A: 'rankine:bronze_ingot',
+            B: '#forge:rods/wooden'
+        }),
+        shapedRecipe('rankine:bronze_hoe', ['AA', ' B', ' B'], {
+            A: 'rankine:bronze_ingot',
+            B: '#forge:rods/wooden'
+        }),
+        shapedRecipe('rankine:bronze_sword', ['A', 'A', 'B'], {
+            A: 'rankine:bronze_ingot',
+            B: '#forge:rods/wooden'
+        }),
+        shapedRecipe('rankine:bronze_shovel', ['A', 'B', 'B'], {
+            A: 'rankine:bronze_ingot',
+            B: '#forge:rods/wooden'
+        }),
+        shapedRecipe('rankine:bronze_knife', [' A', 'B '], {
+            A: 'rankine:bronze_ingot',
+            B: '#forge:rods/wooden'
+        }),
+        shapedRecipe('immersiveengineering:alloybrick', ['ABA', 'B B', 'ABA'], {
+            A: 'minecraft:brick',
+            B: '#forge:plates/bronze'
+        }),
+        shapedRecipe('thermopolium:clay_cistern', ['CCC', 'CSC', 'CCC'], {
+            C: '#forge:clay_balls',
+            S: '#forge:rods/wooden'
+        }),
+        shapedRecipe('thermopolium:kitchen_stove_t1', ['DDD', 'SSS', 'S S'], {
+            D: '#forge:dirt',
+            S: '#forge:stone'
+        }),
+        shapedRecipe('charcoal_pit:main_bloomery', ['ABA', 'BCB', 'ABA'], {
+            A: 'rankine:mortar',
+            B: 'steampowered:bronze_sheet',
+            C: 'charcoal_pit:sandy_brick'
+        }),
+        shapedRecipe('charcoal_pit:sandy_tuyere', ['BAB', 'ACA', 'BAB'], {
+            A: 'rankine:mortar',
+            B: 'charcoal_pit:sandy_brick_item',
+            C: '#forge:plates/copper'
+        }),
+        shapedRecipe('charcoal_pit:bellows', ['ABA', 'CCC', 'ABA'], {
+            A: 'immersiveengineering:treated_wood_horizontal',
+            B: 'immersiveengineering:slab_treated_wood_horizontal',
+            C: 'minecraft:leather'
+        }),
+        shapedRecipe('charcoal_pit:sandy_brick', ['BAB', 'ABA', 'BAB'], {
+            A: 'rankine:mortar',
+            B: 'charcoal_pit:sandy_brick_item'
+        }),
+        shapedRecipe('charcoal_pit:unfired_sandy_brick', ['ABA', 'BAB', 'ABA'], {
+            A: 'minecraft:sand',
+            B: 'minecraft:clay_ball'
+        }),
+        shapedRecipe('rankine:flint_pickaxe', ['ABA', ' C ', ' C '], {
+            A: 'minecraft:flint',
+            B: 'rankine:rope',
+            C: 'minecraft:stick'
+        }),
+        shapedRecipe('rankine:flint_axe', ['AB', 'AC', ' C'], {
+            A: 'minecraft:flint',
+            B: 'rankine:rope',
+            C: 'minecraft:stick'
+        }),
+        shapedRecipe('rankine:flint_spear', [' AA', ' BA', 'C  '], {
+            A: 'minecraft:flint',
+            B: 'rankine:rope',
+            C: 'minecraft:stick'
+        }),
+        shapedRecipe('rankine:flint_shovel', ['A', 'B', 'C'], {
+            A: 'minecraft:flint',
+            B: 'rankine:rope',
+            C: 'minecraft:stick'
+        }),
+        shapedRecipe('charcoal_pit:barrel', ['AAA', 'A A', 'AAA'], {
+            A: '#minecraft:wooden_slabs'
+        }),
+        shapedRecipe('rankine:bronze_door', ['AA', 'AA', 'AA'], {
+            A: '#forge:ingots/bronze'
+        }),
+        shapedRecipe('minecraft:barrel', ['ABA', 'A A', 'AAA'], {
+            A: '#minecraft:planks',
+            B: '#forge:plates/bronze'
+        }),
+        shapedRecipe('charcoal_pit:coal_pile', ['AAA', 'ABA', 'AAA'], {
+            A: 'minecraft:coal',
+            B: 'charcoal_pit:ash'
+        })
     ]
 
     const recipes = [
-		flint_shapedRecipe(Item.of('frostedheart:incubator'), ['AAA', 'A B', 'BBB'], {
-            A: Ingredient.of('#minecraft:planks').toJson(),
-            B: Item.of('minecraft:stone').toJson()
-        }, Ingredient.of('#forge:hammers')),
-		flint_shapedRecipe(Item.of('4x minecraft:arrow'), ['A', 'B', 'C'], {
-            A: Item.of('stone_age:bone_arrow_head').toJson(),
-            B: Item.of('#forge:rods/wooden').toJson(),
-			C: Item.of('#forge:feathers').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('frostedheart:hand_stove'), [' B ', 'BAB', ' B '], {
+        shapedRecipe('frostedheart:incubator', ['AAA', 'A B', 'BBB'], {
+            A: '#minecraft:planks',
+            B: 'minecraft:stone'
+        }),
+        shapedRecipe('4x minecraft:arrow', ['A', 'B', 'C'], {
+            A: 'stone_age:bone_arrow_head',
+            B: '#forge:rods/wooden',
+            C: '#forge:feathers'
+        }),
+        shapedRecipe('frostedheart:hand_stove', [' B ', 'BAB', ' B '], {
             A: '#forge:clay_balls',
             B: '#forge:plates/copper'
-        }, Ingredient.of('#forge:hammers')),
-        flint_shapedRecipe(Item.of('immersiveengineering:hammer'), [' AC', ' BA', 'B  '], {
-            A: Ingredient.of('#forge:ingots/bronze').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson(),
-            C: Item.of('stone_age:leather_strip').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('frostedheart:straw_lining'), ['AAA', 'CBC', 'AAA'], {
-            A: Item.of('charcoal_pit:straw').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson(),
-			C: Item.of('rankine:rope').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('frostedheart:thermos'), ['ACA', 'BCB', 'BAB'], {
-            A: Ingredient.of('#forge:plates/copper').toJson(),
-            B: Ingredient.of('#minecraft:logs').toJson(),
-            C: Ingredient.of('#minecraft:planks').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('frostedheart:copper_pro_pick'), ['ABA', ' B ', ' B '], {
-            A: Ingredient.of('#forge:ingots/copper').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('frostedheart:copper_core_spade'), ['A', 'B', 'B'], {
-            A: Ingredient.of('#forge:plates/copper').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('frostedheart:copper_geologists_hammer'), ['CBA', ' B ', ' B '], {
-            A: Ingredient.of('#forge:plates/copper').toJson(),
-            B: Ingredient.of('#forge:rods/wooden').toJson(),
-			C: Ingredient.of('#forge:ingots/copper').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('minecraft:campfire'), [' B ', 'ABA', 'ACA'], {
-            A: Ingredient.of('#minecraft:logs').toJson(),
-            B: Item.of('charcoal_pit:straw').toJson(),
-            C: Item.of('minecraft:gravel').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('charcoal_pit:sandy_collector'), ['A A', 'ABA', 'AAA'], {
-            A: Item.of('charcoal_pit:sandy_brick_item').toJson(),
-            B: Item.of('frostedheart:ceramic_bucket').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:generator_brick', 3), ['ABA', 'BAB', 'ABA'], {
-            A: Item.of('minecraft:stone_bricks').toJson(),
-            B: Item.of('minecraft:brick').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:generator_amplifier_r1', 2), ['ABA', 'DCD', 'ABA'], {
-            A: Item.of('minecraft:stone_bricks').toJson(),
-            B: Item.of('minecraft:brick').toJson(),
-            C: Ingredient.of('#forge:plates/copper').toJson(),
-            D: Item.of('minecraft:clay_ball').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:generator_core_t1'), ['ACA', 'CBC', 'ACA'], {
-            A: Item.of('minecraft:brick').toJson(),
-            B: Item.of('frostedheart:energy_core').toJson(),
-            C: Ingredient.of('#forge:ingots/copper').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('rankine:stone_hammer'), ['AAC', ' BA', 'B A'], {
-            A: Item.of('minecraft:stone').toJson(),
-            B: Item.of('minecraft:stick').toJson(),
-            C: Ingredient.of('#forge:string').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:rye_bread'), ['AAA'], {
-            A: Item.of('frostedheart:rye').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('watersource:wooden_cup', 4), ['A A', 'A A', ' A '], {
-            A: Ingredient.of('#minecraft:planks').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('watersource:wooden_water_filter'), ['BCB', 'AAA', 'BCB'], {
-            A: Ingredient.of('#minecraft:planks').toJson(),
-            B: Ingredient.of('#minecraft:logs').toJson(),
-            C: Item.of('minecraft:glass').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('kubejs:wet_straw_briquette'), ['AAA', 'A A', 'AAA'], {
-            A: Item.of('charcoal_pit:straw').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('stone_age:fish_bone', 2), ['ABA'], {
-            A: Item.of('minecraft:bone').toJson(),
-            B: Item.of('minecraft:flint').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:hide_hat'), ['AAA', 'A A', 'B C'], {
-            A: Item.of('stone_age:raw_hide').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson(),
-            C: Item.of('stone_age:fish_bone').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:hide_jacket'), ['ACA', 'ABA', 'AAA'], {
-            A: Item.of('stone_age:raw_hide').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson(),
-            C: Item.of('stone_age:fish_bone').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:hide_pants'), ['AAA', 'ABA', 'ACA'], {
-            A: Item.of('stone_age:raw_hide').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson(),
-            C: Item.of('stone_age:fish_bone').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:hide_boots'), ['ABA', 'ACA'], {
-            A: Item.of('stone_age:raw_hide').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson(),
-            C: Item.of('stone_age:fish_bone').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:wool_hat'), ['AAA', 'A A', 'B C'], {
-            A: Ingredient.of('#minecraft:wool').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson(),
-            C: Item.of('stone_age:fish_bone').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:wool_jacket'), ['ACA', 'ABA', 'AAA'], {
-            A: Ingredient.of('#minecraft:wool').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson(),
-            C: Item.of('stone_age:fish_bone').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:wool_pants'), ['AAA', 'ABA', 'ACA'], {
-            A: Ingredient.of('#minecraft:wool').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson(),
-            C: Item.of('stone_age:fish_bone').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:wool_boots'), ['ABA', 'ACA'], {
-            A: Ingredient.of('#minecraft:wool').toJson(),
-            B: Item.of('stone_age:leather_strip').toJson(),
-            C: Item.of('stone_age:fish_bone').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:hay_hat'), ['AAA', 'A A', 'B B'], {
-            A: Item.of('charcoal_pit:straw').toJson(),
-            B: Item.of('rankine:rope').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:hay_jacket'), ['ABA', 'ABA', 'AAA'], {
-            A: Item.of('charcoal_pit:straw').toJson(),
-            B: Item.of('rankine:rope').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:hay_pants'), ['AAA', 'ABA', 'ABA'], {
-            A: Item.of('charcoal_pit:straw').toJson(),
-            B: Item.of('rankine:rope').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('kubejs:clay_bucket'), ['A A', 'A A', ' A '], {
-            A: Item.of('minecraft:clay_ball').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:hay_boots'), ['ABA', 'ABA'], {
-            A: Item.of('charcoal_pit:straw').toJson(),
-            B: Item.of('rankine:rope').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('frostedheart:drawing_desk'), ['BB ', 'CAB', 'AAB'], {
-            A: Ingredient.of('#minecraft:planks').toJson(),
-            B: Ingredient.of('#minecraft:wooden_slabs').toJson(),
-            C: Ingredient.of('#forge:plates/copper').toJson(),
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('comforts:sleeping_bag_brown'), ['BBB', 'ACA', 'BBB'], {
-            A: Item.of('stone_age:leather_strip').toJson(),
-            B: Ingredient.of('#forge:leather').toJson(),
-            C: Item.of('frostedheart:straw_lining').toJson()
-        }, Item.of('stone_age:flint_knife'))
+        }),
+        shapedRecipe('immersiveengineering:hammer', [' AC', ' BA', 'B  '], {
+            A: '#forge:ingots/bronze',
+            B: '#forge:rods/wooden',
+            C: 'stone_age:leather_strip'
+        }),
+        shapedRecipe('frostedheart:straw_lining', ['AAA', 'CBC', 'AAA'], {
+            A: 'charcoal_pit:straw',
+            B: 'stone_age:leather_strip',
+            C: 'rankine:rope'
+        }),
+        shapedRecipe('frostedheart:thermos', ['ACA', 'BCB', 'BAB'], {
+            A: '#forge:plates/copper',
+            B: '#minecraft:logs',
+            C: '#minecraft:planks'
+        }),
+        shapedRecipe('frostedheart:copper_pro_pick', ['ABA', ' B ', ' B '], {
+            A: '#forge:ingots/copper',
+            B: '#forge:rods/wooden'
+        }),
+        shapedRecipe('frostedheart:copper_core_spade', ['A', 'B', 'B'], {
+            A: '#forge:plates/copper',
+            B: '#forge:rods/wooden'
+        }),
+        shapedRecipe('frostedheart:copper_geologists_hammer', ['CBA', ' B ', ' B '], {
+            A: '#forge:plates/copper',
+            B: '#forge:rods/wooden',
+            C: '#forge:ingots/copper'
+        }),
+        shapedRecipe('minecraft:campfire', [' B ', 'ABA', 'ACA'], {
+            A: '#minecraft:logs',
+            B: 'charcoal_pit:straw',
+            C: 'minecraft:gravel'
+        }),
+        shapedRecipe('charcoal_pit:sandy_collector', ['A A', 'ABA', 'AAA'], {
+            A: 'charcoal_pit:sandy_brick_item',
+            B: 'frostedheart:ceramic_bucket'
+        }),
+        shapedRecipe('frostedheart:generator_brick', ['ABA', 'BAB', 'ABA'], {
+            A: 'minecraft:stone_bricks',
+            B: 'minecraft:brick'
+        }),
+        shapedRecipe('frostedheart:generator_amplifier_r1', ['ABA', 'DCD', 'ABA'], {
+            A: 'minecraft:stone_bricks',
+            B: 'minecraft:brick',
+            C: '#forge:plates/copper',
+            D: 'minecraft:clay_ball'
+        }),
+        shapedRecipe('frostedheart:generator_core_t1', ['ACA', 'CBC', 'ACA'], {
+            A: 'minecraft:brick',
+            B: 'frostedheart:energy_core',
+            C: '#forge:ingots/copper'
+        }),
+        shapedRecipe('rankine:stone_hammer', ['AAC', ' BA', 'B A'], {
+            A: 'minecraft:stone',
+            B: 'minecraft:stick',
+            C: '#forge:string'
+        }),
+        shapedRecipe('frostedheart:rye_bread', ['AAA'], {
+            A: 'frostedheart:rye'
+        }),
+        shapedRecipe('watersource:wooden_cup', ['A A', 'A A', ' A '], {
+            A: '#minecraft:planks'
+        }),
+        shapedRecipe('watersource:wooden_water_filter', ['BCB', 'AAA', 'BCB'], {
+            A: '#minecraft:planks',
+            B: '#minecraft:logs',
+            C: 'minecraft:glass'
+        }),
+        shapedRecipe('kubejs:wet_straw_briquette', ['AAA', 'A A', 'AAA'], {
+            A: 'charcoal_pit:straw'
+        }),
+        shapedRecipe('stone_age:fish_bone', ['ABA'], {
+            A: 'minecraft:bone',
+            B: 'minecraft:flint'
+        }),
+        shapedRecipe('frostedheart:hide_hat', ['AAA', 'A A', 'B C'], {
+            A: 'stone_age:raw_hide',
+            B: 'stone_age:leather_strip',
+            C: 'stone_age:fish_bone'
+        }),
+        shapedRecipe('frostedheart:hide_jacket', ['ACA', 'ABA', 'AAA'], {
+            A: 'stone_age:raw_hide',
+            B: 'stone_age:leather_strip',
+            C: 'stone_age:fish_bone'
+        }),
+        shapedRecipe('frostedheart:hide_pants', ['AAA', 'ABA', 'ACA'], {
+            A: 'stone_age:raw_hide',
+            B: 'stone_age:leather_strip',
+            C: 'stone_age:fish_bone'
+        }),
+        shapedRecipe('frostedheart:hide_boots', ['ABA', 'ACA'], {
+            A: 'stone_age:raw_hide',
+            B: 'stone_age:leather_strip',
+            C: 'stone_age:fish_bone'
+        }),
+        shapedRecipe('frostedheart:wool_hat', ['AAA', 'A A', 'B C'], {
+            A: '#minecraft:wool',
+            B: 'stone_age:leather_strip',
+            C: 'stone_age:fish_bone'
+        }),
+        shapedRecipe('frostedheart:wool_jacket', ['ACA', 'ABA', 'AAA'], {
+            A: '#minecraft:wool',
+            B: 'stone_age:leather_strip',
+            C: 'stone_age:fish_bone'
+        }),
+        shapedRecipe('frostedheart:wool_pants', ['AAA', 'ABA', 'ACA'], {
+            A: '#minecraft:wool',
+            B: 'stone_age:leather_strip',
+            C: 'stone_age:fish_bone'
+        }),
+        shapedRecipe('frostedheart:wool_boots', ['ABA', 'ACA'], {
+            A: '#minecraft:wool',
+            B: 'stone_age:leather_strip',
+            C: 'stone_age:fish_bone'
+        }),
+        shapedRecipe('frostedheart:hay_hat', ['AAA', 'A A', 'B B'], {
+            A: 'charcoal_pit:straw',
+            B: 'rankine:rope'
+        }),
+        shapedRecipe('frostedheart:hay_jacket', ['ABA', 'ABA', 'AAA'], {
+            A: 'charcoal_pit:straw',
+            B: 'rankine:rope'
+        }),
+        shapedRecipe('frostedheart:hay_pants', ['AAA', 'ABA', 'ABA'], {
+            A: 'charcoal_pit:straw',
+            B: 'rankine:rope'
+        }),
+        shapedRecipe('kubejs:clay_bucket', ['A A', 'A A', ' A '], {
+            A: 'minecraft:clay_ball'
+        }),
+        shapedRecipe('frostedheart:hay_boots', ['ABA', 'ABA'], {
+            A: 'charcoal_pit:straw',
+            B: 'rankine:rope'
+        }),
+        shapedRecipe('frostedheart:drawing_desk', ['BB ', 'CAB', 'AAB'], {
+            A: '#minecraft:planks',
+            B: '#minecraft:wooden_slabs',
+            C: '#forge:plates/copper'
+        }),
+        shapedRecipe('comforts:sleeping_bag_brown', ['BBB', 'ACA', 'BBB'], {
+            A: 'stone_age:leather_strip',
+            B: '#forge:leather',
+            C: 'frostedheart:straw_lining'
+        })
     ]
+
     const only_flint_recipes = [
-        flint_shapedRecipe(Item.of('minecraft:stone_bricks', 5), ['ABA', 'BAB', 'ABA'], {
-            A: Item.of('minecraft:stone').toJson(),
-            B: Item.of('rankine:mortar').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('charcoal_pit:clay_pot'), ['AAA', 'A A', 'AAA'], {
-            A: Item.of('minecraft:clay_ball').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:wooden_gold_pan'), ['   ','AAA',' A '], {
-            A: Ingredient.of('#minecraft:planks').toJson(),
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('frostedheart:charcoal_stick',2), ['A'], {
-            A: Item.of('kubejs:charcoal_briquette').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('frostedheart:coal_stick',2), ['A'], {
-            A: Item.of('kubejs:coal_briquette').toJson()
-        }, Item.of('stone_age:flint_knife')),
-		flint_shapedRecipe(Item.of('rankine:flint_hoe'), ['AB', ' C', ' C'], {
-            A: Item.of('minecraft:flint').toJson(),
-            B: Item.of('rankine:rope').toJson(),
-            C: Item.of('minecraft:stick').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('watersource:primitive_strainer'), ['AAA', 'BBB', 'CCC'], {
-            A: Item.of('minecraft:charcoal').toJson(),
-            B: Item.of('minecraft:sand').toJson(),
-            C: Item.of('minecraft:clay_ball').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        flint_shapedRecipe(Item.of('2x minecraft:bowl'), ['A A', ' A '], {
-            A: Ingredient.of('#minecraft:planks').toJson()
-        }, Item.of('stone_age:flint_knife')),
-        
+        shapedRecipe('minecraft:stone_bricks', ['ABA', 'BAB', 'ABA'], {
+            A: 'minecraft:stone',
+            B: 'rankine:mortar'
+        }),
+        shapedRecipe('charcoal_pit:clay_pot', ['AAA', 'A A', 'AAA'], {
+            A: 'minecraft:clay_ball'
+        }),
+        shapedRecipe('rankine:wooden_gold_pan', ['   ', 'AAA', ' A '], {
+            A: '#minecraft:planks'
+        }),
+        shapedRecipe('frostedheart:charcoal_stick', ['A'], {
+            A: 'kubejs:charcoal_briquette'
+        }),
+        shapedRecipe('frostedheart:coal_stick', ['A'], {
+            A: 'kubejs:coal_briquette'
+        }),
+        shapedRecipe('rankine:flint_hoe', ['AB', ' C', ' C'], {
+            A: 'minecraft:flint',
+            B: 'rankine:rope',
+            C: 'minecraft:stick'
+        }),
+        shapedRecipe('2x minecraft:bowl', ['A A', ' A '], {
+            A: '#minecraft:planks'
+        })
     ]
+
     event.remove({output: 'charcoal_pit:unfired_sandy_brick', type: 'minecraft:crafting_shapeless'});
 
-    recipes.forEach((recipe) => {
-        event.custom({
-            "type": "stone_age:flint_workbench",
-            "pattern": recipe.pattern,
-            "key": recipe.key,
-            "tool": recipe.tool.toJson(),
-            "result": recipe.result.toResultJson()
-        })
+    // Add back standard shaped recipes
+    additional_crafting_table_recipes.forEach((recipe) => {
         event.shaped(recipe.result, recipe.pattern, recipe.key)
     })
 
-    additional_crafting_table_recipes.forEach((recipe) => {
+    recipes.forEach((recipe) => {
         event.shaped(recipe.result, recipe.pattern, recipe.key)
     })
 
     change_recipes.forEach((recipe) => {
         event.remove({output: recipe.result, type: 'minecraft:crafting_shaped'});
-        event.custom({
-            "type": "stone_age:flint_workbench",
-            "pattern": recipe.pattern,
-            "key": recipe.key,
-            "tool": recipe.tool.toJson(),
-            "result": recipe.result.toResultJson()
-        })
         event.shaped(recipe.result, recipe.pattern, recipe.key)
     })
+
     flint_change_recipes.forEach((recipe) => {
-        event.remove({output: recipe.result, type: 'stone_age:flint_workbench'});
-        event.custom({
-            "type": "stone_age:flint_workbench",
-            "pattern": recipe.pattern,
-            "key": recipe.key,
-            "tool": recipe.tool.toJson(),
-            "result": recipe.result.toResultJson()
-        })
         event.shaped(recipe.result, recipe.pattern, recipe.key)
     })
+
     only_flint_recipes.forEach((recipe) => {
-            event.custom({
-                "type": "stone_age:flint_workbench",
-                "pattern": recipe.pattern,
-                "key": recipe.key,
-                "tool": recipe.tool.toJson(),
-                "result": recipe.result.toResultJson()
-            })
+        event.shaped(recipe.result, recipe.pattern, recipe.key)
     })
 });
 onEvent('item.tags', (event) => {
