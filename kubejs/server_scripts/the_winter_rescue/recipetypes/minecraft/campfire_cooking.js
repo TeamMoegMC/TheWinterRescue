@@ -7,7 +7,6 @@ onEvent('recipes', (event) => {
 	//campfireRecipe(Item.of('frostedheart:advanced_thermos', '{Fluid:{FluidName:"watersource:purified_water",Amount:3000}}'), Item.of('frostedheart:advanced_thermos', '{Fluid:{FluidName:"minecraft:water",Amount:3000}}'),1200),
     //campfireRecipe(Item.of('frostedheart:advanced_thermos', '{Fluid:{FluidName:"frostedheart:hot_water",Amount:3000}}'), Item.of('frostedheart:advanced_thermos', '{Fluid:{FluidName:"watersource:purified_water",Amount:3000}}'),600),
 	campfireRecipe('watersource:purified_water_bottle', Item.of('minecraft:potion', '{Potion:"minecraft:water"}'),600),
-    campfireRecipe('frozenup:truffle', 'frozenup:frozen_truffle',200),
     campfireRecipe('minecraft:torch', 'stone_age:unlit_torch',200),
 	campfireRecipe('kubejs:coal_briquette', 'kubejs:wet_coal_briquette',0,200),
 	campfireRecipe('kubejs:coal_briquette', 'kubejs:creosoted_coal_briquette',0,100),

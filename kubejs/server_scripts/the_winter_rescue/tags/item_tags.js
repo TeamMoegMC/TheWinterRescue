@@ -74,13 +74,6 @@ onEvent('item.tags', (event) => {
 	event.add("forge:ores/tin","kubejs:gray_tin_ingot")
 	event.add("forge:ores/iron","kubejs:rusted_iron_ingot")
 	event.add("forge:dusts/zinc","kubejs:zinc_dust")
-	event.removeAll("diet:fruits")
-	event.removeAll("diet:vegetables")
-	event.removeAll("diet:plant_oil")
-	event.removeAll("diet:protein")
-	event.removeAll("diet:foods")
-	event.removeAll("diet:sugar")
-	event.removeAll("diet:vitamin")
 	//event.remove("thermopolium:mushroom","#forge:mushrooms");
 	//event.add("thermopolium:mushroom","#forge:edible_mushrooms");
 

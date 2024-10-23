@@ -5,7 +5,6 @@
 onEvent('recipes', (event) => {
 
     var changeShapelessRecipes = [
-        shapelessRecipe('frozenup:truffle_muffin', ['frostedheart:rye_flour', 'minecraft:sugar', 'frozenup:truffle']),
 		shapelessRecipe('2x minecraft:flint', ['minecraft:gravel','minecraft:gravel','minecraft:gravel']),
 		shapelessRecipe('9x charcoal_pit:straw', ['minecraft:hay_block'])
     ]

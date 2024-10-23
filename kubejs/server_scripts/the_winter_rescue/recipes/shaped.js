@@ -173,13 +173,6 @@ onEvent('recipes', (event) => {
             C: '#forge:rods/iron',
             D: '#forge:chests/wooden'
         }),
-        shapedRecipe('frozenup:truffle_cake', ['EEE', 'ABA', 'DCD'], {
-            A: 'minecraft:cocoa_beans',
-            B: 'minecraft:egg',
-            C: 'frozenup:truffle',
-            D: 'frostedheart:rye_flour',
-            E: 'minecraft:milk_bucket'
-        }),
         shapedRecipe('4x steampowered:bronze_cogwheel', [' B ', 'BAB', ' B '], {
             A: 'create:shaft',
             B: '#forge:plates/bronze'

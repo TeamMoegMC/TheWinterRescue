@@ -10,7 +10,6 @@ These following folders are related to our project:
 3. `the_winter_rescue/lang` is hints and advancements translation folder.
 4. `tips/lang` is in-game tips translation folder.
 5. `twr_quests/lang` is quest book translation folder.
-6. `diet/lang` is diet language and our custom diet group translation folder, __do not contribute this to Diet Mod__.    
 7. `twr_researches/lang` is research text translation folder.
 
 You are welcomed to contribute to these folders. 
