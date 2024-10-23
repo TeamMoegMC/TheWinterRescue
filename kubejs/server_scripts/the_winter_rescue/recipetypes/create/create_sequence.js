@@ -31,7 +31,7 @@ onEvent('recipes', (event) => {
 
     event.recipes.createSequencedAssembly([
         Item.of('immersiveengineering:circuit_board')
-    ], 'engineersdecor:halfslab_treated_wood', [
+    ], 'immersiveengineering:treated_wood_horizontal', [
 		event.recipes.createDeploying('kubejs:pcb_base', ['kubejs:pcb_base', 'immersiveengineering:wirecoil_copper']),
 		event.recipes.createDeploying('kubejs:pcb_base', ['kubejs:pcb_base', 'minecraft:green_dye']),
 		event.recipes.createFilling('kubejs:pcb_base', ['kubejs:pcb_base', Fluid.of('rankine:resin', 500)]),

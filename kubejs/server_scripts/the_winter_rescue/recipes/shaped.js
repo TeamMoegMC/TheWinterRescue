@@ -10,12 +10,6 @@ onEvent('recipes', (event) => {
             B: 'minecraft:piston',
             C: 'charcoal_pit:bellows'
         }),
-		shapedRecipe('engineersdecor:small_fluid_funnel', ['AAA', 'CBC', 'CDC'], {
-            A: 'minecraft:hopper',
-            B: 'engineersdecor:fluid_barrel',
-            C: 'engineersdecor:metal_bar',
-			D: 'immersiveengineering:circuit_board'
-        }),
 		shapedRecipe('2x create:brass_funnel', [' A ', 'BCB', ' C '], {
             A: 'create:electron_tube',
             B: '#forge:ingots/brass',
@@ -24,12 +18,6 @@ onEvent('recipes', (event) => {
 		shapedRecipe('4x create:andesite_funnel', [' A ', 'ACA', ' C '], {
             A: '#forge:rods/cast_iron',
             C: '#the_winter_rescue:leather'
-        }),
-		shapedRecipe('engineersdecor:small_fluid_funnel', ['AAA', 'CBC', 'CDC'], {
-            A: 'minecraft:hopper',
-            B: 'engineersdecor:fluid_barrel',
-            C: 'engineersdecor:metal_bar',
-			D: 'immersiveengineering:circuit_board'
         }),
         shapedRecipe('rankine:beehive_oven_pit', [' A ', 'ABA', ' A '], {
                     A: 'rankine:refractory_bricks',
@@ -78,14 +66,6 @@ onEvent('recipes', (event) => {
             B: '#the_winter_rescue:cogwheels',
             C: 'immersiveengineering:stick_treated'
         }),
-        
-        shapedRecipe('engineersdecor:small_tree_cutter', ['ABA', 'ACE', 'ADA'], {
-            A: '#forge:plates/steel',
-            B: 'kubejs:servo_core',
-            C: 'immersiveengineering:light_engineering',
-            D: 'immersiveengineering:treated_wood_horizontal',
-            E: 'immersiveengineering:sawblade'
-        }),
         shapedRecipe('2x immersiveengineering:heavy_engineering', ['ABA', 'BCB', 'ABA'], {
             A: '#forge:plates/tungsten_steel',
             B: 'immersiveengineering:component_steel',
@@ -101,11 +81,6 @@ onEvent('recipes', (event) => {
             B: 'immersiveengineering:fluid_pipe',
             C: '#forge:plates/aluminum',
             D: 'kubejs:servo_core'
-        }),
-        shapedRecipe('engineersdecor:factory_hopper', [' C ', 'ABA', 'AAA'], {
-            A: '#forge:plates/steel',
-            B: 'minecraft:hopper',
-            C: 'kubejs:servo_core'
         }),
         shapedRecipe('2x immersiveengineering:generator', ['ABA', 'BCB', 'ABA'], {
             A: 'immersiveengineering:sheetmetal_steel',

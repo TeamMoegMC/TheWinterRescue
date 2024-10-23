@@ -20,7 +20,6 @@ const serverItemsToHide = [
     'immersiveengineering:fluid_sorter',
     'immersiveengineering:watermill',
     'immersiveengineering:windmill',
-	'engineersdecor:metal_crafting_table',
 
     // rankine items
     'rankine:element_transmuter',
