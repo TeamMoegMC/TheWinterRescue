@@ -1,6 +1,46 @@
 console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Items Registered!')
 
 onEvent('item.registry', event => {
+	const rankineItems = [
+		'mortar',
+		'vulcanized_rubber',
+		'pulp',
+		'fire_clay_ball',
+		'high_refractory_brick',
+		'kaolinite',
+		'sawdust',
+		'biomass',
+		'synthetic_leather',
+		'sodium_sulfide',
+		'sodium_ingot',
+		'sodium_hydroxide',
+		'alumina',
+		'sodium_choloride',
+		'sulfur',
+		'refractory_brick',
+		'quicklime',
+		'magnesia',
+	]
+
+	const rankineTools = [
+		'flint_knife',
+		'flint_axe',
+		'flint_pickaxe',
+		'flint_shovel',
+		'flint_hoe',
+		'flint_spear',
+		'bronze_knife',
+		'bronze_axe',
+		'bronze_pickaxe',
+		'bronze_shovel',
+		'bronze_hoe',
+		'bronze_spear',
+		'stone_hammer',
+		'bronze_hammer',
+		'snow_shoes',
+		'ice_shoes'
+	]
+
 	const generalItems = [
 		'flux',
 		'clay_bucket',
