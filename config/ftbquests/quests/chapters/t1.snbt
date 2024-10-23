@@ -12,7 +12,7 @@
 		{
 			title: "{quest.twr.7E3F0C805E2BBB9F.title}"
 			icon: "stone_age:tree_stump"
-			x: -5.0d
+			x: -6.5d
 			y: 0.5d
 			shape: "gear"
 			subtitle: "{quest.twr.7E3F0C805E2BBB9F.subtitle}"
@@ -30,7 +30,7 @@
 					item: "stone_age:tree_stump"
 				}
 				{
-					id: "08909EDAE28ACCEB"
+					id: "4552904E6A237EC5"
 					type: "item"
 					item: {
 						id: "rankine:stone_hammer"
@@ -50,8 +50,8 @@
 		{
 			title: "{quest.twr.19603323EAAFF726.title}"
 			icon: "minecraft:oak_planks"
-			x: -6.5d
-			y: -1.0d
+			x: -3.5d
+			y: 0.5d
 			shape: "gear"
 			subtitle: "{quest.twr.19603323EAAFF726.subtitle}"
 			description: [
@@ -94,11 +94,11 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -1.0d
+			x: -5.0d
+			y: -2.5d
 			subtitle: "{quest.twr.417AC14073DD4249.subtitle}"
 			description: ["{quest.twr.417AC14073DD4249.description.1}"]
-			dependencies: ["19603323EAAFF726"]
+			dependencies: ["03A553EBD453466A"]
 			hide: true
 			optional: true
 			id: "417AC14073DD4249"
@@ -301,43 +301,6 @@
 			}]
 		}
 		{
-			title: "{quest.twr.75154C5A6E2F3257.title}"
-			x: 15.0d
-			y: 0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.75154C5A6E2F3257.subtitle}"
-			description: [
-				"{quest.twr.75154C5A6E2F3257.description.1}"
-				"{quest.twr.75154C5A6E2F3257.description.2}"
-				"{quest.twr.75154C5A6E2F3257.description.3}"
-				"{quest.twr.75154C5A6E2F3257.description.4}"
-				"{quest.twr.75154C5A6E2F3257.description.5}"
-				"{quest.twr.75154C5A6E2F3257.description.6}"
-			]
-			dependencies: ["13D9DE54DF8117C2"]
-			hide: true
-			size: 1.5d
-			id: "75154C5A6E2F3257"
-			tasks: [{
-				id: "1019411D398ECFCE"
-				type: "item"
-				title: "{quest.twr.75154C5A6E2F3257.1019411D398ECFCE.title}"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "forge:ingots/iron"
-					}
-				}
-			}]
-			rewards: [{
-				id: "1666EFFB1AC8F007"
-				type: "item"
-				item: "rankine:magnetite"
-				count: 4
-			}]
-		}
-		{
 			x: -7.5d
 			y: 2.5d
 			shape: "gear"
@@ -380,7 +343,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -3.5d
 			y: -4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.3078BCEE3E402DED.subtitle}"
@@ -388,7 +351,7 @@
 				"{quest.twr.3078BCEE3E402DED.description.1}"
 				"{quest.twr.3078BCEE3E402DED.description.2}"
 			]
-			dependencies: ["19603323EAAFF726"]
+			dependencies: ["03A553EBD453466A"]
 			id: "3078BCEE3E402DED"
 			tasks: [{
 				id: "3F36712084610285"
@@ -404,7 +367,7 @@
 		{
 			title: "{quest.twr.74780AAD5FDF8870.title}"
 			icon: "kubejs:flux"
-			x: -3.5d
+			x: -6.5d
 			y: -1.0d
 			shape: "gear"
 			subtitle: "{quest.twr.74780AAD5FDF8870.subtitle}"
@@ -462,7 +425,7 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -6.5d
 			y: -4.0d
 			shape: "gear"
 			subtitle: "{quest.twr.35E5CE37A2F8EB90.subtitle}"
@@ -748,59 +711,6 @@
 			}]
 		}
 		{
-			title: "{quest.twr.3EE690327B36D6E0.title}"
-			x: 5.0d
-			y: -4.0d
-			subtitle: "{quest.twr.3EE690327B36D6E0.subtitle}"
-			description: ["{quest.twr.3EE690327B36D6E0.description.1}"]
-			dependencies: ["162264AE4B9EE1A9"]
-			hide: false
-			optional: true
-			id: "3EE690327B36D6E0"
-			tasks: [{
-				id: "6B43703A1D612B7B"
-				type: "item"
-				item: "minecraft:glass"
-				count: 10L
-			}]
-		}
-		{
-			icon: "watersource:wooden_water_filter"
-			x: 6.5d
-			y: -4.0d
-			subtitle: "{quest.twr.3622C3DFDB5D8E02.subtitle}"
-			description: [
-				"{quest.twr.3622C3DFDB5D8E02.description.1}"
-				"{quest.twr.3622C3DFDB5D8E02.description.2}"
-			]
-			dependencies: ["3EE690327B36D6E0"]
-			optional: true
-			id: "3622C3DFDB5D8E02"
-			tasks: [
-				{
-					id: "469CB0FA5C4A9C40"
-					type: "item"
-					item: "watersource:wooden_water_filter"
-				}
-				{
-					id: "053138BFA018C49D"
-					type: "item"
-					item: {
-						id: "watersource:primitive_strainer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "3FD16B765841183B"
-					type: "item"
-					item: "watersource:purified_water_bottle"
-				}
-			]
-		}
-		{
 			x: 3.0d
 			y: -2.0d
 			subtitle: "{quest.twr.1DF200F6772308C7.subtitle}"
@@ -939,11 +849,11 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -2.0d
 			y: -1.0d
 			subtitle: "{quest.twr.7175C1158EE9178A.subtitle}"
 			description: ["{quest.twr.7175C1158EE9178A.description.1}"]
-			dependencies: ["7E3F0C805E2BBB9F"]
+			dependencies: ["03A553EBD453466A"]
 			hide: true
 			optional: true
 			id: "7175C1158EE9178A"
@@ -1367,6 +1277,148 @@
 					item: "minecraft:stone_pressure_plate"
 				}
 			]
+		}
+		{
+			icon: "immersiveengineering:coke_oven"
+			x: -8.0d
+			y: -5.5d
+			subtitle: "{quest.twr.5287CFB7B7D5285E.subtitle}"
+			description: ["{quest.twr.5287CFB7B7D5285E.description.1}"]
+			dependencies: ["4543F3B5F937E6B0"]
+			hide: true
+			optional: true
+			id: "5287CFB7B7D5285E"
+			tasks: [{
+				id: "7ACB518CB5F4ED6D"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "4FFC380D662A7F3D"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -5.5d
+			subtitle: "{quest.twr.7C21BA2D2453AA79.subtitle}"
+			description: [
+				"{quest.twr.7C21BA2D2453AA79.description.1}"
+				"{quest.twr.7C21BA2D2453AA79.description.2}"
+				"{quest.twr.7C21BA2D2453AA79.description.3}"
+			]
+			dependencies: ["5287CFB7B7D5285E"]
+			optional: true
+			id: "7C21BA2D2453AA79"
+			tasks: [{
+				id: "235B545099D28CAC"
+				type: "item"
+				item: "frostedheart:oil_burner"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			subtitle: "{quest.twr.47F9EC8C18040D6D.subtitle}"
+			dependencies: ["03A553EBD453466A"]
+			hide: true
+			optional: true
+			id: "47F9EC8C18040D6D"
+			tasks: [{
+				id: "0AF2FDBE1D3E93EC"
+				type: "item"
+				item: {
+					id: "rankine:snowshoes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5B42F42BD6530C6C"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			shape: "gear"
+			dependencies: ["19603323EAAFF726"]
+			id: "03A553EBD453466A"
+			tasks: [{
+				id: "02C4E98D09FB6EC0"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			dependencies: ["13AA30FB9CD620EB"]
+			id: "5C57540290D9D349"
+			tasks: [{
+				id: "47E8C20400811EFF"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			title: "{quest.twr.75154C5A6E2F3257.title}"
+			x: 12.5d
+			y: 0.5d
+			shape: "gear"
+			subtitle: "{quest.twr.75154C5A6E2F3257.subtitle}"
+			description: [
+				"{quest.twr.75154C5A6E2F3257.description.1}"
+				"{quest.twr.75154C5A6E2F3257.description.2}"
+				"{quest.twr.75154C5A6E2F3257.description.3}"
+				"{quest.twr.75154C5A6E2F3257.description.4}"
+				"{quest.twr.75154C5A6E2F3257.description.5}"
+				"{quest.twr.75154C5A6E2F3257.description.6}"
+			]
+			dependencies: ["13D9DE54DF8117C2"]
+			hide: true
+			size: 1.5d
+			id: "75154C5A6E2F3257"
+			tasks: [{
+				id: "1019411D398ECFCE"
+				type: "item"
+				title: "{quest.twr.75154C5A6E2F3257.1019411D398ECFCE.title}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/iron"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DA41F7E33AE3E8D"
+				type: "command"
+				title: "增加16个区块领地"
+				icon: "minecraft:map"
+				command: "/ftbchunks admin extra_claim_chunks @p set 16"
+				player_command: false
+			}]
 		}
 	]
 }

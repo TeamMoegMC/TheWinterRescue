@@ -213,68 +213,6 @@
 			}]
 		}
 		{
-			title: "{quest.twr.3102993072F3C8B9.title}"
-			icon: "stone_age:flint_workbench"
-			x: 5.5d
-			y: 0.0d
-			shape: "gear"
-			subtitle: "{quest.twr.3102993072F3C8B9.subtitle}"
-			description: [
-				"{quest.twr.3102993072F3C8B9.description.1}"
-				"{quest.twr.3102993072F3C8B9.description.2}"
-				"{quest.twr.3102993072F3C8B9.description.3}"
-				"{quest.twr.3102993072F3C8B9.description.4}"
-				"{quest.twr.3102993072F3C8B9.description.5}"
-			]
-			hide_dependency_lines: false
-			dependencies: ["32E5D942F1FE8645"]
-			hide: true
-			id: "3102993072F3C8B9"
-			tasks: [
-				{
-					id: "4C8BCF32AD2C1D1C"
-					type: "checkmark"
-				}
-				{
-					id: "5EAF6B48C8FA678E"
-					type: "item"
-					title: "{quest.twr.3102993072F3C8B9.5EAF6B48C8FA678E.title}"
-					item: "stone_age:flint_workbench"
-				}
-			]
-			rewards: [{
-				id: "163A03C91746986A"
-				type: "item"
-				item: "minecraft:torch"
-			}]
-		}
-		{
-			x: 7.5d
-			y: 0.0d
-			shape: "gear"
-			subtitle: "{quest.twr.348EB1588EFAD2AB.subtitle}"
-			description: [
-				"{quest.twr.348EB1588EFAD2AB.description.1}"
-				"{quest.twr.348EB1588EFAD2AB.description.2}"
-				"{quest.twr.348EB1588EFAD2AB.description.3}"
-				"{quest.twr.348EB1588EFAD2AB.description.4}"
-			]
-			dependencies: ["32E5D942F1FE8645"]
-			hide: false
-			id: "348EB1588EFAD2AB"
-			tasks: [{
-				id: "218222BA0E80D408"
-				type: "item"
-				item: {
-					id: "stone_age:flint_knife"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			icon: {
 				id: "rankine:flint_knife"
 				Count: 1b
@@ -283,7 +221,7 @@
 				}
 			}
 			x: 5.5d
-			y: -2.0d
+			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.14D7D98FC5264B03.subtitle}"
 			description: [
@@ -313,8 +251,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -2.0d
+			x: 7.5d
+			y: 0.0d
 			shape: "gear"
 			subtitle: "{quest.twr.1233EF3CDF5E33F8.subtitle}"
 			description: ["{quest.twr.1233EF3CDF5E33F8.description.1}"]
@@ -336,7 +274,6 @@
 				"{quest.twr.1D7F2824DAF3BB7B.description.1}"
 				"{quest.twr.1D7F2824DAF3BB7B.description.2}"
 			]
-			dependencies: ["348EB1588EFAD2AB"]
 			hide: false
 			id: "1D7F2824DAF3BB7B"
 			tasks: [{

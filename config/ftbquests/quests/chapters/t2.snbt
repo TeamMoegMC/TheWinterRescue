@@ -10,41 +10,6 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -28.5d
-			y: -0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.328D948C4C800873.subtitle}"
-			description: [
-				"{quest.twr.328D948C4C800873.description.1}"
-				"{quest.twr.328D948C4C800873.description.2}"
-				"{quest.twr.328D948C4C800873.description.3}"
-			]
-			dependencies: ["75154C5A6E2F3257"]
-			hide: true
-			dependency_requirement: "one_completed"
-			id: "328D948C4C800873"
-			tasks: [{
-				id: "4D8DE6E8B9FB74A3"
-				type: "item"
-				item: "minecraft:crafting_table"
-			}]
-			rewards: [
-				{
-					id: "05A8B8F3C3113194"
-					type: "item"
-					item: "crockpot:turkey_dinner"
-				}
-				{
-					id: "7045243DE877407E"
-					type: "command"
-					title: "{quest.twr.328D948C4C800873.7045243DE877407E.title}"
-					icon: "minecraft:filled_map"
-					command: "/ftbchunks admin extra_claim_chunks @p set 16"
-					player_command: false
-				}
-			]
-		}
-		{
 			title: "{quest.twr.060F482D9D3374F9.title}"
 			x: -19.5d
 			y: 1.0d
@@ -86,37 +51,6 @@
 			}]
 		}
 		{
-			icon: "immersiveengineering:coke_oven"
-			x: -28.5d
-			y: -2.0d
-			subtitle: "{quest.twr.5287CFB7B7D5285E.subtitle}"
-			description: ["{quest.twr.5287CFB7B7D5285E.description.1}"]
-			dependencies: ["328D948C4C800873"]
-			hide: true
-			optional: true
-			id: "5287CFB7B7D5285E"
-			tasks: [{
-				id: "7ACB518CB5F4ED6D"
-				type: "item"
-				item: "immersiveengineering:cokebrick"
-				count: 27L
-			}]
-			rewards: [{
-				id: "4FFC380D662A7F3D"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "minecraft:efficiency"
-						}]
-					}
-				}
-			}]
-		}
-		{
 			icon: "immersiveengineering:blast_furnace"
 			x: -16.5d
 			y: 1.0d
@@ -153,7 +87,7 @@
 			}]
 		}
 		{
-			x: -28.5d
+			x: -27.0d
 			y: 2.5d
 			description: ["{quest.twr.4D0ECD01E0CC7C8C.description.1}"]
 			dependencies: ["678491900C7F03F2"]
@@ -171,10 +105,9 @@
 			}]
 		}
 		{
-			x: -28.5d
+			x: -27.0d
 			y: 1.0d
 			description: ["{quest.twr.678491900C7F03F2.description.1}"]
-			dependencies: ["328D948C4C800873"]
 			hide: true
 			id: "678491900C7F03F2"
 			tasks: [{
@@ -215,7 +148,10 @@
 				"{quest.twr.404CFF89CCFE9D6B.description.1}"
 				"{quest.twr.404CFF89CCFE9D6B.description.2}"
 			]
-			dependencies: ["328D948C4C800873"]
+			dependencies: [
+				"678491900C7F03F2"
+				"75154C5A6E2F3257"
+			]
 			id: "404CFF89CCFE9D6B"
 			tasks: [{
 				id: "5A7562201B27BBF3"
@@ -935,37 +871,6 @@
 			}]
 		}
 		{
-			x: -30.0d
-			y: -0.5d
-			subtitle: "{quest.twr.47F9EC8C18040D6D.subtitle}"
-			dependencies: ["328D948C4C800873"]
-			hide: true
-			optional: true
-			id: "47F9EC8C18040D6D"
-			tasks: [{
-				id: "0AF2FDBE1D3E93EC"
-				type: "item"
-				item: {
-					id: "rankine:snowshoes"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "5B42F42BD6530C6C"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:swiftness"
-					}
-				}
-			}]
-		}
-		{
 			x: -22.5d
 			y: -3.5d
 			description: ["{quest.twr.0C424AAC550ACF02.description.1}"]
@@ -1058,24 +963,6 @@
 				id: "772A426B374D8919"
 				type: "item"
 				item: "create:clockwork_bearing"
-			}]
-		}
-		{
-			x: -28.5d
-			y: -3.5d
-			subtitle: "{quest.twr.7C21BA2D2453AA79.subtitle}"
-			description: [
-				"{quest.twr.7C21BA2D2453AA79.description.1}"
-				"{quest.twr.7C21BA2D2453AA79.description.2}"
-				"{quest.twr.7C21BA2D2453AA79.description.3}"
-			]
-			dependencies: ["5287CFB7B7D5285E"]
-			optional: true
-			id: "7C21BA2D2453AA79"
-			tasks: [{
-				id: "235B545099D28CAC"
-				type: "item"
-				item: "frostedheart:oil_burner"
 			}]
 		}
 		{
