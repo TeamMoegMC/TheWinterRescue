@@ -29,7 +29,7 @@ onEvent('item.modification', event => {
 			item.burnTime = 3600
 		})
 	// modify burn time of snowy vine, 20 ticks, which is half of straw
-	event.modify('primalwinter:snowy_vine', item => {
+	event.modify('minecraft:vine', item => {
 		item.burnTime = 20
 	});
 })

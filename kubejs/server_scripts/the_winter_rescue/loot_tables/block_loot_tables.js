@@ -55,41 +55,17 @@ var ore_blocks_i;
     }
 //若要修改矿石掉落物，将矿石本身放在ore_blicks里，掉落物放在ores里。貌似必须是双引号才行(
 //!!!不要再添加铜矿沙砾了，那个是在别的地方做了合成表!!!
-	/*var modseedfunction= table => {
-		table.addPool(pool=> {
-			pool.survivesExplosion()
-			pool.randomChance(0.15)
-            pool.addItem('frostedheart:frozen_seeds', 4)
-            //pool.addItem('kubejs:frozen_seeds_wheat', 1)
-            //pool.addItem('kubejs:frozen_seeds_pumpkin', 1)
-            //pool.addItem('kubejs:frozen_seeds_beetroots', 1)
-            //pool.addItem('kubejs:frozen_seeds_unknown', 4)
-            //pool.addItem('kubejs:frozen_seeds_blackwheat', 1)
-            pool.addItem('kubejs:frozen_white_turnip', 1)
-			pool.addItem('minecraft:flint', 4)
-		})
-	};
-
-	event.modifyBlock('primalwinter:snowy_dirt',modseedfunction)*/
 	
-	event.addBlock('primalwinter:snowy_dirt', table => {
+	event.addBlock('minecraft:grass_block', table => {
 		table.addPool(pool=> {
 		  pool.survivesExplosion()
-		  pool.addItem('rankine:loam')
+		  pool.addItem('minecraft:dirt')
 		}),
 		table.addPool(pool=> {
 			pool.survivesExplosion()
 			pool.randomChance(0.15)
       pool.addItem('frostedheart:frozen_seeds', 4)
       pool.addItem('kubejs:frozen_white_turnip', 1)
-			pool.addItem('minecraft:flint', 4)
-		})
-	})
-	
-	event.modifyBlock('primalwinter:snowy_sand', table => {
-		table.addPool(pool =>{
-			pool.survivesExplosion()
-			pool.randomChance(0.1)
 			pool.addItem('minecraft:flint', 4)
 		})
 	})
@@ -120,36 +96,7 @@ var ore_blocks_i;
                     }
                   ]
                 })
-			pool.addItem('primalwinter:snowy_vine', 1)
-		})
-	})
-	event.modifyBlock("primalwinter:snowy_vine", table => {
-		table.addPool(pool =>{
-			pool.addCondition({
-                  "condition": "minecraft:alternative",
-                  "terms": [
-                    {
-                      "condition": "minecraft:match_tool",
-                      "predicate": {
-                        "tag": "frostedheart:knife"
-                      }
-                    },
-                    {
-                      "condition": "minecraft:match_tool",
-                      "predicate": {
-                        "enchantments": [
-                          {
-                            "enchantment": "minecraft:silk_touch",
-                            "levels": {
-                              "min": 1
-                            }
-                          }
-                        ]
-                      }
-                    }
-                  ]
-                })
-			pool.addItem('primalwinter:snowy_vine', 1)
+			pool.addItem('minecraft:vine', 1)
 		})
 	})
 })

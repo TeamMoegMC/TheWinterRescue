@@ -25,7 +25,7 @@ onEvent('item.tooltip', (event) => {
             text: [Text.of(text.translate("tooltip.the_winter_rescue.replaced_recipe")).gray()]
         },
         {
-            items: ['primalwinter:snowy_vine'],
+            items: ['minecraft:vine'],
             text: [Text.of(text.translate("tooltip.the_winter_rescue.snowy_vine")).gray()]
         },
         {
