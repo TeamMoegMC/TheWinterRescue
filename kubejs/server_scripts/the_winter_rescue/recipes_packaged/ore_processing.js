@@ -45,27 +45,22 @@ by_products[1] = [Item.of("rankine:sulfur").withChance(0.5)];
     }
 
     // low-smelt point metals
-    event.smelting('rankine:vanadium_ingot', 'kubejs:washed_ore_vanadinite');
     event.smelting('immersiveengineering:ingot_lead', 'kubejs:washed_ore_galena');
     event.smelting('rankine:tin_ingot', 'kubejs:washed_ore_cassiterite');
-    event.smelting('rankine:tin_ingot', 'kubejs:washed_ore_native_tin');
-    event.smelting('rankine:antimony', 'kubejs:washed_ore_stibnite');
-
     var data = {
         recipes: [
     {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_magnetite',time:300},
     {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_pyrite',time:300},
     {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_hematite',time:300},
-    {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_malachite',time:150},
-    {output: 'rankine:copper_ingot', input: 'kubejs:washed_ore_chalcocite',time:120},
+    {output: 'minecraft:copper_ingot', input: 'kubejs:washed_ore_malachite',time:150},
+    {output: 'minecraft:copper_ingot', input: 'kubejs:washed_ore_chalcocite',time:120},
     {output: 'immersiveengineering:ingot_silver', input: 'kubejs:washed_ore_silver',time:150},
     {output: 'minecraft:gold_ingot', input: 'kubejs:washed_ore_gold',time:150},
     {output: 'immersiveengineering:ingot_nickel', input: 'kubejs:washed_ore_pentlandite',time:300},
 	{output: 'immersiveengineering:ingot_nickel', input: 'kubejs:nickel_matte',time:300},
-	{output: 'rankine:antimony', input: 'kubejs:antimony_oxide',time:80},
-	{output: 'rankine:copper_ingot', input: 'kubejs:copper_oxide',time:90},
+	{output: 'minecraft:copper_ingot', input: 'kubejs:copper_oxide',time:90},
 	{output: 'immersiveengineering:ingot_lead', input: 'kubejs:lead_oxide',time:80},
-	{output: 'rankine:zinc_ingot', input: 'kubejs:washed_ore_sphalerite',time:150}
+	{output: 'create:zinc_ingot', input: 'kubejs:washed_ore_sphalerite',time:150}
      ]
     };
 	data.recipes.forEach((recipe) => {

@@ -5,7 +5,6 @@ onEvent('recipes', (event) => {
 
         {output: "2x kubejs:wet_coal_briquette", input: "kubejs:wet_coal_dust"},
         {output: "4x kubejs:creosoted_coal_briquette", input: ["kubejs:anthracite_dust",Fluid.of('immersiveengineering:creosote', 100)]},
-        {output: "rankine:graphite_block", input: "9x rankine:graphite"},
         {output: "3x kubejs:creosoted_coal_briquette", input: ["#forge:dusts/coal_coke",Fluid.of('immersiveengineering:creosote', 100)]},
         {output: "kubejs:creosoted_charcoal_briquette", input: ["kubejs:charcoal_dust",Fluid.of('immersiveengineering:creosote',260)]},
         {output: "kubejs:creosoted_sawdust_briquette", input: ["4x #forge:dusts/wood",Fluid.of('immersiveengineering:creosote', 25)]},

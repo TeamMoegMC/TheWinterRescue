@@ -14,13 +14,13 @@ onEvent('recipes', (event) => {
                 output: '4x kubejs:battery_alloy',
                 time: 400
             },
-			{input1: '#forge:ingots/zinc', input2: '2x #forge:ingots/copper', output: '3x rankine:brass_ingot', time: 300},
+			{input1: '#forge:ingots/zinc', input2: '2x #forge:ingots/copper', output: '3x create:brass_ingot', time: 300},
             // {
             //     input1: '#forge:glass',
             //     input2: Ingredient.of('#forge:ingots/copper', 3),
             //     output: Item.of('tconstruct:tinkers_bronze_ingot', 3)
             // }
-            {input1: '4x #forge:ores/copper', input2: '#kubejs:kiln_dust', output: '4x rankine:copper_ingot', time: 400},
+            {input1: '4x #forge:ores/copper', input2: '#kubejs:kiln_dust', output: '4x minecraft:copper_ingot', time: 400},
             {input1: '4x #forge:ores/tin', input2: '#kubejs:kiln_dust', output: '4x rankine:tin_ingot', time: 400}
         ]
     recipes.forEach((recipe) => {

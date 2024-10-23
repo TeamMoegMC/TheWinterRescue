@@ -24,7 +24,6 @@ onEvent('recipes', (event) => {
 		shapelessRecipe('frostedheart:quill_and_ink', ['minecraft:feather', 'minecraft:glass_bottle','4x frostedheart:generator_ash']),
 		shapelessRecipe('frostedheart:rubbing_tool', ['4x frostedheart:generator_ash', 'minecraft:paper',"frostedheart:rubbing_pad"]),
 		shapelessRecipe('4x minecraft:white_dye',["kubejs:antimony_oxide"]),
-		shapelessRecipe('rankine:stick_block',["4x minecraft:stick"])
 	]
 	Ingredient.of("#forge:vertical_slabs").getItemIds().forEach((name)=>{
 		let i=Ingredient.of(name.replace("_vertical",""));

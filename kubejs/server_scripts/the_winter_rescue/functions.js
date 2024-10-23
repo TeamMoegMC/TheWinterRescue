@@ -34,7 +34,7 @@ function shapelessRecipeGroup(result, ingredients, id, group) {
     return {result: result, ingredients: ingredients, id: id, group: group};
 }
 function beehiveRecipe(input, result) {
-    return {type: 'rankine:beehive_oven', input: input, result: result};
+    return {type: 'frostedheart:beehive_oven', input: input, result: result};
 }
 
 function inspireRecipe(input, result) {

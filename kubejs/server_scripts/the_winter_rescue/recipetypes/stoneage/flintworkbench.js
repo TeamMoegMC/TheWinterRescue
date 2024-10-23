@@ -137,9 +137,6 @@ onEvent('recipes', (event) => {
         shapedRecipe('charcoal_pit:barrel', ['AAA', 'A A', 'AAA'], {
             A: '#minecraft:wooden_slabs'
         }),
-        shapedRecipe('rankine:bronze_door', ['AA', 'AA', 'AA'], {
-            A: '#forge:ingots/bronze'
-        }),
         shapedRecipe('minecraft:barrel', ['ABA', 'A A', 'AAA'], {
             A: '#minecraft:planks',
             B: '#forge:plates/bronze'
@@ -313,9 +310,6 @@ onEvent('recipes', (event) => {
         }),
         shapedRecipe('charcoal_pit:clay_pot', ['AAA', 'A A', 'AAA'], {
             A: 'minecraft:clay_ball'
-        }),
-        shapedRecipe('rankine:wooden_gold_pan', ['   ', 'AAA', ' A '], {
-            A: '#minecraft:planks'
         }),
         shapedRecipe('frostedheart:charcoal_stick', ['A'], {
             A: 'kubejs:charcoal_briquette'

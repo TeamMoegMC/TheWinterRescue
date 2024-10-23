@@ -1,7 +1,7 @@
 onEvent('recipes', (event) => {
     let recipes = [
             {
-                input: 'rankine:quartzite',
+                input: 'minecraft:sandstone',
                 output: Item.of('minecraft:quartz', 4),
                 secondary: [Item.of('minecraft:quartz').chance(0.5)],
             }

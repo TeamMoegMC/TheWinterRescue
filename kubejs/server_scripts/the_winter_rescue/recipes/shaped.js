@@ -19,7 +19,7 @@ onEvent('recipes', (event) => {
             A: '#forge:rods/cast_iron',
             C: '#the_winter_rescue:leather'
         }),
-        shapedRecipe('rankine:beehive_oven_pit', [' A ', 'ABA', ' A '], {
+        shapedRecipe('frostedheart:beehive_oven_pit', [' A ', 'ABA', ' A '], {
                     A: 'rankine:refractory_bricks',
                     B: 'minecraft:iron_ingot'
         }),
@@ -41,10 +41,6 @@ onEvent('recipes', (event) => {
         }),
 		shapedRecipe('4x kubejs:cast_iron_rod', ['  A', ' A ','A  '], {
             A: '#forge:ingots/cast_iron'
-        }),
-		shapedRecipe('6x rankine:cast_iron_support', ['AAA', ' B ','B B'], {
-            A: '#forge:ingots/cast_iron',
-			B: '#forge:rods/cast_iron'
         }),
 		shapedRecipe('3x immersiveengineering:conveyor_basic', ['ACA', 'ABA'], {
             A: '#forge:plates/steel',
@@ -199,10 +195,6 @@ onEvent('recipes', (event) => {
             B: '#forge:ingots/tungsten',
             C: 'create:refined_radiance',
             D: 'minecraft:white_stained_glass_pane'
-        }),
-		shapedRecipe('4x supplementaries:checker_block', ['AB', 'BA'], {
-            A: 'rankine:black_marble',
-            B: 'rankine:white_marble'
         }),
 		shapedRecipe('2x supplementaries:daub', ['AB', 'BA'], {
             A: 'minecraft:clay',
@@ -387,7 +379,7 @@ onEvent('recipes', (event) => {
             A: 'immersiveengineering:treated_wood_horizontal',
             B: 'kubejs:invar_steel_plate',
 			C: 'minecraft:bucket',
-            D: 'rankine:invar_bars'
+            D: 'rankine:invar_ingot'
         }),
 		shapedRecipe('frostedheart:advanced_thermos', ['ABA', 'CBC', 'CBC'], {
             A: '#forge:plates/iron',

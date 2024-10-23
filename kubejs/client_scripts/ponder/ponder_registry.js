@@ -86,7 +86,7 @@ onEvent("ponder.registry", event => {
             scene.overlay().showControls(new PonderInput(util.vector().blockSurface(center, Facing.down), PonderPointing.RIGHT)
                 .rightClick()
                 .whileSneaking()
-                .withItem("rankine:magnetite"), 20)
+                .withItem("minecraft:raw_iron"), 20)
             scene.idle(50)
 
             scene.addKeyframe()
@@ -96,7 +96,7 @@ onEvent("ponder.registry", event => {
                 .pointAt(util.vector().centerOf(center))
             scene.overlay().showControls(new PonderInput(util.vector().blockSurface(center, Facing.down), PonderPointing.RIGHT)
                 .rightClick()
-                .withItem("rankine:magnetite"), 40)
+                .withItem("minecraft:raw_iron"), 40)
             scene.idle(50)
 
             scene.overlay().showControls(new PonderInput(util.vector().blockSurface(center, Facing.down), PonderPointing.RIGHT)
@@ -398,7 +398,7 @@ onEvent("ponder.registry", event => {
 			scene.idle(60)
         })
 
-	event.create("the_winter_rescue:beehive_oven_pit", ["rankine:beehive_oven_pit"])
+	event.create("the_winter_rescue:beehive_oven_pit", ["frostedheart:beehive_oven_pit"])
         .tag("the_winter_rescue:beehive_oven_pit")
         .scene("basic_usage", "", "kubejs:beehive_oven_pit", (scene, util) => {
             scene.configureBasePlate(0, 0, 5)

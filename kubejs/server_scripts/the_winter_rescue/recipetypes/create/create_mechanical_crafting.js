@@ -1,7 +1,7 @@
 onEvent('recipes', (event) => {
     let recipes = [
         shapedRecipe('steampowered:alternator', ['BBEBB', 'FFACD', 'BBEBB'], {
-            A: 'rankine:cast_iron_support',
+            A: '#forge:sheetmetals/steel',
             B: '#forge:plates/cast_iron',
             C: 'steampowered:cast_iron_cogwheel',
             D: 'steampowered:cast_iron_large_cogwheel',

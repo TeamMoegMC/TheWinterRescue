@@ -1,9 +1,6 @@
 {"type": "frostedheart:remove_loot",
 "removed":[
-{"item":"minecraft:apple"},
-{"item":"rankine:black_walnut"},
-{"item":"rankine:coconut"},
-{"item":"rankine:juniper_berries"}
+{"item":"minecraft:apple"}
 ],
 "conditions": [
 {"condition":"stone_age:match_tag","tag":"minecraft:leaves"},

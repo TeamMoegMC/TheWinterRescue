@@ -1,7 +1,7 @@
 onEvent('recipes', (event) => {
     event.recipes.createSequencedAssembly([
         Item.of('immersiveengineering:capacitor_lv')
-    ], 'rankine:cast_iron_support', [
+    ], '#forge:sheetmetals/iron', [
         event.recipes.createDeploying('kubejs:incomplete_capacitor_lv', ['kubejs:incomplete_capacitor_lv', '#forge:plates/battery_alloy']),
         event.recipes.createDeploying('kubejs:incomplete_capacitor_lv', ['kubejs:incomplete_capacitor_lv', '#forge:dusts/redstone']),
         event.recipes.createDeploying('kubejs:incomplete_capacitor_lv', ['kubejs:incomplete_capacitor_lv', 'immersiveengineering:wirecoil_copper']),

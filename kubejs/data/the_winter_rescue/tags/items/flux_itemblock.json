@@ -1,10 +1,6 @@
 {
   "replace": false,
   "values": [
-    "rankine:limestone",
-	"rankine:white_marble",
-	"rankine:black_marble",
-	"rankine:dolostone",
-	"rankine:chalk"
+    "minecraft:calcite"
   ]
 }
