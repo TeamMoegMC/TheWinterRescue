@@ -109,7 +109,6 @@ onEvent('recipes', (event) => {
         ['3x immersiveindustry:refractory_kiln_brick'],input:
         ['3x rankine:fire_clay_ball', '5x kubejs:aluminium_oxide_dust', 'immersiveengineering:dust_hop_graphite']}
 	]
-	//event.recipes.createMixing(Fluid.of('thermopolium:nail_soup', 1000),Fluid.of('watersource:purified_water', 1000)).processingTime(10000).heated();
 	recipes.forEach((recipe) => {
         event.recipes.createMixing(recipe.output, recipe.input);
     });

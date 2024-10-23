@@ -224,13 +224,9 @@ onEvent('recipes', (event) => {
         shapedRecipe('frostedheart:rye_bread', ['AAA'], {
             A: 'frostedheart:rye'
         }),
+        // TODO: Change to frostedheart version for watersource entries
         shapedRecipe('watersource:wooden_cup', ['A A', 'A A', ' A '], {
             A: '#minecraft:planks'
-        }),
-        shapedRecipe('watersource:wooden_water_filter', ['BCB', 'AAA', 'BCB'], {
-            A: '#minecraft:planks',
-            B: '#minecraft:logs',
-            C: 'minecraft:glass'
         }),
         shapedRecipe('kubejs:wet_straw_briquette', ['AAA', 'A A', 'AAA'], {
             A: 'charcoal_pit:straw'

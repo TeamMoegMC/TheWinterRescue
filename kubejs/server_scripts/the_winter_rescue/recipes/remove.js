@@ -17,7 +17,6 @@ onEvent('recipes', (event) => {
 		'immersiveengineering:windmill',
 		'immersiveengineering:windmill_blade',
 		'immersiveengineering:waterwheel_segment',
-        'immersivepetroleum:speedboat',
         'immersiveengineering:sample_drill',
         'minecraft:blast_furnace',
         'minecraft:smoker',
@@ -218,7 +217,6 @@ onEvent('recipes', (event) => {
     event.remove({type: 'rankine:beehive_oven'})
     event.remove({input: 'rankine:element_transmuter'})
     event.remove({mod: 'theoneprobe'});
-    event.remove({mod: 'immersivepetroleum'});
 	event.remove({mod: 'steampowered'});
 	event.remove({type:'immersiveengineering:crusher',input:'#forge:ores'});
 	event.remove({type:'immersiveengineering:arc_furnace',input:'#forge:ores'});

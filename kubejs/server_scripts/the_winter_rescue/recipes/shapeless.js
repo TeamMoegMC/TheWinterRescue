@@ -10,7 +10,6 @@ onEvent('recipes', (event) => {
     ]
     var newShapelessRecipes = [
 		shapelessRecipe('frostedheart:raw_rye_bread', ['2x frostedheart:rye_flour','minecraft:water_bucket']),
-		shapelessRecipe('watersource:purified_water_bottle', ['frostedheart:steam_bottle','minecraft:snowball']),
 		shapelessRecipe('immersiveengineering:crate', ['immersiveengineering:reinforced_crate']),
         shapelessRecipe('stone_age:dried_grass', ['charcoal_pit:straw']),
 		shapelessRecipe('frostedheart:black_bread', ['frostedheart:rye_flour','frostedheart:rye_flour','#forge:dusts/wood']),

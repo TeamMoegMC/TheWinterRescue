@@ -31,11 +31,6 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'minecraft:paper'
         }),
-		shapedRecipe('watersource:water_dispenser', ['ABA', 'ACA', 'AAA'], {
-            A: '#forge:plates/aluminum',
-            B: 'immersiveengineering:metal_barrel',
-            C: 'rankine:tree_tap'
-        }),
 		shapedRecipe('rankine:tree_tap', ['AAA', '  B'], {
             A: '#forge:rods/cast_iron',
             B: 'minecraft:bucket'

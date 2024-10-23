@@ -1,13 +1,9 @@
 onEvent('recipes', (event) => {
     const recipes = [
+	// TODO: Change to frostedheart version for watersource entries
     campfireRecipe(Item.of('watersource:wooden_cup_drink', '{Fluid:{FluidName:"watersource:purified_water",Amount:250}}'), Item.of('watersource:wooden_cup_drink', '{Fluid:{FluidName:"minecraft:water",Amount:250}}'),800),
     campfireRecipe(Item.of('watersource:wooden_cup_drink', '{Fluid:{FluidName:"thermopolium:nail_soup",Amount:250}}'), Item.of('watersource:wooden_cup_drink', '{Fluid:{FluidName:"watersource:purified_water",Amount:250}}'),600),
-	//campfireRecipe(Item.of('frostedheart:thermos', '{Fluid:{FluidName:"watersource:purified_water",Amount:1500}}'), Item.of('frostedheart:thermos', '{Fluid:{FluidName:"minecraft:water",Amount:1500}}'),600),
-    //campfireRecipe(Item.of('frostedheart:thermos', '{Fluid:{FluidName:"frostedheart:hot_water",Amount:1500}}'), Item.of('frostedheart:thermos', '{Fluid:{FluidName:"watersource:purified_water",Amount:1500}}'),300),
-	//campfireRecipe(Item.of('frostedheart:advanced_thermos', '{Fluid:{FluidName:"watersource:purified_water",Amount:3000}}'), Item.of('frostedheart:advanced_thermos', '{Fluid:{FluidName:"minecraft:water",Amount:3000}}'),1200),
-    //campfireRecipe(Item.of('frostedheart:advanced_thermos', '{Fluid:{FluidName:"frostedheart:hot_water",Amount:3000}}'), Item.of('frostedheart:advanced_thermos', '{Fluid:{FluidName:"watersource:purified_water",Amount:3000}}'),600),
-	campfireRecipe('watersource:purified_water_bottle', Item.of('minecraft:potion', '{Potion:"minecraft:water"}'),600),
-    campfireRecipe('minecraft:torch', 'stone_age:unlit_torch',200),
+	campfireRecipe('minecraft:torch', 'stone_age:unlit_torch',200),
 	campfireRecipe('kubejs:coal_briquette', 'kubejs:wet_coal_briquette',0,200),
 	campfireRecipe('kubejs:coal_briquette', 'kubejs:creosoted_coal_briquette',0,100),
 	campfireRecipe('kubejs:charcoal_briquette', 'kubejs:creosoted_charcoal_briquette',0,200),
