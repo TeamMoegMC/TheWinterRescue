@@ -23,69 +23,13 @@ onEvent('recipes', (event) => {
         'immersiveengineering:thermoelectric_generator',
         'immersiveengineering:blueprint',
         'immersiveengineering:toolbox',
-		'rankine:prospecting_stick',
 		'minecraft:cobweb',
-		'rankine:evaporation_tower',
         'charcoal_pit:copper_block',
 		'immersiveengineering:crate',
 		'create:schematicannon',
 		'supplementaries:present',
 		'supplementaries:planter',
 		'supplementaries:sack',
-		'rankine:material_testing_table',
-		'rankine:fusion_furnace',
-		'rankine:distillation_tower',
-		'rankine:air_distillation_packing',
-		'rankine:gas_bottler',
-		'rankine:gas_vent',
-		"rankine:mixing_barrel",
-		"rankine:cast_iron_support",
-		"rankine:crushing_head_hl0",
-		"rankine:crushing_head_hl1",
-		"rankine:crushing_head_hl2",
-		"rankine:crushing_head_hl3",
-		"rankine:crushing_head_hl4",
-		"rankine:crushing_head_hl5",
-		"rankine:silver_zinc_battery",
-		"rankine:magnesium_battery",
-		"rankine:lead_acid_battery",
-		"rankine:vanadium_redox_battery",
-		"rankine:zinc_bromine_battery",
-		"rankine:sodium_sulfur_battery",
-		"rankine:lithium_ion_battery",
-		"rankine:strontium_rtg",
-		"rankine:polonium_rtg",
-		"rankine:plutonium_rtg",
-		"rankine:americium_rtg",
-		"rankine:curium_rtg",
-		"rankine:shulker_gas_vacuum",
-		"rankine:emergency_flotation_device",
-		"rankine:alnico_magnet",
-		"rankine:rare_earth_magnet",
-		"rankine:hardness_tester",
-		"rankine:penning_trap",
-		"rankine:dowsing_rod",
-		"rankine:ground_tap",
-		"rankine:metal_pipe",
-		"rankine:sodium_vapor_lamp",
-		//"rankine:tap_line",//TBD
-		"rankine:totem_of_timesaving",
-		"rankine:totem_of_softening",
-		"rankine:totem_of_repulsing",
-		"rankine:totem_of_promising",
-		"rankine:totem_of_levitating",
-		"rankine:totem_of_invigorating",
-		"rankine:totem_of_infusing",
-		"rankine:totem_of_hastening",
-		"rankine:totem_of_enduring",
-		"rankine:totem_of_blazing",
-		"rankine:coin",
-		"rankine:sodium_arc_tube",
-		"rankine:silicon_germanium_thermocouple",
-		"rankine:cadmium_telluride_cell",
-		"rankine:graphite_electrode",
-		"rankine:hard_carbon_electrode",
-		"rankine:wooden_hammer",
 		"supplementaries:cog_block",
 		"supplementaries:spring_launcher",
 		"supplementaries:bellows",
@@ -95,18 +39,12 @@ onEvent('recipes', (event) => {
 		"crockpot:crock_pot_advanced",
 		"crockpot:crock_pot_ultimate",
 		"minecraft:green_dye",
-		"rankine:cannonball"
     ]
     workbench.forEach((Item) => {
         event.remove({type: 'minecraft:crafting_shaped', output: Item});
     });
 	let shapeless = [
         'minecraft:ender_eye',
-        'rankine:fire_clay_ball',
-		'rankine:vulcanized_rubber',
-		'rankine:sodium_hydroxide',
-		'rankine:kaolinite',
-		'rankine:high_refractory_brick',
 		'#forge:plates',
 		'minecraft:rabbit_stew',
 		'minecraft:wheat',
@@ -114,12 +52,7 @@ onEvent('recipes', (event) => {
 		'create:tree_fertilizer'
     ]
 	let Names = [
-		'rankine:bucket_brass',
-		'rankine:bucket_misc',
-		'rankine:bucket_steel',
 		'minecraft:bucket',
-		'rankine:hopper_from_metals',
-		'rankine:minecart_from_metals',
 		'stone_age:backpack',
 		"minecraft:white_wool_from_string"
     ]
@@ -161,19 +94,7 @@ onEvent('recipes', (event) => {
 	event.remove({type: 'minecraft:crafting_shapeless', input: "4x #minecraft:stairs"});
     let smelting = [
         'minecraft:iron_ingot',
-        'rankine:aluminum_ingot',
-        'rankine:nickel_ingot',
-        'rankine:antimony',
-        'rankine:magnesium_ingot',
-        'rankine:tungsten_ingot',
-        'rankine:titanium_ingot',
-        'rankine:chromium_ingot',
         'minecraft:iron_nugget',
-        'rankine:tungsten_block',
-        'rankine:titanium_block',
-        'rankine:nickel_block',
-        'rankine:aluminum_block',
-        'rankine:chromium_block',
 		'minecraft:air'
     ]
     smelting.forEach((Item) => {
@@ -201,8 +122,6 @@ onEvent('recipes', (event) => {
     });
 
     // Remove by Types
-	event.remove({mod: 'rankine', output: "#forge:sheetmetal"});
-	event.remove({type: 'rankine:crushing'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:radiator'})
     event.remove({type: 'immersiveengineering:turn_and_copy', output: 'immersiveengineering:rs_engineering'})
     event.remove({type: 'immersiveengineering:hammer_crushing'})
@@ -210,39 +129,19 @@ onEvent('recipes', (event) => {
     event.remove({type: 'minecraft:crafting_shapeless', input: 'immersiveengineering:hammer'})
     event.remove({type: 'create:splashing', input: 'minecraft:gravel'})
     event.remove({type: 'create:splashing', input: 'minecraft:red_sand'})
-    event.remove({type: 'rankine:crucible', output: '#forge:ingots/steel'})
-    event.remove({type: 'rankine:alloying', output: '#forge:ingots/steel'})
-	event.remove({type: "rankine:alloy_crafting"})
     event.remove({input: 'notreepunching:plant_string'})
-    event.remove({type: 'rankine:beehive_oven'})
-    event.remove({input: 'rankine:element_transmuter'})
     event.remove({mod: 'theoneprobe'});
 	event.remove({mod: 'steampowered'});
 	event.remove({type:'immersiveengineering:crusher',input:'#forge:ores'});
 	event.remove({type:'immersiveengineering:arc_furnace',input:'#forge:ores'});
     event.remove({input: 'minecraft:sugar_cane', output: 'minecraft:paper'});
     event.remove({input: 'immersiveengineering:dust_wood', output: 'minecraft:paper'});
-    event.remove({input: 'rankine:alloy_template', output: 'minecraft:paper'});
     event.remove({input: 'minecraft:redstone_ore'});
 	event.remove({output: '#minecraft:planks'});
 	event.remove({output: 'create:chromatic_compound'});
 	event.remove({input:'create:dough'});
-	event.remove({type:'rankine:crucible'});
-	event.remove({type:'rankine:alloying'});
-	event.remove({type:"rankine:evaporation"});
-	event.remove({type:"rankine:fusion_furnace"});
-	event.remove({type:"rankine:air_distillation"});
-	event.remove({type:"rankine:stripping"});
-	event.remove({type:"rankine:mixing"});
-    event.remove({type: 'minecraft:smelting', input: 'rankine:magnetite_block'});
-    event.remove({type: 'minecraft:blasting', input: 'rankine:magnetite_block'});
-	event.remove({mod: 'rankine',type: 'minecraft:smelting', output: '#forge:ingots'});
-    event.remove({mod: 'rankine',type: 'minecraft:blasting', output: '#forge:ingots'});
-	event.remove({mod: 'rankine',type: 'minecraft:smelting', output: '#forge:storage_blocks'});
-    event.remove({mod: 'rankine',type: 'minecraft:blasting', output: '#forge:storage_blocks'});
 	event.remove({type: 'minecraft:blasting', output: 'immersiveengineering:ingot_hop_graphite'});
 	event.remove({type: 'minecraft:smelting', output: 'immersiveengineering:ingot_hop_graphite'});
-	event.remove({type: 'minecraft:campfire_cooking', output: 'rankine:refractory_brick'});
 	//event.remove({type: 'minecraft:blasting'});
 	['minecraft:air',
 	'stone_age:backpack'].forEach((disabledItem) => {
@@ -262,7 +161,6 @@ onEvent('recipes', (event) => {
         'create:copper_ingot',
         'create:andesite_alloy',
         '#create:crushed_ores',
-        'rankine:ultra_high_refractory_brick',
         'immersiveengineering:capacitor_lv',
         'immersiveengineering:capacitor_mv',
         'immersiveengineering:capacitor_hv',
