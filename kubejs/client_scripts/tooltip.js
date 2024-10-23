@@ -28,10 +28,11 @@ onEvent('item.tooltip', (event) => {
             items: ['minecraft:vine'],
             text: [Text.of(text.translate("tooltip.the_winter_rescue.snowy_vine")).gray()]
         },
-        {
-            items: ['rankine:flint_knife'],
-            text: [Text.of(text.translate("tooltip.the_winter_rescue.flint_knife")).gray()]
-        },
+        // TODO: Uncomment when FH is ready
+        // {
+        //     items: ['frostedheart:flint_knife'],
+        //     text: [Text.of(text.translate("tooltip.the_winter_rescue.flint_knife")).gray()]
+        // },
         {
             items: ['stone_age:flint_knife'],
             text: [Text.of(text.translate("tooltip.the_winter_rescue.flint_knife_2")).gray()]
