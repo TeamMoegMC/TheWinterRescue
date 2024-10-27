@@ -1,3 +1,4 @@
+#General configuration
 #How much time (ms) to wait before reporting an exception again
 #Range: 1 ~ 10000000
 loggingThrowableTimeout = 20000
@@ -50,4 +51,12 @@ showContentsWithoutSneaking = ["storagedrawers:basicdrawers", "storagedrawersext
 dontShowContentsUnlessSneaking = []
 #A list of blocks for which we don't send NBT over the network. This is mostly useful for blocks that have HUGE NBT in their pickblock (itemstack)
 dontSendNBT = []
+#A list of either <modid>:<entityid> to disable the tooltip for specific entities. Can also be a single <modid> to disable an entire mod. Or it can also be '*' to disable everything
+blacklistEntities = []
+#A list of <tag>=<name> containing all tooltype tags with their associated name to display
+tooltypeTags = ["minecraft:mineable/axe=Axe", "minecraft:mineable/pickaxe=Pickaxe", "minecraft:mineable/shovel=Shovel", "minecraft:mineable/hoe=Hoe"]
+#A list of <tag>=<name> containing all harvestability tags with their associated name to display
+harvestabilityTags = ["forge:needs_wood_tool=Wood", "forge:needs_gold_tool=Gold", "minecraft:needs_stone_tool=Stone", "minecraft:needs_iron_tool=Iron", "minecraft:needs_diamond_tool=Diamond", "forge:needs_netherite_tool=Netherite"]
+#true means shows harvestability with vanilla style icons
+harvestStyleVanilla = true
 

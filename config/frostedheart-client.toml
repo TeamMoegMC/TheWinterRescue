@@ -25,6 +25,10 @@ enableFrozenSound = true
 enableBreathParticle = true
 #Enables the waypoints rendering. 
 enableWaypoint = true
+#Enables the scenario rendering. 
+renderScenario = false
+#Enables the tips rendering. 
+renderTips = false
 
 [scenario]
 	#Base text appear speed, actual speed may change by scenario if necessary, speed 1 is 0.5 character per tick.

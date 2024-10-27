@@ -1,3 +1,4 @@
+#General configuration
 #This is a list of entities that will not be rendered by TOP. This option also works if it is set client-side alone
 renderBlacklist = []
 #The amount of milliseconds to wait before updating probe information from the server
@@ -82,8 +83,6 @@ chestContentsBorderColor = "ff006699"
 #0 means don't show break progress, 1 is show as bar, 2 is show as text
 #Range: 0 ~ 2
 showBreakProgress = 1
-#true means shows harvestability with vanilla style icons
-harvestStyleVanilla = true
 
 [style]
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
