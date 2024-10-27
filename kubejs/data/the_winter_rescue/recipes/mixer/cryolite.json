@@ -1,11 +1,11 @@
 {
 		"type": "immersiveengineering:mixer",
         "inputs": [{
-            "base_ingredient":{"item":"kubejs:fluorite_dust"},
+            "base_ingredient":{"item":"frostedheart:cryolite_dust"},
             "count":2
           },
           {
-            "item": "kubejs:aluminium_hydroxide_dust"
+            "item": "frostedheart:aluminium_hydroxide_dust"
           }],
         "result": {
             "fluid": "kubejs:cryolite","amount": 550

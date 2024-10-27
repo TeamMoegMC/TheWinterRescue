@@ -22,13 +22,13 @@ onEvent('item.tags', (event) => {
 	event.add('frostedheart:knife', '#forge:knives')
 	//event.add('ages_api:knives','#frostedheart:knife')
     event.add('forge:plates/bronze', "steampowered:bronze_sheet")
-    event.add('forge:plates/cast_iron', "kubejs:cast_iron_plate")
-    event.add('forge:plates/tungsten_steel', "kubejs:tungsten_steel_plate")
-    event.add('forge:ingots/tungsten_steel', "kubejs:tungsten_steel")
-    event.add('forge:plates/battery_alloy', "kubejs:battery_alloy_plate")
-    event.add('forge:ingots/battery_alloy', "kubejs:battery_alloy")
+    event.add('forge:plates/cast_iron', "frostedheart:cast_iron_sheet")
+    event.add('forge:plates/tungsten_steel', "frostedheart:tungsten_steel_sheet")
+    event.add('forge:ingots/tungsten_steel', "frostedheart:tungsten_steel_ingot")
+    event.add('forge:plates/battery_alloy', "frostedheart:lead_sheet")
+    event.add('forge:ingots/battery_alloy', "frostedheart:lead_ingot")
     event.add('forge:dusts/wood', "frostedheart:sawdust")
-	event.add("forge:rods/cast_iron","kubejs:cast_iron_rod")
+	event.add("forge:rods/cast_iron","frostedheart:cast_iron_rod")
     event.add('the_winter_rescue:flux_block', "minecraft:calcite")
     event.add('the_winter_rescue:flour', "stone_age:flour")
     event.add('the_winter_rescue:flour', "frostedheart:rye_flour")
@@ -65,7 +65,7 @@ onEvent('item.tags', (event) => {
 	event.add("forge:ores/copper","kubejs:rusted_copper_ingot")
 	event.add("forge:ores/tin","kubejs:gray_tin_ingot")
 	event.add("forge:ores/iron","kubejs:rusted_iron_ingot")
-	event.add("forge:dusts/zinc","kubejs:zinc_dust")
+	event.add("forge:dusts/zinc","frostedheart:zinc_dust")
 	//event.remove("caupona:mushroom","#forge:mushrooms");
 	//event.add("caupona:mushroom","#forge:edible_mushrooms");
 

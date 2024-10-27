@@ -17,12 +17,12 @@
 			tasks: [
 				{
 					id: "786C91AE939F3CC1"
-					item: "kubejs:impure_alumina_dust"
+					item: "frostedheart:bauxite_dust"
 					type: "item"
 				}
 				{
 					id: "536902CC7045DD19"
-					item: "kubejs:kaolin_dust"
+					item: "frostedheart:kaolin_dust"
 					type: "item"
 				}
 				{
@@ -244,7 +244,7 @@
 			rewards: [{
 				count: 3
 				id: "45E9FE5EEEEA947B"
-				item: "kubejs:cast_iron_rod"
+				item: "frostedheart:cast_iron_rod"
 				type: "item"
 			}]
 			subtitle: "{quest.twr.29DCBBB54EE90E51.subtitle}"

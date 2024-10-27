@@ -4,7 +4,7 @@
     "item": "immersiveengineering:dust_aluminum"
   },
   "input": {
-    "item": "kubejs:aluminium_oxide_dust"
+    "item": "frostedheart:alumina_dust"
   },
   "fluid": {
     "tag": "the_winter_rescue:cryolite",

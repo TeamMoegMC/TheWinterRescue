@@ -39,7 +39,7 @@ onEvent('recipes', (event) => {
 		shapedRecipe('4x immersiveengineering:stick_steel', ['  A', ' A ','A  '], {
             A: '#forge:ingots/steel'
         }),
-		shapedRecipe('4x kubejs:cast_iron_rod', ['  A', ' A ','A  '], {
+		shapedRecipe('4x frostedheart:cast_iron_rod', ['  A', ' A ','A  '], {
             A: '#forge:ingots/cast_iron'
         }),
 		shapedRecipe('3x immersiveengineering:conveyor_basic', ['ACA', 'ABA'], {
@@ -98,7 +98,7 @@ onEvent('recipes', (event) => {
             C: 'steampowered:bronze_sheet'
         }),
         shapedRecipe('4x immersiveengineering:blastbrick', ['ABA', 'BCB', 'ABA'], {
-            A: 'kubejs:invar_steel_plate',
+            A: 'frostedheart:invar_sheet',
             B: 'frostedheart:mortar',
             C: 'frostedheart:refractory_bricks'
         }),
@@ -298,7 +298,7 @@ onEvent('recipes', (event) => {
 			D: '#forge:plates/copper'
         }),
 		shapedRecipe('frostedheart:gas_vent', ['ABA', 'BCB'], {
-            A: 'kubejs:invar_steel_plate',
+            A: 'frostedheart:invar_sheet',
             B: 'immersiveengineering:fluid_pipe',
             C: '#forge:plates/steel'
         }),
@@ -377,7 +377,7 @@ onEvent('recipes', (event) => {
         }),
         shapedRecipe('frostedheart:sauna_vent', ['DBD', 'BCB', 'AAA'], {
             A: 'immersiveengineering:treated_wood_horizontal',
-            B: 'kubejs:invar_steel_plate',
+            B: 'frostedheart:invar_sheet',
 			C: 'minecraft:bucket',
             D: 'frostedheart:invar_ingot'
         }),
@@ -463,10 +463,10 @@ onEvent('recipes', (event) => {
             A: 'minecraft:charcoal'
         }),
         shapedRecipe('frostedheart:invar_block', ['AAA', 'AAA', 'AAA'], {
-            A: 'kubejs:invar_steel_plate'
+            A: 'frostedheart:invar_sheet'
         }),
         shapedRecipe('2x frostedheart:tap_line', ['ABA'], {
-            A: 'kubejs:cast_iron_rod',
+            A: 'frostedheart:cast_iron_rod',
             B: '#forge:ingots/cast_iron'
         })
 

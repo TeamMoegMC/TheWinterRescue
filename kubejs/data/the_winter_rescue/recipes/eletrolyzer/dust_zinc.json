@@ -1,7 +1,7 @@
 {
   "type": "immersiveindustry:electrolyzer",
   "result": {
-    "item": "kubejs:zinc_dust"
+    "item": "frostedheart:zinc_dust"
   },
   "fluid": {
     "tag": "the_winter_rescue:zinc_sulfate",

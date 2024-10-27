@@ -1,6 +1,6 @@
 onEvent('recipes', (event) => {
     let items = [
-        {output: 'frostedheart:alumina_dust', input: 'frostedheart:bauxite'},
+        {output: 'frostedheart:crushed_bauxite_ore', input: 'frostedheart:bauxite'},
         {output: '4x frostedheart:kaolin', input: 'frostedheart:kaolin_block'},
 
         {output: "2x kubejs:wet_coal_briquette", input: "kubejs:wet_coal_dust"},

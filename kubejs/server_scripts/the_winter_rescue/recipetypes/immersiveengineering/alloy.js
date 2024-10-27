@@ -8,12 +8,6 @@ onEvent('recipes', (event) => {
             },
             {input1: '#forge:stone', input2: '#forge:stone', output: Item.of('minecraft:stone', 2), time: 200},
             {input1: '8x minecraft:sand', input2: 'kubejs:charcoal_dust', output: '8x minecraft:glass', time: 800},
-            {
-                input1: '3x #forge:ingots/lead',
-                input2: '#forge:ingots/antimony',
-                output: '4x kubejs:battery_alloy',
-                time: 400
-            },
 			{input1: '#forge:ingots/zinc', input2: '2x #forge:ingots/copper', output: '3x create:brass_ingot', time: 300},
             // {
             //     input1: '#forge:glass',

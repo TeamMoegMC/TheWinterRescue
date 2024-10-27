@@ -1,8 +1,8 @@
 onEvent('recipes', (event) => {
     const recipes = [
         {
-            input: 'kubejs:aluminium_hydroxide_dust',
-            output: 'kubejs:aluminium_oxide_dust'
+            input: 'frostedheart:aluminium_hydroxide_dust',
+            output: 'frostedheart:alumina_dust'
         },
         {
             input: '#kubejs:coal_dust',
@@ -20,7 +20,7 @@ onEvent('recipes', (event) => {
 	 {output:'kubejs:sawdust_briquette', input:'kubejs:creosoted_sawdust_briquette'},
 	 {output:'kubejs:straw_briquette', input:'kubejs:wet_straw_briquette'},
 	{output:'#forge:ingots/tin',input: 'kubejs:gray_tin_ingot'},
-		{output: '4x minecraft:red_dye',input:'kubejs:lead_oxide'},
+		{output: '4x minecraft:red_dye',input:'frostedheart:lead_oxide_dust'},
 		{output: 'create:zinc_ingot',input:'#forge:dusts/zinc'}
     ];
 

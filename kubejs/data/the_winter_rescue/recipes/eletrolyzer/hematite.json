@@ -1,7 +1,7 @@
 {
   "type": "immersiveindustry:electrolyzer",
   "result": {
-    "item": "kubejs:washed_ore_hematite"
+    "item": "create:crushed_raw_iron"
   },
   "fluid": {
     "tag": "the_winter_rescue:ferrous_chloride",

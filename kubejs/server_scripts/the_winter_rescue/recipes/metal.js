@@ -5,9 +5,9 @@ onEvent('recipes', (event) => {
 
 
     event.recipes.createCompacting('2x steampowered:bronze_sheet', '3x frostedheart:bronze_ingot')
-    event.recipes.createCompacting('2x kubejs:battery_alloy_plate', '3x kubejs:battery_alloy')
-    event.recipes.createCompacting('2x kubejs:cast_iron_plate', '3x frostedheart:cast_iron_ingot')
-    event.recipes.createCompacting('2x kubejs:invar_steel_plate', '3x frostedheart:invar_ingot')
+    event.recipes.createCompacting('2x frostedheart:lead_sheet', '3x frostedheart:lead_ingot')
+    event.recipes.createCompacting('2x frostedheart:cast_iron_sheet', '3x frostedheart:cast_iron_ingot')
+    event.recipes.createCompacting('2x frostedheart:invar_sheet', '3x frostedheart:invar_ingot')
 
     let metals = [
         "copper",

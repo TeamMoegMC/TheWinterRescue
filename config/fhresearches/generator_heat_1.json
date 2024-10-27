@@ -80,7 +80,7 @@
     {
       "count": 64,
       "base_ingredient": {
-        "item": "kubejs:invar_steel_plate"
+        "item": "frostedheart:invar_sheet"
       }
     },
     {

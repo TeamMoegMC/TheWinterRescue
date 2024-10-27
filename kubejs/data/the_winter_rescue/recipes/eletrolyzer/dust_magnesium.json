@@ -1,7 +1,7 @@
 {
   "type": "immersiveindustry:electrolyzer",
   "result": {
-    "item": "kubejs:magnesium_dust"
+    "item": "frostedheart:magnesium_dust"
   },
   "fluid": {
     "tag": "the_winter_rescue:magnesium_chloride",

@@ -7,7 +7,7 @@ onEvent('recipes', (event) => {
         event.recipes.createDeploying('kubejs:incomplete_capacitor_lv', ['kubejs:incomplete_capacitor_lv', 'immersiveengineering:wirecoil_copper']),
         event.recipes.createDeploying('kubejs:incomplete_capacitor_lv', ['kubejs:incomplete_capacitor_lv', '#forge:plates/lead']),
         event.recipes.createDeploying('kubejs:incomplete_capacitor_lv', ['kubejs:incomplete_capacitor_lv', '#forge:treated_wood']),
-    ]).transitionalItem('kubejs:battery_alloy_plate').loops(4)
+    ]).transitionalItem('frostedheart:lead_sheet').loops(4)
 
     event.recipes.createSequencedAssembly([
         Item.of('immersiveengineering:capacitor_mv')
@@ -17,7 +17,7 @@ onEvent('recipes', (event) => {
         event.recipes.createDeploying('kubejs:incomplete_capacitor_mv', ['kubejs:incomplete_capacitor_mv', 'immersiveengineering:wirecoil_electrum']),
         event.recipes.createDeploying('kubejs:incomplete_capacitor_mv', ['kubejs:incomplete_capacitor_mv', '#forge:plates/aluminum']),
         event.recipes.createDeploying('kubejs:incomplete_capacitor_mv', ['kubejs:incomplete_capacitor_mv', '#forge:treated_wood']),
-    ]).transitionalItem('kubejs:battery_alloy_plate').loops(6)
+    ]).transitionalItem('frostedheart:lead_sheet').loops(6)
 
     event.recipes.createSequencedAssembly([
         Item.of('immersiveengineering:capacitor_hv')
@@ -27,7 +27,7 @@ onEvent('recipes', (event) => {
         event.recipes.createDeploying('kubejs:incomplete_capacitor_hv', ['kubejs:incomplete_capacitor_hv', 'immersiveengineering:wirecoil_steel']),
         event.recipes.createDeploying('kubejs:incomplete_capacitor_hv', ['kubejs:incomplete_capacitor_hv', '#forge:plates/tungsten_steel']),
         event.recipes.createDeploying('kubejs:incomplete_capacitor_hv', ['kubejs:incomplete_capacitor_hv', '#forge:treated_wood']),
-    ]).transitionalItem('kubejs:battery_alloy_plate').loops(8)
+    ]).transitionalItem('frostedheart:lead_sheet').loops(8)
 
     event.recipes.createSequencedAssembly([
         Item.of('immersiveengineering:circuit_board')

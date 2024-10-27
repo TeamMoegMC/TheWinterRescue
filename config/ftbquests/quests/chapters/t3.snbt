@@ -86,7 +86,7 @@
 			subtitle: "{quest.twr.5808CFED17AE91D4.subtitle}"
 			tasks: [{
 				id: "417E9910C7BE0C2C"
-				item: "kubejs:aluminium_oxide_dust"
+				item: "frostedheart:alumina_dust"
 				type: "item"
 			}]
 			x: 1.5d

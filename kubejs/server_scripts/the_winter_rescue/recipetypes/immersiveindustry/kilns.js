@@ -11,9 +11,9 @@ onEvent('recipes', (event) => {
 	}
 	let kilnRecipes=[
 	carkilnRecipe(["4x frostedheart:fire_clay_ball","2x frostedheart:magnesia_dust","2x frostedheart:quicklime"],["2x frostedheart:high_refractory_brick"],600),
-	carkilnRecipe(["3x frostedheart:fire_clay_ball","5x kubejs:aluminium_oxide_dust","immersiveengineering:dust_hop_graphite"],["3x immersiveindustry:refractory_kiln_brick"],600),
-	rotarykilnRecipe("kubejs:aluminium_hydroxide_dust",'kubejs:aluminium_oxide_dust'),
-	rotarykilnRecipe('kubejs:washed_ore_magnesite','frostedheart:magnesia_dust'),
+	carkilnRecipe(["3x frostedheart:fire_clay_ball","5x frostedheart:alumina_dust","immersiveengineering:dust_hop_graphite"],["3x immersiveindustry:refractory_kiln_brick"],600),
+	rotarykilnRecipe("frostedheart:aluminium_hydroxide_dust",'frostedheart:alumina_dust'),
+	rotarykilnRecipe('frostedheart:crushed_raw_magnesite','frostedheart:magnesia_dust'),
 	rotarykilnRecipe2('kubejs:flux','2x frostedheart:quicklime',200,32,'frostedheart:quicklime',0.25),
 	carkilnReplace("kubejs:clay_bucket","frostedheart:ceramic_bucket"),
 	carkilnReplace("charcoal_pit:clay_pot","charcoal_pit:ceramic_pot"),

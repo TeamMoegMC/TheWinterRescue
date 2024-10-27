@@ -60,7 +60,7 @@ onEvent('recipes', (event) => {
             F: 'create:shaft'
         }),
         shapedRecipe('create:blaze_burner', ['EC CE', 'EBDBE', 'EBBBE', 'AAAAA'], {
-            A: 'kubejs:cast_iron_plate',
+            A: 'frostedheart:cast_iron_sheet',
             B: '#forge:plates/constantan',
             C: '#forge:plates/bronze',
             D: 'minecraft:lava_bucket',
