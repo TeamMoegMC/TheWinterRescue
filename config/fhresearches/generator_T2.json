@@ -32,7 +32,7 @@
       "item": {
         "count": 8,
         "base_ingredient": {
-          "item": "rankine:invar_block"
+          "item": "frostedheart:invar_block"
         }
       },
       "consume": true
@@ -60,7 +60,7 @@
     {
       "count": 2,
       "base_ingredient": {
-        "item": "rankine:high_refractory_bricks"
+        "item": "frostedheart:high_refractory_bricks"
       }
     }
   ],

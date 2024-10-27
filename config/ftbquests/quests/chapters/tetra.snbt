@@ -1,113 +1,108 @@
 {
-	id: "1E695E6D1F5B227A"
-	group: "7668DAE31E3EF623"
-	order_index: 5
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "tetra"
-	title: "{chapter.twr.1E695E6D1F5B227A.title}"
+	group: "7668DAE31E3EF623"
 	icon: {
+		Count: 1
 		id: "tetra:modular_double"
-		Count: 1b
 		tag: {
+			Damage: 0
+			"double/basic_hammer_left_material": "basic_hammer/oak"
+			"double/basic_hammer_right_material": "basic_hammer/oak"
+			"double/basic_handle_material": "basic_handle/stick"
 			"double/handle": "double/basic_handle"
 			"double/head_left": "double/basic_hammer_left"
 			"double/head_right": "double/basic_hammer_right"
-			id: "d2d36442-069f-42d7-b9a8-8af8eb49dced"
-			"double/basic_hammer_right_material": "basic_hammer/obsidian"
-			Damage: 0
-			"double/basic_handle_material": "basic_handle/iron"
-			"double/basic_hammer_left_material": "basic_hammer/obsidian"
+			id: "b3c4d8fc-1369-47e3-adde-9edbcaa5dc85"
 		}
 	}
-	subtitle: ["{chapter.twr.1E695E6D1F5B227A.subtitle}"]
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "1E695E6D1F5B227A"
+	order_index: 5
+	quest_links: [ ]
 	quests: [
 		{
-			title: "{quest.twr.11DD149796E14E81.title}"
-			icon: "tetra:basic_workbench"
-			x: -2.5d
-			y: 1.5d
-			shape: "gear"
-			subtitle: "{quest.twr.11DD149796E14E81.subtitle}"
+			dependencies: ["5C8730E4484959B9"]
 			description: [
 				"{quest.twr.11DD149796E14E81.description.1}"
 				"{quest.twr.11DD149796E14E81.description.2}"
 				"{quest.twr.11DD149796E14E81.description.3}"
 			]
-			dependencies: ["5C8730E4484959B9"]
+			icon: "tetra:basic_workbench"
 			id: "11DD149796E14E81"
+			shape: "gear"
+			subtitle: "{quest.twr.11DD149796E14E81.subtitle}"
 			tasks: [
 				{
 					id: "2481856F88DAA369"
-					type: "item"
 					item: "minecraft:crafting_table"
+					type: "item"
 				}
 				{
 					id: "69827A684F506414"
-					type: "item"
-					title: "{quest.twr.11DD149796E14E81.69827A684F506414}"
 					item: {
-						id: "itemfilters:tag"
 						Count: 1b
+						id: "itemfilters:tag"
 						tag: {
 							value: "kubejs:tetra_hammer"
 						}
 					}
+					title: "{quest.twr.11DD149796E14E81.69827A684F506414}"
+					type: "item"
 				}
 				{
-					id: "614239EFEB89EBAE"
-					type: "advancement"
+					advancement: "tetra:story/more_upgrades"
+					criterion: ""
 					icon: {
+						Count: 1
 						id: "tetra:modular_double"
-						Count: 1b
 						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							"double/basic_handle_material": "basic_handle/stick"
 							"double/handle": "double/basic_handle"
 							"double/head_left": "double/basic_hammer_left"
 							"double/head_right": "double/basic_hammer_right"
 							id: "f301289c-7111-4f48-b12a-75ac99ab6ca7"
-							"double/basic_hammer_right_material": "basic_hammer/oak"
-							Damage: 0
-							"double/basic_handle_material": "basic_handle/stick"
-							"double/basic_hammer_left_material": "basic_hammer/oak"
 						}
 					}
-					advancement: "tetra:story/more_upgrades"
-					criterion: ""
+					id: "614239EFEB89EBAE"
+					type: "advancement"
 				}
 			]
+			title: "{quest.twr.11DD149796E14E81.title}"
+			x: -2.5d
+			y: 1.5d
 		}
 		{
-			title: "{quest.twr.5C8730E4484959B9.title}"
-			x: -2.5d
-			y: 0.0d
-			shape: "gear"
-			subtitle: "{quest.twr.5C8730E4484959B9.subtitle}"
-			description: ["{quest.twr.5C8730E4484959B9.description.1}"]
 			dependencies: ["75154C5A6E2F3257"]
+			description: ["{quest.twr.5C8730E4484959B9.description.1}"]
 			hide: true
 			id: "5C8730E4484959B9"
+			shape: "gear"
+			subtitle: "{quest.twr.5C8730E4484959B9.subtitle}"
 			tasks: [{
 				id: "3A742F617D2CB6B9"
 				type: "checkmark"
 			}]
+			title: "{quest.twr.5C8730E4484959B9.title}"
+			x: -2.5d
+			y: 0.0d
 		}
 		{
-			title: "{quest.twr.0B94C2D4FAB6A54B.title}"
-			x: -2.5d
-			y: 3.0d
-			subtitle: "{quest.twr.0B94C2D4FAB6A54B.subtitle}"
+			dependencies: ["11DD149796E14E81"]
 			description: [
 				"{quest.twr.0B94C2D4FAB6A54B.description.1}"
 				"{quest.twr.0B94C2D4FAB6A54B.description.2}"
 			]
-			dependencies: ["11DD149796E14E81"]
 			id: "0B94C2D4FAB6A54B"
+			subtitle: "{quest.twr.0B94C2D4FAB6A54B.subtitle}"
 			tasks: [{
 				id: "0059CAED35FD2A7C"
-				type: "item"
 				item: {
-					id: "rankine:bronze_pickaxe"
 					Count: 1b
+					id: "frostedheart:bronze_pickaxe"
 					tag: {
 						Damage: 0
 						StoredComposition: [{
@@ -115,209 +110,215 @@
 						}]
 					}
 				}
+				type: "item"
 			}]
+			title: "{quest.twr.0B94C2D4FAB6A54B.title}"
+			x: -2.5d
+			y: 3.0d
 		}
 		{
-			x: -1.0d
-			y: 1.5d
-			subtitle: "{quest.twr.06919E56E850B946.subtitle}"
-			description: ["{quest.twr.06919E56E850B946.description.1}"]
 			dependencies: ["11DD149796E14E81"]
+			description: ["{quest.twr.06919E56E850B946.description.1}"]
 			hide: true
 			id: "06919E56E850B946"
+			subtitle: "{quest.twr.06919E56E850B946.subtitle}"
 			tasks: [{
 				id: "50AA21266B159CBE"
-				type: "item"
 				item: {
+					Count: 1
 					id: "tetra:holo"
-					Count: 1b
 					tag: {
+						"holo/core": "holo/core"
 						"holo/core_material": "frame/dim"
 						"holo/frame": "holo/frame"
-						"holo/core": "holo/core"
 						"holo/frame_material": "core/ancient"
 					}
 				}
+				type: "item"
 			}]
+			x: -1.0d
+			y: 1.5d
 		}
 		{
-			title: "{quest.twr.34E4EC05F478BB1B.title}"
-			x: -4.0d
-			y: 1.5d
-			subtitle: "{quest.twr.34E4EC05F478BB1B.subtitle}"
+			dependencies: ["11DD149796E14E81"]
 			description: [
 				"{quest.twr.34E4EC05F478BB1B.description.0}"
 				"{quest.twr.34E4EC05F478BB1B.description.1}"
 			]
-			dependencies: ["11DD149796E14E81"]
 			id: "34E4EC05F478BB1B"
+			subtitle: "{quest.twr.34E4EC05F478BB1B.subtitle}"
 			tasks: [{
 				id: "5F0CBEDE64732209"
-				type: "item"
 				item: "tetra:geode"
+				type: "item"
 			}]
+			title: "{quest.twr.34E4EC05F478BB1B.title}"
+			x: -4.0d
+			y: 1.5d
 		}
 		{
-			title: "{quest.twr.6D7D911961F81187.title}"
-			icon: {
-				id: "tetra:modular_double"
-				Count: 1b
-				tag: {
-					"double/handle": "double/basic_handle"
-					"double/head_left": "double/basic_hammer_left"
-					"double/head_right": "double/basic_hammer_right"
-					id: "7cf61115-4289-4a30-8ad7-8939c97807e4"
-					"double/basic_hammer_right_material": "basic_hammer/iron"
-					Damage: 0
-					"double/basic_handle_material": "basic_handle/spruce"
-					"double/basic_hammer_left_material": "basic_hammer/iron"
-				}
-			}
-			x: 0.5d
-			y: 1.5d
-			subtitle: "{quest.twr.6D7D911961F81187.subtitle}"
+			dependencies: ["11DD149796E14E81"]
 			description: [
 				"{quest.twr.6D7D911961F81187.description.1}"
 				"{quest.twr.6D7D911961F81187.description.2}"
 				"{quest.twr.6D7D911961F81187.description.3}"
 				"{quest.twr.6D7D911961F81187.description.4}"
 			]
-			dependencies: ["11DD149796E14E81"]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/iron"
+					"double/basic_hammer_right_material": "basic_hammer/iron"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "7cf61115-4289-4a30-8ad7-8939c97807e4"
+				}
+			}
 			id: "6D7D911961F81187"
+			subtitle: "{quest.twr.6D7D911961F81187.subtitle}"
 			tasks: [{
 				id: "60A28D9B4471872B"
 				type: "checkmark"
 			}]
+			title: "{quest.twr.6D7D911961F81187.title}"
+			x: 0.5d
+			y: 1.5d
 		}
 		{
-			title: "{quest.twr.603CDF88D762FEA8.title}"
-			icon: {
-				id: "frostedheart:copper_pro_pick"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -1.0d
-			y: 3.0d
-			description: [
-				"{quest.twr.603CDF88D762FEA8.description.1}"
-				"{quest.twr.603CDF88D762FEA8.description.2}"
-			]
 			dependencies: [
 				"1DF200F6772308C7"
 				"11DD149796E14E81"
 			]
+			description: [
+				"{quest.twr.603CDF88D762FEA8.description.1}"
+				"{quest.twr.603CDF88D762FEA8.description.2}"
+			]
 			hide: true
+			icon: {
+				Count: 1
+				id: "frostedheart:copper_pro_pick"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "603CDF88D762FEA8"
 			tasks: [{
 				id: "5D1BE9C3088BE400"
 				type: "checkmark"
 			}]
+			title: "{quest.twr.603CDF88D762FEA8.title}"
+			x: -1.0d
+			y: 3.0d
 		}
 		{
-			x: -5.5d
-			y: 1.5d
-			subtitle: "{quest.twr.6F2C2CCC90E4C4F6.subtitle}"
+			dependencies: ["11DD149796E14E81"]
 			description: [
 				"{quest.twr.6F2C2CCC90E4C4F6.description.1}"
 				"{quest.twr.6F2C2CCC90E4C4F6.description.2}"
 			]
-			dependencies: ["11DD149796E14E81"]
 			hide: true
 			id: "6F2C2CCC90E4C4F6"
+			subtitle: "{quest.twr.6F2C2CCC90E4C4F6.subtitle}"
 			tasks: [{
 				id: "142C0935AFCC6338"
-				type: "item"
 				item: "tetra:rack"
+				type: "item"
 			}]
+			x: -5.5d
+			y: 1.5d
 		}
 		{
-			title: "{quest.twr.762141CEF64385FC.title}"
-			x: -4.0d
-			y: 3.0d
+			dependencies: ["11DD149796E14E81"]
 			description: [
 				"{quest.twr.762141CEF64385FC.description.1}"
 				"{quest.twr.762141CEF64385FC.description.2}"
 				"{quest.twr.762141CEF64385FC.description.3}"
 			]
-			dependencies: ["11DD149796E14E81"]
 			id: "762141CEF64385FC"
 			tasks: [{
 				id: "5759B64888947DE8"
-				type: "item"
 				item: {
+					Count: 1
 					id: "tetra:modular_toolbelt"
-					Count: 1b
 					tag: {
-						"toolbelt/belt_material": "belt/rope"
 						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/belt_material": "belt/rope"
 						"toolbelt/slot1": "toolbelt/strap_slot1"
 						"toolbelt/strap_slot1_material": "strap1/leather"
 					}
 				}
+				type: "item"
 			}]
+			title: "{quest.twr.762141CEF64385FC.title}"
+			x: -4.0d
+			y: 3.0d
 		}
 		{
-			icon: {
-				id: "create:red_sand_paper"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 0.5d
-			y: 3.0d
-			shape: "hexagon"
+			dependencies: ["11DD149796E14E81"]
 			description: [
 				"{quest.twr.7DC424AE6C863411.description.1}"
 				"{quest.twr.7DC424AE6C863411.description.2}"
 			]
-			hide_dependency_lines: true
-			dependencies: ["11DD149796E14E81"]
 			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "create:red_sand_paper"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7DC424AE6C863411"
+			shape: "hexagon"
 			tasks: [{
 				id: "186DB8CB34E6C717"
-				type: "checkmark"
 				title: "{quest.twr.7DC424AE6C863411.186DB8CB34E6C717.title}"
+				type: "checkmark"
 			}]
+			x: 0.5d
+			y: 3.0d
 		}
 		{
-			title: "{quest.twr.469A40EB19ACE723.title}"
-			x: -5.5d
-			y: 4.5d
-			description: ["{quest.twr.469A40EB19ACE723.description.1}"]
 			dependencies: ["762141CEF64385FC"]
+			description: ["{quest.twr.469A40EB19ACE723.description.1}"]
 			id: "469A40EB19ACE723"
 			tasks: [{
 				id: "20BE12091228596E"
-				type: "item"
-				title: "{quest.twr.469A40EB19ACE723.20BE12091228596E.title}"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:wool"
 					}
 				}
+				title: "{quest.twr.469A40EB19ACE723.20BE12091228596E.title}"
+				type: "item"
 			}]
+			title: "{quest.twr.469A40EB19ACE723.title}"
+			x: -5.5d
+			y: 4.5d
 		}
 		{
-			icon: "immersiveengineering:screwdriver"
-			x: -4.0d
-			y: 4.5d
+			dependencies: ["762141CEF64385FC"]
 			description: [
 				"{quest.twr.179C32EE245E4653.description.1}"
 				"{quest.twr.179C32EE245E4653.description.2}"
 			]
-			dependencies: ["762141CEF64385FC"]
+			icon: "immersiveengineering:screwdriver"
 			id: "179C32EE245E4653"
 			tasks: [{
 				id: "76C3B8A622BA2048"
-				type: "checkmark"
 				title: "{quest.twr.179C32EE245E4653.76C3B8A622BA2048.title}"
+				type: "checkmark"
 			}]
+			x: -4.0d
+			y: 4.5d
 		}
 	]
+	subtitle: ["{chapter.twr.1E695E6D1F5B227A.subtitle}"]
+	title: "{chapter.twr.1E695E6D1F5B227A.title}"
 }

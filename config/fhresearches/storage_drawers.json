@@ -2,7 +2,7 @@
   "icon": {
     "type": "combined",
     "base": "minecraft:chest",
-    "small": "rankine:compressed_biomass"
+    "small": "frostedheart:biomass"
   },
   "category": "frostedheart:ars",
   "parents": [

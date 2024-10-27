@@ -1,26 +1,33 @@
 console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Items Registered!')
 
 StartupEvents.registry('item', event => {
-	// const rankineItems = [
-	// 	'mortar',
-	// 	'vulcanized_rubber',
-	// 	'pulp',
-	// 	'fire_clay_ball',
-	// 	'high_refractory_brick',
-	// 	'kaolinite', // become frostedheart:kaolin, and block is frostedheart:kaolin_block
-	// 	'sawdust',
-	// 	'biomass',
-	// 	'synthetic_leather',
-	// 	'sodium_sulfide', // become with dust
-	// 	'sodium_ingot',
-	// 	'sodium_hydroxide', // become with dust
-	// 	'alumina', // become with dust
-	// 	'sodium_choloride', // become with dust
-	// 	'sulfur', // become with dust
-	// 	'refractory_brick', 
-	// 	'quicklime',
-	// 	'magnesia', // become with dust
-	// ]
+	const rankineItems = [
+		// 'mortar',
+		// 'vulcanized_rubber',
+		// 'pulp',
+		// 'fire_clay_ball',
+		// 'high_refractory_brick',
+		// 'kaolinite', // become frostedheart:kaolin, and block is frostedheart:kaolin_block
+		// 'sawdust',
+		// 'biomass',
+		// 'synthetic_leather',
+		// 'sodium_sulfide', // become with dust
+		// 'sodium_ingot',
+		// 'sodium_hydroxide', // become with dust
+		// 'alumina', // become with dust
+		// 'sodium_chloride', // become with dust
+		// 'sulfur', // become with dust
+		// 'refractory_brick', 
+		// 'quicklime',
+		// 'magnesia', // become with dust
+		'snow_berries',
+		'asparagus',
+		'black_walnut',
+		'artist_conk_mushroom',
+		'tinder_conk_mushroom',
+		'turkey_tail_mushroom',
+		'cinnabar_polypore_mushroom'
+	]
 
 	const rankineTools = [
 		'flint_knife',
@@ -37,8 +44,10 @@ StartupEvents.registry('item', event => {
 		'bronze_spear',
 		'stone_hammer',
 		'bronze_hammer',
+		'invar_shovel',
 		'snow_shoes',
-		'ice_shoes'
+		'ice_shoes',
+		'diving_helmet'
 	]
 
 	const generalItems = [
@@ -140,9 +149,9 @@ StartupEvents.registry('item', event => {
 	// 	event.create(item).texture(`kubejs:item/${item}`);
 	// });
 
-	rankineTools.forEach((item) => {
-		event.create(item).texture(`kubejs:item/${item}`);
-	});
+	// rankineTools.forEach((item) => {
+	// 	event.create(item).texture(`kubejs:item/${item}`);
+	// });
 	
 
 	let createTransitionalItems = [

@@ -19,8 +19,8 @@ onEvent('recipes', (event) => {
 		shapelessRecipe('9x create:copper_ingot',['#forge:storage_blocks/copper']),
 		shapelessRecipe({"item":'frostedheart:straw_briquette_red_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:red_mushroom']),
 		shapelessRecipe({"item":'frostedheart:straw_briquette_brown_mushroom',"nbt":{"Damage":4800}}, ['kubejs:wet_straw_briquette', 'minecraft:brown_mushroom']),
-		shapelessRecipe(Item.of('frostedheart:advanced_thermos', '{Damage:0,Fluid:{FluidName:"frostedheart:wolfberry_tea",Amount:3000}}'), [Item.of('frostedheart:advanced_thermos', '{Damage:0,Fluid:{FluidName:"thermopolium:nail_soup",Amount:3000}}'), 'frostedheart:dried_wolfberries']),
-		shapelessRecipe(Item.of('frostedheart:thermos', '{Damage:0,Fluid:{FluidName:"frostedheart:wolfberry_tea",Amount:1500}}'), [Item.of('frostedheart:thermos', '{Damage:0,Fluid:{FluidName:"thermopolium:nail_soup",Amount:1500}}'), 'frostedheart:dried_wolfberries']),
+		shapelessRecipe(Item.of('frostedheart:advanced_thermos', '{Damage:0,Fluid:{FluidName:"frostedheart:wolfberry_tea",Amount:3000}}'), [Item.of('frostedheart:advanced_thermos', '{Damage:0,Fluid:{FluidName:"caupona:nail_soup",Amount:3000}}'), 'frostedheart:dried_wolfberries']),
+		shapelessRecipe(Item.of('frostedheart:thermos', '{Damage:0,Fluid:{FluidName:"frostedheart:wolfberry_tea",Amount:1500}}'), [Item.of('frostedheart:thermos', '{Damage:0,Fluid:{FluidName:"caupona:nail_soup",Amount:1500}}'), 'frostedheart:dried_wolfberries']),
 		shapelessRecipe('frostedheart:quill_and_ink', ['minecraft:feather', 'minecraft:glass_bottle','4x frostedheart:generator_ash']),
 		shapelessRecipe('frostedheart:rubbing_tool', ['4x frostedheart:generator_ash', 'minecraft:paper',"frostedheart:rubbing_pad"]),
 		shapelessRecipe('4x minecraft:white_dye',["kubejs:antimony_oxide"]),
@@ -36,7 +36,7 @@ onEvent('recipes', (event) => {
 
 	function makeLimedCoal(count,rep,materials){
 		for(let i=1;i<=rep;i++){
-			let cr=['rankine:quicklime'];
+			let cr=['frostedheart:quicklime'];
 			for(let j=0;j<i;j++){
 				materials.forEach((elm)=>{cr.push(elm);});
 			}

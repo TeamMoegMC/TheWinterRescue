@@ -10,20 +10,20 @@ onEvent('recipes', (event) => {
 		return simpleCarkilnRecipe(input,output);
 	}
 	let kilnRecipes=[
-	carkilnRecipe(["4x rankine:fire_clay_ball","2x rankine:magnesia","2x rankine:quicklime"],["2x rankine:high_refractory_brick"],600),
-	carkilnRecipe(["3x rankine:fire_clay_ball","5x kubejs:aluminium_oxide_dust","immersiveengineering:dust_hop_graphite"],["3x immersiveindustry:refractory_kiln_brick"],600),
+	carkilnRecipe(["4x frostedheart:fire_clay_ball","2x frostedheart:magnesia_dust","2x frostedheart:quicklime"],["2x frostedheart:high_refractory_brick"],600),
+	carkilnRecipe(["3x frostedheart:fire_clay_ball","5x kubejs:aluminium_oxide_dust","immersiveengineering:dust_hop_graphite"],["3x immersiveindustry:refractory_kiln_brick"],600),
 	rotarykilnRecipe("kubejs:aluminium_hydroxide_dust",'kubejs:aluminium_oxide_dust'),
-	rotarykilnRecipe('kubejs:washed_ore_magnesite','rankine:magnesia'),
-	rotarykilnRecipe2('kubejs:flux','2x rankine:quicklime',200,32,'rankine:quicklime',0.25),
+	rotarykilnRecipe('kubejs:washed_ore_magnesite','frostedheart:magnesia_dust'),
+	rotarykilnRecipe2('kubejs:flux','2x frostedheart:quicklime',200,32,'frostedheart:quicklime',0.25),
 	carkilnReplace("kubejs:clay_bucket","frostedheart:ceramic_bucket"),
 	carkilnReplace("charcoal_pit:clay_pot","charcoal_pit:ceramic_pot"),
 	carkilnReplace("charcoal_pit:unfired_sandy_brick","charcoal_pit:sandy_brick_item"),
 	carkilnReplace("minecraft:netherrack","minecraft:nether_brick"),
 	carkilnReplace("#forge:stone","minecraft:stone"),
-	carkilnReplace("thermopolium:clay_cistern","thermopolium:stew_pot"),
+	carkilnReplace("caupona:clay_cistern","caupona:stew_pot"),
 	carkilnReplace("minecraft:clay","minecraft:terracotta"),
 	carkilnReplace("#minecraft:sand","minecraft:glass"),
-	carkilnReplace("rankine:fire_clay_ball","rankine:refractory_brick")
+	carkilnReplace("frostedheart:fire_clay_ball","frostedheart:refractory_brick")
 	]
 	
 

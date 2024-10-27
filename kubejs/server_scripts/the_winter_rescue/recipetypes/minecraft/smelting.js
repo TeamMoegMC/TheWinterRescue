@@ -21,7 +21,7 @@ onEvent('recipes', (event) => {
 	 {output:'kubejs:straw_briquette', input:'kubejs:wet_straw_briquette'},
 	{output:'#forge:ingots/tin',input: 'kubejs:gray_tin_ingot'},
 		{output: '4x minecraft:red_dye',input:'kubejs:lead_oxide'},
-		{output: 'rankine:zinc_ingot',input:'#forge:dusts/zinc'}
+		{output: 'create:zinc_ingot',input:'#forge:dusts/zinc'}
     ];
 
     recipes.forEach((recipe) => {

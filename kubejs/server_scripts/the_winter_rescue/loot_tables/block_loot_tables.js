@@ -1,42 +1,29 @@
 onEvent('block.loot_tables', event => {
 	var ore_blocks = [
-"rankine:magnetite_ore", 
-"rankine:pyrite_ore", 
-"rankine:malachite_ore", 
-"rankine:pentlandite_ore", 
-"rankine:native_tin_ore", 
-"rankine:cassiterite_ore", 
-"rankine:bauxite_ore", 
-"rankine:stibnite_ore", 
-"rankine:cinnabar_ore", 
-"rankine:magnesite_ore", 
-"rankine:galena_ore",
-"rankine:vanadinite_ore", 
-"rankine:native_silver_ore",
-"rankine:native_gold_ore",
-"rankine:chalcocite_ore",
-"rankine:hematite_ore"
-// "rankine:sphalerite_ore"
+"frostedheart:pyrite_ore", 
+"frostedheart:pentlandite_ore", 
+"frostedheart:cassiterite_ore", 
+"frostedheart:bauxite_block",
+"frostedheart:kaolin_block",
+"frostedheart:magnesite_ore", 
+"frostedheart:galena_ore",
+"frostedheart:silver_ore",
+"frostedheart:halite_ore",
+"frostedheart:potash_ore"
 ];
 var ores = [
-"rankine:magnetite", 
-"kubejs:pyrite", 
-"rankine:malachite", 
-"rankine:pentlandite", 
-"kubejs:native_tin", 
-"rankine:cassiterite", 
-"kubejs:bauxite", 
-"rankine:stibnite", 
-"rankine:cinnabar", 
-"rankine:magnesite", 
-"rankine:galena",
-"rankine:vanadinite", 
-"kubejs:silver", 
-"kubejs:gold",
-"rankine:chalcocite",
-"rankine:hematite"
-// "rankine:sphalerite"
+"frostedheart:raw_pyrite", 
+"frostedheart:raw_pentlandite", 
+"frostedheart:raw_cassiterite", 
+"frostedheart:bauxite",
+"frostedheart:kaolin", 
+"frostedheart:raw_magnesite", 
+"frostedheart:raw_galena",
+"frostedheart:raw_silver", 
+"frostedheart:raw_halite",
+"frostedheart:raw_potash"
 ];
+// TODO: check if we still need this or move to FH
 var i;
 var ores_i;
 var ore_blocks_i;

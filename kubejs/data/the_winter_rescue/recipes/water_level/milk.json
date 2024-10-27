@@ -1,5 +1,5 @@
 {
-    "type": "watersource:water_level_item",
+    "type": "frostedheart:water_level_item",
     "ingredient": {
         "item": "minecraft:milk_bucket"
     },

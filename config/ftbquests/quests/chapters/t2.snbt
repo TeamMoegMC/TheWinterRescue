@@ -1,595 +1,588 @@
 {
-	id: "3A3B51CF7F606665"
-	group: "7823E178F7BCBCB0"
-	order_index: 4
-	filename: "t2"
-	title: "{chapter.twr.3A3B51CF7F606665.title}"
-	icon: "steampowered:cast_iron_flywheel"
-	subtitle: ["{chapter.twr.3A3B51CF7F606665.subtitle}"]
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "t2"
+	group: "7823E178F7BCBCB0"
+	icon: "steampowered:cast_iron_flywheel"
+	id: "3A3B51CF7F606665"
+	order_index: 4
+	quest_links: [ ]
 	quests: [
 		{
-			title: "{quest.twr.060F482D9D3374F9.title}"
-			x: -19.5d
-			y: 1.0d
-			shape: "gear"
-			description: ["{quest.twr.060F482D9D3374F9.description.1}"]
 			dependencies: ["3549A50510878505"]
+			description: ["{quest.twr.060F482D9D3374F9.description.1}"]
 			hide: true
 			id: "060F482D9D3374F9"
+			shape: "gear"
 			tasks: [
 				{
 					id: "786C91AE939F3CC1"
-					type: "item"
 					item: "kubejs:impure_alumina_dust"
+					type: "item"
 				}
 				{
 					id: "536902CC7045DD19"
-					type: "item"
 					item: "kubejs:kaolin_dust"
+					type: "item"
 				}
 				{
 					id: "480469CDC1333BF7"
+					item: "frostedheart:fire_clay_ball"
 					type: "item"
-					item: "rankine:fire_clay_ball"
 				}
 			]
+			title: "{quest.twr.060F482D9D3374F9.title}"
+			x: -19.5d
+			y: 1.0d
 		}
 		{
+			dependencies: ["060F482D9D3374F9"]
+			description: ["{quest.twr.71D389AF87847D7B.description.1}"]
+			id: "71D389AF87847D7B"
+			shape: "gear"
+			tasks: [{
+				count: 4L
+				id: "2D3A613BFCA83255"
+				item: "frostedheart:refractory_bricks"
+				type: "item"
+			}]
 			x: -18.0d
 			y: 1.0d
-			shape: "gear"
-			description: ["{quest.twr.71D389AF87847D7B.description.1}"]
-			dependencies: ["060F482D9D3374F9"]
-			id: "71D389AF87847D7B"
-			tasks: [{
-				id: "2D3A613BFCA83255"
-				type: "item"
-				item: "rankine:refractory_bricks"
-				count: 4L
-			}]
 		}
 		{
-			icon: "immersiveengineering:blast_furnace"
-			x: -16.5d
-			y: 1.0d
-			shape: "gear"
-			description: ["{quest.twr.0E27E31FF6145D05.description.1}"]
 			dependencies: [
 				"71D389AF87847D7B"
 				"3A91A02EB59A7919"
 			]
+			description: ["{quest.twr.0E27E31FF6145D05.description.1}"]
+			icon: "immersiveengineering:blast_furnace"
 			id: "0E27E31FF6145D05"
+			shape: "gear"
 			tasks: [{
-				id: "7C428261CFB3FFC3"
-				type: "item"
-				item: "immersiveengineering:blastbrick"
 				count: 27L
+				id: "7C428261CFB3FFC3"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
 			}]
+			x: -16.5d
+			y: 1.0d
 		}
 		{
-			x: -14.5d
-			y: 1.0d
-			shape: "gear"
-			subtitle: "{quest.twr.4CC5E16EFDE1368C.subtitle}"
+			dependencies: ["0E27E31FF6145D05"]
 			description: [
 				"{quest.twr.4CC5E16EFDE1368C.description.1}"
 				"{quest.twr.4CC5E16EFDE1368C.description.2}"
 				"{quest.twr.4CC5E16EFDE1368C.description.3}"
 			]
-			dependencies: ["0E27E31FF6145D05"]
 			id: "4CC5E16EFDE1368C"
+			shape: "gear"
+			subtitle: "{quest.twr.4CC5E16EFDE1368C.subtitle}"
 			tasks: [{
 				id: "3BE5CEBDB19E17D3"
+				item: "frostedheart:cast_iron_ingot"
 				type: "item"
-				item: "rankine:cast_iron_ingot"
 			}]
+			x: -14.5d
+			y: 1.0d
 		}
 		{
-			x: -27.0d
-			y: 2.5d
-			description: ["{quest.twr.4D0ECD01E0CC7C8C.description.1}"]
 			dependencies: ["678491900C7F03F2"]
-			optional: true
+			description: ["{quest.twr.4D0ECD01E0CC7C8C.description.1}"]
 			id: "4D0ECD01E0CC7C8C"
+			optional: true
 			tasks: [{
 				id: "0C0AF66C6E85F840"
-				type: "item"
 				item: "charcoal_pit:mechanical_bellows"
-			}]
-			rewards: [{
-				id: "72786CD028D2F7A7"
 				type: "item"
-				item: "rankine:cinnabar"
 			}]
+			x: -27.0d
+			y: 2.5d
 		}
 		{
-			x: -27.0d
-			y: 1.0d
 			description: ["{quest.twr.678491900C7F03F2.description.1}"]
 			hide: true
 			id: "678491900C7F03F2"
-			tasks: [{
-				id: "0192DDC9FA0A04C9"
-				type: "item"
-				item: "minecraft:redstone"
-				count: 8L
-			}]
 			rewards: [{
 				id: "1F4A65E03FA8662B"
-				type: "item"
 				item: "crockpot:potato_souffle"
+				type: "item"
 			}]
+			tasks: [{
+				count: 8L
+				id: "0192DDC9FA0A04C9"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -27.0d
+			y: 1.0d
 		}
 		{
-			x: -24.0d
-			y: -0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.3E8F565DE61309B2.subtitle}"
+			dependencies: ["6000F43C135FC068"]
 			description: [
 				"{quest.twr.3E8F565DE61309B2.description.1}"
 				"{quest.twr.3E8F565DE61309B2.description.2}"
 				"{quest.twr.3E8F565DE61309B2.description.3}"
 			]
-			dependencies: ["6000F43C135FC068"]
 			id: "3E8F565DE61309B2"
+			shape: "gear"
+			subtitle: "{quest.twr.3E8F565DE61309B2.subtitle}"
 			tasks: [{
 				id: "38B838F0D0E4B1E1"
-				type: "item"
 				item: "steampowered:bronze_cogwheel"
+				type: "item"
 			}]
+			x: -24.0d
+			y: -0.5d
 		}
 		{
-			x: -27.0d
-			y: -0.5d
-			shape: "gear"
-			description: [
-				"{quest.twr.404CFF89CCFE9D6B.description.1}"
-				"{quest.twr.404CFF89CCFE9D6B.description.2}"
-			]
 			dependencies: [
 				"678491900C7F03F2"
 				"75154C5A6E2F3257"
 			]
+			description: [
+				"{quest.twr.404CFF89CCFE9D6B.description.1}"
+				"{quest.twr.404CFF89CCFE9D6B.description.2}"
+			]
 			id: "404CFF89CCFE9D6B"
+			shape: "gear"
 			tasks: [{
 				id: "5A7562201B27BBF3"
-				type: "item"
 				item: "create:shaft"
+				type: "item"
 			}]
+			x: -27.0d
+			y: -0.5d
 		}
 		{
-			icon: "steampowered:bronze_steam_engine"
-			x: -9.5d
-			y: -2.0d
-			shape: "gear"
-			subtitle: "{quest.twr.32A497C69C641D2B.subtitle}"
+			dependencies: ["7612A96FFEFC5635"]
 			description: [
 				"{quest.twr.32A497C69C641D2B.description.1}"
 				"{quest.twr.32A497C69C641D2B.description.2}"
 				"{quest.twr.32A497C69C641D2B.description.3}"
 			]
-			dependencies: ["7612A96FFEFC5635"]
+			icon: "steampowered:bronze_steam_engine"
 			id: "32A497C69C641D2B"
+			shape: "gear"
+			subtitle: "{quest.twr.32A497C69C641D2B.subtitle}"
 			tasks: [
 				{
 					id: "3B84D2B7F9F7E65F"
-					type: "item"
 					item: "steampowered:bronze_steam_engine"
+					type: "item"
 				}
 				{
 					id: "30BD5B7C368A2896"
-					type: "item"
 					item: "steampowered:bronze_flywheel"
+					type: "item"
 				}
 			]
+			x: -9.5d
+			y: -2.0d
 		}
 		{
-			icon: "steampowered:cast_iron_steam_engine"
-			x: -8.0d
-			y: 2.5d
-			subtitle: "{quest.twr.0FEC22A5C56936DC.subtitle}"
-			description: ["{quest.twr.0FEC22A5C56936DC.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
+			description: ["{quest.twr.0FEC22A5C56936DC.description.1}"]
 			hide: true
-			optional: true
+			icon: "steampowered:cast_iron_steam_engine"
 			id: "0FEC22A5C56936DC"
+			optional: true
+			subtitle: "{quest.twr.0FEC22A5C56936DC.subtitle}"
 			tasks: [
 				{
 					id: "0A9D080781143545"
-					type: "item"
 					item: "steampowered:cast_iron_steam_engine"
+					type: "item"
 				}
 				{
 					id: "619A90B7776F6DE0"
-					type: "item"
 					item: "steampowered:cast_iron_flywheel"
+					type: "item"
 				}
 			]
+			x: -8.0d
+			y: 2.5d
 		}
 		{
-			x: -2.5d
-			y: 0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.1F2BD4A72596B287.subtitle}"
+			dependencies: ["17F033FB5ACAACFB"]
 			description: [
 				"{quest.twr.1F2BD4A72596B287.description.1}"
 				"{quest.twr.1F2BD4A72596B287.description.2}"
 			]
-			dependencies: ["17F033FB5ACAACFB"]
 			hide: true
 			id: "1F2BD4A72596B287"
+			shape: "gear"
+			subtitle: "{quest.twr.1F2BD4A72596B287.subtitle}"
 			tasks: [
 				{
 					id: "48D033DB353BBA5A"
-					type: "item"
 					item: "steampowered:alternator"
+					type: "item"
 				}
 				{
 					id: "785FDD0A154F74DA"
-					type: "item"
 					item: "immersiveengineering:connector_lv"
+					type: "item"
 				}
 				{
 					id: "22250C2AF8004310"
-					type: "item"
 					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
 				}
 			]
+			x: -2.5d
+			y: 0.5d
 		}
 		{
-			x: -16.0d
-			y: 2.5d
-			subtitle: "{quest.twr.29DCBBB54EE90E51.subtitle}"
+			dependencies: ["4CC5E16EFDE1368C"]
 			description: [
 				"{quest.twr.29DCBBB54EE90E51.description.1}"
 				"{quest.twr.29DCBBB54EE90E51.description.2}"
 				"{quest.twr.29DCBBB54EE90E51.description.3}"
 			]
-			dependencies: ["4CC5E16EFDE1368C"]
 			hide: true
 			id: "29DCBBB54EE90E51"
+			rewards: [{
+				count: 3
+				id: "45E9FE5EEEEA947B"
+				item: "kubejs:cast_iron_rod"
+				type: "item"
+			}]
+			subtitle: "{quest.twr.29DCBBB54EE90E51.subtitle}"
 			tasks: [{
 				id: "5388D141B1BE4837"
-				type: "item"
 				item: "create:encased_fan"
-			}]
-			rewards: [{
-				id: "45E9FE5EEEEA947B"
 				type: "item"
-				item: "kubejs:cast_iron_rod"
-				count: 3
 			}]
+			x: -16.0d
+			y: 2.5d
 		}
 		{
-			x: -5.0d
-			y: 2.5d
-			subtitle: "{quest.twr.7EDDAD2D1E2B0613.subtitle}"
-			description: ["{quest.twr.7EDDAD2D1E2B0613.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
+			description: ["{quest.twr.7EDDAD2D1E2B0613.description.1}"]
 			hide: true
-			optional: true
 			id: "7EDDAD2D1E2B0613"
+			optional: true
+			subtitle: "{quest.twr.7EDDAD2D1E2B0613.subtitle}"
 			tasks: [{
 				id: "14A8C9A9E802E04B"
-				type: "item"
 				item: "steampowered:cast_iron_cogwheel"
+				type: "item"
 			}]
+			x: -5.0d
+			y: 2.5d
 		}
 		{
+			dependencies: ["4CC5E16EFDE1368C"]
+			description: ["{quest.twr.4600CF7553C26ED0.description.1}"]
+			hide: true
+			id: "4600CF7553C26ED0"
+			shape: "gear"
+			subtitle: "{quest.twr.4600CF7553C26ED0.subtitle}"
+			tasks: [{
+				id: "4E1FECD14F37C151"
+				item: "create:millstone"
+				type: "item"
+			}]
 			title: "{quest.twr.4600CF7553C26ED0.title}"
 			x: -12.5d
 			y: 1.0d
-			shape: "gear"
-			subtitle: "{quest.twr.4600CF7553C26ED0.subtitle}"
-			description: ["{quest.twr.4600CF7553C26ED0.description.1}"]
-			dependencies: ["4CC5E16EFDE1368C"]
-			hide: true
-			id: "4600CF7553C26ED0"
-			tasks: [{
-				id: "4E1FECD14F37C151"
-				type: "item"
-				item: "create:millstone"
-			}]
 		}
 		{
-			x: -2.5d
-			y: -1.5d
-			shape: "gear"
-			subtitle: "{quest.twr.064ECF25B9B8962B.subtitle}"
-			description: ["{quest.twr.064ECF25B9B8962B.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
+			description: ["{quest.twr.064ECF25B9B8962B.description.1}"]
 			hide: true
 			id: "064ECF25B9B8962B"
+			rewards: [{
+				count: 8
+				id: "2F3B2C1303C26E42"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{quest.twr.064ECF25B9B8962B.subtitle}"
 			tasks: [{
 				id: "31772825C65C597E"
-				type: "item"
 				item: "create:crushing_wheel"
-			}]
-			rewards: [{
-				id: "2F3B2C1303C26E42"
 				type: "item"
-				item: "rankine:hematite"
-				count: 8
 			}]
+			x: -2.5d
+			y: -1.5d
 		}
 		{
-			x: -14.5d
-			y: -0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.5845439CF721309F.subtitle}"
-			description: ["{quest.twr.5845439CF721309F.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
+			description: ["{quest.twr.5845439CF721309F.description.1}"]
 			hide_text_until_complete: true
 			id: "5845439CF721309F"
+			shape: "gear"
+			subtitle: "{quest.twr.5845439CF721309F.subtitle}"
 			tasks: [{
 				id: "3C9C4DA2CDEAEBEA"
-				type: "item"
 				item: "create:mechanical_press"
+				type: "item"
 			}]
+			x: -14.5d
+			y: -0.5d
 		}
 		{
-			x: -21.0d
-			y: 1.0d
-			shape: "gear"
-			subtitle: "{quest.twr.3549A50510878505.subtitle}"
-			description: ["{quest.twr.3549A50510878505.description.1}"]
 			dependencies: ["3E8F565DE61309B2"]
+			description: ["{quest.twr.3549A50510878505.description.1}"]
 			hide: true
 			id: "3549A50510878505"
+			shape: "gear"
+			subtitle: "{quest.twr.3549A50510878505.subtitle}"
 			tasks: [
 				{
 					id: "73AFD699A6DA7ADC"
-					type: "item"
 					item: "create:mechanical_mixer"
+					type: "item"
 				}
 				{
 					id: "053D9DF075718E57"
-					type: "item"
 					item: "create:basin"
+					type: "item"
 				}
 			]
+			x: -21.0d
+			y: 1.0d
 		}
 		{
-			x: -2.5d
-			y: 2.5d
-			shape: "gear"
-			subtitle: "{quest.twr.4548F432A872DA92.subtitle}"
+			dependencies: ["17F033FB5ACAACFB"]
 			description: [
 				"{quest.twr.4548F432A872DA92.description.1}"
 				"{quest.twr.4548F432A872DA92.description.2}"
 			]
-			dependencies: ["17F033FB5ACAACFB"]
 			hide: true
 			id: "4548F432A872DA92"
+			rewards: [{
+				count: 8
+				id: "52DC6F6C0CA5945B"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "{quest.twr.4548F432A872DA92.subtitle}"
 			tasks: [{
 				id: "10B09A0AE270B39F"
-				type: "item"
 				item: "create:blaze_burner"
-			}]
-			rewards: [{
-				id: "52DC6F6C0CA5945B"
 				type: "item"
-				item: "minecraft:coal"
-				count: 8
 			}]
+			x: -2.5d
+			y: 2.5d
 		}
 		{
-			x: -15.0d
-			y: 3.0d
-			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
-			description: ["{quest.twr.15B365E3F3EAFE79.description.1}"]
-			hide_dependency_lines: false
 			dependencies: ["4CC5E16EFDE1368C"]
+			description: ["{quest.twr.15B365E3F3EAFE79.description.1}"]
 			hide: true
+			hide_dependency_lines: false
 			id: "15B365E3F3EAFE79"
+			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
 			tasks: [{
 				id: "49FB5CCF0097B1A4"
-				type: "item"
 				item: "create:depot"
+				type: "item"
 			}]
+			x: -15.0d
+			y: 3.0d
 		}
 		{
-			x: -25.5d
-			y: -0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.6000F43C135FC068.subtitle}"
+			dependencies: ["404CFF89CCFE9D6B"]
 			description: [
 				"{quest.twr.6000F43C135FC068.description.1}"
 				"{quest.twr.6000F43C135FC068.description.2}"
 				"{quest.twr.6000F43C135FC068.description.3}"
 			]
-			dependencies: ["404CFF89CCFE9D6B"]
 			id: "6000F43C135FC068"
-			tasks: [{
-				id: "47F0E555BA9D0339"
-				type: "item"
-				item: "create:hand_crank"
-			}]
 			rewards: [{
 				id: "708D85C0E4EB561A"
-				type: "item"
 				item: "crockpot:bone_stew"
+				type: "item"
 			}]
+			shape: "gear"
+			subtitle: "{quest.twr.6000F43C135FC068.subtitle}"
+			tasks: [{
+				id: "47F0E555BA9D0339"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -0.5d
 		}
 		{
-			title: "{quest.twr.7612A96FFEFC5635.title}"
-			icon: "steampowered:bronze_boiler"
-			x: -18.0d
-			y: -2.0d
-			shape: "gear"
-			subtitle: "{quest.twr.7612A96FFEFC5635.subtitle}"
+			dependencies: [
+				"197308226CAE52C4"
+				"71D389AF87847D7B"
+			]
 			description: [
 				"{quest.twr.7612A96FFEFC5635.description.1}"
 				"{quest.twr.7612A96FFEFC5635.description.2}"
 				"{quest.twr.7612A96FFEFC5635.description.3}"
 			]
-			dependencies: [
-				"197308226CAE52C4"
-				"71D389AF87847D7B"
-			]
 			hide: false
+			icon: "steampowered:bronze_boiler"
 			id: "7612A96FFEFC5635"
+			shape: "gear"
+			subtitle: "{quest.twr.7612A96FFEFC5635.subtitle}"
 			tasks: [
 				{
 					id: "175C5DFDF286819B"
-					type: "item"
 					item: "steampowered:bronze_burner"
+					type: "item"
 				}
 				{
 					id: "33ED87E26CEA2A1B"
-					type: "item"
 					item: "steampowered:bronze_boiler"
+					type: "item"
 				}
 			]
+			title: "{quest.twr.7612A96FFEFC5635.title}"
+			x: -18.0d
+			y: -2.0d
 		}
 		{
-			x: -21.0d
-			y: -2.0d
-			shape: "gear"
-			subtitle: "{quest.twr.17C359DCF058E698.subtitle}"
+			dependencies: ["3E8F565DE61309B2"]
 			description: [
 				"{quest.twr.17C359DCF058E698.description.1}"
 				"{quest.twr.17C359DCF058E698.description.2}"
 			]
-			dependencies: ["3E8F565DE61309B2"]
 			hide: true
 			id: "17C359DCF058E698"
+			shape: "gear"
+			subtitle: "{quest.twr.17C359DCF058E698.subtitle}"
 			tasks: [{
 				id: "26C5FFE011F0C78A"
-				type: "item"
 				item: "create:fluid_pipe"
+				type: "item"
 			}]
+			x: -21.0d
+			y: -2.0d
 		}
 		{
-			x: -19.5d
-			y: -2.0d
-			shape: "gear"
-			subtitle: "{quest.twr.197308226CAE52C4.subtitle}"
+			dependencies: ["17C359DCF058E698"]
 			description: [
 				"{quest.twr.197308226CAE52C4.description.1}"
 				"{quest.twr.197308226CAE52C4.description.2}"
 				"{quest.twr.197308226CAE52C4.description.3}"
 				"{quest.twr.197308226CAE52C4.description.4}"
 			]
-			dependencies: ["17C359DCF058E698"]
 			hide: true
 			id: "197308226CAE52C4"
+			shape: "gear"
+			subtitle: "{quest.twr.197308226CAE52C4.subtitle}"
 			tasks: [{
 				id: "50543ED5E6259184"
-				type: "item"
 				item: "create:mechanical_pump"
+				type: "item"
 			}]
+			x: -19.5d
+			y: -2.0d
 		}
 		{
-			x: -21.0d
-			y: -3.5d
 			dependencies: ["17C359DCF058E698"]
-			optional: true
 			id: "093D3F54B92EDFEA"
+			optional: true
 			tasks: [{
 				id: "6B208D6EE86052FB"
-				type: "item"
 				item: "create:fluid_tank"
+				type: "item"
 			}]
+			x: -21.0d
+			y: -3.5d
 		}
 		{
-			x: -6.5d
-			y: -0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.17F033FB5ACAACFB.subtitle}"
-			description: ["{quest.twr.17F033FB5ACAACFB.description.1}"]
 			dependencies: [
 				"1F94471C5310ECFA"
 				"32A497C69C641D2B"
 			]
-			hide: true
 			dependency_requirement: "one_completed"
-			size: 2.0d
+			description: ["{quest.twr.17F033FB5ACAACFB.description.1}"]
+			hide: true
 			id: "17F033FB5ACAACFB"
-			tasks: [{
-				id: "760B8D8FBB365594"
-				type: "item"
-				item: "create:mechanical_crafter"
-				count: 9L
-			}]
 			rewards: [{
-				id: "3939EE772046A5C0"
-				type: "item"
-				item: "frostedheart:packed_nuts"
 				count: 4
+				id: "3939EE772046A5C0"
+				item: "frostedheart:packed_nuts"
+				type: "item"
 			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{quest.twr.17F033FB5ACAACFB.subtitle}"
+			tasks: [{
+				count: 9L
+				id: "760B8D8FBB365594"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
 		}
 		{
-			x: -11.0d
-			y: 1.0d
-			shape: "gear"
-			subtitle: "{quest.twr.279DA3B6F5DE7753.subtitle}"
 			dependencies: ["4600CF7553C26ED0"]
 			id: "279DA3B6F5DE7753"
+			shape: "gear"
+			subtitle: "{quest.twr.279DA3B6F5DE7753.subtitle}"
 			tasks: [
 				{
 					id: "0106FEE55AE2DE31"
-					type: "item"
 					item: "create:polished_rose_quartz"
+					type: "item"
 				}
 				{
 					id: "23635250F74FF7CF"
-					type: "item"
 					item: "minecraft:quartz"
+					type: "item"
 				}
 				{
 					id: "6EA2092A24799526"
-					type: "item"
-					title: "{quest.twr.279DA3B6F5DE7753.6EA2092A24799526.title}"
 					item: {
-						id: "itemfilters:tag"
 						Count: 1b
+						id: "itemfilters:tag"
 						tag: {
 							value: "create:sandpaper"
 						}
 					}
+					title: "{quest.twr.279DA3B6F5DE7753.6EA2092A24799526.title}"
+					type: "item"
 				}
 			]
+			x: -11.0d
+			y: 1.0d
 		}
 		{
-			x: -9.5d
-			y: 1.0d
-			shape: "gear"
-			subtitle: "{quest.twr.1F94471C5310ECFA.subtitle}"
 			dependencies: ["279DA3B6F5DE7753"]
 			id: "1F94471C5310ECFA"
+			shape: "gear"
+			subtitle: "{quest.twr.1F94471C5310ECFA.subtitle}"
 			tasks: [{
 				id: "5EBA7DF393E79954"
-				type: "item"
 				item: "create:electron_tube"
+				type: "item"
 			}]
+			x: -9.5d
+			y: 1.0d
 		}
 		{
-			x: 0.0d
-			y: 0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.016B841B20166EA8.subtitle}"
+			dependencies: ["1F2BD4A72596B287"]
 			description: [
 				"{quest.twr.016B841B20166EA8.description.1}"
 				"{quest.twr.016B841B20166EA8.description.2}"
 			]
-			dependencies: ["1F2BD4A72596B287"]
 			id: "016B841B20166EA8"
+			shape: "gear"
+			subtitle: "{quest.twr.016B841B20166EA8.subtitle}"
 			tasks: [{
 				id: "0E15A479D897542E"
-				type: "item"
 				item: "immersiveengineering:blastfurnace_preheater"
+				type: "item"
 			}]
+			x: 0.0d
+			y: 0.5d
 		}
 		{
-			title: "{quest.twr.19038BB5A9E42055.title}"
-			icon: "immersiveindustry:crucible"
-			x: 2.5d
-			y: 2.5d
-			shape: "gear"
-			subtitle: "{quest.twr.19038BB5A9E42055.subtitle}"
+			dependencies: [
+				"6738A3C34A872FED"
+				"016B841B20166EA8"
+			]
+			dependency_requirement: "one_started"
 			description: [
 				"{quest.twr.19038BB5A9E42055.description.1}"
 				"{quest.twr.19038BB5A9E42055.description.2}"
@@ -598,450 +591,450 @@
 				"{quest.twr.19038BB5A9E42055.description.5}"
 				"{quest.twr.19038BB5A9E42055.description.6}"
 			]
-			dependencies: [
-				"6738A3C34A872FED"
-				"016B841B20166EA8"
-			]
 			hide: true
-			dependency_requirement: "one_started"
-			size: 1.5d
+			icon: "immersiveindustry:crucible"
 			id: "19038BB5A9E42055"
+			rewards: [{
+				count: 8
+				id: "427466A9E819DCC4"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{quest.twr.19038BB5A9E42055.subtitle}"
 			tasks: [
 				{
-					id: "3E96AF246CEFC59E"
-					type: "item"
-					item: "immersiveindustry:burning_chamber"
 					count: 18L
+					id: "3E96AF246CEFC59E"
+					item: "immersiveindustry:burning_chamber"
+					type: "item"
 				}
 				{
-					id: "1C413775D736BB81"
-					type: "item"
-					item: "rankine:high_refractory_bricks"
 					count: 16L
+					id: "1C413775D736BB81"
+					item: "frostedheart:high_refractory_bricks"
+					type: "item"
 				}
 			]
-			rewards: [{
-				id: "427466A9E819DCC4"
-				type: "item"
-				item: "rankine:magnetite"
-				count: 8
-			}]
+			title: "{quest.twr.19038BB5A9E42055.title}"
+			x: 2.5d
+			y: 2.5d
 		}
 		{
-			x: 0.0d
-			y: 2.5d
-			shape: "gear"
-			subtitle: "{quest.twr.6738A3C34A872FED.subtitle}"
-			description: ["{quest.twr.6738A3C34A872FED.description.1}"]
 			dependencies: [
 				"4548F432A872DA92"
 				"29556685F57F6657"
 			]
+			description: ["{quest.twr.6738A3C34A872FED.description.1}"]
 			id: "6738A3C34A872FED"
+			shape: "gear"
+			subtitle: "{quest.twr.6738A3C34A872FED.subtitle}"
 			tasks: [{
 				id: "4FDFAF777C766C70"
+				item: "frostedheart:high_refractory_brick"
 				type: "item"
-				item: "rankine:high_refractory_brick"
 			}]
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			x: 1.5d
-			y: -1.5d
-			description: ["{quest.twr.4B46838E7C65D4C4.description.1}"]
 			dependencies: ["55BE6F159CF89342"]
+			description: ["{quest.twr.4B46838E7C65D4C4.description.1}"]
 			hide: true
-			optional: true
 			id: "4B46838E7C65D4C4"
+			optional: true
 			tasks: [{
 				id: "2BADA53AE3BE71DA"
-				type: "item"
 				item: "create:belt_connector"
+				type: "item"
 			}]
+			x: 1.5d
+			y: -1.5d
 		}
 		{
-			x: -18.0d
-			y: 4.5d
-			shape: "gear"
-			subtitle: "{quest.twr.67486831FE3C0FBA.subtitle}"
+			dependencies: ["71D389AF87847D7B"]
 			description: [
 				"{quest.twr.67486831FE3C0FBA.description.1}"
 				"{quest.twr.67486831FE3C0FBA.description.2}"
 				"{quest.twr.67486831FE3C0FBA.description.3}"
 			]
-			hide_dependency_lines: false
-			dependencies: ["71D389AF87847D7B"]
 			hide: true
+			hide_dependency_lines: false
 			id: "67486831FE3C0FBA"
-			tasks: [{
-				id: "256EB689FE3A60BF"
-				type: "item"
-				item: "rankine:beehive_oven_pit"
-			}]
 			rewards: [{
 				id: "1C09568153E99A49"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			shape: "gear"
+			subtitle: "{quest.twr.67486831FE3C0FBA.subtitle}"
+			tasks: [{
+				id: "256EB689FE3A60BF"
+				item: "frostedheart:beehive_oven_pit"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 4.5d
 		}
 		{
-			x: 0.0d
-			y: 4.5d
+			dependencies: ["67486831FE3C0FBA"]
+			description: ["{quest.twr.29556685F57F6657.description.1}"]
+			hide: false
+			hide_dependency_lines: false
+			id: "29556685F57F6657"
 			shape: "gear"
 			subtitle: "{quest.twr.29556685F57F6657.subtitle}"
-			description: ["{quest.twr.29556685F57F6657.description.1}"]
-			hide_dependency_lines: false
-			dependencies: ["67486831FE3C0FBA"]
-			hide: false
-			id: "29556685F57F6657"
 			tasks: [{
 				id: "24B9A949656EBA70"
+				item: "frostedheart:magnesia_block"
 				type: "item"
-				item: "rankine:magnesia_block"
 			}]
+			x: 0.0d
+			y: 4.5d
 		}
 		{
-			x: -19.5d
-			y: 4.5d
-			subtitle: "{quest.twr.4F279E9DBFD52861.subtitle}"
-			description: ["{quest.twr.4F279E9DBFD52861.description.1}"]
 			dependencies: ["67486831FE3C0FBA"]
+			description: ["{quest.twr.4F279E9DBFD52861.description.1}"]
 			id: "4F279E9DBFD52861"
+			subtitle: "{quest.twr.4F279E9DBFD52861.subtitle}"
 			tasks: [{
 				id: "3BC11F00CF381B42"
+				item: "frostedheart:quicklime_block"
 				type: "item"
-				item: "rankine:quicklime_block"
 			}]
+			x: -19.5d
+			y: 4.5d
 		}
 		{
-			x: -4.5d
-			y: -3.5d
-			subtitle: "{quest.twr.688C57B7BC46E723.subtitle}"
-			description: ["{quest.twr.688C57B7BC46E723.description.1}"]
 			dependencies: ["4845A9B7B7B2B4A5"]
+			description: ["{quest.twr.688C57B7BC46E723.description.1}"]
 			hide: true
-			optional: true
 			id: "688C57B7BC46E723"
+			optional: true
+			subtitle: "{quest.twr.688C57B7BC46E723.subtitle}"
 			tasks: [{
 				id: "1C0663BDDF3D6C78"
-				type: "item"
 				item: "immersiveengineering:capacitor_lv"
+				type: "item"
 			}]
+			x: -4.5d
+			y: -3.5d
 		}
 		{
-			x: -2.5d
-			y: -3.5d
-			shape: "gear"
-			subtitle: "{quest.twr.4845A9B7B7B2B4A5.subtitle}"
-			description: ["{quest.twr.4845A9B7B7B2B4A5.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
+			description: ["{quest.twr.4845A9B7B7B2B4A5.description.1}"]
 			hide: true
 			id: "4845A9B7B7B2B4A5"
+			shape: "gear"
+			subtitle: "{quest.twr.4845A9B7B7B2B4A5.subtitle}"
 			tasks: [{
 				id: "797605E2CAEAC528"
-				type: "item"
 				item: "create:deployer"
+				type: "item"
 			}]
+			x: -2.5d
+			y: -3.5d
 		}
 		{
-			x: 2.5d
-			y: -3.5d
-			shape: "gear"
-			subtitle: "{quest.twr.7F84766122DC4753.subtitle}"
-			description: [
-				"{quest.twr.7F84766122DC4753.description.1}"
-				"{quest.twr.7F84766122DC4753.description.2}"
-			]
 			dependencies: [
 				"4845A9B7B7B2B4A5"
 				"55BE6F159CF89342"
 			]
-			size: 1.5d
+			description: [
+				"{quest.twr.7F84766122DC4753.description.1}"
+				"{quest.twr.7F84766122DC4753.description.2}"
+			]
 			id: "7F84766122DC4753"
-			tasks: [{
-				id: "196BC8A03CF82070"
-				type: "item"
-				item: "immersiveengineering:circuit_board"
-			}]
 			rewards: [{
 				id: "6CBD3661862351E1"
-				type: "item"
 				item: "frostedheart:packed_nuts"
+				type: "item"
 			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{quest.twr.7F84766122DC4753.subtitle}"
+			tasks: [{
+				id: "196BC8A03CF82070"
+				item: "immersiveengineering:circuit_board"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
 		}
 		{
-			x: -24.0d
-			y: -3.5d
-			subtitle: "{quest.twr.5C078D2F43CA4048.subtitle}"
-			description: ["{quest.twr.5C078D2F43CA4048.description.1}"]
 			dependencies: ["103E4FC987E00FC7"]
+			description: ["{quest.twr.5C078D2F43CA4048.description.1}"]
 			hide: false
-			optional: true
 			id: "5C078D2F43CA4048"
+			optional: true
+			subtitle: "{quest.twr.5C078D2F43CA4048.subtitle}"
 			tasks: [{
 				id: "0107400B48386449"
-				type: "item"
 				item: "create:wrench"
+				type: "item"
 			}]
+			x: -24.0d
+			y: -3.5d
 		}
 		{
-			x: -14.0d
-			y: 3.0d
+			dependencies: ["4CC5E16EFDE1368C"]
 			description: [
 				"{quest.twr.41D8E04627E55A86.description.1}"
 				"{quest.twr.41D8E04627E55A86.description.2}"
 			]
-			dependencies: ["4CC5E16EFDE1368C"]
 			hide: true
 			id: "41D8E04627E55A86"
+			rewards: [{
+				count: 8
+				id: "51310F30B7BB348B"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
 			tasks: [{
 				id: "48F77C1ACADE71D8"
-				type: "item"
 				item: "create:mechanical_saw"
-			}]
-			rewards: [{
-				id: "51310F30B7BB348B"
 				type: "item"
-				item: "minecraft:stripped_oak_log"
-				count: 8
 			}]
+			x: -14.0d
+			y: 3.0d
 		}
 		{
-			x: -25.5d
-			y: -3.5d
-			subtitle: "{quest.twr.634DBB9E76CD029B.subtitle}"
+			dependencies: ["103E4FC987E00FC7"]
 			description: [
 				"{quest.twr.634DBB9E76CD029B.description.1}"
 				"{quest.twr.634DBB9E76CD029B.description.2}"
 			]
-			dependencies: ["103E4FC987E00FC7"]
-			optional: true
 			id: "634DBB9E76CD029B"
+			optional: true
+			subtitle: "{quest.twr.634DBB9E76CD029B.subtitle}"
 			tasks: [{
 				id: "3759C57C62CA2697"
-				type: "item"
 				item: "create:goggles"
+				type: "item"
 			}]
+			x: -25.5d
+			y: -3.5d
 		}
 		{
-			icon: "rankine:tree_tap"
-			x: 0.0d
-			y: -1.5d
+			dependencies: ["064ECF25B9B8962B"]
+			description: ["{quest.twr.55BE6F159CF89342.description.1}"]
+			icon: "frostedheart:tree_tap"
+			id: "55BE6F159CF89342"
+			rewards: [{
+				id: "637C54ABCD6B2265"
+				item: "frostedheart:sharinga_sapling"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.55BE6F159CF89342.subtitle}"
-			description: ["{quest.twr.55BE6F159CF89342.description.1}"]
-			dependencies: ["064ECF25B9B8962B"]
-			id: "55BE6F159CF89342"
 			tasks: [
 				{
 					id: "2FFA0D6FE0FC9143"
+					item: "frostedheart:tree_tap"
 					type: "item"
-					item: "rankine:tree_tap"
 				}
 				{
 					id: "4B6CBEEBEBDCE204"
+					item: "frostedheart:tap_line"
 					type: "item"
-					item: "rankine:tap_line"
 				}
 				{
 					id: "7C92DD3FB4C1D3E7"
+					item: "frostedheart:flood_gate"
 					type: "item"
-					item: "rankine:flood_gate"
 				}
 			]
-			rewards: [{
-				id: "637C54ABCD6B2265"
-				type: "item"
-				item: "rankine:sharinga_sapling"
-			}]
+			x: 0.0d
+			y: -1.5d
 		}
 		{
-			x: -24.0d
-			y: -2.0d
+			dependencies: ["3E8F565DE61309B2"]
 			description: [
 				"{quest.twr.103E4FC987E00FC7.description.1}"
 				"{quest.twr.103E4FC987E00FC7.description.2}"
 			]
-			dependencies: ["3E8F565DE61309B2"]
 			hide: true
 			id: "103E4FC987E00FC7"
 			tasks: [{
 				id: "634013FA9B2698E8"
-				type: "item"
 				item: "steampowered:bronze_large_cogwheel"
+				type: "item"
 			}]
+			x: -24.0d
+			y: -2.0d
 		}
 		{
-			x: -22.5d
-			y: -3.5d
-			description: ["{quest.twr.0C424AAC550ACF02.description.1}"]
 			dependencies: ["103E4FC987E00FC7"]
-			optional: true
+			description: ["{quest.twr.0C424AAC550ACF02.description.1}"]
 			id: "0C424AAC550ACF02"
+			optional: true
 			tasks: [{
 				id: "29D00E6F6721FFC3"
-				type: "item"
 				item: "create:stressometer"
+				type: "item"
 			}]
+			x: -22.5d
+			y: -3.5d
 		}
 		{
-			x: -10.5d
-			y: -3.5d
-			subtitle: "{quest.twr.39C5B2690D8A6DEC.subtitle}"
-			description: ["{quest.twr.39C5B2690D8A6DEC.description.1}"]
 			dependencies: ["32A497C69C641D2B"]
+			description: ["{quest.twr.39C5B2690D8A6DEC.description.1}"]
 			hide: true
-			optional: true
 			id: "39C5B2690D8A6DEC"
+			optional: true
+			subtitle: "{quest.twr.39C5B2690D8A6DEC.subtitle}"
 			tasks: [
 				{
 					id: "199407EF0012107B"
-					type: "item"
 					item: "create:gantry_shaft"
+					type: "item"
 				}
 				{
 					id: "7F207F0B6FB5225F"
-					type: "item"
 					item: "create:gantry_carriage"
+					type: "item"
 				}
 			]
+			x: -10.5d
+			y: -3.5d
 		}
 		{
-			title: "{quest.twr.3A91A02EB59A7919.title}"
-			icon: "immersiveengineering:ingot_nickel"
-			x: -16.5d
-			y: -0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.3A91A02EB59A7919.subtitle}"
+			dependencies: ["71D389AF87847D7B"]
 			description: [
 				"{quest.twr.3A91A02EB59A7919.description.1}"
 				"{quest.twr.3A91A02EB59A7919.description.2}"
 				"{quest.twr.3A91A02EB59A7919.description.3}"
 			]
-			dependencies: ["71D389AF87847D7B"]
+			icon: "immersiveengineering:ingot_nickel"
 			id: "3A91A02EB59A7919"
+			shape: "gear"
+			subtitle: "{quest.twr.3A91A02EB59A7919.subtitle}"
 			tasks: [{
 				id: "1D1735E320565F58"
-				type: "item"
-				title: "{quest.twr.3A91A02EB59A7919.1D1735E320565F58.title}"
 				item: {
-					id: "itemfilters:tag"
 					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/nickel"
 					}
 				}
+				title: "{quest.twr.3A91A02EB59A7919.1D1735E320565F58.title}"
+				type: "item"
 			}]
+			title: "{quest.twr.3A91A02EB59A7919.title}"
+			x: -16.5d
+			y: -0.5d
 		}
 		{
-			x: -13.0d
-			y: 2.5d
-			subtitle: "{quest.twr.2EBC4AB3DDFC6BA0.subtitle}"
-			description: ["{quest.twr.2EBC4AB3DDFC6BA0.description.1}"]
 			dependencies: ["4CC5E16EFDE1368C"]
+			description: ["{quest.twr.2EBC4AB3DDFC6BA0.description.1}"]
 			hide: true
-			optional: true
 			id: "2EBC4AB3DDFC6BA0"
+			optional: true
+			subtitle: "{quest.twr.2EBC4AB3DDFC6BA0.subtitle}"
 			tasks: [{
 				id: "6B348B23D95928B3"
-				type: "item"
 				item: "create:gearbox"
+				type: "item"
 			}]
+			x: -13.0d
+			y: 2.5d
 		}
 		{
-			x: -8.5d
-			y: -3.5d
-			subtitle: "{quest.twr.2659A48FDF01B1B7.subtitle}"
+			dependencies: ["32A497C69C641D2B"]
 			description: [
 				"{quest.twr.2659A48FDF01B1B7.description.1}"
 				"{quest.twr.2659A48FDF01B1B7.description.2}"
 			]
-			dependencies: ["32A497C69C641D2B"]
 			hide: true
-			optional: true
 			id: "2659A48FDF01B1B7"
+			optional: true
+			subtitle: "{quest.twr.2659A48FDF01B1B7.subtitle}"
 			tasks: [{
 				id: "772A426B374D8919"
-				type: "item"
 				item: "create:clockwork_bearing"
+				type: "item"
 			}]
+			x: -8.5d
+			y: -3.5d
 		}
 		{
-			x: -9.5d
-			y: -3.5d
-			subtitle: "{quest.twr.739B9AF9D9C2EC05.subtitle}"
-			description: ["{quest.twr.739B9AF9D9C2EC05.description.1}"]
 			dependencies: ["32A497C69C641D2B"]
-			hide: true
 			dependency_requirement: "one_completed"
-			optional: true
+			description: ["{quest.twr.739B9AF9D9C2EC05.description.1}"]
+			hide: true
 			id: "739B9AF9D9C2EC05"
+			optional: true
+			subtitle: "{quest.twr.739B9AF9D9C2EC05.subtitle}"
 			tasks: [{
 				id: "2ED97FB90AF6FE84"
-				type: "item"
 				item: {
+					Count: 1
 					id: "create:super_glue"
-					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -9.5d
+			y: -3.5d
 		}
 		{
-			x: -6.5d
-			y: 2.5d
-			description: ["{quest.twr.2F9F42B32CEDA8B6.description.1}"]
 			dependencies: ["17F033FB5ACAACFB"]
+			description: ["{quest.twr.2F9F42B32CEDA8B6.description.1}"]
 			hide: true
-			optional: true
 			id: "2F9F42B32CEDA8B6"
+			optional: true
 			tasks: [{
 				id: "642066C8A0E1D945"
-				type: "item"
 				item: "create:rotation_speed_controller"
+				type: "item"
 			}]
+			x: -6.5d
+			y: 2.5d
 		}
 		{
-			title: "{quest.twr.289D04E29639F155.title}"
-			icon: "minecraft:white_wool"
-			x: -21.0d
-			y: 2.5d
-			shape: "hexagon"
-			subtitle: "{quest.twr.289D04E29639F155.subtitle}"
+			dependencies: ["3549A50510878505"]
 			description: [
 				"{quest.twr.289D04E29639F155.description.1}"
 				"{quest.twr.289D04E29639F155.description.2}"
 				"{quest.twr.289D04E29639F155.description.3}"
 			]
-			dependencies: ["3549A50510878505"]
+			icon: "minecraft:white_wool"
 			id: "289D04E29639F155"
+			shape: "hexagon"
+			subtitle: "{quest.twr.289D04E29639F155.subtitle}"
 			tasks: [{
 				id: "3B146E51998BDF7A"
 				type: "checkmark"
 			}]
+			title: "{quest.twr.289D04E29639F155.title}"
+			x: -21.0d
+			y: 2.5d
 		}
 		{
-			icon: "immersiveengineering:electron_tube"
-			x: -11.0d
-			y: 2.5d
-			shape: "hexagon"
-			description: ["{quest.twr.7D2BB5CE05B6723F.description.1}"]
-			hide_dependency_lines: true
 			dependencies: ["4CC5E16EFDE1368C"]
+			description: ["{quest.twr.7D2BB5CE05B6723F.description.1}"]
 			hide: true
+			hide_dependency_lines: true
+			icon: "immersiveengineering:electron_tube"
 			id: "7D2BB5CE05B6723F"
+			shape: "hexagon"
 			tasks: [{
 				id: "74E26CF35B0C0C6E"
-				type: "checkmark"
 				title: "{quest.twr.7D2BB5CE05B6723F.74E26CF35B0C0C6E.title}"
+				type: "checkmark"
 			}]
+			x: -11.0d
+			y: 2.5d
 		}
 		{
-			icon: "frostedheart:mechanical_calculator"
-			x: -6.5d
-			y: -3.5d
-			shape: "gear"
-			subtitle: "{quest.twr.64BD0FE7784B0BEB.subtitle}"
+			dependencies: [
+				"32A497C69C641D2B"
+				"1F94471C5310ECFA"
+			]
 			description: [
 				"{quest.twr.64BD0FE7784B0BEB.description.1}"
 				"{quest.twr.64BD0FE7784B0BEB.description.2}"
@@ -1050,17 +1043,20 @@
 				"{quest.twr.64BD0FE7784B0BEB.description.5}"
 			]
 			hide_dependency_lines: true
-			dependencies: [
-				"32A497C69C641D2B"
-				"1F94471C5310ECFA"
-			]
-			size: 1.5d
+			icon: "frostedheart:mechanical_calculator"
 			id: "64BD0FE7784B0BEB"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{quest.twr.64BD0FE7784B0BEB.subtitle}"
 			tasks: [{
 				id: "1B6C447B300EEE7B"
-				type: "checkmark"
 				title: "{quest.twr.64BD0FE7784B0BEB.1B6C447B300EEE7B.title}"
+				type: "checkmark"
 			}]
+			x: -6.5d
+			y: -3.5d
 		}
 	]
+	subtitle: ["{chapter.twr.3A3B51CF7F606665.subtitle}"]
+	title: "{chapter.twr.3A3B51CF7F606665.title}"
 }

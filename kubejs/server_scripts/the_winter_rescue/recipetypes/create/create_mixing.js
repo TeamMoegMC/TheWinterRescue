@@ -1,20 +1,20 @@
 onEvent('recipes', (event) => {
 	let recipes = [
     {output:
-        ['3x rankine:fire_clay_ball'],input:
+        ['3x frostedheart:fire_clay_ball'],input:
         ['4x kubejs:kaolin_dust', '4x kubejs:impure_alumina_dust', 'minecraft:clay_ball']},
     {output:
         [Fluid.of('kubejs:cryolite', 500)],input:
         ['2x kubejs:fluorite_dust', 'kubejs:aluminium_hydroxide_dust', Fluid.of('kubejs:sulfuric_acid', 500)]},
     {output:
-        ['3x rankine:vulcanized_rubber'],input:
-        ['immersiveengineering:dust_sulfur', Fluid.of('rankine:latex', 500)]},
+        ['3x frostedheart:vulcanized_rubber'],input:
+        ['immersiveengineering:dust_sulfur', Fluid.of('frostedheart:latex', 500)]},
 		{output:
-        ['3x rankine:vulcanized_rubber'],input:
-        [Fluid.of('frostedheart:sulfur_dioxide', 125), Fluid.of('rankine:latex', 500)]},
+        ['3x frostedheart:vulcanized_rubber'],input:
+        [Fluid.of('frostedheart:sulfur_dioxide', 125), Fluid.of('frostedheart:latex', 500)]},
     {output:
         [Fluid.of('kubejs:lime_water', 1000)],input:
-        ['rankine:quicklime', Fluid.of('minecraft:water', 1000)]},
+        ['frostedheart:quicklime', Fluid.of('minecraft:water', 1000)]},
     {output:
         ['2x kubejs:limed_coal'],input:
         ['kubejs:anthracite_dust', Fluid.of('kubejs:lime_water', 100)]},
@@ -73,20 +73,20 @@ onEvent('recipes', (event) => {
         ['8x immersiveengineering:treated_wood_horizontal'],input:
 	['8x #minecraft:planks',Fluid.of('immersiveengineering:creosote',1000)]},
 	{output:
-        ['rankine:pulp'],input:
+        ['frostedheart:pulp'],input:
         ['4x #forge:dusts/wood','#forge:clay_balls',Fluid.of('minecraft:water',1000)]},
 	{output:
-        ['rankine:sodium_sulfide'],input:
-        ['rankine:sodium_ingot','#forge:dusts/sulfur']},
+        ['frostedheart:sodium_sulfide_dust'],input:
+        ['frostedheart:sodium_ingot','#forge:dusts/sulfur']},
 	{output:
-        ['4x rankine:pulp'],input:
-        ['6x #forge:dusts/wood','rankine:sodium_sulfide','rankine:sodium_hydroxide',Fluid.of('minecraft:water',1000)]}
+        ['4x frostedheart:pulp'],input:
+        ['6x #forge:dusts/wood','frostedheart:sodium_sulfide_dust','frostedheart:sodium_hydroxide_dust',Fluid.of('minecraft:water',1000)]}
     
 	]
 	let heated = [
     {output:
-        ['2x rankine:high_refractory_brick'],input:
-        ['4x rankine:fire_clay_ball', '2x rankine:magnesia', '2x rankine:quicklime']},
+        ['2x frostedheart:high_refractory_brick'],input:
+        ['4x frostedheart:fire_clay_ball', '2x frostedheart:magnesia_dust', '2x frostedheart:quicklime']},
 	{output:
         [Fluid.of('kubejs:sulfuric_acid', 500)],input:
         ['2x #forge:dusts/sulfur', Fluid.of('minecraft:water', 500)]},
@@ -95,19 +95,19 @@ onEvent('recipes', (event) => {
         [Fluid.of('frostedheart:sulfur_dioxide',250), Fluid.of('minecraft:water', 500)]},
     {output:
         ['kubejs:aluminium_hydroxide_dust'],input:
-        ['rankine:sodium_hydroxide', '2x kubejs:washed_ore_bauxite']},
+        ['frostedheart:sodium_hydroxide_dust', '2x kubejs:washed_ore_bauxite']},
 	{output:
-        [Fluid.of('thermopolium:nail_soup', 1000)],input:
+        [Fluid.of('caupona:nail_soup', 1000)],input:
         ['kubejs:activated_carbon', Fluid.of('minecraft:water', 1000)]},
     {output:
         [Fluid.of('kubejs:magnesium_chloride', 250)],input:
-        ['rankine:magnesia', Fluid.of('kubejs:hydrochloric_acid', 500)]},
+        ['frostedheart:magnesia_dust', Fluid.of('kubejs:hydrochloric_acid', 500)]},
 	{output:
         [Fluid.of('kubejs:hydrochloric_acid', 1000)],input:
         [Fluid.of('minecraft:water', 1000), Fluid.of('frostedheart:chlorine', 500)]},
     {output:
         ['3x immersiveindustry:refractory_kiln_brick'],input:
-        ['3x rankine:fire_clay_ball', '5x kubejs:aluminium_oxide_dust', 'immersiveengineering:dust_hop_graphite']}
+        ['3x frostedheart:fire_clay_ball', '5x kubejs:aluminium_oxide_dust', 'immersiveengineering:dust_hop_graphite']}
 	]
 	recipes.forEach((recipe) => {
         event.recipes.createMixing(recipe.output, recipe.input);

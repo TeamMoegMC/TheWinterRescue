@@ -3,9 +3,9 @@ onEvent('recipes', (event) => {
     event.remove({type: 'immersiveengineering:metal_press'});
 
     const recipes_mold_plate = [
-        {output: 'kubejs:cast_iron_plate', input: 'rankine:cast_iron_ingot'},
+        {output: 'kubejs:cast_iron_plate', input: 'frostedheart:cast_iron_ingot'},
         {output: 'kubejs:battery_alloy_plate', input: 'kubejs:battery_alloy'},
-        {output: 'kubejs:invar_steel_plate', input: 'rankine:invar_ingot'},
+        {output: 'kubejs:invar_steel_plate', input: 'frostedheart:invar_ingot'},
         {output: 'steampowered:bronze_sheet', input: '#forge:ingots/bronze'},
         {output: 'create:iron_sheet', input: 'minecraft:iron_ingot'},
         {output: 'create:brass_sheet', input: '#forge:ingots/brass'},
@@ -41,7 +41,7 @@ onEvent('recipes', (event) => {
         },
         {
             output: '3x kubejs:cast_iron_rod',
-            input: '2x rankine:cast_iron_ingot',
+            input: '2x frostedheart:cast_iron_ingot',
             mold: 'immersiveengineering:mold_rod'
         },
 

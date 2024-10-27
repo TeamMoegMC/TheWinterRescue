@@ -41,7 +41,7 @@ onEvent('recipes', (event) => {
             C: 'minecraft:clay_ball'
         }),
         shapedRecipe('stone_age:grass_mesh', ['A A', ' A ', 'A A'], {
-            A: 'rankine:rope'
+            A: 'frostedheart:rope'
         }),
         shapedRecipe('stone_age:cobweb_mesh', ['A A', ' A ', 'A A'], {
             A: 'minecraft:string'
@@ -50,54 +50,54 @@ onEvent('recipes', (event) => {
 
 
     const change_recipes = [
-        shapedRecipe('rankine:bronze_hammer', ['AAC', ' BA', 'B A'], {
+        shapedRecipe('frostedheart:bronze_hammer', ['AAC', ' BA', 'B A'], {
             A: '#forge:ingots/bronze',
             B: 'minecraft:stick',
             C: 'stone_age:leather_strip'
         }),
-        shapedRecipe('rankine:bronze_pickaxe', ['AAA', ' B ', ' B '], {
-            A: 'rankine:bronze_ingot',
+        shapedRecipe('frostedheart:bronze_pickaxe', ['AAA', ' B ', ' B '], {
+            A: 'frostedheart:bronze_ingot',
             B: '#forge:rods/wooden'
         }),
-        shapedRecipe('rankine:bronze_axe', ['AA', 'AB', ' B'], {
-            A: 'rankine:bronze_ingot',
+        shapedRecipe('frostedheart:bronze_axe', ['AA', 'AB', ' B'], {
+            A: 'frostedheart:bronze_ingot',
             B: '#forge:rods/wooden'
         }),
-        shapedRecipe('rankine:bronze_hoe', ['AA', ' B', ' B'], {
-            A: 'rankine:bronze_ingot',
+        shapedRecipe('frostedheart:bronze_hoe', ['AA', ' B', ' B'], {
+            A: 'frostedheart:bronze_ingot',
             B: '#forge:rods/wooden'
         }),
-        shapedRecipe('rankine:bronze_sword', ['A', 'A', 'B'], {
-            A: 'rankine:bronze_ingot',
+        shapedRecipe('frostedheart:bronze_sword', ['A', 'A', 'B'], {
+            A: 'frostedheart:bronze_ingot',
             B: '#forge:rods/wooden'
         }),
-        shapedRecipe('rankine:bronze_shovel', ['A', 'B', 'B'], {
-            A: 'rankine:bronze_ingot',
+        shapedRecipe('frostedheart:bronze_shovel', ['A', 'B', 'B'], {
+            A: 'frostedheart:bronze_ingot',
             B: '#forge:rods/wooden'
         }),
-        shapedRecipe('rankine:bronze_knife', [' A', 'B '], {
-            A: 'rankine:bronze_ingot',
+        shapedRecipe('frostedheart:bronze_knife', [' A', 'B '], {
+            A: 'frostedheart:bronze_ingot',
             B: '#forge:rods/wooden'
         }),
         shapedRecipe('immersiveengineering:alloybrick', ['ABA', 'B B', 'ABA'], {
             A: 'minecraft:brick',
             B: '#forge:plates/bronze'
         }),
-        shapedRecipe('thermopolium:clay_cistern', ['CCC', 'CSC', 'CCC'], {
+        shapedRecipe('caupona:clay_cistern', ['CCC', 'CSC', 'CCC'], {
             C: '#forge:clay_balls',
             S: '#forge:rods/wooden'
         }),
-        shapedRecipe('thermopolium:kitchen_stove_t1', ['DDD', 'SSS', 'S S'], {
+        shapedRecipe('caupona:kitchen_stove_t1', ['DDD', 'SSS', 'S S'], {
             D: '#forge:dirt',
             S: '#forge:stone'
         }),
         shapedRecipe('charcoal_pit:main_bloomery', ['ABA', 'BCB', 'ABA'], {
-            A: 'rankine:mortar',
+            A: 'frostedheart:mortar',
             B: 'steampowered:bronze_sheet',
             C: 'charcoal_pit:sandy_brick'
         }),
         shapedRecipe('charcoal_pit:sandy_tuyere', ['BAB', 'ACA', 'BAB'], {
-            A: 'rankine:mortar',
+            A: 'frostedheart:mortar',
             B: 'charcoal_pit:sandy_brick_item',
             C: '#forge:plates/copper'
         }),
@@ -107,31 +107,31 @@ onEvent('recipes', (event) => {
             C: 'minecraft:leather'
         }),
         shapedRecipe('charcoal_pit:sandy_brick', ['BAB', 'ABA', 'BAB'], {
-            A: 'rankine:mortar',
+            A: 'frostedheart:mortar',
             B: 'charcoal_pit:sandy_brick_item'
         }),
         shapedRecipe('charcoal_pit:unfired_sandy_brick', ['ABA', 'BAB', 'ABA'], {
             A: 'minecraft:sand',
             B: 'minecraft:clay_ball'
         }),
-        shapedRecipe('rankine:flint_pickaxe', ['ABA', ' C ', ' C '], {
+        shapedRecipe('frostedheart:flint_pickaxe', ['ABA', ' C ', ' C '], {
             A: 'minecraft:flint',
-            B: 'rankine:rope',
+            B: 'frostedheart:rope',
             C: 'minecraft:stick'
         }),
-        shapedRecipe('rankine:flint_axe', ['AB', 'AC', ' C'], {
+        shapedRecipe('frostedheart:flint_axe', ['AB', 'AC', ' C'], {
             A: 'minecraft:flint',
-            B: 'rankine:rope',
+            B: 'frostedheart:rope',
             C: 'minecraft:stick'
         }),
-        shapedRecipe('rankine:flint_spear', [' AA', ' BA', 'C  '], {
+        shapedRecipe('frostedheart:flint_spear', [' AA', ' BA', 'C  '], {
             A: 'minecraft:flint',
-            B: 'rankine:rope',
+            B: 'frostedheart:rope',
             C: 'minecraft:stick'
         }),
-        shapedRecipe('rankine:flint_shovel', ['A', 'B', 'C'], {
+        shapedRecipe('frostedheart:flint_shovel', ['A', 'B', 'C'], {
             A: 'minecraft:flint',
-            B: 'rankine:rope',
+            B: 'frostedheart:rope',
             C: 'minecraft:stick'
         }),
         shapedRecipe('charcoal_pit:barrel', ['AAA', 'A A', 'AAA'], {
@@ -169,7 +169,7 @@ onEvent('recipes', (event) => {
         shapedRecipe('frostedheart:straw_lining', ['AAA', 'CBC', 'AAA'], {
             A: 'charcoal_pit:straw',
             B: 'stone_age:leather_strip',
-            C: 'rankine:rope'
+            C: 'frostedheart:rope'
         }),
         shapedRecipe('frostedheart:thermos', ['ACA', 'BCB', 'BAB'], {
             A: '#forge:plates/copper',
@@ -213,7 +213,7 @@ onEvent('recipes', (event) => {
             B: 'frostedheart:energy_core',
             C: '#forge:ingots/copper'
         }),
-        shapedRecipe('rankine:stone_hammer', ['AAC', ' BA', 'B A'], {
+        shapedRecipe('frostedheart:stone_hammer', ['AAC', ' BA', 'B A'], {
             A: 'minecraft:stone',
             B: 'minecraft:stick',
             C: '#forge:string'
@@ -222,7 +222,7 @@ onEvent('recipes', (event) => {
             A: 'frostedheart:rye'
         }),
         // TODO: Change to frostedheart version for watersource entries
-        shapedRecipe('watersource:wooden_cup', ['A A', 'A A', ' A '], {
+        shapedRecipe('frostedheart:wooden_cup', ['A A', 'A A', ' A '], {
             A: '#minecraft:planks'
         }),
         shapedRecipe('kubejs:wet_straw_briquette', ['AAA', 'A A', 'AAA'], {
@@ -274,22 +274,22 @@ onEvent('recipes', (event) => {
         }),
         shapedRecipe('frostedheart:hay_hat', ['AAA', 'A A', 'B B'], {
             A: 'charcoal_pit:straw',
-            B: 'rankine:rope'
+            B: 'frostedheart:rope'
         }),
         shapedRecipe('frostedheart:hay_jacket', ['ABA', 'ABA', 'AAA'], {
             A: 'charcoal_pit:straw',
-            B: 'rankine:rope'
+            B: 'frostedheart:rope'
         }),
         shapedRecipe('frostedheart:hay_pants', ['AAA', 'ABA', 'ABA'], {
             A: 'charcoal_pit:straw',
-            B: 'rankine:rope'
+            B: 'frostedheart:rope'
         }),
         shapedRecipe('kubejs:clay_bucket', ['A A', 'A A', ' A '], {
             A: 'minecraft:clay_ball'
         }),
         shapedRecipe('frostedheart:hay_boots', ['ABA', 'ABA'], {
             A: 'charcoal_pit:straw',
-            B: 'rankine:rope'
+            B: 'frostedheart:rope'
         }),
         shapedRecipe('frostedheart:drawing_desk', ['BB ', 'CAB', 'AAB'], {
             A: '#minecraft:planks',
@@ -306,7 +306,7 @@ onEvent('recipes', (event) => {
     const only_flint_recipes = [
         shapedRecipe('minecraft:stone_bricks', ['ABA', 'BAB', 'ABA'], {
             A: 'minecraft:stone',
-            B: 'rankine:mortar'
+            B: 'frostedheart:mortar'
         }),
         shapedRecipe('charcoal_pit:clay_pot', ['AAA', 'A A', 'AAA'], {
             A: 'minecraft:clay_ball'
@@ -317,9 +317,9 @@ onEvent('recipes', (event) => {
         shapedRecipe('frostedheart:coal_stick', ['A'], {
             A: 'kubejs:coal_briquette'
         }),
-        shapedRecipe('rankine:flint_hoe', ['AB', ' C', ' C'], {
+        shapedRecipe('frostedheart:flint_hoe', ['AB', ' C', ' C'], {
             A: 'minecraft:flint',
-            B: 'rankine:rope',
+            B: 'frostedheart:rope',
             C: 'minecraft:stick'
         }),
         shapedRecipe('2x minecraft:bowl', ['A A', ' A '], {

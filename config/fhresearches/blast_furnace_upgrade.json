@@ -1,7 +1,7 @@
 {
   "icon": {
     "type": "combined",
-    "base": "rankine:cast_iron_ingot",
+    "base": "frostedheart:cast_iron_ingot",
     "small": "create:smart_chute"
   },
   "category": "frostedheart:production",

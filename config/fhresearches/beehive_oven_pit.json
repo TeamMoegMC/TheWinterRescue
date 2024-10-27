@@ -1,5 +1,5 @@
 {
-  "icon": "rankine:beehive_oven_pit",
+  "icon": "frostedheart:beehive_oven_pit",
   "category": "frostedheart:production",
   "parents": [
     "mixer"
@@ -19,7 +19,7 @@
       "item": {
         "count": 4,
         "base_ingredient": {
-          "item": "rankine:fire_clay_ball"
+          "item": "frostedheart:fire_clay_ball"
         }
       }
     },
@@ -30,7 +30,7 @@
       "item": {
         "count": 8,
         "base_ingredient": {
-          "item": "rankine:quicklime"
+          "item": "frostedheart:quicklime"
         }
       },
       "consume": true
@@ -48,7 +48,7 @@
     {
       "type": "recipe",
       "id": "4ef793f89d4346ad",
-      "item": "rankine:beehive_oven_pit"
+      "item": "frostedheart:beehive_oven_pit"
     }
   ],
   "points": 1500,

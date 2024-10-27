@@ -12,5 +12,10 @@ StartupEvents.registry('block', (event) => {
    // event.create('magnesia_block').material('stone').hardness(2).harvestTool('pickaxe', 1).requiresTool(true);
    // event.create('packed_snow').material('stone').hardness(2).harvestTool('pickaxe', 1).requiresTool(true);
    // event.create('invar_block').material('stone').hardness(2).harvestTool('pickaxe', 1).requiresTool(true);
-
+   // rope
+   // beehive_oven_pit
+   // tree_tap
+   // tap_line
+   // flood_gate
+   // sharinga_sapling
 });

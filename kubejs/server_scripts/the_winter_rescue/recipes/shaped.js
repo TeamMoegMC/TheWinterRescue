@@ -20,7 +20,7 @@ onEvent('recipes', (event) => {
             C: '#the_winter_rescue:leather'
         }),
         shapedRecipe('frostedheart:beehive_oven_pit', [' A ', 'ABA', ' A '], {
-                    A: 'rankine:refractory_bricks',
+                    A: 'frostedheart:refractory_bricks',
                     B: 'minecraft:iron_ingot'
         }),
         shapedRecipe('minecraft:hay_block', ['AAA', 'AAA', 'AAA'], {
@@ -31,7 +31,7 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel',
             C: 'minecraft:paper'
         }),
-		shapedRecipe('rankine:tree_tap', ['AAA', '  B'], {
+		shapedRecipe('frostedheart:tree_tap', ['AAA', '  B'], {
             A: '#forge:rods/cast_iron',
             B: 'minecraft:bucket'
         }),
@@ -60,7 +60,7 @@ onEvent('recipes', (event) => {
         shapedRecipe('2x immersiveengineering:heavy_engineering', ['ABA', 'BCB', 'ABA'], {
             A: '#forge:plates/tungsten_steel',
             B: 'immersiveengineering:component_steel',
-            C: 'rankine:tungsten_heavy_alloy_ingot'
+            C: 'frostedheart:tungstensteel_ingot'
         }),
         shapedRecipe('2x immersiveengineering:light_engineering', ['ABA', 'BCB', 'ABA'], {
             A: '#forge:plates/aluminum',
@@ -78,9 +78,9 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/copper',
             C: 'immersiveengineering:coil_mv'
         }),
-        shapedRecipe('2x rankine:high_refractory_bricks', ['ABA', 'BAB', 'ABA'], {
-            A: 'rankine:high_refractory_brick',
-            B: 'rankine:mortar'
+        shapedRecipe('2x frostedheart:high_refractory_bricks', ['ABA', 'BAB', 'ABA'], {
+            A: 'frostedheart:high_refractory_brick',
+            B: 'frostedheart:mortar'
         }),
         shapedRecipe('minecraft:comparator', [' B ', 'BCB', 'AAA'], {
             A: '#forge:plates/iron',
@@ -94,27 +94,27 @@ onEvent('recipes', (event) => {
         }),
         shapedRecipe('3x immersiveengineering:cokebrick', ['ABA', 'CAC', 'ABA'], {
             A: 'minecraft:brick',
-            B: 'rankine:mortar',
+            B: 'frostedheart:mortar',
             C: 'steampowered:bronze_sheet'
         }),
         shapedRecipe('4x immersiveengineering:blastbrick', ['ABA', 'BCB', 'ABA'], {
             A: 'kubejs:invar_steel_plate',
-            B: 'rankine:mortar',
-            C: 'rankine:refractory_bricks'
+            B: 'frostedheart:mortar',
+            C: 'frostedheart:refractory_bricks'
         }),
         shapedRecipe('immersiveengineering:wirecutter', ['A A', ' B ', 'B B'], {
             A: '#forge:plates/iron',
             B: 'immersiveengineering:stick_treated'
         }),
-        shapedRecipe('2x rankine:rope', ['AA', 'A '], {
+        shapedRecipe('2x frostedheart:rope', ['AA', 'A '], {
             A: 'charcoal_pit:straw'
         }),
         shapedRecipe('elevatorid:elevator_white', ['AAA', 'BBB', 'AAA'], {
             A: '#forge:plates/steel',
             B: '#minecraft:wool'
         }),
-        shapedRecipe('rankine:synthetic_leather', ['AAA', 'BBB', 'AAA'], {
-            A: 'rankine:pulp',
+        shapedRecipe('frostedheart:synthetic_leather', ['AAA', 'BBB', 'AAA'], {
+            A: 'frostedheart:pulp',
             B: '#forge:string'
         }),
         shapedRecipe('3x create:belt_connector', ['AAA', 'BBB', 'AAA'], {
@@ -176,17 +176,17 @@ onEvent('recipes', (event) => {
             B: '#forge:plates/steel'
         }),
         shapedRecipe(Item.of('steampowered:bronze_burner'), ['BCB', 'B B', 'AAA'], {
-            A: 'rankine:refractory_bricks',
+            A: 'frostedheart:refractory_bricks',
             B: '#forge:plates/bronze',
             C: '#forge:plates/copper'
         }),
         shapedRecipe('steampowered:cast_iron_burner', ['BCB', 'B B', 'AAA'], {
-            A: 'rankine:refractory_bricks',
+            A: 'frostedheart:refractory_bricks',
             B: '#forge:plates/cast_iron',
             C: '#forge:plates/copper'
         }),
         shapedRecipe('steampowered:steel_burner', ['BCB', 'B B', 'AAA'], {
-            A: 'rankine:high_refractory_bricks',
+            A: 'frostedheart:high_refractory_bricks',
             B: '#forge:plates/steel',
             C: '#forge:plates/copper'
         }),
@@ -251,25 +251,25 @@ onEvent('recipes', (event) => {
             A: '#forge:rods/wooden'
         }),
 
-        shapedRecipe('rankine:flint_pickaxe', ['CC', 'BA'], {
+        shapedRecipe('frostedheart:flint_pickaxe', ['CC', 'BA'], {
             A: '#forge:rods/wooden',
             B: '#forge:string',
             C: 'minecraft:flint'
         }),
 
-        shapedRecipe('rankine:flint_axe', ['CB', 'CA'], {
+        shapedRecipe('frostedheart:flint_axe', ['CB', 'CA'], {
             A: '#forge:rods/wooden',
             B: '#forge:string',
             C: 'minecraft:flint'
         }),
 
-        shapedRecipe('rankine:flint_shovel', ['A ', 'CB'], {
+        shapedRecipe('frostedheart:flint_shovel', ['A ', 'CB'], {
             A: '#forge:rods/wooden',
             B: '#forge:string',
             C: 'minecraft:flint'
         }),
 
-        shapedRecipe('rankine:flint_spear', ['CB', 'A '], {
+        shapedRecipe('frostedheart:flint_spear', ['CB', 'A '], {
             A: '#forge:rods/wooden',
             B: '#forge:string',
             C: 'minecraft:flint'
@@ -285,7 +285,7 @@ onEvent('recipes', (event) => {
             B: '#forge:stone',
         }),
 
-        shapedRecipe('rankine:stone_hammer', ['CC', 'BA'], {
+        shapedRecipe('frostedheart:stone_hammer', ['CC', 'BA'], {
             A: '#forge:rods/wooden',
             B: '#forge:string',
             C: '#forge:stone'
@@ -379,7 +379,7 @@ onEvent('recipes', (event) => {
             A: 'immersiveengineering:treated_wood_horizontal',
             B: 'kubejs:invar_steel_plate',
 			C: 'minecraft:bucket',
-            D: 'rankine:invar_ingot'
+            D: 'frostedheart:invar_ingot'
         }),
 		shapedRecipe('frostedheart:advanced_thermos', ['ABA', 'CBC', 'CBC'], {
             A: '#forge:plates/iron',
@@ -452,7 +452,7 @@ onEvent('recipes', (event) => {
         shapedRecipe('2x immersiveindustry:rotary_kiln_cylinder', ['AAA', 'CCC', 'BBB'], {
             A: 'immersiveindustry:refractory_kiln_brick',
             B: '#forge:plates/steel',
-            C: 'rankine:refractory_brick'
+            C: 'frostedheart:refractory_brick'
         }),
         shapedRecipe('2x immersiveindustry:car_kiln_brick', ['AAA', 'ACA', 'BBB'], {
             A: 'immersiveindustry:refractory_kiln_brick',
@@ -462,10 +462,10 @@ onEvent('recipes', (event) => {
         shapedRecipe('frostedheart:charcoal', [' A', 'A '], {
             A: 'minecraft:charcoal'
         }),
-        shapedRecipe('rankine:invar_block', ['AAA', 'AAA', 'AAA'], {
+        shapedRecipe('frostedheart:invar_block', ['AAA', 'AAA', 'AAA'], {
             A: 'kubejs:invar_steel_plate'
         }),
-        shapedRecipe('2x rankine:tap_line', ['ABA'], {
+        shapedRecipe('2x frostedheart:tap_line', ['ABA'], {
             A: 'kubejs:cast_iron_rod',
             B: '#forge:ingots/cast_iron'
         })

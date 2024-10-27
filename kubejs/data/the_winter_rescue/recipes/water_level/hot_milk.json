@@ -1,7 +1,7 @@
 {
-    "type": "watersource:water_level_item",
+    "type": "frostedheart:water_level_item",
     "ingredient": {
-        "item": "thermopolium:scalded_milk"
+        "item": "caupona:scalded_milk"
     },
 	"waterLevel": 1,
 	"waterSaturationLevel": 1

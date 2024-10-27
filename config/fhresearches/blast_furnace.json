@@ -19,7 +19,7 @@
       "item": {
         "count": 4,
         "base_ingredient": {
-          "item": "rankine:invar_ingot"
+          "item": "frostedheart:invar_ingot"
         }
       }
     },
@@ -30,14 +30,14 @@
       "item": {
         "count": 4,
         "base_ingredient": {
-          "item": "rankine:fire_clay_ball"
+          "item": "frostedheart:fire_clay_ball"
         }
       }
     }
   ],
   "ingredients": [
     {
-      "item": "rankine:refractory_bricks"
+      "item": "frostedheart:refractory_bricks"
     }
   ],
   "effects": [

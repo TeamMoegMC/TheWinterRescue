@@ -2,7 +2,7 @@
   "icon": {
     "type": "combined",
     "base": "tetra:basic_workbench",
-    "small": "rankine:bronze_pickaxe"
+    "small": "frostedheart:bronze_pickaxe"
   },
   "category": "frostedheart:ars",
   "parents": [

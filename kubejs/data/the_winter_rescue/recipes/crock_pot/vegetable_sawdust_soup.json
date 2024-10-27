@@ -22,7 +22,7 @@
     {
       "type": "must_contain_ingredient",
       "ingredient": {
-        "item": "rankine:sawdust"
+        "item": "frostedheart:sawdust"
       },
       "quantity": 1
     },

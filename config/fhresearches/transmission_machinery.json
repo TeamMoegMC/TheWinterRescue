@@ -19,7 +19,7 @@
       "item": {
         "count": 4,
         "base_ingredient": {
-          "item": "rankine:bronze_ingot"
+          "item": "frostedheart:bronze_ingot"
         }
       },
       "consume": true

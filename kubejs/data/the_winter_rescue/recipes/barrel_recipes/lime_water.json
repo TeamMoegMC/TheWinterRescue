@@ -1,7 +1,7 @@
 {
   "type": "charcoal_pit:barrel",
   "item_in":{
-  	"item":"rankine:quicklime"
+  	"item":"frostedheart:quicklime"
   },
   "fluid_in":{
   	"fluid":"minecraft:water",

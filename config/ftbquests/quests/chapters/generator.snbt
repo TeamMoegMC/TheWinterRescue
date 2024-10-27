@@ -1,55 +1,29 @@
 {
-	id: "00A96B3C8C24C472"
-	group: "7668DAE31E3EF623"
-	order_index: 2
-	filename: "generator"
-	title: "{chapter.twr.00A96B3C8C24C472.title}"
-	icon: "frostedheart:generator_core_t1"
-	subtitle: ["{chapter.twr.00A96B3C8C24C472.subtitle}"]
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "generator"
+	group: "7668DAE31E3EF623"
+	icon: "frostedheart:generator_core_t1"
+	id: "00A96B3C8C24C472"
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			title: "{quest.twr.69D939596ED4C0AF.title}"
-			icon: "frostedheart:generator"
-			x: -16.0d
-			y: -4.0d
-			shape: "gear"
-			subtitle: "{quest.twr.69D939596ED4C0AF.subtitle}"
+			dependencies: ["573841FD8018D4B1"]
 			description: [
 				"{quest.twr.69D939596ED4C0AF.description.1}"
 				"{quest.twr.69D939596ED4C0AF.description.2}"
 				"{quest.twr.69D939596ED4C0AF.description.3}"
 				"{quest.twr.69D939596ED4C0AF.description.4}"
 			]
-			dependencies: ["573841FD8018D4B1"]
-			size: 2.5d
+			icon: "frostedheart:generator"
 			id: "69D939596ED4C0AF"
-			tasks: [
-				{
-					id: "479CE18A3083C8CD"
-					type: "item"
-					item: "frostedheart:generator_core_t1"
-				}
-				{
-					id: "6745F87A897EB5C5"
-					type: "item"
-					item: "frostedheart:generator_amplifier_r1"
-					count: 8L
-				}
-				{
-					id: "75C752C598BB386D"
-					type: "item"
-					item: "frostedheart:generator_brick"
-					count: 21L
-				}
-			]
 			rewards: [
 				{
-					id: "0E2B848932AC874B"
-					type: "item"
-					item: "frostedheart:rye_block"
 					count: 5
+					id: "0E2B848932AC874B"
+					item: "frostedheart:rye_block"
+					type: "item"
 				}
 				{
 					id: "6CE43A2025345119"
@@ -57,248 +31,270 @@
 					xp_levels: 5
 				}
 			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{quest.twr.69D939596ED4C0AF.subtitle}"
+			tasks: [
+				{
+					id: "479CE18A3083C8CD"
+					item: "frostedheart:generator_core_t1"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6745F87A897EB5C5"
+					item: "frostedheart:generator_amplifier_r1"
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "75C752C598BB386D"
+					item: "frostedheart:generator_brick"
+					type: "item"
+				}
+			]
+			title: "{quest.twr.69D939596ED4C0AF.title}"
+			x: -16.0d
+			y: -4.0d
 		}
 		{
-			title: "{quest.twr.2D570AD59FE2D6E1.title}"
-			icon: "frostedheart:generator_t2"
-			x: -8.0d
-			y: -4.0d
-			shape: "gear"
-			subtitle: "{quest.twr.2D570AD59FE2D6E1.subtitle}"
+			dependencies: [
+				"69D939596ED4C0AF"
+				"0019852CD6EC0354"
+			]
 			description: [
 				"{quest.twr.2D570AD59FE2D6E1.description.1}"
 				"{quest.twr.2D570AD59FE2D6E1.description.2}"
 				"{quest.twr.2D570AD59FE2D6E1.description.3}"
 			]
-			dependencies: [
-				"69D939596ED4C0AF"
-				"0019852CD6EC0354"
-			]
 			hide: true
-			size: 2.5d
+			icon: "frostedheart:generator_t2"
 			id: "2D570AD59FE2D6E1"
-			tasks: [{
-				id: "0FAB6E315ECD3A7F"
-				type: "item"
-				item: "rankine:invar_block"
-			}]
 			rewards: [{
 				id: "1C35AD7A07B1610A"
 				type: "xp_levels"
 				xp_levels: 5
 			}]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{quest.twr.2D570AD59FE2D6E1.subtitle}"
+			tasks: [{
+				id: "0FAB6E315ECD3A7F"
+				item: "frostedheart:invar_block"
+				type: "item"
+			}]
+			title: "{quest.twr.2D570AD59FE2D6E1.title}"
+			x: -8.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["2D570AD59FE2D6E1"]
+			id: "5F455ED38549D9EF"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{quest.twr.5F455ED38549D9EF.subtitle}"
+			tasks: [{
+				id: "7E661B77895EA858"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
 			title: "{quest.twr.5F455ED38549D9EF.title}"
 			x: 0.0d
 			y: -4.0d
-			shape: "gear"
-			subtitle: "{quest.twr.5F455ED38549D9EF.subtitle}"
-			dependencies: ["2D570AD59FE2D6E1"]
-			size: 2.5d
-			id: "5F455ED38549D9EF"
-			tasks: [{
-				id: "7E661B77895EA858"
-				type: "item"
-				item: "minecraft:barrier"
-			}]
 		}
 		{
+			dependencies: ["5F455ED38549D9EF"]
+			id: "55C39831FBBB94D8"
+			shape: "gear"
+			size: 2.5d
+			subtitle: "{quest.twr.55C39831FBBB94D8.subtitle}"
+			tasks: [{
+				id: "63016D35FF201A5F"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
 			title: "{quest.twr.55C39831FBBB94D8.title}"
 			x: 8.0d
 			y: -4.0d
-			shape: "gear"
-			subtitle: "{quest.twr.55C39831FBBB94D8.subtitle}"
-			dependencies: ["5F455ED38549D9EF"]
-			size: 2.5d
-			id: "55C39831FBBB94D8"
-			tasks: [{
-				id: "63016D35FF201A5F"
-				type: "item"
-				item: "minecraft:barrier"
-			}]
 		}
 		{
-			title: "{quest.twr.4BBE69E2E2A4276F.title}"
-			icon: "frostedheart:heat_radiator"
-			x: -10.0d
-			y: -11.0d
-			shape: "gear"
-			subtitle: "{quest.twr.4BBE69E2E2A4276F.subtitle}"
+			dependencies: ["3EF706F5A31CDDD6"]
 			description: [
 				"{quest.twr.4BBE69E2E2A4276F.description.1}"
 				"{quest.twr.4BBE69E2E2A4276F.description.2}"
 				"{quest.twr.4BBE69E2E2A4276F.description.3}"
 			]
-			dependencies: ["3EF706F5A31CDDD6"]
-			size: 1.5d
+			icon: "frostedheart:heat_radiator"
 			id: "4BBE69E2E2A4276F"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "{quest.twr.4BBE69E2E2A4276F.subtitle}"
 			tasks: [
 				{
 					id: "5B0C6258A0BE4353"
-					type: "item"
 					item: "immersiveengineering:light_engineering"
+					type: "item"
 				}
 				{
-					id: "245793557469A63D"
-					type: "item"
-					item: "immersiveengineering:sheetmetal_steel"
 					count: 2L
+					id: "245793557469A63D"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
 				}
 			]
+			title: "{quest.twr.4BBE69E2E2A4276F.title}"
+			x: -10.0d
+			y: -11.0d
 		}
 		{
-			x: -8.0d
-			y: -12.0d
-			subtitle: "{quest.twr.58912971B356779C.subtitle}"
+			dependencies: ["3EF706F5A31CDDD6"]
 			description: [
 				"{quest.twr.58912971B356779C.description.1}"
 				"{quest.twr.58912971B356779C.description.2}"
 				"{quest.twr.58912971B356779C.description.3}"
 			]
-			dependencies: ["3EF706F5A31CDDD6"]
-			size: 1.5d
 			id: "58912971B356779C"
+			size: 1.5d
+			subtitle: "{quest.twr.58912971B356779C.subtitle}"
 			tasks: [{
 				id: "5936B9467F9C1E93"
-				type: "item"
 				item: "frostedheart:charger"
+				type: "item"
 			}]
+			x: -8.0d
+			y: -12.0d
 		}
 		{
-			x: -10.0d
-			y: -14.0d
-			subtitle: "{quest.twr.2E54EBA4E016412C.subtitle}"
+			dependencies: ["58912971B356779C"]
 			description: [
 				"{quest.twr.2E54EBA4E016412C.description.1}"
 				"{quest.twr.2E54EBA4E016412C.description.2}"
 				"{quest.twr.2E54EBA4E016412C.description.3}"
 			]
-			dependencies: ["58912971B356779C"]
-			size: 1.5d
 			id: "2E54EBA4E016412C"
+			size: 1.5d
+			subtitle: "{quest.twr.2E54EBA4E016412C.subtitle}"
 			tasks: [{
 				id: "5AFE1335BBD8F8C1"
-				type: "item"
 				item: {
+					Count: 1
 					id: "frostedheart:heater_vest"
-					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
+				type: "item"
 			}]
+			x: -10.0d
+			y: -14.0d
 		}
 		{
-			x: -8.0d
-			y: -9.0d
-			subtitle: "{quest.twr.3EF706F5A31CDDD6.subtitle}"
-			description: ["{quest.twr.3EF706F5A31CDDD6.description.1}"]
 			dependencies: ["2D570AD59FE2D6E1"]
-			size: 1.5d
+			description: ["{quest.twr.3EF706F5A31CDDD6.description.1}"]
 			id: "3EF706F5A31CDDD6"
+			size: 1.5d
+			subtitle: "{quest.twr.3EF706F5A31CDDD6.subtitle}"
 			tasks: [{
 				id: "0640ED64D787FA86"
-				type: "item"
 				item: "frostedheart:heat_pipe"
+				type: "item"
 			}]
+			x: -8.0d
+			y: -9.0d
 		}
 		{
-			title: "{quest.twr.00FD2A2F4601287B.title}"
-			icon: "minecraft:coal"
-			x: -16.0d
-			y: -9.0d
-			subtitle: "{quest.twr.00FD2A2F4601287B.subtitle}"
+			dependencies: ["69D939596ED4C0AF"]
 			description: [
 				"{quest.twr.00FD2A2F4601287B.description.1}"
 				"{quest.twr.00FD2A2F4601287B.description.2}"
 			]
-			dependencies: ["69D939596ED4C0AF"]
 			hide: true
-			size: 1.5d
+			icon: "minecraft:coal"
 			id: "00FD2A2F4601287B"
+			size: 1.5d
+			subtitle: "{quest.twr.00FD2A2F4601287B.subtitle}"
 			tasks: [{
 				id: "4965F8923CFE2918"
 				type: "checkmark"
 			}]
+			title: "{quest.twr.00FD2A2F4601287B.title}"
+			x: -16.0d
+			y: -9.0d
 		}
 		{
-			title: "{quest.twr.2E96E546DCA1486C.title}"
-			icon: "minecraft:charcoal"
-			x: -16.0d
-			y: 1.0d
-			description: ["{quest.twr.2E96E546DCA1486C.description.1}"]
 			dependencies: ["69D939596ED4C0AF"]
+			description: ["{quest.twr.2E96E546DCA1486C.description.1}"]
 			hide: true
-			size: 1.5d
+			icon: "minecraft:charcoal"
 			id: "2E96E546DCA1486C"
+			size: 1.5d
 			tasks: [{
 				id: "4ACC9E95EA81E727"
 				type: "checkmark"
 			}]
+			title: "{quest.twr.2E96E546DCA1486C.title}"
+			x: -16.0d
+			y: 1.0d
 		}
 		{
-			title: "{quest.twr.57C83EF2BAA418AD.title}"
-			icon: {
-				id: "frostedheart:steam_bottle"
-				Count: 1b
-				tag: {
-					energy: 240
-				}
-			}
-			x: -8.0d
-			y: 1.0d
-			subtitle: "{quest.twr.57C83EF2BAA418AD.subtitle}"
+			dependencies: ["2D570AD59FE2D6E1"]
 			description: [
 				"{quest.twr.57C83EF2BAA418AD.description.1}"
 				"{quest.twr.57C83EF2BAA418AD.description.2}"
 				"{quest.twr.57C83EF2BAA418AD.description.3}"
 			]
-			dependencies: ["2D570AD59FE2D6E1"]
-			size: 1.5d
+			icon: {
+				Count: 1
+				id: "frostedheart:steam_bottle"
+				tag: {
+					energy: 240
+				}
+			}
 			id: "57C83EF2BAA418AD"
-			tasks: [{
-				id: "2138101237058A9B"
-				type: "checkmark"
-			}]
 			rewards: [{
 				id: "089676C2DB2178E3"
-				type: "item"
 				item: {
+					Count: 1
 					id: "frostedheart:steam_bottle"
-					Count: 1b
 					tag: {
 						energy: 240
 					}
 				}
+				type: "item"
 			}]
+			size: 1.5d
+			subtitle: "{quest.twr.57C83EF2BAA418AD.subtitle}"
+			tasks: [{
+				id: "2138101237058A9B"
+				type: "checkmark"
+			}]
+			title: "{quest.twr.57C83EF2BAA418AD.title}"
+			x: -8.0d
+			y: 1.0d
 		}
 		{
-			title: "{quest.twr.573841FD8018D4B1.title}"
-			icon: "frostedheart:generator_core_t1"
-			x: -20.5d
-			y: -4.0d
-			shape: "gear"
-			subtitle: "{quest.twr.573841FD8018D4B1.subtitle}"
+			dependencies: ["586D66C71A378A82"]
 			description: [
 				"{quest.twr.573841FD8018D4B1.description.1}"
 				"{quest.twr.573841FD8018D4B1.description.2}"
 				"{quest.twr.573841FD8018D4B1.description.3}"
 			]
-			dependencies: ["586D66C71A378A82"]
 			hide: true
-			size: 2.0d
+			icon: "frostedheart:generator_core_t1"
 			id: "573841FD8018D4B1"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "{quest.twr.573841FD8018D4B1.subtitle}"
 			tasks: [{
 				id: "65A5E15C81C7DC26"
 				type: "checkmark"
 			}]
+			title: "{quest.twr.573841FD8018D4B1.title}"
+			x: -20.5d
+			y: -4.0d
 		}
 		{
-			title: "{quest.twr.7627D80D3091F54C.title}"
-			x: -6.0d
-			y: -11.0d
-			subtitle: "{quest.twr.7627D80D3091F54C.subtitle}"
+			dependencies: ["3EF706F5A31CDDD6"]
 			description: [
 				"{quest.twr.7627D80D3091F54C.description.1}"
 				"{quest.twr.7627D80D3091F54C.description.2}"
@@ -318,111 +314,116 @@
 				"{quest.twr.7627D80D3091F54C.description.16}"
 				"{quest.twr.7627D80D3091F54C.description.17}"
 			]
-			dependencies: ["3EF706F5A31CDDD6"]
-			size: 1.5d
 			id: "7627D80D3091F54C"
-			tasks: [{
-				id: "6414963E6FF9F5AF"
-				type: "item"
-				item: "frostedheart:sauna_vent"
-			}]
 			rewards: [{
 				id: "10BFAA3DDA2E2F5D"
-				type: "item"
 				item: "minecraft:sugar_cane"
+				type: "item"
 			}]
+			size: 1.5d
+			subtitle: "{quest.twr.7627D80D3091F54C.subtitle}"
+			tasks: [{
+				id: "6414963E6FF9F5AF"
+				item: "frostedheart:sauna_vent"
+				type: "item"
+			}]
+			title: "{quest.twr.7627D80D3091F54C.title}"
+			x: -6.0d
+			y: -11.0d
 		}
 		{
-			title: "{quest.twr.743FEA6865CD1D90.title}"
-			x: -13.5d
-			y: -6.75d
-			shape: "rsquare"
-			subtitle: "{quest.twr.743FEA6865CD1D90.subtitle}"
+			dependencies: ["69D939596ED4C0AF"]
 			description: [
 				"{quest.twr.743FEA6865CD1D90.description.1}"
 				"{quest.twr.743FEA6865CD1D90.description.2}"
 			]
-			dependencies: ["69D939596ED4C0AF"]
-			size: 1.5d
 			id: "743FEA6865CD1D90"
+			rewards: [{
+				count: 4
+				id: "674D2C504E2A20C3"
+				item: "kubejs:frozen_white_turnip"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{quest.twr.743FEA6865CD1D90.subtitle}"
 			tasks: [{
 				id: "66C370B5B08D3156"
-				type: "item"
 				item: "frostedheart:frozen_seeds"
-			}]
-			rewards: [{
-				id: "674D2C504E2A20C3"
 				type: "item"
-				item: "kubejs:frozen_white_turnip"
-				count: 4
 			}]
+			title: "{quest.twr.743FEA6865CD1D90.title}"
+			x: -13.5d
+			y: -6.75d
 		}
 		{
-			x: -5.25d
-			y: -9.0d
-			subtitle: "{quest.twr.047F11A29F16A270.subtitle}"
+			dependencies: ["3EF706F5A31CDDD6"]
 			description: [
 				"{quest.twr.047F11A29F16A270.description.1}"
 				"{quest.twr.047F11A29F16A270.description.2}"
 				"{quest.twr.047F11A29F16A270.description.3}"
 			]
-			dependencies: ["3EF706F5A31CDDD6"]
-			size: 1.5d
 			id: "047F11A29F16A270"
+			size: 1.5d
+			subtitle: "{quest.twr.047F11A29F16A270.subtitle}"
 			tasks: [{
 				id: "07C0F9F23935FAB8"
-				type: "item"
 				item: "frostedheart:heat_incubator"
+				type: "item"
 			}]
+			x: -5.25d
+			y: -9.0d
 		}
 		{
-			x: -8.0d
-			y: -14.0d
-			subtitle: "{quest.twr.0BDD1D411E09DB4A.subtitle}"
-			description: ["{quest.twr.0BDD1D411E09DB4A.description.1}"]
 			dependencies: ["58912971B356779C"]
-			size: 1.5d
+			description: ["{quest.twr.0BDD1D411E09DB4A.description.1}"]
 			id: "0BDD1D411E09DB4A"
+			size: 1.5d
+			subtitle: "{quest.twr.0BDD1D411E09DB4A.subtitle}"
 			tasks: [{
 				id: "4BE06348CCE16A3A"
-				type: "item"
 				item: "create:tree_fertilizer"
+				type: "item"
 			}]
+			x: -8.0d
+			y: -14.0d
 		}
 		{
-			title: "{quest.twr.7762BF27B2BB8236.title}"
-			icon: "stone_age:auroch_spawn_egg"
-			x: -13.5d
-			y: -2.0d
-			shape: "rsquare"
-			subtitle: "{quest.twr.7762BF27B2BB8236.subtitle}"
+			dependencies: ["69D939596ED4C0AF"]
 			description: [
 				"{quest.twr.7762BF27B2BB8236.description.0}"
 				"{quest.twr.7762BF27B2BB8236.description.1}"
 				"{quest.twr.7762BF27B2BB8236.description.3}"
 			]
-			dependencies: ["69D939596ED4C0AF"]
-			size: 1.5d
+			icon: "stone_age:auroch_spawn_egg"
 			id: "7762BF27B2BB8236"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "{quest.twr.7762BF27B2BB8236.subtitle}"
 			tasks: [{
 				id: "67D25E6118AEA96F"
-				type: "item"
 				item: "minecraft:wheat"
+				type: "item"
 			}]
+			title: "{quest.twr.7762BF27B2BB8236.title}"
+			x: -13.5d
+			y: -2.0d
 		}
 		{
-			x: -11.0d
-			y: -9.0d
-			subtitle: "{quest.twr.39E837A6FC653395.subtitle}"
-			description: ["{quest.twr.39E837A6FC653395.description.1}"]
 			dependencies: ["3EF706F5A31CDDD6"]
-			size: 1.5d
+			description: ["{quest.twr.39E837A6FC653395.description.1}"]
 			id: "39E837A6FC653395"
+			size: 1.5d
+			subtitle: "{quest.twr.39E837A6FC653395.subtitle}"
 			tasks: [{
 				id: "3D3CE88847680E34"
-				type: "item"
 				item: "frostedheart:steam_core"
+				type: "item"
 			}]
+			x: -11.0d
+			y: -9.0d
 		}
 	]
+	subtitle: ["{chapter.twr.00A96B3C8C24C472.subtitle}"]
+	title: "{chapter.twr.00A96B3C8C24C472.title}"
 }

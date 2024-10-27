@@ -27,7 +27,7 @@ onEvent('item.tags', (event) => {
     event.add('forge:ingots/tungsten_steel', "kubejs:tungsten_steel")
     event.add('forge:plates/battery_alloy', "kubejs:battery_alloy_plate")
     event.add('forge:ingots/battery_alloy', "kubejs:battery_alloy")
-    event.add('forge:dusts/wood', "rankine:sawdust")
+    event.add('forge:dusts/wood', "frostedheart:sawdust")
 	event.add("forge:rods/cast_iron","kubejs:cast_iron_rod")
     event.add('the_winter_rescue:flux_block', "minecraft:calcite")
     event.add('the_winter_rescue:flour', "stone_age:flour")
@@ -66,8 +66,8 @@ onEvent('item.tags', (event) => {
 	event.add("forge:ores/tin","kubejs:gray_tin_ingot")
 	event.add("forge:ores/iron","kubejs:rusted_iron_ingot")
 	event.add("forge:dusts/zinc","kubejs:zinc_dust")
-	//event.remove("thermopolium:mushroom","#forge:mushrooms");
-	//event.add("thermopolium:mushroom","#forge:edible_mushrooms");
+	//event.remove("caupona:mushroom","#forge:mushrooms");
+	//event.add("caupona:mushroom","#forge:edible_mushrooms");
 
 
 	event.add("kubejs:tetra_hammer","tetra:modular_double")
@@ -78,15 +78,15 @@ onEvent('item.tags', (event) => {
 	})
 	event.add('kubejs:straw_briquettes','kubejs:wet_straw_briquette');
 	event.add('kubejs:straw_briquettes','kubejs:straw_briquette');
-	event.add('thermopolium:container','#frostedheart:thermos');
-	event.add('thermopolium:cereals/baked','frostedheart:military_rations');
-	event.add('thermopolium:cereals/baked','frostedheart:rye_bread');
-	event.add('thermopolium:vegetables','frostedheart:military_rations');
-	event.add('thermopolium:meats/meat','frostedheart:military_rations');
-	event.add('thermopolium:meats','frostedheart:chocolate');
-	event.add('thermopolium:eggs','crockpot:cooked_egg');
-	event.add('thermopolium:vegetables','frostedheart:white_turnip_block');
-	event.add('thermopolium:vegetables','frostedheart:dried_vegetables');
+	event.add('caupona:container','#frostedheart:thermos');
+	event.add('caupona:cereals/baked','frostedheart:military_rations');
+	event.add('caupona:cereals/baked','frostedheart:rye_bread');
+	event.add('caupona:vegetables','frostedheart:military_rations');
+	event.add('caupona:meats/meat','frostedheart:military_rations');
+	event.add('caupona:meats','frostedheart:chocolate');
+	event.add('caupona:eggs','crockpot:cooked_egg');
+	event.add('caupona:vegetables','frostedheart:white_turnip_block');
+	event.add('caupona:vegetables','frostedheart:dried_vegetables');
 	event.add('frostedheart:mushroom_base',"frostedheart:straw_briquette_red_mushroom")
 	event.add('frostedheart:mushroom_base',"frostedheart:straw_briquette_brown_mushroom")
 	event.add('the_winter_rescue:leather',"minecraft:leather")

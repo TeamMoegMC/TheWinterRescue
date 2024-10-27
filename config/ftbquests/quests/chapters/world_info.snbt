@@ -1,27 +1,21 @@
 {
-	id: "683664CACFD52C99"
-	group: "7668DAE31E3EF623"
-	order_index: 0
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "world_info"
-	title: "{chapter.twr.683664CACFD52C99.title}"
+	group: "7668DAE31E3EF623"
 	icon: {
-		id: "rankine:flint_pickaxe"
-		Count: 1b
+		Count: 1
+		id: "minecraft:iron_pickaxe"
 		tag: {
 			Damage: 0
 		}
 	}
-	subtitle: ["{chapter.twr.683664CACFD52C99.subtitle.0}"]
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "683664CACFD52C99"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			title: "{quest.twr.181378ABF5CCD166.title}"
-			icon: "minecraft:grass_block"
-			x: -0.5d
-			y: 0.5d
-			shape: "gear"
-			subtitle: "{quest.twr.181378ABF5CCD166.subtitle}"
+			dependencies: ["45E2EF843333B846"]
 			description: [
 				"{quest.twr.181378ABF5CCD166.description.1}"
 				"{quest.twr.181378ABF5CCD166.description.2}"
@@ -31,454 +25,315 @@
 				"{quest.twr.181378ABF5CCD166.description.6}"
 				"{quest.twr.181378ABF5CCD166.description.7}"
 			]
-			dependencies: ["45E2EF843333B846"]
 			hide: true
-			size: 1.2d
+			icon: "minecraft:grass_block"
 			id: "181378ABF5CCD166"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "{quest.twr.181378ABF5CCD166.subtitle}"
 			tasks: [{
 				id: "224D71FECAB88F1D"
 				type: "checkmark"
 			}]
+			title: "{quest.twr.181378ABF5CCD166.title}"
+			x: -0.5d
+			y: 0.5d
 		}
 		{
-			x: -5.0d
-			y: 3.0d
-			subtitle: "{quest.twr.0B5888E9CDE431AE.subtitle}"
-			description: [
-				"{quest.twr.0B5888E9CDE431AE.description.1}"
-				"{quest.twr.0B5888E9CDE431AE.description.2}"
-			]
-			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
-			hide_text_until_complete: true
-			id: "0B5888E9CDE431AE"
-			tasks: [{
-				id: "7879CE737B0505EC"
-				type: "item"
-				item: "rankine:chalcocite"
-			}]
-		}
-		{
-			x: -5.0d
-			y: 4.0d
-			subtitle: "{quest.twr.52B0059C59DF67B5.subtitle}"
-			description: [
-				"{quest.twr.52B0059C59DF67B5.description.1}"
-				"{quest.twr.52B0059C59DF67B5.description.2}"
-			]
-			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
-			hide_text_until_complete: true
-			id: "52B0059C59DF67B5"
-			tasks: [{
-				id: "557A9CA215BE2887"
-				type: "item"
-				item: "rankine:malachite"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 2.0d
-			subtitle: "{quest.twr.61DD1DCCB9CCBFBF.subtitle}"
-			description: [
-				"{quest.twr.61DD1DCCB9CCBFBF.description.1}"
-				"{quest.twr.61DD1DCCB9CCBFBF.description.2}"
-			]
-			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
-			hide_text_until_complete: true
-			id: "61DD1DCCB9CCBFBF"
-			tasks: [{
-				id: "2F593478824A3E6A"
-				type: "item"
-				item: "kubejs:native_tin"
-			}]
-		}
-		{
-			x: -3.5d
-			y: 3.0d
-			subtitle: "{quest.twr.7D2807571451631F.subtitle}"
 			description: [
 				"{quest.twr.7D2807571451631F.description.1}"
 				"{quest.twr.7D2807571451631F.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "7D2807571451631F"
+			subtitle: "{quest.twr.7D2807571451631F.subtitle}"
 			tasks: [{
 				id: "3DD88F3B703D29A6"
+				item: "frostedheart:raw_cassiterite"
 				type: "item"
-				item: "rankine:cassiterite"
 			}]
+			x: -3.5d
+			y: 3.0d
 		}
 		{
-			x: -0.5d
-			y: 2.0d
-			subtitle: "{quest.twr.40254682DFE145B8.subtitle}"
+			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.40254682DFE145B8.description.1}"
 				"{quest.twr.40254682DFE145B8.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "40254682DFE145B8"
+			subtitle: "{quest.twr.40254682DFE145B8.subtitle}"
 			tasks: [{
 				id: "2EB0C8C2F9ADED2A"
+				item: "frostedheart:raw_pentlandite"
 				type: "item"
-				item: "rankine:pentlandite"
 			}]
-		}
-		{
-			x: 1.0d
-			y: 5.0d
-			subtitle: "{quest.twr.29067D9CA0B3DC45.subtitle}"
-			description: [
-				"{quest.twr.29067D9CA0B3DC45.description.1}"
-				"{quest.twr.29067D9CA0B3DC45.description.2}"
-			]
-			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
-			hide_text_until_complete: true
-			id: "29067D9CA0B3DC45"
-			tasks: [{
-				id: "541A90057E7F506E"
-				type: "item"
-				item: "rankine:stibnite"
-			}]
-		}
-		{
-			x: -2.0d
+			x: -0.5d
 			y: 2.0d
-			subtitle: "{quest.twr.7C30A1316BF232EC.subtitle}"
-			description: [
-				"{quest.twr.7C30A1316BF232EC.description.1}"
-				"{quest.twr.7C30A1316BF232EC.description.2}"
-			]
-			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
-			hide_text_until_complete: true
-			id: "7C30A1316BF232EC"
-			tasks: [{
-				id: "373FD2D4326C86CC"
-				type: "item"
-				item: "rankine:magnetite"
-			}]
 		}
 		{
-			x: -2.0d
-			y: 3.0d
-			subtitle: "{quest.twr.31ED006279866288.subtitle}"
+			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.31ED006279866288.description.1}"
 				"{quest.twr.31ED006279866288.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "31ED006279866288"
+			subtitle: "{quest.twr.31ED006279866288.subtitle}"
 			tasks: [{
 				id: "47655DAC7245BF43"
+				item: "frostedheart:raw_pyrite"
 				type: "item"
-				item: "kubejs:pyrite"
 			}]
+			x: -2.0d
+			y: 3.0d
 		}
 		{
-			x: 2.5d
-			y: 4.0d
-			subtitle: "{quest.twr.72D5B725766622F4.subtitle}"
+			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.72D5B725766622F4.description.1}"
 				"{quest.twr.72D5B725766622F4.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "72D5B725766622F4"
+			subtitle: "{quest.twr.72D5B725766622F4.subtitle}"
 			tasks: [{
 				id: "35E8A9A70C19C434"
+				item: "minecraft:redstone"
 				type: "item"
-				item: "rankine:cinnabar"
 			}]
+			x: 2.5d
+			y: 4.0d
 		}
 		{
-			x: 2.5d
-			y: 2.0d
-			subtitle: "{quest.twr.0ED9C71E91687BFA.subtitle}"
+			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.0ED9C71E91687BFA.description.1}"
 				"{quest.twr.0ED9C71E91687BFA.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "0ED9C71E91687BFA"
+			subtitle: "{quest.twr.0ED9C71E91687BFA.subtitle}"
 			tasks: [{
 				id: "221421E9BAA85D61"
+				item: "frostedheart:bauxite"
 				type: "item"
-				item: "kubejs:bauxite"
 			}]
-		}
-		{
-			icon: "rankine:lignite"
-			x: 4.0d
-			y: 2.0d
-			subtitle: "{quest.twr.539631D18E7A9B4A.subtitle}"
-			description: [
-				"{quest.twr.539631D18E7A9B4A.description.1}"
-				"{quest.twr.539631D18E7A9B4A.description.2}"
-			]
-			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
-			hide_text_until_complete: true
-			id: "539631D18E7A9B4A"
-			tasks: [{
-				id: "79F71F4EB6152468"
-				type: "item"
-				item: "rankine:lignite"
-			}]
-		}
-		{
-			icon: "rankine:bituminous_coal"
-			x: 4.0d
+			x: -6.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.6F39341180466270.description.1}"
 				"{quest.twr.6F39341180466270.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
+			icon: "minecraft:coal"
 			id: "6F39341180466270"
 			tasks: [{
 				id: "722406E18437795B"
+				item: "minecraft:coal"
 				type: "item"
-				item: "rankine:bituminous_coal"
 			}]
+			x: 4.0d
+			y: 3.0d
 		}
 		{
-			x: 1.0d
-			y: 4.0d
-			subtitle: "{quest.twr.5581901DD85F746D.subtitle}"
+			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.5581901DD85F746D.description.1}"
 				"{quest.twr.5581901DD85F746D.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "5581901DD85F746D"
+			subtitle: "{quest.twr.5581901DD85F746D.subtitle}"
 			tasks: [{
 				id: "0546782F91CF48F9"
+				item: "frostedheart:cryolite_dust"
 				type: "item"
-				item: "rankine:fluorite"
 			}]
+			x: 1.0d
+			y: 4.0d
 		}
 		{
-			x: -0.5d
-			y: 3.0d
-			subtitle: "{quest.twr.5907E1263E6D81E2.subtitle}"
+			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.5907E1263E6D81E2.description.1}"
 				"{quest.twr.5907E1263E6D81E2.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "5907E1263E6D81E2"
+			subtitle: "{quest.twr.5907E1263E6D81E2.subtitle}"
 			tasks: [{
 				id: "322C517CA36D00A6"
+				item: "frostedheart:raw_galena"
 				type: "item"
-				item: "rankine:galena"
 			}]
+			x: -0.5d
+			y: 3.0d
 		}
 		{
-			x: 1.0d
-			y: 2.0d
-			subtitle: "{quest.twr.3840FFD53990ECA2.subtitle}"
+			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.3840FFD53990ECA2.description.1}"
 				"{quest.twr.3840FFD53990ECA2.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "3840FFD53990ECA2"
+			subtitle: "{quest.twr.3840FFD53990ECA2.subtitle}"
 			tasks: [{
 				id: "02ABB3A735D30777"
+				item: "minecraft:raw_gold"
 				type: "item"
-				item: "kubejs:gold"
 			}]
+			x: 1.0d
+			y: 2.0d
 		}
 		{
-			x: 1.0d
-			y: 3.0d
-			subtitle: "{quest.twr.6C49B6777A13CC02.subtitle}"
+			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.6C49B6777A13CC02.description.1}"
 				"{quest.twr.6C49B6777A13CC02.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "6C49B6777A13CC02"
+			subtitle: "{quest.twr.6C49B6777A13CC02.subtitle}"
 			tasks: [{
 				id: "214642829287011A"
+				item: "frostedheart:raw_silver"
 				type: "item"
-				item: "kubejs:silver"
 			}]
+			x: 1.0d
+			y: 3.0d
 		}
 		{
-			x: -0.5d
-			y: 4.0d
-			shape: "circle"
-			subtitle: "{quest.twr.31ED006279866288.subtitle}"
+			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.2A8533418E3A8B06.description.1}"
 				"{quest.twr.2A8533418E3A8B06.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "2A8533418E3A8B06"
+			shape: "circle"
+			subtitle: "{quest.twr.31ED006279866288.subtitle}"
 			tasks: [{
 				id: "31295D7F00BCA85A"
+				item: "create:raw_zinc"
 				type: "item"
-				item: "rankine:sphalerite"
 			}]
+			x: -0.5d
+			y: 4.0d
 		}
 		{
-			x: 2.5d
-			y: 3.0d
-			subtitle: "{quest.twr.1120D6251E9B42C4.subtitle}"
+			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.1120D6251E9B42C4.description.1}"
 				"{quest.twr.1120D6251E9B42C4.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "1120D6251E9B42C4"
+			subtitle: "{quest.twr.1120D6251E9B42C4.subtitle}"
 			tasks: [{
 				id: "1F71D0CFB0584489"
+				item: "frostedheart:raw_magnesite"
 				type: "item"
-				item: "rankine:magnesite"
 			}]
+			x: 2.5d
+			y: 3.0d
 		}
 		{
+			dependencies: ["181378ABF5CCD166"]
+			description: ["{quest.twr.707E5C06843421A7.description.1}"]
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			id: "707E5C06843421A7"
+			subtitle: "{quest.twr.707E5C06843421A7.subtitle}"
+			tasks: [{
+				id: "05D317EDBEE17EA2"
+				item: "frostedheart:copper_gravel"
+				type: "item"
+			}]
 			title: "{quest.twr.707E5C06843421A7.title}"
 			x: -5.0d
 			y: 2.0d
-			subtitle: "{quest.twr.707E5C06843421A7.subtitle}"
-			description: ["{quest.twr.707E5C06843421A7.description.1}"]
-			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
-			hide_text_until_complete: false
-			id: "707E5C06843421A7"
-			tasks: [{
-				id: "05D317EDBEE17EA2"
-				type: "item"
-				item: "frostedheart:copper_gravel"
-			}]
 		}
 		{
-			x: 4.0d
-			y: 4.0d
-			description: ["{quest.twr.3AC7F7FF3EDA24F5.description.1}"]
-			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
-			hide_text_until_complete: true
-			id: "3AC7F7FF3EDA24F5"
-			tasks: [{
-				id: "58D70B2F02548BE1"
-				type: "item"
-				item: "rankine:anthracite_coal"
-			}]
-		}
-		{
-			x: 4.0d
-			y: 5.0d
-			subtitle: "{quest.twr.1EAA26CFD9FF2633.subtitle}"
-			description: ["{quest.twr.1EAA26CFD9FF2633.description.1}"]
-			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
-			hide_text_until_complete: true
-			id: "1EAA26CFD9FF2633"
-			tasks: [{
-				id: "1E6EEEDDC45EF1D7"
-				type: "item"
-				item: "rankine:graphite"
-			}]
-		}
-		{
-			x: -2.0d
-			y: 4.0d
-			subtitle: "{quest.twr.4D1B960E67D023C4.subtitle}"
 			description: [
 				"{quest.twr.4D1B960E67D023C4.description.1}"
 				"{quest.twr.4D1B960E67D023C4.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "4D1B960E67D023C4"
+			subtitle: "{quest.twr.4D1B960E67D023C4.subtitle}"
 			tasks: [{
 				id: "62EA52A8EA9DAD8E"
+				item: "minecraft:raw_iron"
 				type: "item"
-				item: "rankine:hematite"
 			}]
+			x: -2.0d
+			y: 4.0d
 		}
 		{
-			x: 2.5d
-			y: 5.0d
-			subtitle: "{quest.twr.0ED9C71E91687BFA.subtitle}"
-			description: [
-				"{quest.twr.0ED9C71E91687BFA.description.1}"
-				"{quest.twr.0ED9C71E91687BFA.description.2}"
-			]
-			hide_dependency_lines: true
 			dependencies: ["181378ABF5CCD166"]
-			hide_text_until_complete: true
-			id: "68C644E5FFF125A6"
-			tasks: [{
-				id: "416DCDB44697EC89"
-				type: "item"
-				item: "kubejs:halite"
-			}]
-		}
-		{
-			x: 2.5d
-			y: 6.0d
-			subtitle: "{quest.twr.122E83F324DB80B7.subtitle}"
 			description: [
 				"{quest.twr.0ED9C71E91687BFA.description.1}"
 				"{quest.twr.122E83F324DB80B7.description.2}"
 			]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "122E83F324DB80B7"
+			subtitle: "{quest.twr.122E83F324DB80B7.subtitle}"
 			tasks: [{
 				id: "52DE6D41702EFF05"
+				item: "frostedheart:raw_halite"
 				type: "item"
-				item: "rankine:evaporite"
 			}]
+			x: 2.5d
+			y: 5.0d
 		}
 		{
-			x: -6.5d
-			y: 2.0d
-			subtitle: "{quest.twr.73242CFC1E655F2D.subtitle}"
+			dependencies: ["181378ABF5CCD166"]
 			description: ["{quest.twr.73242CFC1E655F2D.description.1}"]
 			hide_dependency_lines: true
-			dependencies: ["181378ABF5CCD166"]
 			hide_text_until_complete: true
 			id: "73242CFC1E655F2D"
+			subtitle: "{quest.twr.73242CFC1E655F2D.subtitle}"
 			tasks: [{
 				id: "29005A15A2EBDBEE"
+				item: "frostedheart:kaolin_block"
 				type: "item"
-				item: "rankine:kaolin"
 			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			id: "61D23CC76588F126"
+			tasks: [{
+				id: "0FB75F0F243E74F4"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
 		}
 	]
+	subtitle: ["{chapter.twr.683664CACFD52C99.subtitle.0}"]
+	title: "{chapter.twr.683664CACFD52C99.title}"
 }

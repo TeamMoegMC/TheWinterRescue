@@ -23,7 +23,7 @@
       "item": {
         "count": 4,
         "base_ingredient": {
-          "item": "rankine:cast_iron_ingot"
+          "item": "frostedheart:cast_iron_ingot"
         }
       }
     },

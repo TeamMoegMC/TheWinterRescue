@@ -1,235 +1,197 @@
 {
-	id: "75A05D5EAF6602DE"
-	group: "7668DAE31E3EF623"
-	order_index: 1
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "animals"
-	title: "{chapter.twr.75A05D5EAF6602DE.title}"
+	group: "7668DAE31E3EF623"
 	icon: {
-		id: "rankine:flint_spear"
-		Count: 1b
+		Count: 1
+		id: "minecraft:iron_sword"
 		tag: {
 			Damage: 0
 		}
 	}
-	subtitle: ["{chapter.twr.75A05D5EAF6602DE.subtitle}"]
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "75A05D5EAF6602DE"
+	order_index: 1
+	quest_links: [ ]
 	quests: [
 		{
-			title: "{quest.twr.60C1118A879D4548.title}"
-			x: 0.0d
-			y: 0.0d
-			subtitle: "{quest.twr.60C1118A879D4548.subtitle}"
 			dependencies: ["7521769E8333942B"]
 			hide: true
 			id: "60C1118A879D4548"
-			tasks: [{
-				id: "6294DB20132A0247"
-				type: "kill"
-				entity: "stone_age:mammoth"
-				value: 1L
-			}]
 			rewards: [
 				{
 					id: "0E9461528FD7710E"
-					type: "item"
 					item: "stone_age:cooked_mammoth_meat"
+					type: "item"
 				}
 				{
-					id: "634C3F7F330D4BDD"
-					type: "item"
-					item: "stone_age:raw_hide"
 					count: 4
+					id: "634C3F7F330D4BDD"
+					item: "stone_age:raw_hide"
+					type: "item"
 				}
 			]
+			subtitle: "{quest.twr.60C1118A879D4548.subtitle}"
+			tasks: [{
+				entity: "stone_age:mammoth"
+				id: "6294DB20132A0247"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{quest.twr.60C1118A879D4548.title}"
+			x: 0.0d
+			y: 0.0d
 		}
 		{
-			title: "{quest.twr.20E078A9220D6114.title}"
-			x: 5.0d
-			y: 3.0d
-			subtitle: "{quest.twr.20E078A9220D6114.subtitle}"
-			description: ["{quest.twr.20E078A9220D6114.description.1}"]
-			hide_dependency_lines: true
 			dependencies: [
 				"7521769E8333942B"
-				"76BFBA40C36D0699"
+				"76723451C6850C81"
 			]
-			hide: true
-			id: "20E078A9220D6114"
-			tasks: [{
-				id: "11A9CA1F97143B6A"
-				type: "item"
-				item: "frozenup:frozen_truffle"
-			}]
-			rewards: [
-				{
-					id: "6100E4D684D5FFC1"
-					type: "item"
-					item: "frozenup:truffle_muffin"
-					count: 2
-				}
-				{
-					id: "7E06293A478622ED"
-					type: "item"
-					item: "frozenup:mug_of_truffle_hot_chocolate"
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: 1.5d
-			subtitle: "{quest.twr.7491448A8055DBE6.subtitle}"
 			description: [
 				"{quest.twr.7491448A8055DBE6.description.1}"
 				"{quest.twr.7491448A8055DBE6.description.2}"
 				"{quest.twr.7491448A8055DBE6.description.3}"
 			]
-			hide_dependency_lines: true
-			dependencies: [
-				"7521769E8333942B"
-				"76723451C6850C81"
-			]
 			hide: true
+			hide_dependency_lines: true
 			id: "7491448A8055DBE6"
-			tasks: [{
-				id: "6B7A74E6A2E785B9"
-				type: "kill"
-				entity: "stone_age:saber_tooth_tiger"
-				value: 1L
-			}]
 			rewards: [
 				{
 					id: "0C2F387D45A1FF48"
-					type: "item"
 					item: "stone_age:cooked_tiger_meat"
+					type: "item"
 				}
 				{
-					id: "5E451309C765EBE8"
-					type: "item"
-					item: "stone_age:raw_hide"
 					count: 4
+					id: "5E451309C765EBE8"
+					item: "stone_age:raw_hide"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 3.5d
-			y: 1.5d
-			subtitle: "{quest.twr.25F5289EF9A76559.subtitle}"
-			description: ["{quest.twr.25F5289EF9A76559.description.0}"]
-			dependencies: ["7762BF27B2BB8236"]
-			hide: true
-			id: "25F5289EF9A76559"
+			subtitle: "{quest.twr.7491448A8055DBE6.subtitle}"
 			tasks: [{
-				id: "6186DEAFF4D38610"
-				type: "item"
-				item: "minecraft:milk_bucket"
-			}]
-		}
-		{
-			title: "{quest.twr.7AC1F59A495B58AE.title}"
-			icon: "minecraft:porkchop"
-			x: 5.0d
-			y: 1.5d
-			subtitle: "{quest.twr.7AC1F59A495B58AE.subtitle}"
-			description: ["{quest.twr.7AC1F59A495B58AE.description.0}"]
-			dependencies: ["7762BF27B2BB8236"]
-			hide: true
-			id: "7AC1F59A495B58AE"
-			tasks: [{
-				id: "0766B832E872F03D"
+				entity: "stone_age:saber_tooth_tiger"
+				id: "6B7A74E6A2E785B9"
 				type: "kill"
-				entity: "minecraft:pig"
 				value: 1L
 			}]
+			x: 0.0d
+			y: 1.5d
 		}
 		{
-			title: "{quest.twr.7A2CCE64AEE955EC.title}"
+			dependencies: ["7762BF27B2BB8236"]
+			description: ["{quest.twr.25F5289EF9A76559.description.0}"]
+			hide: true
+			id: "25F5289EF9A76559"
+			subtitle: "{quest.twr.25F5289EF9A76559.subtitle}"
+			tasks: [{
+				id: "6186DEAFF4D38610"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
 			x: 3.5d
-			y: 0.0d
-			subtitle: "{quest.twr.7A2CCE64AEE955EC.subtitle}"
+			y: 1.5d
+		}
+		{
+			dependencies: ["7762BF27B2BB8236"]
+			description: ["{quest.twr.7AC1F59A495B58AE.description.0}"]
+			hide: true
+			icon: "minecraft:porkchop"
+			id: "7AC1F59A495B58AE"
+			subtitle: "{quest.twr.7AC1F59A495B58AE.subtitle}"
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "0766B832E872F03D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "{quest.twr.7AC1F59A495B58AE.title}"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7762BF27B2BB8236"]
 			description: [
 				"{quest.twr.7A2CCE64AEE955EC.description.0}"
 				"{quest.twr.7A2CCE64AEE955EC.description.1}"
 			]
-			dependencies: ["7762BF27B2BB8236"]
 			hide: true
 			id: "7A2CCE64AEE955EC"
+			subtitle: "{quest.twr.7A2CCE64AEE955EC.subtitle}"
 			tasks: [{
-				id: "2475D6D68D373C1D"
-				type: "item"
-				title: "{quest.twr.7A2CCE64AEE955EC.2475D6D68D373C1D.title}"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:wool"
-					}
-				}
 				count: 64L
+				id: "5E92EF89F6B669EA"
+				item: "minecraft:white_wool"
+				type: "item"
 			}]
+			title: "{quest.twr.7A2CCE64AEE955EC.title}"
+			x: 3.5d
+			y: 0.0d
 		}
 		{
-			x: 5.0d
-			y: 0.0d
-			subtitle: "{quest.twr.4CC2FB4B9CE2367B.subtitle}"
-			description: ["{quest.twr.4CC2FB4B9CE2367B.description.0}"]
 			dependencies: ["7762BF27B2BB8236"]
+			description: ["{quest.twr.4CC2FB4B9CE2367B.description.0}"]
 			hide: true
 			id: "4CC2FB4B9CE2367B"
+			subtitle: "{quest.twr.4CC2FB4B9CE2367B.subtitle}"
 			tasks: [{
 				id: "08563B09C9C8534B"
-				type: "item"
 				item: "minecraft:egg"
+				type: "item"
 			}]
+			x: 5.0d
+			y: 0.0d
 		}
 		{
-			x: 5.0d
-			y: -1.5d
-			subtitle: "{quest.twr.2B0D00CB09B96703.subtitle}"
-			description: ["{quest.twr.2B0D00CB09B96703.description.1}"]
 			dependencies: ["19038BB5A9E42055"]
+			description: ["{quest.twr.2B0D00CB09B96703.description.1}"]
 			hide: true
 			id: "2B0D00CB09B96703"
+			subtitle: "{quest.twr.2B0D00CB09B96703.subtitle}"
 			tasks: [{
 				id: "7B3171D6519196C5"
-				type: "item"
 				item: "supplementaries:cage"
+				type: "item"
 			}]
+			x: 5.0d
+			y: -1.5d
 		}
 		{
-			x: 0.0d
-			y: -1.5d
-			shape: "rsquare"
-			subtitle: "{quest.twr.76723451C6850C81.subtitle}"
+			dependencies: ["7521769E8333942B"]
 			description: [
 				"{quest.twr.76723451C6850C81.description.1}"
 				"{quest.twr.76723451C6850C81.description.2}"
 			]
-			dependencies: ["7521769E8333942B"]
 			id: "76723451C6850C81"
+			shape: "rsquare"
+			subtitle: "{quest.twr.76723451C6850C81.subtitle}"
 			tasks: [{
 				id: "33BB3D36B1C4EA5D"
-				type: "checkmark"
 				title: "{quest.twr.76723451C6850C81.33BB3D36B1C4EA5D.title}"
+				type: "checkmark"
 			}]
+			x: 0.0d
+			y: -1.5d
 		}
 		{
-			title: "{quest.twr.76BFBA40C36D0699.title}"
-			icon: "frostedheart:temperature_probe"
-			x: 3.5d
-			y: -1.5d
-			subtitle: "{quest.twr.76BFBA40C36D0699.subtitle}"
+			dependencies: ["7762BF27B2BB8236"]
 			description: [
 				"{quest.twr.76BFBA40C36D0699.description.1}"
 				"{quest.twr.76BFBA40C36D0699.description.2}"
 			]
-			dependencies: ["7762BF27B2BB8236"]
 			hide: true
+			icon: "frostedheart:temperature_probe"
 			id: "76BFBA40C36D0699"
+			subtitle: "{quest.twr.76BFBA40C36D0699.subtitle}"
 			tasks: [{
 				id: "10A1AE9D210063AE"
 				type: "checkmark"
 			}]
+			title: "{quest.twr.76BFBA40C36D0699.title}"
+			x: 3.5d
+			y: -1.5d
 		}
 	]
+	subtitle: ["{chapter.twr.75A05D5EAF6602DE.subtitle}"]
+	title: "{chapter.twr.75A05D5EAF6602DE.title}"
 }

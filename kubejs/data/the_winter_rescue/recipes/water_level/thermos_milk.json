@@ -1,5 +1,5 @@
 {
-  "type": "watersource:water_level_fluid",
+  "type": "frostedheart:water_level_fluid",
   "ingredient": {
     "tag": "frostedheart:thermos"
   },

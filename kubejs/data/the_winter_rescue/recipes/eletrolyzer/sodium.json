@@ -1,10 +1,10 @@
 {
   "type": "immersiveindustry:electrolyzer",
   "result": {
-    "item": "rankine:sodium_ingot"
+    "item": "frostedheart:sodium_ingot"
   },
   "input": {
-    "base_ingredient":{"item": "rankine:sodium_hydroxide"},
+    "base_ingredient":{"item": "frostedheart:sodium_hydroxide_dust"},
 	"count":2
   },
   "large_only":true,

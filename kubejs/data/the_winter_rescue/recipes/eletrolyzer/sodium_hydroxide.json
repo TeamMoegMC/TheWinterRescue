@@ -1,7 +1,7 @@
 {
   "type": "immersiveindustry:electrolyzer",
   "result": {
-    "item": "rankine:sodium_hydroxide"
+    "item": "frostedheart:sodium_hydroxide_dust"
   },
   "input": {
     "tag": "forge:salt"

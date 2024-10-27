@@ -8,7 +8,7 @@
   	"amount": 500
   },
   "item_out":{
-  	"item":"rankine:mortar"
+  	"item":"frostedheart:mortar"
   },
   "flags": 1,
   "out_amount":2,

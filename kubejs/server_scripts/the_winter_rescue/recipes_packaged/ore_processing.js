@@ -1,7 +1,7 @@
 
 onEvent('recipes', (event) => {
-var ores = ["rankine:magnetite", "kubejs:pyrite", "rankine:chalcocite", "rankine:malachite", "rankine:pentlandite", "kubejs:native_tin", "rankine:cassiterite", "kubejs:bauxite", "rankine:stibnite", "rankine:cinnabar", "rankine:magnesite", "rankine:galena", "kubejs:halite", "rankine:fluorite", "rankine:vanadinite", "kubejs:silver", "kubejs:gold", "rankine:hematite","rankine:sphalerite"];
-var ore_name = ["magnetite", "pyrite", "chalcocite", "malachite", "pentlandite", "native_tin", "cassiterite", "bauxite", "stibnite", "cinnabar", "magnesite", "galena", "halite", "fluorite", "vanadinite", "silver", "gold", "hematite","sphalerite"];
+var ores = ["frostedheart:raw_pyrite", "frostedheart:raw_pentlandite", "frostedheart:raw_cassiterite", "frostedheart:bauxite", "frostedheart:kaolin", "frostedheart:raw_magnesite", "frostedheart:raw_galena", "frostedheart:raw_halite", "frostedheart:raw_silver", "minecraft:raw_gold", "minecraft:raw_iron", "create:raw_zinc", "minecraft:raw_copper"];
+var ore_name = ["pyrite", "pentlandite", "cassiterite", "bauxite", "kaolin", "magnesite", "galena", "halite", "silver", "gold", "iron", "zinc", "copper"];
 var by_products = [];
 var i;
 var ores_i;
@@ -15,15 +15,17 @@ var wash_input;
 by_products[1] = [Item.of("minecraft:diamond").withChance(0.5)];
 ore_name中的1号位置(第二个元素)是pyrite(黄铁矿)，这行代码将在将粉碎黄铁矿洗为洗净黄铁矿的合成中加入副产物钻石，产出概率为百分之五十。
 */
-by_products[1] = [Item.of("rankine:sulfur").withChance(0.5)];
+by_products[0] = [Item.of("frostedheart:sulfur_dust").withChance(0.2)];
+by_products[3] = [Item.of("frostedheart:cryolite_dust").withChance(0.2)];
 
     for (i = 0; i < ores.length; i++) {
         ores_i = ores[i];
         ore_name_i = ore_name[i];
-        crushed_ore_i = "kubejs:" + "crushed_ore_" + ore_name_i;
+        crushed_ore_i = "frostedheart:" + "crushed_" + ore_name_i + "_ore";
         event.recipes.createCrushing([
             crushed_ore_i,
-            Item.of(crushed_ore_i).withChance(0.5)
+            Item.of(crushed_ore_i).withChance(0.5),
+            by_products[i]
         ], ores_i)
     }
 
@@ -46,7 +48,7 @@ by_products[1] = [Item.of("rankine:sulfur").withChance(0.5)];
 
     // low-smelt point metals
     event.smelting('immersiveengineering:ingot_lead', 'kubejs:washed_ore_galena');
-    event.smelting('rankine:tin_ingot', 'kubejs:washed_ore_cassiterite');
+    event.smelting('frostedheart:tin_ingot', 'kubejs:washed_ore_cassiterite');
     var data = {
         recipes: [
     {output: 'minecraft:iron_ingot', input: 'kubejs:washed_ore_magnetite',time:300},
@@ -81,7 +83,7 @@ by_products[1] = [Item.of("rankine:sulfur").withChance(0.5)];
 		rotarySulfate("kubejs:washed_ore_sphalerite","kubejs:zinc_oxide",32,250,0),
 		rotarykilnRecipe3("kubejs:washed_ore_pentlandite","kubejs:nickel_matte",Fluid.of("frostedheart:sulfur_dioxide",250).toJson(),200,64,"kubejs:iron_slag",1),
 		rotarySulfate("kubejs:washed_ore_stibnite","kubejs:antimony_oxide",32,250,0.25),
-		carkilnRecipe(["3x kubejs:nickel_matte","2x rankine:quicklime"],["3x immersiveengineering:ingot_nickel","3x immersiveengineering:slag","kubejs:nickel_matte"],1200)
+		carkilnRecipe(["3x kubejs:nickel_matte","2x frostedheart:quicklime"],["3x immersiveengineering:ingot_nickel","3x immersiveengineering:slag","kubejs:nickel_matte"],1200)
 	]
 	kilnRecipes.forEach((recipe)=>{event.custom(recipe);console.info(recipe)});
 	

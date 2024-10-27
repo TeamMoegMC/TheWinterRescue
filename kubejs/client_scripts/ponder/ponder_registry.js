@@ -175,7 +175,7 @@ Ponder.registry(event => {
         })
 
     // Generator Consruction (Tier 2)
-    event.create("the_winter_rescue:generator_construction_t2", ["frostedheart:generator_t2","rankine:invar_block"])
+    event.create("the_winter_rescue:generator_construction_t2", ["frostedheart:generator_t2","frostedheart:invar_block"])
         .tag("the_winter_rescue:generator")
         .scene("basic_usage", "", "kubejs:generator_t2", (scene, util) => {
             scene.configureBasePlate(0, 0, 5)
@@ -247,7 +247,7 @@ Ponder.registry(event => {
         })*/
 
     // Crucible
-    event.create("the_winter_rescue:steel_mill", ["immersiveindustry:crucible", "immersiveindustry:burning_chamber", "rankine:high_refractory_bricks", "immersiveengineering:blastfurnace_preheater"])
+    event.create("the_winter_rescue:steel_mill", ["immersiveindustry:crucible", "immersiveindustry:burning_chamber", "frostedheart:high_refractory_bricks", "immersiveengineering:blastfurnace_preheater"])
         .tag("the_winter_rescue:crucible")
         .scene("assembly", "", "kubejs:steel_mill_crucible", (scene, util) => {
             scene.configureBasePlate(0, 0, 5)
@@ -506,7 +506,7 @@ Ponder.registry(event => {
 			scene.overlay().showControls(new PonderInput(util.vector().blockSurface(util.grid().at(1, 1, 1), Facing.down), PonderPointing.RIGHT)
                 .whileSneaking()
                 .rightClick()
-                .withItem("rankine:limestone"), 40)
+                .withItem("minecraft:cobblestone"), 40)
 			scene.idle(40)
 
 			scene.world().showSection(util.select().layer(1), Facing.down)

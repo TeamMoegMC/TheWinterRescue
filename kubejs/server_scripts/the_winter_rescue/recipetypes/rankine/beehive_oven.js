@@ -1,7 +1,7 @@
 onEvent('recipes', (event) => {
     var beehiveRecipes = [
-        beehiveRecipe("rankine:magnesite_block", "rankine:magnesia_block"),
-        beehiveRecipe("#the_winter_rescue:flux_block", "rankine:quicklime_block")
+        beehiveRecipe("frostedheart:magnesite_block", "frostedheart:magnesia_block"),
+        beehiveRecipe("#the_winter_rescue:flux_block", "frostedheart:quicklime_block")
     ]
 
     beehiveRecipes.forEach((recipe) => {

@@ -1,8 +1,8 @@
 onEvent('recipes', (event) => {
     const recipes = [
 	// TODO: Change to frostedheart version for watersource entries
-    campfireRecipe(Item.of('watersource:wooden_cup_drink', '{Fluid:{FluidName:"watersource:purified_water",Amount:250}}'), Item.of('watersource:wooden_cup_drink', '{Fluid:{FluidName:"minecraft:water",Amount:250}}'),800),
-    campfireRecipe(Item.of('watersource:wooden_cup_drink', '{Fluid:{FluidName:"thermopolium:nail_soup",Amount:250}}'), Item.of('watersource:wooden_cup_drink', '{Fluid:{FluidName:"watersource:purified_water",Amount:250}}'),600),
+    campfireRecipe(Item.of('frostedheart:wooden_cup_drink', '{Fluid:{FluidName:"frostedheart:purified_water",Amount:250}}'), Item.of('frostedheart:wooden_cup_drink', '{Fluid:{FluidName:"minecraft:water",Amount:250}}'),800),
+    campfireRecipe(Item.of('frostedheart:wooden_cup_drink', '{Fluid:{FluidName:"caupona:nail_soup",Amount:250}}'), Item.of('frostedheart:wooden_cup_drink', '{Fluid:{FluidName:"frostedheart:purified_water",Amount:250}}'),600),
 	campfireRecipe('minecraft:torch', 'stone_age:unlit_torch',200),
 	campfireRecipe('kubejs:coal_briquette', 'kubejs:wet_coal_briquette',0,200),
 	campfireRecipe('kubejs:coal_briquette', 'kubejs:creosoted_coal_briquette',0,100),
