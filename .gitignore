@@ -100,3 +100,4 @@ config/.twrp*
 icon.png
 rhino.local.properties
 fancymenu_data/last_world.fmdata
+kubejs/assets/ponderjs_generated/lang/en_us.json
