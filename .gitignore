@@ -98,3 +98,5 @@ config/.twrp*
 .DS_Store
 *.icloud
 icon.png
+rhino.local.properties
+fancymenu_data/last_world.fmdata

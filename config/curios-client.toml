@@ -18,4 +18,6 @@
 	#The Y-Offset for the Curios GUI button
 	#Range: -100 ~ 100
 	buttonYOffset = 0
+	#Set to true to enable the Curios GUI button
+	enableButton = true
 

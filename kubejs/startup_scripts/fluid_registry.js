@@ -1,6 +1,6 @@
 console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Fluids Registered!')
 
-onEvent('fluid.registry', event => {
+StartupEvents.registry('fluid', event => {
   /*const generalFluids = [
       
   ];
@@ -19,15 +19,15 @@ onEvent('fluid.registry', event => {
 */
 //copper
 //iron
-  event.create('ferrous_chloride').textureThin(0xBB3333)
-  event.create('ferric_chloride').textureThin(0xB0FFDE)
-  event.create('copper_chloride').textureThin(0xB0FFDE)
-  event.create('zinc_sulfate').textureThin(0xB0C4FF)
-  event.create('lime_water').textureThin(0xB0C4DE)
-  event.create('magnesium_chloride').textureThin(0xDEDEEE)
-  event.create('sulfuric_acid').textureThin(0xEEE8AA)
-  event.create('hydrochloric_acid').textureThin(0xAAFFAA)
-  event.create('cryolite').textureThin(0x90EE90)
-  event.create('tar').textureThick(0x000000).viscosity(1150).density(950)
-  event.create('protein').textureStill("kubejs:block/protein_fluid").textureFlowing("kubejs:block/protein_fluid").viscosity(200).density(200)
+  // event.create('ferrous_chloride').textureThin(0xBB3333)
+  // event.create('ferric_chloride').textureThin(0xB0FFDE)
+  // event.create('copper_chloride').textureThin(0xB0FFDE)
+  // event.create('zinc_sulfate').textureThin(0xB0C4FF)
+  // event.create('lime_water').textureThin(0xB0C4DE)
+  // event.create('magnesium_chloride').textureThin(0xDEDEEE)
+  // event.create('sulfuric_acid').textureThin(0xEEE8AA)
+  // event.create('hydrochloric_acid').textureThin(0xAAFFAA)
+  // event.create('cryolite').textureThin(0x90EE90)
+  // event.create('tar').textureThick(0x000000).viscosity(1150).density(950)
+  // event.create('protein').textureStill("kubejs:block/protein_fluid").textureFlowing("kubejs:block/protein_fluid").viscosity(200).density(200)
 })

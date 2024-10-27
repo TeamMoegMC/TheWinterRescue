@@ -1,0 +1,11 @@
+
+[recipe]
+	#Ticks before do still recipe
+	#Range: > 1
+	StillRecipeTicks = 12000
+
+[road]
+	#Additional speed added per tick for roads
+	#Range: 0.0 ~ 10.0
+	roadSpeedAddtion = 2.0
+

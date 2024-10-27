@@ -10,8 +10,6 @@ importantInfo = true
 preferredOres = ["immersiveengineering", "minecraft"]
 
 [debug]
-	#A config setting to enable debug features. These features may vary between releases, may cause crashes, and are unsupported. Do not enable unless asked to by a developer of IE.
-	enableDebug = false
 
 	[debug.wires]
 		#Run sanity checks on the wire network after every interaction. This will cause a decent amount of lag and a lot of log spam if the wire network isn't fully intact. Only enable when asked to by an IE developer.
@@ -22,7 +20,6 @@ preferredOres = ["immersiveengineering", "minecraft"]
 #A list of all mods that IE has integrated compatability for
 #Setting any of these to false disables the respective compat
 [compat]
-	crafttweaker = true
 	theoneprobe = true
 	curios = true
 	computercraft = true

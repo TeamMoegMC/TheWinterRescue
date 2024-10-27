@@ -1,54 +1,8 @@
 
 #General settings
 [general]
-	#Set this to false to disable Unknown Seeds.
-	#This is a way to obtain crops in the mod and we strongly recommend that set it to true.
-	#Please make sure there are other ways to obtain crops in the mod if set it to false.
-	enableUnknownSeeds = true
-	#Define the crops list that Unknown Crops will be converted into.
-	#Both the seed item for the crop and the crop block itself are acceptable.
-	unknownCropsList = ["crockpot:asparagus_seeds", "crockpot:corn_seeds", "crockpot:eggplant_seeds", "crockpot:onion_seeds", "crockpot:pepper_seeds", "crockpot:tomato_seeds"]
 	#Set this value to change Crock Pot speed modifier. Higher tier Crock Pot will cook faster.
 	#actualCookingTime = cookingTime * (1.0 - crockPotSpeedModifier * potLevel)
 	#Range: 0.0 ~ 1.0
 	crockPotSpeedModifier = 0.15
-	#Set this to false to disable new players spawning with the Crock Pot Cookbook.
-	spawnWithBook = false
-
-#World generation settings
-[worldgen]
-	#Set this to false will disable all world generation, even if specific world generation is enabled.
-	#This is another way to obtain crops in the mod.
-	#Please make sure there are other ways to obtain crops in the mod if set it to false.
-	enableWorldGeneration = false
-	#Set this to false will disable tomato world generation.
-	tomatoGeneration = true
-	#Set this value to change the chance of corn world generation. The higher value, the less generation.
-	#Range: > 1
-	cornGenerationChance = 16
-	#Set this to false will disable onion world generation.
-	onionGeneration = true
-	#Set this value to change the chance of eggplant world generation. The higher value, the less generation.
-	#Range: > 1
-	eggplantGenerationChance = 16
-	#Set this to false will disable pepper world generation.
-	pepperGeneration = false
-	#Set this to false will disable asparagus world generation.
-	asparagusGeneration = false
-	#Set this to false will disable eggplant world generation.
-	eggplantGeneration = false
-	#Set this value to change the chance of tomato world generation. The higher value, the less generation.
-	#Range: > 1
-	tomatoGenerationChance = 16
-	#Set this value to change the chance of asparagus world generation. The higher value, the less generation.
-	#Range: > 1
-	asparagusGenerationChance = 16
-	#Set this value to change the chance of onion world generation. The higher value, the less generation.
-	#Range: > 1
-	onionGenerationChance = 16
-	#Set this to false will disable corn world generation.
-	cornGeneration = true
-	#Set this value to change the chance of pepper world generation. The higher value, the less generation.
-	#Range: > 1
-	pepperGenerationChance = 16
 

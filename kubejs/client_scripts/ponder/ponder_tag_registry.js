@@ -1,6 +1,6 @@
 // priority: 1
 
-onEvent("ponder.tag.registry", event => {
+Ponder.tags(event => {
     // genny
     event.create("the_winter_rescue:generator", "frostedheart:generator", "", "")
     // ore processing

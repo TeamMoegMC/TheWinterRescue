@@ -1,4 +1,4 @@
-onEvent('jei.hide.items', (event) => {
+JEIEvents.hideItems((event) => {
     // materialsToUnify.forEach((material) => {
     //     if (material == 'iesnium' || material == 'graphite' || material == 'hop_graphite') {
     //         return;

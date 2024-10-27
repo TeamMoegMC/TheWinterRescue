@@ -1,26 +1,26 @@
 console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Items Registered!')
 
-onEvent('item.registry', event => {
-	const rankineItems = [
-		'mortar',
-		'vulcanized_rubber',
-		'pulp',
-		'fire_clay_ball',
-		'high_refractory_brick',
-		'kaolinite', // become frostedheart:kaolin, and block is frostedheart:kaolin_block
-		'sawdust',
-		'biomass',
-		'synthetic_leather',
-		'sodium_sulfide', // become with dust
-		'sodium_ingot',
-		'sodium_hydroxide', // become with dust
-		'alumina', // become with dust
-		'sodium_choloride', // become with dust
-		'sulfur', // become with dust
-		'refractory_brick', 
-		'quicklime',
-		'magnesia', // become with dust
-	]
+StartupEvents.registry('item', event => {
+	// const rankineItems = [
+	// 	'mortar',
+	// 	'vulcanized_rubber',
+	// 	'pulp',
+	// 	'fire_clay_ball',
+	// 	'high_refractory_brick',
+	// 	'kaolinite', // become frostedheart:kaolin, and block is frostedheart:kaolin_block
+	// 	'sawdust',
+	// 	'biomass',
+	// 	'synthetic_leather',
+	// 	'sodium_sulfide', // become with dust
+	// 	'sodium_ingot',
+	// 	'sodium_hydroxide', // become with dust
+	// 	'alumina', // become with dust
+	// 	'sodium_choloride', // become with dust
+	// 	'sulfur', // become with dust
+	// 	'refractory_brick', 
+	// 	'quicklime',
+	// 	'magnesia', // become with dust
+	// ]
 
 	const rankineTools = [
 		'flint_knife',
@@ -133,15 +133,15 @@ onEvent('item.registry', event => {
 	});
 	
 	generalItems.forEach((item) => {
-		event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
+		event.create(item).texture(`kubejs:item/${item}`);
 	});
 
-	rankineItems.forEach((item) => {
-		event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
-	});
+	// rankineItems.forEach((item) => {
+	// 	event.create(item).texture(`kubejs:item/${item}`);
+	// });
 
 	rankineTools.forEach((item) => {
-		event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
+		event.create(item).texture(`kubejs:item/${item}`);
 	});
 	
 
@@ -152,7 +152,7 @@ onEvent('item.registry', event => {
 	]
 
 	createTransitionalItems.forEach((item) => {
-		event.create(item).group('frostedheart').texture(`kubejs:item/transitional/${item}`).type('create:sequenced_assembly');
+		event.create(item).texture(`kubejs:item/transitional/${item}`);
 	});
 
 })

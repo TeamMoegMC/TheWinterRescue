@@ -15,21 +15,10 @@
 	#Multiplier for magic capacity gains, increasing this may be useful when having a large set enchantments added by other mods
 	#Range: 0.0 ~ 1.7976931348623157E308
 	magic_cap_multiplier = 1.0
-	#Enable the look advancement trigger, used for some advancements. 
-	look_trigger = true
-	#Allow the reach attribute to modify the distance at which players can hit entities
-	entity_reach = true
-
-#World generation settings
-[worldgen]
-	#The number of geodes that should generate per chunk, set to 0 to disable
-	#Range: 0 ~ 65536
-	geode_density = 120
-	#Generates features in the world, further configuration available in "tetra/data/structures/"
-	features = false
-	#Used to limit how deep the feature generator will recurse into feature children, helps to avoid recursive loops and cascading worldgen in 3d-party generation features
-	#Range: 0 ~ 64
-	feature_depth = 8
+	#Features that are considered experimental can be listed here to enable them
+	experimental_features = []
+	#Features can be listed here to disable them
+	disabled_features = []
 
 #Allows tetra items to "level up" after being used a certain amount of times, allowing the player to choose from different ways to "hone" 1 module on the item. Major modules also settle after some time, increasing its integrity
 [module_progression]
@@ -82,8 +71,6 @@
 
 #Toggles & config for experimental features
 [experimental]
-	#Enable the stonecutter module for swords, the stonecutter has to be removed from loot tables if this is disabled
-	stonecutter = true
 	#Enable the extractor bedrock functionality
 	extractor = true
 	#Enable modular crossbows

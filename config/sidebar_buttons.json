@@ -12,6 +12,7 @@
 		"toggle.night": true
 	},
 	"ftbchunks": {
-		"chunks": true
+		"chunks": true,
+		"claim_chunks": true
 	}
 }

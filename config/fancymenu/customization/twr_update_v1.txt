@@ -1,88 +1,207 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
+layout-meta {
   identifier = twr.menu.update
-  randomgroup = 1
-  renderorder = foreground
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1729998636265
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:92576ba9-1900-4974-be76-1463b7ffb189-1729998636265] = [groups:][instances:]
+}
+
+menu_background {
+  image_path = [source:local]config/fancymenu/slideshows/background/images/image_1.png
+  slide = false
+  repeat_texture = false
+  background_type = image
 }
 
 customization {
-  path = config/fancymenu/slideshows/background/images/image_1.png
-  action = texturizebackground
-}
-
-customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  orientation = mid-centered
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 7fc361fd-b931-45dd-b569-7c9a8a11bcdd-1729998636266
+  [executable_action_instance:741c81ec-4301-44f6-8375-8cd17f0f242e-1729998636266][action_type:openlink] = https://www.curseforge.com/minecraft/modpacks/the-winter-rescue
+  [executable_block:7fc361fd-b931-45dd-b569-7c9a8a11bcdd-1729998636266][type:generic] = [executables:741c81ec-4301-44f6-8375-8cd17f0f242e-1729998636266;]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
   restartbackgroundanimations = true
-  buttonaction = openlink
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   label = %local:twr.update.curse%
-  loopbackgroundanimations = true
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = d72d688c-5a04-485f-b6d5-057991386f731637829684553
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
   x = -64
-  width = 132
-  actionid = d72d688c-5a04-485f-b6d5-057991386f731637829684553
-  action = addbutton
   y = 15
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-  value = https://www.curseforge.com/minecraft/modpacks/the-winter-rescue
-  height = 20
-}
-
-customization {
-  orientation = mid-centered
-  restartbackgroundanimations = true
-  buttonaction = openlink
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  label = %local:twr.update.mcbbs%
-  loopbackgroundanimations = true
-  x = -63
   width = 132
-  actionid = d72d688c-5a04-485f-b6d5-057991386f731637829684553
-  action = addbutton
-  y = 38
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-  value = https://www.mcbbs.net/thread-1227167-1-1.html
   height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 034cf080-496c-4eac-9c15-08ccbeab2770-1729998636266
+  [loading_requirement_container_meta:034cf080-496c-4eac-9c15-08ccbeab2770-1729998636266] = [groups:][instances:]
 }
 
-customization {
-  path = config/fancymenu_assets/twr_logo_title.png
-  orientation = mid-centered
+element {
+  button_element_executable_block_identifier = f2116356-bd80-497b-816f-ca84e228a671-1729998636267
+  [executable_action_instance:badd94cb-a367-4cf5-9213-737e355de450-1729998636267][action_type:openlink] = https://www.mcbbs.net/thread-1227167-1-1.html
+  [executable_block:f2116356-bd80-497b-816f-ca84e228a671-1729998636267][type:generic] = [executables:badd94cb-a367-4cf5-9213-737e355de450-1729998636267;]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = %local:twr.update.mcbbs%
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = d72d688c-5a04-485f-b6d5-057991386f731637829684553
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -63
+  y = 38
+  width = 132
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5f118584-e20d-4096-b636-4adb0d6318b7-1729998636267
+  [loading_requirement_container_meta:5f118584-e20d-4096-b636-4adb0d6318b7-1729998636267] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 7fc361fd-b931-45dd-b569-7c9a8a11bcdd-1729998636266
+  [executable_action_instance:741c81ec-4301-44f6-8375-8cd17f0f242e-1729998636266][action_type:openlink] = https://www.curseforge.com/minecraft/modpacks/the-winter-rescue
+  [executable_block:7fc361fd-b931-45dd-b569-7c9a8a11bcdd-1729998636266][type:generic] = [executables:741c81ec-4301-44f6-8375-8cd17f0f242e-1729998636266;]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = %local:twr.update.curse%
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = d72d688c-5a04-485f-b6d5-057991386f731637829684553
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -64
+  y = 15
+  width = 132
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 034cf080-496c-4eac-9c15-08ccbeab2770-1729998636266
+  [loading_requirement_container_meta:034cf080-496c-4eac-9c15-08ccbeab2770-1729998636266] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = f2116356-bd80-497b-816f-ca84e228a671-1729998636267
+  [executable_action_instance:badd94cb-a367-4cf5-9213-737e355de450-1729998636267][action_type:openlink] = https://www.mcbbs.net/thread-1227167-1-1.html
+  [executable_block:f2116356-bd80-497b-816f-ca84e228a671-1729998636267][type:generic] = [executables:badd94cb-a367-4cf5-9213-737e355de450-1729998636267;]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = %local:twr.update.mcbbs%
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = d72d688c-5a04-485f-b6d5-057991386f731637829684553
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -63
+  y = 38
+  width = 132
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5f118584-e20d-4096-b636-4adb0d6318b7-1729998636267
+  [loading_requirement_container_meta:5f118584-e20d-4096-b636-4adb0d6318b7-1729998636267] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]config/fancymenu_assets/twr_logo_title.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 2cc3ddca-16d8-4dc4-98b6-1f236dc0e2151637833763061
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
   x = -100
-  width = 200
-  action = addtexture
-  actionid = 2cc3ddca-16d8-4dc4-98b6-1f236dc0e2151637833763061
   y = -67
+  width = 200
   height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = f1ff6986-fb65-40ab-beb9-669a10dfbe0e-1729998636267
+  [loading_requirement_container_meta:f1ff6986-fb65-40ab-beb9-669a10dfbe0e-1729998636267] = [groups:][instances:]
 }
 
-customization {
-  path = config/fancymenu_assets/buttons/button_normal.png
-  orientation = mid-centered
+element {
+  source = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 72d75de1-78c3-41ec-a23b-b9812b5c6a2c1637833910703
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
   x = -97
-  width = 195
-  action = addtexture
-  actionid = 72d75de1-78c3-41ec-a23b-b9812b5c6a2c1637833910703
   y = -12
+  width = 195
   height = 24
-}
-
-customization {
-  orientation = mid-centered
-  shadow = false
-  x = 0
-  action = addtext
-  actionid = eec83f38-deb0-46a6-8339-d989edc5ec9a1637833936603
-  y = -4
-  scale = 1.0
-  alignment = centered
-  value = %local:twr.update.download_update%
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 8a7953d1-367b-4d05-9f37-9763578228ad-1729998636267
+  [loading_requirement_container_meta:8a7953d1-367b-4d05-9f37-9763578228ad-1729998636267] = [groups:][instances:]
 }
 

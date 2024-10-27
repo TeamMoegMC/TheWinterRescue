@@ -41,14 +41,14 @@ let fuel_vals= {
     "straw_briquette":800
 }
 
-onEvent('item.registry', event => {
+StartupEvents.registry('item', event => {
 
     fuel_procs.forEach((item) => {
         const fv=fuel_vals[item];
         if(fv==0)
-            event.create(item).group('frostedheart').texture(`kubejs:item/${item}`);
+            event.create(item).texture(`kubejs:item/${item}`);
         else
-            event.create(item).group('frostedheart').texture(`kubejs:item/${item}`).burnTime(fv);
+            event.create(item).texture(`kubejs:item/${item}`).burnTime(fv);
     });
 
 });

@@ -1,4 +1,4 @@
-onEvent('jei.remove.recipes', (event) => {
+RecipeViewerEvents.removeRecipes((event) => {
     //console.log('JEI RECIPE CATEGORIES: ' + event.getCategoryIds());
     //console.log('Valid Keys: ' + Object.keys(event));
     // event.remove('minecraft:blast_furnace', {});

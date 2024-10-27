@@ -16,4 +16,6 @@ steamCoreGeneratedSpeed = 32.0
 #The capacity which steam core can provide.
 #Range: 0.0 ~ 256.0
 steamCoreCapacity = 32.0
+#Forces the weather forecast system to be enabled regardless of scenario. 
+forceEnableTemperatureForecast = true
 

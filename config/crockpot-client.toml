@@ -5,4 +5,6 @@
 	showFoodEffectsTooltip = true
 	#Set this to false will disable the special hunger bar overlay when the player has Gnaw's Gift effect.
 	gnawsGiftHungerOverlay = true
+	#Set this to false will disable the food values tooltip.
+	showFoodValuesTooltip = true
 

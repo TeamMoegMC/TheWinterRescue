@@ -3,8 +3,6 @@
 disableFancyTESR = false
 #Show the text overlay for various blocks, such as the configuration of capacitors or pumps
 showTextOverlay = true
-#Set this to false to disable the super awesome looking nixie tube front for the voltmeter and other things
-nixietubeFont = true
 #Set the GUI scale of the Engineer's Manual. This uses the same numbers as Vanilla's GUI Scale and is therefor limited to the maximum value available ingame.
 #Range: 1 ~ 32
 manualGuiScale = 4
@@ -26,6 +24,8 @@ earDefenders_SoundBlacklist = []
 #Use VBOs to render certain blocks. This is significantly faster than the usual rendering,
 #but may not work correctly with visual effects from other mods
 enableVBO = true
+#Set this to false to change fluid recipes in the manual to use decimals on buckets instead of fractions
+fluidFractions = true
 
 #Options to set the RGB color of all IE wire types
 [wire_colors]

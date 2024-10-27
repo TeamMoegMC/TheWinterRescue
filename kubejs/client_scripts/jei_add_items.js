@@ -1,4 +1,4 @@
-onEvent('jei.add.items', (event) => {
+JEIEvents.addItems((event) => {
     // const items = [
     //
     // ];

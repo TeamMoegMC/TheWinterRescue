@@ -1,319 +1,487 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.client.gui.screen.MainMenuScreen
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1729998636269
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:35a762de-5952-4d1a-8848-d1ffd56ef806-1729998636269] = [groups:][instances:]
+}
+
+menu_background {
+  slideshow_name = background
+  background_type = slideshow
 }
 
 customization {
-  name = background
-  action = setbackgroundslideshow
-}
-
-customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  identifier = %id=400322%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = 11
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
 }
 
-customization {
-  identifier = %id=400322%
-  action = setbuttonlabel
-  value = %local:mainmenu.twr.multiplayer%
-}
-
-customization {
-  identifier = %id=400322%
+element {
+  button_element_executable_block_identifier = 3a9c5183-bcdb-435c-9658-d5201df31d02-1729998636273
+  [executable_action_instance:b8e2f4fa-4cdb-4959-8bcb-9f562caa465c-1729998636273][action_type:openlink] = https://support.teammoeg.com
+  [executable_block:3a9c5183-bcdb-435c-9658-d5201df31d02-1729998636273][type:generic] = [executables:b8e2f4fa-4cdb-4959-8bcb-9f562caa465c-1729998636273;]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
+  restartbackgroundanimations = true
   loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-}
-
-customization {
-  identifier = %id=400322%
-  action = sethoverlabel
-  label = %local:mainmenu.twr.multiplayer.hover%
-}
-
-customization {
-  identifier = %id=604382%
-  orientation = mid-centered
-  x = 103
-  action = movebutton
-  y = 37
-}
-
-customization {
-  identifier = %id=604382%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=604382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu_assets/buttons/a11y_hover.png
-  backgroundnormal = config/fancymenu_assets/buttons/a11y_normal.png
-}
-
-customization {
-  identifier = %id=604382%
-  action = sethoverlabel
-  label = 
-}
-
-customization {
-  identifier = %id=400382%
-  orientation = mid-centered
-  x = -140
-  action = movebutton
-  y = 62
-}
-
-customization {
-  identifier = %id=400382%
-  action = setbuttonlabel
-  value = %local:mainmenu.twr.options%
-}
-
-customization {
-  identifier = %id=400382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-}
-
-customization {
-  identifier = %id=502382%
-  orientation = mid-centered
-  x = 44
-  action = movebutton
-  y = 62
-}
-
-customization {
-  identifier = %id=502382%
-  action = setbuttonlabel
-  value = %local:mainmenu.twr.quitgame%
-}
-
-customization {
-  identifier = %id=502382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-}
-
-customization {
-  identifier = %id=376382%
-  orientation = mid-centered
-  x = -121
-  action = movebutton
-  y = 38
-}
-
-customization {
-  identifier = %id=376382%
-  action = setbuttonlabel
-  value = 
-}
-
-customization {
-  identifier = %id=376382%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu_assets/buttons/language_hover.png
-  backgroundnormal = config/fancymenu_assets/buttons/language_normal.png
-}
-
-customization {
-  identifier = %id=376382%
-  action = sethoverlabel
-  label = 
-}
-
-customization {
-  identifier = %id=400298%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -16
-}
-
-customization {
-  identifier = %id=400298%
-  action = setbuttonlabel
-  value = %local:mainmenu.twr.singleplayer%
-}
-
-customization {
-  identifier = %id=400298%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-}
-
-customization {
-  identifier = %id=400298%
-  action = sethoverlabel
-  label = %local:mainmenu.twr.singleplayer.hover%
-}
-
-customization {
-  identifier = %id=400346%
-  orientation = mid-centered
-  x = -99
-  action = movebutton
-  y = 38
-}
-
-customization {
-  identifier = %id=400346%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-}
-
-customization {
-  identifier = %id=400346%
-  action = sethoverlabel
-  label = Mod
-}
-
-customization {
-  identifier = %id=502346%
-  action = hidebutton
-}
-
-customization {
-  orientation = mid-centered
-  restartbackgroundanimations = true
-  buttonaction = openlink
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   description = %local:mainmenu.twr.supportcenter.desc%
   label = %local:mainmenu.twr.supportcenter%
-  loopbackgroundanimations = true
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 9b965a7b-f0ce-43d5-8987-1e784aec050d1631121087248
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
   x = -2
-  width = 100
-  actionid = 9b965a7b-f0ce-43d5-8987-1e784aec050d1631121087248
-  action = addbutton
   y = 37
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-  value = https://support.teammoeg.com
+  width = 100
   height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 8e28d4ee-3d6f-48cc-b8da-aa9bfcc296f1-1729998636273
+  [loading_requirement_container_meta:8e28d4ee-3d6f-48cc-b8da-aa9bfcc296f1-1729998636273] = [groups:][instances:]
 }
 
-customization {
-  orientation = mid-centered
+element {
+  button_element_executable_block_identifier = 16756a85-d895-46c5-baa5-0555a38cbb82-1729998636273
+  [executable_action_instance:b3f8cc21-764d-4646-828f-d637cc5e95c2-1729998636273][action_type:openlink] = %local:mainmenu.twr.supportus.url%
+  [executable_block:16756a85-d895-46c5-baa5-0555a38cbb82-1729998636273][type:generic] = [executables:b3f8cc21-764d-4646-828f-d637cc5e95c2-1729998636273;]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
   restartbackgroundanimations = true
-  buttonaction = openlink
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  label = %local:mainmenu.twr.supportus%
   loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   hoverlabel = %local:mainmenu.twr.supportus%
+  label = %local:mainmenu.twr.supportus%
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = c91a7520-5063-498d-bb51-8b44d3efe4701631121087252
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
   x = -38
-  width = 78
-  actionid = c91a7520-5063-498d-bb51-8b44d3efe4701631121087252
-  action = addbutton
   y = 62
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-  value = %local:mainmenu.twr.supportus.url%
+  width = 78
   height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 3297bfce-094e-449c-8fd8-10ce96f0c02b-1729998636274
+  [loading_requirement_container_meta:3297bfce-094e-449c-8fd8-10ce96f0c02b-1729998636274] = [groups:][instances:]
 }
 
-customization {
-  orientation = mid-centered
+element {
+  button_element_executable_block_identifier = a0443b1e-f213-4131-a0b2-979048ca9369-1729998636274
+  [executable_block:a0443b1e-f213-4131-a0b2-979048ca9369-1729998636274][type:generic] = [executables:]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
   restartbackgroundanimations = true
-  buttonaction = opencustomgui
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
-  label = %local:mainmenu.twr.teammoeg%
   loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = %local:mainmenu.twr.teammoeg%
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 3b7f3e26-87f5-4f3b-bdc4-b5545a9d923e1631121087255
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
   x = -66
-  width = 132
-  actionid = 3b7f3e26-87f5-4f3b-bdc4-b5545a9d923e1631121087255
-  action = addbutton
   y = -44
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-  value = twr.menu.credits
+  width = 132
   height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 87f92025-2bf0-4fc7-9ab6-b200ad9d18fd-1729998636274
+  [loading_requirement_container_meta:87f92025-2bf0-4fc7-9ab6-b200ad9d18fd-1729998636274] = [groups:][instances:]
 }
 
-customization {
-  path = config/fancymenu_assets/twr_logo_title.png
-  orientation = mid-centered
+element {
+  source = [source:local]config/fancymenu_assets/twr_logo_title.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 8137d233-9442-4b47-a150-7caea41638d51630687242534
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
   x = -99
-  width = 200
-  action = addtexture
-  actionid = 8137d233-9442-4b47-a150-7caea41638d51630687242534
   y = -100
+  width = 200
   height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = b3c40d9e-834f-46de-bb67-fe61724835d0-1729998636274
+  [loading_requirement_container_meta:b3c40d9e-834f-46de-bb67-fe61724835d0-1729998636274] = [groups:][instances:]
 }
 
-customization {
-  orientation = mid-left
+element {
+  button_element_executable_block_identifier = 5479d7a7-8c20-47ca-9982-a5a9d18b7164-1729998636274
+  [executable_block:5479d7a7-8c20-47ca-9982-a5a9d18b7164-1729998636274][type:generic] = [executables:]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
   restartbackgroundanimations = true
-  buttonaction = opencustomgui
-  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
   description = %local:twr.update.tooltip% %n% %local:twr.update.tooltip_2%
   label = %local:twr.update.title%
-  loopbackgroundanimations = true
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 9d60c09f-c9bb-48c3-b955-fc5211ab5f5d1637830697235
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-left
   x = -16
-  width = 97
-  actionid = 9d60c09f-c9bb-48c3-b955-fc5211ab5f5d1637830697235
-  action = addbutton
   y = -21
-  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
-  value = twr.menu.update
+  width = 97
   height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = a67cebfb-4d7d-4869-87fe-40e7928c06a0-1729998636274
+  [loading_requirement_container_meta:a67cebfb-4d7d-4869-87fe-40e7928c06a0-1729998636274] = [groups:][instances:]
 }
 
-customization {
-  path = config/fancymenu_assets/twr_zh_cn_title.png
-  orientation = mid-centered
-  vr:value:language = zh_cn
+element {
+  source = [source:local]config/fancymenu_assets/twr_zh_cn_title.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  element_type = image
+  instance_identifier = 183158ca-a2b2-42c5-b2ff-fa25bdfd0b321637834536598
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
   x = -99
-  width = 200
-  action = addtexture
-  actionid = 183158ca-a2b2-42c5-b2ff-fa25bdfd0b321637834536598
   y = -100
-  vr:showif:language = true
+  width = 200
   height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 8666fe63-4efa-44ff-9c58-e62b925b402e-1729998636274
+  [loading_requirement_container_meta:8666fe63-4efa-44ff-9c58-e62b925b402e-1729998636274] = [groups:][instances:]
 }
 
-customization {
-  orientation = mid-centered
-  vr:value:language = ja_jp
-  shadow = false
-  x = 1
-  action = addtext
-  actionid = 44ed5895-59d3-499f-82bd-8627ddd6de621637835138593
-  y = -63
-  scale = 1.0
-  vr:showif:language = true
-  alignment = centered
-  value = ザ・ウィンター・レスキュー
+vanilla_button {
+  button_element_executable_block_identifier = 4024df21-2c21-4e46-8788-97f4fa4e0e4e-1729998636269
+  [executable_block:4024df21-2c21-4e46-8788-97f4fa4e0e4e-1729998636269][type:generic] = [executables:]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/a11y_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/a11y_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoverlabel = 
+  label = 
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 604382
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 103
+  y = 37
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = e56a117f-4e61-4cbf-904e-d1f4f7e35874-1729998636269
+  [loading_requirement_container_meta:e56a117f-4e61-4cbf-904e-d1f4f7e35874-1729998636269] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 83444532-d2fb-4c10-bcb4-a18fef60f182-1729998636271
+  [executable_block:83444532-d2fb-4c10-bcb4-a18fef60f182-1729998636271][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 502346
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = c8872a79-f053-467e-9bb2-fea46658464b-1729998636271
+  [loading_requirement_container_meta:c8872a79-f053-467e-9bb2-fea46658464b-1729998636271] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 439fd45d-eda3-48b1-a333-73b3b155b36e-1729998636271
+  [executable_block:439fd45d-eda3-48b1-a333-73b3b155b36e-1729998636271][type:generic] = [executables:]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoverlabel = Mod
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 400346
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -99
+  y = 38
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = c8e8e936-81f3-43cd-98fc-7ceca2ce8785-1729998636271
+  [loading_requirement_container_meta:c8e8e936-81f3-43cd-98fc-7ceca2ce8785-1729998636271] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = d5ed8e38-d52e-42e9-83d4-a2d015d71656-1729998636269
+  [executable_block:d5ed8e38-d52e-42e9-83d4-a2d015d71656-1729998636269][type:generic] = [executables:]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoverlabel = %local:mainmenu.twr.multiplayer.hover%
+  label = %local:mainmenu.twr.multiplayer%
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 400322
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -100
+  y = 11
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 25e4c0df-a41b-49f6-bbdc-c37712ef5a0c-1729998636269
+  [loading_requirement_container_meta:25e4c0df-a41b-49f6-bbdc-c37712ef5a0c-1729998636269] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = cdbd2c7c-ad32-43d1-a96c-6ff7e84afbbe-1729998636270
+  [executable_block:cdbd2c7c-ad32-43d1-a96c-6ff7e84afbbe-1729998636270][type:generic] = [executables:]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = %local:mainmenu.twr.quitgame%
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 502382
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 44
+  y = 62
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 73e721fa-86dc-4624-8e52-0420cfe08181-1729998636270
+  [loading_requirement_container_meta:73e721fa-86dc-4624-8e52-0420cfe08181-1729998636270] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = c55520d6-568d-4786-8112-574da3c1c585-1729998636271
+  [executable_block:c55520d6-568d-4786-8112-574da3c1c585-1729998636271][type:generic] = [executables:]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoverlabel = %local:mainmenu.twr.singleplayer.hover%
+  label = %local:mainmenu.twr.singleplayer%
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 400298
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -100
+  y = -16
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 5c1ca19c-4bad-407e-93ad-b7dc1b89edcd-1729998636271
+  [loading_requirement_container_meta:5c1ca19c-4bad-407e-93ad-b7dc1b89edcd-1729998636271] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = e9726dd1-b21f-429c-8c88-91362dde3e8b-1729998636270
+  [executable_block:e9726dd1-b21f-429c-8c88-91362dde3e8b-1729998636270][type:generic] = [executables:]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/language_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/language_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoverlabel = 
+  label = 
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 376382
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -121
+  y = 38
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 013cbec2-7d23-4a7c-b5ba-fd5f6831ef37-1729998636270
+  [loading_requirement_container_meta:013cbec2-7d23-4a7c-b5ba-fd5f6831ef37-1729998636270] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 71a60c9b-8ceb-45e2-a5d9-0ba9b4127ec4-1729998636270
+  [executable_block:71a60c9b-8ceb-45e2-a5d9-0ba9b4127ec4-1729998636270][type:generic] = [executables:]
+  backgroundnormal = [source:local]config/fancymenu_assets/buttons/button_normal.png
+  backgroundhovered = [source:local]config/fancymenu_assets/buttons/button_hover.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = %local:mainmenu.twr.options%
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 400382
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -140
+  y = 62
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 04d9d484-f3de-4877-b399-b9bc9c02704e-1729998636270
+  [loading_requirement_container_meta:04d9d484-f3de-4877-b399-b9bc9c02704e-1729998636270] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
 }
 
