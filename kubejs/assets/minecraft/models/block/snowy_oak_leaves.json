@@ -1,6 +1,0 @@
-{
-    "parent":"block/snowy_leaves",
-    "textures": {
-        "0":"block/oak_leaves"
-    }
-}
