@@ -17,6 +17,11 @@
     "tooltip.the_winter_rescue.clay_tool": "Use clay tool to right click it on a clay block to do pottery",
     "tooltip.the_winter_rescue.activated_carbon": "Obtained via using a charcoal on a steam charger",
     "tooltip.the_winter_rescue.campfire": "Press Q to throw fuel on it and light it via an ignition tool!",
-    "tooltip.the_winter_rescue.lining": "Gives a warming effect after crafting it with any equipment (shapeless)"
+    "tooltip.the_winter_rescue.lining": "Gives a warming effect after crafting it with any equipment (shapeless)",
 
+    "generator.the_winter_rescue.snowy_taiga": "TWR - Snowy Taiga",
+    "generator.the_winter_rescue.vanilla": "TWR - Vanilla",
+    "generator.the_winter_rescue.icelayers": "TWR - Icelayers",
+    "generator.the_winter_rescue.terralith_overworld": "TWR - Terralith"
+    
 }

@@ -1,0 +1,16 @@
+{
+  "name": "frostedheart:destroyed_generator/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "frostedheart:relic/destroyed_generator",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}
