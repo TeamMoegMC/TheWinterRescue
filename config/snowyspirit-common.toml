@@ -1,0 +1,89 @@
+
+[snowy_season]
+
+	[snowy_season.snow_season_start]
+		#Day from which villagers will start placing wreaths, presents and throwing snowballs
+		#Range: 1 ~ 12
+		month = 12
+		#Day from which villagers will  start placing wreaths, presents and throwing snowballs
+		#Range: 1 ~ 31
+		day = 20
+
+	[snowy_season.snow_season_end]
+		#Day from which villagers will start removing placed wreaths
+		#Range: 1 ~ 12
+		month = 1
+		#Day from which villagers will start removing placed wreaths
+		#Range: 1 ~ 31
+		day = 30
+
+	[snowy_season.season_mod_compat]
+		#Enables compatibility with Serene Seasons (Forge) or Fabric Seasons (Fabric). Only takes effect if the mod is installed. Will make snowy season only active during certain seasons. Note that this will override previous time window settings
+		enabled = false
+
+[misc]
+	#Save generated resources to disk in a 'debug' folder in your game directory. Mainly for debug purposes but can be used to generate assets in all wood types for your mods :0
+	debug_save_dynamic_pack = false
+	#Enables custom Configured config screen
+	custom_configured_screen = true
+	mod_creative_tab = false
+
+[blocks_and_items]
+	gumdrop = true
+	glow_lights = true
+	candy_cane = true
+	ginger = true
+	eggnog = true
+	wreath = true
+	snow_globe = true
+	#Only make sense to turn off with both ginger and gumdrops off
+	gingerbread_golem = true
+
+[sled]
+	enabled = true
+	#Max allowed size of a sled entity puller. Allowing bigger ones could cause issue as hitbox will clash with sled itself
+	#Range: 0.1 ~ 3.0
+	max_sled_puller_size = 1.25
+
+	[sled.physics]
+
+		#Advanced settings. Use to alter sled physics
+		[sled.physics.friction]
+			#Controls how sleds slide along other blocks.In other words its the inverse of frictionThis number affect how the sled speed is multiplied each tick. A value of 1 will make it keep its velocity foreverIncreasing these values will effectively increase the sled top speed when on these blocks
+			#Range: 0.0 ~ 1.0
+			sand_slipperiness = 0.83
+			#Range: 0.0 ~ 1.0
+			snow_slipperiness = 0.985
+			#Used to decrease ice friction (for sleds)
+			#Range: 0.0 ~ 1.0
+			ice_slipperiness_mult = 0.97
+			#Factor that will be added to a block slipperiness when the sled is considered on a slope (angled down) This is also scaled by the slope angle, applying the full number at 45 degrees. This config alters how fast sleds go down slopes
+			#Range: 0.0 ~ 1.0
+			slope_slipperiness_increment = 0.06
+			#Multiply angular velocity by this number each tick. Can be thought of as rotational drag
+			#Range: 0.0 ~ 1.0
+			rotation_slipperiness = 0.92
+			#Same as above but applied when you are pressing W. Lower number makes it harder to steer when accelerating forward
+			#Range: 0.0 ~ 1.0
+			rotation_slipperiness_on_forward_acceleration = 0.75
+
+		[sled.physics.steering]
+			#Controls the forces applied each tick when moving a sledAlso effectively indirectly alters the sled max speed
+			#Intensity of velocity increase applied when pressing forward
+			#Range: 0.0 ~ 1.0
+			forward_acceleration = 0.015
+			#Same as above but only when sled has a wolf
+			#Range: 0.0 ~ 1.0
+			forward_acceleration_with_wolf = 0.017
+			#Acceleration when not on snow. Note that this is noticeably higher since its the higher frictions of those blocks that dont allow the sled to move fast
+			#Range: 0.0 ~ 1.0
+			forward_acceleration_when_not_on_snow = 0.03700000047683716
+			#Range: 0.0 ~ 1.0
+			backwards_acceleration = 0.005
+			#Affects the intensity of side steering
+			#Range: 0.0 ~ 1.0
+			steer_factor = 0.042
+			#Same as above but when a wolf is active
+			#Range: 0.0 ~ 1.0
+			steer_factor_with_wolf = 0.067
+

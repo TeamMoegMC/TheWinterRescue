@@ -1,0 +1,9 @@
+
+[particles]
+	#Glow light particle mode. I made 2 variants of this so choose the one you like the most
+	#Range: 1 ~ 3
+	glow_particle_mode = 1
+	#Increases sled sound volume
+	#Range: 0.0 ~ 20.0
+	sled_sound_volume = 1.2
+
