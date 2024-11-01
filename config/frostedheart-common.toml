@@ -18,4 +18,6 @@ steamCoreGeneratedSpeed = 32.0
 steamCoreCapacity = 32.0
 #Forces the weather forecast system to be enabled regardless of scenario. 
 forceEnableTemperatureForecast = true
+#Enables snow accumulation during world generation.
+enableSnowAccumulationDuringWorldgen = false
 

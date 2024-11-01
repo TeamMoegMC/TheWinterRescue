@@ -1,42 +1,70 @@
-#Enables the temperature orb overlay. 
-enableTemperatureOrb = true
-#Position of the temperature orb in game screen. 
-#Allowed Values: MIDDLE, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
-renderTempOrbAtCenter = "MIDDLE"
-#X Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used. 
-#Range: -4096 ~ 4096
-tempOrbOffsetX = 0
-#Y Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used.  
-#Range: -4096 ~ 4096
-tempOrbOffsetY = 0
-#Enables The Winter Rescue HUD. THIS IS MODPACK CORE FEATURE, DISABLING IS NOT RECOMMENDED. 
-enableHUD = true
-#Use Fahrenheit temperature instead of celsus.
-useFahrenheit = false
-#Enables the frozen overlay when player is freezing. 
-enableFrozenOverlay = true
-#Enables the vignette when player is freezing. 
-enableFrozenVignette = true
-#Enables the vignette when player is too hot. 
-enableHeatVignette = true
-#Enables the frozen sound when player is freezing. 
-enableFrozenSound = true
-#Enables the breath particle when environment is cold. 
-enableBreathParticle = true
-#Enables the waypoints rendering. 
-enableWaypoint = true
-#Enables the scenario rendering. 
-renderScenario = false
-#Enables the tips rendering. 
-renderTips = false
 
-[scenario]
-	#Base text appear speed, actual speed may change by scenario if necessary, speed 1 is 0.5 character per tick.
-	#Range: 1.0E-6 ~ 100000.0
-	textSpeed = 1.0
+["Frosted HUD"]
+	#Enables The Winter Rescue HUD. THIS IS MODPACK CORE FEATURE, DISABLING IS NOT RECOMMENDED. 
+	enableHUD = true
+	#Enables the temperature orb overlay. 
+	enableTemperatureOrb = true
+	#Use Fahrenheit temperature instead of celsus.
+	useFahrenheit = false
+	#Position of the temperature orb in game screen. 
+	#Allowed Values: MIDDLE, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+	renderTempOrbAtCenter = "MIDDLE"
+	#X Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used. 
+	#Range: -4096 ~ 4096
+	tempOrbOffsetX = 0
+	#Y Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used.  
+	#Range: -4096 ~ 4096
+	tempOrbOffsetY = 0
+
+["Frozen Effects"]
+	#Enables the frozen overlay when player is freezing. 
+	enableFrozenOverlay = true
+	#Enables the vignette when player is freezing. 
+	enableFrozenVignette = true
+	#Enables the vignette when player is too hot. 
+	enableHeatVignette = true
+	#Enables the breath particle when environment is cold. 
+	enableBreathParticle = true
+	#Enables the frozen sound when player is freezing. 
+	enableFrozenSound = true
+
+[Weather]
+	#Enables weather rendering changes.
+	weatherRenderChanges = true
+	#How dense the fog effect during a snowstorm is.
+	#Range: 0.0 ~ 1.0
+	fogDensity = 0.1
+	#This is the fog color during the day. It must be an RGB hex string.
+	#Range: 0 ~ 99999999
+	fogColorDay = 12566488
+	#This is the fog color during the night. It must be an RGB hex string.
+	#Range: 0 ~ 99999999
+	fogColorNight = 789529
+	#How visually dense the snow weather effect is. Normally, vanilla sets this to 5 with fast graphics, and 10 with fancy graphics.
+	#Range: 1 ~ 15
+	snowDensity = 15
+	#Enable snow weather sounds.
+	snowSounds = true
+	#Enable blizzard wind weather sounds.
+	windSounds = true
+	#Changes the sky renderer to one which does not render sunrise or sunset effects during a snowstorm.
+	skyRenderChanges = true
+
+["Tips and Waypoints"]
+	#Enables the waypoints rendering. 
+	enableWaypoint = true
+	#Enables the tips rendering. 
+	renderTips = false
+
+[Scenario]
+	#Enables the scenario rendering. 
+	renderScenario = false
+	#Enables Auto click when scenario requires
+	autoMode = true
 	#Tick before click when a click is required to progress
 	#Range: 0 ~ 500
 	autoModeInterval = 40
-	#Enables Auto click when scenario requires
-	autoMode = true
+	#Base text appear speed, actual speed may change by scenario if necessary, speed 1 is 0.5 character per tick.
+	#Range: 1.0E-6 ~ 100000.0
+	textSpeed = 1.0
 
