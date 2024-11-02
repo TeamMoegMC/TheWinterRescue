@@ -145,8 +145,8 @@ print(biome_temperatures_high)
 print(biome_temperatures_low)
 
 # raise the upper limit of temperature for all winter biomes by 1.0
-for biome in winter_biomes:
-    biome["parameters"]["temperature"][1] += 1.0
+# for biome in winter_biomes:
+#     biome["parameters"]["temperature"][1] += 1.0
 
 # save winter biomes as json, with indent=2
 data["generator"]["biome_source"]["biomes"] = winter_biomes
