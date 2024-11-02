@@ -1,0 +1,32 @@
+{
+  "terralith:wintry_forest": {
+    "r": 149,
+    "g": 213,
+    "b": 171,
+    "cave": false
+  },
+  "terralith:alpine_grove": {
+    "r": 142,
+    "g": 190,
+    "b": 147,
+    "cave": false
+  },
+  "minecraft:grove": {
+    "r": 106,
+    "g": 246,
+    "b": 151,
+    "cave": false
+  },
+  "terralith:wintry_lowlands": {
+    "r": 67,
+    "g": 136,
+    "b": 82,
+    "cave": false
+  },
+  "minecraft:snowy_plains": {
+    "r": 252,
+    "g": 255,
+    "b": 255,
+    "cave": false
+  }
+}
