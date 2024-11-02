@@ -10,14 +10,12 @@ print()
 
 # get current dir
 current_dir = os.getcwd()
-# get parent dir
-parent_dir = os.path.dirname(current_dir)
 file_dir = "kubejs/data/minecraft/dimension/overworld.json"
 
-with open(os.path.join(parent_dir, file_dir)) as f:
+with open(os.path.join(current_dir, file_dir)) as f:
     data = json.load(f)
 
-biomes = data["dimensions"]["minecraft:overworld"]["generator"]["biome_source"]["biomes"]
+biomes = data["generator"]["biome_source"]["biomes"]
 print(f"Total original biome specs: {len(biomes)}")
 
 non_snowy_biome_ids = [
@@ -151,6 +149,6 @@ for biome in winter_biomes:
     biome["parameters"]["temperature"][1] += 1.0
 
 # save winter biomes as json, with indent=2
-data["dimensions"]["minecraft:overworld"]["generator"]["biome_source"]["biomes"] = winter_biomes
-with open("winter_biomes.json", "w") as f:
+data["generator"]["biome_source"]["biomes"] = winter_biomes
+with open(os.path.join(current_dir, file_dir), "w") as f:
     json.dump(data, f, indent=2)
