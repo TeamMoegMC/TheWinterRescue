@@ -5,6 +5,12 @@
     "b": 171,
     "cave": false
   },
+  "terralith:yellowstone": {
+    "r": 253,
+    "g": 242,
+    "b": 34,
+    "cave": false
+  },
   "terralith:alpine_grove": {
     "r": 142,
     "g": 190,
