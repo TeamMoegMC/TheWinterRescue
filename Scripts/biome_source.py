@@ -193,7 +193,7 @@ with open(os.path.join(current_dir, "Scripts/old_temp_ranges.json"), "w") as f:
 
 # copy the json file to another file
 import shutil
-shutil.copy(os.path.join(current_dir, "Scripts/old_temp_ranges.json"), os.path.join(current_dir, "Scripts/new_temp_ranges.json"))
+# shutil.copy(os.path.join(current_dir, "Scripts/old_temp_ranges.json"), os.path.join(current_dir, "Scripts/new_temp_ranges.json"))
 
 # Go over biomes again, now load the updated json file and change the temperature values
 with open(os.path.join(current_dir, "Scripts/new_temp_ranges.json")) as f:
