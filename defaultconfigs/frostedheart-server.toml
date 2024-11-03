@@ -19,15 +19,21 @@ temperatureDifficulty = "Normal"
 #Modifier of body temperature change speed, This does not affect hypothermia temperature.
 #Range: 0.0 ~ 20.0
 temperatureChangeRate = 0.5
-#The max power which steam core can store.Steam Core will cost the power stored without any heat source connected.
-#Range: 100.0 ~ 6000000.0
-steamCoreMaxPower = 600.0
-#SteamCore will cost such heat 20 times per second.
-#Range: 0.0 ~ 6000000.0
-steamCorePowerIntake = 10.0
-#The speed which steam core can provide.
-#Range: 0.0 ~ 256.0
-steamCoreGeneratedSpeed = 32.0
-#The capacity which steam core can provide.
-#Range: 0.0 ~ 256.0
-steamCoreCapacity = 32.0
+#finalReducingValue = basicValue * waterReducingRate.(DoubleValue)
+#Range: 0.0 ~ 1000.0
+waterReducingRate = 1.0
+#It is the weakness effect amplifier of the effect punishment when player's water level is too low. -1 means canceling this effect. Default:0
+#Range: -1 ~ 999999
+weaknessEffectAmplifier = 0
+#It decides if players' water level would reset in death.
+resetWaterLevelInDeath = true
+#Enables snow accumulation during snow weather.
+enableSnowAccumulationDuringWeather = true
+#The the inverse of this value is the probability of snow adding one layer during each tick.
+#Range: > 1
+snowAccumulationDifficulty = 16
+#Biomes that are not considered winter biomes.
+nonWinterBiomes = ["minecraft:nether_wastes", "minecraft:crimson_forest", "minecraft:warped_forest", "minecraft:basalt_deltas", "minecraft:soul_sand_valley", "minecraft:end_barrens", "minecraft:end_highlands", "minecraft:end_midlands", "minecraft:the_end", "minecraft:the_void", "terralith:yellowstone", "terralith:volcanic_crater", "terralith:volcanic_peaks", "terralith:caldera"]
+#If true, the 'nonWinterBiomes' config option will be interpreted as a list of winter biomes, and all others will be ignored.
+invertNonWinterBiomes = false
+
