@@ -1,0 +1,366 @@
+{
+  "minecraft:deep_frozen_ocean": [
+    [
+      -1,
+      1
+    ]
+  ],
+  "minecraft:frozen_ocean": [
+    [
+      -1,
+      1
+    ]
+  ],
+  "terralith:frozen_cliffs": [
+    [
+      -1.0047858741932016,
+      0.55
+    ]
+  ],
+  "minecraft:ice_spikes": [
+    [
+      -1.0047858741932016,
+      0.55
+    ],
+    [
+      -0.7273929370966008,
+      0.55
+    ]
+  ],
+  "minecraft:snowy_plains": [
+    [
+      -1.0047858741932016,
+      0.55
+    ],
+    [
+      -0.7273929370966008,
+      0.55
+    ]
+  ],
+  "minecraft:snowy_taiga": [
+    [
+      -1.0047858741932016,
+      0.2726070629033992
+    ],
+    [
+      -0.7273929370966008,
+      0.55
+    ]
+  ],
+  "terralith:ice_marsh": [
+    [
+      -0.7273929370966008,
+      0.55
+    ],
+    [
+      -1.0047858741932016,
+      0.55
+    ]
+  ],
+  "terralith:cold_shrubland": [
+    [
+      -0.45,
+      0.845
+    ],
+    [
+      -0.7273929370966008,
+      0.55
+    ]
+  ],
+  "minecraft:snowy_beach": [
+    [
+      -1.0047858741932016,
+      0.55
+    ]
+  ],
+  "terralith:snowy_badlands": [
+    [
+      -1.0047858741932016,
+      0.2726070629033992
+    ]
+  ],
+  "minecraft:snowy_slopes": [
+    [
+      -1.0047858741932016,
+      0.55
+    ],
+    [
+      -0.7273929370966008,
+      0.55
+    ],
+    [
+      -0.45,
+      1.2
+    ],
+    [
+      -0.155,
+      1.2
+    ],
+    [
+      -1.0047858741932016,
+      0.2726070629033992
+    ],
+    [
+      -0.7273929370966008,
+      1.2
+    ]
+  ],
+  "minecraft:grove": [
+    [
+      -1.0047858741932016,
+      0.55
+    ],
+    [
+      -0.7273929370966008,
+      0.55
+    ],
+    [
+      -0.45,
+      1.2
+    ],
+    [
+      -0.155,
+      1.2
+    ],
+    [
+      -1.0047858741932016,
+      0.2726070629033992
+    ]
+  ],
+  "terralith:wintry_forest": [
+    [
+      -1.0047858741932016,
+      0.2726070629033992
+    ]
+  ],
+  "terralith:caldera": [
+    [
+      -0.45,
+      0.845
+    ]
+  ],
+  "terralith:volcanic_crater": [
+    [
+      0.2,
+      1.55
+    ]
+  ],
+  "terralith:yellowstone": [
+    [
+      0.845,
+      1.0
+    ]
+  ],
+  "terralith:wintry_lowlands": [
+    [
+      -1.0047858741932016,
+      0.2726070629033992
+    ],
+    [
+      -0.7273929370966008,
+      0.55
+    ]
+  ],
+  "terralith:rocky_shrubland": [
+    [
+      -0.7273929370966008,
+      0.55
+    ]
+  ],
+  "terralith:glacial_chasm": [
+    [
+      -1.0047858741932016,
+      0.55
+    ],
+    [
+      -0.7273929370966008,
+      0.55
+    ]
+  ],
+  "terralith:scarlet_mountains": [
+    [
+      -1.0047858741932016,
+      0.55
+    ],
+    [
+      -0.7273929370966008,
+      0.55
+    ]
+  ],
+  "minecraft:jagged_peaks": [
+    [
+      -0.45,
+      1.2
+    ],
+    [
+      -0.155,
+      1.2
+    ]
+  ],
+  "terralith:rocky_mountains": [
+    [
+      -0.45,
+      0.845
+    ],
+    [
+      -0.155,
+      1.2
+    ],
+    [
+      -0.45,
+      1.2
+    ]
+  ],
+  "terralith:volcanic_peaks": [
+    [
+      0.2,
+      1.55
+    ]
+  ],
+  "terralith:alpine_grove": [
+    [
+      -0.7273929370966008,
+      0.55
+    ],
+    [
+      -0.45,
+      0.845
+    ],
+    [
+      -0.45,
+      1.2
+    ],
+    [
+      -0.155,
+      1.2
+    ],
+    [
+      -1.0047858741932016,
+      0.55
+    ]
+  ],
+  "terralith:snowy_maple_forest": [
+    [
+      -0.45,
+      0.845
+    ]
+  ],
+  "terralith:snowy_shield": [
+    [
+      -0.45,
+      0.845
+    ]
+  ],
+  "minecraft:frozen_river": [
+    [
+      -1.0047858741932016,
+      0.55
+    ]
+  ],
+  "terralith:siberian_grove": [
+    [
+      -0.45,
+      0.845
+    ]
+  ],
+  "minecraft:frozen_peaks": [
+    [
+      -1.0047858741932016,
+      0.2726070629033992
+    ],
+    [
+      -0.7273929370966008,
+      0.55
+    ],
+    [
+      -0.45,
+      1.2
+    ],
+    [
+      -0.155,
+      1.2
+    ],
+    [
+      -0.45,
+      0.845
+    ]
+  ],
+  "terralith:cave/deep_caves": [
+    [
+      -1.0047858741932016,
+      1.0
+    ]
+  ],
+  "minecraft:dripstone_caves": [
+    [
+      -1,
+      1.0
+    ]
+  ],
+  "minecraft:lush_caves": [
+    [
+      -1,
+      0.3
+    ]
+  ],
+  "terralith:cave/underground_jungle": [
+    [
+      0.3,
+      1.0
+    ]
+  ],
+  "terralith:cave/thermal_caves": [
+    [
+      -1,
+      1.0
+    ]
+  ],
+  "terralith:cave/infested_caves": [
+    [
+      -1,
+      0.1
+    ]
+  ],
+  "terralith:cave/fungal_caves": [
+    [
+      -0.3,
+      1.0
+    ]
+  ],
+  "terralith:cave/granite_caves": [
+    [
+      0.3,
+      1.0
+    ]
+  ],
+  "terralith:cave/andesite_caves": [
+    [
+      -0.3,
+      0.3
+    ]
+  ],
+  "terralith:cave/diorite_caves": [
+    [
+      -1,
+      0.15
+    ]
+  ],
+  "terralith:cave/tuff_caves": [
+    [
+      -1,
+      0.0
+    ]
+  ],
+  "terralith:cave/frostfire_caves": [
+    [
+      -1,
+      0.0
+    ]
+  ],
+  "terralith:cave/mantle_caves": [
+    [
+      0.1,
+      1.0
+    ]
+  ]
+}
