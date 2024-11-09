@@ -21,7 +21,11 @@ onEvent('recipes', (event) => {
             //     output: Item.of('tconstruct:tinkers_bronze_ingot', 3)
             // }
             {input1: '4x #forge:ores/copper', input2: '#kubejs:kiln_dust', output: '4x rankine:copper_ingot', time: 400},
-            {input1: '4x #forge:ores/tin', input2: '#kubejs:kiln_dust', output: '4x rankine:tin_ingot', time: 400}
+            {input1: '4x #forge:ores/tin', input2: '#kubejs:kiln_dust', output: '4x rankine:tin_ingot', time: 400},
+            {input1: 'charcoal_pit:unfired_brick', input2: 'charcoal_pit:unfired_brick', output: Item.of('minecraft:brick', 2), time:200}, 
+            {input1: 'minecraft:clay', input2: 'minecraft:clay', output: Item.of('minecraft:terracotta', 2), time:200},
+            {input1: 'rankine:fire_clay_ball', input2: 'rankine:fire_clay_ball', output: Item.of('rankine:refractory_brick', 2), time:200},
+            {input1: 'charcoal_pit:unfired_sandy_brick', input2: 'charcoal_pit:unfired_sandy_brick', output: Item.of('charcoal_pit:sandy_brick_item', 2), time:200}
         ]
     recipes.forEach((recipe) => {
         event.recipes.immersiveengineering.alloy(recipe.output, recipe.input1, recipe.input2, recipe.time);
