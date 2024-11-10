@@ -10,6 +10,8 @@ mainmenu.twr.singleplayer = Singleplayer
 mainmenu.twr.singleplayer.hover = Lone Journey
 mainmenu.twr.multiplayer = Multiplayer
 mainmenu.twr.multiplayer.hover = Crowded Trip
+mainmenu.twr.serveren = Official EN Server
+mainmenu.twr.servercn = Official CN Server
 
 twr.update.title = Update Info
 twr.update.tooltip = Check if there is a new stable version you can update

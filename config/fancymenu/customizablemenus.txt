@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screen.MainMenuScreen {
-}
-
 net.minecraft.client.gui.screen.ConnectingScreen {
 }
 
@@ -10,5 +7,8 @@ net.minecraft.client.gui.screen.DisconnectedScreen {
 }
 
 net.minecraft.client.gui.screen.WorldLoadProgressScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
 }
 

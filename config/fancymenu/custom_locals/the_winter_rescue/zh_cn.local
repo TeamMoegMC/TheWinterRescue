@@ -2,7 +2,7 @@ mainmenu.twr.developers = 制作者团队
 mainmenu.twr.supportcenter = 帮助中心
 mainmenu.twr.supportcenter.desc = 问题和建议反馈渠道
 mainmenu.twr.supportus = 赞助我们
-mainmenu.twr.supportus.url = https://afdian.net/@teammoeg
+mainmenu.twr.supportus.url = https://afdian.com/a/teammoeg
 mainmenu.twr.options = 选项
 mainmenu.twr.quitgame = 退出游戏
 mainmenu.twr.teammoeg = By TeamMoeg
@@ -10,6 +10,8 @@ mainmenu.twr.singleplayer = 单人游戏
 mainmenu.twr.singleplayer.hover = 孤独的路途
 mainmenu.twr.multiplayer = 多人游戏
 mainmenu.twr.multiplayer.hover = 拥挤的旅行
+mainmenu.twr.serveren = 官服（英语）
+mainmenu.twr.servercn = 官服（中文）
 
 twr.update.title = 更新信息
 twr.update.tooltip = 查看您是否需要更新至最新稳定版本

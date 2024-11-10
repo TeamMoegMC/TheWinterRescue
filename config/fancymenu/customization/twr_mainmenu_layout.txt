@@ -21,9 +21,16 @@ customization {
 customization {
   identifier = %id=400322%
   orientation = mid-centered
-  x = -100
+  x = -51
   action = movebutton
-  y = 11
+  y = 1
+}
+
+customization {
+  identifier = %id=400322%
+  width = 105
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -50,9 +57,9 @@ customization {
 customization {
   identifier = %id=604382%
   orientation = mid-centered
-  x = 103
+  x = 135
   action = movebutton
-  y = 37
+  y = 25
 }
 
 customization {
@@ -79,9 +86,9 @@ customization {
 customization {
   identifier = %id=400382%
   orientation = mid-centered
-  x = -140
+  x = -143
   action = movebutton
-  y = 62
+  y = 47
 }
 
 customization {
@@ -102,9 +109,9 @@ customization {
 customization {
   identifier = %id=502382%
   orientation = mid-centered
-  x = 44
+  x = 46
   action = movebutton
-  y = 62
+  y = 47
 }
 
 customization {
@@ -125,9 +132,9 @@ customization {
 customization {
   identifier = %id=376382%
   orientation = mid-centered
-  x = -121
+  x = -144
   action = movebutton
-  y = 38
+  y = 25
 }
 
 customization {
@@ -154,9 +161,16 @@ customization {
 customization {
   identifier = %id=400298%
   orientation = mid-centered
-  x = -100
+  x = -54
   action = movebutton
-  y = -16
+  y = -22
+}
+
+customization {
+  identifier = %id=400298%
+  width = 109
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -183,9 +197,16 @@ customization {
 customization {
   identifier = %id=400346%
   orientation = mid-centered
-  x = -99
+  x = -121
   action = movebutton
-  y = 38
+  y = 25
+}
+
+customization {
+  identifier = %id=400346%
+  width = 87
+  action = resizebutton
+  height = 20
 }
 
 customization {
@@ -216,11 +237,11 @@ customization {
   description = %local:mainmenu.twr.supportcenter.desc%
   label = %local:mainmenu.twr.supportcenter%
   loopbackgroundanimations = true
-  x = -2
+  x = -35
   width = 100
   actionid = 9b965a7b-f0ce-43d5-8987-1e784aec050d1631121087248
   action = addbutton
-  y = 37
+  y = 25
   backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
   value = https://support.teammoeg.com
   height = 20
@@ -234,11 +255,11 @@ customization {
   label = %local:mainmenu.twr.supportus%
   loopbackgroundanimations = true
   hoverlabel = %local:mainmenu.twr.supportus%
-  x = -38
+  x = -39
   width = 78
   actionid = c91a7520-5063-498d-bb51-8b44d3efe4701631121087252
   action = addbutton
-  y = 62
+  y = 47
   backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
   value = %local:mainmenu.twr.supportus.url%
   height = 20
@@ -315,5 +336,77 @@ customization {
   vr:showif:language = true
   alignment = centered
   value = ザ・ウィンター・レスキュー
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  label = %local:mainmenu.twr.serveren%
+  loopbackgroundanimations = true
+  hoverlabel = %local:mainmenu.twr.serveren%
+  x = -133
+  width = 78
+  actionid = c91a7520-5063-498d-bb51-8b44d3efe4701631121087252
+  action = addbutton
+  y = 2
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  value = 204.152.220.121:25565
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  label = %local:mainmenu.twr.servercn%
+  loopbackgroundanimations = true
+  hoverlabel = %local:mainmenu.twr.servercn%
+  x = 59
+  width = 78
+  actionid = c91a7520-5063-498d-bb51-8b44d3efe4701631121087252
+  action = addbutton
+  y = 2
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  value = 43.248.187.61:5500
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  label = Discord
+  loopbackgroundanimations = true
+  hoverlabel = Discord
+  x = 70
+  width = 58
+  actionid = c91a7520-5063-498d-bb51-8b44d3efe4701631121087252
+  action = addbutton
+  y = 25
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  value = https://discord.gg/BWn6E94
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config/fancymenu_assets/buttons/button_hover.png
+  label = QQ
+  loopbackgroundanimations = true
+  hoverlabel = 771843370  830331279  450026132  932943157 
+  x = -31
+  width = 78
+  actionid = c91a7520-5063-498d-bb51-8b44d3efe4701631121087252
+  action = addbutton
+  y = 71
+  backgroundnormal = config/fancymenu_assets/buttons/button_normal.png
+  value = https://discord.gg/BWn6E94
+  height = 20
 }
 
