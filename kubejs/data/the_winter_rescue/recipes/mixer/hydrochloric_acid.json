@@ -6,7 +6,7 @@
         }
         ],
         "result": {
-            "fluid": "kubejs:hydrochloric_acid","amount": 1000
+            "fluid": "frostedheart:hydrochloric_acid","amount": 1000
         },
 		"fluid": {
             "tag": "the_winter_rescue:fluidsulfuricacid","amount": 1000

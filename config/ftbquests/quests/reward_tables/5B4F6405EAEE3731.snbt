@@ -3,9 +3,9 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ count: 4, item: "kubejs:rusted_iron_ingot" }
-		{ count: 8, item: "kubejs:gray_tin_ingot" }
-		{ count: 8, item: "kubejs:rusted_copper_ingot" }
+		{ count: 4, item: "frostedheart:rusted_iron_ingot" }
+		{ count: 8, item: "frostedheart:gray_tin_ingot" }
+		{ count: 8, item: "frostedheart:rusted_copper_ingot" }
 		{
 			type: "xp_levels"
 			xp_levels: 5

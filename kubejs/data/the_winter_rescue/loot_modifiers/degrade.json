@@ -1,8 +1,8 @@
 {"type": "frostedheart:replace_loot",
 "changes":[
-{"from":{"item":"minecraft:iron_ingot"},"to":"kubejs:rusted_iron_ingot"},
-{"from":{"tag":"forge:ingots/copper"},"to":"kubejs:rusted_copper_ingot"},
-{"from":{"tag":"forge:ingots/tin"},"to":"kubejs:gray_tin_ingot"}
+{"from":{"item":"minecraft:iron_ingot"},"to":"frostedheart:rusted_iron_ingot"},
+{"from":{"tag":"forge:ingots/copper"},"to":"frostedheart:rusted_copper_ingot"},
+{"from":{"tag":"forge:ingots/tin"},"to":"frostedheart:gray_tin_ingot"}
 ],
 "conditions": [
 {"condition":"frostedheart:treasure"}

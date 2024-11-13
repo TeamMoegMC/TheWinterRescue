@@ -19,7 +19,7 @@ onEvent('recipes', (event) => {
 	 {output:'kubejs:charcoal_briquette', input:'kubejs:bound_charcoal_briquette'},
 	 {output:'kubejs:sawdust_briquette', input:'kubejs:creosoted_sawdust_briquette'},
 	 {output:'kubejs:straw_briquette', input:'kubejs:wet_straw_briquette'},
-	{output:'#forge:ingots/tin',input: 'kubejs:gray_tin_ingot'},
+	{output:'#forge:ingots/tin',input: 'frostedheart:gray_tin_ingot'},
 		{output: '4x minecraft:red_dye',input:'frostedheart:lead_oxide_dust'},
 		{output: 'create:zinc_ingot',input:'#forge:dusts/zinc'}
     ];

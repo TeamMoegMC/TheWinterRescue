@@ -12,7 +12,6 @@ onEvent('recipes', (event) => {
 	{output:['#forge:dusts/coal_coke'],input: '#forge:coal_coke'},
 	{output:['#forge:dusts/hop_graphite'],input: '#forge:ingots/hop_graphite'},
 	{output:[Item.of('frostedheart:sawdust').withChance(0.8)],input: '#minecraft:planks'},
-	{output:[Item.of('kubejs:bituminous_coal_dust')],input: '#forge:graphite'},
 	{output:[Item.of('frostedheart:sawdust').withChance(0.4)],input: 'minecraft:stick'},
 	{output:["frostedheart:rye_flour",Item.of("charcoal_pit:straw"),Item.of("2x frostedheart:rye_flour").withChance(0.25),Item.of("frostedheart:rye_block").withChance(0.1)],input: 'frostedheart:rye'},
 	{output:["create:wheat_flour",Item.of("2x create:wheat_flour").withChance(0.25),Item.of("minecraft:wheat_seeds").withChance(0.25)],input: 'minecraft:wheat'},

@@ -52,19 +52,15 @@ onEvent('item.tags', (event) => {
 	event.add("kubejs:fuel_stick","kubejs:straw_briquette")
 	event.add("frostedheart:ash","charcoal_pit:ash")
 	event.add("frostedheart:cow_feed","charcoal_pit:straw");
-	event.add("kubejs:coal_dust","kubejs:anthracite_dust")
-	event.add("kubejs:coal_dust","kubejs:bituminous_coal_dust")
-	event.add("kubejs:coal_dust","kubejs:subbituminous_coal_dust")
-	event.add("kubejs:coal_dust","kubejs:lignite_dust")
 	event.add("kubejs:coal_dust","kubejs:coal_dust")
 	event.add("kubejs:kiln_dust","kubejs:charcoal_dust")
 	event.add("kubejs:kiln_dust","kubejs:coal_dust")
 	event.add("kubejs:fuel_glue","minecraft:slime_ball")
 	event.add("kubejs:fuel_glue","create:dough")
 	event.add("kubejs:fuel_glue","#forge:bitumen")
-	event.add("forge:ores/copper","kubejs:rusted_copper_ingot")
-	event.add("forge:ores/tin","kubejs:gray_tin_ingot")
-	event.add("forge:ores/iron","kubejs:rusted_iron_ingot")
+	event.add("forge:ores/copper","frostedheart:rusted_copper_ingot")
+	event.add("forge:ores/tin","frostedheart:gray_tin_ingot")
+	event.add("forge:ores/iron","frostedheart:rusted_iron_ingot")
 	event.add("forge:dusts/zinc","frostedheart:zinc_dust")
 	//event.remove("caupona:mushroom","#forge:mushrooms");
 	//event.add("caupona:mushroom","#forge:edible_mushrooms");

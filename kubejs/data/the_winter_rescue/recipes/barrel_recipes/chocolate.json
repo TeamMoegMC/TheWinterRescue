@@ -4,7 +4,7 @@
   	"item":"frostedheart:generator_ash"
   },
   "fluid_in":{
-  	"fluid":"kubejs:protein",
+  	"fluid":"frostedheart:protein",
   	"amount": 1000
   },
   "item_out":{

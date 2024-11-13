@@ -37,5 +37,4 @@ const disabledItems = [
     // 'create:schematicannon',
     // 'create:mechanical_plough',
 
-	'kubejs:fluorine_bucket'
 ]

@@ -7,11 +7,11 @@ onEvent('recipes', (event) => {
             {input: 'frostedheart:raw_pyrite', output: 'minecraft:iron_ingot', time: 400},
             {input: 'minecraft:raw_iron', output: 'minecraft:iron_ingot', time: 400},
             {input: 'frostedheart:raw_pentlandite', output: 'immersiveengineering:ingot_nickel', time: 400},
-			{input: 'kubejs:rusted_iron_ingot', output: 'minecraft:iron_ingot', time: 200},
+			{input: 'frostedheart:rusted_iron_ingot', output: 'minecraft:iron_ingot', time: 200},
             {input: 'frostedheart:raw_galena', output: 'immersiveengineering:ingot_lead', time: 200},
-            {input: 'kubejs:gold', output: 'minecraft:gold_ingot', time: 200},
+            {input: 'frostedheart:raw_gold', output: 'minecraft:gold_ingot', time: 200},
             {input: 'frostedheart:raw_silver', output: 'immersiveengineering:ingot_silver', time: 200},
-            {input: 'kubejs:halite', output: 'frostedheart:sodium_chloride_dust', time: 200},
+            {input: 'frostedheart:raw_halite', output: 'frostedheart:sodium_chloride_dust', time: 200},
             {input: 'create:raw_zinc', output: 'create:zinc_ingot', time: 200}
         ]
     event.remove({type: 'immersiveengineering:blast_furnace', output: 'immersiveengineering:ingot_steel'});

@@ -8,7 +8,7 @@
   	"amount": 500
   },
   "fluid_out":{
-  	"fluid":"kubejs:lime_water",
+  	"fluid":"frostedheart:lime_water",
   	"amount": 500
   },
   "flags": 1,

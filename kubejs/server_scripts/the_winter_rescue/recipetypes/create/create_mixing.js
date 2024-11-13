@@ -4,8 +4,8 @@ onEvent('recipes', (event) => {
         ['3x frostedheart:fire_clay_ball'],input:
         ['4x frostedheart:kaolin_dust', '4x frostedheart:bauxite_dust', 'minecraft:clay_ball']},
     {output:
-        [Fluid.of('kubejs:cryolite', 500)],input:
-        ['2x frostedheart:cryolite_dust', 'frostedheart:aluminium_hydroxide_dust', Fluid.of('kubejs:sulfuric_acid', 500)]},
+        [Fluid.of('frostedheart:cryolite', 500)],input:
+        ['2x frostedheart:cryolite_dust', 'frostedheart:aluminium_hydroxide_dust', Fluid.of('frostedheart:sulfuric_acid', 500)]},
     {output:
         ['3x frostedheart:vulcanized_rubber'],input:
         ['immersiveengineering:dust_sulfur', Fluid.of('frostedheart:latex', 500)]},
@@ -13,23 +13,11 @@ onEvent('recipes', (event) => {
         ['3x frostedheart:vulcanized_rubber'],input:
         [Fluid.of('frostedheart:sulfur_dioxide', 125), Fluid.of('frostedheart:latex', 500)]},
     {output:
-        [Fluid.of('kubejs:lime_water', 1000)],input:
+        [Fluid.of('frostedheart:lime_water', 1000)],input:
         ['frostedheart:quicklime', Fluid.of('minecraft:water', 1000)]},
     {output:
-        ['2x kubejs:limed_coal'],input:
-        ['kubejs:anthracite_dust', Fluid.of('kubejs:lime_water', 100)]},
-    {output:
         ['kubejs:limed_coal'],input:
-        ['kubejs:subbituminous_coal_dust', Fluid.of('kubejs:lime_water', 100)]},
-    {output:
-        ['kubejs:limed_coal'],input:
-        ['kubejs:coal_dust', Fluid.of('kubejs:lime_water', 100)]},
-    {output:
-        ['3x kubejs:limed_coal'],input:
-        ['2x kubejs:bituminous_coal_dust', Fluid.of('kubejs:lime_water', 200)]},
-    {output:
-        ['2x kubejs:limed_coal'],input:
-        ['3x kubejs:lignite_dust', Fluid.of('kubejs:lime_water', 200)]},
+        ['kubejs:coal_dust', Fluid.of('frostedheart:lime_water', 100)]},
 	{output:
         ['frostedheart:raw_rye_bread'],input:
         ['2x frostedheart:rye_flour', Fluid.of('minecraft:water', 1000)]},
@@ -41,34 +29,34 @@ onEvent('recipes', (event) => {
         ['create:dough','minecraft:sugar']},
 	{output:
         ['kubejs:bounded_graphite'],input:
-        ['4x #forge:dusts/hop_graphite',Fluid.of('kubejs:tar',1000)]},
+        ['4x #forge:dusts/hop_graphite',Fluid.of('frostedheart:tar',1000)]},
 	{output: 
 		[Fluid.of('minecraft:milk', 1000)], input: 
-		[Fluid.of('kubejs:protein', 500),Fluid.of('minecraft:water', 500),"minecraft:sugar"]},
+		[Fluid.of('frostedheart:protein', 500),Fluid.of('minecraft:water', 500),"minecraft:sugar"]},
 	{output: 
-		[Fluid.of('kubejs:ferrous_chloride', 375)], input: 
-		[Fluid.of('kubejs:hydrochloric_acid', 750),'create:crushed_raw_iron']},
+		[Fluid.of('frostedheart:ferrous_chloride', 375)], input: 
+		[Fluid.of('frostedheart:hydrochloric_acid', 750),'create:crushed_raw_iron']},
 	{output: 
-		[Fluid.of('kubejs:ferrous_chloride', 250),"immersiveengineering:slag"], input: 
-		[Fluid.of('kubejs:hydrochloric_acid', 500),'frostedheart:iron_slag']},
+		[Fluid.of('frostedheart:ferrous_chloride', 250),"immersiveengineering:slag"], input: 
+		[Fluid.of('frostedheart:hydrochloric_acid', 500),'frostedheart:iron_slag']},
 	{output: 
-		[Fluid.of('kubejs:ferric_chloride', 500)], input: 
-		[Fluid.of('kubejs:ferrous_chloride', 500),'#forge:dusts/iron']},
+		[Fluid.of('frostedheart:ferric_chloride', 500)], input: 
+		[Fluid.of('frostedheart:ferrous_chloride', 500),'#forge:dusts/iron']},
 	{output: 
-		[Fluid.of('kubejs:ferrous_chloride', 250)], input: 
-		[Fluid.of('kubejs:hydrochloric_acid', 500),'kubejs:rusted_iron_ingot']},
+		[Fluid.of('frostedheart:ferrous_chloride', 250)], input: 
+		[Fluid.of('frostedheart:hydrochloric_acid', 500),'frostedheart:rusted_iron_ingot']},
 	{output: 
-		[Fluid.of('kubejs:copper_chloride', 375)], input: 
-		[Fluid.of('kubejs:hydrochloric_acid', 750),'frostedheart:copper_oxide_dust']},
+		[Fluid.of('frostedheart:copper_chloride', 375)], input: 
+		[Fluid.of('frostedheart:hydrochloric_acid', 750),'frostedheart:copper_oxide_dust']},
 	{output: 
-		[Fluid.of('kubejs:zinc_sulfate', 375)], input: 
-		[Fluid.of('kubejs:sulfuric_acid', 750),'frostedheart:zinc_oxide_dust']},
+		[Fluid.of('frostedheart:zinc_sulfate', 375)], input: 
+		[Fluid.of('frostedheart:sulfuric_acid', 750),'frostedheart:zinc_oxide_dust']},
 	{output: 
-		[Fluid.of('kubejs:copper_chloride', 300)], input: 
-		[Fluid.of('kubejs:hydrochloric_acid', 600),'create:crushed_raw_copper']},
+		[Fluid.of('frostedheart:copper_chloride', 300)], input: 
+		[Fluid.of('frostedheart:hydrochloric_acid', 600),'create:crushed_raw_copper']},
 	{output: 
 		[Fluid.of('minecraft:milk', 1000)], input: 
-		[Fluid.of('kubejs:protein', 500),Fluid.of('minecraft:water', 500),"minecraft:sugar"]},
+		[Fluid.of('frostedheart:protein', 500),Fluid.of('minecraft:water', 500),"minecraft:sugar"]},
 	{output:
         ['8x immersiveengineering:treated_wood_horizontal'],input:
 	['8x #minecraft:planks',Fluid.of('immersiveengineering:creosote',1000)]},
@@ -88,10 +76,10 @@ onEvent('recipes', (event) => {
         ['2x frostedheart:high_refractory_brick'],input:
         ['4x frostedheart:fire_clay_ball', '2x frostedheart:magnesia_dust', '2x frostedheart:quicklime']},
 	{output:
-        [Fluid.of('kubejs:sulfuric_acid', 500)],input:
+        [Fluid.of('frostedheart:sulfuric_acid', 500)],input:
         ['2x #forge:dusts/sulfur', Fluid.of('minecraft:water', 500)]},
 	{output:
-        [Fluid.of('kubejs:sulfuric_acid', 500)],input:
+        [Fluid.of('frostedheart:sulfuric_acid', 500)],input:
         [Fluid.of('frostedheart:sulfur_dioxide',250), Fluid.of('minecraft:water', 500)]},
     {output:
         ['frostedheart:aluminium_hydroxide_dust'],input:
@@ -100,10 +88,10 @@ onEvent('recipes', (event) => {
         [Fluid.of('caupona:nail_soup', 1000)],input:
         ['kubejs:activated_carbon', Fluid.of('minecraft:water', 1000)]},
     {output:
-        [Fluid.of('kubejs:magnesium_chloride', 250)],input:
-        ['frostedheart:magnesia_dust', Fluid.of('kubejs:hydrochloric_acid', 500)]},
+        [Fluid.of('frostedheart:magnesium_chloride', 250)],input:
+        ['frostedheart:magnesia_dust', Fluid.of('frostedheart:hydrochloric_acid', 500)]},
 	{output:
-        [Fluid.of('kubejs:hydrochloric_acid', 1000)],input:
+        [Fluid.of('frostedheart:hydrochloric_acid', 1000)],input:
         [Fluid.of('minecraft:water', 1000), Fluid.of('frostedheart:chlorine', 500)]},
     {output:
         ['3x immersiveindustry:refractory_kiln_brick'],input:

@@ -4,7 +4,7 @@
   	"item":"minecraft:sand"
   },
   "fluid_in":{
-  	"fluid":"kubejs:lime_water",
+  	"fluid":"frostedheart:lime_water",
   	"amount": 500
   },
   "item_out":{

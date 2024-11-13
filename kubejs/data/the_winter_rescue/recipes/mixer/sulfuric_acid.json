@@ -5,7 +5,7 @@
             "count":2
           }],
         "result": {
-            "fluid": "kubejs:sulfuric_acid","amount": 800
+            "fluid": "frostedheart:sulfuric_acid","amount": 800
         },
 		"fluid": {
             "tag": "minecraft:water","amount": 800

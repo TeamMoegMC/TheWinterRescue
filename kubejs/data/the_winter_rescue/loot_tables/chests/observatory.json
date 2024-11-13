@@ -71,7 +71,7 @@
               }
             }
           ],
-          "name": "kubejs:rusted_copper_ingot"
+          "name": "frostedheart:rusted_copper_ingot"
         },
 		{
           "type": "minecraft:item",
@@ -86,7 +86,7 @@
               }
             }
           ],
-          "name": "kubejs:gray_tin_ingot"
+          "name": "frostedheart:gray_tin_ingot"
         },
         {
           "type": "minecraft:item",

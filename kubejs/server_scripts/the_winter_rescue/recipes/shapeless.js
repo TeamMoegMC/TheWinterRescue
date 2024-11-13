@@ -23,7 +23,6 @@ onEvent('recipes', (event) => {
 		shapelessRecipe(Item.of('frostedheart:thermos', '{Damage:0,Fluid:{FluidName:"frostedheart:wolfberry_tea",Amount:1500}}'), [Item.of('frostedheart:thermos', '{Damage:0,Fluid:{FluidName:"caupona:nail_soup",Amount:1500}}'), 'frostedheart:dried_wolfberries']),
 		shapelessRecipe('frostedheart:quill_and_ink', ['minecraft:feather', 'minecraft:glass_bottle','4x frostedheart:generator_ash']),
 		shapelessRecipe('frostedheart:rubbing_tool', ['4x frostedheart:generator_ash', 'minecraft:paper',"frostedheart:rubbing_pad"]),
-		shapelessRecipe('4x minecraft:white_dye',["kubejs:antimony_oxide"]),
 	]
 	Ingredient.of("#forge:vertical_slabs").getItemIds().forEach((name)=>{
 		let i=Ingredient.of(name.replace("_vertical",""));
@@ -43,11 +42,7 @@ onEvent('recipes', (event) => {
 			newShapelessRecipes.push(shapelessRecipeGroup(((i)*count)+'x kubejs:limed_coal',cr,cr[0]));
 		}
 	}
-	makeLimedCoal(2,8,['kubejs:anthracite_dust']);
-	makeLimedCoal(1,8,['kubejs:subbituminous_coal_dust']);
 	makeLimedCoal(1,4,['kubejs:coal_dust']);
-	makeLimedCoal(3,4,['kubejs:bituminous_coal_dust','kubejs:bituminous_coal_dust']);
-	makeLimedCoal(2,2,['kubejs:lignite_dust','kubejs:lignite_dust','kubejs:lignite_dust']);
     /**
      * Remove a recipe from minecraft crafting table and add new one
      */

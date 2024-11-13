@@ -8,7 +8,7 @@
             "item": "frostedheart:aluminium_hydroxide_dust"
           }],
         "result": {
-            "fluid": "kubejs:cryolite","amount": 550
+            "fluid": "frostedheart:cryolite","amount": 550
         },
 		"fluid": {
             "tag": "the_winter_rescue:fluidsulfuricacid","amount": 550

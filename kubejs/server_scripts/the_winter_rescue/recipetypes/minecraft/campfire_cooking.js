@@ -12,7 +12,7 @@ onEvent('recipes', (event) => {
 	campfireRecipe('kubejs:sawdust_briquette', 'kubejs:creosoted_sawdust_briquette',0,200),
 	campfireRecipe('kubejs:straw_briquette', 'kubejs:wet_straw_briquette',0,200),
 	campfireRecipe('frostedheart:rye_bread', Item.of('frostedheart:raw_rye_bread'),0,200),
-	campfireRecipe('#forge:ingots/tin', 'kubejs:gray_tin_ingot',0,600)
+	campfireRecipe('#forge:ingots/tin', 'frostedheart:gray_tin_ingot',0,600)
     ]
 	recipes.forEach((recipe) => {
         event.campfireCooking(recipe.result, recipe.ingredients,0,recipe.time)

@@ -398,45 +398,7 @@ Ponder.registry(event => {
 			scene.idle(60)
         })
 
-	event.create("the_winter_rescue:beehive_oven_pit", ["frostedheart:beehive_oven_pit"])
-        .tag("the_winter_rescue:beehive_oven_pit")
-        .scene("basic_usage", "", "kubejs:beehive_oven_pit", (scene, util) => {
-            scene.configureBasePlate(0, 0, 5)
-            scene.rotateCameraY(-70)
-			scene.showBasePlate()
-			scene.idle(20)
 
-            scene.world().showSection(util.select().layer(1), Facing.down)
-            scene.addKeyframe()
-            scene.idle(40)
-            
-			scene.overlay().showText(40)
-                .text("Place marble on the top without blocking the beehive oven pit")
-                .pointAt(util.vector().centerOf(util.grid().at(2, 2, 2)))
-            scene.overlay().showOutline(PonderPalette.GREEN, new Object(), util.select().fromTo(1, 2, 1, 3, 2, 3), 40)
-            scene.world().showSection(util.select().layer(2), Facing.down)
-            scene.addKeyframe()
-            scene.idle(50)
-
-            const pos = util.grid().at(2, 1, 2);
-			scene.overlay().showText(40)
-                .text("After placing the blocks, use a flint and steel to turn it on")
-                .pointAt(util.vector().blockSurface(pos, Facing.up))
-            scene.overlay().showControls(new PonderInput(util.vector().blockSurface(pos, Facing.up), PonderPointing.DOWN)
-                .rightClick().withItem("minecraft:flint_and_steel"),
-                40)
-			scene.world().modifyBlock(pos, state => state.with("lit",true))
-            scene.addKeyframe()
-			scene.idle(40)
-
-			scene.overlay().showText(40)
-                .text("Once it finishes, you will get quicklime from the marble")
-                .pointAt(util.vector().centerOf(pos))
-            scene.world().moveSection(scene.world().showIndependentSectionImmediately(util.select().fromTo(1, 3, 1, 3, 5, 3)), util.vector().of(0, -3, 0), 0)
-            scene.world().replaceBlocks(util.select().fromTo(1, 1, 1, 3, 2, 3), util.getDefaultState("minecraft:air"), false)
-			scene.world().modifyBlock(pos, state => state.with("lit",true))
-            scene.idle(40)
-        })
 	event.create("the_winter_rescue:charcoal_pit", ["charcoal_pit:log_pile"])
         .tag("the_winter_rescue:charcoal_pit")
         .scene("basic_usage", "", "kubejs:charcoal_pit", (scene, util) => {
