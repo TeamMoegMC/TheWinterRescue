@@ -1,4 +1,4 @@
-RecipeViewerEvents.addInformation((event) => {
+JEIEvents.information((event) => {
     const recipes = [
         {
             items: ['frostedheart:energy_core'],

@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
             {
                 input: 'minecraft:sandstone',
                 output: Item.of('minecraft:quartz', 4),
-                secondary: [Item.of('minecraft:quartz').chance(0.5)],
+                secondary: [Item.of('minecraft:quartz').withChance(0.5)],
             }
         ]
 

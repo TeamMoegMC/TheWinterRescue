@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
             "tool": recipe.tool.toJson(),
             "chopTimes": recipe.chop,
             "amount": recipe.amount,
-            "result": recipe.result.toResultJson()
+            "result": recipe.result.toJson()
         })
     })
     recipes.forEach((recipe) => {
@@ -75,7 +75,7 @@ ServerEvents.recipes(event => {
             "tool": recipe.tool.toJson(),
             "chopTimes": recipe.chop,
             "amount": recipe.amount,
-            "result": recipe.result.toResultJson()
+            "result": recipe.result.toJson()
         })
     })
 });

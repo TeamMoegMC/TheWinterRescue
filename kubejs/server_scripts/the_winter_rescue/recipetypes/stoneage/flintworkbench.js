@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
             C: 'minecraft:clay_ball'
         }),
         shapedRecipe('stone_age:grass_mesh', ['A A', ' A ', 'A A'], {
-            A: 'frostedheart:rope'
+            A: 'stone_age:grass_lead'
         }),
         shapedRecipe('stone_age:cobweb_mesh', ['A A', ' A ', 'A A'], {
             A: 'minecraft:string'
@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
         }),
         shapedRecipe('charcoal_pit:main_bloomery', ['ABA', 'BCB', 'ABA'], {
             A: 'frostedheart:mortar',
-            B: 'steampowered:bronze_sheet',
+            B: 'frostedheart:bronze_sheet',
             C: 'charcoal_pit:sandy_brick'
         }),
         shapedRecipe('charcoal_pit:sandy_tuyere', ['BAB', 'ACA', 'BAB'], {
@@ -114,24 +114,24 @@ ServerEvents.recipes(event => {
             A: 'minecraft:sand',
             B: 'minecraft:clay_ball'
         }),
-        shapedRecipe('frostedheart:flint_pickaxe', ['ABA', ' C ', ' C '], {
+        shapedRecipe('frostedheart:makeshift_pickaxe', ['ABA', ' C ', ' C '], {
             A: 'minecraft:flint',
-            B: 'frostedheart:rope',
+            B: 'stone_age:grass_lead',
             C: 'minecraft:stick'
         }),
-        shapedRecipe('frostedheart:flint_axe', ['AB', 'AC', ' C'], {
+        shapedRecipe('frostedheart:makeshift_axe', ['AB', 'AC', ' C'], {
             A: 'minecraft:flint',
-            B: 'frostedheart:rope',
+            B: 'stone_age:grass_lead',
             C: 'minecraft:stick'
         }),
-        shapedRecipe('frostedheart:flint_spear', [' AA', ' BA', 'C  '], {
+        shapedRecipe('frostedheart:makeshift_spear', [' AA', ' BA', 'C  '], {
             A: 'minecraft:flint',
-            B: 'frostedheart:rope',
+            B: 'stone_age:grass_lead',
             C: 'minecraft:stick'
         }),
-        shapedRecipe('frostedheart:flint_shovel', ['A', 'B', 'C'], {
+        shapedRecipe('frostedheart:makeshift_shovel', ['A', 'B', 'C'], {
             A: 'minecraft:flint',
-            B: 'frostedheart:rope',
+            B: 'stone_age:grass_lead',
             C: 'minecraft:stick'
         }),
         shapedRecipe('charcoal_pit:barrel', ['AAA', 'A A', 'AAA'], {
@@ -169,7 +169,7 @@ ServerEvents.recipes(event => {
         shapedRecipe('frostedheart:straw_lining', ['AAA', 'CBC', 'AAA'], {
             A: 'charcoal_pit:straw',
             B: 'stone_age:leather_strip',
-            C: 'frostedheart:rope'
+            C: 'stone_age:grass_lead'
         }),
         shapedRecipe('frostedheart:thermos', ['ACA', 'BCB', 'BAB'], {
             A: '#forge:plates/copper',
@@ -221,7 +221,6 @@ ServerEvents.recipes(event => {
         shapedRecipe('frostedheart:rye_bread', ['AAA'], {
             A: 'frostedheart:rye'
         }),
-        // TODO: Change to frostedheart version for watersource entries
         shapedRecipe('frostedheart:wooden_cup', ['A A', 'A A', ' A '], {
             A: '#minecraft:planks'
         }),
@@ -274,22 +273,22 @@ ServerEvents.recipes(event => {
         }),
         shapedRecipe('frostedheart:hay_hat', ['AAA', 'A A', 'B B'], {
             A: 'charcoal_pit:straw',
-            B: 'frostedheart:rope'
+            B: 'stone_age:grass_lead'
         }),
         shapedRecipe('frostedheart:hay_jacket', ['ABA', 'ABA', 'AAA'], {
             A: 'charcoal_pit:straw',
-            B: 'frostedheart:rope'
+            B: 'stone_age:grass_lead'
         }),
         shapedRecipe('frostedheart:hay_pants', ['AAA', 'ABA', 'ABA'], {
             A: 'charcoal_pit:straw',
-            B: 'frostedheart:rope'
+            B: 'stone_age:grass_lead'
         }),
         shapedRecipe('kubejs:clay_bucket', ['A A', 'A A', ' A '], {
             A: 'minecraft:clay_ball'
         }),
         shapedRecipe('frostedheart:hay_boots', ['ABA', 'ABA'], {
             A: 'charcoal_pit:straw',
-            B: 'frostedheart:rope'
+            B: 'stone_age:grass_lead'
         }),
         shapedRecipe('frostedheart:drawing_desk', ['BB ', 'CAB', 'AAB'], {
             A: '#minecraft:planks',
@@ -317,9 +316,9 @@ ServerEvents.recipes(event => {
         shapedRecipe('frostedheart:coal_stick', ['A'], {
             A: 'kubejs:coal_briquette'
         }),
-        shapedRecipe('frostedheart:flint_hoe', ['AB', ' C', ' C'], {
+        shapedRecipe('frostedheart:makeshift_hoe', ['AB', ' C', ' C'], {
             A: 'minecraft:flint',
-            B: 'frostedheart:rope',
+            B: 'stone_age:grass_lead',
             C: 'minecraft:stick'
         }),
         shapedRecipe('2x minecraft:bowl', ['A A', ' A '], {
@@ -351,6 +350,3 @@ ServerEvents.recipes(event => {
         event.shaped(recipe.result, recipe.pattern, recipe.key)
     })
 });
-onEvent('item.tags', (event) => {
-event.add('\u0066\u0074\u0062\u0075\u006c\u0074\u0069\u006d\u0069\u006e\u0065\u003a\u0069\u006e\u0063\u006c\u0075\u0064\u0065\u0064\u005f\u0074\u006f\u006f\u006c\u0073','\u0063\u0072\u0065\u0061\u0074\u0065\u003a\u006c\u0061\u0072\u0067\u0065\u005f\u0063\u006f\u0067\u0077\u0068\u0065\u0065\u006c')
-})

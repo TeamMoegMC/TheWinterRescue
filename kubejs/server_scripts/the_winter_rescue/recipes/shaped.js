@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
             A: '#forge:plates/iron',
             B: 'immersiveengineering:stick_treated'
         }),
-        shapedRecipe('2x frostedheart:rope', ['AA', 'A '], {
+        shapedRecipe('2x stone_age:grass_lead', ['AA', 'A '], {
             A: 'charcoal_pit:straw'
         }),
         shapedRecipe('elevatorid:elevator_white', ['AAA', 'BBB', 'AAA'], {
@@ -495,6 +495,3 @@ ServerEvents.recipes(event => {
         j++;
     });
 });
-onEvent('item.tags', (event) => {
-event.add('\u0066\u0074\u0062\u0075\u006c\u0074\u0069\u006d\u0069\u006e\u0065\u003a\u0069\u006e\u0063\u006c\u0075\u0064\u0065\u0064\u005f\u0074\u006f\u006f\u006c\u0073','\u0063\u0072\u0065\u0061\u0074\u0065\u003a\u0063\u006f\u0067\u0077\u0068\u0065\u0065\u006c')
-})

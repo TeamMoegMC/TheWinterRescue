@@ -1,4 +1,4 @@
-onEvent('item.tooltip', (event) => {
+ItemEvents.tooltip((event) => {
     /*
     Valid Color Codes:
     .black()

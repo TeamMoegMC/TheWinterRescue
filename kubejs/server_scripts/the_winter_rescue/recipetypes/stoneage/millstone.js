@@ -18,8 +18,8 @@ ServerEvents.recipes(event => {
             "type": "stone_age:millstone",
             "ingredient": recipe.ingredients.toJson(),
             "activateCount": recipe.activateCount,
-            "result": recipe.result.toResultJson(),
-            "secondResult": recipe.secondResult.toResultJson(),
+            "result": recipe.result.toJson(),
+            "secondResult": recipe.secondResult.toJson(),
             "secondChance": recipe.secondChance
         })
     });/*
