@@ -51,7 +51,7 @@
 		#Enable spawning of mob
 		spawnDeerEnable = true
 		#Spawn deer in allowed biomes
-		spawnDeerAllowedBiomes = ["minecraft:tall_birch_hills", "minecraft:eroded_badlands", "minecraft:taiga_hills", "minecraft:snowy_mountains", "minecraft:wooded_hills", "minecraft:snowy_taiga_mountains", "minecraft:shattered_savanna", "minecraft:modified_jungle_edge", "minecraft:gravelly_mountains", "minecraft:snowy_taiga", "minecraft:savanna", "minecraft:swamp", "minecraft:modified_badlands_plateau", "minecraft:snowy_beach", "minecraft:badlands", "minecraft:forest", "minecraft:bamboo_jungle", "minecraft:snowy_tundra", "minecraft:taiga", "minecraft:giant_tree_taiga", "minecraft:modified_gravelly_mountains", "minecraft:wooded_mountains", "minecraft:birch_forest", "minecraft:dark_forest_hills", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga_hills", "minecraft:jungle_hills", "minecraft:mountains", "minecraft:giant_tree_taiga_hills", "minecraft:jungle", "minecraft:savanna_plateau", "minecraft:badlands_plateau", "minecraft:snowy_taiga_hills", "minecraft:plains", "minecraft:beach", "minecraft:swamp_hills", "minecraft:wooded_badlands_plateau", "minecraft:jungle_edge", "minecraft:modified_wooded_badlands_plateau", "minecraft:modified_jungle", "minecraft:mountain_edge", "minecraft:ice_spikes", "minecraft:dark_forest", "minecraft:giant_spruce_taiga", "minecraft:bamboo_jungle_hills", "minecraft:birch_forest_hills", "minecraft:shattered_savanna_plateau", "minecraft:tall_birch_forest", "minecraft:taiga_mountains", "minecraft:flower_forest"]
+		spawnDeerAllowedBiomes = []
 		#Spawn weight of mob
 		#Range: 0 ~ 100
 		spawnDeerWeight = 8
@@ -74,7 +74,7 @@
 		#Range: 1 ~ 100
 		spawnBoarMaxCount = 6
 		#Spawn boar in allowed biomes
-		spawnBoarAllowedBiomes = ["minecraft:tall_birch_hills", "minecraft:mountains", "minecraft:taiga_hills", "minecraft:giant_tree_taiga_hills", "minecraft:wooded_hills", "minecraft:jungle", "minecraft:snowy_taiga_mountains", "minecraft:shattered_savanna", "minecraft:modified_jungle_edge", "minecraft:savanna_plateau", "minecraft:gravelly_mountains", "minecraft:snowy_taiga_hills", "minecraft:plains", "minecraft:snowy_taiga", "minecraft:savanna", "minecraft:swamp_hills", "minecraft:swamp", "minecraft:jungle_edge", "minecraft:modified_jungle", "minecraft:mountain_edge", "minecraft:forest", "minecraft:bamboo_jungle", "minecraft:dark_forest", "minecraft:giant_spruce_taiga", "minecraft:bamboo_jungle_hills", "minecraft:taiga", "minecraft:giant_tree_taiga", "minecraft:birch_forest_hills", "minecraft:modified_gravelly_mountains", "minecraft:shattered_savanna_plateau", "minecraft:tall_birch_forest", "minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:dark_forest_hills", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga_hills", "minecraft:jungle_hills"]
+		spawnBoarAllowedBiomes = []
 		#If spawnBoarAllowedBiomes is blacklist
 		spawnBoarAllowedBiomesBlacklist = false
 
@@ -86,7 +86,7 @@
 		#Range: 1 ~ 100
 		spawnWoollyRhinoMinCount = 2
 		#Spawn woolly rhino in allowed biomes
-		spawnWoollyRhinoAllowedBiomes = ["minecraft:taiga_hills", "minecraft:snowy_mountains", "minecraft:giant_tree_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:shattered_savanna", "minecraft:savanna_plateau", "minecraft:mushroom_field_shore", "minecraft:snowy_taiga_hills", "minecraft:plains", "minecraft:snowy_taiga", "minecraft:beach", "minecraft:savanna", "minecraft:swamp_hills", "minecraft:swamp", "minecraft:snowy_beach", "minecraft:river", "minecraft:mushroom_fields", "minecraft:ice_spikes", "minecraft:frozen_river", "minecraft:snowy_tundra", "minecraft:giant_spruce_taiga", "minecraft:taiga", "minecraft:giant_tree_taiga", "minecraft:shattered_savanna_plateau", "minecraft:taiga_mountains", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga_hills"]
+		spawnWoollyRhinoAllowedBiomes = []
 		#Enable spawning of mob
 		spawnWoollyRhinoEnable = true
 		#Spawn weight of mob
@@ -104,7 +104,7 @@
 		#Range: 0 ~ 100
 		spawnTerrorBirdWeight = 5
 		#Spawn terror bird in allowed biomes
-		spawnTerrorBirdAllowedBiomes = ["minecraft:tall_birch_hills", "minecraft:modified_jungle", "minecraft:wooded_hills", "minecraft:jungle", "minecraft:shattered_savanna", "minecraft:modified_jungle_edge", "minecraft:forest", "minecraft:savanna_plateau", "minecraft:bamboo_jungle", "minecraft:mushroom_fields", "minecraft:mushroom_field_shore", "minecraft:plains", "minecraft:savanna", "minecraft:dark_forest", "minecraft:bamboo_jungle_hills", "minecraft:birch_forest_hills", "minecraft:shattered_savanna_plateau", "minecraft:tall_birch_forest", "minecraft:jungle_edge", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:dark_forest_hills", "minecraft:sunflower_plains", "minecraft:jungle_hills"]
+		spawnTerrorBirdAllowedBiomes = []
 		#Spawn max count of mob
 		#Range: 1 ~ 100
 		spawnTerrorBirdMaxCount = 3
@@ -121,7 +121,7 @@
 		#Enable spawning of mob
 		spawnCoelacanthEnable = true
 		#Spawn coelacanth in allowed biomes
-		spawnCoelacanthAllowedBiomes = ["minecraft:tall_birch_hills", "minecraft:eroded_badlands", "minecraft:taiga_hills", "minecraft:snowy_mountains", "minecraft:wooded_hills", "minecraft:end_midlands", "minecraft:end_barrens", "minecraft:snowy_taiga_mountains", "minecraft:shattered_savanna", "minecraft:modified_jungle_edge", "minecraft:soul_sand_valley", "minecraft:gravelly_mountains", "minecraft:the_void", "minecraft:snowy_taiga", "minecraft:savanna", "minecraft:small_end_islands", "minecraft:modified_badlands_plateau", "minecraft:basalt_deltas", "minecraft:snowy_beach", "minecraft:badlands", "minecraft:forest", "minecraft:bamboo_jungle", "minecraft:mushroom_fields", "minecraft:snowy_tundra", "minecraft:taiga", "minecraft:giant_tree_taiga", "minecraft:modified_gravelly_mountains", "minecraft:wooded_mountains", "minecraft:birch_forest", "minecraft:dark_forest_hills", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga_hills", "minecraft:desert", "minecraft:jungle_hills", "minecraft:mountains", "minecraft:giant_tree_taiga_hills", "minecraft:jungle", "minecraft:warped_forest", "minecraft:savanna_plateau", "minecraft:badlands_plateau", "minecraft:mushroom_field_shore", "minecraft:snowy_taiga_hills", "minecraft:crimson_forest", "minecraft:plains", "minecraft:beach", "minecraft:end_highlands", "minecraft:desert_lakes", "minecraft:wooded_badlands_plateau", "minecraft:jungle_edge", "minecraft:modified_wooded_badlands_plateau", "minecraft:desert_hills", "minecraft:stone_shore", "minecraft:nether_wastes", "minecraft:the_end", "minecraft:modified_jungle", "minecraft:mountain_edge", "minecraft:ice_spikes", "minecraft:dark_forest", "minecraft:giant_spruce_taiga", "minecraft:bamboo_jungle_hills", "minecraft:birch_forest_hills", "minecraft:shattered_savanna_plateau", "minecraft:tall_birch_forest", "minecraft:taiga_mountains", "minecraft:flower_forest"]
+		spawnCoelacanthAllowedBiomes = []
 		#Spawn max count of mob
 		#Range: 1 ~ 100
 		spawnCoelacanthMaxCount = 3
@@ -139,7 +139,7 @@
 		#Range: 1 ~ 100
 		spawnMouflonMinCount = 4
 		#Spawn mouflon in allowed biomes
-		spawnMouflonAllowedBiomes = ["minecraft:tall_birch_hills", "minecraft:eroded_badlands", "minecraft:mountains", "minecraft:taiga_hills", "minecraft:giant_tree_taiga_hills", "minecraft:wooded_hills", "minecraft:snowy_taiga_mountains", "minecraft:badlands_plateau", "minecraft:gravelly_mountains", "minecraft:snowy_taiga_hills", "minecraft:plains", "minecraft:snowy_taiga", "minecraft:swamp_hills", "minecraft:swamp", "minecraft:wooded_badlands_plateau", "minecraft:modified_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:badlands", "minecraft:mountain_edge", "minecraft:forest", "minecraft:dark_forest", "minecraft:giant_spruce_taiga", "minecraft:taiga", "minecraft:giant_tree_taiga", "minecraft:birch_forest_hills", "minecraft:modified_gravelly_mountains", "minecraft:tall_birch_forest", "minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:dark_forest_hills", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga_hills"]
+		spawnMouflonAllowedBiomes = []
 		#Result of breeding after generations in captivity
 		mouflonBreedingResult = "minecraft:sheep"
 		#Enable spawning of mob
@@ -150,7 +150,7 @@
 
 	["mob spawning".auroch]
 		#Spawn auroch in allowed biomes
-		spawnAurochAllowedBiomes = ["minecraft:tall_birch_hills", "minecraft:mountains", "minecraft:taiga_hills", "minecraft:giant_tree_taiga_hills", "minecraft:wooded_hills", "minecraft:snowy_taiga_mountains", "minecraft:shattered_savanna", "minecraft:savanna_plateau", "minecraft:gravelly_mountains", "minecraft:snowy_taiga_hills", "minecraft:plains", "minecraft:snowy_taiga", "minecraft:beach", "minecraft:savanna", "minecraft:snowy_beach", "minecraft:mountain_edge", "minecraft:forest", "minecraft:dark_forest", "minecraft:giant_spruce_taiga", "minecraft:taiga", "minecraft:giant_tree_taiga", "minecraft:birch_forest_hills", "minecraft:modified_gravelly_mountains", "minecraft:shattered_savanna_plateau", "minecraft:tall_birch_forest", "minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:dark_forest_hills", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga_hills"]
+		spawnAurochAllowedBiomes = []
 		#Spawn min count of mob
 		#Range: 1 ~ 100
 		spawnAurochMinCount = 4
@@ -177,7 +177,7 @@
 		#Range: 1 ~ 100
 		spawnSaberToothTigerMaxCount = 2
 		#Spawn saber-tooth tiger in allowed biomes
-		spawnSaberToothTigerAllowedBiomes = ["minecraft:tall_birch_hills", "minecraft:taiga_hills", "minecraft:snowy_mountains", "minecraft:giant_tree_taiga_hills", "minecraft:wooded_hills", "minecraft:jungle", "minecraft:snowy_taiga_mountains", "minecraft:shattered_savanna", "minecraft:modified_jungle_edge", "minecraft:savanna_plateau", "minecraft:mushroom_field_shore", "minecraft:snowy_taiga_hills", "minecraft:plains", "minecraft:snowy_taiga", "minecraft:beach", "minecraft:savanna", "minecraft:desert_lakes", "minecraft:jungle_edge", "minecraft:desert_hills", "minecraft:snowy_beach", "minecraft:modified_jungle", "minecraft:forest", "minecraft:bamboo_jungle", "minecraft:mushroom_fields", "minecraft:ice_spikes", "minecraft:snowy_tundra", "minecraft:dark_forest", "minecraft:giant_spruce_taiga", "minecraft:bamboo_jungle_hills", "minecraft:taiga", "minecraft:giant_tree_taiga", "minecraft:birch_forest_hills", "minecraft:shattered_savanna_plateau", "minecraft:tall_birch_forest", "minecraft:taiga_mountains", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:dark_forest_hills", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga_hills", "minecraft:desert", "minecraft:jungle_hills"]
+		spawnSaberToothTigerAllowedBiomes = []
 		#Spawn weight of mob
 		#Range: 0 ~ 100
 		spawnSaberToothTigerWeight = 2
@@ -198,7 +198,7 @@
 		#Result of breeding after generations in captivity
 		fowlBreedingResult = "minecraft:chicken"
 		#Spawn fowl in allowed biomes
-		spawnFowlAllowedBiomes = ["minecraft:tall_birch_hills", "minecraft:eroded_badlands", "minecraft:mountains", "minecraft:taiga_hills", "minecraft:giant_tree_taiga_hills", "minecraft:wooded_hills", "minecraft:jungle", "minecraft:snowy_taiga_mountains", "minecraft:shattered_savanna", "minecraft:modified_jungle_edge", "minecraft:savanna_plateau", "minecraft:badlands_plateau", "minecraft:gravelly_mountains", "minecraft:snowy_taiga_hills", "minecraft:plains", "minecraft:snowy_taiga", "minecraft:beach", "minecraft:savanna", "minecraft:swamp_hills", "minecraft:swamp", "minecraft:wooded_badlands_plateau", "minecraft:jungle_edge", "minecraft:modified_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:snowy_beach", "minecraft:badlands", "minecraft:modified_jungle", "minecraft:mountain_edge", "minecraft:forest", "minecraft:bamboo_jungle", "minecraft:dark_forest", "minecraft:giant_spruce_taiga", "minecraft:bamboo_jungle_hills", "minecraft:taiga", "minecraft:giant_tree_taiga", "minecraft:birch_forest_hills", "minecraft:modified_gravelly_mountains", "minecraft:shattered_savanna_plateau", "minecraft:tall_birch_forest", "minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:birch_forest", "minecraft:flower_forest", "minecraft:dark_forest_hills", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga_hills", "minecraft:jungle_hills"]
+		spawnFowlAllowedBiomes = []
 		#Spawn min count of mob
 		#Range: 1 ~ 100
 		spawnFowlMinCount = 6
@@ -215,14 +215,14 @@
 		#Enable spawning of mob
 		spawnMammothEnable = true
 		#Spawn mammoth in allowed biomes
-		spawnMammothAllowedBiomes = ["minecraft:mountains", "minecraft:taiga_hills", "minecraft:snowy_mountains", "minecraft:giant_tree_taiga_hills", "minecraft:snowy_taiga_mountains", "minecraft:shattered_savanna", "minecraft:savanna_plateau", "minecraft:gravelly_mountains", "minecraft:snowy_taiga_hills", "minecraft:plains", "minecraft:snowy_taiga", "minecraft:savanna", "minecraft:desert_lakes", "minecraft:desert_hills", "minecraft:mountain_edge", "minecraft:ice_spikes", "minecraft:snowy_tundra", "minecraft:giant_spruce_taiga", "minecraft:taiga", "minecraft:giant_tree_taiga", "minecraft:modified_gravelly_mountains", "minecraft:shattered_savanna_plateau", "minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:sunflower_plains", "minecraft:giant_spruce_taiga_hills", "minecraft:desert"]
+		spawnMammothAllowedBiomes = []
 		#Spawn min count of mob
 		#Range: 1 ~ 100
 		spawnMammothMinCount = 2
 
 [aqueduct]
 	#List of biomes where aqueduct doesn't remove water source
-	infinityWaterSourceBiomeList = ["minecraft:cold_ocean", "minecraft:deep_ocean", "minecraft:river", "minecraft:frozen_ocean", "minecraft:ocean", "minecraft:deep_lukewarm_ocean", "minecraft:frozen_river", "minecraft:lukewarm_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:warm_ocean", "minecraft:deep_warm_ocean"]
+	infinityWaterSourceBiomeList = []
 
 [Config]
 	#If grass bed can sleep
