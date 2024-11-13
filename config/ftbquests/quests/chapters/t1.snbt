@@ -3,9 +3,9 @@
 	default_quest_shape: ""
 	filename: "t1"
 	group: "7823E178F7BCBCB0"
-	icon: "minecraft:stone"
+	icon: "stone_age:tree_stump"
 	id: "0F108F94F3A03203"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -61,7 +61,7 @@
 			tasks: [{
 				id: "56616CBB1C923EE5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:planks"
@@ -146,7 +146,7 @@
 				icon: "create:copper_sheet"
 				id: "1FD4E3357F016517"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:plates/copper"
@@ -369,7 +369,7 @@
 				{
 					id: "12A0DA88BBDE3896"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "the_winter_rescue:flux_block"
@@ -635,7 +635,7 @@
 			tasks: [{
 				id: "355CFC0B2AE4BC52"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "frostedheart:bronze_pickaxe"
 					tag: {
 						Damage: 0
@@ -919,7 +919,7 @@
 			tasks: [{
 				id: "7279CB115270D37C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "frostedheart:bronze_axe"
 					tag: {
 						Damage: 0
@@ -997,7 +997,7 @@
 				{
 					id: "358AAF5CE7EE2574"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "kubejs:fuel_stick"
@@ -1076,7 +1076,7 @@
 				{
 					id: "2943C3BA554D6BD1"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "caupona:stoves"
@@ -1086,7 +1086,6 @@
 					type: "item"
 				}
 			]
-			title: "{block.thermopolium.stew_pot}"
 			x: -8.5d
 			y: 4.5d
 		}
@@ -1174,7 +1173,7 @@
 			tasks: [{
 				id: "37481E6ADB51B8CD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "frostedheart:colored_thermos"
@@ -1304,17 +1303,30 @@
 				type: "item"
 			}]
 			subtitle: "{quest.twr.47F9EC8C18040D6D.subtitle}"
-			tasks: [{
-				id: "0AF2FDBE1D3E93EC"
-				item: {
-					Count: 1b
-					id: "frostedheart:snowshoes"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0AF2FDBE1D3E93EC"
+					item: {
+						Count: 1
+						id: "frostedheart:snowshoes"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7936FA3EDED203BF"
+					item: {
+						Count: 1
+						id: "frostedheart:ice_skates"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -2.5d
 		}
@@ -1371,6 +1383,19 @@
 			title: "{quest.twr.75154C5A6E2F3257.title}"
 			x: 12.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["72D5B725766622F4"]
+			description: ["{quest.twr.4D0ECD01E0CC7C8C.description.1}"]
+			id: "4D0ECD01E0CC7C8C"
+			optional: true
+			tasks: [{
+				id: "0C0AF66C6E85F840"
+				item: "charcoal_pit:mechanical_bellows"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
 		}
 	]
 	subtitle: ["{chapter.twr.0F108F94F3A03203.subtitle}"]

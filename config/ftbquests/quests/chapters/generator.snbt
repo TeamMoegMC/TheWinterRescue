@@ -16,7 +16,7 @@
 				"{quest.twr.69D939596ED4C0AF.description.3}"
 				"{quest.twr.69D939596ED4C0AF.description.4}"
 			]
-			icon: "frostedheart:generator"
+			icon: "frostedheart:generator_t1"
 			id: "69D939596ED4C0AF"
 			rewards: [
 				{
@@ -124,7 +124,7 @@
 				"{quest.twr.4BBE69E2E2A4276F.description.2}"
 				"{quest.twr.4BBE69E2E2A4276F.description.3}"
 			]
-			icon: "frostedheart:heat_radiator"
+			icon: "frostedheart:radiator"
 			id: "4BBE69E2E2A4276F"
 			shape: "gear"
 			size: 1.5d

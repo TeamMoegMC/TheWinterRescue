@@ -5,7 +5,7 @@
 	group: "7823E178F7BCBCB0"
 	icon: "immersiveengineering:wirecoil_copper_ins"
 	id: "0F92A786237ACCA8"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -25,7 +25,7 @@
 				{
 					id: "079F2D4900B8B247"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:dusts/aluminum"
@@ -37,7 +37,7 @@
 				{
 					id: "33F1689BF5E74F5D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:ingots/aluminum"
@@ -117,7 +117,7 @@
 				icon: "immersiveengineering:ingot_steel"
 				id: "147D66FD5DDDF718"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/steel"

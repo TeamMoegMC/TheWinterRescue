@@ -5,7 +5,7 @@
 	group: "7823E178F7BCBCB0"
 	icon: "steampowered:cast_iron_flywheel"
 	id: "3A3B51CF7F606665"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -86,37 +86,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["678491900C7F03F2"]
-			description: ["{quest.twr.4D0ECD01E0CC7C8C.description.1}"]
-			id: "4D0ECD01E0CC7C8C"
-			optional: true
-			tasks: [{
-				id: "0C0AF66C6E85F840"
-				item: "charcoal_pit:mechanical_bellows"
-				type: "item"
-			}]
-			x: -27.0d
-			y: 2.5d
-		}
-		{
-			description: ["{quest.twr.678491900C7F03F2.description.1}"]
-			hide: true
-			id: "678491900C7F03F2"
-			rewards: [{
-				id: "1F4A65E03FA8662B"
-				item: "crockpot:potato_souffle"
-				type: "item"
-			}]
-			tasks: [{
-				count: 8L
-				id: "0192DDC9FA0A04C9"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
-			x: -27.0d
-			y: 1.0d
-		}
-		{
 			dependencies: ["6000F43C135FC068"]
 			description: [
 				"{quest.twr.3E8F565DE61309B2.description.1}"
@@ -135,10 +104,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"678491900C7F03F2"
-				"75154C5A6E2F3257"
-			]
+			dependencies: ["75154C5A6E2F3257"]
 			description: [
 				"{quest.twr.404CFF89CCFE9D6B.description.1}"
 				"{quest.twr.404CFF89CCFE9D6B.description.2}"
@@ -534,7 +500,7 @@
 				{
 					id: "6EA2092A24799526"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "create:sandpaper"
@@ -622,10 +588,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"4548F432A872DA92"
-				"29556685F57F6657"
-			]
+			dependencies: ["4548F432A872DA92"]
 			description: ["{quest.twr.6738A3C34A872FED.description.1}"]
 			id: "6738A3C34A872FED"
 			shape: "gear"
@@ -649,62 +612,8 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -1.5d
-		}
-		{
-			dependencies: ["71D389AF87847D7B"]
-			description: [
-				"{quest.twr.67486831FE3C0FBA.description.1}"
-				"{quest.twr.67486831FE3C0FBA.description.2}"
-				"{quest.twr.67486831FE3C0FBA.description.3}"
-			]
-			hide: true
-			hide_dependency_lines: false
-			id: "67486831FE3C0FBA"
-			rewards: [{
-				id: "1C09568153E99A49"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "gear"
-			subtitle: "{quest.twr.67486831FE3C0FBA.subtitle}"
-			tasks: [{
-				id: "256EB689FE3A60BF"
-				item: "frostedheart:beehive_oven_pit"
-				type: "item"
-			}]
-			x: -18.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["67486831FE3C0FBA"]
-			description: ["{quest.twr.29556685F57F6657.description.1}"]
-			hide: false
-			hide_dependency_lines: false
-			id: "29556685F57F6657"
-			shape: "gear"
-			subtitle: "{quest.twr.29556685F57F6657.subtitle}"
-			tasks: [{
-				id: "24B9A949656EBA70"
-				item: "frostedheart:magnesia_block"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["67486831FE3C0FBA"]
-			description: ["{quest.twr.4F279E9DBFD52861.description.1}"]
-			id: "4F279E9DBFD52861"
-			subtitle: "{quest.twr.4F279E9DBFD52861.subtitle}"
-			tasks: [{
-				id: "3BC11F00CF381B42"
-				item: "frostedheart:quicklime_block"
-				type: "item"
-			}]
-			x: -19.5d
-			y: 4.5d
 		}
 		{
 			dependencies: ["4845A9B7B7B2B4A5"]
@@ -818,33 +727,16 @@
 		}
 		{
 			dependencies: ["064ECF25B9B8962B"]
-			description: ["{quest.twr.55BE6F159CF89342.description.1}"]
-			icon: "frostedheart:tree_tap"
+			icon: "minecraft:dandelion"
 			id: "55BE6F159CF89342"
-			rewards: [{
-				id: "637C54ABCD6B2265"
-				item: "frostedheart:sharinga_sapling"
-				type: "item"
-			}]
 			shape: "gear"
 			subtitle: "{quest.twr.55BE6F159CF89342.subtitle}"
-			tasks: [
-				{
-					id: "2FFA0D6FE0FC9143"
-					item: "frostedheart:tree_tap"
-					type: "item"
-				}
-				{
-					id: "4B6CBEEBEBDCE204"
-					item: "frostedheart:tap_line"
-					type: "item"
-				}
-				{
-					id: "7C92DD3FB4C1D3E7"
-					item: "frostedheart:flood_gate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "44801E41AF525D71"
+				item: "minecraft:dandelion"
+				type: "item"
+			}]
+			title: "Rubber"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -913,7 +805,7 @@
 			tasks: [{
 				id: "1D1735E320565F58"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:ingots/nickel"

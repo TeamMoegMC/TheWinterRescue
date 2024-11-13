@@ -41,7 +41,7 @@
 				{
 					id: "69827A684F506414"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "kubejs:tetra_hammer"
@@ -101,7 +101,7 @@
 			tasks: [{
 				id: "0059CAED35FD2A7C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "frostedheart:bronze_pickaxe"
 					tag: {
 						Damage: 0
@@ -289,7 +289,7 @@
 			tasks: [{
 				id: "20BE12091228596E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:wool"

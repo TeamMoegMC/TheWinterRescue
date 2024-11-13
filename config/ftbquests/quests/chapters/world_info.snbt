@@ -36,8 +36,8 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.181378ABF5CCD166.title}"
-			x: -0.5d
-			y: 0.5d
+			x: -6.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -51,11 +51,11 @@
 			subtitle: "{quest.twr.7D2807571451631F.subtitle}"
 			tasks: [{
 				id: "3DD88F3B703D29A6"
-				item: "frostedheart:raw_cassiterite"
+				item: "frostedheart:raw_tin"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.0d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -69,11 +69,11 @@
 			subtitle: "{quest.twr.40254682DFE145B8.subtitle}"
 			tasks: [{
 				id: "2EB0C8C2F9ADED2A"
-				item: "frostedheart:raw_pentlandite"
+				item: "frostedheart:raw_nickel"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.0d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -90,8 +90,8 @@
 				item: "frostedheart:raw_pyrite"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -108,8 +108,8 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -126,8 +126,8 @@
 				item: "frostedheart:bauxite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 3.0d
+			x: -5.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -144,26 +144,8 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["181378ABF5CCD166"]
-			description: [
-				"{quest.twr.5581901DD85F746D.description.1}"
-				"{quest.twr.5581901DD85F746D.description.2}"
-			]
-			hide_dependency_lines: true
-			hide_text_until_complete: true
-			id: "5581901DD85F746D"
-			subtitle: "{quest.twr.5581901DD85F746D.subtitle}"
-			tasks: [{
-				id: "0546782F91CF48F9"
-				item: "frostedheart:cryolite_dust"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 4.0d
+			x: -5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -177,11 +159,11 @@
 			subtitle: "{quest.twr.5907E1263E6D81E2.subtitle}"
 			tasks: [{
 				id: "322C517CA36D00A6"
-				item: "frostedheart:raw_galena"
+				item: "frostedheart:raw_lead"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -198,8 +180,8 @@
 				item: "minecraft:raw_gold"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -216,8 +198,8 @@
 				item: "frostedheart:raw_silver"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -235,7 +217,7 @@
 				item: "create:raw_zinc"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -3.5d
 			y: 4.0d
 		}
 		{
@@ -253,8 +235,8 @@
 				item: "frostedheart:raw_magnesite"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: -5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -269,8 +251,8 @@
 				type: "item"
 			}]
 			title: "{quest.twr.707E5C06843421A7.title}"
-			x: -5.0d
-			y: 2.0d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -287,8 +269,8 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -305,8 +287,8 @@
 				item: "frostedheart:raw_halite"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.0d
+			x: -3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["181378ABF5CCD166"]
@@ -317,11 +299,11 @@
 			subtitle: "{quest.twr.73242CFC1E655F2D.subtitle}"
 			tasks: [{
 				id: "29005A15A2EBDBEE"
-				item: "frostedheart:kaolin_block"
+				item: "frostedheart:kaolin"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.0d
+			x: -3.5d
+			y: 8.5d
 		}
 		{
 			id: "61D23CC76588F126"
@@ -331,7 +313,47 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "5EAB0DA77FA7EB00"
+			tasks: [{
+				id: "332381177E924AAE"
+				item: "frostedheart:raw_sylvite"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			id: "3B7A00F478CA4039"
+			tasks: [{
+				id: "1158E98A7F40337E"
+				item: "frostedheart:peat"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			id: "4132A35DF97BFE3F"
+			tasks: [{
+				id: "0FE5E49EB779C202"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			id: "7BF6873FAD829A65"
+			tasks: [{
+				id: "13DD95F030FFCEF8"
+				item: "frostedheart:biomass"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
 		}
 	]
 	subtitle: ["{chapter.twr.683664CACFD52C99.subtitle.0}"]

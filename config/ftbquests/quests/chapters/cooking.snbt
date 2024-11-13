@@ -250,7 +250,7 @@
 			tasks: [{
 				id: "3890274B4A2DD114"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "frostedheart:mushroom_base"
@@ -447,7 +447,7 @@
 					count: 8L
 					id: "5656D07546CDEC9C"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:mushrooms"
