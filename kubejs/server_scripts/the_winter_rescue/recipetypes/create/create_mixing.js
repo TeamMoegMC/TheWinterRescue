@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
 	let recipes = [
     {output:
         ['3x frostedheart:fire_clay_ball'],input:

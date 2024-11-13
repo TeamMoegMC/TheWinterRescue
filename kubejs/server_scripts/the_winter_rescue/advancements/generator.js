@@ -1,4 +1,4 @@
-onEvent('server.datapack.high_priority', (event) => {
+ServerEvents.highPriorityData(event => {
     event.addJson('the_winter_rescue:advancements/generator_core_t1.json', {
         parent: 'the_winter_rescue:root',
         display: {

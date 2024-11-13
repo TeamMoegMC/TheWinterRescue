@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     const recipes = [
         {
              input: 'kubejs:shaped_bounded_graphite',

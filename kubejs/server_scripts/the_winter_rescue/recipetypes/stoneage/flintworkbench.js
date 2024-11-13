@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     const additional_crafting_table_recipes = [
         shapedRecipe('stone_age:fishing_net', ['BAB', 'ACA', 'BAB'], {
             A: 'stone_age:leather_strip',

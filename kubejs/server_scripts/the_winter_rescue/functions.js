@@ -29,9 +29,6 @@ function shapelessRecipe(result, ingredients, id) {
 function shapelessRecipeGroup(result, ingredients, id, group) {
     return {result: result, ingredients: ingredients, id: id, group: group};
 }
-function beehiveRecipe(input, result) {
-    return {type: 'frostedheart:beehive_oven', input: input, result: result};
-}
 
 function inspireRecipe(input, result) {
     return {type: 'frostedheart:inspire', item: Item.of(input).toJson(), amount: result};

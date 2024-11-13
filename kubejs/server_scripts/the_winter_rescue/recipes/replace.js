@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     event.replaceInput({}, 'create:andesite_alloy', 'frostedheart:cast_iron_ingot')
     event.replaceInput({}, 'create:cogwheel', '#the_winter_rescue:cogwheels')
     event.replaceInput({}, 'create:large_cogwheel', '#the_winter_rescue:large_cogwheels')

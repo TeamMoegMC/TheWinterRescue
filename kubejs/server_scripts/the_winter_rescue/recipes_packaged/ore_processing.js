@@ -1,5 +1,5 @@
 
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
 var ores = ["frostedheart:raw_pyrite", "frostedheart:raw_pentlandite", "frostedheart:raw_cassiterite", "frostedheart:bauxite", "frostedheart:kaolin", "frostedheart:raw_magnesite", "frostedheart:raw_galena", "frostedheart:raw_halite", "frostedheart:raw_silver", "minecraft:raw_gold", "minecraft:raw_iron", "create:raw_zinc", "minecraft:raw_copper"];
 var ore_name = ["pyrite", "pentlandite", "cassiterite", "bauxite", "kaolin", "magnesite", "galena", "halite", "silver", "gold", "iron", "zinc", "copper"];
 var by_products = [];

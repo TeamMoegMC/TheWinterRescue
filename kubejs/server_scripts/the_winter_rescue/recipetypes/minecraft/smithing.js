@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     const recipes = [
         // {
         //     input1: 'aiotbotania:terra_aiot',

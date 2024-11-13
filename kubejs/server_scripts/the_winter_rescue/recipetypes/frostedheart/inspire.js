@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     var inspireRecipes = [
         inspireRecipe("kubejs:damaged_gpu", 1000),
         inspireRecipe("kubejs:damaged_circuit_board", 600),

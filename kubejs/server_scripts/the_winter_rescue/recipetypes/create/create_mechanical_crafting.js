@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     let recipes = [
         shapedRecipe('steampowered:alternator', ['BBEBB', 'FFACD', 'BBEBB'], {
             A: '#forge:sheetmetals/steel',

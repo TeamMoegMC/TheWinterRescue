@@ -1,6 +1,6 @@
 //priority = 800
 
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     let flint_workbench = [
         'minecraft:furnace'
     ]

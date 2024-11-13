@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     const recipes = [
         millstoneRecipe(Item.of('frostedheart:bauxite_dust', 2), Item.of('frostedheart:crushed_bauxite_ore'),
             Item.of('frostedheart:bauxite_dust'), 0.4, 2),

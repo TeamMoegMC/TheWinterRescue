@@ -1,4 +1,4 @@
-onEvent('block.loot_tables', event => {
+ServerEvents.blockLootTables( event => {
 	var ore_blocks = [
 "frostedheart:pyrite_ore", 
 "frostedheart:pentlandite_ore", 

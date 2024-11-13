@@ -16,7 +16,7 @@ let colors=["white",
 "red"
 ];
 
-onEvent('item.tags', (event) => {
+ServerEvents.tags('item', event => {
     event.add('itemfilters:check_nbt', 'tetra:modular_double')
 	event.add('frostedheart:knife', 'tetra:modular_sword')
 	event.add('frostedheart:knife', '#forge:knives')

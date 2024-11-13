@@ -2,7 +2,7 @@
  * For creating all standard minecraft:crafting_shapeless recipes
  */
 
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
 
     var changeShapelessRecipes = [
 		shapelessRecipe('2x minecraft:flint', ['minecraft:gravel','minecraft:gravel','minecraft:gravel']),

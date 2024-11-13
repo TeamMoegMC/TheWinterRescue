@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     const recipes = [
 	// TODO: Change to frostedheart version for watersource entries
     campfireRecipe(Item.of('frostedheart:wooden_cup_drink', '{Fluid:{FluidName:"frostedheart:purified_water",Amount:250}}'), Item.of('frostedheart:wooden_cup_drink', '{Fluid:{FluidName:"minecraft:water",Amount:250}}'),800),

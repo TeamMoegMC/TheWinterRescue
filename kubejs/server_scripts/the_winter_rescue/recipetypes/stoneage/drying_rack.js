@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     event.remove({type: 'stone_age:drying_rack'})
     event.custom({
         "type": "stone_age:drying_rack",

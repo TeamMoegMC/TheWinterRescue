@@ -1,4 +1,4 @@
-onEvent('server.datapack.high_priority', (event) => {
+ServerEvents.highPriorityData(event => {
     event.addJson('the_winter_rescue:advancements/root.json',
 
         {

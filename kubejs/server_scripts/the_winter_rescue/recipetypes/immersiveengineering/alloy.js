@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     let recipes = [
             {
                 input1: 'minecraft:cobblestone',

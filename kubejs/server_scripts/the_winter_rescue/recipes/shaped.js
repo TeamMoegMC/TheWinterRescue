@@ -2,7 +2,7 @@
  * For creating all standard minecraft:crafting_shaped recipes
  */
 
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
 
     var changeRecipes = [
         shapedRecipe('charcoal_pit:mechanical_bellows', ['AAA', 'BC ', 'AAA'], {

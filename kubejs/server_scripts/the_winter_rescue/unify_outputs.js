@@ -14,7 +14,7 @@
 
     From Enigmatica 6.
 */
-// onEvent('recipes', (event) => {
+// ServerEvents.recipes( event => {
 //     materialsToUnify.forEach((material) => {
 //         typesToUnify.forEach((type) => {
 //             if (!entryIsBlacklisted(material, type)) {

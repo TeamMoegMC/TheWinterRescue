@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     const recipes = [
         tree_stumpRecipe(Item.of('create:copper_sheet'), Item.of('create:copper_ingot'),
             Ingredient.of('#forge:hammers'), 3, 2),

@@ -1,3 +1,3 @@
-onEvent('block.tags', (event) => {
+ServerEvents.tags('block', event => {
 
 });

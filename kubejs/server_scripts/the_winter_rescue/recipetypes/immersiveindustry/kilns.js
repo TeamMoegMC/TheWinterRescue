@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     function simpleCarkilnRecipe(input,output){
         return carkilnRecipe([input],[output],600)
 	}

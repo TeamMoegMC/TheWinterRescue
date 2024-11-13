@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     let items = [
         {output: 'frostedheart:crushed_bauxite_ore', input: 'frostedheart:bauxite'},
         {output: '4x frostedheart:kaolin', input: 'frostedheart:kaolin_block'},

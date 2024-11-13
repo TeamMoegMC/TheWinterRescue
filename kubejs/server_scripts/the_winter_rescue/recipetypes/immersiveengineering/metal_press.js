@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
 
     event.remove({type: 'immersiveengineering:metal_press'});
 

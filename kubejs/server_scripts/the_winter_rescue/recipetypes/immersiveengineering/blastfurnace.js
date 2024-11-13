@@ -1,4 +1,4 @@
-onEvent('recipes', (event) => {
+ServerEvents.recipes(event => {
     let recipes = [
             {input: 'immersiveengineering:dust_aluminum', output: 'immersiveengineering:ingot_aluminum', time: 800},
             {input: 'minecraft:iron_ingot', output: 'frostedheart:cast_iron_ingot', time: 900},
