@@ -20,4 +20,13 @@ steamCoreCapacity = 32.0
 forceEnableTemperatureForecast = true
 #Enables snow accumulation during world generation.
 enableSnowAccumulationDuringWorldgen = false
+#The chance of igniting when using a flint and metal.
+#Range: 0.0 ~ 1.0
+flintIgnitionChance = 0.1
+#The chance of igniting igniting when using a stick.
+#Range: 0.0 ~ 1.0
+stickIgnitionChance = 0.05
+#The chance of consuming the item when ignited.
+#Range: 0.0 ~ 1.0
+consumeChanceWhenIgnited = 0.1
 

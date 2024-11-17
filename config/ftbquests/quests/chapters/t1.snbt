@@ -5,7 +5,7 @@
 	group: "7823E178F7BCBCB0"
 	icon: "stone_age:tree_stump"
 	id: "0F108F94F3A03203"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

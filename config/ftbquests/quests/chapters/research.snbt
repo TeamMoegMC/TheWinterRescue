@@ -10,8 +10,8 @@
 			Damage: 0
 		}
 	}
-	id: "78BF95C3EB111C85"
-	order_index: 3
+	id: "0A016090E53DFA3B"
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -29,12 +29,12 @@
 			]
 			hide: true
 			icon: "frostedheart:drawing_desk"
-			id: "03534A91186B723A"
+			id: "391E30AD9CB7147F"
 			shape: "gear"
 			size: 1.2d
 			subtitle: "{quest.twr.391E30AD9CB7147F.subtitle}"
 			tasks: [{
-				id: "1C6619CC6B690FF1"
+				id: "2D456863275FBF11"
 				title: "{quest.twr.391E30AD9CB7147F.2D456863275FBF11.title}"
 				type: "checkmark"
 			}]
@@ -54,11 +54,11 @@
 			]
 			hide: true
 			icon: "storagedrawers:drawer_key"
-			id: "53F60C841526F814"
+			id: "1DE66DB6DF406019"
 			shape: "gear"
 			subtitle: "{quest.twr.1DE66DB6DF406019.subtitle}"
 			tasks: [{
-				id: "1CB2E21E6D4E09E7"
+				id: "2EBA1153448C9CF0"
 				title: "{quest.twr.1DE66DB6DF406019.2EBA1153448C9CF0.title}"
 				type: "checkmark"
 			}]
@@ -80,11 +80,11 @@
 			]
 			hide: true
 			icon: "minecraft:paper"
-			id: "31BCE2205BAE369B"
+			id: "1938FC4AAD99137E"
 			shape: "gear"
 			subtitle: "{quest.twr.1938FC4AAD99137E.subtitle}"
 			tasks: [{
-				id: "0E6AF66528F04EBA"
+				id: "0A0A4C059B9D1326"
 				title: "{quest.twr.1938FC4AAD99137E.0A0A4C059B9D1326.title}"
 				type: "checkmark"
 			}]
@@ -106,12 +106,12 @@
 					Damage: 0
 				}
 			}
-			id: "227C066FC70CF4BB"
+			id: "1B1E71042B20A174"
 			shape: "gear"
 			subtitle: "{quest.twr.1B1E71042B20A174.subtitle}"
 			tasks: [
 				{
-					id: "58004330D7AC6E2E"
+					id: "4CAE6A7D06E0828A"
 					item: {
 						Count: 1
 						id: "frostedheart:quill_and_ink"
@@ -122,7 +122,7 @@
 					type: "item"
 				}
 				{
-					id: "25C8E9B9A937D9D9"
+					id: "13C03F4F281E5D5B"
 					item: "minecraft:paper"
 					type: "item"
 				}
@@ -141,11 +141,11 @@
 				"{quest.twr.4F8E2D7FDA9A1D17.description.6}"
 			]
 			icon: "immersiveengineering:electron_tube"
-			id: "2613905FB73E6846"
+			id: "4F8E2D7FDA9A1D17"
 			shape: "gear"
 			subtitle: "{quest.twr.4F8E2D7FDA9A1D17.subtitle}"
 			tasks: [{
-				id: "24D61BA93559470D"
+				id: "58D65C019BCBE2B1"
 				title: "{quest.twr.4F8E2D7FDA9A1D17.58D65C019BCBE2B1.title}"
 				type: "checkmark"
 			}]
@@ -160,11 +160,11 @@
 				"{quest.twr.37726761B26CE51C.description.3}"
 			]
 			hide: true
-			id: "778C8B72E17782E3"
+			id: "37726761B26CE51C"
 			shape: "gear"
 			subtitle: "{quest.twr.37726761B26CE51C.subtitle}"
 			tasks: [{
-				id: "2E562351E8915228"
+				id: "67AE103E9E6F8142"
 				title: "{quest.twr.37726761B26CE51C.67AE103E9E6F8142.title}"
 				type: "checkmark"
 			}]
@@ -184,16 +184,16 @@
 			]
 			hide: true
 			icon: "frostedheart:mechanical_calculator"
-			id: "617FCB9D73B93AD8"
+			id: "2148082183BBDF76"
 			shape: "gear"
 			subtitle: "{quest.twr.2148082183BBDF76.subtitle}"
 			tasks: [
 				{
-					id: "7423CF6BB9B55635"
+					id: "5E1553441402B573"
 					type: "checkmark"
 				}
 				{
-					id: "1DCF97408EA1BD25"
+					id: "5D187FDAD6ED625E"
 					item: "frostedheart:mechanical_calculator"
 					type: "item"
 				}
@@ -212,10 +212,10 @@
 			]
 			hide: true
 			icon: "minecraft:compass"
-			id: "41BA2D6529359161"
+			id: "690B75C64EB9A7C1"
 			subtitle: "{quest.twr.690B75C64EB9A7C1.subtitle}"
 			tasks: [{
-				id: "718F3F0CCCACFF3E"
+				id: "21383D39C08AA7AC"
 				type: "checkmark"
 			}]
 			title: "{quest.twr.690B75C64EB9A7C1.title}"
@@ -230,16 +230,16 @@
 			]
 			hide: true
 			icon: "kubejs:damaged_gpu"
-			id: "6F85974024DC137C"
+			id: "6496F756C2514C7A"
 			optional: true
 			rewards: [{
-				id: "49E496FA7842F4BC"
+				id: "3871AF6D3C55EE76"
 				item: "kubejs:burnt_circuit_board"
 				type: "item"
 			}]
 			subtitle: "{quest.twr.6496F756C2514C7A.subtitle}"
 			tasks: [{
-				id: "3CB5648CB9FC738F"
+				id: "6CC4B72975823D53"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -262,10 +262,10 @@
 				"{quest.twr.2ED180AF29DA4A90.description.3}"
 			]
 			hide: true
-			id: "71BF25ECCB44F602"
+			id: "2ED180AF29DA4A90"
 			subtitle: "{quest.twr.2ED180AF29DA4A90.subtitle}"
 			tasks: [{
-				id: "6C91266F75A1D49F"
+				id: "597C01D2306DDADF"
 				title: "{quest.twr.2ED180AF29DA4A90.597C01D2306DDADF.title}"
 				type: "checkmark"
 			}]
@@ -282,10 +282,10 @@
 				"{quest.twr.37B4F2A2F05B5332.description.5}"
 			]
 			icon: "frostedheart:mechanical_calculator"
-			id: "2DD585B83424E27E"
+			id: "37B4F2A2F05B5332"
 			subtitle: "{quest.twr.37B4F2A2F05B5332.subtitle}"
 			tasks: [{
-				id: "2A75B94ACFB11567"
+				id: "5A776C2750943747"
 				type: "checkmark"
 			}]
 			title: "{quest.twr.37B4F2A2F05B5332.title}"
@@ -302,11 +302,11 @@
 				"{quest.twr.5D7B5ABC70D38636.description.5}"
 				"{quest.twr.5D7B5ABC70D38636.description.6}"
 			]
-			id: "5612910BBE5245B6"
+			id: "5D7B5ABC70D38636"
 			optional: true
 			subtitle: "{quest.twr.5D7B5ABC70D38636.subtitle}"
 			tasks: [{
-				id: "00A9E287F248EE4F"
+				id: "0CE7434E21F44E0A"
 				item: {
 					Count: 1
 					id: "frostedheart:rubbing_tool"
@@ -350,11 +350,11 @@
 					}
 				}
 			}
-			id: "01B966839701E7B3"
+			id: "1340B00283A4D085"
 			shape: "gear"
 			subtitle: "{quest.twr.1340B00283A4D085.subtitle}"
 			tasks: [{
-				id: "75436B10525A8445"
+				id: "3680291ED52D3A59"
 				title: "{quest.twr.1340B00283A4D085.3680291ED52D3A59.title}"
 				type: "checkmark"
 			}]
@@ -377,15 +377,15 @@
 			]
 			hide_dependency_lines: true
 			icon: "crockpot:salmon_sushi"
-			id: "2B479FC7BB977BBE"
+			id: "4D3FCF56475C0CD7"
 			rewards: [{
-				id: "14289B2D8DE70755"
+				id: "6B501B88DE8C0101"
 				item: "crockpot:california_roll"
 				type: "item"
 			}]
 			subtitle: "{quest.twr.4D3FCF56475C0CD7.subtitle}"
 			tasks: [{
-				id: "43BC98203320E150"
+				id: "74EA581650245E6D"
 				title: "{quest.twr.4D3FCF56475C0CD7.74EA581650245E6D.title}"
 				type: "checkmark"
 			}]
