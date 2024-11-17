@@ -11,7 +11,7 @@
 /versions/
 /mods/
 /crash-reports/
-/CustomSkinLoader/
+# /CustomSkinLoader/
 /shaderpacks/
 /ambience_music/
 /backups/

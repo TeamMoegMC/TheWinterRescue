@@ -1,0 +1,30 @@
+{
+  "version": "14.13",
+  "buildNumber": 303,
+  "loadlist": [
+    {
+      "name": "Mojang",
+      "type": "MojangAPI",
+      "apiRoot": "https://api.mojang.com/",
+      "sessionRoot": "https://sessionserver.mojang.com/"
+    },
+    {
+      "name": "LittleSkin",
+      "type": "CustomSkinAPI",
+      "root": "https://littlesk.in/csl/"
+    }
+  ],
+  "enableDynamicSkull": true,
+  "enableTransparentSkin": true,
+  "forceIgnoreHttpsCertificate": false,
+  "forceLoadAllTextures": false,
+  "enableCape": true,
+  "forceFillSkullNBT": false,
+  "threadPoolSize": 3,
+  "retryTime": 1,
+  "cacheExpiry": 30,
+  "forceUpdateSkull": false,
+  "enableLocalProfileCache": false,
+  "enableCacheAutoClean": false,
+  "forceDisableCache": false
+}
