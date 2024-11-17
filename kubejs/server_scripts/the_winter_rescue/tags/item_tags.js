@@ -41,7 +41,6 @@ ServerEvents.tags('item', (event) => {
 	event.add('the_winter_rescue:large_cogwheels', "steampowered:bronze_large_cogwheel")
 	event.add('the_winter_rescue:large_cogwheels', "steampowered:cast_iron_large_cogwheel")
 	event.add('the_winter_rescue:large_cogwheels', "steampowered:steel_large_cogwheel")
-	event.add('forge:ores/tin', "frostedheart:cassiterite")
 	event.add('immersiveengineering:forbidden_in_crates', '#create:toolboxes')
 	event.add('immersiveengineering:forbidden_in_crates', 'tetra:modular_toolbelt')
 	event.add('immersiveengineering:forbidden_in_crates', '#charcoal_pit:ceramic_pots')

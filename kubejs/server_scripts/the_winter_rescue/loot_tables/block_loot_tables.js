@@ -1,24 +1,24 @@
 ServerEvents.blockLootTables( (event) => {
 	let ore_blocks = [
 "frostedheart:pyrite_ore", 
-"frostedheart:pentlandite_ore", 
-"frostedheart:cassiterite_ore", 
+"frostedheart:nickel_ore", 
+"frostedheart:tin_ore", 
 "frostedheart:bauxite_block",
 "frostedheart:kaolin_block",
 "frostedheart:magnesite_ore", 
-"frostedheart:galena_ore",
+"frostedheart:lead_ore",
 "frostedheart:silver_ore",
 "frostedheart:halite_ore",
 "frostedheart:potash_ore"
 ];
 let ores = [
 "frostedheart:raw_pyrite", 
-"frostedheart:raw_pentlandite", 
-"frostedheart:raw_cassiterite", 
+"frostedheart:raw_nickel", 
+"frostedheart:raw_tin", 
 "frostedheart:bauxite",
 "frostedheart:kaolin", 
 "frostedheart:raw_magnesite", 
-"frostedheart:raw_galena",
+"frostedheart:raw_lead",
 "frostedheart:raw_silver", 
 "frostedheart:raw_halite",
 "frostedheart:raw_potash"
