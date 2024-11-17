@@ -1,5 +1,5 @@
 JEIEvents.information((event) => {
-    const recipes = [
+    let recipes = [
         {
             items: ['frostedheart:energy_core'],
             description: [text.translate("info.jei.the_winter_rescue.energy_core")]

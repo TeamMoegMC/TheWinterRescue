@@ -42,7 +42,7 @@ event.recipes.immersiveengineeringCrusher(output, input)
 event.recipes.immersiveengineeringCrusher(output, input, [secondaries]) // Secondary output format: {chance: 0.5, output: 'item:id'}
 
 - immersiveengineeringSawmill
- 
+
 
 event.recipes.immersiveengineeringSawmill(output, input)
 

@@ -1,5 +1,5 @@
-ServerEvents.blockLootTables( event => {
-	var ore_blocks = [
+ServerEvents.blockLootTables( (event) => {
+	let ore_blocks = [
 "frostedheart:pyrite_ore", 
 "frostedheart:pentlandite_ore", 
 "frostedheart:cassiterite_ore", 
@@ -11,7 +11,7 @@ ServerEvents.blockLootTables( event => {
 "frostedheart:halite_ore",
 "frostedheart:potash_ore"
 ];
-var ores = [
+let ores = [
 "frostedheart:raw_pyrite", 
 "frostedheart:raw_pentlandite", 
 "frostedheart:raw_cassiterite", 
@@ -24,9 +24,9 @@ var ores = [
 "frostedheart:raw_potash"
 ];
 // TODO: check if we still need this or move to FH
-var i;
-var ores_i;
-var ore_blocks_i;
+let i;
+let ores_i;
+let ore_blocks_i;
     for (i = 0; i < ores.length; i++) {
         ores_i = ores[i];
         ore_blocks_i = ore_blocks[i];

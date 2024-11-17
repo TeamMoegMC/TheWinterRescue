@@ -4,17 +4,17 @@
 	filename: "fuel"
 	group: "7668DAE31E3EF623"
 	icon: "kubejs:coal_briquette"
-	id: "1B332F15A5B415FA"
-	order_index: 4
+	id: "095779B71341147C"
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["10E9ACB93591D6BE"]
 			description: ["{quest.twr.04B97BB52527FB7A.description.1}"]
-			id: "04B97BB52527FB7A"
+			id: "51C5B753408A7D48"
 			subtitle: "{quest.twr.04B97BB52527FB7A.subtitle}"
 			tasks: [{
-				id: "46D777FC384C30C0"
+				id: "2793034012FF97DF"
 				item: "kubejs:coal_dust"
 				type: "item"
 			}]
@@ -25,10 +25,10 @@
 		{
 			dependencies: ["04B97BB52527FB7A"]
 			description: ["{quest.twr.100B8B27C075D0DC.description.1}"]
-			id: "100B8B27C075D0DC"
+			id: "2476436D7A18BFE9"
 			subtitle: "{quest.twr.100B8B27C075D0DC.subtitle}"
 			tasks: [{
-				id: "0CEB415DFBEEE3C2"
+				id: "07A062440D16E739"
 				item: "kubejs:wet_coal_briquette"
 				type: "item"
 			}]
@@ -43,11 +43,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["{quest.twr.0CDAFF3E5A013056.description.1}"]
-			id: "0CDAFF3E5A013056"
+			id: "33DB392A0509984F"
 			shape: "rsquare"
 			subtitle: "{quest.twr.0CDAFF3E5A013056.subtitle}"
 			tasks: [{
-				id: "16D151F8F443E1F9"
+				id: "0CF8644F91048451"
 				item: "kubejs:coal_briquette"
 				type: "item"
 			}]
@@ -58,10 +58,10 @@
 			dependencies: ["04B97BB52527FB7A"]
 			dependency_requirement: "one_completed"
 			description: ["{quest.twr.2AE5C29C6D65FB00.description.1}"]
-			id: "2AE5C29C6D65FB00"
+			id: "269D966A79372E78"
 			subtitle: "{quest.twr.2AE5C29C6D65FB00.subtitle}"
 			tasks: [{
-				id: "63B6FD546417A4FE"
+				id: "7407EA8EF8FEE8E3"
 				item: "kubejs:creosoted_coal_briquette"
 				type: "item"
 			}]
@@ -71,10 +71,10 @@
 		{
 			dependencies: ["04B97BB52527FB7A"]
 			description: ["{quest.twr.42D860535BFF35C4.description.1}"]
-			id: "42D860535BFF35C4"
+			id: "411E6F7C2D2CEDF7"
 			subtitle: "{quest.twr.42D860535BFF35C4.subtitle}"
 			tasks: [{
-				id: "2FF0571D871173C9"
+				id: "70A394BFA768885B"
 				item: "kubejs:bound_coal_briquette"
 				type: "item"
 			}]
@@ -89,13 +89,13 @@
 				"{quest.twr.10E9ACB93591D6BE.description.3}"
 			]
 			hide: true
-			id: "10E9ACB93591D6BE"
+			id: "2FF4421F2174E64C"
 			shape: "gear"
 			size: 1.2d
 			subtitle: "{quest.twr.10E9ACB93591D6BE.subtitle}"
 			tasks: [{
 				icon: "minecraft:coal"
-				id: "5B68FEEAC736B65B"
+				id: "47E99F657B45A92F"
 				type: "checkmark"
 			}]
 			title: "{quest.twr.10E9ACB93591D6BE.title}"
@@ -105,10 +105,10 @@
 		{
 			dependencies: ["10E9ACB93591D6BE"]
 			description: ["{quest.twr.291DA52EE6F8E5AF.description.1}"]
-			id: "291DA52EE6F8E5AF"
+			id: "6619BD57B1754D67"
 			subtitle: "{quest.twr.291DA52EE6F8E5AF.subtitle}"
 			tasks: [{
-				id: "5C16816AD3FDD8C2"
+				id: "01628177A2D07983"
 				item: "kubejs:charcoal_dust"
 				type: "item"
 			}]
@@ -122,11 +122,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["{quest.twr.6356C6E09463F6AE.description.1}"]
-			id: "6356C6E09463F6AE"
+			id: "2F8F88B820CF38CB"
 			shape: "rsquare"
 			subtitle: "{quest.twr.6356C6E09463F6AE.subtitle}"
 			tasks: [{
-				id: "77BACCD5C7C0FFCF"
+				id: "029580F6C288EF3D"
 				item: "kubejs:charcoal_briquette"
 				type: "item"
 			}]
@@ -136,10 +136,10 @@
 		{
 			dependencies: ["291DA52EE6F8E5AF"]
 			description: ["{quest.twr.48D63E2DA4BF2E9C.description.1}"]
-			id: "48D63E2DA4BF2E9C"
+			id: "1887D477A21C3705"
 			subtitle: "{quest.twr.48D63E2DA4BF2E9C.subtitle}"
 			tasks: [{
-				id: "78F0E6C53AEB845D"
+				id: "2EA615DD70B69DF7"
 				item: "kubejs:creosoted_charcoal_briquette"
 				type: "item"
 			}]
@@ -149,10 +149,10 @@
 		{
 			dependencies: ["291DA52EE6F8E5AF"]
 			description: ["{quest.twr.16ADBE5F70B10285.description.1}"]
-			id: "16ADBE5F70B10285"
+			id: "4DFD86AF576174FC"
 			subtitle: "{quest.twr.16ADBE5F70B10285.subtitle}"
 			tasks: [{
-				id: "19E256A4C3E89C36"
+				id: "58858603527E3454"
 				item: "kubejs:bound_charcoal_briquette"
 				type: "item"
 			}]
@@ -161,10 +161,10 @@
 		}
 		{
 			dependencies: ["10E9ACB93591D6BE"]
-			id: "1AAA40B874A98211"
+			id: "74E9C0EE9A5FB155"
 			subtitle: "{quest.twr.1AAA40B874A98211.subtitle}"
 			tasks: [{
-				id: "5D9D0436115B7798"
+				id: "0FB249513E6C0BBB"
 				item: "frostedheart:sawdust"
 				type: "item"
 			}]
@@ -175,10 +175,10 @@
 		{
 			dependencies: ["1AAA40B874A98211"]
 			description: ["{quest.twr.770CD4281B427FDC.description.1}"]
-			id: "770CD4281B427FDC"
+			id: "504E6E3FA7F97AF9"
 			subtitle: "{quest.twr.770CD4281B427FDC.subtitle}"
 			tasks: [{
-				id: "289AB5499839CBA3"
+				id: "6DE793CA407217EE"
 				item: "kubejs:creosoted_sawdust_briquette"
 				type: "item"
 			}]
@@ -188,11 +188,11 @@
 		{
 			dependencies: ["770CD4281B427FDC"]
 			description: ["{quest.twr.1405F759FF532C22.description.1}"]
-			id: "1405F759FF532C22"
+			id: "59116A2E3ADD60CF"
 			shape: "rsquare"
 			subtitle: "{quest.twr.1405F759FF532C22.subtitle}"
 			tasks: [{
-				id: "078310E80129CA85"
+				id: "259134B0A3973742"
 				item: "kubejs:sawdust_briquette"
 				type: "item"
 			}]

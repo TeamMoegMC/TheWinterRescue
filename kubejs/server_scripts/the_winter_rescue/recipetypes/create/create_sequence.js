@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
     event.recipes.createSequencedAssembly([
         Item.of('immersiveengineering:capacitor_lv')
     ], '#forge:sheetmetals/iron', [

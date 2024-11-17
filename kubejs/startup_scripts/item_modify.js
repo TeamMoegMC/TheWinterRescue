@@ -1,4 +1,4 @@
-var carpets = ["minecraft:white_carpet",
+let carpets = ["minecraft:white_carpet",
 	"minecraft:orange_carpet",
 	"minecraft:magenta_carpet",
 	"minecraft:light_blue_carpet",
@@ -16,7 +16,7 @@ var carpets = ["minecraft:white_carpet",
 	"minecraft:red_carpet"
 ];
 
-ItemEvents.modification(event => {
+ItemEvents.modification((event) => {
 	carpets.forEach(name => {
 		event.modify(name, item => {
 			item.burnTime = 0

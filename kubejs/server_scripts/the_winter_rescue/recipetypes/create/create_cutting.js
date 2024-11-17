@@ -1,5 +1,5 @@
-ServerEvents.recipes(event => {
-    var data = {
+ServerEvents.recipes((event) => {
+    let data = {
         recipes: [
 
 		{output:'9x minecraft:iron_ingot',input:'minecraft:iron_block'},
@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         {output:'4x frostedheart:coal_stick',input:'kubejs:coal_briquette'},
         ]
     };
-    const woods = []
+    let woods = []
 	//auto bulk slab recipes
 	Ingredient.of("#minecraft:planks").getItemIds().forEach((name)=>{
 		if(name.indexOf("culms")==-1)
@@ -29,11 +29,11 @@ ServerEvents.recipes(event => {
 				event.recipes.createCutting("4x "+name.replace("_wood","").replace("stripped_","")+"_planks",name);
 			}
 		}else if(name.indexOf("log")!=-1||name.indexOf("stem")!=-1){
-			var rl=name.split(":")
+			let rl=name.split(":")
 			event.remove({output:rl[0]+":stripped_"+rl[1],type:"create:cutting"});
 			event.recipes.createCutting(rl[0]+":stripped_"+rl[1],name);
 		}else if(name.indexOf("wood")!=-1){
-			var rl=name.split(":")
+			let rl=name.split(":")
 			event.remove({output:rl[0]+":stripped_"+rl[1],type:"create:cutting"});
 			event.recipes.createCutting(rl[0]+":stripped_"+rl[1],name);
 			

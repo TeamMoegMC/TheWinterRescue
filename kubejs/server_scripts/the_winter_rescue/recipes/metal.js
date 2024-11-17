@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
 
 
     event.remove({type: 'create:pressing'})
