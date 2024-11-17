@@ -354,48 +354,6 @@
 				"{quest.twr.29BC87594650152D.description.2}"
 			]
 			id: "29BC87594650152D"
-			rewards: [{
-				id: "1B12987080C1C9CE"
-				item: {
-					Count: 1b
-					id: "thermopolium:egg_drop_soup"
-					tag: {
-						soup: {
-							afluid: 0.25f
-							base: "thermopolium:nail_soup"
-							effects: [{
-								Ambient: 0b
-								Amplifier: 0b
-								CurativeItems: [{
-									Count: 1b
-									id: "minecraft:milk_bucket"
-								}]
-								Duration: 900
-								Id: 1b
-								ShowIcon: 1b
-								ShowParticles: 1b
-							}]
-							feffects: [ ]
-							heal: 5
-							items: [
-								{
-									Count: 1b
-									id: "minecraft:porkchop"
-									th_countf: 0.25f
-								}
-								{
-									Count: 1b
-									id: "minecraft:egg"
-									th_countf: 1.0f
-								}
-							]
-							sat: 2.72f
-						}
-						type: "thermopolium:egg_drop_soup"
-					}
-				}
-				type: "item"
-			}]
 			shape: "gear"
 			subtitle: "{quest.twr.29BC87594650152D.subtitle}"
 			tasks: [{

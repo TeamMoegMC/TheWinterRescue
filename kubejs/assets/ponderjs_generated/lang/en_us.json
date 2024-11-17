@@ -10,18 +10,5 @@
   "the_winter_rescue.ponder.tag.beehive_oven_pit": "",
   "the_winter_rescue.ponder.tag.beehive_oven_pit.description": "",
   "the_winter_rescue.ponder.tag.bloomery": "",
-  "the_winter_rescue.ponder.tag.bloomery.description": "",
-  "kubejs.ponder.assembly.header": "1",
-  "kubejs.ponder.assembly.text_1": "A single Bellow is required for the Bloomery to work",
-  "kubejs.ponder.assembly.text_2": "Make sure to check it\u0027s vent orientation",
-  "kubejs.ponder.assembly.text_3": "If the vent doesnt face the Tuyere, the Bellow will not work",
-  "kubejs.ponder.assembly.text_4": "Right-Click to push air in using the Bellow",
-  "kubejs.ponder.assembly.text_5": "Another Tuyere can be added on this side, just make sure to check it\u0027s vent direction",
-  "kubejs.ponder.assembly.text_6": "Another layer can be placed for 2x processing. You cannot stack another layer after this one",
-  "kubejs.ponder.basic_usage.header": "",
-  "kubejs.ponder.usage.header": "Using the bloomery",
-  "kubejs.ponder.usage.text_1": "To start processing, use Shift + Right-Click with the first ore in hand (not blocks)",
-  "kubejs.ponder.usage.text_2": "After the initial placement, Right-Click the pile with the ore and charcoal",
-  "kubejs.ponder.usage.text_3": "After filling it up, start it by using a firestarter",
-  "kubejs.ponder.usage.text_4": "Once it\u0027s done burning, you can mine it up and collect the iron"
+  "the_winter_rescue.ponder.tag.bloomery.description": ""
 }
