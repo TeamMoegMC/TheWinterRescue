@@ -54,7 +54,7 @@ boxLeftX = 5
 boxRightX = -1
 #The distance to the top side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxTopY = 5
+boxTopY = 16
 #The distance to the bottom side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
 boxBottomY = -1
