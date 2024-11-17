@@ -1,7 +1,7 @@
 console.info('[KUBEJS_THE_WINTER_RESCUE] TWR Items Registered!')
 
-StartupEvents.registry('item', event => {
-	const rankineItems = [
+StartupEvents.registry('item', (event) => {
+	let rankineItems = [
 		// 'mortar',
 		// 'vulcanized_rubber',
 		// 'pulp',
@@ -27,7 +27,7 @@ StartupEvents.registry('item', event => {
 		'cinnabar_polypore_mushroom'
 	]
 
-	const rankineTools = [
+	let rankineTools = [
 		'flint_knife',
 		'flint_axe',
 		'flint_pickaxe',
@@ -48,7 +48,7 @@ StartupEvents.registry('item', event => {
 		'diving_helmet'
 	]
 
-	const generalItems = [
+	let generalItems = [
 		'flux',
 		'clay_bucket',
 		'activated_carbon',

@@ -1,5 +1,5 @@
 // you must also add in client_scripts/constants.js to disable them in JEI
-const disabledItems = [
+global.disabledItems = [
     // stone age
     'stone_age:copper_hammer',
     'stone_age:bronze_hammer',

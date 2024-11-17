@@ -1,4 +1,4 @@
-ServerEvents.highPriorityData(event => {
+ServerEvents.highPriorityData((event) => {
     event.addJson('the_winter_rescue:advancements/root.json',
 
         {

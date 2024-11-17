@@ -1,7 +1,7 @@
 //priority: 1010
 
 // Used to determine which materials to unify
-const materialsToUnify = [
+let materialsToUnify = [
     'iron',
     'gold',
     'copper',
@@ -83,10 +83,10 @@ const materialsToUnify = [
 ];
 
 // Used to determine which material types to unify
-const typesToUnify = ['nugget', 'ingot', 'gem', 'storage_block', 'ore', 'dust', 'gear', 'plate', 'rod'];
+let typesToUnify = ['nugget', 'ingot', 'gem', 'storage_block', 'ore', 'dust', 'gear', 'plate', 'rod'];
 
 // Used for creating tags on custom ore processing materials
-const metals = [
+let metals = [
     'aluminum',
     'cloggrum',
     'cobalt',
@@ -109,7 +109,7 @@ const metals = [
 ];
 
 // Defines melting point of various materials
-const meltingPoints = {
+let meltingPoints = {
     utherium: {temp: 1070},
     thallasium: {temp: 800},
     signalum: {temp: 1272},
@@ -147,7 +147,7 @@ const meltingPoints = {
 };
 
 // Defines the secondary metal each metal type will produce.
-const oreProcessingSecondaries = {
+let oreProcessingSecondaries = {
     iron: {
         secondary: 'nickel',
         createProcessingTime: 400

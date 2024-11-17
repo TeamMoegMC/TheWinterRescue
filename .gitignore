@@ -72,6 +72,7 @@ schematics/
 /serverfiles/
 /mods-server/
 config/.twrp*
+/modernfix
 
 # editors
 /.idea/

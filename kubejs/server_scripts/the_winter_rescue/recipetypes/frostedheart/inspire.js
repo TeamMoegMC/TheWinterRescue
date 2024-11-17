@@ -1,5 +1,5 @@
-ServerEvents.recipes(event => {
-    var inspireRecipes = [
+ServerEvents.recipes((event) => {
+    let inspireRecipes = [
         inspireRecipe("kubejs:damaged_gpu", 1000),
         inspireRecipe("kubejs:damaged_circuit_board", 600),
         inspireRecipe("kubejs:damaged_electric_motor", 500),

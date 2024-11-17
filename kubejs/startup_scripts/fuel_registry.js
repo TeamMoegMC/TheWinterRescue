@@ -41,10 +41,10 @@ let fuel_vals= {
     "straw_briquette":800
 }
 
-StartupEvents.registry('item', event => {
+StartupEvents.registry('item', (event) => {
 
     fuel_procs.forEach((item) => {
-        const fv=fuel_vals[item];
+        let fv=fuel_vals[item];
         if(fv==0)
             event.create(item).texture(`kubejs:item/${item}`);
         else
