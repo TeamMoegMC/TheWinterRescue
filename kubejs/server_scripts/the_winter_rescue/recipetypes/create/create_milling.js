@@ -1,4 +1,4 @@
-ServerEvents.recipes(event => {
+ServerEvents.recipes((event) => {
 	let recipes = [
     {output:['minecraft:quartz', Item.of('minecraft:quartz').withChance(0.5)],input: '#forge:stones/quartzite'},
     {output:['2x minecraft:stick', Item.of('8x frostedheart:sawdust').withChance(0.5), Item.of('frostedheart:biomass').withChance(0.2)],input: '#minecraft:logs'},

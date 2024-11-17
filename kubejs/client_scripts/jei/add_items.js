@@ -1,5 +1,5 @@
 JEIEvents.addItems((event) => {
-    // const items = [
+    // let items = [
     //
     // ];
     //
