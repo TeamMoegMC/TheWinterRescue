@@ -57,8 +57,8 @@
 	renderTips = false
 
 [Scenario]
-	#Enables the scenario rendering. 
-	renderScenario = false
+	#Enables the scenario act hud rendering. 
+	renderScenario = true
 	#Enables Auto click when scenario requires
 	autoMode = true
 	#Tick before click when a click is required to progress
@@ -67,4 +67,10 @@
 	#Base text appear speed, actual speed may change by scenario if necessary, speed 1 is 0.5 character per tick.
 	#Range: 1.0E-6 ~ 100000.0
 	textSpeed = 1.0
+	#Scenario 2d content rendering quality, internal resolution=2^(config value)*1024, 2d contents are rendered on cpu, higher quality may cause lag
+	#Range: 0 ~ 16
+	scenarioRenderQuality = 2
+	#Scenario rendering thread
+	#Range: 1 ~ 16
+	scenarioRenderThread = 2
 

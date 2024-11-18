@@ -9,7 +9,7 @@ ServerEvents.blockLootTables( (event) => {
 "frostedheart:lead_ore",
 "frostedheart:silver_ore",
 "frostedheart:halite_ore",
-"frostedheart:potash_ore"
+"frostedheart:sylvite_ore"
 ];
 let ores = [
 "frostedheart:raw_pyrite", 
@@ -21,7 +21,7 @@ let ores = [
 "frostedheart:raw_lead",
 "frostedheart:raw_silver", 
 "frostedheart:raw_halite",
-"frostedheart:raw_potash"
+"frostedheart:raw_sylvite"
 ];
 // TODO: check if we still need this or move to FH
 let i;
