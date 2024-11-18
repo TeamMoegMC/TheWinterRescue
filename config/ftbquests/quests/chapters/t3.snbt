@@ -35,7 +35,7 @@
 					type: "item"
 				}
 				{
-					id: "33F1689BF5E74F5D"
+					id: "613864B99DFE937E"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
@@ -43,7 +43,7 @@
 							value: "forge:ingots/aluminum"
 						}
 					}
-					title: "{quest.twr.5D52744D5382A6CA.33F1689BF5E74F5D.title}"
+					title: "Any #forge:ingots/aluminum"
 					type: "item"
 				}
 			]
@@ -85,8 +85,15 @@
 			shape: "gear"
 			subtitle: "{quest.twr.5808CFED17AE91D4.subtitle}"
 			tasks: [{
-				id: "417E9910C7BE0C2C"
-				item: "frostedheart:alumina_dust"
+				id: "08F85A43F83EAE16"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:dusts/aluminum"
+					}
+				}
+				title: "Any #forge:dusts/aluminum"
 				type: "item"
 			}]
 			x: 1.5d
@@ -114,8 +121,7 @@
 			shape: "gear"
 			subtitle: "{quest.twr.0019852CD6EC0354.subtitle}"
 			tasks: [{
-				icon: "immersiveengineering:ingot_steel"
-				id: "147D66FD5DDDF718"
+				id: "559338E975649466"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -123,7 +129,7 @@
 						value: "forge:ingots/steel"
 					}
 				}
-				title: "{quest.twr.0019852CD6EC0354.147D66FD5DDDF718.title}"
+				title: "Any #forge:ingots/steel"
 				type: "item"
 			}]
 			title: "{quest.twr.0019852CD6EC0354.title}"

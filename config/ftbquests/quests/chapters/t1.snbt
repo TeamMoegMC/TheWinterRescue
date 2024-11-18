@@ -59,7 +59,7 @@
 			shape: "gear"
 			subtitle: "{quest.twr.19603323EAAFF726.subtitle}"
 			tasks: [{
-				id: "56616CBB1C923EE5"
+				id: "55C4F94C2DB76794"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -67,8 +67,7 @@
 						value: "minecraft:planks"
 					}
 				}
-				tags: ["plank"]
-				title: "{quest.twr.19603323EAAFF726.56616CBB1C923EE5.title}"
+				title: "Any #minecraft:planks"
 				type: "item"
 			}]
 			title: "{quest.twr.19603323EAAFF726.title}"
@@ -126,7 +125,14 @@
 			subtitle: "{quest.twr.0A9A5166127945AB.subtitle}"
 			tasks: [{
 				id: "29F602476C2217BC"
-				item: "minecraft:copper_ingot"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/copper"
+					}
+				}
+				title: "Any #forge:ingots/copper"
 				type: "item"
 			}]
 			title: "{quest.twr.0A9A5166127945AB.title}"
@@ -143,8 +149,7 @@
 			shape: "gear"
 			subtitle: "{quest.twr.586D66C71A378A82.subtitle}"
 			tasks: [{
-				icon: "create:copper_sheet"
-				id: "1FD4E3357F016517"
+				id: "6B7F88BC9CA233E8"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -152,7 +157,7 @@
 						value: "forge:plates/copper"
 					}
 				}
-				title: "{quest.twr.586D66C71A378A82.1FD4E3357F016517.title}"
+				title: "Any #forge:plates/copper"
 				type: "item"
 			}]
 			title: "{quest.twr.586D66C71A378A82.title}"
@@ -218,7 +223,14 @@
 			subtitle: "{quest.twr.4B6840707D77E2C0.subtitle}"
 			tasks: [{
 				id: "17B92F392AAC3C15"
-				item: "frostedheart:bronze_ingot"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/bronze"
+					}
+				}
+				title: "Any #forge:ingots/bronze"
 				type: "item"
 			}]
 			x: -0.5d
@@ -242,7 +254,13 @@
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
 			tasks: [{
 				id: "0F08400AFE76BD5F"
-				item: "frostedheart:tin_ingot"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/tin"
+					}
+				}
 				title: "{quest.twr.3C4CEEBFF8DCF448.0F08400AFE76BD5F.title}"
 				type: "item"
 			}]
@@ -310,9 +328,15 @@
 			shape: "gear"
 			subtitle: "{quest.twr.6D92E93A0811C1FD.subtitle}"
 			tasks: [{
-				count: 4L
 				id: "286618A8A476D4E4"
-				item: "minecraft:clay_ball"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:clay"
+					}
+				}
+				title: "Any #forge:clay"
 				type: "item"
 			}]
 			x: -7.5d
@@ -503,7 +527,14 @@
 				}
 				{
 					id: "75940626B4026E4A"
-					item: "charcoal_pit:coke"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:coal_coke"
+						}
+					}
+					title: "Any #forge:coal_coke"
 					type: "item"
 				}
 				{
@@ -1377,7 +1408,14 @@
 			subtitle: "{quest.twr.75154C5A6E2F3257.subtitle}"
 			tasks: [{
 				id: "55136D276DC5CD75"
-				item: "minecraft:iron_ingot"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/iron"
+					}
+				}
+				title: "Any #forge:ingots/iron"
 				type: "item"
 			}]
 			title: "{quest.twr.75154C5A6E2F3257.title}"

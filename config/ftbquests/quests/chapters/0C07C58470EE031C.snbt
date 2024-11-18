@@ -192,12 +192,6 @@
 			tasks: [
 				{
 					count: 4L
-					id: "559ABB075122B276"
-					item: "minecraft:flint"
-					type: "item"
-				}
-				{
-					count: 4L
 					id: "19FA38C832CBE31D"
 					item: "minecraft:stick"
 					type: "item"
@@ -206,6 +200,11 @@
 					count: 4L
 					id: "3C62C361C6F72668"
 					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "49F29DEEA2F6563D"
+					item: "minecraft:flint"
 					type: "item"
 				}
 			]
