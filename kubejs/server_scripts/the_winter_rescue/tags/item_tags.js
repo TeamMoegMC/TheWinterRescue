@@ -105,4 +105,39 @@ ServerEvents.tags('item', (event) => {
 	//如果你坚持要使用连锁挖矿，可以自行把对应的内容去除，但是出现任何问题后果自负。并且请不要向他人宣传连锁挖矿。
 	//最终，我们是不推荐擅自修改整合包内容的，这样极大降低游戏体验。如果实在要爽，不如直接开创造。
 	event.add('ftbultimine:included_tools', 'create:cogwheel')
+
+	raw_meats = [
+		"minecraft:chicken",
+		"minecraft:porkchop",
+		"minecraft:mutton",
+		"minecraft:rabbit",
+		"minecraft:beef",
+		"stone_age:venison",
+		"stone_age:fowl_meat",
+		"stone_age:auroch_meat",
+		"stone_age:tiger_meat",
+		"stone_age:mouflon_meat",
+		"stone_age:boar_meat",
+		"stone_age:rhino_meat",
+		"stone_age:mammoth_meat"
+	]
+
+	raw_meats.forEach(meat => {
+		event.add('frostedheart:raw_food', meat)
+	})
+
+	bad_meats = [
+		"stone_age:venison",
+		"stone_age:fowl_meat",
+		"stone_age:auroch_meat",
+		"stone_age:tiger_meat",
+		"stone_age:mouflon_meat",
+		"stone_age:boar_meat",
+		"stone_age:rhino_meat",
+		"stone_age:mammoth_meat"
+	]
+
+	bad_meats.forEach(meat => {
+		event.add('frostedheart:bad_food', meat)
+	})
 });
