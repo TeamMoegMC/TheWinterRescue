@@ -11,4 +11,6 @@ Ponder.tags((event) => {
 	// misc
 	event.createTag("the_winter_rescue:beehive_oven_pit", "frostedheart:beehive_oven_pit", "", "")
 	event.createTag("the_winter_rescue:charcoal_pit", "minecraft:charcoal", "", "")
+	// creosote funnel
+	event.createTag("the_winter_rescue:creosote_funnel", "charcoal_pit:sandy_collector", "", "")
 })

@@ -2,8 +2,8 @@
 ServerEvents.recipes((event) => {
 	let { immersiveengineering, create, minecraft } = event.recipes
 
-	let ores = ["frostedheart:raw_pyrite", "frostedheart:raw_pentlandite", "frostedheart:raw_cassiterite", "frostedheart:bauxite", "frostedheart:kaolin", "frostedheart:raw_magnesite", "frostedheart:raw_galena", "frostedheart:raw_halite", "frostedheart:raw_silver", "minecraft:raw_gold", "minecraft:raw_iron", "create:raw_zinc", "minecraft:raw_copper"];
-	let ore_name = ["pyrite", "pentlandite", "cassiterite", "bauxite", "kaolin", "magnesite", "galena", "halite", "silver", "gold", "iron", "zinc", "copper"];
+	let ores = ["frostedheart:raw_pyrite", "frostedheart:raw_pentlandite", "frostedheart:raw_cassiterite", "frostedheart:bauxite", "frostedheart:kaolin", "frostedheart:raw_magnesite", "frostedheart:raw_galena", "frostedheart:raw_halite", "frostedheart:raw_silver", "minecraft:raw_gold", "minecraft:raw_iron", "create:raw_zinc", "minecraft:raw_copper"]
+	let ore_name = ["pyrite", "pentlandite", "cassiterite", "bauxite", "kaolin", "magnesite", "galena", "halite", "silver", "gold", "iron", "zinc", "copper"]
 	let by_products = [];
 	let i;
 	let ores_i;
@@ -17,8 +17,8 @@ ServerEvents.recipes((event) => {
 	by_products[1] = [Item.of("minecraft:diamond").withChance(0.5)];
 	ore_name中的1号位置(第二个元素)是pyrite(黄铁矿)，这行代码将在将粉碎黄铁矿洗为洗净黄铁矿的合成中加入副产物钻石，产出概率为百分之五十。
 	*/
-	by_products[0] = [Item.of("frostedheart:sulfur_dust").withChance(0.2)];
-	by_products[3] = [Item.of("frostedheart:cryolite_dust").withChance(0.2)];
+	by_products[0] = [Item.of("frostedheart:sulfur_dust").withChance(0.2)]
+	by_products[3] = [Item.of("frostedheart:cryolite_dust").withChance(0.2)]
 
 	for (i = 0; i < ores.length; i++) {
 		ores_i = ores[i];
@@ -32,8 +32,8 @@ ServerEvents.recipes((event) => {
 	}
 
 	// low-smelt point metals
-	minecraft.smelting("immersiveengineering:ingot_lead", "frostedheart:crushed_raw_galena")
-	minecraft.smelting("frostedheart:tin_ingot", "frostedheart:crushed_raw_cassiterite")
+	// minecraft.smelting("immersiveengineering:ingot_lead", "frostedheart:crushed_raw_galena")
+	// minecraft.smelting("frostedheart:tin_ingot", "frostedheart:crushed_raw_cassiterite")
 
 	/* old code
 	let data = {
@@ -55,14 +55,13 @@ ServerEvents.recipes((event) => {
 			.time(recipe.time)
 	})
 	*/
-	
-	/*
+
 	let blastFurnaceRecipes = [
 		["minecraft:iron_ingot", "frostedheart:crushed_raw_pyrite", 300],
 		["minecraft:iron_ingot", "create:crushed_raw_iron", 300],
 		["immersiveengineering:ingot_silver", "frostedheart:crushed_raw_silver", 150],
 		["minecraft:gold_ingot", "create:crushed_raw_gold", 150],
-		["immersiveengineering:ingot_nickel", "frostedheart:crushed_raw_pentlandite", 300],
+		// ["immersiveengineering:ingot_nickel", "frostedheart:crushed_raw_pentlandite", 300],
 		// ["immersiveengineering:ingot_nickel", "frostedheart:nickel_slag", 300],
 		["minecraft:copper_ingot", "frostedheart:copper_oxide_dust", 90],
 		["immersiveengineering:ingot_lead", "frostedheart:lead_oxide_dust", 80],
@@ -73,8 +72,7 @@ ServerEvents.recipes((event) => {
 		immersiveengineering.blast_furnace(output, input, "immersiveengineering:slag")
 			.time(time)
 	})
-	*/
-	
+
 	/*
 	function rotarySulfate(input, output, energy, sulfur, chance) {
 		if (chance == 0)
