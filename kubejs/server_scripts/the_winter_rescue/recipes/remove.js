@@ -55,7 +55,8 @@ ServerEvents.recipes((event) => {
 		"minecraft:bucket",
 		"stone_age:backpack",
 		"minecraft:white_wool_from_string",
-		"immersiveengineering:crafting/nugget_copper_to_copper_ingot"
+		"immersiveengineering:crafting/nugget_copper_to_copper_ingot",
+		"minecraft:campfire"
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

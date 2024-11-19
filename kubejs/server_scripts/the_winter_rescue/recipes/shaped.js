@@ -534,7 +534,7 @@ ServerEvents.recipes((event) => {
 
 		// 添加新配方
 		kubejs.shaped(output, pattern, keys)
-			.id(`the_winter_rescue:minecraft/crafting_shaped/change/${index++}`)
+			.id(`the_winter_rescue:minecraft/crafting_shaped/change/${index}`)
 	})
 
 	let newShapedRecipes = [
@@ -546,7 +546,6 @@ ServerEvents.recipes((event) => {
 				A: "#minecraft:planks"
 			}
 		],
-		/*
 		[
 			"stone_age:drying_rack", [
 				"AA",
@@ -556,43 +555,61 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		[
-			"frostedheart:flint_pickaxe", [
+			"frostedheart:makeshift_pickaxe", [
 				"CC",
 				"BA"
 			], {
 				A: "#forge:rods/wooden",
 				B: "#forge:string",
-				C: "minecraft:flint"
+				C: "#frostedheart:garbage"
 			}
 		],
 		[
-			"frostedheart:flint_axe", [
+			"frostedheart:makeshift_axe", [
 				"CB",
 				"CA"
 			], {
 				A: "#forge:rods/wooden",
 				B: "#forge:string",
-				C: "minecraft:flint"
+				C: "#frostedheart:garbage"
 			}
 		],
 		[
-			"frostedheart:flint_shovel", [
-				"A ",
-				"CB"
+			"frostedheart:makeshift_shovel", [
+				"BC",
+				" A"
 			], {
 				A: "#forge:rods/wooden",
 				B: "#forge:string",
-				C: "minecraft:flint"
+				C: "#frostedheart:garbage"
 			}
 		],
 		[
-			"frostedheart:flint_spear", [
+			"frostedheart:makeshift_spear", [
 				"CB",
 				"A "
 			], {
 				A: "#forge:rods/wooden",
 				B: "#forge:string",
-				C: "minecraft:flint"
+				C: "#frostedheart:garbage"
+			}
+		],
+		[
+			"frostedheart:makeshift_knife", [
+				"A ",
+				" A"
+			], {
+				A: "#frostedheart:garbage"
+			}
+		],
+		[
+			"frostedheart:makeshift_hoe", [
+				"CB",
+				" A"
+			], {
+				A: "#forge:rods/wooden",
+				B: "#forge:string",
+				C: "#frostedheart:garbage"
 			}
 		],
 		[
@@ -604,6 +621,7 @@ ServerEvents.recipes((event) => {
 				B: "#forge:stone",
 			}
 		],
+		/*
 		[
 			"frostedheart:stone_hammer", [
 				"CC",
@@ -1021,6 +1039,43 @@ ServerEvents.recipes((event) => {
 			}
 		],
 		*/
+		[
+			"frostedheart:hay_hat", [
+				"AAA",
+				"A A",
+			], {
+				A: "charcoal_pit:straw"
+			}
+		],
+		[
+			"frostedheart:hay_jacket", [
+				"A A",
+				"AAA",
+				"AAA"
+			], {
+				A: "charcoal_pit:straw"
+			}
+		],
+		[
+			"frostedheart:hay_pants", [
+				"AAA",
+				"A A",
+				"A A"
+			], {
+				A: "charcoal_pit:straw"
+			}
+		],
+		[
+			"stone_age:stone_chest", [
+				"AAA",
+				"BCB",
+				"BBB"
+			], {
+				A: "minecraft:smooth_stone_slab",
+				B: "minecraft:stone",
+				C: "minecraft:clay_ball"
+			}
+		]
 	]
 	newShapedRecipes.forEach((recipe, index) => {
 		let [output, quantity, pattern, keys] = recipe.length === 4 ? recipe : [recipe[0], 1, recipe[1], recipe[2]]
@@ -1039,6 +1094,6 @@ ServerEvents.recipes((event) => {
 
 		// 添加新配方
 		kubejs.shaped(output, pattern, keys)
-			.id(`the_winter_rescue:minecraft/crafting_shaped/new/${index++}`)
+			.id(`the_winter_rescue:minecraft/crafting_shaped/new/${index}`)
 	})
 })

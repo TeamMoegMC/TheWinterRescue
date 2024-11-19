@@ -1,3 +1,4 @@
+/*
 ServerEvents.recipes((event) => {
 	let additional_crafting_table_recipes = [
 		shapedRecipe('stone_age:fishing_net', ['BAB', 'ACA', 'BAB'], {
@@ -50,11 +51,11 @@ ServerEvents.recipes((event) => {
 
 
 	let change_recipes = [
-		// shapedRecipe('frostedheart:bronze_hammer', ['AAC', ' BA', 'B A'], {
-		// 	A: '#forge:ingots/bronze',
-		// 	B: 'minecraft:stick',
-		// 	C: 'stone_age:leather_strip'
-		// }),
+		shapedRecipe('frostedheart:bronze_hammer', ['AAC', ' BA', 'B A'], {
+			A: '#forge:ingots/bronze',
+			B: 'minecraft:stick',
+			C: 'stone_age:leather_strip'
+		}),
 		shapedRecipe('frostedheart:bronze_pickaxe', ['AAA', ' B ', ' B '], {
 			A: 'frostedheart:bronze_ingot',
 			B: '#forge:rods/wooden'
@@ -82,6 +83,14 @@ ServerEvents.recipes((event) => {
 		shapedRecipe('immersiveengineering:alloybrick', ['ABA', 'B B', 'ABA'], {
 			A: 'minecraft:brick',
 			B: '#forge:plates/bronze'
+		}),
+		shapedRecipe('caupona:clay_cistern', ['CCC', 'CSC', 'CCC'], {
+			C: '#forge:clay_balls',
+			S: '#forge:rods/wooden'
+		}),
+		shapedRecipe('caupona:kitchen_stove_t1', ['DDD', 'SSS', 'S S'], {
+			D: '#forge:dirt',
+			S: '#forge:stone'
 		}),
 		shapedRecipe('charcoal_pit:main_bloomery', ['ABA', 'BCB', 'ABA'], {
 			A: 'frostedheart:mortar',
@@ -205,11 +214,11 @@ ServerEvents.recipes((event) => {
 			B: 'frostedheart:energy_core',
 			C: '#forge:ingots/copper'
 		}),
-		// shapedRecipe('frostedheart:stone_hammer', ['AAC', ' BA', 'B A'], {
-		// 	A: 'minecraft:stone',
-		// 	B: 'minecraft:stick',
-		// 	C: '#forge:string'
-		// }),
+		shapedRecipe('frostedheart:stone_hammer', ['AAC', ' BA', 'B A'], {
+			A: 'minecraft:stone',
+			B: 'minecraft:stick',
+			C: '#forge:string'
+		}),
 		shapedRecipe('frostedheart:rye_bread', ['AAA'], {
 			A: 'frostedheart:rye'
 		}),
@@ -342,3 +351,4 @@ ServerEvents.recipes((event) => {
 		event.shaped(recipe.result, recipe.pattern, recipe.key)
 	})
 });
+*/
