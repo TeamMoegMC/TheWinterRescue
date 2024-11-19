@@ -353,48 +353,6 @@
 				"{quest.twr.29BC87594650152D.description.2}"
 			]
 			id: "29BC87594650152D"
-			rewards: [{
-				id: "1B12987080C1C9CE"
-				item: {
-					Count: 1b
-					id: "thermopolium:egg_drop_soup"
-					tag: {
-						soup: {
-							afluid: 0.25f
-							base: "thermopolium:nail_soup"
-							effects: [{
-								Ambient: 0b
-								Amplifier: 0b
-								CurativeItems: [{
-									Count: 1b
-									id: "minecraft:milk_bucket"
-								}]
-								Duration: 900
-								Id: 1b
-								ShowIcon: 1b
-								ShowParticles: 1b
-							}]
-							feffects: [ ]
-							heal: 5
-							items: [
-								{
-									Count: 1b
-									id: "minecraft:porkchop"
-									th_countf: 0.25f
-								}
-								{
-									Count: 1b
-									id: "minecraft:egg"
-									th_countf: 1.0f
-								}
-							]
-							sat: 2.72f
-						}
-						type: "thermopolium:egg_drop_soup"
-					}
-				}
-				type: "item"
-			}]
 			shape: "gear"
 			subtitle: "{quest.twr.29BC87594650152D.subtitle}"
 			tasks: [{
@@ -1516,34 +1474,6 @@
 			id: "7AFE32B08BB6CE6C"
 			rewards: [
 				{
-					id: "16C294F014C3A727"
-					item: {
-						Count: 1
-						id: "minecraft:player_head"
-						tag: {
-							SkullOwner: {
-								Name: "Lyuuke"
-							}
-						}
-					}
-					title: "{quest.twr.7AFE32B08BB6CE6C.16C294F014C3A727.title}"
-					type: "item"
-				}
-				{
-					id: "6892D13E32E2236B"
-					item: {
-						Count: 1
-						id: "minecraft:player_head"
-						tag: {
-							SkullOwner: {
-								Name: "goumo_g"
-							}
-						}
-					}
-					title: "{quest.twr.7AFE32B08BB6CE6C.6892D13E32E2236B.title}"
-					type: "item"
-				}
-				{
 					id: "635EDDFEA43C1BBC"
 					item: {
 						Count: 1
@@ -1732,7 +1662,77 @@
 							}
 						}
 					}
-					title: "{quest.twr.7AFE32B08BB6CE6C.6C93768358C876B3.title}"
+					title: "khjxiaogu - Dev / Design"
+					type: "item"
+				}
+				{
+					id: "379F6668AD28227C"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Name: "Lyuuke"
+							}
+						}
+					}
+					title: "Lyuuke - Art / Design"
+					type: "item"
+				}
+				{
+					id: "64B16811EBD61A2C"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Name: "goumo_g"
+							}
+						}
+					}
+					title: "goumo_g - Art / Dev"
+					type: "item"
+				}
+				{
+					id: "68D5B3335F347C1C"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Name: "yuqijun"
+							}
+						}
+					}
+					title: "yuqijun - Dev"
+					type: "item"
+				}
+				{
+					id: "5E38D9D26E1993F3"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Name: "Lanshan"
+							}
+						}
+					}
+					title: "Lanshan - Build / Write"
+					type: "item"
+				}
+				{
+					id: "42CF419236A27795"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Name: "Dsanilen"
+							}
+						}
+					}
+					title: "Dsanilen - Art"
 					type: "item"
 				}
 			]

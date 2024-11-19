@@ -90,4 +90,4 @@ Development Team:
 Contributors:
 LetterN, collin-marando, sayyidyofa, Whitealbum0, alyashour, AGmouse, Jerzerak,
 nekocrane, Huaji_Qinmi, Heitao, ceary741, Gugusb, Winged-Hussars,
-IBlessus, GuardianWorld(Mixxs), Keisari, ewoudjie, ZXCZST
+IBlessus, GuardianWorld(Mixxs), Keisari, ewoudjie, ZXCZST, Qi-Month
