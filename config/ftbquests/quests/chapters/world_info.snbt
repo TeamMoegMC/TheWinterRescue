@@ -40,7 +40,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.7D2807571451631F.description.1}"
 				"{quest.twr.7D2807571451631F.description.2}"
@@ -58,7 +57,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.40254682DFE145B8.description.1}"
 				"{quest.twr.40254682DFE145B8.description.2}"
@@ -76,7 +74,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.31ED006279866288.description.1}"
 				"{quest.twr.31ED006279866288.description.2}"
@@ -94,7 +91,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.72D5B725766622F4.description.1}"
 				"{quest.twr.72D5B725766622F4.description.2}"
@@ -112,7 +108,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.0ED9C71E91687BFA.description.1}"
 				"{quest.twr.0ED9C71E91687BFA.description.2}"
@@ -130,7 +125,6 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.6F39341180466270.description.1}"
 				"{quest.twr.6F39341180466270.description.2}"
@@ -148,7 +142,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.5907E1263E6D81E2.description.1}"
 				"{quest.twr.5907E1263E6D81E2.description.2}"
@@ -166,7 +159,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.3840FFD53990ECA2.description.1}"
 				"{quest.twr.3840FFD53990ECA2.description.2}"
@@ -184,7 +176,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.6C49B6777A13CC02.description.1}"
 				"{quest.twr.6C49B6777A13CC02.description.2}"
@@ -202,7 +193,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.2A8533418E3A8B06.description.1}"
 				"{quest.twr.2A8533418E3A8B06.description.2}"
@@ -221,7 +211,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.1120D6251E9B42C4.description.1}"
 				"{quest.twr.1120D6251E9B42C4.description.2}"
@@ -239,7 +228,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: ["{quest.twr.707E5C06843421A7.description.1}"]
 			hide_dependency_lines: true
 			hide_text_until_complete: false
@@ -255,7 +243,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.4D1B960E67D023C4.description.1}"
 				"{quest.twr.4D1B960E67D023C4.description.2}"
@@ -273,7 +260,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: [
 				"{quest.twr.0ED9C71E91687BFA.description.1}"
 				"{quest.twr.122E83F324DB80B7.description.2}"
@@ -291,7 +277,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["181378ABF5CCD166"]
 			description: ["{quest.twr.73242CFC1E655F2D.description.1}"]
 			hide_dependency_lines: true
 			hide_text_until_complete: true

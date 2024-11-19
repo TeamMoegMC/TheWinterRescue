@@ -3,6 +3,7 @@
  */
 
 ServerEvents.recipes((event) => {
+
 	let { create, kubejs, minecraft } = event.recipes
 
 	let changeShapelessRecipes = [
@@ -16,6 +17,7 @@ ServerEvents.recipes((event) => {
 	})
 
 	let newShapelessRecipes = [
+		// ["stone_age:grass_lead", 1, ["charcoal_pit:straw", "charcoal_pit:straw"]],
 		["frostedheart:raw_rye_bread", 2, ["frostedheart:rye_flour", "minecraft:water_bucket"]],
 		["immersiveengineering:crate", 1, ["immersiveengineering:reinforced_crate"]],
 		// ["stone_age:dried_grass", 1, ["charcoal_pit:straw"]],

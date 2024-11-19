@@ -86,14 +86,7 @@
 			subtitle: "{quest.twr.5808CFED17AE91D4.subtitle}"
 			tasks: [{
 				id: "08F85A43F83EAE16"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:dusts/aluminum"
-					}
-				}
-				title: "Any #forge:dusts/aluminum"
+				item: "frostedheart:alumina_dust"
 				type: "item"
 			}]
 			x: 1.5d

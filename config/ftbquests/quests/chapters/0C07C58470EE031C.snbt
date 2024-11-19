@@ -174,7 +174,6 @@
 			dependencies: ["56E5FD2809882B5F"]
 			description: [
 				"{quest.twr.32E5D942F1FE8645.description.1}"
-				"{quest.twr.32E5D942F1FE8645.description.2}"
 				"{quest.twr.32E5D942F1FE8645.description.3}"
 				"{quest.twr.32E5D942F1FE8645.description.4}"
 				"{quest.twr.32E5D942F1FE8645.description.5}"
@@ -182,11 +181,6 @@
 			hide: true
 			icon: "minecraft:flint"
 			id: "32E5D942F1FE8645"
-			rewards: [{
-				id: "46B9AF1EE822EEDD"
-				item: "minecraft:oxeye_daisy"
-				type: "item"
-			}]
 			shape: "gear"
 			subtitle: "{quest.twr.32E5D942F1FE8645.subtitle}"
 			tasks: [
@@ -203,6 +197,7 @@
 					type: "item"
 				}
 				{
+					count: 4L
 					id: "49F29DEEA2F6563D"
 					item: "minecraft:flint"
 					type: "item"
@@ -327,10 +322,7 @@
 		}
 		{
 			dependencies: ["14D7D98FC5264B03"]
-			description: [
-				"{quest.twr.1D7F2824DAF3BB7B.description.1}"
-				"{quest.twr.1D7F2824DAF3BB7B.description.2}"
-			]
+			description: ["{quest.twr.1D7F2824DAF3BB7B.description.2}"]
 			hide: false
 			id: "1D7F2824DAF3BB7B"
 			shape: "gear"
@@ -370,11 +362,6 @@
 			hide: true
 			id: "70E6A4B9946F263A"
 			optional: true
-			rewards: [{
-				id: "20353DC728718A7E"
-				item: "minecraft:apple"
-				type: "item"
-			}]
 			subtitle: "{quest.twr.70E6A4B9946F263A.subtitle}"
 			tasks: [{
 				id: "303116E572280BDC"
@@ -530,12 +517,6 @@
 			description: ["{quest.twr.6B7D4F59C921C1FC.description.1}"]
 			hide: true
 			id: "6B7D4F59C921C1FC"
-			rewards: [{
-				count: 4
-				id: "77E243CC8A67A530"
-				item: "charcoal_pit:straw"
-				type: "item"
-			}]
 			shape: "gear"
 			subtitle: "{quest.twr.6B7D4F59C921C1FC.subtitle}"
 			tasks: [{
@@ -602,53 +583,6 @@
 			]
 			icon: "minecraft:campfire"
 			id: "36960F1D7CDC8B30"
-			rewards: [{
-				id: "4762E8ECB85E73FC"
-				item: {
-					Count: 1b
-					id: "thermopolium:stracciatella"
-					tag: {
-						soup: {
-							afluid: 0.25f
-							base: "thermopolium:nail_soup"
-							effects: [{
-								Ambient: 0b
-								Amplifier: 0b
-								CurativeItems: [{
-									Count: 1b
-									id: "minecraft:milk_bucket"
-								}]
-								Duration: 675
-								Id: 1b
-								ShowIcon: 1b
-								ShowParticles: 1b
-							}]
-							feffects: [ ]
-							heal: 5
-							items: [
-								{
-									Count: 1b
-									id: "minecraft:porkchop"
-									th_countf: 0.0625f
-								}
-								{
-									Count: 1b
-									id: "minecraft:egg"
-									th_countf: 1.0f
-								}
-								{
-									Count: 1b
-									id: "rankine:asparagus"
-									th_countf: 0.5625f
-								}
-							]
-							sat: 2.525f
-						}
-						type: "thermopolium:stracciatella"
-					}
-				}
-				type: "item"
-			}]
 			shape: "gear"
 			subtitle: "{quest.twr.36960F1D7CDC8B30.subtitle}"
 			tasks: [
@@ -1233,19 +1167,11 @@
 			]
 			icon: "minecraft:stone"
 			id: "4BD8236FEEBD7D3A"
-			rewards: [
-				{
-					id: "0BDCC5409A0391EB"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 2
-					id: "127A3EB9E4204639"
-					item: "rankine:rope"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0BDCC5409A0391EB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "gear"
 			size: 1.2d
 			subtitle: "{quest.twr.4BD8236FEEBD7D3A.subtitle}"
