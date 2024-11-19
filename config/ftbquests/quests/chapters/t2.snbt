@@ -494,7 +494,14 @@
 				}
 				{
 					id: "23635250F74FF7CF"
-					item: "minecraft:quartz"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:gems/quartz"
+						}
+					}
+					title: "Any #forge:gems/quartz"
 					type: "item"
 				}
 				{
@@ -803,7 +810,7 @@
 			shape: "gear"
 			subtitle: "{quest.twr.3A91A02EB59A7919.subtitle}"
 			tasks: [{
-				id: "1D1735E320565F58"
+				id: "1FAD969BEF7DF8B1"
 				item: {
 					Count: 1
 					id: "itemfilters:tag"
@@ -811,7 +818,7 @@
 						value: "forge:ingots/nickel"
 					}
 				}
-				title: "{quest.twr.3A91A02EB59A7919.1D1735E320565F58.title}"
+				title: "Any #forge:ingots/nickel"
 				type: "item"
 			}]
 			title: "{quest.twr.3A91A02EB59A7919.title}"
