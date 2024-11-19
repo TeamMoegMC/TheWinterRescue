@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
 	]
 	blastFurnaceRecipes.forEach(([output, input, time]) => {
 		immersiveengineering.blast_furnace(output, input, "immersiveengineering:slag")
-			.time(time)
+			.time(time)	
 	})
 
 	// 移除旧的钢铁高炉配方
