@@ -1,4 +1,3 @@
-/*
 ServerEvents.recipes((event) => {
 	let { immersiveengineering } = event.recipes
 
@@ -17,8 +16,9 @@ ServerEvents.recipes((event) => {
 		["frostedheart:sodium_chloride_dust", "frostedheart:raw_halite", 200],
 		["create:zinc_ingot", "create:raw_zinc", 200]
 	]
-	blastFurnaceRecipes.forEach(([output, input, time]) => {
+	blastFurnaceRecipes.forEach(([output, input, time], index) => {
 		immersiveengineering.blast_furnace(output, input, "immersiveengineering:slag")
+			.id(`the_winter_rescue:immersiveengineering/blast_furnace/${index}`)
 			.time(time)
 	})
 
@@ -26,4 +26,3 @@ ServerEvents.recipes((event) => {
 	event.remove({ type: "immersiveengineering:blast_furnace", output: "immersiveengineering:ingot_steel" })
 	event.remove({ type: "immersiveengineering:blast_furnace", output: "immersiveengineering:storage_steel" })
 })
-*/

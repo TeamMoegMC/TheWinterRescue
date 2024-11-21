@@ -81,3 +81,42 @@ ServerEvents.recipes((event) => {
 	})
 });
 */
+
+ServerEvents.recipes((event) => {
+	let { stone_age } = event.recipes
+
+	/* 看起来这个配方类型还没做完, 等哪天做完了解除注释
+	stone_age.tree_stump("2x steampowered:bronze_sheet", "3x frostedheart:bronze_ingot", "#forge:hammers", )
+		.chopTimes(3)
+	stone_age.tree_stump("2x frostedheart:lead_sheet", "3x frostedheart:lead_ingot", "#forge:hammers")
+		.chopTimes(3)
+	stone_age.tree_stump("2x frostedheart:cast_iron_sheet", "3x frostedheart:cast_iron_ingot", "#forge:hammers")
+		.chopTimes(3)
+	stone_age.tree_stump("2x frostedheart:invar_sheet", "3x frostedheart:invar_ingot", "#forge:hammers")
+		.chopTimes(3)
+
+	let metals = [
+		"copper",
+		"brass",
+		"iron"
+	]
+	metals.forEach((plate) => {
+		stone_age.tree_stump(`2x create:${plate}_sheet`, `3x #forge:ingots/${plate}`, "#forge:hammers")
+			.chopTimes(3)
+	})
+
+	let metals2 = [
+		"aluminum",
+		"lead",
+		"constantan",
+		"steel",
+		"electrum",
+		"silver",
+		"gold"
+	]
+	metals2.forEach((plate) => {
+		stone_age.tree_stump(`2x immersiveengineering:plate_${plate}`, `3x #forge:ingots/${plate}`, "#forge:hammers")
+			.chopTimes(3)
+	})
+	*/
+})

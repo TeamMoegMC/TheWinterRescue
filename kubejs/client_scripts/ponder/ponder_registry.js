@@ -43,11 +43,11 @@ Ponder.registry((event) => {
 			scene.addKeyframe()
 			scene.showControls(20, [2, 3.5, 2], "down")
 				.withItem("charcoal_pit:fire_starter")
-			scene.idle(20)
+			scene.idle(30)
 			scene.world.modifyBlocks([2, 2, 2], (state) => state.with("lit", "true"), false)
+			scene.world.showIndependentSectionImmediately([2, 3, 2])
 			scene.world.setBlocks([2, 3, 2], "minecraft:fire")
-			scene.world.showSection([2, 3, 2], Direction.DOWN)
-			scene.idle(20)
+			scene.idle(30)
 			scene.world.setBlocks([2, 3, 2], dirt, false)
 
 			//
@@ -65,7 +65,6 @@ Ponder.registry((event) => {
 				.withItem("immersiveengineering:creosote_bucket")
 			scene.idle(20)
 		})
-
 
 	// Bloomery
 	event.create(["charcoal_pit:main_bloomery", "charcoal_pit:sandy_tuyere", "charcoal_pit:sandy_brick", "charcoal_pit:bellows"])
@@ -105,9 +104,9 @@ Ponder.registry((event) => {
 				.pointAt([3, 2, 1])
 			scene.idle(30)
 			scene.showControls(20, [3, 2, 1], "right")
-			scene.world.modifyBlocks([3, 2, 1], (state) => state.with("push", "true"))
+			scene.world.modifyBlocks([3, 2, 1], (state) => state.with("push", "true"), false)
 			scene.idle(20)
-			scene.world.modifyBlocks([3, 2, 1], (state) => state.with("push", "false"))
+			scene.world.modifyBlocks([3, 2, 1], (state) => state.with("push", "false"), false)
 			scene.idle(20)
 
 			// Bloomery extraupgrade scene
@@ -120,7 +119,7 @@ Ponder.registry((event) => {
 				.pointAt([1, 2, 1])
 			scene.idle(30)
 			scene.world.setBlocks([1, 2, 1], "charcoal_pit:bellows", true)
-			scene.world.modifyBlocks([1, 2, 1], (state) => state.with("Direction", Direction.east))
+			scene.world.modifyBlocks([1, 2, 1], (state) => state.with("Direction", Direction.EAST), false)
 			scene.idle(30)
 
 			scene.world.showSection([2, 3, 2], Direction.DOWN)
@@ -136,9 +135,9 @@ Ponder.registry((event) => {
 		.scene("usage", "Using the bloomery", "kubejs:bloomery", (scene, util) => {
 			scene.showBasePlate()
 			scene.idle(5)
-			scene.world.showSection([2, 1, 2], Direction.DOWN)
+			scene.world.showSection([4, 1, 0, 0, 1, 4], Direction.DOWN)
 			scene.idle(5)
-			scene.world.showSection([2, 2, 2], Direction.DOWN)
+			scene.world.showSection([4, 2, 0, 0, 2, 4], Direction.DOWN)
 			scene.idle(5)
 
 			scene.overlay.showOutline("green", {}, [2, 2, 2], 50)
@@ -448,12 +447,20 @@ Ponder.registry((event) => {
 
 	event.create(["charcoal_pit:log_pile"])
 		.tag("the_winter_rescue:charcoal_pit")
-		.scene("basic_usage", "", "kubejs:charcoal_pit", (scene, util) => {
+		.scene("basic_usage", "", "kubejs:charcoal_pit", (scene) => {
+			let dirt = "minecraft:dirt"
+
 			scene.showBasePlate()
 			scene.idle(20)
 
 			scene.world.showSection([4, 1, 0, 0, 1, 4], Direction.DOWN)
 			scene.world.showSection([4, 2, 0, 0, 2, 4], Direction.DOWN)
+
+			let dirtBlock = [[2, 1, 3], [1, 1, 2], [2, 1, 1], [3, 1, 2]]
+			dirtBlock.forEach((pos) => {
+				scene.world.setBlocks(pos, dirt)
+				scene.world.showSection(pos, Direction.DOWN)
+			})
 			scene.idle(30)
 
 			scene.showControls(40, [2, 2, 2], "down")
@@ -461,11 +468,13 @@ Ponder.registry((event) => {
 			scene.addKeyframe()
 			scene.idle(20)
 
-			scene.world.setBlocks([2, 2, 2], "minecraft:fire", true)
-			scene.world.modifyBlocks([2, 1, 2], (state) => state.with("lit", "true"))
+			scene.world.setBlocks([2, 2, 2], "minecraft:fire", false)
+			scene.world.modifyBlocks([2, 1, 2], (state) => state.with("lit", "true"), false)
 			scene.idle(40)
+			scene.world.setBlocks([2, 2, 2], dirt, false)
+			scene.idle(40)
+			scene.world.setBlocks([2, 2, 2], "minecraft:air", false)
 
-			scene.world.setBlocks([2, 2, 2], "minecraft:air", true)
 			scene.world.moveSection(scene.world.showIndependentSection([2, 3, 2], Direction.DOWN), [0, -1, 0], 0)
 			scene.addKeyframe()
 			scene.idle(60)
@@ -486,15 +495,15 @@ Ponder.registry((event) => {
 			scene.idle(20)
 
 			scene.world.setBlocks([1, 2, 1, 3, 2, 3], "minecraft:fire", false)
-			scene.world.modifyBlocks([2, 1, 2], (state) => state.with("lit", "true"))
-			scene.world.modifyBlocks([1, 1, 2], (state) => state.with("lit", "true"))
-			scene.world.modifyBlocks([3, 1, 2], (state) => state.with("lit", "true"))
-			scene.world.modifyBlocks([2, 1, 1], (state) => state.with("lit", "true"))
-			scene.world.modifyBlocks([1, 1, 1], (state) => state.with("lit", "true"))
-			scene.world.modifyBlocks([3, 1, 1], (state) => state.with("lit", "true"))
-			scene.world.modifyBlocks([2, 1, 3], (state) => state.with("lit", "true"))
-			scene.world.modifyBlocks([1, 1, 3], (state) => state.with("lit", "true"))
-			scene.world.modifyBlocks([3, 1, 3], (state) => state.with("lit", "true"))
+			scene.world.modifyBlocks([2, 1, 2], (state) => state.with("lit", "true"), false)
+			scene.world.modifyBlocks([1, 1, 2], (state) => state.with("lit", "true"), false)
+			scene.world.modifyBlocks([3, 1, 2], (state) => state.with("lit", "true"), false)
+			scene.world.modifyBlocks([2, 1, 1], (state) => state.with("lit", "true"), false)
+			scene.world.modifyBlocks([1, 1, 1], (state) => state.with("lit", "true"), false)
+			scene.world.modifyBlocks([3, 1, 1], (state) => state.with("lit", "true"), false)
+			scene.world.modifyBlocks([2, 1, 3], (state) => state.with("lit", "true"), false)
+			scene.world.modifyBlocks([1, 1, 3], (state) => state.with("lit", "true"), false)
+			scene.world.modifyBlocks([3, 1, 3], (state) => state.with("lit", "true"), false)
 			scene.idle(40)
 
 			scene.world.replaceBlocks([1, 2, 1, 3, 2, 3], "minecraft:air", false)
