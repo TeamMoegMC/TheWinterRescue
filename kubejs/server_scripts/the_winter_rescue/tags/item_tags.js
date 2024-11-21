@@ -147,7 +147,7 @@ ServerEvents.tags("item", (event) => {
 		"create:dough"
 	])
 
-	// Why we disable ftb ultimine? We consider it have a bad impact on player experience, since it greatly reduce difficulty of this modpack and can easily cause bug or cheat.	
+	// Why we disable ftb ultimine? We consider it have a bad impact on player experience, since it greatly reduce difficulty of this modpack and can easily cause bug or cheat.
 	// 为何要禁止连锁挖矿？我们以前认为使用连锁挖矿是个人行为，可以让后期不想挖矿的玩家偷懒。
 	// 但是部分玩家和游戏UP向各种所有玩家推荐连锁挖矿。
 	// 甚至一些新手玩家刚刚下载整合包就已经前来询问连锁挖矿相关问题，并直接安装连锁挖矿，而不是先体验整合包内容。

@@ -4,12 +4,12 @@ ServerEvents.recipes((event) => {
 
 	let ores = [
 		"frostedheart:raw_pyrite",
-		"frostedheart:raw_nickel",
-		"frostedheart:raw_tin",
+		"frostedheart:raw_pentlandite",
+		"frostedheart:raw_cassiterite",
 		"frostedheart:bauxite",
 		"frostedheart:kaolin",
 		"frostedheart:raw_magnesite",
-		"frostedheart:raw_lead",
+		"frostedheart:raw_galena",
 		"frostedheart:raw_halite",
 		"frostedheart:raw_silver",
 		"minecraft:raw_gold",
@@ -17,14 +17,15 @@ ServerEvents.recipes((event) => {
 		"create:raw_zinc",
 		"minecraft:raw_copper"
 	]
+
 	let ore_name = [
 		"pyrite",
-		"nickel",
-		"tin",
+		"pentlandite",
+		"cassiterite",
 		"bauxite",
 		"kaolin",
 		"magnesite",
-		"lead",
+		"galena",
 		"halite",
 		"silver",
 		"gold",
@@ -32,6 +33,7 @@ ServerEvents.recipes((event) => {
 		"zinc",
 		"copper"
 	]
+	
 	let by_products = [];
 	let i;
 	let ores_i;
@@ -70,8 +72,8 @@ ServerEvents.recipes((event) => {
 			{ output: "minecraft:iron_ingot", input: "create:crushed_raw_iron", time: 300 },
 			{ output: "immersiveengineering:ingot_silver", input: "frostedheart:crushed_raw_silver", time: 150 },
 			{ output: "minecraft:gold_ingot", input: "create:crushed_raw_gold", time: 150 },
-			{ output: "immersiveengineering:ingot_nickel", input: "frostedheart:crushed_raw_pentlandite", time: 300 },
-			{ output: "immersiveengineering:ingot_nickel", input: "frostedheart:nickel_slag", time: 300 },
+			{ output: "immersiveengineering:ingot_pentlandite", input: "frostedheart:crushed_raw_pentlandite", time: 300 },
+			{ output: "immersiveengineering:ingot_pentlandite", input: "frostedheart:pentlandite_slag", time: 300 },
 			{ output: "minecraft:copper_ingot", input: "frostedheart:copper_oxide_dust", time: 90 },
 			{ output: "immersiveengineering:ingot_lead", input: "frostedheart:lead_oxide_dust", time: 80 },
 			{ output: "create:zinc_ingot", input: "create:crushed_raw_zinc", time: 150 },
@@ -89,8 +91,8 @@ ServerEvents.recipes((event) => {
 		["minecraft:iron_ingot", "create:crushed_raw_iron", 300],
 		["immersiveengineering:ingot_silver", "frostedheart:crushed_raw_silver", 150],
 		["minecraft:gold_ingot", "create:crushed_raw_gold", 150],
-		// ["immersiveengineering:ingot_nickel", "frostedheart:crushed_raw_pentlandite", 300],
-		// ["immersiveengineering:ingot_nickel", "frostedheart:nickel_slag", 300],
+		// ["immersiveengineering:ingot_pentlandite", "frostedheart:crushed_raw_pentlandite", 300],
+		// ["immersiveengineering:ingot_pentlandite", "frostedheart:pentlandite_slag", 300],
 		["minecraft:copper_ingot", "frostedheart:copper_oxide_dust", 90],
 		["immersiveengineering:ingot_lead", "frostedheart:lead_oxide_dust", 80],
 		["create:zinc_ingot", "create:crushed_raw_zinc", 150],
@@ -113,8 +115,8 @@ ServerEvents.recipes((event) => {
 		rotarySulfate("frostedheart:crushed_raw_pyrite", "create:crushed_raw_iron", 64, 250, 0),
 		rotarySulfate("frostedheart:crushed_raw_galena", "frostedheart:lead_oxide_dust", 32, 250, 0.25),
 		rotarySulfate("create:crushed_raw_zinc", "frostedheart:zinc_oxide_dust", 32, 250, 0),
-		rotarykilnRecipe3("frostedheart:crushed_raw_pentlandite", "frostedheart:nickel_slag", Fluid.of("frostedheart:sulfur_dioxide", 250).toJson(), 200, 64, "frostedheart:iron_slag", 1),
-		carkilnRecipe(["3x frostedheart:nickel_slag", "2x frostedheart:quicklime"], ["3x immersiveengineering:ingot_nickel", "3x immersiveengineering:slag", "frostedheart:nickel_slag"], 1200)
+		rotarykilnRecipe3("frostedheart:crushed_raw_pentlandite", "frostedheart:pentlandite_slag", Fluid.of("frostedheart:sulfur_dioxide", 250).toJson(), 200, 64, "frostedheart:iron_slag", 1),
+		carkilnRecipe(["3x frostedheart:pentlandite_slag", "2x frostedheart:quicklime"], ["3x immersiveengineering:ingot_pentlandite", "3x immersiveengineering:slag", "frostedheart:pentlandite_slag"], 1200)
 	]
 	kilnRecipes.forEach((recipe) => {
 		event.custom(recipe); console.info(recipe)
