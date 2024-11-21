@@ -1,32 +1,56 @@
-#Enables the weather forecast system. 
-enablesTemperatureForecast = true
-#BlackListed mods to kick player
-"Mod Blacklist" = []
-#Enables sending wanted food message. 
-enableDailyKitchen = true
-#The max power which steam core can store.Steam Core will cost the power stored without any heat source connected.
-#Range: 100.0 ~ 6000000.0
-steamCoreMaxPower = 600.0
-#SteamCore will cost such heat 20 times per second.
-#Range: 0.0 ~ 6000000.0
-steamCorePowerIntake = 4.0
-#The speed which steam core can provide.
-#Range: 0.0 ~ 256.0
-steamCoreGeneratedSpeed = 32.0
-#The capacity which steam core can provide.
-#Range: 0.0 ~ 256.0
-steamCoreCapacity = 32.0
-#Forces the weather forecast system to be enabled regardless of scenario. 
-forceEnableTemperatureForecast = true
-#Enables snow accumulation during world generation.
-enableSnowAccumulationDuringWorldgen = false
-#The chance of igniting when using a flint and metal.
-#Range: 0.0 ~ 1.0
-flintIgnitionChance = 0.1
-#The chance of igniting igniting when using a stick.
-#Range: 0.0 ~ 1.0
-stickIgnitionChance = 0.05
-#The chance of consuming the item when ignited.
-#Range: 0.0 ~ 1.0
-consumeChanceWhenIgnited = 0.1
+
+["Weather Forecast"]
+	#Enables the weather forecast system. 
+	enablesTemperatureForecast = true
+	#Forces the weather forecast system to be enabled regardless of scenario. 
+	forceEnableTemperatureForecast = false
+
+["Steam Core"]
+	#The max power which steam core can store.Steam Core will cost the power stored without any heat source connected.
+	#Range: 100.0 ~ 6000000.0
+	steamCoreMaxPower = 600.0
+	#SteamCore will cost such heat 20 times per second.
+	#Range: 0.0 ~ 6000000.0
+	steamCorePowerIntake = 8.0
+	#The speed which steam core can provide.
+	#Range: 0.0 ~ 256.0
+	steamCoreGeneratedSpeed = 32.0
+	#The capacity which steam core can provide.
+	#Range: 0.0 ~ 256.0
+	steamCoreCapacity = 32.0
+
+["Fire Ignition"]
+	#The chance of igniting when using a flint and metal.
+	#Range: 0.0 ~ 1.0
+	flintIgnitionChance = 0.1
+	#The chance of igniting igniting when using a stick.
+	#Range: 0.0 ~ 1.0
+	stickIgnitionChance = 0.05
+	#The chance of consuming the item when ignited.
+	#Range: 0.0 ~ 1.0
+	consumeChanceWhenIgnited = 0.1
+
+["Surrounding Temperature Simulation"]
+	#The simulator is used to simulate the temperature of the surrounding environment. Not recommended to change.
+	#The range of the simulation.
+	#Range: 1 ~ 8
+	simulationRange = 8
+	#The number of particles in the simulation.
+	#Range: 4168 ~ 4168
+	simulationParticles = 4168
+	#The number of divisions of unit square in the simulation.
+	#Range: 1 ~ 100
+	simulationDivision = 10
+	#The initial speed of the particles in the simulation.
+	#Range: 0.009999999776482582 ~ 1.0
+	simulationParticleInitialSpeed = 0.4000000059604645
+	#The life ticks of the particles in the simulation.
+	#Range: 1 ~ 100
+	simulationParticleLife = 20
+
+[Miscellaneous]
+	#BlackListed mods to kick player
+	"Mod Blacklist" = []
+	#Enables sending wanted food message. 
+	enableDailyKitchen = true
 

@@ -106,7 +106,7 @@
 			tasks: [{
 				icon: {
 					Count: 1b
-					id: "watersource:leather_water_bag"
+					id: "frostedheart:leather_water_bag"
 					tag: {
 						Damage: 1500
 					}
