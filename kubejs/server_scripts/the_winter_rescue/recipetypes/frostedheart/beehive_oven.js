@@ -29,3 +29,7 @@ ServerEvents.recipes((event) => {
 	})
 })
 */
+
+ServerEvents.recipes((event) => {
+	let { frostedheart } = event.recipes
+})
