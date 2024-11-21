@@ -6,7 +6,7 @@
 		{
 			item: {
 				Count: 1b
-				id: "frostedheart:flint_spear"
+				id: "frostedheart:makeshift_spear"
 				tag: {
 					Damage: 0
 				}
@@ -15,7 +15,7 @@
 		{
 			item: {
 				Count: 1b
-				id: "frostedheart:flint_axe"
+				id: "frostedheart:makeshift_axe"
 				tag: {
 					Damage: 0
 				}
@@ -24,7 +24,7 @@
 		{
 			item: {
 				Count: 1b
-				id: "frostedheart:flint_pickaxe"
+				id: "frostedheart:makeshift_pickaxe"
 				tag: {
 					Damage: 0
 				}
@@ -33,12 +33,12 @@
 		{
 			item: {
 				Count: 1b
-				id: "frostedheart:flint_shovel"
+				id: "frostedheart:makeshift_shovel"
 				tag: {
 					Damage: 0
 				}
 			}
 		}
 	]
-	title: "燧石工具包"
+	title: "简易工具包"
 }

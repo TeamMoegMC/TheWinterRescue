@@ -28,11 +28,10 @@ ItemEvents.tooltip((event) => {
 			items: ["minecraft:vine"],
 			txt: [Text.of(Text.translate("tooltip.the_winter_rescue.snowy_vine")).gray()]
 		},
-		// TODO: Uncomment when FH is ready
-		// {
-		//     items: ["frostedheart:flint_knife"],
-		//     txt: [Text.of(Text.translate("tooltip.the_winter_rescue.flint_knife")).gray()]
-		// },
+		{
+		    items: ["frostedheart:makeshift_knife"],
+		    txt: [Text.of(Text.translate("tooltip.the_winter_rescue.flint_knife")).gray()]
+		},
 		{
 			items: ["stone_age:flint_knife"],
 			txt: [Text.of(Text.translate("tooltip.the_winter_rescue.flint_knife_2")).gray()]
