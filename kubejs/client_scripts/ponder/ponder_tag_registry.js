@@ -1,5 +1,3 @@
-// priority: 1
-
 Ponder.tags((event) => {
 	// genny
 	event.createTag("the_winter_rescue:generator", "frostedheart:generator", "", "")

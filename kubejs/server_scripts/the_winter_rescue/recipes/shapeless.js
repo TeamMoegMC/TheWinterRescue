@@ -3,7 +3,6 @@
  */
 
 ServerEvents.recipes((event) => {
-
 	let { create, kubejs, minecraft } = event.recipes
 
 	let changeShapelessRecipes = [

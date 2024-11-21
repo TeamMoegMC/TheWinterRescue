@@ -2,8 +2,36 @@
 ServerEvents.recipes((event) => {
 	let { immersiveengineering, create, minecraft } = event.recipes
 
-	let ores = ["frostedheart:raw_pyrite", "frostedheart:raw_pentlandite", "frostedheart:raw_cassiterite", "frostedheart:bauxite", "frostedheart:kaolin", "frostedheart:raw_magnesite", "frostedheart:raw_galena", "frostedheart:raw_halite", "frostedheart:raw_silver", "minecraft:raw_gold", "minecraft:raw_iron", "create:raw_zinc", "minecraft:raw_copper"]
-	let ore_name = ["pyrite", "pentlandite", "cassiterite", "bauxite", "kaolin", "magnesite", "galena", "halite", "silver", "gold", "iron", "zinc", "copper"]
+	let ores = [
+		"frostedheart:raw_pyrite",
+		"frostedheart:raw_nickel",
+		"frostedheart:raw_tin",
+		"frostedheart:bauxite",
+		"frostedheart:kaolin",
+		"frostedheart:raw_magnesite",
+		"frostedheart:raw_lead",
+		"frostedheart:raw_halite",
+		"frostedheart:raw_silver",
+		"minecraft:raw_gold",
+		"minecraft:raw_iron",
+		"create:raw_zinc",
+		"minecraft:raw_copper"
+	]
+	let ore_name = [
+		"pyrite",
+		"nickel",
+		"tin",
+		"bauxite",
+		"kaolin",
+		"magnesite",
+		"lead",
+		"halite",
+		"silver",
+		"gold",
+		"iron",
+		"zinc",
+		"copper"
+	]
 	let by_products = [];
 	let i;
 	let ores_i;

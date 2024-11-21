@@ -1,4 +1,4 @@
-// priority: 0
+import { identity } from "C:/Users/321/AppData/Local/Microsoft/TypeScript/5.8/node_modules/rxjs/index"
 
 Ponder.registry((event) => {
 	// Creosote funnel
@@ -132,7 +132,7 @@ Ponder.registry((event) => {
 		})
 
 		// bloomery usage
-		.scene("usage", "Using the bloomery", "kubejs:bloomery", (scene, util) => {
+		.scene("usage", "Using the bloomery", "kubejs:bloomery", (scene) => {
 			scene.showBasePlate()
 			scene.idle(5)
 			scene.world.showSection([4, 1, 0, 0, 1, 4], Direction.DOWN)
@@ -187,7 +187,7 @@ Ponder.registry((event) => {
 	// Generator Consruction (Tier 1)
 	event.create(["frostedheart:generator", "frostedheart:generator_core_t1", "frostedheart:generator_amplifier_r1", "frostedheart:generator_brick"])
 		.tag("the_winter_rescue:generator")
-		.scene("basic_usage", "", "kubejs:generator_t1", (scene, util) => {
+		.scene("basic_usage", "", "kubejs:generator_t1", (scene) => {
 			scene.configureBasePlate(0, 0, 5)
 			scene.scaleSceneView(0.7) // zoom out, t2 is big
 			scene.showBasePlate()
@@ -223,7 +223,7 @@ Ponder.registry((event) => {
 	// Generator Consruction (Tier 2)
 	event.create(["frostedheart:generator_t2", "frostedheart:invar_block"])
 		.tag("the_winter_rescue:generator")
-		.scene("basic_usage", "", "kubejs:generator_t2", (scene, util) => {
+		.scene("basic_usage", "", "kubejs:generator_t2", (scene) => {
 			scene.configureBasePlate(0, 0, 5)
 			scene.scaleSceneView(0.5) // zoom out, t2 is big
 			scene.showBasePlate()
@@ -264,7 +264,7 @@ Ponder.registry((event) => {
 			scene.idle(40)
 		})
 	/*
-	.scene("usage", "", "kubejs:generator_t2", (scene, util) => {
+	.scene("usage", "", "kubejs:generator_t2", (scene) => {
 		scene.configureBasePlate(0, 0, 5)
 		scene.scaleSceneView(1)
 		scene.showBasePlate()
@@ -296,7 +296,7 @@ Ponder.registry((event) => {
 	// Crucible
 	event.create(["immersiveindustry:crucible", "immersiveindustry:burning_chamber", "frostedheart:high_refractory_bricks", "immersiveengineering:blastfurnace_preheater"])
 		.tag("the_winter_rescue:crucible")
-		.scene("assembly", "", "kubejs:steel_mill_crucible", (scene, util) => {
+		.scene("assembly", "", "kubejs:steel_mill_crucible", (scene) => {
 			scene.configureBasePlate(0, 0, 5)
 			scene.scaleSceneView(0.7) // zoom out, t2 is big
 			scene.showBasePlate()
@@ -336,7 +336,7 @@ Ponder.registry((event) => {
 			scene.world.moveSection(scene.world.showIndependentSection([0, 6, 4, 4, 10, 4], Direction.north), [0, -5, 0], 0)
 			scene.idle(60)
 		})
-		.scene("basic_usage", "", "kubejs:steel_mill_crucible_usage", (scene, util) => {
+		.scene("basic_usage", "", "kubejs:steel_mill_crucible_usage", (scene) => {
 			scene.configureBasePlate(0, 0, 6)
 			scene.showBasePlate()
 			scene.idle(10)
@@ -409,7 +409,7 @@ Ponder.registry((event) => {
 
 	event.create(["immersiveindustry:steam_turbine", "immersiveengineering:generator"])
 		.tag("the_winter_rescue:steam_turbine")
-		.scene("basic_usage", "", "kubejs:steam_turbine", (scene, util) => {
+		.scene("basic_usage", "", "kubejs:steam_turbine", (scene) => {
 			scene.rotateCameraY(130)
 			scene.scaleSceneView(0.7) // zoom out, t2 is big
 			scene.configureBasePlate(0, 0, 9) // baseplace is a square
@@ -444,76 +444,123 @@ Ponder.registry((event) => {
 			scene.idle(60)
 		})
 
-
-	event.create(["charcoal_pit:log_pile"])
+	event.create(["minecraft:charcoal", "charcoal_pit:log_pile", "charcoal_pit:wood_ash"])
 		.tag("the_winter_rescue:charcoal_pit")
-		.scene("basic_usage", "", "kubejs:charcoal_pit", (scene) => {
+		.scene("basic_usage", "", (scene) => {
 			let dirt = "minecraft:dirt"
 
 			scene.showBasePlate()
 			scene.idle(20)
 
-			scene.world.showSection([4, 1, 0, 0, 1, 4], Direction.DOWN)
-			scene.world.showSection([4, 2, 0, 0, 2, 4], Direction.DOWN)
+			scene.addKeyframe()
+			scene.world.setBlocks([2, 1, 2], "charcoal_pit:log_pile")
+			scene.world.showSection([2, 1, 2], Direction.DOWN)
+			scene.world.modifyBlocks([2, 1, 2], (state) => state.with("axis", "y"), false)
+			scene.idle(20)
 
+			scene.addKeyframe()
 			let dirtBlock = [[2, 1, 3], [1, 1, 2], [2, 1, 1], [3, 1, 2]]
 			dirtBlock.forEach((pos) => {
 				scene.world.setBlocks(pos, dirt)
 				scene.world.showSection(pos, Direction.DOWN)
+				scene.idle(2)
 			})
-			scene.idle(30)
-
-			scene.showControls(40, [2, 2, 2], "down")
-				.withItem("charcoal_pit:fire_starter")
-			scene.addKeyframe()
 			scene.idle(20)
 
-			scene.world.setBlocks([2, 2, 2], "minecraft:fire", false)
+			scene.addKeyframe()
+			scene.showControls(20, [2, 2.5, 2], "down")
+				.withItem("charcoal_pit:fire_starter")
+			scene.idle(30)
+			scene.addKeyframe()
 			scene.world.modifyBlocks([2, 1, 2], (state) => state.with("lit", "true"), false)
-			scene.idle(40)
-			scene.world.setBlocks([2, 2, 2], dirt, false)
-			scene.idle(40)
+			scene.world.setBlocks([2, 2, 2], "minecraft:fire", false)
+
+			scene.world.showIndependentSectionImmediately([2, 2, 2])
+			scene.idle(20)
+			scene.world.setBlocks([2, 4, 2], dirt)
+			scene.world.moveSection(scene.world.showIndependentSection([2, 4, 2], Direction.DOWN), [0, -2, 0], 0)
 			scene.world.setBlocks([2, 2, 2], "minecraft:air", false)
 
-			scene.world.moveSection(scene.world.showIndependentSection([2, 3, 2], Direction.DOWN), [0, -1, 0], 0)
-			scene.addKeyframe()
-			scene.idle(60)
-			scene.world.hideSection([1, 1, 1, 3, 1, 3], Direction.DOWN)
-			scene.world.hideIndependentSection(scene.world.showIndependentSection([2, 3, 2], Direction.DOWN), Direction.DOWN)
-			scene.idle(20)
-
-			scene.world.setBlock([2, 3, 2], "minecraft:air", false)
-			scene.world.replaceBlocks([1, 1, 1, 3, 1, 3], "minecraft:air", false)
-			scene.world.moveSection(scene.world.showIndependentSection([0, 4, 0, 4, 4, 4], Direction.DOWN), [0, -3, 0], 0)
-			scene.world.setBlocks([1, 1, 1, 3, 1, 3], "charcoal_pit:log_pile", false)
-			scene.world.showSection([1, 1, 1, 3, 1, 3], Direction.DOWN)
 			scene.addKeyframe()
 			scene.idle(40)
 
-			scene.showControls(40, [2, 2, 2], "right")
+			let air1 = [[2, 1, 3], [1, 1, 2], [2, 1, 1], [3, 1, 2], [2, 4, 2]]
+			air1.forEach((pos) => {
+				scene.world.setBlocks(pos, "minecraft:air")
+			})
+			scene.world.setBlocks([2, 1, 2], "charcoal_pit:wood_ash", false)
+			scene.idle(20)
+			scene.world.setBlocks([2, 1, 2], "minecraft:air")
+			let charcoal1 = scene.world.createItemEntity([2.5, 2, 2.5], Direction.DOWN, "7x minecraft:charcoal")
+			let ash1 = scene.world.createItemEntity([2.5, 2, 2.5], Direction.DOWN, "2x charcoal_pit:ash")
+			scene.idle(40)
+			scene.world.removeEntity(charcoal1)
+			scene.world.removeEntity(ash1)
+
+			//
+			scene.addKeyframe()
+			scene.idle(20)
+			let dirt2 = [
+				[3, 1, 4], [2, 1, 4], [1, 1, 4],
+				[0, 1, 3], [0, 1, 2], [0, 1, 1],
+				[1, 1, 0], [2, 1, 0], [3, 1, 0],
+				[4, 1, 1], [4, 1, 2], [4, 1, 3]
+			]
+			dirt2.forEach((pos) => {
+				scene.world.setBlocks(pos, dirt)
+				scene.world.showSection(pos, Direction.DOWN)
+				scene.idle(2)
+			})
+
+			scene.world.setBlocks([3, 6, 1, 1, 6, 3], "charcoal_pit:log_pile")
+			scene.world.modifyBlocks([3, 6, 1, 1, 6, 3], (state) => state.with("axis", "y"), false)
+			scene.world.moveSection(scene.world.showIndependentSection([3, 6, 1, 1, 6, 3], Direction.DOWN), [0, -5, 0], 0)
+			scene.idle(20)
+
+			scene.addKeyframe()
+			scene.showControls(20, [2, 2.5, 2], "down")
 				.withItem("charcoal_pit:fire_starter")
+			scene.idle(30)
+			scene.world.modifyBlocks([3, 6, 1, 1, 6, 3], (state) => state.with("lit", "true"), false)
+			scene.world.setBlocks([3, 7, 1, 1, 7, 3], "minecraft:fire", false)
+			scene.world.moveSection(scene.world.showIndependentSectionImmediately([3, 7, 1, 1, 7, 3]), [0, -5, 0], 0)
+			scene.idle(20)
+			scene.world.setBlocks([3, 7, 1, 1, 7, 3], "minecraft:air", false)
+
+			scene.world.setBlocks([3, 8, 1, 1, 8, 3], dirt, false)
+			scene.world.moveSection(scene.world.showIndependentSection([3, 8, 1, 1, 8, 3], Direction.DOWN), [0, -6, 0], 0)
 			scene.idle(20)
 
-			scene.world.setBlocks([1, 2, 1, 3, 2, 3], "minecraft:fire", false)
-			scene.world.modifyBlocks([2, 1, 2], (state) => state.with("lit", "true"), false)
-			scene.world.modifyBlocks([1, 1, 2], (state) => state.with("lit", "true"), false)
-			scene.world.modifyBlocks([3, 1, 2], (state) => state.with("lit", "true"), false)
-			scene.world.modifyBlocks([2, 1, 1], (state) => state.with("lit", "true"), false)
-			scene.world.modifyBlocks([1, 1, 1], (state) => state.with("lit", "true"), false)
-			scene.world.modifyBlocks([3, 1, 1], (state) => state.with("lit", "true"), false)
-			scene.world.modifyBlocks([2, 1, 3], (state) => state.with("lit", "true"), false)
-			scene.world.modifyBlocks([1, 1, 3], (state) => state.with("lit", "true"), false)
-			scene.world.modifyBlocks([3, 1, 3], (state) => state.with("lit", "true"), false)
-			scene.idle(40)
+			scene.addKeyframe()
+			let air2 = [
+				[3, 1, 4], [2, 1, 4], [1, 1, 4],
+				[0, 1, 3], [0, 1, 2], [0, 1, 1],
+				[1, 1, 0], [2, 1, 0], [3, 1, 0],
+				[4, 1, 1], [4, 1, 2], [4, 1, 3]
+			]
+			air2.forEach((pos) => {
+				scene.world.setBlocks(pos, "minecraft:air")
+			})
+			scene.world.setBlocks([3, 8, 1, 1, 8, 3], "minecraft:air")
+			scene.world.setBlocks([3, 6, 1, 1, 6, 3], "charcoal_pit:wood_ash")
+			scene.idle(20)
+			scene.world.setBlocks([3, 6, 1, 1, 6, 3], "minecraft:air")
 
-			scene.world.replaceBlocks([1, 2, 1, 3, 2, 3], "minecraft:air", false)
-			scene.world.moveSection(scene.world.showIndependentSection([1, 5, 1, 3, 5, 3], Direction.DOWN), [0, -3, 0], 0)
+			let createItemEntity = [
+				[3.5, 1.5, 3.5], [2.5, 1.5, 3.5], [1.5, 1.5, 3.5],
+				[3.5, 1.5, 2.5], [2.5, 1.5, 2.5], [1.5, 1.5, 2.5],
+				[3.5, 1.5, 1.5], [2.5, 1.5, 1.5], [1.5, 1.5, 1.5],
+			]
+			createItemEntity.forEach((pos) => {
+				scene.world.createItemEntity(pos, Direction.DOWN, "7x minecraft:charcoal")
+				scene.world.createItemEntity(pos, Direction.DOWN, "2x charcoal_pit:ash")
+			})
 			scene.idle(20)
 		})
 
 	event.create(["charcoal_pit:straw", "charcoal_pit:clay_pot"])
 		.tag("the_winter_rescue:charcoal_pit")
-		.scene("basic_usage", "", "kubejs:pottery_kiln", (scene, util) => {
+		.scene("basic_usage", "", "kubejs:pottery_kiln", (scene) => {
 			scene.showBasePlate()
 			scene.scaleSceneView(1)
 			scene.idle(20)

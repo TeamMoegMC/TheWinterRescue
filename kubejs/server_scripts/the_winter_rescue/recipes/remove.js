@@ -7,6 +7,7 @@ ServerEvents.recipes((event) => {
 	flint_workbench.forEach((Item) => {
 		event.remove({ type: "stone_age:flint_workbench", output: Item })
 	})
+	
 	let workbench = [
 		"immersiveengineering:cloche",
 		"immersiveengineering:dynamo",
@@ -43,6 +44,7 @@ ServerEvents.recipes((event) => {
 	workbench.forEach((Item) => {
 		event.remove({ type: "minecraft:crafting_shaped", output: Item })
 	})
+	
 	let shapeless = [
 		"minecraft:ender_eye",
 		"#forge:plates",
@@ -51,12 +53,16 @@ ServerEvents.recipes((event) => {
 		"minecraft:mushroom_stew",
 		"create:tree_fertilizer"
 	]
+	
 	let recipeID = [
 		"minecraft:bucket",
 		"stone_age:backpack",
 		"minecraft:white_wool_from_string",
 		"immersiveengineering:crafting/nugget_copper_to_copper_ingot",
-		"minecraft:campfire"
+		"minecraft:campfire",
+		"charcoal_pit:bellows",
+		"charcoal_pit:sandy_tuyere",
+		"charcoal_pit:sandy_bricks"
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

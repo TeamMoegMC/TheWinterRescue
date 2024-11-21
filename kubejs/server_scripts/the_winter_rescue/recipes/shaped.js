@@ -512,6 +512,16 @@ ServerEvents.recipes((event) => {
 			], {
 				A: "#forge:treated_wood"
 			}
+		],
+		[
+			"create:fluid_tank", 2, [
+				"AAA",
+				"ABA",
+				"AAA"
+			], {
+				A: "#forge:plates/bronze",
+				B: "#forge:glass"
+			}
 		]
 	]
 	changeShapedRecipes.forEach((recipe, index) => {
@@ -522,8 +532,7 @@ ServerEvents.recipes((event) => {
 			// 如果是带 NBT 的物品
 			let [itemId, nbt] = output
 			// 确保 NBT 是对象，即使为空
-			output = Item.of(itemId, quantity)
-				.withNBT(nbt || {})
+			output = Item.of(itemId, quantity).withNBT(nbt || {})
 		} else {
 			// 普通物品，默认不带 NBT
 			output = Item.of(output, quantity)
@@ -621,7 +630,6 @@ ServerEvents.recipes((event) => {
 				B: "minecraft:stone",
 			}
 		],
-		/*
 		[
 			"frostedheart:stone_hammer", [
 				"CC",
@@ -632,7 +640,6 @@ ServerEvents.recipes((event) => {
 				C: "#forge:stone"
 			}
 		],
-		*/
 		[
 			"minecraft:campfire", [
 				"AA",
@@ -1075,6 +1082,564 @@ ServerEvents.recipes((event) => {
 				B: "minecraft:stone",
 				C: "minecraft:clay_ball"
 			}
+		],
+		[
+			"stone_age:millstone", [
+				"ABA",
+				"ACA",
+				"DDD"
+			], {
+				A: "#forge:rods/wooden",
+				B: "minecraft:andesite",
+				C: "minecraft:granite",
+				D: "minecraft:smooth_stone_slab"
+			}
+		],
+
+		[
+			"frostedheart:incubator", [
+				"AAA",
+				"A B",
+				"BBB"
+			], {
+				A: "#minecraft:planks",
+				B: "minecraft:stone"
+			}
+		],
+		[
+			"minecraft:arrow", 4, [
+				"A",
+				"B",
+				"C"
+			], {
+				A: "stone_age:bone_arrow_head",
+				B: "#forge:rods/wooden",
+				C: "#forge:feathers"
+			}
+		],
+		[
+			"frostedheart:hand_stove", [
+				" B ",
+				"BAB",
+				" B "
+			], {
+				A: "#forge:clay_balls",
+				B: "#forge:plates/copper"
+			}
+		],
+		[
+			"immersiveengineering:hammer", [
+				" AC",
+				" BA",
+				"B  "
+			], {
+				A: "#forge:ingots/bronze",
+				B: "#forge:rods/wooden",
+				C: "stone_age:leather_strip"
+			}
+		],
+		[
+			"frostedheart:straw_lining", [
+				"AAA",
+				"CBC",
+				"AAA"
+			], {
+				A: "charcoal_pit:straw",
+				B: "stone_age:leather_strip",
+				C: "stone_age:grass_lead"
+			}
+		],
+		[
+			"frostedheart:thermos", [
+				"ACA",
+				"BCB",
+				"BAB"
+			], {
+				A: "#forge:plates/copper",
+				B: "#minecraft:logs",
+				C: "#minecraft:planks"
+			}
+		],
+		[
+			"frostedheart:copper_pro_pick", [
+				"ABA",
+				" B ",
+				" B "
+			], {
+				A: "#forge:ingots/copper",
+				B: "#forge:rods/wooden"
+			}
+		],
+		[
+			"frostedheart:copper_core_spade", [
+				"A",
+				"B",
+				"B"
+			], {
+				A: "#forge:plates/copper",
+				B: "#forge:rods/wooden"
+			}
+		],
+		[
+			"frostedheart:copper_geologists_hammer", [
+				"CBA",
+				" B ",
+				" B "
+			], {
+				A: "#forge:plates/copper",
+				B: "#forge:rods/wooden",
+				C: "#forge:ingots/copper"
+			}
+		],
+		[
+			"minecraft:campfire", [
+				" B ",
+				"ABA",
+				"ACA"
+			], {
+				A: "#minecraft:logs",
+				B: "charcoal_pit:straw",
+				C: "minecraft:gravel"
+			}
+		],
+		[
+			"charcoal_pit:sandy_collector", [
+				"A A",
+				"ABA",
+				"AAA"
+			], {
+				A: "charcoal_pit:sandy_brick_item",
+				B: "frostedheart:ceramic_bucket"
+			}
+		],
+		[
+			"frostedheart:generator_brick", [
+				"ABA",
+				"BAB",
+				"ABA"
+			], {
+				A: "minecraft:stone_bricks",
+				B: "minecraft:brick"
+			}
+		],
+		[
+			"frostedheart:generator_amplifier_r1", [
+				"ABA",
+				"DCD",
+				"ABA"
+			], {
+				A: "minecraft:stone_bricks",
+				B: "minecraft:brick",
+				C: "#forge:plates/copper",
+				D: "minecraft:clay_ball"
+			}
+		],
+		[
+			"frostedheart:generator_core_t1", [
+				"ACA",
+				"CBC",
+				"ACA"
+			], {
+				A: "minecraft:brick",
+				B: "frostedheart:energy_core",
+				C: "#forge:ingots/copper"
+			}
+		],
+		[
+			"frostedheart:rye_bread", [
+				"AAA"
+			], {
+				A: "frostedheart:rye"
+			}
+		],
+		[
+			"frostedheart:wooden_cup", [
+				"A A",
+				"A A",
+				" A "
+			], {
+				A: "#minecraft:planks"
+			}
+		],
+		[
+			"kubejs:wet_straw_briquette", [
+				"AAA",
+				"A A",
+				"AAA"
+			], {
+				A: "charcoal_pit:straw"
+			}
+		],
+		[
+			"stone_age:fish_bone", [
+				"ABA"
+			], {
+				A: "minecraft:bone",
+				B: "minecraft:flint"
+			}
+		],
+		[
+			"frostedheart:hide_hat", [
+				"AAA",
+				"A A",
+				"B C"
+			], {
+				A: "stone_age:raw_hide",
+				B: "stone_age:leather_strip",
+				C: "stone_age:fish_bone"
+			}
+		],
+		[
+			"frostedheart:hide_jacket", [
+				"ACA",
+				"ABA",
+				"AAA"
+			], {
+				A: "stone_age:raw_hide",
+				B: "stone_age:leather_strip",
+				C: "stone_age:fish_bone"
+			}
+		],
+		[
+			"frostedheart:hide_boots", [
+				"ABA",
+				"ACA"
+			], {
+				A: "stone_age:raw_hide",
+				B: "stone_age:leather_strip",
+				C: "stone_age:fish_bone"
+			}
+		],
+		[
+			"frostedheart:wool_hat", [
+				"AAA",
+				"A A",
+				"B C"
+			], {
+				A: "#minecraft:wool",
+				B: "stone_age:leather_strip",
+				C: "stone_age:fish_bone"
+			}
+		],
+		[
+			"frostedheart:wool_jacket", [
+				"ACA",
+				"ABA",
+				"AAA"
+			], {
+				A: "#minecraft:wool",
+				B: "stone_age:leather_strip",
+				C: "stone_age:fish_bone"
+			}
+		],
+		[
+			"frostedheart:wool_pants", [
+				"AAA",
+				"ABA",
+				"ACA"
+			], {
+				A: "#minecraft:wool",
+				B: "stone_age:leather_strip",
+				C: "stone_age:fish_bone"
+			}
+		],
+		[
+			"frostedheart:wool_boots", [
+				"ABA",
+				"ACA"
+			], {
+				A: "#minecraft:wool",
+				B: "stone_age:leather_strip",
+				C: "stone_age:fish_bone"
+			}
+		],
+		[
+			"frostedheart:hay_hat", [
+				"AAA",
+				"A A",
+				"B B"
+			], {
+				A: "charcoal_pit:straw",
+				B: "stone_age:grass_lead"
+			}
+		],
+		[
+			"frostedheart:hay_jacket", [
+				"ABA",
+				"ABA",
+				"AAA"
+			], {
+				A: "charcoal_pit:straw",
+				B: "stone_age:grass_lead"
+			}
+		],
+		[
+			"frostedheart:hay_pants", [
+				"AAA",
+				"ABA",
+				"ABA"
+			], {
+				A: "charcoal_pit:straw",
+				B: "stone_age:grass_lead"
+			}
+		],
+		[
+			"kubejs:clay_bucket", [
+				"A A",
+				"A A",
+				" A "
+			], {
+				A: "minecraft:clay_ball"
+			}
+		],
+		[
+			"frostedheart:hay_boots", [
+				"ABA",
+				"ABA"
+			], {
+				A: "charcoal_pit:straw",
+				B: "stone_age:grass_lead"
+			}
+		],
+		[
+			"frostedheart:drawing_desk", [
+				"BB ",
+				"CAB",
+				"AAB"
+			], {
+				A: "#minecraft:planks",
+				B: "#minecraft:wooden_slabs",
+				C: "#forge:plates/copper"
+			}
+		],
+		[
+			"comforts:sleeping_bag_brown", [
+				"BBB",
+				"ACA",
+				"BBB"
+			], {
+				A: "stone_age:leather_strip",
+				B: "#forge:leather",
+				C: "frostedheart:straw_lining"
+			}
+		],
+		[
+			"minecraft:stone_bricks", [
+				"ABA",
+				"BAB",
+				"ABA"
+			], {
+				A: "minecraft:stone",
+				B: "frostedheart:mortar"
+			}
+		],
+		[
+			"charcoal_pit:clay_pot", [
+				"AAA",
+				"A A",
+				"AAA"
+			], {
+				A: "minecraft:clay_ball"
+			}
+		],
+		[
+			"frostedheart:charcoal_stick", [
+				"A"
+			], {
+				A: "kubejs:charcoal_briquette"
+			}
+		],
+		[
+			"minecraft:bowl", 2, [
+				"A A",
+				" A "
+			], {
+				A: "#minecraft:planks"
+			}
+		],
+		[
+			"frostedheart:bronze_hammer", [
+				"AAC",
+				" BA",
+				"B A"
+			], {
+				A: "#forge:ingots/bronze",
+				B: "minecraft:stick",
+				C: "stone_age:leather_strip"
+			}
+		],
+		[
+			"frostedheart:bronze_pickaxe", [
+				"AAA",
+				" B ",
+				" B "
+			], {
+				A: "frostedheart:bronze_ingot",
+				B: "#forge:rods/wooden"
+			}
+		],
+		[
+			"frostedheart:bronze_axe", [
+				"AA",
+				"AB",
+				" B"
+			], {
+				A: "frostedheart:bronze_ingot",
+				B: "#forge:rods/wooden"
+			}
+		],
+		[
+			"frostedheart:bronze_hoe", [
+				"AA",
+				" B",
+				" B"
+			], {
+				A: "frostedheart:bronze_ingot",
+				B: "#forge:rods/wooden"
+			}
+		],
+		[
+			"frostedheart:bronze_sword", [
+				"A",
+				"A",
+				"B"
+			], {
+				A: "frostedheart:bronze_ingot",
+				B: "#forge:rods/wooden"
+			}
+		],
+		[
+			"frostedheart:bronze_shovel", [
+				"A",
+				"B",
+				"B"
+			], {
+				A: "frostedheart:bronze_ingot",
+				B: "#forge:rods/wooden"
+			}
+		],
+		[
+			"frostedheart:bronze_knife", [
+				" A",
+				"B "
+			], {
+				A: "frostedheart:bronze_ingot",
+				B: "#forge:rods/wooden"
+			}
+		],
+		[
+			"immersiveengineering:alloybrick", [
+				"ABA",
+				"B B",
+				"ABA"
+			], {
+				A: "minecraft:brick",
+				B: "#forge:plates/bronze"
+			}
+		],
+		[
+			"caupona:clay_cistern", [
+				"CCC",
+				"CSC",
+				"CCC"
+			], {
+				C: "#forge:clay_balls",
+				S: "#forge:rods/wooden"
+			}
+		],
+		/*
+		[
+			"caupona:kitchen_stove_t1", [
+				"DDD", 
+				"SSS", 
+				"S S"
+			], {
+				D: "#forge:dirt",
+				S: "#forge:stone"
+			}
+		],
+		*/
+		[
+			"charcoal_pit:main_bloomery", [
+				"ABA",
+				"BCB",
+				"ABA"
+			], {
+				A: "frostedheart:mortar",
+				B: "frostedheart:bronze_sheet",
+				C: "charcoal_pit:sandy_brick"
+			}
+		],
+		[
+			"charcoal_pit:sandy_tuyere", [
+				"BAB",
+				"ACA",
+				"BAB"
+			], {
+				A: "frostedheart:mortar",
+				B: "charcoal_pit:sandy_brick_item",
+				C: "#forge:plates/copper"
+			}
+		],
+		[
+			"charcoal_pit:bellows", [
+				"ABA",
+				"CCC",
+				"ABA"
+			], {
+				A: "immersiveengineering:treated_wood_horizontal",
+				B: "immersiveengineering:slab_treated_wood_horizontal",
+				C: "minecraft:leather"
+			}
+		],
+		[
+			"charcoal_pit:sandy_brick", [
+				"BAB",
+				"ABA",
+				"BAB"
+			], {
+				A: "frostedheart:mortar",
+				B: "charcoal_pit:sandy_brick_item"
+			}
+		],
+		[
+			"charcoal_pit:unfired_sandy_brick", [
+				"ABA",
+				"BAB",
+				"ABA"
+			], {
+				A: "minecraft:sand",
+				B: "minecraft:clay_ball"
+			}
+		],
+		[
+			"charcoal_pit:barrel", [
+				"AAA",
+				"A A",
+				"AAA"
+			], {
+				A: "#minecraft:wooden_slabs"
+			}
+		],
+		[
+			"minecraft:barrel", [
+				"ABA",
+				"A A",
+				"AAA"
+			], {
+				A: "#minecraft:planks",
+				B: "#forge:plates/bronze"
+			}
+		],
+		[
+			"charcoal_pit:coal_pile", [
+				"AAA",
+				"ABA",
+				"AAA"
+			], {
+				A: "minecraft:coal",
+				B: "charcoal_pit:ash"
+			}
 		]
 	]
 	newShapedRecipes.forEach((recipe, index) => {
@@ -1085,8 +1650,7 @@ ServerEvents.recipes((event) => {
 			// 如果是带 NBT 的物品
 			let [itemId, nbt] = output
 			// 确保 NBT 是对象, 即使为空
-			output = Item.of(itemId, quantity)
-				.withNBT(nbt || {})
+			output = Item.of(itemId, quantity).withNBT(nbt || {})
 		} else {
 			// 普通物品, 默认不带 NBT
 			output = Item.of(output, quantity)

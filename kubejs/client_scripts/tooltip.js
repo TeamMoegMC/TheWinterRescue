@@ -29,8 +29,8 @@ ItemEvents.tooltip((event) => {
 			txt: [Text.of(Text.translate("tooltip.the_winter_rescue.snowy_vine")).gray()]
 		},
 		{
-		    items: ["frostedheart:makeshift_knife"],
-		    txt: [Text.of(Text.translate("tooltip.the_winter_rescue.flint_knife")).gray()]
+			items: ["frostedheart:makeshift_knife"],
+			txt: [Text.of(Text.translate("tooltip.the_winter_rescue.flint_knife")).gray()]
 		},
 		{
 			items: ["stone_age:flint_knife"],
