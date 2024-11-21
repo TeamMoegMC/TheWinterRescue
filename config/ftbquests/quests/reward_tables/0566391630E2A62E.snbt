@@ -5,7 +5,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "frostedheart:makeshift_spear"
 				tag: {
 					Damage: 0
@@ -14,7 +14,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "frostedheart:makeshift_axe"
 				tag: {
 					Damage: 0
@@ -23,7 +23,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "frostedheart:makeshift_pickaxe"
 				tag: {
 					Damage: 0
@@ -32,7 +32,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "frostedheart:makeshift_shovel"
 				tag: {
 					Damage: 0

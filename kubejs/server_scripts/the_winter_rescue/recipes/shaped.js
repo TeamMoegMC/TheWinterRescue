@@ -618,7 +618,7 @@ ServerEvents.recipes((event) => {
 				"BB"
 			], {
 				A: "#minecraft:logs",
-				B: "#forge:stone",
+				B: "minecraft:stone",
 			}
 		],
 		/*

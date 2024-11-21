@@ -65,7 +65,7 @@ let ore_blocks_i;
                     {
                       "condition": "minecraft:match_tool",
                       "predicate": {
-                        "tag": "frostedheart:knife"
+                        "tag": "forge:knifes"
                       }
                     },
                     {

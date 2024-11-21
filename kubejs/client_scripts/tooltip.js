@@ -51,7 +51,7 @@ ItemEvents.tooltip((event) => {
 		{
 			items: ["frostedheart:straw_lining", "frostedheart:kelp_lining", "frostedheart:gambeson", "frostedheart:buff_coat"],
 			txt: [Text.of(Text.translate("tooltip.the_winter_rescue.lining")).gray()]
-		}
+		},
 	]
 	addTooltip.forEach((recipe) => {
 		event.add(recipe.items, recipe.txt)

@@ -9,73 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3BF2DCE33791510B"]
-			description: [
-				"{quest.twr.7E3F0C805E2BBB9F.description.1}"
-				"{quest.twr.7E3F0C805E2BBB9F.description.2}"
-			]
-			hide: true
-			icon: "stone_age:tree_stump"
-			id: "7E3F0C805E2BBB9F"
-			rewards: [{
-				id: "6115BE94578D7A3D"
-				item: "crockpot:fish_tacos"
-				type: "item"
-			}]
-			shape: "gear"
-			subtitle: "{quest.twr.7E3F0C805E2BBB9F.subtitle}"
-			tasks: [
-				{
-					id: "78D4D4C0E2691057"
-					item: "stone_age:tree_stump"
-					type: "item"
-				}
-				{
-					id: "4552904E6A237EC5"
-					item: {
-						Count: 1b
-						id: "frostedheart:stone_hammer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{quest.twr.7E3F0C805E2BBB9F.title}"
-			x: -6.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["7E3F0C805E2BBB9F"]
-			description: [
-				"{quest.twr.19603323EAAFF726.description.1}"
-				"{quest.twr.19603323EAAFF726.description.2}"
-				"{quest.twr.19603323EAAFF726.description.3}"
-			]
-			hide: true
-			icon: "minecraft:oak_planks"
-			id: "19603323EAAFF726"
-			shape: "gear"
-			subtitle: "{quest.twr.19603323EAAFF726.subtitle}"
-			tasks: [{
-				id: "55C4F94C2DB76794"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:planks"
-					}
-				}
-				title: "Any #minecraft:planks"
-				type: "item"
-			}]
-			title: "{quest.twr.19603323EAAFF726.title}"
-			x: -3.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6D92E93A0811C1FD"]
+			dependencies: ["03A553EBD453466A"]
 			description: [
 				"{quest.twr.689BB00EC2454F1F.description.1}"
 				"{quest.twr.689BB00EC2454F1F.description.2}"
@@ -103,8 +37,8 @@
 				item: "stone_age:dried_grass_bed"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.5d
+			x: -9.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["689BB00EC2454F1F"]
@@ -161,7 +95,7 @@
 				type: "item"
 			}]
 			title: "{quest.twr.586D66C71A378A82.title}"
-			x: -0.5d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -243,13 +177,7 @@
 				"{quest.twr.3C4CEEBFF8DCF448.description.2}"
 			]
 			hide: true
-			hide_dependency_lines: true
 			id: "3C4CEEBFF8DCF448"
-			rewards: [{
-				id: "05FA1965E79DF2AE"
-				item: "crockpot:iced_tea"
-				type: "item"
-			}]
 			shape: "gear"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
 			tasks: [{
@@ -312,37 +240,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["3BF2DCE33791510B"]
-			description: [
-				"{quest.twr.6D92E93A0811C1FD.description.1}"
-				"{quest.twr.6D92E93A0811C1FD.description.2}"
-				"{quest.twr.6D92E93A0811C1FD.description.3}"
-			]
-			hide: true
-			id: "6D92E93A0811C1FD"
-			rewards: [{
-				id: "66A6389998BDDF16"
-				item: "crockpot:potato_tornado"
-				type: "item"
-			}]
-			shape: "gear"
-			subtitle: "{quest.twr.6D92E93A0811C1FD.subtitle}"
-			tasks: [{
-				id: "286618A8A476D4E4"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:clay"
-					}
-				}
-				title: "Any #forge:clay"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 2.5d
-		}
-		{
 			dependencies: ["4625CA3FEAF6908B"]
 			description: [
 				"{quest.twr.29533DFBD579CA2F.description.1}"
@@ -378,42 +275,11 @@
 				item: "charcoal_pit:barrel"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.0d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["7E3F0C805E2BBB9F"]
-			description: ["{quest.twr.74780AAD5FDF8870.description.1}"]
-			hide: true
-			icon: "kubejs:flux"
-			id: "74780AAD5FDF8870"
-			shape: "gear"
-			subtitle: "{quest.twr.74780AAD5FDF8870.subtitle}"
-			tasks: [
-				{
-					id: "12A0DA88BBDE3896"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "the_winter_rescue:flux_block"
-						}
-					}
-					title: "{quest.twr.74780AAD5FDF8870.12A0DA88BBDE3896.title}"
-					type: "item"
-				}
-				{
-					id: "7B142184D4B6EDAD"
-					item: "kubejs:flux"
-					type: "item"
-				}
-			]
-			title: "{quest.twr.74780AAD5FDF8870.title}"
-			x: -6.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6D92E93A0811C1FD"]
+			dependencies: ["03A553EBD453466A"]
 			description: [
 				"{quest.twr.6CF9868197215C1D.description.1}"
 				"{quest.twr.6CF9868197215C1D.description.2}"
@@ -438,29 +304,11 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.5d
+			x: -9.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["74780AAD5FDF8870"]
-			dependency_requirement: "all_started"
-			description: ["{quest.twr.35E5CE37A2F8EB90.description.1}"]
-			id: "35E5CE37A2F8EB90"
-			shape: "gear"
-			subtitle: "{quest.twr.35E5CE37A2F8EB90.subtitle}"
-			tasks: [{
-				id: "03B8EB9F239AE467"
-				item: "frostedheart:quicklime"
-				type: "item"
-			}]
-			x: -6.5d
-			y: -4.0d
-		}
-		{
-			dependencies: [
-				"35E5CE37A2F8EB90"
-				"3078BCEE3E402DED"
-			]
+			dependencies: ["3078BCEE3E402DED"]
 			dependency_requirement: "all_started"
 			description: [
 				"{quest.twr.4543F3B5F937E6B0.description.1}"
@@ -471,13 +319,30 @@
 			id: "4543F3B5F937E6B0"
 			shape: "gear"
 			subtitle: "{quest.twr.4543F3B5F937E6B0.subtitle}"
-			tasks: [{
-				id: "760783F9EBF12B58"
-				item: "frostedheart:mortar"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -5.5d
+			tasks: [
+				{
+					id: "760783F9EBF12B58"
+					item: "frostedheart:mortar"
+					type: "item"
+				}
+				{
+					id: "29964A240A143716"
+					item: "frostedheart:quicklime"
+					type: "item"
+				}
+				{
+					id: "11F4E5745AB2FAAA"
+					item: "kubejs:flux"
+					type: "item"
+				}
+				{
+					id: "74A169C144AF38E7"
+					item: "minecraft:calcite"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4543F3B5F937E6B0"]
@@ -544,7 +409,7 @@
 				}
 			]
 			x: -5.0d
-			y: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["13AA30FB9CD620EB"]
@@ -606,8 +471,8 @@
 				item: "minecraft:iron_door"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -7.5d
+			x: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4625CA3FEAF6908B"]
@@ -655,8 +520,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: -5.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4B6840707D77E2C0"]
@@ -706,7 +571,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 6.5d
 		}
 		{
@@ -757,8 +622,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6A22E2D62D4719BE"]
@@ -890,8 +755,8 @@
 				item: "stone_age:stone_chest"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: -9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1DF200F6772308C7"]
@@ -914,8 +779,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1DF200F6772308C7"]
@@ -937,8 +802,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4B6840707D77E2C0"]
@@ -961,7 +826,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.5d
 			y: 6.5d
 		}
 		{
@@ -1066,11 +931,11 @@
 				title: "{quest.twr.3B306015B7675BD1.655CEC449A64354A.title}"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: 6.5d
+			x: -12.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["6D92E93A0811C1FD"]
+			dependencies: ["03A553EBD453466A"]
 			description: [
 				"{quest.twr.11A33F924E78C874.description.1}"
 				"{quest.twr.11A33F924E78C874.description.2}"
@@ -1089,6 +954,17 @@
 				{
 					id: "7B993C68338B256C"
 					item: "frostedheart:compressed_biscuits_pack"
+					type: "item"
+				}
+				{
+					id: "2781037D54036AE6"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "caupona:book"
+						}
+					}
 					type: "item"
 				}
 			]
@@ -1117,8 +993,8 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
-			y: 4.5d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["586D66C71A378A82"]
@@ -1172,8 +1048,8 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.688E6165A1E9A28C.title}"
-			x: 6.0d
-			y: 2.0d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6A22E2D62D4719BE"]
@@ -1218,9 +1094,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["4BD8236FEEBD7D3A"]
+			dependencies: ["03A553EBD453466A"]
 			description: ["{quest.twr.3BF2DCE33791510B.description.1}"]
 			hide: true
+			hide_dependency_lines: true
 			icon: "minecraft:book"
 			id: "3BF2DCE33791510B"
 			shape: "gear"
@@ -1230,7 +1107,7 @@
 				title: "{quest.twr.3BF2DCE33791510B.3805747E0E29652E.title}"
 				type: "checkmark"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: 0.5d
 		}
 		{
@@ -1296,8 +1173,8 @@
 				item: "immersiveengineering:cokebrick"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -5.5d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5287CFB7B7D5285E"]
@@ -1314,8 +1191,8 @@
 				item: "frostedheart:oil_burner"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -5.5d
+			x: -2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["03A553EBD453466A"]
@@ -1358,8 +1235,8 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: -2.5d
+			x: -9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["19603323EAAFF726"]
@@ -1370,8 +1247,8 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.0d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["13AA30FB9CD620EB"]
@@ -1432,7 +1309,7 @@
 				item: "charcoal_pit:mechanical_bellows"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: -1.0d
 		}
 	]

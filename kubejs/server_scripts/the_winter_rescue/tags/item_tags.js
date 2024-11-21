@@ -19,8 +19,8 @@ let colors = [
 
 ServerEvents.tags("item", (event) => {
 	event.add("itemfilters:check_nbt", "tetra:modular_double")
-	event.add("frostedheart:knife", "tetra:modular_sword")
-	event.add("frostedheart:knife", "#forge:knives")
+	event.add("forge:knives", "tetra:modular_sword")
+	event.add("forge:knives", "frostedheart:knife")
 	//event.add("ages_api:knives","#frostedheart:knife")
 	event.add("forge:plates/bronze", "steampowered:bronze_sheet")
 	event.add("forge:plates/cast_iron", "frostedheart:cast_iron_sheet")
@@ -135,4 +135,7 @@ ServerEvents.tags("item", (event) => {
 	// 如果你坚持要使用连锁挖矿，可以自行把对应的内容去除，但是出现任何问题后果自负。并且请不要向他人宣传连锁挖矿。
 	// 最终，我们是不推荐擅自修改整合包内容的，这样极大降低游戏体验。如果实在要爽，不如直接开创造。
 	event.add("ftbultimine:included_tools", "create:cogwheel")
+	
+	event.add("forge:string", "stone_age:grass_lead")
+
 })

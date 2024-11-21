@@ -17,13 +17,12 @@
 		{
 			dependencies: ["45E2EF843333B846"]
 			description: [
-				"{quest.twr.181378ABF5CCD166.description.1}"
+				"Sparse ores generate throughout the world, with varying depth."
 				"{quest.twr.181378ABF5CCD166.description.2}"
-				"{quest.twr.181378ABF5CCD166.description.3}"
+				"Rarely, you find ore deposits as underground cave biomes, where you can find abundant ores of similar formation origin."
 				"{quest.twr.181378ABF5CCD166.description.4}"
 				"{quest.twr.181378ABF5CCD166.description.5}"
 				"{quest.twr.181378ABF5CCD166.description.6}"
-				"{quest.twr.181378ABF5CCD166.description.7}"
 			]
 			hide: true
 			icon: "minecraft:grass_block"
@@ -47,7 +46,6 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "7D2807571451631F"
-			subtitle: "{quest.twr.7D2807571451631F.subtitle}"
 			tasks: [{
 				id: "3DD88F3B703D29A6"
 				item: "frostedheart:raw_tin"
@@ -64,7 +62,6 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "40254682DFE145B8"
-			subtitle: "{quest.twr.40254682DFE145B8.subtitle}"
 			tasks: [{
 				id: "2EB0C8C2F9ADED2A"
 				item: "frostedheart:raw_nickel"
@@ -81,7 +78,6 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "31ED006279866288"
-			subtitle: "{quest.twr.31ED006279866288.subtitle}"
 			tasks: [{
 				id: "47655DAC7245BF43"
 				item: "frostedheart:raw_pyrite"
@@ -98,7 +94,6 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "72D5B725766622F4"
-			subtitle: "{quest.twr.72D5B725766622F4.subtitle}"
 			tasks: [{
 				id: "35E8A9A70C19C434"
 				item: "minecraft:redstone"
@@ -115,7 +110,6 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "0ED9C71E91687BFA"
-			subtitle: "{quest.twr.0ED9C71E91687BFA.subtitle}"
 			tasks: [{
 				id: "221421E9BAA85D61"
 				item: "frostedheart:bauxite"
@@ -149,7 +143,6 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "5907E1263E6D81E2"
-			subtitle: "{quest.twr.5907E1263E6D81E2.subtitle}"
 			tasks: [{
 				id: "322C517CA36D00A6"
 				item: "frostedheart:raw_lead"
@@ -166,7 +159,6 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "3840FFD53990ECA2"
-			subtitle: "{quest.twr.3840FFD53990ECA2.subtitle}"
 			tasks: [{
 				id: "02ABB3A735D30777"
 				item: "minecraft:raw_gold"
@@ -183,7 +175,6 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "6C49B6777A13CC02"
-			subtitle: "{quest.twr.6C49B6777A13CC02.subtitle}"
 			tasks: [{
 				id: "214642829287011A"
 				item: "frostedheart:raw_silver"
@@ -201,7 +192,6 @@
 			hide_text_until_complete: true
 			id: "2A8533418E3A8B06"
 			shape: "circle"
-			subtitle: "{quest.twr.31ED006279866288.subtitle}"
 			tasks: [{
 				id: "31295D7F00BCA85A"
 				item: "create:raw_zinc"
@@ -218,7 +208,6 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "1120D6251E9B42C4"
-			subtitle: "{quest.twr.1120D6251E9B42C4.subtitle}"
 			tasks: [{
 				id: "1F71D0CFB0584489"
 				item: "frostedheart:raw_magnesite"
@@ -228,11 +217,9 @@
 			y: 5.5d
 		}
 		{
-			description: ["{quest.twr.707E5C06843421A7.description.1}"]
 			hide_dependency_lines: true
 			hide_text_until_complete: false
 			id: "707E5C06843421A7"
-			subtitle: "{quest.twr.707E5C06843421A7.subtitle}"
 			tasks: [{
 				id: "05D317EDBEE17EA2"
 				item: "frostedheart:copper_gravel"
@@ -250,7 +237,6 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "4D1B960E67D023C4"
-			subtitle: "{quest.twr.4D1B960E67D023C4.subtitle}"
 			tasks: [{
 				id: "62EA52A8EA9DAD8E"
 				item: "minecraft:raw_iron"
@@ -267,7 +253,6 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "122E83F324DB80B7"
-			subtitle: "{quest.twr.122E83F324DB80B7.subtitle}"
 			tasks: [{
 				id: "52DE6D41702EFF05"
 				item: "frostedheart:raw_halite"
@@ -281,7 +266,6 @@
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "73242CFC1E655F2D"
-			subtitle: "{quest.twr.73242CFC1E655F2D.subtitle}"
 			tasks: [{
 				id: "29005A15A2EBDBEE"
 				item: "frostedheart:kaolin"
