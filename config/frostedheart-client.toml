@@ -73,4 +73,11 @@
 	#Scenario rendering thread
 	#Range: 1 ~ 16
 	scenarioRenderThread = 2
+	#The binding offset of the UBO for the infrared view shader.
+	#Partial shaders and mods may occupy the position as well.
+	#We will use default offset (7) for some known mods here. However, it is not guaranteed to be always compatible with all mods / shaders.
+	#In this case, player have to modify the config to specify the offset.
+	#No worries, from my experience, offset 7 is compatible with 99% mods / shaders.
+	#Range: > 0
+	infraredViewUBOOffset = 7
 

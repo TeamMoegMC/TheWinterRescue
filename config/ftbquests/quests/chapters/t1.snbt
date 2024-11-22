@@ -560,7 +560,7 @@
 			tasks: [{
 				id: "136A453133A19654"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "frostedheart:bronze_hammer"
 					tag: {
 						Damage: 0
@@ -1240,6 +1240,7 @@
 		}
 		{
 			dependencies: ["19603323EAAFF726"]
+			description: ["If I want to progress, I need a real place to craft. Few planks should work."]
 			id: "03A553EBD453466A"
 			shape: "gear"
 			tasks: [{
