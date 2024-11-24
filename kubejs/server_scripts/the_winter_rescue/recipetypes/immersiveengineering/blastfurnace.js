@@ -8,7 +8,7 @@ ServerEvents.recipes((event) => {
 		["frostedheart:tin_ingot", "#forge:ores/tin", 150],
 		["minecraft:iron_ingot", "frostedheart:raw_pyrite", 400],
 		["minecraft:iron_ingot", "minecraft:raw_iron", 400],
-		["immersiveengineering:ingot_pentlandite", "frostedheart:raw_pentlandite", 400],
+		// ["immersiveengineering:ingot_pentlandite", "frostedheart:raw_pentlandite", 400],
 		["minecraft:iron_ingot", "frostedheart:rusted_iron_ingot", 200],
 		["immersiveengineering:ingot_lead", "frostedheart:raw_lead", 200],
 		// ["minecraft:gold_ingot", "frostedheart:raw_gold", 200],

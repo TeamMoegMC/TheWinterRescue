@@ -1,8 +1,0 @@
-{
-  "type": "charcoal_pit:pottery",
-  "ingredient": {
-    "item": "kubejs:flux"
-  },
-  "result": "frostedheart:quicklime",
-  "experience": 0.35
-}
