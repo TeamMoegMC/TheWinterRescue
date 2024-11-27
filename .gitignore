@@ -35,12 +35,15 @@
 /.curseclient
 /minecraftinstance.json
 /kubejs/.idea
+/kubejs/config/probe-settings.json
 hs_err_*
 replay_*
 /config/inventoryprofilesnext/
 config/.*
 schematics/
-kubejs/probe/
+*.iml
+jsconfig.json
+.probe
 
 # server side
 /dumps/
