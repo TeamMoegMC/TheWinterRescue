@@ -1,1 +1,0 @@
-Platform.getInfo("kubejs").name = "The Winter Rescue"

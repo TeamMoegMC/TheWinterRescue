@@ -1,8 +1,8 @@
 {
-	"replace": false,
-	"values": [
-		"frostedheart:raw_pentlandite",
-		"charcoal_pit:bloom_nickel_cool",
-		"charcoal_pit:bloom_nickel_fail"
-	]
+  "replace": false,
+  "values": [
+	"frostedheart:raw_nickel",
+	"charcoal_pit:bloom_nickel_cool",
+	"charcoal_pit:bloom_nickel_fail"
+  ]
 }

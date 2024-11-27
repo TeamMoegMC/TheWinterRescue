@@ -1,0 +1,8 @@
+{
+  "type": "charcoal_pit:pottery",
+  "ingredient": {
+    "item": "frostedheart:fire_clay_ball"
+  },
+  "result": "frostedheart:refractory_brick",
+  "experience": 0.4
+}

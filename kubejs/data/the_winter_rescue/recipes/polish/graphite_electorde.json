@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "kubejs:rough_graphite_electrode"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersiveengineering:graphite_electrode"
+    }
+  ]
+}
