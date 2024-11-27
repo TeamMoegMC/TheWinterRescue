@@ -22,20 +22,20 @@ ServerEvents.recipes((event) => {
     Ingredient.of("#minecraft:logs").getItemIds().forEach((name) => {
         if (name.indexOf("stripped_") !== -1) {
             if (name.indexOf("log") !== -1) {
-                event.recipes.createCutting("4x " + name.replace("_log", "").replace("stripped_", "") + "_planks", name);
+                create.cutting("4x " + name.replace("_log", "").replace("stripped_", "") + "_planks", name);
             } else if (name.indexOf("stem") !== -1) {
-                event.recipes.createCutting("4x " + name.replace("_stem", "").replace("stripped_", "") + "_planks", name);
+                create.cutting("4x " + name.replace("_stem", "").replace("stripped_", "") + "_planks", name);
             } else if (name.indexOf("wood") !== -1) {
-                event.recipes.createCutting("4x " + name.replace("_wood", "").replace("stripped_", "") + "_planks", name);
+                create.cutting("4x " + name.replace("_wood", "").replace("stripped_", "") + "_planks", name);
             }
         } else if (name.indexOf("log") !== -1 || name.indexOf("stem") !== -1) {
             let rl = name.split(":")
             event.remove({output: rl[0] + ":stripped_" + rl[1], type: "create:cutting"});
-            event.recipes.createCutting(rl[0] + ":stripped_" + rl[1], name);
+            create.cutting(rl[0] + ":stripped_" + rl[1], name);
         } else if (name.indexOf("wood") !== -1) {
             let rl = name.split(":")
             event.remove({output: rl[0] + ":stripped_" + rl[1], type: "create:cutting"});
-            event.recipes.createCutting(rl[0] + ":stripped_" + rl[1], name);
+            create.cutting(rl[0] + ":stripped_" + rl[1], name);
         }
     })
     woods.forEach((wood) => {

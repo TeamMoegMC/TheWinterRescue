@@ -1,4 +1,5 @@
 ServerEvents.recipes((event) => {
+    let {minecraft} = event.recipes
     let recipes = [
         // {
         //     input1: 'aiotbotania:terra_aiot',
@@ -7,6 +8,6 @@ ServerEvents.recipes((event) => {
         // }
     ]
     recipes.forEach((recipe) => {
-        event.smithing(recipe.output, recipe.input1, recipe.input2);
+        minecraft.smithing(recipe.output, recipe.input1, recipe.input2);
     })
 })

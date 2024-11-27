@@ -1,4 +1,5 @@
 ServerEvents.recipes((event) => {
+    let {minecraft} = event.recipes
     let recipes = [
         {output: 'frostedheart:alumina_dust', input: 'frostedheart:aluminium_hydroxide_dust'},
         {output: 'minecraft:black_dye', input: '#kubejs:coal_dust'},
@@ -15,6 +16,6 @@ ServerEvents.recipes((event) => {
         {output: 'create:zinc_ingot', input: '#forge:dusts/zinc'}
     ]
     recipes.forEach((recipe) => {
-        event.smelting(recipe.output, recipe.input)
+        minecraft.smelting(recipe.output, recipe.input)
     })
 })
