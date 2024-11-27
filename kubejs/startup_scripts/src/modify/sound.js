@@ -1,5 +1,4 @@
 BlockEvents.modification((event) => {
-    // 齿轮音效喵
     let cogwheelSoundType = [
         "bronze",
         "cast_iron",
