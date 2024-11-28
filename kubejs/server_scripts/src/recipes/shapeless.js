@@ -51,7 +51,8 @@ ServerEvents.recipes((event) => {
         ["frostedheart:quill_and_ink", 4, [["minecraft:feather", 3], "minecraft:glass_bottle", "frostedheart:generator_ash"]],
         ["frostedheart:rubbing_tool", 4, [["frostedheart:generator_ash", 2], "minecraft:paper", "frostedheart:rubbing_pad"]],
         ["stone_age:grass_lead", [["charcoal_pit:straw", 3]]],
-        ["frostedheart:packed_snow", [["minecraft:snowball", 2], ["minecraft:snow_block", 2]]]
+        ["frostedheart:packed_snow", [["minecraft:snowball", 2], ["minecraft:snow_block", 2]]],
+        ["stone_age:leather_strip", 4, ["minecraft:leather"]]
     ]
     newShapelessRecipes.forEach((recipe, index) => {
         let [output, quantity, inputs] = recipe.length === 3 ? recipe : [recipe[0], 1, recipe[1]]

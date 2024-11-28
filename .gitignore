@@ -116,3 +116,4 @@ config/world_preview/config.json
 config/world_preview/missing-colors.json
 config/world_preview/missing-structures.json
 config/world_preview/renderConfig.json
+bookmarks.ini

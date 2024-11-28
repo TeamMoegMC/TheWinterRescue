@@ -545,8 +545,34 @@ ServerEvents.recipes((event) => {
         kubejs.shaped(output, pattern, keys)
             .id(`the_winter_rescue:minecraft/crafting_shaped/change/${index}`)
     })
+    
 
     let newShapedRecipes = [
+        [
+            "frostedheart:snowshoes", 
+            [
+                "B  ",
+                "BBB",
+                "AAA"
+            ]
+            , 
+            {
+                A: "#minecraft:planks",
+                B: "minecraft:leather"
+            }
+        ],
+        [
+            "frostedheart:ice_skates",
+            [
+                "A  ",
+                "AAA",
+                "BBB"
+            ],
+            {
+                A: "#forge:leather",
+                B: "#forge:nuggets/iron"
+            }
+        ],
         [
             "stone_age:dried_grass_bed", [
             "  B",
