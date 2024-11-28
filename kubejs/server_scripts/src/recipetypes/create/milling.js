@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let {create} = event.recipes
+    let { create } = event.recipes
     let recipes = [
         {
             output: ["minecraft:quartz", Item.of("minecraft:quartz").withChance(0.5)],
@@ -61,8 +61,14 @@ ServerEvents.recipes((event) => {
             output: ["create:wheat_flour", Item.of("2x create:wheat_flour").withChance(0.25), Item.of("minecraft:wheat_seeds").withChance(0.25)],
             input: "minecraft:wheat"
         },
-        {output: [Item.of("immersiveengineering:dust_iron")], input: "minecraft:iron_ingot"},
-        {output: [Item.of("4x minecraft:red_dye")], input: "create:crushed_raw_iron"}
+        {
+            output: [Item.of("immersiveengineering:dust_iron")],
+            input: "minecraft:iron_ingot"
+        },
+        {
+            output: [Item.of("4x minecraft:red_dye")],
+            input: "create:crushed_raw_iron"
+        }
     ]
     recipes.forEach((recipe) => {
         create.milling(recipe.output, recipe.input);

@@ -83,7 +83,7 @@ ServerEvents.recipes((event) => {
 */
 
 ServerEvents.recipes((event) => {
-    let {stone_age} = event.recipes
+    let { stone_age } = event.recipes
 
     /* 看起来这个配方类型还没做完, 等哪天做完了解除注释
     stone_age.tree_stump("2x steampowered:bronze_sheet", "3x frostedheart:bronze_ingot", "#forge:hammers", )

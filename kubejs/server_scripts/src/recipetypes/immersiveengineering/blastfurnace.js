@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let {immersiveengineering} = event.recipes
+    let { immersiveengineering } = event.recipes
 
     let blastFurnaceRecipes = [
         ["immersiveengineering:ingot_aluminum", "immersiveengineering:dust_aluminum", 800],
@@ -18,11 +18,11 @@ ServerEvents.recipes((event) => {
     ]
     blastFurnaceRecipes.forEach(([output, input, time], index) => {
         immersiveengineering.blast_furnace(output, input, "immersiveengineering:slag")
-            .id(`the_winter_rescue:immersiveengineering/blast_furnace/${index}`)
+            .id(`the_winter_rescue:immersiveengineering/blast_furnace/${ index }`)
             .time(time)
     })
 
     // 移除旧的钢铁高炉配方
-    event.remove({type: "immersiveengineering:blast_furnace", output: "immersiveengineering:ingot_steel"})
-    event.remove({type: "immersiveengineering:blast_furnace", output: "immersiveengineering:storage_steel"})
+    event.remove({ type: "immersiveengineering:blast_furnace", output: "immersiveengineering:ingot_steel" })
+    event.remove({ type: "immersiveengineering:blast_furnace", output: "immersiveengineering:storage_steel" })
 })

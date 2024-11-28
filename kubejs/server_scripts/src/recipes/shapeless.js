@@ -3,18 +3,22 @@
  */
 
 ServerEvents.recipes((event) => {
-    let {create, kubejs, minecraft} = event.recipes
+    let { create, kubejs, minecraft } = event.recipes
 
     let changeShapelessRecipes = [
         ["minecraft:flint", 2, [["minecraft:gravel", 3]]],
         ["charcoal_pit:straw", 9, ["minecraft:hay_block"]]
     ]
     changeShapelessRecipes.forEach((recipe, index) => {
-        let [output, quantity, inputs] = recipe.length === 3 ? recipe : [recipe[0], 1, recipe[1]]
+        let [
+            output,
+            quantity,
+            inputs
+        ] = recipe.length === 3 ? recipe : [recipe[0], 1, recipe[1]]
 
         if (Array.isArray(output)) {
-            let [itemId, nbt] = output
-            output = Item.of(itemId, quantity).withNBT(nbt || {})
+            let [itemID, nbt] = output
+            output = Item.of(itemID, quantity).withNBT(nbt || {})
         } else {
             9
             output = Item.of(output, quantity)
@@ -27,12 +31,12 @@ ServerEvents.recipes((event) => {
             } else if (typeof input === "string") {
                 return input
             } else {
-                throw new Error(`Invalid input format: ${input}`)
+                throw new Error(`Invalid input format: ${ input }`)
             }
         })
 
         kubejs.shapeless(output, processedInputs)
-            .id(`the_winter_rescue:minecraft/crafting_shapeless/change/${index}`)
+            .id(`the_winter_rescue:minecraft/crafting_shapeless/change/${ index }`)
     })
 
     let newShapelessRecipes = [
@@ -40,14 +44,17 @@ ServerEvents.recipes((event) => {
         ["immersiveengineering:crate", ["immersiveengineering:reinforced_crate"]],
         ["frostedheart:black_bread", 2, [["frostedheart:rye_flour", 2], "#forge:dusts/wood"]],
         ["minecraft:slime_ball", ["create:dough", "minecraft:lime_dye"]],
-        [{
-            "item": "frostedheart:straw_briquette_red_mushroom",
-            "nbt": {"Damage": 4800}
-        }, ["kubejs:wet_straw_briquette", "minecraft:red_mushroom"]],
-        [{
-            "item": "frostedheart:straw_briquette_brown_mushroom",
-            "nbt": {"Damage": 4800}
-        }, ["kubejs:wet_straw_briquette", "minecraft:brown_mushroom"]],
+        [
+            {
+                "item": "frostedheart:straw_briquette_red_mushroom",
+                "nbt": { "Damage": 4800 }
+            }, ["kubejs:wet_straw_briquette", "minecraft:red_mushroom"]
+        ],
+        [
+            {
+                "item": "frostedheart:straw_briquette_brown_mushroom", "nbt": { "Damage": 4800 }
+            }, ["kubejs:wet_straw_briquette", "minecraft:brown_mushroom"]
+        ],
         ["frostedheart:quill_and_ink", 4, [["minecraft:feather", 3], "minecraft:glass_bottle", "frostedheart:generator_ash"]],
         ["frostedheart:rubbing_tool", 4, [["frostedheart:generator_ash", 2], "minecraft:paper", "frostedheart:rubbing_pad"]],
         ["stone_age:grass_lead", [["charcoal_pit:straw", 3]]],
@@ -55,11 +62,15 @@ ServerEvents.recipes((event) => {
         ["stone_age:leather_strip", 4, ["minecraft:leather"]]
     ]
     newShapelessRecipes.forEach((recipe, index) => {
-        let [output, quantity, inputs] = recipe.length === 3 ? recipe : [recipe[0], 1, recipe[1]]
+        let [
+            output,
+            quantity,
+            inputs
+        ] = recipe.length === 3 ? recipe : [recipe[0], 1, recipe[1]]
 
         if (Array.isArray(output)) {
-            let [itemId, nbt] = output
-            output = Item.of(itemId, quantity).withNBT(nbt || {})
+            let [itemID, nbt] = output
+            output = Item.of(itemID, quantity).withNBT(nbt || {})
         } else {
             9
             output = Item.of(output, quantity)
@@ -72,12 +83,11 @@ ServerEvents.recipes((event) => {
             } else if (typeof input === "string") {
                 return input
             } else {
-                throw new Error(`Invalid input format: ${input}`)
+                throw new Error(`Invalid input format: ${ input }`)
             }
         })
-
         kubejs.shapeless(output, processedInputs)
-            .id(`the_winter_rescue:minecraft/crafting_shapeless/new/${index}`)
+            .id(`the_winter_rescue:minecraft/crafting_shapeless/new/${ index }`)
     })
 
     Ingredient.of("#forge:vertical_slabs")
@@ -89,14 +99,14 @@ ServerEvents.recipes((event) => {
                 newShapelessRecipes.push([i, [name]]);
             } else {
                 minecraft.stonecutting(2, name.replace("_vertical_slab", ""))
-                    .id(`the_winter_rescue:minecraft/stonecutting/vertical_slab/${index}`)
+                    .id(`the_winter_rescue:minecraft/stonecutting/vertical_slab/${ index }`)
             }
         })
 
-    function makeLimedCoal(count, rep, materials) {
-        for (let i = 1; i <= rep; i++) {
+    function makeLimedCoal (count, rep, materials) {
+        for (let i = 1; i <= rep; i ++) {
             let cr = ["frostedheart:quicklime"];
-            for (let j = 0; j < i; j++) {
+            for (let j = 0; j < i; j ++) {
                 materials.forEach((elm) => {
                     cr.push(elm)
                 })

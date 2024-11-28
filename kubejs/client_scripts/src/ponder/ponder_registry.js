@@ -132,7 +132,7 @@ Ponder.registry((event) => {
         })
 
         // bloomery usage
-        .scene("usage", "Using the bloomery", "kubejs:bloomery", (scene, util) => {
+        .scene("usage", "Using the bloomery", "kubejs:bloomery", (scene) => {
             scene.showBasePlate()
             scene.idle(5)
             scene.world.showSection([4, 1, 0, 0, 1, 4], Direction.DOWN)
@@ -160,7 +160,7 @@ Ponder.registry((event) => {
                 .withItem("minecraft:charcoal")
 
             let theSection = scene.world.showIndependentSectionImmediately([1, 5, 1, 3, 7, 3]);
-            scene.world.moveSection(theSection, [0, -4, 0], 0)
+            scene.world.moveSection(theSection, [0, - 4, 0], 0)
             scene.idle(50)
 
             scene.addKeyframe()
@@ -174,7 +174,7 @@ Ponder.registry((event) => {
 
             let swapBlockFromTo = scene.world.showIndependentSectionImmediately([1, 8, 1, 3, 9, 3])
 
-            scene.world.moveSection(scene.world.showIndependentSectionImmediately(swapBlockFromTo), [0, -7, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSectionImmediately(swapBlockFromTo), [0, - 7, 0], 0)
             scene.idle(50)
 
             scene.overlay.showText(40)
@@ -187,7 +187,7 @@ Ponder.registry((event) => {
     // Generator Consruction (Tier 1)
     event.create(["frostedheart:generator", "frostedheart:generator_core_t1", "frostedheart:generator_amplifier_r1", "frostedheart:generator_brick"])
         .tag("the_winter_rescue:generator")
-        .scene("basic_usage", "", "kubejs:generator_t1", (scene, util) => {
+        .scene("basic_usage", "", "kubejs:generator_t1", (scene) => {
             scene.configureBasePlate(0, 0, 5)
             scene.scaleSceneView(0.7) // zoom out, t2 is big
             scene.showBasePlate()
@@ -215,7 +215,7 @@ Ponder.registry((event) => {
             scene.showControls(40, [2, 2, 1], "right")
                 .withItem("immersiveengineering:hammer")
 
-            scene.world.moveSection(scene.world.showIndependentSectionImmediately([1, 6, 1, 3, 10, 3]), [0, -5, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSectionImmediately([1, 6, 1, 3, 10, 3]), [0, - 5, 0], 0)
             scene.world.replaceBlocks([1, 1, 1, 3, 4, 3], "minecraft:air", false)
             scene.idle(40)
         })
@@ -223,34 +223,27 @@ Ponder.registry((event) => {
     // Generator Consruction (Tier 2)
     event.create(["frostedheart:generator_t2", "frostedheart:invar_block"])
         .tag("the_winter_rescue:generator")
-        .scene("basic_usage", "", "kubejs:generator_t2", (scene, util) => {
+        .scene("basic_usage", "", "kubejs:generator_t2", (scene) => {
             scene.configureBasePlate(0, 0, 5)
             scene.scaleSceneView(0.5) // zoom out, t2 is big
             scene.showBasePlate()
             scene.idle(10)
 
             // Generic build
-            scene.world.showSection([4, 1, 0, 0, 1, 4], Direction.DOWN)
-            scene.addKeyframe()
-            scene.idle(40)
-            scene.world.showSection([4, 2, 0, 0, 2, 4], Direction.DOWN)
-            scene.addKeyframe()
-            scene.idle(40)
-            scene.world.showSection([4, 3, 0, 0, 3, 4], Direction.DOWN)
-            scene.addKeyframe()
-            scene.idle(40)
-            scene.world.showSection([4, 4, 0, 0, 4, 4], Direction.DOWN)
-            scene.addKeyframe()
-            scene.idle(40)
-            scene.world.showSection([4, 5, 0, 0, 5, 4], Direction.DOWN)
-            scene.addKeyframe()
-            scene.idle(40)
-            scene.world.showSection([4, 6, 0, 0, 6, 4], Direction.DOWN)
-            scene.addKeyframe()
-            scene.idle(40)
-            scene.world.showSection([4, 7, 0, 0, 7, 4], Direction.DOWN)
-            scene.addKeyframe()
-            scene.idle(40)
+            let block1 = [
+                [4, 1, 0, 0, 1, 4],
+                [4, 2, 0, 0, 2, 4],
+                [4, 3, 0, 0, 3, 4],
+                [4, 4, 0, 0, 4, 4],
+                [4, 5, 0, 0, 5, 4],
+                [4, 6, 0, 0, 6, 4],
+                [4, 7, 0, 0, 7, 4],
+            ]
+            block1.forEach((pos) => {
+                scene.world.showSection(pos, Direction.DOWN)
+                scene.addKeyframe()
+                scene.idle(40)
+            })
 
             // text
             scene.overlay.showText(40)
@@ -259,31 +252,31 @@ Ponder.registry((event) => {
             scene.idle(20)
             scene.showControls(40, [2, 2, 1], "right")
                 .withItem("immersiveengineering:hammer")
-            scene.world.moveSection(scene.world.showIndependentSectionImmediately([1, 8, 1, 3, 15, 3]), [0, -8, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSectionImmediately([1, 8, 1, 3, 15, 3]), [0, - 8, 0], 0)
             scene.world.replaceBlocks([1, 1, 1, 3, 7, 3], "minecraft:air", false)
             scene.idle(40)
         })
     /*
-    .scene("usage", "", "kubejs:generator_t2", (scene, util) => {
+    .scene("usage", "", "kubejs:generator_t2", (scene) => {
         scene.configureBasePlate(0, 0, 5)
         scene.scaleSceneView(1)
         scene.showBasePlate()
         scene.idle(10)
-        scene.world.moveSection(scene.world.showIndependentSectionImmediately(util.select().fromTo(1, 8, 1, 3, 15, 3)), util.vector().of(0, -8, 0), 0)
-        scene.world.replaceBlocks(util.select().fromTo(1, 1, 1, 3, 7, 3), util.getDefaultState("minecraft:air"), false)
+        scene.world.moveSection(scene.world.showIndependentSectionImmediately(util.select().fromTo(1, 8, 1, 3, 15, 3)).vector().of(0, -8, 0), 0)
+        scene.world.replaceBlocks(util.select().fromTo(1, 1, 1, 3, 7, 3).getDefaultState("minecraft:air"), false)
         scene.idle(20)
         scene.addKeyframe()
-        scene.overlay.showOutline(PonderPalette.GREEN, new Object(), util.select().position(2,1,2), 20)
+        scene.overlay.showOutline(PonderPalette.GREEN, new Object().select().position(2,1,2), 20)
         scene.overlay.showText(20)
             .text("Input heat medium from bottom blue marked ")
             .pointAt(util.vector().blockSurface(util.grid().at(2, 1, 2), Direction.DOWN))
         scene.idle(40)
         scene.addKeyframe()
 
-        scene.overlay.showOutline(PonderPalette.GREEN, new Object(), util.select().position(1,1,2), 60)
-        scene.overlay.showOutline(PonderPalette.GREEN, new Object(), util.select().position(3,1,2), 60)
-        scene.overlay.showOutline(PonderPalette.GREEN, new Object(), util.select().position(2,1,1), 60)
-        scene.overlay.showOutline(PonderPalette.GREEN, new Object(), util.select().position(2,1,3), 60)
+        scene.overlay.showOutline(PonderPalette.GREEN, new Object().select().position(1,1,2), 60)
+        scene.overlay.showOutline(PonderPalette.GREEN, new Object().select().position(3,1,2), 60)
+        scene.overlay.showOutline(PonderPalette.GREEN, new Object().select().position(2,1,1), 60)
+        scene.overlay.showOutline(PonderPalette.GREEN, new Object().select().position(2,1,3), 60)
         scene.overlay.showText(60)
             .text("Export energy from the bottom of these locations")
             .pointAt(util.vector().blockSurface(util.grid().at(2, 1, 2), Direction.DOWN))
@@ -296,7 +289,7 @@ Ponder.registry((event) => {
     // Crucible
     event.create(["immersiveindustry:crucible", "immersiveindustry:burning_chamber", "frostedheart:high_refractory_bricks", "immersiveengineering:blastfurnace_preheater"])
         .tag("the_winter_rescue:crucible")
-        .scene("assembly", "", "kubejs:steel_mill_crucible", (scene, util) => {
+        .scene("assembly", "", "kubejs:steel_mill_crucible", (scene) => {
             scene.configureBasePlate(0, 0, 5)
             scene.scaleSceneView(0.7) // zoom out, t2 is big
             scene.showBasePlate()
@@ -323,7 +316,7 @@ Ponder.registry((event) => {
             scene.idle(20)
             scene.showControls(40, [2, 2, 1], "right")
                 .withItem("immersiveengineering:hammer")
-            scene.world.moveSection(scene.world.showIndependentSectionImmediately([1, 6, 1, 3, 10, 3]), [0, -5, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSectionImmediately([1, 6, 1, 3, 10, 3]), [0, - 5, 0], 0)
             scene.world.replaceBlocks([1, 1, 1, 3, 4, 3], "minecraft:air", false)
             scene.idle(40)
             scene.addKeyframe()
@@ -333,10 +326,10 @@ Ponder.registry((event) => {
                 .text("Install Preheater here")
                 .pointAt([2, 1, 4])
             scene.idle(20)
-            scene.world.moveSection(scene.world.showIndependentSection([0, 6, 4, 4, 10, 4], Direction.north), [0, -5, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSection([0, 6, 4, 4, 10, 4], Direction.north), [0, - 5, 0], 0)
             scene.idle(60)
         })
-        .scene("basic_usage", "", "kubejs:steel_mill_crucible_usage", (scene, util) => {
+        .scene("basic_usage", "", "kubejs:steel_mill_crucible_usage", (scene) => {
             scene.configureBasePlate(0, 0, 6)
             scene.showBasePlate()
             scene.idle(10)
@@ -409,7 +402,7 @@ Ponder.registry((event) => {
 
     event.create(["immersiveindustry:steam_turbine", "immersiveengineering:generator"])
         .tag("the_winter_rescue:steam_turbine")
-        .scene("basic_usage", "", "kubejs:steam_turbine", (scene, util) => {
+        .scene("basic_usage", "", "kubejs:steam_turbine", (scene) => {
             scene.rotateCameraY(130)
             scene.scaleSceneView(0.7) // zoom out, t2 is big
             scene.configureBasePlate(0, 0, 9) // baseplace is a square
@@ -426,14 +419,14 @@ Ponder.registry((event) => {
             scene.addKeyframe()
             scene.idle(40)
 
-            scene.rotateCameraY(-110)
+            scene.rotateCameraY(- 110)
             scene.overlay.showText(40)
                 .text("Right-Click to assemble")
                 .pointAt([3, 2, 1])
             scene.idle(20)
             scene.showControls(40, [2, 2, 1], "down")
                 .withItem("immersiveengineering:hammer")
-            scene.world.moveSection(scene.world.showIndependentSectionImmediately([1, 5, 1, 3, 10, 7]), [0, -4, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSectionImmediately([1, 5, 1, 3, 10, 7]), [0, - 4, 0], 0)
             scene.world.replaceBlocks([1, 1, 1, 3, 3, 7], "minecraft:air", false)
             scene.idle(60)
             scene.addKeyframe()
@@ -478,7 +471,7 @@ Ponder.registry((event) => {
             scene.world.showIndependentSectionImmediately([2, 2, 2])
             scene.idle(20)
             scene.world.setBlocks([2, 4, 2], dirt)
-            scene.world.moveSection(scene.world.showIndependentSection([2, 4, 2], Direction.DOWN), [0, -2, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSection([2, 4, 2], Direction.DOWN), [0, - 2, 0], 0)
             scene.world.setBlocks([2, 2, 2], "minecraft:air", false)
 
             scene.addKeyframe()
@@ -514,7 +507,7 @@ Ponder.registry((event) => {
 
             scene.world.setBlocks([3, 6, 1, 1, 6, 3], "charcoal_pit:log_pile")
             scene.world.modifyBlocks([3, 6, 1, 1, 6, 3], (state) => state.with("axis", "y"), false)
-            scene.world.moveSection(scene.world.showIndependentSection([3, 6, 1, 1, 6, 3], Direction.DOWN), [0, -5, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSection([3, 6, 1, 1, 6, 3], Direction.DOWN), [0, - 5, 0], 0)
             scene.idle(20)
 
             scene.addKeyframe()
@@ -523,12 +516,12 @@ Ponder.registry((event) => {
             scene.idle(30)
             scene.world.modifyBlocks([3, 6, 1, 1, 6, 3], (state) => state.with("lit", "true"), false)
             scene.world.setBlocks([3, 7, 1, 1, 7, 3], "minecraft:fire", false)
-            scene.world.moveSection(scene.world.showIndependentSectionImmediately([3, 7, 1, 1, 7, 3]), [0, -5, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSectionImmediately([3, 7, 1, 1, 7, 3]), [0, - 5, 0], 0)
             scene.idle(20)
             scene.world.setBlocks([3, 7, 1, 1, 7, 3], "minecraft:air", false)
 
             scene.world.setBlocks([3, 8, 1, 1, 8, 3], dirt, false)
-            scene.world.moveSection(scene.world.showIndependentSection([3, 8, 1, 1, 8, 3], Direction.DOWN), [0, -6, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSection([3, 8, 1, 1, 8, 3], Direction.DOWN), [0, - 6, 0], 0)
             scene.idle(20)
 
             scene.addKeyframe()
@@ -560,7 +553,7 @@ Ponder.registry((event) => {
 
     event.create(["charcoal_pit:straw", "charcoal_pit:clay_pot"])
         .tag("the_winter_rescue:charcoal_pit")
-        .scene("basic_usage", "", "kubejs:pottery_kiln", (scene, util) => {
+        .scene("basic_usage", "", "kubejs:pottery_kiln", (scene) => {
             scene.showBasePlate()
             scene.scaleSceneView(1)
             scene.idle(20)
@@ -577,7 +570,7 @@ Ponder.registry((event) => {
                 .text("Surrounding blocks can be ANY block, not just dirt.")
                 .pointAt([2, 1, 2])
 
-            scene.world.moveSection(scene.world.showIndependentSection([0, 2, 0, 2, 2, 2], Direction.DOWN), [0, -1, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSection([0, 2, 0, 2, 2, 2], Direction.DOWN), [0, - 1, 0], 0)
             scene.addKeyframe()
             scene.idle(30)
 
@@ -585,14 +578,14 @@ Ponder.registry((event) => {
             scene.showControls(30, [1, 1, 1], "down")
                 .rightClick()
                 .withItem("charcoal_pit:straw")
-            scene.world.moveSection(scene.world.showIndependentSection([2, 3, 1], Direction.DOWN), [-1, -2, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSection([2, 3, 1], Direction.DOWN), [- 1, - 2, 0], 0)
             scene.idle(40)
 
             scene.showControls(30, [1, 1, 1], "down")
                 .rightClick()
                 .withItem("minecraft:oak_log")
 
-            scene.world.moveSection(scene.world.showIndependentSection([0, 3, 1], Direction.DOWN), [1, -2, 0], 0)
+            scene.world.moveSection(scene.world.showIndependentSection([0, 3, 1], Direction.DOWN), [1, - 2, 0], 0)
             scene.idle(40)
 
             scene.showControls(40, [1, 1, 1], "down")
