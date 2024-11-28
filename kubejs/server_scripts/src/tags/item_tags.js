@@ -33,9 +33,10 @@ ServerEvents.tags("item", (event) => {
     event.add("frostedheart:ash", "charcoal_pit:ash")
     event.add("frostedheart:cow_feed", "charcoal_pit:straw")
     event.add("kubejs:coal_dust", "kubejs:coal_dust")
-    event.add("forge:ores/copper", "frostedheart:rusted_copper_ingot")
-    event.add("forge:ores/tin", "frostedheart:gray_tin_ingot")
-    event.add("forge:ores/iron", "frostedheart:rusted_iron_ingot")
+    // event.add("forge:ores/copper", "frostedheart:rusted_copper_ingot")
+    // event.add("forge:ores/tin", "frostedheart:gray_tin_ingot")
+    // event.add("forge:ores/iron", "frostedheart:rusted_iron_ingot")
+    // TODO: add their recipes separately, since they are not really ores.
     event.add("forge:dusts/zinc", "frostedheart:zinc_dust")
     event.add("kubejs:tetra_hammer", "tetra:modular_double")
     event.add("forge:axes", "minecraft:iron_axe")

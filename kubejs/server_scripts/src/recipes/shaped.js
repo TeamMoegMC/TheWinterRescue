@@ -548,6 +548,115 @@ ServerEvents.recipes((event) => {
 
     let newShapedRecipes = [
         [
+            "stone_age:dried_grass_bed", [
+            "  B",
+            "BBB",
+            "AAA"
+        ], {
+            A: "#minecraft:wooden_slabs",
+            B: "charcoal_pit:straw"
+        }
+        ],
+        [
+            "charcoal_pit:log_pile", [
+            "AAA",
+            "AAA",
+            "AAA"
+        ], {
+            A: "#minecraft:logs_that_burn"
+        }
+        ],
+        [
+            "stone_age:millstone", [
+            " B ",
+            " C ",
+            "AAA"
+        ], {
+            A: "#forge:stone",
+            B: "minecraft:stick",
+            C: "minecraft:stone"
+        }
+        ],
+        [
+            "stone_age:stone_chest", [
+            "BBB",
+            "ACA",
+            "AAA"
+        ], {
+            A: "minecraft:stone",
+            B: "minecraft:stone_slab",
+            C: "minecraft:clay_ball"
+        }
+        ],
+        [
+            "stone_age:grass_mesh", [
+            "A A",
+            " A ",
+            "A A"
+        ], {
+            A: "stone_age:grass_lead"
+        }
+        ],
+        [
+            "stone_age:cobweb_mesh", [
+            "A A",
+            " A ",
+            "A A"
+        ], {
+            A: "minecraft:string"
+        }
+        ],
+        [
+            "stone_age:fishing_net", [
+            "BAB",
+            "ACA",
+            "BAB"
+        ], {
+            A: "stone_age:leather_strip",
+            B: "#forge:rods/wooden",
+            C: "#minecraft:wooden_slabs"
+        }
+        ],
+        [
+            "stone_age:feeder", [
+            "BCB",
+            "ACA",
+            "BCB"
+        ], {
+            A: "#minecraft:logs",
+            B: "#forge:crops/wheat",
+            C: "#minecraft:wooden_slabs"
+        }
+        ],
+        [
+            "stone_age:tree_stump", [
+            "   ",
+            " B ",
+            "AAA"
+        ], {
+            A: "minecraft:stone",
+            B: "#minecraft:logs"
+        }
+        ],
+        [
+            "stone_age:drying_rack", [
+            "A A",
+            " A ",
+            "A A"
+        ], {
+            A: "#forge:rods/wooden"
+        }
+        ],
+        [
+            "stone_age:tanning_rack", [
+            "A A",
+            " A ",
+            "AAA"
+        ], {
+            A: "#forge:rods/wooden"
+        }
+        ],
+        [
             "minecraft:crafting_table", [
             "AA",
             "AA"

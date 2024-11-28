@@ -34,6 +34,7 @@
 		"forge:crushed_raw_materials/{material}"
 	],
 	"materials": [
+		"wood",
 		"aeternium",
 		"aluminum",
 		"amber",
