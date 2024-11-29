@@ -1,7 +1,6 @@
 console.info("[KUBEJS_THE_WINTER_RESCUE] TWR Blocks Registered!")
 
 StartupEvents.registry("block", (event) => {
-    /*
     // Tool Type
     let toolType = {
         "sword": "minecraft:mineable/sword",
@@ -21,6 +20,7 @@ StartupEvents.registry("block", (event) => {
         "nether": "forge:needs_netherite_tool"
     }
 
+    /*
     event.create("copper_gravel")
         .soundType(SoundType.SAND)
         .hardness(1.5)

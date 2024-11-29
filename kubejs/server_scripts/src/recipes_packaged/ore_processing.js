@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let {immersiveengineering, create, minecraft} = event.recipes
+    let { immersiveengineering, create, minecraft } = event.recipes
 
     let ores = [
         "frostedheart:raw_pyrite",
@@ -47,7 +47,7 @@ ServerEvents.recipes((event) => {
     by_products[0] = [Item.of("frostedheart:sulfur_dust").withChance(0.2)]
     by_products[3] = [Item.of("frostedheart:cryolite_dust").withChance(0.2)]
 
-    for (i = 0; i < ores.length; i++) {
+    for (i = 0; i < ores.length; i ++) {
         ores_i = ores[i];
         ore_name_i = ore_name[i];
         crushed_ore_i = "frostedheart:" + "crushed_raw_" + ore_name_i

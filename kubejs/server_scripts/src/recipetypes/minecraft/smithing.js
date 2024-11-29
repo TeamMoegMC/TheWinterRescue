@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let {minecraft} = event.recipes
+    let { minecraft } = event.recipes
     let recipes = [
         // {
         //     input1: 'aiotbotania:terra_aiot',

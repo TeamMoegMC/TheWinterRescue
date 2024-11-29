@@ -1,7 +1,5 @@
 ServerEvents.highPriorityData((event) => {
-    event.addJson('the_winter_rescue:advancements/root.json',
-
-        {
+    event.addJson("the_winter_rescue:advancements/root.json", {
             "display": {
                 "icon": {
                     "item": "frostedheart:temperature_probe"
