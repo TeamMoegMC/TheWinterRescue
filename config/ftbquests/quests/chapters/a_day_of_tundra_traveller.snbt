@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_day_of_tundra_traveller"
+	group: "7668DAE31E3EF623"
+	icon: {
+		Count: 1
+		id: "frostedheart:snowshoes"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5E14F9D22A78E620"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["47F9EC8C18040D6D"]
+			id: "46F7B5797EF8294E"
+			tasks: [{
+				id: "13AFFA2B0E8F2FAD"
+				title: "Rediscover the World"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "58037578505CB417"
+			subtitle: "A Difficult Journey"
+			tasks: [{
+				biome: "terralith:glacial_chasm"
+				icon: "minecraft:blue_ice"
+				id: "2662DFB12882A3A0"
+				title: "Glacial Chasm"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "2A4064FDA5B753D6"
+			tasks: [{
+				biome: "terralith:ice_marsh"
+				id: "25942AC76A1CD6CC"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "07757983BEAD22E2"
+			tasks: [{
+				biome: "minecraft:deep_frozen_ocean"
+				id: "55FA6302B5F20F2F"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "2246C8C7B6F953D7"
+			tasks: [{
+				biome: "#terralith:volcanic"
+				id: "474E699BA92ED024"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Rediscover this frozen world."]
+	title: "A Day of Tundra Traveller"
+}

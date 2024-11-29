@@ -10,8 +10,8 @@ ServerEvents.recipes((event) => {
             input: "#minecraft:logs"
         },
         {
-            output: ["2x frostedheart:bauxite_dust", Item.of("2x frostedheart:bauxite_dust").withChance(0.5)],
-            input: "frostedheart:crushed_bauxite_ore"
+            output: ["2x frostedheart:bauxite_dust", Item.of("2x frostedheart:%").withChance(0.5)],
+            input: "frostedheart:crushed_raw_bauxite"
         },
         {
             output: ["frostedheart:kaolin_dust", Item.of("frostedheart:kaolin_dust").withChance(0.5)],
@@ -23,7 +23,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: ["immersiveengineering:dust_sulfur", Item.of("immersiveengineering:dust_sulfur").withChance(0.5)],
-            input: "frostedheart:sulfur_dust"
+            input: "immersiveengineering:sulfur_dust"
         },
         {
             output: [Item.of("minecraft:quartz").withChance(0.4), Item.of("minecraft:quartz").withChance(0.3)],

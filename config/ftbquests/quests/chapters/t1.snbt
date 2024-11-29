@@ -49,15 +49,10 @@
 				"{quest.twr.0A9A5166127945AB.description.5}"
 			]
 			id: "0A9A5166127945AB"
-			rewards: [{
-				count: 2
-				id: "2A1C7E868C707E47"
-				item: "minecraft:raw_copper"
-				type: "item"
-			}]
 			shape: "gear"
 			subtitle: "{quest.twr.0A9A5166127945AB.subtitle}"
 			tasks: [{
+				count: 8L
 				id: "29F602476C2217BC"
 				item: {
 					Count: 1
@@ -156,6 +151,7 @@
 			shape: "gear"
 			subtitle: "{quest.twr.4B6840707D77E2C0.subtitle}"
 			tasks: [{
+				count: 8L
 				id: "17B92F392AAC3C15"
 				item: {
 					Count: 1
@@ -181,6 +177,7 @@
 			shape: "gear"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
 			tasks: [{
+				count: 2L
 				id: "0F08400AFE76BD5F"
 				item: {
 					Count: 1
@@ -287,11 +284,6 @@
 			hide: true
 			id: "6CF9868197215C1D"
 			optional: true
-			rewards: [{
-				id: "4787F5D7EA7BF4D8"
-				item: "crockpot:ceviche"
-				type: "item"
-			}]
 			subtitle: "{quest.twr.6CF9868197215C1D.subtitle}"
 			tasks: [{
 				id: "2AAF72488E68976B"
@@ -743,12 +735,6 @@
 			hide: true
 			id: "7175C1158EE9178A"
 			optional: true
-			rewards: [{
-				count: 8
-				id: "70CA7F6483F5931D"
-				item: "minecraft:charcoal"
-				type: "item"
-			}]
 			subtitle: "{quest.twr.7175C1158EE9178A.subtitle}"
 			tasks: [{
 				id: "405CDF6B2D5C5DC7"
@@ -1196,6 +1182,7 @@
 		}
 		{
 			dependencies: ["03A553EBD453466A"]
+			description: ["Unlocks &b\"Day of Tundra Traveller\""]
 			hide: true
 			id: "47F9EC8C18040D6D"
 			optional: true
@@ -1211,30 +1198,17 @@
 				type: "item"
 			}]
 			subtitle: "{quest.twr.47F9EC8C18040D6D.subtitle}"
-			tasks: [
-				{
-					id: "0AF2FDBE1D3E93EC"
-					item: {
-						Count: 1
-						id: "frostedheart:snowshoes"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "0AF2FDBE1D3E93EC"
+				item: {
+					Count: 1
+					id: "frostedheart:snowshoes"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					id: "7936FA3EDED203BF"
-					item: {
-						Count: 1
-						id: "frostedheart:ice_skates"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			x: -9.0d
 			y: -0.5d
 		}

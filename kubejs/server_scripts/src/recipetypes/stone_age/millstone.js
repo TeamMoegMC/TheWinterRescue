@@ -1,7 +1,7 @@
 /*
 ServerEvents.recipes((event) => {
 	let recipes = [
-		millstoneRecipe(Item.of('frostedheart:bauxite_dust', 2), Item.of('frostedheart:crushed_bauxite_ore'),
+		millstoneRecipe(Item.of('frostedheart:bauxite_dust', 2), Item.of('frostedheart:crushed_raw_bauxite'),
 			Item.of('frostedheart:bauxite_dust'), 0.4, 2),
 		millstoneRecipe(Item.of('frostedheart:kaolin_dust'), Item.of('frostedheart:kaolin'),
 			Item.of('frostedheart:kaolin_dust'), 0.3, 1),

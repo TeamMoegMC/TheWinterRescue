@@ -52,7 +52,8 @@ ServerEvents.tags("item", (event) => {
     ])
     event.add("forge:knives", [
         "tetra:modular_sword",
-        "frostedheart:knife"
+        "frostedheart:makeshift_knife",
+        "frostedheart:bronze_knife"
     ])
     event.add("the_winter_rescue:cogwheels", [
         "steampowered:bronze_cogwheel",

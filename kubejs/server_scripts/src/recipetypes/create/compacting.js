@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
     let {create} = event.recipes
     let items = [
         {
-            output: "frostedheart:crushed_bauxite_ore",
+            output: "frostedheart:crushed_raw_bauxite",
             input: "frostedheart:bauxite"
         },
         {

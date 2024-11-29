@@ -30,24 +30,6 @@
 	#Range: 0.0 ~ 1.0
 	consumeChanceWhenIgnited = 0.1
 
-["Surrounding Temperature Simulation"]
-	#The simulator is used to simulate the temperature of the surrounding environment. Not recommended to change.
-	#The range of the simulation.
-	#Range: 1 ~ 8
-	simulationRange = 8
-	#The number of particles in the simulation.
-	#Range: 4168 ~ 4168
-	simulationParticles = 4168
-	#The number of divisions of unit square in the simulation.
-	#Range: 1 ~ 100
-	simulationDivision = 10
-	#The initial speed of the particles in the simulation.
-	#Range: 0.009999999776482582 ~ 1.0
-	simulationParticleInitialSpeed = 0.4000000059604645
-	#The life ticks of the particles in the simulation.
-	#Range: 1 ~ 100
-	simulationParticleLife = 20
-
 [Miscellaneous]
 	#BlackListed mods to kick player
 	"Mod Blacklist" = []

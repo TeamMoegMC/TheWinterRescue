@@ -18,11 +18,11 @@
 		}
 	}
 	id: "1E695E6D1F5B227A"
-	order_index: 5
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5C8730E4484959B9"]
+			dependencies: ["03A553EBD453466A"]
 			description: [
 				"{quest.twr.11DD149796E14E81.description.1}"
 				"{quest.twr.11DD149796E14E81.description.2}"
@@ -32,63 +32,21 @@
 			id: "11DD149796E14E81"
 			shape: "gear"
 			subtitle: "{quest.twr.11DD149796E14E81.subtitle}"
-			tasks: [
-				{
-					id: "2481856F88DAA369"
-					item: "minecraft:crafting_table"
-					type: "item"
-				}
-				{
-					id: "69827A684F506414"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "kubejs:tetra_hammer"
-						}
+			tasks: [{
+				id: "69827A684F506414"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "kubejs:tetra_hammer"
 					}
-					title: "{quest.twr.11DD149796E14E81.69827A684F506414}"
-					type: "item"
 				}
-				{
-					advancement: "tetra:story/more_upgrades"
-					criterion: ""
-					icon: {
-						Count: 1
-						id: "tetra:modular_double"
-						tag: {
-							Damage: 0
-							"double/basic_hammer_left_material": "basic_hammer/oak"
-							"double/basic_hammer_right_material": "basic_hammer/oak"
-							"double/basic_handle_material": "basic_handle/stick"
-							"double/handle": "double/basic_handle"
-							"double/head_left": "double/basic_hammer_left"
-							"double/head_right": "double/basic_hammer_right"
-							id: "f301289c-7111-4f48-b12a-75ac99ab6ca7"
-						}
-					}
-					id: "614239EFEB89EBAE"
-					type: "advancement"
-				}
-			]
+				title: "{quest.twr.11DD149796E14E81.69827A684F506414}"
+				type: "item"
+			}]
 			title: "{quest.twr.11DD149796E14E81.title}"
 			x: -2.5d
 			y: 1.5d
-		}
-		{
-			dependencies: ["75154C5A6E2F3257"]
-			description: ["{quest.twr.5C8730E4484959B9.description.1}"]
-			hide: true
-			id: "5C8730E4484959B9"
-			shape: "gear"
-			subtitle: "{quest.twr.5C8730E4484959B9.subtitle}"
-			tasks: [{
-				id: "3A742F617D2CB6B9"
-				type: "checkmark"
-			}]
-			title: "{quest.twr.5C8730E4484959B9.title}"
-			x: -2.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["11DD149796E14E81"]

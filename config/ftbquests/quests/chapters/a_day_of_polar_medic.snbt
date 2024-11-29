@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_day_of_polar_medic"
+	group: "7668DAE31E3EF623"
+	icon: "minecraft:white_bed"
+	id: "5DB44602FFBB3C1A"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["417AC14073DD4249"]
+		description: ["Treat Frostbite"]
+		id: "38669A3326C98419"
+		tasks: [{
+			id: "40BD2E906DB15CAF"
+			title: "The Hospital For The People"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "A Day of Polar Medic"
+}

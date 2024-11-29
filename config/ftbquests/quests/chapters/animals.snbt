@@ -11,7 +11,7 @@
 		}
 	}
 	id: "75A05D5EAF6602DE"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -393,5 +393,5 @@
 		}
 	]
 	subtitle: ["{chapter.twr.75A05D5EAF6602DE.subtitle}"]
-	title: "{chapter.twr.75A05D5EAF6602DE.title}"
+	title: "A Day of Arctic Hunter"
 }

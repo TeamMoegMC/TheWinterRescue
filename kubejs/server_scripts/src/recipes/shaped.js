@@ -206,6 +206,18 @@ ServerEvents.recipes((event) => {
             }
         ],
         [
+            "frostedheart:refractory_bricks", 2,
+            [
+                "ABA",
+                "BAB",
+                "ABA"
+            ],
+            {
+                A: "frostedheart:refractory_brick",
+                B: "frostedheart:mortar"
+            }
+        ],
+        [
             "frostedheart:high_refractory_bricks", 2,
             [
                 "ABA",
