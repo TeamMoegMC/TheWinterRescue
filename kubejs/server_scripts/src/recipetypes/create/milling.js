@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
             input: "#minecraft:logs"
         },
         {
-            output: ["2x frostedheart:bauxite_dust", Item.of("2x frostedheart:%").withChance(0.5)],
+            output: ["2x frostedheart:bauxite_dust", Item.of("2x frostedheart:bauxite_dust").withChance(0.5)],
             input: "frostedheart:crushed_raw_bauxite"
         },
         {

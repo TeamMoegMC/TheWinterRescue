@@ -50,7 +50,7 @@ ServerEvents.tags("item", (event) => {
         "stone_age:flour",
         "frostedheart:rye_flour"
     ])
-    event.add("forge:knives", [
+    event.add("forge:swords", [
         "tetra:modular_sword",
         "frostedheart:makeshift_knife",
         "frostedheart:bronze_knife"
