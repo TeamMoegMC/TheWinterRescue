@@ -11,7 +11,11 @@
     },
     "outcomes": [
         {
-            "materials": ["tetra:metal/compat/copper","tetra:metal/iron","tetra:metal/compat/steel"],
+            "materials": [
+                "tetra:metal/copper",
+                "tetra:metal/iron",
+                "tetra:metal/steel"
+            ],
             "countFactor": 2,
             "moduleKey": "single/basic_core_spade",
             "moduleVariant": "basic_core_spade/"
