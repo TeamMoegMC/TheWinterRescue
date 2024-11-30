@@ -172,8 +172,8 @@
 *chk
 [NoWait]IIA：[EndNoWait]推进器：[delay t=20][NoWait]&c无响应&r[EndNoWait]，导航：[delay t=20][NoWait]&c无响应&r[EndNoWait]
 ，反应堆：[delay t=20][NoWait]&c无响应&r[EndNoWait]，无线电：[delay t=20][NoWait]&c无响应&r[EndNoWait]，雷达：[delay t=20][NoWait]&e基本可用&r[EndNoWait].@p
-[link l=*sel1]&e再次检查[endlink][r]
-[link l=*sel2]&c弃船[endlink]
+[link l=*sel1]&e[点击再次检查][endlink][r]
+[link l=*sel2]&c[点击弃船][endlink]
 @wa
 *sel1
 @p
@@ -201,7 +201,7 @@
 @TextLayer n=t4 text="&e游戏天数" x=172 y=280 resize=32 shadow=1
 @showLayer trans=overright t=40
 @delay t=40
-[link l=*cla]&e点击以继续&r[endlink]
+[link l=*cla]&e[点击以继续]&r[endlink]
 @wa
 *cla
 @hudDialog show=0

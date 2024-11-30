@@ -170,8 +170,8 @@ A miracle that was my fantasy — that was their narrative. Thus I embark on a l
 *chk
 [NoWait]IIA :[EndNoWait]Thrusters :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Navigation :[delay t=20][NoWait]&cNo response. &r[EndNoWait]
 Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radar :[delay t=20][NoWait]&eBasically functional. &r[EndNoWait].@p
-[link l=*sel1]&ePerform again[endlink][r]
-[link l=*sel2]&cAbandon ship[endlink]
+[link l=*sel1]&e[Click to Perform again][endlink][r]
+[link l=*sel2]&c[Click to Abandon ship][endlink]
 @wa
 *sel1
 @p
@@ -199,7 +199,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @TextLayer n=t4 text="&eGame Day" x=172 y=280 resize=18 shadow=1
 @showLayer trans=overright t=40
 @delay t=40
-[link l=*cla]&eClick to continue.&r[endlink]
+[link l=*cla]&e[Click to continue]&r[endlink]
 @wa
 *cla
 @er
