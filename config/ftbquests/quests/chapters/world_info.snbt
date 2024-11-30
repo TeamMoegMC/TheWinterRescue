@@ -15,7 +15,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["45E2EF843333B846"]
 			description: [
 				"Sparse ores generate throughout the world, with varying depth."
 				"{quest.twr.181378ABF5CCD166.description.2}"
@@ -24,7 +23,7 @@
 				"{quest.twr.181378ABF5CCD166.description.5}"
 				"{quest.twr.181378ABF5CCD166.description.6}"
 			]
-			hide: true
+			hide: false
 			icon: "minecraft:grass_block"
 			id: "181378ABF5CCD166"
 			shape: "gear"

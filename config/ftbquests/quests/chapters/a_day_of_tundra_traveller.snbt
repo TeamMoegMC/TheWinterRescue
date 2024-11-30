@@ -35,30 +35,33 @@
 				title: "Glacial Chasm"
 				type: "biome"
 			}]
-			x: 0.0d
+			x: -2.5d
 			y: 2.0d
 		}
 		{
+			icon: "minecraft:mud"
 			id: "2A4064FDA5B753D6"
 			tasks: [{
 				biome: "terralith:ice_marsh"
 				id: "25942AC76A1CD6CC"
 				type: "biome"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
+			icon: "minecraft:ice"
 			id: "07757983BEAD22E2"
 			tasks: [{
 				biome: "minecraft:deep_frozen_ocean"
 				id: "55FA6302B5F20F2F"
 				type: "biome"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
+			icon: "minecraft:blackstone"
 			id: "2246C8C7B6F953D7"
 			tasks: [{
 				biome: "#terralith:volcanic"
@@ -68,7 +71,93 @@
 			x: -2.5d
 			y: 0.0d
 		}
+		{
+			id: "037922444FFFC3C7"
+			tasks: [{
+				id: "2BF8C5D2D1CC06A4"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "41926E216B6A7D65"
+			tasks: [{
+				id: "3BB1A977231E2C50"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "4F244D5C5C405EC5"
+			tasks: [{
+				id: "53B14E2E2729A7C9"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "5F13F51FDC61CEEE"
+			tasks: [{
+				id: "00050D2D46EC4FA5"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F13F51FDC61CEEE"]
+			id: "3AB4BC81D251CF42"
+			tasks: [{
+				id: "407FB2A149E14BAD"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3AB4BC81D251CF42"]
+			id: "7DE6862F6B75EACA"
+			tasks: [{
+				id: "1731279E774AB123"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "51F68FAFCFA3A06D"
+			tasks: [
+				{
+					id: "4688BFABED29007D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "snowyspirit:sleds"
+						}
+					}
+					title: "Any #snowyspirit:sleds"
+					type: "item"
+				}
+				{
+					id: "5997B8F933984BBD"
+					item: "minecraft:lead"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
 	]
-	subtitle: ["Rediscover this frozen world."]
+	subtitle: ["About Exploration, Transportation, And More."]
 	title: "A Day of Tundra Traveller"
 }

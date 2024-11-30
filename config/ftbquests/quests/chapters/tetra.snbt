@@ -22,29 +22,16 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["03A553EBD453466A"]
-			description: [
-				"{quest.twr.11DD149796E14E81.description.1}"
-				"{quest.twr.11DD149796E14E81.description.2}"
-				"{quest.twr.11DD149796E14E81.description.3}"
-			]
+			dependencies: ["05E9EE36BACD944D"]
 			icon: "tetra:basic_workbench"
 			id: "11DD149796E14E81"
 			shape: "gear"
 			subtitle: "{quest.twr.11DD149796E14E81.subtitle}"
 			tasks: [{
-				id: "69827A684F506414"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "kubejs:tetra_hammer"
-					}
-				}
-				title: "{quest.twr.11DD149796E14E81.69827A684F506414}"
-				type: "item"
+				id: "25611D8B807E18B0"
+				type: "checkmark"
 			}]
-			title: "{quest.twr.11DD149796E14E81.title}"
+			title: "Start of Modularization"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -77,7 +64,7 @@
 		{
 			dependencies: ["11DD149796E14E81"]
 			description: ["{quest.twr.06919E56E850B946.description.1}"]
-			hide: true
+			hide: false
 			id: "06919E56E850B946"
 			subtitle: "{quest.twr.06919E56E850B946.subtitle}"
 			tasks: [{
@@ -155,7 +142,7 @@
 				"{quest.twr.603CDF88D762FEA8.description.1}"
 				"{quest.twr.603CDF88D762FEA8.description.2}"
 			]
-			hide: true
+			hide: false
 			icon: {
 				Count: 1
 				id: "frostedheart:copper_pro_pick"
@@ -178,7 +165,7 @@
 				"{quest.twr.6F2C2CCC90E4C4F6.description.1}"
 				"{quest.twr.6F2C2CCC90E4C4F6.description.2}"
 			]
-			hide: true
+			hide: false
 			id: "6F2C2CCC90E4C4F6"
 			subtitle: "{quest.twr.6F2C2CCC90E4C4F6.subtitle}"
 			tasks: [{
@@ -221,7 +208,7 @@
 				"{quest.twr.7DC424AE6C863411.description.1}"
 				"{quest.twr.7DC424AE6C863411.description.2}"
 			]
-			hide: true
+			hide: false
 			hide_dependency_lines: true
 			icon: {
 				Count: 1

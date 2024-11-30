@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "t1"
 	group: "7823E178F7BCBCB0"
-	icon: "stone_age:tree_stump"
+	icon: "frostedheart:drawing_desk"
 	id: "0F108F94F3A03203"
 	order_index: 1
 	quest_links: [ ]
@@ -28,10 +28,10 @@
 		{
 			dependencies: ["03A553EBD453466A"]
 			description: ["{quest.twr.417AC14073DD4249.description.1}"]
-			hide: true
+			hide: false
 			id: "417AC14073DD4249"
 			optional: true
-			subtitle: "{quest.twr.417AC14073DD4249.subtitle}"
+			subtitle: "Unlocks Chapter: &bA Day of Polar Medic"
 			tasks: [{
 				id: "0D8922D35F106559"
 				item: "stone_age:dried_grass_bed"
@@ -101,7 +101,7 @@
 				"{quest.twr.162264AE4B9EE1A9.description.3}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: true
+			hide: false
 			icon: "immersiveengineering:alloy_smelter"
 			id: "162264AE4B9EE1A9"
 			rewards: [
@@ -172,7 +172,7 @@
 				"{quest.twr.3C4CEEBFF8DCF448.description.1}"
 				"{quest.twr.3C4CEEBFF8DCF448.description.2}"
 			]
-			hide: true
+			hide: false
 			id: "3C4CEEBFF8DCF448"
 			shape: "gear"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
@@ -281,7 +281,7 @@
 				"{quest.twr.6CF9868197215C1D.description.1}"
 				"{quest.twr.6CF9868197215C1D.description.2}"
 			]
-			hide: true
+			hide: false
 			id: "6CF9868197215C1D"
 			optional: true
 			subtitle: "{quest.twr.6CF9868197215C1D.subtitle}"
@@ -296,8 +296,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 2.5d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3078BCEE3E402DED"]
@@ -343,7 +343,7 @@
 				"{quest.twr.77A7511048D5767B.description.2}"
 				"{quest.twr.77A7511048D5767B.description.3}"
 			]
-			hide: true
+			hide: false
 			icon: "charcoal_pit:coke"
 			id: "77A7511048D5767B"
 			optional: true
@@ -453,7 +453,7 @@
 				"{quest.twr.66505076652885B8.description.1}"
 				"{quest.twr.66505076652885B8.description.2}"
 			]
-			hide: true
+			hide: false
 			hide_dependency_lines: true
 			id: "66505076652885B8"
 			optional: true
@@ -489,7 +489,7 @@
 		{
 			dependencies: ["4543F3B5F937E6B0"]
 			description: ["{quest.twr.4625CA3FEAF6908B.description.1}"]
-			hide: true
+			hide: false
 			id: "4625CA3FEAF6908B"
 			rewards: [{
 				id: "68427BE729DBF2DC"
@@ -539,7 +539,8 @@
 		}
 		{
 			dependencies: ["4B6840707D77E2C0"]
-			hide: true
+			description: ["It can be used as Tetra Tier 3 Hammer"]
+			hide: false
 			id: "7D2826CCB69C5EE8"
 			optional: true
 			rewards: [{
@@ -599,7 +600,7 @@
 				"{quest.twr.1DF200F6772308C7.description.3}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: true
+			hide: false
 			id: "1DF200F6772308C7"
 			optional: true
 			subtitle: "{quest.twr.1DF200F6772308C7.subtitle}"
@@ -623,7 +624,7 @@
 				"{quest.twr.1974619E18DB754A.description.1}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: true
+			hide: false
 			id: "1974619E18DB754A"
 			optional: true
 			rewards: [
@@ -709,7 +710,7 @@
 				"{quest.twr.0B9DBC18CEEC4CB2.description.1}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: true
+			hide: false
 			hide_dependency_lines: true
 			id: "0B9DBC18CEEC4CB2"
 			optional: true
@@ -731,11 +732,11 @@
 		}
 		{
 			dependencies: ["03A553EBD453466A"]
-			description: ["{quest.twr.7175C1158EE9178A.description.1}"]
-			hide: true
+			description: ["Storage is a big issue. This simple chest will lead you to wide possibilities."]
+			hide: false
 			id: "7175C1158EE9178A"
 			optional: true
-			subtitle: "{quest.twr.7175C1158EE9178A.subtitle}"
+			subtitle: "Unlocks &bA Day of Logistics Engineer"
 			tasks: [{
 				id: "405CDF6B2D5C5DC7"
 				item: "stone_age:stone_chest"
@@ -794,7 +795,7 @@
 		{
 			dependencies: ["4B6840707D77E2C0"]
 			description: ["{quest.twr.190859211258D56B.description.1}"]
-			hide: true
+			hide: false
 			id: "190859211258D56B"
 			optional: true
 			subtitle: "{quest.twr.190859211258D56B.subtitle}"
@@ -825,7 +826,7 @@
 				"{quest.twr.7887EB905BAA7BEF.description.5}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: true
+			hide: false
 			id: "7887EB905BAA7BEF"
 			rewards: [{
 				count: 2
@@ -852,7 +853,7 @@
 				"{quest.twr.0E067BFAE2FB5441.description.4}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: true
+			hide: false
 			icon: {
 				Count: 1
 				id: "frostedheart:hand_stove"
@@ -900,7 +901,7 @@
 				"{quest.twr.3B306015B7675BD1.description.3}"
 				"{quest.twr.3B306015B7675BD1.description.4}"
 			]
-			hide: true
+			hide: false
 			hide_dependency_lines: true
 			icon: "minecraft:netherrack"
 			id: "3B306015B7675BD1"
@@ -954,7 +955,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "{quest.twr.11A33F924E78C874.subtitle}"
+			subtitle: "Unlocks Chapter: &bA Day of Siberian Chef"
 			tasks: [
 				{
 					id: "31258D4C379187F7"
@@ -980,7 +981,7 @@
 				}
 			]
 			x: -9.0d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["586D66C71A378A82"]
@@ -989,7 +990,7 @@
 				"{quest.twr.6A22E2D62D4719BE.description.2}"
 				"{quest.twr.6A22E2D62D4719BE.description.3}"
 			]
-			hide: true
+			hide: false
 			icon: "frostedheart:drawing_desk"
 			id: "6A22E2D62D4719BE"
 			rewards: [{
@@ -1024,7 +1025,7 @@
 				"{quest.twr.688E6165A1E9A28C.description.3}"
 				"{quest.twr.688E6165A1E9A28C.description.4}"
 			]
-			hide: true
+			hide: false
 			icon: "frostedheart:energy_core"
 			id: "688E6165A1E9A28C"
 			shape: "gear"
@@ -1044,7 +1045,7 @@
 				"{quest.twr.7A992B9F9DB079E6.description.2}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: true
+			hide: false
 			id: "7A992B9F9DB079E6"
 			optional: true
 			subtitle: "{quest.twr.7A992B9F9DB079E6.subtitle}"
@@ -1059,7 +1060,7 @@
 		{
 			dependencies: ["1974619E18DB754A"]
 			description: ["{quest.twr.139033FEB9593ABE.description.1}"]
-			hide: true
+			hide: false
 			id: "139033FEB9593ABE"
 			optional: true
 			subtitle: "{quest.twr.139033FEB9593ABE.subtitle}"
@@ -1082,7 +1083,7 @@
 		{
 			dependencies: ["03A553EBD453466A"]
 			description: ["{quest.twr.3BF2DCE33791510B.description.1}"]
-			hide: true
+			hide: false
 			hide_dependency_lines: true
 			icon: "minecraft:book"
 			id: "3BF2DCE33791510B"
@@ -1099,7 +1100,7 @@
 		{
 			dependencies: ["6A22E2D62D4719BE"]
 			description: ["{quest.twr.3BBB2213C574F333.description.1}"]
-			hide: true
+			hide: false
 			icon: {
 				Count: 1
 				id: "frostedheart:charcoal"
@@ -1134,7 +1135,7 @@
 		{
 			dependencies: ["4543F3B5F937E6B0"]
 			description: ["{quest.twr.5287CFB7B7D5285E.description.1}"]
-			hide: true
+			hide: false
 			icon: "immersiveengineering:coke_oven"
 			id: "5287CFB7B7D5285E"
 			optional: true
@@ -1182,8 +1183,8 @@
 		}
 		{
 			dependencies: ["03A553EBD453466A"]
-			description: ["Unlocks &b\"Day of Tundra Traveller\""]
-			hide: true
+			description: ["This pair of snowshoes help you travel through powdered snow and improve speed on any snowy terrain."]
+			hide: false
 			id: "47F9EC8C18040D6D"
 			optional: true
 			rewards: [{
@@ -1197,7 +1198,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "{quest.twr.47F9EC8C18040D6D.subtitle}"
+			subtitle: "Unlocks Chapter: &bA Day of Tundra Traveller"
 			tasks: [{
 				id: "0AF2FDBE1D3E93EC"
 				item: {
@@ -1215,6 +1216,7 @@
 		{
 			dependencies: ["19603323EAAFF726"]
 			description: ["If I want to progress, I need a real place to craft. Few planks should work."]
+			hide: false
 			id: "03A553EBD453466A"
 			shape: "gear"
 			tasks: [{
@@ -1246,7 +1248,7 @@
 				"{quest.twr.75154C5A6E2F3257.description.5}"
 				"{quest.twr.75154C5A6E2F3257.description.6}"
 			]
-			hide: true
+			hide: false
 			id: "75154C5A6E2F3257"
 			rewards: [{
 				command: "/ftbchunks admin extra_claim_chunks @p set 16"
@@ -1290,7 +1292,43 @@
 			x: 13.0d
 			y: -1.0d
 		}
+		{
+			dependencies: ["03A553EBD453466A"]
+			description: [
+				"Use a &eHammer&r to click on a &eCrafting Table&r to turn it into a workbench."
+				"The Workbench is central to tool making. In particular, you can craft a spear."
+			]
+			id: "5493DF2D38C0B27C"
+			subtitle: "Unlocks &bA Day of Craftsman&r and &bA Day of Hunter"
+			tasks: [
+				{
+					id: "5F17CC1F2740F2B0"
+					item: {
+						Count: 1
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "39ac50ca-4bec-49d3-a2a1-2ed487b5fb83"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05E9EE36BACD944D"
+					item: "tetra:basic_workbench"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 0.5d
+		}
 	]
 	subtitle: ["{chapter.twr.0F108F94F3A03203.subtitle}"]
-	title: "{chapter.twr.0F108F94F3A03203.title}"
+	title: "Settle Down, Be Prepared"
 }

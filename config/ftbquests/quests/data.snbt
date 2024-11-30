@@ -9,7 +9,7 @@
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
-	icon: "minecraft:campfire"
+	icon: "frostedheart:mycelium_permafrost"
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0
@@ -17,7 +17,7 @@
 		passive: 4000
 	}
 	pause_game: true
-	progression_mode: "linear"
+	progression_mode: "flexible"
 	title: "The Winter Rescue"
 	version: 13
 }
