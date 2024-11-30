@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "generator"
+	filename: "a_day_of_generator_engineer"
 	group: "7668DAE31E3EF623"
 	icon: "frostedheart:generator_core_t1"
 	id: "00A96B3C8C24C472"

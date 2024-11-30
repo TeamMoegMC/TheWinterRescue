@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "world_info"
+	filename: "a_day_of_miner"
 	group: "7668DAE31E3EF623"
 	icon: {
 		Count: 1
