@@ -1,0 +1,32 @@
+[
+    {
+        "predicate": {
+            "item": "frostedheart:copper_core_spade"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_core_spade", "basic_core_spade/copper"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "frostedheart:iron_core_spade"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_core_spade", "basic_core_spade/iron"],
+            "single/handle": ["single/basic_handle", "basic_handle/treated_wood"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "frostedheart:steel_core_spade"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_core_spade", "basic_core_spade/steel"],
+            "single/handle": ["single/basic_handle", "basic_handle/treated_wood"]
+        }
+    }
+]

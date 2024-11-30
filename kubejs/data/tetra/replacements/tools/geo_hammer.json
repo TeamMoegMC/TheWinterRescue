@@ -1,0 +1,32 @@
+[
+    {
+        "predicate": {
+            "item": "frostedheart:copper_geologists_hammer"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_geo_hammer", "basic_geo_hammer/copper"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "frostedheart:iron_geologists_hammer"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_geo_hammer", "basic_geo_hammer/iron"],
+            "single/handle": ["single/basic_handle", "basic_handle/treated_wood"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "frostedheart:steel_geologists_hammer"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": ["single/basic_geo_hammer", "basic_geo_hammer/steel"],
+            "single/handle": ["single/basic_handle", "basic_handle/treated_wood"]
+        }
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "predicate": {
+            "item": "frostedheart:copper_pro_pick"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+        	"double/head_left": ["double/basic_pro_pick_left", "basic_pro_pick/copper"],
+            "double/head_right": ["double/butt_right", "butt/copper"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "frostedheart:iron_pro_pick"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+       	 	"double/head_left": ["double/basic_pro_pick_left", "basic_pro_pick/iron"],
+            "double/head_right": ["double/butt_right", "butt/iron"],
+            "double/handle": ["double/basic_handle", "basic_handle/treated_wood"]
+        }
+    },
+    {
+        "predicate": {
+            "item": "frostedheart:steel_pro_pick"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_pro_pick_left", "basic_pro_pick/steel"],
+            "double/head_right": ["double/butt_right", "butt/steel"],
+            "double/handle": ["double/basic_handle", "basic_handle/treated_wood"]
+        }
+    }
+]

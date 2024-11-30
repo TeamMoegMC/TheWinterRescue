@@ -1,0 +1,28 @@
+{
+    "replace": true,
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 176
+    },
+    "translation": {
+        "durability": -1,
+        "integrity": -1
+    },
+    "outcomes": [
+        {
+            "materials": ["tetra:metal/compat/copper","tetra:metal/iron","tetra:metal/compat/steel"],
+            "countFactor": 2,
+            "moduleKey": "double/basic_pro_pick",
+            "moduleVariant": "basic_pro_pick/"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "single/head"
+    ],
+    "improvements": [
+        "tetra:single/hone_core_spade_tier",
+        "tetra:single/hone_core_spade_corr",
+        "tetra:single/shared_head/hone_durability",
+        "tetra:single/shared_head/hone_speed",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": [
+                "tetra:metal/copper"
+            ],
+            "key": "basic_core_spade/",
+            "attributes": {
+                "generic.attack_damage": 1,
+                "generic.attack_speed": -2
+            },
+            "tools": {
+                "core_spade": [
+                    1,
+                    0
+                ]
+            },
+            "durability": 13,
+            "extract": {
+                "durability": 0.5,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 176,
+                    "textureY": 32
+                },
+                "availableTextures": [
+                    "metal",
+                    "shiny"
+                ],
+                "models": [
+                    {
+                        "location": "tetra:items/module/single/head/basic_core_spade/"
+                    }
+                ]
+            }
+        },
+        {
+            "materials": [
+                "tetra:metal/iron"
+            ],
+            "key": "basic_core_spade/",
+            "attributes": {
+                "generic.attack_damage": 1,
+                "generic.attack_speed": -2
+            },
+            "tools": {
+                "core_spade": [
+                    2,
+                    0
+                ]
+            },
+            "durability": 13,
+            "extract": {
+                "durability": 0.5,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 176,
+                    "textureY": 32
+                },
+                "availableTextures": [
+                    "metal",
+                    "shiny"
+                ],
+                "models": [
+                    {
+                        "location": "tetra:items/module/single/head/basic_core_spade/"
+                    }
+                ]
+            }
+        },
+        {
+            "materials": [
+                "tetra:metal/steel"
+            ],
+            "key": "basic_core_spade/",
+            "attributes": {
+                "generic.attack_damage": 1,
+                "generic.attack_speed": -2
+            },
+            "durability": 13,
+            "tools": {
+                "core_spade": [
+                    3,
+                    0
+                ]
+            },
+            "extract": {
+                "durability": 0.25,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 176,
+                    "textureY": 32
+                },
+                "availableTextures": [
+                    "metal",
+                    "shiny"
+                ],
+                "models": [
+                    {
+                        "location": "tetra:items/module/single/head/basic_core_spade/"
+                    }
+                ]
+            }
+        }
+    ]
+}

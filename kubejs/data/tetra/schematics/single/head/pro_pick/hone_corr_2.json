@@ -1,0 +1,53 @@
+{
+    "replace": true,
+    "localizationKey": "single/shared_head/hone_pro_pick_corr_2",
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 0,
+    "hone": true,
+    "rarity": "hone",
+    "displayType": "major",
+    "glyph": {
+        "textureX": 176,
+        "textureY": 32
+    },
+    "requirement": {
+        "type": "tetra:and",
+        "requirements": [
+            {
+                "type": "tetra:or",
+                "requirements": [
+                    {
+                        "type": "tetra:module",
+                        "module": "double/basic_pro_pick_right"
+                    },
+                    {
+                        "type": "tetra:module",
+                        "module": "double/basic_pro_pick_left"
+                    }
+                ]
+            },
+            {
+                "type": "tetra:improvement",
+                "improvement": "head_hone/pro_pick_corr",
+                "level": 1
+            }
+        ]
+    },
+    "outcomes": [
+        {
+            "requiredTools": {
+                "hammer": 3
+            },
+            "improvements": {
+                "head_hone/pro_pick_corr": 2
+            }
+        }
+    ]
+}

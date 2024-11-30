@@ -9,7 +9,7 @@
 	#Enables the enchantment glint rendering on modular items
 	glint = true
 	#Enables commands & data reloading functionality useful for development, has a negative impact on performance
-	development = false
+	development = true
 	#If enabled and Curios is installed, Toolbelts will only work in the Curio belt slot
 	toolbelt_curio_only = false
 	#Multiplier for magic capacity gains, increasing this may be useful when having a large set enchantments added by other mods

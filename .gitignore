@@ -40,7 +40,6 @@ hs_err_*
 replay_*
 /config/inventoryprofilesnext/
 config/.*
-schematics/
 *.iml
 jsconfig.json
 .probe

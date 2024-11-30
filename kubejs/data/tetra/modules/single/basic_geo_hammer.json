@@ -1,0 +1,85 @@
+{
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "single/head"
+    ],
+    "improvements": [
+        "tetra:single/hone_geo_hammer_tier",
+        "tetra:single/hone_geo_hammer_corr",
+        "tetra:single/shared_head/hone_durability",
+        "tetra:single/shared_head/hone_speed",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": ["tetra:metal/copper"],
+            "key": "basic_geo_hammer/",
+            "attributes": {
+                "generic.attack_damage": 1,
+                "generic.attack_speed": -2
+            },
+            "tools": {
+                "geo_hammer": [1,0]
+            },
+            "durability": 13,
+            "extract": {
+                "durability": 0.5,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 176,
+                    "textureY": 32
+                },
+                "availableTextures": ["metal"],
+                "models": [{ "location": "tetra:items/module/single/head/basic_geo_hammer/" }]
+            }
+        },
+        {
+            "materials": ["tetra:metal/iron"],
+            "key": "basic_geo_hammer/",
+            "attributes": {
+                "generic.attack_damage": 1,
+                "generic.attack_speed": -2
+            },
+            "tools": {
+                "geo_hammer": [2,0]
+            },
+            "durability": 13,
+            "extract": {
+                "durability": 0.5,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 176,
+                    "textureY": 32
+                },
+                "availableTextures": ["metal"],
+                "models": [{ "location": "tetra:items/module/single/head/basic_geo_hammer/" }]
+            }
+        },
+        {
+            "materials": ["tetra:metal/steel"],
+            "key": "basic_geo_hammer/",
+            "attributes": {
+                "generic.attack_damage": 1,
+                "generic.attack_speed": -2
+            },
+            "durability": 13,
+            "tools": {
+                "geo_hammer": [3,0]
+            },
+            "extract": {
+                "durability": 0.25,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 176,
+                    "textureY": 32
+                },
+                "availableTextures": ["metal"],
+                "models": [{ "location": "tetra:items/module/single/head/basic_geo_hammer/" }]
+            }
+        }
+    ]
+}

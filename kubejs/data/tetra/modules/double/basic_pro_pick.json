@@ -1,0 +1,120 @@
+{
+    "replace": true,
+    "type": "tetra:multi_major_module",
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "slotSuffixes": [
+        "_left",
+        "_right"
+    ],
+    "improvements": [
+        "tetra:single/hone_pro_pick_tier",
+        "tetra:single/hone_pro_pick_corr",
+        "tetra:double/shared_head/",
+        "tetra:double/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": [
+                "tetra:metal/copper"
+            ],
+            "key": "basic_pro_pick/",
+            "attributes": {
+                "generic.attack_damage": -2,
+                "generic.attack_speed": -1.2
+            },
+            "tools": {
+                "prospector_pick": [
+                    1,
+                    0
+                ]
+            },
+            "durability": 64,
+            "extract": {
+                "durability": 0,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 176
+                },
+                "availableTextures": [
+                    "metal"
+                ],
+                "models": [
+                    {
+                        "location": "tetra:items/module/single/head/basic_pro_pick/"
+                    }
+                ]
+            }
+        },
+        {
+            "materials": [
+                "tetra:metal/iron"
+            ],
+            "key": "basic_pro_pick/",
+            "attributes": {
+                "generic.attack_damage": 1,
+                "generic.attack_speed": -2
+            },
+            "tools": {
+                "prospector_pick": [
+                    2,
+                    0
+                ]
+            },
+            "durability": 64,
+            "extract": {
+                "durability": 0,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 176
+                },
+                "availableTextures": [
+                    "metal"
+                ],
+                "models": [
+                    {
+                        "location": "tetra:items/module/single/head/basic_pro_pick/"
+                    }
+                ]
+            }
+        },
+        {
+            "materials": [
+                "tetra:metal/steel"
+            ],
+            "key": "basic_pro_pick/",
+            "attributes": {
+                "generic.attack_damage": 1,
+                "generic.attack_speed": -2
+            },
+            "durability": 64,
+            "tools": {
+                "prospector_pick": [
+                    3,
+                    0
+                ]
+            },
+            "extract": {
+                "durability": 0,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 176
+                },
+                "availableTextures": [
+                    "metal"
+                ],
+                "models": [
+                    {
+                        "location": "tetra:items/module/single/head/basic_pro_pick/"
+                    }
+                ]
+            }
+        }
+    ]
+}

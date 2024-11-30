@@ -1,0 +1,26 @@
+[
+    {
+        "key": "head_hone/pro_pick_tier",
+        "level": 1,
+        "integrity": -1,
+        "tools": {
+            "prospector_pick": 1
+        }
+    },
+    {
+        "key": "head_hone/pro_pick_tier",
+        "level": 2,
+        "integrity": -2,
+        "tools": {
+            "prospector_pick": 2
+        }
+    },
+    {
+        "key": "head_hone/pro_pick_tier",
+        "level": 3,
+        "integrity": -4,
+        "tools": {
+            "prospector_pick": 3
+        }
+    }
+]

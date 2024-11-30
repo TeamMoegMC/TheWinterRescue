@@ -1,0 +1,20 @@
+{
+    "replace": true,
+    "slots": [
+        "single/head"
+    ],
+    "materialSlotCount": 1,
+    "displayType": "major",
+    "glyph": {
+        "textureX": 176,
+        "textureY": 32
+    },
+    "outcomes": [
+        {
+            "materials": ["tetra:metal/compat/copper","tetra:metal/iron","tetra:metal/compat/steel"],
+            "countFactor": 2,
+            "moduleKey": "single/basic_geo_hammer",
+            "moduleVariant": "basic_geo_hammer/"
+        }
+    ]
+}
