@@ -9,7 +9,7 @@
 	#Set to true to enable fuzzy spelling ang <=> an
 	enableFAng2an = false
 	#Keyboard for the checker to use
-	#Allowed Values: QUANPIN, DAQIAN, XIAOHE, ZIRANMA
+	#Allowed Values: QUANPIN, DAQIAN, XIAOHE, ZIRANMA, SOUGOU, GUOBIAO, MICROSOFT, PINYINPP, ZIGUANG
 	enumKeyboard = "QUANPIN"
 	#Set to true to enable fuzzy spelling u <=> v
 	enableFU2v = false
@@ -23,8 +23,6 @@
 	enableFSh2s = false
 
 [Utilities]
-	#List of classes to dump all the functions
-	listDumpClass = []
 	#Set true to print verbose debug message
 	enableVerbose = false
 
