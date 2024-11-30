@@ -1,0 +1,38 @@
+[
+    {
+        "predicate": {
+            "items": [
+                "frostedheart:makeshift_knife"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "double/head_left": [
+                "sword/short_blade",
+                "short_blade/flint"
+            ],
+            "double/handle": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ]
+        }
+    },
+    {
+        "predicate": {
+            "items": [
+                "frostedheart:bronze_knife"
+            ]
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "double/head_left": [
+                "sword/short_blade",
+                "short_blade/bronze"
+            ],
+            "double/handle": [
+                "sword/basic_hilt",
+                "basic_hilt/stick"
+            ]
+        }
+    }
+]
