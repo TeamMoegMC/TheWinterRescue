@@ -1,7 +1,9 @@
 [
     {
         "predicate": {
-            "item": "frostedheart:copper_pro_pick"
+            "items": [
+                "frostedheart:copper_pro_pick"
+            ]
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -12,7 +14,9 @@
     },
     {
         "predicate": {
-            "item": "frostedheart:iron_pro_pick"
+            "items": [
+                "frostedheart:iron_pro_pick"
+            ]
         },
         "item": "tetra:modular_double",
         "modules": {
@@ -23,7 +27,9 @@
     },
     {
         "predicate": {
-            "item": "frostedheart:steel_pro_pick"
+            "items": [
+                "frostedheart:steel_pro_pick"
+            ]
         },
         "item": "tetra:modular_double",
         "modules": {

@@ -1,7 +1,9 @@
 [
     {
         "predicate": {
-            "item": "frostedheart:copper_geologists_hammer"
+            "items": [
+                "frostedheart:copper_geologists_hammer"
+            ]
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -11,7 +13,9 @@
     },
     {
         "predicate": {
-            "item": "frostedheart:iron_geologists_hammer"
+            "items": [
+                "frostedheart:iron_geologists_hammer"
+            ]
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -21,7 +25,9 @@
     },
     {
         "predicate": {
-            "item": "frostedheart:steel_geologists_hammer"
+            "items": [
+                "frostedheart:steel_geologists_hammer"
+            ]
         },
         "item": "tetra:modular_single",
         "modules": {

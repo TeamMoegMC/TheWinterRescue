@@ -32,7 +32,7 @@
                     "textureY": 32
                 },
                 "availableTextures": ["metal"],
-                "models": [{ "location": "tetra:items/module/single/head/basic_geo_hammer/" }]
+                "models": [{ "location": "tetra:item/module/single/head/basic_geo_hammer/" }]
             }
         },
         {
@@ -55,7 +55,7 @@
                     "textureY": 32
                 },
                 "availableTextures": ["metal"],
-                "models": [{ "location": "tetra:items/module/single/head/basic_geo_hammer/" }]
+                "models": [{ "location": "tetra:item/module/single/head/basic_geo_hammer/" }]
             }
         },
         {
@@ -78,7 +78,7 @@
                     "textureY": 32
                 },
                 "availableTextures": ["metal"],
-                "models": [{ "location": "tetra:items/module/single/head/basic_geo_hammer/" }]
+                "models": [{ "location": "tetra:item/module/single/head/basic_geo_hammer/" }]
             }
         }
     ]

@@ -42,7 +42,7 @@
                 ],
                 "models": [
                     {
-                        "location": "tetra:items/module/single/head/basic_core_spade/"
+                        "location": "tetra:item/module/single/head/basic_core_spade/"
                     }
                 ]
             }
@@ -77,7 +77,7 @@
                 ],
                 "models": [
                     {
-                        "location": "tetra:items/module/single/head/basic_core_spade/"
+                        "location": "tetra:item/module/single/head/basic_core_spade/"
                     }
                 ]
             }
@@ -112,7 +112,7 @@
                 ],
                 "models": [
                     {
-                        "location": "tetra:items/module/single/head/basic_core_spade/"
+                        "location": "tetra:item/module/single/head/basic_core_spade/"
                     }
                 ]
             }

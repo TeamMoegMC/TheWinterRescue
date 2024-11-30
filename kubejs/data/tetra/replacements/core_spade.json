@@ -1,7 +1,9 @@
 [
     {
         "predicate": {
-            "item": "frostedheart:copper_core_spade"
+            "items": [ 
+                "frostedheart:copper_core_spade"
+            ]
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -11,7 +13,9 @@
     },
     {
         "predicate": {
-            "item": "frostedheart:iron_core_spade"
+            "items": [
+                "frostedheart:iron_core_spade"
+            ]
         },
         "item": "tetra:modular_single",
         "modules": {
@@ -21,7 +25,9 @@
     },
     {
         "predicate": {
-            "item": "frostedheart:steel_core_spade"
+            "items": [
+                "frostedheart:steel_core_spade"
+            ]
         },
         "item": "tetra:modular_single",
         "modules": {
