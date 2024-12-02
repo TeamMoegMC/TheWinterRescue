@@ -323,6 +323,40 @@
 			x: -2.0d
 			y: 7.0d
 		}
+		{
+			id: "54A870ACF2679DBA"
+			tasks: [{
+				id: "19F959F4ED22E0B3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "frostedheart:condensed_balls"
+					}
+				}
+				title: "Any #frostedheart:condensed_balls"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			id: "34C6825C2D8F0DDE"
+			tasks: [{
+				id: "32BCD286751C4108"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "frostedheart:slurry"
+					}
+				}
+				title: "Any #frostedheart:slurry"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
 	]
 	subtitle: ["{chapter.twr.683664CACFD52C99.subtitle.0}"]
 	title: "{chapter.twr.683664CACFD52C99.title}"

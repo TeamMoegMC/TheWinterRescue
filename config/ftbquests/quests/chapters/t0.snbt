@@ -565,11 +565,6 @@
 			hide: false
 			id: "04DC32D417FA819E"
 			optional: true
-			rewards: [{
-				id: "7CA4A46181EDBD4F"
-				item: "minecraft:beetroot_soup"
-				type: "item"
-			}]
 			subtitle: "{quest.twr.04DC32D417FA819E.subtitle}"
 			tasks: [{
 				id: "7910A9F1725CA178"
@@ -743,25 +738,6 @@
 			}
 			id: "28F313C8E1312A2B"
 			optional: true
-			rewards: [{
-				id: "28F59C600B7E4F88"
-				item: {
-					Count: 1
-					id: "caupona:seaweed_soup"
-					tag: {
-						"caupona:fluid": {
-							type: "caupona:seaweed_soup"
-						}
-						display: {
-							Lore: [
-								"{\"translate\":\"tooltip.caupona.display_only\"}"
-								"{\"translate\":\"tooltip.caupona.cook_required\"}"
-							]
-						}
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "{quest.twr.28F313C8E1312A2B.subtitle}"
 			tasks: [
 				{
@@ -1499,6 +1475,26 @@
 			}]
 			x: 20.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["5D803F0865A90DE0"]
+			description: ["These colored snowballs seem to be dense with useful mineral."]
+			id: "7F91A18F97F23E75"
+			tasks: [{
+				id: "48A72D8F12880013"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "frostedheart:condensed_balls"
+					}
+				}
+				title: "Any #frostedheart:condensed_balls"
+				type: "item"
+			}]
+			title: "Weird Snow"
+			x: 13.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["{chapter.twr.0C07C58470EE031C.subtitle.0}"]

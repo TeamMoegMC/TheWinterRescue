@@ -423,6 +423,17 @@
 			x: -11.0d
 			y: -9.0d
 		}
+		{
+			dependencies: ["69D939596ED4C0AF"]
+			id: "2D89D6FAE456A35A"
+			tasks: [{
+				id: "20F0E8B6A21A0942"
+				item: "frostedheart:warehouse"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -2.0d
+		}
 	]
 	subtitle: ["{chapter.twr.00A96B3C8C24C472.subtitle}"]
 	title: "{chapter.twr.00A96B3C8C24C472.title}"

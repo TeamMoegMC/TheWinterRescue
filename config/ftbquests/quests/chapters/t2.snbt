@@ -5,7 +5,7 @@
 	group: "7823E178F7BCBCB0"
 	icon: "steampowered:steel_flywheel"
 	id: "3A3B51CF7F606665"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -957,5 +957,5 @@
 		}
 	]
 	subtitle: ["Amist the white fog you see hope."]
-	title: "Ignite The Boiler, Where He Roars"
+	title: "Ignite The Boiler, Let It Roar"
 }
