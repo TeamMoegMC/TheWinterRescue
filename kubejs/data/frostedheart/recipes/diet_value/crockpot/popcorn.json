@@ -1,0 +1,10 @@
+{
+  "type": "frostedheart:diet_override",
+  "group": {
+    "carbohydrate": 0.00889302,
+    "fat": 0.0072908197,
+    "protein": 0.0,
+    "vegetable": 0.0
+  },
+  "item": "crockpot:popcorn"
+}

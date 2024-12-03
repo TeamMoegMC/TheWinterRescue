@@ -1,0 +1,8 @@
+{
+  "type": "frostedheart:diet_override",
+  "groups": {
+    "proteins": 0.02200487,
+    "vitamin": 0.03389784
+  },
+  "item": "stone_age:tiger_meat"
+}

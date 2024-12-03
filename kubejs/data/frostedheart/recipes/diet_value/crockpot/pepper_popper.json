@@ -1,0 +1,10 @@
+{
+  "type": "frostedheart:diet_override",
+  "group": {
+    "carbohydrate": 0.0,
+    "fat": 0.0,
+    "protein": 0.023714721,
+    "vegetable": 0.023714721
+  },
+  "item": "crockpot:pepper_popper"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "frostedheart:diet_override",
+  "groups": {
+    "proteins": 0.05335812,
+    "vitamin": 0.055246934
+  },
+  "item": "stone_age:cooked_rhino_meat"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "frostedheart:diet_override",
+  "group": {
+    "carbohydrate": 0.0,
+    "fat": 0.0,
+    "protein": 0.028864639,
+    "vegetable": 0.0
+  },
+  "item": "crockpot:monster_tartare"
+}
