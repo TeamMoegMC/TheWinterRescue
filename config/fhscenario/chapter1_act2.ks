@@ -5,41 +5,50 @@
 @showTitle t="Chapter 1 Act 2" st="Survive In The Snow"
 @delay t=60
 
+@label name=chapter_guide
 @call s="quest:56E5FD2809882B5F?call"
 
+@label name=garbage
 @call s="quest:32E5D942F1FE8645?call"
 
+@label name=knife
 @call s="quest:14D7D98FC5264B03?call"
 
+@label name=tinder
 @call s="quest:1233EF3CDF5E33F8?call"
 
+@label name=drying
 @call s="quest:1D7F2824DAF3BB7B?call"
 
+@label name=straw
 @call s="quest:29BC87594650152D?call"
-# grass lead
+
+@label name=grass_lead
 @call s="quest:4B6FFA5A9140019F?call"
-# axe
+
+@label name=axe
 @call s="quest:6B7D4F59C921C1FC?call"
-# ignition
+
+@label name=ignition
 @call s="quest:3B7B7A0BC0CF3CE0?call"
-# campfire
+
+@label name=campfire
 @call s="quest:20E34B234337C28A?call"
 
-# Ending
+@label name=fire
 Now I have a fire going. Time to think about further plans. @r
 @delay t=60
 
-# pickaxes
+@label name=pickaxes
 @call s="quest:45E2EF843333B846?call"
-# cooblestones
+@label name=cooblestones
 @call s="quest:1837531DB19C9023?call"
-# stones
+@label name=stones
 @call s="quest:4BD8236FEEBD7D3A?call"
-# stump
+@label name=stump
 @call s="quest:7E3F0C805E2BBB9F?call"
-# planks
+@label name=planks
 @call s="quest:19603323EAAFF726?call"
-# crafting
 @label name=crafting
 @call s="quest:03A553EBD453466A?call"
 
