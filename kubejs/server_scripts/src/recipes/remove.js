@@ -5,7 +5,7 @@ ServerEvents.recipes((event) => {
         "minecraft:furnace"
     ]
     flint_workbench.forEach((Item) => {
-        event.remove({type: "stone_age:flint_workbench", output: Item})
+        event.remove({ type: "stone_age:flint_workbench", output: Item })
     })
     let workbench = [
         "immersiveengineering:cloche",
@@ -41,7 +41,7 @@ ServerEvents.recipes((event) => {
         "minecraft:green_dye",
     ]
     workbench.forEach((Item) => {
-        event.remove({type: "minecraft:crafting_shaped", output: Item})
+        event.remove({ type: "minecraft:crafting_shaped", output: Item })
     })
     let shapeless = [
         "minecraft:ender_eye",
@@ -59,7 +59,7 @@ ServerEvents.recipes((event) => {
         "minecraft:campfire"
     ]
     recipeID.forEach((Item) => {
-        event.remove({id: Item})
+        event.remove({ id: Item })
     })
     /*let Pot = [
         "potato_souffle",
@@ -88,10 +88,10 @@ ServerEvents.recipes((event) => {
         "#elevatorid:elevators"
     ]
     shaped.forEach((Item) => {
-        event.remove({type: "minecraft:crafting_shaped", output: Item})
+        event.remove({ type: "minecraft:crafting_shaped", output: Item })
     })
     shapeless.forEach((Item) => {
-        event.remove({type: "minecraft:crafting_shapeless", output: Item})
+        event.remove({ type: "minecraft:crafting_shapeless", output: Item })
     })
     let smelting = [
         "minecraft:iron_ingot",
@@ -99,7 +99,7 @@ ServerEvents.recipes((event) => {
         "minecraft:air"
     ]
     smelting.forEach((Item) => {
-        event.remove({type: "minecraft:blasting", output: Item})
+        event.remove({ type: "minecraft:blasting", output: Item })
     })
 
     let blueprint = [
@@ -110,7 +110,7 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:graphite_electrode"
     ]
     blueprint.forEach((Item) => {
-        event.remove({type: "immersiveengineering:blueprint", output: Item})
+        event.remove({ type: "immersiveengineering:blueprint", output: Item })
     })
 
     let createMillingAndCrushing = [
@@ -118,31 +118,31 @@ ServerEvents.recipes((event) => {
         "create:wheat_flour"
     ]
     createMillingAndCrushing.forEach((Item) => {
-        event.remove({type: "create:milling", output: Item})
-        event.remove({type: "create:crushing", output: Item})
+        event.remove({ type: "create:milling", output: Item })
+        event.remove({ type: "create:crushing", output: Item })
     })
 
     // Remove by Types
-    event.remove({type: "immersiveengineering:turn_and_copy", output: "immersiveengineering:radiator"})
-    event.remove({type: "immersiveengineering:turn_and_copy", output: "immersiveengineering:rs_engineering"})
-    event.remove({type: "immersiveengineering:hammer_crushing"})
-    event.remove({type: "immersiveengineering:generated_list"})
-    event.remove({type: "minecraft:crafting_shapeless", input: "immersiveengineering:hammer"})
-    event.remove({type: "create:splashing", input: "minecraft:gravel"})
-    event.remove({type: "create:splashing", input: "minecraft:red_sand"})
-    event.remove({input: "notreepunching:plant_string"})
-    event.remove({mod: "theoneprobe"})
-    event.remove({mod: "steampowered"})
-    event.remove({type: "immersiveengineering:crusher", input: "#forge:ores"})
-    event.remove({type: "immersiveengineering:arc_furnace", input: "#forge:ores"})
-    event.remove({input: "minecraft:sugar_cane", output: "minecraft:paper"})
-    event.remove({input: "immersiveengineering:dust_wood", output: "minecraft:paper"})
-    event.remove({input: "minecraft:redstone_ore"})
-    event.remove({output: "#minecraft:planks"})
-    event.remove({output: "create:chromatic_compound"})
-    event.remove({input: "create:dough"})
-    event.remove({type: "minecraft:blasting", output: "immersiveengineering:ingot_hop_graphite"})
-    event.remove({type: "minecraft:smelting", output: "immersiveengineering:ingot_hop_graphite"})
+    event.remove({ type: "immersiveengineering:turn_and_copy", output: "immersiveengineering:radiator" })
+    event.remove({ type: "immersiveengineering:turn_and_copy", output: "immersiveengineering:rs_engineering" })
+    event.remove({ type: "immersiveengineering:hammer_crushing" })
+    event.remove({ type: "immersiveengineering:generated_list" })
+    event.remove({ type: "minecraft:crafting_shapeless", input: "immersiveengineering:hammer" })
+    event.remove({ type: "create:splashing", input: "minecraft:gravel" })
+    event.remove({ type: "create:splashing", input: "minecraft:red_sand" })
+    event.remove({ input: "notreepunching:plant_string" })
+    event.remove({ mod: "theoneprobe" })
+    event.remove({ mod: "steampowered" })
+    event.remove({ type: "immersiveengineering:crusher", input: "#forge:ores" })
+    event.remove({ type: "immersiveengineering:arc_furnace", input: "#forge:ores" })
+    event.remove({ input: "minecraft:sugar_cane", output: "minecraft:paper" })
+    event.remove({ input: "immersiveengineering:dust_wood", output: "minecraft:paper" })
+    event.remove({ input: "minecraft:redstone_ore" })
+    event.remove({ output: "#minecraft:planks" })
+    event.remove({ output: "create:chromatic_compound" })
+    event.remove({ input: "create:dough" })
+    event.remove({ type: "minecraft:blasting", output: "immersiveengineering:ingot_hop_graphite" })
+    event.remove({ type: "minecraft:smelting", output: "immersiveengineering:ingot_hop_graphite" })
     //event.remove({type: "minecraft:blasting"})
 
     let disabledItems = [
@@ -184,7 +184,7 @@ ServerEvents.recipes((event) => {
         // "create:mechanical_plough",
     ]
     disabledItems.forEach((disabledItem) => {
-        event.remove({output: disabledItem})
+        event.remove({ output: disabledItem })
     })
 
     let removeOnly = [
@@ -202,6 +202,6 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:dust_hop_graphite"
     ]
     removeOnly.forEach((removeItem) => {
-        event.remove({output: removeItem})
+        event.remove({ output: removeItem })
     })
 })
