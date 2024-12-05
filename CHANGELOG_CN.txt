@@ -2,6 +2,7 @@
 [警告]此更新目前处于早期测试阶段，无法保证生存正常游玩，可能会存在存档崩溃，数据无法恢复等问题。
 [警告]此更新采用Minecaft 1.20.1 NeoForge 47.1.106 Java 17。
 [警告]此更新无法兼容冬季救援-0.5.6或以下的任何存档。
+[警告]请不要公开分发此版本整合包，否则您可能会失去内测资格。
 [问题]请在以下任意渠道反馈问题
 GitHub: https://github.com/TeamMoegMC/TheWinterRescue
 论坛：https://forum.teammoeg.com/

@@ -1,0 +1,92 @@
+Complementary License Agreement 1.5
+===================================
+
+0. Terminology
+--------------
+  0.1. "The Pack" and/or "This Pack" means the software package that this
+       specific license file you are reading from is found in.
+
+  0.2. "Normal Usage" means usage of The Pack as intended for the general
+       public. This includes most usage, but the following usages are
+       definitely NOT considered Normal Usage:
+         a. Redistributing (parts of) The Pack
+         b. Modifying code of The Pack
+
+  0.3. "User" and/or "Users" means people that are using The Pack under our
+       definition of Normal Usage.
+
+  0.4. "Modpack" means a modification package made for the video
+       game "Minecraft: Java Edition".
+
+  0.5. "Modified Pack" means a software package that consists of The Pack but
+       with the code intentionally being changed to differ from The Pack.
+
+  0.6. "Original Pack" means one of two things:
+         a. If "This Pack" is an original Complementary Development product,
+            meaning that this specific license file you are reading from is
+            found inside an original Complementary Development product, then
+            "Original Pack" directly means the same thing as "This Pack".
+         b. But if "This Pack" is not an original Complementary Development
+            product, meaning that this specific license file you are reading
+            from is found inside a pack that was created using the grant
+            detailed at section "1.3", then "Original Pack" refers to the
+            pack created by Complementary Development that must be mentioned
+            in the description page(s) of This Pack.
+
+1. Grants
+---------
+  1.1. All Users are free to use This Pack for Normal Usage. This isn't
+       limited to, but includes:
+         a. Using The Pack for gameplay
+         b. Using The Pack for content creation
+
+  1.2. This Pack is allowed to be redistributed inside a Modpack as long as
+       the following conditions are met:
+         a. This Pack must be visibly credited in the Modpack's description
+            page(s).
+         b. The author of the Modpack must acknowledge that any problems that
+            may arise from using This Pack in their Modpack is entirely under
+            the responsibility of the author of the Modpack.
+
+  1.3. This Pack is allowed to be redistributed as a Modified Pack as long as
+       the following conditions are met:
+         a. The Original Pack must be visibly credited in the description
+            page(s) of the Modified Pack, with a link to the official
+            Complementary Development website.
+         b. This license file must still be left inside the Modified Pack
+            without any changes being made to it, and it must be updated to
+            the latest one found in the latest version of the Original Pack
+            every time the Modified Pack gets updated to make more use of the
+            code from the Original Pack.
+         c. The Modified Pack must not have the word "Complementary" in its
+            name, and there should be at least 3 character difference between
+            the name of the Modified Pack and the Original Pack. Adding or
+            removing non-alphabetic characters or the removal of
+            "Complementary" does not count as a character difference.
+         d. The Modified Pack must look noticeably different from the
+            Original Pack in multiple common gameplay scenarios that must
+            include daytime overworld visuals, regardless of the setting or
+            variable changes in the Modified Pack and/or the Original Pack.
+
+2. Denied Cases
+---------------
+  2.1. Any usage or redistribution of any part of This Pack that isn't
+       explicitly covered in the "Grants" section of this license should be
+       treated as "All Rights Reserved". Only exceptions are the files that
+       contain a notice that they are covered by a different license.
+
+  2.2. This agreement only applies to the version of This Pack that this exact
+       file can be found in. This agreement is not valid for future or past
+       versions of The Pack unless they contain the exact same agreement.
+
+3. License Infringement
+-----------------------
+  3.1. By using This Pack for any purpose, you agree that Complementary
+       Development has the right to take action against you in the case of a
+       license infringement, regardless of This Pack being the Original Pack
+       or not.
+
+  3.2. Complementary Development reserves its rights to not take action
+       against cases that it deems harmless. For this reason, cases that
+       Complementary Development did not take action against in the past
+       cannot be used as an excuse to ignore this agreement.

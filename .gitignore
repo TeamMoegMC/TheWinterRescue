@@ -12,7 +12,8 @@
 /mods/
 /crash-reports/
 /CustomSkinLoader/
-/shaderpacks/
+/shaderpacks/*
+!/shaderpacks/ComplementaryUnbound_r5.2.2_TWR/
 /ambience_music/
 /backups/
 /config/spark/activity.json
