@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "the_winter_rescue:observatory",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 92019,
+    "spacing": 10,
+    "separation": 8
+  }
+}
