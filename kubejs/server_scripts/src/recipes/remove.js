@@ -164,6 +164,7 @@ ServerEvents.recipes((event) => {
         "create:windmill_bearing",
         "create:flywheel",
         "create:furnace_engine",
+        "create:steam_engine",
 
         // create: causes infinite power
         "create:mechanical_piston",
