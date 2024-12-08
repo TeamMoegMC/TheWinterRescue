@@ -68,26 +68,37 @@ ServerEvents.recipes((event) => {
             inputs
         ] = recipe.length === 3 ? recipe : [recipe[0], 1, recipe[1]]
 
+        // Check if the output is an array, and process it further if true
         if (Array.isArray(output)) {
+            // Destructure the output array to get item ID and NBT data
             let [itemID, nbt] = output
+            // Create an item with the given item ID, quantity, and NBT data
             output = Item.of(itemID, quantity).withNBT(nbt || {})
         } else {
-            9
+            // If the output is not an array, create an item with the given item ID and quantity
             output = Item.of(output, quantity)
         }
 
+        // Process each input to convert them into a unified format
         let processedInputs = inputs.map((input) => {
+            // If the input is an array, destructure to get item and count, then create an item
             if (Array.isArray(input)) {
                 let [item, count] = input
                 return Item.of(item, count)
+                // If the input is a string, return it as is
             } else if (typeof input === "string") {
                 return input
+                // If the input format is invalid, throw an error
             } else {
                 throw new Error(`Invalid input format: ${ input }`)
             }
         })
-        kubejs.shapeless(output, processedInputs)
-            .id(`the_winter_rescue:minecraft/crafting_shapeless/new/${ index }`)
+
+        // Register a shapeless crafting recipe using kubejs.shapeless method
+        kubejs.shapeless(
+            output,
+            processedInputs
+        ).id(`the_winter_rescue:minecraft/crafting_shapeless/new/${ index }`)
     })
 
     Ingredient.of("#forge:vertical_slabs")

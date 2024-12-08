@@ -1,6 +1,6 @@
 /* 这个不知道什么配方类型, 没法处理(
 ServerEvents.recipes((event) => {
-    //event.custom(inspireRecipe("frostedheart:raw_silver",1000));
+    //event.custom(inspireRecipe("frostedheart:raw_silver", 1000));
     // TODO: Fix
     Ingredient.of("#forge:mushrooms")
         .getItemIds()

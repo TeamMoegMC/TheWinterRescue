@@ -14,7 +14,8 @@ ServerEvents.recipes((event) => {
         // ["minecraft:gold_ingot", "frostedheart:raw_gold", 200],
         ["immersiveengineering:ingot_silver", "frostedheart:raw_silver", 200],
         ["frostedheart:sodium_chloride_dust", "frostedheart:raw_halite", 200],
-        ["create:zinc_ingot", "create:raw_zinc", 200]
+        ["create:zinc_ingot", "create:raw_zinc", 200],
+        ["frostedheart:magnesia_dust", "frostedheart:crushed_raw_magnesite", 200]
     ]
     blastFurnaceRecipes.forEach(([output, input, time], index) => {
         immersiveengineering.blast_furnace(output, input, "immersiveengineering:slag")

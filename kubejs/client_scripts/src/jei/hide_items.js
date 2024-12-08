@@ -1,29 +1,23 @@
 JEIEvents.hideItems((event) => {
     // materialsToUnify.forEach((material) => {
     //     if (material == 'iesnium' || material == 'graphite' || material == 'hop_graphite') {
-    //         return;
+    //         return
     //     }
     //     itemsToHide.push(
     //         // 'immersiveengineering:ingot_' + material,
     //         // 'immersiveengineering:dust_' + material,
     //         // 'immersiveengineering:nugget_' + material,
     //         // 'immersiveengineering:stick_' + material,
-    //     );
-    // });
+    //     )
+    // })
 
-    clientItemsToHide.forEach((disabledItem) => {
+    itemsToHide.forEach((disabledItem) => {
         if (!Item.of(disabledItem).isEmpty()) {
-            event.hide(disabledItem);
+            event.hide(disabledItem)
         }
-    });
-
-    serverItemsToHide.forEach((disabledItem) => {
-        if (!Item.of(disabledItem).isEmpty()) {
-            event.hide(disabledItem);
-        }
-    });
+    })
 
     regexHide.forEach((regexExpression) => {
-        event.hide(regexExpression);
-    });
-});
+        event.hide(regexExpression)
+    })
+})

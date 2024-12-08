@@ -636,18 +636,18 @@ ServerEvents.recipes((event) => {
             keys
         ] = recipe.length === 4 ? recipe : [recipe[0], 1, recipe[1], recipe[2]]
 
-        // 确保输出是有效物品 ID 和 NBT 处理
+        // Ensure that the output is a valid item ID and NBT processing
         if (Array.isArray(output)) {
-            // 如果是带 NBT 的物品
+            // If it is an item with NBT
             let [itemID, nbt] = output
-            // 确保 NBT 是对象，即使为空
+            // Ensure that the NBT is an object, even if it is empty
             output = Item.of(itemID, quantity).withNBT(nbt || {})
         } else {
-            // 普通物品，默认不带 NBT
+            // Ordinary items, default without NBT
             output = Item.of(output, quantity)
         }
 
-        // 删除旧配方
+        // Remove old recipes
         event.remove({ output: output, type: "minecraft:crafting_shaped" })
 
         // 添加新配方
@@ -2118,18 +2118,18 @@ ServerEvents.recipes((event) => {
             keys
         ] = recipe.length === 4 ? recipe : [recipe[0], 1, recipe[1], recipe[2]]
 
-        // 确保输出是有效物品 ID 和 NBT 处理
+        // Ensure that the output is a valid item ID and NBT processing
         if (Array.isArray(output)) {
-            // 如果是带 NBT 的物品
+            // If it is an item with NBT
             let [itemID, nbt] = output
-            // 确保 NBT 是对象, 即使为空
+            // Ensure that the NBT is an object, even if it is empty
             output = Item.of(itemID, quantity).withNBT(nbt || {})
         } else {
-            // 普通物品, 默认不带 NBT
+            // Ordinary items, default without NBT
             output = Item.of(output, quantity)
         }
 
-        // 添加新配方
+        // Add new recipes
         kubejs.shaped(
             output,
             pattern,
