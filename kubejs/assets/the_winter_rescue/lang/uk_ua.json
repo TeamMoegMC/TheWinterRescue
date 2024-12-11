@@ -1,0 +1,27 @@
+{
+    "advancements.the_winter_rescue.generator_core_t1.title": "Вежа вогню",
+    "advancements.the_winter_rescue.generator_core_t1.description": "Створіть Генератор першого рівня!",
+    "advancements.the_winter_rescue.root.title": "The Winter Rescue",
+    "advancements.the_winter_rescue.root.description": "Остання осінь на Землі давно минула. Вам потрібно врятуватися і, сподіваємося, розкрити таємницю, яка заморозила людство...",
+
+    "info.jei.the_winter_rescue.disabled": "Цей предмет вимкнено в модпаку.",
+    "info.jei.the_winter_rescue.energy_core": "Ядро технологій всього космічного людства. Використовується для побудови Генератора, бережи його!",
+    "info.jei.the_winter_rescue.power_glitch": "Цей пристрій має потенціал до нескінченних збоїв живлення.",
+    "info.jei.the_winter_rescue.later_tech": "Цей пункт буде розблоковано в наступних версіях. Будь ласка, зачекайте на оновлення. ",
+
+    "tooltip.the_winter_rescue.replaced_recipe": "Відповідні рецепти можна замінити іншими засобами",
+    "tooltip.the_winter_rescue.snowy_vine": "Отримуються шляхом зрізання листя крем'яним ножем",
+    "tooltip.the_winter_rescue.flint_knife": "При зрізанні листя можна отримати лозини",
+    "tooltip.the_winter_rescue.flint_knife_2": "Клацніть правою кнопкою миші на кремінному верстаті, щоб створити",
+    "tooltip.the_winter_rescue.tanning_rack": "Після розміщення предмета, який потрібно обробити, клацніть правою кнопкою миші з кремінним ножем для обробки",
+    "tooltip.the_winter_rescue.clay_tool": "Використовуйте інструмент глини, клацнувши правою кнопкою миші на глиняному блоці, щоб зробити гончарний виріб",
+    "tooltip.the_winter_rescue.activated_carbon": "Отримано за допомогою використання вугілля на паровому зарядному пристрої",
+    "tooltip.the_winter_rescue.campfire": "Натисніть Q, щоб залити його пальним і підпалити за допомогою інструменту для запалювання!",
+    "tooltip.the_winter_rescue.lining": "Дає зігріваючий ефект після виготовлення на будь-якому обладнанні (безформний)",
+
+    "generator.the_winter_rescue.snowy_taiga": "TWR - Засніжена тайга",
+    "generator.the_winter_rescue.vanilla": "TWR - Ванільний",
+    "generator.the_winter_rescue.icelayers": "TWR - Icelayers",
+    "generator.the_winter_rescue.terralith_overworld": "TWR - Terralith"
+    
+}
