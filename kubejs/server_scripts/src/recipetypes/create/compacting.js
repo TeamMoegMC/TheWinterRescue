@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let {create} = event.recipes
+    let { create } = event.recipes
     let items = [
         {
             output: "frostedheart:crushed_raw_bauxite",
@@ -76,8 +76,11 @@ ServerEvents.recipes((event) => {
     ]
     items.forEach((item) => {
         create.compacting(item.output, item.input)
+            .id(`the_winter_rescue:create/compacting/${ index }`)
     })
     heated.forEach((item) => {
-        create.compacting(item.output, item.input).heated()
+        create.compacting(item.output, item.input)
+            .id(`the_winter_rescue:create/compacting/heated/${ index }`)
+            .heated()
     })
 })
