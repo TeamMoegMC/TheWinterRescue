@@ -121,8 +121,7 @@ bookmarks.ini
 installer.sh
 installer.bat
 twr-installer.jar
-tssap-configs/config.json
-tssap-configs/data.json
-tssap-backup/2024-12-12-10-10-29.zip
+tssap-configs/
+tssap-backup/
 
 Scripts/*.pdf
