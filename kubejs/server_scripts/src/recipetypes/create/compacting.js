@@ -74,11 +74,11 @@ ServerEvents.recipes((event) => {
             input: [Fluid.of("immersiveengineering:plantoil", 100), "4x create:wheat_flour"]
         }
     ]
-    items.forEach((item) => {
+    items.forEach((item, index) => {
         create.compacting(item.output, item.input)
             .id(`the_winter_rescue:create/compacting/${ index }`)
     })
-    heated.forEach((item) => {
+    heated.forEach((item, index) => {
         create.compacting(item.output, item.input)
             .id(`the_winter_rescue:create/compacting/heated/${ index }`)
             .heated()
