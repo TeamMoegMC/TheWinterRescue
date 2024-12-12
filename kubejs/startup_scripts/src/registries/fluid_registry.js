@@ -23,32 +23,10 @@ StartupEvents.registry("fluid", (event) => {
         }
     })
     */
-
-    //copper
-    //iron
+   
     /*
     event.create("ferrous_chloride")
         .tthinTexture(0xBB3333)
-    event.create("ferric_chloride")
-        .tthinTexture(0xB0FFDE)
-    event.create("copper_chloride")
-        .tthinTexture(0xB0FFDE)
-    event.create("zinc_sulfate")
-        .tthinTexture(0xB0C4FF)
-    event.create("lime_water")
-        .tthinTexture(0xB0C4DE)
-    event.create("magnesium_chloride")
-        .tthinTexture(0xDEDEEE)
-    event.create("sulfuric_acid")
-        .tthinTexture(0xEEE8AA)
-    event.create("hydrochloric_acid")
-        .tthinTexture(0xAAFFAA)
-    event.create("cryolite")
-        .tthinTexture(0x90EE90)
-    event.create("tar")
-        .thickTexture(0x000000)
-        .viscosity(1150)
-        .density(950)
     event.create("protein")
         .stillTexture("kubejs:block/protein_fluid")
         .flowingTexture("kubejs:block/protein_fluid")
