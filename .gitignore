@@ -117,3 +117,12 @@ config/world_preview/missing-colors.json
 config/world_preview/missing-structures.json
 config/world_preview/renderConfig.json
 bookmarks.ini
+
+installer.sh
+installer.bat
+twr-installer.jar
+tssap-configs/config.json
+tssap-configs/data.json
+tssap-backup/2024-12-12-10-10-29.zip
+
+Scripts/*.pdf
