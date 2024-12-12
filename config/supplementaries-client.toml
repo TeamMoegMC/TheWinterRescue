@@ -115,6 +115,10 @@
 		#Range: 0.01 ~ 200.0
 		wobbling_period = 12.0
 
+	[blocks.bunting]
+		#Makes buntings use normal block models with no animation for faster performance. When off this is only active when viewed from a distance
+		fast_buntings = false
+
 #Particle parameters
 [particles]
 
@@ -151,16 +155,13 @@
 	placeable_tooltips = true
 	#Enables custom Configured config screen
 	custom_configured_screen = true
+	#Disable incompatible mods warning screen
+	no_incompatible_mods_screen = false
 
 #Game tweaks
 [tweaks]
-	#Colors the brewing stand potion texture depending on the potions it's brewing.
-	#If using a resource pack add tint index from 0 to 3 to the 3 potion layers
-	brewing_stand_colors = true
 	#Allow to right click with a clock to display current time in numerical form
 	clock_right_click = true
-	#Makes tipped arrows show their colors when loaded with a crossbow
-	crossbows_colors = true
 	#Renders an enchantment glint on placeable enchanted booksNote that turning this on will make book piles use tile renderer instead of baked models making them slower to render
 	placeable_books_glint = false
 	#Allow to right click with a compass to display current coordinates in numerical form
@@ -180,6 +181,8 @@
 	mob_head_shaders = true
 	#Sends your current chat when you die while typing
 	send_chat_on_death = true
+	#Adds an overlay to projectile weapons in gui displaying currently selected ammo
+	projectile_weapon_overlay = true
 
 	[tweaks.colored_maps]
 		#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors
@@ -195,7 +198,7 @@
 		#How big should a slingshot projectile look
 		#Range: 0.0 ~ 1.0
 		projectile_scale = 0.5
-		#Adds an overlay to slingshots in gui displaying currently selected block
+		#Adds an overlay to slingshots in gui displaying currently selected ammo
 		overlay = true
 		#An RGBA color for the block outline in hex format, for example 0x00000066 for vanilla outline colors
 		block_outline_color = "ffffff66"
@@ -240,4 +243,12 @@
 	[items.flute]
 		#Display visual particles when a playing a flute
 		note_particles = true
+
+	[items.lunch_basket]
+		#Adds an overlay to lunch boxes in gui displaying currently selected food
+		overlay = true
+
+	[items.cannonball]
+		#Render cannonballs as 3D models
+		3d_model = true
 
