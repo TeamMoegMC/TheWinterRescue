@@ -67,7 +67,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 424d20c1-a03c-4c2a-a816-e2da5a63a076-1729998636260
-  [executable_action_instance:17c9cd4b-8394-463f-89f5-99a6855f4628-1729998636260][action_type:openlink] = https://afdian.net/@teammoeg
+  [executable_action_instance:17c9cd4b-8394-463f-89f5-99a6855f4628-1729998636260][action_type:openlink] = https://afdian.com/a/teammoeg
   [executable_block:424d20c1-a03c-4c2a-a816-e2da5a63a076-1729998636260][type:generic] = [executables:17c9cd4b-8394-463f-89f5-99a6855f4628-1729998636260;]
   backgroundnormal = [source:local]fancymenu/menu/textures/gui/button_normal.png
   backgroundhovered = [source:local]fancymenu/menu/textures/gui/button_hover.png

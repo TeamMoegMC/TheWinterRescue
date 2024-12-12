@@ -12,7 +12,7 @@
 	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/issues"><img src="https://img.shields.io/github/issues/TeamMoegMC/The-Winter-Rescue?style=flat-square" alt="Issues"></a>
 	<a href="https://discord.gg/BWn6E94"><img src="https://img.shields.io/badge/discord-chat%20with%20players-blue?style=flat-square" alt="Discord"></a>
 	<a href="https://www.patreon.com/TeamMoegProjects"><img src="https://img.shields.io/badge/patreon-support%20the%20devs-orange.svg?style=flat-square" alt="Patreon"></a>
-	<a href="https://afdian.net/@teammoeg"><img src="https://img.shields.io/badge/爱发电-赞助我们-blueviolet.svg?style=flat-square" alt="Patreon"></a><br>
+	<a href="https://afdian.com/a/teammoeg"><img src="https://img.shields.io/badge/爱发电-赞助我们-blueviolet.svg?style=flat-square" alt="Patreon"></a><br>
 </h4>
 
 <h2 align="center">Use your hands and wisdom to ignite the last hope of mankind.</h2>
@@ -71,7 +71,7 @@ Join the [Official Discord Chat](https://discord.gg/BWn6E94) and request the rol
 
 ## Like Our Modpack?
 
-TeamMoeg has developed and will maintain this Modpack for Free, but maintaining the servers cost money. Consider Sponsoring us at [Patreon](https://www.patreon.com/TeamMoeg) or [Aifadian (China)](https://afdian.net/@teammoeg)
+TeamMoeg has developed and will maintain this Modpack for Free, but maintaining the servers cost money. Consider Sponsoring us at [Patreon](https://www.patreon.com/TeamMoeg) or [Aifadian (China)](https://afdian.com/a/teammoeg)
 Support us to let us create more! And find your name on our website and also a special role in our Discord. 
 
 ## Contributors 
