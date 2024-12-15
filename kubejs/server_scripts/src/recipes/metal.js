@@ -50,7 +50,7 @@ ServerEvents.recipes((event) => {
 				let ingotId = itemId.replace("block", "ingot")
 				if (Item.exists(ingotId)) {
 					kubejs.shapeless(Item.of(ingotId, 9), [itemId])
-						.id(`the_winter_rescue:matel/ingots/block/${ index }`)
+						.id(`the_winter_rescue:matel/blocks/ingots/${ index }`)
 				} else {
 					console.warn(`Skipping: No ingot found for block: ${ itemId }`)
 				}
@@ -71,7 +71,7 @@ ServerEvents.recipes((event) => {
 				let blockId = itemId.replace("ingot", "block")
 				if (Item.exists(blockId)) {
 					kubejs.shapeless(blockId, Array(9).fill(itemId))
-						.id(`the_winter_rescue:matel/blocks/ingots/${ index }`)
+						.id(`the_winter_rescue:matel/ingots/blocks/${ index }`)
 				} else {
 					console.warn(`Skipping: No block found for ingot: ${ itemId }`)
 				}
