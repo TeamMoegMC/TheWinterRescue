@@ -58,7 +58,7 @@
 
 [Scenario]
 	#Enables the scenario act hud rendering. 
-	renderScenario = true
+	renderScenario = false
 	#Enables Auto click when scenario requires
 	autoMode = true
 	#Tick before click when a click is required to progress
