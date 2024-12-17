@@ -1,1 +1,17 @@
-{"contents": ["Default Tip."]}
+{
+  "id": "default",
+  "category": "",
+  "nextTip": "",
+  "image": "",
+  "alwaysVisible": false,
+  "onceOnly": false,
+  "hide": false,
+  "pin": false,
+  "temporary": false,
+  "displayTime": 30000,
+  "fontColor": "FFC6FCFF",
+  "backgroundColor": "FF000000",
+  "contents": [
+    "Default Tip"
+  ]
+}
