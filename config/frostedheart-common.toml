@@ -35,4 +35,6 @@
 	"Mod Blacklist" = []
 	#Enables sending wanted food message. 
 	enableDailyKitchen = true
+	#Enables the scenario system. 
+	enableScenario = false
 
