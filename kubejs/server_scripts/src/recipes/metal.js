@@ -1,33 +1,6 @@
 ServerEvents.recipes((event) => {
 	let { create, kubejs } = event.recipes
 
-	create.compacting("2x steampowered:bronze_sheet", "3x frostedheart:bronze_ingot")
-	create.compacting("2x frostedheart:lead_sheet", "3x frostedheart:lead_ingot")
-	create.compacting("2x frostedheart:cast_iron_sheet", "3x frostedheart:cast_iron_ingot")
-	create.compacting("2x frostedheart:invar_sheet", "3x frostedheart:invar_ingot")
-
-	let metals = [
-		"copper",
-		"brass",
-		"iron"
-	]
-	metals.forEach((plate) => {
-		create.compacting(`2x create:${ plate }_sheet`, `3x #forge:ingots/${ plate }`)
-	})
-
-	let metals2 = [
-		"aluminum",
-		"lead",
-		"constantan",
-		"steel",
-		"electrum",
-		"silver",
-		"gold"
-	]
-	metals2.forEach((plate) => {
-		create.compacting(`2x immersiveengineering:plate_${ plate }`, `3x #forge:ingots/${ plate }`)
-	})
-
 	// Define metal tags
 	let tags = {
 		ingots: "#forge:ingots",
@@ -41,41 +14,63 @@ ServerEvents.recipes((event) => {
 
 		if (!itemIds || itemIds.length === 0) {
 			console.error(`No items found for tag: ${ tags[key] }`)
-			return
+			return 0
 		}
 
 		itemIds.forEach((itemId, index) => {
 			if (key === "blocks") {
-				// Metal block -> 9 ingots
+				// Metal block => 9 ingots
 				let ingotId = itemId.replace("block", "ingot")
 				if (Item.exists(ingotId)) {
 					kubejs.shapeless(Item.of(ingotId, 9), [itemId])
-						.id(`the_winter_rescue:matel/blocks/ingots/${ index }`)
 				} else {
 					console.warn(`Skipping: No ingot found for block: ${ itemId }`)
 				}
 			} else if (key === "ingots") {
-				// Metal ingot -> 9 nuggets
+				// Metal ingot => 9 nuggets
 				let nuggetId = itemId.replace("ingot", "nugget")
 				if (Item.exists(nuggetId)) {
 					kubejs.shapeless(Item.of(nuggetId, 9), [itemId])
-						.id(`the_winter_rescue:matel/ingots/nuggets/${ index }`)
-					// 9 nuggets -> Metal ingot
-					kubejs.shapeless(itemId, Array(9).fill(nuggetId))
-						.id(`the_winter_rescue:matel/nuggets/ingots/${ index }`)
+					// 9 nuggets => Metal ingot
+					kubejs.shapeless(Item.of(itemId, 1), Array(9).fill(nuggetId))
 				} else {
 					console.warn(`Skipping: No nugget found for ingot: ${ itemId }`)
 				}
 
-				// 9 ingots -> Metal block
+				// 9 ingots => Metal block
 				let blockId = itemId.replace("ingot", "block")
 				if (Item.exists(blockId)) {
-					kubejs.shapeless(blockId, Array(9).fill(itemId))
-						.id(`the_winter_rescue:matel/ingots/blocks/${ index }`)
+					kubejs.shapeless(Item.of(blockId, 1), Array(9).fill(itemId))
 				} else {
 					console.warn(`Skipping: No block found for ingot: ${ itemId }`)
 				}
 			}
 		})
+	})
+
+	function createCompactingRecipe (sheet, ingot) {
+		create.compacting(sheet, ingot);
+	}
+
+	let metals = [
+		{ mod: "steampowered", metal: "bronze" },
+		{ mod: "frostedheart", metal: "lead" },
+		{ mod: "frostedheart", metal: "cast_iron" },
+		{ mod: "frostedheart", metal: "invar" },
+		{ mod: "create", metal: "copper" },
+		{ mod: "create", metal: "brass" },
+		{ mod: "create", metal: "iron" },
+		{ mod: "immersiveengineering", metal: "aluminum" },
+		{ mod: "immersiveengineering", metal: "lead" },
+		{ mod: "immersiveengineering", metal: "constantan" },
+		{ mod: "immersiveengineering", metal: "steel" },
+		{ mod: "immersiveengineering", metal: "electrum" },
+		{ mod: "immersiveengineering", metal: "silver" },
+		{ mod: "immersiveengineering", metal: "gold" }
+	]
+	metals.forEach((metal) => {
+		let sheet = `2x ${ metal.mod }:${ metal.metal }_sheet`
+		let ingot = `3x #forge:ingots/${ metal.metal }`
+		createCompactingRecipe(sheet, ingot)
 	})
 })
