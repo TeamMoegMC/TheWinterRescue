@@ -1,10 +1,6 @@
 {
   "replace": false,
   "values": [
-    "terralith:blooming_plateau",
-    "terralith:steppe",
-    "terralith:birch_taiga",
-    "terralith:lavender_forest",
-    "terralith:temperate_highlands"
+
   ]
 }
