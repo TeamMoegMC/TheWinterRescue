@@ -1,0 +1,390 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 10,
+        "max_inclusive": 12
+      }
+    },
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0.5,
+    "ground_state": {
+      "type": "minecraft:noise_provider",
+      "noise": {
+        "amplitudes": [
+          1,
+          1,
+          0.75,
+          0.5,
+          1,
+          1
+        ],
+        "firstOctave": -9
+      },
+      "scale": 1,
+      "seed": 1,
+      "states": [
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:blue_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:magenta_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:blue_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:purple_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:cyan_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:cyan_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:blue_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:purple_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:blue_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:magenta_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:blue_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:purple_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:cyan_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:cyan_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:blue_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        },
+        {
+          "Name": "minecraft:purple_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:yellow_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:white_terracotta"
+        },
+        {
+          "Name": "minecraft:light_blue_terracotta"
+        },
+        {
+          "Name": "minecraft:red_terracotta"
+        }
+      ],
+      "variety": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "replaceable": "#minecraft:terracotta",
+    "surface": "floor",
+    "vegetation_chance": 0,
+    "vegetation_feature": "terralith:nothing",
+    "vertical_range": 12,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      }
+    }
+  }
+}

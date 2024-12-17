@@ -1,0 +1,19 @@
+{
+    "values": [
+        "minecraft:grove",
+        "minecraft:old_growth_pine_taiga",
+        "minecraft:old_growth_spruce_taiga",
+        "minecraft:snowy_taiga",
+        "minecraft:taiga",
+        "terralith:alpine_grove",
+        "terralith:birch_taiga",
+        "terralith:cold_shrubland",
+        "terralith:gravel_desert",
+        "terralith:haze_mountain",
+        "terralith:shield",
+        "terralith:shield_clearing",
+        "terralith:siberian_grove",
+        "terralith:siberian_taiga",
+        "terralith:snowy_shield"
+    ]
+}

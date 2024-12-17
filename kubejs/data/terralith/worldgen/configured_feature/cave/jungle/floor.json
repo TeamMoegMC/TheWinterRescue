@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "chance": 0.35,
+                "feature": {
+                    "feature": "terralith:cave/jungle/muddy_roots_ore",
+                    "placement": []
+                }
+            }
+        ],
+        "default": {
+            "feature": "terralith:cave/jungle/moss_patch",
+            "placement": []
+        }
+    }
+}

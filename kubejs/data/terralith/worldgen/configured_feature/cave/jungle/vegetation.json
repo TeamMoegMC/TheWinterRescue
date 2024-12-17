@@ -1,0 +1,73 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "chance": 0.75,
+                "feature": {
+                    "feature": "terralith:cave/jungle/low_foliage",
+                    "placement": [
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:matching_blocks",
+                                "offset": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "blocks": [
+                                    "minecraft:air",
+                                    "minecraft:cave_air"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "chance": 0.35,
+                "feature": {
+                    "feature": "terralith:cave/jungle/trees",
+                    "placement": [
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:matching_blocks",
+                                "offset": [
+                                    0,
+                                    0,
+                                    0
+                                ],
+                                "blocks": [
+                                    "minecraft:air",
+                                    "minecraft:cave_air"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "default": {
+            "feature": "terralith:cave/jungle/high_foliage",
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:air",
+                            "minecraft:cave_air"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

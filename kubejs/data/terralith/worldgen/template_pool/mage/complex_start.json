@@ -1,0 +1,15 @@
+{
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "terralith:mage/complex",
+                "processors": "terralith:mage/ground",
+                "projection": "rigid"
+            },
+            "weight": 1
+        }
+    ],
+    "fallback": "minecraft:empty",
+    "name": "mage_complex"
+}

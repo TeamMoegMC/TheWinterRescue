@@ -1,0 +1,15 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "terralith:regular/igloo",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 1
+      }
+    ],
+    "fallback": "minecraft:empty",
+    "name": "apollo_was_here"
+  }

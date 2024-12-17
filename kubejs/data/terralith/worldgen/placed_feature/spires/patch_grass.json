@@ -1,0 +1,46 @@
+{
+    "feature": {
+        "type": "random_selector",
+        "config": {
+            "default": {
+                "feature": "minecraft:patch_grass",
+                "placement": []
+            },
+            "features": [
+                {
+                    "chance": 0.33,
+                    "feature": {
+                        "feature": {
+                            "type": "simple_block",
+                            "config": {
+                                "to_place": {
+                                    "type": "minecraft:simple_state_provider",
+                                    "state": {
+                                        "Name": "minecraft:fern"
+                                    }
+                                }
+                            }
+                        },
+                        "placement": []
+                    }
+                }
+            ]
+        }
+    },
+    "placement": [
+        {
+            "type": "count",
+            "count": 3
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

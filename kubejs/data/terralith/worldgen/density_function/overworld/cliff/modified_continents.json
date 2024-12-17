@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": 0.0075,
+    "argument2": "minecraft:overworld/continents"
+  }
+}

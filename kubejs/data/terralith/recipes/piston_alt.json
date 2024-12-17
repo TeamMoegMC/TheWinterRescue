@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "TTT",
+        "#X#",
+        "#R#"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:stone_crafting_materials"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "T": {
+            "tag": "minecraft:planks"
+        },
+        "X": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:piston",
+        "id": "minecraft:piston",
+        "count": 1
+    }
+}

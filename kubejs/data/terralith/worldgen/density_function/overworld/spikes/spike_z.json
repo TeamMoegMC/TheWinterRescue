@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:y_clamped_gradient",
+    "from_value": 1.5,
+    "from_y": -64,
+    "to_value": -3,
+    "to_y": 320
+  },
+  "argument2": {
+    "type": "minecraft:flat_cache",
+    "argument": {
+      "type": "minecraft:noise",
+      "noise": "terralith:math/spikes/shift2",
+      "xz_scale": 1.0,
+      "y_scale": 0
+    }
+  }
+}

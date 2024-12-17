@@ -1,0 +1,42 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "terralith:village/fortified/terminators/term1",
+        "processors": "terralith:village/fortified/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "terralith:village/fortified/terminators/term2",
+        "processors": "terralith:village/fortified/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "terralith:village/fortified/terminators/term3",
+        "processors": "terralith:village/fortified/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "terralith:village/fortified/terminators/term4",
+        "processors": "terralith:village/fortified/road",
+        "projection": "terrain_matching"
+      },
+      "weight": 4
+    }
+  ],
+  "fallback": "minecraft:empty",
+  "name": "terralith:village/fortified/roads"
+}

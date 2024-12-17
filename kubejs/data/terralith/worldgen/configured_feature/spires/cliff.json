@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "floor",
+    "depth": 8,
+    "vertical_range": 256,
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0,
+    "vegetation_chance": 0,
+    "xz_radius": 8,
+    "replaceable": "#terralith:stone",
+    "ground_state": {
+      "type": "minecraft:noise_provider",
+      "seed": 0,
+      "noise": {
+        "firstOctave": -6,
+        "amplitudes": [
+          1,
+          1,
+          2,
+          3,
+          0,
+          2.75,
+          5
+        ]
+      },
+      "scale": 1,
+      "states": [
+        {
+          "Name": "minecraft:stone"
+        },
+        {
+          "Name": "minecraft:moss_block"
+        },
+        {
+          "Name": "minecraft:moss_block"
+        },
+        {
+          "Name": "minecraft:dripstone_block"
+        },
+        {
+          "Name": "minecraft:granite"
+        },
+        {
+          "Name": "minecraft:granite"
+        },
+        {
+          "Name": "minecraft:granite"
+        }
+      ]
+    },
+    "vegetation_feature": "terralith:nothing"
+  }
+}

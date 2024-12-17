@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:yellowstone",
+    "terralith:shield",
+    "terralith:lush_valley",
+    "terralith:sakura_valley",
+    "terralith:sakura_grove",
+    "terralith:lavender_forest"
+  ]
+}

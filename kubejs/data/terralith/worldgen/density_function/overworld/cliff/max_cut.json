@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:noise",
+      "noise": "terralith:math/cliff/max_cut",
+      "xz_scale": 1.0,
+      "y_scale": 0.0
+    }
+  }
+}

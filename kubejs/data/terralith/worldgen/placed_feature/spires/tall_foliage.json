@@ -1,0 +1,138 @@
+{
+    "feature": {
+        "type": "minecraft:random_patch",
+        "config": {
+            "tries": 10,
+            "xz_spread": 4,
+            "y_spread": 3,
+            "feature": {
+                "feature": {
+                    "type": "minecraft:random_selector",
+                    "config": {
+                        "default": {
+                            "feature": {
+                                "type": "minecraft:simple_block",
+                                "config": {
+                                    "to_place": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:large_fern"
+                                        }
+                                    }
+                                }
+                            },
+                            "placement": [
+                                {
+                                    "type": "minecraft:count",
+                                    "count": 1
+                                }
+                            ]
+                        },
+                        "features": [
+                            {
+                                "chance": 0.3,
+                                "feature": {
+                                    "feature": {
+                                        "type": "minecraft:simple_block",
+                                        "config": {
+                                            "to_place": {
+                                                "type": "minecraft:simple_state_provider",
+                                                "state": {
+                                                    "Name": "minecraft:rose_bush"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "placement": [
+                                        {
+                                            "type": "minecraft:count",
+                                            "count": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                "placement": [
+                    {
+                        "type": "minecraft:block_predicate_filter",
+                        "predicate": {
+                            "type": "minecraft:all_of",
+                            "predicates": [
+                                {
+                                    "type": "minecraft:not",
+                                    "predicate": {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:stone",
+                                            "minecraft:deepslate",
+                                            "minecraft:granite",
+                                            "minecraft:andesite",
+                                            "minecraft:diorite"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "type": "minecraft:matching_blocks",
+                                    "offset": [
+                                        0,
+                                        0,
+                                        0
+                                    ],
+                                    "blocks": [
+                                        "minecraft:air",
+                                        "minecraft:cave_air"
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:any_of",
+                                    "predicates": [
+                                        {
+                                            "type": "minecraft:would_survive",
+                                            "state": {
+                                                "Name": "minecraft:large_fern"
+                                            }
+                                        },
+                                        {
+                                            "type": "minecraft:matching_blocks",
+                                            "offset": [
+                                                0,
+                                                -1,
+                                                0
+                                            ],
+                                            "blocks": [
+                                                "minecraft:grass_block"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 4
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

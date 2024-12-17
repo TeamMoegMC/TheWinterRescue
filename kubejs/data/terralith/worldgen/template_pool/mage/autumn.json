@@ -1,0 +1,15 @@
+{
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "terralith:mage/autumn_tower",
+                "processors": "terralith:mage/ground",
+                "projection": "rigid"
+            },
+            "weight": 1
+        }
+    ],
+    "fallback": "minecraft:empty",
+    "name": "mage_tower_autumn"
+}

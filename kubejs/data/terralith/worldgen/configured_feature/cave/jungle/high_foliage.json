@@ -1,0 +1,145 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "chance": 0.2,
+                "feature": {
+                    "feature": "terralith:cave/jungle/azalea_bush",
+                    "placement": [
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:mud",
+                                    "minecraft:moss_block",
+                                    "minecraft:muddy_mangrove_roots"
+                                ],
+                                "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "chance": 0.2,
+                "feature": {
+                    "feature": "terralith:cave/jungle/pointed_dripstone",
+                    "placement": [
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:mud",
+                                    "minecraft:moss_block",
+                                    "minecraft:deepslate",
+                                    "minecraft:muddy_mangrove_roots"
+                                ],
+                                "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            }
+                        },
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:air",
+                                    "minecraft:cave_air"
+                                ],
+                                "offset": [
+                                    0,
+                                    0,
+                                    0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "chance": 0.2,
+                "feature": {
+                    "feature": "terralith:cave/jungle/lichen",
+                    "placement": [
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:mud",
+                                    "minecraft:moss_block",
+                                    "minecraft:muddy_mangrove_roots"
+                                ],
+                                "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "chance": 0.2,
+                "feature": {
+                    "feature": {
+                        "type": "minecraft:bamboo",
+                        "config": {
+                            "probability": 0
+                        }
+                    },
+                    "placement": [
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:mud",
+                                    "minecraft:moss_block",
+                                    "minecraft:muddy_mangrove_roots"
+                                ],
+                                "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "default": {
+            "feature": "terralith:cave/jungle/cherry_petals",
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                            "minecraft:mud",
+                            "minecraft:moss_block",
+                            "minecraft:muddy_mangrove_roots"
+                        ],
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

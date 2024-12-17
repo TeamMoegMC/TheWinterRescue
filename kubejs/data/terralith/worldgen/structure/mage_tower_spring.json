@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "terralith:skylands_spring",
+    "max_distance_from_center": 80,
+    "size": 1,
+    "spawn_overrides": {},
+    "terrain_adaptation": "beard_thin",
+    "start_height": {
+        "absolute": 224
+    },
+    "start_pool": "terralith:mage/spring",
+    "step": "fluid_springs",
+    "use_expansion_hack": false
+}

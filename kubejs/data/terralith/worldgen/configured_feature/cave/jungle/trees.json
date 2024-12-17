@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "chance": 0.2,
+                "feature": {
+                    "feature": "terralith:cave/jungle/cherry_tree",
+                    "placement": []
+                }
+            },
+            {
+                "chance": 0.08,
+                "feature": {
+                    "feature": "terralith:cave/fungal/mushroom/brown_medium",
+                    "placement": []
+                }
+            },
+            {
+                "chance": 0.08,
+                "feature": {
+                    "feature": "terralith:cave/fungal/mushroom/red_medium",
+                    "placement": []
+                }
+            }
+        ],
+        "default": {
+            "feature": "terralith:cave/jungle/tree_lollipop",
+            "placement": []
+        }
+    }
+}

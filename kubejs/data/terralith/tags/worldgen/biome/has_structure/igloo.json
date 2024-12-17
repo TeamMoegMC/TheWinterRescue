@@ -1,0 +1,9 @@
+{
+    "description_1": "note_for_any_future_devs",
+    "description_2": "igloo_is_made_for_snowy_cherry_grove_only",
+    "description_3": "it_is_my_legacy_thank_you_from_apollo",
+    "replace": false,
+    "values": [
+        "terralith:snowy_cherry_grove"
+    ]
+}

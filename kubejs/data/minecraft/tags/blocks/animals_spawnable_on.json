@@ -1,0 +1,17 @@
+{
+    "values": [
+        "minecraft:basalt",
+        "minecraft:blackstone",
+        "minecraft:calcite",
+        "minecraft:clay",
+        "minecraft:coarse_dirt",
+        "minecraft:grass_block",
+        "minecraft:netherrack",
+        "minecraft:podzol",
+        "minecraft:packed_mud",
+        "minecraft:smooth_basalt",
+        "minecraft:snow_block",
+        "minecraft:snow",
+        "#minecraft:terracotta"
+    ]
+}

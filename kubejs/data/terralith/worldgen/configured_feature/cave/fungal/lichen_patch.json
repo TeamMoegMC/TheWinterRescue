@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 40,
+    "xz_spread": 3,
+    "y_spread": 3,
+    "feature": {
+      "feature": {
+        "type": "minecraft:multiface_growth",
+        "config": {
+          "block": "minecraft:glow_lichen",
+          "can_be_placed_on": "#terralith:dirt_and_stone",
+          "can_place_on_ceiling": true,
+          "can_place_on_floor": true,
+          "can_place_on_wall": true,
+          "chance_of_spreading": 0.3,
+          "search_range": 6
+        }
+      },
+      "placement": []
+    }
+  }
+}

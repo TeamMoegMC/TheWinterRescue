@@ -1,0 +1,30 @@
+{
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "terralith:mage/road_crosswalk",
+                "processors": "terralith:mage/road",
+                "projection": "terrain_matching"
+            },
+            "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "terralith:mage/road_straight",
+                "processors": "terralith:mage/road",
+                "projection": "terrain_matching"
+            },
+            "weight": 2
+        },
+        {
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            },
+            "weight": 2
+        }
+    ],
+    "fallback": "minecraft:empty",
+    "name": "mage_roads"
+}

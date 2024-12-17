@@ -1,0 +1,37 @@
+{
+  "feature": "terralith:flower/blue/nylium_disk",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 69
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_factor": 145,
+      "noise_offset": 0.2,
+      "noise_to_count_ratio": 1
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:constant",
+        "value": {
+          "absolute": 62
+        }
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_fluids",
+        "fluids": "minecraft:water"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

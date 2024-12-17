@@ -1,0 +1,142 @@
+{
+    "type": "random_selector",
+    "config": {
+        "default": {
+            "feature": {
+                "type": "block_column",
+                "config": {
+                    "direction": "up",
+                    "allowed_placement": {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "minecraft:air"
+                    },
+                    "layers": [
+                        {
+                            "height": {
+                                "type": "constant",
+                                "value": 1
+                            },
+                            "provider": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Name": "minecraft:pointed_dripstone"
+                                }
+                            }
+                        }
+                    ],
+                    "prioritize_tip": true
+                }
+            },
+            "placement": []
+        },
+        "features": [
+            {
+                "chance": 0.3,
+                "feature": {
+                    "feature": {
+                        "type": "block_column",
+                        "config": {
+                            "direction": "up",
+                            "allowed_placement": {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": "minecraft:air"
+                            },
+                            "layers": [
+                                {
+                                    "height": {
+                                        "type": "constant",
+                                        "value": 1
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:pointed_dripstone",
+                                            "Properties": {
+                                                "thickness": "frustum"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "constant",
+                                        "value": 1
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:pointed_dripstone"
+                                        }
+                                    }
+                                }
+                            ],
+                            "prioritize_tip": true
+                        }
+                    },
+                    "placement": []
+                }
+            },
+            {
+                "chance": 0.08,
+                "feature": {
+                    "feature": {
+                        "type": "block_column",
+                        "config": {
+                            "direction": "up",
+                            "allowed_placement": {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": "minecraft:air"
+                            },
+                            "layers": [
+                                {
+                                    "height": {
+                                        "type": "constant",
+                                        "value": 1
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:pointed_dripstone",
+                                            "Properties": {
+                                                "thickness": "middle"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "constant",
+                                        "value": 1
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:pointed_dripstone",
+                                            "Properties": {
+                                                "thickness": "frustum"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "constant",
+                                        "value": 1
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:pointed_dripstone"
+                                        }
+                                    }
+                                }
+                            ],
+                            "prioritize_tip": true
+                        }
+                    },
+                    "placement": []
+                }
+            }
+        ]
+    }
+}

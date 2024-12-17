@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:cache_once",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:noise",
+        "noise": "terralith:math/cheese/megacave",
+        "xz_scale": 1.5,
+        "y_scale": 1.725
+      },
+      "argument2": 0.47
+    }
+  },
+  "max": 1,
+  "min": -1
+}

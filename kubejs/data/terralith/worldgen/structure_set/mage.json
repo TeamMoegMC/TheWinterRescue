@@ -1,0 +1,34 @@
+{
+    "structures": [
+        {
+            "structure": "terralith:mage_tower",
+            "weight": 1
+        },
+        {
+            "structure": "terralith:mage_complex",
+            "weight": 1
+        },
+        {
+            "structure": "terralith:mage_tower_summer",
+            "weight": 1
+        },
+        {
+            "structure": "terralith:mage_tower_autumn",
+            "weight": 1
+        },
+        {
+            "structure": "terralith:mage_tower_winter",
+            "weight": 1
+        },
+        {
+            "structure": "terralith:mage_tower_spring",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 2358902,
+        "spacing": 28,
+        "separation": 16
+    }
+}

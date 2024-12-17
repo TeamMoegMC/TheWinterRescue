@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:noise_threshold_provider",
+      "seed": 23456,
+      "noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1,
+          1
+        ]
+      },
+      "scale": 1,
+      "threshold": 0,
+      "high_chance": 1,
+      "default_state": {
+        "Name": "minecraft:stone"
+      },
+      "low_states": [
+        {
+          "Name": "minecraft:red_mushroom"
+        },
+        {
+          "Name": "minecraft:red_mushroom"
+        },
+        {
+          "Name": "minecraft:brown_mushroom"
+        },
+        {
+          "Name": "minecraft:brown_mushroom"
+        },
+        {
+          "Name": "minecraft:brown_mushroom"
+        }
+      ],
+      "high_states": [
+        {
+          "Name": "minecraft:dead_bush"
+        },
+        {
+          "Name": "minecraft:large_fern",
+          "Properties": {
+            "half": "lower"
+          }
+        },
+        {
+          "Name": "minecraft:large_fern",
+          "Properties": {
+            "half": "lower"
+          }
+        },
+        {
+          "Name": "minecraft:fern"
+        },
+        {
+          "Name": "minecraft:fern"
+        },
+        {
+          "Name": "minecraft:grass"
+        },
+        {
+          "Name": "minecraft:grass"
+        },
+        {
+          "Name": "minecraft:grass"
+        },
+        {
+          "Name": "minecraft:air"
+        },
+        {
+          "Name": "minecraft:air"
+        },
+        {
+          "Name": "minecraft:air"
+        }
+      ]
+    }
+  }
+}

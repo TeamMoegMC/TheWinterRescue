@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:multiface_growth",
+    "config": {
+        "block": "minecraft:glow_lichen",
+        "search_range": 1,
+        "chance_of_spreading": 0,
+        "can_place_on_floor": true,
+        "can_place_on_ceiling": false,
+        "can_place_on_wall": false,
+        "can_be_placed_on": [
+            "minecraft:mud",
+            "minecraft:moss_block",
+            "minecraft:muddy_mangrove_roots",
+            "minecraft:deepslate",
+            "minecraft:stone"
+        ]
+    }
+}

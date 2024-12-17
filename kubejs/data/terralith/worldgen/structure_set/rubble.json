@@ -1,0 +1,34 @@
+{
+    "structures": [
+        {
+            "structure": "terralith:rubble_forest",
+            "weight": 1
+        },
+        {
+            "structure": "terralith:rubble_taiga",
+            "weight": 1
+        },
+        {
+            "structure": "terralith:rubble_jungle",
+            "weight": 1
+        },
+        {
+            "structure": "terralith:rubble_mesa",
+            "weight": 1
+        },
+        {
+            "structure": "terralith:rubble_mountain",
+            "weight": 1
+        },
+        {
+            "structure": "terralith:rubble_desert",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 920145,
+        "spacing": 18,
+        "separation": 12
+    }
+}

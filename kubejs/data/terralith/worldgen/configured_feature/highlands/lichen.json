@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:multiface_growth",
+  "config": {
+    "can_be_placed_on": [
+      "minecraft:stone"
+    ],
+    "can_place_on_ceiling": true,
+    "can_place_on_floor": true,
+    "can_place_on_wall": true,
+    "chance_of_spreading": 0.99,
+    "search_range": 9
+  }
+}

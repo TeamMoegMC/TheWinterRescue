@@ -1,0 +1,218 @@
+{
+    "feature": {
+        "type": "minecraft:waterlogged_vegetation_patch",
+        "config": {
+            "depth": {
+                "type": "minecraft:uniform",
+                "value": {
+                    "min_inclusive": 2,
+                    "max_inclusive": 5
+                }
+            },
+            "extra_bottom_block_chance": 0.25,
+            "extra_edge_column_chance": 0.675,
+            "ground_state": {
+                "type": "minecraft:noise_provider",
+                "noise": {
+                    "amplitudes": [
+                        1,
+                        0.5,
+                        2.25,
+                        1.65,
+                        2.75
+                    ],
+                    "firstOctave": -6
+                },
+                "scale": 1,
+                "seed": 513,
+                "states": [
+                    {
+                        "Name": "minecraft:moss_block"
+                    },
+                    {
+                        "Name": "minecraft:mud"
+                    },
+                    {
+                        "Name": "minecraft:mud"
+                    },
+                    {
+                        "Name": "minecraft:mud"
+                    },
+                    {
+                        "Name": "minecraft:moss_block"
+                    },
+                    {
+                        "Name": "minecraft:mud"
+                    },
+                    {
+                        "Name": "minecraft:mud"
+                    },
+                    {
+                        "Name": "minecraft:mud"
+                    },
+                    {
+                        "Name": "minecraft:mud"
+                    },
+                    {
+                        "Name": "minecraft:moss_block"
+                    },
+                    {
+                        "Name": "minecraft:mud"
+                    }
+                ]
+            },
+            "replaceable": "#minecraft:lush_ground_replaceable",
+            "surface": "floor",
+            "vegetation_chance": 0.225,
+            "vegetation_feature": {
+                "feature": {
+                    "type": "minecraft:random_selector",
+                    "config": {
+                        "default": {
+                            "feature": {
+                                "type": "minecraft:simple_block",
+                                "config": {
+                                    "to_place": {
+                                        "type": "minecraft:weighted_state_provider",
+                                        "entries": [
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:sea_pickle",
+                                                    "Properties": {
+                                                        "pickles": "4",
+                                                        "waterlogged": "true"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            },
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:sea_pickle",
+                                                    "Properties": {
+                                                        "pickles": "3",
+                                                        "waterlogged": "true"
+                                                    }
+                                                },
+                                                "weight": 2
+                                            },
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:sea_pickle",
+                                                    "Properties": {
+                                                        "pickles": "2",
+                                                        "waterlogged": "true"
+                                                    }
+                                                },
+                                                "weight": 4
+                                            },
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:sea_pickle",
+                                                    "Properties": {
+                                                        "pickles": "1",
+                                                        "waterlogged": "true"
+                                                    }
+                                                },
+                                                "weight": 8
+                                            },
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:seagrass"
+                                                },
+                                                "weight": 24
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        "features": [
+                            {
+                                "chance": 0.165,
+                                "feature": {
+                                    "feature": "terralith:cave/jungle/big_dripleaf",
+                                    "placement": [
+                                        {
+                                            "type": "minecraft:block_predicate_filter",
+                                            "predicate": {
+                                                "type": "minecraft:matching_blocks",
+                                                "blocks": [
+                                                    "minecraft:mud",
+                                                    "minecraft:muddy_mangrove_roots",
+                                                    "minecraft:moss_block"
+                                                ],
+                                                "offset": [
+                                                    0,
+                                                    -1,
+                                                    0
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "chance": 0.05,
+                                "feature": {
+                                    "feature": "terralith:swamp/vanilla/water_decor",
+                                    "placement": []
+                                }
+                            }
+                        ]
+                    }
+                },
+                "placement": []
+            },
+            "vertical_range": 4,
+            "xz_radius": {
+                "type": "minecraft:uniform",
+                "value": {
+                    "min_inclusive": 2,
+                    "max_inclusive": 5
+                }
+            }
+        }
+    },
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 65
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "above_bottom": 0
+                },
+                "max_inclusive": {
+                    "absolute": 256
+                }
+            }
+        },
+        {
+            "type": "minecraft:environment_scan",
+            "allowed_search_condition": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+            },
+            "direction_of_search": "down",
+            "max_steps": 12,
+            "target_condition": {
+                "type": "minecraft:solid"
+            }
+        },
+        {
+            "type": "minecraft:random_offset",
+            "xz_spread": 0,
+            "y_spread": 1
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

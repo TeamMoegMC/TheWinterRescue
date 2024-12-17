@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "minecraft:overworld/continents",
+      "points": [
+        {
+          "derivative": 1,
+          "location": -0.91,
+          "value": -1.05
+        },
+        {
+          "derivative": 1,
+          "location": -0.8,
+          "value": -0.8
+        }
+      ]
+    }
+  }
+}

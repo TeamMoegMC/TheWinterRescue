@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "minecraft:pine",
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": "minecraft:spruce"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "terralith:jungle/amethyst/acacia_azalea",
+    "features": [
+      {
+        "chance": 0.2,
+        "feature": "minecraft:jungle_bush"
+      },
+      {
+        "chance": 0.1,
+        "feature": "terralith:jungle/amethyst/big_hawaii"
+      },
+      {
+        "chance": 0.2,
+        "feature": "terralith:jungle/amethyst/tree_2x2_azalea"
+      },
+      {
+        "chance": 0.2,
+        "feature": "terralith:jungle/amethyst/tree_2x2_azalea_flowering"
+      },
+      {
+        "chance": 0.2,
+        "feature": "terralith:jungle/amethyst/tree_2x2"
+      },
+      {
+        "chance": 0.1333333,
+        "feature": "terralith:jungle/amethyst/bending_acacia"
+      },
+      {
+        "chance": 0.1,
+        "feature": "terralith:jungle/amethyst/small_azalea"
+      }
+    ]
+  }
+}

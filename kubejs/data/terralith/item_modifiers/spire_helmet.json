@@ -1,0 +1,43 @@
+[
+    {
+        "function": "minecraft:set_enchantments",
+        "enchantments": {
+            "minecraft:protection": 3,
+            "minecraft:unbreaking": 2,
+            "minecraft:binding_curse": 1
+        }
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.armor",
+                "name": "",
+                "amount": 3,
+                "operation": "addition",
+                "slot": "head"
+            },
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "name": "",
+                "amount": 3,
+                "operation": "addition",
+                "slot": "head"
+            },
+            {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "name": "",
+                "amount": 0.1,
+                "operation": "addition",
+                "slot": "head"
+            },
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "name": "",
+                "amount": -0.08,
+                "operation": "multiply_total",
+                "slot": "head"
+            }
+        ]
+    }
+]

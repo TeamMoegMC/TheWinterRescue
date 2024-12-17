@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "terralith:skylands_summer",
+    "max_distance_from_center": 80,
+    "size": 1,
+    "spawn_overrides": {},
+    "terrain_adaptation": "beard_thin",
+    "start_height": {
+        "absolute": 194
+    },
+    "start_pool": "terralith:mage/summer",
+    "step": "fluid_springs",
+    "use_expansion_hack": false
+}

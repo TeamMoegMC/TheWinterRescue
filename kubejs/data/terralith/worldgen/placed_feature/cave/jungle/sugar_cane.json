@@ -1,0 +1,139 @@
+{
+    "feature": "terralith:sakura/sugarcane",
+    "placement": [
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                            "minecraft:air",
+                            "minecraft:cave_air",
+                            "minecraft:void_air"
+                        ],
+                        "offset": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                            "minecraft:mud",
+                            "minecraft:moss_block"
+                        ],
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "minecraft:any_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:water"
+                                ],
+                                "offset": [
+                                    1,
+                                    -1,
+                                    0
+                                ]
+                            },
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:water"
+                                ],
+                                "offset": [
+                                    1,
+                                    -1,
+                                    1
+                                ]
+                            },
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:water"
+                                ],
+                                "offset": [
+                                    0,
+                                    -1,
+                                    1
+                                ]
+                            },
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:water"
+                                ],
+                                "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:any_of",
+                            "predicates": [
+                                {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": [
+                                        "minecraft:water"
+                                    ],
+                                    "offset": [
+                                        1,
+                                        0,
+                                        0
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": [
+                                        "minecraft:water"
+                                    ],
+                                    "offset": [
+                                        1,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": [
+                                        "minecraft:water"
+                                    ],
+                                    "offset": [
+                                        0,
+                                        0,
+                                        1
+                                    ]
+                                },
+                                {
+                                    "type": "minecraft:matching_blocks",
+                                    "blocks": [
+                                        "minecraft:water"
+                                    ],
+                                    "offset": [
+                                        0,
+                                        0,
+                                        0
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

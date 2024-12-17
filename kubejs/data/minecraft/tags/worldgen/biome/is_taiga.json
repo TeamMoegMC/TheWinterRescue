@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:birch_taiga",
+    "terralith:lush_valley",
+    "terralith:shield",
+    "terralith:yellowstone",
+    "terralith:forested_highlands",
+    "terralith:wintry_forest",
+    "terralith:yosemite_lowlands"
+  ]
+}

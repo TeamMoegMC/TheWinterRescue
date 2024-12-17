@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "terralith:birch/cloud_tree_tall",
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "minecraft:super_birch_bees_0002"
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:stone",
+        "calcite",
+        "diorite",
+        "minecraft:air"
+      ]
+    },
+    "direction": "up",
+    "layers": [
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "true"
+            }
+          }
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:noise_provider",
+          "noise": {
+            "amplitudes": [
+              1.4,
+              1,
+              1.25
+            ],
+            "firstOctave": -4
+          },
+          "scale": 1,
+          "seed": 56,
+          "states": [
+            {
+              "Name": "minecraft:snow",
+              "Properties": {
+                "layers": "1"
+              }
+            },
+            {
+              "Name": "minecraft:snow",
+              "Properties": {
+                "layers": "1"
+              }
+            },
+            {
+              "Name": "minecraft:snow",
+              "Properties": {
+                "layers": "1"
+              }
+            },
+            {
+              "Name": "minecraft:snow",
+              "Properties": {
+                "layers": "1"
+              }
+            },
+            {
+              "Name": "minecraft:snow",
+              "Properties": {
+                "layers": "1"
+              }
+            },
+            {
+              "Name": "minecraft:snow",
+              "Properties": {
+                "layers": "1"
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "prioritize_tip": false
+  }
+}

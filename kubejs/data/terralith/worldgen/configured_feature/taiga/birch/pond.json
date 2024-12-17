@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:waterlogged_vegetation_patch",
+  "config": {
+    "depth": 2,
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0.5,
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:cobblestone"
+      }
+    },
+    "replaceable": "#terralith:soil",
+    "surface": "floor",
+    "vegetation_chance": 1,
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:ore",
+        "config": {
+          "discard_chance_on_air_exposure": 0,
+          "size": 27,
+          "targets": [
+            {
+              "state": {
+                "Name": "minecraft:cobblestone"
+              },
+              "target": {
+                "block": "minecraft:grass_block",
+                "predicate_type": "minecraft:random_block_match",
+                "probability": 0.65
+              }
+            },
+            {
+              "state": {
+                "Name": "minecraft:cobblestone"
+              },
+              "target": {
+                "block": "minecraft:coarse_dirt",
+                "predicate_type": "minecraft:random_block_match",
+                "probability": 0.65
+              }
+            },
+            {
+              "state": {
+                "Name": "minecraft:cobblestone"
+              },
+              "target": {
+                "block": "minecraft:podzol",
+                "predicate_type": "minecraft:random_block_match",
+                "probability": 0.65
+              }
+            }
+          ]
+        }
+      },
+      "placement": []
+    },
+    "vertical_range": 1,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    }
+  }
+}

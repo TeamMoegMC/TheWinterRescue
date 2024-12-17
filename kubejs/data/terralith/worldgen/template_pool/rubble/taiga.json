@@ -1,0 +1,33 @@
+{
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "terralith:rubble/small/taiga",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 5
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "terralith:rubble/medium/taiga",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 4
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "terralith:rubble/large/taiga",
+                "processors": "minecraft:empty",
+                "projection": "rigid"
+            },
+            "weight": 3
+        }
+    ],
+    "fallback": "minecraft:empty",
+    "name": "rubble_taiga"
+}

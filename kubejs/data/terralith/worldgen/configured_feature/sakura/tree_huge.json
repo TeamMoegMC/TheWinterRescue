@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "default": {
+            "feature": "terralith:sakura/tree_huge_dark_oak",
+            "placement": []
+        },
+        "features": [
+            {
+                "chance": 0.5,
+                "feature": {
+                    "feature": "terralith:sakura/tree_huge_cherry",
+                    "placement": []
+                }
+            }
+        ]
+    }
+}

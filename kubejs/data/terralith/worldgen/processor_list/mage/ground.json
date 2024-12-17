@@ -1,0 +1,23 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:calcite"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:grass_block",
+                        "probability": 1
+                    },
+                    "output_state": {
+                        "Name": "minecraft:calcite"
+                    }
+                }
+            ]
+        }
+    ]
+}

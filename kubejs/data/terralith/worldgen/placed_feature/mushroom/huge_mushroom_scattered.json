@@ -1,0 +1,118 @@
+{
+  "feature": {
+    "type": "minecraft:random_selector",
+    "config": {
+      "default": "terralith:nothing",
+      "features": [
+        {
+          "chance": 0.05,
+          "feature": "terralith:mushroom/vanilla_huge_red_mushroom"
+        },
+        {
+          "chance": 0.05,
+          "feature": "terralith:mushroom/vanilla_huge_brown_mushroom"
+        },
+        {
+          "chance": 0.075,
+          "feature": "terralith:mushroom/red_mushroom"
+        },
+        {
+          "chance": 0.075,
+          "feature": "terralith:mushroom/brown_mushroom"
+        },
+        {
+          "chance": 0.075,
+          "feature": "terralith:mushroom/red_mushroom_2"
+        },
+        {
+          "chance": 0.075,
+          "feature": "terralith:mushroom/brown_mushroom_2"
+        },
+        {
+          "chance": 0.05,
+          "feature": "terralith:dark/brown_mushroom"
+        },
+        {
+          "chance": 0.05,
+          "feature": "terralith:dark/red_mushroom"
+        },
+        {
+          "chance": 0.025,
+          "feature": "terralith:dark/brown_mushroom_2"
+        },
+        {
+          "chance": 0.025,
+          "feature": "terralith:dark/red_mushroom_2"
+        }
+      ]
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 8,
+          "max_inclusive": 13
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE"
+    },
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_factor": 1,
+      "noise_offset": 1,
+      "noise_to_count_ratio": 1
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:replaceable"
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:coarse_dirt",
+              "minecraft:gravel",
+              "minecraft:rooted_dirt",
+              "podzol",
+              "mycelium"
+            ],
+            "offset": [
+              0,
+              -1,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:mushroom_stem"
+              ],
+              "offset": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

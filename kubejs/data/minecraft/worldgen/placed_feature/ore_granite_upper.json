@@ -1,0 +1,13 @@
+{
+  "feature": "minecraft:ore_granite",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
+    }
+  ]
+}

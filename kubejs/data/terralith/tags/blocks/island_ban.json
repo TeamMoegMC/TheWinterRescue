@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#terralith:island_ban_winter",
+    "minecraft:grass_block"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+    "type": "minecraft:simple_block",
+    "config": {
+        "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+                {
+                    "weight": 8,
+                    "data": {
+                        "Name": "minecraft:fern"
+                    }
+                },
+                {
+                    "weight": 8,
+                    "data": {
+                        "Name": "minecraft:grass"
+                    }
+                },
+                {
+                    "weight": 12,
+                    "data": {
+                        "Name": "minecraft:red_mushroom"
+                    }
+                },
+                {
+                    "weight": 12,
+                    "data": {
+                        "Name": "minecraft:brown_mushroom"
+                    }
+                },
+                {
+                    "weight": 2,
+                    "data": {
+                        "Name": "minecraft:large_fern",
+                        "Properties": {
+                            "half": "lower"
+                        }
+                    }
+                },
+                {
+                    "weight": 2,
+                    "data": {
+                        "Name": "minecraft:tall_grass",
+                        "Properties": {
+                            "half": "lower"
+                        }
+                    }
+                },
+                {
+                    "weight": 12,
+                    "data": {
+                        "Name": "minecraft:moss_carpet"
+                    }
+                },
+                {
+                    "weight": 4,
+                    "data": {
+                        "Name": "minecraft:azalea"
+                    }
+                },
+                {
+                    "weight": 4,
+                    "data": {
+                        "Name": "minecraft:flowering_azalea"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Name": "minecraft:peony"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Name": "minecraft:rose_bush"
+                    }
+                },
+                {
+                    "weight": 1,
+                    "data": {
+                        "Name": "minecraft:pitcher_plant"
+                    }
+                },
+                {
+                    "weight": 2,
+                    "data": {
+                        "Name": "minecraft:torchflower"
+                    }
+                }
+            ]
+        }
+    }
+}
