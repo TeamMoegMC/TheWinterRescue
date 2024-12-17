@@ -658,7 +658,7 @@ ServerEvents.recipes((event) => {
         ).id(`the_winter_rescue:minecraft/crafting_shaped/change/${ index }`)
     })
 
-    let newShapedRecipes = [
+    let addShapedRecipes = [
         [
             "frostedheart:snowshoes",
             [
@@ -2110,7 +2110,7 @@ ServerEvents.recipes((event) => {
             }
         ]
     ]
-    newShapedRecipes.forEach((recipe, index) => {
+    addShapedRecipes.forEach((recipe, index) => {
         let [
             output,
             quantity,

@@ -1,3 +1,0 @@
-ServerEvents.tags('block', (event) => {
-
-})

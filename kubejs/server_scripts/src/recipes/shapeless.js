@@ -39,7 +39,7 @@ ServerEvents.recipes((event) => {
             .id(`the_winter_rescue:minecraft/crafting_shapeless/change/${ index }`)
     })
 
-    let newShapelessRecipes = [
+    let addShapelessRecipes = [
         ["frostedheart:raw_rye_bread", 2, [["frostedheart:rye_flour", 2], "minecraft:water_bucket"]],
         ["immersiveengineering:crate", ["immersiveengineering:reinforced_crate"]],
         ["frostedheart:black_bread", 2, [["frostedheart:rye_flour", 2], "#forge:dusts/wood"]],
@@ -61,7 +61,7 @@ ServerEvents.recipes((event) => {
         ["frostedheart:packed_snow", [["minecraft:snowball", 2], ["minecraft:snow_block", 2]]],
         ["stone_age:leather_strip", 4, ["minecraft:leather"]]
     ]
-    newShapelessRecipes.forEach((recipe, index) => {
+    addShapelessRecipes.forEach((recipe, index) => {
         let [
             output,
             quantity,
@@ -106,8 +106,8 @@ ServerEvents.recipes((event) => {
         .forEach((name, index) => {
             let i = Ingredient.of(name.replace("_vertical", ""))
             if (!i.isEmpty()) {
-                newShapelessRecipes.push([name, [i]]);
-                newShapelessRecipes.push([i, [name]]);
+                addShapelessRecipes.push([name, [i]]);
+                addShapelessRecipes.push([i, [name]]);
             } else {
                 minecraft.stonecutting(2, name.replace("_vertical_slab", ""))
                     .id(`the_winter_rescue:minecraft/stonecutting/vertical_slab/${ index }`)
@@ -122,7 +122,7 @@ ServerEvents.recipes((event) => {
                     cr.push(elm)
                 })
             }
-            newShapelessRecipes.push([`kubejs:limed_coal`, (i * count), cr])
+            addShapelessRecipes.push([`kubejs:limed_coal`, (i * count), cr])
         }
     }
 
