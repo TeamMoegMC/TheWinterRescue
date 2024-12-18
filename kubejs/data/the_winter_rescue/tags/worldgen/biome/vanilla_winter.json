@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean",
+
+    "minecraft:dripstone_caves",
+    "minecraft:lush_caves",
+
+    "minecraft:jagged_peaks",
+    "minecraft:frozen_peaks",
+    "minecraft:grove",
+    "minecraft:snowy_slopes",
+
+    "minecraft:frozen_river",
+    "minecraft:snowy_beach",
+
+    "minecraft:snowy_taiga",
+
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes"
+  ]
+}

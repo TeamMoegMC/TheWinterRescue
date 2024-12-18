@@ -104,18 +104,6 @@
                 "maxCount": 4,
                 "minCount": 4,
                 "weight": 100
-            },
-            {
-                "type": "minecraft:slime",
-                "maxCount": 4,
-                "minCount": 4,
-                "weight": 100
-            },
-            {
-                "type": "minecraft:witch",
-                "maxCount": 2,
-                "minCount": 1,
-                "weight": 50
             }
         ],
         "underground_water_creature": [
