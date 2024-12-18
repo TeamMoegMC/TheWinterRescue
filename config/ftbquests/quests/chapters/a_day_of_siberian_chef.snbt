@@ -100,7 +100,7 @@
 				"{quest.twr.7AA152F9B5AF6677.description.1}"
 				"{quest.twr.7AA152F9B5AF6677.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7AA152F9B5AF6677"
 			rewards: [{
 				id: "5F864E78576B3F95"
@@ -178,7 +178,7 @@
 				"516392D8FE0C7E91"
 			]
 			description: ["{quest.twr.20F1DD1209093059.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "20F1DD1209093059"
 			subtitle: "{quest.twr.20F1DD1209093059.subtitle}"
 			tasks: [{
@@ -206,7 +206,7 @@
 			y: -0.5d
 		}
 		{
-			hide: false
+			hide_until_deps_visible: false
 			id: "5CCD8F05D7402D4B"
 			rewards: [{
 				id: "38C05C8DDC01E185"
@@ -225,7 +225,7 @@
 		{
 			dependencies: ["29BC87594650152D"]
 			description: ["{quest.twr.32DB7CCD0A73D98F.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "32DB7CCD0A73D98F"
 			subtitle: "{quest.twr.32DB7CCD0A73D98F.subtitle}"
 			tasks: [{
@@ -244,7 +244,7 @@
 				"{quest.twr.0CA87739C86BB0C6.description.2}"
 				"{quest.twr.0CA87739C86BB0C6.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "0CA87739C86BB0C6"
 			subtitle: "{quest.twr.0CA87739C86BB0C6.subtitle}"
 			tasks: [{
@@ -272,7 +272,7 @@
 				"{quest.twr.73ADDB2F9A4F7C5D.description.1}"
 				"{quest.twr.73ADDB2F9A4F7C5D.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "73ADDB2F9A4F7C5D"
 			rewards: [
 				{
@@ -305,7 +305,7 @@
 		{
 			dependencies: ["7AA152F9B5AF6677"]
 			description: ["{quest.twr.50428AA91D1E1EFF.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "50428AA91D1E1EFF"
 			subtitle: "{quest.twr.50428AA91D1E1EFF.subtitle}"
 			tasks: [{
@@ -323,7 +323,7 @@
 				"7AA152F9B5AF6677"
 			]
 			description: ["{quest.twr.0B7A7EF07D539FC5.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "0B7A7EF07D539FC5"
 			subtitle: "{quest.twr.0B7A7EF07D539FC5.subtitle}"
 			tasks: [{
@@ -339,7 +339,7 @@
 				"{quest.twr.64B11670694B854C.description.1}"
 				"{quest.twr.64B11670694B854C.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "64B11670694B854C"
 			subtitle: "{quest.twr.64B11670694B854C.subtitle}"
 			tasks: [{
@@ -352,7 +352,7 @@
 		}
 		{
 			description: ["{quest.twr.529E18F00974DC2D.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "529E18F00974DC2D"
 			subtitle: "{quest.twr.529E18F00974DC2D.subtitle}"
 			tasks: [{
@@ -370,7 +370,7 @@
 				"{quest.twr.516392D8FE0C7E91.description.2}"
 				"{quest.twr.516392D8FE0C7E91.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "516392D8FE0C7E91"
 			rewards: [{
 				id: "140A8AD8BA45D7E3"

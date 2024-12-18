@@ -11,7 +11,7 @@
 		{
 			dependencies: ["3549A50510878505"]
 			description: ["{quest.twr.060F482D9D3374F9.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "060F482D9D3374F9"
 			shape: "gear"
 			tasks: [
@@ -148,7 +148,7 @@
 		{
 			dependencies: ["17F033FB5ACAACFB"]
 			description: ["{quest.twr.0FEC22A5C56936DC.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "steampowered:cast_iron_steam_engine"
 			id: "0FEC22A5C56936DC"
 			optional: true
@@ -174,7 +174,7 @@
 				"{quest.twr.1F2BD4A72596B287.description.1}"
 				"{quest.twr.1F2BD4A72596B287.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1F2BD4A72596B287"
 			shape: "gear"
 			subtitle: "{quest.twr.1F2BD4A72596B287.subtitle}"
@@ -205,7 +205,7 @@
 				"{quest.twr.29DCBBB54EE90E51.description.2}"
 				"{quest.twr.29DCBBB54EE90E51.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "29DCBBB54EE90E51"
 			rewards: [{
 				count: 3
@@ -225,7 +225,7 @@
 		{
 			dependencies: ["17F033FB5ACAACFB"]
 			description: ["{quest.twr.7EDDAD2D1E2B0613.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7EDDAD2D1E2B0613"
 			optional: true
 			subtitle: "{quest.twr.7EDDAD2D1E2B0613.subtitle}"
@@ -240,7 +240,7 @@
 		{
 			dependencies: ["4CC5E16EFDE1368C"]
 			description: ["{quest.twr.4600CF7553C26ED0.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4600CF7553C26ED0"
 			shape: "gear"
 			subtitle: "{quest.twr.4600CF7553C26ED0.subtitle}"
@@ -256,7 +256,7 @@
 		{
 			dependencies: ["17F033FB5ACAACFB"]
 			description: ["{quest.twr.064ECF25B9B8962B.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "064ECF25B9B8962B"
 			rewards: [{
 				count: 8
@@ -292,7 +292,7 @@
 		{
 			dependencies: ["3E8F565DE61309B2"]
 			description: ["{quest.twr.3549A50510878505.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "3549A50510878505"
 			shape: "gear"
 			subtitle: "{quest.twr.3549A50510878505.subtitle}"
@@ -317,7 +317,7 @@
 				"{quest.twr.4548F432A872DA92.description.1}"
 				"{quest.twr.4548F432A872DA92.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4548F432A872DA92"
 			rewards: [{
 				count: 8
@@ -338,8 +338,8 @@
 		{
 			dependencies: ["4CC5E16EFDE1368C"]
 			description: ["{quest.twr.15B365E3F3EAFE79.description.1}"]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			id: "15B365E3F3EAFE79"
 			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
 			tasks: [{
@@ -383,7 +383,7 @@
 				"{quest.twr.7612A96FFEFC5635.description.2}"
 				"{quest.twr.7612A96FFEFC5635.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "steampowered:bronze_boiler"
 			id: "7612A96FFEFC5635"
 			shape: "gear"
@@ -410,7 +410,7 @@
 				"{quest.twr.17C359DCF058E698.description.1}"
 				"{quest.twr.17C359DCF058E698.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "17C359DCF058E698"
 			shape: "gear"
 			subtitle: "{quest.twr.17C359DCF058E698.subtitle}"
@@ -430,7 +430,7 @@
 				"{quest.twr.197308226CAE52C4.description.3}"
 				"{quest.twr.197308226CAE52C4.description.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "197308226CAE52C4"
 			shape: "gear"
 			subtitle: "{quest.twr.197308226CAE52C4.subtitle}"
@@ -461,7 +461,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["{quest.twr.17F033FB5ACAACFB.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "17F033FB5ACAACFB"
 			rewards: [{
 				count: 4
@@ -564,7 +564,7 @@
 				"{quest.twr.19038BB5A9E42055.description.5}"
 				"{quest.twr.19038BB5A9E42055.description.6}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "immersiveindustry:crucible"
 			id: "19038BB5A9E42055"
 			rewards: [{
@@ -611,7 +611,7 @@
 		{
 			dependencies: ["55BE6F159CF89342"]
 			description: ["{quest.twr.4B46838E7C65D4C4.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4B46838E7C65D4C4"
 			optional: true
 			tasks: [{
@@ -625,7 +625,7 @@
 		{
 			dependencies: ["4845A9B7B7B2B4A5"]
 			description: ["{quest.twr.688C57B7BC46E723.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "688C57B7BC46E723"
 			optional: true
 			subtitle: "{quest.twr.688C57B7BC46E723.subtitle}"
@@ -640,7 +640,7 @@
 		{
 			dependencies: ["17F033FB5ACAACFB"]
 			description: ["{quest.twr.4845A9B7B7B2B4A5.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4845A9B7B7B2B4A5"
 			shape: "gear"
 			subtitle: "{quest.twr.4845A9B7B7B2B4A5.subtitle}"
@@ -681,7 +681,7 @@
 		{
 			dependencies: ["103E4FC987E00FC7"]
 			description: ["{quest.twr.5C078D2F43CA4048.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "5C078D2F43CA4048"
 			optional: true
 			subtitle: "{quest.twr.5C078D2F43CA4048.subtitle}"
@@ -699,7 +699,7 @@
 				"{quest.twr.41D8E04627E55A86.description.1}"
 				"{quest.twr.41D8E04627E55A86.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "41D8E04627E55A86"
 			rewards: [{
 				count: 8
@@ -753,7 +753,7 @@
 				"{quest.twr.103E4FC987E00FC7.description.1}"
 				"{quest.twr.103E4FC987E00FC7.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "103E4FC987E00FC7"
 			tasks: [{
 				id: "634013FA9B2698E8"
@@ -779,7 +779,7 @@
 		{
 			dependencies: ["32A497C69C641D2B"]
 			description: ["{quest.twr.39C5B2690D8A6DEC.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "39C5B2690D8A6DEC"
 			optional: true
 			subtitle: "{quest.twr.39C5B2690D8A6DEC.subtitle}"
@@ -828,7 +828,7 @@
 		{
 			dependencies: ["4CC5E16EFDE1368C"]
 			description: ["{quest.twr.2EBC4AB3DDFC6BA0.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "2EBC4AB3DDFC6BA0"
 			optional: true
 			subtitle: "{quest.twr.2EBC4AB3DDFC6BA0.subtitle}"
@@ -846,7 +846,7 @@
 				"{quest.twr.2659A48FDF01B1B7.description.1}"
 				"{quest.twr.2659A48FDF01B1B7.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "2659A48FDF01B1B7"
 			optional: true
 			subtitle: "{quest.twr.2659A48FDF01B1B7.subtitle}"
@@ -862,7 +862,7 @@
 			dependencies: ["32A497C69C641D2B"]
 			dependency_requirement: "one_completed"
 			description: ["{quest.twr.739B9AF9D9C2EC05.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "739B9AF9D9C2EC05"
 			optional: true
 			subtitle: "{quest.twr.739B9AF9D9C2EC05.subtitle}"
@@ -883,7 +883,7 @@
 		{
 			dependencies: ["17F033FB5ACAACFB"]
 			description: ["{quest.twr.2F9F42B32CEDA8B6.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "2F9F42B32CEDA8B6"
 			optional: true
 			tasks: [{
@@ -916,8 +916,8 @@
 		{
 			dependencies: ["4CC5E16EFDE1368C"]
 			description: ["{quest.twr.7D2BB5CE05B6723F.description.1}"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: "immersiveengineering:electron_tube"
 			id: "7D2BB5CE05B6723F"
 			shape: "hexagon"

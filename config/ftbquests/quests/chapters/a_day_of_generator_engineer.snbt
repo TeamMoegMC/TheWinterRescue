@@ -16,7 +16,7 @@
 				"{quest.twr.69D939596ED4C0AF.description.3}"
 				"{quest.twr.69D939596ED4C0AF.description.4}"
 			]
-			icon: "frostedheart:generator_t1"
+			icon: "frostedheart:generator_core_t1"
 			id: "69D939596ED4C0AF"
 			rewards: [
 				{
@@ -67,7 +67,7 @@
 				"{quest.twr.2D570AD59FE2D6E1.description.2}"
 				"{quest.twr.2D570AD59FE2D6E1.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "frostedheart:generator_t2"
 			id: "2D570AD59FE2D6E1"
 			rewards: [{
@@ -208,7 +208,7 @@
 				"{quest.twr.00FD2A2F4601287B.description.1}"
 				"{quest.twr.00FD2A2F4601287B.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "minecraft:coal"
 			id: "00FD2A2F4601287B"
 			size: 1.5d
@@ -224,7 +224,7 @@
 		{
 			dependencies: ["69D939596ED4C0AF"]
 			description: ["{quest.twr.2E96E546DCA1486C.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "minecraft:charcoal"
 			id: "2E96E546DCA1486C"
 			size: 1.5d
@@ -279,7 +279,7 @@
 				"{quest.twr.573841FD8018D4B1.description.2}"
 				"{quest.twr.573841FD8018D4B1.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "frostedheart:generator_core_t1"
 			id: "573841FD8018D4B1"
 			shape: "gear"

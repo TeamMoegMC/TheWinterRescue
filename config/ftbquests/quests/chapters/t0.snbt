@@ -21,8 +21,8 @@
 				"{quest.twr.6667AA13CA3DAC9B.description.9}"
 				"{quest.twr.6667AA13CA3DAC9B.description.10}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: "ftbquests:book"
 			id: "6667AA13CA3DAC9B"
 			shape: "gear"
@@ -45,8 +45,8 @@
 				"{quest.twr.1F615C38B1A015E5.description.6}"
 				"{quest.twr.1F615C38B1A015E5.description.7}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: "minecraft:book"
 			id: "1F615C38B1A015E5"
 			shape: "hexagon"
@@ -69,8 +69,8 @@
 				"{quest.twr.58EF2132D0431323.description.4}"
 				"{quest.twr.58EF2132D0431323.description.5}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: "immersiveengineering:electron_tube"
 			id: "58EF2132D0431323"
 			shape: "hexagon"
@@ -92,7 +92,7 @@
 				"{quest.twr.33B6E7B60783C72B.description.4}"
 				"{quest.twr.33B6E7B60783C72B.description.5}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "minecraft:potion"
@@ -128,7 +128,7 @@
 				"{quest.twr.215BC2E7271F1478.description.6}"
 				"{quest.twr.215BC2E7271F1478.description.7}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "kubejs:fruits_and_vegs"
 			id: "215BC2E7271F1478"
 			shape: "hexagon"
@@ -152,7 +152,7 @@
 				"{quest.twr.24E7D1E02BE55A8E.description.7}"
 				"{quest.twr.24E7D1E02BE55A8E.description.8}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "crockpot:turkey_dinner"
 			id: "24E7D1E02BE55A8E"
 			rewards: [{
@@ -202,8 +202,8 @@
 				"{quest.twr.3102993072F3C8B9.description.4}"
 				"{quest.twr.3102993072F3C8B9.description.5}"
 			]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			icon: "stone_age:flint_workbench"
 			id: "3102993072F3C8B9"
 			rewards: [{
@@ -236,7 +236,7 @@
 				"{quest.twr.348EB1588EFAD2AB.description.3}"
 				"{quest.twr.348EB1588EFAD2AB.description.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "348EB1588EFAD2AB"
 			shape: "gear"
 			subtitle: "{quest.twr.348EB1588EFAD2AB.subtitle}"
@@ -308,7 +308,7 @@
 		{
 			dependencies: ["14D7D98FC5264B03"]
 			description: ["These vines are too wet. I need to dry them up."]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1D7F2824DAF3BB7B"
 			shape: "gear"
 			subtitle: "{quest.twr.1D7F2824DAF3BB7B.subtitle}"
@@ -341,7 +341,7 @@
 		{
 			dependencies: ["29BC87594650152D"]
 			description: ["{quest.twr.70E6A4B9946F263A.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "70E6A4B9946F263A"
 			optional: true
 			subtitle: "{quest.twr.70E6A4B9946F263A.subtitle}"
@@ -366,8 +366,8 @@
 				"Either I get a piece of flint and some active metal, or I get two pieces of sticks."
 				"For either method, a piece of tinder is must."
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "3B7B7A0BC0CF3CE0"
 			shape: "gear"
 			subtitle: "{quest.twr.3B7B7A0BC0CF3CE0.subtitle}"
@@ -416,7 +416,7 @@
 		{
 			dependencies: ["4B6FFA5A9140019F"]
 			description: ["{quest.twr.5D803F0865A90DE0.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "5D803F0865A90DE0"
 			rewards: [{
 				id: "14FB637B7233851C"
@@ -441,7 +441,7 @@
 		{
 			dependencies: ["4B6FFA5A9140019F"]
 			description: ["I gotta hurry! Firewoods are so important!"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "frostedheart:makeshift_axe"
@@ -543,7 +543,7 @@
 				"{quest.twr.643B93BCE91A0BB9.description.1}"
 				"{quest.twr.7E68FC6215F4FADC.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7E68FC6215F4FADC"
 			optional: true
 			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
@@ -562,7 +562,7 @@
 				"{quest.twr.04DC32D417FA819E.description.1}"
 				"{quest.twr.04DC32D417FA819E.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "04DC32D417FA819E"
 			optional: true
 			subtitle: "{quest.twr.04DC32D417FA819E.subtitle}"
@@ -577,7 +577,7 @@
 		{
 			dependencies: ["4B6FFA5A9140019F"]
 			description: ["Now I got firewoods, but I need a sturdy surface to chop them. Gotta mine some stones first."]
-			hide: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "frostedheart:makeshift_pickaxe"
@@ -644,8 +644,8 @@
 				"{quest.twr.25E712ACCAB68E99.description.2}"
 				"{quest.twr.25E712ACCAB68E99.description.4}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -728,7 +728,7 @@
 				"{quest.twr.28F313C8E1312A2B.description.9}"
 				"{quest.twr.28F313C8E1312A2B.description.10}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "create:copper_diving_helmet"
@@ -763,7 +763,7 @@
 				"{quest.twr.601652521AB22ED5.description.3}"
 				"{quest.twr.601652521AB22ED5.description.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "601652521AB22ED5"
 			optional: true
 			rewards: [{
@@ -789,8 +789,8 @@
 				"{quest.twr.7EFFAF6A69D2EE66.description.1}"
 				"{quest.twr.7EFFAF6A69D2EE66.description.2}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: "minecraft:oak_sapling"
 			id: "7EFFAF6A69D2EE66"
 			shape: "hexagon"
@@ -814,7 +814,7 @@
 				"{quest.twr.660F95E6765CD77A.description.7}"
 				"{quest.twr.660F95E6765CD77A.description.8}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "minecraft:light_gray_candle"
 			id: "660F95E6765CD77A"
 			shape: "hexagon"
@@ -858,8 +858,8 @@
 				"{quest.twr.797D120146136A5C.description.7}"
 				"{quest.twr.797D120146136A5C.description.8}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: "frostedheart:soil_thermometer"
 			id: "797D120146136A5C"
 			shape: "hexagon"
@@ -951,8 +951,8 @@
 				"{quest.twr.477565C132877FBA.description.6}"
 				"{quest.twr.477565C132877FBA.description.7}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "frostedheart:makeshift_hoe"
@@ -984,8 +984,8 @@
 				"{quest.twr.654627121432688E.description.1}"
 				"{quest.twr.654627121432688E.description.2}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: "minecraft:campfire"
 			id: "654627121432688E"
 			shape: "hexagon"
@@ -1010,7 +1010,7 @@
 				"{quest.twr.125F6ADB0DEA3EEA.description.8}"
 				"{quest.twr.125F6ADB0DEA3EEA.description.9}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "frostedheart:gambeson"
@@ -1035,8 +1035,8 @@
 				"{quest.twr.1B3C8681DF78AD16.description.2}"
 				"{quest.twr.1B3C8681DF78AD16.description.3}"
 			]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			icon: "minecraft:writable_book"
 			id: "1B3C8681DF78AD16"
 			shape: "hexagon"
@@ -1400,7 +1400,7 @@
 				"{quest.twr.7E3F0C805E2BBB9F.description.1}"
 				"{quest.twr.7E3F0C805E2BBB9F.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "stone_age:tree_stump"
 			id: "7E3F0C805E2BBB9F"
 			rewards: [{
@@ -1439,7 +1439,7 @@
 				"{quest.twr.19603323EAAFF726.description.2}"
 				"{quest.twr.19603323EAAFF726.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "minecraft:oak_planks"
 			id: "19603323EAAFF726"
 			shape: "gear"

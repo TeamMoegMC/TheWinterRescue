@@ -23,7 +23,7 @@
 				"{quest.twr.181378ABF5CCD166.description.5}"
 				"{quest.twr.181378ABF5CCD166.description.6}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "minecraft:grass_block"
 			id: "181378ABF5CCD166"
 			shape: "gear"

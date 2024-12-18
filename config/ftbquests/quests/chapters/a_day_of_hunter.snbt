@@ -15,7 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			hide: false
+			hide_until_deps_visible: false
 			id: "60C1118A879D4548"
 			rewards: [
 				{
@@ -48,8 +48,8 @@
 				"{quest.twr.7491448A8055DBE6.description.2}"
 				"{quest.twr.7491448A8055DBE6.description.3}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "7491448A8055DBE6"
 			rewards: [
 				{
@@ -77,7 +77,7 @@
 		{
 			dependencies: ["7762BF27B2BB8236"]
 			description: ["{quest.twr.25F5289EF9A76559.description.0}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "25F5289EF9A76559"
 			subtitle: "{quest.twr.25F5289EF9A76559.subtitle}"
 			tasks: [{
@@ -91,7 +91,7 @@
 		{
 			dependencies: ["7762BF27B2BB8236"]
 			description: ["{quest.twr.7AC1F59A495B58AE.description.0}"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "minecraft:porkchop"
 			id: "7AC1F59A495B58AE"
 			subtitle: "{quest.twr.7AC1F59A495B58AE.subtitle}"
@@ -111,7 +111,7 @@
 				"{quest.twr.7A2CCE64AEE955EC.description.0}"
 				"{quest.twr.7A2CCE64AEE955EC.description.1}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7A2CCE64AEE955EC"
 			subtitle: "{quest.twr.7A2CCE64AEE955EC.subtitle}"
 			tasks: [{
@@ -127,7 +127,7 @@
 		{
 			dependencies: ["7762BF27B2BB8236"]
 			description: ["{quest.twr.4CC2FB4B9CE2367B.description.0}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4CC2FB4B9CE2367B"
 			subtitle: "{quest.twr.4CC2FB4B9CE2367B.subtitle}"
 			tasks: [{
@@ -141,7 +141,7 @@
 		{
 			dependencies: ["19038BB5A9E42055"]
 			description: ["{quest.twr.2B0D00CB09B96703.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "2B0D00CB09B96703"
 			subtitle: "{quest.twr.2B0D00CB09B96703.subtitle}"
 			tasks: [{
@@ -174,7 +174,7 @@
 				"{quest.twr.76BFBA40C36D0699.description.1}"
 				"{quest.twr.76BFBA40C36D0699.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "frostedheart:temperature_probe"
 			id: "76BFBA40C36D0699"
 			subtitle: "{quest.twr.76BFBA40C36D0699.subtitle}"
@@ -189,8 +189,8 @@
 		{
 			dependencies: ["03A553EBD453466A"]
 			description: ["{quest.twr.718403EB34A5B46F.description.1}"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "718403EB34A5B46F"
 			optional: true
 			subtitle: "{quest.twr.718403EB34A5B46F.subtitle}"

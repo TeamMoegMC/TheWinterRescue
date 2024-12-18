@@ -28,7 +28,7 @@
 		{
 			dependencies: ["03A553EBD453466A"]
 			description: ["{quest.twr.417AC14073DD4249.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "417AC14073DD4249"
 			optional: true
 			subtitle: "Unlocks Chapter: &bA Day of Polar Medic"
@@ -101,7 +101,7 @@
 				"{quest.twr.162264AE4B9EE1A9.description.3}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "immersiveengineering:alloy_smelter"
 			id: "162264AE4B9EE1A9"
 			rewards: [
@@ -172,7 +172,7 @@
 				"{quest.twr.3C4CEEBFF8DCF448.description.1}"
 				"{quest.twr.3C4CEEBFF8DCF448.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "3C4CEEBFF8DCF448"
 			shape: "gear"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
@@ -281,7 +281,7 @@
 				"{quest.twr.6CF9868197215C1D.description.1}"
 				"{quest.twr.6CF9868197215C1D.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "6CF9868197215C1D"
 			optional: true
 			subtitle: "{quest.twr.6CF9868197215C1D.subtitle}"
@@ -343,7 +343,7 @@
 				"{quest.twr.77A7511048D5767B.description.2}"
 				"{quest.twr.77A7511048D5767B.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "charcoal_pit:coke"
 			id: "77A7511048D5767B"
 			optional: true
@@ -453,8 +453,8 @@
 				"{quest.twr.66505076652885B8.description.1}"
 				"{quest.twr.66505076652885B8.description.2}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "66505076652885B8"
 			optional: true
 			subtitle: "{quest.twr.66505076652885B8.subtitle}"
@@ -489,7 +489,7 @@
 		{
 			dependencies: ["4543F3B5F937E6B0"]
 			description: ["{quest.twr.4625CA3FEAF6908B.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4625CA3FEAF6908B"
 			rewards: [{
 				id: "68427BE729DBF2DC"
@@ -540,7 +540,7 @@
 		{
 			dependencies: ["4B6840707D77E2C0"]
 			description: ["It can be used as Tetra Tier 3 Hammer"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7D2826CCB69C5EE8"
 			optional: true
 			rewards: [{
@@ -600,7 +600,7 @@
 				"{quest.twr.1DF200F6772308C7.description.3}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1DF200F6772308C7"
 			optional: true
 			subtitle: "{quest.twr.1DF200F6772308C7.subtitle}"
@@ -624,7 +624,7 @@
 				"{quest.twr.1974619E18DB754A.description.1}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1974619E18DB754A"
 			optional: true
 			rewards: [
@@ -710,8 +710,8 @@
 				"{quest.twr.0B9DBC18CEEC4CB2.description.1}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "0B9DBC18CEEC4CB2"
 			optional: true
 			rewards: [{
@@ -733,7 +733,7 @@
 		{
 			dependencies: ["03A553EBD453466A"]
 			description: ["Storage is a big issue. This simple chest will lead you to wide possibilities."]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7175C1158EE9178A"
 			optional: true
 			subtitle: "Unlocks &bA Day of Logistics Engineer"
@@ -795,7 +795,7 @@
 		{
 			dependencies: ["4B6840707D77E2C0"]
 			description: ["{quest.twr.190859211258D56B.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "190859211258D56B"
 			optional: true
 			subtitle: "{quest.twr.190859211258D56B.subtitle}"
@@ -826,7 +826,7 @@
 				"{quest.twr.7887EB905BAA7BEF.description.5}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7887EB905BAA7BEF"
 			rewards: [{
 				count: 2
@@ -853,7 +853,7 @@
 				"{quest.twr.0E067BFAE2FB5441.description.4}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "frostedheart:hand_stove"
@@ -901,8 +901,8 @@
 				"{quest.twr.3B306015B7675BD1.description.3}"
 				"{quest.twr.3B306015B7675BD1.description.4}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: "minecraft:netherrack"
 			id: "3B306015B7675BD1"
 			optional: true
@@ -990,7 +990,7 @@
 				"{quest.twr.6A22E2D62D4719BE.description.2}"
 				"{quest.twr.6A22E2D62D4719BE.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "frostedheart:drawing_desk"
 			id: "6A22E2D62D4719BE"
 			rewards: [{
@@ -1025,7 +1025,7 @@
 				"{quest.twr.688E6165A1E9A28C.description.3}"
 				"{quest.twr.688E6165A1E9A28C.description.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "frostedheart:energy_core"
 			id: "688E6165A1E9A28C"
 			shape: "gear"
@@ -1045,7 +1045,7 @@
 				"{quest.twr.7A992B9F9DB079E6.description.2}"
 				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7A992B9F9DB079E6"
 			optional: true
 			subtitle: "{quest.twr.7A992B9F9DB079E6.subtitle}"
@@ -1060,7 +1060,7 @@
 		{
 			dependencies: ["1974619E18DB754A"]
 			description: ["{quest.twr.139033FEB9593ABE.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "139033FEB9593ABE"
 			optional: true
 			subtitle: "{quest.twr.139033FEB9593ABE.subtitle}"
@@ -1083,8 +1083,8 @@
 		{
 			dependencies: ["03A553EBD453466A"]
 			description: ["{quest.twr.3BF2DCE33791510B.description.1}"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: "minecraft:book"
 			id: "3BF2DCE33791510B"
 			shape: "gear"
@@ -1100,7 +1100,7 @@
 		{
 			dependencies: ["6A22E2D62D4719BE"]
 			description: ["{quest.twr.3BBB2213C574F333.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "frostedheart:charcoal"
@@ -1135,7 +1135,7 @@
 		{
 			dependencies: ["4543F3B5F937E6B0"]
 			description: ["{quest.twr.5287CFB7B7D5285E.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "immersiveengineering:coke_oven"
 			id: "5287CFB7B7D5285E"
 			optional: true
@@ -1184,7 +1184,7 @@
 		{
 			dependencies: ["03A553EBD453466A"]
 			description: ["This pair of snowshoes help you travel through powdered snow and improve speed on any snowy terrain."]
-			hide: false
+			hide_until_deps_visible: false
 			id: "47F9EC8C18040D6D"
 			optional: true
 			rewards: [{
@@ -1216,7 +1216,7 @@
 		{
 			dependencies: ["19603323EAAFF726"]
 			description: ["If I want to progress, I need a real place to craft. Few planks should work."]
-			hide: false
+			hide_until_deps_visible: false
 			id: "03A553EBD453466A"
 			shape: "gear"
 			tasks: [{
@@ -1248,7 +1248,7 @@
 				"{quest.twr.75154C5A6E2F3257.description.5}"
 				"{quest.twr.75154C5A6E2F3257.description.6}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "75154C5A6E2F3257"
 			rewards: [{
 				command: "/ftbchunks admin extra_claim_chunks @p set 16"

@@ -80,7 +80,7 @@
 		{
 			dependencies: ["4785733C81711840"]
 			description: ["{quest.twr.5808CFED17AE91D4.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "5808CFED17AE91D4"
 			shape: "gear"
 			subtitle: "{quest.twr.5808CFED17AE91D4.subtitle}"
@@ -102,7 +102,7 @@
 				"{quest.twr.0019852CD6EC0354.description.2}"
 				"{quest.twr.0019852CD6EC0354.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "immersiveengineering:ingot_steel"
 			id: "0019852CD6EC0354"
 			rewards: [{
@@ -131,7 +131,7 @@
 		}
 		{
 			dependencies: ["0019852CD6EC0354"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "6927FCD3D4A96E1C"
 			tasks: [{
 				id: "6CA2FEDEA9354124"
@@ -143,7 +143,7 @@
 		}
 		{
 			dependencies: ["0019852CD6EC0354"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "07D09F067CE6B708"
 			tasks: [{
 				id: "61371EAC59D39D34"
@@ -155,7 +155,7 @@
 		}
 		{
 			dependencies: ["0019852CD6EC0354"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4DE01CED0E30AD08"
 			tasks: [{
 				id: "0A23FB35CA0CBF1D"
@@ -167,7 +167,7 @@
 		}
 		{
 			dependencies: ["0019852CD6EC0354"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "2516E94BD07F34E5"
 			tasks: [
 				{
@@ -190,7 +190,7 @@
 				"{quest.twr.66A550B05F529CD5.description.1}"
 				"{quest.twr.66A550B05F529CD5.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "immersiveindustry:steam_turbine"
 			id: "66A550B05F529CD5"
 			subtitle: "{quest.twr.66A550B05F529CD5.subtitle}"
@@ -215,7 +215,7 @@
 				"{quest.twr.4785733C81711840.description.3}"
 				"{quest.twr.4785733C81711840.description.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4785733C81711840"
 			shape: "gear"
 			subtitle: "{quest.twr.4785733C81711840.subtitle}"
@@ -229,7 +229,7 @@
 		}
 		{
 			dependencies: ["0019852CD6EC0354"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "immersiveengineering:advanced_blast_furnace"
 			id: "104E63CD1BF438BC"
 			tasks: [{
@@ -243,7 +243,7 @@
 		{
 			dependencies: ["4138E3A9915F811C"]
 			description: ["{quest.twr.6EC18F90620F0A48.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "6EC18F90620F0A48"
 			subtitle: "{quest.twr.6EC18F90620F0A48.subtitle}"
 			tasks: [{
@@ -260,7 +260,7 @@
 				"{quest.twr.45FBD9AC4E48BF09.description.1}"
 				"{quest.twr.45FBD9AC4E48BF09.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "immersiveindustry:industrial_electrolyzer"
 			id: "45FBD9AC4E48BF09"
 			subtitle: "{quest.twr.45FBD9AC4E48BF09.subtitle}"
@@ -285,7 +285,7 @@
 				"{quest.twr.18D8751ED2B62FF2.description.1}"
 				"{quest.twr.18D8751ED2B62FF2.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "immersiveengineering:metal_press"
 			id: "18D8751ED2B62FF2"
 			subtitle: "{quest.twr.18D8751ED2B62FF2.subtitle}"
@@ -313,7 +313,7 @@
 				"{quest.twr.0430A33A91D78414.description.2}"
 				"{quest.twr.0430A33A91D78414.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "immersiveindustry:rotary_kiln"
 			id: "0430A33A91D78414"
 			subtitle: "{quest.twr.0430A33A91D78414.subtitle}"
@@ -334,7 +334,7 @@
 				"{quest.twr.144F3D2FC5F7F034.description.2}"
 				"{quest.twr.144F3D2FC5F7F034.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "immersiveindustry:car_kiln"
 			id: "144F3D2FC5F7F034"
 			subtitle: "{quest.twr.144F3D2FC5F7F034.subtitle}"
@@ -351,7 +351,7 @@
 		{
 			dependencies: ["4138E3A9915F811C"]
 			description: ["{quest.twr.1415012F2B5B47D9.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1415012F2B5B47D9"
 			subtitle: "{quest.twr.1415012F2B5B47D9.subtitle}"
 			tasks: [{

@@ -27,7 +27,7 @@
 				"{quest.twr.391E30AD9CB7147F.description.8}"
 				"{image:twr_quests:textures/quest/draw_desk.png width:387 height:198 align:1 fit:true}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "frostedheart:drawing_desk"
 			id: "391E30AD9CB7147F"
 			shape: "gear"
@@ -52,7 +52,7 @@
 				"{quest.twr.1DE66DB6DF406019.description.5}"
 				"{image:twr_quests:textures/quest/draw_desk.png width:387 height:198 align:1 fit:true}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "storagedrawers:drawer_key"
 			id: "1DE66DB6DF406019"
 			shape: "gear"
@@ -78,7 +78,7 @@
 				"{quest.twr.1938FC4AAD99137E.description.8}"
 				"{quest.twr.1938FC4AAD99137E.description.9}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "minecraft:paper"
 			id: "1938FC4AAD99137E"
 			shape: "gear"
@@ -98,7 +98,7 @@
 				"1F94471C5310ECFA"
 			]
 			description: ["{quest.twr.1B1E71042B20A174.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "frostedheart:quill_and_ink"
@@ -159,7 +159,7 @@
 				"{quest.twr.37726761B26CE51C.description.2}"
 				"{quest.twr.37726761B26CE51C.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "37726761B26CE51C"
 			shape: "gear"
 			subtitle: "{quest.twr.37726761B26CE51C.subtitle}"
@@ -182,7 +182,7 @@
 				"{quest.twr.2148082183BBDF76.description.2}"
 				"{quest.twr.2148082183BBDF76.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "frostedheart:mechanical_calculator"
 			id: "2148082183BBDF76"
 			shape: "gear"
@@ -210,7 +210,7 @@
 				"{quest.twr.690B75C64EB9A7C1.description.3}"
 				"{quest.twr.690B75C64EB9A7C1.description.4}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "minecraft:compass"
 			id: "690B75C64EB9A7C1"
 			subtitle: "{quest.twr.690B75C64EB9A7C1.subtitle}"
@@ -228,7 +228,7 @@
 				"{quest.twr.6496F756C2514C7A.description.1}"
 				"{quest.twr.6496F756C2514C7A.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "kubejs:damaged_gpu"
 			id: "6496F756C2514C7A"
 			optional: true
@@ -261,7 +261,7 @@
 				"{quest.twr.2ED180AF29DA4A90.description.2}"
 				"{quest.twr.2ED180AF29DA4A90.description.3}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "2ED180AF29DA4A90"
 			subtitle: "{quest.twr.2ED180AF29DA4A90.subtitle}"
 			tasks: [{

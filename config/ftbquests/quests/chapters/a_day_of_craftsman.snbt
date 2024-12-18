@@ -64,7 +64,7 @@
 		{
 			dependencies: ["11DD149796E14E81"]
 			description: ["{quest.twr.06919E56E850B946.description.1}"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "06919E56E850B946"
 			subtitle: "{quest.twr.06919E56E850B946.subtitle}"
 			tasks: [{
@@ -142,7 +142,7 @@
 				"{quest.twr.603CDF88D762FEA8.description.1}"
 				"{quest.twr.603CDF88D762FEA8.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "frostedheart:copper_pro_pick"
@@ -165,7 +165,7 @@
 				"{quest.twr.6F2C2CCC90E4C4F6.description.1}"
 				"{quest.twr.6F2C2CCC90E4C4F6.description.2}"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "6F2C2CCC90E4C4F6"
 			subtitle: "{quest.twr.6F2C2CCC90E4C4F6.subtitle}"
 			tasks: [{
@@ -208,8 +208,8 @@
 				"{quest.twr.7DC424AE6C863411.description.1}"
 				"{quest.twr.7DC424AE6C863411.description.2}"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "create:red_sand_paper"
