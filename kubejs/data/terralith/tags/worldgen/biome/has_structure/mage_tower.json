@@ -1,9 +1,6 @@
 {
     "replace": false,
     "values": [
-        "terralith:moonlight_valley",
-        "terralith:lavender_valley",
-        "terralith:amethyst_canyon",
-        "terralith:mirage_isles"
+        "minecraft:plains"
     ]
 }

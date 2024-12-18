@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "terralith:skylands_summer",
+    "biomes":
     "max_distance_from_center": 80,
     "size": 1,
     "spawn_overrides": {},

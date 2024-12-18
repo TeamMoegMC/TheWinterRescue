@@ -5,15 +5,6 @@
         "minecraft:flower_forest",
         "minecraft:forest",
         "minecraft:old_growth_birch_forest",
-        "minecraft:windswept_forest",
-        "terralith:alpine_highlands",
-        "terralith:brushland",
-        "terralith:cloud_forest",
-        "terralith:forested_highlands",
-        "terralith:lavender_forest",
-        "terralith:moonlight_grove",
-        "terralith:temperate_highlands",
-        "terralith:valley_clearing",
-        "terralith:yosemite_lowlands"
+        "minecraft:windswept_forest"
     ]
 }

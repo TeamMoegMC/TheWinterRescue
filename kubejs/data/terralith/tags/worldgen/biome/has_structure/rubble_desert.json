@@ -1,8 +1,5 @@
 {
     "values": [
-        "minecraft:desert",
-        "terralith:ancient_sands",
-        "terralith:desert_oasis",
-        "terralith:red_oasis"
+        "minecraft:desert"
     ]
 }

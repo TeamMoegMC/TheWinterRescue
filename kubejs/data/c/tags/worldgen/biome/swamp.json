@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "terralith:ice_marsh",
-    "terralith:orchid_swamp"
+    "terralith:ice_marsh"
   ]
 }

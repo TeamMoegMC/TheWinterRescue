@@ -3,12 +3,6 @@
         "minecraft:frozen_peaks",
         "minecraft:jagged_peaks",
         "minecraft:stony_peaks",
-        "terralith:basalt_cliffs",
-        "terralith:emerald_peaks",
-        "terralith:haze_mountain",
-        "terralith:jungle_mountains",
-        "terralith:rocky_mountains",
-        "terralith:yosemite_cliffs",
-        "terralith:yosemite_lowlands"
+        "terralith:rocky_mountains"
     ]
 }

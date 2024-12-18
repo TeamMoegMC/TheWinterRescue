@@ -2347,7 +2347,7 @@
                             "type": "minecraft:biome",
                             "biome_is": [
                               "minecraft:ice_spikes",
-                              "terralith:snowy_cherry_grove",
+
                               "terralith:icy_spires"
                             ]
                           },

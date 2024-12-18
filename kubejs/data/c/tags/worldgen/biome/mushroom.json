@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "terralith:mirage_isles",
     "terralith:cave/fungal_caves"
   ]
 }

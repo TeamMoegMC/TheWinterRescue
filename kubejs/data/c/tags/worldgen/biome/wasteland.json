@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "terralith:ashen_savanna",
-    "terralith:basalt_cliffs",
     "terralith:caldera",
     "terralith:gravel_desert",
     "terralith:ice_marsh",
