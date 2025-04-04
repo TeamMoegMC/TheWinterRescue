@@ -114,8 +114,31 @@ ServerEvents.tags("item", (event) => {
     ])
     event.add("caupona:cereals/baked", [
         "frostedheart:military_rations",
-        "frostedheart:rye_bread"
+        "frostedheart:rye_bread",
+        "stone_age:raw_bread"
     ])
+    event.add("caupona:meats", [
+        "stone_age:venison",
+        "stone_age:fowl_meat",
+        "stone_age:auroch_meat",
+        "stone_age:tiger_meat",
+        "stone_age:mouflon_meat",
+        "stone_age:boar_meat",
+        "stone_age:rhino_meat",
+        "stone_age:mammoth_meat"
+    ])
+    event.add("caupona:meats/meat", [
+        "stone_age:fat",
+        "stone_age:venison",
+        "stone_age:fowl_meat",
+        "stone_age:auroch_meat",
+        "stone_age:tiger_meat",
+        "stone_age:mouflon_meat",
+        "stone_age:boar_meat",
+        "stone_age:rhino_meat",
+        "stone_age:mammoth_meat"
+    ])
+
     event.add("caupona:vegetables", [
         "frostedheart:white_turnip_block",
         "frostedheart:dried_vegetables",
