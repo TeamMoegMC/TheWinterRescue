@@ -29,7 +29,7 @@ _Embark on a journey where survival is just the beginning.
 In a world frozen by mystery, every choice echoes through the ruins of the past—and the hope of a future reborn._
 
 <div align="center">
-<img src="https://i.imgur.com/GnxOk1X.png" alt="Sevlya" width="100">
+<img src="https://i.imgur.com/hia9TS2.png" alt="Sevlya" width="100">
 </div>
 
 - **Sevlya** (You): As the sole, surname-less child of Dr. Alankni, you were born in an unknown base in the 
