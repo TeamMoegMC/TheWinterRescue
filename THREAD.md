@@ -29,18 +29,16 @@ _Embark on a journey where survival is just the beginning.
 In a world frozen by mystery, every choice echoes through the ruins of the past—and the hope of a future reborn._
 
 <div align="center">
-    <img src="https://i.imgur.com/GnxOk1X.png" alt="Sevlya" width="10">
+    <img src="https://i.imgur.com/GnxOk1X.png" alt="Sevlya">
 </div>
 
 - **Sevlya** (You): As the sole, surname-less child of Dr. Alankni, you were born in an unknown base in the 
 middle of Utah Desert, but soon left Earth to grow and get educated in _Columbiat_. 
 
-![image](https://i.imgur.com/GnxOk1X.png)
 - **Dr. Alankni Chen**: Grew up as a child prodigy, she was a Professor of Physics and 
 Bioengineering at Massachusetts Institute of Technology (MIT), who pioneered the first
 titanium-based genetic information carrier, but disappeared soon after _The Winter_ started.
 
-![image](https://i.imgur.com/GnxOk1X.png)
 - **Ana Vierra**: Lost her legs to frostbite in the age of eight, she was one of the 
 Earth refugees finding their way to survive by all means, even those unmoral. 
 
