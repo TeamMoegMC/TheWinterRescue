@@ -52,14 +52,31 @@ Earth refugees finding their way to survive by all means, even those unmoral.
 
 - More survivors and secrets await discovery in-game.
 
-## Screenshots
+## Features
 
-## Features:
-- ❄️ **Endless Winter Survival**: Battle harsh temperatures and scarce resources.
-- 🔥 **Immersive Rescue Missions**: Save survivors and rebuild communities.
-- 🌲 **Custom Frozen Worlds**: Explore stunning, handcrafted winter landscapes.
-- ⚒️ **Rich Gameplay Mechanics**: Enhanced survival gameplay with thoughtful mod integration.
-- 🌐 **Community Friendly**: Designed for both solo and multiplayer experiences.
+- ❄️ **Realistic Winter Survival**  
+  Adapt to harsh temperatures and dynamic weather systems to maintain your body temperature and survive in a beautiful yet unforgiving winter landscape.
+
+- 🔥 **Steam-powered Technology**  
+  Harness high-temperature steam energy to power intricate machinery, build industrial bases, and unlock new knowledge through exploration and research.
+
+- 🌨️ **Dynamic Climate Events**  
+  Navigate challenging blizzards, cold fronts, and occasional warm spells, each altering your strategy and pushing your adaptability to the limit.
+
+- 🍲 **Comforting Winter Cooking**  
+  Create nourishing meals using custom cooking mechanics to sustain your health, morale, and the well-being of your community.
+
+- 🛠️ **Immersive Machinery & Research**  
+  Progress through a detailed technological tree, discovering and mastering steam-based equipment essential for survival and development.
+
+- 🏘️ **Community Building & Management**  
+  Rescue exiled refugees, provide warmth and sustenance, and construct a thriving, self-sufficient town amidst the harsh conditions.
+
+- 🗺️ **Deep Exploration & Storyline**  
+  Delve into handcrafted frozen worlds, encountering unique creatures, uncovering hidden truths, and advancing the storyline to restore vitality to the world.
+
+- 🌐 **Solo & Multiplayer Ready**  
+  Experience immersive survival, exploration, and community building alone or collaboratively with friends.
 
 ## Gameplay:
 In *The Winter Rescue*, your goal is simple but challenging: survive, rebuild, and rescue. Explore a harsh, snow-covered world, facing relentless cold, dangerous wildlife, and limited resources. Through careful planning and bold action, build shelters, manage resources, and discover survivors waiting for rescue.
@@ -161,5 +178,8 @@ _The Winter Rescue_ is a hobbyist, non-profit, free and open source software.
 All support to the project is assumed to be directed towards the original content of the project,
 excluding any AI-generated work.
 The use of AI-generated work is never commercialized and solely accounts for the lack of manpower. 
+You are welcome to avoid this modpack if you are uncomfortable of playing AI-generated work.
+We are not liable to any such complaints, but we respect your decision.
+For us, AI is a tool to create. We value any tool that allows us create contents with quality.
 
 [Screenshots, GIFs, and Trailer Below]
