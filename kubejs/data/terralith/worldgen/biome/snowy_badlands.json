@@ -27,7 +27,6 @@
   },
   "features": [
     [
-      "terralith:snowy/badlands/terracotta",
       "terralith:snowy/badlands/snow"
     ],
     [
