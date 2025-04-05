@@ -60,6 +60,8 @@ More survivors and secrets await discovery in-game.
 🗺️ **Deep Exploration & Storyline**  
 Delve into handcrafted frozen worlds, encountering unique creatures, uncovering hidden truths, and advancing the storyline to restore vitality to the world.
 
+<img src="https://i.imgur.com/w2ZTPn3.jpeg" alt="Alankni" width="500">
+
 🌨️ **Dynamic Climate Events**  
   Navigate challenging blizzards, cold fronts, and occasional warm spells, each altering your strategy and pushing your adaptability to the limit.
 
