@@ -56,16 +56,24 @@ In *The Winter Rescue*, your goal is simple but challenging: survive, rebuild, a
 
 **Can you bring warmth back to a frozen world?**
 
+## Server:
+Join our [Official Server](https://forum.teammoeg.com/d/50-official-server) through the latest release to play
+fully-supported and tested multiplayer experience.
+
+Setting up private server? 
+- Checkout [Server Installation Tutorial](https://forum.teammoeg.com/d/51-the-winter-rescue-server-installation-tutorial) 
+post. 
+- Use [BisectHosing](https://www.bisecthosting.com/curseforge?curseforge_project_id=535790&dl=1) code `TeamMoeg` for a discount.
+
 ## Community:
 Join our [Discord community](https://discord.gg/BWn6E94) to share your stories, get updates, and participate in 
 shaping the future of the modpack.
 - We are actively recruiting Contributors! Talk to a TeamMoeg Member in `#twr-development`.
 
-Join our [Official Server](https://forum.teammoeg.com/d/50-official-server) through the latest release to play 
-fully-supported and tested multiplayer experience.
-- Use BisectHosing code `TeamMoeg` for a discount.
-
 Join our [TeamMoeg Forums](https://forum.teammoeg.com/t/the-winter-rescue) to post your gameplay experience.
+
+Check out and contribute to the vibrant
+[The Winter Rescue Wiki](https://wiki.teammoeg.com/index.php?title=The_Winter_Rescue).
 
 ## Feedback:
 Enjoying *The Winter Rescue*? Please consider leaving a review—it helps us improve and keeps the community growing!
@@ -75,11 +83,31 @@ Enjoying *The Winter Rescue*? Please consider leaving a review—it helps us imp
 - Star & Submit an Issue or Suggestion on [GitHub](https://github.com/TeamMoegMC/TheWinterRescue).
 - Submit an Issue or Suggestion on [TeamMoeg Support](https://support.teammoeg.com/).
 
+Really like us? Wanna keep our budget running? Become a TeamMoeg patron on
+- [Patreon](https://www.patreon.com/TeamMoegProjects).
+- [Aifadian](https://afdian.com/a/teammoeg).
+
+In addition to our heartfelt gratitude, here are some perks you can get:
+- Membership permanently displayed on our websites and in-game credits page.
+- All donors receives special Discord roles and are accessible to preview contents.
+- Memberships permanently shown in official websites and in-game credits list.
+- More details on the Patreon pages.
+
+Why Support TeamMoeg?
+- Your donations help cover monthly operational costs:
+- Hosting for our four official servers across two modpacks, including our official testing server for ensuring pack stability.
+- A download server, ensuring easy access to our pack instances.
+- Servers for our development tools, Jenkins, and Maven.
+- Hosting our discord bots.
+- Annual costs, including domain registration.
+
 ## Credits
 
 (In the order of first joining, not contribution size.)
 
-Core Team (www.teammoeg.com):
+We are [__TeamMoeg__](www.teammoeg.com), a non-profit Minecraft Mods & Modpacks Development team, founded in 2018,
+aimed to deliver high-quality, imaginative game experience and worlds unseen.
+
 - Progamming: YueSha, khjxiaogu, duck_egg, dashuaibia, goumo_g, yuqijun
 - Art: Lyuuke, gomou_g, Dsanilin
 - Building: Fu_Yang, OEIIO
@@ -87,6 +115,9 @@ Core Team (www.teammoeg.com):
 - Writing: YueSha
 - Quality Assurance: asdfghjkl, shidi
 - Operation: Evan, YueSha, khjxiaogu
+
+<details>
+  <summary>Click To See Rest of Contributors</summary>
 
 Localization:
 - Chinese: TeamMoeg
@@ -109,5 +140,7 @@ Special Thanks:
 - Matthew Pablo (www.matthewpablo.com) for music.
 - alcatraz (github.com/alcatrazEscapee) for Primal Winter inspiration.
 - DALL-E (openai.com) for the opening CG art.
+
+</details>
 
 [Screenshots, GIFs, and Trailer Below]
