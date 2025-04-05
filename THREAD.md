@@ -28,9 +28,7 @@ you decide to return to the frozen planet.
 _Embark on a journey where survival is just the beginning.
 In a world frozen by mystery, every choice echoes through the ruins of the past—and the hope of a future reborn._
 
-<div align="center">
-    <img src="https://i.imgur.com/GnxOk1X.png" alt="Sevlya">
-</div>
+<img src="https://i.imgur.com/GnxOk1X.png" alt="Sevlya">
 
 - **Sevlya** (You): As the sole, surname-less child of Dr. Alankni, you were born in an unknown base in the 
 middle of Utah Desert, but soon left Earth to grow and get educated in _Columbiat_. 
