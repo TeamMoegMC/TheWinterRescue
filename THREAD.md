@@ -72,6 +72,12 @@ Delve into handcrafted frozen worlds, encountering unique creatures, uncovering 
 
 <img src="https://i.imgur.com/w2ZTPn3.jpeg" width="500">
 
+🗺️ **Heat & Revive Your Base**  
+  Build a Generator to create an expansive Heat Network to dwell safely,
+  generate power, cook food, and transform landscapes.
+
+<img src="https://i.imgur.com/jXx3cJE.jpeg" width="500">
+
 🌨️ **Dynamic Climate Events**  
   Navigate challenging blizzards, cold fronts, and occasional warm spells, each altering your strategy and pushing your adaptability to the limit.
 
@@ -105,19 +111,34 @@ Create nourishing meals using custom cooking mechanics to sustain your health, m
 ## Gameplay
 In *The Winter Rescue*, your goal is simple but challenging: survive, rebuild, and rescue. Explore a harsh, snow-covered world, facing relentless cold, dangerous wildlife, and limited resources. Through careful planning and bold action, build shelters, manage resources, and discover survivors waiting for rescue.
 
-**Can you bring warmth back to a frozen world?**
+*Can you bring warmth back to a frozen world?*
 
-<img src="https://i.imgur.com/QYhDakk.jpeg" width="500">
+**A Fireplace melting a snow patch in a Blizzard.**
 
 <img src="https://i.imgur.com/HsCCxjw.jpeg" width="500">
 
+**A Typical Early Base: Stone Chests, Workbench, Drying Rack, 
+Tree Stump, Drawing Desk, and a Stove-Pot companion.**
+
+<img src="https://i.imgur.com/QYhDakk.jpeg" width="500">
+
+**A man under Generator smoke, tinkering with his spruce.**
+
 <img src="https://i.imgur.com/mg3nA6Z.jpeg" width="500">
+
+**A Steam Generator heating a Birch Plantation.**
 
 <img src="https://i.imgur.com/ZWFesQK.jpeg" width="500">
 
-## Exquisite Original Art
+## Original UI, Model, and Building Art
+
+**Generator UI**
 
 <img src="https://i.imgur.com/Q0bWFr9.jpeg" width="500">
+
+**Wooden Cabin**
+
+<img src="https://i.imgur.com/JwkOI0K.jpeg" width="500">
 
 ## Server
 Join our [Official Server](https://forum.teammoeg.com/d/50-official-server) through the latest release to play
