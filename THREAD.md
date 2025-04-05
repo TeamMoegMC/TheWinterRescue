@@ -51,41 +51,75 @@ More survivors and secrets await discovery in-game.
 
 ## Features
 
+🎬 **Immersive Scenarios & Lores**
+  Dive into an original lore based on science fictional realism and embark on epic adventures.
+
+<img src="https://i.imgur.com/zuqiDdY.png" width="500">
+
 ❄️ **Realistic Winter Survival**  
   Adapt to harsh temperatures and dynamic weather systems to maintain your body temperature and survive in a beautiful yet unforgiving winter landscape.
+
+<img src="https://i.imgur.com/vK59CCM.jpeg" width="500">
 
 🔥 **Steam-powered Technology**  
   Harness high-temperature steam energy to power intricate machinery, build industrial bases, and unlock new knowledge through exploration and research.
 
+[//]: # (<img src="https://i.imgur.com/6P9uFTk.jpeg" width="500">)
+<img src="https://i.imgur.com/qei3JH8.jpeg" width="500">
+
 🗺️ **Deep Exploration & Storyline**  
 Delve into handcrafted frozen worlds, encountering unique creatures, uncovering hidden truths, and advancing the storyline to restore vitality to the world.
 
-<img src="https://i.imgur.com/w2ZTPn3.jpeg" alt="Alankni" width="500">
+<img src="https://i.imgur.com/w2ZTPn3.jpeg" width="500">
 
 🌨️ **Dynamic Climate Events**  
   Navigate challenging blizzards, cold fronts, and occasional warm spells, each altering your strategy and pushing your adaptability to the limit.
 
+<img src="https://i.imgur.com/dLC350v.jpeg" width="500">
+
 🛠️ **Immersive Machinery & Research**  
   Progress through a detailed technological tree, discovering and mastering steam-based equipment essential for survival and development.
+
+<img src="https://i.imgur.com/rOimNBh.png" width="500">
 
 🏘️ **Town Building & Management**  
   Rescue exiled refugees, provide warmth and sustenance, and construct a thriving, self-sufficient town amidst the harsh conditions.
 
+<img src="https://i.imgur.com/DyyqdJc.jpeg" width="500">
+
 🍲 **Comforting Winter Cooking**  
 Create nourishing meals using custom cooking mechanics to sustain your health, morale, and the well-being of your community.
+
+<img src="https://i.imgur.com/Jgztnql.jpeg" width="500">
 
 🌐 **Solo & Multiplayer Ready**  
   Experience immersive survival, exploration, and community building alone or collaboratively with friends.
 
+<img src="https://i.imgur.com/Q2Ik83K.jpeg" width="500">
+
 ⚡ **Lightweight & Performant**  
   Built around only three core mods—Create, Immersive Engineering, and Frosted Heart—everything is streamlined and optimized for smooth performance and minimal overhead.
 
-## Gameplay:
+<img src="https://i.imgur.com/dMk449U.jpeg" width="500">
+
+## Gameplay
 In *The Winter Rescue*, your goal is simple but challenging: survive, rebuild, and rescue. Explore a harsh, snow-covered world, facing relentless cold, dangerous wildlife, and limited resources. Through careful planning and bold action, build shelters, manage resources, and discover survivors waiting for rescue.
 
 **Can you bring warmth back to a frozen world?**
 
-## Server:
+<img src="https://i.imgur.com/QYhDakk.jpeg" width="500">
+
+<img src="https://i.imgur.com/HsCCxjw.jpeg" width="500">
+
+<img src="https://i.imgur.com/mg3nA6Z.jpeg" width="500">
+
+<img src="https://i.imgur.com/ZWFesQK.jpeg" width="500">
+
+## Exquisite Original Art
+
+<img src="https://i.imgur.com/Q0bWFr9.jpeg" width="500">
+
+## Server
 Join our [Official Server](https://forum.teammoeg.com/d/50-official-server) through the latest release to play
 fully-supported and tested multiplayer experience.
 
@@ -94,7 +128,7 @@ Setting up private server?
 post. 
 - Use [BisectHosing](https://www.bisecthosting.com/curseforge?curseforge_project_id=535790&dl=1) code `TeamMoeg` for a discount.
 
-## Community:
+## Community
 Join our [Discord community](https://discord.gg/BWn6E94) to share your stories, get updates, and participate in 
 shaping the future of the modpack.
 - We are actively recruiting Contributors! Talk to a TeamMoeg Member in `#twr-development`.
@@ -104,7 +138,7 @@ Join our [TeamMoeg Forums](https://forum.teammoeg.com/t/the-winter-rescue) to po
 Check out and contribute to the vibrant
 [The Winter Rescue Wiki](https://wiki.teammoeg.com/index.php?title=The_Winter_Rescue).
 
-## Feedback:
+## Feedback
 Enjoying *The Winter Rescue*? Please consider leaving a review—it helps us improve and keeps the community growing!
 
 - Comment & Favorite & Follow on [CurseForge](https://www.curseforge.com/minecraft/modpacks/the-winter-rescue/comments).
