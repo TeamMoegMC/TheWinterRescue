@@ -1,20 +1,10 @@
-# The Winter Rescue
-**Survive, Rebuild, Thrive**
-
-<h3 align="center">TeamMoeg Presents</h3>
-
 <div align="center">
     <img src="https://i.imgur.com/7W3dnEF.png" alt="TWR 0.5 Update">
 </div>
-<h4 align="center">
-	<a href="https://www.curseforge.com/minecraft/modpacks/the-winter-rescue"><img src="https://cf.way2muchnoise.eu/title/535790.svg?badge_style=flat" alt="Curseforge Downloads"></a>
-    <a href="https://www.curseforge.com/minecraft/modpacks/the-winter-rescue"><img src="http://cf.way2muchnoise.eu/full_535790_downloads.svg?badge_style=flat" alt="Curseforge Downloads"></a>
-	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/blob/master/LICENSE.txt"><img src="https://img.shields.io/badge/%20license-brightgreen?style=flat-square" alt="License"></a>
-	<a href="https://github.com/TeamMoegMC/The-Winter-Rescue/issues"><img src="https://img.shields.io/github/issues/TeamMoegMC/The-Winter-Rescue?style=flat-square" alt="Issues"></a>
-	<a href="https://discord.gg/BWn6E94"><img src="https://img.shields.io/badge/discord-chat%20with%20players-blue?style=flat-square" alt="Discord"></a>
-	<a href="https://www.patreon.com/TeamMoegProjects"><img src="https://img.shields.io/badge/patreon-support%20the%20devs-orange.svg?style=flat-square" alt="Patreon"></a>
-	<a href="https://afdian.com/a/teammoeg"><img src="https://img.shields.io/badge/爱发电-赞助我们-blueviolet.svg?style=flat-square" alt="Patreon"></a><br>
-</h4>
+
+# The Winter Rescue
+**Survive, Rebuild, Thrive**
+
 
 > In the Mid Twenty-First Century, an unexpected Long Winter forced humanity into a halt.
 > 
@@ -24,7 +14,7 @@
 > Amidst the growing political division and resource tension between Earth and *Columbiat*, 
 you decided to return to the frozen planet.
 > 
-> Deep in your heart, you believe that he __Message__ is inviting you to unveil how _The Winter_ started, 
+> Deep in your heart, you believe that the __Message__ is inviting you to unveil how _The Winter_ started, 
 > and how to revive and re-understand _The Life_ of the World.
 > 
 > As you set foot in this familiar but foreign world, you will initiate humanity's final rescue plan.
