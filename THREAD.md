@@ -2,11 +2,8 @@
     <img src="https://i.imgur.com/7W3dnEF.png" alt="TWR 0.5 Update">
 </div>
 
-
-
 # The Winter Rescue
 **Survive, Rebuild, Thrive**
-
 
 > In the Mid Twenty-First Century, an unexpected Long Winter forced humanity into a halt.
 >
@@ -32,14 +29,14 @@ In a world frozen by mystery, every choice echoes through the ruins of the past�
 <img src="https://i.imgur.com/hia9TS2.png" alt="Sevlya" width="100">
 </div>
 
-- **Sevlya** (You): As the sole, surname-less child of Dr. Alankni, you were born in an unknown base in the 
+**Sevlya** (You): As the sole, surname-less child of Dr. Alankni, you were born in an unknown base in the 
 middle of Utah Desert, but soon left Earth to grow and get educated in _Columbiat_.
 
 <div align="center">
 <img src="https://i.imgur.com/oXvAikO.png" alt="Alankni" width="100">
 </div>
 
-- **Dr. Alankni Chen**: Grew up as a child prodigy, she was a Professor of Physics and 
+**Dr. Alankni Chen**: Grew up as a child prodigy, she was a Professor of Physics and 
 Bioengineering at Massachusetts Institute of Technology (MIT), who pioneered the first
 titanium-based genetic information carrier, but disappeared soon after _The Winter_ started.
 
@@ -47,36 +44,39 @@ titanium-based genetic information carrier, but disappeared soon after _The Wint
 <img src="https://i.imgur.com/ppu0Yot.png" alt="Alankni" width="100">
 </div>
 
-- **Ana Vierra**: Lost her legs to frostbite in the age of eight, she was one of the 
+**Ana Vierra**: Lost her legs to frostbite in the age of eight, she was one of the 
 Earth refugees finding their way to survive by all means, even those unmoral. 
 
-- More survivors and secrets await discovery in-game.
+More survivors and secrets await discovery in-game.
 
 ## Features
 
-- ❄️ **Realistic Winter Survival**  
+❄️ **Realistic Winter Survival**  
   Adapt to harsh temperatures and dynamic weather systems to maintain your body temperature and survive in a beautiful yet unforgiving winter landscape.
 
-- 🔥 **Steam-powered Technology**  
+🔥 **Steam-powered Technology**  
   Harness high-temperature steam energy to power intricate machinery, build industrial bases, and unlock new knowledge through exploration and research.
 
-- 🌨️ **Dynamic Climate Events**  
+🗺️ **Deep Exploration & Storyline**  
+Delve into handcrafted frozen worlds, encountering unique creatures, uncovering hidden truths, and advancing the storyline to restore vitality to the world.
+
+🌨️ **Dynamic Climate Events**  
   Navigate challenging blizzards, cold fronts, and occasional warm spells, each altering your strategy and pushing your adaptability to the limit.
 
-- 🍲 **Comforting Winter Cooking**  
-  Create nourishing meals using custom cooking mechanics to sustain your health, morale, and the well-being of your community.
-
-- 🛠️ **Immersive Machinery & Research**  
+🛠️ **Immersive Machinery & Research**  
   Progress through a detailed technological tree, discovering and mastering steam-based equipment essential for survival and development.
 
-- 🏘️ **Community Building & Management**  
+🏘️ **Town Building & Management**  
   Rescue exiled refugees, provide warmth and sustenance, and construct a thriving, self-sufficient town amidst the harsh conditions.
 
-- 🗺️ **Deep Exploration & Storyline**  
-  Delve into handcrafted frozen worlds, encountering unique creatures, uncovering hidden truths, and advancing the storyline to restore vitality to the world.
+🍲 **Comforting Winter Cooking**  
+Create nourishing meals using custom cooking mechanics to sustain your health, morale, and the well-being of your community.
 
-- 🌐 **Solo & Multiplayer Ready**  
+🌐 **Solo & Multiplayer Ready**  
   Experience immersive survival, exploration, and community building alone or collaboratively with friends.
+
+⚡ **Lightweight & Performant**  
+  Built around only three core mods—Create, Immersive Engineering, and Frosted Heart—everything is streamlined and optimized for smooth performance and minimal overhead.
 
 ## Gameplay:
 In *The Winter Rescue*, your goal is simple but challenging: survive, rebuild, and rescue. Explore a harsh, snow-covered world, facing relentless cold, dangerous wildlife, and limited resources. Through careful planning and bold action, build shelters, manage resources, and discover survivors waiting for rescue.
