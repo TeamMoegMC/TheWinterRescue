@@ -1862,7 +1862,7 @@
               }
             },
             {
-              "__comment__": "Snowy Badlands surface decorations.",
+              "__comment__": "Snowy Badlands surface decorations, bandlands.",
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:biome",
@@ -1885,25 +1885,6 @@
                     "then_run": {
                       "type": "minecraft:sequence",
                       "sequence": [
-                        {
-                          "type": "minecraft:condition",
-                          "if_true": {
-                            "type": "minecraft:y_above",
-                            "add_stone_depth": true,
-                            "anchor": {
-                              "absolute": 74
-                            },
-                            "surface_depth_multiplier": 1
-                          },
-                          "then_run": {
-                            "type": "minecraft:sequence",
-                            "sequence": [
-                              {
-                                "type": "minecraft:bandlands"
-                              }
-                            ]
-                          }
-                        },
                         {
                           "type": "minecraft:condition",
                           "if_true": {
@@ -1934,7 +1915,7 @@
                               {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                  "Name": "minecraft:red_sand"
+                                  "Name": "frostedheart:red_sand_permafrost"
                                 }
                               }
                             ]
@@ -1951,7 +1932,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:orange_terracotta"
+                              "Name": "frostedheart:bauxite_block"
                             }
                           }
                         },
@@ -2016,35 +1997,53 @@
                         {
                           "type": "minecraft:condition",
                           "if_true": {
-                            "type": "minecraft:y_above",
-                            "add_stone_depth": false,
-                            "anchor": {
-                              "absolute": 63
-                            },
-                            "surface_depth_multiplier": 0
+                            "type": "minecraft:stone_depth",
+                            "add_surface_depth": true,
+                            "offset": 0,
+                            "secondary_depth_range": 0,
+                            "surface_type": "floor"
                           },
                           "then_run": {
-                            "type": "minecraft:condition",
-                            "if_true": {
-                              "type": "minecraft:not",
-                              "invert": {
-                                "type": "minecraft:y_above",
-                                "add_stone_depth": true,
-                                "anchor": {
-                                  "absolute": 74
-                                },
-                                "surface_depth_multiplier": 1
-                              }
-                            },
-                            "then_run": {
-                              "type": "minecraft:block",
-                              "result_state": {
-                                "Name": "minecraft:orange_terracotta"
-                              }
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "frostedheart:bauxite_permafrost"
                             }
                           }
                         },
                         {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:stone_depth",
+                            "add_surface_depth": true,
+                            "offset": 2,
+                            "secondary_depth_range": 0,
+                            "surface_type": "floor"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "frostedheart:bauxite_block"
+                            }
+                          }
+                        },
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:stone_depth",
+                            "add_surface_depth": true,
+                            "offset": 5,
+                            "secondary_depth_range": 0,
+                            "surface_type": "floor"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "frostedheart:kaolin_block"
+                            }
+                          }
+                        },
+                        {
+                          "__comment__": "Key point",
                           "type": "minecraft:bandlands"
                         }
                       ]
