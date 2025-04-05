@@ -169,7 +169,7 @@ Special Thanks:
 Our original code is licensed under GNU General Public License 3.0.
 
 The Mods used in the projects are selected to be as open source as possible, but please check respective licenses.
-
+a
 The original assets are All Rights Reserved unless otherwise stated.
 
 ## Statement on the use of AI-generated work
