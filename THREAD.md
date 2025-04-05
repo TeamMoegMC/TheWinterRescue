@@ -2,11 +2,7 @@
     <img src="https://i.imgur.com/7W3dnEF.png" alt="TWR 0.5 Update">
 </div>
 
-[//]: # (<div align="center">)
 
-[//]: # (    <img src="https://i.imgur.com/GnxOk1X.png" alt="TWR 0.5 Update">)
-
-[//]: # (</div>)
 
 # The Winter Rescue
 **Survive, Rebuild, Thrive**
@@ -32,7 +28,10 @@ you decide to return to the frozen planet.
 _Embark on a journey where survival is just the beginning.
 In a world frozen by mystery, every choice echoes through the ruins of the past—and the hope of a future reborn._
 
-![image](https://i.imgur.com/GnxOk1X.png)
+<div align="center">
+    <img src="https://i.imgur.com/GnxOk1X.png" alt="Sevlya" width="10">
+</div>
+
 - **Sevlya** (You): As the sole, surname-less child of Dr. Alankni, you were born in an unknown base in the 
 middle of Utah Desert, but soon left Earth to grow and get educated in _Columbiat_. 
 
