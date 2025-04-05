@@ -2,17 +2,23 @@
     <img src="https://i.imgur.com/7W3dnEF.png" alt="TWR 0.5 Update">
 </div>
 
+[//]: # (<div align="center">)
+
+[//]: # (    <img src="https://i.imgur.com/GnxOk1X.png" alt="TWR 0.5 Update">)
+
+[//]: # (</div>)
+
 # The Winter Rescue
 **Survive, Rebuild, Thrive**
 
 
 > In the Mid Twenty-First Century, an unexpected Long Winter forced humanity into a halt.
-> 
-> Forty years after _The Winter_ started, you, who grew up in the Spaceport *Columbiat*, 
-> discovered a mysterious temperature-encoded __Message__ from a long-disappeared blood relative.
+>
+> Forty years after _The Winter_ began, you—raised in the Spaceport _Columbiat_—discover 
+> a mysterious temperature-encoded __Message__ from a long-lost relative.
 > 
 > Amidst the growing political division and resource tension between Earth and *Columbiat*, 
-you decided to return to the frozen planet.
+you decide to return to the frozen planet.
 > 
 > Deep in your heart, you believe that the __Message__ is inviting you to unveil how _The Winter_ started, 
 > and how to revive and re-understand _The Life_ of the World.
@@ -23,14 +29,23 @@ you decided to return to the frozen planet.
 
 ## Characters
 
+_Embark on a journey where survival is just the beginning.
+In a world frozen by mystery, every choice echoes through the ruins of the past—and the hope of a future reborn._
+
+![image](https://i.imgur.com/GnxOk1X.png)
 - **Sevlya** (You): As the sole, surname-less child of Dr. Alankni, you were born in an unknown base in the 
 middle of Utah Desert, but soon left Earth to grow and get educated in _Columbiat_. 
+
+![image](https://i.imgur.com/GnxOk1X.png)
 - **Dr. Alankni Chen**: Grew up as a child prodigy, she was a Professor of Physics and 
 Bioengineering at Massachusetts Institute of Technology (MIT), who pioneered the first
 titanium-based genetic information carrier, but disappeared soon after _The Winter_ started.
+
+![image](https://i.imgur.com/GnxOk1X.png)
 - **Ana Vierra**: Lost her legs to frostbite in the age of eight, she was one of the 
 Earth refugees finding their way to survive by all means, even those unmoral. 
-- More to discover in-game.
+
+- More survivors and secrets await discovery in-game.
 
 ## Screenshots
 
@@ -78,9 +93,8 @@ Really like us? Wanna keep our budget running? Become a TeamMoeg patron on
 - [Aifadian](https://afdian.com/a/teammoeg).
 
 In addition to our heartfelt gratitude, here are some perks you can get:
-- Membership permanently displayed on our websites and in-game credits page.
+- Membership permanently shown on our official websites and in-game credits list.
 - All donors receives special Discord roles and are accessible to preview contents.
-- Memberships permanently shown in official websites and in-game credits list.
 - More details on the Patreon pages.
 
 Why Support TeamMoeg?
@@ -106,9 +120,6 @@ aimed to deliver high-quality, imaginative game experience and worlds unseen.
 - Quality Assurance: asdfghjkl, shidi
 - Operation: Evan, YueSha, khjxiaogu
 
-<details>
-  <summary>Click To See Rest of Contributors</summary>
-
 Localization:
 - Chinese: TeamMoeg
 - English: TeamMoeg, Jerzerak, AGmouse, sayyidyofa, alyashour, collin-marando
@@ -129,8 +140,21 @@ Special Thanks:
 - OpenGameArt (opengameart.org) for sound effects.
 - Matthew Pablo (www.matthewpablo.com) for music.
 - alcatraz (github.com/alcatrazEscapee) for Primal Winter inspiration.
-- DALL-E (openai.com) for the opening CG art.
+- ChatGPT (openai.com) for certain illustrations.
 
-</details>
+## Copyright
+
+Our original code is licensed under GNU General Public License 3.0.
+
+The Mods used in the projects are selected to be as open source as possible, but please check respective licenses.
+
+The original assets are All Rights Reserved unless otherwise stated.
+
+## Statement on the use of AI-generated work
+
+_The Winter Rescue_ is a hobbyist, non-profit, free and open source software. 
+All support to the project is assumed to be directed towards the original content of the project,
+excluding any AI-generated work.
+The use of AI-generated work is never commercialized and solely accounts for the lack of manpower. 
 
 [Screenshots, GIFs, and Trailer Below]
