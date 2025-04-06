@@ -96,7 +96,12 @@ ServerEvents.recipes((event) => {
         {
             output: ["3x immersiveengineering:fertilizer"],
             // K, N, P
-            input: ["#forge:crushed_raw_materials/sylite", "#forge:dusts/saltpeter", "forge:slag", Fluid.of("minecraft:water", 1000)]
+            input: ["#forge:crushed_raw_materials/sylvite", "#forge:dusts/saltpeter", "#forge:slag", Fluid.of("minecraft:water", 1000)]
+        },
+        {
+            output: ["3x immersiveengineering:fertilizer"],
+            // K, N, P
+            input: ["#forge:dusts/ash", "#forge:dusts/saltpeter", "#forge:slag", Fluid.of("minecraft:water", 1000)]
         }
     ]
     let heated = [

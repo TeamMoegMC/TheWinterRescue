@@ -140,14 +140,14 @@
   "item.frostedheart.straw_briquette_brown_mushroom.tooltip.summary": "A straw briquette suitable for growing mushrooms.",
   "item.frostedheart.straw_briquette_brown_mushroom.tooltip.condition1": "When Wearing In Hand Slot",
   "item.frostedheart.straw_briquette_brown_mushroom.tooltip.behaviour1": "Uses body temperature to promote mushroom growth.",
-  "item.frostedheart.straw_briquette_brown_mushroom.tooltip.condition2": "When Body Temperature Is Low",
-  "item.frostedheart.straw_briquette_brown_mushroom.tooltip.behaviour2": "The Mushroom Hibernates.",
+  "item.frostedheart.straw_briquette_brown_mushroom.tooltip.condition2": "When Holding With Knife On Other Hand",
+  "item.frostedheart.straw_briquette_brown_mushroom.tooltip.behaviour2": "Hold R-Click to harvest mushroom.",
 
   "item.frostedheart.straw_briquette_red_mushroom.tooltip.summary": "A straw briquette suitable for growing mushrooms.",
   "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition1": "When Wearing In Hand Slot",
   "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour1": "Uses body temperature to promote mushroom growth.",
-  "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition2": "When Body Temperature Is Low",
-  "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour2": "The Mushroom Hibernates.",
+  "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition2": "When Holding With Knife On Other Hand",
+  "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour2": "Hold R-Click to harvest mushroom.",
 
   "item.frostedresearch.quill_and_ink.tooltip.summary": "A crude pen, but suffices to write _Advanced Research Papers_.",
 

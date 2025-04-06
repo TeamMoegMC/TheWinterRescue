@@ -140,14 +140,14 @@
   "item.frostedheart.straw_briquette_brown_mushroom.tooltip.summary": "一块适合棕色蘑菇生长的秸秆压块。",
   "item.frostedheart.straw_briquette_brown_mushroom.tooltip.condition1": "当佩戴于手部栏位时",
   "item.frostedheart.straw_briquette_brown_mushroom.tooltip.behaviour1": "利用体温促进_蘑菇生长_。",
-  "item.frostedheart.straw_briquette_brown_mushroom.tooltip.condition2": "当体温较低时",
-  "item.frostedheart.straw_briquette_brown_mushroom.tooltip.behaviour2": "_蘑菇进入休眠状态_。",
+  "item.frostedheart.straw_briquette_brown_mushroom.tooltip.condition2": "当另一只手持刀时",
+  "item.frostedheart.straw_briquette_brown_mushroom.tooltip.behaviour2": "长按右键收获蘑菇。",
 
   "item.frostedheart.straw_briquette_red_mushroom.tooltip.summary": "一块适合红色蘑菇生长的秸秆压块。",
   "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition1": "当佩戴于手部栏位时",
   "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour1": "利用体温促进_蘑菇生长_。",
-  "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition2": "当体温较低时",
-  "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour2": "_蘑菇进入休眠状态_。",
+  "item.frostedheart.straw_briquette_red_mushroom.tooltip.condition2": "当另一只手持刀时",
+  "item.frostedheart.straw_briquette_red_mushroom.tooltip.behaviour2": "长按右键收获蘑菇。",
 
   "item.frostedresearch.quill_and_ink.tooltip.summary": "一支简陋的笔，但足以撰写_高级研究论文_。",
   "item.frostedresearch.charcoal.tooltip.summary": "一块用于涂写_简易研究论文_的碳条。",
