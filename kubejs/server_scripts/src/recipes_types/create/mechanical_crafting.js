@@ -7,7 +7,7 @@ ServerEvents.recipes((event) => {
             "FFACD",
             "BBEBB"
         ], {
-            A: "#forge:sheetmetals/steel",
+            A: "#forge:rods/cast_iron",
             B: "#forge:plates/cast_iron",
             C: "steampowered:cast_iron_cogwheel",
             D: "steampowered:cast_iron_large_cogwheel",
