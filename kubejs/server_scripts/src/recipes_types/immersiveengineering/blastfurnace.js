@@ -2,21 +2,7 @@ ServerEvents.recipes((event) => {
     let {immersiveengineering} = event.recipes
 
     let blastFurnaceRecipes = [
-        ["frostedheart:aluminum_ingot", "#forge:dusts/aluminum", 800],
         ["frostedheart:cast_iron_ingot", "minecraft:iron_ingot", 900],
-        ["minecraft:copper_ingot", "#forge:raw_materials/copper", 200],
-        ["frostedheart:tin_ingot", "#forge:raw_materials/tin", 150],
-        ["minecraft:iron_ingot", "#forge:raw_materials/iron", 400],
-        ["minecraft:iron_ingot", "#forge:raw_materials/pyrite", 400],
-        ["frostedheart:nickel_ingot", "#forge:raw_materials/nickel", 400],
-        ["minecraft:iron_ingot", "frostedheart:rusted_iron_ingot", 200],
-        ["frostedheart:lead_ingot", "#forge:raw_materials/lead", 200],
-        ["minecraft:gold_ingot", "#forge:raw_materials/gold", 200],
-        ["frostedheart:silver_ingot", "#forge:raw_materials/silver", 200],
-        ["frostedheart:sodium_chloride_dust", "#forge:raw_materials/salt", 200],
-        ["create:zinc_ingot", "#forge:raw_materials/zinc", 200],
-        ["frostedheart:magnesia_dust", "frostedheart:crushed_raw_magnesite", 200],
-        ["frostedheart:magnesium_ingot", "frostedheart:magnesium_dust", 200],
         ['kubejs:rough_graphite_electrode', 'kubejs:shaped_bounded_graphite', 2000]
     ]
     blastFurnaceRecipes.forEach(([output, input, time], index) => {

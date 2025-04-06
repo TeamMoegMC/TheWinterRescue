@@ -92,8 +92,12 @@ ServerEvents.recipes((event) => {
         {
             output: ["4x frostedheart:pulp"],
             input: ["6x #forge:dusts/wood", "frostedheart:sodium_sulfide_dust", "frostedheart:sodium_hydroxide_dust", Fluid.of("minecraft:water", 1000)]
+        },
+        {
+            output: ["3x immersiveengineering:fertilizer"],
+            // K, N, P
+            input: ["#forge:crushed_raw_materials/sylite", "#forge:dusts/saltpeter", "forge:slag", Fluid.of("minecraft:water", 1000)]
         }
-
     ]
     let heated = [
         {

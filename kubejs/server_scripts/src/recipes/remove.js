@@ -48,7 +48,8 @@ ServerEvents.recipes((event) => {
 		"minecraft:rabbit_stew",
 		"minecraft:wheat",
 		"minecraft:mushroom_stew",
-		"create:tree_fertilizer"
+		"create:tree_fertilizer",
+        "immersiveengineering:fertilizer"
 	]
 
 	/*let Pot = [
@@ -137,20 +138,11 @@ ServerEvents.recipes((event) => {
 	event.remove({ type: "immersiveengineering:arc_furnace", input: "#forge:ores" })
 	event.remove({ input: "minecraft:sugar_cane", output: "minecraft:paper" })
 	event.remove({ input: "immersiveengineering:dust_wood", output: "minecraft:paper" })
-	event.remove({ input: "minecraft:redstone_ore" })
 	event.remove({ output: "#minecraft:planks" })
 	event.remove({ output: "create:chromatic_compound" })
 	event.remove({ input: "create:dough" })
 	event.remove({ type: "minecraft:blasting", output: "immersiveengineering:ingot_hop_graphite" })
 	event.remove({ type: "minecraft:smelting", output: "immersiveengineering:ingot_hop_graphite" })
-	//event.remove({type: "minecraft:blasting"})
-    event.remove({ type: "minecraft:smelting", input: "#forge:ores/aluminum" })
-    event.remove({ type: "minecraft:blasting", input: "#forge:ores/aluminum" })
-    event.remove({ type: "minecraft:smelting", input: "immersiveengineering:raw_aluminum" })
-    event.remove({ type: "minecraft:blasting", input: "immersiveengineering:raw_aluminum" })
-    event.remove({ type: "minecraft:smelting", input: "create:crushed_raw_aluminum" })
-    event.remove({ type: "minecraft:blasting", input: "create:crushed_raw_aluminum" })
-    event.remove({ input: "immersiveengineering:raw_aluminum" })
 
 	let disabledItems = [
 		// stone age
@@ -183,7 +175,16 @@ ServerEvents.recipes((event) => {
 		"create:mechanical_drill",
 		"create:mechanical_bearing",
 
-		// contraptions
+        // materials
+        "create:crushed_raw_tin",
+        "create:crushed_raw_aluminum",
+        "immersiveengineering:raw_aluminum",
+        "immersiveengineering:raw_block_aluminum",
+        "immersiveengineering:ore_aluminum",
+        "immersiveengineering:deepslate_ore_aluminum",
+
+
+        // contraptions
 		// "create:wand_of_symmetry",
 		// "create:clockwork_bearing",
 		// "create:sticker",
@@ -210,6 +211,7 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:arcfurnace/raw_ore_aluminum",
         "immersiveengineering:arcfurnace/raw_block_aluminum",
         "immersiveindustry:crucible/steel",
+        "charcoal_pit:ore_kiln_recipes/copper"
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })
@@ -222,13 +224,11 @@ ServerEvents.recipes((event) => {
 		"create:brass_ingot",
 		"create:zinc_ingot",
 		"create:copper_ingot",
-		"create:andesite_alloy",
 		"#create:crushed_ores",
 		"immersiveengineering:capacitor_lv",
 		"immersiveengineering:capacitor_mv",
 		"immersiveengineering:capacitor_hv",
 		"immersiveengineering:dust_hop_graphite",
-		"create:andesite_alloy_block",
 	]
 	removeOnly.forEach((removeItem) => {
 		event.remove({ output: removeItem })

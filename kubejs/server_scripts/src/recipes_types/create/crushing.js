@@ -1,28 +1,24 @@
 ServerEvents.recipes((event) => {
     let {create} = event.recipes
-	let ores = [
-        "frostedheart:raw_pyrite",
-        "frostedheart:raw_nickel",
-        "frostedheart:raw_lead",
-        "frostedheart:bauxite",
-        "frostedheart:kaolin",
-        "frostedheart:raw_magnesite",
-        "frostedheart:raw_sylvite",
-        "frostedheart:raw_halite",
-        "frostedheart:raw_silver",
-        "minecraft:raw_gold",
-        "minecraft:raw_iron",
-        "create:raw_zinc",
-        "minecraft:raw_copper"
-    ]
     let recipes = [
+        // quartz
         {
             output: [
-                Item.of("minecraft:quartz", 2),
-                Item.of("minecraft:quartz", 4).withChance(0.5)
+                Item.of("minecraft:sand", 2),
+                Item.of("minecraft:quartz", 1).withChance(0.5),
+                Item.of("immersiveengineering:dust_saltpeter", 1).withChance(0.5)
             ],
-            input: "minecraft:sandstone"
+            input: "#forge:sandstone/colorless"
         },
+        {
+            output: [
+                Item.of("minecraft:red_sand", 2),
+                Item.of("minecraft:quartz", 1).withChance(0.5),
+                Item.of("immersiveengineering:dust_saltpeter", 1).withChance(0.5)
+            ],
+            input: "#forge:sandstone/red"
+        },
+        // halite
         {
             output: [
                 Item.of("frostedheart:sodium_chloride_dust", 2),
@@ -30,24 +26,6 @@ ServerEvents.recipes((event) => {
             ],
             input: "frostedheart:crushed_raw_halite"
         },
-        
-        /*
-    let ore_name = [
-        "pyrite",
-        "nickel",
-        "lead",
-        "bauxite",
-        "kaolin",
-        "magnesite",
-        "sylvite",
-        "halite",
-        "silver",
-        "gold",
-        "iron",
-        "zinc",
-        "copper"
-    ]
-        */
         // tin
         {
             output: [
@@ -93,6 +71,14 @@ ServerEvents.recipes((event) => {
                 Item.of("frostedheart:cryolite_dust").withChance(0.2)
             ],
             input: "frostedheart:bauxite"
+        },
+        {
+            output: [
+                Item.of("4x frostedheart:crushed_raw_bauxite"),
+                Item.of("4x frostedheart:crushed_raw_bauxite").withChance(0.5),
+                Item.of("4x frostedheart:cryolite_dust").withChance(0.2)
+            ],
+            input: "frostedheart:bauxite_block"
         },
         // kaolin
         {

@@ -13,19 +13,11 @@
 			description: ["{quest.twr.5D52744D5382A6CA.description.1}"]
 			icon: "immersiveengineering:ingot_aluminum"
 			id: "5D52744D5382A6CA"
-			rewards: [
-				{
-					count: 4
-					id: "602B98FFFFC76CD9"
-					item: "frostedheart:bauxite"
-					type: "item"
-				}
-				{
-					id: "734B6487D71ECF6B"
-					insight: 5
-					type: "frostedheart:insight"
-				}
-			]
+			rewards: [{
+				id: "734B6487D71ECF6B"
+				insight: 5
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.5D52744D5382A6CA.subtitle}"
 			tasks: [
@@ -43,14 +35,7 @@
 				}
 				{
 					id: "613864B99DFE937E"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:ingots/aluminum"
-						}
-					}
-					title: "{quest.twr.5D52744D5382A6CA.613864B99DFE937E.title}"
+					item: "frostedheart:aluminum_ingot"
 					type: "item"
 				}
 			]
@@ -289,6 +274,7 @@
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
+				count: 27L
 				id: "6396EC0E24BC0195"
 				item: "immersiveengineering:blastbrick_reinforced"
 				type: "item"
@@ -345,19 +331,12 @@
 			icon: "immersiveengineering:metal_press"
 			id: "18D8751ED2B62FF2"
 			subtitle: "{quest.twr.18D8751ED2B62FF2.subtitle}"
-			tasks: [
-				{
-					id: "214DF499902C162B"
-					item: "create:mechanical_press"
-					type: "item"
-				}
-				{
-					advancement: "immersiveengineering:main/mb_metalpress"
-					criterion: ""
-					id: "07FF5B27EDE4D04E"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				advancement: "immersiveengineering:multiblocks/mb_metalpress"
+				criterion: ""
+				id: "1BB2BC5CDFB7BD05"
+				type: "advancement"
+			}]
 			title: "{block.immersiveengineering.metal_press}"
 			x: 4.5d
 			y: -6.5d

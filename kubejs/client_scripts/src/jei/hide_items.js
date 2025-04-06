@@ -12,9 +12,8 @@ JEIEvents.hideItems((event) => {
     // })
 
     let itemsToHide = [
-        "minecraft:blast_furnace",
-        "minecraft:furnace",
-        "minecraft:diamond_pickaxe",
+        // "minecraft:blast_furnace",
+        // "minecraft:furnace",
 
         // ie
         "immersiveengineering:toolbox",
@@ -36,6 +35,13 @@ JEIEvents.hideItems((event) => {
         "create:sticky_mechanical_piston",
         "create:piston_extension_pole",
         "create:cart_assembler",
+
+        "create:crushed_raw_tin",
+        "create:crushed_raw_aluminum",
+        "immersiveengineering:raw_aluminum",
+        "immersiveengineering:raw_block_aluminum",
+        "immersiveengineering:ore_aluminum",
+        "immersiveengineering:deepslate_ore_aluminum",
     ]
 
     let regexHide = []
