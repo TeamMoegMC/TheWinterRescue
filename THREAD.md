@@ -52,7 +52,6 @@ More survivors and secrets await discovery in-game.
 🔥 **Steam-powered Technology**  
   Harness high-temperature steam energy to power intricate machinery, build industrial bases, and unlock new knowledge through exploration and research.
 
-[//]: # (<img src="https://i.imgur.com/6P9uFTk.jpeg" width="500">)
 <img src="https://i.imgur.com/qei3JH8.jpeg" width="500">
 
 🗺️ **Deep Exploration & Storyline**  
