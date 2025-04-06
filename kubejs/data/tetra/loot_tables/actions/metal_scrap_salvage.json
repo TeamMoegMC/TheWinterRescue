@@ -107,8 +107,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:nuggets/copper",
+          "type": "minecraft:item",
+          "name": "create:copper_nugget",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -130,8 +130,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:ingots/bronze",
+          "type": "minecraft:item",
+          "name": "frostedheart:bronze_ingot",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -150,8 +150,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:nuggets/bronze",
+          "type": "minecraft:item",
+          "name": "frostedheart:bronze_nugget",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -173,8 +173,51 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:ingots/steel",
+          "type": "minecraft:item",
+          "name": "frostedheart:steel_ingot",
+          "expand": true,
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "uniform_bonus_count",
+              "parameters": {
+                "bonusMultiplier": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "frostedheart:steel_nugget",
+          "expand": true,
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 10
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "uniform_bonus_count",
+              "parameters": {
+                "bonusMultiplier": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "frostedheart:electrum_nugget",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -193,8 +236,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:nuggets/steel",
+          "type": "minecraft:item",
+          "name": "frostedheart:electrum_nugget",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -216,8 +259,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:ingots/electrum",
+          "type": "minecraft:item",
+          "name": "frostedheart:nickel_nugget",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -236,8 +279,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:nuggets/electrum",
+          "type": "minecraft:item",
+          "name": "frostedheart:nickel_nugget",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -259,8 +302,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:ingots/nickel",
+          "type": "minecraft:item",
+          "name": "frostedheart:silver_ingot",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -279,8 +322,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:nuggets/nickel",
+          "type": "minecraft:item",
+          "name": "frostedheart:silver_nugget",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -302,8 +345,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:ingots/silver",
+          "type": "minecraft:item",
+          "name": "frostedheart:lead_ingot",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -322,8 +365,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:nuggets/silver",
+          "type": "minecraft:item",
+          "name": "frostedheart:lead_nugget",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -345,10 +388,10 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:ingots/lead",
+          "type": "minecraft:item",
+          "name": "frostedheart:aluminum_nugget",
           "expand": true,
-          "weight": 10,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -365,8 +408,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:nuggets/lead",
+          "type": "minecraft:item",
+          "name": "frostedheart:aluminum_nugget",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -388,8 +431,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:ingots/aluminum",
+          "type": "minecraft:item",
+          "name": "frostedheart:tin_ingot",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -408,94 +451,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:nuggets/aluminum",
-          "expand": true,
-          "weight": 10,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 3,
-                "max": 10
-              }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "uniform_bonus_count",
-              "parameters": {
-                "bonusMultiplier": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:tag",
-          "name": "forge:ingots/tin",
-          "expand": true,
-          "weight": 10,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "uniform_bonus_count",
-              "parameters": {
-                "bonusMultiplier": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:tag",
-          "name": "forge:nuggets/tin",
-          "expand": true,
-          "weight": 10,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 3,
-                "max": 10
-              }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "uniform_bonus_count",
-              "parameters": {
-                "bonusMultiplier": 2
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:tag",
-          "name": "forge:ingots/osmium",
-          "expand": true,
-          "weight": 10,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 1
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "uniform_bonus_count",
-              "parameters": {
-                "bonusMultiplier": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:tag",
-          "name": "forge:nuggets/osmium",
+          "type": "minecraft:item",
+          "name": "frostedheart:tin_nugget",
           "expand": true,
           "weight": 10,
           "functions": [
