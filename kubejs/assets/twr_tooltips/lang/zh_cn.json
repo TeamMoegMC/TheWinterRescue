@@ -10,15 +10,17 @@
   "item.frostedheart.hand_stove.tooltip.behaviour4": "右击地面倒出_灰烬_。",
 
   "item.frostedheart.thermos.tooltip.summary": "一个用来存放_热液体_的_容器_。",
-  "item.frostedheart.thermos.tooltip.condition1": "右键点击液体容器时",
+  "item.frostedheart.thermos.tooltip.condition1": "右击液体容器时",
   "item.frostedheart.thermos.tooltip.behaviour1": "将容器中的液体装入保温瓶。",
-  "item.frostedheart.thermos.tooltip.condition2": "右键点击水方块时",
+  "item.frostedheart.thermos.tooltip.condition2": "右击水方块时",
   "item.frostedheart.thermos.tooltip.behaviour2": "装入 _未净化的水_。",
   "item.frostedheart.thermos.tooltip.condition3": "当饮用含有热液体时",
   "item.frostedheart.thermos.tooltip.behaviour3": "为玩家恢复_热量_。",
   "item.frostedheart.thermos.tooltip.condition4": "当携带液体时",
   "item.frostedheart.thermos.tooltip.behaviour4": "为液体提供隔热保温，保持其_温热_。",
-
+  "item.frostedheart.thermos.tooltip.condition5": "潜行右击任意方块时",
+  "item.frostedheart.thermos.tooltip.behaviour5": "清空容器。",
+  
   "item.frostedheart.rusted_metal.tooltip.summary": "氧化后的金属，回归其自然状态。",
   "item.frostedheart.rusted_metal.tooltip.condition1": "当被熔炼时",
   "item.frostedheart.rusted_metal.tooltip.behaviour1": "转化为其_原始形态_。",
@@ -112,16 +114,20 @@
   "item.frostedheart.mercury_body_thermometer.tooltip.behaviour1": "显示_核心体温_。",
 
   "item.frostedheart.leather_water_bag.tooltip.summary": "一个由防水皮革制成的液体容器。",
-  "item.frostedheart.leather_water_bag.tooltip.condition1": "右键点击液体容器时",
+  "item.frostedheart.leather_water_bag.tooltip.condition1": "右击液体容器时",
   "item.frostedheart.leather_water_bag.tooltip.behaviour1": "将容器中的液体装入保温瓶。",
-  "item.frostedheart.leather_water_bag.tooltip.condition2": "右键点击水方块时",
+  "item.frostedheart.leather_water_bag.tooltip.condition2": "右击水方块时",
   "item.frostedheart.leather_water_bag.tooltip.behaviour2": "装入 _未净化的水_。",
+  "item.frostedheart.leather_water_bag.tooltip.condition3": "潜行右击任意方块时",
+  "item.frostedheart.leather_water_bag.tooltip.behaviour3": "清空容器。",
 
   "item.frostedheart.iron_bottle.tooltip.summary": "一个由坚硬金属制成的液体容器。",
-  "item.frostedheart.iron_bottle.tooltip.condition1": "右键点击液体容器时",
+  "item.frostedheart.iron_bottle.tooltip.condition1": "右击液体容器时",
   "item.frostedheart.iron_bottle.tooltip.behaviour1": "将容器中的液体装入保温瓶。",
-  "item.frostedheart.iron_bottle.tooltip.condition2": "右键点击水方块时",
+  "item.frostedheart.iron_bottle.tooltip.condition2": "右击水方块时",
   "item.frostedheart.iron_bottle.tooltip.behaviour2": "装入 _未净化的水_。",
+  "item.frostedheart.iron_bottle.tooltip.condition3": "潜行右击任意方块时",
+  "item.frostedheart.iron_bottle.tooltip.behaviour3": "清空容器。",
 
   "item.frostedheart.coal_stick.tooltip.summary": "一根燃烧温和的煤棒。",
   "item.frostedheart.coal_stick.tooltip.condition1": "当与手炉合成时",
@@ -153,7 +159,7 @@
   "block.frostedresearch.mechanical_calculator.tooltip.summary": "由旋转动力驱动的优雅_计算机_。",
   "block.frostedresearch.mechanical_calculator.tooltip.condition1": "当连接64 RPM旋转动力时",
   "block.frostedresearch.mechanical_calculator.tooltip.behaviour1": "生成_研究点数_。",
-  "block.frostedresearch.mechanical_calculator.tooltip.condition2": "当运作时右键点击",
+  "block.frostedresearch.mechanical_calculator.tooltip.condition2": "当运作时右击",
   "block.frostedresearch.mechanical_calculator.tooltip.behaviour2": "为_当前研究_收集_研究点数_。",
   "block.frostedresearch.mechanical_calculator.tooltip.condition3": "当佩戴护目镜检查时",
   "block.frostedresearch.mechanical_calculator.tooltip.behaviour3": "显示_工作状态_和_储存的研究点数_。",
@@ -179,7 +185,7 @@
   "block.minecraft.vine.tooltip.summary": "天然纤维，结实但潮湿。",
 
   "block.stone_age.tanning_rack.tooltip.summary": "一个用木棍搭建的简易晒皮架。",
-  "block.stone_age.tanning_rack.tooltip.condition1": "右键点击，手持待鞣制的物品。",
+  "block.stone_age.tanning_rack.tooltip.condition1": "右击，手持待鞣制的物品。",
   "block.stone_age.tanning_rack.tooltip.behaviour1": "右键使用 _燧石加工刀_ 开始鞣制。",
 
   "item.kubejs.activated_carbon.tooltip.summary": "用木炭在蒸汽充能器上处理获得。",

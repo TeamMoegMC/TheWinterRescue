@@ -18,6 +18,8 @@
   "item.frostedheart.thermos.tooltip.behaviour3": "Restores _Heat_ to the player.",
   "item.frostedheart.thermos.tooltip.condition4": "When Carrying Fluids",
   "item.frostedheart.thermos.tooltip.behaviour4": "Insulates the fluid to keep it _Hot_.",
+  "item.frostedheart.thermos.tooltip.condition5": "When Shift-R-Clicked On Any Block",
+  "item.frostedheart.thermos.tooltip.behaviour5": "Empties itself.",
 
   "item.frostedheart.rusted_metal.tooltip.summary": "Metal oxidized into its natural state.",
   "item.frostedheart.rusted_metal.tooltip.condition1": "When Smelted",
@@ -116,12 +118,16 @@
   "item.frostedheart.leather_water_bag.tooltip.behaviour1": "Fills itself with stored liquid.",
   "item.frostedheart.leather_water_bag.tooltip.condition2": "When R-Clicked On Water Block",
   "item.frostedheart.leather_water_bag.tooltip.behaviour2": "Fills itself with _Unpurified Water_.",
+  "item.frostedheart.leather_water_bag.tooltip.condition3": "When Shift-R-Clicked On Any Block",
+  "item.frostedheart.leather_water_bag.tooltip.behaviour3": "Empties itself.",
 
   "item.frostedheart.iron_bottle.tooltip.summary": "A liquid container made from hard metal.",
   "item.frostedheart.iron_bottle.tooltip.condition1": "When R-Clicked On Liquid Container",
   "item.frostedheart.iron_bottle.tooltip.behaviour1": "Fills itself with stored liquid.",
   "item.frostedheart.iron_bottle.tooltip.condition2": "When R-Clicked On Water Block",
   "item.frostedheart.iron_bottle.tooltip.behaviour2": "Fills itself with _Unpurified Water_.",
+  "item.frostedheart.iron_bottle.tooltip.condition3": "When Shift-R-Clicked On Any Block",
+  "item.frostedheart.iron_bottle.tooltip.behaviour3": "Empties itself.",
 
   "item.frostedheart.coal_stick.tooltip.summary": "A stick of coal that burns gently.",
   "item.frostedheart.coal_stick.tooltip.condition1": "When Crafted With Hand Stove.",
