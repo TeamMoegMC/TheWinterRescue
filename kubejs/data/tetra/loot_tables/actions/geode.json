@@ -63,8 +63,8 @@
               ]
             },
             {
-              "type": "minecraft:tag",
-              "name": "forge:raw_materials/tin",
+              "type": "minecraft:item",
+              "name": "frostedheart:raw_tin",
               "expand": true,
               "functions": [
                 {
@@ -82,8 +82,8 @@
               ]
             },
             {
-              "type": "minecraft:tag",
-              "name": "forge:raw_materials/lead",
+              "type": "minecraft:item",
+              "name": "immersiveengineering:raw_lead",
               "expand": true,
               "functions": [
                 {
@@ -101,8 +101,8 @@
               ]
             },
             {
-              "type": "minecraft:tag",
-              "name": "forge:raw_materials/osmium",
+              "type": "minecraft:item",
+              "name": "immersiveengineering:raw_nickel",
               "expand": true,
               "functions": [
                 {
@@ -120,8 +120,8 @@
               ]
             },
             {
-              "type": "minecraft:tag",
-              "name": "forge:raw_materials/nickel",
+              "type": "minecraft:item",
+              "name": "frostedheart:bauxite",
               "expand": true,
               "functions": [
                 {
@@ -139,27 +139,8 @@
               ]
             },
             {
-              "type": "minecraft:tag",
-              "name": "forge:raw_materials/aluminum",
-              "expand": true,
-              "functions": [
-                {
-                  "function": "set_count",
-                  "count": {
-                    "min": 1,
-                    "max": 3
-                  }
-                },
-                {
-                  "function": "minecraft:apply_bonus",
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops"
-                }
-              ]
-            },
-            {
-              "type": "minecraft:tag",
-              "name": "forge:raw_materials/silver",
+              "type": "minecraft:item",
+              "name": "immersiveengineering:raw_silver",
               "expand": true,
               "functions": [
                 {

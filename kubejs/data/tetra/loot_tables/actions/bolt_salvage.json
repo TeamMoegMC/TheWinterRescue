@@ -66,8 +66,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:nuggets/copper",
+          "type": "minecraft:item",
+          "name": "create:copper_nugget",
           "expand": true,
           "weight": 10,
           "functions": [
@@ -89,8 +89,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:ingots/bronze",
+          "type": "minecraft:item",
+          "name": "frostedheart:bronze_ingot",
           "expand": true,
           "weight": 1,
           "functions": [
@@ -109,8 +109,8 @@
           ]
         },
         {
-          "type": "minecraft:tag",
-          "name": "forge:nuggets/bronze",
+          "type": "minecraft:item",
+          "name": "frostedheart:bronze_nugget",
           "expand": true,
           "weight": 6,
           "functions": [
