@@ -350,7 +350,7 @@
 							value: "the_winter_rescue:flux_block"
 						}
 					}
-					title: "Any #the_winter_rescue:flux_block"
+					title: "{quest.twr.4543F3B5F937E6B0.74A169C144AF38E7.title}"
 					type: "item"
 				}
 			]
@@ -1384,10 +1384,10 @@
 						value: "kubejs:tetra_hammer"
 					}
 				}
-				title: "Any #kubejs:tetra_hammer"
+				title: "{quest.twr.5493DF2D38C0B27C.5F17CC1F2740F2B0.title}"
 				type: "item"
 			}]
-			title: "工匠大师"
+			title: "{quest.twr.5493DF2D38C0B27C.title}"
 			x: -9.0d
 			y: 0.5d
 		}

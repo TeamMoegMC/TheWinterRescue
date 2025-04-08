@@ -134,9 +134,9 @@
 			dependencies: ["391E30AD9CB7147F"]
 			description: [
 				"{quest.twr.37726761B26CE51C.description.1}"
-				""
 				"{quest.twr.37726761B26CE51C.description.2}"
-				""
+				"{quest.twr.37726761B26CE51C.description.2}"
+				"{quest.twr.37726761B26CE51C.description.4}"
 				"{quest.twr.37726761B26CE51C.description.3}"
 			]
 			hide_until_deps_visible: false
@@ -206,7 +206,7 @@
 			dependencies: ["7F486B43F356A348"]
 			description: [
 				"{quest.twr.6496F756C2514C7A.description.1}"
-				""
+				"{quest.twr.6496F756C2514C7A.description.2}"
 				"{quest.twr.6496F756C2514C7A.description.2}"
 			]
 			hide_until_deps_visible: false
