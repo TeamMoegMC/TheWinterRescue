@@ -131,32 +131,12 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1938FC4AAD99137E"]
-			description: [
-				"{quest.twr.4F8E2D7FDA9A1D17.description.1}"
-				"{quest.twr.4F8E2D7FDA9A1D17.description.2}"
-				"{quest.twr.4F8E2D7FDA9A1D17.description.3}"
-				"{quest.twr.4F8E2D7FDA9A1D17.description.4}"
-				"{quest.twr.4F8E2D7FDA9A1D17.description.5}"
-				"{quest.twr.4F8E2D7FDA9A1D17.description.6}"
-			]
-			icon: "immersiveengineering:electron_tube"
-			id: "4F8E2D7FDA9A1D17"
-			shape: "gear"
-			subtitle: "{quest.twr.4F8E2D7FDA9A1D17.subtitle}"
-			tasks: [{
-				id: "58D65C019BCBE2B1"
-				title: "{quest.twr.4F8E2D7FDA9A1D17.58D65C019BCBE2B1.title}"
-				type: "checkmark"
-			}]
-			x: -6.5d
-			y: -4.0d
-		}
-		{
 			dependencies: ["391E30AD9CB7147F"]
 			description: [
 				"{quest.twr.37726761B26CE51C.description.1}"
+				""
 				"{quest.twr.37726761B26CE51C.description.2}"
+				""
 				"{quest.twr.37726761B26CE51C.description.3}"
 			]
 			hide_until_deps_visible: false
@@ -203,7 +183,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["4F8E2D7FDA9A1D17"]
+			dependencies: ["7F486B43F356A348"]
 			description: [
 				"{quest.twr.690B75C64EB9A7C1.description.1}"
 				"{quest.twr.690B75C64EB9A7C1.description.2}"
@@ -223,9 +203,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4F8E2D7FDA9A1D17"]
+			dependencies: ["7F486B43F356A348"]
 			description: [
 				"{quest.twr.6496F756C2514C7A.description.1}"
+				""
 				"{quest.twr.6496F756C2514C7A.description.2}"
 			]
 			hide_until_deps_visible: false
@@ -253,24 +234,6 @@
 			title: "{quest.twr.6496F756C2514C7A.title}"
 			x: -8.5d
 			y: -4.0d
-		}
-		{
-			dependencies: ["4F8E2D7FDA9A1D17"]
-			description: [
-				"{quest.twr.4F8E2D7FDA9A1D17.description.7}"
-				"{quest.twr.2ED180AF29DA4A90.description.2}"
-				"{quest.twr.2ED180AF29DA4A90.description.3}"
-			]
-			hide_until_deps_visible: false
-			id: "2ED180AF29DA4A90"
-			subtitle: "{quest.twr.2ED180AF29DA4A90.subtitle}"
-			tasks: [{
-				id: "597C01D2306DDADF"
-				title: "{quest.twr.2ED180AF29DA4A90.597C01D2306DDADF.title}"
-				type: "checkmark"
-			}]
-			x: -6.5d
-			y: -6.0d
 		}
 		{
 			dependencies: ["2148082183BBDF76"]
@@ -393,6 +356,30 @@
 			}]
 			x: -4.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["1938FC4AAD99137E"]
+			description: [
+				"{quest.twr.7F486B43F356A348.description.1}"
+				"{quest.twr.7F486B43F356A348.description.2}"
+				"{quest.twr.7F486B43F356A348.description.3}"
+				"{quest.twr.7F486B43F356A348.description.4}"
+				"{quest.twr.7F486B43F356A348.description.5}"
+				"{quest.twr.7F486B43F356A348.description.6}"
+				"{quest.twr.7F486B43F356A348.description.7}"
+				"{quest.twr.7F486B43F356A348.description.8}"
+				"{quest.twr.7F486B43F356A348.description.9}"
+			]
+			icon: "supplementaries:globe_sepia"
+			id: "7F486B43F356A348"
+			shape: "hexagon"
+			tasks: [{
+				id: "5A41DB2E76C56FB9"
+				title: "{quest.twr.7F486B43F356A348.5A41DB2E76C56FB9.title}"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["{chapter.twr.0A016090E53DFA3B.subtitle.0}"]

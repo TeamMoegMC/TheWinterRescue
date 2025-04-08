@@ -1411,29 +1411,6 @@
 			x: 9.5d
 			y: 4.0d
 		}
-		{
-			description: [
-				"{quest.twr.7F486B43F356A348.description.1}"
-				"{quest.twr.7F486B43F356A348.description.2}"
-				"{quest.twr.7F486B43F356A348.description.3}"
-				"{quest.twr.7F486B43F356A348.description.4}"
-				"{quest.twr.7F486B43F356A348.description.5}"
-				"{quest.twr.7F486B43F356A348.description.6}"
-				"{quest.twr.7F486B43F356A348.description.7}"
-				"{quest.twr.7F486B43F356A348.description.8}"
-				"{quest.twr.7F486B43F356A348.description.9}"
-			]
-			icon: "supplementaries:globe_sepia"
-			id: "7F486B43F356A348"
-			shape: "hexagon"
-			tasks: [{
-				id: "5A41DB2E76C56FB9"
-				title: "{quest.twr.7F486B43F356A348.5A41DB2E76C56FB9.title}"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: 0.0d
-		}
 	]
 	subtitle: ["{chapter.twr.0C07C58470EE031C.subtitle.0}"]
 	title: "{chapter.twr.0C07C58470EE031C.title}"
