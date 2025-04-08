@@ -2,5 +2,5 @@
   "type": "forge:add_features",
   "biomes": "minecraft:frozen_river",
   "features": "the_winter_rescue:copper_gravel",
-  "step": "top_layer_modification"
+  "step": "surface_structures"
 }
