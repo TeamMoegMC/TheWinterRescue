@@ -4,9 +4,7 @@
   "features": [
     "the_winter_rescue:thin_ice_patch",
     "the_winter_rescue:ice_spikes",
-    "the_winter_rescue:ice_patch",
-    "the_winter_rescue:ice_covered_clay",
-    "the_winter_rescue:ice_covered_gravel"
+    "the_winter_rescue:ice_patch"
   ],
   "step": "surface_structures"
 }
