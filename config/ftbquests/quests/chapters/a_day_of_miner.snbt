@@ -122,10 +122,6 @@
 			y: 1.0d
 		}
 		{
-			description: [
-				"{quest.twr.0ED9C71E91687BFA.description.1}"
-				"{quest.twr.0ED9C71E91687BFA.description.2}"
-			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "0ED9C71E91687BFA"
