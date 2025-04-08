@@ -195,5 +195,13 @@
   "block.minecraft.campfire.tooltip.condition1": "When fuel is thrown onto it.",
   "block.minecraft.campfire.tooltip.behaviour1": "Stores the fuel inside the campfire.",
   "block.minecraft.campfire.tooltip.condition2": "When ignited.",
-  "block.minecraft.campfire.tooltip.behaviour2": "Maintains a gentle flame for cooking and resting."
+  "block.minecraft.campfire.tooltip.behaviour2": "Maintains a gentle flame for cooking and resting.",
+
+  "item.frostedresearch.rubbing_tool.tooltip.summary": "A Rubbing Tool for auto-collecting Research Points.",
+  "item.frostedresearch.rubbing_tool.tooltip.condition1": "When Inspected in Drawing Desk after Research started",
+  "item.frostedresearch.rubbing_tool.tooltip.behaviour1": "Binds with _Current Research_",
+  "item.frostedresearch.rubbing_tool.tooltip.condition2": "When Installed on Mechanical Arm",
+  "item.frostedresearch.rubbing_tool.tooltip.behaviour2": "Collects _All Research Points_ stored in the facing _Calculator_.",
+  "item.frostedresearch.rubbing_tool.tooltip.condition3": "When Collected Enough Research Points and Inspected Again",
+  "item.frostedresearch.rubbing_tool.tooltip.behaviour3": "Applies the collected Research Points to Current Research."
 }

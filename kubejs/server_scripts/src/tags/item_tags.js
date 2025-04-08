@@ -201,6 +201,21 @@ ServerEvents.tags("item", (event) => {
         "minecraft:snowball",
         "minecraft:snow_block"
     ])
+
+    event.add("twr:sharp_materials", [
+        "frostedheart:cable",
+        "frostedheart:deflection_coil",
+        "frostedheart:ferrocerium_fire_starter",
+        "frostedheart:insulator",
+        "frostedheart:iron_fence_remains",
+        "frostedheart:iron_plating",
+        "frostedheart:iron_truss_remains",
+        "frostedheart:rusted_iron_ingot",
+        "frostedheart:rusted_copper_ingot",
+        "minecraft:flint",
+    ])
+
+
     // event.remove("forge:ingots", [
     //     "create:andesite_alloy"
     // ])

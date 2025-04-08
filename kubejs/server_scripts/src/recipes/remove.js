@@ -124,6 +124,7 @@ ServerEvents.recipes((event) => {
 	})
 
 	// Remove by Types
+    event.remove({ type: "stone_age:flint_workbench"})
 	event.remove({ type: "immersiveengineering:turn_and_copy", output: "immersiveengineering:radiator" })
 	event.remove({ type: "immersiveengineering:turn_and_copy", output: "immersiveengineering:rs_engineering" })
 	event.remove({ type: "immersiveengineering:hammer_crushing" })
@@ -146,10 +147,9 @@ ServerEvents.recipes((event) => {
 
 	let disabledItems = [
 		// stone age
-		"stone_age:copper_hammer",
-		"stone_age:bronze_hammer",
-		"stone_age:stone_hammer",
-		"stone_age:aqueduct",
+        "stone_age:dried_grass",
+        "stone_age:thatch_block",
+        "stone_age:flint_workbench",
 
 		// ie
 		"immersiveengineering:toolbox",
@@ -211,7 +211,10 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:arcfurnace/raw_ore_aluminum",
         "immersiveengineering:arcfurnace/raw_block_aluminum",
         "immersiveindustry:crucible/steel",
-        "charcoal_pit:ore_kiln_recipes/copper"
+        "charcoal_pit:ore_kiln_recipes/copper",
+        // "stone_age:grass_lead",
+        // "stone_age:dried_grass",
+        // "stone_age:fishing_net_meshes",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

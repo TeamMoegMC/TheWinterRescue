@@ -167,7 +167,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#forge:rods/wooden",
             B: "#forge:string",
-            C: "#frostedheart:garbage"
+            C: "#twr:sharp_materials"
         }
         ],
         [
@@ -177,7 +177,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#forge:rods/wooden",
             B: "#forge:string",
-            C: "#frostedheart:garbage"
+            C: "#twr:sharp_materials"
         }
         ],
         [
@@ -187,7 +187,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#forge:rods/wooden",
             B: "#forge:string",
-            C: "#frostedheart:garbage"
+            C: "#twr:sharp_materials"
         }
         ],
         [
@@ -195,7 +195,7 @@ ServerEvents.recipes((event) => {
             "A ",
             " A"
         ], {
-            A: "#frostedheart:garbage"
+            A: "#twr:sharp_materials"
         }
         ],
         [
@@ -205,7 +205,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#forge:rods/wooden",
             B: "#forge:string",
-            C: "#frostedheart:garbage"
+            C: "#twr:sharp_materials"
         }
         ],
         [
@@ -717,10 +717,10 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "stone_age:fish_bone", [
+            "stone_age:fish_bone", 2, [
             "ABA"
         ], {
-            A: "minecraft:bone",
+            A: "#stone_age:bones",
             B: "minecraft:flint"
         }
         ],
@@ -1038,13 +1038,119 @@ ServerEvents.recipes((event) => {
         ],
         [
             "frostedheart:duralumin_sheetmetal", 4, [
-            " A",
+            " A ",
             "A A",
             " A "
         ], {
             A: "#forge:plates/duralumin"
         }
-        ]
+        ],
+        [
+            "minecraft:torch", 4, [
+            "A",
+            "B"
+        ], {
+            A: "minecraft:coal",
+            B: "#forge:rods/wooden",
+        }
+        ],
+        [
+            "minecraft:torch", 4, [
+            "A",
+            "B"
+        ], {
+            A: "minecraft:charcoal",
+            B: "#forge:rods/wooden",
+        }
+        ],
+        [
+            "minecraft:leather_chestplate", 1, [
+            "ABA",
+            "ACA",
+            "AAA"
+        ], {
+            A: "#forge:leather",
+            B: "#forge:string",
+            C: "stone_age:fish_bone",
+        }
+        ],
+        [
+            "minecraft:leather_chestplate", 1, [
+            "ABA",
+            "ACA",
+            "AAA"
+        ], {
+            A: "#forge:leather",
+            B: "#forge:string",
+            C: "immersiveengineering:wirecutter"
+        }
+        ],
+        [
+            "minecraft:leather_helmet", 1, [
+            "AAA",
+            "A A",
+            "B C"
+        ], {
+            A: "#forge:leather",
+            B: "#forge:string",
+            C: "stone_age:fish_bone",
+        }
+        ],
+        [
+            "minecraft:leather_helmet", 1, [
+            "AAA",
+            "A A",
+            "B C"
+        ], {
+            A: "#forge:leather",
+            B: "#forge:string",
+            C: "immersiveengineering:wirecutter"
+        }
+        ],
+        [
+            "minecraft:leather_boots", 1, [
+            "AAA",
+            "A A",
+            "B C"
+        ], {
+            A: "#forge:leather",
+            B: "#forge:string",
+            C: "stone_age:fish_bone",
+        }
+        ],
+        [
+            "minecraft:leather_boots", 1, [
+            "A A",
+            "A A",
+            "B C"
+        ], {
+            A: "#forge:leather",
+            B: "#forge:string",
+            C: "immersiveengineering:wirecutter"
+        }
+        ],
+        [
+            "minecraft:leather_leggings", 1, [
+            "AAA",
+            "ABA",
+            "ACA"
+        ], {
+            A: "#forge:leather",
+            B: "#forge:string",
+            C: "stone_age:fish_bone",
+        }
+        ],
+        [
+            "minecraft:leather_leggings", 1, [
+            "AAA",
+            "ABA",
+            "ACA"
+        ], {
+            A: "#forge:leather",
+            B: "#forge:string",
+            C: "immersiveengineering:wirecutter"
+        }
+        ],
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [

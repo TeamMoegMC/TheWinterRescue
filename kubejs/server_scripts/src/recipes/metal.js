@@ -25,6 +25,7 @@ ServerEvents.recipes((event) => {
         kubejs.shapeless(Item.of(`#forge:nuggets/${material}`, 9), Item.of(`#forge:ingots/${material}`))
         kubejs.shapeless(Item.of(`#forge:ingots/${material}`), Item.of(`#forge:nuggets/${material}`, 9))
         kubejs.shapeless(Item.of(`#forge:storage_blocks/${material}`), Item.of(`#forge:ingots/${material}`, 9))
+        kubejs.shapeless(Item.of(`#forge:ingots/${material}`, 9), Item.of(`#forge:storage_blocks/${material}`))
     })
 
 // Iterate through the tags and generate recipes

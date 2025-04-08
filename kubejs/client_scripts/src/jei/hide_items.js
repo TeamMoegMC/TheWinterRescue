@@ -1,8 +1,10 @@
 JEIEvents.hideItems((event) => {
 
     let itemsToHide = [
-        // "minecraft:blast_furnace",
-        // "minecraft:furnace",
+        // stone age
+        "stone_age:dried_grass",
+        "stone_age:thatch_block",
+        "stone_age:flint_workbench",
 
         // ie
         "immersiveengineering:toolbox",

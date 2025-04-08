@@ -179,7 +179,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "frostedheart:garbage"
+						value: "twr:sharp_materials"
 					}
 				}
 				title: "{quest.twr.32E5D942F1FE8645.49F29DEEA2F6563D.title}"
@@ -294,10 +294,7 @@
 				{
 					count: 16L
 					id: "21703FC750F7F18B"
-					item: {
-						Count: 16
-						id: "charcoal_pit:straw"
-					}
+					item: { Count: 16, id: "charcoal_pit:straw" }
 					type: "item"
 				}
 			]

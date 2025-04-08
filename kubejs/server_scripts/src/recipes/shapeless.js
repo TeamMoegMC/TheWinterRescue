@@ -60,7 +60,9 @@ ServerEvents.recipes((event) => {
         ["stone_age:grass_lead", 2, [["charcoal_pit:straw", 3]]],
         ["frostedheart:packed_snow", [["minecraft:snowball", 2], ["minecraft:snow_block", 2]]],
         ["stone_age:leather_strip", 4, ["minecraft:leather"]],
-        ["frostedheart:peat", 4, ["frostedheart:peat_block"]],
+        ["frostedheart:peat", 4,
+            ["frostedheart:peat_block"]
+        ],
         ["frostedheart:constantan_wire", ["#forge:ingots/constantan", "immersiveengineering:wirecutter"]],
         [
             "frostedheart:charcoal_stick",
@@ -123,6 +125,13 @@ ServerEvents.recipes((event) => {
                 "frostedheart:magnesia_dust",
                 "frostedheart:magnesia_dust",
                 "frostedheart:magnesia_dust",
+            ]
+        ],
+        [
+            "stone_age:bone_arrow_head", 4,
+            [
+                "#stone_age:bones",
+                "immersiveengineering:hammer"
             ]
         ],
     ]
