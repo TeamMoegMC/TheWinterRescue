@@ -164,7 +164,7 @@
                           "result_state": {
                             "Name": "minecraft:grass_block",
                             "Properties": {
-                              "snowy": "false"
+                              "snowy": "true"
                             }
                           }
                         }
@@ -2461,7 +2461,7 @@
                                 "result_state": {
                                   "Name": "frostedheart:dirt_permafrost",
                                   "Properties": {
-                                    "snowy": "false"
+                                    "snowy": "true"
                                   }
                                 }
                               }
