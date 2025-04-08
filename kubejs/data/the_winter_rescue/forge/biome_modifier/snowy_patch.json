@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#the_winter_rescue:has_feature/snowy_patch",
+  "features": [
+    "the_winter_rescue:snow_patch",
+    "the_winter_rescue:powder_snow_patch",
+    "the_winter_rescue:condensed_copper_ore_patch",
+    "the_winter_rescue:condensed_tin_ore_patch"
+  ],
+  "step": "surface_structures"
+}

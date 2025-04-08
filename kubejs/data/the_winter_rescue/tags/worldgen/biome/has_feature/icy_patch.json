@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:alpine_grove",
+    "terralith:cold_shrubland",
+    "terralith:glacial_chasm",
+    "terralith:gravel_desert",
+    "terralith:rocky_mountains",
+    "terralith:rocky_shrubland",
+    "terralith:scarlet_mountains",
+    "terralith:snowy_badlands",
+    "minecraft:jagged_peaks",
+    "minecraft:frozen_peaks",
+    "minecraft:snowy_slopes",
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes"
+  ]
+}

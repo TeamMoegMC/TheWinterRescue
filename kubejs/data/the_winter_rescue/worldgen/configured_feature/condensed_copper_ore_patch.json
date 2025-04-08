@@ -1,0 +1,27 @@
+{
+  "type": "frostedheart:disk",
+  "config": {
+    "state_provider": {
+      "rules": [],
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "frostedheart:condensed_copper_ore",
+          "Properties": {}
+        }
+      }
+    },
+    "target": {
+      "type": "minecraft:matching_block_tag",
+      "tag": "minecraft:snow"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    },
+    "half_height": 1
+  }
+}

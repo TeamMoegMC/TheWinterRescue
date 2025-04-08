@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#the_winter_rescue:has_feature/icy_patch",
+  "features": [
+    "the_winter_rescue:thin_ice_patch",
+    "the_winter_rescue:ice_spikes",
+    "the_winter_rescue:ice_patch",
+    "the_winter_rescue:ice_covered_clay",
+    "the_winter_rescue:ice_covered_gravel"
+  ],
+  "step": "surface_structures"
+}

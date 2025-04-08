@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#the_winter_rescue:has_feature/gravel_patch",
+  "features": [
+    "the_winter_rescue:gravel_permafrost_patch",
+    "the_winter_rescue:ice_covered_gravel"
+  ],
+  "step": "surface_structures"
+}

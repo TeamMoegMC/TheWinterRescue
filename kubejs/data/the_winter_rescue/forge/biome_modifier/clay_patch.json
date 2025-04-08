@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#the_winter_rescue:has_feature/clay_patch",
+  "features": [
+    "the_winter_rescue:clay_permafrost_patch",
+    "the_winter_rescue:ice_covered_clay"
+  ],
+  "step": "surface_structures"
+}
