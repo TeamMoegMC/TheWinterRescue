@@ -125,8 +125,8 @@ ServerEvents.recipes((event) => {
         rotarySulfate("frostedheart:crushed_raw_pyrite", "create:crushed_raw_iron", 64, 250, 0),
         rotarySulfate("create:crushed_raw_lead", "frostedheart:lead_oxide_dust", 32, 250, 0.25),
         rotarySulfate("create:crushed_raw_zinc", "frostedheart:zinc_oxide_dust", 32, 250, 0),
-        rotarykilnRecipe3("create:crushed_raw_nickel", "frostedheart:nickel_slag", Fluid.of("frostedheart:sulfur_dioxide", 250).toJson(), 200, 64, "frostedheart:iron_slag", 1),
-        carkilnRecipe(["3x frostedheart:nickel_slag", "2x frostedheart:quicklime"], ["3x immersiveengineering:ingot_nickel", "3x immersiveengineering:slag", "frostedheart:nickel_slag"], 1200)
+        rotarykilnRecipe3("create:crushed_raw_nickel", "frostedheart:nickel_matte", Fluid.of("frostedheart:sulfur_dioxide", 250).toJson(), 200, 64, "frostedheart:iron_slag", 1),
+        carkilnRecipe(["3x frostedheart:nickel_matte", "2x frostedheart:quicklime"], ["3x frostedheart:nickel_ingot", "3x immersiveengineering:slag", "frostedheart:nickel_matte"], 1200,32)
     ]
     kilnRecipes.forEach((recipe) => {
         event.custom(recipe); console.info(recipe)
