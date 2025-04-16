@@ -9,9 +9,9 @@
           "entries": [
             {
               "data": {
-                "Name": "minecraft:grass_block",
+                "Name": "frostedheart:rooted_dirt_permafrost",
                 "Properties": {
-                  "snowy": "false"
+                  "snowy": "true"
                 }
               },
               "weight": 2
@@ -23,7 +23,7 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:dirt"
+        "Name": "frostedheart:dirt_permafrost"
       }
     },
     "foliage_placer": {
