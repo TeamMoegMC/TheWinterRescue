@@ -1151,6 +1151,30 @@ ServerEvents.recipes((event) => {
             C: "immersiveengineering:wirecutter"
         }
         ],
+        [
+            "caupona:wolf_statue", 1, [
+                "AA ",
+                "ABC",
+                " D "
+            ], {
+                A: "#forge:ingots/copper",
+                B: "frostedheart:temperature_probe",
+                C: "minecraft:lightning_rod",
+                D: "minecraft:cut_copper"
+            }
+        ],
+        [
+            "caupona:wolf_statue", 1, [
+                "AA ",
+                "ABC",
+                " D "
+            ], {
+                A: "#forge:ingots/copper",
+                B: "frostedheart:temperature_probe",
+                C: "minecraft:lightning_rod",
+                D: "minecraft:copper_block"
+            }
+        ],
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [
