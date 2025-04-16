@@ -2727,6 +2727,25 @@
                             }
                           },
                           {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "type": "minecraft:stone_depth",
+                              "add_surface_depth": false,
+                              "offset": 1,
+                              "secondary_depth_range": 0,
+                              "surface_type": "floor"
+                            },
+                            "then_run": {
+                              "type": "minecraft:block",
+                              "result_state": {
+                                "Name": "frostedheart:dirt_permafrost",
+                                "Properties": {
+                                  "snowy": "true"
+                                }
+                              }
+                            }
+                          },
+                          {
                             "__comment__": "Highland dirt placement",
                             "type": "minecraft:block",
                             "result_state": {
