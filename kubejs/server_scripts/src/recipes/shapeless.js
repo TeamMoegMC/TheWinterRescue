@@ -134,6 +134,13 @@ ServerEvents.recipes((event) => {
                 "immersiveengineering:hammer"
             ]
         ],
+        [
+            "63x caupona:vivid_charcoal", 1,
+            [
+                "#minecraft:coals",
+                "3x charcoal_pit:straw",
+            ]
+        ],
     ]
     addShapelessRecipes.forEach((recipe, index) => {
         let [
