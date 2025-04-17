@@ -167,11 +167,18 @@
 			}]
 			shape: "rsquare"
 			subtitle: "{quest.twr.4E2FF1AFA626A42B.subtitle}"
-			tasks: [{
-				id: "7CE2CD33F7053CF1"
-				item: "frostedheart:rye"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7CE2CD33F7053CF1"
+					item: "frostedheart:rye"
+					type: "item"
+				}
+				{
+					id: "00A5E07CA11B3131"
+					item: "frostedheart:rye_block"
+					type: "item"
+				}
+			]
 			x: -7.5d
 			y: -1.0d
 		}
