@@ -2373,7 +2373,7 @@
                                   {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                      "Name": "minecraft:sand"
+                                      "Name": "frostedheart:sand_permafrost"
                                     }
                                   }
                                 ]
@@ -2814,7 +2814,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:sand"
+                                    "Name": "frostedheart:sand_permafrost"
                                   }
                                 }
                               }
@@ -2838,7 +2838,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:sand"
+                                    "Name": "frostedheart:sand_permafrost"
                                   }
                                 }
                               }
@@ -2862,7 +2862,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:sand"
+                                    "Name": "frostedheart:sand_permafrost"
                                   }
                                 }
                               }
@@ -2886,7 +2886,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:sand"
+                                    "Name": "frostedheart:sand_permafrost"
                                   }
                                 }
                               }
@@ -2910,7 +2910,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:sand"
+                                    "Name": "frostedheart:sand_permafrost"
                                   }
                                 }
                               }
@@ -2934,7 +2934,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:sand"
+                                    "Name": "frostedheart:sand_permafrost"
                                   }
                                 }
                               }
@@ -2958,7 +2958,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:sand"
+                                    "Name": "frostedheart:sand_permafrost"
                                   }
                                 }
                               }
