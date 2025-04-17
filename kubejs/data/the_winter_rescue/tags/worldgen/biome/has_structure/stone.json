@@ -1,10 +1,6 @@
 {
   "replace": false,
   "values": [
-    "terralith:rocky_mountains",
-    "terralith:wintry_lowlands",
-    "terralith:cold_shrubland",
-    "terralith:rocky_shrubland",
-    "minecraft:snowy_plains"
+
   ]
 }
