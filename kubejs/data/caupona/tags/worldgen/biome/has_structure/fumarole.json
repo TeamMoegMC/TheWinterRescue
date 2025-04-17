@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "terralith:volcanic_crater",
+    "terralith:volcanic_peaks",
+    "terralith:caldera",
+    "terralith:yellowstone"
+  ]
+}
