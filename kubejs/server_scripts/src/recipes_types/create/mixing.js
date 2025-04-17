@@ -42,10 +42,6 @@ ServerEvents.recipes((event) => {
             input: ["4x #forge:dusts/hop_graphite", Fluid.of("frostedheart:tar", 1000)]
         },
         {
-            output: [Fluid.of("minecraft:milk", 1000)],
-            input: [Fluid.of("frostedheart:protein", 500), Fluid.of("minecraft:water", 500), "minecraft:sugar"]
-        },
-        {
             output: [Fluid.of("frostedheart:ferrous_chloride", 375)],
             input: [Fluid.of("frostedheart:hydrochloric_acid", 750), "create:crushed_raw_iron"]
         },

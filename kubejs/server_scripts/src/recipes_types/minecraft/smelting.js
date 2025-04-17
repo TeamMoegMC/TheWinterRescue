@@ -5,7 +5,6 @@ ServerEvents.recipes((event) => {
         {output: "minecraft:terracotta", input: "minecraft:clay"},
         {output: 'minecraft:black_dye', input: '#kubejs:coal_dust'},
         {output: 'minecraft:black_dye', input: 'kubejs:charcoal_dust'},
-        {output: '4x minecraft:red_dye', input: 'frostedheart:lead_oxide_dust'},
         // Note: Dirt needs special biomass processing, otherwise becomes coarse_dirt
         {output: 'minecraft:coarse_dirt', input: 'frostedheart:dirt_permafrost'},
         {output: 'minecraft:coarse_dirt', input: 'frostedheart:rooted_dirt_permafrost'},
@@ -20,6 +19,7 @@ ServerEvents.recipes((event) => {
         {output: 'frostedheart:kaolin_block', input: 'frostedheart:kaolin_permafrost'},
         {output: 'minecraft:paper', input: 'frostedheart:pulp'}
     ]
+	minecraft.smelting('4x minecraft:red_dye', 'frostedheart:lead_oxide_dust')
     recipes.forEach((recipe) => {
         minecraft.smelting(recipe.output, recipe.input)
         immersiveengineering.blast_furnace(recipe.output, recipe.input, "immersiveengineering:slag")

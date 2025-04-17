@@ -18,6 +18,7 @@ ServerEvents.recipes((event) => {
             output: "3x kubejs:creosoted_coal_briquette",
             input: ["#forge:dusts/coal_coke", Fluid.of("immersiveengineering:creosote", 100)]
         },
+		
         {
             output: "kubejs:creosoted_charcoal_briquette",
             input: ["kubejs:charcoal_dust", Fluid.of("immersiveengineering:creosote", 260)]
@@ -73,6 +74,10 @@ ServerEvents.recipes((event) => {
             output: "5x frostedheart:compressed_biscuits",
             input: [Fluid.of("immersiveengineering:plantoil", 100), "6x frostedheart:rye_flour"]
         },
+		{
+			input: [Fluid.of("frostedheart:pulp",100)],
+			output: ["minecraft:paper"]
+		},
         {
             output: "5x frostedheart:compressed_biscuits",
             input: [Fluid.of("immersiveengineering:plantoil", 100), "4x create:wheat_flour"]

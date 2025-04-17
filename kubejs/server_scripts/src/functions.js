@@ -81,7 +81,7 @@ function chemical(input,input_fluid,output,output_fluid,time){
 			result.result_fluids.push(fluidOut);
 		}
 	}
-	console.info(result)
+
 	return result
 }
 function incubateItemRecipe(input, catalyst, use_catalyst, result, time, water) {

@@ -42,6 +42,13 @@ ServerEvents.recipes((event) => {
     kilnRecipes.forEach((ex) => {
         event.custom(ex)
     })
+	event.custom({
+        "type": "immersiveindustry:car_kiln",
+        "input_fluid": FluidTag("forge:pulp",100),
+        "results": [IEIngredient("minecraft:paper")],
+        "time": 200,
+        "tickEnergy": 32
+    })
     simpleCarkiln.forEach((ex) => {
         event.custom(simpleCarkilnRecipe(ex.input, ex.output))
     })

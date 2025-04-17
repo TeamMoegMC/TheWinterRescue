@@ -205,6 +205,7 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:arcfurnace/raw_block_aluminum",
         "immersiveindustry:crucible/steel",
         "charcoal_pit:ore_kiln_recipes/copper",
+		"immersiveindustry:chemical"
         // "stone_age:grass_lead",
         // "stone_age:dried_grass",
         // "stone_age:fishing_net_meshes",

@@ -24,6 +24,11 @@ ServerEvents.recipes((event) => {
             input: '2x minecraft:copper_ingot',
             mold: 'immersiveengineering:mold_rod'
         },
+		{
+            output: '4x kubejs:wet_coal_briquette',
+            input: '2x kubejs:wet_coal_dust',
+            mold: 'immersiveengineering:mold_packing_4'
+        },
         {
             output: '3x frostedheart:iron_rod',
             input: '2x minecraft:iron_ingot',

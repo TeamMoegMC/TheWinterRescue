@@ -101,7 +101,7 @@ ServerEvents.recipes((event) => {
 
         ["frostedheart:sodium_chloride_dust", "#forge:raw_materials/halite", 400],
         ["frostedheart:sodium_chloride_dust", "#forge:crushed_raw_materials/halite", 300],
-
+		['immersiveengineering:ingot_lead', '#forge:dusts/lead_oxide',80],
         ["frostedheart:magnesia_dust", "frostedheart:crushed_raw_magnesite", 200],
         ["frostedheart:constantan_ingot", "#forge:dusts/constantan", 400],
         ["frostedheart:duralumin_ingot", "#forge:dusts/duralumin", 800],
