@@ -988,7 +988,7 @@ ServerEvents.recipes((event) => {
             A: "#forge:string"
         }
         ],
-        [
+        /*[
             "supplementaries:lunch_basket", [
             "B B",
             "AAA",
@@ -997,7 +997,7 @@ ServerEvents.recipes((event) => {
             A: "stone_age:grass_mesh",
             B: "#forge:rods/treated_wood"
         }
-        ],
+        ],*/
         [
             "frostedheart:packed_snow_slab", 6, [
             "AAA"
