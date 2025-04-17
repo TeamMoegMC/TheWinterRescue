@@ -74,8 +74,11 @@ function chemical(input,input_fluid,output,output_fluid,time){
 	if(output_fluid){
 		result.result_fluids=[];
 		for(let i of output_fluid){
+			let fluidOut={"fluid":i.id,"amount":i.amount};
 			
-			result.result_fluids.push({"FluidName":i.id,"Amount":i.amount});
+			if(i.nbt)
+				fluidOut.tag=i.nbt
+			result.result_fluids.push(fluidOut);
 		}
 	}
 	console.info(result)
