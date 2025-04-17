@@ -1,44 +1,43 @@
 {
-  "icon": "frostedheart:sauna_vent",
-  "category": "frostedheart:rescue",
-  "parents": [
-    "steam_heater",
-    "heating_vest"
-  ],
+  "showAltDesc": true,
+  "points": 4000,
+  "insight": 1,
   "clues": [
     {
       "type": "game",
-      "value": 0.5,
       "id": "1a7681e011ca44e4",
       "required": true,
+      "value": 0.5,
       "level": 1
     },
     {
       "type": "game",
-      "value": 0.25,
       "id": "31ce65091f394ea1",
+      "value": 0.25,
       "level": 1
     }
   ],
   "ingredients": [
     {
-      "type": "forge:nbt",
-      "item": "frostedheart:steam_bottle",
-      "count": 1,
-      "nbt": "{energy:240}"
-    },
-    {
-      "count": 8,
       "base_ingredient": {
         "tag": "minecraft:planks"
-      }
+      },
+      "count": 8
+    },
+    {
+      "base_ingredient": {
+        "item": "frostedheart:steam_bottle"
+      },
+      "count": 1
     }
   ],
   "effects": [
     {
       "type": "recipe",
-      "id": "aa6927e4f2164989",
-      "item": "frostedheart:sauna_vent"
+      "item": {
+        "item": "frostedheart:sauna_vent"
+      },
+      "id": "aa6927e4f2164989"
     },
     {
       "type": "use",
@@ -48,6 +47,16 @@
       ]
     }
   ],
-  "points": 4000,
-  "showAltDesc": true
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:sauna_vent",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:rescue",
+  "parents": [
+    "heating_vest",
+    "steam_heater"
+  ]
 }

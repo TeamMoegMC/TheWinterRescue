@@ -20,4 +20,6 @@ ServerEvents.recipes((event) => {
 
     event.replaceOutput({type: "immersiveengineering:blast_furnace"}, "frostedheart:steel_block", "frostedheart:cast_iron_block")
     // event.replaceInput({},"#forge:mushrooms","#forge:edible_mushrooms")
+
+    event.replaceInput({mod: "caupona"}, "minecraft:dirt", "#minecraft:dirt")
 })

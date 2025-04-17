@@ -138,6 +138,10 @@ ServerEvents.recipes((event) => {
             input: ["minecraft:dandelion"]
         },
         {
+            output: [Fluid.of("frostedheart:latex", 200)],
+            input: ["frostedheart:rubber_dandelion"]
+        },
+        {
             output: ["2x frostedheart:high_refractory_brick"],
             input: ["4x frostedheart:fire_clay_ball", "#forge:dusts/magnesia", "#forge:dusts/quicklime"]
         },

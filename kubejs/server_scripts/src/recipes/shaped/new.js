@@ -349,8 +349,19 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "minecraft:leather",
-            B: "stone_age:leather_strip",
+            B: "#forge:string",
             C: "#forge:wires/copper"
+        }
+        ],
+        [
+            "frostedheart:gambeson", [
+            "AAA",
+            "CBC",
+            "AAA"
+        ], {
+            A: "#minecraft:wool",
+            B: "#forge:string",
+            C: "#forge:wires/aluminum"
         }
         ],
         [

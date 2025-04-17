@@ -6,6 +6,38 @@ ServerEvents.recipes((event) => {
             input: "#minecraft:logs"
         },
         {
+            output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.1)],
+            input: "#minecraft:leaves"
+        },
+        {
+            output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.1)],
+            input: "#minecraft:flowers"
+        },
+        {
+            output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.3)],
+            input: "#forge:seeds"
+        },
+        {
+            output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.3)],
+            input: "#minecraft:saplings"
+        },
+        {
+            output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.3)],
+            input: "#minecraft:fox_food"
+        },
+        {
+            output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.5)],
+            input: "minecraft:vine"
+        },
+        {
+            output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.5)],
+            input: "minecraft:cactus"
+        },
+        {
+            output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.5)],
+            input: "minecraft:sugar_cane"
+        },
+        {
             output: ["2x frostedheart:bauxite_dust", Item.of("2x frostedheart:bauxite_dust").withChance(0.5)],
             input: "frostedheart:crushed_raw_bauxite"
         },

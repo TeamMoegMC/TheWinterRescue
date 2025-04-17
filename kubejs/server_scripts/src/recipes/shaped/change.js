@@ -844,6 +844,16 @@ ServerEvents.recipes((event) => {
             A: "#minecraft:wooden_slabs"
         }
         ],
+        [
+            "minecraft:furnace", 1, [
+            "AAA",
+            "B B",
+            "AAA "
+        ], {
+            A: "#minecraft:stone_bricks",
+            B: "#forge:plates/bronze"
+        }
+        ],
     ]
     changeShapedRecipes.forEach((recipe, index) => {
         let [

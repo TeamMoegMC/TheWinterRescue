@@ -1,12 +1,6 @@
 //priority = 800
 
 ServerEvents.recipes((event) => {
-	let flint_workbench = [
-		"minecraft:furnace"
-	]
-	flint_workbench.forEach((Item) => {
-		event.remove({ type: "stone_age:flint_workbench", output: Item })
-	})
 	let workbench = [
 		"supplementaries:lunch_basket",
 		"immersiveengineering:cloche",
@@ -19,8 +13,6 @@ ServerEvents.recipes((event) => {
 		"immersiveengineering:windmill_blade",
 		"immersiveengineering:waterwheel_segment",
 		"immersiveengineering:sample_drill",
-		"minecraft:blast_furnace",
-		"minecraft:smoker",
 		"immersiveengineering:thermoelectric_generator",
 		"immersiveengineering:blueprint",
 		"immersiveengineering:toolbox",
