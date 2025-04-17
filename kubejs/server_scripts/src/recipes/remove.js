@@ -8,6 +8,7 @@ ServerEvents.recipes((event) => {
 		event.remove({ type: "stone_age:flint_workbench", output: Item })
 	})
 	let workbench = [
+		"supplementaries:lunch_basket",
 		"immersiveengineering:cloche",
 		"immersiveengineering:dynamo",
 		"immersiveengineering:drillhead_iron",

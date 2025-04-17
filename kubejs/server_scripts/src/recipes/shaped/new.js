@@ -988,7 +988,7 @@ ServerEvents.recipes((event) => {
             A: "#forge:string"
         }
         ],
-        [
+        /*[
             "supplementaries:lunch_basket", [
             "B B",
             "AAA",
@@ -997,7 +997,7 @@ ServerEvents.recipes((event) => {
             A: "stone_age:grass_mesh",
             B: "#forge:rods/treated_wood"
         }
-        ],
+        ],*/
         [
             "frostedheart:packed_snow_slab", 6, [
             "AAA"
@@ -1150,6 +1150,30 @@ ServerEvents.recipes((event) => {
             B: "#forge:string",
             C: "immersiveengineering:wirecutter"
         }
+        ],
+        [
+            "caupona:wolf_statue", 1, [
+                "AA ",
+                "ABC",
+                " D "
+            ], {
+                A: "#forge:ingots/copper",
+                B: "frostedheart:temperature_probe",
+                C: "minecraft:lightning_rod",
+                D: "minecraft:cut_copper"
+            }
+        ],
+        [
+            "caupona:wolf_statue", 1, [
+                "AA ",
+                "ABC",
+                " D "
+            ], {
+                A: "#forge:ingots/copper",
+                B: "frostedheart:temperature_probe",
+                C: "minecraft:lightning_rod",
+                D: "minecraft:copper_block"
+            }
         ],
     ]
     addShapedRecipes.forEach((recipe, index) => {

@@ -4,7 +4,10 @@ function IEIngredient(input) {
     let inp = Item.of(input)
     return {base_ingredient: inp.withCount(1).toJson(), count: inp.getCount()}
 }
-
+function IEIngredientWithSize(input,amount) {
+    let inp = Item.of(input)
+    return {base_ingredient: inp.withCount(1).toJson(), count: amount}
+}
 function FluidTag(tag, amount) {
     return {"tag": tag, "amount": amount}
 }
@@ -46,7 +49,41 @@ function inspireRecipe(input, result) {
         amount: result
     }
 }
-
+function chemical(input,input_fluid,output,output_fluid,time){
+	let result={
+	"type": "immersiveindustry:chemical",
+	"time": time
+	}
+	if(input){
+		
+		result.inputs=[];
+		for(let i of input){
+			if(i.base_ingredient)
+				result.inputs.push(i)
+			else
+				result.inputs.push(IEIngredient(i));
+		}
+	}
+	if(input_fluid)
+	result.input_fluids=input_fluid;
+	if(output){
+		result.outputs=[];
+		for(let i of output)
+			result.outputs.push(Item.of(i));
+	}
+	if(output_fluid){
+		result.result_fluids=[];
+		for(let i of output_fluid){
+			let fluidOut={"fluid":i.id,"amount":i.amount};
+			
+			if(i.nbt)
+				fluidOut.tag=i.nbt
+			result.result_fluids.push(fluidOut);
+		}
+	}
+	console.info(result)
+	return result
+}
 function incubateItemRecipe(input, catalyst, use_catalyst, result, time, water) {
     return {
         type: "frostedheart:incubate",
