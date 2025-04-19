@@ -30,7 +30,7 @@ ServerEvents.recipes((event) => {
 		"supplementaries:faucet",
 		"supplementaries:bomb",
 		"minecraft:green_dye",
-        "minecraft:bread"
+        "minecraft:bread",
 	]
 	workbench.forEach((Item) => {
 		event.remove({ type: "minecraft:crafting_shaped", output: Item })
@@ -42,7 +42,7 @@ ServerEvents.recipes((event) => {
 		"minecraft:wheat",
 		"minecraft:mushroom_stew",
 		"create:tree_fertilizer",
-        "immersiveengineering:fertilizer"
+        "immersiveengineering:fertilizer",
 	]
 
 	/*let Pot = [
@@ -143,6 +143,7 @@ ServerEvents.recipes((event) => {
         "stone_age:dried_grass",
         "stone_age:thatch_block",
         "stone_age:flint_workbench",
+        "stone_age:unlit_torch_shaped",
 
 		// ie
 		"immersiveengineering:toolbox",
@@ -154,8 +155,6 @@ ServerEvents.recipes((event) => {
 		"create:cogwheel",
 		"create:large_cogwheel",
 		"create:windmill_bearing",
-		"create:flywheel",
-		"create:furnace_engine",
 		"create:steam_engine",
 
 		// create: causes infinite power
@@ -164,10 +163,6 @@ ServerEvents.recipes((event) => {
 		"create:piston_extension_pole",
 		"create:cart_assembler",
 
-		// create: will be available in later tech
-		"create:mechanical_drill",
-		"create:mechanical_bearing",
-
         // materials
         "create:crushed_raw_tin",
         "create:crushed_raw_aluminum",
@@ -175,15 +170,6 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:raw_block_aluminum",
         "immersiveengineering:ore_aluminum",
         "immersiveengineering:deepslate_ore_aluminum",
-
-
-        // contraptions
-		// "create:wand_of_symmetry",
-		// "create:clockwork_bearing",
-		// "create:sticker",
-		// "create:rope_pulley",
-		// "create:schematicannon",
-		// "create:mechanical_plough",
 	]
 	disabledItems.forEach((disabledItem) => {
 		event.remove({ output: disabledItem })

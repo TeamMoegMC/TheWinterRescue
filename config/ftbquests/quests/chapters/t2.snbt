@@ -872,11 +872,18 @@
 			id: "55BE6F159CF89342"
 			shape: "gear"
 			subtitle: "{quest.twr.55BE6F159CF89342.subtitle}"
-			tasks: [{
-				id: "44801E41AF525D71"
-				item: "minecraft:dandelion"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "44801E41AF525D71"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+				{
+					id: "20C1D77B269515BD"
+					item: "frostedheart:rubber_dandelion"
+					type: "item"
+				}
+			]
 			title: "{quest.twr.55BE6F159CF89342.title}"
 			x: 0.0d
 			y: -1.5d

@@ -220,9 +220,9 @@ ServerEvents.recipes((event) => {
             "BCB",
             "ABA"
         ], {
-            A: "#forge:plates/tungsten_steel",
+            A: "#forge:plates/duralumin",
             B: "immersiveengineering:component_steel",
-            C: "frostedheart:tungstensteel_ingot"
+            C: "#forge:ingots/duralumin"
         }
         ],
         [
@@ -828,16 +828,6 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "charcoal_pit:unfired_sandy_brick", 4, [
-            "ABA",
-            "BAB",
-            "ABA"
-        ], {
-            A: "minecraft:sand",
-            B: "minecraft:clay_ball"
-        }
-        ],
-        [
             "handcrafted:wood_plate", 2, [
             "AA"
         ], {
@@ -852,6 +842,28 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#minecraft:stone_bricks",
             B: "#forge:plates/bronze"
+        }
+        ],
+        [
+            "create:mechanical_bearing", 1, [
+            "A",
+            "B",
+            "C "
+        ], {
+            A: "#minecraft:wooden_slabs",
+            B: "immersiveengineering:heavy_engineering",
+            C: "create:shaft"
+        }
+        ],
+        [
+            "create:mechanical_drill", 1, [
+            " A ",
+            "ABA",
+            " C "
+        ], {
+            A: "#forge:ingots/steel",
+            B: "#forge:ingots/duralumin",
+            C: "immersiveengineering:heavy_engineering"
         }
         ],
     ]
@@ -876,6 +888,7 @@ ServerEvents.recipes((event) => {
 
         // Remove old recipes
         event.remove({output: output, type: "minecraft:crafting_shaped"})
+        event.remove({output: output, type: "minecraft:crafting_shapeless"})
 
         // Add new Recipes
         kubejs.shaped(output, pattern, keys)

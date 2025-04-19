@@ -1,0 +1,54 @@
+{
+  "points": 1000,
+  "insight": 1,
+  "name": "重型机械",
+  "desc": [
+    "为了打造重型机械，我需要采用更加坚固、耐寒的材料。"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "id": "a50d196403124d6c",
+      "required": true,
+      "value": 0.0,
+      "level": 0
+    }
+  ],
+  "ingredients": [
+    {
+      "base_ingredient": {
+        "item": "frostedheart:duralumin_sheet"
+      },
+      "count": 16
+    },
+    {
+      "base_ingredient": {
+        "item": "immersiveengineering:component_steel"
+      },
+      "count": 16
+    },
+    {
+      "base_ingredient": {
+        "item": "kubejs:servo_core"
+      },
+      "count": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "item": {
+        "item": "immersiveengineering:heavy_engineering"
+      },
+      "id": "dcd78218d6cd44f6"
+    }
+  ],
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "immersiveengineering:heavy_engineering",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:production"
+}

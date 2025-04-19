@@ -17,4 +17,5 @@ ServerEvents.recipes((event) => {
     charcoal_pit.orekiln("minecraft:gold_ingot", ["#forge:raw_materials/gold"])
 
     charcoal_pit.orekiln("caupona:portable_brazier", "caupona:clay_portable_brazier")
+    charcoal_pit.orekiln("frostedheart:ceramic_bucket", "kubejs:clay_bucket")
 })

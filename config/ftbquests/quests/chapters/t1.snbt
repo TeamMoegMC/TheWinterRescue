@@ -1414,6 +1414,17 @@
 			x: 13.5d
 			y: -2.5d
 		}
+		{
+			dependencies: ["03A553EBD453466A"]
+			id: "083DF773552A866D"
+			tasks: [{
+				id: "0FFEAF40BFA8E451"
+				item: "frostedheart:ceramic_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
 	]
 	subtitle: ["{chapter.twr.0F108F94F3A03203.subtitle}"]
 	title: "{chapter.twr.0F108F94F3A03203.title}"

@@ -1,76 +1,91 @@
 {
-  "icon": "frostedheart:steel_ingot",
-  "category": "frostedheart:production",
-  "parents": [
-    "heating_basin",
-    "electromagnetics"
-  ],
+  "showAltDesc": true,
+  "points": 5000,
+  "insight": 1,
   "clues": [
     {
       "type": "game",
-      "value": 0.6,
       "id": "b273c6897df04409",
       "required": true,
+      "value": 0.6,
       "level": 1
     },
     {
       "type": "game",
-      "value": 0.2,
       "id": "1641155720c64541",
+      "value": 0.2,
       "level": 1
     },
     {
       "type": "item",
-      "value": 0.16,
       "id": "293efb899ab946c1",
+      "value": 0.16,
+      "consume": true,
       "item": {
-        "count": 12,
         "base_ingredient": {
           "item": "frostedheart:high_refractory_bricks"
-        }
-      },
-      "consume": true
+        },
+        "count": 12
+      }
     }
   ],
   "ingredients": [
     {
-      "count": 2,
       "base_ingredient": {
         "tag": "forge:coal_coke"
-      }
+      },
+      "count": 2
     },
     {
-      "count": 2,
       "base_ingredient": {
         "item": "minecraft:iron_ingot"
-      }
+      },
+      "count": 2
     },
     {
-      "count": 2,
       "base_ingredient": {
         "tag": "forge:ingots/cast_iron"
-      }
+      },
+      "count": 2
     },
     {
-      "count": 2,
       "base_ingredient": {
         "item": "frostedheart:high_refractory_bricks"
-      }
+      },
+      "count": 2
     }
   ],
   "effects": [
     {
       "type": "multiblock",
-      "icon": "immersiveindustry:crucible",
+      "icon": {
+        "type": "item",
+        "item": {
+          "id": "immersiveindustry:crucible",
+          "Count": 1
+        }
+      },
       "id": "3bbf2ad41ee0444f",
       "multiblock": "immersiveindustry:multiblocks/crucible"
     },
     {
       "type": "recipe",
-      "id": "6e6cf95ee4324e31",
-      "item": "immersiveindustry:burning_chamber"
+      "item": {
+        "item": "immersiveindustry:burning_chamber"
+      },
+      "id": "6e6cf95ee4324e31"
     }
   ],
-  "points": 5000,
-  "showAltDesc": true
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "immersiveindustry:crucible",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:production",
+  "parents": [
+    "electromagnetics",
+    "heating_basin"
+  ]
 }

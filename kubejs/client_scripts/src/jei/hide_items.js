@@ -5,6 +5,7 @@ JEIEvents.hideItems((event) => {
         "stone_age:dried_grass",
         "stone_age:thatch_block",
         "stone_age:flint_workbench",
+        "stone_age:unlit_torch_shaped",
 
         // ie
         "immersiveengineering:toolbox",
@@ -12,16 +13,15 @@ JEIEvents.hideItems((event) => {
         "immersiveengineering:fluid_sorter",
         "immersiveengineering:watermill",
         "immersiveengineering:windmill",
-        "engineersdecor:metal_crafting_table",
 
         // create power devices: we have steam power
         "create:water_wheel",
         "create:cogwheel",
         "create:large_cogwheel",
         "create:windmill_bearing",
-        "create:flywheel",
-        "create:furnace_engine",
+        "create:steam_engine",
 
+        // create: causes infinite power
         "create:mechanical_piston",
         "create:sticky_mechanical_piston",
         "create:piston_extension_pole",

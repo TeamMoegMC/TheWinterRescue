@@ -397,6 +397,50 @@
 			x: 3.0d
 			y: -6.5d
 		}
+		{
+			dependencies: ["5D52744D5382A6CA"]
+			id: "117126848D33F71A"
+			tasks: [{
+				id: "47D33499FB456531"
+				item: "frostedheart:duralumin_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["117126848D33F71A"]
+			id: "6E004B49C4A0312C"
+			tasks: [{
+				id: "1BD81808B031EF45"
+				item: "immersiveengineering:heavy_engineering"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["117126848D33F71A"]
+			id: "02A290F2977763AA"
+			tasks: [{
+				id: "73160380D7FAD498"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["117126848D33F71A"]
+			id: "25C0678C94045A8D"
+			tasks: [{
+				id: "75A99CCA19A65D13"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
 	]
 	subtitle: ["{chapter.twr.0F92A786237ACCA8.subtitle}"]
 	title: "{chapter.twr.0F92A786237ACCA8.title}"

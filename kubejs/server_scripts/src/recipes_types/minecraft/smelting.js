@@ -20,6 +20,7 @@ ServerEvents.recipes((event) => {
         {output: 'minecraft:paper', input: 'frostedheart:pulp'}
     ]
 	minecraft.smelting('4x minecraft:red_dye', 'frostedheart:lead_oxide_dust')
+    minecraft.smelting("frostedheart:ceramic_bucket", "kubejs:clay_bucket")
     recipes.forEach((recipe) => {
         minecraft.smelting(recipe.output, recipe.input)
         immersiveengineering.blast_furnace(recipe.output, recipe.input, "immersiveengineering:slag")
