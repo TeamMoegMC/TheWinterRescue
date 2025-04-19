@@ -727,7 +727,7 @@
 			tasks: [{
 				biome: "the_winter_rescue:brine_deposits"
 				id: "382007D3D90CFCF9"
-				title: "盐卤矿床"
+				title: "{quest.twr.6A8763AC1CB99741.382007D3D90CFCF9.title}"
 				type: "biome"
 			}]
 			x: 1.0d
@@ -739,7 +739,7 @@
 			tasks: [{
 				biome: "the_winter_rescue:hydrothermal_deposits"
 				id: "089061C926D9BC78"
-				title: "热液矿床"
+				title: "{quest.twr.0B2F3CAC5B03D4E4.089061C926D9BC78.title}"
 				type: "biome"
 			}]
 			x: 1.0d
@@ -751,7 +751,7 @@
 			tasks: [{
 				biome: "the_winter_rescue:magmatic_deposits"
 				id: "683447AE58A170B2"
-				title: "火成矿床"
+				title: "{quest.twr.07B02C16818048BE.683447AE58A170B2.title}"
 				type: "biome"
 			}]
 			x: 1.0d
@@ -763,7 +763,7 @@
 			tasks: [{
 				biome: "the_winter_rescue:fossil_deposits"
 				id: "78DC3799AD732868"
-				title: "化石矿床"
+				title: "{quest.twr.3B50BED67850F724.78DC3799AD732868.title}"
 				type: "biome"
 			}]
 			x: 1.0d

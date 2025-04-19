@@ -437,6 +437,11 @@
 	"quest.twr.36960F1D7CDC8B30.subtitle": "暖身",
 	"quest.twr.36960F1D7CDC8B30.title": "温暖的营火",
 	"quest.twr.37726761B26CE51C.67AE103E9E6F8142.title": "研究点数",
+	"quest.twr.37726761B26CE51C.description.1": "研究也可以通过提交足额的&b科技点数&r来完成。",
+	"quest.twr.37726761B26CE51C.description.2": "",
+	"quest.twr.37726761B26CE51C.description.3": "&b科技点数&r需要&b特别的机器&r才能获取。",
+	"quest.twr.37726761B26CE51C.description.4": "",
+	"quest.twr.37726761B26CE51C.description.5": "在能制造&b特别的机器&r之前，所有研究都能通过&b完成所有线索&r解锁。",
 	"quest.twr.37726761B26CE51C.subtitle": "算力114514K",
 	"quest.twr.37B4F2A2F05B5332.description.1": "&e一个计算器的计算能力太单薄了，也只能储存有限的点数，需要时常去收取。",
 	"quest.twr.37B4F2A2F05B5332.description.2": "但是如果造好几个计算器连在一起，并给它们提供基本的工作条件，或者减速驱动。这时候就会带来两个好处：",
@@ -1053,9 +1058,9 @@
 	"quest.twr.7F91A18F97F23E75.title": "奇怪的雪",
 	"reward_table.twr.0566391630E2A62E.title": "简易工具包",
 	"reward_table.twr.5B4F6405EAEE3731.title": "遗迹资源奖励包",
-	"quest.twr.37726761B26CE51C.description.1": "研究也可以通过提交足额的&b科技点数&r来完成。",
-	"quest.twr.37726761B26CE51C.description.2": "",
-	"quest.twr.37726761B26CE51C.description.3": "&b科技点数&r需要&b特别的机器&r才能获取。",
-	"quest.twr.37726761B26CE51C.description.4": "",
-	"quest.twr.37726761B26CE51C.description.5": "在能制造&b特别的机器&r之前，所有研究都能通过&b完成所有线索&r解锁。"
+	"quest.twr.07B02C16818048BE.683447AE58A170B2.title": "火成矿床",
+	"quest.twr.0B2F3CAC5B03D4E4.089061C926D9BC78.title": "热液矿床",
+	"quest.twr.304FE45FE4655D95.description.1": "在寒冷的地带，地面上鲜有动物，海洋和河流中却很富饶。",
+	"quest.twr.3B50BED67850F724.78DC3799AD732868.title": "化石矿床",
+	"quest.twr.6A8763AC1CB99741.382007D3D90CFCF9.title": "盐卤矿床"
 }

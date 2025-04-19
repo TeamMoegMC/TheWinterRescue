@@ -437,6 +437,11 @@
 	"quest.twr.36960F1D7CDC8B30.subtitle": "Warming up",
 	"quest.twr.36960F1D7CDC8B30.title": "Warm Campfire",
 	"quest.twr.37726761B26CE51C.67AE103E9E6F8142.title": "Calculation point",
+	"quest.twr.37726761B26CE51C.description.1": "Research can also be completed by submitting enough &bResearch Points&r.",
+	"quest.twr.37726761B26CE51C.description.2": "",
+	"quest.twr.37726761B26CE51C.description.3": "&bResearch Points&r need &bSpecial Machines&r to be obtained.",
+	"quest.twr.37726761B26CE51C.description.4": "",
+	"quest.twr.37726761B26CE51C.description.5": "Before constructing &bSpecial Machines&r, All research can be completed by &bCompleting All Clues&r.",
 	"quest.twr.37726761B26CE51C.subtitle": "Hashrate 114514K",
 	"quest.twr.37B4F2A2F05B5332.description.1": "&eProduction rate for a single calculator is slow, and its storage is fairly low.",
 	"quest.twr.37B4F2A2F05B5332.description.2": "However, if you build a few mechanical calculators and connect them to each other, you would take these advantages: ",
@@ -1053,9 +1058,9 @@
 	"quest.twr.7F91A18F97F23E75.title": "Weird Snow",
 	"reward_table.twr.0566391630E2A62E.title": "Makeshift Tools Package",
 	"reward_table.twr.5B4F6405EAEE3731.title": "Relic Resources Package",
-	"quest.twr.37726761B26CE51C.description.1": "研究也可以通过提交足额的&b科技点数&r来完成。",
-	"quest.twr.37726761B26CE51C.description.2": "",
-	"quest.twr.37726761B26CE51C.description.3": "&b科技点数&r需要&b特别的机器&r才能获取。",
-	"quest.twr.37726761B26CE51C.description.4": "",
-	"quest.twr.37726761B26CE51C.description.5": "在能制造&b特别的机器&r之前，所有研究都能通过&b完成所有线索&r解锁。"
+	"quest.twr.07B02C16818048BE.683447AE58A170B2.title": "Magmatic Deposit",
+	"quest.twr.0B2F3CAC5B03D4E4.089061C926D9BC78.title": "Hydrothermal Deposit",
+	"quest.twr.304FE45FE4655D95.description.1": "In cold areas, animals are rare on land, but rich in oceans and rivers.",
+	"quest.twr.3B50BED67850F724.78DC3799AD732868.title": "Fossil Deposit",
+	"quest.twr.6A8763AC1CB99741.382007D3D90CFCF9.title": "Brine Deposit"
 }

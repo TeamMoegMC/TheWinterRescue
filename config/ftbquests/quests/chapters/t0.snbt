@@ -294,7 +294,10 @@
 				{
 					count: 16L
 					id: "21703FC750F7F18B"
-					item: { Count: 16, id: "charcoal_pit:straw" }
+					item: {
+						Count: 16
+						id: "charcoal_pit:straw"
+					}
 					type: "item"
 				}
 			]
@@ -1413,7 +1416,7 @@
 		}
 		{
 			dependencies: ["4B6FFA5A9140019F"]
-			description: ["在寒冷的地带，地面上鲜有动物，海洋和河流中却很富饶。"]
+			description: ["{quest.twr.304FE45FE4655D95.description.1}"]
 			id: "304FE45FE4655D95"
 			tasks: [{
 				id: "3657AF72E4990823"
