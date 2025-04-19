@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://i.imgur.com/7W3dnEF.png" alt="TWR 0.5 Update">
+    <img src="https://media.forgecdn.net/attachments/497/270/twr_day_en_0.png" alt="TWR 0.5 Update">
 </div>
 
 # The Winter Rescue
@@ -10,8 +10,8 @@
 > Forty years after _The Winter_ began, you—raised in the Spaceport _Columbiat_—discover 
 > a mysterious temperature-encoded __Message__ from a long-lost relative.
 > 
-> Amidst the growing political division and resource tension between Earth and *Columbiat*, 
-you decide to return to the frozen planet.
+> Amidst the growing political division and resource tension between Earth and *Columbiat*,
+> you decide to return to the frozen planet.
 > 
 > Deep in your heart, you believe that the __Message__ is inviting you to unveil how _The Winter_ started, 
 > and how to revive and re-understand _The Life_ of the World.
@@ -25,24 +25,30 @@ you decide to return to the frozen planet.
 _Embark on a journey where survival is just the beginning. 
 In a world frozen by mystery, every choice echoes through the ruins of the past—and the hope of a future reborn._
 
-<div align="center">
-<img src="https://i.imgur.com/hia9TS2.png" alt="Sevlya" width="100">
-</div>
+[//]: # (<div align="center">)
+
+[//]: # (<img src="https://i.imgur.com/hia9TS2.png" alt="Sevlya" width="100">)
+
+[//]: # (</div>)
 
 **Sevlya** (You): As the sole, surname-less child of Dr. Alankni, you were born in an unknown base in the
 middle of Utah Desert, but soon left Earth to grow and get educated in _Columbiat_.
 
-<div align="center">
-<img src="https://i.imgur.com/oXvAikO.png" alt="Alankni" width="100">
-</div>
+[//]: # (<div align="center">)
+
+[//]: # (<img src="https://i.imgur.com/oXvAikO.png" alt="Alankni" width="100">)
+
+[//]: # (</div>)
 
 **Dr. Alankni Chen**: Grew up as a child prodigy, she was a Professor of Physics and
 Bioengineering at Massachusetts Institute of Technology (MIT), who pioneered the first
 titanium-based genetic information carrier, but disappeared soon after _The Winter_ started.
 
-<div align="center">
-<img src="https://i.imgur.com/ppu0Yot.png" alt="Alankni" width="100">
-</div>
+[//]: # (<div align="center">)
+
+[//]: # (<img src="https://i.imgur.com/ppu0Yot.png" alt="Alankni" width="100">)
+
+[//]: # (</div>)
 
 **Ana Vierra**: Lost her legs to frostbite in the age of eight, she was one of the 
 Earth refugees finding their way to survive by all means, even those unmoral. 
@@ -54,7 +60,7 @@ More survivors and secrets await discovery in-game.
 🎬 **Immersive Scenarios & Lores**
   Dive into an original lore based on science fictional realism and embark on epic adventures.
 
-<img src="https://i.imgur.com/zuqiDdY.png" width="500">
+<img src="https://media.forgecdn.net/attachments/1162/486/zuqiddy-imgur-png.png" width="500">
 
 ❄️ **Realistic Winter Survival**  
   Adapt to harsh temperatures and dynamic weather systems to maintain your body temperature and survive in a beautiful yet unforgiving winter landscape.
@@ -87,7 +93,7 @@ Delve into handcrafted frozen worlds, encountering unique creatures, uncovering 
 
 <img src="https://i.imgur.com/rOimNBh.png" width="500">
 
-🏘️ **Town Building & Management**  
+🏘️ **Town Building & Management (Upcoming, work in progress)**  
   Rescue exiled refugees, provide warmth and sustenance, and construct a thriving, self-sufficient town amidst the harsh conditions.
 
 <img src="https://i.imgur.com/DyyqdJc.jpeg" width="500">
@@ -204,12 +210,12 @@ Localization:
 - Russian: Whitealbum0, EvilToasterDBU
 
 Contributors:
-- Programming: LetterN, Huaji_Qinmi, ceary741, Gugusb, Winged-Hussars, ewoudje, IBlessus, Qi-Month,  KilaBash
+- Programming: LetterN, Huaji_Qinmi, ceary741, Gugusb, Winged-Hussars, ewoudje, IBlessus, Qi-Month, KilaBash, xkball
 - Art: Heitao
 - Building: nekocrane, GuardianWorld, Keisari, Lanshan
 - Design: Lanshan
 - Writing: ZXCZST, xxy, Lanshan
-- Quality Assurance: Lethium, AiseyFox, Do_zi
+- Quality Assurance: Lethium, AiseyFox, Do_zi, YunYuewenwen, huntunbushihundu, SkySunshine
 
 Special Thanks:
 - The Mojang Team for the game itself.
