@@ -104,24 +104,24 @@
     "creature": [
       {
         "type": "minecraft:goat",
-        "maxCount": 3,
+        "maxCount": 2,
         "minCount": 1,
-        "weight": 5
+        "weight": 1
       }
     ],
     "misc": [],
     "monster": [
       {
         "type": "minecraft:spider",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 10
       },
       {
         "type": "minecraft:creeper",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 10
       }
     ],
     "underground_water_creature": [

@@ -10,8 +10,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
-                "max": 2.0,
+                "min": 2.0,
+                "max": 4.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -36,48 +36,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            },
-            {
-              "function": "minecraft:furnace_smelt",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "predicate": {
-                    "flags": {
-                      "is_on_fire": true
-                    }
-                  },
-                  "entity": "this"
-                }
-              ]
-            },
-            {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              }
-            }
-          ],
-          "name": "kubejs:frozen_fat"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
                 "min": 1.0,
-                "max": 3.0,
+                "max": 2.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -103,7 +63,7 @@
               }
             }
           ],
-          "name": "kubejs:frozen_auroch_meat"
+          "name": "stone_age:fat"
         }
       ]
     },
@@ -116,8 +76,48 @@
             {
               "function": "minecraft:set_count",
               "count": {
+                "min": 2.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  },
+                  "entity": "this"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
                 "min": 0.0,
-                "max": 2.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "stone_age:auroch_meat"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2.0,
+                "max": 4.0,
                 "type": "minecraft:uniform"
               }
             },

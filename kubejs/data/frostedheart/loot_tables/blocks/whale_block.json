@@ -1,11 +1,12 @@
 {
-  "type": "minecraft:entity",
+  "type": "minecraft:block",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "frostedheart:raw_whale_meat",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -14,16 +15,8 @@
                 "max": 3.0,
                 "type": "minecraft:uniform"
               }
-            },
-            {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              }
             }
-          ],
-          "name": "stone_age:raw_hide"
+          ]
         }
       ]
     }

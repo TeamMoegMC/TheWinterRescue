@@ -11,7 +11,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 2.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -37,7 +37,7 @@
               }
             }
           ],
-          "name": "kubejs:frozen_mutton"
+          "name": "minecraft:mutton"
         }
       ]
     }
