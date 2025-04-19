@@ -129,33 +129,33 @@
       },
       {
         "type": "minecraft:fox",
-        "maxCount": 2,
+        "maxCount": 1,
         "minCount": 1,
         "weight": 1
       },
       {
         "type": "stone_age:deer",
-        "maxCount": 2,
+        "maxCount": 1,
         "minCount": 1,
-        "weight": 2
+        "weight": 1
       },
       {
         "type": "stone_age:mouflon",
-        "maxCount": 2,
+        "maxCount": 1,
         "minCount": 1,
-        "weight": 2
+        "weight": 1
       },
       {
         "type": "stone_age:auroch",
-        "maxCount": 2,
+        "maxCount": 1,
         "minCount": 1,
-        "weight": 2
+        "weight": 1
       },
       {
         "type": "stone_age:fowl",
-        "maxCount": 3,
+        "maxCount": 1,
         "minCount": 1,
-        "weight": 2
+        "weight": 1
       }
     ],
     "misc": [],
