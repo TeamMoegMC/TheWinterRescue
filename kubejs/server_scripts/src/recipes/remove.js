@@ -191,7 +191,9 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:arcfurnace/raw_block_aluminum",
         "immersiveindustry:crucible/steel",
         "charcoal_pit:ore_kiln_recipes/copper",
-		"immersiveindustry:chemical"
+		"immersiveindustry:chemical",
+		"immersiveengineering:refinery/resin",
+		"immersiveengineering:refinery/acetaldehyde"
         // "stone_age:grass_lead",
         // "stone_age:dried_grass",
         // "stone_age:fishing_net_meshes",
@@ -212,6 +214,14 @@ ServerEvents.recipes((event) => {
 		"immersiveengineering:capacitor_mv",
 		"immersiveengineering:capacitor_hv",
 		"immersiveengineering:dust_hop_graphite",
+		"create:item_vault",
+		'supplementaries:relayer',
+		'supplementaries:turn_table',
+		'supplementaries:pulley_block',
+		'supplementaries:cog_block',
+		'supplementaries:cannon',
+		'supplementaries:wrench',
+		'supplementaries:slingshot'
 	]
 	removeOnly.forEach((removeItem) => {
 		event.remove({ output: removeItem })

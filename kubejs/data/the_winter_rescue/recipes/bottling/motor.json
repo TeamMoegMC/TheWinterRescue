@@ -1,0 +1,30 @@
+{
+  "type": "immersiveengineering:bottling_machine",
+  "fluid": {
+    "amount": 250,
+    "tag": "forge:phenolic_resin"
+  },
+  "inputs": [
+    {
+      "tag": "forge:rods/cast_iron"
+    },
+	{
+      "base_ingredient": {
+        "tag": "forge:plates/aluminum"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "immersiveengineering:wirecoil_copper"
+      },
+      "count": 2
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "item": "kubejs:motor"
+    }
+  ]
+}

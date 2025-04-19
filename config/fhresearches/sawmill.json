@@ -1,0 +1,57 @@
+{
+  "showAltDesc": true,
+  "points": 3000,
+  "insight": 1,
+  "name": "电动原木处理",
+  "clues": [
+    {
+      "type": "game",
+      "id": "9c5e144095ba418b",
+      "value": 1.0,
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "base_ingredient": {
+        "item": "create:mechanical_saw"
+      },
+      "count": 2
+    },
+    {
+      "base_ingredient": {
+        "item": "kubejs:motor"
+      },
+      "count": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "multiblock",
+      "id": "f18bfec4c4454459",
+      "multiblock": "immersiveengineering:multiblocks/sawmill"
+    }
+  ],
+  "icon": {
+    "type": "combined",
+    "base": {
+      "type": "item",
+      "item": {
+        "id": "create:mechanical_saw",
+        "Count": 1
+      }
+    },
+    "small": {
+      "type": "item",
+      "item": {
+        "id": "kubejs:motor",
+        "Count": 1
+      }
+    }
+  },
+  "category": "frostedresearch:production",
+  "parents": [
+    "mechanical_saw",
+    "heavy_engineering"
+  ]
+}

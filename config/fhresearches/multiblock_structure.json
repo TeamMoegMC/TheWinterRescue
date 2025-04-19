@@ -1,71 +1,85 @@
 {
-  "icon": "immersiveengineering:light_engineering",
-  "category": "frostedheart:production",
-  "parents": [
-    "electrolyzer"
-  ],
+  "showAltDesc": true,
+  "points": 5000,
+  "insight": 1,
   "clues": [
     {
       "type": "game",
-      "value": 0.45,
       "id": "2929a10897b34151",
       "required": true,
+      "value": 0.45,
       "level": 1
     },
     {
       "type": "game",
-      "value": 0.2,
       "id": "99027a4e9334889",
+      "value": 0.2,
       "level": 1
     },
     {
       "type": "item",
-      "value": 0.2,
       "id": "acb0be5f4924fcd",
+      "value": 0.2,
+      "consume": true,
       "item": {
-        "count": 4,
         "base_ingredient": {
           "item": "kubejs:servo_core"
-        }
-      },
-      "consume": true
+        },
+        "count": 4
+      }
     },
     {
       "type": "item",
-      "value": 0.1,
       "id": "e6ef921e1dd34a8c",
+      "value": 0.1,
+      "consume": true,
       "item": {
-        "count": 2,
         "base_ingredient": {
           "item": "kubejs:servo_core"
-        }
-      },
-      "consume": true
+        },
+        "count": 2
+      }
     }
   ],
   "ingredients": [
     {
-      "count": 4,
       "base_ingredient": {
         "item": "immersiveengineering:component_iron"
-      }
+      },
+      "count": 4
     },
     {
-      "item": "kubejs:servo_core"
+      "base_ingredient": {
+        "item": "kubejs:servo_core"
+      },
+      "count": 1
     }
   ],
   "effects": [
     {
       "type": "recipe",
-      "id": "d16d016f4df84131",
-      "item": "immersiveengineering:light_engineering"
+      "item": {
+        "item": "immersiveengineering:light_engineering"
+      },
+      "id": "d16d016f4df84131"
     },
     {
       "type": "recipe",
-      "id": "ee10ccb46fc6449e",
-      "item": "immersiveengineering:rs_engineering"
+      "item": {
+        "item": "immersiveengineering:rs_engineering"
+      },
+      "id": "ee10ccb46fc6449e"
     }
   ],
-  "points": 5000,
-  "showAltDesc": true
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "immersiveengineering:light_engineering",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:production",
+  "parents": [
+    "electrolyzer"
+  ]
 }

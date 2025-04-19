@@ -19,26 +19,45 @@
   ],
   "ingredients": [
     {
-      "count": 4,
       "base_ingredient": {
         "item": "immersiveengineering:dust_hop_graphite"
-      }
+      },
+      "count": 4
     },
     {
-      "item": "kubejs:servo_core"
+      "base_ingredient": {
+        "item": "kubejs:servo_core"
+      },
+      "count": 1
     }
   ],
   "effects": [
     {
       "type": "multiblock",
-      "icon": "immersiveindustry:industrial_electrolyzer",
+      "icon": {
+        "type": "item",
+        "item": {
+          "id": "immersiveindustry:industrial_electrolyzer",
+          "Count": 1
+        }
+      },
       "id": "8eb48e58afd24a02",
       "multiblock": "immersiveindustry:multiblocks/industrial_electrolyzer"
     }
   ],
-  "icon": "immersiveengineering:graphite_electrode",
-  "category": "frostedheart:ars",
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "immersiveengineering:graphite_electrode",
+      "Count": 1,
+      "tag": {
+        "graphDmg": 0
+      }
+    }
+  },
+  "category": "frostedresearch:ars",
   "parents": [
-    "metal_press"
+    "metal_press",
+    "squeezer"
   ]
 }

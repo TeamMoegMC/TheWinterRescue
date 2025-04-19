@@ -8,7 +8,8 @@ ServerEvents.recipes((event) => {
         "frostedheart:nickel_ingot",
         "immersiveengineering:ingot_uranium",
         "frostedheart:constantan_ingot",
-        "frostedheart:aluminum_ingot"
+        "frostedheart:aluminum_ingot",
+        "frostedheart:magnesium_ingot"
     ]
 
     removedSmeltingAndBlasting.forEach((result) => {
@@ -129,7 +130,7 @@ ServerEvents.recipes((event) => {
         carkilnRecipe(["3x frostedheart:nickel_matte", "2x frostedheart:quicklime"], ["3x frostedheart:nickel_ingot", "3x immersiveengineering:slag", "frostedheart:nickel_matte"], 1200,32)
     ]
     kilnRecipes.forEach((recipe) => {
-        event.custom(recipe); console.info(recipe)
+        event.custom(recipe);
     })
     
 })

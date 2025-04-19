@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let {create} = event.recipes
+    let {create,immersiveengineering} = event.recipes
     let recipes = [
         {
             output: ["2x minecraft:stick", Item.of("8x frostedheart:sawdust").withChance(0.5), Item.of("frostedheart:biomass").withChance(0.2)],
@@ -78,7 +78,7 @@ ServerEvents.recipes((event) => {
             input: "minecraft:stick"
         },
         {
-            output: ["frostedheart:rye_flour", Item.of("charcoal_pit:straw"), Item.of("2x frostedheart:rye_flour").withChance(0.25), Item.of("frostedheart:rye_block").withChance(0.1)],
+            output: ["frostedheart:rye_flour", Item.of("charcoal_pit:straw").withChance(1), Item.of("2x frostedheart:rye_flour").withChance(0.25), Item.of("frostedheart:rye_block").withChance(0.1)],
             input: "frostedheart:rye"
         },
         {
@@ -105,7 +105,8 @@ ServerEvents.recipes((event) => {
             input: "create:crushed_raw_nickel"
         },
     ]
-    recipes.forEach((recipe) => {
-        create.milling(recipe.output, recipe.input);
+    recipes.forEach((recipe,index) => {
+        create.milling(recipe.output, recipe.input).id(`the_winter_rescue:create/milling/${index}`);
+		immersiveengineering.crusher(recipe.output[0],recipe.input,recipe.output.slice(1)).id(`the_winter_rescue:immersiveengineering/crusher_milling/${index}`)
     })
 })

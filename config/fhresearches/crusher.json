@@ -1,0 +1,58 @@
+{
+  "showAltDesc": true,
+  "points": 3000,
+  "insight": 1,
+  "name": "电动粉碎",
+  "desc": [
+    "出乎意料的简单，只需要大力出奇迹即可。"
+  ],
+  "descAlt": [
+    "只是把粉碎轮改为电动而已，花不了多少时间。"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "id": "bf6a4881eeef47c7",
+      "value": 1.0,
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "base_ingredient": {
+        "item": "create:crushing_wheel"
+      },
+      "count": 2
+    },
+    {
+      "base_ingredient": {
+        "item": "kubejs:servo_core"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "kubejs:motor"
+      },
+      "count": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "multiblock",
+      "id": "300abf6dd77f4079",
+      "multiblock": "immersiveengineering:multiblocks/crusher"
+    }
+  ],
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "immersiveengineering:crusher",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:production",
+  "parents": [
+    "heavy_engineering"
+  ]
+}

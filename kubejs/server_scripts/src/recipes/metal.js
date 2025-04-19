@@ -85,10 +85,14 @@ ServerEvents.recipes((event) => {
         {mod: "frostedheart", metal: "constantan"},
         {mod: "frostedheart", metal: "electrum"},
         {mod: "frostedheart", metal: "silver"},
+		{mod: "frostedheart", metal: "nickel"},
+		{mod: "frostedheart", metal: "tin",no_plate:true},
         {mod: "create", metal: "copper"},
         {mod: "create", metal: "brass"},
         {mod: "create", metal: "iron"},
-        {mod: "create", metal: "gold"}
+		{mod: "create", metal: "zinc",no_plate:true},
+        {mod: "create", metal: "gold",no_plate:true},
+        {mod: "immersiveengineering", metal: "uranium",no_plate:true}
     ]
     metals.forEach((metal) => {
         let sheet = `${metal.mod}:${metal.metal}_sheet`
@@ -96,10 +100,15 @@ ServerEvents.recipes((event) => {
         /*		console.log(sheet)
                 console.log(ingot)
                 create.compacting(sheet, ingot);*/
+		if(!metal.no_plate)
         event.custom({
             type: "create:compacting",
             ingredients: Ingredient.of(ingot, 3),
             results: Item.of(sheet, 2)
         })
+		event.remove({id:"immersiveengineering:crusher/raw_ore_"+metal.metal})
+		event.remove({id:"immersiveengineering:crusher/raw_block_"+metal.metal})
+		event.remove({id:"immersiveengineering:arcfurnace/raw_block_"+metal.metal})
+		event.remove({id:"immersiveengineering:arcfurnace/raw_ore_"+metal.metal})
     })
 })

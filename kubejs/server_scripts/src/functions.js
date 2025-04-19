@@ -1,6 +1,18 @@
 //priority: 1005
 
 function IEIngredient(input) {
+
+	if((typeof input)=="object"&&input[0]){
+		var count=0;
+		var inps=[];
+		for(let i of input){
+			let inp=Item.of(i);
+			if(count==0)
+			count=inp.getCount();
+			inps.push(inp.withCount(1).toJson());
+		}
+		return {base_ingredient: inps, count: count}
+	}
     let inp = Item.of(input)
     return {base_ingredient: inp.withCount(1).toJson(), count: inp.getCount()}
 }

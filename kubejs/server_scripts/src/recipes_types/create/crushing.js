@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let {create} = event.recipes
+    let {create,immersiveengineering} = event.recipes
     let recipes = [
         // quartz
         {
@@ -164,6 +164,7 @@ ServerEvents.recipes((event) => {
     recipes.forEach((recipe, index) => {
         create.crushing(recipe.output, recipe.input)
             .id(`the_winter_rescue:create/crushing/${index}`)
+		immersiveengineering.crusher(recipe.output[0],recipe.input,recipe.output.slice(1)).id(`the_winter_rescue:immersiveengineering/crusher_crushing/${index}`)
     })
 	event.remove({type: "create:crushing"})
 	event.remove({id: "create:crushing/raw_nickel"})

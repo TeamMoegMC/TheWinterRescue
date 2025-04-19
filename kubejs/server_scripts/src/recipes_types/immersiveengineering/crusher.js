@@ -8,11 +8,19 @@ ServerEvents.recipes((event) => {
             [
                 Item.of("minecraft:quartz").withChance(0.5)
             ]
-        ]
+        ],
+		[
+			"#forge:dusts/magnesium",
+			"#forge:ingots/magnesium"
+		]
     ]
-    recipes.forEach(([output, input, [secondaries]], index) => {
-        immersiveengineering.crusher(output, input, [
+    recipes.forEach(([output, input, secondaries], index) => {
+		if(secondaries)
+        immersiveengineering.crusher(output, input, 
             secondaries
-        ]).id(`the_winter_rescue:immersiveengineering/crusher/${index}`)
+        ).id(`the_winter_rescue:immersiveengineering/crusher/${index}`)
+		else
+			 immersiveengineering.crusher(output, input,[]
+        ).id(`the_winter_rescue:immersiveengineering/crusher/${index}`)
     })
 })

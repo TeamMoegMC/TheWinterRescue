@@ -838,7 +838,7 @@ ServerEvents.recipes((event) => {
             "minecraft:furnace", 1, [
             "AAA",
             "B B",
-            "AAA "
+            "AAA"
         ], {
             A: "#minecraft:stone_bricks",
             B: "#forge:plates/bronze"
@@ -848,7 +848,7 @@ ServerEvents.recipes((event) => {
             "create:mechanical_bearing", 1, [
             "A",
             "B",
-            "C "
+            "C"
         ], {
             A: "#minecraft:wooden_slabs",
             B: "immersiveengineering:heavy_engineering",

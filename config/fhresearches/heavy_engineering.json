@@ -1,5 +1,5 @@
 {
-  "points": 1000,
+  "points": 8000,
   "insight": 1,
   "name": "重型机械",
   "desc": [
@@ -10,8 +10,20 @@
       "type": "game",
       "id": "a50d196403124d6c",
       "required": true,
-      "value": 0.0,
-      "level": 0
+      "value": 0.5,
+      "level": 1
+    },
+    {
+      "type": "item",
+      "id": "b1bd5b88122747cd",
+      "value": 0.2,
+      "consume": true,
+      "item": {
+        "base_ingredient": {
+          "item": "kubejs:servo_core"
+        },
+        "count": 5
+      }
     }
   ],
   "ingredients": [
@@ -50,5 +62,8 @@
       "Count": 1
     }
   },
-  "category": "frostedresearch:production"
+  "category": "frostedresearch:production",
+  "parents": [
+    "industrial_electrolyzer"
+  ]
 }

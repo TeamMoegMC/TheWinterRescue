@@ -66,6 +66,10 @@ ServerEvents.recipes((event) => {
             output: "2x frostedheart:compressed_biscuits",
             input: [Fluid.of("minecraft:water", 400), "2x create:wheat_flour"]
         },
+		{
+            output: "9x frostedheart:vulcanized_rubber",
+            input: [ Fluid.of("frostedheart:latex", 900)]
+        },
         {
             output: "2x frostedheart:compressed_biscuits",
             input: [Fluid.of("minecraft:water", 400), "3x frostedheart:rye_flour"]

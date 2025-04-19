@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
         crucibleRecipe(["#forge:dusts/steel"], "frostedheart:steel_ingot", 800, 1500),
 
         // alloys
-        crucibleRecipe(["7x #forge:ingots/aluminum", "#forge:ingots/copper", "#forge:ingots/magnesium"], "9x frostedheart:duralumin_ingot", 900, 630),
+        crucibleRecipe([["7x #forge:ingots/aluminum","#forge:dusts/aluminum"], ["#forge:ingots/copper","#forge:dusts/copper"], ["#forge:ingots/magnesium","#forge:dusts/magnesium"]], "9x frostedheart:duralumin_ingot", 900, 630),
         crucibleRecipe(["6x #forge:ingots/steel", "#forge:ingots/tungsten"], "7x frostedheart:tungsten_steel_ingot", 700, 3422),
         crucibleRecipe(["3x #forge:ingots/copper", "#forge:ingots/tin"], "4x frostedheart:bronze_ingot", 400, 913),
         crucibleRecipe(["2x #forge:ingots/iron", "#forge:ingots/nickel"], "3x frostedheart:invar_ingot", 300, 1427),

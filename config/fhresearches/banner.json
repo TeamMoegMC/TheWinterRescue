@@ -1,19 +1,10 @@
 {
-  "icon": "minecraft:barrier",
-  "category": "frostedheart:rescue",
-  "clues": [],
-  "ingredients": [],
+  "showAltDesc": true,
+  "locked": true,
+  "hidden": true,
+  "points": 276447232,
+  "insight": 1,
   "effects": [
-    {
-      "type": "multiblock",
-      "id": "fe14e4e345db4201",
-      "multiblock": "immersiveengineering:multiblocks/arcfurnace"
-    },
-    {
-      "type": "multiblock",
-      "id": "d4a45ad1a56541a3",
-      "multiblock": "immersiveengineering:multiblocks/diesel_generator"
-    },
     {
       "type": "multiblock",
       "id": "4778c2bd97464689",
@@ -26,17 +17,21 @@
     },
     {
       "type": "multiblock",
-      "id": "be5e11c42909448e",
+      "id": "4055c27d4d6340e1",
       "multiblock": "immersiveengineering:multiblocks/refinery"
     },
     {
       "type": "multiblock",
-      "id": "1faf7deded1340fd",
-      "multiblock": "immersiveengineering:multiblocks/sawmill"
+      "id": "a5169b9b5c34415e",
+      "multiblock": "immersiveengineering:multiblocks/diesel_generator"
     }
   ],
-  "points": 276447232,
-  "showAltDesc": true,
-  "hidden": true,
-  "locked": true
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "minecraft:barrier",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:rescue"
 }

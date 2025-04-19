@@ -1,0 +1,75 @@
+{
+  "showAltDesc": true,
+  "points": 3000,
+  "insight": 1,
+  "name": "自动组装",
+  "desc": [
+    "这样我就可以自动生产一些必须手搓的东西了。"
+  ],
+  "descAlt": [
+    "制造了自动合成台后，我觉得工程师装配台也可以自动化。"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "id": "c6646e682cd4da9",
+      "required": true,
+      "value": 0.5,
+      "level": 1
+    },
+    {
+      "type": "game",
+      "id": "bf0aa57060c14b5d",
+      "value": 0.5,
+      "level": 1
+    }
+  ],
+  "ingredients": [
+    {
+      "base_ingredient": {
+        "item": "kubejs:servo_core"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "immersiveengineering:workbench"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "immersiveengineering:hammer"
+      },
+      "count": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "multiblock",
+      "id": "2942779bc1684ae8",
+      "multiblock": "immersiveengineering:multiblocks/auto_workbench"
+    }
+  ],
+  "icon": {
+    "type": "combined",
+    "base": {
+      "type": "item",
+      "item": {
+        "id": "immersiveengineering:workbench",
+        "Count": 1
+      }
+    },
+    "small": {
+      "type": "item",
+      "item": {
+        "id": "minecraft:furnace_minecart",
+        "Count": 1
+      }
+    }
+  },
+  "category": "frostedresearch:production",
+  "parents": [
+    "assembler"
+  ]
+}

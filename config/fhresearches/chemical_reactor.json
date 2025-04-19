@@ -1,0 +1,66 @@
+{
+  "showAltDesc": true,
+  "points": 3000,
+  "insight": 1,
+  "name": "化工学",
+  "desc": [
+    "我们创建化学。"
+  ],
+  "descAlt": [
+    "化学改变生活，然而简单的搅拌机并不能处理气体，导致浪费。",
+    "为什么不制作一个专门用于化工合成的机器呢？这能极大提升资源的利用效率。"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "id": "b1c9bde9f4974409",
+      "required": true,
+      "value": 0.5,
+      "level": 1
+    },
+    {
+      "type": "item",
+      "id": "913126d4246a4746",
+      "value": 0.2,
+      "consume": true,
+      "item": {
+        "base_ingredient": {
+          "item": "immersiveengineering:ethanol_bucket"
+        },
+        "count": 1
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "base_ingredient": {
+        "item": "create:blaze_burner"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "immersiveengineering:fluid_pump"
+      },
+      "count": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "multiblock",
+      "id": "705fb6de10d46f6",
+      "multiblock": "immersiveindustry:multiblocks/chemical_reactor"
+    }
+  ],
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "immersiveengineering:acetaldehyde_bucket",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:production",
+  "parents": [
+    "big_mixer"
+  ]
+}
