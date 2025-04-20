@@ -1425,6 +1425,17 @@
 			x: -4.0d
 			y: 0.5d
 		}
+		{
+			dependencies: ["4543F3B5F937E6B0"]
+			id: "0FBDC5990CC853BA"
+			tasks: [{
+				id: "521B62FB88907B6C"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
 	]
 	subtitle: ["{chapter.twr.0F108F94F3A03203.subtitle}"]
 	title: "{chapter.twr.0F108F94F3A03203.title}"

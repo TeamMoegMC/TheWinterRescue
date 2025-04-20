@@ -56,7 +56,7 @@ Now I have a fire going. Time to think about further plans. @r
 
 Warm shelter. Place to craft. It's time to dive further into this world. @r
 Now you should know how to follow the quest book. @r
-You will encounter another scneario when you crafted a drawing desk.
+You will encounter another scenario when you crafted a drawing desk.
 @delay t=60
 
 @showTitle t="Chapter 1 Act 2" st="Compelete"
