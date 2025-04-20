@@ -277,31 +277,31 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 [NoWait]Me :[EndNoWait]Taking out supplies from ship. [l]
 @call s=prelogue_rewards
 *rewardClaimed
-啊！一枚一次性电池，应该足以维持五分钟的温暖。[p]
-（按E打开背包，您已获得「极温抗性」，五分钟内不受任何温度影响。）@p
-还有一颗镁锭，应该能帮助我生火。@p
-（双手分别持起火金属和燧石可以打火。）@p
-水袋也找到了，不过以后我大概得烧热水才能避免寄生虫。@p
-（潜行右击水源可以喝脏水，不过可能会造成腹泻。）@p
+Oh! A battery! It should provide warmth for five minutes.[p]
+(Press E to open Inventory. You should have obtained Insulation. You would be invulnerable against any temperature for five minutes. )@p
+Also a piece of Magnesium Ingot. It should help with getting a fire. @p
+(Holding a fire-starting metal and a piece of flint on both hands to start a fire.)@p
+(Found my water bag too. But I'd need to boil hot water to prevent parasites.)@p
+(Shift-R-Click water to drink dirty water, but it may cause diaherra.)@p
 @delay t=20
 
 *nutritionTutorial
-我：空间站派发的「军用口粮」虽然不好吃，但是能维持我一段时间的健康。@p
-（按E打开背包，鼠标悬浮在食品上，可以查看营养内容。）@p
-（按下TAB打开轮盘，选择「营养」打开营养均衡界面。）@p
-（将营养保持在20%到80%之间，避免获得负面属性，并获得正面增益。）@p
-（早期，您不需要对此担心，但必须将此任务提上长期日程。）@p
+Me: Military Rations from the space station aren't best, but would keep me healthy for enough time.@p
+(Press E to open Inventory, float your mouse on a Food to check Nutrition content.)@p
+(Press TAB to open Wheel Menu. Select Nutrition to open Nutrition Balance Panel.)@p
+(Keep each Nutrition type between 20 and 80 percent to prevent negative effects and obtain benefits.)@p
+(Early on, you won't need to worry about this. But it should be on your mind in long-term.)@p
 @delay t=20
-[link l=*clothingTutorial]&e[点击以继续]&r[endlink]
+[link l=*clothingTutorial]&e[Click to continue]&r[endlink]
 @wa
 
 *clothingTutorial
-我：身上的宇航服具有「保温系数」和「流体隔离性」，但是可能会损坏，我以后应该穿多层衣服。@p
-（按下TAB打开轮盘，选择「衣物」打开衣物穿戴界面；鼠标悬浮在衣物上，可以查看属性。）@p
-（每个身体部位上，越靠外的衣物越能体现「流体隔离性」，在遇水和遇风时更具效果。）@p
-（反之，越靠内的衣物越能体现「保温系数」，您应该根据不同衣物属性合理搭配。）@p
+Me: My Spacesuit has Insulation and Fluid Resistance, but it may break. I should wear layers of clothing in future.@p
+(Press TAB to open Wheel Menu. Select Clothing to open Clothing Panel. Float your mouth on a Clothes to check its properties.)@p
+(On every body part, outer clothes weigh more on Fluid Resistance, better when encountering Water or Wind.)@p
+(On contrary, inner clothes weigh more on Insulation. You should design your outfit based on different properties.)@p
 @delay t=20
-[link l=*endingTutorial]&e[点击以继续]&r[endlink]
+[link l=*endingTutorial]&e[Click to continue]&r[endlink]
 @wa
 
 *endingTutorial
