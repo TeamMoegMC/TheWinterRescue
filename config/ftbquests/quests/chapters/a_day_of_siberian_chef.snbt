@@ -88,6 +88,7 @@
 			rewards: [{
 				id: "75B62C2BB6660780"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "rsquare"
@@ -143,6 +144,7 @@
 			rewards: [{
 				id: "1347ECD6ADF8BC58"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.20F1DD1209093059.subtitle}"
@@ -163,6 +165,7 @@
 			rewards: [{
 				id: "5C850DE70FC70A2B"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "rsquare"
@@ -194,6 +197,7 @@
 				{
 					id: "7B4E726DBEAA8423"
 					insight: 1
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -213,6 +217,7 @@
 			rewards: [{
 				id: "3A5F819809C24406"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.32DB7CCD0A73D98F.subtitle}"
@@ -237,6 +242,7 @@
 			rewards: [{
 				id: "209908756C87B917"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.0CA87739C86BB0C6.subtitle}"
@@ -294,6 +300,7 @@
 			rewards: [{
 				id: "23304C4540F19132"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.64B11670694B854C.subtitle}"
@@ -312,6 +319,7 @@
 			rewards: [{
 				id: "35FC765982958275"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.529E18F00974DC2D.subtitle}"
@@ -371,6 +379,7 @@
 				{
 					id: "74B31D15EE471DF9"
 					insight: 1
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -417,6 +426,7 @@
 			rewards: [{
 				id: "69AB5F1F4765E636"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -450,6 +460,7 @@
 			rewards: [{
 				id: "7660C2DD225AEE28"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.432F702802327860.subtitle}"
@@ -470,6 +481,7 @@
 			rewards: [{
 				id: "5E437A614332D23F"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.42D8CA1487A024B8.subtitle}"
@@ -488,6 +500,7 @@
 			rewards: [{
 				id: "347971196DBEC621"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -503,6 +516,7 @@
 			rewards: [{
 				id: "5BADB56AC93FF719"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -518,6 +532,7 @@
 			rewards: [{
 				id: "1D43C20D38C4CB2B"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -553,6 +568,7 @@
 			rewards: [{
 				id: "0262953106849BE8"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -568,6 +584,7 @@
 			rewards: [{
 				id: "391B1EDEA71C752F"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -583,6 +600,7 @@
 			rewards: [{
 				id: "23BEA3514FFE70A6"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -619,6 +637,7 @@
 			rewards: [{
 				id: "5D76D1D8DEA511B8"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -640,6 +659,7 @@
 			rewards: [{
 				id: "214994EABB548D70"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -655,6 +675,7 @@
 			rewards: [{
 				id: "060BF9C657F02F95"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{

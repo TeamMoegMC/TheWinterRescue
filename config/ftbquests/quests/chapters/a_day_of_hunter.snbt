@@ -32,6 +32,7 @@
 				{
 					id: "54FCFBD5974D94F5"
 					insight: 1
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -71,6 +72,7 @@
 				{
 					id: "1BE8DC90FEE66C48"
 					insight: 1
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -92,6 +94,7 @@
 			rewards: [{
 				id: "333782242D66E7D6"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.25F5289EF9A76559.subtitle}"
@@ -112,6 +115,7 @@
 			rewards: [{
 				id: "4FBC111B9348D4B4"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.7AC1F59A495B58AE.subtitle}"
@@ -136,6 +140,7 @@
 			rewards: [{
 				id: "4A4310A2004D0604"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.7A2CCE64AEE955EC.subtitle}"
@@ -157,6 +162,7 @@
 			rewards: [{
 				id: "0B2E7C2A49C27D01"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.4CC2FB4B9CE2367B.subtitle}"
@@ -176,6 +182,7 @@
 			rewards: [{
 				id: "5EE94D429D8BE889"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.2B0D00CB09B96703.subtitle}"
@@ -231,6 +238,7 @@
 			rewards: [{
 				id: "0B75E2520754723F"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.718403EB34A5B46F.subtitle}"
@@ -260,6 +268,7 @@
 				{
 					id: "31F20848F7037C26"
 					insight: 1
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -284,6 +293,7 @@
 			rewards: [{
 				id: "1DC89C550DBB9F3F"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.2406D98489C938B8.subtitle}"
@@ -328,6 +338,7 @@
 				{
 					id: "1E9E709EEEFA035C"
 					insight: 1
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -348,6 +359,7 @@
 			rewards: [{
 				id: "715D9EF6B1DC5915"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.4DD7D3E4613000E4.subtitle}"
@@ -389,6 +401,7 @@
 				{
 					id: "570EE552403B9719"
 					insight: 1
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -428,6 +441,7 @@
 			rewards: [{
 				id: "575A94D67F3E862C"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.5DD231E4178E830D.subtitle}"

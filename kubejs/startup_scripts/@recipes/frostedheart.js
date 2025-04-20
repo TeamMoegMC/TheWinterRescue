@@ -30,6 +30,6 @@ new Schema("frostedheart:steam_generator")
     .simpleKey("input", "inputItem")
     .simpleKey("durable", "doubleNumber", 1)
 
-new Schema("frostedheart:inspire")
-    .simpleKey("input", "inputItem")
+new Schema("frostedresearch:inspire")
+    .simpleKey("item", "inputItem")
     .simpleKey("amount", "doubleNumber", 1)

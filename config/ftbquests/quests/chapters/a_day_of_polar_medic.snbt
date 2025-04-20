@@ -25,6 +25,7 @@
 			rewards: [{
 				id: "7963A78F04FAB001"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -47,6 +48,7 @@
 			rewards: [{
 				id: "4E0C679F7CCB91C1"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{

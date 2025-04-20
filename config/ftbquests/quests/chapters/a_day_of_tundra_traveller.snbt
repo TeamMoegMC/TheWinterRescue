@@ -19,6 +19,7 @@
 			rewards: [{
 				id: "780DCB8AEDA8E00D"
 				insight: 2
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.58037578505CB417.subtitle}"
@@ -38,6 +39,7 @@
 			rewards: [{
 				id: "3C7EFBD18C81B1C1"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -54,6 +56,7 @@
 			rewards: [{
 				id: "794587B0723FEB3D"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -70,6 +73,7 @@
 			rewards: [{
 				id: "77CD7346CBC3833E"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{

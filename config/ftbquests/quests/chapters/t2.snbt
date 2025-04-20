@@ -78,6 +78,7 @@
 			rewards: [{
 				id: "0F2E893E42913D68"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -101,6 +102,7 @@
 			rewards: [{
 				id: "2848183EEBECFF6A"
 				insight: 3
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -123,6 +125,7 @@
 			rewards: [{
 				id: "5A91EEC1C2495446"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -146,6 +149,7 @@
 			rewards: [{
 				id: "069A2C72D7070E4A"
 				insight: 3
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -175,6 +179,7 @@
 			rewards: [{
 				id: "6AF7319310EF3EC2"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.0FEC22A5C56936DC.subtitle}"
@@ -204,6 +209,7 @@
 			rewards: [{
 				id: "7BF9704FAB366185"
 				insight: 5
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -247,6 +253,7 @@
 				{
 					id: "0207DA3DAC26455F"
 					insight: 1
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -268,6 +275,7 @@
 			rewards: [{
 				id: "09A6A8C0D3E66B5F"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.7EDDAD2D1E2B0613.subtitle}"
@@ -287,6 +295,7 @@
 			rewards: [{
 				id: "623F289950F6B1E6"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -315,6 +324,7 @@
 				{
 					id: "3231ED0392DE32BD"
 					insight: 1
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -336,6 +346,7 @@
 			rewards: [{
 				id: "5312911893D9DC07"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -356,6 +367,7 @@
 			rewards: [{
 				id: "66C2BDC7F8BCF8AD"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -393,6 +405,7 @@
 				{
 					id: "54D9F70A885412BD"
 					insight: 1
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -415,6 +428,7 @@
 			rewards: [{
 				id: "097F264F817D2E56"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.15B365E3F3EAFE79.subtitle}"
@@ -460,6 +474,7 @@
 			rewards: [{
 				id: "1B1603F6637020E5"
 				insight: 3
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -491,6 +506,7 @@
 			rewards: [{
 				id: "46B19E5B7D092D75"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -516,6 +532,7 @@
 			rewards: [{
 				id: "262DD8D67354C3B8"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -559,6 +576,7 @@
 				{
 					id: "1515E3E452EFFAC3"
 					insight: 3
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -619,6 +637,7 @@
 			rewards: [{
 				id: "48D32802764ED057"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -675,6 +694,7 @@
 				{
 					id: "544BCC5B8892906C"
 					insight: 5
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -722,6 +742,7 @@
 			rewards: [{
 				id: "046F0CA3AF687F31"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -741,6 +762,7 @@
 			rewards: [{
 				id: "589B5D227CB85894"
 				insight: 2
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.688C57B7BC46E723.subtitle}"
@@ -760,6 +782,7 @@
 			rewards: [{
 				id: "1EC9B6068828FF6C"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -791,6 +814,7 @@
 				{
 					id: "68564D4E5815CA5D"
 					insight: 5
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -838,6 +862,7 @@
 				{
 					id: "0081992A0DA470C5"
 					insight: 1
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -912,6 +937,7 @@
 			rewards: [{
 				id: "2D9EB13C1F17A8E1"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -931,6 +957,7 @@
 			rewards: [{
 				id: "3863C0591F73AFE0"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.39C5B2690D8A6DEC.subtitle}"
@@ -961,6 +988,7 @@
 			rewards: [{
 				id: "19C51AE9850AC71C"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -990,6 +1018,7 @@
 			rewards: [{
 				id: "6509006A00063118"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.2EBC4AB3DDFC6BA0.subtitle}"
@@ -1013,6 +1042,7 @@
 			rewards: [{
 				id: "000654560D8B0363"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.2659A48FDF01B1B7.subtitle}"
@@ -1034,6 +1064,7 @@
 			rewards: [{
 				id: "002230D4FB5E8859"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.739B9AF9D9C2EC05.subtitle}"
@@ -1060,6 +1091,7 @@
 			rewards: [{
 				id: "79D2E8AA08DAB26D"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{

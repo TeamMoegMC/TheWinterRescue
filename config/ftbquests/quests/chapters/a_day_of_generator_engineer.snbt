@@ -33,6 +33,7 @@
 				{
 					id: "41827AFC0F571BC0"
 					insight: 5
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -84,6 +85,7 @@
 				{
 					id: "07D417C93C3D00CC"
 					insight: 5
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -141,6 +143,7 @@
 			rewards: [{
 				id: "63A4C8DC356C0F1A"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "gear"
@@ -174,6 +177,7 @@
 			rewards: [{
 				id: "62B8271359C3FDE1"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			size: 1.5d
@@ -197,6 +201,7 @@
 			rewards: [{
 				id: "7331498AED067AE9"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			size: 1.5d
@@ -222,6 +227,7 @@
 			rewards: [{
 				id: "695309ADA29BE041"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			size: 1.5d
@@ -356,6 +362,7 @@
 				{
 					id: "774901744483705F"
 					insight: 1
+					team_reward: true
 					type: "frostedheart:insight"
 				}
 			]
@@ -406,6 +413,7 @@
 			rewards: [{
 				id: "532E02BFFF370581"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			size: 1.5d
@@ -425,6 +433,7 @@
 			rewards: [{
 				id: "51D5B14D0A10D8B7"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			size: 1.5d
@@ -465,6 +474,7 @@
 			rewards: [{
 				id: "4BDB2A08CFF3545C"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			size: 1.5d

@@ -48,6 +48,7 @@
 			rewards: [{
 				id: "7C8C1AF292B85763"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -69,6 +70,7 @@
 			rewards: [{
 				id: "12F48311AFC7F8DA"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -90,6 +92,7 @@
 			rewards: [{
 				id: "3E0590960864DE63"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -111,6 +114,7 @@
 			rewards: [{
 				id: "27030ADD203390C0"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -128,6 +132,7 @@
 			rewards: [{
 				id: "5C8CC24869E84BEC"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -150,6 +155,7 @@
 			rewards: [{
 				id: "4689A2C22B453326"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -171,6 +177,7 @@
 			rewards: [{
 				id: "1EDFE4DAFCC5C707"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -192,6 +199,7 @@
 			rewards: [{
 				id: "2357E05D78B812EE"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -213,6 +221,7 @@
 			rewards: [{
 				id: "411E43C332A941E7"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -234,6 +243,7 @@
 			rewards: [{
 				id: "5D81C6A0F24F4865"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "circle"
@@ -256,6 +266,7 @@
 			rewards: [{
 				id: "4C729C15E8105757"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -273,6 +284,7 @@
 			rewards: [{
 				id: "1B5A3EAC2BF83187"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -295,6 +307,7 @@
 			rewards: [{
 				id: "2067B13A8D088036"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -316,6 +329,7 @@
 			rewards: [{
 				id: "137E035CB3D987CA"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -334,6 +348,7 @@
 			rewards: [{
 				id: "7A05793499FA03C3"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -349,6 +364,7 @@
 			rewards: [{
 				id: "6525509241DCCF0F"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -364,6 +380,7 @@
 			rewards: [{
 				id: "7EAFCD462EBD7DB4"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -379,6 +396,7 @@
 			rewards: [{
 				id: "3172BA7378B7C235"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -394,6 +412,7 @@
 			rewards: [{
 				id: "47ED3A18B80B5B4F"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -409,6 +428,7 @@
 			rewards: [{
 				id: "3A9F7FDE2F255E81"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -424,6 +444,7 @@
 			rewards: [{
 				id: "7765C43B82E2EE0C"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -439,6 +460,7 @@
 			rewards: [{
 				id: "3A779CA886F67F17"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -454,6 +476,7 @@
 			rewards: [{
 				id: "739848FC588A5121"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -469,6 +492,7 @@
 			rewards: [{
 				id: "732B3A2430DDB93A"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -484,6 +508,7 @@
 			rewards: [{
 				id: "23E7F87DBD16FD40"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -499,6 +524,7 @@
 			rewards: [{
 				id: "343F55F76FC5D898"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -514,6 +540,7 @@
 			rewards: [{
 				id: "2CF50C4B91C0FCD7"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -529,6 +556,7 @@
 			rewards: [{
 				id: "13DF5A85685F489B"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -544,6 +572,7 @@
 			rewards: [{
 				id: "3D0F7D79CDEF4112"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -559,6 +588,7 @@
 			rewards: [{
 				id: "7763A08D2FEC311D"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -584,6 +614,7 @@
 			rewards: [{
 				id: "7E86442602F8CFE4"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -599,6 +630,7 @@
 			rewards: [{
 				id: "15F72BC49DBF53D3"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -614,6 +646,7 @@
 			rewards: [{
 				id: "4C6807C622798D3A"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -629,6 +662,7 @@
 			rewards: [{
 				id: "5B91A5EAD7172F30"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -644,6 +678,7 @@
 			rewards: [{
 				id: "1FF9CBEF21953589"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -659,6 +694,7 @@
 			rewards: [{
 				id: "5D250975A79C0C5F"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -674,6 +710,7 @@
 			rewards: [{
 				id: "59BF4F590F1E5DAB"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -689,6 +726,7 @@
 			rewards: [{
 				id: "72F303D017495F3B"
 				insight: 1
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -704,6 +742,7 @@
 			rewards: [{
 				id: "0CE41C595C99E220"
 				insight: 2
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [

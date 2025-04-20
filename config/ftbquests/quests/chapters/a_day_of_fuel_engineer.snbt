@@ -47,6 +47,7 @@
 			rewards: [{
 				id: "4D5EA0527B701685"
 				insight: 3
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "rsquare"
@@ -131,6 +132,7 @@
 			rewards: [{
 				id: "4FE634EFDC066662"
 				insight: 3
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "rsquare"
@@ -202,6 +204,7 @@
 			rewards: [{
 				id: "52B3BD770C902064"
 				insight: 3
+				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			shape: "rsquare"
