@@ -277,33 +277,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 [NoWait]Me :[EndNoWait]Taking out supplies from ship. [l]
 @call s=prelogue_rewards
 *rewardClaimed
-Oh! A battery! It should provide warmth for five minutes.[p]
-(Press E to open Inventory. You should have obtained Insulation. You would be invulnerable against any temperature for five minutes. )@p
-Also a piece of Magnesium Ingot. It should help with getting a fire. @p
-(Holding a fire-starting metal and a piece of flint on both hands to start a fire.)@p
-(Found my water bag too. But I'd need to boil hot water to prevent parasites.)@p
-(Shift-R-Click water to drink dirty water, but it may cause diaherra.)@p
-@delay t=20
-
-*nutritionTutorial
-Me: Military Rations from the space station aren't best, but would keep me healthy for enough time.@p
-(Press E to open Inventory, float your mouse on a Food to check Nutrition content.)@p
-(Press TAB to open Wheel Menu. Select Nutrition to open Nutrition Balance Panel.)@p
-(Keep each Nutrition type between 20 and 80 percent to prevent negative effects and obtain benefits.)@p
-(Early on, you won't need to worry about this. But it should be on your mind in long-term.)@p
-@delay t=20
-[link l=*clothingTutorial]&e[Click to continue]&r[endlink]
-@wa
-
-*clothingTutorial
-Me: My Spacesuit has Insulation and Fluid Resistance, but it may break. I should wear layers of clothing in future.@p
-(Press TAB to open Wheel Menu. Select Clothing to open Clothing Panel. Float your mouth on a Clothes to check its properties.)@p
-(On every body part, outer clothes weigh more on Fluid Resistance, better when encountering Water or Wind.)@p
-(On contrary, inner clothes weigh more on Insulation. You should design your outfit based on different properties.)@p
-@delay t=20
-[link l=*en]&e[Click to continue]&r[endlink]
-@wa
-
+Seems there is a single use battery inside, it should keep me warm for around 5 minutes[p]
 *en
 @showTitle t="Chapter 1 Act 1" st="Compelete"
 @actTitle t="" st=""
