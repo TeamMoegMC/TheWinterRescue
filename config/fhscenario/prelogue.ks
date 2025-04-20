@@ -301,10 +301,10 @@ Me: My Spacesuit has Insulation and Fluid Resistance, but it may break. I should
 (On every body part, outer clothes weigh more on Fluid Resistance, better when encountering Water or Wind.)@p
 (On contrary, inner clothes weigh more on Insulation. You should design your outfit based on different properties.)@p
 @delay t=20
-[link l=*endingTutorial]&e[Click to continue]&r[endlink]
+[link l=*en]&e[Click to continue]&r[endlink]
 @wa
 
-*endingTutorial
+*en
 @showTitle t="Chapter 1 Act 1" st="Compelete"
 @actTitle t="" st=""
 Read quest book for further help.@p

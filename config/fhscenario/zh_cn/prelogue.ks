@@ -301,10 +301,10 @@
 （每个身体部位上，越靠外的衣物越能体现「流体隔离性」，在遇水和遇风时更具效果。）@p
 （反之，越靠内的衣物越能体现「保温系数」，您应该根据不同衣物属性合理搭配。）@p
 @delay t=20
-[link l=*endingTutorial]&e[点击以继续]&r[endlink]
+[link l=*en]&e[点击以继续]&r[endlink]
 @wa
 
-*endingTutorial
+*en
 @showTitle t="第一章 第一节" st="已完成"
 @actTitle t="" st=""
 查看任务书以继续后续剧情。@p
