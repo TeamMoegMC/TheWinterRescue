@@ -34,7 +34,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.181378ABF5CCD166.title}"
-			x: -6.5d
+			x: -7.5d
 			y: 1.0d
 		}
 		{
@@ -56,7 +56,7 @@
 				item: "frostedheart:raw_tin"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 1.0d
 		}
 		{
@@ -78,7 +78,7 @@
 				item: "immersiveengineering:raw_nickel"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 1.0d
 		}
 		{
@@ -100,7 +100,7 @@
 				item: "frostedheart:raw_pyrite"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 4.0d
 		}
 		{
@@ -122,7 +122,7 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 1.0d
 		}
 		{
@@ -140,7 +140,7 @@
 				item: "frostedheart:bauxite"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.5d
 			y: 8.5d
 		}
 		{
@@ -159,11 +159,12 @@
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
+				count: 64L
 				id: "722406E18437795B"
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 7.0d
 		}
 		{
@@ -185,7 +186,7 @@
 				item: "immersiveengineering:raw_lead"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 4.0d
 		}
 		{
@@ -207,7 +208,7 @@
 				item: "minecraft:raw_gold"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 2.5d
 		}
 		{
@@ -229,7 +230,7 @@
 				item: "immersiveengineering:raw_silver"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 2.5d
 		}
 		{
@@ -252,7 +253,7 @@
 				item: "create:raw_zinc"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 4.0d
 		}
 		{
@@ -274,7 +275,7 @@
 				item: "frostedheart:raw_magnesite"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 5.5d
 		}
 		{
@@ -293,8 +294,8 @@
 				type: "item"
 			}]
 			title: "{quest.twr.707E5C06843421A7.title}"
-			x: -8.5d
-			y: 1.0d
+			x: -4.5d
+			y: 10.0d
 		}
 		{
 			description: [
@@ -315,7 +316,7 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 2.5d
 		}
 		{
@@ -337,7 +338,7 @@
 				item: "frostedheart:raw_halite"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 5.5d
 		}
 		{
@@ -356,7 +357,7 @@
 				item: "frostedheart:kaolin"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -6.0d
 			y: 8.5d
 		}
 		{
@@ -372,7 +373,7 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 2.5d
 		}
 		{
@@ -388,7 +389,7 @@
 				item: "frostedheart:raw_sylvite"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 5.5d
 		}
 		{
@@ -400,11 +401,12 @@
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
+				count: 64L
 				id: "1158E98A7F40337E"
 				item: "frostedheart:peat"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 7.0d
 		}
 		{
@@ -416,12 +418,13 @@
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
+				count: 64L
 				id: "0FE5E49EB779C202"
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 8.5d
+			x: -6.0d
+			y: 10.0d
 		}
 		{
 			id: "7BF6873FAD829A65"
@@ -432,11 +435,12 @@
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
+				count: 64L
 				id: "13DD95F030FFCEF8"
-				item: "frostedheart:biomass"
+				item: "create:limestone"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 7.0d
 		}
 		{
@@ -452,7 +456,7 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 1.0d
 		}
 		{
@@ -757,55 +761,173 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
-			y: 2.5d
+			x: -6.0d
+			y: 11.5d
 		}
 		{
 			icon: "frostedheart:halite_ore"
 			id: "6A8763AC1CB99741"
+			rewards: [{
+				id: "08029C60D7BE3555"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				biome: "the_winter_rescue:brine_deposits"
 				id: "382007D3D90CFCF9"
 				title: "{quest.twr.6A8763AC1CB99741.382007D3D90CFCF9.title}"
 				type: "biome"
 			}]
-			x: 1.0d
+			x: -7.5d
 			y: 5.5d
 		}
 		{
 			icon: "caupona:fumarole_boulder"
 			id: "0B2F3CAC5B03D4E4"
+			rewards: [{
+				id: "59C30F3CA802944B"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				biome: "the_winter_rescue:hydrothermal_deposits"
 				id: "089061C926D9BC78"
 				title: "{quest.twr.0B2F3CAC5B03D4E4.089061C926D9BC78.title}"
 				type: "biome"
 			}]
-			x: 1.0d
+			x: -7.5d
 			y: 4.0d
 		}
 		{
 			icon: "minecraft:magma_block"
 			id: "07B02C16818048BE"
+			rewards: [{
+				id: "1A6578E63CBF91C7"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				biome: "the_winter_rescue:magmatic_deposits"
 				id: "683447AE58A170B2"
 				title: "{quest.twr.07B02C16818048BE.683447AE58A170B2.title}"
 				type: "biome"
 			}]
-			x: 1.0d
+			x: -7.5d
 			y: 2.5d
 		}
 		{
 			icon: "frostedheart:rotten_wood_block"
 			id: "3B50BED67850F724"
+			rewards: [{
+				id: "6C482F650ED4D4E2"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				biome: "the_winter_rescue:fossil_deposits"
 				id: "78DC3799AD732868"
 				title: "{quest.twr.3B50BED67850F724.78DC3799AD732868.title}"
 				type: "biome"
 			}]
-			x: 1.0d
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			id: "15B593BC4399546E"
+			tasks: [{
+				id: "20CF64F5BDA772A9"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "4B8E6D9B513F69AE"
+			tasks: [{
+				id: "72C0615E2496F335"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: ["一些矿物和土壤本身难以区分，比如高岭土、铝土。这些矿物通常大片生成在雪原恶地。"]
+			id: "3F9BFC660C5B817F"
+			rewards: [{
+				id: "5C6BE35358342BF7"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				biome: "terralith:snowy_badlands"
+				icon: "minecraft:terracotta"
+				id: "413E56AFBAC196FD"
+				title: "雪原恶地"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			id: "773FD399C0748380"
+			rewards: [{
+				id: "15140E80F7E3E251"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				biome: "terralith:cave/mantle_caves"
+				icon: "minecraft:lava_bucket"
+				id: "6C0622F1F1FB8498"
+				title: "地幔洞穴"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 11.5d
+		}
+		{
+			id: "7F1818D3AA235158"
+			tasks: [{
+				id: "39CB977FF30CFC00"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			id: "57A7C1A0DC906035"
+			rewards: [{
+				id: "09B71C5D2A098E0A"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				biome: "minecraft:frozen_river"
+				icon: "minecraft:water_bucket"
+				id: "786B55C367FBB3FC"
+				title: "冻河"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			id: "7C9987E1E9A6C2AA"
+			rewards: [{
+				id: "0B179BFCE40E9B62"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				count: 64L
+				id: "030DB6E7C82D6A90"
+				item: "minecraft:bone_block"
+				type: "item"
+			}]
+			x: -1.5d
 			y: 7.0d
 		}
 	]

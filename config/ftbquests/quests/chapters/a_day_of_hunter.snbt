@@ -15,78 +15,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			hide_until_deps_visible: false
-			id: "60C1118A879D4548"
-			rewards: [
-				{
-					id: "0E9461528FD7710E"
-					item: "stone_age:cooked_mammoth_meat"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "634C3F7F330D4BDD"
-					item: "stone_age:raw_hide"
-					type: "item"
-				}
-				{
-					id: "54FCFBD5974D94F5"
-					insight: 1
-					team_reward: true
-					type: "frostedheart:insight"
-				}
-			]
-			subtitle: "{quest.twr.60C1118A879D4548.subtitle}"
-			tasks: [{
-				entity: "stone_age:mammoth"
-				id: "6294DB20132A0247"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{quest.twr.60C1118A879D4548.title}"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["76723451C6850C81"]
-			description: [
-				"{quest.twr.7491448A8055DBE6.description.1}"
-				"{quest.twr.7491448A8055DBE6.description.2}"
-				"{quest.twr.7491448A8055DBE6.description.3}"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_visible: false
-			id: "7491448A8055DBE6"
-			rewards: [
-				{
-					id: "0C2F387D45A1FF48"
-					item: "stone_age:cooked_tiger_meat"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5E451309C765EBE8"
-					item: "stone_age:raw_hide"
-					type: "item"
-				}
-				{
-					id: "1BE8DC90FEE66C48"
-					insight: 1
-					team_reward: true
-					type: "frostedheart:insight"
-				}
-			]
-			subtitle: "{quest.twr.7491448A8055DBE6.subtitle}"
-			tasks: [{
-				entity: "stone_age:saber_tooth_tiger"
-				id: "6B7A74E6A2E785B9"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["7762BF27B2BB8236"]
 			description: ["{quest.twr.25F5289EF9A76559.description.0}"]
 			hide_until_deps_visible: false
@@ -192,22 +120,6 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -1.5d
-		}
-		{
-			description: [
-				"{quest.twr.76723451C6850C81.description.1}"
-				"{quest.twr.76723451C6850C81.description.2}"
-			]
-			id: "76723451C6850C81"
-			shape: "rsquare"
-			subtitle: "{quest.twr.76723451C6850C81.subtitle}"
-			tasks: [{
-				id: "33BB3D36B1C4EA5D"
-				title: "{quest.twr.76723451C6850C81.33BB3D36B1C4EA5D.title}"
-				type: "checkmark"
-			}]
-			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -474,6 +386,61 @@
 				type: "item"
 			}]
 			x: 9.5d
+			y: -4.5d
+		}
+		{
+			id: "0C45A4139351C201"
+			tasks: [{
+				entity: "stone_age:auroch"
+				id: "01A1327608B2DD45"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "453E50BC6C848AB1"
+			tasks: [{
+				entity: "stone_age:deer"
+				id: "5EEBF8F77513D38D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "56E65B29FFD272D9"
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "22C65EFF945D9B8D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "1ACEAD685B448139"
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "79A57B446686B146"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "625989086FB08A87"
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "02DB73E6BAB5375F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
 			y: -4.5d
 		}
 	]
