@@ -107,6 +107,6 @@ ServerEvents.recipes((event) => {
     ]
     recipes.forEach((recipe,index) => {
         create.milling(recipe.output, recipe.input).id(`the_winter_rescue:create/milling/${index}`);
-		immersiveengineering.crusher(recipe.output[0],recipe.input,recipe.output.slice(1)).id(`the_winter_rescue:immersiveengineering/crusher_milling/${index}`)
+		//immersiveengineering.crusher(recipe.output[0],recipe.input,recipe.output.slice(1)).id(`the_winter_rescue:immersiveengineering/crusher_milling/${index}`)
     })
 })
