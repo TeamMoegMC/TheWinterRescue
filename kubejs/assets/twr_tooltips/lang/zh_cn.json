@@ -206,6 +206,14 @@
   "item.frostedresearch.rubbing_tool.tooltip.condition2": "当装载在机械手上时",
   "item.frostedresearch.rubbing_tool.tooltip.behaviour2": "收集所对_计算器_内储存的_所有研究点数_，最多五次。",
   "item.frostedresearch.rubbing_tool.tooltip.condition3": "当收集了一定研究点数后再次检验时",
-  "item.frostedresearch.rubbing_tool.tooltip.behaviour3": "将收集的研究点数作用到_当前研究_上。"
+  "item.frostedresearch.rubbing_tool.tooltip.behaviour3": "将收集的研究点数作用到_当前研究_上。",
+
+  "block.minecraft.mud.tooltip.summary": "富含水分的粘稠土壤，常由各类冻土融化形成。",
+  "block.minecraft.mud.tooltip.condition1": "当用锄头右击时",
+  "block.minecraft.mud.tooltip.behaviour1": "消耗_副手_上的_生物质_将其复苏为泥土。",
+
+  "block.minecraft.dirt.tooltip.summary": "富含微生物的有机土壤，可以用于耕地。",
+  "block.minecraft.dirt.tooltip.condition1": "当长期暴露在零下土壤温度时",
+  "block.minecraft.dirt.tooltip.behaviour1": "凝结为冻土，并丧失所有微生物群落。"
 }
   

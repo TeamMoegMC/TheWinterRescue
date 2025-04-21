@@ -207,5 +207,13 @@
   "item.frostedresearch.rubbing_tool.tooltip.condition2": "When Installed on Mechanical Arm",
   "item.frostedresearch.rubbing_tool.tooltip.behaviour2": "Collects _All Research Points_ stored in the facing _Calculator_.",
   "item.frostedresearch.rubbing_tool.tooltip.condition3": "When Collected Enough Research Points and Inspected Again",
-  "item.frostedresearch.rubbing_tool.tooltip.behaviour3": "Applies the collected Research Points to Current Research."
+  "item.frostedresearch.rubbing_tool.tooltip.behaviour3": "Applies the collected Research Points to Current Research.",
+
+  "block.minecraft.mud.tooltip.summary": "Sticky dirt with abundance of water, often formed from melting various dirt permafrost.",
+  "block.minecraft.mud.tooltip.condition1": "When Tilled With Hoe",
+  "block.minecraft.mud.tooltip.behaviour1": "Consumes _Biomass_ on _Offhand_ to revive it into _Dirt_.",
+
+  "block.minecraft.dirt.tooltip.summary": "Organic dirt abundant in microorganisms. Perfect for farming.",
+  "block.minecraft.dirt.tooltip.condition1": "When Long-Exposed In Below-Zero Degree Soil Temperature",
+  "block.minecraft.dirt.tooltip.behaviour1": "Freezes into Permafrost, and loses all its microorganism biomes."
 }

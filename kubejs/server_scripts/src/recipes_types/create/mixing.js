@@ -101,11 +101,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: ["minecraft:dirt"],
-            input: ["minecraft:mud", "frostedheart:biomass", "#forge:dusts/ash"]
-        },
-        {
-            output: ["minecraft:dirt"],
-            input: ["minecraft:coarse_dirt", "frostedheart:biomass", "#forge:dusts/ash", Fluid.of("minecraft:water", 1000)]
+            input: ["minecraft:mud", "frostedheart:biomass"]
         }
     ]
     let heated = [
@@ -147,19 +143,19 @@ ServerEvents.recipes((event) => {
         },
         {
             output: ["minecraft:dirt"],
-            input: ["frostedheart:dirt_permafrost", "frostedheart:biomass", "#forge:dusts/ash"]
+            input: ["frostedheart:dirt_permafrost", "frostedheart:biomass"]
         },
         {
             output: ["minecraft:dirt"],
-            input: ["frostedheart:coarse_dirt_permafrost", "frostedheart:biomass", "#forge:dusts/ash"]
+            input: ["frostedheart:coarse_dirt_permafrost", "frostedheart:biomass"]
         },
         {
             output: ["minecraft:dirt"],
-            input: ["frostedheart:mud_permafrost", "frostedheart:biomass", "#forge:dusts/ash"]
+            input: ["frostedheart:mud_permafrost", "frostedheart:biomass"]
         },
         {
             output: ["minecraft:rooted_dirt"],
-            input: ["frostedheart:rooted_dirt_permafrost", "frostedheart:biomass", "#forge:dusts/ash"]
+            input: ["frostedheart:rooted_dirt_permafrost", "frostedheart:biomass"]
         }
     ]
     recipes.forEach((recipe, index) => {
