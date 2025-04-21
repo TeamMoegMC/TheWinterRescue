@@ -189,6 +189,10 @@
   "block.stone_age.tanning_rack.tooltip.condition1": "When right-clicked with an item to be tanned.",
   "block.stone_age.tanning_rack.tooltip.behaviour1": "Right-click with a _Flint Processing Knife_ to begin tanning.",
 
+  "block.stone_age.fishing_net.tooltip.summary": "A makeshift trap for small underwater creatures.",
+  "block.stone_age.fishing_net.tooltip.condition1": "When Placed In River or Ocean Biomes and Completely Submerged by Water",
+  "block.stone_age.fishing_net.tooltip.behaviour1": "Captures unlucky underwater preys with a _Mesh_.",
+
   "item.kubejs.activated_carbon.tooltip.summary": "Created by using charcoal on a Steam Charger.",
 
   "block.minecraft.campfire.tooltip.summary": "A basic fireplace for warmth and cooking.",

@@ -188,6 +188,10 @@
   "block.stone_age.tanning_rack.tooltip.condition1": "右击，手持待鞣制的物品。",
   "block.stone_age.tanning_rack.tooltip.behaviour1": "右键使用 _燧石加工刀_ 开始鞣制。",
 
+  "block.stone_age.fishing_net.tooltip.summary": "一个用于捕捉小型水下生物的简易陷阱。",
+  "block.stone_age.fishing_net.tooltip.condition1": "当放置在河流或海洋群系并完全浸入水中时",
+  "block.stone_age.fishing_net.tooltip.behaviour1": "用_网_捕捉不走幸的水下猎物。",
+
   "item.kubejs.activated_carbon.tooltip.summary": "用木炭在蒸汽充能器上处理获得。",
 
   "block.minecraft.campfire.tooltip.summary": "一个基础的火堆，可用来取暖和烹饪。",

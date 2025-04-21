@@ -78,18 +78,18 @@ ServerEvents.recipes((event) => {
         ],
         [
             "stone_age:grass_mesh", [
-            "A A",
-            " A ",
-            "A A"
+            "AAA",
+            "AAA",
+            "AAA"
         ], {
             A: "stone_age:grass_lead"
         }
         ],
         [
             "stone_age:cobweb_mesh", [
-            "A A",
-            " A ",
-            "A A"
+            "AAA",
+            "AAA",
+            "AAA"
         ], {
             A: "minecraft:string"
         }
@@ -101,8 +101,19 @@ ServerEvents.recipes((event) => {
             "BAB"
         ], {
             A: "stone_age:leather_strip",
-            B: "#forge:rods/wooden",
-            C: "#minecraft:wooden_slabs"
+            B: "#forge:rods/treated_wood",
+            C: "#forge:treated_wood_slab"
+        }
+        ],
+        [
+            "stone_age:fishing_net", [
+            "BAB",
+            "ACA",
+            "BAB"
+        ], {
+            A: "#forge:wires/copper",
+            B: "#forge:rods/treated_wood",
+            C: "#forge:treated_wood_slab"
         }
         ],
         [
