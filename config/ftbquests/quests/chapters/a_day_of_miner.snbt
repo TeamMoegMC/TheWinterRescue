@@ -889,6 +889,11 @@
 		}
 		{
 			id: "7F1818D3AA235158"
+			rewards: [{
+				id: "62E7DF4A70A9E677"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "39CB977FF30CFC00"
 				item: "minecraft:lava_bucket"
