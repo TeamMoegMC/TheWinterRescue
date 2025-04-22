@@ -44,15 +44,19 @@
   "item.frostedheart.energy_core.tooltip.behaviour1": "Grants the knowledge for building a _Generator_.",
 
   "item.kubejs.damaged_electric_motor.tooltip.summary": "A damaged electric motor of a little robot.",
-  "item.kubejs.damaged_electric_motor.tooltip.condition1": "When Used In Drawing Desk",
+  "item.kubejs.damaged_electric_motor.tooltip.condition1": "When Inspected In Drawing Desk",
   "item.kubejs.damaged_electric_motor.tooltip.behaviour1": "Grants _Insight_.",
 
   "item.kubejs.damaged_circuit_board.tooltip.summary": "A damaged circuit board.",
-  "item.kubejs.damaged_circuit_board.tooltip.condition1": "When Used In Drawing Desk",
+  "item.kubejs.damaged_circuit_board.tooltip.condition1": "When Inspected In Drawing Desk",
   "item.kubejs.damaged_circuit_board.tooltip.behaviour1": "Grants _Insight_.",
 
+  "item.kubejs.burned_circuit_board.tooltip.summary": "A burned circuit board once belonging to a blasting machinery.",
+  "item.kubejs.burned_circuit_board.tooltip.condition1": "When Inspected In Drawing Desk",
+  "item.kubejs.burned_circuit_board.tooltip.behaviour1": "Grants _Insight_.",
+
   "item.kubejs.damaged_camera.tooltip.summary": "A damaged camera of a science journalist.",
-  "item.kubejs.damaged_camera.tooltip.condition1": "When Used In Drawing Desk",
+  "item.kubejs.damaged_camera.tooltip.condition1": "When Inspected In Drawing Desk",
   "item.kubejs.damaged_camera.tooltip.behaviour1": "Grants _Insight_.",
 
   "item.frostedheart.copper_pro_pick.tooltip.summary": "A specialized tool used for geological exploration and mineral discovery.",

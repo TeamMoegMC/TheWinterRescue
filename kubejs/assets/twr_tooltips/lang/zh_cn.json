@@ -87,6 +87,10 @@
   "item.kubejs.damaged_circuit_board.tooltip.condition1": "当在绘图台中使用时",
   "item.kubejs.damaged_circuit_board.tooltip.behaviour1": "获得_见闻_.",
 
+  "item.kubejs.burned_circuit_board.tooltip.summary": "一块烧坏的电路板，曾经用于驱动一个爆破机械。",
+  "item.kubejs.burned_circuit_board.tooltip.condition1": "当在绘图台中使用时",
+  "item.kubejs.burned_circuit_board.tooltip.behaviour1": "获得_见闻_.",
+
   "item.kubejs.damaged_camera.tooltip.summary": "一个破损的记者相机.",
   "item.kubejs.damaged_camera.tooltip.condition1": "当在绘图台中使用时",
   "item.kubejs.damaged_camera.tooltip.behaviour1": "获得_见闻_.",
