@@ -68,7 +68,7 @@ ServerEvents.recipes((event) => {
         },
 		{
             output: "9x frostedheart:vulcanized_rubber",
-            input: [ Fluid.of("frostedheart:latex", 900)]
+            input: [ Fluid.of("frostedheart:latex", 1000)]
         },
         {
             output: "2x frostedheart:compressed_biscuits",

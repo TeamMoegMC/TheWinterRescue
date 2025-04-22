@@ -65,22 +65,22 @@ ServerEvents.recipes((event) => {
 			input_fluid: [FluidTag("the_winter_rescue:fluidsulfuricacid", 1000)]
         },
 		{
-            output: ["10x frostedheart:vulcanized_rubber"],
-			input_fluid: [FluidTag("forge:latex", 1000)],
+            output: ["18x frostedheart:vulcanized_rubber"],
+			input_fluid: [FluidTag("forge:latex", 2000)],
 			time:20
         },
         {
-            output_fluid: [Fluid.of("frostedheart:latex",900)],
+            output_fluid: [Fluid.of("frostedheart:latex",1000)],
             input: ["immersiveengineering:dust_sulfur"],
 			input_fluid: [FluidTag("forge:resin", 1000)]
         },
         {
-            output_fluid: [Fluid.of("minecraft:water",200),Fluid.of("frostedheart:latex",1200)],
+            output_fluid: [Fluid.of("minecraft:water",200),Fluid.of("frostedheart:latex",1300)],
             input_fluid: [FluidTag("forge:ethanol", 1000), FluidTag("forge:gas/chlorine", 500)],
 			input: [IEIngredientWithSize("frostedheart:copper_oxide_dust",0)]
         },
 		{
-            output_fluid: [Fluid.of("frostedheart:latex",900)],
+            output_fluid: [Fluid.of("frostedheart:latex",1000)],
             input_fluid: [FluidTag("forge:sulfur_dioxide", 300), FluidTag("forge:resin", 1000)]
         },
         {

@@ -10,11 +10,11 @@ ServerEvents.recipes((event) => {
             input: ["2x frostedheart:cryolite_dust", "frostedheart:aluminium_hydroxide_dust", Fluid.of("frostedheart:sulfuric_acid", 500)]
         },
         {
-            output: [Fluid.of("frostedheart:latex", 900)],
+            output: [Fluid.of("frostedheart:latex", 1000)],
             input: ["immersiveengineering:dust_sulfur", Fluid.of("frostedheart:resin", 1000)]
         },
         {
-            output: [Fluid.of("frostedheart:latex", 900)],
+            output: [Fluid.of("frostedheart:latex", 1000)],
             input: [Fluid.of("frostedheart:sulfur_dioxide", 300), Fluid.of("frostedheart:resin", 1000)]
         },
         {
