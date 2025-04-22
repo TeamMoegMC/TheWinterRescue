@@ -834,14 +834,15 @@
 			y: 7.0d
 		}
 		{
+			description: ["钻石只在地热活动存在的群系生成。"]
 			id: "15B593BC4399546E"
 			tasks: [{
 				id: "20CF64F5BDA772A9"
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: -3.0d
+			y: 11.5d
 		}
 		{
 			id: "4B8E6D9B513F69AE"
@@ -850,7 +851,7 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 1.0d
 		}
 		{
