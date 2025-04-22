@@ -126,16 +126,22 @@
     "monster": [
       {
         "type": "minecraft:slime",
-        "maxCount": 2,
+        "maxCount": 4,
         "minCount": 1,
         "weight": 10
+      },
+      {
+        "type": "minecraft:spider",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
       }
     ],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "maxCount": 6,
-        "minCount": 4,
+        "maxCount": 1,
+        "minCount": 1,
         "weight": 10
       }
     ],

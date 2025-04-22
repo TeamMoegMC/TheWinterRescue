@@ -127,8 +127,8 @@
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "maxCount": 6,
-        "minCount": 4,
+        "maxCount": 1,
+        "minCount": 1,
         "weight": 10
       }
     ],

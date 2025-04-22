@@ -100,14 +100,8 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:rabbit",
-        "maxCount": 3,
-        "minCount": 2,
-        "weight": 4
-      },
-      {
         "type": "minecraft:polar_bear",
-        "maxCount": 2,
+        "maxCount": 1,
         "minCount": 1,
         "weight": 1
       }
