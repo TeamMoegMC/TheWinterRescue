@@ -739,14 +739,6 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "stone_age:fish_bone", 2, [
-            "ABA"
-        ], {
-            A: "#stone_age:bones",
-            B: "minecraft:flint"
-        }
-        ],
-        [
             "frostedheart:hide_hat", [
             "AAA",
             "A A",

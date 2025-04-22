@@ -279,6 +279,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 *rewardClaimed
 Oh! A battery! It should provide warmth for five minutes.[p]
 (Press E to open Inventory. You should have obtained Insulation. You would be invulnerable against any temperature for five minutes. )@p
+(Press I to open Infrared View to see Soil Temperature.) @p
 Also a piece of Magnesium Ingot. It should help with getting a fire. @p
 (Holding a fire-starting metal and a piece of flint on both hands to start a fire.)@p
 (Found my water bag too. But I'd need to boil hot water to prevent parasites.)@p
