@@ -2,8 +2,7 @@
 @act a=act2 c=chapter1
 
 # Starting
-@showTitle t="Chapter 1 Act 2" st="Survive In The Snow"
-@delay t=60
+@call s="chapter1_act2_title.ks"
 
 @label name=chapter_guide
 @call s="quest:56E5FD2809882B5F?call"

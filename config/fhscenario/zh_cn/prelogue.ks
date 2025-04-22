@@ -212,6 +212,7 @@
 @wtr
 
 *intitle
+@er
 @fullScreenDialog show=1
 @startLayer
 @FillRect n=bg clr=0xFF000000 z=-999
@@ -296,6 +297,7 @@
 @wa
 
 *clothingTutorial
+@er
 我：身上的宇航服具有「保温系数」和「流体隔离性」，但是可能会损坏，我以后应该穿多层衣服。@p
 （按下TAB打开轮盘，选择「衣物」打开衣物穿戴界面；鼠标悬浮在衣物上，可以查看属性。）@p
 （每个身体部位上，越靠外的衣物越能体现「流体隔离性」，在遇水和遇风时更具效果。）@p
@@ -305,6 +307,7 @@
 @wa
 
 *en
+@er
 @showTitle t="第一章 第一节" st="已完成"
 @actTitle t="" st=""
 查看任务书以继续后续剧情。@p
