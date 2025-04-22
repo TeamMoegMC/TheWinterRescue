@@ -117,16 +117,22 @@
     "misc": [],
     "monster": [
       {
-        "type": "minecraft:spider",
-        "maxCount": 2,
+        "type": "minecraft:creeper",
+        "maxCount": 1,
         "minCount": 1,
-        "weight": 10
+        "weight": 1
       },
       {
-        "type": "minecraft:creeper",
-        "maxCount": 2,
+        "type": "minecraft:cave_spider",
+        "maxCount": 4,
         "minCount": 1,
-        "weight": 10
+        "weight": 25
+      },
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 25
       }
     ],
     "underground_water_creature": [
