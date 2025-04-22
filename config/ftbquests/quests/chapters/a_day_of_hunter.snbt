@@ -15,78 +15,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			hide_until_deps_visible: false
-			id: "60C1118A879D4548"
-			rewards: [
-				{
-					id: "0E9461528FD7710E"
-					item: "stone_age:cooked_mammoth_meat"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "634C3F7F330D4BDD"
-					item: "stone_age:raw_hide"
-					type: "item"
-				}
-				{
-					id: "54FCFBD5974D94F5"
-					insight: 1
-					team_reward: true
-					type: "frostedheart:insight"
-				}
-			]
-			subtitle: "{quest.twr.60C1118A879D4548.subtitle}"
-			tasks: [{
-				entity: "stone_age:mammoth"
-				id: "6294DB20132A0247"
-				type: "kill"
-				value: 1L
-			}]
-			title: "{quest.twr.60C1118A879D4548.title}"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["76723451C6850C81"]
-			description: [
-				"{quest.twr.7491448A8055DBE6.description.1}"
-				"{quest.twr.7491448A8055DBE6.description.2}"
-				"{quest.twr.7491448A8055DBE6.description.3}"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_visible: false
-			id: "7491448A8055DBE6"
-			rewards: [
-				{
-					id: "0C2F387D45A1FF48"
-					item: "stone_age:cooked_tiger_meat"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5E451309C765EBE8"
-					item: "stone_age:raw_hide"
-					type: "item"
-				}
-				{
-					id: "1BE8DC90FEE66C48"
-					insight: 1
-					team_reward: true
-					type: "frostedheart:insight"
-				}
-			]
-			subtitle: "{quest.twr.7491448A8055DBE6.subtitle}"
-			tasks: [{
-				entity: "stone_age:saber_tooth_tiger"
-				id: "6B7A74E6A2E785B9"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["7762BF27B2BB8236"]
 			description: ["{quest.twr.25F5289EF9A76559.description.0}"]
 			hide_until_deps_visible: false
@@ -103,8 +31,8 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7762BF27B2BB8236"]
@@ -126,8 +54,8 @@
 				value: 1L
 			}]
 			title: "{quest.twr.7AC1F59A495B58AE.title}"
-			x: 5.0d
-			y: 1.5d
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7762BF27B2BB8236"]
@@ -151,8 +79,8 @@
 				type: "item"
 			}]
 			title: "{quest.twr.7A2CCE64AEE955EC.title}"
-			x: 3.5d
-			y: 0.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7762BF27B2BB8236"]
@@ -171,8 +99,8 @@
 				item: "minecraft:egg"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19038BB5A9E42055"]
@@ -191,24 +119,8 @@
 				item: "supplementaries:cage"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.5d
-		}
-		{
-			description: [
-				"{quest.twr.76723451C6850C81.description.1}"
-				"{quest.twr.76723451C6850C81.description.2}"
-			]
-			id: "76723451C6850C81"
-			shape: "rsquare"
-			subtitle: "{quest.twr.76723451C6850C81.subtitle}"
-			tasks: [{
-				id: "33BB3D36B1C4EA5D"
-				title: "{quest.twr.76723451C6850C81.33BB3D36B1C4EA5D.title}"
-				type: "checkmark"
-			}]
 			x: 0.0d
-			y: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7762BF27B2BB8236"]
@@ -225,8 +137,8 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.76BFBA40C36D0699.title}"
-			x: 3.5d
-			y: -1.5d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["03A553EBD453466A"]
@@ -247,8 +159,8 @@
 				item: "stone_age:tanning_rack"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.5d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -279,8 +191,8 @@
 				item: "stone_age:raw_hide"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 1.5d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["443AD02B85632386"]
@@ -297,19 +209,54 @@
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.2406D98489C938B8.subtitle}"
-			tasks: [{
-				id: "6898C42559ADDF9E"
-				item: {
-					Count: 1
-					id: "frostedheart:hide_jacket"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "6898C42559ADDF9E"
+					item: {
+						Count: 1
+						id: "frostedheart:hide_jacket"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			x: 11.0d
-			y: 1.5d
+				{
+					id: "3D06317A833CEFD9"
+					item: {
+						Count: 1
+						id: "frostedheart:hide_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "092458A408CB77C5"
+					item: {
+						Count: 1
+						id: "frostedheart:hide_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "618D59F789534EEA"
+					item: {
+						Count: 1
+						id: "frostedheart:hide_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -349,8 +296,8 @@
 				item: "minecraft:leather"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -0.5d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["42AF456D165CBF75"]
@@ -363,35 +310,12 @@
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.4DD7D3E4613000E4.subtitle}"
-			tasks: [{
-				id: "07753AF4C71657C6"
-				item: {
-					Count: 1
-					id: "minecraft:leather_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["42AF456D165CBF75"]
-			description: [
-				"{quest.twr.506C01A9BE167F7F.description.1}"
-				"{quest.twr.506C01A9BE167F7F.description.2}"
-			]
-			icon: "stone_age:fishing_net"
-			id: "506C01A9BE167F7F"
-			optional: true
-			rewards: [
+			tasks: [
 				{
-					id: "2FAF12DDAE7E3B53"
+					id: "07753AF4C71657C6"
 					item: {
 						Count: 1
-						id: "stone_age:grass_mesh"
+						id: "minecraft:leather_helmet"
 						tag: {
 							Damage: 0
 						}
@@ -399,12 +323,56 @@
 					type: "item"
 				}
 				{
-					id: "570EE552403B9719"
-					insight: 1
-					team_reward: true
-					type: "frostedheart:insight"
+					id: "16FCC81A36F4C816"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2204AC4C994A5254"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0720125AA54424CF"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
 				}
 			]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"{quest.twr.506C01A9BE167F7F.description.1}"
+				"{quest.twr.506C01A9BE167F7F.description.2}"
+			]
+			icon: "stone_age:fishing_net"
+			id: "506C01A9BE167F7F"
+			optional: true
+			rewards: [{
+				id: "570EE552403B9719"
+				insight: 1
+				team_reward: true
+				type: "frostedheart:insight"
+			}]
 			subtitle: "{quest.twr.506C01A9BE167F7F.subtitle}"
 			tasks: [
 				{
@@ -425,8 +393,8 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
-			y: -1.5d
+			x: 1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["42AF456D165CBF75"]
@@ -456,8 +424,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.5d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5DD231E4178E830D"]
@@ -473,8 +441,293 @@
 				item: "comforts:sleeping_bag_brown"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.5d
 			y: -4.5d
+		}
+		{
+			id: "0C45A4139351C201"
+			rewards: [{
+				id: "6DF7EF717F8F3405"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "stone_age:auroch"
+				id: "01A1327608B2DD45"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "453E50BC6C848AB1"
+			rewards: [{
+				id: "574A238E37691CF0"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "stone_age:deer"
+				id: "5EEBF8F77513D38D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "56E65B29FFD272D9"
+			rewards: [{
+				id: "4D0DA92B39ACBA2A"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "22C65EFF945D9B8D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "1ACEAD685B448139"
+			rewards: [{
+				id: "5F1819194D4E214C"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "79A57B446686B146"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "625989086FB08A87"
+			rewards: [{
+				id: "577883E2A432CC19"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "02DB73E6BAB5375F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "7620A5D9B831E291"
+			rewards: [{
+				id: "0C2FA08FCE63209A"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "minecraft:fox"
+				id: "07A4852CCCE83E68"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "7E1F135F40443559"
+			rewards: [{
+				id: "756A1D33D136BFAC"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "stone_age:fowl"
+				id: "66F09B57B2049952"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "4F32438E359EE800"
+			rewards: [{
+				id: "75B629D3C37950F9"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "stone_age:boar"
+				id: "63A1B0E35DA11B15"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "5C5F6B4708E8864C"
+			rewards: [{
+				id: "4B6850BC00DCECBA"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "stone_age:mouflon"
+				id: "55F588410F7215EA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "577588837C7D6FA1"
+			rewards: [{
+				id: "66A3235E20136157"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				count: 64L
+				id: "1FE2BF0A9762F1EE"
+				item: { Count: 64, id: "minecraft:rabbit_hide" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "5837FE6D260155FE"
+			rewards: [{
+				id: "6B08878D5453DB42"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				count: 64L
+				id: "5B388E77C2F6D3AA"
+				item: "stone_age:venison"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "5286FFE083A90F2F"
+			rewards: [{
+				id: "0CDE997E9A5EFCDB"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0C722EA7533407C9"
+				item: { Count: 64, id: "minecraft:cod" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			id: "40075241BD01F5D9"
+			rewards: [{
+				id: "204323C41736AEBB"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				id: "588CDBC53A31220F"
+				item: {
+					Count: 1
+					id: "frostedheart:gambeson"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "78FD420326B36323"
+			rewards: [{
+				id: "3C976CD488B1FDD1"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [
+				{
+					id: "1DDBF54CEECAC4B2"
+					item: {
+						Count: 1
+						id: "frostedheart:wool_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44A42E7C23D9A7FA"
+					item: {
+						Count: 1
+						id: "frostedheart:wool_jacket"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1930732003A04A22"
+					item: {
+						Count: 1
+						id: "frostedheart:wool_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06AE0DF652E62304"
+					item: {
+						Count: 1
+						id: "frostedheart:wool_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "6ED778B50360AD60"
+			rewards: [{
+				id: "293B59821B0C8D52"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				count: 64L
+				id: "414A38C6A4636B0A"
+				item: { Count: 64, id: "minecraft:salmon" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
 		}
 	]
 	subtitle: ["{chapter.twr.75A05D5EAF6602DE.subtitle}"]

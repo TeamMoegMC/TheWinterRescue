@@ -108,15 +108,15 @@
     "creature": [
       {
         "type": "minecraft:wolf",
-        "maxCount": 1,
+        "maxCount": 4,
         "minCount": 1,
         "weight": 1
       },
       {
         "type": "minecraft:rabbit",
-        "maxCount": 3,
+        "maxCount": 1,
         "minCount": 1,
-        "weight": 4
+        "weight": 2
       },
       {
         "type": "minecraft:fox",
@@ -127,18 +127,7 @@
     ],
     "misc": [],
     "monster": [
-      {
-        "type": "minecraft:spider",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:creeper",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 10
-      }
+
     ],
     "underground_water_creature": [
       {

@@ -5,14 +5,14 @@
   "clues": [
     {
       "type": "game",
-      "id": "",
+      "id": "d1856b02dbb24f46",
       "required": true,
       "value": 0.5,
       "level": 0
     },
     {
       "type": "item",
-      "id": "",
+      "id": "f619a0ec70e64236",
       "value": 0.25,
       "item": {
         "base_ingredient": {
@@ -23,7 +23,7 @@
     },
     {
       "type": "item",
-      "id": "",
+      "id": "2d000e6779ec43fc",
       "value": 0.25,
       "item": {
         "base_ingredient": {

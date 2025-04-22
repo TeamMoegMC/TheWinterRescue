@@ -44,15 +44,19 @@
   "item.frostedheart.energy_core.tooltip.behaviour1": "Grants the knowledge for building a _Generator_.",
 
   "item.kubejs.damaged_electric_motor.tooltip.summary": "A damaged electric motor of a little robot.",
-  "item.kubejs.damaged_electric_motor.tooltip.condition1": "When Used In Drawing Desk",
+  "item.kubejs.damaged_electric_motor.tooltip.condition1": "When Inspected In Drawing Desk",
   "item.kubejs.damaged_electric_motor.tooltip.behaviour1": "Grants _Insight_.",
 
   "item.kubejs.damaged_circuit_board.tooltip.summary": "A damaged circuit board.",
-  "item.kubejs.damaged_circuit_board.tooltip.condition1": "When Used In Drawing Desk",
+  "item.kubejs.damaged_circuit_board.tooltip.condition1": "When Inspected In Drawing Desk",
   "item.kubejs.damaged_circuit_board.tooltip.behaviour1": "Grants _Insight_.",
 
+  "item.kubejs.burnt_circuit_board.tooltip.summary": "A burned circuit board once belonging to a blasting machinery.",
+  "item.kubejs.burnt_circuit_board.tooltip.condition1": "When Inspected In Drawing Desk",
+  "item.kubejs.burnt_circuit_board.tooltip.behaviour1": "Grants _Insight_.",
+
   "item.kubejs.damaged_camera.tooltip.summary": "A damaged camera of a science journalist.",
-  "item.kubejs.damaged_camera.tooltip.condition1": "When Used In Drawing Desk",
+  "item.kubejs.damaged_camera.tooltip.condition1": "When Inspected In Drawing Desk",
   "item.kubejs.damaged_camera.tooltip.behaviour1": "Grants _Insight_.",
 
   "item.frostedheart.copper_pro_pick.tooltip.summary": "A specialized tool used for geological exploration and mineral discovery.",
@@ -189,6 +193,10 @@
   "block.stone_age.tanning_rack.tooltip.condition1": "When right-clicked with an item to be tanned.",
   "block.stone_age.tanning_rack.tooltip.behaviour1": "Right-click with a _Flint Processing Knife_ to begin tanning.",
 
+  "block.stone_age.fishing_net.tooltip.summary": "A makeshift trap for small underwater creatures.",
+  "block.stone_age.fishing_net.tooltip.condition1": "When Placed In River or Ocean Biomes and Completely Submerged by Water",
+  "block.stone_age.fishing_net.tooltip.behaviour1": "Captures unlucky underwater preys with a _Mesh_.",
+
   "item.kubejs.activated_carbon.tooltip.summary": "Created by using charcoal on a Steam Charger.",
 
   "block.minecraft.campfire.tooltip.summary": "A basic fireplace for warmth and cooking.",
@@ -203,5 +211,13 @@
   "item.frostedresearch.rubbing_tool.tooltip.condition2": "When Installed on Mechanical Arm",
   "item.frostedresearch.rubbing_tool.tooltip.behaviour2": "Collects _All Research Points_ stored in the facing _Calculator_.",
   "item.frostedresearch.rubbing_tool.tooltip.condition3": "When Collected Enough Research Points and Inspected Again",
-  "item.frostedresearch.rubbing_tool.tooltip.behaviour3": "Applies the collected Research Points to Current Research."
+  "item.frostedresearch.rubbing_tool.tooltip.behaviour3": "Applies the collected Research Points to Current Research.",
+
+  "block.minecraft.mud.tooltip.summary": "Sticky dirt with abundance of water, often formed from melting various dirt permafrost.",
+  "block.minecraft.mud.tooltip.condition1": "When Tilled With Hoe",
+  "block.minecraft.mud.tooltip.behaviour1": "Consumes _Biomass_ on _Offhand_ to revive it into _Dirt_.",
+
+  "block.minecraft.dirt.tooltip.summary": "Organic dirt abundant in microorganisms. Perfect for farming.",
+  "block.minecraft.dirt.tooltip.condition1": "When Long-Exposed In Below-Zero Degree Soil Temperature",
+  "block.minecraft.dirt.tooltip.behaviour1": "Freezes into Permafrost, and loses all its microorganism biomes."
 }

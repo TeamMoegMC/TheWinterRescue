@@ -44,7 +44,11 @@ ServerEvents.recipes((event) => {
         tree_stumpRecipe(Item.of('immersiveengineering:slab_treated_wood_packaged', 2), Item.of('immersiveengineering:treated_wood_packaged'),
             Ingredient.of('#minecraft:axes'), 2, 1),
         tree_stumpRecipe(Item.of('kubejs:creosoted_sawdust_briquette'), Item.of('kubejs:creosoted_sawdust'),
-            Ingredient.of('#forge:hammers'), 2, 1)
+            Ingredient.of('#forge:hammers'), 2, 1),
+        tree_stumpRecipe(Item.of("stone_age:fish_bone", 3), Item.of('minecraft:bone'),
+            Ingredient.of('#minecraft:swords'), 2, 1),
+        tree_stumpRecipe(Item.of("stone_age:fish_bone", 3), Ingredient.of('#stone_age:bones'),
+            Ingredient.of('#minecraft:swords'), 2, 1)
     ]
 
     recipes.forEach((recipe) => {

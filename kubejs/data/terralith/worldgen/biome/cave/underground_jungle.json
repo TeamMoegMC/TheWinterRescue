@@ -69,10 +69,6 @@
       "minecraft:ore_gold_lower",
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_medium",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
@@ -126,7 +122,7 @@
       },
       {
         "type": "minecraft:wolf",
-        "maxCount": 1,
+        "maxCount": 4,
         "minCount": 1,
         "weight": 1
       },
@@ -171,13 +167,7 @@
     "monster": [
       {
         "type": "minecraft:spider",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:creeper",
-        "maxCount": 2,
+        "maxCount": 4,
         "minCount": 1,
         "weight": 10
       },
@@ -185,7 +175,7 @@
         "type": "minecraft:slime",
         "maxCount": 4,
         "minCount": 4,
-        "weight": 40
+        "weight": 20
       }
     ],
     "underground_water_creature": [

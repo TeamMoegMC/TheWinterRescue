@@ -135,12 +135,32 @@ ServerEvents.recipes((event) => {
             ]
         ],
         [
-            "63x caupona:vivid_charcoal", 1,
+            "caupona:vivid_charcoal", 1,
             [
                 "#minecraft:coals",
                 "3x charcoal_pit:straw",
             ]
         ],
+        [
+            "stone_age:fish_bone", 2,
+            [
+                "minecraft:bone",
+                "minecraft:flint",
+            ]
+        ],
+        [
+            "stone_age:fish_bone", 2,
+            [
+                "#stone_age:bones",
+                "minecraft:flint",
+            ]
+        ],
+        [
+            "minecraft:clay_ball", 4, 
+            [
+                "minecraft:clay_block"
+            ]
+        ]
     ]
     addShapelessRecipes.forEach((recipe, index) => {
         let [

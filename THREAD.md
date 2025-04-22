@@ -60,58 +60,58 @@ More survivors and secrets await discovery in-game.
 🎬 **Immersive Scenarios & Lores**
   Dive into an original lore based on science fictional realism and embark on epic adventures.
 
-<img src="https://media.forgecdn.net/attachments/1162/486/zuqiddy-imgur-png.png" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/270/scenario_cg-png.png" width="500">
 
 ❄️ **Realistic Winter Survival**  
   Adapt to harsh temperatures and dynamic weather systems to maintain your body temperature and survive in a beautiful yet unforgiving winter landscape.
 
-<img src="https://i.imgur.com/vK59CCM.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/271/winter_hud-jpeg.jpeg" width="500">
 
 🔥 **Steam-powered Technology**  
   Harness high-temperature steam energy to power intricate machinery, build industrial bases, and unlock new knowledge through exploration and research.
 
-<img src="https://i.imgur.com/qei3JH8.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/272/steam_tech-jpeg.jpeg" width="500">
 
 🗺️ **Deep Exploration & Storyline**  
 Delve into handcrafted frozen worlds, encountering unique creatures, uncovering hidden truths, and advancing the storyline to restore vitality to the world.
 
-<img src="https://i.imgur.com/w2ZTPn3.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1148/602/landscape-png.png" width="500">
 
 🗺️ **Heat & Revive Your Base**  
   Build a Generator to create an expansive Heat Network to dwell safely,
   generate power, cook food, and transform landscapes.
 
-<img src="https://i.imgur.com/jXx3cJE.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/289/plantation-png.png" width="500">
 
 🌨️ **Dynamic Climate Events**  
   Navigate challenging blizzards, cold fronts, and occasional warm spells, each altering your strategy and pushing your adaptability to the limit.
 
-<img src="https://i.imgur.com/dLC350v.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/276/body_temperature-jpeg.jpeg" width="500">
 
 🛠️ **Immersive Machinery & Research**  
   Progress through a detailed technological tree, discovering and mastering steam-based equipment essential for survival and development.
 
-<img src="https://i.imgur.com/rOimNBh.png" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/277/research_ui-png.png" width="500">
 
 🏘️ **Town Building & Management (Upcoming, work in progress)**  
   Rescue exiled refugees, provide warmth and sustenance, and construct a thriving, self-sufficient town amidst the harsh conditions.
 
-<img src="https://i.imgur.com/DyyqdJc.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/278/refugee-jpeg.jpeg" width="500">
 
 🍲 **Comforting Winter Cooking**  
 Create nourishing meals using custom cooking mechanics to sustain your health, morale, and the well-being of your community.
 
-<img src="https://i.imgur.com/Jgztnql.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/279/cooking-jpeg.jpeg" width="500">
 
 🌐 **Solo & Multiplayer Ready**  
   Experience immersive survival, exploration, and community building alone or collaboratively with friends.
 
-<img src="https://i.imgur.com/Q2Ik83K.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/280/multiplayer-jpeg.jpeg" width="500">
 
 ⚡ **Lightweight & Performant**  
   Built around only three core mods—Create, Immersive Engineering, and Frosted Heart—everything is streamlined and optimized for smooth performance and minimal overhead.
 
-<img src="https://i.imgur.com/dMk449U.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/281/base_in_forest-jpeg.jpeg" width="500">
 
 ## Gameplay
 In *The Winter Rescue*, your goal is simple but challenging: survive, rebuild, and rescue. Explore a harsh, snow-covered world, facing relentless cold, dangerous wildlife, and limited resources. Through careful planning and bold action, build shelters, manage resources, and discover survivors waiting for rescue.
@@ -120,30 +120,30 @@ In *The Winter Rescue*, your goal is simple but challenging: survive, rebuild, a
 
 **A Fireplace melting a snow patch in a Blizzard.**
 
-<img src="https://i.imgur.com/HsCCxjw.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/282/fireplace_melting_snow-jpeg.jpeg" width="500">
 
 **A Typical Early Base: Stone Chests, Workbench, Drying Rack, 
 Tree Stump, Drawing Desk, and a Stove-Pot companion.**
 
-<img src="https://i.imgur.com/QYhDakk.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/283/early_base-jpeg.jpeg" width="500">
 
 **A man under Generator smoke, tinkering with his spruce.**
 
-<img src="https://i.imgur.com/mg3nA6Z.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/284/man_under_gen-jpeg.jpeg" width="500">
 
 **A Steam Generator heating a Birch Plantation.**
 
-<img src="https://i.imgur.com/ZWFesQK.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/285/birch_plantation-jpeg.jpeg" width="500">
 
 ## Original UI, Model, and Building Art
 
 **Generator UI**
 
-<img src="https://i.imgur.com/Q0bWFr9.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/286/generator_ui-png.png" width="500">
 
 **Wooden Cabin**
 
-<img src="https://i.imgur.com/JwkOI0K.jpeg" width="500">
+<img src="https://media.forgecdn.net/attachments/1165/287/wooden_cabin-jpeg.jpeg" width="500">
 
 ## Server
 Join our [Official Server](https://forum.teammoeg.com/d/50-official-server) through the latest release to play
@@ -154,15 +154,23 @@ Setting up private server?
 post. 
 - Use [BisectHosing](https://www.bisecthosting.com/curseforge?curseforge_project_id=535790&dl=1) code `TeamMoeg` for a discount.
 
+## Tutorials
+
+Check out and contribute to the vibrant Official Wiki!
+
+- [The Winter Rescue Wiki (English)](https://wiki.teammoeg.com/index.php?title=The_Winter_Rescue)
+- [The Winter Rescue Wiki (Chinese)](https://wiki.teammoeg.com/index.php?title=%E5%86%AC%E5%AD%A3%E6%95%91%E6%8F%B4)
+
 ## Community
 Join our [Discord community](https://discord.gg/BWn6E94) to share your stories, get updates, and participate in 
 shaping the future of the modpack.
 - We are actively recruiting Contributors! Talk to a TeamMoeg Member in `#twr-development`.
 
-Join our [TeamMoeg Forums](https://forum.teammoeg.com/t/the-winter-rescue) to post your gameplay experience.
+Join our [QQ Channel](https://pd.qq.com/s/ejtpb6x1i) or QQ Groups if you speak Chinese!
+- Latest QQ Group (5): 1014376904
+- This opens up opportunities for closed-beta testing. 
 
-Check out and contribute to the vibrant
-[The Winter Rescue Wiki](https://wiki.teammoeg.com/index.php?title=The_Winter_Rescue).
+Join our [TeamMoeg Forums](https://forum.teammoeg.com/t/the-winter-rescue) to post your gameplay experience.
 
 ## Feedback
 Enjoying *The Winter Rescue*? Please consider leaving a review—it helps us improve and keeps the community growing!

@@ -32,19 +32,25 @@
   "ingredients": [
     {
       "base_ingredient": {
-        "item": "create:empty_blaze_burner"
+        "item": "frostedheart:cast_iron_sheet"
       },
-      "count": 1
+      "count": 5
     },
     {
       "base_ingredient": {
         "tag": "forge:plates/constantan"
       },
-      "count": 1
+      "count": 5
     },
     {
       "base_ingredient": {
         "item": "minecraft:lava_bucket"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "minecraft:magma_block"
       },
       "count": 1
     }
@@ -63,6 +69,16 @@
       "rewards": [
         {
           "id": "minecraft:bucket",
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "type": "item",
+      "id": "93d5392ed4154245",
+      "rewards": [
+        {
+          "id": "frostedheart:cooled_magma_block",
           "Count": 1
         }
       ]

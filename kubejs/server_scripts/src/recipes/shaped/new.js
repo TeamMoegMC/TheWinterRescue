@@ -78,18 +78,18 @@ ServerEvents.recipes((event) => {
         ],
         [
             "stone_age:grass_mesh", [
-            "A A",
-            " A ",
-            "A A"
+            "AAA",
+            "AAA",
+            "AAA"
         ], {
             A: "stone_age:grass_lead"
         }
         ],
         [
             "stone_age:cobweb_mesh", [
-            "A A",
-            " A ",
-            "A A"
+            "AAA",
+            "AAA",
+            "AAA"
         ], {
             A: "minecraft:string"
         }
@@ -101,8 +101,19 @@ ServerEvents.recipes((event) => {
             "BAB"
         ], {
             A: "stone_age:leather_strip",
-            B: "#forge:rods/wooden",
-            C: "#minecraft:wooden_slabs"
+            B: "#forge:rods/treated_wood",
+            C: "#forge:treated_wood_slab"
+        }
+        ],
+        [
+            "stone_age:fishing_net", [
+            "BAB",
+            "ACA",
+            "BAB"
+        ], {
+            A: "#forge:wires/copper",
+            B: "#forge:rods/treated_wood",
+            C: "#forge:treated_wood_slab"
         }
         ],
         [
@@ -728,14 +739,6 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "stone_age:fish_bone", 2, [
-            "ABA"
-        ], {
-            A: "#stone_age:bones",
-            B: "minecraft:flint"
-        }
-        ],
-        [
             "frostedheart:hide_hat", [
             "AAA",
             "A A",
@@ -1186,6 +1189,15 @@ ServerEvents.recipes((event) => {
                 D: "minecraft:copper_block"
             }
         ],
+        [
+            "minecraft:torch", 1, [
+                "A",
+                "B",
+            ], {
+                A: "#forge:raw_materials/peat",
+                B: "#forge:rods/wooden"
+            }
+        ]
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [

@@ -108,7 +108,7 @@
 					Count: 1
 					id: "frostedheart:leather_water_bag"
 					tag: {
-						Damage: 1500
+						Damage: 1000
 					}
 				}
 				id: "6E14D0E983EACA58"

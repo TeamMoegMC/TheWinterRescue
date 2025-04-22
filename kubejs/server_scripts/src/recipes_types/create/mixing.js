@@ -10,11 +10,11 @@ ServerEvents.recipes((event) => {
             input: ["2x frostedheart:cryolite_dust", "frostedheart:aluminium_hydroxide_dust", Fluid.of("frostedheart:sulfuric_acid", 500)]
         },
         {
-            output: [Fluid.of("frostedheart:latex", 900)],
+            output: [Fluid.of("frostedheart:latex", 1000)],
             input: ["immersiveengineering:dust_sulfur", Fluid.of("frostedheart:resin", 1000)]
         },
         {
-            output: [Fluid.of("frostedheart:latex", 900)],
+            output: [Fluid.of("frostedheart:latex", 1000)],
             input: [Fluid.of("frostedheart:sulfur_dioxide", 300), Fluid.of("frostedheart:resin", 1000)]
         },
         {
@@ -98,6 +98,10 @@ ServerEvents.recipes((event) => {
             output: ["3x immersiveengineering:fertilizer"],
             // K, N, P
             input: ["#forge:dusts/ash", "#forge:dusts/saltpeter", "#forge:slag", Fluid.of("minecraft:water", 1000)]
+        },
+        {
+            output: ["minecraft:dirt"],
+            input: ["minecraft:mud", "frostedheart:biomass"]
         }
     ]
     let heated = [
@@ -139,7 +143,19 @@ ServerEvents.recipes((event) => {
         },
         {
             output: ["minecraft:dirt"],
-            input: ["frostedheart:dirt_permafrost", "frostedheart:biomass", "#forge:dusts/ash"]
+            input: ["frostedheart:dirt_permafrost", "frostedheart:biomass"]
+        },
+        {
+            output: ["minecraft:dirt"],
+            input: ["frostedheart:coarse_dirt_permafrost", "frostedheart:biomass"]
+        },
+        {
+            output: ["minecraft:dirt"],
+            input: ["frostedheart:mud_permafrost", "frostedheart:biomass"]
+        },
+        {
+            output: ["minecraft:rooted_dirt"],
+            input: ["frostedheart:rooted_dirt_permafrost", "frostedheart:biomass"]
         }
     ]
     recipes.forEach((recipe, index) => {

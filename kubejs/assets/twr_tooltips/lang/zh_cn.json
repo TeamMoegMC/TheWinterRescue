@@ -87,6 +87,10 @@
   "item.kubejs.damaged_circuit_board.tooltip.condition1": "当在绘图台中使用时",
   "item.kubejs.damaged_circuit_board.tooltip.behaviour1": "获得_见闻_.",
 
+  "item.kubejs.burnt_circuit_board.tooltip.summary": "一块烧坏的电路板，曾经用于驱动一个爆破机械。",
+  "item.kubejs.burnt_circuit_board.tooltip.condition1": "当在绘图台中使用时",
+  "item.kubejs.burnt_circuit_board.tooltip.behaviour1": "获得_见闻_.",
+
   "item.kubejs.damaged_camera.tooltip.summary": "一个破损的记者相机.",
   "item.kubejs.damaged_camera.tooltip.condition1": "当在绘图台中使用时",
   "item.kubejs.damaged_camera.tooltip.behaviour1": "获得_见闻_.",
@@ -188,6 +192,10 @@
   "block.stone_age.tanning_rack.tooltip.condition1": "右击，手持待鞣制的物品。",
   "block.stone_age.tanning_rack.tooltip.behaviour1": "右键使用 _燧石加工刀_ 开始鞣制。",
 
+  "block.stone_age.fishing_net.tooltip.summary": "一个用于捕捉小型水下生物的简易陷阱。",
+  "block.stone_age.fishing_net.tooltip.condition1": "当放置在河流或海洋群系并完全浸入水中时",
+  "block.stone_age.fishing_net.tooltip.behaviour1": "用_网_捕捉不走幸的水下猎物。",
+
   "item.kubejs.activated_carbon.tooltip.summary": "用木炭在蒸汽充能器上处理获得。",
 
   "block.minecraft.campfire.tooltip.summary": "一个基础的火堆，可用来取暖和烹饪。",
@@ -202,6 +210,14 @@
   "item.frostedresearch.rubbing_tool.tooltip.condition2": "当装载在机械手上时",
   "item.frostedresearch.rubbing_tool.tooltip.behaviour2": "收集所对_计算器_内储存的_所有研究点数_，最多五次。",
   "item.frostedresearch.rubbing_tool.tooltip.condition3": "当收集了一定研究点数后再次检验时",
-  "item.frostedresearch.rubbing_tool.tooltip.behaviour3": "将收集的研究点数作用到_当前研究_上。"
+  "item.frostedresearch.rubbing_tool.tooltip.behaviour3": "将收集的研究点数作用到_当前研究_上。",
+
+  "block.minecraft.mud.tooltip.summary": "富含水分的粘稠土壤，常由各类冻土融化形成。",
+  "block.minecraft.mud.tooltip.condition1": "当用锄头右击时",
+  "block.minecraft.mud.tooltip.behaviour1": "消耗_副手_上的_生物质_将其复苏为泥土。",
+
+  "block.minecraft.dirt.tooltip.summary": "富含微生物的有机土壤，可以用于耕地。",
+  "block.minecraft.dirt.tooltip.condition1": "当长期暴露在零下土壤温度时",
+  "block.minecraft.dirt.tooltip.behaviour1": "凝结为冻土，并丧失所有微生物群落。"
 }
   

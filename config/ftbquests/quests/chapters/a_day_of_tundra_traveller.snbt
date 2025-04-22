@@ -105,8 +105,8 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 3.0d
+			x: 0.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["{chapter.twr.5E14F9D22A78E620.subtitle.0}"]

@@ -2,8 +2,7 @@
 @act a=act2 c=chapter1
 
 # Starting
-@showTitle t="Chapter 1 Act 2" st="Survive In The Snow"
-@delay t=60
+@call s="chapter1_act2_title.ks"
 
 @label name=chapter_guide
 @call s="quest:56E5FD2809882B5F?call"
@@ -56,7 +55,7 @@ Now I have a fire going. Time to think about further plans. @r
 
 Warm shelter. Place to craft. It's time to dive further into this world. @r
 Now you should know how to follow the quest book. @r
-You will encounter another scneario when you crafted a drawing desk.
+You will encounter another scenario when you crafted a drawing desk.
 @delay t=60
 
 @showTitle t="Chapter 1 Act 2" st="Compelete"

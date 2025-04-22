@@ -1,31 +1,5 @@
 {
-  "feature": {
-    "type": "minecraft:ore",
-    "config": {
-      "discard_chance_on_air_exposure": 0.0,
-      "size": 10,
-      "targets": [
-        {
-          "state": {
-            "Name": "frostedheart:kaolin_block"
-          },
-          "target": {
-            "predicate_type": "minecraft:tag_match",
-            "tag": "minecraft:stone_ore_replaceables"
-          }
-        },
-        {
-          "state": {
-            "Name": "frostedheart:kaolin_block"
-          },
-          "target": {
-            "predicate_type": "minecraft:tag_match",
-            "tag": "minecraft:deepslate_ore_replaceables"
-          }
-        }
-      ]
-    }
-  },
+  "feature": "the_winter_rescue:kaolin_block",
   "placement": [
     {
       "type": "minecraft:count",

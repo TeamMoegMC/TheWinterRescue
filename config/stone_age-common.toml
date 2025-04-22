@@ -7,7 +7,7 @@
 	tanningRackFinishChance = 0.1
 	#Chance of successfull fishing every 1/X tick (randomly)
 	#Range: > 1
-	fishingNetChance = 3600
+	fishingNetChance = 12000
 	#Chance of breed effect from feeder every 1/X tick
 	#Range: > 1
 	feederTickChanceBreedAnimal = 200
