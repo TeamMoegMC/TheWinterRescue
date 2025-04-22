@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
         inspire("kubejs:damaged_circuit_board", 6)
         inspire("kubejs:damaged_electric_motor", 5)
         inspire("kubejs:damaged_camera", 5)
-        inspire("kubejs:burnt_circuit_board", 6)
+        inspire("kubejs:burnt_circuit_board", 2)
         inspire("kubejs:broken_robot_1", 20)
         inspire("kubejs:broken_robot_2", 20)
 		inspire("frostedheart:iron_fence_remains", 1)

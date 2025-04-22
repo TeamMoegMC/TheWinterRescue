@@ -3232,7 +3232,7 @@
                       "then_run": {
                         "type": "minecraft:block",
                         "result_state": {
-                          "Name": "minecraft:snow_block"
+                          "Name": "minecraft:ice"
                         }
                       }
                     },
