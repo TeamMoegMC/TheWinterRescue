@@ -1189,6 +1189,15 @@ ServerEvents.recipes((event) => {
                 D: "minecraft:copper_block"
             }
         ],
+        [
+            "minecraft:torch", 1, [
+                "A",
+                "B",
+            ], {
+                A: "#forge:raw_materials/peat",
+                B: "#forge:rods/wooden"
+            }
+        ]
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [

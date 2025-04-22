@@ -154,6 +154,12 @@ ServerEvents.recipes((event) => {
                 "#stone_age:bones",
                 "minecraft:flint",
             ]
+        ],
+        [
+            "minecraft:clay_ball", 4, 
+            [
+                "minecraft:clay_block"
+            ]
         ]
     ]
     addShapelessRecipes.forEach((recipe, index) => {
