@@ -128,16 +128,6 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "stone_age:tree_stump", [
-            "   ",
-            " B ",
-            "AAA"
-        ], {
-            A: "minecraft:stone",
-            B: "#minecraft:logs"
-        }
-        ],
-        [
             "stone_age:drying_rack", [
             "A A",
             " A ",
