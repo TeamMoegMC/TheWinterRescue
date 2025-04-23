@@ -1,9 +1,10 @@
 {
   "replace": true,
   "values": [
+    "minecraft:snowy_taiga",
     "terralith:siberian_taiga",
     "terralith:wintry_forest",
     "terralith:wintry_lowlands",
-    "terralith:wintry_yellowstone"
+    "terralith:yellowstone"
   ]
 }
