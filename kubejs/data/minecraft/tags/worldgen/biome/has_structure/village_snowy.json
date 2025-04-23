@@ -1,6 +1,8 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
-    "terralith:snowy_badlands"
+    "terralith:cold_shrubland",
+    "terralith:rocky_shrubland",
+    "terralith:ice_marsh"
   ]
 }

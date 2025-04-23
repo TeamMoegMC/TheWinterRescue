@@ -1,10 +1,7 @@
 {
   "values": [
     "minecraft:grove",
-    "minecraft:old_growth_pine_taiga",
-    "minecraft:old_growth_spruce_taiga",
     "minecraft:snowy_taiga",
-    "minecraft:taiga",
     "terralith:alpine_grove",
     "terralith:cold_shrubland",
     "terralith:gravel_desert",
