@@ -17,7 +17,6 @@ ServerEvents.recipes((event) => {
             .id(recipe.id?recipe.id:`the_winter_rescue:minecraft/crafting_shapeless/change/${index}`)
     })
     let addShapelessRecipes = [
-
         shapelessRecipe("2x frostedheart:raw_rye_bread", ["2x frostedheart:rye_flour", "minecraft:water_bucket"]),
 		shapelessRecipe("minecraft:flint", "3x minecraft:gravel"),
         shapelessRecipe("9x charcoal_pit:straw", "minecraft:hay_block"),
@@ -40,7 +39,7 @@ ServerEvents.recipes((event) => {
         shapelessRecipe("frostedheart:quicklime_block","9x frostedheart:quicklime"),
         shapelessRecipe("frostedheart:magnesia_block","9x frostedheart:magnesia_dust"),
         shapelessRecipe("4x stone_age:bone_arrow_head",["#stone_age:bones","immersiveengineering:hammer"]),
-        shapelessRecipe("16x caupona:vivid_charcoal",["#minecraft:coals","3x charcoal_pit:straw"])
+        shapelessRecipe("16x caupona:vivid_charcoal",["#minecraft:coals","3x charcoal_pit:straw"]),
 		shapelessRecipe("2x stone_age:fish_bone",["minecraft:bone","minecraft:flint"]),
         shapelessRecipe("2x stone_age:fish_bone",["#stone_age:bones","minecraft:flint"]),
         shapelessRecipe("4x minecraft:clay_ball","minecraft:clay")
