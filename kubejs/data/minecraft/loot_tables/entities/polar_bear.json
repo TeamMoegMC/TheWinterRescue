@@ -11,8 +11,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 6.0,
-                "max": 10.0,
+                "min": 1.0,
+                "max": 4.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -38,8 +38,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3.0,
-                "max": 6.0,
+                "min": 6.0,
+                "max": 10.0,
                 "type": "minecraft:uniform"
               }
             },
@@ -51,7 +51,7 @@
               }
             }
           ],
-          "name": "stone_age:raw_hide"
+          "name": "frostedheart:polar_bear_meat"
         }
       ]
     },
@@ -65,8 +65,28 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3.0,
-                "max": 6.0,
+                "min": 1.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "frostedheart:polar_bear_hide"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6.0,
+                "max": 10.0,
                 "type": "minecraft:uniform"
               }
             },

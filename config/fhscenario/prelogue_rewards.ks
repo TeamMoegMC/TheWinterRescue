@@ -1,4 +1,4 @@
-@giveItem i=frostedheart:leather_water_bag n="{Damage:0,Fluid:{FluidName:\"frostedheart:purified_water\",Amount:1500}}"
+@giveItem i=frostedheart:leather_water_bag n="{Damage:0,Fluid:{FluidName:\"frostedheart:purified_water\",Amount:1000}}"
 @giveItem i=minecraft:iron_shovel
 @giveItem i=frostedheart:magnesium_ingot
 @giveItem i=frostedheart:military_rations c=16

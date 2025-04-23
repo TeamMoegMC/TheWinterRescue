@@ -51,7 +51,7 @@
               }
             }
           ],
-          "name": "minecraft:mutton"
+          "name": "frostedheart:wolf_meat"
         }
       ]
     },
@@ -65,20 +65,13 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2.0,
-                "max": 3.0,
+                "min": 1.0,
+                "max": 1.0,
                 "type": "minecraft:uniform"
-              }
-            },
-            {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "min": 2.0,
-                "max": 3.0
               }
             }
           ],
-          "name": "stone_age:raw_hide"
+          "name": "frostedheart:wolf_hide"
         }
       ]
     }

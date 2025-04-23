@@ -26,6 +26,8 @@ ServerEvents.recipes((event) => {
         shapelessRecipe(Item.of("frostedheart:straw_briquette_red_mushroom",1,{"Damage": 4800}), ["kubejs:wet_straw_briquette", "minecraft:red_mushroom"]),
         shapelessRecipe(Item.of("frostedheart:straw_briquette_brown_mushroom",1,{"Damage": 4800}), ["kubejs:wet_straw_briquette", "minecraft:brown_mushroom"]),
         shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "4x frostedheart:generator_ash"]),
+        shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "2x frostedheart:generator_ash", "2x minecraft:ink_sac"]),
+        shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "2x frostedheart:generator_ash", "2x minecraft:glow_ink_sac"]),
         shapelessRecipe("frostedresearch:rubbing_tool", ["2x frostedheart:generator_ash", "minecraft:paper", "frostedresearch:rubbing_pad"]),
         shapelessRecipe("2x stone_age:grass_lead", "3x charcoal_pit:straw" ),
         shapelessRecipe("frostedheart:packed_snow", ["2x minecraft:snowball", "2x minecraft:snow_block"]),
