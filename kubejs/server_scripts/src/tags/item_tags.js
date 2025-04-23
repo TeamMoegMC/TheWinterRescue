@@ -119,6 +119,9 @@ ServerEvents.tags("item", (event) => {
         "stone_age:rhino_meat",
         "stone_age:mammoth_meat"
     ])
+	event.add("caupona:portable_brazier_fuel",[
+		"frostedheart:peat"
+	])
     event.add("caupona:vegetables", [
 
     ])

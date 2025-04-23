@@ -6,204 +6,53 @@ ServerEvents.recipes((event) => {
     let {create, kubejs, minecraft} = event.recipes
 
     let changeShapelessRecipes = [
-        ["minecraft:flint", [["minecraft:gravel", 3]]],
-        ["charcoal_pit:straw", 9, ["minecraft:hay_block"]]
+        
     ]
     changeShapelessRecipes.forEach((recipe, index) => {
-        let [
-            output,
-            quantity,
-            inputs
-        ] = recipe.length === 3 ? recipe : [recipe[0], 1, recipe[1]]
-
-        if (Array.isArray(output)) {
-            let [itemID, nbt] = output
-            output = Item.of(itemID, quantity).withNBT(nbt || {})
-        } else {
-            9
-            output = Item.of(output, quantity)
-        }
-
-        let processedInputs = inputs.map((input) => {
-            if (Array.isArray(input)) {
-                let [item, count] = input
-                return Item.of(item, count)
-            } else if (typeof input === "string") {
-                return input
-            } else {
-                throw new Error(`Invalid input format: ${input}`)
-            }
-        })
-
-        kubejs.shapeless(output, processedInputs)
-            .id(`the_winter_rescue:minecraft/crafting_shapeless/change/${index}`)
+		if(!Array.isArray(recipe.ingredients)){
+			recipe.ingredients=[recipe.ingredients];
+		}
+		event.remove({output: Item.of(recipe.result), type: 'minecraft:crafting_shapeless'});
+        kubejs.shapeless(recipe.result, recipe.ingredients)
+            .id(recipe.id?recipe.id:`the_winter_rescue:minecraft/crafting_shapeless/change/${index}`)
     })
-
     let addShapelessRecipes = [
-        ["frostedheart:raw_rye_bread", 2, [["frostedheart:rye_flour", 2], "minecraft:water_bucket"]],
-        ["immersiveengineering:crate", ["immersiveengineering:reinforced_crate"]],
-        ["frostedheart:black_bread", 2, [["frostedheart:rye_flour", 2], "#forge:dusts/wood"]],
-        ["minecraft:slime_ball", ["create:dough", "minecraft:lime_dye"]],
-        [
-            {
-                "item": "frostedheart:straw_briquette_red_mushroom",
-                "nbt": {"Damage": 4800}
-            }, ["kubejs:wet_straw_briquette", "minecraft:red_mushroom"]
-        ],
-        [
-            {
-                "item": "frostedheart:straw_briquette_brown_mushroom", "nbt": {"Damage": 4800}
-            }, ["kubejs:wet_straw_briquette", "minecraft:brown_mushroom"]
-        ],
-        ["frostedresearch:quill_and_ink", 3, [["minecraft:feather", 3], "minecraft:glass_bottle", "frostedheart:generator_ash"]],
-        ["frostedresearch:rubbing_tool", 4, [["frostedheart:generator_ash", 2], "minecraft:paper", "frostedresearch:rubbing_pad"]],
-        ["stone_age:grass_lead", 2, [["charcoal_pit:straw", 3]]],
-        ["frostedheart:packed_snow", [["minecraft:snowball", 2], ["minecraft:snow_block", 2]]],
-        ["stone_age:leather_strip", 4, ["minecraft:leather"]],
-        ["frostedheart:peat", 4,
-            ["frostedheart:peat_block"]
-        ],
-        ["frostedheart:constantan_wire", ["#forge:ingots/constantan", "immersiveengineering:wirecutter"]],
-        [
-            "frostedheart:charcoal_stick",
-            [
-                "kubejs:charcoal_briquette"
-            ]
-        ],
-        [
-            "frostedheart:coal_stick",
-            [
-                "kubejs:coal_briquette"
-            ]
-        ],
-        [
-            "stone_age:raw_hide",
-            [
-                "minecraft:rabbit_hide",
-                "minecraft:rabbit_hide",
-                "minecraft:rabbit_hide",
-                "minecraft:rabbit_hide",
-            ]
-        ],
-        [
-            "frostedheart:magnesite_block",
-            [
-                "frostedheart:raw_magnesite",
-                "frostedheart:raw_magnesite",
-                "frostedheart:raw_magnesite",
-                "frostedheart:raw_magnesite",
-                "frostedheart:raw_magnesite",
-                "frostedheart:raw_magnesite",
-                "frostedheart:raw_magnesite",
-                "frostedheart:raw_magnesite",
-                "frostedheart:raw_magnesite"
-            ]
-        ],
-        [
-            "frostedheart:quicklime_block",
-            [
-                "frostedheart:quicklime",
-                "frostedheart:quicklime",
-                "frostedheart:quicklime",
-                "frostedheart:quicklime",
-                "frostedheart:quicklime",
-                "frostedheart:quicklime",
-                "frostedheart:quicklime",
-                "frostedheart:quicklime",
-                "frostedheart:quicklime",
-            ]
-        ],
-        [
-            "frostedheart:magnesia_block",
-            [
-                "frostedheart:magnesia_dust",
-                "frostedheart:magnesia_dust",
-                "frostedheart:magnesia_dust",
-                "frostedheart:magnesia_dust",
-                "frostedheart:magnesia_dust",
-                "frostedheart:magnesia_dust",
-                "frostedheart:magnesia_dust",
-                "frostedheart:magnesia_dust",
-                "frostedheart:magnesia_dust",
-            ]
-        ],
-        [
-            "stone_age:bone_arrow_head", 4,
-            [
-                "#stone_age:bones",
-                "immersiveengineering:hammer"
-            ]
-        ],
-        [
-            "caupona:vivid_charcoal", 1,
-            [
-                "#minecraft:coals",
-                "3x charcoal_pit:straw",
-            ]
-        ],
-        [
-            "stone_age:fish_bone", 2,
-            [
-                "minecraft:bone",
-                "minecraft:flint",
-            ]
-        ],
-        [
-            "stone_age:fish_bone", 2,
-            [
-                "#stone_age:bones",
-                "minecraft:flint",
-            ]
-        ],
-        [
-            "minecraft:clay_ball", 4, 
-            [
-                "minecraft:clay"
-            ]
-        ]
+
+        shapelessRecipe("2x frostedheart:raw_rye_bread", ["2x frostedheart:rye_flour", "minecraft:water_bucket"]),
+		shapelessRecipe("minecraft:flint", "3x minecraft:gravel"),
+        shapelessRecipe("9x charcoal_pit:straw", "minecraft:hay_block"),
+        shapelessRecipe("immersiveengineering:crate", "immersiveengineering:reinforced_crate"),
+        shapelessRecipe("2x frostedheart:black_bread", ["2x frostedheart:rye_flour", "#forge:dusts/wood"]),
+        shapelessRecipe("minecraft:slime_ball", ["create:dough", "minecraft:lime_dye"]),
+        shapelessRecipe(Item.of("frostedheart:straw_briquette_red_mushroom",1,{"Damage": 4800}), ["kubejs:wet_straw_briquette", "minecraft:red_mushroom"]),
+        shapelessRecipe(Item.of("frostedheart:straw_briquette_brown_mushroom",1,{"Damage": 4800}), ["kubejs:wet_straw_briquette", "minecraft:brown_mushroom"]),
+        shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "4x frostedheart:generator_ash"]),
+        shapelessRecipe("frostedresearch:rubbing_tool", ["2x frostedheart:generator_ash", "minecraft:paper", "frostedresearch:rubbing_pad"]),
+        shapelessRecipe("2x stone_age:grass_lead", "3x charcoal_pit:straw" ),
+        shapelessRecipe("frostedheart:packed_snow", ["2x minecraft:snowball", "2x minecraft:snow_block"]),
+        shapelessRecipe("4x stone_age:leather_strip", "minecraft:leather"),
+        shapelessRecipe("4x frostedheart:peat","frostedheart:peat_block"),
+        shapelessRecipe("frostedheart:constantan_wire", ["#forge:ingots/constantan", "immersiveengineering:wirecutter"]),
+        shapelessRecipe("2x frostedheart:charcoal_stick","kubejs:charcoal_briquette"),
+        shapelessRecipe("2x frostedheart:coal_stick","kubejs:coal_briquette"),
+        shapelessRecipe("stone_age:raw_hide","4x minecraft:rabbit_hide"),
+        shapelessRecipe("frostedheart:magnesite_block","9x frostedheart:raw_magnesite"),
+        shapelessRecipe("frostedheart:quicklime_block","9x frostedheart:quicklime"),
+        shapelessRecipe("frostedheart:magnesia_block","9x frostedheart:magnesia_dust"),
+        shapelessRecipe("4x stone_age:bone_arrow_head",["#stone_age:bones","immersiveengineering:hammer"]),
+        shapelessRecipe("16x caupona:vivid_charcoal",["#minecraft:coals","3x charcoal_pit:straw"])
+		shapelessRecipe("2x stone_age:fish_bone",["minecraft:bone","minecraft:flint"]),
+        shapelessRecipe("2x stone_age:fish_bone",["#stone_age:bones","minecraft:flint"]),
+        shapelessRecipe("4x minecraft:clay_ball","minecraft:clay")
     ]
     addShapelessRecipes.forEach((recipe, index) => {
-        let [
-            output,
-            quantity,
-            inputs
-        ] = recipe.length === 3 ? recipe : [recipe[0], 1, recipe[1]]
-
-        // Check if the output is an array, and process it further if true
-        if (Array.isArray(output)) {
-            // Destructure the output array to get item ID and NBT data
-            let [itemID, nbt] = output
-            // Create an item with the given item ID, quantity, and NBT data
-            output = Item.of(itemID, quantity).withNBT(nbt || {})
-        } else {
-            // If the output is not an array, create an item with the given item ID and quantity
-            output = Item.of(output, quantity)
-        }
-
-        // Process each input to convert them into a unified format
-        let processedInputs = inputs.map((input) => {
-            // If the input is an array, destructure to get item and count, then create an item
-            if (Array.isArray(input)) {
-                let [item, count] = input
-                return Item.of(item, count)
-                // If the input is a string, return it as is
-            } else if (typeof input === "string") {
-                return input
-                // If the input format is invalid, throw an error
-            } else {
-                throw new Error(`Invalid input format: ${input}`)
-            }
-        })
-        /*if (output==null)
-        {
-        console.log(inputs)
-         console.log(output)
-        }*/
-        // Register a shapeless crafting recipe using kubejs.shapeless method
+		if(!Array.isArray(recipe.ingredients)){
+			recipe.ingredients=[recipe.ingredients];
+		}
         kubejs.shapeless(
-            output,
-            processedInputs
-        ).id(`the_winter_rescue:minecraft/crafting_shapeless/new/${index}`)
+            recipe.result,
+            recipe.ingredients
+        ).id(recipe.id?recipe.id:`the_winter_rescue:minecraft/crafting_shapeless/new/${index}`)
     })
 
     Ingredient.of("#forge:vertical_slabs")
