@@ -2,7 +2,6 @@ ServerEvents.tags("item", (event) => {
     // Ores
     event.add("forge:crushed_raw_materials/silver", "create:crushed_raw_silver")
     event.add("forge:crushed_raw_materials/lead", "create:crushed_raw_lead")
-    event.add("forge:dusts/aluminum_hydroxide", "frostedheart:aluminium_hydroxide_dust")
 
 
     let colors = [
@@ -27,38 +26,16 @@ ServerEvents.tags("item", (event) => {
         event.add("minecraft:shulker_box", `minecraft:${clr}_shulker_box`)
     })
     event.add("itemfilters:check_nbt", "tetra:modular_double")
-    event.add("forge:plates/bronze", "steampowered:bronze_sheet")
-    event.add("forge:plates/cast_iron", "frostedheart:cast_iron_sheet")
-    event.add("forge:plates/tungsten_steel", "frostedheart:tungsten_steel_sheet")
-    event.add("forge:ingots/tungsten_steel", "frostedheart:tungsten_steel_ingot")
-    event.add("forge:plates/battery_alloy", "frostedheart:lead_sheet")
-    event.add("forge:ingots/battery_alloy", "frostedheart:lead_ingot")
-    event.add("forge:dusts/wood", "frostedheart:sawdust")
-    event.add("forge:rods/cast_iron", "frostedheart:cast_iron_rod")
-    event.add("frostedheart:ash", "charcoal_pit:ash")
     event.add("frostedheart:cow_feed", "charcoal_pit:straw")
     event.add("kubejs:coal_dust", "kubejs:coal_dust")
-    event.add("forge:dusts/zinc", "frostedheart:zinc_dust")
     event.add("kubejs:tetra_hammer", "tetra:modular_double")
     event.add("forge:hammers", "tetra:modular_double")
     event.add("forge:swords", "tetra:modular_sword")
     event.add("minecraft:axes", "tetra:modular_double")
     event.add("minecraft:swords", "tetra:modular_sword")
-
     event.add("minecraft:shulker_box", "minecraft:shulker_box")
-    event.add("caupona:meats/meat", "frostedheart:military_rations")
-    event.add("caupona:meats", "frostedheart:chocolate")
-    event.add("caupona:eggs", "crockpot:cooked_egg")
     event.add("forge:string", "stone_age:grass_lead")
     event.add("forge:string", "stone_age:leather_strip")
-    event.add("forge:raw_materials/magnesium", "frostedheart:raw_magnesite")
-
-    event.add("caupona:container", "#frostedheart:thermos")
-	event.add("caupona:container", "frostedheart:leather_water_bag")
-	event.add("caupona:container", "frostedheart:wooden_cup")
-	event.add("caupona:container", "frostedheart:wooden_cup_drink")
-	event.add("caupona:container", "frostedheart:iron_bottle")
-	event.add("caupona:container", "frostedheart:fluid_bottle")
 
     event.add("the_winter_rescue:bloom_nickel", [
         "immersiveengineering:raw_nickel",
@@ -119,8 +96,6 @@ ServerEvents.tags("item", (event) => {
         "kubejs:straw_briquette"
     ])
     event.add("caupona:cereals/baked", [
-        "frostedheart:military_rations",
-        "frostedheart:rye_bread",
         "stone_age:raw_bread"
     ])
     event.add("caupona:meats", [
@@ -144,11 +119,11 @@ ServerEvents.tags("item", (event) => {
         "stone_age:rhino_meat",
         "stone_age:mammoth_meat"
     ])
-
     event.add("caupona:vegetables", [
-        "frostedheart:white_turnip_block",
-        "frostedheart:dried_vegetables",
-        "frostedheart:military_rations"
+
+    ])
+    event.add("caupona:cookable", [
+        "immersiveengineering:dust_wood"
     ])
     event.add("frostedheart:mushroom_base", [
         "frostedheart:straw_briquette_red_mushroom",
