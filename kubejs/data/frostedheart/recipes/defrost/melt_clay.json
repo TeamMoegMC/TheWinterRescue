@@ -1,0 +1,13 @@
+{
+  "type": "frostedheart:defrost_campfire",
+  "results": [
+    {
+      "item":"minecraft:clay_ball",
+      "count": 4
+    }
+  ],
+  "ingredient": {
+    "item": "frostedheart:clay_permafrost"
+  },
+  "cookingtime": 200
+}
