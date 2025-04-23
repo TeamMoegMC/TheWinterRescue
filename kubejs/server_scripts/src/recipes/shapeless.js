@@ -158,7 +158,7 @@ ServerEvents.recipes((event) => {
         [
             "minecraft:clay_ball", 4, 
             [
-                "minecraft:clay_block"
+                "minecraft:clay"
             ]
         ]
     ]

@@ -1,36 +1,23 @@
 {
+  "infinite": true,
+  "points": 2000,
+  "insight": 1,
   "name": "@",
-  "icon": {
-    "type": "combined",
-    "base": "minecraft:experience_bottle",
-    "small": {
-      "type": "internal",
-      "name": "inf"
-    }
-  },
-  "category": "frostedheart:ars",
-  "parents": [
-    "enchantment_table",
-    "mechanical_calculator"
-  ],
   "clues": [
     {
       "type": "game",
-      "value": 0.75,
       "id": "d21c70fc7a8145ae",
       "required": true,
-      "level": 1
-    },
-    {
-      "type": "game",
-      "value": 0.2,
-      "id": "656768aa54574228",
+      "value": 0.85,
       "level": 1
     }
   ],
   "ingredients": [
     {
-      "item": "minecraft:paper"
+      "base_ingredient": {
+        "item": "minecraft:paper"
+      },
+      "count": 1
     }
   ],
   "effects": [
@@ -40,6 +27,23 @@
       "experience": 250
     }
   ],
-  "points": 4000,
-  "infinite": true
+  "icon": {
+    "type": "combined",
+    "base": {
+      "type": "item",
+      "item": {
+        "id": "minecraft:experience_bottle",
+        "Count": 1
+      }
+    },
+    "small": {
+      "type": "internal",
+      "name": "inf"
+    }
+  },
+  "category": "frostedresearch:ars",
+  "parents": [
+    "enchantment_table",
+    "mechanical_calculator"
+  ]
 }
