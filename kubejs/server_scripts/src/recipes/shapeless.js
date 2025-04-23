@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
     let {create, kubejs, minecraft} = event.recipes
 
     let changeShapelessRecipes = [
-        
+
     ]
     changeShapelessRecipes.forEach((recipe, index) => {
 		if(!Array.isArray(recipe.ingredients)){
@@ -31,6 +31,8 @@ ServerEvents.recipes((event) => {
         shapelessRecipe("frostedheart:packed_snow", ["2x minecraft:snowball", "2x minecraft:snow_block"]),
         shapelessRecipe("4x stone_age:leather_strip", "minecraft:leather"),
         shapelessRecipe("4x frostedheart:peat","frostedheart:peat_block"),
+        shapelessRecipe("4x frostedheart:kaolin","frostedheart:kaolin_block"),
+        shapelessRecipe("4x frostedheart:bauxite","frostedheart:bauxite_block"),
         shapelessRecipe("frostedheart:constantan_wire", ["#forge:ingots/constantan", "immersiveengineering:wirecutter"]),
         shapelessRecipe("2x frostedheart:charcoal_stick","kubejs:charcoal_briquette"),
         shapelessRecipe("2x frostedheart:coal_stick","kubejs:coal_briquette"),
