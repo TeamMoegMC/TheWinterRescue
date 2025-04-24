@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "terralith:snowy_maple_forest"
+    "terralith:cold_shrubland",
+    "terralith:rocky_shrubland",
+    "terralith:glacial_chasm",
+    "minecraft:ice_spikes",
+    "minecraft:snowy_plains"
   ]
 }

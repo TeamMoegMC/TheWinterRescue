@@ -1,0 +1,13 @@
+{
+  "type": "frostedheart:defrost_campfire",
+  "results": [
+    {
+      "item":"frostedheart:bauxite",
+      "count": 4
+    }
+  ],
+  "ingredient": {
+    "item": "frostedheart:bauxite_permafrost"
+  },
+  "cookingtime": 200
+}

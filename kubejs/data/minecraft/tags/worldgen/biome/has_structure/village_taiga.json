@@ -1,8 +1,10 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
+    "minecraft:snowy_taiga",
     "terralith:siberian_taiga",
-    "terralith:cold_shrubland",
-    "terralith:rocky_shrubland"
+    "terralith:wintry_forest",
+    "terralith:wintry_lowlands",
+    "terralith:yellowstone"
   ]
 }

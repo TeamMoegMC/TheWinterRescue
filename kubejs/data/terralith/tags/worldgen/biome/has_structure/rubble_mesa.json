@@ -1,7 +1,5 @@
 {
   "values": [
-    "minecraft:badlands",
-    "minecraft:wooded_badlands",
-    "minecraft:eroded_badlands"
+    "#minecraft:is_badlands"
   ]
 }

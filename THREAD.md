@@ -3,7 +3,7 @@
 </div>
 
 # The Winter Rescue
-**Survive, Rebuild, Thrive**
+**Survive, Rebuild, Rescue**
 
 > In the Mid Twenty-First Century, an unexpected Long Winter forced humanity into a halt.
 >

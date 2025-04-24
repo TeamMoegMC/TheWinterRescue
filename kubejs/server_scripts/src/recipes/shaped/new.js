@@ -128,16 +128,6 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "stone_age:tree_stump", [
-            "   ",
-            " B ",
-            "AAA"
-        ], {
-            A: "minecraft:stone",
-            B: "#minecraft:logs"
-        }
-        ],
-        [
             "stone_age:drying_rack", [
             "A A",
             " A ",
@@ -782,6 +772,228 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
+            "frostedheart:hide_gloves", [
+            "ABC"
+        ], {
+            A: "stone_age:raw_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        // rabbit
+        [
+            "frostedheart:rabbit_fur_hat", [
+            "AAA",
+            "A A",
+            "B C"
+        ], {
+            A: "minecraft:rabbit_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:rabbit_fur_jacket", [
+            "ACA",
+            "ABA",
+            "AAA"
+        ], {
+            A: "minecraft:rabbit_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:rabbit_fur_pants", [
+            "ABA",
+            "ACA",
+            "A A"
+        ], {
+            A: "minecraft:rabbit_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:rabbit_fur_socks", [
+            "ABA",
+            "ACA"
+        ], {
+            A: "minecraft:rabbit_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:rabbit_fur_gloves", [
+            "ABC"
+        ], {
+            A: "minecraft:rabbit_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        // wolf
+        [
+            "frostedheart:wolf_fur_hat", [
+            "AAA",
+            "A A",
+            "B C"
+        ], {
+            A: "frostedheart:wolf_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:wolf_fur_jacket", [
+            "ACA",
+            "ABA",
+            "AAA"
+        ], {
+            A: "frostedheart:wolf_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:wolf_fur_pants", [
+            "ABA",
+            "ACA",
+            "A A"
+        ], {
+            A: "frostedheart:wolf_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:wolf_fur_socks", [
+            "ABA",
+            "ACA"
+        ], {
+            A: "frostedheart:wolf_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:wolf_fur_gloves", [
+            "ABC"
+        ], {
+            A: "frostedheart:wolf_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        // fox
+        [
+            "frostedheart:fox_fur_hat", [
+            "AAA",
+            "A A",
+            "B C"
+        ], {
+            A: "frostedheart:fox_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:fox_fur_jacket", [
+            "ACA",
+            "ABA",
+            "AAA"
+        ], {
+            A: "frostedheart:fox_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:fox_fur_pants", [
+            "ABA",
+            "ACA",
+            "A A"
+        ], {
+            A: "frostedheart:fox_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:fox_fur_socks", [
+            "ABA",
+            "ACA"
+        ], {
+            A: "frostedheart:fox_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:fox_fur_gloves", [
+            "ABC"
+        ], {
+            A: "frostedheart:fox_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        // polar bear
+        [
+            "frostedheart:polar_bear_fur_hat", [
+            "AAA",
+            "A A",
+            "B C"
+        ], {
+            A: "frostedheart:polar_bear_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:polar_bear_fur_jacket", [
+            "ACA",
+            "ABA",
+            "AAA"
+        ], {
+            A: "frostedheart:polar_bear_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:polar_bear_fur_pants", [
+            "ABA",
+            "ACA",
+            "A A"
+        ], {
+            A: "frostedheart:polar_bear_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:polar_bear_fur_socks", [
+            "ABA",
+            "ACA"
+        ], {
+            A: "frostedheart:polar_bear_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
+            "frostedheart:polar_bear_fur_gloves", [
+            "ABC"
+        ], {
+            A: "frostedheart:polar_bear_hide",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        // wool
+        [
             "frostedheart:wool_hat", [
             "AAA",
             "A A",
@@ -825,6 +1037,15 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
+            "frostedheart:wool_gloves", [
+            "ABC"
+        ], {
+            A: "#minecraft:wool",
+            B: "stone_age:leather_strip",
+            C: "stone_age:fish_bone"
+        }
+        ],
+        [
             "frostedheart:hay_hat", [
             "AAA",
             "A A",
@@ -855,21 +1076,29 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "kubejs:clay_bucket", [
-            "A A",
-            "A A",
-            " A "
-        ], {
-            A: "minecraft:clay_ball"
-        }
-        ],
-        [
             "frostedheart:hay_boots", [
             "ABA",
             "ABA"
         ], {
             A: "charcoal_pit:straw",
             B: "stone_age:grass_lead"
+        }
+        ],
+        [
+            "frostedheart:hay_gloves", [
+            "ABC"
+        ], {
+            A: "charcoal_pit:straw",
+            B: "stone_age:grass_lead"
+        }
+        ],
+        [
+            "kubejs:clay_bucket", [
+            "A A",
+            "A A",
+            " A "
+        ], {
+            A: "minecraft:clay_ball"
         }
         ],
         [

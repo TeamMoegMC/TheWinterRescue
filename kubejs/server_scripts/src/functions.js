@@ -2,7 +2,7 @@
 
 function IEIngredient(input) {
 
-	if((typeof input)=="object"&&input[0]){
+	if(Array.isArray(input)){
 		var count=0;
 		var inps=[];
 		for(let i of input){
