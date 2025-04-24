@@ -143,7 +143,7 @@ ServerEvents.recipes((event) => {
         "stone_age:dried_grass",
         "stone_age:thatch_block",
         "stone_age:flint_workbench",
-        "stone_age:unlit_torch_shaped",
+        "stone_age:unlit_torch",
 
 		// ie
 		"immersiveengineering:toolbox",

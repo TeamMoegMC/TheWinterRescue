@@ -192,19 +192,27 @@
 			}]
 			shape: "gear"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
-			tasks: [{
-				count: 2L
-				id: "0F08400AFE76BD5F"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/tin"
+			tasks: [
+				{
+					id: "0F08400AFE76BD5F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/tin"
+						}
 					}
+					optional_task: true
+					title: "{quest.twr.3C4CEEBFF8DCF448.0F08400AFE76BD5F.title}"
+					type: "item"
 				}
-				title: "{quest.twr.3C4CEEBFF8DCF448.0F08400AFE76BD5F.title}"
-				type: "item"
-			}]
+				{
+					id: "5F3FB00868F9E566"
+					item: "frostedheart:raw_tin"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "{quest.twr.3C4CEEBFF8DCF448.title}"
 			x: -2.5d
 			y: 4.5d

@@ -317,6 +317,11 @@
 				}
 			}
 			id: "1340B00283A4D085"
+			rewards: [{
+				id: "6524A84FAF2AF415"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.1340B00283A4D085.subtitle}"
 			tasks: [{

@@ -378,6 +378,7 @@
 							value: "frostedheart:ignition_material"
 						}
 					}
+					optional_task: true
 					title: "{quest.twr.3B7B7A0BC0CF3CE0.11B07F272C2A0E9B.title}"
 					type: "item"
 				}
@@ -390,6 +391,7 @@
 							value: "frostedheart:ignition_metal"
 						}
 					}
+					optional_task: true
 					title: "{quest.twr.3B7B7A0BC0CF3CE0.2F936F09B49980F0.title}"
 					type: "item"
 				}
@@ -402,6 +404,7 @@
 							value: "forge:rods/wooden"
 						}
 					}
+					optional_task: true
 					title: "{quest.twr.3B7B7A0BC0CF3CE0.53336C57835162A4.title}"
 					type: "item"
 				}
@@ -536,7 +539,6 @@
 			optional: true
 			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
 			tasks: [{
-				count: 8L
 				id: "2BA166AB2BD842B1"
 				item: "kubejs:straw_briquette"
 				type: "item"
@@ -695,12 +697,16 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["20E34B234337C28A"]
+			dependencies: [
+				"20E34B234337C28A"
+				"55C39831FBBB94D8"
+			]
 			description: [
 				"{quest.twr.28F313C8E1312A2B.description.1}"
 				"{quest.twr.28F313C8E1312A2B.description.2}"
 				"{quest.twr.28F313C8E1312A2B.description.3}"
 			]
+			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			icon: {
 				Count: 1

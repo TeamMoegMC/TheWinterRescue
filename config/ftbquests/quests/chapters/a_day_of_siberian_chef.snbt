@@ -332,6 +332,7 @@
 			y: -5.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["11A33F924E78C874"]
 			description: [
 				"{quest.twr.516392D8FE0C7E91.description.1}"
@@ -354,6 +355,7 @@
 			shape: "rsquare"
 			subtitle: "{quest.twr.516392D8FE0C7E91.subtitle}"
 			tasks: [{
+				consume_items: true
 				count: 4L
 				id: "2626527910EF5712"
 				item: "minecraft:bowl"
