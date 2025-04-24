@@ -177,6 +177,7 @@ Enjoying *The Winter Rescue*? Please consider leaving a review—it helps us imp
 
 - Comment & Favorite & Follow on [CurseForge](https://www.curseforge.com/minecraft/modpacks/the-winter-rescue/comments).
 - Like & Comment on [MCMOD](https://www.mcmod.cn/modpack/273.html).
+- Like & Favorite on [Redstone Repeater](https://www.mczwlt.net/resource/2rllxtur).
 - Star & Submit an Issue or Suggestion on [GitHub](https://github.com/TeamMoegMC/TheWinterRescue).
 - Submit an Issue or Suggestion on [TeamMoeg Support](https://support.teammoeg.com/).
 

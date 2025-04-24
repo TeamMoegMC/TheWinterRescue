@@ -148,6 +148,7 @@ _踏上旅程，生存只是开始。
 
 - 在 [CurseForge](https://www.curseforge.com/minecraft/modpacks/the-winter-rescue/comments) 点评、收藏和关注。
 - 在 [MCMOD](https://www.mcmod.cn/modpack/273.html) 点赞、评论。
+- 在 [Redstone Repeater](https://www.mczwlt.net/resource/2rllxtur) 点赞、收藏。
 - 在 [GitHub](https://github.com/TeamMoegMC/TheWinterRescue) 点星、提交问题或建议。
 - 在 [TeamMoeg 支持平台](https://support.teammoeg.com/) 提交问题或建议。
 
