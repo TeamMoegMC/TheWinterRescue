@@ -1086,7 +1086,7 @@ ServerEvents.recipes((event) => {
         ],
         [
             "frostedheart:hay_gloves", [
-            "ABC"
+            "ABA"
         ], {
             A: "charcoal_pit:straw",
             B: "stone_age:grass_lead"
