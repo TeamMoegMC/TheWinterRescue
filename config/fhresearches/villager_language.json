@@ -1,0 +1,79 @@
+{
+  "points": 1000,
+  "insight": 1,
+  "name": "语言修习",
+  "clues": [
+    {
+      "type": "game",
+      "id": "39fb91432dab4e03",
+      "required": true,
+      "value": 0.25,
+      "name": "听力练习",
+      "level": 0
+    },
+    {
+      "type": "game",
+      "id": "ffa724899f64a8a",
+      "required": true,
+      "value": 0.25,
+      "name": "口语练习",
+      "level": 0
+    },
+    {
+      "type": "game",
+      "id": "f4b4134edfc84a2b",
+      "required": true,
+      "value": 0.25,
+      "name": "阅读练习",
+      "level": 0
+    },
+    {
+      "type": "game",
+      "id": "9a331f94a1304ff0",
+      "required": true,
+      "value": 0.25,
+      "name": "写作练习",
+      "level": 0
+    }
+  ],
+  "ingredients": [
+    {
+      "base_ingredient": {
+        "item": "minecraft:lectern"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "minecraft:stone_pressure_plate"
+      },
+      "count": 16
+    },
+    {
+      "base_ingredient": {
+        "item": "frostedresearch:charcoal"
+      },
+      "count": 4
+    }
+  ],
+  "effects": [
+    {
+      "type": "item",
+      "id": "eeab036539724864",
+      "rewards": [
+        {
+          "id": "minecraft:book",
+          "Count": 6
+        }
+      ]
+    }
+  ],
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "minecraft:bookshelf",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:exploration"
+}
