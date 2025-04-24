@@ -44,26 +44,11 @@ ServerEvents.recipes((event) => {
 
 
     let normalSmeltingRecipes = [
-        ["minecraft:copper_ingot", "#forge:raw_materials/copper", 200],
-        ["minecraft:copper_ingot", "#forge:crushed_raw_materials/copper", 150],
-        ["minecraft:copper_ingot", "#forge:dusts/copper_oxide", 100],
-        ["minecraft:copper_ingot", "#forge:dusts/copper", 100],
-        ["minecraft:copper_ingot", "#forge:ingots/rusted_copper", 50],
-
-        ["frostedheart:lead_ingot", "#forge:raw_materials/lead", 200],
-        ["frostedheart:lead_ingot", "#forge:crushed_raw_materials/lead", 150],
-        ["frostedheart:lead_ingot", "#forge:dusts/lead", 100],
-
-        ["frostedheart:tin_ingot", "#forge:raw_materials/tin", 200],
-        ["frostedheart:tin_ingot", "#forge:crushed_raw_materials/tin", 150],
-        ["frostedheart:tin_ingot", "#forge:ingots/gray_tin", 50],
-        ["frostedheart:tin_ingot", "#forge:dusts/tin", 100],
-
-        ["create:zinc_ingot", "#forge:raw_materials/zinc", 200],
-        ["create:zinc_ingot", "#forge:crushed_raw_materials/zinc", 150],
-        ["create:zinc_ingot", "#forge:dusts/zinc", 100],
-        ["create:zinc_ingot", "#forge:dusts/zinc_oxide", 100],
-
+		["minecraft:copper_ingot", "#forge:dusts/copper", 100],
+		["frostedheart:lead_ingot", "#forge:dusts/lead", 100],
+		["frostedheart:tin_ingot", "#forge:dusts/tin", 100],
+		["create:zinc_ingot", "#forge:dusts/zinc", 100],
+		
         ["frostedheart:silver_ingot", "#forge:raw_materials/silver", 200],
         ["frostedheart:silver_ingot", "#forge:crushed_raw_materials/silver", 150],
         ["frostedheart:silver_ingot", "#forge:dusts/silver", 200],
@@ -72,20 +57,40 @@ ServerEvents.recipes((event) => {
         ["minecraft:gold_ingot", "#forge:crushed_raw_materials/gold", 150],
         ["minecraft:gold_ingot", "#forge:dusts/gold", 200],
 
-        ["frostedheart:magnesium_ingot", "#forge:dusts/magnesium", 100],
-
         ["frostedheart:electrum_ingot", "#forge:dusts/electrum", 200],
         ["frostedheart:alumina_dust", "#forge:dusts/aluminum_hydroxide", 200],
 
     ]
 
     normalSmeltingRecipes.forEach(([output, input, time]) => {
+		event.remove({"type":"minecraft:smelting","output":output})
+		event.remove({"type":"minecraft:blasting","output":output})
         minecraft.smelting(output, input)
+		minecraft.blasting(output, input)
         immersiveengineering.blast_furnace(output, input, "immersiveengineering:slag")
             .time(time)
     })
 
     let blastFurnaceRecipes = [
+	    ["minecraft:copper_ingot", "#forge:raw_materials/copper", 200],
+        ["minecraft:copper_ingot", "#forge:crushed_raw_materials/copper", 150],
+        ["minecraft:copper_ingot", "#forge:dusts/copper_oxide", 100],
+        
+        ["minecraft:copper_ingot", "#forge:ingots/rusted_copper", 50],
+
+        ["frostedheart:lead_ingot", "#forge:raw_materials/lead", 200],
+        ["frostedheart:lead_ingot", "#forge:crushed_raw_materials/lead", 150],
+        
+
+        ["frostedheart:tin_ingot", "#forge:raw_materials/tin", 200],
+        ["frostedheart:tin_ingot", "#forge:crushed_raw_materials/tin", 150],
+        ["frostedheart:tin_ingot", "#forge:ingots/gray_tin", 50],
+        
+
+        ["create:zinc_ingot", "#forge:raw_materials/zinc", 200],
+        ["create:zinc_ingot", "#forge:crushed_raw_materials/zinc", 150],
+        
+        ["create:zinc_ingot", "#forge:dusts/zinc_oxide", 100],
         ["frostedheart:aluminum_ingot", "#forge:dusts/aluminum", 800],
 
         ["minecraft:iron_ingot", "#forge:raw_materials/iron", 400],
@@ -107,9 +112,12 @@ ServerEvents.recipes((event) => {
         ["frostedheart:constantan_ingot", "#forge:dusts/constantan", 400],
         ["frostedheart:duralumin_ingot", "#forge:dusts/duralumin", 800],
         ["frostedheart:titanium_ingot", "#forge:dusts/titanium", 800],
+		["frostedheart:magnesium_ingot", "#forge:dusts/magnesium", 100],
 
     ]
     blastFurnaceRecipes.forEach(([output, input, time]) => {
+		event.remove({"type":"minecraft:smelting","output":output})
+		event.remove({"type":"minecraft:blasting","output":output})
         immersiveengineering.blast_furnace(output, input, "immersiveengineering:slag")
             .time(time)
     })
