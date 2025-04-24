@@ -16,7 +16,8 @@ ServerEvents.recipes((event) => {
         {output: 'frostedheart:constantan_sheet', input: '#forge:ingots/constantan'},
         {output: 'frostedheart:silver_sheet', input: '#forge:ingots/silver'},
         {output: 'frostedheart:electrum_sheet', input: '#forge:ingots/electrum'},
-        {output: 'create:golden_sheet', input: '#forge:ingots/gold'}
+        {output: 'create:golden_sheet', input: '#forge:ingots/gold'},
+        {output: 'frostedheart:duralumin_sheet', input: '#forge:ingots/duralumin'}
     ]
     let recipes = [
         {
