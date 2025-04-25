@@ -64,5 +64,8 @@
       "Count": 1
     }
   },
-  "category": "frostedresearch:exploration"
+  "category": "frostedresearch:exploration",
+  "parents": [
+    "villager_language"
+  ]
 }
