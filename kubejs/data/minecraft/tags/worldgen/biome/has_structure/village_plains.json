@@ -1,6 +1,9 @@
 {
   "replace": true,
   "values": [
-    "terralith:cave/underground_jungle"
+    "terralith:cave/underground_jungle",
+    "terralith:cave/thermal_caves",
+    "terralith:cave/infested_caves",
+    "minecraft:lush_caves"
   ]
 }
