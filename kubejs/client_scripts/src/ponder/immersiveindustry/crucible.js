@@ -4,7 +4,7 @@ Ponder.registry((event) => {
         // Build
         .scene("assembly", "", "kubejs:steel_mill_crucible", (scene) => {
             scene.showBasePlate()
-            scene.idle(10)
+            scene.idle(20)
 
             // Generic build
             scene.world.showSection([4, 1, 0, 0, 1, 4], Direction.DOWN)
@@ -47,7 +47,7 @@ Ponder.registry((event) => {
         // Usage
         .scene("basic_usage", "", "kubejs:steel_mill_crucible_usage", (scene) => {
             scene.showBasePlate()
-            scene.idle(10)
+            scene.idle(20)
 
             scene.world.showSection([5, 1, 0], Direction.DOWN)
             scene.world.showSection([1, 1, 2, 3, 4, 4], Direction.DOWN)
@@ -74,9 +74,9 @@ Ponder.registry((event) => {
                 .pointAt([2, 5, 3])
             scene.idle(20)
             scene.showControls(10, [2, 5, 3], "up")
-                .withItem("minecraft:calcite")
+                .withItem("frostedheart:flux")
             scene.idle(12)
-            scene.world.createItemEntity([2.5, 5, 3.5], Direction.DOWN, "minecraft:calcite")
+            scene.world.createItemEntity([2.5, 5, 3.5], Direction.DOWN, "frostedheart:flux")
             scene.idle(20)
             scene.showControls(10, [2, 5, 3], "up")
                 .withItem("minecraft:iron_ingot")
