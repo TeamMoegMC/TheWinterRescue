@@ -73,7 +73,7 @@
 		comfyReading = false
 		#.
 		#Show additional info in the ponder view and reload scene scripts more frequently.
-		editingMode = true
+		editingMode = false
 
 	#.
 	#Settings for the Goggle Overlay
