@@ -447,7 +447,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["13AA30FB9CD620EB"]
+			dependencies: ["5287CFB7B7D5285E"]
 			description: [
 				"{quest.twr.1C8171C8FD1D0CD5.description.1}"
 				"{quest.twr.1C8171C8FD1D0CD5.description.2}"
@@ -460,8 +460,8 @@
 				item: "immersiveengineering:treated_wood_horizontal"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -2.5d
+			x: 12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1C8171C8FD1D0CD5"]
@@ -510,7 +510,7 @@
 				item: "minecraft:iron_door"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 2.5d
 			y: -6.0d
 		}
 		{
@@ -529,15 +529,15 @@
 				team_reward: true
 				type: "frostedheart:insight"
 			}]
-			shape: "gear"
+			shape: "circle"
 			subtitle: "{quest.twr.13AA30FB9CD620EB.subtitle}"
 			tasks: [{
 				id: "55E5BC7F36B1F814"
 				item: "charcoal_pit:sandy_collector"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.0d
+			x: 1.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4543F3B5F937E6B0"]
@@ -560,7 +560,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 0.5d
 			y: -4.0d
 		}
 		{
@@ -1331,15 +1331,15 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["13AA30FB9CD620EB"]
+			dependencies: ["5287CFB7B7D5285E"]
 			id: "5C57540290D9D349"
 			tasks: [{
 				id: "47E8C20400811EFF"
 				item: "minecraft:chest"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -4.0d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["13D9DE54DF8117C2"]
@@ -1469,8 +1469,8 @@
 				}
 				type: "item"
 			}]
-			x: 13.5d
-			y: -2.5d
+			x: 14.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["03A553EBD453466A"]

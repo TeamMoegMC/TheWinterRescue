@@ -193,7 +193,8 @@ ServerEvents.recipes((event) => {
         "charcoal_pit:ore_kiln_recipes/copper",
 		"immersiveindustry:chemical",
 		"immersiveengineering:refinery/resin",
-		"immersiveengineering:refinery/acetaldehyde"
+		"immersiveengineering:refinery/acetaldehyde",
+        "create:milling/gravel"
         // "stone_age:grass_lead",
         // "stone_age:dried_grass",
         // "stone_age:fishing_net_meshes",

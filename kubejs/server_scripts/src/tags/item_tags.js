@@ -37,6 +37,10 @@ ServerEvents.tags("item", (event) => {
     event.add("forge:string", "stone_age:grass_lead")
     event.add("forge:string", "stone_age:leather_strip")
 
+    event.add("the_winter_rescue:raw_materials/oil", [
+        "stone_age:fat"
+    ])
+
     event.add("the_winter_rescue:bloom_nickel", [
         "immersiveengineering:raw_nickel",
         "charcoal_pit:bloom_nickel_cool",

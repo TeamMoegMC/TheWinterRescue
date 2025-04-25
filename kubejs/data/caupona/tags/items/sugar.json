@@ -1,0 +1,12 @@
+{
+  "replace": true,
+	"values": [
+		"minecraft:sugar",
+		"minecraft:honeycomb",
+		"minecraft:honey_bottle",
+		{
+			"id": "#forge:caramel",
+			"required": false
+		}
+	]
+}

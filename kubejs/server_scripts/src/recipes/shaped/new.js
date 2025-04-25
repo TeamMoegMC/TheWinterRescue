@@ -704,13 +704,6 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "frostedheart:rye_bread", [
-            "AAA"
-        ], {
-            A: "frostedheart:rye"
-        }
-        ],
-        [
             "frostedheart:wooden_cup", 4, [
             "A A",
             "A A",

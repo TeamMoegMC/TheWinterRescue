@@ -817,6 +817,26 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
+            "immersiveengineering:coil_mv", [
+            "AAA",
+            "ABA",
+            "AAA"
+        ], {
+            A: "immersiveengineering:wirecoil_electrum",
+            B: "#forge:rods/steel"
+        }
+        ],
+        [
+            "immersiveengineering:coil_hv", [
+            "AAA",
+            "ABA",
+            "AAA"
+        ], {
+            A: "immersiveengineering:wirecoil_steel",
+            B: "#forge:rods/aluminum"
+        }
+        ],
+        [
             "charcoal_pit:sandy_tuyere", [
             "BAB",
             "ACA",
@@ -866,6 +886,97 @@ ServerEvents.recipes((event) => {
             C: "immersiveengineering:heavy_engineering"
         }
         ],
+        [
+            "minecraft:spruce_boat", 1, [
+            "B B",
+            "ABA",
+            "AAA"
+        ], {
+            A: "minecraft:spruce_planks",
+            B: "#twr:plates/structural"
+        }
+        ],
+        [
+            "minecraft:oak_boat", 1, [
+            "B B",
+            "ABA",
+            "AAA"
+        ], {
+            A: "minecraft:oak_planks",
+            B: "#twr:plates/structural"
+        }
+        ],
+        [
+            "minecraft:birch_boat", 1, [
+            "B B",
+            "ABA",
+            "AAA"
+        ], {
+            A: "minecraft:birch_planks",
+            B: "#twr:plates/structural"
+        }
+        ],
+        [
+            "minecraft:jungle_boat", 1, [
+            "B B",
+            "ABA",
+            "AAA"
+        ], {
+            A: "minecraft:jungle_planks",
+            B: "#twr:plates/structural"
+        }
+        ],
+        [
+            "minecraft:acacia_boat", 1, [
+            "B B",
+            "ABA",
+            "AAA"
+        ], {
+            A: "minecraft:acacia_planks",
+            B: "#twr:plates/structural"
+        }
+        ],
+        [
+            "minecraft:dark_oak_boat", 1, [
+            "B B",
+            "ABA",
+            "AAA"
+        ], {
+            A: "minecraft:dark_oak_planks",
+            B: "#twr:plates/structural"
+        }
+        ],
+        [
+            "minecraft:mangrove_boat", 1, [
+            "B B",
+            "ABA",
+            "AAA"
+        ], {
+            A: "minecraft:mangrove_planks",
+            B: "#twr:plates/structural"
+        }
+        ],
+        [
+            "minecraft:cherry_boat", 1, [
+            "B B",
+            "ABA",
+            "AAA"
+        ], {
+            A: "minecraft:cherry_planks",
+            B: "#twr:plates/structural"
+        }
+        ],
+        [
+            "caupona:walnut_boat", 1, [
+            "B B",
+            "ABA",
+            "AAA"
+        ], {
+            A: "caupona:walnut_planks",
+            B: "#twr:plates/structural"
+        }
+        ],
+
     ]
     changeShapedRecipes.forEach((recipe, index) => {
         let [

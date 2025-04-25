@@ -1,0 +1,29 @@
+{
+  "type": "caupona:dolium",
+  "amount": 0,
+  "container": {
+    "item": "caupona:gravy_boat"
+  },
+  "density": 0.0,
+  "items": [
+    {
+      "count": 8,
+      "item": {
+        "tag": "the_winter_rescue:raw_materials/oil"
+      }
+    },
+    {
+      "count": 0,
+      "item": {
+        "tag": "minecraft:anvil"
+      }
+    }
+  ],
+  "keepInfo": false,
+  "output": {
+    "type": "forge:nbt",
+    "count": 1,
+    "item": "caupona:gravy_boat",
+    "nbt": "{Damage:0}"
+  }
+}

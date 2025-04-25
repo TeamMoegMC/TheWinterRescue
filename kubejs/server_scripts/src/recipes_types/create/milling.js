@@ -104,6 +104,13 @@ ServerEvents.recipes((event) => {
             output: ["4x minecraft:green_dye"],
             input: "create:crushed_raw_nickel"
         },
+        {
+            input: "minecraft:gravel",
+            output: [
+                Item.of("minecraft:sand", 1),
+                Item.of("minecraft:flint", 1).withChance(0.1)
+            ]
+        },
     ]
     recipes.forEach((recipe,index) => {
         create.milling(recipe.output, recipe.input).id(`the_winter_rescue:create/milling/${index}`);
