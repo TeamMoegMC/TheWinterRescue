@@ -1,0 +1,66 @@
+{
+  "infinite": true,
+  "points": 1000,
+  "insight": 1,
+  "name": "易容之术",
+  "desc": [
+    "我注意到，一些难民开始躲着我走。似乎我曾经对他们犯下的一些罪行，正在难民之间传播开来。但是我真的要选择低三下四，给他们一些礼物，尝试修补我和他们之间的关系吗？我想我可以尝试易容，将我打扮成他们无法认出的模样，这样的话就能在交易时获得他们的好感。"
+  ],
+  "descAlt": [
+    "成功了。但是，用一张面具来掩盖我的罪行，真实的我，会逐渐腐烂到何种地步？"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "id": "dbd746e217974930",
+      "required": true,
+      "value": 1.0,
+      "name": "设计妆容和面具",
+      "level": 0
+    }
+  ],
+  "ingredients": [
+    {
+      "base_ingredient": {
+        "item": "minecraft:white_dye"
+      },
+      "count": 16
+    },
+    {
+      "base_ingredient": {
+        "item": "minecraft:yellow_dye"
+      },
+      "count": 16
+    },
+    {
+      "base_ingredient": {
+        "item": "minecraft:red_dye"
+      },
+      "count": 16
+    },
+    {
+      "base_ingredient": {
+        "item": "minecraft:leather_helmet"
+      },
+      "count": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "stats",
+      "id": "8d3b284ee1fa430f",
+      "name": "vlg_forgive",
+      "vars": "能够原谅你夺走的生命数量",
+      "val": 1.0,
+      "percent": false
+    }
+  ],
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "minecraft:player_head",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:exploration"
+}
