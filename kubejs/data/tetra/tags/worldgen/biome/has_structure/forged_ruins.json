@@ -1,6 +1,8 @@
 {
-    "replace": true,
-    "values": [
-
-    ]
+  "replace": true,
+  "values": [
+    "terralith:cave/mantle_caves",
+    "terralith:volcanic_crater",
+    "terralith:volcanic_peaks"
+  ]
 }
