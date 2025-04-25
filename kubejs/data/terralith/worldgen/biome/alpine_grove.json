@@ -75,9 +75,7 @@
     ],
     [
       "terralith:grove/alpine/trees_tiny",
-      "minecraft:glow_lichen",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:glow_lichen"
     ],
     [
       "minecraft:freeze_top_layer",
