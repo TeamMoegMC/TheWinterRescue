@@ -10,7 +10,8 @@ ServerEvents.recipes((event) => {
         "invar",
         "zinc",
         "tungsten",
-        "cast_iron"
+        "cast_iron",
+        "tungsten_steel",
     ]
     // Define metal tags
     /*let tags = {

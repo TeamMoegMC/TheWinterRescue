@@ -5,7 +5,7 @@ JEIEvents.hideItems((event) => {
         "stone_age:dried_grass",
         "stone_age:thatch_block",
         "stone_age:flint_workbench",
-        "stone_age:unlit_torch_shaped",
+        "stone_age:unlit_torch",
 
         // ie
         "immersiveengineering:toolbox",
@@ -16,6 +16,7 @@ JEIEvents.hideItems((event) => {
 
         // create power devices: we have steam power
         "create:water_wheel",
+        "create:large_water_wheel",
         "create:cogwheel",
         "create:large_cogwheel",
         "create:windmill_bearing",
