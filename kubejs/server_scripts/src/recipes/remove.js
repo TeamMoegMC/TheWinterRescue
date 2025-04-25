@@ -194,7 +194,8 @@ ServerEvents.recipes((event) => {
 		"immersiveindustry:chemical",
 		"immersiveengineering:refinery/resin",
 		"immersiveengineering:refinery/acetaldehyde",
-        "create:milling/gravel"
+        "create:milling/gravel",
+        "stone_age:raw_bread_shapeless",
         // "stone_age:grass_lead",
         // "stone_age:dried_grass",
         // "stone_age:fishing_net_meshes",

@@ -1,0 +1,68 @@
+{
+  "points": 1000,
+  "insight": 1,
+  "name": "救援计划启动",
+  "desc": [
+    "我想我可以给村民准备一些救援物资，这样他们或许对我的看法会更好。"
+  ],
+  "clues": [
+    {
+      "type": "game",
+      "id": "9b825e0d6d0341a9",
+      "required": true,
+      "value": 1.0,
+      "name": "准备物品清单",
+      "level": 0
+    }
+  ],
+  "ingredients": [
+    {
+      "base_ingredient": {
+        "item": "frostedheart:rye_bread"
+      },
+      "count": 64
+    },
+    {
+      "base_ingredient": {
+        "item": "frostedheart:white_turnip_block"
+      },
+      "count": 64
+    },
+    {
+      "base_ingredient": {
+        "item": "frostedheart:cooked_wolf_meat"
+      },
+      "count": 64
+    },
+    {
+      "base_ingredient": {
+        "item": "stone_age:fat"
+      },
+      "count": 16
+    },
+    {
+      "base_ingredient": {
+        "item": "frostedheart:buff_coat"
+      },
+      "count": 16
+    }
+  ],
+  "effects": [
+    {
+      "type": "stats",
+      "id": "64a6d42356b84621",
+      "name": "vlg_relationship",
+      "vars": "vlg_relationship",
+      "val": 10.0,
+      "percent": false
+    }
+  ],
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:military_rations",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:exploration"
+}

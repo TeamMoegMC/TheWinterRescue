@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "a_day_of_generator_engineer"
-	group: "7823E178F7BCBCB0"
+	group: "4C6DDD6CCC42A136"
 	icon: "frostedheart:generator_core_t1"
 	id: "00A96B3C8C24C472"
-	order_index: 3
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

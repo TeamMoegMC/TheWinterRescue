@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "a_day_of_researcher"
-	group: "7823E178F7BCBCB0"
+	group: "121B12860A7D323A"
 	icon: {
 		Count: 1
 		id: "frostedresearch:quill_and_ink"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "0A016090E53DFA3B"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
