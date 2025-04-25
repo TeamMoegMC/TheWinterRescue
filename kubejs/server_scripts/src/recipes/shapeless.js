@@ -45,8 +45,8 @@ ServerEvents.recipes((event) => {
         shapelessRecipe("4x stone_age:bone_arrow_head",["#stone_age:bones","immersiveengineering:hammer"]),
         shapelessRecipe("16x caupona:vivid_charcoal",["#minecraft:coals","3x charcoal_pit:straw"]),
 		shapelessRecipe("2x stone_age:fish_bone",["minecraft:bone","minecraft:flint"]),
-        shapelessRecipe("2x stone_age:fish_bone",["#stone_age:bones","minecraft:flint"]),
-        shapelessRecipe("4x minecraft:clay_ball","minecraft:clay")
+        shapelessRecipe("2x stone_age:fish_bone",["#stone_age:bones","minecraft:flint"])
+        //,shapelessRecipe("4x minecraft:clay_ball","minecraft:clay")
     ]
     addShapelessRecipes.forEach((recipe, index) => {
 		if(!Array.isArray(recipe.ingredients)){
