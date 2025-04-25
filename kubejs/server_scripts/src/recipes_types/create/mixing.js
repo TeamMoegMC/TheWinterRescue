@@ -176,6 +176,10 @@ ServerEvents.recipes((event) => {
         {
             output: ["minecraft:rooted_dirt"],
             input: ["frostedheart:rooted_dirt_permafrost", "frostedheart:peat"]
+        },
+        {
+            output: ["minecraft:sugar"],
+            input: ["4x minecraft:beetroot", Fluid.of("minecraft:water", 1000)]
         }
     ]
     recipes.forEach((recipe, index) => {
