@@ -6,7 +6,7 @@
       "fallback": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "frostedheart:thin_ice",
+          "Name": "frostedheart:layered_thin_ice",
           "Properties": {}
         }
       }
@@ -23,7 +23,7 @@
     },
     "target": {
       "type": "minecraft:matching_block_tag",
-      "tag": "frostedheart:replaceable_with_snowy_stuff"
+      "tag": "the_winter_rescue:replaceable/icy_patches"
     },
     "radius": {
       "type": "minecraft:uniform",

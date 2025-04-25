@@ -22,6 +22,8 @@
   "kubejs.ponder.basic_usage.text_7": "Products can be extracted from sides of the crucible part",
   "kubejs.ponder.car_kiln.header": "Car Kiln",
   "kubejs.ponder.car_kiln.text_1": "R-Click to assemble",
+  "kubejs.ponder.chemical_reactor.header": "",
+  "kubejs.ponder.chemical_reactor.text_1": "R-Click to assemble",
   "kubejs.ponder.creosote_funnel_use.header": "",
   "kubejs.ponder.creosote_funnel_use.text_1": "The Creosote Funnel can produce a certain amount of creosote oil after a Log Pile burns",
   "kubejs.ponder.creosote_funnel_use.text_2": "Surround it with four solid blocks on all sides.",

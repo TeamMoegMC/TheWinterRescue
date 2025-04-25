@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "terralith:cold_shrubland",
+    "terralith:glacial_chasm",
+    "terralith:gravel_desert",
+    "terralith:rocky_mountains",
+    "terralith:rocky_shrubland",
+    "minecraft:jagged_peaks"
+  ]
+}

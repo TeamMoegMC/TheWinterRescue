@@ -1,9 +1,13 @@
 {
-  "feature": "the_winter_rescue:gravel_permafrost_patch",
+  "feature": "the_winter_rescue:besnowed_debris_patch",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 32
+      "chance": 1
+    },
+    {
+      "type": "minecraft:count",
+      "count": 8
     },
     {
       "type": "minecraft:in_square"

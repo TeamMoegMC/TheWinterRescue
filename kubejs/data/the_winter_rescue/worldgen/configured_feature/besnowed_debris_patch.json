@@ -12,8 +12,10 @@
       }
     },
     "target": {
-      "type": "minecraft:matching_block_tag",
-      "tag": "minecraft:snow"
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:snow"
+      ]
     },
     "radius": {
       "type": "minecraft:uniform",

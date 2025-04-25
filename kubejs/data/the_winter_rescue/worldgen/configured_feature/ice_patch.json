@@ -6,14 +6,16 @@
       "fallback": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:ice",
+          "Name": "frostedheart:layered_thin_ice",
           "Properties": {}
         }
       }
     },
     "target": {
-      "type": "minecraft:matching_block_tag",
-      "tag": "frostedheart:replaceable_with_snowy_stuff"
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:snow"
+      ]
     },
     "radius": {
       "type": "minecraft:uniform",

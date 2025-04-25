@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#the_winter_rescue:has_feature/besnowed_twigs_dense",
+  "features": [
+    "the_winter_rescue:besnowed_twigs_patch_dense"
+  ],
+  "step": "surface_structures"
+}
