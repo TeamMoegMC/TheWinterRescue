@@ -2784,10 +2784,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "frostedheart:sand_permafrost",
-                                    "Properties": {
-                                      "snowy": "true"
-                                    }
+                                    "Name": "frostedheart:sand_permafrost"
                                   }
                                 }
                               },
