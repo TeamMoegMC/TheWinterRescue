@@ -11,7 +11,13 @@
 /versions/
 /mods/
 /crash-reports
-/CustomSkinLoader/
+/CustomSkinLoader/caches/
+/CustomSkinLoader/ExtraList/
+/CustomSkinLoader/LocalSkin/
+/CustomSkinLoader/Plugins/
+/CustomSkinLoader/ProfileCache/
+/CustomSkinLoader/CustomSkinAPIPlus-ClientID
+/CustomSkinLoader/CustomSkinLoader.log
 /shaderpacks/*
 !/shaderpacks/ComplementaryUnbound_r5.2.2_TWR/
 /ambience_music/
