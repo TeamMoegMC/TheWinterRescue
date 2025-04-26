@@ -978,9 +978,10 @@ ServerEvents.recipes((event) => {
         ],
         [
             "tetra:rack", 1, [
-                "AAA"
+                "ABA"
             ], {
-                A: "#minecraft:wooden_slabs"
+                A: "#minecraft:wooden_slabs",
+                B: "#forge:cobblestone"
             }
         ]
 
