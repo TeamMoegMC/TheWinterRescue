@@ -85,12 +85,6 @@
 	#Range: 1 ~ 16
 	scenarioRenderThread = 2
 
-[wheelmenu]
-	#Enabled selections
-	enabledSelections = ["wheel_menu_user:d2e119ed85d64973", "wheel_menu_user:9991928dc3ef433d", "wheel_menu_user:86fe0e965b7d409f", "wheel_menu:edit", "tetra:holo", "ftb_quests:open_book", "frostedheart:health", "frostedheart:debug", "frostedheart:clothing", "curios:open_gui"]
-	#Disabled selections
-	disabledSelections = []
-
 [other]
 	#Enable item tooltips
 	enableTooltips = true

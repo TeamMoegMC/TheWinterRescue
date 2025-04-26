@@ -19,34 +19,50 @@
   ],
   "ingredients": [
     {
-      "count": 2,
-      "base_ingredient": {
-        "tag": "forge:plates/copper"
-      }
-    },
-    {
-      "count": 2,
       "base_ingredient": {
         "tag": "forge:plates/cast_iron"
-      }
+      },
+      "count": 4
     },
     {
-      "count": 2,
       "base_ingredient": {
-        "tag": "forge:plates/steel"
-      }
+        "item": "immersiveengineering:plate_constantan"
+      },
+      "count": 8
     }
   ],
   "effects": [
     {
       "type": "multiblock",
-      "icon": "frostedheart:radiator",
+      "icon": {
+        "type": "item",
+        "item": {
+          "id": "frostedheart:radiator",
+          "Count": 1
+        }
+      },
       "id": "6931e12b7a594fea",
       "multiblock": "frostedheart:multiblocks/heat_radiator"
+    },
+    {
+      "type": "item",
+      "id": "1df4cfe336034968",
+      "rewards": [
+        {
+          "id": "immersiveengineering:sheetmetal_constantan",
+          "Count": 1
+        }
+      ]
     }
   ],
-  "icon": "frostedheart:radiator",
-  "category": "frostedheart:rescue",
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:radiator",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:rescue",
   "parents": [
     "generator_T2"
   ]

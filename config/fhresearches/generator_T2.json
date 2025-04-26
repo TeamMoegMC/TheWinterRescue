@@ -1,93 +1,110 @@
 {
-  "icon": "frostedheart:generator_t2",
-  "category": "frostedheart:rescue",
-  "parents": [
-    "generator_T1",
-    "crucible"
-  ],
+  "showAltDesc": true,
+  "hideEffects": true,
+  "points": 6000,
+  "insight": 1,
   "clues": [
     {
       "type": "game",
-      "value": 0.35,
       "id": "2b01f07328d74ae1",
       "required": true,
+      "value": 0.35,
       "level": 1
     },
     {
       "type": "game",
-      "value": 0.25,
       "id": "8dbe4afe4c9412a",
+      "value": 0.25,
       "level": 1
     },
     {
       "type": "game",
-      "value": 0.1,
       "id": "baa56071bf5f4adf",
+      "value": 0.1,
       "level": 1
     },
     {
       "type": "item",
-      "value": 0.25,
       "id": "501e511b94e247d5",
+      "value": 0.25,
+      "consume": true,
       "item": {
-        "count": 8,
         "base_ingredient": {
           "item": "frostedheart:invar_block"
-        }
-      },
-      "consume": true
+        },
+        "count": 8
+      }
     }
   ],
   "ingredients": [
     {
-      "count": 4,
       "base_ingredient": {
         "tag": "forge:plates/copper"
-      }
+      },
+      "count": 4
     },
     {
-      "count": 4,
       "base_ingredient": {
         "item": "frostedheart:invar_sheet"
-      }
+      },
+      "count": 4
     },
     {
-      "count": 4,
-      "base_ingredient": {
-        "tag": "immersiveengineering:scaffoldings/steel"
-      }
-    },
-    {
-      "count": 2,
       "base_ingredient": {
         "item": "frostedheart:high_refractory_bricks"
-      }
+      },
+      "count": 2
+    },
+    {
+      "base_ingredient": {
+        "item": "frostedheart:cast_iron_block"
+      },
+      "count": 4
     }
   ],
   "effects": [
     {
       "type": "multiblock",
+      "icon": {
+        "type": "item",
+        "item": {
+          "id": "frostedheart:generator_t2",
+          "Count": 1
+        }
+      },
+      "id": "5c48befb1df4af1",
       "name": "@",
       "tooltip": [
         "@",
         "@"
       ],
-      "icon": "frostedheart:generator_t2",
-      "id": "5c48befb1df4af1",
       "multiblock": "frostedheart:multiblocks/generator_t2"
     },
     {
       "type": "recipe",
-      "id": "2416a9bba39e4e5e",
-      "item": "frostedheart:heat_pipe"
+      "item": {
+        "item": "frostedheart:heat_pipe"
+      },
+      "id": "2416a9bba39e4e5e"
     },
     {
       "type": "recipe",
-      "id": "ac97c8c704e24f71",
-      "item": "frostedheart:charger"
+      "item": {
+        "item": "frostedheart:charger"
+      },
+      "id": "ac97c8c704e24f71"
     }
   ],
-  "points": 6000,
-  "showAltDesc": true,
-  "hideEffects": true
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:generator_t2",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:rescue",
+  "parents": [
+    "generator_T1",
+    "blast_furnace"
+  ]
 }
