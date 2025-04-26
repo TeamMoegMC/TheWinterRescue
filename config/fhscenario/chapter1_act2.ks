@@ -24,10 +24,6 @@
 
 @call s="quest:20E34B234337C28A?call" n=campfire
 
-@label name=fire
-Now I have a fire going. Time to think about further plans. @r
-@delay t=60
-
 @call s="quest:45E2EF843333B846?call" n=pickaxes
 
 @call s="quest:1837531DB19C9023?call" n=cooblestones
@@ -40,13 +36,8 @@ Now I have a fire going. Time to think about further plans. @r
 
 @call s="quest:03A553EBD453466A?call" n=crafting
 
+@label name=ending
 @p
-
-Warm shelter. Place to craft. It's time to dive further into this world. @r
-Now you should know how to follow the quest book. @r
-You will encounter another scenario when you crafted a drawing desk.
-@delay t=60
-
-@showTitle t="Chapter 1 Act 2" st="Complete"
+@call s=chapter1_act2_end
 # Must add this
 @p

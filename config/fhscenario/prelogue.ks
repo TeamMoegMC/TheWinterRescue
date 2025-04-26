@@ -4,9 +4,12 @@
 @delay t=60
 
 @if exp="client.preloguePlayed"
-Do you want to skip the prelogue?[r]
+Do you want to skip the prologue story cinematic?[r]
 [link l=*intitle][&eSkip&r][endlink][r]
 [link l=*beginprelogue][&eWatch&r][endlink]
+(Press [T] to select choices.)[r]
+(Press [Z] to skip text animation.)[r]
+(Press [ESC] five times to skip cinematic.)[r]
 @wa
 @endif
 
