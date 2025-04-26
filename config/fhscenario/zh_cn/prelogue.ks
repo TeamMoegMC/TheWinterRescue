@@ -286,8 +286,8 @@
 
 # skip tutorial if wanted
 （是否跳过教程，直接领取初始物资？）[r]
-[link l=resources][&e跳过&r][endlink][r]
-[link l=heat_tutorial][&e观看&r][endlink][r]
+[link l=resources][&e跳过，我是老手。&r][endlink][r]
+[link l=heat_tutorial][&e继续，我是新手。（强烈建议观看教程！）&r][endlink][r]
 @wa
 
 @label name=heat_tutorial
@@ -313,7 +313,7 @@
 @p
 [NoWait]我：[EndNoWait]水袋也找到了，里面的水很干净，但以后怎么办呢？[l]
 @r
-（温度球右侧的蓝色半球代表了您身体中的「水分」。）
+（「体感温度球」右侧的蓝色半球代表了您身体中的「水分」。）
 @r
 （空手潜行右击水源可以喝脏水，不过可能会中毒。）
 @r

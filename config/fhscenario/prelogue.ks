@@ -277,41 +277,102 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 *cla
 @er
 @hudDialog show=0
-[NoWait]Me :[EndNoWait]Taking out supplies from ship. [l]
-@call s=prelogue_rewards
-*rewardClaimed
-Oh! A battery! It should provide warmth for five minutes.[p]
-(Press E to open Inventory. You should have obtained Insulation. You would be invulnerable against any temperature for five minutes. )@p
-(Press I to open Infrared View to see Soil Temperature.) @p
-Also a piece of Magnesium Ingot. It should help with getting a fire. @p
-(Holding a fire-starting metal and a piece of flint on both hands to start a fire.)@p
-(Found my water bag too. But I'd need to boil hot water to prevent parasites.)@p
-(Shift-R-Click water to drink dirty water, but it may cause diaherra.)@p
-@delay t=20
+@p
+[NoWait]Me：[EndNoWait]Before I leave, I should check out resources and tools I have.[l]
+@r
+（Checking out the ship...）
+@delay t=40
+@p
 
-*nutritionTutorial
-Me: Military Rations from the space station aren't best, but would keep me healthy for enough time.@p
-(Press E to open Inventory, float your mouse on a Food to check Nutrition content.)@p
-(Press TAB to open Wheel Menu. Select Nutrition to open Nutrition Balance Panel.)@p
-(Keep each Nutrition type between 20 and 80 percent to prevent negative effects and obtain benefits.)@p
-(Early on, you won't need to worry about this. But it should be on your mind in long-term.)@p
-@delay t=20
-[link l=*clothingTutorial]&e[Click to continue]&r[endlink]
+# skip tutorial if wanted
+（Skip the tutorial to obtain initial resources?）[r]
+[link l=resources][&eSkip, I am a Pro.&r][endlink][r]
+[link l=heat_tutorial][&eProceed, I am new. (Highly recommended!)&r][endlink][r]
 @wa
 
-*clothingTutorial
-Me: My Spacesuit has Insulation and Fluid Resistance, but it may break. I should wear layers of clothing in future.@p
-(Press TAB to open Wheel Menu. Select Clothing to open Clothing Panel. Float your mouth on a Clothes to check its properties.)@p
+@label name=heat_tutorial
+@mobEffect e="frostedheart:insulation" a=0 t=6000 hide=1
+@p
+[NoWait]Me：[EndNoWait]Spacesuit is severely broken, but the battery can still keep me warm fro five minutes.[l]
+@r
+（Press [E] to open Inventory. You obtained Insulation, unaffected by any temperature effect for five minutes.）
+@r
+[link l=infrared_tutorial]&e[Understood, click to continue check resources.]&r[endlink]@wa
+
+@label name=infrared_tutorial
+# equivalent to @l then @er
+@p
+[NoWait]Me：[EndNoWait]My glasses are equipped with Infrared View, perhaps useful.[l]
+@r
+（Press [I] to turn on Infrared View, enabling vision for soil temperature.）
+@r
+[link l=water_tutorial]&e[Understood, click to continue check resources.]&r[endlink]@wa
+
+@label name=water_tutorial
+@giveItem i=frostedheart:leather_water_bag n="{Damage:0,Fluid:{FluidName:\"frostedheart:purified_water\",Amount:1000}}"
+@p
+[NoWait]Me：[EndNoWait]Water bag is also found. Clean water inside. But what about later?[l]
+@r
+（The blue hemisphere on the right of the Feeling Temperature Orb represents Water Level in your body.）
+@r
+（Sneak-R-Click a water source to drink unclean water, but you may get poisoned.）
+@r
+[link l=nutrition_tutorial]&e[Understood, click to continue check resources.]&r[endlink]@wa
+
+@label name=nutrition_tutorial
+@giveItem i=frostedheart:military_rations c=16
+@p
+[NoWait]Me：[EndNoWait]Military Rations from Columbiat aren't best, but can keep me healthy for some time.[l]
+@r
+（Press [E] to open Inventory, move the mouse over a food, and press [N] to view its nutrition.）
+@r
+（Press [TAB] to open Wheel Menu, select Health Info to check Nutrition Level.）
+@r
+（When kept in a healthy range, you can prevent disease and gain buffs.）
+@r
+[link l=clothing_tutorial]&e[Completed, click to continue check resources.]&r[endlink]@wa
+
+@label name=clothing_tutorial
+@giveItem i=frostedheart:rabbit_fur_gloves c=2
+@p
+[NoWait]我：[EndNoWait]This pair of Rabbit Fur Gloves are the gift from my best friend before I leave.[l]
+@r
+（Press [TAB] to open Wheel Menu, select View Clothing, and place Rabbit Fur Gloves on both hands.）
+@r
+[link l=clothing_properties]&e[Completed, click to continue.]&r[endlink]@wa
+
+@label name=clothing_properties
+@p
 (On every body part, outer clothes weigh more on Fluid Resistance, better when encountering Water or Wind.)@p
+@r
 (On contrary, inner clothes weigh more on Insulation. You should design your outfit based on different properties.)@p
-@delay t=20
-[link l=*en]&e[Click to continue]&r[endlink]
-@wa
+@r
+[link l=tools_tutorial]&e[Understood, click to continue check resources.]&r[endlink]@wa
 
-*en
-@showTitle t="Chapter 1 Act 1" st="Compelete"
+@label name=tools_tutorial
+@giveItem i=minecraft:iron_shovel
+@giveItem i=frostedheart:magnesium_nugget c=3
+@p
+[NoWait]我：[EndNoWait]This piece of Fire Shovel has been in the corner for a while. Time to take it.[l]
+@r
+[NoWait]我：[EndNoWait]Here are also few Magnesium Nuggets, useful for making a fire.[l]
+@r
+（Shovels can uncover Besnowed Twigs and Debris.）
+@r
+（Magnesium Nuggets can assist Flints to make a fire.）
+@r
+[link l=ending]&e[Enter the Frostland.]&r[endlink]@wa
+
+@label name=resources
+@call s=prelogue_rewards
+
+@label name=ending
+@completequest q=4E2B2FEBD5031A2C
+
+@er
+@showTitle t="Chapter 1 Act 1" st="Completed"
 @actTitle t="" st=""
-Read quest book for further help.@p
+You can follow the Quest Book, or follow the next Tutorial Act.@p
 @s
-@call s="quest:744D35762CD9BD26?call"
+# @call s="quest:744D35762CD9BD26?call"
 @p
