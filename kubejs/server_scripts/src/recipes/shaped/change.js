@@ -976,6 +976,13 @@ ServerEvents.recipes((event) => {
             B: "#twr:plates/structural"
         }
         ],
+        [
+            "tetra:rack", 1, [
+                "AAA"
+            ], {
+                A: "#minecraft:wooden_slabs"
+            }
+        ]
 
     ]
     changeShapedRecipes.forEach((recipe, index) => {

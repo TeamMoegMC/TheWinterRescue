@@ -93,10 +93,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"32A497C69C641D2B"
-				"1F94471C5310ECFA"
-			]
+			dependencies: ["3BBB2213C574F333"]
 			description: ["{quest.twr.1B1E71042B20A174.description.1}"]
 			hide_until_deps_visible: false
 			icon: {

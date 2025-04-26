@@ -190,13 +190,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["03A553EBD453466A"]
+			dependencies: ["55C39831FBBB94D8"]
 			description: ["{quest.twr.3102993072F3C8B9.description.1}"]
 			hide_dependency_lines: false
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			icon: "stone_age:flint_workbench"
 			id: "3102993072F3C8B9"
+			optional: true
 			rewards: [{
 				id: "163A03C91746986A"
 				item: "minecraft:torch"
@@ -418,6 +419,7 @@
 			description: ["{quest.twr.5D803F0865A90DE0.description.1}"]
 			hide_until_deps_visible: false
 			id: "5D803F0865A90DE0"
+			optional: true
 			subtitle: "{quest.twr.5D803F0865A90DE0.subtitle}"
 			tasks: [{
 				id: "67B5CC79345AFB26"

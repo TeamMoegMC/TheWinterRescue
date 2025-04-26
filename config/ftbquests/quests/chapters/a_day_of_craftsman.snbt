@@ -22,6 +22,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["03A553EBD453466A"]
 			description: ["{quest.twr.11DD149796E14E81.description.1}"]
 			icon: "tetra:basic_workbench"
 			id: "11DD149796E14E81"
