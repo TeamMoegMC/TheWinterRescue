@@ -128,15 +128,6 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "stone_age:drying_rack", [
-            "A A",
-            " A ",
-            "A A"
-        ], {
-            A: "#forge:rods/wooden"
-        }
-        ],
-        [
             "stone_age:tanning_rack", [
             "A A",
             " A ",
