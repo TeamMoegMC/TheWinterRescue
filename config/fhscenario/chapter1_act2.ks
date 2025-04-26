@@ -4,52 +4,41 @@
 # Starting
 @call s="chapter1_act2_title.ks"
 
-@label name=chapter_guide
-@call s="quest:56E5FD2809882B5F?call"
+@call s="quest:56E5FD2809882B5F?call" n=chapter_guide
 
-@label name=garbage
-@call s="quest:32E5D942F1FE8645?call"
+@call s="quest:32E5D942F1FE8645?call" n=garbage
 
-@label name=knife
-@call s="quest:14D7D98FC5264B03?call"
+@call s="quest:14D7D98FC5264B03?call" n=knife
 
-@label name=tinder
-@call s="quest:1233EF3CDF5E33F8?call"
+@call s="quest:1233EF3CDF5E33F8?call" n=tinder
 
-@label name=drying
-@call s="quest:1D7F2824DAF3BB7B?call"
+@call s="quest:1D7F2824DAF3BB7B?call" n=drying
 
-@label name=straw
-@call s="quest:29BC87594650152D?call"
+@call s="quest:29BC87594650152D?call" n=straw
 
-@label name=grass_lead
-@call s="quest:4B6FFA5A9140019F?call"
+@call s="quest:4B6FFA5A9140019F?call" n=grass_lead
 
-@label name=axe
-@call s="quest:6B7D4F59C921C1FC?call"
+@call s="quest:6B7D4F59C921C1FC?call" n=axe
 
-@label name=ignition
-@call s="quest:3B7B7A0BC0CF3CE0?call"
+@call s="quest:3B7B7A0BC0CF3CE0?call" n=ignition
 
-@label name=campfire
-@call s="quest:20E34B234337C28A?call"
+@call s="quest:20E34B234337C28A?call" n=campfire
 
 @label name=fire
 Now I have a fire going. Time to think about further plans. @r
 @delay t=60
 
-@label name=pickaxes
-@call s="quest:45E2EF843333B846?call"
-@label name=cooblestones
-@call s="quest:1837531DB19C9023?call"
-@label name=stones
-@call s="quest:4BD8236FEEBD7D3A?call"
-@label name=stump
-@call s="quest:7E3F0C805E2BBB9F?call"
-@label name=planks
-@call s="quest:19603323EAAFF726?call"
-@label name=crafting
-@call s="quest:03A553EBD453466A?call"
+@call s="quest:45E2EF843333B846?call" n=pickaxes
+
+@call s="quest:1837531DB19C9023?call" n=cooblestones
+
+@call s="quest:4BD8236FEEBD7D3A?call" n=stones
+
+@call s="quest:7E3F0C805E2BBB9F?call" n=stump
+
+@call s="quest:19603323EAAFF726?call" n=planks
+
+@call s="quest:03A553EBD453466A?call" n=crafting
 
 @p
 
@@ -58,6 +47,6 @@ Now you should know how to follow the quest book. @r
 You will encounter another scenario when you crafted a drawing desk.
 @delay t=60
 
-@showTitle t="Chapter 1 Act 2" st="Compelete"
+@showTitle t="Chapter 1 Act 2" st="Complete"
 # Must add this
 @p

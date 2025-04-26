@@ -1355,11 +1355,7 @@
 		}
 		{
 			dependencies: ["7E3F0C805E2BBB9F"]
-			description: [
-				"{quest.twr.19603323EAAFF726.description.1}"
-				"{quest.twr.19603323EAAFF726.description.2}"
-				"{quest.twr.19603323EAAFF726.description.3}"
-			]
+			description: ["{quest.twr.19603323EAAFF726.description.1}"]
 			hide_until_deps_visible: false
 			icon: "minecraft:oak_planks"
 			id: "19603323EAAFF726"

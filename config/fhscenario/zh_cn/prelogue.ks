@@ -4,9 +4,10 @@
 @delay t=60
 
 @if exp="client.preloguePlayed"
-是否跳过序章？[r]
+是否跳过序章剧情？[r]
 [link l=*intitle][&e跳过&r][endlink][r]
-[link l=*beginprelogue][&e观看&r][endlink]
+[link l=*beginprelogue][&e观看&r][endlink][r]
+（按T进入文本界面，可点击选项。）[r]
 @wa
 @endif
 
@@ -274,44 +275,102 @@
 @wa
 *cla
 @hudDialog show=0
-@er
-[NoWait]我：[EndNoWait]我应该取下飞船里的物资。[l]
+@p
+[NoWait]我：[EndNoWait]离开之前，我来整理一下现有的物资和装备吧。[l]
+@r
+（正在检查飞船。）
+@delay t=40
+@p
+
+# skip tutorial if wanted
+（是否跳过教程，直接领取初始物资？）[r]
+[link l=resources][&e跳过&r][endlink][r]
+[link l=heat_tutorial][&e观看&r][endlink][r]
+@wa
+
+@label name=heat_tutorial
+@mobEffect e="frostedheart:insulation" a=0 t=6000 hide=1
+@p
+[NoWait]我：[EndNoWait]身上的宇航服，虽然破损严重，但是电池还在工作，足以维持五分钟的温暖。[l]
+@r
+（按下 [E] 打开背包，您已获得「极温抗性」，五分钟内不受任何温度影响。）
+@r
+[link l=infrared_tutorial]&e[已了解，点击继续整理物资]&r[endlink]@wa
+
+@label name=infrared_tutorial
+# equivalent to @l then @er
+@p
+[NoWait]我：[EndNoWait]我的镜片还内置了红外视野功能，以后或许用的上。[l]
+@r
+（按下 [I] 打开「红外视野」，可以看到土壤温度的变化。）
+@r
+[link l=water_tutorial]&e[已了解，点击继续整理物资]&r[endlink]@wa
+
+@label name=water_tutorial
+@giveItem i=frostedheart:leather_water_bag n="{Damage:0,Fluid:{FluidName:\"frostedheart:purified_water\",Amount:1000}}"
+@p
+[NoWait]我：[EndNoWait]水袋也找到了，里面的水很干净，但以后怎么办呢？[l]
+@r
+（生命值右侧的蓝色半球代表了您身体中的「水分」。）
+@r
+（空手潜行右击水源可以喝脏水，不过可能会中毒。）
+@r
+[link l=nutrition_tutorial]&e[已了解，点击继续整理物资]&r[endlink]@wa
+
+@label name=nutrition_tutorial
+@giveItem i=frostedheart:military_rations c=16
+@p
+[NoWait]我：[EndNoWait]空间站派发的「军用口粮」虽然不好吃，但是能维持我一段时间的健康。[l]
+@r
+（按 [E] 打开背包，将鼠标移至在食品上按 [N]，查看营养内容。）
+@r
+（按下 [TAB] 打开轮盘，选择「健康信息」，查看营养水平。）
+@r
+（营养处于健康的范围内，就能避免疾病，获得正面增益。）
+@r
+[link l=clothing_tutorial]&e[完成后，点击继续整理物资]&r[endlink]@wa
+
+@label name=clothing_tutorial
+@giveItem i=frostedheart:rabbit_fur_gloves c=2
+@p
+[NoWait]我：[EndNoWait]这双「兔毛手套」，是我的挚友临行前送给我的礼物。[l]
+@r
+（按下 [TAB] 打开轮盘，选择「穿戴衣物」，将「兔毛手套」穿在双手。）
+@r
+[link l=clothing_properties]&e[完成后，点击继续]&r[endlink]@wa
+
+@label name=clothing_properties
+@p
+（每个身体部位上，越靠外的衣物越能体现「流体隔离性」，在遇水和遇风时更具效果。）
+@r
+（反之，越靠内的衣物越能体现「保温系数」，您应该根据不同衣物属性合理搭配。）
+@r
+[link l=tools_tutorial]&e[已了解，点击继续整理物资]&r[endlink]@wa
+
+@label name=tools_tutorial
+@giveItem i=minecraft:iron_shovel
+@giveItem i=frostedheart:magnesium_nugget c=3
+@p
+[NoWait]我：[EndNoWait]这只「消防锹」，在飞船角落也有多时了，没想到现在能派上用场。[l]
+@r
+[NoWait]我：[EndNoWait]这里还有几颗「镁粒」，生火的时候应该有用。[l]
+@r
+（「锹」能够发掘「雪掩的枝桠」和「雪掩的残片」。）
+@r
+（「镁粒」则能和燧石配合，双手生火。）
+@r
+[link l=ending]&e[进入雪原]&r[endlink]@wa
+
+@label name=resources
 @call s=prelogue_rewards
-*rewardClaimed
-啊！一枚一次性电池，应该足以维持五分钟的温暖。[p]
-（按E打开背包，您已获得「极温抗性」，五分钟内不受任何温度影响。）@p
-（按下I打开「红外视野」，可以看到土壤温度的变化。）@p
-还有一颗镁锭，应该能帮助我生火。@p
-（双手分别持起火金属和燧石可以打火。）@p
-水袋也找到了，不过以后我大概得烧热水才能避免寄生虫。@p
-（潜行右击水源可以喝脏水，不过可能会造成腹泻。）@p
-@delay t=20
 
-*nutritionTutorial
-我：空间站派发的「军用口粮」虽然不好吃，但是能维持我一段时间的健康。@p
-（按E打开背包，鼠标悬浮在食品上，可以查看营养内容。）@p
-（按下TAB打开轮盘，选择「营养」打开营养均衡界面。）@p
-（将营养保持在20%到80%之间，避免获得负面属性，并获得正面增益。）@p
-（早期，您不需要对此担心，但必须将此任务提上长期日程。）@p
-@delay t=20
-[link l=*clothingTutorial]&e[点击以继续]&r[endlink]
-@wa
+@label name=ending
+@completequest q=4E2B2FEBD5031A2C
 
-*clothingTutorial
-@er
-我：身上的宇航服具有「保温系数」和「流体隔离性」，但是可能会损坏，我以后应该穿多层衣服。@p
-（按下TAB打开轮盘，选择「衣物」打开衣物穿戴界面；鼠标悬浮在衣物上，可以查看属性。）@p
-（每个身体部位上，越靠外的衣物越能体现「流体隔离性」，在遇水和遇风时更具效果。）@p
-（反之，越靠内的衣物越能体现「保温系数」，您应该根据不同衣物属性合理搭配。）@p
-@delay t=20
-[link l=*en]&e[点击以继续]&r[endlink]
-@wa
-
-*en
 @er
 @showTitle t="第一章 第一节" st="已完成"
 @actTitle t="" st=""
-查看任务书以继续后续剧情。@p
+您可以查看任务书度过后续剧情，也可以跟随下一幕的引导。@p
 @s
-@call s="quest:744D35762CD9BD26?call"
+# @call s="quest:744D35762CD9BD26?call"
 @p
