@@ -13,6 +13,15 @@ custom_gui {
 }
 
 custom_gui {
+  identifier = twr.menu.cnserver
+  title = Server IP 服务器地址: twr.teammoeg.com
+  allow_esc = true
+  transparent_world_background = true
+  transparent_world_background_overlay = true
+  pause_game = true
+}
+
+custom_gui {
   identifier = twr.menu.update
   title = Update
   allow_esc = true

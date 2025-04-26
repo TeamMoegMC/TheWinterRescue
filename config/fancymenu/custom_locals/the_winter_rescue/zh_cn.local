@@ -10,6 +10,10 @@ mainmenu.twr.singleplayer = 单人游戏
 mainmenu.twr.singleplayer.hover = 孤独的路途
 mainmenu.twr.multiplayer = 多人游戏
 mainmenu.twr.multiplayer.hover = 拥挤的旅行
+mainmenu.twr.official_cn_server = 官服（中）
+mainmenu.twr.moegcraft_login = 注册Moeg账号
+mainmenu.twr.moegcraft_pindao = 加入QQ频道
+mainmenu.twr.must_first_register_mec = 你必须注册才能进入官服（中）
 
 twr.update.title = 更新信息
 twr.update.tooltip = 查看您是否需要更新至最新稳定版本

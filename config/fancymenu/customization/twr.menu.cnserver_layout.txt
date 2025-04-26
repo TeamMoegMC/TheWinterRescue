@@ -1,0 +1,106 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = twr.menu.cnserver
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1745662256396
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:cfbc1ac5-c39e-4a52-b1d6-5ebff24079bb-1745662056373] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = bfb3626d-10a0-43b2-b3f6-7924faf55480-1745661558755
+  [executable_action_instance:d4d9a757-f3d6-46ac-9a78-74d5a28602c5-1745661817635][action_type:openlink] = https://moegcraft.teammoeg.com/
+  [executable_block:bfb3626d-10a0-43b2-b3f6-7924faf55480-1745661558755][type:generic] = [executables:d4d9a757-f3d6-46ac-9a78-74d5a28602c5-1745661817635;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = {"placeholder":"local","values":{"key":"mainmenu.twr.must_first_register_mec"}}
+  label = {"placeholder":"local","values":{"key":"mainmenu.twr.moegcraft_login"}}
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 0acda5ba-7c0c-49ae-8acd-392e07f804b8-1745661558755
+  [loading_requirement_container_meta:0acda5ba-7c0c-49ae-8acd-392e07f804b8-1745661558755] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = a17cfdd5-542b-40ca-8358-86e9d3aeb036-1745661558755
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 3024
+  auto_sizing_base_screen_height = 1746
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -50
+  y = -35
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 5602bea9-b47d-44ef-a9b4-7f080da74983-1745661558755
+  [loading_requirement_container_meta:5602bea9-b47d-44ef-a9b4-7f080da74983-1745661558755] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = bfb3626d-10a0-43b2-b3f6-7924faf55480-1745661558755
+  [executable_action_instance:d4d9a757-f3d6-46ac-9a78-74d5a28602c5-1745661817635][action_type:openlink] = https://pd.qq.com/s/ejtpb6x1i
+  [executable_block:bfb3626d-10a0-43b2-b3f6-7924faf55480-1745661558755][type:generic] = [executables:d4d9a757-f3d6-46ac-9a78-74d5a28602c5-1745661817635;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  hoverlabel = QQ 群：894071469
+  label = {"placeholder":"local","values":{"key":"mainmenu.twr.moegcraft_pindao"}}
+  navigatable = true
+  widget_active_state_requirement_container_identifier = 0acda5ba-7c0c-49ae-8acd-392e07f804b8-1745661558755
+  [loading_requirement_container_meta:0acda5ba-7c0c-49ae-8acd-392e07f804b8-1745661558755] = [groups:][instances:]
+  element_type = custom_button
+  instance_identifier = 9a3537e5-1e7e-4aa7-8a5f-7999eef571b4-1745662073936
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 3024
+  auto_sizing_base_screen_height = 1746
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -50
+  y = 13
+  width = 100
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 5602bea9-b47d-44ef-a9b4-7f080da74983-1745661558755
+  [loading_requirement_container_meta:5602bea9-b47d-44ef-a9b4-7f080da74983-1745661558755] = [groups:][instances:]
+}
+
