@@ -3,13 +3,11 @@
 @showTitle t="Chapter 1 Act 1" st="Crashed in the frozen planet"
 @delay t=60
 
+@displayTip id="scenario_tip"
 @if exp="client.preloguePlayed"
 Do you want to skip the prologue story cinematic?[r]
 [link l=*intitle][&eSkip&r][endlink][r]
 [link l=*beginprelogue][&eWatch&r][endlink]
-(Press [T] to select choices.)[r]
-(Press [Z] to skip text animation.)[r]
-(Press [ESC] five times to skip cinematic.)[r]
 @wa
 @endif
 
@@ -244,6 +242,7 @@ A miracle that was my fantasy — that was their narrative. Thus I embark on a l
 Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radar :[delay t=20][NoWait]&eBasically functional. &r[EndNoWait].@p
 [link l=*sel1]&e[Click to Perform again][endlink][r]
 [link l=*sel2]&c[Click to Abandon ship][endlink]
+@displayTip id="scenario_tip_2"
 @wa
 *sel1
 @p

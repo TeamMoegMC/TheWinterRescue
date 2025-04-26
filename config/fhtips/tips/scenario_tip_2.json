@@ -1,0 +1,17 @@
+{
+  "id": "scenario_tip_2",
+  "category": "",
+  "nextTip": "",
+  "image": "",
+  "alwaysVisible": false,
+  "onceOnly": false,
+  "hide": false,
+  "pin": false,
+  "displayTime": 12000,
+  "fontColor": "FFC6FCFF",
+  "backgroundColor": "FF000000",
+  "contents": [
+    "tips.frostedheart.scenario_tip.title",
+    "tips.frostedheart.scenario_tip.desc1"
+  ]
+}

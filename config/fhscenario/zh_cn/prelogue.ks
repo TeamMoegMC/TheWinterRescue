@@ -3,13 +3,11 @@
 @showTitle t="第一章 第一节" st="霜星迫降"
 @delay t=60
 
+@displayTip id="scenario_tip"
 @if exp="client.preloguePlayed"
 是否跳过序章剧情？[r]
 [link l=*intitle][&e跳过&r][endlink][r]
 [link l=*beginprelogue][&e观看&r][endlink][r]
-（按 [T] 进入文本界面，点击选项。）[r]
-（按 [Z] 跳过文本动画。）[r]
-（按 [ESC] 五次跳过电影场景。）[r]
 @wa
 @endif
 
@@ -245,6 +243,7 @@
 ，反应堆：[delay t=20][NoWait]&c无响应&r[EndNoWait]，无线电：[delay t=20][NoWait]&c无响应&r[EndNoWait]，雷达：[delay t=20][NoWait]&e基本可用&r[EndNoWait].@p
 [link l=*sel1]&e[点击再次检查][endlink][r]
 [link l=*sel2]&c[点击弃船][endlink]
+@displayTip id="scenario_tip_2"
 @wa
 *sel1
 @p
