@@ -37,7 +37,7 @@ ServerEvents.recipes((event) => {
         shapelessRecipe("4x frostedheart:peat","frostedheart:peat_block"),
         shapelessRecipe("4x frostedheart:kaolin","frostedheart:kaolin_block"),
         shapelessRecipe("4x frostedheart:bauxite","frostedheart:bauxite_block"),
-        shapelessRecipe("frostedheart:constantan_wire", ["#forge:ingots/constantan", "immersiveengineering:wirecutter"]),
+        shapelessRecipe("frostedheart:constantan_wire", ["#forge:plates/constantan", "immersiveengineering:wirecutter"]),
         shapelessRecipe("2x frostedheart:charcoal_stick","kubejs:charcoal_briquette"),
         shapelessRecipe("2x frostedheart:coal_stick","kubejs:coal_briquette"),
         shapelessRecipe("stone_age:raw_hide","4x minecraft:rabbit_hide"),
@@ -45,6 +45,7 @@ ServerEvents.recipes((event) => {
         shapelessRecipe("frostedheart:quicklime_block","9x frostedheart:quicklime"),
         shapelessRecipe("frostedheart:magnesia_block","9x frostedheart:magnesia_dust"),
         shapelessRecipe("4x stone_age:bone_arrow_head",["#stone_age:bones","immersiveengineering:hammer"]),
+        shapelessRecipe("4x stone_age:bone_arrow_head",["#stone_age:bones","#forge:hammers"]),
         shapelessRecipe("16x caupona:vivid_charcoal",["#minecraft:coals","3x charcoal_pit:straw"]),
 		shapelessRecipe("2x stone_age:fish_bone",["minecraft:bone","minecraft:flint"]),
         shapelessRecipe("2x stone_age:fish_bone",["#stone_age:bones","minecraft:flint"])

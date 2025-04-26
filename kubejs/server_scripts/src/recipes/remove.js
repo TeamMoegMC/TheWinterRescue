@@ -152,6 +152,7 @@ ServerEvents.recipes((event) => {
 
 		// create power devices: we have steam power
 		"create:water_wheel",
+		"create:large_water_wheel",
 		"create:cogwheel",
 		"create:large_cogwheel",
 		"create:windmill_bearing",

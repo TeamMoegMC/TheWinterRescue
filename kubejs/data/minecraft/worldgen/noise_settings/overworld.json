@@ -3238,7 +3238,7 @@
                       "then_run": {
                         "type": "minecraft:block",
                         "result_state": {
-                          "Name": "minecraft:ice"
+                          "Name": "frostedheart:firm_ice"
                         }
                       }
                     },
