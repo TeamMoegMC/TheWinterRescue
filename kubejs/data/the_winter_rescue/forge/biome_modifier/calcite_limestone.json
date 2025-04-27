@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#c:caves",
+  "features": "the_winter_rescue:calcite_limestone",
+  "step": "underground_ores"
+}

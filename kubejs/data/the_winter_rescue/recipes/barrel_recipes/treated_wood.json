@@ -5,7 +5,7 @@
   },
   "fluid_in": {
     "fluid": "immersiveengineering:creosote",
-    "amount": 250
+    "amount": 125
   },
   "item_out": {
     "item": "immersiveengineering:treated_wood_horizontal"
