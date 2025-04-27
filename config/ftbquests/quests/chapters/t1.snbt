@@ -1355,10 +1355,10 @@
 			id: "75154C5A6E2F3257"
 			rewards: [
 				{
-					command: "/ftbchunks admin extra_claim_chunks @p set 16"
+					command: "/ftbchunks admin extra_claim_chunks @s set 16"
+					elevate_perms: true
 					icon: "minecraft:map"
 					id: "7DA41F7E33AE3E8D"
-					team_reward: true
 					title: "{quest.twr.75154C5A6E2F3257.7DA41F7E33AE3E8D.title}"
 					type: "command"
 				}
