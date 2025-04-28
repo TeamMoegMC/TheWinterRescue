@@ -1,27 +1,26 @@
 {
-  "type": "minecraft:ore",
+  "type": "minecraft:disk",
   "config": {
-    "discard_chance_on_air_exposure": 0.0,
-    "size": 10,
-    "targets": [
-      {
+    "half_height": 1,
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_inclusive": 2,
+        "min_inclusive": 1
+      }
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
         "state": {
           "Name": "frostedheart:bauxite_block"
-        },
-        "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:stone_ore_replaceables"
         }
       },
-      {
-        "state": {
-          "Name": "frostedheart:bauxite_block"
-        },
-        "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:deepslate_ore_replaceables"
-        }
-      }
-    ]
+      "rules": []
+    },
+    "target": {
+      "type": "minecraft:matching_block_tag",
+      "tag": "minecraft:stone_ore_replaceables"
+    }
   }
 }
