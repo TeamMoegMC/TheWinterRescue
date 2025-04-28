@@ -3,11 +3,8 @@
   "config": {
     "half_height": 1,
     "radius": {
-      "type": "minecraft:uniform",
-      "value": {
-        "max_inclusive": 2,
-        "min_inclusive": 1
-      }
+      "type": "minecraft:constant",
+      "value": 1
     },
     "state_provider": {
       "fallback": {

@@ -2,7 +2,6 @@
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:cave_extra_underground",
       "minecraft:canyon"
     ]
   },
@@ -27,8 +26,7 @@
   },
   "features": [
     [
-      "terralith:cave/ice/icicle",
-      "terralith:cave/ice/puddle"
+      "terralith:cave/ice/icicle"
     ],
     [
       "minecraft:lake_lava_underground",
