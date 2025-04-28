@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
             input: ["kubejs:coal_dust", Fluid.of("frostedheart:lime_water", 100)]
         },
         {
-            output: ["frostedheart:raw_rye_bread"],
+            output: ["2x frostedheart:raw_rye_bread"],
             input: ["2x frostedheart:rye_flour", Fluid.of("minecraft:water", 1000)]
         },
         {
