@@ -8,12 +8,12 @@
           "type": "minecraft:item",
           "weight": 90,
           "quality": 5,
-          "name": "immersive_engineering:coal_coke"
+          "name": "immersiveengineering:coal_coke"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
-	  "quality": -5,
+	        "quality": -5,
           "name": "supplementaries:ash"
         }
       ]

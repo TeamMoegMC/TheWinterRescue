@@ -387,7 +387,7 @@
 			rewards: [{
 				count: 4
 				id: "674D2C504E2A20C3"
-				item: "kubejs:frozen_white_turnip"
+				item: "frostedheart:white_turnip_block"
 				type: "item"
 			}]
 			shape: "rsquare"
