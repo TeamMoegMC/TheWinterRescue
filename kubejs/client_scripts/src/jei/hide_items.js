@@ -7,6 +7,12 @@ JEIEvents.hideItems((event) => {
         "stone_age:flint_workbench",
         "stone_age:unlit_torch",
 
+        // charcoal pit
+        "charcoal_pit:ash_block",
+        "charcoal_pit:ash",
+        "charcoal_pit:coke_block",
+        "charcoal_pit:fertilizer",
+
         // ie
         "immersiveengineering:toolbox",
         "immersiveengineering:sorter",

@@ -197,6 +197,24 @@ ServerEvents.tags("item", (event) => {
         "minecraft:flint",
     ])
 
+    event.remove("forge:dusts/ash", [
+        "charcoal_pit:ash"
+    ])
+
+    event.add("twr:potassium_rich", [
+        "#forge:crushed_raw_materials/sylvite",
+        "#forge:dusts/ash"
+    ])
+
+    event.add("twr:nitrogen_rich", [
+        "#forge:dusts/saltpeter",
+        "frostedheart:biomass"
+    ])
+
+    event.add("twr:phosphorous_rich", [
+        "#forge:slag",
+        "minecraft:bone_meal"
+    ])
 
     // event.remove("forge:ingots", [
     //     "create:andesite_alloy"

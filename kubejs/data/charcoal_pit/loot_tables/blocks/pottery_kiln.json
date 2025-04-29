@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "charcoal_pit:straw",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:block_state_property",
+		  "block": "charcoal_pit:pottery_kiln",
+                  "properties": {
+                    "kiln_type": "thatch"
+                  }
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+		  "block": "charcoal_pit:pottery_kiln",
+                  "properties": {
+                    "kiln_type": "wood"
+                  }
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+		  "block": "charcoal_pit:pottery_kiln",
+                  "properties": {
+                    "kiln_type": "active"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:any_of",
+              "terms": [
+                {
+                  "condition": "minecraft:block_state_property",
+		  "block": "charcoal_pit:pottery_kiln",
+                  "properties": {
+                    "kiln_type": "wood"
+                  }
+                },
+                {
+                  "condition": "minecraft:block_state_property",
+		  "block": "charcoal_pit:pottery_kiln",
+                  "properties": {
+                    "kiln_type": "active"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "supplementaries:ash",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+	      "block": "charcoal_pit:pottery_kiln",
+              "properties": {
+                "kiln_type": "complete"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

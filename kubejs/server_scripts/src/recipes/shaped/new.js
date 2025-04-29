@@ -1199,11 +1199,10 @@ ServerEvents.recipes((event) => {
         [
             "charcoal_pit:coal_pile", [
             "AAA",
-            "ABA",
+            "A A",
             "AAA"
         ], {
-            A: "minecraft:coal",
-            B: "#forge:dusts/ash"
+            A: "minecraft:coal"
         }
         ],
         [
