@@ -26,7 +26,7 @@
     },
     {
       "base_ingredient": {
-        "item": "immersiveengineering:plate_constantan"
+        "item": "frostedheart:constantan_sheet"
       },
       "count": 8
     }

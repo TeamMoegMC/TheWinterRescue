@@ -6,6 +6,7 @@ ServerEvents.recipes((event) => {
     minecraft.smoking('frostedheart:cooked_polar_bear_meat', 'frostedheart:polar_bear_meat')
     minecraft.smoking('frostedheart:cooked_fox_meat', 'frostedheart:fox_meat')
     minecraft.smoking('frostedheart:cooked_wolf_meat', 'frostedheart:wolf_meat')
+    minecraft.smoking('frostedheart:cooked_squid_tentacles', 'frostedheart:squid_tentacles\'')
 
     let recipes = [
         {output: 'frostedheart:alumina_dust', input: 'frostedheart:aluminium_hydroxide_dust'},

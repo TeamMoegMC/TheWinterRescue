@@ -712,7 +712,7 @@ ServerEvents.recipes((event) => {
             "create:mechanical_press", [
             " B ",
             " A ",
-            "CCC"
+            " C "
         ], {
             A: "create:andesite_casing",
             B: "create:shaft",

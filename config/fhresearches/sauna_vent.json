@@ -20,15 +20,15 @@
   "ingredients": [
     {
       "base_ingredient": {
-        "tag": "minecraft:planks"
+        "item": "immersiveengineering:treated_wood_horizontal"
       },
       "count": 8
     },
     {
       "base_ingredient": {
-        "item": "frostedheart:steam_bottle"
+        "item": "frostedheart:invar_sheet"
       },
-      "count": 1
+      "count": 8
     }
   ],
   "effects": [
@@ -44,6 +44,16 @@
       "id": "7e0bd48fb9094af6",
       "blocks": [
         "frostedheart:sauna_vent"
+      ]
+    },
+    {
+      "type": "item",
+      "id": "121231b41bf14cb5",
+      "rewards": [
+        {
+          "id": "frostedheart:sauna_vent",
+          "Count": 1
+        }
       ]
     }
   ],

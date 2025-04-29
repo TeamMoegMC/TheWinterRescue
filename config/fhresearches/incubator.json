@@ -1,43 +1,80 @@
 {
-  "icon": {
-    "type": "combined",
-    "base": "minecraft:red_mushroom",
-    "small": "frostedheart:incubator"
-  },
-  "category": "frostedheart:living",
+  "showAltDesc": true,
+  "points": 2000,
+  "insight": 1,
   "clues": [
     {
       "type": "game",
-      "value": 0.5,
       "id": "7cf33f306b054217",
       "required": true,
+      "value": 0.5,
       "level": 0
     },
     {
       "type": "item",
-      "value": 0.5,
       "id": "e2f40af145414aba",
+      "value": 0.5,
+      "consume": true,
       "item": {
-        "item": "frostedheart:quicklime"
-      },
-      "consume": true
+        "base_ingredient": {
+          "item": "frostedheart:quicklime"
+        },
+        "count": 1
+      }
     }
   ],
   "ingredients": [
     {
-      "tag": "forge:mushrooms"
+      "base_ingredient": {
+        "tag": "forge:mushrooms"
+      },
+      "count": 1
     },
     {
-      "tag": "kubejs:straw_briquettes"
+      "base_ingredient": {
+        "tag": "kubejs:straw_briquettes"
+      },
+      "count": 1
     }
   ],
   "effects": [
     {
       "type": "recipe",
-      "id": "9fd1d3f9fcde4f04",
-      "item": "frostedheart:incubator"
+      "item": {
+        "item": "frostedheart:incubator"
+      },
+      "id": "9fd1d3f9fcde4f04"
+    },
+    {
+      "type": "item",
+      "id": "a1fde2abe46742fc",
+      "rewards": [
+        {
+          "id": "frostedheart:straw_briquette_brown_mushroom",
+          "Count": 1,
+          "tag": {
+            "Damage": 0
+          }
+        }
+      ]
     }
   ],
-  "points": 2000,
-  "showAltDesc": true
+  "icon": {
+    "type": "combined",
+    "base": {
+      "type": "item",
+      "item": {
+        "id": "minecraft:red_mushroom",
+        "Count": 1
+      }
+    },
+    "small": {
+      "type": "item",
+      "item": {
+        "id": "frostedheart:incubator",
+        "Count": 1
+      }
+    }
+  },
+  "category": "frostedresearch:living"
 }

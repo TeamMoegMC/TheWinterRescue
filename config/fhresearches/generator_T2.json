@@ -39,27 +39,27 @@
   "ingredients": [
     {
       "base_ingredient": {
-        "tag": "forge:plates/copper"
-      },
-      "count": 4
-    },
-    {
-      "base_ingredient": {
         "item": "frostedheart:invar_sheet"
       },
       "count": 4
     },
     {
       "base_ingredient": {
-        "item": "frostedheart:high_refractory_bricks"
+        "item": "steampowered:cast_iron_boiler"
       },
-      "count": 2
+      "count": 1
     },
     {
       "base_ingredient": {
-        "item": "frostedheart:cast_iron_block"
+        "item": "steampowered:cast_iron_burner"
       },
-      "count": 4
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "create:mechanical_pump"
+      },
+      "count": 1
     }
   ],
   "effects": [
@@ -105,6 +105,7 @@
   "category": "frostedresearch:rescue",
   "parents": [
     "generator_T1",
+    "steam_powerd",
     "blast_furnace"
   ]
 }

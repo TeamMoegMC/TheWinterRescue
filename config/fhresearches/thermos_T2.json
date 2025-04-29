@@ -21,28 +21,43 @@
       "value": 0.15,
       "consume": true,
       "item": {
-        "count": 10,
         "base_ingredient": {
           "tag": "forge:plates/aluminum"
-        }
+        },
+        "count": 10
       }
     }
   ],
   "ingredients": [
     {
-      "tag": "forge:plates/aluminum"
+      "base_ingredient": {
+        "item": "frostedheart:aluminum_sheet"
+      },
+      "count": 1
     },
     {
-      "tag": "forge:plates/steel"
+      "base_ingredient": {
+        "item": "frostedheart:steel_sheet"
+      },
+      "count": 1
     },
     {
-      "tag": "forge:plates/invar"
+      "base_ingredient": {
+        "tag": "forge:plates/invar"
+      },
+      "count": 1
     },
     {
-      "tag": "forge:plates/copper"
+      "base_ingredient": {
+        "item": "create:copper_sheet"
+      },
+      "count": 1
     },
     {
-      "tag": "forge:plates/iron"
+      "base_ingredient": {
+        "item": "create:iron_sheet"
+      },
+      "count": 1
     }
   ],
   "effects": [
@@ -58,13 +73,13 @@
     "type": "item",
     "item": {
       "id": "frostedheart:white_advanced_thermos",
+      "Count": 1,
       "tag": {
-        "Damage": 0
-      },
-      "Count": 1
+        "Damage": 3000
+      }
     }
   },
-  "category": "frostedheart:living",
+  "category": "frostedresearch:living",
   "parents": [
     "electrolyzer"
   ]
