@@ -3,11 +3,11 @@
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 120
+      "count": 50
     },
     {
       "type": "minecraft:count",
-      "count": 20
+      "count": 5
     },
     {
       "type": "minecraft:in_square"
@@ -30,10 +30,10 @@
       "height": {
         "type": "minecraft:uniform",
         "min_inclusive": {
-          "absolute": -64
+          "absolute": 20
         },
         "max_inclusive": {
-          "absolute": 180
+          "absolute": 75
         }
       }
     },
@@ -46,24 +46,9 @@
         ]
       },
       "direction_of_search": "up",
-      "max_steps": 32,
+      "max_steps": 8,
       "target_condition": {
         "type": "minecraft:solid"
-      }
-    },
-    {
-      "type": "minecraft:block_predicate_filter",
-      "predicate": {
-        "type": "minecraft:matching_blocks",
-        "blocks": [
-          "minecraft:blue_ice",
-          "minecraft:packed_ice"
-        ],
-        "offset": [
-          0,
-          1,
-          0
-        ]
       }
     },
     {

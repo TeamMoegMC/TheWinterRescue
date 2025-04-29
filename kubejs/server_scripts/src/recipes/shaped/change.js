@@ -28,6 +28,15 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
+            "charcoal_pit:fire_starter", [
+            " A",
+            "AB"
+        ], {
+            A: "minecraft:stick",
+            B: "charcoal_pit:straw"
+        }
+        ],
+        [
             "minecraft:stone_bricks", 4, [
             "ABA",
             "B B",
