@@ -48,9 +48,9 @@
   "effects": [
     {
       "type": "stats",
-      "id": "8d3b284ee1fa430f",
-      "name": "vlg_forgive",
-      "vars": "能够原谅你夺走的生命数量",
+      "id": "bca5e148a828478b",
+      "name": "有一位难民忘记了你",
+      "vars": "vlg_forgive",
       "val": 1.0,
       "percent": false
     }
