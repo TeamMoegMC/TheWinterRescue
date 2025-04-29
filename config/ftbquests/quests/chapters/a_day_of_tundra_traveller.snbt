@@ -18,71 +18,38 @@
 			id: "58037578505CB417"
 			rewards: [{
 				id: "780DCB8AEDA8E00D"
-				insight: 2
+				insight: 10
 				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			subtitle: "{quest.twr.58037578505CB417.subtitle}"
 			tasks: [{
 				biome: "terralith:glacial_chasm"
-				icon: "minecraft:blue_ice"
+				icon: "frostedheart:firm_ice"
 				id: "2662DFB12882A3A0"
 				title: "{quest.twr.58037578505CB417.2662DFB12882A3A0.title}"
-				type: "biome"
-			}]
-			x: -2.5d
-			y: 2.0d
-		}
-		{
-			icon: "minecraft:mud"
-			id: "2A4064FDA5B753D6"
-			rewards: [{
-				id: "3C7EFBD18C81B1C1"
-				insight: 1
-				team_reward: true
-				type: "frostedheart:insight"
-			}]
-			tasks: [{
-				biome: "terralith:ice_marsh"
-				id: "25942AC76A1CD6CC"
 				type: "biome"
 			}]
 			x: -2.5d
 			y: 1.0d
 		}
 		{
-			icon: "minecraft:ice"
-			id: "07757983BEAD22E2"
-			rewards: [{
-				id: "794587B0723FEB3D"
-				insight: 1
-				team_reward: true
-				type: "frostedheart:insight"
-			}]
-			tasks: [{
-				biome: "minecraft:deep_frozen_ocean"
-				id: "55FA6302B5F20F2F"
-				type: "biome"
-			}]
-			x: -2.5d
-			y: -1.0d
-		}
-		{
 			icon: "minecraft:blackstone"
 			id: "2246C8C7B6F953D7"
 			rewards: [{
 				id: "77CD7346CBC3833E"
-				insight: 1
+				insight: 15
 				team_reward: true
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
 				biome: "#terralith:volcanic"
 				id: "474E699BA92ED024"
+				title: "火山"
 				type: "biome"
 			}]
 			x: -2.5d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			id: "51F68FAFCFA3A06D"
@@ -105,8 +72,42 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 1.0d
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "2B7F0BC152947862"
+			rewards: [{
+				id: "06EB6D8646139544"
+				insight: 5
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				biome: "minecraft:deep_frozen_ocean"
+				icon: "minecraft:blue_ice"
+				id: "7B9DBDDB767EF8CC"
+				title: "深海冻洋"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "607CE973121B4CD4"
+			rewards: [{
+				id: "4261C5468D42F343"
+				insight: 20
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				biome: "terralith:yellowstone"
+				icon: "minecraft:calcite"
+				id: "2F87CF71B488E33B"
+				title: "黄石"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 3.0d
 		}
 	]
 	subtitle: ["{chapter.twr.5E14F9D22A78E620.subtitle.0}"]

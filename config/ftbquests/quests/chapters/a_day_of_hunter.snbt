@@ -48,14 +48,14 @@
 			}]
 			subtitle: "{quest.twr.7AC1F59A495B58AE.subtitle}"
 			tasks: [{
-				entity: "minecraft:pig"
-				id: "0766B832E872F03D"
-				type: "kill"
-				value: 1L
+				count: 64L
+				id: "676CDB17C0670948"
+				item: { Count: 64, id: "minecraft:porkchop" }
+				type: "item"
 			}]
 			title: "{quest.twr.7AC1F59A495B58AE.title}"
-			x: 3.0d
-			y: 4.5d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7762BF27B2BB8236"]
@@ -79,8 +79,8 @@
 				type: "item"
 			}]
 			title: "{quest.twr.7A2CCE64AEE955EC.title}"
-			x: 3.0d
-			y: 6.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7762BF27B2BB8236"]
@@ -99,8 +99,8 @@
 				item: "minecraft:egg"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["19038BB5A9E42055"]
@@ -119,8 +119,8 @@
 				item: "supplementaries:cage"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7762BF27B2BB8236"]
@@ -137,8 +137,8 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.76BFBA40C36D0699.title}"
-			x: 0.0d
-			y: 1.5d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["03A553EBD453466A"]
@@ -393,8 +393,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 7.5d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["42AF456D165CBF75"]
@@ -457,8 +457,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			id: "453E50BC6C848AB1"
@@ -473,8 +473,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			id: "56E65B29FFD272D9"
@@ -489,8 +489,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			id: "1ACEAD685B448139"
@@ -505,24 +505,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: -4.5d
-		}
-		{
-			id: "625989086FB08A87"
-			rewards: [{
-				id: "577883E2A432CC19"
-				insight: 1
-				type: "frostedheart:insight"
-			}]
-			tasks: [{
-				entity: "minecraft:polar_bear"
-				id: "02DB73E6BAB5375F"
-				type: "kill"
-				value: 1L
-			}]
-			x: 1.5d
-			y: -6.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			id: "7620A5D9B831E291"
@@ -537,8 +521,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
 			id: "7E1F135F40443559"
@@ -569,8 +553,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			id: "5C5F6B4708E8864C"
@@ -585,8 +569,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: 4.5d
+			y: 1.5d
 		}
 		{
 			id: "577588837C7D6FA1"
@@ -601,8 +585,8 @@
 				item: { Count: 64, id: "minecraft:rabbit_hide" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			id: "5837FE6D260155FE"
@@ -617,8 +601,8 @@
 				item: "stone_age:venison"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			id: "5286FFE083A90F2F"
@@ -633,8 +617,8 @@
 				item: { Count: 64, id: "minecraft:cod" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.5d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			id: "40075241BD01F5D9"
@@ -655,7 +639,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 6.0d
+			y: 4.5d
 		}
 		{
 			id: "78FD420326B36323"
@@ -710,7 +694,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 4.5d
 			y: 6.0d
 		}
 		{
@@ -726,8 +710,209 @@
 				item: { Count: 64, id: "minecraft:salmon" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 7.5d
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			id: "094F870E989AC695"
+			tasks: [{
+				biome: "terralith:wintry_lowlands"
+				icon: "minecraft:tall_grass"
+				id: "25E85A56D51FDEA8"
+				title: "冬季低地"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "552923CB41F94030"
+			tasks: [{
+				biome: "terralith:wintry_forest"
+				icon: "minecraft:spruce_sapling"
+				id: "65BDCEDC95B7C33F"
+				title: "冬季森林"
+				type: "biome"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "3B445CDF4C5B7E1D"
+			tasks: [{
+				biome: "#terralith:shrublands"
+				id: "5CB3E37CDA37F7B0"
+				title: "灌木地"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:packed_ice"
+			id: "07757983BEAD22E2"
+			rewards: [{
+				id: "794587B0723FEB3D"
+				insight: 1
+				team_reward: true
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				biome: "minecraft:frozen_ocean"
+				icon: "minecraft:packed_ice"
+				id: "55FA6302B5F20F2F"
+				title: "冻洋"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "1A02542F58237293"
+			rewards: [{
+				id: "1FE8E20F3FEC6575"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "4E40B6E49E4B8439"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "037EF7F7CC055E6C"
+			rewards: [{
+				id: "711D314A410392E8"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				count: 64L
+				id: "025ECE6A322AC21E"
+				item: { Count: 64, id: "frostedheart:wolf_hide" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "732E990BF1DB61DB"
+			rewards: [{
+				id: "5D4BFA48524CB409"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0403C8CFE2928B3E"
+				item: { Count: 64, id: "frostedheart:polar_bear_hide" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "26FADC6532FBDBC8"
+			tasks: [{
+				count: 64L
+				id: "122009A2B913F3E2"
+				item: "stone_age:boar_meat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "284891EC01C0F745"
+			rewards: [{
+				id: "13041136830EA7F8"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "stone_age:boar"
+				id: "5B1E2B0646B25F21"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "548FA8212267CF90"
+			tasks: [{
+				entity: "minecraft:squid"
+				id: "441BF16A43486889"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			id: "34819442D1A9222E"
+			rewards: [{
+				id: "4E264B37502F5F1B"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4E6B7247876C701A"
+				item: { Count: 64, id: "frostedheart:squid_tentacles" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:mud"
+			id: "2A4064FDA5B753D6"
+			rewards: [{
+				id: "3C7EFBD18C81B1C1"
+				insight: 1
+				team_reward: true
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				biome: "terralith:ice_marsh"
+				id: "25942AC76A1CD6CC"
+				title: "冰沼泽"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			id: "4E49A20482D26674"
+			rewards: [{
+				id: "0965E3E9DB274754"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "minecraft:slime"
+				id: "2AA76CF60A76BF34"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			id: "0CC491677E61482B"
+			tasks: [{
+				entity: "minecraft:glow_squid"
+				id: "3A12C4BD07721F5D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: 1.5d
 		}
 	]
 	subtitle: ["{chapter.twr.75A05D5EAF6602DE.subtitle}"]

@@ -2,8 +2,8 @@
   "type": "frostedheart:steam_generator",
   "input": {
     "tag": "forge:steam",
-    "amount": 24
+    "amount": 48
   },
-  "energy": 25,
+  "energy": 64,
   "level": 1
 }
