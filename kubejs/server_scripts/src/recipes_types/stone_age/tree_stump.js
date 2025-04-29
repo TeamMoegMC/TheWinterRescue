@@ -67,9 +67,7 @@ ServerEvents.recipes((event) => {
     // Wood Processing
     let wood_recipes = []
     Ingredient.of("#minecraft:logs").getItemIds().forEach((name) => {
-        if (name.indexOf("caupona") != -1) {
-
-        } else if (name.indexOf("log") != -1) {
+        if (name.indexOf("log") != -1) {
             let namex = name.replace("_log", "").replace("stripped_", "");
             wood_recipes.push(tree_stumpRecipe(Item.of(namex + '_planks', 3), Item.of(name),
                 Ingredient.of('#minecraft:axes'), 2))

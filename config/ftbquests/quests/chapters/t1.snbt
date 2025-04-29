@@ -934,7 +934,7 @@
 			optional: true
 			rewards: [{
 				id: "2E97DE46344A2EF3"
-				insight: 12
+				insight: 1
 				team_reward: true
 				type: "frostedheart:insight"
 			}]
