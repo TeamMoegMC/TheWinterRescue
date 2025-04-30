@@ -10,7 +10,7 @@ ServerEvents.recipes((event) => {
     }
 
     let kilnRecipes = [
-        carkilnRecipe(["4x frostedheart:fire_clay_ball", "2x frostedheart:magnesia_dust", "2x frostedheart:quicklime"], ["2x frostedheart:high_refractory_brick"], 600, 32),
+        carkilnRecipe(["4x frostedheart:fire_clay_ball", "frostedheart:magnesia_dust", "frostedheart:quicklime"], ["2x frostedheart:high_refractory_brick"], 600, 32),
         carkilnRecipe(["3x frostedheart:fire_clay_ball", "5x frostedheart:alumina_dust", "immersiveengineering:dust_hop_graphite"], ["3x immersiveindustry:refractory_kiln_brick"], 600, 32),
         rotarykilnRecipe("frostedheart:aluminium_hydroxide_dust", "frostedheart:alumina_dust", 600, 32),
         rotarykilnRecipe("frostedheart:crushed_raw_magnesite", "frostedheart:magnesia_dust", 600, 32),

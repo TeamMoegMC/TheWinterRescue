@@ -235,7 +235,7 @@ ServerEvents.recipes((event) => {
             "DBD"
         ], {
             A: "frostedheart:heat_pipe",
-            B: "#forge:plates/steel",
+            B: "#forge:plates/cast_iron",
             C: "frostedheart:incubator",
             D: "#forge:plates/copper"
         }
@@ -383,7 +383,7 @@ ServerEvents.recipes((event) => {
             "ACA",
             " B "
         ], {
-            A: "#forge:plates/steel",
+            A: "#forge:plates/cast_iron",
             B: "immersiveengineering:treated_wood_horizontal",
             C: "#forge:plates/copper"
         }
@@ -407,7 +407,7 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "immersiveengineering:treated_wood_horizontal",
-            B: "#forge:plates/steel",
+            B: "#forge:plates/cast_iron",
             C: "#forge:plates/copper",
             D: "minecraft:bucket"
         }

@@ -2,7 +2,7 @@ ServerEvents.recipes((event) => {
     let {immersiveengineering} = event.recipes
 
     let blastFurnaceRecipes = [
-        ["frostedheart:cast_iron_ingot", "minecraft:iron_ingot", 900],
+        ["frostedheart:cast_iron_ingot", "minecraft:iron_ingot", 600],
         ['kubejs:rough_graphite_electrode', 'kubejs:shaped_bounded_graphite', 2000]
     ]
     blastFurnaceRecipes.forEach(([output, input, time], index) => {

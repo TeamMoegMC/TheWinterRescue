@@ -552,9 +552,9 @@ ServerEvents.recipes((event) => {
             "BWB",
             "ACA"
         ], {
-            A: "#forge:plates/steel",
-            B: "#immersiveengineering:scaffoldings/steel",
-            W: ["steampowered:steel_steam_engine", "steampowered:cast_iron_steam_engine"],
+            A: ["#forge:plates/cast_iron", "#forge:plates/steel"],
+            B: ["#forge:rods/cast_iron", "#forge:rods/steel"],
+            W: ["steampowered:cast_iron_steam_engine", "steampowered:steel_steam_engine"],
             C: "frostedheart:heat_pipe",
             S: "create:shaft"
         }
