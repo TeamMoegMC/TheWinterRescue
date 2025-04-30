@@ -16,9 +16,9 @@ ServerEvents.recipes((event) => {
         {output: 'minecraft:red_sand', input: 'frostedheart:red_sand_permafrost'},
         {output: 'frostedheart:peat_block', input: 'frostedheart:peat_permafrost'},
         {output: 'frostedheart:bauxite_block', input: 'frostedheart:bauxite_permafrost'},
-        {output: 'frostedheart:kaolin_block', input: 'frostedheart:kaolin_permafrost'}
+        {output: 'frostedheart:kaolin_block', input: 'frostedheart:kaolin_permafrost'},
+        {output: 'minecraft:paper', input: 'frostedheart:pulp'}
     ]
-	minecraft.smelting("minecraft:paper", "frostedheart:pulp")
 	minecraft.smelting('4x minecraft:red_dye', 'frostedheart:lead_oxide_dust')
     minecraft.smelting("frostedheart:ceramic_bucket", "kubejs:clay_bucket")
     minecraft.smelting("supplementaries:ash", "minecraft:dried_kelp")
