@@ -2,13 +2,7 @@
   "showAltDesc": true,
   "points": 3000,
   "insight": 1,
-  "name": "电动粉碎",
-  "desc": [
-    "出乎意料的简单，只需要大力出奇迹即可。"
-  ],
-  "descAlt": [
-    "只是把粉碎轮改为电动而已，花不了多少时间。"
-  ],
+  "name": "@",
   "clues": [
     {
       "type": "game",

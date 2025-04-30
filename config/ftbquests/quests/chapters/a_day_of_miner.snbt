@@ -410,7 +410,7 @@
 			y: 7.0d
 		}
 		{
-			description: ["偶尔，你会发现粘土生成在陆地上遍布的冰盖下面。冻河或者繁茂洞穴则有更巨大量的泥土。"]
+			description: ["{quest.twr.4132A35DF97BFE3F.description.1}"]
 			id: "4132A35DF97BFE3F"
 			rewards: [{
 				id: "47ED3A18B80B5B4F"
@@ -834,7 +834,7 @@
 			y: 7.0d
 		}
 		{
-			description: ["钻石只在地热活动存在的群系生成。"]
+			description: ["{quest.twr.15B593BC4399546E.description.1}"]
 			id: "15B593BC4399546E"
 			tasks: [{
 				id: "20CF64F5BDA772A9"
@@ -855,7 +855,7 @@
 			y: 1.0d
 		}
 		{
-			description: ["一些矿物和土壤本身难以区分，比如高岭土、铝土。这些矿物通常大片生成在雪原恶地。"]
+			description: ["{quest.twr.3F9BFC660C5B817F.description.1}"]
 			id: "3F9BFC660C5B817F"
 			rewards: [{
 				id: "5C6BE35358342BF7"
@@ -866,7 +866,7 @@
 				biome: "terralith:snowy_badlands"
 				icon: "minecraft:terracotta"
 				id: "413E56AFBAC196FD"
-				title: "雪原恶地"
+				title: "{quest.twr.3F9BFC660C5B817F.413E56AFBAC196FD.title}"
 				type: "biome"
 			}]
 			x: -7.5d
@@ -883,7 +883,7 @@
 				biome: "terralith:cave/mantle_caves"
 				icon: "minecraft:lava_bucket"
 				id: "6C0622F1F1FB8498"
-				title: "地幔洞穴"
+				title: "{quest.twr.773FD399C0748380.6C0622F1F1FB8498.title}"
 				type: "biome"
 			}]
 			x: -7.5d
@@ -915,7 +915,7 @@
 				biome: "minecraft:frozen_river"
 				icon: "minecraft:water_bucket"
 				id: "786B55C367FBB3FC"
-				title: "冻河"
+				title: "{quest.twr.57A7C1A0DC906035.786B55C367FBB3FC.title}"
 				type: "biome"
 			}]
 			x: -7.5d

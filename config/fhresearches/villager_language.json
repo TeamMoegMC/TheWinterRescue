@@ -1,17 +1,14 @@
 {
   "points": 1000,
   "insight": 1,
-  "name": "语言修习",
-  "desc": [
-    "经过一段时间的接触，我发现难民来自世界各地，说着不同的语言。虽然我没办法成为所有语言的大师，但是我如果修习一些基础的语法、单词，并且多加练习口语，我想我能和他们打好关系，在交易中获利。"
-  ],
+  "name": "@",
   "clues": [
     {
       "type": "game",
       "id": "39fb91432dab4e03",
       "required": true,
       "value": 0.25,
-      "name": "听力练习",
+      "name": "@",
       "level": 0
     },
     {
@@ -19,7 +16,7 @@
       "id": "ffa724899f64a8a",
       "required": true,
       "value": 0.25,
-      "name": "口语练习",
+      "name": "@",
       "level": 0
     },
     {
@@ -27,7 +24,7 @@
       "id": "f4b4134edfc84a2b",
       "required": true,
       "value": 0.25,
-      "name": "阅读练习",
+      "name": "@",
       "level": 0
     },
     {
@@ -35,7 +32,7 @@
       "id": "9a331f94a1304ff0",
       "required": true,
       "value": 0.25,
-      "name": "写作练习",
+      "name": "@",
       "level": 0
     }
   ],

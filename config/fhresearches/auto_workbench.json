@@ -2,13 +2,7 @@
   "showAltDesc": true,
   "points": 3000,
   "insight": 1,
-  "name": "自动组装",
-  "desc": [
-    "这样我就可以自动生产一些必须手搓的东西了。"
-  ],
-  "descAlt": [
-    "制造了自动合成台后，我觉得工程师装配台也可以自动化。"
-  ],
+  "name": "@",
   "clues": [
     {
       "type": "game",

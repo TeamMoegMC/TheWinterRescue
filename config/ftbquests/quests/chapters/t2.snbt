@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["3549A50510878505"]
-			description: ["高岭土通常在河道和恶地生成。"]
+			description: ["{quest.twr.060F482D9D3374F9.description.1}"]
 			hide_until_deps_visible: false
 			id: "060F482D9D3374F9"
 			shape: "gear"
@@ -71,7 +71,7 @@
 			dependencies: ["0E27E31FF6145D05"]
 			description: [
 				"{quest.twr.4CC5E16EFDE1368C.description.1}"
-				"铸铁足以支持高压蒸汽的运转，你能搭建蒸汽能量塔了。"
+				"{quest.twr.4CC5E16EFDE1368C.description.2}"
 				"{quest.twr.4CC5E16EFDE1368C.description.3}"
 			]
 			id: "4CC5E16EFDE1368C"

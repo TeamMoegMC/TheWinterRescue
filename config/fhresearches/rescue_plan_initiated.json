@@ -2,17 +2,14 @@
   "infinite": true,
   "points": 1000,
   "insight": 1,
-  "name": "救援计划启动",
-  "desc": [
-    "我想我可以给村民准备一些救援物资，这样他们或许对我的看法会更好。"
-  ],
+  "name": "@",
   "clues": [
     {
       "type": "game",
       "id": "9b825e0d6d0341a9",
       "required": true,
       "value": 1.0,
-      "name": "准备物品清单",
+      "name": "@",
       "level": 0
     }
   ],
@@ -52,7 +49,7 @@
     {
       "type": "stats",
       "id": "64a6d42356b84621",
-      "name": "vlg_relationship",
+      "name": "@",
       "vars": "vlg_relationship",
       "val": 10.0,
       "percent": false
