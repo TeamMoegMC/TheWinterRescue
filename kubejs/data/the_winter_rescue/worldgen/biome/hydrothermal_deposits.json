@@ -65,7 +65,6 @@
       "the_winter_rescue:cave/underwater_magma"
     ],
     [
-      "terralith:cave/stone/andesite_boulders",
       "the_winter_rescue:cave/calcite_strip",
       "the_winter_rescue:cave/hydrothermal_vines"
     ],
@@ -74,8 +73,6 @@
       "minecraft:spring_lava"
     ],
     [
-      "terralith:cave/generic/noise_reducer",
-      "terralith:cave/generic/noise_reducer_small",
       "minecraft:glow_lichen"
     ],
     [

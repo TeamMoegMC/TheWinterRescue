@@ -10,5 +10,20 @@
   "biome.the_winter_rescue.fossil_deposits": "化石矿床",
   "biome.the_winter_rescue.brine_deposits": "盐卤矿床",
   "biome.the_winter_rescue.destroyed_forest": "被摧毁的森林",
-  "biome.the_winter_rescue.frozen_forest": "冰封森林"
+  "biome.the_winter_rescue.frozen_forest": "冰封森林",
+  "biome.the_winter_rescue.nature/destroyed_birch_forest": "被摧毁的白桦林",
+  "biome.the_winter_rescue.nature/destroyed_marsh": "被摧毁的冰沼泽",
+  "biome.the_winter_rescue.nature/frostbough_forest": "霜枝森林",
+  "biome.the_winter_rescue.nature/frostpine_grove": "霜松树林",
+  "biome.the_winter_rescue.nature/glacier": "冰川",
+  "biome.the_winter_rescue.nature/ironwinter_hollow": "铁冬空谷",
+
+  "biome.the_winter_rescue.nature/scree_pine_grove": "岩屑松林",
+  "biome.the_winter_rescue.nature/slabback_massif": "板岩山体",
+  "biome.the_winter_rescue.andesite_caves": "安山岩洞穴",
+  "biome.the_winter_rescue.crust_chasms": "地壳裂隙",
+  "biome.the_winter_rescue.darkfang_caves": "暗牙洞穴",
+  "biome.the_winter_rescue.diorite_caves": "闪长岩洞穴",
+  "biome.the_winter_rescue.ice_caves": "冰霜洞穴",
+  "biome.the_winter_rescue.mycelium_caves": "菌丝洞穴"
 }

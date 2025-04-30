@@ -2,11 +2,10 @@
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:cave_extra_underground",
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.3,
+  "downfall": 1.0,
   "effects": {
     "fog_color": 12638463,
     "mood_sound": {
@@ -25,9 +24,14 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
+  "particle": {
+    "options": {
+      "type": "minecraft:white_ash"
+    },
+    "probability": 0.068093334
+  },
   "features": [
     [
-      "the_winter_rescue:cave/basalt"
     ],
     [
       "minecraft:lake_lava_underground",
@@ -43,9 +47,6 @@
     [],
     [],
     [
-      "the_winter_rescue:cave/magmatic_copper_ore",
-      "the_winter_rescue:cave/magmatic_iron_ore",
-      "the_winter_rescue:cave/magmatic_tin_ore",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -67,6 +68,7 @@
       "minecraft:spring_lava"
     ],
     [
+      "the_winter_rescue:nature/bare_birch_tree",
       "minecraft:glow_lichen"
     ],
     [
@@ -88,18 +90,7 @@
     "creature": [],
     "misc": [],
     "monster": [
-      {
-        "type": "minecraft:spider",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:creeper",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 1
-      }
+
     ],
     "underground_water_creature": [
       {
@@ -112,5 +103,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 1
+  "temperature": 0.1
 }

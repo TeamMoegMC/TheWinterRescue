@@ -62,14 +62,13 @@
       "minecraft:underwater_magma"
     ],
     [
-      "terralith:cave/stone/andesite_boulders"
     ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
-      "the_winter_rescue:bare_tree",
+      "the_winter_rescue:nature/bare_oak_tree",
       "minecraft:glow_lichen"
     ],
     [

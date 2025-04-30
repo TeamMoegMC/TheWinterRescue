@@ -2,7 +2,6 @@
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:cave_extra_underground",
       "minecraft:canyon"
     ]
   },
@@ -27,7 +26,7 @@
   },
   "features": [
     [
-      "the_winter_rescue:cave/basalt"
+      "the_winter_rescue:cave/icicle"
     ],
     [
       "minecraft:lake_lava_underground",
@@ -43,9 +42,14 @@
     [],
     [],
     [
-      "the_winter_rescue:cave/magmatic_copper_ore",
-      "the_winter_rescue:cave/magmatic_iron_ore",
-      "the_winter_rescue:cave/magmatic_tin_ore",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -58,9 +62,13 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
     ],
     [
+      "minecraft:ore_infested"
     ],
     [
       "minecraft:spring_water",
@@ -93,19 +101,13 @@
         "maxCount": 4,
         "minCount": 1,
         "weight": 10
-      },
-      {
-        "type": "minecraft:creeper",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 1
       }
     ],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "maxCount": 1,
-        "minCount": 1,
+        "maxCount": 6,
+        "minCount": 4,
         "weight": 10
       }
     ],

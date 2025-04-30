@@ -58,7 +58,6 @@
       "minecraft:underwater_magma"
     ],
     [
-      "terralith:cave/stone/andesite_boulders"
     ],
     [
       "minecraft:spring_water",
@@ -66,8 +65,6 @@
     ],
     [
       "the_winter_rescue:fh_fossil",
-      "terralith:cave/generic/noise_reducer",
-      "terralith:cave/generic/noise_reducer_small",
       "minecraft:glow_lichen"
     ],
     [

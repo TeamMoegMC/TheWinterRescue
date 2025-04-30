@@ -2,11 +2,11 @@
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:cave_extra_underground",
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.3,
+  "creature_spawn_probability": 0.07,
+  "downfall": 0.5,
   "effects": {
     "fog_color": 12638463,
     "mood_sound": {
@@ -15,19 +15,13 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.stony_peaks"
-    },
-    "sky_color": 7776511,
+    "sky_color": 7907327,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
   "features": [
     [
-      "the_winter_rescue:cave/basalt"
+      "the_winter_rescue:cave/icicle"
     ],
     [
       "minecraft:lake_lava_underground",
@@ -43,12 +37,12 @@
     [],
     [],
     [
-      "the_winter_rescue:cave/magmatic_copper_ore",
-      "the_winter_rescue:cave/magmatic_iron_ore",
-      "the_winter_rescue:cave/magmatic_tin_ore",
-      "minecraft:ore_coal_upper",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
       "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
       "minecraft:ore_iron_small",
       "minecraft:ore_gold",
@@ -58,16 +52,19 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma"
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
     ],
+    [],
+    [],
     [
-    ],
-    [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
-    [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_badlands",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -85,21 +82,17 @@
       }
     ],
     "axolotls": [],
-    "creature": [],
-    "misc": [],
-    "monster": [
+    "creature": [
       {
-        "type": "minecraft:spider",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:creeper",
+        "type": "minecraft:polar_bear",
         "maxCount": 1,
         "minCount": 1,
         "weight": 1
       }
+    ],
+    "misc": [],
+    "monster": [
+
     ],
     "underground_water_creature": [
       {
@@ -112,5 +105,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 1
+  "temperature": 0
 }

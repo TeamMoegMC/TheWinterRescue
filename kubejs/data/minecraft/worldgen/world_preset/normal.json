@@ -8,7 +8,7 @@
           "type": "minecraft:multi_noise",
           "biomes": [
             {
-              "biome": "terralith:cave/diorite_caves",
+              "biome": "the_winter_rescue:diorite_caves",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -38,7 +38,7 @@
               }
             },
             {
-              "biome": "terralith:cave/diorite_caves",
+              "biome": "the_winter_rescue:diorite_caves",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -218,7 +218,7 @@
               }
             },
             {
-              "biome": "terralith:cave/ice_caves",
+              "biome": "the_winter_rescue:ice_caves",
               "parameters": {
                 "continentalness": [
                   0.01,
@@ -398,7 +398,7 @@
               }
             },
             {
-              "biome": "terralith:frozen_cliffs",
+              "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -518,7 +518,7 @@
               }
             },
             {
-              "biome": "terralith:ice_marsh",
+              "biome": "the_winter_rescue:nature/destroyed_marsh",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -548,7 +548,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -608,7 +608,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -698,7 +698,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -728,7 +728,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -848,36 +848,6 @@
               }
             },
             {
-              "biome": "terralith:caldera",
-              "parameters": {
-                "continentalness": [
-                  -0.11,
-                  0.03
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.375
-                ],
-                "humidity": [
-                  -0.585,
-                  0.3
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.2,
-                  1.0
-                ],
-                "weirdness": [
-                  -1,
-                  -0.7666667
-                ]
-              }
-            },
-            {
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
@@ -964,96 +934,6 @@
                 "weirdness": [
                   -1,
                   -0.7666667
-                ]
-              }
-            },
-            {
-              "biome": "terralith:volcanic_crater",
-              "parameters": {
-                "continentalness": [
-                  -0.11,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.375
-                ],
-                "humidity": [
-                  -1,
-                  1
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.2,
-                  1.0
-                ],
-                "weirdness": [
-                  -1,
-                  -0.7666667
-                ]
-              }
-            },
-            {
-              "biome": "terralith:scarlet_mountains",
-              "parameters": {
-                "continentalness": [
-                  -0.11,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.375
-                ],
-                "humidity": [
-                  -0.35,
-                  1
-                ],
-                "offset": 0,
-                "temperature": [
-                  -1,
-                  0.55
-                ],
-                "weirdness": [
-                  -0.7666667,
-                  -0.56666666
-                ]
-              }
-            },
-            {
-              "biome": "terralith:scarlet_mountains",
-              "parameters": {
-                "continentalness": [
-                  -0.11,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.375
-                ],
-                "humidity": [
-                  -1,
-                  1
-                ],
-                "offset": 0,
-                "temperature": [
-                  -0.73,
-                  0.55
-                ],
-                "weirdness": [
-                  -0.7666667,
-                  -0.56666666
                 ]
               }
             },
@@ -1148,7 +1028,7 @@
               }
             },
             {
-              "biome": "terralith:ice_marsh",
+              "biome": "the_winter_rescue:nature/destroyed_marsh",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -1178,7 +1058,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -1208,7 +1088,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -1268,7 +1148,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -1328,7 +1208,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -1388,7 +1268,7 @@
               }
             },
             {
-              "biome": "terralith:ice_marsh",
+              "biome": "the_winter_rescue:nature/destroyed_marsh",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -1478,7 +1358,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -1508,7 +1388,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -1628,36 +1508,6 @@
               }
             },
             {
-              "biome": "terralith:caldera",
-              "parameters": {
-                "continentalness": [
-                  0.03,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.375
-                ],
-                "humidity": [
-                  -0.585,
-                  0.3
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.2,
-                  1.0
-                ],
-                "weirdness": [
-                  -1,
-                  -0.93333334
-                ]
-              }
-            },
-            {
               "biome": "minecraft:grove",
               "parameters": {
                 "continentalness": [
@@ -1748,7 +1598,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -1928,37 +1778,7 @@
               }
             },
             {
-              "biome": "terralith:yellowstone",
-              "parameters": {
-                "continentalness": [
-                  0.03,
-                  0.62
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -0.375,
-                  0.05
-                ],
-                "humidity": [
-                  -0.1,
-                  0.3
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.845,
-                  1.0
-                ],
-                "weirdness": [
-                  -1,
-                  1
-                ]
-              }
-            },
-            {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -1988,7 +1808,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -2018,7 +1838,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_lowlands",
+              "biome": "the_winter_rescue:nature/ironwinter_hollow",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -2078,7 +1898,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_lowlands",
+              "biome": "the_winter_rescue:nature/ironwinter_hollow",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -2108,7 +1928,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -2138,7 +1958,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -2168,7 +1988,7 @@
               }
             },
             {
-              "biome": "terralith:glacial_chasm",
+              "biome": "the_winter_rescue:nature/glacier",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -2198,7 +2018,7 @@
               }
             },
             {
-              "biome": "terralith:glacial_chasm",
+              "biome": "the_winter_rescue:nature/glacier",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -2228,7 +2048,7 @@
               }
             },
             {
-              "biome": "terralith:glacial_chasm",
+              "biome": "the_winter_rescue:nature/glacier",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -2258,7 +2078,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -2288,7 +2108,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -2318,7 +2138,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -2348,7 +2168,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -2468,37 +2288,7 @@
               }
             },
             {
-              "biome": "terralith:yellowstone",
-              "parameters": {
-                "continentalness": [
-                  0.62,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -0.375,
-                  -0.2225
-                ],
-                "humidity": [
-                  -0.1,
-                  0.3
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.845,
-                  1.0
-                ],
-                "weirdness": [
-                  -1,
-                  1
-                ]
-              }
-            },
-            {
-              "biome": "terralith:ice_marsh",
+              "biome": "the_winter_rescue:nature/destroyed_marsh",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -2558,7 +2348,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -2708,7 +2498,7 @@
               }
             },
             {
-              "biome": "terralith:ice_marsh",
+              "biome": "the_winter_rescue:nature/destroyed_marsh",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -2738,7 +2528,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -2768,7 +2558,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -2828,7 +2618,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -2888,7 +2678,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -2978,66 +2768,6 @@
               }
             },
             {
-              "biome": "terralith:scarlet_mountains",
-              "parameters": {
-                "continentalness": [
-                  0.03,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.78
-                ],
-                "humidity": [
-                  -0.35,
-                  1
-                ],
-                "offset": 0,
-                "temperature": [
-                  -1,
-                  0.55
-                ],
-                "weirdness": [
-                  -0.93333334,
-                  -0.4
-                ]
-              }
-            },
-            {
-              "biome": "terralith:scarlet_mountains",
-              "parameters": {
-                "continentalness": [
-                  0.03,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.78
-                ],
-                "humidity": [
-                  -1,
-                  1
-                ],
-                "offset": 0,
-                "temperature": [
-                  -0.73,
-                  0.55
-                ],
-                "weirdness": [
-                  -0.93333334,
-                  -0.4
-                ]
-              }
-            },
-            {
               "biome": "minecraft:jagged_peaks",
               "parameters": {
                 "continentalness": [
@@ -3068,7 +2798,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -3158,7 +2888,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -3188,7 +2918,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -3278,7 +3008,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -3390,36 +3120,6 @@
                 "temperature": [
                   -1,
                   0.2
-                ],
-                "weirdness": [
-                  -0.93333334,
-                  -0.7666667
-                ]
-              }
-            },
-            {
-              "biome": "terralith:caldera",
-              "parameters": {
-                "continentalness": [
-                  0.03,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -0.78,
-                  -0.375
-                ],
-                "humidity": [
-                  -0.585,
-                  0.3
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.2,
-                  1.0
                 ],
                 "weirdness": [
                   -0.93333334,
@@ -3578,7 +3278,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -3608,7 +3308,7 @@
               }
             },
             {
-              "biome": "terralith:ice_marsh",
+              "biome": "the_winter_rescue:nature/destroyed_marsh",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -3668,7 +3368,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -3758,7 +3458,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -3788,7 +3488,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -3809,36 +3509,6 @@
                 "offset": 0,
                 "temperature": [
                   -0.155,
-                  1.0
-                ],
-                "weirdness": [
-                  -0.7666667,
-                  -0.56666666
-                ]
-              }
-            },
-            {
-              "biome": "terralith:volcanic_peaks",
-              "parameters": {
-                "continentalness": [
-                  -0.11,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.375
-                ],
-                "humidity": [
-                  -1,
-                  1
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.2,
                   1.0
                 ],
                 "weirdness": [
@@ -3878,7 +3548,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -3938,7 +3608,7 @@
               }
             },
             {
-              "biome": "terralith:frozen_cliffs",
+              "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -3968,7 +3638,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -4058,7 +3728,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -4268,7 +3938,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -4328,7 +3998,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -4358,37 +4028,7 @@
               }
             },
             {
-              "biome": "terralith:yellowstone",
-              "parameters": {
-                "continentalness": [
-                  -0.11,
-                  0.03
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.78
-                ],
-                "humidity": [
-                  -0.1,
-                  0.3
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.845,
-                  1.0
-                ],
-                "weirdness": [
-                  -0.56666666,
-                  0.56666666
-                ]
-              }
-            },
-            {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -4448,7 +4088,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -4538,7 +4178,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -4559,36 +4199,6 @@
                 "offset": 0,
                 "temperature": [
                   -0.155,
-                  1.0
-                ],
-                "weirdness": [
-                  -0.56666666,
-                  -0.4
-                ]
-              }
-            },
-            {
-              "biome": "terralith:volcanic_peaks",
-              "parameters": {
-                "continentalness": [
-                  0.03,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.78
-                ],
-                "humidity": [
-                  -1,
-                  1
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.2,
                   1.0
                 ],
                 "weirdness": [
@@ -4628,7 +4238,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -4658,7 +4268,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -4718,7 +4328,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -4748,7 +4358,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -4808,37 +4418,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_maple_forest",
-              "parameters": {
-                "continentalness": [
-                  0.03,
-                  0.3
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -0.78,
-                  -0.375
-                ],
-                "humidity": [
-                  -0.585,
-                  -0.35
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.55,
-                  0.845
-                ],
-                "weirdness": [
-                  -0.56666666,
-                  -0.4
-                ]
-              }
-            },
-            {
-              "biome": "terralith:snowy_shield",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -4864,36 +4444,6 @@
                 "weirdness": [
                   -0.56666666,
                   -0.4
-                ]
-              }
-            },
-            {
-              "biome": "terralith:yellowstone",
-              "parameters": {
-                "continentalness": [
-                  0.03,
-                  0.3
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -0.78,
-                  0.05
-                ],
-                "humidity": [
-                  -0.1,
-                  0.3
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.845,
-                  1.0
-                ],
-                "weirdness": [
-                  -0.56666666,
-                  0.56666666
                 ]
               }
             },
@@ -4988,7 +4538,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -5018,7 +4568,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -5078,37 +4628,7 @@
               }
             },
             {
-              "biome": "terralith:scarlet_mountains",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -0.78,
-                  -0.375
-                ],
-                "humidity": [
-                  0.5650000000000001,
-                  1
-                ],
-                "offset": 0,
-                "temperature": [
-                  -0.73,
-                  0.55
-                ],
-                "weirdness": [
-                  -0.56666666,
-                  -0.4
-                ]
-              }
-            },
-            {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -5129,36 +4649,6 @@
                 "offset": 0,
                 "temperature": [
                   -0.45,
-                  1.0
-                ],
-                "weirdness": [
-                  -0.56666666,
-                  -0.4
-                ]
-              }
-            },
-            {
-              "biome": "terralith:volcanic_peaks",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -0.78,
-                  -0.375
-                ],
-                "humidity": [
-                  -1,
-                  1
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.2,
                   1.0
                 ],
                 "weirdness": [
@@ -5318,7 +4808,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -5348,7 +4838,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -5378,7 +4868,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -5408,37 +4898,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_maple_forest",
-              "parameters": {
-                "continentalness": [
-                  -0.11,
-                  0.3
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.78
-                ],
-                "humidity": [
-                  -0.585,
-                  -0.35
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.55,
-                  0.845
-                ],
-                "weirdness": [
-                  -0.4,
-                  -0.26666668
-                ]
-              }
-            },
-            {
-              "biome": "terralith:snowy_shield",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -5588,7 +5048,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -5644,36 +5104,6 @@
                 "weirdness": [
                   -0.4,
                   -0.26666668
-                ]
-              }
-            },
-            {
-              "biome": "terralith:yellowstone",
-              "parameters": {
-                "continentalness": [
-                  0.03,
-                  0.62
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  0.05
-                ],
-                "humidity": [
-                  -0.1,
-                  0.3
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.845,
-                  1.0
-                ],
-                "weirdness": [
-                  -0.4,
-                  0.4
                 ]
               }
             },
@@ -5828,7 +5258,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -5858,7 +5288,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -5888,7 +5318,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -5918,7 +5348,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -5948,7 +5378,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -5978,7 +5408,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -6008,37 +5438,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_maple_forest",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -0.78,
-                  -0.375
-                ],
-                "humidity": [
-                  -0.585,
-                  -0.35
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.55,
-                  0.845
-                ],
-                "weirdness": [
-                  -0.4,
-                  -0.26666668
-                ]
-              }
-            },
-            {
-              "biome": "terralith:snowy_shield",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -6128,7 +5528,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -6158,7 +5558,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -6184,36 +5584,6 @@
                 "weirdness": [
                   -0.4,
                   -0.05
-                ]
-              }
-            },
-            {
-              "biome": "terralith:yellowstone",
-              "parameters": {
-                "continentalness": [
-                  0.62,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.2225
-                ],
-                "humidity": [
-                  -0.1,
-                  0.3
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.845,
-                  1.0
-                ],
-                "weirdness": [
-                  -0.4,
-                  0.4
                 ]
               }
             },
@@ -6248,7 +5618,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -6338,7 +5708,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -6458,7 +5828,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -6488,7 +5858,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -6518,7 +5888,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -6548,7 +5918,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -6608,37 +5978,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_maple_forest",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.78
-                ],
-                "humidity": [
-                  -0.585,
-                  -0.35
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.55,
-                  0.845
-                ],
-                "weirdness": [
-                  -0.26666668,
-                  -0.19
-                ]
-              }
-            },
-            {
-              "biome": "terralith:snowy_shield",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -6878,7 +6218,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -6908,7 +6248,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -6938,7 +6278,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -6998,37 +6338,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_maple_forest",
-              "parameters": {
-                "continentalness": [
-                  0.62,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.78
-                ],
-                "humidity": [
-                  -0.585,
-                  -0.35
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.55,
-                  0.845
-                ],
-                "weirdness": [
-                  -0.19,
-                  -0.05
-                ]
-              }
-            },
-            {
-              "biome": "terralith:snowy_shield",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -7208,7 +6518,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -7238,7 +6548,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -7268,7 +6578,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -7298,7 +6608,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -7388,7 +6698,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -7448,7 +6758,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -7478,7 +6788,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_lowlands",
+              "biome": "the_winter_rescue:nature/ironwinter_hollow",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -7568,7 +6878,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_lowlands",
+              "biome": "the_winter_rescue:nature/ironwinter_hollow",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -7598,7 +6908,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -7628,7 +6938,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -7658,7 +6968,7 @@
               }
             },
             {
-              "biome": "terralith:frozen_cliffs",
+              "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -7688,7 +6998,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -7778,7 +7088,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -7928,7 +7238,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -7958,7 +7268,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -7988,7 +7298,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -8018,7 +7328,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -8168,7 +7478,7 @@
               }
             },
             {
-              "biome": "terralith:ice_marsh",
+              "biome": "the_winter_rescue:nature/destroyed_marsh",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -8198,7 +7508,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -8228,7 +7538,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -8258,7 +7568,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -8288,7 +7598,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -8408,7 +7718,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -8498,7 +7808,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -8528,7 +7838,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -8558,7 +7868,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -8618,7 +7928,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_lowlands",
+              "biome": "the_winter_rescue:nature/ironwinter_hollow",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -8678,7 +7988,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_lowlands",
+              "biome": "the_winter_rescue:nature/ironwinter_hollow",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -8708,7 +8018,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -8738,7 +8048,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -8978,7 +8288,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -9008,7 +8318,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -9068,7 +8378,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -9098,7 +8408,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -9128,7 +8438,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -9188,37 +8498,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_maple_forest",
-              "parameters": {
-                "continentalness": [
-                  0.62,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.78
-                ],
-                "humidity": [
-                  -0.585,
-                  -0.35
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.55,
-                  0.845
-                ],
-                "weirdness": [
-                  0.05,
-                  0.26666668
-                ]
-              }
-            },
-            {
-              "biome": "terralith:snowy_shield",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -9248,7 +8528,7 @@
               }
             },
             {
-              "biome": "terralith:siberian_grove",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -9398,7 +8678,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   0.62,
@@ -9458,7 +8738,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -9488,7 +8768,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -9518,7 +8798,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -9578,37 +8858,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_maple_forest",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.78
-                ],
-                "humidity": [
-                  -0.585,
-                  -0.35
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.55,
-                  0.845
-                ],
-                "weirdness": [
-                  0.19,
-                  0.26666668
-                ]
-              }
-            },
-            {
-              "biome": "terralith:snowy_shield",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -9638,7 +8888,7 @@
               }
             },
             {
-              "biome": "terralith:siberian_grove",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -9908,7 +9158,7 @@
               }
             },
             {
-              "biome": "terralith:ice_marsh",
+              "biome": "the_winter_rescue:nature/destroyed_marsh",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -9938,7 +9188,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -9968,7 +9218,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -9998,7 +9248,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -10028,7 +9278,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -10088,7 +9338,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -10118,7 +9368,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -10148,7 +9398,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -10238,7 +9488,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -10268,7 +9518,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -10298,7 +9548,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -10358,7 +9608,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -10418,37 +9668,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_maple_forest",
-              "parameters": {
-                "continentalness": [
-                  -0.11,
-                  0.3
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.78
-                ],
-                "humidity": [
-                  -0.585,
-                  -0.35
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.55,
-                  0.845
-                ],
-                "weirdness": [
-                  0.26666668,
-                  0.4
-                ]
-              }
-            },
-            {
-              "biome": "terralith:snowy_shield",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -10478,7 +9698,7 @@
               }
             },
             {
-              "biome": "terralith:siberian_grove",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -10628,7 +9848,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -10868,7 +10088,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -10898,7 +10118,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -10928,7 +10148,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -10958,7 +10178,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -10988,7 +10208,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -11108,7 +10328,7 @@
               }
             },
             {
-              "biome": "terralith:ice_marsh",
+              "biome": "the_winter_rescue:nature/destroyed_marsh",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -11138,7 +10358,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -11168,7 +10388,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -11198,7 +10418,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -11228,7 +10448,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -11288,7 +10508,7 @@
               }
             },
             {
-              "biome": "terralith:ice_marsh",
+              "biome": "the_winter_rescue:nature/destroyed_marsh",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -11378,7 +10598,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -11438,7 +10658,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -11468,7 +10688,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -11588,7 +10808,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -11618,7 +10838,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -11708,7 +10928,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -11768,7 +10988,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -11798,7 +11018,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -11858,7 +11078,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -11888,7 +11108,7 @@
               }
             },
             {
-              "biome": "terralith:alpine_grove",
+              "biome": "the_winter_rescue:nature/scree_pine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -11948,37 +11168,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_maple_forest",
-              "parameters": {
-                "continentalness": [
-                  0.03,
-                  0.3
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -0.78,
-                  -0.375
-                ],
-                "humidity": [
-                  -0.585,
-                  -0.35
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.55,
-                  0.845
-                ],
-                "weirdness": [
-                  0.4,
-                  0.56666666
-                ]
-              }
-            },
-            {
-              "biome": "terralith:snowy_shield",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -12008,7 +11198,7 @@
               }
             },
             {
-              "biome": "terralith:siberian_grove",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -12158,7 +11348,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -12188,7 +11378,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -12278,7 +11468,7 @@
               }
             },
             {
-              "biome": "terralith:frozen_cliffs",
+              "biome": "minecraft:snowy_slopes",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -12398,7 +11588,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -12428,7 +11618,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -12518,7 +11708,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -12638,7 +11828,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -12668,7 +11858,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -12728,7 +11918,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -12758,7 +11948,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -12848,7 +12038,7 @@
               }
             },
             {
-              "biome": "terralith:snowy_badlands",
+              "biome": "minecraft:badlands",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -12878,7 +12068,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -12908,7 +12098,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   -0.2,
@@ -13028,7 +12218,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -13058,7 +12248,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -13178,37 +12368,7 @@
               }
             },
             {
-              "biome": "terralith:caldera",
-              "parameters": {
-                "continentalness": [
-                  -0.11,
-                  0.03
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.375
-                ],
-                "humidity": [
-                  -0.585,
-                  0.3
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.2,
-                  1.0
-                ],
-                "weirdness": [
-                  0.7666667,
-                  1
-                ]
-              }
-            },
-            {
-              "biome": "terralith:siberian_grove",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   -0.11,
@@ -13358,7 +12518,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -13388,7 +12548,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -13508,37 +12668,7 @@
               }
             },
             {
-              "biome": "terralith:caldera",
-              "parameters": {
-                "continentalness": [
-                  0.03,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -0.78,
-                  -0.375
-                ],
-                "humidity": [
-                  -0.585,
-                  0.3
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.2,
-                  1.0
-                ],
-                "weirdness": [
-                  0.7666667,
-                  1
-                ]
-              }
-            },
-            {
-              "biome": "terralith:siberian_grove",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -13628,7 +12758,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -13658,7 +12788,7 @@
               }
             },
             {
-              "biome": "terralith:rocky_mountains",
+              "biome": "the_winter_rescue:nature/slabback_massif",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -13808,7 +12938,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -13838,7 +12968,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -13958,37 +13088,7 @@
               }
             },
             {
-              "biome": "terralith:caldera",
-              "parameters": {
-                "continentalness": [
-                  0.03,
-                  1
-                ],
-                "depth": [
-                  -0.005,
-                  0
-                ],
-                "erosion": [
-                  -1,
-                  -0.375
-                ],
-                "humidity": [
-                  -0.585,
-                  0.3
-                ],
-                "offset": 0,
-                "temperature": [
-                  0.2,
-                  1.0
-                ],
-                "weirdness": [
-                  0.93333334,
-                  1
-                ]
-              }
-            },
-            {
-              "biome": "terralith:siberian_grove",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.03,
@@ -14138,7 +13238,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -14168,7 +13268,7 @@
               }
             },
             {
-              "biome": "terralith:wintry_forest",
+              "biome": "the_winter_rescue:nature/frostpine_grove",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -14198,7 +13298,7 @@
               }
             },
             {
-              "biome": "terralith:cold_shrubland",
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -14258,7 +13358,7 @@
               }
             },
             {
-              "biome": "terralith:cave/deep_caves",
+              "biome": "the_winter_rescue:darkfang_caves",
               "parameters": {
                 "continentalness": [
                   -1.2,
@@ -14348,37 +13448,7 @@
               }
             },
             {
-              "biome": "terralith:cave/underground_jungle",
-              "parameters": {
-                "continentalness": [
-                  -1,
-                  1
-                ],
-                "depth": [
-                  0.225,
-                  0.95
-                ],
-                "erosion": [
-                  -1,
-                  1
-                ],
-                "humidity": [
-                  0.6,
-                  1
-                ],
-                "offset": 0.035,
-                "temperature": [
-                  0.55,
-                  1.0
-                ],
-                "weirdness": [
-                  -0.5,
-                  1
-                ]
-              }
-            },
-            {
-              "biome": "terralith:cave/thermal_caves",
+              "biome": "the_winter_rescue:crust_chasms",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -14408,7 +13478,7 @@
               }
             },
             {
-              "biome": "terralith:cave/infested_caves",
+              "biome": "minecraft:dripstone_caves",
               "parameters": {
                 "continentalness": [
                   0.05,
@@ -14438,67 +13508,7 @@
               }
             },
             {
-              "biome": "terralith:cave/fungal_caves",
-              "parameters": {
-                "continentalness": [
-                  0.15,
-                  0.725
-                ],
-                "depth": [
-                  0.225,
-                  0.9
-                ],
-                "erosion": [
-                  -0.6,
-                  0.7
-                ],
-                "humidity": [
-                  -1,
-                  -0.7
-                ],
-                "offset": 0.065,
-                "temperature": [
-                  -0.45,
-                  1.0
-                ],
-                "weirdness": [
-                  -1,
-                  1
-                ]
-              }
-            },
-            {
-              "biome": "terralith:cave/granite_caves",
-              "parameters": {
-                "continentalness": [
-                  0.25,
-                  0.625
-                ],
-                "depth": [
-                  0.15,
-                  0.6
-                ],
-                "erosion": [
-                  -1,
-                  0.25
-                ],
-                "humidity": [
-                  -1,
-                  1
-                ],
-                "offset": 0.225,
-                "temperature": [
-                  0.2,
-                  1.0
-                ],
-                "weirdness": [
-                  0,
-                  1
-                ]
-              }
-            },
-            {
-              "biome": "terralith:cave/andesite_caves",
+              "biome": "the_winter_rescue:andesite_caves",
               "parameters": {
                 "continentalness": [
                   0.3,
@@ -14528,37 +13538,7 @@
               }
             },
             {
-              "biome": "terralith:cave/tuff_caves",
-              "parameters": {
-                "continentalness": [
-                  0.3,
-                  0.8
-                ],
-                "depth": [
-                  0.8,
-                  1.2
-                ],
-                "erosion": [
-                  -0.2,
-                  0.2
-                ],
-                "humidity": [
-                  -0.4,
-                  0
-                ],
-                "offset": 0.2,
-                "temperature": [
-                  0.35,
-                  1.0
-                ],
-                "weirdness": [
-                  -1,
-                  1
-                ]
-              }
-            },
-            {
-              "biome": "terralith:cave/frostfire_caves",
+              "biome": "the_winter_rescue:crust_chasms",
               "parameters": {
                 "continentalness": [
                   -1,
@@ -14588,7 +13568,7 @@
               }
             },
             {
-              "biome": "terralith:cave/mantle_caves",
+              "biome": "the_winter_rescue:mycelium_caves",
               "parameters": {
                 "continentalness": [
                   -1,

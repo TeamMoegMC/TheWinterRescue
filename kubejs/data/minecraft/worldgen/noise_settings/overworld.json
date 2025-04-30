@@ -319,7 +319,7 @@
                       "if_true": {
                         "type": "minecraft:biome",
                         "biome_is": [
-                          "terralith:glacial_chasm",
+                          "the_winter_rescue:nature/glacier",
                           "terralith:frozen_cliffs",
                           "minecraft:frozen_ocean"
                         ]
@@ -621,7 +621,7 @@
               "if_true": {
                 "type": "minecraft:biome",
                 "biome_is": [
-                  "terralith:rocky_mountains"
+                  "the_winter_rescue:nature/slabback_massif"
                 ]
               },
               "then_run": {
@@ -2461,7 +2461,7 @@
                           "if_true": {
                             "type": "minecraft:biome",
                             "biome_is": [
-                              "terralith:ice_marsh"
+                              "the_winter_rescue:nature/destroyed_marsh"
                             ]
                           },
                           "then_run": {
@@ -2831,7 +2831,7 @@
                         "invert": {
                           "type": "minecraft:biome",
                           "biome_is": [
-                            "terralith:ice_marsh",
+                            "the_winter_rescue:nature/destroyed_marsh",
                             "terralith:cold_shrubland",
                             "terralith:rocky_shrubland"
                           ]
@@ -3212,7 +3212,7 @@
                         "type": "minecraft:biome",
                         "biome_is": [
                           "minecraft:mangrove_swamp",
-                          "terralith:ice_marsh",
+                          "the_winter_rescue:nature/destroyed_marsh",
                           "minecraft:swamp"
                         ]
                       },

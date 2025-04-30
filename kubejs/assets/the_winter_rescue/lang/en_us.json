@@ -10,5 +10,22 @@
   "biome.the_winter_rescue.fossil_deposits": "Fossil Deposits",
   "biome.the_winter_rescue.brine_deposits": "Brine Deposits",
   "biome.the_winter_rescue.destroyed_forest": "Destroyed Forest",
-  "biome.the_winter_rescue.frozen_forest": "Frozen Forest"
+  "biome.the_winter_rescue.frozen_forest": "Frozen Forest",
+
+  "biome.the_winter_rescue.nature/destroyed_birch_forest": "Destroyed Birch Forest",
+  "biome.the_winter_rescue.nature/destroyed_marsh": "Destroyed Marsh",
+  "biome.the_winter_rescue.nature/frostbough_forest": "Frostbough Forest",
+  "biome.the_winter_rescue.nature/frostpine_grove": "Frostpine Grove",
+  "biome.the_winter_rescue.nature/glacier": "Glacier",
+  "biome.the_winter_rescue.nature/ironwinter_hollow": "Ironwinter Hollow",
+
+  "biome.the_winter_rescue.nature/scree_pine_grove": "Scree Pine Grove",
+  "biome.the_winter_rescue.nature/slabback_massif": "Slabback Massif",
+  "biome.the_winter_rescue.andesite_caves": "Andesite Caves",
+  "biome.the_winter_rescue.crust_chasms": "Crust Chasms",
+  "biome.the_winter_rescue.darkfang_caves": "Darkfang Caves",
+  "biome.the_winter_rescue.diorite_caves": "Diorite Caves",
+  "biome.the_winter_rescue.ice_caves": "Ice Caves",
+  "biome.the_winter_rescue.mycelium_caves": "Mycelium Caves"
 }
+

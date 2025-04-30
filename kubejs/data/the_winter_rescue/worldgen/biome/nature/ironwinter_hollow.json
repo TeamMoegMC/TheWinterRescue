@@ -2,39 +2,36 @@
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:cave_extra_underground",
       "minecraft:canyon"
     ]
   },
   "downfall": 0.4,
   "effects": {
-    "fog_color": 12638463,
+    "fog_color": 14145761,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.dripstone_caves"
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.0001
     },
-    "sky_color": 7907327,
-    "water_color": 4159204,
+    "sky_color": 10858685,
+    "water_color": 3750089,
     "water_fog_color": 329011
   },
   "features": [
-    [
-    ],
+    [],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:large_dripstone"
+      "minecraft:amethyst_geode"
     ],
     [
       "minecraft:monster_room",
@@ -63,28 +60,28 @@
       "minecraft:ore_redstone_lower",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper_large",
+      "minecraft:ore_copper",
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    [
-      "minecraft:dripstone_cluster",
-      "minecraft:pointed_dripstone"
-    ],
+    [],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
+      "the_winter_rescue:nature/giant_pine",
       "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:trees_plains",
-      "minecraft:flower_plains",
-      "minecraft:patch_grass_plain",
+      "minecraft:patch_large_fern",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_taiga_2",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga",
       "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal"
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_berry_common"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -102,15 +99,53 @@
       }
     ],
     "axolotls": [],
-    "creature": [],
+    "creature": [
+      {
+        "type": "minecraft:wolf",
+        "maxCount": 8,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:rabbit",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 4
+      },
+      {
+        "type": "minecraft:fox",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "stone_age:mouflon",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "stone_age:fowl",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "stone_age:auroch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "stone_age:mammoth",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      }
+    ],
     "misc": [],
     "monster": [
-      {
-        "type": "minecraft:slime",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 20
-      }
+
     ],
     "underground_water_creature": [
       {
@@ -123,5 +158,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.8
+  "temperature": -0.5
 }
