@@ -32,7 +32,7 @@ ServerEvents.tags("item", (event) => {
     //event.add("forge:hammers", "tetra:modular_double")
     event.add("forge:swords", "tetra:modular_sword")
     //event.add("minecraft:axes", "tetra:modular_double")
-    //event.add("minecraft:swords", "tetra:modular_sword")
+    event.add("minecraft:swords", "tetra:modular_sword")
     event.add("minecraft:shulker_box", "minecraft:shulker_box")
     event.add("forge:string", "stone_age:grass_lead")
     event.add("forge:string", "stone_age:leather_strip")
