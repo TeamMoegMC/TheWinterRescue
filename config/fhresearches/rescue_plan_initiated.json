@@ -1,5 +1,5 @@
 {
-  "infinite": true,
+  "infinite": false,
   "points": 1000,
   "insight": 1,
   "name": "@",
