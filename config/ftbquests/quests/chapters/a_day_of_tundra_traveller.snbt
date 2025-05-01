@@ -24,7 +24,7 @@
 			}]
 			subtitle: "{quest.twr.58037578505CB417.subtitle}"
 			tasks: [{
-				biome: "terralith:glacial_chasm"
+				biome: "the_winter_rescue:nature/glacier"
 				icon: "frostedheart:firm_ice"
 				id: "2662DFB12882A3A0"
 				title: "{quest.twr.58037578505CB417.2662DFB12882A3A0.title}"
@@ -34,8 +34,11 @@
 			y: 1.0d
 		}
 		{
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: "minecraft:blackstone"
 			id: "2246C8C7B6F953D7"
+			invisible: true
 			rewards: [{
 				id: "77CD7346CBC3833E"
 				insight: 15
@@ -43,7 +46,7 @@
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
-				biome: "#terralith:volcanic"
+				biome: "minecraft:desert"
 				id: "474E699BA92ED024"
 				title: "{quest.twr.2246C8C7B6F953D7.474E699BA92ED024.title}"
 				type: "biome"
@@ -93,14 +96,17 @@
 			y: 0.0d
 		}
 		{
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "607CE973121B4CD4"
+			invisible: true
 			rewards: [{
 				id: "4261C5468D42F343"
 				insight: 20
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
-				biome: "terralith:yellowstone"
+				biome: "minecraft:desert"
 				icon: "minecraft:calcite"
 				id: "2F87CF71B488E33B"
 				title: "{quest.twr.607CE973121B4CD4.2F87CF71B488E33B.title}"

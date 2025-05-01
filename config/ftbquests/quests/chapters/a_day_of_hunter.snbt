@@ -50,10 +50,7 @@
 			tasks: [{
 				count: 64L
 				id: "676CDB17C0670948"
-				item: {
-					Count: 64
-					id: "minecraft:porkchop"
-				}
+				item: { Count: 64, id: "minecraft:porkchop" }
 				type: "item"
 			}]
 			title: "{quest.twr.7AC1F59A495B58AE.title}"
@@ -585,10 +582,7 @@
 			tasks: [{
 				count: 64L
 				id: "1FE2BF0A9762F1EE"
-				item: {
-					Count: 64
-					id: "minecraft:rabbit_hide"
-				}
+				item: { Count: 64, id: "minecraft:rabbit_hide" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -620,10 +614,7 @@
 			tasks: [{
 				count: 64L
 				id: "0C722EA7533407C9"
-				item: {
-					Count: 64
-					id: "minecraft:cod"
-				}
+				item: { Count: 64, id: "minecraft:cod" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -716,10 +707,7 @@
 			tasks: [{
 				count: 64L
 				id: "414A38C6A4636B0A"
-				item: {
-					Count: 64
-					id: "minecraft:salmon"
-				}
+				item: { Count: 64, id: "minecraft:salmon" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -728,7 +716,7 @@
 		{
 			id: "094F870E989AC695"
 			tasks: [{
-				biome: "terralith:wintry_lowlands"
+				biome: "the_winter_rescue:nature/ironwinter_hollow"
 				icon: "minecraft:tall_grass"
 				id: "25E85A56D51FDEA8"
 				title: "{quest.twr.094F870E989AC695.25E85A56D51FDEA8.title}"
@@ -740,7 +728,7 @@
 		{
 			id: "552923CB41F94030"
 			tasks: [{
-				biome: "terralith:wintry_forest"
+				biome: "the_winter_rescue:nature/frostbough_forest"
 				icon: "minecraft:spruce_sapling"
 				id: "65BDCEDC95B7C33F"
 				title: "{quest.twr.552923CB41F94030.65BDCEDC95B7C33F.title}"
@@ -752,7 +740,7 @@
 		{
 			id: "3B445CDF4C5B7E1D"
 			tasks: [{
-				biome: "#terralith:shrublands"
+				biome: "the_winter_rescue:nature/snowy_shrubland"
 				id: "5CB3E37CDA37F7B0"
 				title: "{quest.twr.3B445CDF4C5B7E1D.5CB3E37CDA37F7B0.title}"
 				type: "biome"
@@ -805,10 +793,7 @@
 			tasks: [{
 				count: 64L
 				id: "025ECE6A322AC21E"
-				item: {
-					Count: 64
-					id: "frostedheart:wolf_hide"
-				}
+				item: { Count: 64, id: "frostedheart:wolf_hide" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -824,10 +809,7 @@
 			tasks: [{
 				count: 64L
 				id: "0403C8CFE2928B3E"
-				item: {
-					Count: 64
-					id: "frostedheart:polar_bear_hide"
-				}
+				item: { Count: 64, id: "frostedheart:polar_bear_hide" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -881,10 +863,7 @@
 			tasks: [{
 				count: 64L
 				id: "4E6B7247876C701A"
-				item: {
-					Count: 64
-					id: "frostedheart:squid_tentacles"
-				}
+				item: { Count: 64, id: "frostedheart:squid_tentacles" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -900,7 +879,7 @@
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
-				biome: "terralith:ice_marsh"
+				biome: "the_winter_rescue:nature/destroyed_marsh"
 				id: "25942AC76A1CD6CC"
 				title: "{quest.twr.2A4064FDA5B753D6.25942AC76A1CD6CC.title}"
 				type: "biome"

@@ -192,27 +192,11 @@
 			}]
 			shape: "gear"
 			subtitle: "{quest.twr.3C4CEEBFF8DCF448.subtitle}"
-			tasks: [
-				{
-					id: "0F08400AFE76BD5F"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:ingots/tin"
-						}
-					}
-					optional_task: true
-					title: "{quest.twr.3C4CEEBFF8DCF448.0F08400AFE76BD5F.title}"
-					type: "item"
-				}
-				{
-					id: "5F3FB00868F9E566"
-					item: "frostedheart:raw_tin"
-					optional_task: true
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5F3FB00868F9E566"
+				item: "frostedheart:raw_tin"
+				type: "item"
+			}]
 			title: "{quest.twr.3C4CEEBFF8DCF448.title}"
 			x: -2.5d
 			y: 4.5d
@@ -447,7 +431,11 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["5287CFB7B7D5285E"]
+			dependencies: [
+				"5287CFB7B7D5285E"
+				"13AA30FB9CD620EB"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"{quest.twr.1C8171C8FD1D0CD5.description.1}"
 				"{quest.twr.1C8171C8FD1D0CD5.description.2}"
@@ -510,8 +498,8 @@
 				item: "minecraft:iron_door"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.0d
+			x: 3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4625CA3FEAF6908B"]
@@ -536,8 +524,8 @@
 				item: "charcoal_pit:sandy_collector"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.0d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4543F3B5F937E6B0"]
@@ -560,7 +548,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: -2.5d
 			y: -4.0d
 		}
 		{
@@ -1214,7 +1202,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["4543F3B5F937E6B0"]
+			dependencies: ["4625CA3FEAF6908B"]
 			description: ["{quest.twr.5287CFB7B7D5285E.description.1}"]
 			hide_until_deps_visible: false
 			icon: "immersiveengineering:coke_oven"
@@ -1249,8 +1237,8 @@
 				item: "immersiveengineering:cokebrick"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.0d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5287CFB7B7D5285E"]
@@ -1267,8 +1255,8 @@
 				item: "frostedheart:oil_burner"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -6.5d
+			x: 3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["03A553EBD453466A"]
@@ -1331,15 +1319,19 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["5287CFB7B7D5285E"]
+			dependencies: [
+				"5287CFB7B7D5285E"
+				"13AA30FB9CD620EB"
+			]
+			dependency_requirement: "one_completed"
 			id: "5C57540290D9D349"
 			tasks: [{
 				id: "47E8C20400811EFF"
 				item: "minecraft:chest"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.5d
+			x: 3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["13D9DE54DF8117C2"]

@@ -28,7 +28,7 @@ ServerEvents.tags("item", (event) => {
     event.add("itemfilters:check_nbt", "tetra:modular_double")
     event.add("frostedheart:cow_feed", "charcoal_pit:straw")
     event.add("kubejs:coal_dust", "kubejs:coal_dust")
-    event.add("kubejs:tetra_hammer", "forge:hammers")
+    event.add("kubejs:tetra_hammer", "tetra:modular_double")
     //event.add("forge:hammers", "tetra:modular_double")
     event.add("forge:swords", "tetra:modular_sword")
     //event.add("minecraft:axes", "tetra:modular_double")

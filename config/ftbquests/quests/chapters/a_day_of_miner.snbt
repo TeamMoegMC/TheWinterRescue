@@ -863,7 +863,7 @@
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
-				biome: "terralith:snowy_badlands"
+				biome: "minecraft:badlands"
 				icon: "minecraft:terracotta"
 				id: "413E56AFBAC196FD"
 				title: "{quest.twr.3F9BFC660C5B817F.413E56AFBAC196FD.title}"
@@ -880,7 +880,7 @@
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
-				biome: "terralith:cave/mantle_caves"
+				biome: "the_winter_rescue:crust_chasms"
 				icon: "minecraft:lava_bucket"
 				id: "6C0622F1F1FB8498"
 				title: "{quest.twr.773FD399C0748380.6C0622F1F1FB8498.title}"
