@@ -76,7 +76,8 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "minecraft:lush_caves_ceiling_vegetation"
     ],
     [
       "minecraft:freeze_top_layer"

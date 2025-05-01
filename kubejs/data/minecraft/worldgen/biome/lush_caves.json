@@ -27,9 +27,6 @@
   },
   "features": [
     [
-      "terralith:cave/fuck_art_just_need_performance/split/diorite",
-      "terralith:cave/fuck_art_just_need_performance/split/andesite",
-      "terralith:cave/fuck_art_just_need_performance/split/granite"
     ],
     [
       "minecraft:lake_lava_underground",
@@ -73,17 +70,12 @@
       "minecraft:disk_gravel"
     ],
     [
-      "terralith:cave/stone/granite_roots",
-      "terralith:cave/stone/andesite_boulders",
-      "terralith:cave/stone/diorite_clearing"
     ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
-      "terralith:cave/generic/noise_reducer",
-      "terralith:cave/generic/noise_reducer_small",
       "minecraft:glow_lichen",
       "minecraft:patch_tall_grass_2",
       "minecraft:lush_caves_ceiling_vegetation",

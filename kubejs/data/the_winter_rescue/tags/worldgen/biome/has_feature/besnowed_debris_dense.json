@@ -1,11 +1,9 @@
 {
   "replace": false,
   "values": [
-    "terralith:cold_shrubland",
-    "terralith:glacial_chasm",
-    "terralith:gravel_desert",
-    "terralith:rocky_mountains",
-    "terralith:rocky_shrubland",
+    "the_winter_rescue:nature/glacier",
+    "the_winter_rescue:nature/slabback_massif",
+    "the_winter_rescue:nature/snowy_shrubland",
     "minecraft:jagged_peaks"
   ]
 }

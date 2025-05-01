@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "terralith:siberian_grove",
-    "terralith:alpine_grove",
-    "terralith:snowy_maple_forest",
-    "terralith:snowy_shield",
-    "terralith:wintry_forest"
+    "the_winter_rescue:nature/frostbough_forest",
+    "the_winter_rescue:nature/ironwinter_hollow",
+    "the_winter_rescue:nature/snowy_shrubland",
+    "the_winter_rescue:nature/frostpine_grove",
+    "the_winter_rescue:nature/scree_pine_grove"
   ]
 }

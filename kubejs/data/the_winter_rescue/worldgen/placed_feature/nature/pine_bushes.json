@@ -27,10 +27,15 @@
             "type": "minecraft:replaceable"
           },
           {
-            "type": "minecraft:would_survive",
-            "state": {
-              "Name": "minecraft:fern"
-            }
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:snow_block"
+            ],
+            "offset": [
+              0,
+              -1,
+              0
+            ]
           }
         ]
       }

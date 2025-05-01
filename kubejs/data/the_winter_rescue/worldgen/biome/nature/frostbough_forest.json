@@ -72,17 +72,14 @@
       "minecraft:spring_lava"
     ],
     [
-      "terralith:snowy/trees_center",
-      "terralith:snowy/trees_giant",
-      "terralith:snowy/trees_edge",
-      "terralith:snowy/trees_outer",
+      "the_winter_rescue:nature/giant_pine",
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
       "minecraft:flower_default",
       "minecraft:patch_grass_taiga_2",
       "minecraft:brown_mushroom_taiga",
-      "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_taiga",
+      "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_berry_common"
     ],
