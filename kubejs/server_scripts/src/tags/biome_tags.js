@@ -6,11 +6,13 @@ ServerEvents.tags("worldgen/biome", (event) => {
     "the_winter_rescue:magmatic_deposits"
     ])
     event.add("frostedheart:is_cave", [
-        "the_winter_rescue:andesite_caves",
-        "the_winter_rescue:darkfang_caves",
-        "the_winter_rescue:diorite_caves",
-        "the_winter_rescue:mycelium_caves",
-        "the_winter_rescue:ice_caves",
-        "the_winter_rescue:crust_chasms",
-        ])
+      "the_winter_rescue:andesite_caves",
+      "the_winter_rescue:darkfang_caves",
+      "the_winter_rescue:diorite_caves",
+      "the_winter_rescue:mycelium_caves",
+      "the_winter_rescue:ice_caves",
+      "the_winter_rescue:crust_chasms",
+      "minecraft:dripstone_caves",
+      "minecraft:lush_caves"
+    ])
 })
