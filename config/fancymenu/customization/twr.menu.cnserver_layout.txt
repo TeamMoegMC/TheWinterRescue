@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = twr.menu.cnserver
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1745662256396
+  last_edited_time = 1746075196274
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:cfbc1ac5-c39e-4a52-b1d6-5ebff24079bb-1745662056373] = [groups:][instances:]
+  [loading_requirement_container_meta:cf54da37-012e-48f6-9933-e147f298da4d-1746075167995] = [groups:][instances:]
 }
 
 customization {
@@ -28,45 +28,6 @@ scroll_list_customization {
 
 element {
   button_element_executable_block_identifier = bfb3626d-10a0-43b2-b3f6-7924faf55480-1745661558755
-  [executable_action_instance:d4d9a757-f3d6-46ac-9a78-74d5a28602c5-1745661817635][action_type:openlink] = https://moegcraft.teammoeg.com/
-  [executable_block:bfb3626d-10a0-43b2-b3f6-7924faf55480-1745661558755][type:generic] = [executables:d4d9a757-f3d6-46ac-9a78-74d5a28602c5-1745661817635;]
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  description = {"placeholder":"local","values":{"key":"mainmenu.twr.must_first_register_mec"}}
-  label = {"placeholder":"local","values":{"key":"mainmenu.twr.moegcraft_login"}}
-  navigatable = true
-  widget_active_state_requirement_container_identifier = 0acda5ba-7c0c-49ae-8acd-392e07f804b8-1745661558755
-  [loading_requirement_container_meta:0acda5ba-7c0c-49ae-8acd-392e07f804b8-1745661558755] = [groups:][instances:]
-  element_type = custom_button
-  instance_identifier = a17cfdd5-542b-40ca-8358-86e9d3aeb036-1745661558755
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in_v2 = no_fading
-  fade_in_speed = 1.0
-  fade_out = no_fading
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  auto_sizing = false
-  auto_sizing_base_screen_width = 3024
-  auto_sizing_base_screen_height = 1746
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -50
-  y = -35
-  width = 100
-  height = 20
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 5602bea9-b47d-44ef-a9b4-7f080da74983-1745661558755
-  [loading_requirement_container_meta:5602bea9-b47d-44ef-a9b4-7f080da74983-1745661558755] = [groups:][instances:]
-}
-
-element {
-  button_element_executable_block_identifier = bfb3626d-10a0-43b2-b3f6-7924faf55480-1745661558755
   [executable_action_instance:d4d9a757-f3d6-46ac-9a78-74d5a28602c5-1745661817635][action_type:openlink] = https://pd.qq.com/s/ejtpb6x1i
   [executable_block:bfb3626d-10a0-43b2-b3f6-7924faf55480-1745661558755][type:generic] = [executables:d4d9a757-f3d6-46ac-9a78-74d5a28602c5-1745661817635;]
   restartbackgroundanimations = true
@@ -74,8 +35,8 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  hoverlabel = QQ 群：894071469
-  label = {"placeholder":"local","values":{"key":"mainmenu.twr.moegcraft_pindao"}}
+  hoverlabel = QQ 群：895160122
+  label = 加入QQ频道下载自动更新客户端
   navigatable = true
   widget_active_state_requirement_container_identifier = 0acda5ba-7c0c-49ae-8acd-392e07f804b8-1745661558755
   [loading_requirement_container_meta:0acda5ba-7c0c-49ae-8acd-392e07f804b8-1745661558755] = [groups:][instances:]
@@ -89,18 +50,67 @@ element {
   fade_out_speed = 1.0
   base_opacity = 1.0
   auto_sizing = false
-  auto_sizing_base_screen_width = 3024
-  auto_sizing_base_screen_height = 1746
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 1950
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -50
-  y = 13
-  width = 100
+  x = -115
+  y = 27
+  width = 231
   height = 20
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
   element_loading_requirement_container_identifier = 5602bea9-b47d-44ef-a9b4-7f080da74983-1745661558755
   [loading_requirement_container_meta:5602bea9-b47d-44ef-a9b4-7f080da74983-1745661558755] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = 如果要加入中文官服，你必须采用最新的客户端才能进入。%n%我们在QQ频道提供了自动更新客户端，请您加入频道下载。%n%登陆服地址为：twr.teammoeg.com%n%备用地址为：43.248.187.61:15020
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 7dcf191f-a5aa-4c96-b356-cd84a9c015b1-1746074921731
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 1950
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = -117
+  y = -32
+  width = 271
+  height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = d2df6184-7ebe-4f0f-b862-b19831a8862b-1746074921730
+  [loading_requirement_container_meta:d2df6184-7ebe-4f0f-b862-b19831a8862b-1746074921730] = [groups:][instances:]
 }
 

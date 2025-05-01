@@ -11,9 +11,8 @@ mainmenu.twr.singleplayer.hover = Lone Journey
 mainmenu.twr.multiplayer = Multiplayer
 mainmenu.twr.multiplayer.hover = Crowded Trip
 mainmenu.twr.official_cn_server = Official Server (CN)
-mainmenu.twr.moegcraft_login = Register Moeg Account
-mainmenu.twr.moegcraft_pindao = Join QQ Channel
-mainmenu.twr.must_first_register_mec = You must first register before joining Official CN Server.
+mainmenu.twr.official_cn_server_tooltip = Can't get in Official Server (CN)? Get Latest Autoupdate Pack!
+mainmenu.twr.moegcraft_pindao = Join QQ Channel to Download Autoupdate Pack
 
 twr.update.title = Update Info
 twr.update.tooltip = Check if there is a new stable version you can update
