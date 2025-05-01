@@ -1409,6 +1409,15 @@ ServerEvents.recipes((event) => {
                 A: "#forge:raw_materials/peat",
                 B: "#forge:rods/wooden"
             }
+        ],
+        [
+            "supplementaries:rope", 2, [
+                "A",
+                "A",
+                "A"
+            ], {
+                A: "stone_age:grass_lead"
+            }
         ]
     ]
     addShapedRecipes.forEach((recipe, index) => {
