@@ -28,7 +28,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "blocks": "#c:ores",
+        "blocks": "#forge:ores",
         "offset": [
           0,
           0,
