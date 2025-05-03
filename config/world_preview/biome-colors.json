@@ -1,5 +1,5 @@
 {
-  "terralith:wintry_forest": {
+  "the_winter_rescue:frostbough_forest": {
     "r": 149,
     "g": 213,
     "b": 171,
@@ -11,13 +11,13 @@
     "b": 34,
     "cave": false
   },
-  "terralith:yellowstone": {
+  "the_winter_rescue:crust_chasms": {
     "r": 253,
     "g": 242,
     "b": 34,
-    "cave": false
+    "cave": true
   },
-  "terralith:alpine_grove": {
+  "the_winter_rescue:scree_pine_grove": {
     "r": 142,
     "g": 190,
     "b": 147,
@@ -29,7 +29,7 @@
     "b": 151,
     "cave": false
   },
-  "terralith:wintry_lowlands": {
+  "the_winter_rescue:ironwinter_hollow": {
     "r": 67,
     "g": 136,
     "b": 82,
