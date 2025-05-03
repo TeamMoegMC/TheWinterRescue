@@ -1,8 +1,8 @@
 {
   "replace": true,
   "values": [
-    "terralith:cave/mantle_caves",
-    "terralith:volcanic_crater",
-    "terralith:volcanic_peaks"
+    "the_winter_rescue:crust_chasms",
+    "the_winter_rescue:hydrothermal_deposits",
+    "the_winter_rescue:magmatic_caves"
   ]
 }
