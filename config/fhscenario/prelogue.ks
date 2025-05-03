@@ -334,7 +334,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @label name=clothing_tutorial
 @giveItem i=frostedheart:rabbit_fur_gloves c=2
 @p
-[NoWait]我：[EndNoWait]This pair of Rabbit Fur Gloves are the gift from my best friend before I leave.[l]
+[NoWait]Me：[EndNoWait]This pair of Rabbit Fur Gloves are the gift from my best friend before I leave.[l]
 @r
 （Press [TAB] to open Wheel Menu, select View Clothing, and place Rabbit Fur Gloves on both hands.）
 @r
@@ -352,9 +352,9 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @giveItem i=minecraft:iron_shovel
 @giveItem i=frostedheart:magnesium_nugget c=3
 @p
-[NoWait]我：[EndNoWait]This piece of Fire Shovel has been in the corner for a while. Time to take it.[l]
+[NoWait]Me：[EndNoWait]This piece of Fire Shovel has been in the corner for a while. Time to take it.[l]
 @r
-[NoWait]我：[EndNoWait]Here are also few Magnesium Nuggets, useful for making a fire.[l]
+[NoWait]Me：[EndNoWait]Here are also few Magnesium Nuggets, useful for making a fire.[l]
 @r
 （Shovels can uncover Besnowed Twigs and Debris.）
 @r
