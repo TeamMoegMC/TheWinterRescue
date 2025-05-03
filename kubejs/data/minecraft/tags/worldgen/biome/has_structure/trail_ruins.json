@@ -1,8 +1,11 @@
 {
   "replace": false,
   "values": [
-    "terralith:siberian_taiga",
-    "terralith:snowy_maple_forest",
-    "terralith:snowy_shield"
+    "the_winter_rescue:nature/frostbough_forest",
+    "the_winter_rescue:nature/ironwinter_hollow",
+    "the_winter_rescue:nature/frostpine_grove",
+    "the_winter_rescue:nature/scree_pine_grove",
+    "the_winter_rescue:destroyed_forest",
+    "the_winter_rescue:fossil_deposits"
   ]
 }

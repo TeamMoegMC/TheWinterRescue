@@ -1,15 +1,5 @@
 {
   "values": [
-    "terralith:alpine_grove",
-    "terralith:frozen_cliffs",
-    "terralith:glacial_chasm",
-    "terralith:gravel_desert",
-    "terralith:ice_marsh",
-    "terralith:scarlet_mountains",
-    "terralith:snowy_badlands",
-    "terralith:snowy_maple_forest",
-    "terralith:snowy_shield",
-    "terralith:wintry_forest",
-    "terralith:wintry_lowlands"
+    "#the_winter_rescue:cold"
   ]
 }

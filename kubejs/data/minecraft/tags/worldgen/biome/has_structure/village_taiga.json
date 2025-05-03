@@ -1,13 +1,16 @@
 {
   "replace": false,
   "values": [
-    "terralith:ice_marsh",
-    "terralith:cold_shrubland",
-    "terralith:rocky_shrubland",
     "minecraft:snowy_taiga",
-    "terralith:siberian_taiga",
-    "terralith:wintry_forest",
-    "terralith:wintry_lowlands",
-    "terralith:yellowstone"
+    "the_winter_rescue:magmatic_caves",
+    "the_winter_rescue:hydrothermal_deposits",
+    "the_winter_rescue:mycelium_caves",
+    "the_winter_rescue:crust_chasms",
+    "the_winter_rescue:nature/destroyed_marsh",
+    "the_winter_rescue:nature/frostbough_forest",
+    "the_winter_rescue:nature/ironwinter_hollow",
+    "the_winter_rescue:nature/snowy_shrubland",
+    "the_winter_rescue:nature/frostpine_grove",
+    "the_winter_rescue:nature/scree_pine_grove"
   ]
 }

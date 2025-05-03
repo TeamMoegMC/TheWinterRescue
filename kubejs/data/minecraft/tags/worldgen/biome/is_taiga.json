@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "terralith:yellowstone",
-    "terralith:wintry_forest"
+    "the_winter_rescue:nature/frostbough_forest",
+    "the_winter_rescue:nature/ironwinter_hollow"
   ]
 }
