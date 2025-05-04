@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#the_winter_rescue:underground",
+  "biomes": "#minecraft:is_overworld",
   "features": "the_winter_rescue:calcite_limestone",
   "step": "underground_ores"
 }

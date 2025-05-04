@@ -59,14 +59,7 @@
 			tasks: [
 				{
 					id: "4688BFABED29007D"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "snowyspirit:sleds"
-						}
-					}
-					title: "{quest.twr.51F68FAFCFA3A06D.4688BFABED29007D.title}"
+					item: "frostedheart:sled"
 					type: "item"
 				}
 				{
