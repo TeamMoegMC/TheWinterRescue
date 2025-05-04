@@ -36,6 +36,16 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
+            "frostedheart:sled", [
+            "A  ",
+            "AAA",
+            "BBB"
+        ], {
+            A: "#forge:treated_wood",
+            B: "#forge:rods/treated_wood"
+        }
+        ],
+        [
             "stone_age:dried_grass_bed", [
             "  B",
             "BBB",
