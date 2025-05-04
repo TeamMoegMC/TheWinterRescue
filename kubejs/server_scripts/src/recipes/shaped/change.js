@@ -316,7 +316,7 @@ ServerEvents.recipes((event) => {
             "CAC",
             "ABA"
         ], {
-            A: "minecraft:brick",
+            A: "charcoal_pit:sandy_brick_item",
             B: "frostedheart:mortar",
             C: "#twr:plates/structural"
         }
