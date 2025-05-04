@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "the_winter_rescue:taiga/tall/spruce_tall",
+    "features": [
+      {
+        "chance": 0.01,
+        "feature": "the_winter_rescue:taiga/tall/pine_tall"
+      },
+      {
+        "chance": 0.75,
+        "feature": "the_winter_rescue:taiga/tall/spruce_tall_m"
+      }
+    ]
+  }
+}

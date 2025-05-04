@@ -79,7 +79,10 @@
       "minecraft:glow_lichen"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "the_winter_rescue:snowy/layer/first",
+      "the_winter_rescue:snowy/layer/second",
+      "the_winter_rescue:snowy/layer/third"
     ]
   ],
   "has_precipitation": true,

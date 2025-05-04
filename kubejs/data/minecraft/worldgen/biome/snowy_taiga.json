@@ -66,9 +66,12 @@
       "minecraft:spring_lava"
     ],
     [
+      "the_winter_rescue:taiga/tall/trees_tall",
+      "the_winter_rescue:taiga/mid/trees_mid",
+      "the_winter_rescue:taiga/small/trees_small",
+      "the_winter_rescue:taiga/tiny/trees_tiny",
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
-      "minecraft:trees_taiga",
       "minecraft:flower_default",
       "minecraft:patch_grass_taiga_2",
       "minecraft:brown_mushroom_taiga",
@@ -78,7 +81,9 @@
       "minecraft:patch_berry_rare"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "the_winter_rescue:snowy/fix_snow",
+      "the_winter_rescue:snowy/fix_grass"
     ]
   ],
   "has_precipitation": true,

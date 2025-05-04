@@ -75,11 +75,19 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:trees_grove",
+      "the_winter_rescue:grove/tall/trees_tall",
+      "the_winter_rescue:grove/mid/trees_mid",
+      "the_winter_rescue:grove/small/trees_small",
+      "the_winter_rescue:grove/tiny/trees_tiny",
       "minecraft:glow_lichen"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "the_winter_rescue:snowy/layer/first",
+      "the_winter_rescue:snowy/layer/second",
+      "the_winter_rescue:snowy/layer/third",
+      "the_winter_rescue:snowy/fix_snow",
+      "the_winter_rescue:snowy/fix_grass"
     ]
   ],
   "has_precipitation": true,
