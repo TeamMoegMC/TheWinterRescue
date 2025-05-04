@@ -39,12 +39,6 @@ ServerEvents.recipes((event) => {
 			input_fluid: [FluidTag("forge:sulfuric_acid", 500)]
         },
 		{
-            output_fluid: [Fluid.of("frostedheart:cryolite", 1000)],
-            input: ["#forge:dusts/quicklime"],
-			input_fluid: [FluidTag("forge:sulfuric_acid", 1000)],
-			time:20
-        },
-		{
             output_fluid: [Fluid.of("caupona:nail_soup", 2000)],
             input: ["kubejs:activated_carbon"],
 			input_fluid: [FluidTag("minecraft:water", 2000)],
