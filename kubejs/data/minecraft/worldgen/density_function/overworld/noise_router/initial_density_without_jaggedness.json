@@ -67,6 +67,6 @@
   "argument2": {
     "type": "minecraft:mul",
     "argument1": 1,
-    "argument2": "terralith:overworld/subtract_terrain_sum"
+    "argument2": "the_winter_rescue:overworld/subtract_terrain_sum"
   }
 }

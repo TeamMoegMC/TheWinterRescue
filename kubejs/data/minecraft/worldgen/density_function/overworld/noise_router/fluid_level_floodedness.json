@@ -2,7 +2,7 @@
   "type": "minecraft:cache_once",
   "argument": {
     "type": "minecraft:range_choice",
-    "input": "terralith:overworld/cliff/spline",
+    "input": "the_winter_rescue:overworld/cliff/spline",
     "min_inclusive": -1000000,
     "max_exclusive": 2,
     "when_in_range": 1,

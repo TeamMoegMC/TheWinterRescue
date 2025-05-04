@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:max",
+    "argument1": "the_winter_rescue:overworld/arch/total",
+    "argument2": {
+      "type": "minecraft:max",
+      "argument1": "the_winter_rescue:overworld/dune/total",
+      "argument2": "the_winter_rescue:overworld/spikes/tendrils"
+    }
+  }
+}

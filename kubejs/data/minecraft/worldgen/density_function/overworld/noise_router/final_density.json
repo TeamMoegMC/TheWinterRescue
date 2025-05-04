@@ -55,7 +55,7 @@
                                 "type": "minecraft:beardifier"
                               }
                             },
-                            "argument2": "terralith:overworld/extra_terrain_sum"
+                            "argument2": "the_winter_rescue:overworld/extra_terrain_sum"
                           },
                           "argument2": {
                             "type": "minecraft:mul",
@@ -63,7 +63,7 @@
                             "argument2": {
                               "type": "minecraft:min",
                               "argument1": "minecraft:overworld/caves/entrances",
-                              "argument2": "terralith:overworld/subtract_terrain_sum"
+                              "argument2": "the_winter_rescue:overworld/subtract_terrain_sum"
                             }
                           }
                         },
@@ -92,7 +92,7 @@
                                   },
                                   "argument2": {
                                     "type": "minecraft:add",
-                                    "argument1": "terralith:overworld/reference/cave_cheese",
+                                    "argument1": "the_winter_rescue:overworld/reference/cave_cheese",
                                     "argument2": {
                                       "type": "minecraft:clamp",
                                       "input": {
@@ -126,7 +126,7 @@
                               "when_out_of_range": "minecraft:overworld/caves/pillars"
                             }
                           },
-                          "argument2": "terralith:overworld/subtract_terrain_sum"
+                          "argument2": "the_winter_rescue:overworld/subtract_terrain_sum"
                         }
                       }
                     }

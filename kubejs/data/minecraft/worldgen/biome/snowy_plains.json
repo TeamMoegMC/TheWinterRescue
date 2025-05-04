@@ -75,10 +75,7 @@
       "minecraft:red_mushroom_normal"
     ],
     [
-      "minecraft:freeze_top_layer",
-      "terralith:snowy/layer/first",
-      "terralith:snowy/layer/second",
-      "terralith:snowy/layer/third"
+      "minecraft:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,

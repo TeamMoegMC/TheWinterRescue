@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": -0.75,
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": "the_winter_rescue:overworld/special/crater_explosion",
+        "argument2": "the_winter_rescue:overworld/special/caldera_explosion"
+      }
+    }
+  }
+}

@@ -66,12 +66,9 @@
       "minecraft:spring_lava"
     ],
     [
-      "terralith:taiga/tall/trees_tall",
-      "terralith:taiga/mid/trees_mid",
-      "terralith:taiga/small/trees_small",
-      "terralith:taiga/tiny/trees_tiny",
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
+      "minecraft:trees_taiga",
       "minecraft:flower_default",
       "minecraft:patch_grass_taiga_2",
       "minecraft:brown_mushroom_taiga",
@@ -81,9 +78,7 @@
       "minecraft:patch_berry_rare"
     ],
     [
-      "minecraft:freeze_top_layer",
-      "terralith:snowy/fix_snow",
-      "terralith:snowy/fix_grass"
+      "minecraft:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,

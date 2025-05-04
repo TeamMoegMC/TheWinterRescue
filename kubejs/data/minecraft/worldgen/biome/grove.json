@@ -75,19 +75,11 @@
       "minecraft:spring_lava"
     ],
     [
-      "terralith:grove/tall/trees_tall",
-      "terralith:grove/mid/trees_mid",
-      "terralith:grove/small/trees_small",
-      "terralith:grove/tiny/trees_tiny",
+      "minecraft:trees_grove",
       "minecraft:glow_lichen"
     ],
     [
-      "minecraft:freeze_top_layer",
-      "terralith:snowy/layer/first",
-      "terralith:snowy/layer/second",
-      "terralith:snowy/layer/third",
-      "terralith:snowy/fix_snow",
-      "terralith:snowy/fix_grass"
+      "minecraft:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,

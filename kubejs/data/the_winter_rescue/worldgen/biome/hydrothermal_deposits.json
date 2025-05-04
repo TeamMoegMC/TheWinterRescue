@@ -2,8 +2,7 @@
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "terralith:canyon"
+      "minecraft:cave_extra_underground"
     ]
   },
   "downfall": 0.6,

@@ -1,9 +1,0 @@
-{
-  "feature": "terralith:skylands/winter/oak",
-  "placement": [
-    {
-      "type": "minecraft:count",
-      "count": 1
-    }
-  ]
-}
