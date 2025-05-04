@@ -9,10 +9,10 @@ ServerEvents.recipes((event) => {
             output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.1)],
             input: "#minecraft:leaves"
         },
-        {
-            output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.1)],
-            input: "#minecraft:flowers"
-        },
+        // {
+        //     output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.1)],
+        //     input: "#minecraft:flowers"
+        // },
         {
             output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.3)],
             input: "#forge:seeds"

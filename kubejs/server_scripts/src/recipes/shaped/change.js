@@ -57,6 +57,16 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
+            "charcoal_pit:sandy_collector", [
+            "A A",
+            "ABA",
+            "AAA"
+        ], {
+            A: "charcoal_pit:sandy_brick_item",
+            B: "frostedheart:ceramic_bucket"
+        }
+        ],
+        [
             "charcoal_pit:sandy_brick", [
             "BAB",
             "ABA",
