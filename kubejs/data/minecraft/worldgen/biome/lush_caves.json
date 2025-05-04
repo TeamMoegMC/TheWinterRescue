@@ -6,6 +6,7 @@
       "minecraft:canyon"
     ]
   },
+  "creature_spawn_probability": 0.1,
   "downfall": 0.5,
   "effects": {
     "fog_color": 12638463,
