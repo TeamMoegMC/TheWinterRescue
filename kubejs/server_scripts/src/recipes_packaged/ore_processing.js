@@ -96,6 +96,7 @@ ServerEvents.recipes((event) => {
         ["minecraft:iron_ingot", "#forge:raw_materials/iron", 400],
         ["minecraft:iron_ingot", "#forge:crushed_raw_materials/iron", 300],
         ["minecraft:iron_ingot", "frostedheart:rusted_iron_ingot", 200],
+        ["minecraft:iron_ingot", "#forge:dusts/iron", 100],
 
         ["minecraft:iron_ingot", "#forge:raw_materials/pyrite", 400],
         ["minecraft:iron_ingot", "#forge:crushed_raw_materials/pyrite", 300],
