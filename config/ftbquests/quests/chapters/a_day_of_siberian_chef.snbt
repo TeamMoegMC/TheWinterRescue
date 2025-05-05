@@ -41,14 +41,17 @@
 				"{quest.twr.04E9589E45C56536.description.1}"
 				"{quest.twr.04E9589E45C56536.description.2}"
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "04E9589E45C56536"
+			invisible: true
 			subtitle: "{quest.twr.04E9589E45C56536.subtitle}"
 			tasks: [{
 				id: "51B73D2F2CAC1ADF"
 				item: "frostedheart:rye_porridge"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -58,14 +61,17 @@
 				"{quest.twr.5C3681B30ADB26B9.description.2}"
 				"{quest.twr.5C3681B30ADB26B9.description.3}"
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "5C3681B30ADB26B9"
+			invisible: true
 			subtitle: "{quest.twr.5C3681B30ADB26B9.subtitle}"
 			tasks: [{
 				id: "7F10637F61BD5539"
 				item: "frostedheart:rye_sawdust_porridge"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -109,7 +115,10 @@
 				"{quest.twr.7359422ABAFA7721.description.2}"
 				"{quest.twr.7359422ABAFA7721.description.3}"
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "7359422ABAFA7721"
+			invisible: true
 			subtitle: "{quest.twr.7359422ABAFA7721.subtitle}"
 			tasks: [{
 				id: "521DCB6992E2C9BA"
@@ -126,7 +135,10 @@
 				"{quest.twr.6746167385331F16.description.2}"
 				"{quest.twr.6746167385331F16.description.3}"
 			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "6746167385331F16"
+			invisible: true
 			subtitle: "{quest.twr.6746167385331F16.subtitle}"
 			tasks: [{
 				id: "359537FD496A6354"
@@ -391,7 +403,7 @@
 				item: "frostedheart:compressed_biscuits"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
