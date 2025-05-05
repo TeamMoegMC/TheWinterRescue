@@ -22,8 +22,8 @@ ServerEvents.recipes((event) => {
     minecraft.smelting("frostedheart:quicklime", "frostedheart:flux")
     recipes.forEach((recipe) => {
         minecraft.smelting(recipe.output, recipe.input)
-        immersiveengineering.blast_furnace(recipe.output, recipe.input, "immersiveengineering:slag")
-            .time(200)
+        immersiveengineering.blast_furnace(recipe.output, recipe.input)
+            .time(40)
     })
 
 })
