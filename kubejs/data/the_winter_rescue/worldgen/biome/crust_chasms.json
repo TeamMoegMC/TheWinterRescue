@@ -89,34 +89,28 @@
     "misc": [],
     "monster": [
       {
-        "type": "minecraft:snowball",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 100
-      },
-      {
         "type": "minecraft:spider",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 25
+        "weight": 5
       },
       {
         "type": "minecraft:skeleton",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 25
+        "weight": 5
       },
       {
         "type": "minecraft:zombie",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 100
+        "weight": 5
       },
       {
         "type": "minecraft:creeper",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 50
+        "weight": 5
       }
     ],
     "underground_water_creature": [
