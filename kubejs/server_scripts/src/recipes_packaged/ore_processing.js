@@ -141,7 +141,7 @@ ServerEvents.recipes((event) => {
     }
     let kilnRecipes = [
         rotarykilnRecipe2("create:crushed_raw_copper", "frostedheart:copper_oxide_dust", 200, 32),
-        rotarySulfate("#forge:dusts/sulfur", null, 32, 125, 0),
+        rotarySulfate("#forge:dusts/sulfur", null, 32, 500, 0),
         rotarySulfate("frostedheart:crushed_raw_pyrite", "create:crushed_raw_iron", 64, 250, 0),
         rotarySulfate("create:crushed_raw_lead", "frostedheart:lead_oxide_dust", 32, 250, 0.25),
         rotarySulfate("create:crushed_raw_zinc", "frostedheart:zinc_oxide_dust", 32, 250, 0),
