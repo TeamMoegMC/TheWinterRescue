@@ -23,7 +23,8 @@ ServerEvents.recipes((event) => {
         carkilnReplace("#forge:cobblestone", "minecraft:stone"),
         carkilnReplace("caupona:clay_cistern", "caupona:stew_pot"),
         carkilnReplace("minecraft:clay", "minecraft:terracotta"),
-        carkilnReplace("#minecraft:sand", "minecraft:glass")
+        carkilnReplace("#minecraft:sand", "minecraft:glass"),
+        carkilnReplace("frostedheart:fire_clay_ball", "frostedheart:refractory_brick")
     ]
 	
     let simpleCarkiln = [
