@@ -151,14 +151,14 @@
 			subtitle: "{quest.twr.4BBE69E2E2A4276F.subtitle}"
 			tasks: [
 				{
-					id: "5B0C6258A0BE4353"
-					item: "immersiveengineering:light_engineering"
-					type: "item"
-				}
-				{
 					count: 2L
 					id: "245793557469A63D"
 					item: "immersiveengineering:sheetmetal_constantan"
+					type: "item"
+				}
+				{
+					id: "1136A1E94823A5CD"
+					item: "steampowered:cast_iron_boiler"
 					type: "item"
 				}
 			]
