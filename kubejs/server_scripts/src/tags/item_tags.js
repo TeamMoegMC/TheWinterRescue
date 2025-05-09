@@ -95,6 +95,23 @@ ServerEvents.tags("item", (event) => {
         "create:dough",
         "#forge:bitumen"
     ])
+	event.add("caupona:fuel/charcoals", [
+        "charcoal_briquette",
+		"creosoted_charcoal_briquette",
+		"bound_charcoal_briquette"
+    ])
+	event.add("caupona:fuel/fossil", [
+        "bound_coal_briquette",
+		"creosoted_coal_briquette",
+		"wet_coal_briquette",
+		"coal_briquette"
+    ])    
+    event.add("caupona:fuel/woods", [
+        "creosoted_sawdust_briquette",
+		"straw_briquette",
+		"wet_straw_briquette",
+		"sawdust_briquette"
+    ])       
     event.add("kubejs:straw_briquettes", [
         "kubejs:wet_straw_briquette",
         "kubejs:straw_briquette"
