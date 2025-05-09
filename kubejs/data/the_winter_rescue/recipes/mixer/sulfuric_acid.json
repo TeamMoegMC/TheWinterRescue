@@ -10,11 +10,11 @@
   ],
   "result": {
     "fluid": "frostedheart:sulfuric_acid",
-    "amount": 800
+    "amount": 2000
   },
   "fluid": {
     "tag": "minecraft:water",
-    "amount": 800
+    "amount": 2000
   },
   "energy": 2000
 }

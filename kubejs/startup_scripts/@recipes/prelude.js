@@ -48,6 +48,10 @@ ComplexKey.prototype = {
             }
             builder = builder.add(component)
         }
+		if(this.isInput)
+			builder=builder.inputRole()
+		else
+			builder=builder.outputRole()
         return builder
     }
 }
@@ -76,7 +80,7 @@ Schema.prototype = {
      * @returns {this}
      */
     simpleKey(key, type, optional, alwaysWrite) {
-        this.keys.push([key, type, optional, alwaysWrite])
+        this.keys.push(["simple",key, type, optional, alwaysWrite])
         return this
     },
 
@@ -87,7 +91,7 @@ Schema.prototype = {
      * @returns {this}
      */
     complexKey(key, input, builder) {
-        this.keys.push([key, input, builder])
+        this.keys.push(["complex",key, input, builder])
         return this
     },
 
@@ -96,7 +100,7 @@ Schema.prototype = {
      * @returns {this}
      */
     dynamicKey(builder) {
-        this.keys.push([builder])
+        this.keys.push(["dynamic",builder])
         return this
     },
 
@@ -111,19 +115,19 @@ Schema.prototype = {
         let components = event.components
         let component = null;
         for (let key of this.keys) {
-            if (key.length === 4) {
-                component = components.get(key[1])().key(key[0])
-                if (key[2] !== undefined) {
-                    if (key[2] !== null) component = component.optional(key[2])
+            if (key[0] =="simple") {
+                component = components.get(key[2])().key(key[1])
+                if (key[3] !== undefined) {
+                    if (key[3] !== null) component = component.optional(key[3])
                     else component = component.defaultOptional()
-                    if (key[3]) component = component.alwaysWrite()
+                    if (key[4]) component = component.alwaysWrite()
                 }
-            } else if (key.length === 3) {
-                let complex = new ComplexKey()
-                key[2](complex)
-                component = complex.build(components)
-            } else {
-                component = key[0](components, probejs$$RecipeComponentBuilder)
+            } else if (key[0]=="complex") {
+                let complex = new ComplexKey(key[2])
+                key[3](complex)
+                component = complex.build(components).key(key[1])
+            } else if(key[0]=="dynamic"){
+                component = key[1](components, probejs$$RecipeComponentBuilder)
             }
             keys.push(component)
         }

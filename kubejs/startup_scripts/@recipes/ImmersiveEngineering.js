@@ -1,0 +1,13 @@
+// priority: 10
+new Schema("immersiveengineering:sawmill")
+    .simpleKey("result", "outputItem")
+    .simpleKey("input", "inputItem")
+	.simpleKey("stripped","inputItem",null)
+	.simpleKey("energy", "doubleNumber", 100)
+	.dynamicKey((components,componentBuilder)=>{return new ComplexKey(true)
+	.addKey("output","outputItem")
+	.addKey("stripping","bool",false,true)
+	.build(components)
+	.asArray()
+	.key("secondaries")
+	.defaultOptional();})
