@@ -1,0 +1,6 @@
+new Schema("immersiveengineering:sawmill")
+    .simpleKey("result", "outputItem")
+    .simpleKey("input", "inputItem")
+    .simpleKey("energy", "doubleNumber", 100)
+	.simpleKey("stripped","inputItem")
+	.dynamicKey("secondaries", false,(components,componentBuilder)=>new ComplexKey.addKey("output","outputItem",false,true).addKey("stripping","bool",false,true).build(components).asArray())
