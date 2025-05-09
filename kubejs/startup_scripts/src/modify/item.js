@@ -32,6 +32,9 @@ ItemEvents.modification((event) => {
     event.modify("minecraft:vine", (modify) => {
         modify.burnTime = 20
     })
+    event.modify("minecraft:charcoal", (modify) => {
+        modify.burnTime = 800
+    })
 
     event.modify("minecraft:snowball", (modify) => {
         modify.maxStackSize = 32
