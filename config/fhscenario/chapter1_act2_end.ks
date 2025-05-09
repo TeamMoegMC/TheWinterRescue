@@ -8,3 +8,5 @@ Remember, you can always press [TAB] and select Open Quests!
 @p
 @showTitle t="Chapter 1 Act 2" st="Complete"
 @p
+@endAct
+@s
