@@ -41,6 +41,8 @@
       "minecraft:monster_room_deep"
     ],
     [
+      "the_winter_rescue:cave/mycelium_floor",
+      "the_winter_rescue:cave/mycelium_moss_ceiling"
     ],
     [],
     [
@@ -77,8 +79,7 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:glow_lichen",
-      "minecraft:lush_caves_ceiling_vegetation"
+      "minecraft:glow_lichen"
     ],
     [
       "minecraft:freeze_top_layer"
