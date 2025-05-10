@@ -26,8 +26,8 @@ ServerEvents.recipes((event) => {
             input: ["kubejs:coal_dust", Fluid.of("frostedheart:lime_water", 100)]
         },
         {
-            output: ["2x frostedheart:raw_rye_bread"],
-            input: ["2x frostedheart:rye_flour", Fluid.of("minecraft:water", 1000)]
+            output: ["frostedheart:raw_rye_bread"],
+            input: ["frostedheart:rye_flour", Fluid.of("minecraft:water", 250)]
         },
         {
             output: ["minecraft:slime_ball"],
@@ -55,7 +55,11 @@ ServerEvents.recipes((event) => {
         },
         {
             output: [Fluid.of("frostedheart:ferrous_chloride", 250)],
-            input: [Fluid.of("frostedheart:hydrochloric_acid", 500), "frostedheart:rusted_iron_ingot"]
+            input: [Fluid.of("frostedheart:hydrochloric_acid", 500), "#twr:rusted_iron"]
+        },
+        {
+            output: [Fluid.of("frostedheart:copper_chloride", 250)],
+            input: [Fluid.of("frostedheart:hydrochloric_acid", 500), "#twr:rusted_copper"]
         },
         {
             output: [Fluid.of("frostedheart:copper_chloride", 375)],
@@ -92,7 +96,7 @@ ServerEvents.recipes((event) => {
         {
             output: ["3x immersiveengineering:fertilizer"],
             // K, N, P
-            input: ["#twr:potassium_rich", "#twr:nitrogen_rich", "#twr:phosphorous_rich"]
+            input: ["#frostedheart:potassium_rich", "#frostedheart:nitrogen_rich", "#frostedheart:phosphorous_rich"]
         },
         {
             output: ["minecraft:dirt"],
@@ -179,6 +183,10 @@ ServerEvents.recipes((event) => {
         {
             output: ["minecraft:sugar"],
             input: ["4x minecraft:beetroot", Fluid.of("minecraft:water", 1000)]
+        },
+        {
+            output: ["minecraft:sugar"],
+            input: ["minecraft:sugar_cane", Fluid.of("minecraft:water", 1000)]
         }
     ]
     recipes.forEach((recipe, index) => {

@@ -109,46 +109,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["6D01046E549A087E"]
-			description: [
-				"{quest.twr.7359422ABAFA7721.description.1}"
-				"{quest.twr.7359422ABAFA7721.description.2}"
-				"{quest.twr.7359422ABAFA7721.description.3}"
-			]
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			id: "7359422ABAFA7721"
-			invisible: true
-			subtitle: "{quest.twr.7359422ABAFA7721.subtitle}"
-			tasks: [{
-				id: "521DCB6992E2C9BA"
-				item: "frostedheart:vegetable_soup"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["6D01046E549A087E"]
-			description: [
-				"{quest.twr.6746167385331F16.description.1}"
-				"{quest.twr.6746167385331F16.description.2}"
-				"{quest.twr.6746167385331F16.description.3}"
-			]
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			id: "6746167385331F16"
-			invisible: true
-			subtitle: "{quest.twr.6746167385331F16.subtitle}"
-			tasks: [{
-				id: "359537FD496A6354"
-				item: "frostedheart:vegetable_sawdust_soup"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.5d
-		}
-		{
 			dependencies: ["7887EB905BAA7BEF"]
 			description: ["{quest.twr.20F1DD1209093059.description.1}"]
 			hide_until_deps_visible: false
@@ -704,6 +664,46 @@
 			}]
 			x: -12.0d
 			y: -4.0d
+		}
+		{
+			description: ["甜菜比起甘蔗来说更容易在寒带种植，是获取糖类的不二之选。"]
+			id: "03711E7D7FF74B83"
+			rewards: [{
+				id: "20DA62C51E62D81B"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [
+				{
+					id: "53EFB72FC87C5D8F"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					id: "79FB186D946CDF0B"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03711E7D7FF74B83"]
+			id: "768327A36D2D9ABA"
+			rewards: [{
+				id: "4283D0A7AE350402"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			subtitle: "战略物资"
+			tasks: [{
+				id: "36B4CEBF7D744799"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["{chapter.twr.715FF1EB059BCACF.subtitle}"]

@@ -81,7 +81,7 @@ ServerEvents.recipes((event) => {
         ["minecraft:copper_ingot", "#forge:crushed_raw_materials/copper", 150, true],
         ["minecraft:copper_ingot", "#forge:dusts/copper_oxide", 100, true],
         
-        ["minecraft:copper_ingot", "#forge:ingots/rusted_copper", 50, true],
+        ["minecraft:copper_ingot", "#twr:rusted_copper", 50, true],
 
         ["frostedheart:lead_ingot", "#forge:raw_materials/lead", 200, true],
         ["frostedheart:lead_ingot", "#forge:crushed_raw_materials/lead", 150, true],
@@ -100,7 +100,7 @@ ServerEvents.recipes((event) => {
 
         ["minecraft:iron_ingot", "#forge:raw_materials/iron", 400, true],
         ["minecraft:iron_ingot", "#forge:crushed_raw_materials/iron", 300, true],
-        ["minecraft:iron_ingot", "frostedheart:rusted_iron_ingot", 200, true],
+        ["minecraft:iron_ingot", "#twr:rusted_iron", 200, true],
         ["minecraft:iron_ingot", "#forge:dusts/iron", 100, false],
 
         ["minecraft:iron_ingot", "#forge:raw_materials/pyrite", 400, true],

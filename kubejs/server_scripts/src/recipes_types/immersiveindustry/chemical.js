@@ -94,10 +94,15 @@ ServerEvents.recipes((event) => {
             input_fluid: [FluidTag("forge:ferrous_chloride", 1900)]//<=500Cl2
         },
         {
-			input: ["4x frostedheart:rusted_iron_ingot"],
+			input: ["4x #twr:rusted_iron"],
             output_fluid: [Fluid.of("frostedheart:ferrous_chloride", 1000)],
             input_fluid: [FluidTag("forge:hydrochloric_acid", 1900)]
         },
+            {
+                input: ["4x #twr:rusted_copper"],
+                output_fluid: [Fluid.of("frostedheart:copper_chloride", 1500)],
+                input_fluid: [FluidTag("forge:hydrochloric_acid", 2850)]
+            },
         {
 			input: ["4x frostedheart:copper_oxide_dust"],
             output_fluid: [Fluid.of("frostedheart:copper_chloride", 1500)],

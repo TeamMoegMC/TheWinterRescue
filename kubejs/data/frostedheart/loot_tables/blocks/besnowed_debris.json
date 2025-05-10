@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "twr:sharp_materials",
+          "expand": true,
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "frostedheart:ice_chip",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "frostedheart:frozen_seeds",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "frostedheart:condensed_balls",
+          "expand": true,
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

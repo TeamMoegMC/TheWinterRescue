@@ -51,11 +51,12 @@ ServerEvents.recipes((event) => {
         shapelessRecipe("9x frostedheart:quicklime","frostedheart:quicklime_block"),
         shapelessRecipe("9x frostedheart:raw_magnesite","frostedheart:magnesite_block"),
         shapelessRecipe("4x stone_age:bone_arrow_head",["#stone_age:bones","immersiveengineering:hammer"]),
+        shapelessRecipe("4x stone_age:bone_arrow_head",["stone_age:bone","immersiveengineering:hammer"]),
         shapelessRecipe("16x caupona:vivid_charcoal",["#minecraft:coals","3x charcoal_pit:straw"]),
 		shapelessRecipe("2x stone_age:fish_bone",["minecraft:bone","minecraft:flint"]),
-		shapelessRecipe("3x immersiveengineering:fertilizer",["#twr:potassium_rich", "#twr:nitrogen_rich", "#twr:phosphorous_rich"]),
-        // shapelessRecipe("2x stone_age:fish_bone",["#stone_age:bones","minecraft:flint"])
-        //,shapelessRecipe("4x minecraft:clay_ball","minecraft:clay")
+		shapelessRecipe("2x stone_age:fish_bone",["minecraft:bone","immersiveengineering:wirecutter"]),
+		shapelessRecipe("3x immersiveengineering:fertilizer",["#frostedheart:potassium_rich", "#frostedheart:nitrogen_rich", "#frostedheart:phosphorous_rich"]),
+		shapelessRecipe("6x minecraft:gunpowder",["#forge:dusts/sulfur", "minecraft:charcoal", "#forge:dusts/saltpeter", "3x minecraft:sugar"]),
     ]
     addShapelessRecipes.forEach((recipe, index) => {
 		if(!Array.isArray(recipe.ingredients)){

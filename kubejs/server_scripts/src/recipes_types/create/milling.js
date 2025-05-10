@@ -6,7 +6,7 @@ ServerEvents.recipes((event) => {
             input: "#minecraft:logs"
         },
         {
-            output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.1)],
+            output: [Item.of("frostedheart:biomass").withChance(0.5)],
             input: "#minecraft:leaves"
         },
         // {
@@ -26,7 +26,7 @@ ServerEvents.recipes((event) => {
             input: "#minecraft:fox_food"
         },
         {
-            output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.5)],
+            output: [Item.of("frostedheart:biomass").withChance(0.5)],
             input: "minecraft:vine"
         },
         {

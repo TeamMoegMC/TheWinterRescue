@@ -204,7 +204,6 @@ ServerEvents.tags("item", (event) => {
     event.add("twr:sharp_materials", [
         "frostedheart:cable",
         "frostedheart:deflection_coil",
-        "frostedheart:ferrocerium_fire_starter",
         "frostedheart:insulator",
         "frostedheart:iron_fence_remains",
         "frostedheart:iron_plating",
@@ -214,21 +213,35 @@ ServerEvents.tags("item", (event) => {
         "minecraft:flint",
     ])
 
+    event.add("twr:rusted_iron", [
+        "frostedheart:insulator",
+        "frostedheart:iron_fence_remains",
+        "frostedheart:iron_plating",
+        "frostedheart:iron_truss_remains",
+        "frostedheart:rusted_iron_ingot"
+    ])
+
+    event.add("twr:rusted_copper", [
+        "frostedheart:cable",
+        "frostedheart:deflection_coil",
+        "frostedheart:rusted_copper_ingot"
+    ])
+
     event.remove("forge:dusts/ash", [
         "charcoal_pit:ash"
     ])
 
-    event.add("twr:potassium_rich", [
+    event.add("frostedheart:potassium_rich", [
         "#forge:crushed_raw_materials/sylvite",
         "#forge:dusts/ash"
     ])
 
-    event.add("twr:nitrogen_rich", [
+    event.add("frostedheart:nitrogen_rich", [
         "#forge:dusts/saltpeter",
         "frostedheart:biomass"
     ])
 
-    event.add("twr:phosphorous_rich", [
+    event.add("frostedheart:phosphorous_rich", [
         "#forge:slag",
         "minecraft:bone_meal"
     ])
@@ -633,4 +646,22 @@ ServerEvents.tags("item", (event) => {
         event.get(`forge:storage_blocks/metal`)
             .add(`#forge:storage_blocks/${material}`)
     })*/
+
+    event.add("kubejs:fuel_items", [
+        "kubejs:coal_dust",
+        "kubejs:charcoal_dust",
+        "kubejs:limed_coal",
+        "kubejs:wet_coal_dust",
+        "kubejs:bound_charcoal_briquette",
+        "kubejs:bound_coal_briquette",
+        "kubejs:creosoted_charcoal_briquette",
+        "kubejs:creosoted_coal_briquette",
+        "kubejs:creosoted_sawdust_briquette",
+        "kubejs:wet_coal_briquette",
+        "kubejs:wet_straw_briquette",
+        "kubejs:charcoal_briquette",
+        "kubejs:coal_briquette",
+        "kubejs:sawdust_briquette",
+        "kubejs:straw_briquette"
+    ])
 })

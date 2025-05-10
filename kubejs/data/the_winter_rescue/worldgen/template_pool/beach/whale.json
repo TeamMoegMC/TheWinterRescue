@@ -3,27 +3,9 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 3,
-      "element": {
-        "location": "the_winter_rescue:whale/whale_l",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:legacy_single_pool_element"
-      }
-    },
-    {
-      "weight": 4,
-      "element": {
-        "location": "the_winter_rescue:whale/whale_m",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:legacy_single_pool_element"
-      }
-    },
-    {
       "weight": 1,
       "element": {
-        "location": "the_winter_rescue:whale/whale_xxl",
+        "location": "the_winter_rescue:whale/whale_m_new_thin_ice",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"
@@ -32,7 +14,52 @@
     {
       "weight": 2,
       "element": {
-        "location": "the_winter_rescue:whale/whalebone_l",
+        "location": "the_winter_rescue:whale/whale_m_new_thin_ice_mild_broken",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "the_winter_rescue:whale/whalebone_m_new_thin_ice",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "the_winter_rescue:whale/whalebone_m_new_thin_ice_icicles",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "the_winter_rescue:whale/whalebone_m_new_thin_ice_icicles_mild_broken",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "the_winter_rescue:whale/whalebone_m_new_thin_ice_icicles_well_broken",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "the_winter_rescue:whale/whalebone_m_new_thin_ice_icicles_severely_broken",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"

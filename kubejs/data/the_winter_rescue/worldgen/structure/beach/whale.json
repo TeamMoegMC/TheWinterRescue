@@ -3,7 +3,7 @@
   "start_height": {
     "absolute": -1
   },
-  "biomes": "#the_winter_rescue:has_structure/beach",
+  "biomes": "#the_winter_rescue:has_structure/whale",
   "spawn_overrides": {},
   "step": "surface_structures",
   "use_expansion_hack": false,

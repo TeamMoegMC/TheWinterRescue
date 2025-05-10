@@ -206,6 +206,10 @@ ServerEvents.recipes((event) => {
         // "stone_age:grass_lead",
         // "stone_age:dried_grass",
         // "stone_age:fishing_net_meshes",
+        "create:milling/cactus",
+        "create:milling/sugar",
+        "minecraft:sugar_from_sugar_cane",
+        "minecraft:sugar",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })
