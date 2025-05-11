@@ -40,4 +40,7 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier('minecraft:dirt_path')
         .replaceLoot('minecraft:dirt', 'minecraft:coarse_dirt')
 
+    event.addBlockLootModifier("minecraft:campfire")
+        .replaceLoot('charcoal_pit:ash', "supplementaries:ash")
+
 });
