@@ -79,10 +79,10 @@
 	resetWaterLevelInDeath = true
 	#The rate of nutrition consumption.
 	#Range: 0.0 ~ 10.0
-	nutritionConsumptionRate = 0.0025
+	nutritionConsumptionRate = 0.0003
 	#The rate of nutrition gain by eating food.
 	#Range: 0.0 ~ 100.0
-	nutritionGainRate = 0.0025
+	nutritionGainRate = 0.0003
 
 [Worldgen]
 	#Enables snow accumulation during snow weather.
