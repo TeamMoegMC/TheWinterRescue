@@ -139,6 +139,11 @@ ServerEvents.recipes((event) => {
         {
             output_fluid: [Fluid.of("frostedheart:hydrochloric_acid", 2000)],
             input_fluid: [FluidTag("minecraft:water", 2000), FluidTag("forge:chlorine", 1000)]
+        },
+        {
+            output: ["2x create:rose_quartz"],
+            input_fluid: [FluidTag("minecraft:water", 1000)],
+            input: ["minecraft:quartz", "6x minecraft:redstone"]
         }
     ]
 	recipes.forEach((recipe) => {

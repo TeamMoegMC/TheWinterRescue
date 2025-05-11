@@ -392,8 +392,7 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "create:shaft", 4, [
-            "A",
+            "create:shaft", 12, [
             "A",
             "A"
         ], {
@@ -413,7 +412,7 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "steampowered:bronze_cogwheel", 4, [
+            "steampowered:bronze_cogwheel", 8, [
             " B ",
             "BAB",
             " B "
@@ -423,17 +422,18 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "steampowered:bronze_large_cogwheel", 2, [
-            "BBB",
-            "BAB",
-            "BBB"
+            "steampowered:bronze_large_cogwheel", 4, [
+            "BCB",
+            "CAC",
+            "BCB"
         ], {
             A: "create:shaft",
-            B: "#forge:plates/bronze"
+            B: "#forge:plates/bronze",
+            C: "#forge:ingots/bronze"
         }
         ],
         [
-            "steampowered:cast_iron_cogwheel", 4, [
+            "steampowered:cast_iron_cogwheel", 8, [
             " B ",
             "BAB",
             " B "
@@ -443,17 +443,18 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "steampowered:cast_iron_large_cogwheel", 2, [
-            "BBB",
-            "BAB",
-            "BBB"
+            "steampowered:cast_iron_large_cogwheel", 4, [
+            "BCB",
+            "CAC",
+            "BCB"
         ], {
             A: "create:shaft",
-            B: "#forge:plates/cast_iron"
+            B: "#forge:plates/cast_iron",
+            C: "#forge:ingots/cast_iron"
         }
         ],
         [
-            "steampowered:steel_cogwheel", 4, [
+            "steampowered:steel_cogwheel", 8, [
             " B ",
             "BAB",
             " B "
@@ -463,13 +464,14 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "steampowered:steel_large_cogwheel", 2, [
-            "BBB",
-            "BAB",
-            "BBB"
+            "steampowered:steel_large_cogwheel", 4, [
+            "BCB",
+            "CAC",
+            "BCB"
         ], {
             A: "create:shaft",
-            B: "#forge:plates/steel"
+            B: "#forge:plates/steel",
+            C: "#forge:ingots/steel"
         }
         ],
         [
@@ -690,7 +692,7 @@ ServerEvents.recipes((event) => {
             "B A",
             " BA"
         ], {
-            A: "stone_age:leather_strip",
+            A: "#twr:advanced_string",
             B: "#forge:rods/wooden"
         }
         ],
@@ -700,7 +702,7 @@ ServerEvents.recipes((event) => {
             "AAA",
             " B "
         ], {
-            A: "stone_age:leather_strip",
+            A: "#twr:advanced_string",
             B: "#forge:rods/wooden",
             C: "#twr:ingots/structural"
         }
@@ -1002,7 +1004,18 @@ ServerEvents.recipes((event) => {
                 A: "#minecraft:wooden_slabs",
                 B: "#forge:cobblestone"
             }
-        ]
+        ],
+        [
+            "immersiveengineering:hammer", [
+            " AC",
+            " BA",
+            "B  "
+        ], {
+            A: "#twr:ingots/structural",
+            B: "#forge:rods/wooden",
+            C: "#twr:advanced_string"
+        }
+        ],
 
     ]
     changeShapedRecipes.forEach((recipe, index) => {

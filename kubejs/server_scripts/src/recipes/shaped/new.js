@@ -110,7 +110,7 @@ ServerEvents.recipes((event) => {
             "ACA",
             "BAB"
         ], {
-            A: "stone_age:leather_strip",
+            A: "#twr:advanced_string",
             B: "#forge:rods/treated_wood",
             C: "#forge:treated_wood_slab"
         }
@@ -351,8 +351,8 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "minecraft:leather",
-            B: "#forge:string",
-            C: "#forge:wires/copper"
+            B: "stone_age:fish_bone",
+            C: "#twr:advanced_string"
         }
         ],
         [
@@ -362,8 +362,8 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "#minecraft:wool",
-            B: "#forge:string",
-            C: "#forge:wires/aluminum"
+            B: "stone_age:fish_bone",
+            C: "#twr:advanced_string"
         }
         ],
         [
@@ -372,8 +372,8 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "minecraft:dried_kelp",
-            B: "stone_age:leather_strip",
-            C: "#forge:wires/copper"
+            B: "stone_age:fish_bone",
+            C: "#forge:string"
         }
         ],
         [
@@ -519,12 +519,11 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "create:shaft", 3, [
-            "A",
+            "create:shaft", 8, [
             "A",
             "A"
         ], {
-            A: "#forge:ingots/iron"
+            A: "#forge:rods/iron"
         }
         ],
         [
@@ -608,25 +607,14 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "immersiveengineering:hammer", [
-            " AC",
-            " BA",
-            "B  "
-        ], {
-            A: "#twr:ingots/structural",
-            B: "#forge:rods/wooden",
-            C: "stone_age:leather_strip"
-        }
-        ],
-        [
             "frostedheart:straw_lining", [
             "AAA",
             "CBC",
             "AAA"
         ], {
             A: "charcoal_pit:straw",
-            B: "stone_age:leather_strip",
-            C: "stone_age:grass_lead"
+            B: "stone_age:fish_bone",
+            C: "#forge:string"
         }
         ],
         [
@@ -729,7 +717,7 @@ ServerEvents.recipes((event) => {
             "B C"
         ], {
             A: "stone_age:raw_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -740,7 +728,7 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "stone_age:raw_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -751,7 +739,7 @@ ServerEvents.recipes((event) => {
             "A A"
         ], {
             A: "stone_age:raw_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -761,7 +749,7 @@ ServerEvents.recipes((event) => {
             "ACA"
         ], {
             A: "stone_age:raw_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -770,7 +758,7 @@ ServerEvents.recipes((event) => {
             "ABC"
         ], {
             A: "stone_age:raw_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -782,7 +770,7 @@ ServerEvents.recipes((event) => {
             "B C"
         ], {
             A: "minecraft:rabbit_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -793,7 +781,7 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "minecraft:rabbit_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -804,7 +792,7 @@ ServerEvents.recipes((event) => {
             "A A"
         ], {
             A: "minecraft:rabbit_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -814,7 +802,7 @@ ServerEvents.recipes((event) => {
             "ACA"
         ], {
             A: "minecraft:rabbit_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -823,7 +811,7 @@ ServerEvents.recipes((event) => {
             "ABC"
         ], {
             A: "minecraft:rabbit_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -835,7 +823,7 @@ ServerEvents.recipes((event) => {
             "B C"
         ], {
             A: "frostedheart:wolf_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -846,7 +834,7 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "frostedheart:wolf_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -857,7 +845,7 @@ ServerEvents.recipes((event) => {
             "A A"
         ], {
             A: "frostedheart:wolf_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -867,7 +855,7 @@ ServerEvents.recipes((event) => {
             "ACA"
         ], {
             A: "frostedheart:wolf_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -876,7 +864,7 @@ ServerEvents.recipes((event) => {
             "ABC"
         ], {
             A: "frostedheart:wolf_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -888,7 +876,7 @@ ServerEvents.recipes((event) => {
             "B C"
         ], {
             A: "frostedheart:fox_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -899,7 +887,7 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "frostedheart:fox_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -910,7 +898,7 @@ ServerEvents.recipes((event) => {
             "A A"
         ], {
             A: "frostedheart:fox_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -920,7 +908,7 @@ ServerEvents.recipes((event) => {
             "ACA"
         ], {
             A: "frostedheart:fox_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -929,7 +917,7 @@ ServerEvents.recipes((event) => {
             "ABC"
         ], {
             A: "frostedheart:fox_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -941,7 +929,7 @@ ServerEvents.recipes((event) => {
             "B C"
         ], {
             A: "frostedheart:polar_bear_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -952,7 +940,7 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "frostedheart:polar_bear_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -963,7 +951,7 @@ ServerEvents.recipes((event) => {
             "A A"
         ], {
             A: "frostedheart:polar_bear_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -973,7 +961,7 @@ ServerEvents.recipes((event) => {
             "ACA"
         ], {
             A: "frostedheart:polar_bear_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -982,7 +970,7 @@ ServerEvents.recipes((event) => {
             "ABC"
         ], {
             A: "frostedheart:polar_bear_hide",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -994,7 +982,7 @@ ServerEvents.recipes((event) => {
             "B C"
         ], {
             A: "#minecraft:wool",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -1005,7 +993,7 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "#minecraft:wool",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -1016,7 +1004,7 @@ ServerEvents.recipes((event) => {
             "ACA"
         ], {
             A: "#minecraft:wool",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -1026,7 +1014,7 @@ ServerEvents.recipes((event) => {
             "ACA"
         ], {
             A: "#minecraft:wool",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -1035,7 +1023,7 @@ ServerEvents.recipes((event) => {
             "ABC"
         ], {
             A: "#minecraft:wool",
-            B: "stone_age:leather_strip",
+            B: "#twr:advanced_string",
             C: "stone_age:fish_bone"
         }
         ],
@@ -1120,7 +1108,7 @@ ServerEvents.recipes((event) => {
             "ACA",
             "BBB"
         ], {
-            A: "stone_age:leather_strip",
+            A: "#twr:advanced_string",
             B: "#forge:leather",
             C: "frostedheart:straw_lining"
         }
@@ -1133,7 +1121,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#forge:ingots/bronze",
             B: "#forge:rods/wooden",
-            C: "stone_age:leather_strip"
+            C: "#twr:advanced_string"
         }
         ],
         [
@@ -1345,9 +1333,8 @@ ServerEvents.recipes((event) => {
         ],
         [
             "minecraft:leather_boots", 1, [
-            "AAA",
-            "A A",
-            "B C"
+            "ABA",
+            "ACA"
         ], {
             A: "#forge:leather",
             B: "#forge:string",
@@ -1356,9 +1343,8 @@ ServerEvents.recipes((event) => {
         ],
         [
             "minecraft:leather_boots", 1, [
-            "A A",
-            "A A",
-            "B C"
+            "ABA",
+            "ACA"
         ], {
             A: "#forge:leather",
             B: "#forge:string",

@@ -9,7 +9,8 @@ ServerEvents.recipes((event) => {
             {output: '9x minecraft:lapis_lazuli', input: 'minecraft:lapis_block'},
             {output: '9x minecraft:netherite_ingot', input: 'minecraft:netherite_block'},
             {output: '4x frostedheart:charcoal_stick', input: 'kubejs:charcoal_briquette'},
-            {output: '4x frostedheart:coal_stick', input: 'kubejs:coal_briquette'}
+            {output: '4x frostedheart:coal_stick', input: 'kubejs:coal_briquette'},
+            {output: '12x create:shaft', input: 'frostedheart:cast_iron_ingot'},
         ]
     };
     let woods = []
