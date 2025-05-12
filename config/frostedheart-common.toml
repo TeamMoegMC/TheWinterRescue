@@ -37,8 +37,10 @@
 	enableDailyKitchen = true
 	#Enables the scenario system. 
 	enableScenario = true
+	#Enables the pooping mechanic through shifting.
+	enablePlayerPooping = true
 
 [AutoUpdate]
-	#Enable update reminder if later snapshot was found, DONT TOUCH UNLESS INSTUCTED BY DEV TEAM.
+	#Enable update reminder if later snapshot was found, DONT TOUCH UNLESS INSTRUCTED BY DEV TEAM.
 	enableUpdateReminder = true
 

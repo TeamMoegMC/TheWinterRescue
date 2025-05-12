@@ -115,7 +115,7 @@
           }
         ]
       },
-      "replaceable": "#the_winter_rescue:replaceable/sea_volcano_crater",
+      "replaceable": "#the_winter_rescue:stone",
       "surface": "floor",
       "vegetation_chance": 0,
       "vegetation_feature": "the_winter_rescue:nothing",

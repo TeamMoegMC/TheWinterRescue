@@ -15,4 +15,12 @@ ServerEvents.tags("worldgen/biome", (event) => {
       "minecraft:dripstone_caves",
       "minecraft:lush_caves"
     ])
+
+    event.add("frostedheart:not_winter", [
+        "the_winter_rescue:hydrothermal_deposits",
+        "the_winter_rescue:magmatic_deposits",
+        "the_winter_rescue:active_volcano",
+        "the_winter_rescue:volcanic_hills",
+        "the_winter_rescue:underwater_volcano",
+    ])
 })
