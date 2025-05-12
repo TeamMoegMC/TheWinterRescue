@@ -3,11 +3,11 @@
     "type": "minecraft:ore",
     "config": {
       "discard_chance_on_air_exposure": 0.0,
-      "size": 30,
+      "size": 25,
       "targets": [
         {
           "state": {
-            "Name": "frostedheart:pyrite_ore"
+            "Name": "frostedheart:cooled_magma_block"
           },
           "target": {
             "predicate_type": "minecraft:tag_match",
@@ -16,7 +16,7 @@
         },
         {
           "state": {
-            "Name": "frostedheart:deepslate_pyrite_ore"
+            "Name": "frostedheart:cooled_magma_block"
           },
           "target": {
             "predicate_type": "minecraft:tag_match",
@@ -39,7 +39,7 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 35
+          "absolute": -32
         },
         "min_inclusive": {
           "absolute": -48

@@ -30,16 +30,25 @@
     [
       "the_winter_rescue:cave/basalt"
     ],
-    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
     [
       "minecraft:amethyst_geode"
     ],
     [
-      "minecraft:monster_room"
+      "minecraft:monster_room_deep"
     ],
     [],
     [],
     [
+      "the_winter_rescue:cave/cooled_magma_ore",
+      "the_winter_rescue:cave/large_cooled_magma_ore",
+      "the_winter_rescue:cave/magma_ore",
+      "the_winter_rescue:cave/large_magma_ore",
+      "the_winter_rescue:cave/magmatic_nickel_ore",
+      "the_winter_rescue:cave/magmatic_gold_ore",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -54,10 +63,7 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:underwater_magma"
     ],
     [
     ],

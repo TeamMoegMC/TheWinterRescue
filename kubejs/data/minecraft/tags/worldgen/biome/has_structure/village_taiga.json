@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "minecraft:snowy_taiga",
+    "minecraft:lush_caves",
+    "the_winter_rescue:magmatic_deposits",
     "the_winter_rescue:hydrothermal_deposits",
     "the_winter_rescue:mycelium_caves",
     "the_winter_rescue:crust_chasms",

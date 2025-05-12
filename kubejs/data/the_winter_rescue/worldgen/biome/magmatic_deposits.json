@@ -38,12 +38,13 @@
       "minecraft:amethyst_geode"
     ],
     [
-      "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
     [],
     [],
     [
+      "the_winter_rescue:cave/cooled_magma_ore",
+      "the_winter_rescue:cave/large_cooled_magma_ore",
       "the_winter_rescue:cave/magmatic_copper_ore",
       "the_winter_rescue:cave/magmatic_iron_ore",
       "the_winter_rescue:cave/magmatic_tin_ore",

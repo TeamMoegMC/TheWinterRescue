@@ -1,9 +1,9 @@
 {
-  "the_winter_rescue:frostbough_forest": {
-    "r": 149,
-    "g": 213,
-    "b": 171,
-    "cave": false
+  "the_winter_rescue:andesite_caves": {
+    "r": 119,
+    "g": 119,
+    "b": 122,
+    "cave": true
   },
   "the_winter_rescue:hydrothermal_deposits": {
     "r": 253,
@@ -11,17 +11,17 @@
     "b": 34,
     "cave": false
   },
-  "the_winter_rescue:crust_chasms": {
-    "r": 253,
-    "g": 242,
-    "b": 34,
+  "the_winter_rescue:magmatic_deposits": {
+    "r": 238,
+    "g": 138,
+    "b": 2,
     "cave": true
   },
-  "the_winter_rescue:scree_pine_grove": {
-    "r": 142,
-    "g": 190,
-    "b": 147,
-    "cave": false
+  "the_winter_rescue:ice_caves": {
+    "r": 182,
+    "g": 247,
+    "b": 254,
+    "cave": true
   },
   "minecraft:grove": {
     "r": 106,
@@ -29,16 +29,34 @@
     "b": 151,
     "cave": false
   },
-  "the_winter_rescue:ironwinter_hollow": {
-    "r": 67,
-    "g": 136,
-    "b": 82,
-    "cave": false
+  "the_winter_rescue:mycelium_caves": {
+    "r": 165,
+    "g": 89,
+    "b": 249,
+    "cave": true
   },
   "minecraft:snowy_plains": {
     "r": 252,
     "g": 255,
     "b": 255,
     "cave": false
+  },
+  "the_winter_rescue:diorite_caves": {
+    "r": 204,
+    "g": 204,
+    "b": 204,
+    "cave": true
+  },
+  "the_winter_rescue:crust_chasms": {
+    "r": 253,
+    "g": 14,
+    "b": 8,
+    "cave": false
+  },
+  "the_winter_rescue:darkfang_caves": {
+    "r": 45,
+    "g": 40,
+    "b": 50,
+    "cave": true
   }
 }
