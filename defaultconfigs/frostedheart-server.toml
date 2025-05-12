@@ -91,7 +91,7 @@
 	#Range: > 1
 	snowAccumulationDifficulty = 16
 	#Biomes that are not considered winter biomes.
-	nonWinterBiomes = ["minecraft:nether_wastes", "minecraft:crimson_forest", "minecraft:warped_forest", "minecraft:basalt_deltas", "minecraft:soul_sand_valley", "minecraft:end_barrens", "minecraft:end_highlands", "minecraft:end_midlands", "minecraft:the_end", "minecraft:the_void", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"]
+	nonWinterBiomes = ["the_winter_rescue:active_volcano", "the_winter_rescue:volcanic_hills", "minecraft:nether_wastes", "minecraft:crimson_forest", "minecraft:warped_forest", "minecraft:basalt_deltas", "minecraft:soul_sand_valley", "minecraft:end_barrens", "minecraft:end_highlands", "minecraft:end_midlands", "minecraft:the_end", "minecraft:the_void", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean"]
 	#If true, the 'nonWinterBiomes' config option will be interpreted as a list of winter biomes, and all others will be ignored.
 	invertNonWinterBiomes = false
 	#Enables snow accumulation during world generation.
