@@ -664,4 +664,9 @@ ServerEvents.tags("item", (event) => {
         "kubejs:sawdust_briquette",
         "kubejs:straw_briquette"
     ])
+
+    event.add("twr:advanced_string", [
+        "minecraft:string",
+        "stone_age:leather_strip"
+    ])
 })

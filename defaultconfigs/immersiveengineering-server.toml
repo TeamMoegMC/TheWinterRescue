@@ -64,7 +64,7 @@
 		transferRate = 32768
 		#The percentage of power lost every 16 blocks of distance in hv wire
 		#Range: 0.0 ~ 1.0
-		loss = 0.025
+		loss = 0.001
 		#In- and output rates of hv wire connectors. This is independant of the transferrate of the wires.
 		#Range: > 0
 		wireConnectorInput = 4096
@@ -114,7 +114,7 @@
 	[machines.floodlight]
 		#How much Flux the floodlight draws per tick
 		#Range: > 1
-		energyDraw = 5
+		energyDraw = 2
 		#How much Flux the floodlight can hold (must be at least 10x the power draw)
 		#Range: > 1
 		max_storage = 80
@@ -302,7 +302,7 @@
 	[machines.sawmill]
 		#A modifier to apply to the energy costs of every sawmill recipe
 		#Range: 0.001 ~ 1000.0
-		energyModifier = 1.0
+		energyModifier = 0.25
 		#A modifier to apply to the time of every sawmill recipe
 		#Range: 0.001 ~ 1000.0
 		timeModifier = 1.0
@@ -318,7 +318,7 @@
 	[machines.fermenter]
 		#A modifier to apply to the energy costs of every fermenter recipe
 		#Range: 0.001 ~ 1000.0
-		energyModifier = 1.0
+		energyModifier = 0.25
 		#A modifier to apply to the time of every fermenter recipe
 		#Range: 0.001 ~ 1000.0
 		timeModifier = 1.0
@@ -326,7 +326,7 @@
 	[machines.squeezer]
 		#A modifier to apply to the energy costs of every squeezer recipe
 		#Range: 0.001 ~ 1000.0
-		energyModifier = 1.0
+		energyModifier = 0.25
 		#A modifier to apply to the time of every squeezer recipe
 		#Range: 0.001 ~ 1000.0
 		timeModifier = 1.0

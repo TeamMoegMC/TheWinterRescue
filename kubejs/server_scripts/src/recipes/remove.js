@@ -210,6 +210,9 @@ ServerEvents.recipes((event) => {
         "create:milling/sugar",
         "minecraft:sugar_from_sugar_cane",
         "minecraft:sugar",
+        "immersiveindustry:electrolyzer/aluminum",
+        "create:mixing/brass_ingot",
+        "create:cutting/andesite_alloy",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })
@@ -219,7 +222,6 @@ ServerEvents.recipes((event) => {
 		"storagedrawers:emerald_storage_upgrade",
 		"storagedrawers:diamond_storage_upgrade",
 		"storagedrawers:gold_storage_upgrade",
-		"create:brass_ingot",
 		"create:zinc_ingot",
 		"create:copper_ingot",
 		"#create:crushed_ores",
@@ -234,9 +236,18 @@ ServerEvents.recipes((event) => {
 		'supplementaries:cog_block',
 		'supplementaries:cannon',
 		'supplementaries:wrench',
-		'supplementaries:slingshot'
+		'supplementaries:slingshot',
+		'create:white_sail',
+		'create:sail_frame'
 	]
 	removeOnly.forEach((removeItem) => {
 		event.remove({ output: removeItem })
 	})
+
+	let inputItem = [
+        "minecraft:nether_quartz_ore",
+	]
+    inputItem.forEach((removeItem) => {
+        event.remove({ input : removeItem })
+    })
 })

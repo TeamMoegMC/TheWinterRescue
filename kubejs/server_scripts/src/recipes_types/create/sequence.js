@@ -49,4 +49,24 @@ ServerEvents.recipes((event) => {
         create.deploying("immersiveengineering:circuit_board", ["immersiveengineering:circuit_board", "immersiveengineering:wirecoil_copper"]),
         event.recipes.createFilling("immersiveengineering:circuit_board", ["immersiveengineering:circuit_board", Fluid.of("frostedheart:latex", 100)]),
     ]).transitionalItem("immersiveengineering:circuit_board").loops(4)
+
+    let cogMaterials = [
+        "bronze",
+        "cast_iron",
+        "steel"
+    ]
+    cogMaterials.forEach((material) => {
+        create.sequenced_assembly([
+            Item.of("12x steampowered:" + material + "_cogwheel")
+        ], "create:shaft", [
+            create.deploying("create:shaft", ["create:shaft", "#forge:plates/" + material])
+        ]).transitionalItem("create:shaft").loops(4)
+
+        create.sequenced_assembly([
+            Item.of("8x steampowered:" + material + "_large_cogwheel")
+        ], "create:shaft", [
+            create.deploying("create:shaft", ["create:shaft", "#forge:ingots/" + material]),
+            create.deploying("create:shaft", ["create:shaft", "#forge:plates/" + material])
+        ]).transitionalItem("create:shaft").loops(4)
+    })
 })

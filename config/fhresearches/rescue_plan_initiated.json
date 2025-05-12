@@ -26,17 +26,17 @@
       },
       "count": 64
     },
+	{
+      "base_ingredient": {
+        "item": "stone_age:fat"
+      },
+      "count": 16
+    },
     {
       "base_ingredient": {
         "tag": "caupona:meats"
       },
       "count": 64
-    },
-    {
-      "base_ingredient": {
-        "item": "stone_age:fat"
-      },
-      "count": 16
     },
     {
       "base_ingredient": {
