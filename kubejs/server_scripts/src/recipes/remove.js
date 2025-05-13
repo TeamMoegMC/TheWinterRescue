@@ -213,6 +213,8 @@ ServerEvents.recipes((event) => {
         "immersiveindustry:electrolyzer/aluminum",
         "create:mixing/brass_ingot",
         "create:cutting/andesite_alloy",
+        "create:crafting/kinetics/linear_chassis",
+        "create:crafting/kinetics/radial_chassis",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

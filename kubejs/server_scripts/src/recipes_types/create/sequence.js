@@ -50,6 +50,14 @@ ServerEvents.recipes((event) => {
         event.recipes.createFilling("immersiveengineering:circuit_board", ["immersiveengineering:circuit_board", Fluid.of("frostedheart:latex", 100)]),
     ]).transitionalItem("immersiveengineering:circuit_board").loops(4)
 
+    create.sequenced_assembly([
+        Item.of("create:precision_mechanism")
+    ], "create:brass_sheet", [
+        create.cutting('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism']),
+        create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', "#the_winter_rescue:cogwheels"]),
+        create.deploying('create:incomplete_precision_mechanism', ['create:incomplete_precision_mechanism', 'create:electron_tube'])
+    ]).transitionalItem('create:incomplete_precision_mechanism').loops(1)
+
     let cogMaterials = [
         "bronze",
         "cast_iron",
@@ -59,14 +67,16 @@ ServerEvents.recipes((event) => {
         create.sequenced_assembly([
             Item.of("12x steampowered:" + material + "_cogwheel")
         ], "create:shaft", [
-            create.deploying("create:shaft", ["create:shaft", "#forge:plates/" + material])
+            create.deploying("create:shaft", ["create:shaft", "#forge:plates/" + material]),
+            create.cutting("create:shaft", ["create:shaft"])
         ]).transitionalItem("create:shaft").loops(4)
 
         create.sequenced_assembly([
             Item.of("8x steampowered:" + material + "_large_cogwheel")
         ], "create:shaft", [
             create.deploying("create:shaft", ["create:shaft", "#forge:ingots/" + material]),
-            create.deploying("create:shaft", ["create:shaft", "#forge:plates/" + material])
+            create.deploying("create:shaft", ["create:shaft", "#forge:plates/" + material]),
+            create.cutting("create:shaft", ["create:shaft"])
         ]).transitionalItem("create:shaft").loops(4)
     })
 })

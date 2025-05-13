@@ -100,7 +100,6 @@ ServerEvents.recipes((event) => {
             input: '2x #forge:plates/constantan',
             mold: 'immersiveengineering:mold_wire'
         },
-        {output: 'kubejs:constantan_coil', input: '4x #forge:ingots/constantan', mold: 'immersiveengineering:mold_wire'}
     ]
     recipes_mold_plate.forEach((recipe) => {
         event.recipes.immersiveengineering.metal_press(recipe.output, recipe.input, 'immersiveengineering:mold_plate');

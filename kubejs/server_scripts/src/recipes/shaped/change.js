@@ -601,19 +601,18 @@ ServerEvents.recipes((event) => {
             "BBB",
             "  A"
         ], {
-            A: "#forge:ingots/iron",
+            A: "#forge:rods/iron",
             B: "#minecraft:planks",
             C: "create:shaft"
         }
         ],
         [
-            "create:gantry_shaft", 2, [
-            "BAD",
-            "BCB",
-            "DAB"
+            "create:gantry_shaft", 3, [
+            "DAD",
+            "CAC",
+            "DAD"
         ], {
             A: "#forge:rods/cast_iron",
-            B: "#forge:ingots/cast_iron",
             C: "#forge:dusts/redstone",
             D: "#minecraft:planks"
         }
@@ -1015,6 +1014,66 @@ ServerEvents.recipes((event) => {
             B: "#forge:rods/wooden",
             C: "#twr:advanced_string"
         }
+        ],
+        [
+            "create:mechanical_plough", [
+                " A ",
+                "BAB",
+                " C "
+            ], {
+                A: "#forge:plates/cast_iron",
+                B: "#forge:ingots/iron",
+                C: "create:andesite_casing"
+            }
+        ],
+        [
+            "create:mechanical_harvester", [
+                "BAB",
+                "BAB",
+                " C "
+            ], {
+                A: "#forge:rods/cast_iron",
+                B: "#forge:ingots/iron",
+                C: "create:andesite_casing"
+            }
+        ],
+        [
+            "create:metal_girder", 16, [
+                "BAB",
+            ], {
+                A: "#forge:rods/cast_iron",
+                B: "#forge:ingots/cast_iron",
+            }
+        ],
+        [
+            "create:display_board", 2, [
+                "AB",
+            ], {
+                A: "#forge:plates/cast_iron",
+                B: "create:electron_tube",
+            }
+        ],
+        [
+            "create:hose_pulley", [
+                " A ",
+                "BBB",
+                " C ",
+            ], {
+                A: "create:copper_casing",
+                B: "frostedheart:vulcanized_rubber",
+                C: "#forge:plates/copper",
+            }
+        ],
+        [
+            "create:elevator_pulley", [
+                " A ",
+                "BBB",
+                " C ",
+            ], {
+                A: "create:brass_casing",
+                B: "frostedheart:vulcanized_rubber",
+                C: "#forge:plates/cast_iron",
+            }
         ],
 
     ]

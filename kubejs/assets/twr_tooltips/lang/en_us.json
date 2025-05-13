@@ -59,6 +59,14 @@
   "item.kubejs.damaged_camera.tooltip.condition1": "When Inspected In Drawing Desk",
   "item.kubejs.damaged_camera.tooltip.behaviour1": "Grants _Insight_.",
 
+  "item.kubejs.broken_robot_1.tooltip.summary": "A line of small characters is carved at the place where it was discovered: \"What is my purpose?\"",
+  "item.kubejs.broken_robot_1.tooltip.condition1": "When Inspected In Drawing Desk",
+  "item.kubejs.broken_robot_1.tooltip.behaviour1": "Grants _Insight_.",
+
+  "item.kubejs.broken_robot_2.tooltip.summary": "",
+  "item.kubejs.broken_robot_2.tooltip.condition1": "When Inspected In Drawing Desk",
+  "item.kubejs.broken_robot_2.tooltip.behaviour1": "Grants _Insight_.",
+
   "item.frostedheart.copper_pro_pick.tooltip.summary": "A specialized tool used for geological exploration and mineral discovery.",
   "item.frostedheart.copper_pro_pick.tooltip.condition1": "Right-click On the Ground While Holding It With Your Main Hand.",
   "item.frostedheart.copper_pro_pick.tooltip.behaviour1": "Exploring the general ore distribution in a certain area.",

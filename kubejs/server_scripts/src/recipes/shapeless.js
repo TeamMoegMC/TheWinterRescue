@@ -57,6 +57,8 @@ ServerEvents.recipes((event) => {
 		shapelessRecipe("2x stone_age:fish_bone",["minecraft:bone","immersiveengineering:wirecutter"]),
 		shapelessRecipe("3x immersiveengineering:fertilizer",["#frostedheart:potassium_rich", "#frostedheart:nitrogen_rich", "#frostedheart:phosphorous_rich"]),
 		shapelessRecipe("6x minecraft:gunpowder",["#forge:dusts/sulfur", "minecraft:charcoal", "#forge:dusts/saltpeter", "3x minecraft:sugar"]),
+		shapelessRecipe("2x immersiveengineering:wirecoil_copper_ins", ["2x immersiveengineering:wirecoil_copper", "frostedheart:vulcanized_rubber"]),
+		shapelessRecipe("2x immersiveengineering:wirecoil_electrum_ins", ["2x immersiveengineering:wirecoil_electrum", "frostedheart:vulcanized_rubber"]),
     ]
     addShapelessRecipes.forEach((recipe, index) => {
 		if(!Array.isArray(recipe.ingredients)){

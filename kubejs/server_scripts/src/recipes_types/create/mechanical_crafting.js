@@ -63,16 +63,16 @@ ServerEvents.recipes((event) => {
             F: "create:shaft"
         }),
         shapedRecipe("frostedresearch:mechanical_calculator", [
-            "GHHHG",
-            "ABABA",
-            "BDDDB",
-            "PIAAA",
-            "PDDDD"
+            "HHHHH",
+            "APAIA",
+            "BDCDB",
+            "APAAA",
+            "HHHHH"
         ], {
             A: "steampowered:cast_iron_cogwheel",
             B: "create:shaft",
+            C: "create:andesite_casing",
             D: "create:precision_mechanism",
-            G: "#forge:plates/cast_iron",
             H: "#forge:treated_wood",
             I: "minecraft:bell",
             P: "minecraft:piston"
@@ -135,15 +135,16 @@ ServerEvents.recipes((event) => {
 
     let workbench_recipes = [
         shapedRecipe("create:rotation_speed_controller", [
-            "AEDEA",
+            " AEA ",
             "CDBDC",
-            "AEDEA"
+            " AFA "
         ], {
-            A: "create:brass_sheet",
+            A: "#forge:plates/brass",
             B: "create:brass_casing",
             C: "create:shaft",
             D: "#the_winter_rescue:cogwheels",
-            E: "create:electron_tube"
+            E: "create:electron_tube",
+            F: "create:precision_mechanism"
         })
     ]
     workbench_recipes.forEach((recipe) => {

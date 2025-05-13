@@ -36,7 +36,7 @@
   "item.frostedheart.ice_skates.tooltip.behaviour1": "提升移动速度_.",
 
   "item.kubejs.damaged_gpu.tooltip.summary": "一个曾用于非法挖币工厂的、现在已经损坏的显卡",
-  "item.kubejs.damaged_gpu.tooltip.condition1": "当用于绘图台",
+  "item.kubejs.damaged_gpu.tooltip.condition1": "当在绘图台中使用时",
   "item.kubejs.damaged_gpu.tooltip.behaviour1": "获得_见闻_.",
 
   "item.frostedheart.energy_core.tooltip.summary": "一个会发光的核心。",
@@ -94,6 +94,14 @@
   "item.kubejs.damaged_camera.tooltip.summary": "一个破损的记者相机.",
   "item.kubejs.damaged_camera.tooltip.condition1": "当在绘图台中使用时",
   "item.kubejs.damaged_camera.tooltip.behaviour1": "获得_见闻_.",
+
+  "item.kubejs.broken_robot_1.tooltip.summary": "其发现处刻着一行小字: “我的意义是什么?”",
+  "item.kubejs.broken_robot_1.tooltip.condition1": "当在绘图台中使用时",
+  "item.kubejs.broken_robot_1.tooltip.behaviour1": "获得_见闻_.",
+
+  "item.kubejs.broken_robot_2.tooltip.summary": "",
+  "item.kubejs.broken_robot_2.tooltip.condition1": "当在绘图台中使用时",
+  "item.kubejs.broken_robot_2.tooltip.behaviour1": "获得_见闻_.",
 
   "item.frostedheart.temperature_probe.tooltip.summary": "一个用于了解方块温度的便携工具。",
   "item.frostedheart.temperature_probe.tooltip.condition1": "当持于任意手中时",

@@ -158,7 +158,143 @@ ServerEvents.recipes((event) => {
                 Item.of("create:experience_nugget").withChance(0.75)
             ],
             input: "minecraft:raw_copper"
-        }
+        },
+        // magnesium
+        {
+            output: [Item.of("#forge:dusts/magnesium")],
+            input: "#forge:ingots/magnesium"
+        },
+        // garbage
+        {
+            output: [
+                Item.of("11x frostedheart:rusted_copper_nugget"),
+                Item.of("frostedheart:vulcanized_rubber").withChance(0.25),
+                Item.of("#forge:wires/copper").withChance(0.1),
+            ],
+            input: "frostedheart:cable"
+        },
+        {
+            output: [
+                Item.of("15x frostedheart:rusted_copper_nugget"),
+                Item.of("7x frostedheart:rusted_iron_nugget").withChance(1),
+                Item.of("#forge:wires/copper").withChance(0.1),
+            ],
+            input: "frostedheart:deflection_coil"
+        },
+        {
+            output: [
+                Item.of("11x frostedheart:rusted_iron_nugget"),
+                Item.of("immersiveengineering:insulating_glass").withChance(0.1),
+            ],
+            input: "frostedheart:insulator"
+        },
+        {
+            output: [
+                Item.of("15x frostedheart:rusted_copper_nugget"),
+                Item.of("7x frostedheart:rusted_iron_nugget").withChance(1),
+                Item.of("#forge:wires/copper").withChance(0.1),
+            ],
+            input: "frostedheart:stator"
+        },
+        {
+            output: [
+                Item.of("12x frostedheart:rusted_iron_nugget"),
+            ],
+            input: "frostedheart:iron_fence_remains"
+        },
+        {
+            output: [
+                Item.of("12x frostedheart:rusted_iron_nugget"),
+            ],
+            input: "frostedheart:iron_parts"
+        },
+        {
+            output: [
+                Item.of("12x frostedheart:rusted_iron_nugget"),
+            ],
+            input: "frostedheart:iron_plating"
+        },
+        {
+            output: [
+                Item.of("12x frostedheart:rusted_iron_nugget"),
+            ],
+            input: "frostedheart:iron_truss_remains"
+        },
+        {
+            output: [
+                Item.of("frostedheart:aluminum_nugget"),
+            ],
+            input: "frostedheart:silicone_grease"
+        },
+        {
+            output: [
+                Item.of("2x frostedheart:lead_dust"),
+                Item.of("frostedheart:sawdust").withChance(1),
+            ],
+            input: "frostedheart:lead_acid_battery"
+        },
+        {
+            output: [
+                Item.of("frostedheart:sawdust"),
+                Item.of("minecraft:gold_nugget").withChance(1),
+                Item.of("2x frostedheart:aluminum_nugget").withChance(1),
+                Item.of("4x frostedheart:aluminum_nugget").withChance(0.25),
+            ],
+            input: "kubejs:damaged_gpu"
+        },
+        {
+            output: [
+                Item.of("frostedheart:sawdust"),
+                Item.of("minecraft:gold_nugget").withChance(1),
+                Item.of("frostedheart:aluminum_nugget").withChance(0.5),
+            ],
+            input: "kubejs:damaged_circuit_board"
+        },
+        {
+            output: [
+                Item.of("frostedheart:sawdust"),
+                Item.of("minecraft:gold_nugget").withChance(1),
+                Item.of("supplementaries:ash").withChance(0.75),
+            ],
+            input: "kubejs:burnt_circuit_board"
+        },
+        {
+            output: [
+                Item.of("6x frostedheart:rusted_iron_nugget"),
+                Item.of("minecraft:gold_nugget").withChance(1),
+                Item.of("4x frostedheart:rusted_copper_nugget").withChance(0.75),
+                Item.of("frostedheart:aluminum_nugget").withChance(0.5),
+                Item.of("frostedheart:copper_wire").withChance(0.05),
+            ],
+            input: "kubejs:broken_robot_1"
+        },
+        {
+            output: [
+                Item.of("4x frostedheart:aluminum_nugget"),
+                Item.of("minecraft:gold_nugget").withChance(1),
+                Item.of("4x frostedheart:rusted_copper_nugget").withChance(0.75),
+                Item.of("frostedheart:titanium_nugget").withChance(0.1),
+                Item.of("frostedheart:copper_wire").withChance(0.05),
+            ],
+            input: "kubejs:broken_robot_2"
+        },
+        {
+            output: [
+                Item.of("8x frostedheart:rusted_iron_nugget"),
+                Item.of("4x frostedheart:rusted_copper_nugget").withChance(0.75),
+                Item.of("minecraft:gold_nugget").withChance(0.5),
+                Item.of("minecraft:sand").withChance(0.25),
+            ],
+            input: "kubejs:damaged_camera"
+        },
+        {
+            output: [
+                Item.of("11x frostedheart:rusted_copper_nugget"),
+                Item.of("6x frostedheart:rusted_iron_nugget").withChance(1),
+                Item.of("frostedheart:copper_wire").withChance(0.1),
+            ],
+            input: "kubejs:damaged_electric_motor"
+        },
 
     ]
     recipes.forEach((recipe, index) => {

@@ -58,7 +58,7 @@ ServerEvents.recipes((event) => {
         ["minecraft:gold_ingot", "#forge:dusts/gold", 200, false],
 
         ["frostedheart:electrum_ingot", "#forge:dusts/electrum", 200, false],
-        ["frostedheart:alumina_dust", "#forge:dusts/aluminum_hydroxide", 200, false],
+        ["frostedheart:alumina_dust", "#forge:dusts/aluminum_hydroxide", 40, false],
 
     ]
 

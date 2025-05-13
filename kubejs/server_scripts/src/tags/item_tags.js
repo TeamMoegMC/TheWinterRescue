@@ -202,7 +202,6 @@ ServerEvents.tags("item", (event) => {
     ])
 
     event.add("twr:sharp_materials", [
-        "frostedheart:cable",
         "frostedheart:deflection_coil",
         "frostedheart:insulator",
         "frostedheart:iron_fence_remains",
@@ -217,6 +216,7 @@ ServerEvents.tags("item", (event) => {
         "frostedheart:insulator",
         "frostedheart:iron_fence_remains",
         "frostedheart:iron_plating",
+        "frostedheart:iron_parts",
         "frostedheart:iron_truss_remains",
         "frostedheart:rusted_iron_ingot"
     ])

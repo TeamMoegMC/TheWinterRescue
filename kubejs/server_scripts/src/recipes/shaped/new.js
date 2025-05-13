@@ -273,9 +273,8 @@ ServerEvents.recipes((event) => {
         ],
         [
             "frostedresearch:rubbing_pad", [
-            "AAA",
-            "BBB",
-            "AAA"
+            "A",
+            "B",
         ], {
             A: "#forge:plates/cast_iron",
             B: "#forge:ingots/cast_iron"
@@ -388,7 +387,7 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "frostedheart:heat_pipe", 3, [
+            "frostedheart:heat_pipe", 6, [
             " B ",
             "ACA",
             " B "
@@ -546,13 +545,14 @@ ServerEvents.recipes((event) => {
         ],
         [
             "create:precision_mechanism", [
-            "CAC",
-            "BCB",
-            "CAC"
+            " B ",
+            "DCD",
+            " A "
         ], {
             A: "#forge:plates/brass",
             B: "create:electron_tube",
-            C: "create:shaft"
+            C: "create:shaft",
+            D: "#the_winter_rescue:cogwheels"
         }
         ],
         [
@@ -1235,9 +1235,9 @@ ServerEvents.recipes((event) => {
             "ACA",
             "ACA"
         ], {
-            A: "minecraft:iron_ingot",
+            A: "#forge:rods/iron",
             B: "#forge:rods/wooden",
-            C: "minecraft:gold_block"
+            C: "#forge:plates/gold"
         }
         ],
         [
@@ -1414,7 +1414,62 @@ ServerEvents.recipes((event) => {
             ], {
                 A: "stone_age:grass_lead"
             }
-        ]
+        ],
+        [
+            "kubejs:constantan_coil", 4, [
+                " A ",
+                "ABA",
+                " A "
+            ], {
+                A: "#forge:wires/constantan",
+                B: "#forge:rods/wooden"
+            }
+        ],
+        [
+            "frostedheart:rusted_copper_ingot", 1, [
+                "AAA",
+                "AAA",
+                "AAA"
+            ], {
+                A: "frostedheart:rusted_copper_nugget",
+            }
+        ],
+        [
+            "frostedheart:rusted_iron_ingot", 1, [
+                "AAA",
+                "AAA",
+                "AAA"
+            ], {
+                A: "frostedheart:rusted_iron_nugget",
+            }
+        ],
+        [
+            "frostedheart:gray_tin_ingot", 1, [
+                "AAA",
+                "AAA",
+                "AAA"
+            ], {
+                A: "frostedheart:gray_tin_nugget",
+            }
+        ],
+        [
+            "create:linear_chassis", 4, [
+                "BAB",
+            ], {
+                A: "#forge:plates/cast_iron",
+                B: "#minecraft:logs",
+            }
+        ],
+        [
+            "create:radial_chassis", 4, [
+                "B",
+                "A",
+                "B",
+            ], {
+                A: "#forge:plates/cast_iron",
+                B: "#minecraft:logs",
+            }
+        ],
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [

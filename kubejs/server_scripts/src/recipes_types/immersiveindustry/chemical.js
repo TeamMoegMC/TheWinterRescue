@@ -143,7 +143,7 @@ ServerEvents.recipes((event) => {
         {
             output: ["2x create:rose_quartz"],
             input_fluid: [FluidTag("minecraft:water", 1000)],
-            input: ["minecraft:quartz", "6x minecraft:redstone"]
+            input: ["minecraft:quartz", "8x minecraft:redstone"]
         }
     ]
 	recipes.forEach((recipe) => {
