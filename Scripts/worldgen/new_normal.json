@@ -1,0 +1,757 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "biomes": [
+            {
+              "biome": "minecraft:deep_frozen_ocean",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -1.05,
+                  -0.455
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  1.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "minecraft:frozen_ocean",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.455,
+                  -0.19
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  1.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:darkfang_caves",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.55
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.75,
+                  1.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "minecraft:lush_caves",
+              "parameters": {
+                "temperature": [
+                  0.55,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.75,
+                  1.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:hydrothermal_deposits",
+              "parameters": {
+                "temperature": [
+                  0.55,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.5,
+                  0.75
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:magmatic_deposits",
+              "parameters": {
+                "temperature": [
+                  0.55,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.6,
+                  0.8
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.75,
+                  1.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:crust_chasms",
+              "parameters": {
+                "temperature": [
+                  0.55,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.8,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.75,
+                  1.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:diorite_caves",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.5,
+                  0.75
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "minecraft:dripstone_caves",
+              "parameters": {
+                "temperature": [
+                  -0.15,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.0,
+                  0.25
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:ice_caves",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  -0.15
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.0,
+                  0.25
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:brine_deposits",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "erosion": [
+                  0.05,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.0,
+                  0.25
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:andesite_caves",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.55
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.0,
+                  0.25
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:mycelium_caves",
+              "parameters": {
+                "temperature": [
+                  0.55,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.0,
+                  0.25
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "minecraft:frozen_river",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.11,
+                  1.0
+                ],
+                "erosion": [
+                  0.55,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  0.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "minecraft:snowy_plains",
+              "parameters": {
+                "temperature": [
+                  -0.15,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.1
+                ],
+                "continentalness": [
+                  0.03,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.375
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  0.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "minecraft:ice_spikes",
+              "parameters": {
+                "temperature": [
+                  -1.0,
+                  -0.45
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "continentalness": [
+                  0.03,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.375
+                ],
+                "weirdness": [
+                  0.2,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  0.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "parameters": {
+                "temperature": [
+                  0.2,
+                  0.55
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.1
+                ],
+                "continentalness": [
+                  0.03,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.375
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  0.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "minecraft:snowy_taiga",
+              "parameters": {
+                "temperature": [
+                  -0.15,
+                  0.2
+                ],
+                "humidity": [
+                  -0.1,
+                  0.1
+                ],
+                "continentalness": [
+                  0.03,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.375
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  0.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:destroyed_forest",
+              "parameters": {
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  -0.1,
+                  0.1
+                ],
+                "continentalness": [
+                  0.03,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.375
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  0.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:destroyed_birch_forest",
+              "parameters": {
+                "temperature": [
+                  -0.15,
+                  0.2
+                ],
+                "humidity": [
+                  -0.1,
+                  0.1
+                ],
+                "continentalness": [
+                  0.03,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.375
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  0.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:nature/frostbough_forest",
+              "parameters": {
+                "temperature": [
+                  0.2,
+                  0.55
+                ],
+                "humidity": [
+                  0.1,
+                  0.3
+                ],
+                "continentalness": [
+                  0.03,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.375
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  0.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:nature/ironwinter_hollow",
+              "parameters": {
+                "temperature": [
+                  0.2,
+                  0.55
+                ],
+                "humidity": [
+                  0.3,
+                  0.6
+                ],
+                "continentalness": [
+                  0.03,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.375
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  0.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "minecraft:badlands",
+              "parameters": {
+                "temperature": [
+                  0.55,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.03,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.375
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  0.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:nature/destroyed_marsh",
+              "parameters": {
+                "temperature": [
+                  0.2,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.11,
+                  1.0
+                ],
+                "erosion": [
+                  0.55,
+                  1.0
+                ],
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  -0.01,
+                  0.0
+                ],
+                "offset": 0
+              }
+            }
+          ]
+        },
+        "settings": "minecraft:overworld"
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        },
+        "settings": "minecraft:end"
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:nether"
+        },
+        "settings": "minecraft:nether"
+      }
+    }
+  }
+}
