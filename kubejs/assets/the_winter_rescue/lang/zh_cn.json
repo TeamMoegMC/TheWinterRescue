@@ -16,7 +16,7 @@
   "biome.the_winter_rescue.nature/destroyed_marsh": "被摧毁的冰沼",
   "biome.the_winter_rescue.nature/frostbough_forest": "霜枝森林",
   "biome.the_winter_rescue.nature/frostpine_grove": "霜松树林",
-  "biome.the_winter_rescue.nature/glacier": "冰川",
+  "biome.the_winter_rescue.nature/glacier": "大陆冰川",
   "biome.the_winter_rescue.nature/ironwinter_hollow": "铁冬空谷",
   "biome.the_winter_rescue.nature/scree_pine_grove": "岩屑松林",
   "biome.the_winter_rescue.nature/slabback_massif": "板岩山体",
@@ -25,5 +25,8 @@
   "biome.the_winter_rescue.darkfang_caves": "深板岩洞穴",
   "biome.the_winter_rescue.diorite_caves": "闪长岩洞穴",
   "biome.the_winter_rescue.ice_caves": "冰霜洞穴",
-  "biome.the_winter_rescue.mycelium_caves": "菌丝洞穴"
+  "biome.the_winter_rescue.mycelium_caves": "菌丝洞穴",
+    "biome.the_winter_rescue.underwater_volcano": "海底火山",
+  "biome.the_winter_rescue.active_volcano": "活火山",
+  "biome.the_winter_rescue.volcanic_hills": "火山坡"
 }

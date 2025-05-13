@@ -1,32 +1,14 @@
 {
-  "the_winter_rescue:andesite_caves": {
-    "r": 119,
-    "g": 119,
-    "b": 122,
-    "cave": false
-  },
-  "the_winter_rescue:hydrothermal_deposits": {
-    "r": 253,
-    "g": 242,
-    "b": 34,
-    "cave": false
-  },
-  "the_winter_rescue:magmatic_deposits": {
-    "r": 238,
-    "g": 138,
-    "b": 2,
+  "the_winter_rescue:nature/destroyed_marsh": {
+    "r": 41,
+    "g": 72,
+    "b": 15,
     "cave": false
   },
   "the_winter_rescue:ice_caves": {
-    "r": 182,
-    "g": 247,
-    "b": 254,
-    "cave": false
-  },
-  "minecraft:grove": {
-    "r": 106,
-    "g": 246,
-    "b": 151,
+    "r": 140,
+    "g": 179,
+    "b": 214,
     "cave": false
   },
   "the_winter_rescue:mycelium_caves": {
@@ -41,16 +23,70 @@
     "b": 255,
     "cave": false
   },
+  "minecraft:stony_shore": {
+    "r": 73,
+    "g": 84,
+    "b": 98,
+    "cave": false
+  },
   "the_winter_rescue:underwater_volcano": {
     "r": 140,
     "g": 47,
     "b": 13,
     "cave": false
   },
+  "the_winter_rescue:nature/snowy_shrubland": {
+    "r": 90,
+    "g": 129,
+    "b": 87,
+    "cave": false
+  },
   "the_winter_rescue:diorite_caves": {
     "r": 204,
     "g": 204,
     "b": 204,
+    "cave": false
+  },
+  "the_winter_rescue:fossil_deposits": {
+    "r": 62,
+    "g": 2,
+    "b": 121,
+    "cave": false
+  },
+  "the_winter_rescue:andesite_caves": {
+    "r": 119,
+    "g": 119,
+    "b": 122,
+    "cave": false
+  },
+  "the_winter_rescue:hydrothermal_deposits": {
+    "r": 253,
+    "g": 242,
+    "b": 34,
+    "cave": false
+  },
+  "minecraft:frozen_ocean": {
+    "r": 31,
+    "g": 73,
+    "b": 227,
+    "cave": false
+  },
+  "the_winter_rescue:magmatic_deposits": {
+    "r": 238,
+    "g": 138,
+    "b": 2,
+    "cave": false
+  },
+  "minecraft:deep_frozen_ocean": {
+    "r": 1,
+    "g": 48,
+    "b": 101,
+    "cave": false
+  },
+  "minecraft:grove": {
+    "r": 106,
+    "g": 246,
+    "b": 151,
     "cave": false
   },
   "the_winter_rescue:crust_chasms": {
