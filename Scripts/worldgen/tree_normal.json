@@ -166,156 +166,6 @@
                 ],
                 "depth": [
                   0.2,
-                  0.35
-                ],
-                "erosion": [
-                  -1.0,
-                  1.0
-                ],
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "temperature": [
-                  -1.0,
-                  0.35
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0
-              }
-            },
-            {
-              "biome": "the_winter_rescue:mycelium_caves",
-              "parameters": {
-                "weirdness": [
-                  -1.0,
-                  1.0
-                ],
-                "depth": [
-                  0.2,
-                  0.35
-                ],
-                "erosion": [
-                  -1.0,
-                  1.0
-                ],
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "temperature": [
-                  0.35,
-                  0.75
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0
-              }
-            },
-            {
-              "biome": "the_winter_rescue:ice_caves",
-              "parameters": {
-                "weirdness": [
-                  -1.0,
-                  1.0
-                ],
-                "depth": [
-                  0.2,
-                  0.35
-                ],
-                "erosion": [
-                  -1.0,
-                  0.05
-                ],
-                "continentalness": [
-                  -0.19,
-                  0.3
-                ],
-                "temperature": [
-                  -1.0,
-                  -0.15
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0
-              }
-            },
-            {
-              "biome": "minecraft:dripstone_caves",
-              "parameters": {
-                "weirdness": [
-                  -1.0,
-                  1.0
-                ],
-                "depth": [
-                  0.2,
-                  0.35
-                ],
-                "erosion": [
-                  -1.0,
-                  0.05
-                ],
-                "continentalness": [
-                  -0.19,
-                  0.3
-                ],
-                "temperature": [
-                  -0.15,
-                  0.75
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0
-              }
-            },
-            {
-              "biome": "the_winter_rescue:brine_deposits",
-              "parameters": {
-                "weirdness": [
-                  -1.0,
-                  1.0
-                ],
-                "depth": [
-                  0.2,
-                  0.35
-                ],
-                "erosion": [
-                  0.05,
-                  1.0
-                ],
-                "continentalness": [
-                  -0.19,
-                  0.3
-                ],
-                "temperature": [
-                  -1.0,
-                  0.75
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0
-              }
-            },
-            {
-              "biome": "the_winter_rescue:andesite_caves",
-              "parameters": {
-                "weirdness": [
-                  -1.0,
-                  1.0
-                ],
-                "depth": [
-                  0.35,
                   0.5
                 ],
                 "erosion": [
@@ -345,7 +195,7 @@
                   1.0
                 ],
                 "depth": [
-                  0.35,
+                  0.2,
                   0.5
                 ],
                 "erosion": [
@@ -375,7 +225,7 @@
                   1.0
                 ],
                 "depth": [
-                  0.35,
+                  0.2,
                   0.5
                 ],
                 "erosion": [
@@ -405,7 +255,7 @@
                   1.0
                 ],
                 "depth": [
-                  0.35,
+                  0.2,
                   0.5
                 ],
                 "erosion": [
@@ -435,7 +285,7 @@
                   1.0
                 ],
                 "depth": [
-                  0.35,
+                  0.2,
                   0.5
                 ],
                 "erosion": [
