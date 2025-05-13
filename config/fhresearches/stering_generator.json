@@ -24,10 +24,7 @@
       "value": 0.05,
       "id": "aee1b1345bfd4a02",
       "item": {
-        "type": "forge:nbt",
-        "item": "frostedheart:steam_bottle",
-        "count": 1,
-        "nbt": "{energy:240}"
+        "item": "frostedheart:steam_bottle"
       },
       "consume": true,
       "type": "item"
