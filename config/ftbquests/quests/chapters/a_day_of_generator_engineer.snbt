@@ -152,7 +152,7 @@
 			tasks: [
 				{
 					id: "5B0C6258A0BE4353"
-					item: "immersiveengineering:light_engineering"
+					item: "steampowered:cast_iron_boiler"
 					type: "item"
 				}
 				{

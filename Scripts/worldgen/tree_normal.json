@@ -8,7 +8,7 @@
           "type": "minecraft:multi_noise",
           "biomes": [
             {
-              "biome": "minecraft:deep_frozen_ocean",
+              "biome": "the_winter_rescue:active_volcano",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -28,36 +28,6 @@
                 ],
                 "temperature": [
                   -1.0,
-                  0.85
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0
-              }
-            },
-            {
-              "biome": "the_winter_rescue:underwater_volcano",
-              "parameters": {
-                "weirdness": [
-                  -1.0,
-                  1.0
-                ],
-                "depth": [
-                  -0.005,
-                  0.2
-                ],
-                "erosion": [
-                  -1.0,
-                  1.0
-                ],
-                "continentalness": [
-                  -1.2,
-                  -1.05
-                ],
-                "temperature": [
-                  0.85,
                   1.0
                 ],
                 "humidity": [
@@ -145,6 +115,36 @@
                 "continentalness": [
                   -0.455,
                   -0.19
+                ],
+                "temperature": [
+                  -1.0,
+                  1.0
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0
+              }
+            },
+            {
+              "biome": "the_winter_rescue:crust_chasms",
+              "parameters": {
+                "weirdness": [
+                  -1.0,
+                  1.0
+                ],
+                "depth": [
+                  0.2,
+                  1.0
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  -1.2,
+                  -1.05
                 ],
                 "temperature": [
                   -1.0,
@@ -473,7 +473,7 @@
                   1.0
                 ],
                 "continentalness": [
-                  -1.2,
+                  -1.05,
                   -0.19
                 ],
                 "temperature": [
@@ -503,7 +503,7 @@
                   1.0
                 ],
                 "continentalness": [
-                  -1.2,
+                  -1.05,
                   -0.19
                 ],
                 "temperature": [
@@ -533,7 +533,7 @@
                   1.0
                 ],
                 "continentalness": [
-                  -1.2,
+                  -1.05,
                   -0.19
                 ],
                 "temperature": [
@@ -563,7 +563,7 @@
                   1.0
                 ],
                 "continentalness": [
-                  -1.2,
+                  -1.05,
                   -0.19
                 ],
                 "temperature": [
@@ -593,7 +593,7 @@
                   1.0
                 ],
                 "continentalness": [
-                  -1.2,
+                  -1.05,
                   -0.19
                 ],
                 "temperature": [
@@ -803,7 +803,7 @@
                   1.0
                 ],
                 "continentalness": [
-                  -1.2,
+                  -1.05,
                   -0.19
                 ],
                 "temperature": [
@@ -833,7 +833,7 @@
                   1.0
                 ],
                 "continentalness": [
-                  -1.2,
+                  -1.05,
                   -0.19
                 ],
                 "temperature": [
@@ -863,7 +863,7 @@
                   1.0
                 ],
                 "continentalness": [
-                  -1.2,
+                  -1.05,
                   -0.19
                 ],
                 "temperature": [
@@ -893,7 +893,7 @@
                   1.0
                 ],
                 "continentalness": [
-                  -1.2,
+                  -1.05,
                   -0.19
                 ],
                 "temperature": [
@@ -923,7 +923,7 @@
                   1.0
                 ],
                 "continentalness": [
-                  -1.2,
+                  -1.05,
                   -0.19
                 ],
                 "temperature": [
@@ -2408,7 +2408,7 @@
               }
             },
             {
-              "biome": "minecraft:snowy_beach",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -2468,7 +2468,7 @@
               }
             },
             {
-              "biome": "minecraft:desert",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.05,

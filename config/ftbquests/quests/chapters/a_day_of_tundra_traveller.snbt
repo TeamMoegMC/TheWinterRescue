@@ -46,7 +46,7 @@
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
-				biome: "minecraft:desert"
+				biome: "the_winter_rescue:underwater_volcano"
 				id: "474E699BA92ED024"
 				title: "{quest.twr.2246C8C7B6F953D7.474E699BA92ED024.title}"
 				type: "biome"
@@ -99,7 +99,7 @@
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
-				biome: "minecraft:desert"
+				biome: "the_winter_rescue:active_volcano"
 				icon: "minecraft:calcite"
 				id: "2F87CF71B488E33B"
 				title: "{quest.twr.607CE973121B4CD4.2F87CF71B488E33B.title}"

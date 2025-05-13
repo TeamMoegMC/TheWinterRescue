@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "frostedheart:firm_ice",
     "minecraft:stone"
   ]
 }
