@@ -1,0 +1,45 @@
+{
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": [
+        "single/head"
+    ],
+    "improvements": [
+        "tetra:single/earthpiercer/",
+        "tetra:single/shared_head/",
+        "tetra:single/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "key": "earthpiercer/earthpiercer",
+            "durability": 771,
+            "integrity": -3,
+            "magicCapacity": 48,
+            "attributes": {
+                "generic.attack_damage": 2,
+                "generic.attack_speed": -1.95
+            },
+            "aspects": {
+                "block_breaker": 2,
+                "breakable": 2
+            },
+            "tools": {
+                "pickaxe_dig": [ "minecraft:planks", 5 ]
+            },
+            "effects": {
+                "piercing": 2,
+                "piercingHarvest": 1
+            },
+            "glyph": {
+                "textureX": 224,
+                "textureY": 32
+            },
+            "models": [
+                {
+                    "location": "tetra:item/module/single/head/earthpiercer/default"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+[
+    {
+        "key": "unbound_extractor/bound",
+        "level": 1,
+		"durability":8,
+        "effects": {
+            "unstable": 6
+        }
+    },
+    {
+        "key": "unbound_extractor/bound",
+        "level": 2,
+		"durability":16,
+        "effects": {
+            "unstable": 12
+        }
+    },
+    {
+        "key": "unbound_extractor/bound",
+        "level": 3,
+		"durability":32,
+        "effects": {
+            "unstable": 18
+        }
+    },
+    {
+        "key": "unbound_extractor/bound",
+        "level": 4,
+		"durability":48,
+        "effects": {
+            "unstable": 24
+        }
+    },
+    {
+        "key": "unbound_extractor/bound",
+        "level": 5,
+		"durability":64,
+        "effects": {
+            "unstable": 30
+        }
+    },
+    {
+        "key": "unbound_extractor/bound",
+        "level": 6,
+		"durability":80,
+        "effects": {
+            "unstable": 36
+        }
+    },
+    {
+        "key": "unbound_extractor/bound",
+        "level": 7,
+		"durability":96,
+        "effects": {
+            "unstable": 42
+        }
+    },
+    {
+        "key": "unbound_extractor/bound",
+        "level": 8,
+		"durability":112,
+        "effects": {
+            "unstable": 48
+        }
+    },
+    {
+        "key": "unbound_extractor/bound",
+        "level": 9,
+		"durability":128,
+        "effects": {
+            "unstable": 54
+        }
+    },
+    {
+        "key": "unbound_extractor/bound",
+        "level": 10,
+		"durability":256,
+        "effects": {
+            "unstable": 60
+        }
+    }
+]
