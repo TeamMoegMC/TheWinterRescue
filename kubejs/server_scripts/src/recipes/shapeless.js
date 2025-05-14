@@ -51,7 +51,6 @@ ServerEvents.recipes((event) => {
         shapelessRecipe("9x frostedheart:quicklime","frostedheart:quicklime_block"),
         shapelessRecipe("9x frostedheart:raw_magnesite","frostedheart:magnesite_block"),
         shapelessRecipe("4x stone_age:bone_arrow_head",["#stone_age:bones","immersiveengineering:hammer"]),
-        shapelessRecipe("4x stone_age:bone_arrow_head",["stone_age:bone","immersiveengineering:hammer"]),
         shapelessRecipe("16x caupona:vivid_charcoal",["#minecraft:coals","3x charcoal_pit:straw"]),
 		shapelessRecipe("2x stone_age:fish_bone",["minecraft:bone","minecraft:flint"]),
 		shapelessRecipe("2x stone_age:fish_bone",["minecraft:bone","immersiveengineering:wirecutter"]),

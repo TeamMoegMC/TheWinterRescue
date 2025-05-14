@@ -33,7 +33,9 @@ ServerEvents.recipes((event) => {
         "frostedheart:nickel_nugget",
         "frostedheart:aluminum_nugget",
         "frostedheart:lead_nugget",
-
+		"create:copper_nugget",
+		"create:zinc_nugget",
+		"immersiveengineering:uranium_nugget"
     ]
 
     removedSplashing.forEach((result) => {
@@ -61,7 +63,8 @@ ServerEvents.recipes((event) => {
         ["frostedheart:alumina_dust", "#forge:dusts/aluminum_hydroxide", 40, false],
 
     ]
-
+	create.splashing([Item.of("#forge:crushed_raw_materials/iron"),Item.of("#forge:dusts/sulfur").withChance(0.5)],Ingredient.of("#forge:crushed_raw_materials/pyrite"))
+	create.splashing([Item.of("#forge:dusts/zinc_oxide"),Item.of("#forge:dusts/sulfur").withChance(0.5)],Ingredient.of("#forge:crushed_raw_materials/zinc"))
     normalSmeltingRecipes.forEach(([output, input, time, slag]) => {
 		event.remove({"type":"minecraft:smelting","output":output})
 		event.remove({"type":"minecraft:blasting","output":output})

@@ -64,26 +64,33 @@ ServerEvents.recipes((event) => {
 
     // Wood Processing
     let wood_recipes = []
+	let names=[]
     Ingredient.of("#minecraft:logs").getItemIds().forEach((name) => {
+		
         if (name.indexOf("log") != -1) {
             let namex = name.replace("_log", "").replace("stripped_", "");
+			if(Item.of(namex + '_planks', 3).isEmpty())return;
             wood_recipes.push(tree_stumpRecipe(Item.of(namex + '_planks', 3), Item.of(name),
                 Ingredient.of({"type":"chorda:tool","tool":"axe_dig"}), 2))
+			names.push(namex);
             wood_recipes.push(tree_stumpRecipe(Item.of(namex + '_slab', 2), Item.of(namex + '_planks'),
                 Ingredient.of({"type":"chorda:tool","tool":"axe_dig"}), 2))
+			names.push(namex);
         } else if (name.indexOf("wood") != -1) {
             let namex = name.replace("_wood", "").replace("stripped_", "");
             wood_recipes.push(tree_stumpRecipe(Item.of(namex + '_planks', 3), Item.of(name),
                 Ingredient.of({"type":"chorda:tool","tool":"axe_dig"}), 2))
+			names.push(namex);
         } else if (name.indexOf("stem") != -1) {
             let namex = name.replace("_stem", "").replace("stripped_", "");
             wood_recipes.push(tree_stumpRecipe(Item.of(namex + '_planks', 3), Item.of(name),
                 Ingredient.of({"type":"chorda:tool","tool":"axe_dig"}), 2))
+			names.push(namex);
         }
 
     });
 
-    wood_recipes.forEach((recipe) => {
+    wood_recipes.forEach((recipe,index) => {
         event.remove({output: recipe.result, type: 'minecraft:crafting_shapeless'});
         event.custom({
             type: "stone_age:tree_stump",
@@ -92,6 +99,6 @@ ServerEvents.recipes((event) => {
             chopTimes: recipe.chop,
 //			amount: recipe.amount,
             result: recipe.result
-        })
+        }).id(names[index]+"_"+index)
     })
 });
