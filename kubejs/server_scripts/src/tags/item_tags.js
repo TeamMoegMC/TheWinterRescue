@@ -232,19 +232,46 @@ ServerEvents.tags("item", (event) => {
     ])
 
     event.add("frostedheart:potassium_rich", [
-        "#forge:crushed_raw_materials/sylvite",
         "#forge:dusts/ash"
     ])
 
     event.add("frostedheart:nitrogen_rich", [
-        "#forge:dusts/saltpeter",
-        "frostedheart:biomass"
+        "frostedheart:biomass",
+        "frostedheart:night_soil",
+        "frostedheart:dung"
     ])
 
     event.add("frostedheart:phosphorous_rich", [
-        "#forge:slag",
-        "minecraft:bone_meal"
+        "minecraft:bone_meal",
+        "frostedheart:night_soil",
+        "frostedheart:dung"
     ])
+
+    event.add("frostedheart:potassium_industrial", [
+        "#forge:crushed_raw_materials/sylvite"
+    ])
+
+    event.add("frostedheart:nitrogen_industrial", [
+        "#forge:dusts/saltpeter"
+    ])
+
+    event.add("frostedheart:phosphorous_industrial", [
+        "#forge:slag"
+    ])
+
+
+    event.add("frostedheart:mulch_material", [
+        "frostedheart:sawdust",
+        "charcoal_pit:straw",
+    ])
+
+    event.add("frostedheart:advanced_mulch_material", [
+        "#forge:leather",
+        "#forge:rubber"
+    ])
+
+
+
 
     // event.remove("forge:ingots", [
     //     "create:andesite_alloy"

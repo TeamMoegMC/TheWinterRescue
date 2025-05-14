@@ -93,10 +93,30 @@ ServerEvents.recipes((event) => {
             output: ["4x frostedheart:pulp"],
             input: ["6x #forge:dusts/wood", "frostedheart:sodium_sulfide_dust", "frostedheart:sodium_hydroxide_dust", Fluid.of("minecraft:water", 1000)]
         },
+        // {
+        //     output: ["3x immersiveengineering:fertilizer"],
+        //     // K, N, P
+        //     input: ["#frostedheart:potassium_rich", "#frostedheart:nitrogen_rich", "#frostedheart:phosphorous_rich"]
+        // },
         {
-            output: ["3x immersiveengineering:fertilizer"],
-            // K, N, P
-            input: ["#frostedheart:potassium_rich", "#frostedheart:nitrogen_rich", "#frostedheart:phosphorous_rich"]
+            output: ["6x frostedheart:basic_increasing_fertilizer"],
+            // K, P, N
+            input: ["3x #frostedheart:potassium_rich", "2x #frostedheart:phosphorous_rich", "#frostedheart:nitrogen_rich"]
+        },
+        {
+            output: ["6x frostedheart:basic_accelerated_fertilizer"],
+            // K, P, N
+            input: ["#frostedheart:potassium_rich", "2x #frostedheart:phosphorous_rich", "3x #frostedheart:nitrogen_rich", Fluid.of("minecraft:water", 100)]
+        },
+        {
+            output: ["6x frostedheart:advanced_increasing_fertilizer"],
+            // K, P, N
+            input: ["3x #frostedheart:potassium_industrial", "2x #frostedheart:phosphorous_industrial", "#frostedheart:nitrogen_industrial"]
+        },
+        {
+            output: ["6x frostedheart:advanced_accelerated_fertilizer"],
+            // K, P, N
+            input: ["#frostedheart:potassium_industrial", "2x #frostedheart:phosphorous_industrial", "3x #frostedheart:nitrogen_industrial", Fluid.of("minecraft:water", 100)]
         },
         {
             output: ["minecraft:dirt"],

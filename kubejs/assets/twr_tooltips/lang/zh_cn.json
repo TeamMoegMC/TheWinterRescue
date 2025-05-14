@@ -29,15 +29,15 @@
   "item.frostedheart.snowshoes.tooltip.condition1": "当穿着时在雪地上跑过",
   "item.frostedheart.snowshoes.tooltip.behaviour1": "为穿着者提供类似溜冰的效果_.",
   "item.frostedheart.snowshoes.tooltip.condition2": "当穿着时行走于雪上",
-  "item.frostedheart.snowshoes.tooltip.behaviour2": "提升移动速度_.",
+  "item.frostedheart.snowshoes.tooltip.behaviour2": "提升_移动速度_。",
 
   "item.frostedheart.ice_skates.tooltip.summary": "一双用于快速通过冰面的靴子.",
   "item.frostedheart.ice_skates.tooltip.condition1": "当穿着时通过冰面",
-  "item.frostedheart.ice_skates.tooltip.behaviour1": "提升移动速度_.",
+  "item.frostedheart.ice_skates.tooltip.behaviour1": "提升_移动速度_。",
 
   "item.kubejs.damaged_gpu.tooltip.summary": "一个曾用于非法挖币工厂的、现在已经损坏的显卡",
   "item.kubejs.damaged_gpu.tooltip.condition1": "当在绘图台中使用时",
-  "item.kubejs.damaged_gpu.tooltip.behaviour1": "获得_见闻_.",
+  "item.kubejs.damaged_gpu.tooltip.behaviour1": "获得_大量见闻_。",
 
   "item.frostedheart.energy_core.tooltip.summary": "一个会发光的核心。",
   "item.frostedheart.energy_core.tooltip.condition1": "当用于研究时",
@@ -81,27 +81,31 @@
 
   "item.kubejs.damaged_electric_motor.tooltip.summary": "一个损坏的伺服电机.",
   "item.kubejs.damaged_electric_motor.tooltip.condition1": "当在绘图台中使用时",
-  "item.kubejs.damaged_electric_motor.tooltip.behaviour1": "获得_见闻_.",
+  "item.kubejs.damaged_electric_motor.tooltip.behaviour1": "获得_见闻_。",
 
   "item.kubejs.damaged_circuit_board.tooltip.summary": "一块损坏的电路板.",
   "item.kubejs.damaged_circuit_board.tooltip.condition1": "当在绘图台中使用时",
-  "item.kubejs.damaged_circuit_board.tooltip.behaviour1": "获得_见闻_.",
+  "item.kubejs.damaged_circuit_board.tooltip.behaviour1": "获得_见闻_。",
 
   "item.kubejs.burnt_circuit_board.tooltip.summary": "一块烧坏的电路板，曾经用于驱动一个爆破机械。",
   "item.kubejs.burnt_circuit_board.tooltip.condition1": "当在绘图台中使用时",
-  "item.kubejs.burnt_circuit_board.tooltip.behaviour1": "获得_见闻_.",
+  "item.kubejs.burnt_circuit_board.tooltip.behaviour1": "获得_见闻_。",
 
   "item.kubejs.damaged_camera.tooltip.summary": "一个破损的记者相机.",
   "item.kubejs.damaged_camera.tooltip.condition1": "当在绘图台中使用时",
-  "item.kubejs.damaged_camera.tooltip.behaviour1": "获得_见闻_.",
+  "item.kubejs.damaged_camera.tooltip.behaviour1": "获得_见闻_。",
 
-  "item.kubejs.broken_robot_1.tooltip.summary": "其发现处刻着一行小字: “我的意义是什么?”",
+  "item.kubejs.broken_robot_1.tooltip.summary": "在发现它的地方，刻着一行小字：“我的意义是什么?”",
   "item.kubejs.broken_robot_1.tooltip.condition1": "当在绘图台中使用时",
-  "item.kubejs.broken_robot_1.tooltip.behaviour1": "获得_见闻_.",
+  "item.kubejs.broken_robot_1.tooltip.behaviour1": "获得_大量见闻_。",
 
-  "item.kubejs.broken_robot_2.tooltip.summary": "",
+  "item.kubejs.broken_robot_2.tooltip.summary": "在发现它的地方，刻着一行小字：‘意识是什么？’",
   "item.kubejs.broken_robot_2.tooltip.condition1": "当在绘图台中使用时",
-  "item.kubejs.broken_robot_2.tooltip.behaviour1": "获得_见闻_.",
+  "item.kubejs.broken_robot_2.tooltip.behaviour1": "获得_大量见闻_。",
+
+  "item.frostedresearch.intelligence.tooltip.summary": "一份来自各地的零散记录，包含未公开的实验数据、地方传闻和未证实的技术草案。也许并不完整，但足以开启新的思路。\n",
+  "item.frostedresearch.intelligence.tooltip.condition1": "当在绘图台中使用时",
+  "item.frostedresearch.intelligence.tooltip.behaviour1": "获得_大量见闻_。",
 
   "item.frostedheart.temperature_probe.tooltip.summary": "一个用于了解方块温度的便携工具。",
   "item.frostedheart.temperature_probe.tooltip.condition1": "当持于任意手中时",
@@ -226,6 +230,8 @@
 
   "block.minecraft.dirt.tooltip.summary": "富含微生物的有机土壤，可以用于耕地。",
   "block.minecraft.dirt.tooltip.condition1": "当长期暴露在零下土壤温度时",
-  "block.minecraft.dirt.tooltip.behaviour1": "凝结为冻土，并丧失所有微生物群落。"
+  "block.minecraft.dirt.tooltip.behaviour1": "凝结为冻土，并丧失所有微生物群落。",
+
+  "item.frostedheart.biomass.tooltip.summary": "富含氮的有机物质，通过堆肥桶发酵多余食物能方便获取。"
 }
   

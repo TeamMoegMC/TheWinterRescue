@@ -19,6 +19,7 @@ ServerEvents.recipes((event) => {
 		inspire("frostedheart:iron_parts", 1)
 		inspire("frostedheart:iron_truss_remains", 1)
 		inspire("frostedheart:insulator", 1)
-		
+		inspire("frostedresearch:intelligence", 25)
+
 
 })

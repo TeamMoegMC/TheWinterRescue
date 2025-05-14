@@ -37,7 +37,7 @@
 
   "item.kubejs.damaged_gpu.tooltip.summary": "A _damaged GPU_ used to mine cryptocurrency.",
   "item.kubejs.damaged_gpu.tooltip.condition1": "When Used In Drawing Desk",
-  "item.kubejs.damaged_gpu.tooltip.behaviour1": "Grants _Insight_.",
+  "item.kubejs.damaged_gpu.tooltip.behaviour1": "Grants Significant _Insight_.",
 
   "item.frostedheart.energy_core.tooltip.summary": "A core that glows.",
   "item.frostedheart.energy_core.tooltip.condition1": "When Used In Research",
@@ -61,11 +61,15 @@
 
   "item.kubejs.broken_robot_1.tooltip.summary": "A line of small characters is carved at the place where it was discovered: \"What is my purpose?\"",
   "item.kubejs.broken_robot_1.tooltip.condition1": "When Inspected In Drawing Desk",
-  "item.kubejs.broken_robot_1.tooltip.behaviour1": "Grants _Insight_.",
+  "item.kubejs.broken_robot_1.tooltip.behaviour1": "Grants Significant _Insight_.",
 
-  "item.kubejs.broken_robot_2.tooltip.summary": "",
+  "item.kubejs.broken_robot_2.tooltip.summary": "A line of small characters is carved at the place where it was discovered: \"What is consciousness?\"",
   "item.kubejs.broken_robot_2.tooltip.condition1": "When Inspected In Drawing Desk",
-  "item.kubejs.broken_robot_2.tooltip.behaviour1": "Grants _Insight_.",
+  "item.kubejs.broken_robot_2.tooltip.behaviour1": "Grants Significant _Insight_.",
+
+  "item.frostedresearch.intelligence.tooltip.summary": "A collection of scattered records from various places, containing unpublished experimental data, local rumors, and unverified technical drafts. It may be incomplete, but it’s enough to spark new ideas.",
+  "item.frostedresearch.intelligence.tooltip.condition1": "When Inspected In Drawing Desk",
+  "item.frostedresearch.intelligence.tooltip.behaviour1": "Grants Significant _Insight_.",
 
   "item.frostedheart.copper_pro_pick.tooltip.summary": "A specialized tool used for geological exploration and mineral discovery.",
   "item.frostedheart.copper_pro_pick.tooltip.condition1": "Right-click On the Ground While Holding It With Your Main Hand.",
@@ -227,5 +231,7 @@
 
   "block.minecraft.dirt.tooltip.summary": "Organic dirt abundant in microorganisms. Perfect for farming.",
   "block.minecraft.dirt.tooltip.condition1": "When Long-Exposed In Below-Zero Degree Soil Temperature",
-  "block.minecraft.dirt.tooltip.behaviour1": "Freezes into Permafrost, and loses all its microorganism biomes."
+  "block.minecraft.dirt.tooltip.behaviour1": "Freezes into Permafrost, and loses all its microorganism biomes.",
+
+  "item.frostedheart.biomass.tooltip.summary": "Organic matter rich in nitrogen. Easily obtainable through fermenting leftovers in a Composter."
 }

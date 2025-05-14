@@ -1470,6 +1470,21 @@ ServerEvents.recipes((event) => {
                 B: "#minecraft:logs",
             }
         ],
+        [
+            "frostedheart:basic_preserved_fertilizer", 3, [
+            "AAA"
+        ], {
+            A: "#frostedheart:mulch_material"
+        }
+        ],
+        [
+            "frostedheart:advanced_preserved_fertilizer", 3, [
+            "AAA"
+        ], {
+            A: "#frostedheart:advanced_mulch_material"
+        }
+        ]
+
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [
