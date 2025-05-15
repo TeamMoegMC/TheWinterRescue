@@ -1163,6 +1163,29 @@
 			x: -6.5d
 			y: -3.5d
 		}
+		{
+			dependencies: ["4CC5E16EFDE1368C"]
+			icon: "supplementaries:slice_map"
+			id: "013DCE6D04AC8284"
+			rewards: [{
+				command: "/ftbchunks admin extra_claim_chunks @s set 5"
+				elevate_perms: true
+				icon: "supplementaries:slice_map"
+				id: "3C775632B8B8447F"
+				title: "给予任务区块"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "61357BB6F69C1B18"
+				item: "frostedheart:cast_iron_ingot"
+				type: "item"
+			}]
+			title: "任务区块"
+			x: -13.0d
+			y: -0.5d
+		}
 	]
 	subtitle: ["{chapter.twr.3A3B51CF7F606665.subtitle.0}"]
 	title: "{chapter.twr.3A3B51CF7F606665.title}"
