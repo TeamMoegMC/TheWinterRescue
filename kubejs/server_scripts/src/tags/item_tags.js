@@ -696,4 +696,11 @@ ServerEvents.tags("item", (event) => {
         "minecraft:string",
         "stone_age:leather_strip"
     ])
+
+    event.add("twr:basic_filament", [
+//        'frostedheart:tungsten_nugget',
+        'immersiveengineering:hemp_fiber',
+        'minecraft:paper',
+        'minecraft:bamboo'
+    ])
 })

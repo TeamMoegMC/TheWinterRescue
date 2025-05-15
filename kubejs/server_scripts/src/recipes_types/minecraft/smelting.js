@@ -12,6 +12,7 @@ ServerEvents.recipes((event) => {
         {output: 'minecraft:sand', input: 'frostedheart:sand_permafrost'},
         {output: 'minecraft:clay', input: 'frostedheart:clay_permafrost'},
         {output: 'minecraft:red_sand', input: 'frostedheart:red_sand_permafrost'},
+        {output: 'minecraft:gravel', input: 'frostedheart:gravel_permafrost'},
         {output: 'frostedheart:peat_block', input: 'frostedheart:peat_permafrost'},
         {output: 'frostedheart:bauxite_block', input: 'frostedheart:bauxite_permafrost'},
         {output: 'frostedheart:kaolin_block', input: 'frostedheart:kaolin_permafrost'}

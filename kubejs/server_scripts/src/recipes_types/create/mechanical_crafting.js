@@ -102,30 +102,37 @@ ServerEvents.recipes((event) => {
             F: "create:shaft"
         }),
         shapedRecipe("create:blaze_burner", [
-            "EC CE",
-            "EBDBE",
-            "EBBBE",
-            "AAAAA"
+            "BC CB",
+            "BCDCB",
+            "BAAAB"
         ], {
-            A: "frostedheart:cast_iron_sheet",
-            B: "#forge:plates/constantan",
-            C: "#forge:plates/bronze",
+            A: "#forge:plates/cast_iron",
+            B: "#forge:rods/cast_iron",
+            C: "#forge:plates/constantan",
             D: "minecraft:lava_bucket",
-            E: "#forge:ingots/cast_iron"
         }),
         shapedRecipe("immersiveindustry:electrolyzer", [
             "FFEFF",
-            "ABCBA",
-            "AAAAA",
-            "ACBCA",
+            "FBCBF",
+            "FCBCF",
             "FFDFF"
         ], {
-            A: "#forge:plates/steel",
             B: "#forge:ingots/silver",
             C: "#forge:ingots/gold",
             D: "immersiveengineering:wirecoil_copper",
             E: "immersiveengineering:circuit_board",
-            F: "#forge:ingots/steel"
+            F: "immersiveengineering:slab_sheetmetal_steel"
+        }),
+        shapedRecipe(Item.of("2x create:crushing_wheel"), [
+            " AAA ",
+            "ABCBA",
+            "ACBCA",
+            "ABCBA",
+            " AAA ",
+        ], {
+            A: "#forge:ingots/cast_iron",
+            B: "#minecraft:planks",
+            C: "#forge:stone"
         })
     ]
     recipes.forEach((recipe) => {

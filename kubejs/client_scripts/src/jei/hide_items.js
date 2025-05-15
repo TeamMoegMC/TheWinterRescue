@@ -40,6 +40,8 @@ JEIEvents.hideItems((event) => {
         "immersiveengineering:raw_block_aluminum",
         "immersiveengineering:ore_aluminum",
         "immersiveengineering:deepslate_ore_aluminum",
+
+        "supplementaries:end_stone_lamp",
     ]
 
     let regexHide = []
