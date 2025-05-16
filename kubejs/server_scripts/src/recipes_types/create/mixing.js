@@ -127,8 +127,12 @@ ServerEvents.recipes((event) => {
             input: ["minecraft:mud", "frostedheart:peat"]
         },
         {
-            output: ["frostedheart:mortar"],
+            output: ["2x frostedheart:mortar"],
             input: ["minecraft:sand", Fluid.of("frostedheart:lime_water", 500)]
+        },
+        {
+            output: ['6x supplementaries:soap'],
+            input: ["stone_age:fat", Fluid.of("minecraft:water", 500)]
         },
     ]
     let heated = [

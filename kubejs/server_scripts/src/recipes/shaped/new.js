@@ -367,6 +367,7 @@ ServerEvents.recipes((event) => {
         ],
         [
             "frostedheart:kelp_lining", [
+            "AAA",
             "CBC",
             "AAA"
         ], {
@@ -527,11 +528,11 @@ ServerEvents.recipes((event) => {
         ],
         [
             "create:whisk", [
-            "BAB",
+            " A ",
             "BAB",
             "BBB"
         ], {
-            A: "#forge:ingots/iron",
+            A: "#forge:rods/iron",
             B: "#forge:plates/iron"
         }
         ],
@@ -1472,18 +1473,51 @@ ServerEvents.recipes((event) => {
         ],
         [
             "frostedheart:basic_preserved_fertilizer", 3, [
-            "AAA"
-        ], {
-            A: "#frostedheart:mulch_material"
-        }
+                "AAA"
+            ], {
+                A: "#frostedheart:mulch_material"
+            }
         ],
         [
             "frostedheart:advanced_preserved_fertilizer", 3, [
-            "AAA"
-        ], {
-            A: "#frostedheart:advanced_mulch_material"
-        }
-        ]
+                "AAA"
+            ], {
+                A: "#frostedheart:advanced_mulch_material"
+            }
+        ],
+        [
+            "frostedheart:wardrobe", [
+                "AAA",
+                "BCB",
+                "AAA",
+            ], {
+                A: "#forge:treated_wood_slab",
+                B: "#forge:treated_wood",
+                C: "minecraft:chest",
+            }
+        ],
+        [
+            "immersiveengineering:light_bulb", 3, [
+                " A ",
+                "BBB",
+                " C ",
+            ], {
+                A: "#forge:glass",
+                B: "#twr:basic_filament",
+                C: "#forge:plates/copper",
+            }
+        ],
+        [
+            "immersiveengineering:light_bulb", 4, [
+                " A ",
+                " B ",
+                " C ",
+            ], {
+                A: "#forge:glass",
+                B: "#forge:nuggets/tungsten",
+                C: "#forge:plates/copper",
+            }
+        ],
 
     ]
     addShapedRecipes.forEach((recipe, index) => {

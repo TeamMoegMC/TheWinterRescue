@@ -1342,22 +1342,12 @@
 			]
 			hide_until_deps_visible: false
 			id: "75154C5A6E2F3257"
-			rewards: [
-				{
-					command: "/ftbchunks admin extra_claim_chunks @s set 16"
-					elevate_perms: true
-					icon: "minecraft:map"
-					id: "7DA41F7E33AE3E8D"
-					title: "{quest.twr.75154C5A6E2F3257.7DA41F7E33AE3E8D.title}"
-					type: "command"
-				}
-				{
-					id: "018E90693056A4FC"
-					insight: 1
-					team_reward: true
-					type: "frostedheart:insight"
-				}
-			]
+			rewards: [{
+				id: "018E90693056A4FC"
+				insight: 1
+				team_reward: true
+				type: "frostedheart:insight"
+			}]
 			shape: "gear"
 			size: 1.5d
 			subtitle: "{quest.twr.75154C5A6E2F3257.subtitle}"

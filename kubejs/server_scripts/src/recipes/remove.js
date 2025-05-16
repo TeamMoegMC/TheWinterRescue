@@ -177,6 +177,8 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:raw_block_aluminum",
         "immersiveengineering:ore_aluminum",
         "immersiveengineering:deepslate_ore_aluminum",
+
+        "supplementaries:end_stone_lamp",
 	]
 	disabledItems.forEach((disabledItem) => {
 		event.remove({ output: disabledItem })
@@ -215,6 +217,9 @@ ServerEvents.recipes((event) => {
         "create:cutting/andesite_alloy",
         "create:crafting/kinetics/linear_chassis",
         "create:crafting/kinetics/radial_chassis",
+        "supplementaries:soap",
+        "create:crafting/kinetics/whisk",
+        "create:crafting/kinetics/encased_chain_drive",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

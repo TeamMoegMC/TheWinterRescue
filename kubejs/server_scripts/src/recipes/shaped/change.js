@@ -382,15 +382,15 @@ ServerEvents.recipes((event) => {
             B: "#forge:wires/copper"
         }
         ],
-        [
-            "create:fluid_pipe", 6, [
-            "AAA",
-            "   ",
-            "AAA"
-        ], {
-            A: "#forge:plates/bronze"
-        }
-        ],
+//        [
+//            "create:fluid_pipe", 6, [
+//            "AAA",
+//            "   ",
+//            "AAA"
+//        ], {
+//            A: "#forge:plates/bronze"
+//        }
+//        ],
         [
             "create:shaft", 12, [
             "A",
@@ -627,14 +627,13 @@ ServerEvents.recipes((event) => {
             B: "#twr:nuggets/structural"
         }
         ],
-        // TODO: change to stainless steel
         [
-            "create:fluid_tank", 4, [
-            "AAA",
+            "create:fluid_tank", 2, [
+            " A ",
             "ABA",
-            "AAA"
+            " A "
         ], {
-            A: "#forge:plates/bronze",
+            A: "#forge:plates/copper",
             B: "#forge:glass"
         }
         ],
@@ -908,92 +907,83 @@ ServerEvents.recipes((event) => {
         ],
         [
             "minecraft:spruce_boat", 1, [
-            "B B",
             "ABA",
             "AAA"
         ], {
             A: "minecraft:spruce_planks",
-            B: "#twr:plates/structural"
+            B: "#forge:rods/treated_wood"
         }
         ],
         [
             "minecraft:oak_boat", 1, [
-            "B B",
             "ABA",
             "AAA"
         ], {
             A: "minecraft:oak_planks",
-            B: "#twr:plates/structural"
+            B: "#forge:rods/treated_wood"
         }
         ],
         [
             "minecraft:birch_boat", 1, [
-            "B B",
             "ABA",
             "AAA"
         ], {
             A: "minecraft:birch_planks",
-            B: "#twr:plates/structural"
+            B: "#forge:rods/treated_wood"
         }
         ],
         [
             "minecraft:jungle_boat", 1, [
-            "B B",
             "ABA",
             "AAA"
         ], {
             A: "minecraft:jungle_planks",
-            B: "#twr:plates/structural"
+            B: "#forge:rods/treated_wood"
         }
         ],
         [
             "minecraft:acacia_boat", 1, [
-            "B B",
             "ABA",
             "AAA"
         ], {
             A: "minecraft:acacia_planks",
-            B: "#twr:plates/structural"
+            B: "#forge:rods/treated_wood"
         }
         ],
         [
             "minecraft:dark_oak_boat", 1, [
-            "B B",
             "ABA",
             "AAA"
         ], {
             A: "minecraft:dark_oak_planks",
-            B: "#twr:plates/structural"
+            B: "#forge:rods/treated_wood"
         }
         ],
         [
             "minecraft:mangrove_boat", 1, [
-            "B B",
             "ABA",
             "AAA"
         ], {
             A: "minecraft:mangrove_planks",
-            B: "#twr:plates/structural"
+            B: "#forge:rods/treated_wood"
         }
         ],
         [
             "minecraft:cherry_boat", 1, [
-            "B B",
             "ABA",
             "AAA"
         ], {
             A: "minecraft:cherry_planks",
-            B: "#twr:plates/structural"
+            B: "#forge:rods/treated_wood"
         }
         ],
         [
             "caupona:walnut_boat", 1, [
-            "B B",
             "ABA",
             "AAA"
         ], {
             A: "caupona:walnut_planks",
-            B: "#twr:plates/structural"
+            B: "#forge:rods/treated_wood"
         }
         ],
         [
@@ -1073,6 +1063,89 @@ ServerEvents.recipes((event) => {
                 A: "create:brass_casing",
                 B: "frostedheart:vulcanized_rubber",
                 C: "#forge:plates/cast_iron",
+            }
+        ],
+        [
+            "minecraft:redstone_lamp", [
+                " A ",
+                "ABA",
+                " A ",
+            ], {
+                A: "minecraft:redstone",
+                B: "immersiveengineering:light_bulb",
+            }
+        ],
+        [
+            "immersiveengineering:lantern", 4, [
+                " A ",
+                "CBC",
+                " A ",
+            ], {
+                A: "#forge:plates/iron",
+                B: "minecraft:lantern",
+                C: "minecraft:glass_pane",
+            }
+        ],
+        [
+            "supplementaries:redstone_illuminator", [
+                " A ",
+                "ABA",
+                " A ",
+            ], {
+                A: "minecraft:redstone",
+                B: "minecraft:redstone_lamp",
+            }
+        ],
+        [
+            "supplementaries:stone_lamp", [
+                "AAA",
+                "ABA",
+                "AAA",
+            ], {
+                A: "minecraft:stone",
+                B: "minecraft:lantern",
+            }
+        ],
+        [
+            "supplementaries:deepslate_lamp", [
+                "AAA",
+                "ABA",
+                "AAA",
+            ], {
+                A: "minecraft:deepslate",
+                B: "minecraft:lantern",
+            }
+        ],
+        [
+            "supplementaries:blackstone_lamp", [
+                "AAA",
+                "ABA",
+                "AAA",
+            ], {
+                A: "minecraft:blackstone",
+                B: "minecraft:lantern",
+            }
+        ],
+        [
+            "storagedrawers:illumination_upgrade", 12, [
+                "CAC",
+                "ABA",
+                "CAC",
+            ], {
+                A: "#forge:rods/wooden",
+                B: "storagedrawers:upgrade_template",
+                C: "immersiveengineering:light_bulb",
+            }
+        ],
+        [
+            "immersiveengineering:fluorescent_tube", [
+                "CAC",
+                "CBC",
+                "CBC",
+            ], {
+                A: 'immersiveengineering:graphite_electrode',
+                B: "minecraft:redstone",
+                C: "#forge:glass",
             }
         ],
 

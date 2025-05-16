@@ -28,8 +28,8 @@ ServerEvents.recipes((event) => {
         shapelessRecipe(Item.of("frostedheart:straw_briquette_red_mushroom",1,{"Damage": 4800}), ["kubejs:wet_straw_briquette", "minecraft:red_mushroom"]),
         shapelessRecipe(Item.of("frostedheart:straw_briquette_brown_mushroom",1,{"Damage": 4800}), ["kubejs:wet_straw_briquette", "minecraft:brown_mushroom"]),
         shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "4x frostedheart:generator_ash"]),
-        shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "2x frostedheart:generator_ash", "2x minecraft:ink_sac"]),
-        shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "2x frostedheart:generator_ash", "2x minecraft:glow_ink_sac"]),
+        shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "4x minecraft:ink_sac"]),
+        shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "4x minecraft:glow_ink_sac"]),
         shapelessRecipe("frostedresearch:rubbing_tool", ["2x frostedheart:generator_ash", "minecraft:paper", "frostedresearch:rubbing_pad"]),
         shapelessRecipe("2x stone_age:grass_lead", "3x charcoal_pit:straw" ),
         shapelessRecipe("frostedheart:packed_snow", ["2x minecraft:snowball", "2x minecraft:snow_block"]),
@@ -51,7 +51,6 @@ ServerEvents.recipes((event) => {
         shapelessRecipe("9x frostedheart:quicklime","frostedheart:quicklime_block"),
         shapelessRecipe("9x frostedheart:raw_magnesite","frostedheart:magnesite_block"),
         shapelessRecipe("4x stone_age:bone_arrow_head",["#stone_age:bones","immersiveengineering:hammer"]),
-        shapelessRecipe("4x stone_age:bone_arrow_head",["stone_age:bone","immersiveengineering:hammer"]),
         shapelessRecipe("16x caupona:vivid_charcoal",["#minecraft:coals","3x charcoal_pit:straw"]),
 		shapelessRecipe("2x stone_age:fish_bone",["minecraft:bone","minecraft:flint"]),
 		shapelessRecipe("2x stone_age:fish_bone",["minecraft:bone","immersiveengineering:wirecutter"]),
@@ -63,6 +62,8 @@ ServerEvents.recipes((event) => {
 		shapelessRecipe("6x minecraft:gunpowder",["#forge:dusts/sulfur", "minecraft:charcoal", "#forge:dusts/saltpeter", "3x minecraft:sugar"]),
 		shapelessRecipe("2x immersiveengineering:wirecoil_copper_ins", ["2x immersiveengineering:wirecoil_copper", "frostedheart:vulcanized_rubber"]),
 		shapelessRecipe("2x immersiveengineering:wirecoil_electrum_ins", ["2x immersiveengineering:wirecoil_electrum", "frostedheart:vulcanized_rubber"]),
+		shapelessRecipe("6x supplementaries:soap", ["minecraft:water_bucket", "4x supplementaries:ash", "stone_age:fat"]),
+		shapelessRecipe("2x create:encased_chain_drive", ["create:andesite_casing", "3x #twr:nuggets/structural"]),
     ]
     addShapelessRecipes.forEach((recipe, index) => {
 		if(!Array.isArray(recipe.ingredients)){
