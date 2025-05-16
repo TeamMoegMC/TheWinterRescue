@@ -22,5 +22,6 @@ ServerEvents.tags("worldgen/biome", (event) => {
         "the_winter_rescue:active_volcano",
         "the_winter_rescue:volcanic_hills",
         "the_winter_rescue:underwater_volcano",
+        "the_winter_rescue:glacial_lakes"
     ])
 })

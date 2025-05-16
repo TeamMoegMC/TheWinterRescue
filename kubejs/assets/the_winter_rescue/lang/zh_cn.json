@@ -26,7 +26,13 @@
   "biome.the_winter_rescue.diorite_caves": "闪长岩洞穴",
   "biome.the_winter_rescue.ice_caves": "冰霜洞穴",
   "biome.the_winter_rescue.mycelium_caves": "菌丝洞穴",
-    "biome.the_winter_rescue.underwater_volcano": "海底火山",
+  "biome.the_winter_rescue.underwater_volcano": "海底火山",
   "biome.the_winter_rescue.active_volcano": "活火山",
-  "biome.the_winter_rescue.volcanic_hills": "火山坡"
+  "biome.the_winter_rescue.volcanic_hills": "火山坡",
+  "biome.the_winter_rescue.ice_cap": "冰盖",
+  "biome.the_winter_rescue.alpine_glacier": "高山冰川",
+  "biome.the_winter_rescue.tidewater_glacier": "潮水冰川",
+  "biome.the_winter_rescue.valley_glacier": "山谷冰川",
+  "biome.the_winter_rescue.glacial_lakes": "冰川湖泊"
+
 }

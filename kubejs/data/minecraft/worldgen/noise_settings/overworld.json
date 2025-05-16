@@ -231,7 +231,49 @@
                       "if_true": {
                         "type": "minecraft:biome",
                         "biome_is": [
+                          "the_winter_rescue:ice_cap",
+                          "the_winter_rescue:alpine_glacier"
+                        ]
+                      },
+                      "then_run": {
+                        "type": "minecraft:sequence",
+                        "sequence": [
+                          {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "frostedheart:firm_ice"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:biome",
+                        "biome_is": [
                           "the_winter_rescue:nature/glacier",
+                          "the_winter_rescue:valley_glacier"
+                        ]
+                      },
+                      "then_run": {
+                        "type": "minecraft:sequence",
+                        "sequence": [
+                          {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "frostedheart:gravel_permafrost"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:biome",
+                        "biome_is": [
+                          "the_winter_rescue:tidewater_glacier",
                           "minecraft:frozen_ocean"
                         ]
                       },
@@ -1167,6 +1209,56 @@
                           "if_true": {
                             "type": "minecraft:biome",
                             "biome_is": [
+                              "the_winter_rescue:glacial_lakes"
+                            ]
+                          },
+                          "then_run": {
+                            "type": "minecraft:sequence",
+                            "sequence": [
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "max_threshold": 0.025,
+                                  "min_threshold": -0.025,
+                                  "noise": "the_winter_rescue:tropics/volcano_surface"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:ice"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "max_threshold": 0.025,
+                                  "min_threshold": -0.025,
+                                  "noise": "the_winter_rescue:tropics/volcano_magma"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:ice"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "minecraft:water"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:biome",
+                            "biome_is": [
                               "the_winter_rescue:active_volcano"
                             ]
                           },
@@ -1962,6 +2054,7 @@
                         "biome_is": [
                           "minecraft:mangrove_swamp",
                           "the_winter_rescue:nature/destroyed_marsh",
+                          "the_winter_rescue:glacial_lakes",
                           "minecraft:swamp"
                         ]
                       },

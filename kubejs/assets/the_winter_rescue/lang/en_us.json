@@ -28,6 +28,11 @@
   "biome.the_winter_rescue.mycelium_caves": "Mycelium Caves",
   "biome.the_winter_rescue.underwater_volcano": "Underwater Volcano",
   "biome.the_winter_rescue.active_volcano": "Active Volcano",
-  "biome.the_winter_rescue.volcanic_hills": "Volcanic Hills"
+  "biome.the_winter_rescue.volcanic_hills": "Volcanic Hills",
+  "biome.the_winter_rescue.ice_cap": "Ice Cap",
+  "biome.the_winter_rescue.alpine_glacier": "Alpine Glacier",
+  "biome.the_winter_rescue.tidewater_glacier": "Tidewater Glacier",
+  "biome.the_winter_rescue.valley_glacier": "Valley Glacier",
+  "biome.the_winter_rescue.glacial_lakes": "Glacial Lakes"
 }
 
