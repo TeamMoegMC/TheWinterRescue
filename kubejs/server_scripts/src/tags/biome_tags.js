@@ -24,4 +24,13 @@ ServerEvents.tags("worldgen/biome", (event) => {
         "the_winter_rescue:underwater_volcano",
         "the_winter_rescue:glacial_lakes"
     ])
+
+    event.add("frostedheart:water_do_not_freeze", [
+        "the_winter_rescue:hydrothermal_deposits",
+        "the_winter_rescue:magmatic_deposits",
+        "the_winter_rescue:active_volcano",
+        "the_winter_rescue:volcanic_hills",
+        "the_winter_rescue:underwater_volcano",
+        "the_winter_rescue:glacial_lakes"
+    ])
 })
