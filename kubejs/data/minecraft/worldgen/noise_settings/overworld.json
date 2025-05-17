@@ -22,7 +22,7 @@
     "continents": "minecraft:overworld/noise_router/continents",
     "depth": "minecraft:overworld/noise_router/depth",
     "erosion": "minecraft:overworld/noise_router/erosion",
-    "final_density": "minecraft:overworld/noise_router/final_density",
+    "final_density": "minecraft:overworld/noise_router/vanilla/final_density",
     "fluid_level_floodedness": "minecraft:overworld/noise_router/fluid_level_floodedness",
     "fluid_level_spread": "minecraft:overworld/noise_router/fluid_level_spread",
     "initial_density_without_jaggedness": "minecraft:overworld/noise_router/initial_density_without_jaggedness",

@@ -28,6 +28,8 @@
       "minecraft:lake_lava_surface"
     ],
     [
+      "minecraft:ice_spike",
+      "minecraft:ice_patch",
       "minecraft:amethyst_geode"
     ],
     [
@@ -35,6 +37,7 @@
       "minecraft:monster_room_deep"
     ],
     [
+      "minecraft:ice_spike",
       "minecraft:ice_patch"
     ],
     [],
