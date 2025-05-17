@@ -1518,6 +1518,30 @@ ServerEvents.recipes((event) => {
                 C: "#forge:plates/copper",
             }
         ],
+        [
+            'frostedheart:peat_block', [
+                "AA",
+                "AA",
+            ], {
+                A: "frostedheart:peat",
+            }
+        ],
+        [
+            'frostedheart:bauxite_block', [
+                "AA",
+                "AA",
+            ], {
+                A: "frostedheart:bauxite",
+            }
+        ],
+        [
+            'frostedheart:kaolin_block', [
+                "AA",
+                "AA",
+            ], {
+                A: "frostedheart:kaolin",
+            }
+        ],
 
     ]
     addShapedRecipes.forEach((recipe, index) => {
