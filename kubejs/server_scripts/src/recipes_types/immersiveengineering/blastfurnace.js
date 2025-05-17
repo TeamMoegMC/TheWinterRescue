@@ -5,8 +5,8 @@ ServerEvents.recipes((event) => {
         ["frostedheart:cast_iron_ingot", "minecraft:iron_ingot", 600, true],
         ['kubejs:rough_graphite_electrode', 'kubejs:shaped_bounded_graphite', 2000, true],
         ['frostedheart:refractory_brick', 'frostedheart:fire_clay_ball', 100, false],
-        ['charcoal_pit:unfired_sandy_brick', 'charcoal_pit:sandy_brick_item', 100, false],
-        ['charcoal_pit:unfired_brick', 'minecraft:brick', 100, false],
+        ['charcoal_pit:sandy_brick_item', 'charcoal_pit:unfired_sandy_brick', 100, false],
+        ['minecraft:brick', 'charcoal_pit:unfired_brick', 100, false],
     ]
     blastFurnaceRecipes.forEach(([output, input, time, slag], index) => {
         if (slag) {

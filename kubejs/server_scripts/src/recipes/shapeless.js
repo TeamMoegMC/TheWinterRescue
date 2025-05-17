@@ -32,7 +32,7 @@ ServerEvents.recipes((event) => {
         shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "4x minecraft:glow_ink_sac"]),
         shapelessRecipe("frostedresearch:rubbing_tool", ["2x frostedheart:generator_ash", "minecraft:paper", "frostedresearch:rubbing_pad"]),
         shapelessRecipe("2x stone_age:grass_lead", "3x charcoal_pit:straw" ),
-        shapelessRecipe("frostedheart:packed_snow", ["2x minecraft:snowball", "2x minecraft:snow_block"]),
+        shapelessRecipe("2x frostedheart:packed_snow", ["2x minecraft:snowball", "2x minecraft:snow_block"]),
         shapelessRecipe("4x stone_age:leather_strip", "minecraft:leather"),
         shapelessRecipe("4x frostedheart:peat","frostedheart:peat_block"),
         shapelessRecipe("4x frostedheart:kaolin","frostedheart:kaolin_block"),
