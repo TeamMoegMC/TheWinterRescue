@@ -162,7 +162,7 @@
 	[machines.arc_furnace]
 		#A modifier to apply to the energy costs of every arc furnace recipe
 		#Range: 0.001 ~ 1000.0
-		energyModifier = 1.0
+		energyModifier = 0.25
 		#The recycling functionality of the arc furnace is no longer controlled by a config option.
 		#Like all IE recipes, this is now controlled via a datapack, using the recipe file:
 		#immersiveengineering/recipes/arc_recycling_list.json
@@ -302,7 +302,7 @@
 	[machines.sawmill]
 		#A modifier to apply to the energy costs of every sawmill recipe
 		#Range: 0.001 ~ 1000.0
-		energyModifier = 0.25
+		energyModifier = 0.5
 		#A modifier to apply to the time of every sawmill recipe
 		#Range: 0.001 ~ 1000.0
 		timeModifier = 1.0
@@ -318,7 +318,7 @@
 	[machines.fermenter]
 		#A modifier to apply to the energy costs of every fermenter recipe
 		#Range: 0.001 ~ 1000.0
-		energyModifier = 0.25
+		energyModifier = 1.0
 		#A modifier to apply to the time of every fermenter recipe
 		#Range: 0.001 ~ 1000.0
 		timeModifier = 1.0
@@ -326,7 +326,7 @@
 	[machines.squeezer]
 		#A modifier to apply to the energy costs of every squeezer recipe
 		#Range: 0.001 ~ 1000.0
-		energyModifier = 0.25
+		energyModifier = 1.0
 		#A modifier to apply to the time of every squeezer recipe
 		#Range: 0.001 ~ 1000.0
 		timeModifier = 1.0

@@ -90,7 +90,7 @@ ServerEvents.recipes((event) => {
         },
         {
 			input: ["4x #forge:dusts/iron"],
-            output_fluid: [Fluid.of("frostedheart:ferric_chloride", 1000)],
+            output_fluid: [Fluid.of("frostedheart:ferric_chloride", 2000)],
             input_fluid: [FluidTag("forge:ferrous_chloride", 1900)]//<=500Cl2
         },
         {
