@@ -1148,6 +1148,17 @@ ServerEvents.recipes((event) => {
                 C: "#forge:glass",
             }
         ],
+        [
+            "minecraft:lantern", [
+                " A ",
+                "BCB",
+                " A "
+            ], {
+                A: "#forge:nuggets/iron",
+                B: "#forge:glass_panes",
+                C: "minecraft:torch"
+            }
+        ]
 
     ]
     changeShapedRecipes.forEach((recipe, index) => {

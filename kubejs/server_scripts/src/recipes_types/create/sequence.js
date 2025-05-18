@@ -67,16 +67,16 @@ ServerEvents.recipes((event) => {
         create.sequenced_assembly([
             Item.of("12x steampowered:" + material + "_cogwheel")
         ], "create:shaft", [
-            create.deploying("create:shaft", ["create:shaft", "#forge:plates/" + material]),
-            create.cutting("create:shaft", ["create:shaft"])
-        ]).transitionalItem("create:shaft").loops(4)
+            create.deploying("kubejs:incomplete_" + material + "_cogwheel", ["kubejs:incomplete_" + material + "_cogwheel", "#forge:plates/" + material]),
+            create.cutting("kubejs:incomplete_" + material + "_cogwheel", ["kubejs:incomplete_" + material + "_cogwheel"])
+        ]).transitionalItem("kubejs:incomplete_" + material + "_cogwheel").loops(4)
 
         create.sequenced_assembly([
             Item.of("8x steampowered:" + material + "_large_cogwheel")
         ], "create:shaft", [
-            create.deploying("create:shaft", ["create:shaft", "#forge:ingots/" + material]),
-            create.deploying("create:shaft", ["create:shaft", "#forge:plates/" + material]),
-            create.cutting("create:shaft", ["create:shaft"])
-        ]).transitionalItem("create:shaft").loops(4)
+            create.deploying("kubejs:incomplete_large_" + material + "_cogwheel", ["kubejs:incomplete_large_" + material + "_cogwheel", "#forge:ingots/" + material]),
+            create.deploying("kubejs:incomplete_large_" + material + "_cogwheel", ["kubejs:incomplete_large_" + material + "_cogwheel", "#forge:plates/" + material]),
+            create.cutting("kubejs:incomplete_large_" + material + "_cogwheel", ["kubejs:incomplete_large_" + material + "_cogwheel"])
+        ]).transitionalItem("kubejs:incomplete_large_" + material + "_cogwheel").loops(4)
     })
 })

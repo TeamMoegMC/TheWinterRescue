@@ -53,6 +53,13 @@ StartupEvents.registry("item", (event) => {
 
         // Chemistry
         "creosoted_sawdust",
+
+        "incomplete_bronze_cogwheel",
+        "incomplete_cast_iron_cogwheel",
+        "incomplete_steel_cogwheel",
+        "incomplete_large_bronze_cogwheel",
+        "incomplete_large_cast_iron_cogwheel",
+        "incomplete_large_steel_cogwheel",
     ]
 
     let ingots = []
