@@ -21,7 +21,10 @@
   },
   "features": [
     [
-      "the_winter_rescue:cave/icicle"
+      "the_winter_rescue:glacial/snow_surface",
+      "the_winter_rescue:glacial/blue_ice",
+      "the_winter_rescue:glacial/icicle",
+      "the_winter_rescue:glacial/puddle"
     ],
     [
       "minecraft:lake_lava_underground",

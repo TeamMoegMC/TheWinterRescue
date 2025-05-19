@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "forge:plates/iron",
+          "name": "create:iron_sheet",
           "expand": true,
           "weight": 3,
           "functions": [
@@ -67,7 +67,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "forge:plates/copper",
+          "name": "create:copper_sheet",
           "expand": true,
           "weight": 3,
           "functions": [
@@ -130,7 +130,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "forge:plates/bronze",
+          "name": "frostedheart:bronze_sheet",
           "expand": true,
           "weight": 1,
           "functions": [
@@ -150,7 +150,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "forge:ingots/bronze",
+          "name": "frostedheart:bronze_ingot",
           "expand": true,
           "weight": 1,
           "functions": [
@@ -170,7 +170,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "forge:nuggets/bronze",
+          "name": "frostedheart:bronze_nugget",
           "expand": true,
           "weight": 6,
           "functions": [

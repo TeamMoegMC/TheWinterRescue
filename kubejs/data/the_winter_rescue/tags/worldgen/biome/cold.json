@@ -23,6 +23,13 @@
     "the_winter_rescue:nature/ironwinter_hollow",
     "the_winter_rescue:nature/snowy_shrubland",
     "the_winter_rescue:nature/frostpine_grove",
-    "the_winter_rescue:nature/scree_pine_grove"
+    "the_winter_rescue:nature/scree_pine_grove",
+    "the_winter_rescue:alpine_glacier",
+    "the_winter_rescue:glacial_ices",
+    "the_winter_rescue:glacial_lakes",
+    "the_winter_rescue:ice_cap",
+    "the_winter_rescue:tidewater_glacier",
+    "the_winter_rescue:tundra",
+    "the_winter_rescue:valley_glacier"
   ]
 }

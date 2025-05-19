@@ -6,9 +6,9 @@
     "cave": false
   },
   "the_winter_rescue:nature/destroyed_marsh": {
-    "r": 41,
-    "g": 72,
-    "b": 15,
+    "r": 202,
+    "g": 150,
+    "b": 215,
     "cave": false
   },
   "the_winter_rescue:mycelium_caves": {
@@ -77,6 +77,18 @@
     "b": 224,
     "cave": false
   },
+  "the_winter_rescue:glacial_ices": {
+    "r": 17,
+    "g": 63,
+    "b": 90,
+    "cave": false
+  },
+  "the_winter_rescue:tidewater_glacier": {
+    "r": 125,
+    "g": 241,
+    "b": 254,
+    "cave": false
+  },
   "the_winter_rescue:destroyed_forest": {
     "r": 101,
     "g": 30,
@@ -93,6 +105,12 @@
     "r": 251,
     "g": 251,
     "b": 251,
+    "cave": false
+  },
+  "the_winter_rescue:nature/frostpine_grove": {
+    "r": 202,
+    "g": 217,
+    "b": 36,
     "cave": false
   },
   "minecraft:snowy_plains": {

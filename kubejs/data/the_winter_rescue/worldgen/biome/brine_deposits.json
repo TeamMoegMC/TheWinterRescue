@@ -5,7 +5,7 @@
       "minecraft:canyon"
     ]
   },
-  "creature_spawn_probability": 0.05,
+  "creature_spawn_probability": 0.01,
   "downfall": 0.3,
   "effects": {
     "fog_color": 12638463,
@@ -93,7 +93,7 @@
         "type": "minecraft:glow_squid",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 10
+        "weight": 1
       }
     ],
     "water_ambient": [],

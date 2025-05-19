@@ -5,7 +5,7 @@
       "minecraft:cave_extra_underground"
     ]
   },
-  "creature_spawn_probability": 0.05,
+  "creature_spawn_probability": 0.01,
   "downfall": 0.6,
   "effects": {
     "fog_color": 14739967,
@@ -100,25 +100,13 @@
         "type": "minecraft:spider",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:skeleton",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:zombie",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
+        "weight": 1
       },
       {
         "type": "minecraft:creeper",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 5
+        "weight": 1
       }
     ],
     "underground_water_creature": [
@@ -126,7 +114,7 @@
         "type": "minecraft:glow_squid",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 10
+        "weight": 1
       }
     ],
     "water_ambient": [],

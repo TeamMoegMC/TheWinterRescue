@@ -1,16 +1,10 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     "minecraft:snowy_taiga",
-    "minecraft:lush_caves",
-    "the_winter_rescue:magmatic_deposits",
-    "the_winter_rescue:hydrothermal_deposits",
-    "the_winter_rescue:mycelium_caves",
-    "the_winter_rescue:crust_chasms",
-    "the_winter_rescue:nature/destroyed_marsh",
+    "the_winter_rescue:fossil_deposits",
     "the_winter_rescue:nature/frostbough_forest",
     "the_winter_rescue:nature/ironwinter_hollow",
-    "the_winter_rescue:nature/snowy_shrubland",
     "the_winter_rescue:nature/frostpine_grove",
     "the_winter_rescue:nature/scree_pine_grove"
   ]

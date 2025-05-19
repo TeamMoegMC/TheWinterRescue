@@ -58,7 +58,7 @@
       "rolls": 1,
       "entries": [
         { "type": "minecraft:item", "name": "frostedheart:military_rations", "weight": 1, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }] },
-        { "type": "minecraft:item", "name": "frostedheart:compressed_biscuit_pack", "weight": 1, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }] },
+        { "type": "minecraft:item", "name": "frostedheart:compressed_biscuits_pack", "weight": 1, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }] },
         { "type": "minecraft:item", "name": "frostedheart:compressed_biscuits", "weight": 1, "functions": [{ "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }] }
       ],
       "conditions": [
