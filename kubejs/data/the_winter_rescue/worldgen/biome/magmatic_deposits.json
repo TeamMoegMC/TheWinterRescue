@@ -6,7 +6,7 @@
       "minecraft:canyon"
     ]
   },
-  "creature_spawn_probability": 0.05,
+  "creature_spawn_probability": 0.01,
   "downfall": 0.3,
   "effects": {
     "fog_color": 12638463,
@@ -95,25 +95,13 @@
         "type": "minecraft:spider",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:skeleton",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:zombie",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
+        "weight": 1
       },
       {
         "type": "minecraft:creeper",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 5
+        "weight": 1
       }
     ],
     "underground_water_creature": [

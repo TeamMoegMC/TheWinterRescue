@@ -2,55 +2,62 @@
   "carvers": {
     "air": [
       "minecraft:cave",
+      "minecraft:cave_extra_underground",
       "minecraft:canyon"
     ]
   },
   "creature_spawn_probability": 0.01,
-  "downfall": 0.5,
+  "downfall": 0.0,
   "effects": {
     "fog_color": 12638463,
     "mood_sound": {
       "block_search_extent": 8,
-      "offset": 2,
+      "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 7907327,
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.desert"
+    },
+    "sky_color": 7254527,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
   "features": [
-    [
-      "the_winter_rescue:glacial/blue_ice",
-      "the_winter_rescue:glacial/icicle",
-      "the_winter_rescue:glacial/puddle"
-    ],
+    [],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
     [
-      "minecraft:iceberg_packed",
-      "minecraft:iceberg_blue",
       "minecraft:amethyst_geode"
     ],
     [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
     [
-      "minecraft:blue_ice",
-      "minecraft:ice_spike",
-      "minecraft:ice_patch"
+      "minecraft:desert_well"
     ],
     [],
     [
+      "minecraft:ore_dirt",
       "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
       "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
       "minecraft:ore_iron_small",
       "minecraft:ore_gold",
@@ -66,11 +73,13 @@
       "minecraft:disk_gravel"
     ],
     [],
-    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
     [
       "minecraft:glow_lichen",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
+      "minecraft:patch_dead_bush_2",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal"
     ],
@@ -78,7 +87,7 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "has_precipitation": true,
+  "has_precipitation": false,
   "spawn_costs": {},
   "spawners": {
     "ambient": [
@@ -92,10 +101,10 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:polar_bear",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 1
+        "type": "minecraft:rabbit",
+        "maxCount": 3,
+        "minCount": 2,
+        "weight": 4
       }
     ],
     "misc": [],
@@ -113,5 +122,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0
+  "temperature": 2.0
 }

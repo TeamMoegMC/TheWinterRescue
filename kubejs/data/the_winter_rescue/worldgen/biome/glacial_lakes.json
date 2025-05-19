@@ -107,18 +107,6 @@
         "maxCount": 8,
         "minCount": 1,
         "weight": 1
-      },
-      {
-        "type": "minecraft:rabbit",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 2
-      },
-      {
-        "type": "minecraft:fox",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 1
       }
     ],
     "misc": [],

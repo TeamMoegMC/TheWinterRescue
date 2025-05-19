@@ -15,6 +15,15 @@
     "minecraft:snowy_slopes",
     "minecraft:snowy_taiga",
     "minecraft:snowy_plains",
-    "minecraft:ice_spikes"
+    "minecraft:ice_spikes",
+    "the_winter_rescue:active_volcano",
+    "the_winter_rescue:alpine_glacier",
+    "the_winter_rescue:glacial_ices",
+    "the_winter_rescue:glacial_lakes",
+    "the_winter_rescue:ice_cap",
+    "the_winter_rescue:tidewater_glacier",
+    "the_winter_rescue:tundra",
+    "the_winter_rescue:valley_glacier",
+    "the_winter_rescue:volcanic_hills"
   ]
 }

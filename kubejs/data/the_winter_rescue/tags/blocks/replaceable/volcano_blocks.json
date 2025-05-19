@@ -3,7 +3,7 @@
   "values": [
     "#minecraft:base_stone_overworld",
     "minecraft:dirt",
-    "#mineraft:dirt",
+    "frostedheart:dirt_permafrost",
     "frostedheart:firm_ice",
     "minecraft:grass_block",
     "minecraft:sand",

@@ -79,14 +79,12 @@
     [
       "the_winter_rescue:nature/bare_mangrove_tree",
       "minecraft:glow_lichen",
-      "minecraft:flower_swamp",
       "minecraft:patch_grass_normal",
       "minecraft:patch_dead_bush",
       "minecraft:brown_mushroom_swamp",
       "minecraft:red_mushroom_swamp",
       "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:seagrass_swamp"
+      "minecraft:red_mushroom_normal"
     ],
     [
       "minecraft:freeze_top_layer"

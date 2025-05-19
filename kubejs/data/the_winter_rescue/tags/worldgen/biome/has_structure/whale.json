@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "minecraft:snowy_beach",
-    "minecraft:frozen_ocean"
+    "minecraft:frozen_ocean",
+    "the_winter_rescue:glacial_lakes",
+    "the_winter_rescue:ice_cap"
   ]
 }

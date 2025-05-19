@@ -262,7 +262,7 @@
                           {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "frostedheart:gravel_permafrost"
+                              "Name": "minecraft:firm_ice"
                             }
                           }
                         ]
@@ -1259,6 +1259,56 @@
                           "if_true": {
                             "type": "minecraft:biome",
                             "biome_is": [
+                              "the_winter_rescue:glacial_ices"
+                            ]
+                          },
+                          "then_run": {
+                            "type": "minecraft:sequence",
+                            "sequence": [
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "max_threshold": 0.025,
+                                  "min_threshold": -0.025,
+                                  "noise": "the_winter_rescue:tropics/volcano_surface"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:firm_ice"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "max_threshold": 0.025,
+                                  "min_threshold": -0.025,
+                                  "noise": "the_winter_rescue:tropics/volcano_magma"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:ice"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "frostedheart:thin_ice"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:biome",
+                            "biome_is": [
                               "the_winter_rescue:active_volcano"
                             ]
                           },
@@ -2055,6 +2105,7 @@
                           "minecraft:mangrove_swamp",
                           "the_winter_rescue:nature/destroyed_marsh",
                           "the_winter_rescue:glacial_lakes",
+                          "the_winter_rescue:glacial_ices",
                           "minecraft:swamp"
                         ]
                       },

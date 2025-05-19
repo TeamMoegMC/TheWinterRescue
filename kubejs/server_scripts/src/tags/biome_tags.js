@@ -33,4 +33,10 @@ ServerEvents.tags("worldgen/biome", (event) => {
         "the_winter_rescue:underwater_volcano",
         "the_winter_rescue:glacial_lakes"
     ])
+
+    event.add("stone_age:fishing_net_works", [
+        "the_winter_rescue:glacial_lakes",
+        "the_winter_rescue:tidewater_glacier",
+        "the_winter_rescue:valley_glacier"
+    ])
 })

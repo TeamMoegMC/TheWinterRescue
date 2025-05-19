@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "the_winter_rescue:nature/destroyed_marsh"
+    "the_winter_rescue:nature/destroyed_marsh",
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves",
+    "the_winter_rescue:glacial_lakes"
   ]
 }
