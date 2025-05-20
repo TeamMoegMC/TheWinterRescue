@@ -1,7 +1,8 @@
 {
   "showAltDesc": true,
   "points": 8000,
-  "insight": 1,
+  "insight": 2,
+  "name": "@",
   "clues": [
     {
       "type": "game",

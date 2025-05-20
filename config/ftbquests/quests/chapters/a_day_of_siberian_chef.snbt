@@ -666,7 +666,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["甜菜比起甘蔗来说更容易在寒带种植，是获取糖类的不二之选。"]
+			description: ["{quest.twr.03711E7D7FF74B83.description.1}"]
 			id: "03711E7D7FF74B83"
 			rewards: [{
 				id: "20DA62C51E62D81B"
@@ -696,7 +696,7 @@
 				insight: 1
 				type: "frostedheart:insight"
 			}]
-			subtitle: "战略物资"
+			subtitle: "{quest.twr.768327A36D2D9ABA.subtitle}"
 			tasks: [{
 				id: "36B4CEBF7D744799"
 				item: "minecraft:sugar"

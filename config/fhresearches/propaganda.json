@@ -1,0 +1,86 @@
+{
+  "infinite": true,
+  "points": 3000,
+  "insight": 0,
+  "name": "@",
+  "clues": [
+    {
+      "type": "game",
+      "id": "a413c2ed5bd446ab",
+      "required": true,
+      "value": 0.5,
+      "level": 1
+    },
+    {
+      "type": "item",
+      "id": "d2fbb358ecf24945",
+      "value": 0.5,
+      "consume": true,
+      "item": {
+        "base_ingredient": {
+          "item": "minecraft:gold_ingot"
+        },
+        "count": 16
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "base_ingredient": {
+        "item": "frostedheart:buff_coat"
+      },
+      "count": 4
+    },
+    {
+      "base_ingredient": {
+        "item": "minecraft:diamond"
+      },
+      "count": 4
+    },
+    {
+      "base_ingredient": {
+        "tag": "caupona:cereals"
+      },
+      "count": 64
+    },
+    {
+      "base_ingredient": {
+        "item": "charcoal_pit:ceramic_pot"
+      },
+      "count": 1
+    },
+    {
+      "base_ingredient": {
+        "item": "stone_age:stone_chest"
+      },
+      "count": 2
+    },
+    {
+      "base_ingredient": {
+        "tag": "caupona:meats"
+      },
+      "count": 64
+    }
+  ],
+  "effects": [
+    {
+      "type": "stats",
+      "id": "62f73ac0febc4571",
+      "name": "@",
+      "vars": "vlg_forgive",
+      "val": 1.0,
+      "percent": false
+    }
+  ],
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "supplementaries:speaker_block",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:exploration",
+  "parents": [
+    "rescue_plan_initiated"
+  ]
+}

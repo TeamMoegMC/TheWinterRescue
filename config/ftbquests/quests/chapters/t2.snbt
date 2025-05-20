@@ -1172,7 +1172,7 @@
 				elevate_perms: true
 				icon: "supplementaries:slice_map"
 				id: "3C775632B8B8447F"
-				title: "给予任务区块"
+				title: "{quest.twr.013DCE6D04AC8284.3C775632B8B8447F.title}"
 				type: "command"
 			}]
 			tasks: [{
@@ -1182,7 +1182,7 @@
 				item: "frostedheart:cast_iron_ingot"
 				type: "item"
 			}]
-			title: "任务区块"
+			title: "{quest.twr.013DCE6D04AC8284.title}"
 			x: -13.0d
 			y: -0.5d
 		}

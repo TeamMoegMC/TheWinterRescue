@@ -3,14 +3,25 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ count: 4, item: "frostedheart:rusted_iron_ingot" }
-		{ count: 8, item: "frostedheart:gray_tin_ingot" }
-		{ count: 8, item: "frostedheart:rusted_copper_ingot" }
+		{
+			count: 4
+			item: "frostedheart:rusted_iron_ingot"
+		}
+		{
+			count: 8
+			item: "frostedheart:gray_tin_ingot"
+		}
+		{
+			count: 8
+			item: "frostedheart:rusted_copper_ingot"
+		}
 		{
 			type: "xp_levels"
 			xp_levels: 5
 		}
-		{ item: "frostedheart:military_rations" }
+		{
+			item: "frostedheart:military_rations"
+		}
 	]
 	title: "{reward_table.twr.5B4F6405EAEE3731.title}"
 }
