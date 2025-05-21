@@ -53,6 +53,7 @@
   "item.kubejs.servo_core": "伺服器控制器",
   "item.kubejs.motor": "小型马达",
   "item.kubejs.pcb_base": "电路基板",
+  "item.kubejs.cut_stone": "切制石块",
   "item.kubejs.incomplete_bronze_cogwheel": "青铜齿轮（半成品）",
   "item.kubejs.incomplete_cast_iron_cogwheel": "铸铁齿轮（半成品）",
   "item.kubejs.incomplete_steel_cogwheel": "钢齿轮（半成品）",

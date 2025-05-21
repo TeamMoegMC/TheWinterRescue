@@ -220,6 +220,11 @@ ServerEvents.recipes((event) => {
         "supplementaries:soap",
         "create:crafting/kinetics/whisk",
         "create:crafting/kinetics/encased_chain_drive",
+        "minecraft:stone_bricks_from_stone_stonecutting",
+        "minecraft:stone_brick_slab_from_stone_stonecutting",
+        "minecraft:stone_brick_walls_from_stone_stonecutting",
+        "minecraft:stone_brick_stairs_from_stone_stonecutting",
+        "minecraft:chiseled_stone_bricks_stone_from_stonecutting",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

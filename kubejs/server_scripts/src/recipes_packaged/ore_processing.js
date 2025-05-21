@@ -62,6 +62,8 @@ ServerEvents.recipes((event) => {
         ["frostedheart:electrum_ingot", "#forge:dusts/electrum", 200, false],
         ["frostedheart:alumina_dust", "#forge:dusts/aluminum_hydroxide", 40, false],
 
+        ["minecraft:paper", "frostedheart:pulp", 40, false]
+
     ]
 	create.splashing([Item.of("#forge:crushed_raw_materials/iron"),Item.of("#forge:dusts/sulfur").withChance(0.5)],Ingredient.of("#forge:crushed_raw_materials/pyrite"))
 	create.splashing([Item.of("#forge:dusts/zinc_oxide"),Item.of("#forge:dusts/sulfur").withChance(0.5)],Ingredient.of("#forge:crushed_raw_materials/zinc"))
