@@ -162,10 +162,7 @@
                           "__comment__": "Wintry forest and lowlands grass block decorations",
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:grass_block",
-                            "Properties": {
-                              "snowy": "true"
-                            }
+                            "Name": "frostedheart:dirt_permafrost"
                           }
                         }
                       }
@@ -2205,8 +2202,8 @@
                       "type": "minecraft:condition",
                       "if_true": {
                         "type": "minecraft:stone_depth",
-                        "add_surface_depth": true,
-                        "offset": 0,
+                        "add_surface_depth": false,
+                        "offset": 1,
                         "secondary_depth_range": 0,
                         "surface_type": "floor"
                       },
