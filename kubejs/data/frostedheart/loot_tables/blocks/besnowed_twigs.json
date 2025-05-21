@@ -4,7 +4,16 @@
     {
       "rolls": 1,
       "entries": [
-        { "type": "minecraft:item", "name": "minecraft:stick" }
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vine",
+          "weight": 2
+        }
       ]
     }
   ]
