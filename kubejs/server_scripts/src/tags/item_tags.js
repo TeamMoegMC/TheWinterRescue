@@ -131,6 +131,7 @@ ServerEvents.tags("item", (event) => {
     ])
     event.add("caupona:meats/meat", [
         "stone_age:fat",
+        "stone_age:cooked_fat",
         "stone_age:venison",
         "stone_age:fowl_meat",
         "stone_age:auroch_meat",
