@@ -48,12 +48,12 @@
         1.0
       ],
       "humidity": [
-        -1.0,
+        0.1,
         1.0
       ],
       "offset": 0.0,
       "temperature": [
-        0.0,
+        0.2,
         1.0
       ],
       "weirdness": [
@@ -72,12 +72,12 @@
         1.0
       ],
       "humidity": [
-        -1.0,
+        0.1,
         1.0
       ],
       "offset": 0.0,
       "temperature": [
-        0.0,
+        0.2,
         1.0
       ],
       "weirdness": [
