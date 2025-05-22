@@ -10,7 +10,7 @@
 	#1x1 drawers hold 8 units, 1x2 drawers hold 4 units, 2x2 drawers hold 2 units.
 	#Half-depth drawers hold half those amounts.
 	baseStackStorage = 4
-	enableExtraCompactingRules = true
+	enableExtraCompactingRules = false
 	#Controller range defines how far away a drawer can be connected
 	#on X, Y, or Z planes.  The default value of 50 gives the controller a very
 	#large range, but not beyond the chunk load distance.
@@ -27,7 +27,7 @@
 	#Drawers can still only be inserted into a block with enough capacity for the items held.
 	forceDetachedDrawersMaxCapacityCheck = false
 	#If enabled, carrying filled drawers in your inventory gives slowness debuff, unless a Portability Upgrade is used.
-	heavyDrawers = false
+	heavyDrawers = true
 	#If enabled, players can lock drawer interactions to just themselves.
 	enablePersonalKey = true
 

@@ -72,7 +72,7 @@
 #Toggles & config for experimental features
 [experimental]
 	#Enable the extractor bedrock functionality
-	extractor = true
+	extractor = false
 	#Enable modular crossbows
 	crossbow = true
 
