@@ -1293,21 +1293,6 @@
                           "if_true": {
                             "type": "minecraft:biome",
                             "biome_is": [
-                              "the_winter_rescue:nature/destroyed_marsh"
-                            ]
-                          },
-                          "then_run": {
-                            "type": "minecraft:block",
-                            "result_state": {
-                              "Name": "minecraft:mud"
-                            }
-                          }
-                        },
-                        {
-                          "type": "minecraft:condition",
-                          "if_true": {
-                            "type": "minecraft:biome",
-                            "biome_is": [
                               "the_winter_rescue:glacial_lakes"
                             ]
                           },
@@ -1358,7 +1343,8 @@
                           "if_true": {
                             "type": "minecraft:biome",
                             "biome_is": [
-                              "the_winter_rescue:glacial_ices"
+                              "the_winter_rescue:glacial_ices",
+                              "the_winter_rescue:nature/destroyed_marsh"
                             ]
                           },
                           "then_run": {
