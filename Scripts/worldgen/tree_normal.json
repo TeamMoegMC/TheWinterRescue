@@ -1448,7 +1448,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.05,
@@ -1478,7 +1478,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.05,
@@ -1568,7 +1568,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.05,
@@ -1598,7 +1598,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.05,
@@ -2492,7 +2492,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -2521,7 +2521,7 @@
                   -0.45
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -2552,7 +2552,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -2581,7 +2581,7 @@
                   -0.15
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -2612,7 +2612,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -2641,7 +2641,7 @@
                   0.2
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -3428,7 +3428,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -3458,7 +3458,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -3488,7 +3488,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -3518,7 +3518,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -3668,7 +3668,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -3698,7 +3698,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -3728,7 +3728,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -3758,7 +3758,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -5588,7 +5588,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -5618,7 +5618,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -5648,7 +5648,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -5678,7 +5678,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -5828,7 +5828,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -5858,7 +5858,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -5888,7 +5888,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -5918,7 +5918,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -7748,7 +7748,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -7778,7 +7778,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -7808,7 +7808,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -7838,7 +7838,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -7988,7 +7988,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -8018,7 +8018,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -8048,7 +8048,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -8078,7 +8078,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -9908,7 +9908,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -9938,7 +9938,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -9968,7 +9968,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -9998,7 +9998,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -10148,7 +10148,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -10178,7 +10178,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -10208,7 +10208,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -10238,7 +10238,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -11912,7 +11912,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -11942,7 +11942,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -11971,7 +11971,7 @@
                   -0.45
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -12001,7 +12001,7 @@
                   -0.45
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -12032,7 +12032,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -12062,7 +12062,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -12091,7 +12091,7 @@
                   -0.15
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -12121,7 +12121,7 @@
                   -0.15
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -12152,7 +12152,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -12182,7 +12182,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -12211,7 +12211,7 @@
                   0.2
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -12241,7 +12241,7 @@
                   0.2
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -16448,7 +16448,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -16478,7 +16478,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -16508,7 +16508,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -16538,7 +16538,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -16568,7 +16568,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -16598,7 +16598,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -16628,7 +16628,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -16658,7 +16658,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -16928,7 +16928,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -16958,7 +16958,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -16988,7 +16988,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -17018,7 +17018,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -17048,7 +17048,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -17078,7 +17078,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -17108,7 +17108,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -17138,7 +17138,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -23648,7 +23648,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -23678,7 +23678,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -23708,7 +23708,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -23738,7 +23738,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -23768,7 +23768,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -23798,7 +23798,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -23828,7 +23828,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -23858,7 +23858,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -24128,7 +24128,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -24158,7 +24158,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -24188,7 +24188,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -24218,7 +24218,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -24248,7 +24248,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -24278,7 +24278,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -24308,7 +24308,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -24338,7 +24338,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -30128,7 +30128,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -30158,7 +30158,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -30188,7 +30188,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -30218,7 +30218,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -30248,7 +30248,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -30278,7 +30278,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -30308,7 +30308,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -30338,7 +30338,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -30608,7 +30608,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -30638,7 +30638,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -30668,7 +30668,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -30698,7 +30698,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -30728,7 +30728,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -30758,7 +30758,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -30788,7 +30788,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -30818,7 +30818,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -34208,7 +34208,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -34238,7 +34238,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -34268,7 +34268,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -34298,7 +34298,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -34328,7 +34328,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -34358,7 +34358,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -34388,7 +34388,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -34418,7 +34418,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -34688,7 +34688,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -34718,7 +34718,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -34748,7 +34748,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -34778,7 +34778,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -34808,7 +34808,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -34838,7 +34838,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -34868,7 +34868,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -34898,7 +34898,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -38288,7 +38288,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -38318,7 +38318,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -38348,7 +38348,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -38378,7 +38378,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -38408,7 +38408,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -38438,7 +38438,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -38468,7 +38468,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -38498,7 +38498,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -38768,7 +38768,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -38798,7 +38798,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -38828,7 +38828,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -38858,7 +38858,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -38888,7 +38888,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -38918,7 +38918,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -38948,7 +38948,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -38978,7 +38978,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -42032,7 +42032,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -42062,7 +42062,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -42092,7 +42092,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -42122,7 +42122,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -42151,7 +42151,7 @@
                   -0.45
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -42181,7 +42181,7 @@
                   -0.45
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -42211,7 +42211,7 @@
                   -0.45
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -42241,7 +42241,7 @@
                   -0.45
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -42272,7 +42272,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -42302,7 +42302,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -42332,7 +42332,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -42362,7 +42362,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -42391,7 +42391,7 @@
                   -0.15
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -42421,7 +42421,7 @@
                   -0.15
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -42451,7 +42451,7 @@
                   -0.15
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -42481,7 +42481,7 @@
                   -0.15
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -42512,7 +42512,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -42542,7 +42542,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -42572,7 +42572,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -42602,7 +42602,7 @@
                 ],
                 "humidity": [
                   -1.0,
-                  -0.35
+                  -0.1
                 ],
                 "offset": 0
               }
@@ -42631,7 +42631,7 @@
                   0.2
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -42661,7 +42661,7 @@
                   0.2
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -42691,7 +42691,7 @@
                   0.2
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -42721,7 +42721,7 @@
                   0.2
                 ],
                 "humidity": [
-                  -0.35,
+                  -0.1,
                   1.0
                 ],
                 "offset": 0
@@ -43808,7 +43808,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -43838,7 +43838,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -43868,7 +43868,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -43898,7 +43898,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -43928,7 +43928,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -43958,7 +43958,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -43988,7 +43988,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -44018,7 +44018,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -44288,7 +44288,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -44318,7 +44318,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -44348,7 +44348,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -44378,7 +44378,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -44408,7 +44408,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -44438,7 +44438,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -44468,7 +44468,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -44498,7 +44498,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -48608,7 +48608,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -48638,7 +48638,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -48668,7 +48668,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -48698,7 +48698,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -48728,7 +48728,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -48758,7 +48758,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -48788,7 +48788,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -48818,7 +48818,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -49088,7 +49088,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -49118,7 +49118,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -49148,7 +49148,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -49178,7 +49178,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -49208,7 +49208,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -49238,7 +49238,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -49268,7 +49268,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -49298,7 +49298,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -55088,7 +55088,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -55118,7 +55118,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -55148,7 +55148,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -55178,7 +55178,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -55208,7 +55208,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -55238,7 +55238,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -55268,7 +55268,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -55298,7 +55298,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -55568,7 +55568,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -55598,7 +55598,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -55628,7 +55628,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -55658,7 +55658,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -55688,7 +55688,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -55718,7 +55718,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -55748,7 +55748,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -55778,7 +55778,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -61568,7 +61568,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -61598,7 +61598,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -61628,7 +61628,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -61658,7 +61658,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -61688,7 +61688,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -61718,7 +61718,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -61748,7 +61748,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -61778,7 +61778,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -62048,7 +62048,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -62078,7 +62078,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -62108,7 +62108,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -62138,7 +62138,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -62168,7 +62168,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -62198,7 +62198,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -62228,7 +62228,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -62258,7 +62258,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -68048,7 +68048,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -68078,7 +68078,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -68108,7 +68108,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -68138,7 +68138,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -68168,7 +68168,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -68198,7 +68198,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -68228,7 +68228,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -68258,7 +68258,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -68528,7 +68528,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -68558,7 +68558,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -68588,7 +68588,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -68618,7 +68618,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -68648,7 +68648,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -68678,7 +68678,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -68708,7 +68708,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -68738,7 +68738,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -74528,7 +74528,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -74558,7 +74558,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -74588,7 +74588,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -74618,7 +74618,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -74648,7 +74648,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -74678,7 +74678,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -74708,7 +74708,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -74738,7 +74738,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -75008,7 +75008,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -75038,7 +75038,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -75068,7 +75068,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -75098,7 +75098,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -75128,7 +75128,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -75158,7 +75158,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -75188,7 +75188,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -75218,7 +75218,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -81008,7 +81008,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -81038,7 +81038,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -81068,7 +81068,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -81098,7 +81098,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -81128,7 +81128,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -81158,7 +81158,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -81188,7 +81188,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -81218,7 +81218,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -81488,7 +81488,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -81518,7 +81518,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -81548,7 +81548,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -81578,7 +81578,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -81608,7 +81608,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -81638,7 +81638,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -81668,7 +81668,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -81698,7 +81698,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -85568,7 +85568,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -85598,7 +85598,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -85628,7 +85628,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -85658,7 +85658,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -85808,7 +85808,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -85838,7 +85838,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -85868,7 +85868,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -85898,7 +85898,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -88808,7 +88808,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -88838,7 +88838,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -88868,7 +88868,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -88898,7 +88898,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -89048,7 +89048,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -89078,7 +89078,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -89108,7 +89108,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -89138,7 +89138,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -92048,7 +92048,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -92078,7 +92078,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -92108,7 +92108,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -92138,7 +92138,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -92288,7 +92288,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -92318,7 +92318,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -92348,7 +92348,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -92378,7 +92378,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -95288,7 +95288,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -95318,7 +95318,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -95348,7 +95348,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -95378,7 +95378,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -95528,7 +95528,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -95558,7 +95558,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -95588,7 +95588,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -95618,7 +95618,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -98528,7 +98528,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -98558,7 +98558,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -98588,7 +98588,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -98618,7 +98618,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -98768,7 +98768,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -98798,7 +98798,7 @@
               }
             },
             {
-              "biome": "minecraft:ice_spikes",
+              "biome": "the_winter_rescue:glacial_ices",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -98828,7 +98828,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -98858,7 +98858,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:glacial_ices",
+              "biome": "minecraft:snowy_plains",
               "parameters": {
                 "weirdness": [
                   0.5667,

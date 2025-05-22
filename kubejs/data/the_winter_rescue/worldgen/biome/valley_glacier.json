@@ -84,12 +84,7 @@
     ],
     "axolotls": [],
     "creature": [
-      {
-        "type": "minecraft:polar_bear",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 1
-      }
+
     ],
     "misc": [],
     "monster": [
