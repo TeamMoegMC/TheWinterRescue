@@ -83,7 +83,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: ["frostedheart:pulp"],
-            input: ["4x #forge:dusts/wood", "#forge:clay", Fluid.of("minecraft:water", 1000)]
+            input: ["4x #forge:dusts/wood", "#forge:clay", Fluid.of("minecraft:water", 100)]
         },
         {
             output: ["frostedheart:sodium_sulfide_dust"],
@@ -91,7 +91,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: ["4x frostedheart:pulp"],
-            input: ["6x #forge:dusts/wood", "frostedheart:sodium_sulfide_dust", "frostedheart:sodium_hydroxide_dust", Fluid.of("minecraft:water", 1000)]
+            input: ["6x #forge:dusts/wood", "frostedheart:sodium_sulfide_dust", "frostedheart:sodium_hydroxide_dust", Fluid.of("minecraft:water", 100)]
         },
         // {
         //     output: ["3x immersiveengineering:fertilizer"],

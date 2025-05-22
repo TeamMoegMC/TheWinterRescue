@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#the_winter_rescue:has_feature/powder_snow_patch",
+  "features": [
+    "the_winter_rescue:powder_snow_patch"
+  ],
+  "step": "surface_structures"
+}

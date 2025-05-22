@@ -1,0 +1,27 @@
+{
+  "type": "frostedheart:disk",
+  "config": {
+    "state_provider": {
+      "rules": [],
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:snow_block",
+          "Properties": {}
+        }
+      }
+    },
+    "target": {
+      "type": "minecraft:matching_block_tag",
+      "tag": "frostedheart:replaceable_with_snowy_stuff"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 5
+      }
+    },
+    "half_height": 1
+  }
+}

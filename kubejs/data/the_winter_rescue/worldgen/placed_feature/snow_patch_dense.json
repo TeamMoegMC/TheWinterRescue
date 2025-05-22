@@ -1,16 +1,12 @@
 {
-  "feature": "the_winter_rescue:powder_snow_patch",
+  "feature": "the_winter_rescue:snow_block_patch",
   "placement": [
-    {
-      "type": "minecraft:rarity_filter",
-      "chance": 128
-    },
     {
       "type": "minecraft:in_square"
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "MOTION_BLOCKING"
+      "heightmap": "OCEAN_FLOOR"
     },
     {
       "type": "minecraft:biome"

@@ -28,6 +28,7 @@ ServerEvents.tags("worldgen/biome", (event) => {
         "the_winter_rescue:tundra",
         "minecraft:snowy_plains",
         "minecraft:snowy_taiga",
+        "minecraft:desert",
     ])
 
     event.add("frostedheart:water_do_not_freeze", [

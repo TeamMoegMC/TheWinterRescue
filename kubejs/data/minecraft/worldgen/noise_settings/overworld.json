@@ -577,7 +577,7 @@
                               {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                  "Name": "frostedheart:red_sand_permafrost"
+                                  "Name": "minecraft:red_sand"
                                 }
                               }
                             ]
@@ -1193,10 +1193,7 @@
                                   {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                      "Name": "frostedheart:sand_permafrost",
-                                      "Properties": {
-                                        "snowy": "true"
-                                      }
+                                      "Name": "minecraft:sand"
                                     }
                                   }
                                 ]
@@ -1759,8 +1756,7 @@
                           "if_true": {
                             "type": "minecraft:biome",
                             "biome_is": [
-                              "minecraft:snowy_beach",
-                              "minecraft:desert"
+                              "minecraft:snowy_beach"
                             ]
                           },
                           "then_run": {
@@ -1779,6 +1775,52 @@
                                   "type": "minecraft:block",
                                   "result_state": {
                                     "Name": "frostedheart:sand_permafrost"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:stone_depth",
+                                  "add_surface_depth": false,
+                                  "offset": 4,
+                                  "secondary_depth_range": 0,
+                                  "surface_type": "floor"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:sandstone"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:biome",
+                            "biome_is": [
+                              "minecraft:desert"
+                            ]
+                          },
+                          "then_run": {
+                            "type": "minecraft:sequence",
+                            "sequence": [
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:stone_depth",
+                                  "add_surface_depth": false,
+                                  "offset": 2,
+                                  "secondary_depth_range": 0,
+                                  "surface_type": "floor"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:sand"
                                   }
                                 }
                               },
