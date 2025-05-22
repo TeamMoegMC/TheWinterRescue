@@ -20,4 +20,11 @@ ServerEvents.tags('block', (event) => {
         "charcoal_pit:mechanical_bellows",
         "charcoal_pit:ceramic_pot"
     ])
+
+    event.add("minecraft:moss_replaceable", [
+        "minecraft:snow_block",
+        "minecraft:basalt",
+    ])
+
+
 })

@@ -47,4 +47,18 @@ ItemEvents.modification((event) => {
     event.modify("frostedheart:peat_block", (modify) => {
         modify.burnTime = 800
     })
+
+    event.modify("frostedheart:rotten_wood", (modify) => {
+        modify.burnTime = 100
+    })
+
+    event.modify("minecraft:moss_carpet", (modify) => {
+        modify.burnTime = 20
+    })
+
+    event.modify("minecraft:moss_block", (modify) => {
+        modify.burnTime = 40
+    })
+
+
 })

@@ -6,6 +6,30 @@
       "entries": [
         {
           "data": {
+            "Name": "minecraft:spruce_wood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "frostedheart:rotten_wood_block"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "minecraft:flowering_azalea"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "Name": "minecraft:azalea"
+          },
+          "weight": 7
+        },
+        {
+          "data": {
             "Name": "minecraft:moss_carpet"
           },
           "weight": 25

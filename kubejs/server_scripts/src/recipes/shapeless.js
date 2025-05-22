@@ -65,6 +65,7 @@ ServerEvents.recipes((event) => {
 		shapelessRecipe("6x supplementaries:soap", ["minecraft:water_bucket", "4x supplementaries:ash", "stone_age:fat"]),
 		shapelessRecipe("2x create:encased_chain_drive", ["create:andesite_casing", "3x #twr:nuggets/structural"]),
 		shapelessRecipe("2x minecraft:stone_bricks", ["frostedheart:mortar", "4x kubejs:cut_stone"]),
+		shapelessRecipe("2x minecraft:stick", ["2x frostedheart:rotten_wood"]),
     ]
     addShapelessRecipes.forEach((recipe, index) => {
 		if(!Array.isArray(recipe.ingredients)){

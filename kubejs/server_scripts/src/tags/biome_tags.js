@@ -22,7 +22,12 @@ ServerEvents.tags("worldgen/biome", (event) => {
         "the_winter_rescue:active_volcano",
         "the_winter_rescue:volcanic_hills",
         "the_winter_rescue:underwater_volcano",
-        "the_winter_rescue:glacial_lakes"
+        "the_winter_rescue:glacial_lakes",
+        "the_winter_rescue:glacial_ices",
+        "the_winter_rescue:nature/snowy_shrubland",
+        "the_winter_rescue:tundra",
+        "minecraft:snowy_plains",
+        "minecraft:snowy_taiga",
     ])
 
     event.add("frostedheart:water_do_not_freeze", [

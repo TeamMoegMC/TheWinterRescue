@@ -5,5 +5,5 @@
     "the_winter_rescue:gravel_permafrost_patch",
     "the_winter_rescue:ice_covered_gravel"
   ],
-  "step": "surface_structures"
+  "step": "underground_ores"
 }

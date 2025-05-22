@@ -364,7 +364,7 @@
                           {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:firm_ice"
+                              "Name": "minecraft:packed_ice"
                             }
                           }
                         ]

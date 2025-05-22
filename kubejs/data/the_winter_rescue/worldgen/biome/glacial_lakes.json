@@ -77,6 +77,9 @@
       "minecraft:spring_lava"
     ],
     [
+      "the_winter_rescue:nature/sparse_moss_patch",
+      "the_winter_rescue:nature/sparse_bare_spruce_tree",
+      "the_winter_rescue:nature/sparse_bare_rotten_tree",
       "minecraft:glow_lichen",
       "minecraft:patch_grass_normal",
       "minecraft:patch_dead_bush",

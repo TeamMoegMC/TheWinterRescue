@@ -5,5 +5,5 @@
     "the_winter_rescue:clay_permafrost_patch",
     "the_winter_rescue:ice_covered_clay"
   ],
-  "step": "surface_structures"
+  "step": "underground_ores"
 }

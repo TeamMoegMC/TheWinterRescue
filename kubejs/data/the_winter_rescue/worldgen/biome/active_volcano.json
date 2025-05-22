@@ -91,7 +91,12 @@
             "minecraft:spring_lava"
         ],
         [
-            "minecraft:glow_lichen"
+          "the_winter_rescue:nature/bare_ashed_tree",
+          "the_winter_rescue:nature/sparse_bare_spruce_tree",
+          "the_winter_rescue:nature/sparse_bare_rotten_tree",
+          "the_winter_rescue:taiga/small/trees_small",
+          "the_winter_rescue:taiga/tiny/trees_tiny",
+          "minecraft:glow_lichen"
         ],
         [
             "minecraft:freeze_top_layer"

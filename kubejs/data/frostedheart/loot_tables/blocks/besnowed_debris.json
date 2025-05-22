@@ -8,7 +8,7 @@
           "type": "minecraft:tag",
           "name": "twr:sharp_materials",
           "expand": true,
-          "weight": 5
+          "weight": 1
         },
         {
           "type": "minecraft:item",
@@ -33,13 +33,13 @@
         {
           "type": "minecraft:item",
           "name": "frostedheart:frozen_seeds",
-          "weight": 5
+          "weight": 3
         },
         {
           "type": "minecraft:tag",
           "name": "frostedheart:condensed_balls",
           "expand": true,
-          "weight": 5
+          "weight": 1
         }
       ]
     }

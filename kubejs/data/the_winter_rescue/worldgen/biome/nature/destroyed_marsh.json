@@ -77,6 +77,7 @@
       "minecraft:spring_lava"
     ],
     [
+      "the_winter_rescue:nature/medium_moss_patch",
       "the_winter_rescue:nature/bare_mangrove_tree",
       "minecraft:glow_lichen",
       "minecraft:patch_grass_normal",

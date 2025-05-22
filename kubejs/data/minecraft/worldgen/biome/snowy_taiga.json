@@ -67,6 +67,9 @@
       "minecraft:spring_lava"
     ],
     [
+      "the_winter_rescue:nature/sparse_moss_patch",
+      "the_winter_rescue:nature/sparse_pine_bushes",
+      "the_winter_rescue:nature/sparse_bare_spruce_tree",
       "the_winter_rescue:taiga/tall/trees_tall",
       "the_winter_rescue:taiga/mid/trees_mid",
       "the_winter_rescue:taiga/small/trees_small",

@@ -68,6 +68,7 @@
       "minecraft:spring_lava"
     ],
     [
+      "the_winter_rescue:nature/sparse_moss_patch",
       "minecraft:glow_lichen",
       "minecraft:trees_water",
       "minecraft:flower_default",

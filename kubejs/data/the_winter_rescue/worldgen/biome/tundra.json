@@ -77,14 +77,17 @@
       "minecraft:spring_lava"
     ],
     [
-      "the_winter_rescue:moss_vegetation",
+      "the_winter_rescue:nature/moss_patch",
+      "the_winter_rescue:nature/sparse_bare_spruce_tree",
+      "the_winter_rescue:nature/sparse_bare_rotten_tree",
       "minecraft:glow_lichen",
       "minecraft:patch_grass_normal",
       "minecraft:patch_dead_bush",
       "minecraft:brown_mushroom_swamp",
       "minecraft:red_mushroom_swamp",
       "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal"
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_berry_rare"
     ],
     [
       "minecraft:freeze_top_layer"

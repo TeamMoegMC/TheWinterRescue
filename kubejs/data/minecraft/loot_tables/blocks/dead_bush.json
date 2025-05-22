@@ -8,14 +8,6 @@
           "type": "minecraft:item",
           "name": "minecraft:stick"
         }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "tag": "forge:shears"
-          }
-        }
       ]
     }
   ]
