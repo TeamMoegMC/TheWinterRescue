@@ -84,7 +84,7 @@ Memory fades too. People, the New Generation, started to forget the Apocalypse t
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:5.jpg
 @FillRect n=overlay1 clr=0xFF000000 w=578
-@FillRect n=overlay2 clr=0xFF000000 w=736 x=734
+@FillRect n=overlay2 clr=0xFF000000 w=734 x=1314
 @showLayer t=40 trans=fadeout
 @wr
 
