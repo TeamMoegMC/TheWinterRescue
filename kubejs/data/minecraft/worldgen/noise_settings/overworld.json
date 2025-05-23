@@ -472,7 +472,10 @@
                               {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                  "Name": "minecraft:red_sand"
+                                  "Name": "frostedheart:red_sand_permafrost",
+                                  "Properties": {
+                                    "snowy": "true"
+                                  }
                                 }
                               }
                             ]

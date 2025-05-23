@@ -66,6 +66,8 @@
     ],
     [
       "the_winter_rescue:fh_fossil",
+      "the_winter_rescue:nature/sparse_moss_patch",
+      "the_winter_rescue:nature/sparse_bare_rotten_tree",
       "minecraft:glow_lichen"
     ],
     [

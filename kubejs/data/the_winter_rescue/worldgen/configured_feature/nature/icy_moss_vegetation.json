@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:moss_carpet"
+          },
+          "weight": 100
+        },
+        {
+          "data": {
+            "Name": "frostedheart:besnowed_twigs"
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "Name": "frostedheart:besnowed_debris"
+          },
+          "weight": 20
+        },
+        {
+          "data": {
+            "Name": "frostedheart:layered_thin_ice"
+          },
+          "weight": 300
+        },
+        {
+          "data": {
+            "Name": "minecraft:grass"
+          },
+          "weight": 15
+        },
+        {
+          "data": {
+            "Name": "minecraft:spruce_wood"
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "frostedheart:rotten_wood_block"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "minecraft:dead_bush"
+          },
+          "weight": 5
+        }
+      ]
+    }
+  }
+}
