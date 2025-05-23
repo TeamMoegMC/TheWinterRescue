@@ -6,7 +6,7 @@
     ]
   },
   "creature_spawn_probability": 0.03,
-  "downfall": 0,
+  "downfall": 0.5,
   "effects": {
     "fog_color": 13494015,
     "foliage_color": 12162160,
@@ -124,6 +124,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.14,
+  "temperature": -0.2,
   "temperature_modifier": "frozen"
 }
