@@ -5,6 +5,11 @@
     "the_winter_rescue:nature/ironwinter_hollow",
     "the_winter_rescue:nature/snowy_shrubland",
     "the_winter_rescue:nature/frostpine_grove",
-    "the_winter_rescue:nature/scree_pine_grove"
+    "the_winter_rescue:nature/scree_pine_grove",
+    "the_winter_rescue:nature/destroyed_marsh",
+    "the_winter_rescue:destroyed_forest",
+    "the_winter_rescue:nature/destroyed_birch_forest",
+    "the_winter_rescue:tundra",
+    "minecraft:snowy_taiga"
   ]
 }
