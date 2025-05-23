@@ -281,10 +281,12 @@
 @p
 
 # skip tutorial if wanted
+@if exp="client.preloguePlayed"
 （是否跳过教程，直接领取初始物资？）[r]
 [link l=resources][&e跳过，我是老手。&r][endlink][r]
 [link l=heat_tutorial][&e继续，我是新手。（强烈建议观看教程！）&r][endlink][r]
 @wa
+@endif
 
 @label name=heat_tutorial
 @mobEffect e="frostedheart:insulation" a=0 t=6000 hide=1

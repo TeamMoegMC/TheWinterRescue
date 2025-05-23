@@ -6,8 +6,10 @@
 *started
 @delay t=60
 
+@if exp="client.preloguePlayed"
 If you know how to follow the quest book, you can skip this immersive tutorial.[r]
 [link s=chapter1_act2_end l=end][&eSkip, I am a Pro!&r][endlink][r]
 [link s=chapter1_act2][&eProceed, I am New.&r][endlink]
 @wa
+@endif
 @p

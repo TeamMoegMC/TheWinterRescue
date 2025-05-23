@@ -281,10 +281,12 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @p
 
 # skip tutorial if wanted
+@if exp="client.preloguePlayed"
 （Skip the tutorial to obtain initial resources?）[r]
 [link l=resources][&eSkip, I am a Pro.&r][endlink][r]
 [link l=heat_tutorial][&eProceed, I am new. (Highly recommended!)&r][endlink][r]
 @wa
+@endif
 
 @label name=heat_tutorial
 @mobEffect e="frostedheart:insulation" a=0 t=6000 hide=1
