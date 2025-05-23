@@ -82,9 +82,9 @@ Memory fades too. People, the New Generation, started to forget the Apocalypse t
 @wtr
 @er
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:5.jpg tw=1024 th=1024 uw=2048 uh=1170
-@FillRect n=overlay1 clr=0xFF000000 w=694
-@FillRect n=overlay2 clr=0xFF000000 w=694 x=1354
+@ImageLayer n=layer1 s=twr_scenario:5.jpg
+@FillRect n=overlay1 clr=0xFF000000 w=578
+@FillRect n=overlay2 clr=0xFF000000 w=736 x=734
 @showLayer t=40 trans=fadeout
 @wr
 
@@ -133,9 +133,10 @@ Thousands of others lived with same sorrow.[l]
 @wr
 Twenty years ago, the bravest of humanity led an expedition of no return into the crust of Earth. Their leader was my mother, whom I never said goodbye too.[l]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:7a.jpg
-@FillRect n=overlay1 clr=0xFF000000 w=846
-@FillRect n=overlay2 clr=0xFF000000 x=1500 w=548
+@ImageLayer n=layer1 s=twr_scenario:7.jpg
+@FillRect n=overlay1 clr=0xFF000000 w=566
+@FillRect n=overlay2 clr=0xFF000000 x=1306 w=736
+@FillRect n=overlay3 clr=0xFF000000 x=566 w=746
 @showLayer t=20 trans=fadeout
 @wr
 @er
@@ -151,16 +152,16 @@ Unveil its roots.”[wc]
 @wr
 They left with a sorrow ambition,[wc]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:7.jpg
+@freeLayer n=overlay3
 @showLayer t=20 trans=fadeout
 @wr
 but only left us with prolonged despair.[l]
 
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:8.jpg
-@FillRect n=overlay1 clr=0xFF000000       y=592 w=914  h=578
-@FillRect n=overlay2 clr=0xFF000000 x=914 y=578 w=1134 h=578
-@FillRect n=overlay3 clr=0xFF000000 x=988 w=1060 h=578
+@FillRect n=overlay1 clr=0xFF000000       y=572 w=964  h=598
+@FillRect n=overlay2 clr=0xFF000000 x=964 y=572 w=1084 h=598
+@FillRect n=overlay3 clr=0xFF000000 x=964 w=1084 h=572
 @showLayer t=40 trans=fadein
 @wr
 @er
@@ -183,19 +184,15 @@ It was a simple word — my nickname — that only two people in the world knows
 *half
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:9.jpg
-@FillRect n=overlay1 clr=0xFF000000 w=1134
-@showLayer t=20 trans=fadein
+@showLayer t=60 trans=fadein
 @wr
 @er
 I know it is her calling me… I’ve been waiting for twenty years.[l]
-@startLayer
-@freeLayer n=overlay1
-@showLayer t=80 trans=overleft
 @wr
 The anomaly was above the Yellowstone, now a dangerous frost land above an ever-active volcano.[l]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:10.jpg
-@showLayer t=40 trans=right
+@showLayer t=60 trans=right
 @wr
 @er
 A miracle that was my fantasy — that was their narrative. Thus I embark on a lone journey, with a few who believed in me, or hope.[l]
