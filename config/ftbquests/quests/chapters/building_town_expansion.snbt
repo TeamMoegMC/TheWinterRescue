@@ -68,6 +68,44 @@
 			x: -3.0d
 			y: 1.5d
 		}
+		{
+			dependencies: [
+				"2D570AD59FE2D6E1"
+				"0F92A786237ACCA8"
+				"3A3B51CF7F606665"
+				"0C07C58470EE031C"
+				"0F108F94F3A03203"
+			]
+			description: [
+				"{quest.twr.2E165BB1FB0CE6A0.description.1}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.2}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.3}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.4}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.5}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.6}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.7}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.8}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:firework_rocket"
+				tag: {
+					Fireworks: {
+						Flight: 1b
+					}
+				}
+			}
+			id: "2E165BB1FB0CE6A0"
+			subtitle: "{quest.twr.2E165BB1FB0CE6A0.subtitle}"
+			tasks: [{
+				id: "6499C7CF049214E1"
+				title: "{quest.twr.2E165BB1FB0CE6A0.6499C7CF049214E1.title}"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
 	]
 	subtitle: ["{chapter.twr.6E4D174C980DB004.subtitle.0}"]
 	title: "{chapter.twr.6E4D174C980DB004.title}"

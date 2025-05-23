@@ -24,6 +24,8 @@ ServerEvents.tags('block', (event) => {
     event.add("minecraft:moss_replaceable", [
         "minecraft:snow_block",
         "minecraft:basalt",
+        "minecraft:mud",
+        "frostedheart:thin_ice"
     ])
 
 

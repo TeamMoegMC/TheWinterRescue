@@ -51,6 +51,51 @@
             "Name": "minecraft:dead_bush"
           },
           "weight": 5
+        },
+        {
+          "data": {
+            "Name": "minecraft:sweet_berry_bush",
+            "Properties": {
+              "age": "3"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:sweet_berry_bush",
+            "Properties": {
+              "age": "3"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:sweet_berry_bush",
+            "Properties": {
+              "age": "0"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:sweet_berry_bush",
+            "Properties": {
+              "age": "1"
+            }
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "Name": "minecraft:sweet_berry_bush",
+            "Properties": {
+              "age": "2"
+            }
+          },
+          "weight": 1
         }
       ]
     }

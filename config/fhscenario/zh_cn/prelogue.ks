@@ -82,9 +82,9 @@
 @wtr
 @er
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:5.jpg tw=1024 th=1024 uw=2048 uh=1170
-@FillRect n=overlay1 clr=0xFF000000 w=694
-@FillRect n=overlay2 clr=0xFF000000 w=694 x=1354
+@ImageLayer n=layer1 s=twr_scenario:5.jpg
+@FillRect n=overlay1 clr=0xFF000000 w=578
+@FillRect n=overlay2 clr=0xFF000000 w=734 x=1314
 @showLayer t=40 trans=fadeout
 @wr
 
@@ -133,9 +133,10 @@
 @wr
 二十年前，一群勇敢的人踏上了一条无归之路，一场指向地壳深处的冒险。领导他们的是我的母亲，但我甚至来不及向她道别。[l]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:7a.jpg
-@FillRect n=overlay1 clr=0xFF000000 w=846
-@FillRect n=overlay2 clr=0xFF000000 x=1500 w=548
+@ImageLayer n=layer1 s=twr_scenario:7.jpg
+@FillRect n=overlay1 clr=0xFF000000 w=566
+@FillRect n=overlay2 clr=0xFF000000 x=1306 w=736
+@FillRect n=overlay3 clr=0xFF000000 x=566 w=746
 @showLayer t=20 trans=fadeout
 @wr
 @er
@@ -151,16 +152,16 @@
 @wr
 他们化悲恸为雄心离开；[wc]
 @startLayer
-@ImageLayer n=layer1 s=twr_scenario:7.jpg
+@freeLayer n=overlay3
 @showLayer t=20 trans=fadeout
 @wr
 可在留下来的我们之间，日久天长，雄心发酵成了绝望。[l]
 
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:8.jpg
-@FillRect n=overlay1 clr=0xFF000000       y=592 w=914  h=578
-@FillRect n=overlay2 clr=0xFF000000 x=914 y=578 w=1134 h=578
-@FillRect n=overlay3 clr=0xFF000000 x=988 w=1060 h=578
+@FillRect n=overlay1 clr=0xFF000000       y=572 w=964  h=598
+@FillRect n=overlay2 clr=0xFF000000 x=964 y=572 w=1084 h=598
+@FillRect n=overlay3 clr=0xFF000000 x=964 w=1084 h=572
 @showLayer t=40 trans=fadein
 @wr
 @er
@@ -183,19 +184,15 @@
 *half
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:9.jpg
-@FillRect n=overlay1 clr=0xFF000000 w=1134
-@showLayer t=20 trans=fadein
+@showLayer t=60 trans=fadein
 @wr
 @er
 是她在叫我。为此我已等了二十年。[l]
-@startLayer
-@freeLayer n=overlay1
-@showLayer t=80 trans=overleft
 @wr
 异常信号出现的地方是黄石，那里的火山活动如今依然活跃，虽然也已是一片冰封的荒原。[l]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:10.jpg
-@showLayer t=40 trans=right
+@showLayer t=60 trans=right
 @wr
 @er
 他们笑我把自己的幻想当成了奇迹。于是我只得找少数几位仍相信我、或仍相信希望的人一起，开始一趟孤独的旅程。[l]
@@ -284,10 +281,12 @@
 @p
 
 # skip tutorial if wanted
+@if exp="client.preloguePlayed"
 （是否跳过教程，直接领取初始物资？）[r]
 [link l=resources][&e跳过，我是老手。&r][endlink][r]
 [link l=heat_tutorial][&e继续，我是新手。（强烈建议观看教程！）&r][endlink][r]
 @wa
+@endif
 
 @label name=heat_tutorial
 @mobEffect e="frostedheart:insulation" a=0 t=6000 hide=1

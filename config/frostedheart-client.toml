@@ -88,4 +88,6 @@
 [other]
 	#Enable item tooltips
 	enableTooltips = true
+	#Enables shaderpack compatibility module, switch this off if your shader does not load correctly
+	enableShaderCompatibility = true
 

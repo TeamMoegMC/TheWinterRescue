@@ -19,6 +19,7 @@
 	"effect.frostedresearch.generator_T2.effects.5c48befb1df4af1": "一座进阶能量塔",
 	"effect.frostedresearch.generator_T2.effects.5c48befb1df4af1.0": "这座蒸汽驱动的能量塔不仅仅能加热环境",
 	"effect.frostedresearch.generator_T2.effects.5c48befb1df4af1.1": "它还能为你的工厂供给高压蒸汽",
+	"effect.frostedresearch.propaganda.effects.62f73ac0febc4571": "人们原谅了我杀一个人",
 	"effect.frostedresearch.rescue_plan_initiated.effects.64a6d42356b84621": "村民关系",
 	"effect.frostedresearch.steam_powerd.effects.48ac6b57ae2145c1.0": "任意蒸汽引擎",
 	"effect.frostedresearch.steam_powerd.effects.8eed770cafe84d50.0": "任意飞轮",
@@ -203,6 +204,8 @@
 	"research.frostedresearch.precision_mechanism.desc.0": "虽然，但是，确实成功了，通过电子管信号对于传动设备限制确实可以吧，只是，这个造价，着实让人难以承受。如果有更加便宜的信号限制方案，那么就好办了，毕竟红石的力量实在太小了，改变速度已经是我创意的极限了。",
 	"research.frostedresearch.precision_mechanism.desc_alt.0": "有些设备，仅仅只是小齿轮已经不能满足我的要求了，我需要更加精巧的设备结构。但再造更小的齿轮是一件非常困难的事情。但是如果我们用红石信号来代替齿轮给出精密控制会怎样？",
 	"research.frostedresearch.precision_mechanism.name": "精密机构制作",
+	"research.frostedresearch.propaganda.desc.0": "我杀人已经太多了，我的恶名已经无人不知无人不晓了，我现在还有另一个选择：为受害者设置纪念碑并买通一些人为我进行宣传。",
+	"research.frostedresearch.propaganda.name": "有利于我的宣传",
 	"research.frostedresearch.prospecting_upgrade.name": "勘矿升级",
 	"research.frostedresearch.rescue_plan_initiated.desc.0": "我想我可以给村民准备一些救援物资，这样他们或许对我的看法会更好。",
 	"research.frostedresearch.rescue_plan_initiated.name": "救援计划启动",
@@ -263,8 +266,5 @@
 	"research.frostedresearch.wool_armor.name": "羊毛大衣",
 	"research.frostedresearch.wool_lining.desc.0": "虽然做好了，但是，和普通内衬一样，我必须补充内衬，但由于我加入的材料更好了，我的耐久也增加了一点。勉强称得上好用？",
 	"research.frostedresearch.wool_lining.desc_alt.0": "仅仅有大衣是完全不够的，毕竟单单一层羊毛没有任何防护能力。面对无处不在的威胁，将羊毛保暖层整合进防具里成为了一个重要的课题。",
-	"research.frostedresearch.wool_lining.name": "羊毛内衬",
-	"effect.frostedresearch.propaganda.effects.62f73ac0febc4571": "人们原谅了我杀一个人",
-	"research.frostedresearch.propaganda.desc.0": "我杀人已经太多了，我的恶名已经无人不知无人不晓了，我现在还有另一个选择：为受害者设置纪念碑并买通一些人为我进行宣传。",
-	"research.frostedresearch.propaganda.name": "有利于我的宣传"
+	"research.frostedresearch.wool_lining.name": "羊毛内衬"
 }

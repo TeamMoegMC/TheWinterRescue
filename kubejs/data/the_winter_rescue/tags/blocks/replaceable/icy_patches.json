@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:snow",
     "#frostedheart:permafrost",
     "#frostedheart:soil"
   ]
