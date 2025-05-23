@@ -77,14 +77,14 @@
 				"0F108F94F3A03203"
 			]
 			description: [
-				"至此，您已经完成了冬季救援当前版本的所有主线任务。您已经在这个残酷的冬季生存下来，并且落下脚跟，建造了您的基地，恢复了生产。您可能已经救助了几位流浪难民，让他们拥有了温暖的居所。然而，这个世界上还有众多难民，遍布各地。他们有的正在逃难，也有的建起了自己的据点。在下一次更新中，您将有机会与他们交流，达成贸易，并招募难民，建立您自己的城镇，并将其扩张，让更多的人生存下来，真正实现冬季救援。"
-				""
-				"在此之前，欢迎加入我们的讨论群组。"
-				"QQ频道：https://pd.qq.com/s/ejtpb6x1i"
-				"最新QQ交流群：1014376904（满人请加频道）"
-				"Discord：https://discord.gg/BWn6E94"
-				""
-				"您可以借由您的通关截图来申请进入内测群。"
+				"{quest.twr.2E165BB1FB0CE6A0.description.1}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.2}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.3}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.4}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.5}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.6}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.7}"
+				"{quest.twr.2E165BB1FB0CE6A0.description.8}"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -97,10 +97,10 @@
 				}
 			}
 			id: "2E165BB1FB0CE6A0"
-			subtitle: "敬请期待"
+			subtitle: "{quest.twr.2E165BB1FB0CE6A0.subtitle}"
 			tasks: [{
 				id: "6499C7CF049214E1"
-				title: "准备救援"
+				title: "{quest.twr.2E165BB1FB0CE6A0.6499C7CF049214E1.title}"
 				type: "checkmark"
 			}]
 			x: -5.5d

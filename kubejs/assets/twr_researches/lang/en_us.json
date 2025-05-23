@@ -19,6 +19,7 @@
 	"effect.frostedresearch.generator_T2.effects.5c48befb1df4af1": "A better Generator",
 	"effect.frostedresearch.generator_T2.effects.5c48befb1df4af1.0": "This steam-powered Generator does more than just heat up the environment,",
 	"effect.frostedresearch.generator_T2.effects.5c48befb1df4af1.1": "it can also provide plenty of pressured steam for your factory",
+	"effect.frostedresearch.propaganda.effects.62f73ac0febc4571": "They forgive me for murder",
 	"effect.frostedresearch.rescue_plan_initiated.effects.64a6d42356b84621": "Villager Relation",
 	"effect.frostedresearch.steam_powerd.effects.48ac6b57ae2145c1.0": "Any steam engine",
 	"effect.frostedresearch.steam_powerd.effects.8eed770cafe84d50.0": "Any flywheel",
@@ -203,6 +204,8 @@
 	"research.frostedresearch.precision_mechanism.desc.0": "Well it succeeds, using electric tubes to control transmission devices is truly possible. But, this price, is just too unbearable. If there are some cheaper way of signal control that would be better. After all redstone's power is too small. Changing speed is my creative limit.",
 	"research.frostedresearch.precision_mechanism.desc_alt.0": "For some mchines only cogwheels cannot satisfy my requirements. I need more precision structures. But smaller cogwheels are hard to craft. But if we use redstone signal to replace the precision given by the cogwheels? ",
 	"research.frostedresearch.precision_mechanism.name": "Precision Manufacturing Technology",
+	"research.frostedresearch.propaganda.desc.0": "As I murdered a lot, my notoriety speard across the frosted land. I need to build up a monument for the victim and bribe some people to promote me.",
+	"research.frostedresearch.propaganda.name": "Beneficial Propaganda",
 	"research.frostedresearch.prospecting_upgrade.name": "Prospecting Upgrade",
 	"research.frostedresearch.rescue_plan_initiated.desc.0": "I think I can prepare some supplies for the villagers—maybe they’ll view me more favorably.",
 	"research.frostedresearch.rescue_plan_initiated.name": "Rescue Plan Initiated",
@@ -263,8 +266,5 @@
 	"research.frostedresearch.wool_armor.name": "Wool Clothes",
 	"research.frostedresearch.wool_lining.desc.0": "This is a bit better, it's similar to the regular wool lining but its durability is much improved.",
 	"research.frostedresearch.wool_lining.desc_alt.0": "The wool lining doesn't provide much protection in a fight.",
-	"research.frostedresearch.wool_lining.name": "Wool Lining",
-	"effect.frostedresearch.propaganda.effects.62f73ac0febc4571": "They forgive me for murder",
-	"research.frostedresearch.propaganda.desc.0": "As I murdered a lot, my notoriety speard across the frosted land. I need to build up a monument for the victim and bribe some people to promote me.",
-	"research.frostedresearch.propaganda.name": "Beneficial Propaganda"
+	"research.frostedresearch.wool_lining.name": "Wool Lining"
 }
