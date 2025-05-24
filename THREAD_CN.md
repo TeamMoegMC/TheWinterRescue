@@ -223,3 +223,9 @@ AI生成作品仅出于人力不足时的补充，从未商业化。
 对我们而言，AI只是创作的工具。只要能提升内容质量，我们便愿意使用。
 
 [截图、GIF与宣传片见下方]
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&&bvid=BV1AXjnzxEqD&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&&bvid=BV1gQGmzTEdj&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&&bvid=BV1L5GhztEfK&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
