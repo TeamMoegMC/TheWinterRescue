@@ -1,0 +1,19 @@
+{
+  "id": "sensible_temperature_2",
+  "category": "temperature",
+  "nextTip": "body_temperature",
+  "image": "",
+  "clickAction": "",
+  "clickActionContent": "",
+  "alwaysVisible": false,
+  "onceOnly": true,
+  "hide": false,
+  "pin": false,
+  "displayTime": 15000,
+  "fontColor": "FFC6FCFF",
+  "backgroundColor": "FF000000",
+  "contents": [
+    "tips.frostedheart.sensible_temperature.title",
+    "tips.frostedheart.sensible_temperature.desc3"
+  ]
+}

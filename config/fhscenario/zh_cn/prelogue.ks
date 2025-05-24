@@ -331,7 +331,7 @@
 [link l=clothing_tutorial]&e[完成后，点击继续整理物资]&r[endlink]@wa
 
 @label name=clothing_tutorial
-@giveItem i=frostedheart:rabbit_fur_gloves c=2
+@giveItem i=frostedheart:rabbit_fur_gloves c=1
 @p
 [NoWait]我：[EndNoWait]这双「兔毛手套」，是我的挚友临行前送给我的礼物。[l]
 @r
@@ -374,3 +374,4 @@
 @s
 # @call s="quest:744D35762CD9BD26?call"
 @p
+@displayTip id="sensible_temperature"

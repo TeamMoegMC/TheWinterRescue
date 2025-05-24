@@ -1,6 +1,19 @@
 {
-    "tips.frostedheart.scenario_tip.title": "Tips",
-    "tips.frostedheart.scenario_tip.desc1": "Press §6[T]§r to select choices",
-    "tips.frostedheart.scenario_tip.desc2": "Press §6[Z]§r to skip text animation",
-    "tips.frostedheart.scenario_tip.desc3": "Press §6[ESC]§r five times to skip cinematic"
+  "tips.frostedheart.scenario_tip.title": "Tips",
+  "tips.frostedheart.scenario_tip.desc1": "Press &6[T]&r to select choices",
+  "tips.frostedheart.scenario_tip.desc2": "Press &6[Z]&r to skip text animation",
+  "tips.frostedheart.scenario_tip.desc3": "Press &6[ESC]&r five times to skip cinematic",
+
+  "tips.frostedheart.sensible_temperature.title": "Sensible Temperature",
+  "tips.frostedheart.sensible_temperature.desc1": "The orb at the bottom of your screen displays your &6Sensible Temperature&r, which reflects whether you feel &b&lcold&r or &6&lhot&r in the current environment.",
+  "tips.frostedheart.sensible_temperature.desc2": " ",
+  "tips.frostedheart.sensible_temperature.desc3": "Note that &6Sensible Temperature &lis NOT&r &6Body Temperature&r, but rather a calculation result combining factors like ambient temperature, body heat, and clothing. The most comfortable sensible temperature is human body temperature, which is 37°C (98.6°F).",
+
+  "tips.frostedheart.murderer.title": "Murderer",
+  "tips.frostedheart.murderer.desc1": "You've just killed a non-hostile human being. Clearly, this won't do any good to your relationship with them.",
+  "tips.frostedheart.murderer.desc2": " ",
+  "tips.frostedheart.murderer.desc3": "If you continue doing this, they might refuse to trade or communicate with you.",
+
+  "tips.frostedheart.maniac.title": "Maniac",
+  "tips.frostedheart.maniac.desc1": "Your &cdeeds&r have spread among them..."
 }

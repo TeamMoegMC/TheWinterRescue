@@ -331,7 +331,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 [link l=clothing_tutorial]&e[Completed, click to continue check resources.]&r[endlink]@wa
 
 @label name=clothing_tutorial
-@giveItem i=frostedheart:rabbit_fur_gloves c=2
+@giveItem i=frostedheart:rabbit_fur_gloves c=1
 @p
 [NoWait]Me：[EndNoWait]This pair of Rabbit Fur Gloves are the gift from my best friend before I leave.[l]
 @r
@@ -374,3 +374,4 @@ You can follow the Quest Book, or follow the next Tutorial Act.@p
 @s
 # @call s="quest:744D35762CD9BD26?call"
 @p
+@displayTip id="sensible_temperature"

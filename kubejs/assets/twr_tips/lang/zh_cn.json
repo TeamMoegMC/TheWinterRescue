@@ -1,6 +1,23 @@
 {
-    "tips.frostedheart.scenario_tip.title": "提示",
-    "tips.frostedheart.scenario_tip.desc1": "按下 §6[T]§r 打开聊天栏，使用鼠标选择选项",
-    "tips.frostedheart.scenario_tip.desc2": "按下 §6[Z]§r 跳过文本动画",
-    "tips.frostedheart.scenario_tip.desc3": "按下 §6[ESC]§r 五次跳过电影场景"
+  "tips.frostedheart.scenario_tip.title": "提示",
+  "tips.frostedheart.scenario_tip.desc1": "按下 &6[T]&r 打开聊天栏，使用鼠标选择选项",
+  "tips.frostedheart.scenario_tip.desc2": "按下 &6[Z]&r 跳过文本动画",
+  "tips.frostedheart.scenario_tip.desc3": "按下 &6[ESC]&r 五次跳过电影场景",
+
+  "tips.frostedheart.sensible_temperature.title": "体感温度",
+  "tips.frostedheart.sensible_temperature.desc1": "在屏幕下方的圆球显示的是你的&6体感温度&r，它反映了你在当前环境中会感到&b&l冷&r还是&6&l热&r。",
+  "tips.frostedheart.sensible_temperature.desc2": " ",
+  "tips.frostedheart.sensible_temperature.desc3": "请注意&6体感温度&l不是&r&6体温&r，而是综合气温、体温、衣物等因素计算得出的结果。 最适宜的体感温度是人体体温，也就是37摄氏度(98.6华氏度)。",
+
+  "tips.frostedheart.murderer.title": "凶手",
+  "tips.frostedheart.murderer.desc1": "你刚刚杀死了一名没有恶意的人类，很明显这对你和他们的关系没有什么好处。",
+  "tips.frostedheart.murderer.desc2": " ",
+  "tips.frostedheart.murderer.desc3": "如果你继续这样做，他们可能会拒绝和你交易或交流。",
+
+  "tips.frostedheart.maniac.title": "杀人狂",
+  "tips.frostedheart.maniac.desc1": "你的&c事迹&r已经在他们之间传开了…",
+
+  "tips.frostedheart.social.title": " ",
+  "tips.frostedheart.social.desc1": "加入我们的QQ群和其他玩家一起讨论整合包: 1014376904",
+  "tips.frostedheart.social.link": "https://qm.qq.com/q/ANgcIvK53O"
 }
