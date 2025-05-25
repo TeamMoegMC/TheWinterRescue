@@ -10,6 +10,7 @@ ServerEvents.recipes((event) => {
     }
 
     let kilnRecipes = [
+		carkilnRecipe(["4x frostedheart:kaolin_dust", "4x frostedheart:bauxite_dust", "minecraft:clay_ball"], ["3x frostedheart:refractory_brick"], 600, 32),
         carkilnRecipe(["4x frostedheart:fire_clay_ball", "2x frostedheart:magnesia_dust", "2x frostedheart:quicklime"], ["4x frostedheart:high_refractory_brick"], 600, 32),
         carkilnRecipe(["3x frostedheart:fire_clay_ball", "5x frostedheart:alumina_dust", "immersiveengineering:dust_hop_graphite"], ["6x immersiveindustry:refractory_kiln_brick"], 600, 32),
         rotarykilnRecipe("frostedheart:aluminium_hydroxide_dust", "frostedheart:alumina_dust", 600, 32),
@@ -23,8 +24,7 @@ ServerEvents.recipes((event) => {
         carkilnReplace("#forge:cobblestone", "minecraft:stone"),
         carkilnReplace("caupona:clay_cistern", "caupona:stew_pot"),
         carkilnReplace("minecraft:clay", "minecraft:terracotta"),
-        carkilnReplace("#minecraft:sand", "minecraft:glass"),
-        carkilnReplace("frostedheart:fire_clay_ball", "frostedheart:refractory_brick")
+        carkilnReplace("#minecraft:sand", "minecraft:glass")
     ]
 	
     let simpleCarkiln = [
@@ -42,6 +42,7 @@ ServerEvents.recipes((event) => {
     kilnRecipes.forEach((ex) => {
         event.custom(ex)
     })
+	event.remove({"id":"immersiveindustry:kiln/brick"})
 	event.custom({
         "type": "immersiveindustry:car_kiln",
         "input_fluid": FluidTag("forge:pulp",100),
