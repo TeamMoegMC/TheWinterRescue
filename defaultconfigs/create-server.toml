@@ -216,7 +216,7 @@
 				mechanical_bearing = 4.0
 				clockwork_bearing = 4.0
 				turntable = 4.0
-				sequenced_gearshift = 0.0
+				sequenced_gearshift = 0.05
 				sticky_mechanical_piston = 4.0
 				crushing_wheel = 12.0
 				mechanical_arm = 2.0
@@ -227,15 +227,15 @@
 				weighted_ejector = 2.0
 				hose_pulley = 4.0
 				mechanical_saw = 4.0
-				large_cogwheel = 0.0
+				large_cogwheel = 0.2
 				deployer = 4.0
-				gearbox = 0.0
+				gearbox = 0.05
 				mysterious_cuckoo_clock = 1.0
 				stressometer = 0.0
 				encased_chain_drive = 0.1
 				rotation_speed_controller = 0.0
-				belt = 1.0
-				cogwheel = 0.0
+				belt = 0.05
+				cogwheel = 0.2
 				copper_backtank = 4.0
 				mechanical_pump = 2.0
 				mechanical_mixer = 4.0
@@ -245,7 +245,7 @@
 				clutch = 0.0
 				mechanical_press = 8.0
 				encased_fan = 2.0
-				gearshift = 0.0
+				gearshift = 0.05
 				cuckoo_clock = 1.0
 				brass_encased_shaft = 0.0
 				speedometer = 0.0
@@ -255,14 +255,14 @@
 				mechanical_harvester = 4.0
 				gantry_shaft = 0.0
 				mechanical_plough = 4.0
-				andesite_encased_large_cogwheel = 0.0
-				andesite_encased_cogwheel = 0.0
+				andesite_encased_large_cogwheel = 0.2
+				andesite_encased_cogwheel = 0.2
 				elevator_pulley = 4.0
-				display_board = 0.0
+				display_board = 0.02
 				andesite_funnel = 4.0
 				netherite_backtank = 4.0
-				brass_encased_large_cogwheel = 0.0
-				brass_encased_cogwheel = 0.0
+				brass_encased_large_cogwheel = 0.2
+				brass_encased_cogwheel = 0.2
 
 			#.
 			#[in Stress Units]
