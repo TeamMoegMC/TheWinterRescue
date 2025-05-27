@@ -9,12 +9,21 @@ ServerEvents.recipes((event) => {
     });
 	function ieSawmill(input,output,stripped){
 		event.custom({"type":"immersiveengineering:sawmill",
-		"energy":1600,
+		"energy":200,
+		"time":20,
 		"input":Ingredient.of(input),
 		"result":Item.of(output),
-		"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},
-		{"output":{"tag":"forge:dusts/wood"},"stripping":false}],
+		"secondaries":[{"output":{"item":"frostedheart:sawdust"},"stripping":true},
+		{"output":{"item":"frostedheart:sawdust"},"stripping":false}],
 		"stripped":Ingredient.of(stripped)})
+	}
+	function ieSawmillStripped(input,output){
+		event.custom({"type":"immersiveengineering:sawmill",
+		"energy":100,
+		"time":20,
+		"input":Ingredient.of(input),
+		"result":Item.of(output),
+		"secondaries":[{"output":{"item":"frostedheart:sawdust"},"stripping":false}]})
 	}
     Ingredient.of("#minecraft:logs")
         .getItemIds()
@@ -34,11 +43,13 @@ ServerEvents.recipes((event) => {
                 event.remove({output: rl[0] + ":stripped_" + rl[1], type: "create:cutting"});
                 create.cutting(rl[0] + ":stripped_" + rl[1], name);
 				ieSawmill(name,"6x " + name.replace("_log", "").replace("_stem", "") + "_planks",rl[0] + ":stripped_" + rl[1])
+				ieSawmillStripped(rl[0] + ":stripped_" + rl[1],"6x " + name.replace("_log", "").replace("_stem", "") + "_planks")
             } else if (name.indexOf("wood") !== -1) {
                 let rl = name.split(":")
                 event.remove({output: rl[0] + ":stripped_" + rl[1], type: "create:cutting"});
                 create.cutting(rl[0] + ":stripped_" + rl[1], name);
 				ieSawmill(name,"6x " + name.replace("_wood", "") + "_planks",rl[0] + ":stripped_" + rl[1])
+				ieSawmillStripped(rl[0] + ":stripped_" + rl[1],"6x " + name.replace("_wood", "") + "_planks")
             }
         })
     woods.forEach((wood) => {

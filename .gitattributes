@@ -1,5 +1,8 @@
 * text=auto
 
+*.local text
+
+
 ## Enforce binary mode
 *.gif binary
 *.jpg binary

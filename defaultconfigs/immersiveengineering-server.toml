@@ -89,7 +89,7 @@
 	thermoelectric_output = 1.0
 	#The amount of damage a sawblade in the sawmill takes for a single recipe.
 	#Range: > 1
-	sawmill_bladeDamage = 5
+	sawmill_bladeDamage = 1
 	#The Flux per tick the Charging Station can insert into an item
 	#Range: > 1
 	charger_consumption = 256
@@ -302,10 +302,10 @@
 	[machines.sawmill]
 		#A modifier to apply to the energy costs of every sawmill recipe
 		#Range: 0.001 ~ 1000.0
-		energyModifier = 0.5
+		energyModifier = 1.0
 		#A modifier to apply to the time of every sawmill recipe
 		#Range: 0.001 ~ 1000.0
-		timeModifier = 1.0
+		timeModifier =1.0
 
 	[machines.mixer]
 		#A modifier to apply to the energy costs of every mixer recipe
