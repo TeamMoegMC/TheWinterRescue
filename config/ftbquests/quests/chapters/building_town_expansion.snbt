@@ -71,10 +71,9 @@
 		{
 			dependencies: [
 				"2D570AD59FE2D6E1"
-				"0F92A786237ACCA8"
-				"3A3B51CF7F606665"
-				"0C07C58470EE031C"
-				"0F108F94F3A03203"
+				"75154C5A6E2F3257"
+				"5D52744D5382A6CA"
+				"0019852CD6EC0354"
 			]
 			description: [
 				"{quest.twr.2E165BB1FB0CE6A0.description.1}"

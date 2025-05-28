@@ -36,7 +36,7 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1.0,
+                "min": 3.0,
                 "max": 5.0,
                 "type": "minecraft:uniform"
               }
@@ -63,7 +63,7 @@
               }
             }
           ],
-          "name": "kubejs:frozen_fat"
+          "name": "stone_age:fat"
         }
       ]
     },
