@@ -705,6 +705,77 @@
 			x: -6.0d
 			y: 2.0d
 		}
+		{
+			description: ["要想给作物施肥，不能再用简单的骨粉了！你需要采用富含氮、磷、钾的三种物质，以不同比例混合，得到不同肥料！"]
+			id: "41B5A9396D23D0CE"
+			tasks: [
+				{
+					id: "2C351452237B7A79"
+					item: "frostedheart:basic_increasing_fertilizer"
+					type: "item"
+				}
+				{
+					id: "3C5BA1992AF6C547"
+					item: "frostedheart:basic_accelerated_fertilizer"
+					type: "item"
+				}
+				{
+					id: "78F5BE73132026A3"
+					item: "frostedheart:basic_preserved_fertilizer"
+					type: "item"
+				}
+			]
+			title: "低级肥料"
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["41B5A9396D23D0CE"]
+			id: "22927212578FD12E"
+			tasks: [
+				{
+					id: "7734C9B0CBF2E85A"
+					item: "frostedheart:advanced_increasing_fertilizer"
+					type: "item"
+				}
+				{
+					id: "4AD8C976D3C8C332"
+					item: "frostedheart:advanced_accelerated_fertilizer"
+					type: "item"
+				}
+				{
+					id: "25FD9CE1F39903B6"
+					item: "frostedheart:advanced_preserved_fertilizer"
+					type: "item"
+				}
+			]
+			title: "高级肥料"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["22927212578FD12E"]
+			id: "2E8EB1DBE5675D2A"
+			tasks: [
+				{
+					id: "5F0168A41BF7111D"
+					item: "frostedheart:ultimate_increasing_fertilizer"
+					type: "item"
+				}
+				{
+					id: "3027E2AFEFBEEF5E"
+					item: "frostedheart:ultimate_accelerated_fertilizer"
+					type: "item"
+				}
+				{
+					id: "7C92EB18C69DC571"
+					item: "frostedheart:ultimate_preserved_fertilizer"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 3.5d
+		}
 	]
 	subtitle: ["{chapter.twr.715FF1EB059BCACF.subtitle}"]
 	title: "{chapter.twr.715FF1EB059BCACF.title}"

@@ -231,5 +231,41 @@
   "block.minecraft.dirt.tooltip.condition1": "When Long-Exposed In Below-Zero Degree Soil Temperature",
   "block.minecraft.dirt.tooltip.behaviour1": "Freezes into Permafrost, and loses all its microorganism biomes.",
 
-  "item.frostedheart.biomass.tooltip.summary": "Organic matter rich in nitrogen. Easily obtainable through fermenting leftovers in a Composter."
+  "item.frostedheart.biomass.tooltip.summary": "Organic matter rich in nitrogen. Easily obtainable through fermenting leftovers in a Composter.",
+
+  "item.frostedheart.basic_increasing_fertilizer.tooltip.summary": "Organic fertilizer to moderately boost production.",
+  "item.frostedheart.basic_increasing_fertilizer.tooltip.condition1": "When Applied on Farmland or Dirt",
+  "item.frostedheart.basic_increasing_fertilizer.tooltip.behaviour1": "Fertilizes the soil such that crop on which yields 2 times more.",
+
+  "item.frostedheart.basic_accelerated_fertilizer.tooltip.summary": "Organic fertilizer to moderately boost growth speed.",
+  "item.frostedheart.basic_accelerated_fertilizer.tooltip.condition1": "When Applied on Farmland or Dirt",
+  "item.frostedheart.basic_accelerated_fertilizer.tooltip.behaviour1": "Fertilizes the soil such that crop on which grows 2 times faster.",
+
+  "item.frostedheart.basic_preserved_fertilizer.tooltip.summary": "An organic layer to moderately preserve soil temperature.",
+  "item.frostedheart.basic_preserved_fertilizer.tooltip.condition1": "When Applied on Farmland or Dirt",
+  "item.frostedheart.basic_preserved_fertilizer.tooltip.behaviour1": "Insulates the soil such that crop no longer dies and relaxes the growth requirement for 5℃ additional degrees of coldness.",
+
+  "item.frostedheart.advanced_increasing_fertilizer.tooltip.summary": "Advanced fertilizer to considerably boost production.",
+  "item.frostedheart.advanced_increasing_fertilizer.tooltip.condition1": "When Applied on Farmland or Dirt",
+  "item.frostedheart.advanced_increasing_fertilizer.tooltip.behaviour1": "Fertilizes the soil such that crop on which yields 3 times more.",
+
+  "item.frostedheart.advanced_accelerated_fertilizer.tooltip.summary": "Advanced fertilizer to considerably boost growth speed.",
+  "item.frostedheart.advanced_accelerated_fertilizer.tooltip.condition1": "When Applied on Farmland or Dirt",
+  "item.frostedheart.advanced_accelerated_fertilizer.tooltip.behaviour1": "Fertilizes the soil such that crop on which grows 4 times faster.",
+
+  "item.frostedheart.advanced_preserved_fertilizer.tooltip.summary": "An flexible layer to considerably preserve soil temperature.",
+  "item.frostedheart.advanced_preserved_fertilizer.tooltip.condition1": "When Applied on Farmland or Dirt",
+  "item.frostedheart.advanced_preserved_fertilizer.tooltip.behaviour1": "Insulates the soil such that crop no longer dies and relaxes the growth requirement for 10℃ additional degrees of coldness.",
+
+  "item.frostedheart.ultimate_increasing_fertilizer.tooltip.summary": "Modern fertilizer to significantly boost production.",
+  "item.frostedheart.ultimate_increasing_fertilizer.tooltip.condition1": "When Applied on Farmland or Dirt",
+  "item.frostedheart.ultimate_increasing_fertilizer.tooltip.behaviour1": "Fertilizes the soil such that crop on which yields 4 times more.",
+
+  "item.frostedheart.ultimate_accelerated_fertilizer.tooltip.summary": "Modern fertilizer to significantly boost growth speed.",
+  "item.frostedheart.ultimate_accelerated_fertilizer.tooltip.condition1": "When Applied on Farmland or Dirt",
+  "item.frostedheart.ultimate_accelerated_fertilizer.tooltip.behaviour1": "Fertilizes the soil such that crop on which grows 8 times faster.",
+
+  "item.frostedheart.ultimate_preserved_fertilizer.tooltip.summary": "An insulated layer to significantly preserve soil temperature.",
+  "item.frostedheart.ultimate_preserved_fertilizer.tooltip.condition1": "When Applied on Farmland or Dirt",
+  "item.frostedheart.ultimate_preserved_fertilizer.tooltip.behaviour1": "Insulates the soil such that crop no longer dies and relaxes the growth requirement for 20℃ additional degrees of coldness."
 }

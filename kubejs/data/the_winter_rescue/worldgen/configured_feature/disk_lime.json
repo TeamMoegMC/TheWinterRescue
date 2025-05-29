@@ -23,6 +23,10 @@
       "blocks": [
         "minecraft:dirt",
         "frostedheart:dirt_permafrost",
+        "frostedheart:coarse_dirt_permafrost",
+        "frostedheart:sand_permafrost",
+        "frostedheart:gravel_permafrost",
+        "frostedheart:firm_ice",
         "minecraft:clay",
         "minecraft:gravel"
       ]
