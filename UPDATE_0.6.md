@@ -4,8 +4,8 @@
 
 本次更新围绕「世界」这一主题进行，您将体验到：
 
-· 全新打造的冬季世界：从雪原、恶地、冰刺、冰川，到灌木地、针叶林、低地、海洋，感受冻结后的世间百态。
-· 从所未见的地下世界：寻找化石、盐卤、火成、热液四大矿床，在真菌洞穴、地下森林迎接挑战和机遇。
+· 全新打造的冬季世界：从雪原、火山、恶地、冰刺、冰川，到苔原、灌木地、针叶林、空谷、海洋，感受冻结后的世间百态。
+· 从所未见的地下世界：寻找化石、盐卤、火成、热液四大矿床，在真菌洞穴、繁茂洞穴迎接挑战和机遇。
 · 顽强生存的植物世界：用热量培养林地中掘出的蘑菇、或是复苏冻土中休眠的种子、您将恢复世界的生机。
 · 残酷无情的动物世界：您将和危险的狼群一同狩猎雪兔、也将在破碎的冰盖上和凶猛的北极熊一决高下。
 · 严寒之下的人类世界：不管是搭救难民、寻找聚落、学习语言、与之交易，还是放弃道德、掠夺到底，您的选择不止一种。
@@ -32,6 +32,47 @@ MoegCraft服务器频道：https://pd.qq.com/s/ejtpb6x1i
 
 更详细的更新内容会在全球发布时公布。
 
+
+**The Winter Rescue Version 0.6.0 – “New World” Update**
+
+Dear players,
+After a long wait, *The Winter Rescue* is finally about to receive its most revolutionary update yet — **“New World.”**
+
+This update is centered around the theme of **“the World”**, offering an immersive experience like never before:
+
+* **A newly crafted winter world**: Explore a frozen landscape that spans snowy plains, volcanoes, badlands, ice spikes, glaciers, tundras, shrublands, coniferous forests, hollow valleys, and frozen oceans — a world suspended in ice and time.
+
+* **A never-before-seen underground world**: Unearth four distinct mineral deposits — fossil, brine, magmatic, and hydrothermal — while braving the dangers and rewards hidden within fungal and lush cave systems.
+
+* **A resilient plant world**: Revive life by cultivating mushrooms from forest soil with heat, or awakening dormant seeds preserved in permafrost. The restoration of the ecosystem begins with you.
+
+* **A harsh and merciless animal world**: Hunt snow hares alongside roaming wolf packs or face off against ferocious polar bears on shattered ice shelves.
+
+* **A human world beneath the cold**: Whether you choose to rescue refugees, seek out settlements, learn their language, trade peacefully, or abandon morals and plunder, the path is yours to decide.
+
+* **A “New World” shaped by you**: From survival and reconstruction to rescue and self-sufficiency, you will build a haven of warmth in a frozen land.
+
+In addition, existing content has been comprehensively overhauled:
+
+* **Caupona Update**: Introducing new culinary methods such as stir-frying, fermentation, aspic-making, and thermal baths.
+
+* **Improved Climate System**: Difficulty settings can now be fine-tuned to your preference.
+
+* **Revamped Body Temperature System**: Physical activity now plays a greater role. Clothing options have expanded, and water poses both a survival hazard and an opportunity—for instance, building hot spring baths.
+
+* **Enhanced Thermal Mechanics**: Use infrared vision to observe heat distribution, and goggles to detect atmospheric pressure networks.
+
+* **More research possibilities!** Heavy engineering and rotary bearings are now unlockable—unleash your creativity.
+
+* **Industrial Expansion**: Experience multiblock smelting crucibles, chemical reaction vessels, and more automation potential.
+
+* **Redesigned Opening Animation**: Enjoy original storytelling and art direction.
+
+* **Mods like “Project Rankine,” “Diet,” “Water Source,” “Primal Winter,” and “Crock Pot” have been removed**, with key features now integrated into *Frosted Heart*.
+
+* **Submodules such as “Frosted Research” and “Chorda” will be released separately in future updates.**
+
+* **Minecraft base version is now updated to 1.20.1**, and is **not compatible with old saves.**
 
 QQ version: (less words)
 
