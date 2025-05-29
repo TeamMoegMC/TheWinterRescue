@@ -15,6 +15,10 @@
 	<a href="https://afdian.com/a/teammoeg"><img src="https://img.shields.io/badge/爱发电-赞助我们-blueviolet.svg?style=flat-square" alt="Patreon"></a><br>
 </h4>
 
+Development Branch: `1.20`
+
+Support Branch: `0.6.0`
+
 ## Foreword
 
 - In the mid-21st century, a sudden extreme cold wave plunged the Earth into a long winter, burying human civilization deep under layers of snow.
