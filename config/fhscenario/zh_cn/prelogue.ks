@@ -88,7 +88,7 @@
 @showLayer t=40 trans=fadeout
 @wr
 
-可这于我又是何等残酷。[wc]
+这于我又是何等残酷。[wc]
 @startLayer
 @freeLayer n=overlay1
 @showLayer t=40 trans=overdown
@@ -131,7 +131,7 @@
 @ImageLayer n=layer1 s=twr_scenario:6.jpg
 @showLayer t=80 trans=overup
 @wr
-二十年前，一群勇敢的人踏上了一条无归之路，一场指向地壳深处的冒险。领导他们的是我的母亲，但我甚至来不及向她道别。[l]
+二十年前，一群勇敢的人踏上了一条无归之路，一场指向地壳深处的冒险。领导他们的是我的母亲，我甚至来不及向她道别。[l]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:7.jpg
 @FillRect n=overlay1 clr=0xFF000000 w=566
@@ -189,7 +189,7 @@
 @er
 是她在叫我。为此我已等了二十年。[l]
 @wr
-异常信号出现的地方是黄石，那里的火山活动如今依然活跃，虽然也已是一片冰封的荒原。[l]
+异常信号出现的地方是黄石，那里的火山活动如今依然活跃，虽然也已是一片冰封的险境。[l]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:10.jpg
 @showLayer t=60 trans=right
@@ -201,7 +201,7 @@
 @showLayer t=40 trans=up
 @wr
 @er
-我们登上了「哥伦比亚特太空船 · 寒霜之心号」。但坐在这艘「寒霜之心号」中，我们的心潮炽烈如炭火。[l]
+我们登上了「哥伦比亚特太空船 · 寒霜之心号」。坐在这艘「寒霜之心号」中，我们的心潮却炽烈如炭火。[l]
 @startLayer
 @freeLayer n=layer1
 @showLayer t=40 trans=fadeout

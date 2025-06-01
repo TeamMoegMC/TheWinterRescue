@@ -66,6 +66,16 @@ ServerEvents.recipes((event) => {
 		shapelessRecipe("2x create:encased_chain_drive", ["create:andesite_casing", "3x #twr:nuggets/structural"]),
 		shapelessRecipe("2x minecraft:stone_bricks", ["frostedheart:mortar", "4x kubejs:cut_stone"]),
 		shapelessRecipe("2x minecraft:stick", ["2x frostedheart:rotten_wood"]),
+		shapelessRecipe("6x minecraft:iron_nugget", ["frostedheart:rusted_iron_ingot", "frostedheart:rust_remover"]),
+		shapelessRecipe("6x create:copper_nugget", ["frostedheart:rusted_copper_ingot", "frostedheart:rust_remover"]),
+		shapelessRecipe("6x minecraft:iron_nugget", ["frostedheart:iron_fence_remains", "frostedheart:rust_remover"]),
+		shapelessRecipe("6x minecraft:iron_nugget", ["frostedheart:iron_parts", "frostedheart:rust_remover"]),
+		shapelessRecipe("6x minecraft:iron_nugget", ["frostedheart:iron_truss_remains", "frostedheart:rust_remover"]),
+		shapelessRecipe("6x minecraft:iron_nugget", ["frostedheart:iron_plating", "frostedheart:rust_remover"]),
+		shapelessRecipe("6x minecraft:iron_nugget", ["frostedheart:insulator", "frostedheart:rust_remover"]),
+		shapelessRecipe("6x create:copper_nugget", ["frostedheart:cable", "frostedheart:rust_remover"]),
+		shapelessRecipe("6x create:copper_nugget", ["frostedheart:deflection_coil", "frostedheart:rust_remover"]),
+		shapelessRecipe("6x create:copper_nugget", ["frostedheart:stator", "frostedheart:rust_remover"]),
     ]
     addShapelessRecipes.forEach((recipe, index) => {
 		if(!Array.isArray(recipe.ingredients)){
