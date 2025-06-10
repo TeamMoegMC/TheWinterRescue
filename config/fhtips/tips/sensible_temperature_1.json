@@ -15,5 +15,8 @@
   "contents": [
     "tips.frostedheart.sensible_temperature.title",
     "tips.frostedheart.sensible_temperature.desc1"
+  ],
+  "children": [
+    "sensible_temperature_2"
   ]
 }

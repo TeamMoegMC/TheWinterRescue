@@ -10,10 +10,17 @@
   "tips.frostedheart.sensible_temperature.desc3": "Note that &6Sensible Temperature &lis NOT&r &6Body Temperature&r, but rather a calculation result combining factors like ambient temperature, body heat, and clothing. The most comfortable sensible temperature is human body temperature, which is 37°C (98.6°F).",
 
   "tips.frostedheart.murderer.title": "Murderer",
-  "tips.frostedheart.murderer.desc1": "You've just killed a non-hostile human being. Clearly, this won't do any good to your relationship with them.",
+  "tips.frostedheart.murderer.desc1": "You killed a non-hostile human being. Clearly, this won't do any good to your relationship with them.",
   "tips.frostedheart.murderer.desc2": " ",
   "tips.frostedheart.murderer.desc3": "If you continue doing this, they might refuse to trade or communicate with you.",
 
   "tips.frostedheart.maniac.title": "Maniac",
-  "tips.frostedheart.maniac.desc1": "Your &cdeeds&r have spread among them..."
+  "tips.frostedheart.maniac.desc1": "Your &cdeeds&r have spread among them...",
+
+  "tips.frostedheart.fertilizer.title": "Fertilizer",
+  "tips.frostedheart.fertilizer.desc1": "There are three types of fertilizer: Growth Acceleration, Yield Booster, and Preserved. Each type comes in three tiers: Basic, Advanced, and Modern.",
+  "tips.frostedheart.fertilizer.desc2": "Right-click on soil or crops to apply fertilizer. Crops will gain corresponding beneficial effects.",
+  "tips.frostedheart.fertilizer.desc3": "A single soil block can hold up to two applications of the same fertilizer.",
+  "tips.frostedheart.fertilizer.desc4": "Hold the {item.frostedheart.soil_thermometer} to view detailed crop information."
+
 }

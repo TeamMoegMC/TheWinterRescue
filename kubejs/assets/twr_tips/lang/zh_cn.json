@@ -10,12 +10,18 @@
   "tips.frostedheart.sensible_temperature.desc3": "请注意&6体感温度&l不是&r&6体温&r，而是综合气温、体温、衣物等因素计算得出的结果。 最适宜的体感温度是人体体温，也就是37摄氏度(98.6华氏度)。",
 
   "tips.frostedheart.murderer.title": "凶手",
-  "tips.frostedheart.murderer.desc1": "你刚刚杀死了一名没有恶意的人类，很明显这对你和他们的关系没有什么好处。",
+  "tips.frostedheart.murderer.desc1": "你杀死了一名没有恶意的人类，很明显这对你和他们的关系没有什么好处。",
   "tips.frostedheart.murderer.desc2": " ",
   "tips.frostedheart.murderer.desc3": "如果你继续这样做，他们可能会拒绝和你交易或交流。",
 
   "tips.frostedheart.maniac.title": "杀人狂",
   "tips.frostedheart.maniac.desc1": "你的&c事迹&r已经在他们之间传开了…",
+
+  "tips.frostedheart.fertilizer.title": "肥料",
+  "tips.frostedheart.fertilizer.desc1": "肥料有三种类型：加速，增产和保温，同时分为三个等级：低级，高级和先进。",
+  "tips.frostedheart.fertilizer.desc2": "右键土壤或作物即可施肥，作物会获得对应的增益效果。",
+  "tips.frostedheart.fertilizer.desc3": "一个土壤最多能添加两份相同的肥料。",
+  "tips.frostedheart.fertilizer.desc4": "手持{item.frostedheart.soil_thermometer}即可查看作物的详细信息。",
 
   "tips.frostedheart.social.title": " ",
   "tips.frostedheart.social.desc1": "加入我们的QQ群和其他玩家一起讨论整合包: 1014376904",

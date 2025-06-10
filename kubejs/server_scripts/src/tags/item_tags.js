@@ -704,4 +704,16 @@ ServerEvents.tags("item", (event) => {
         'minecraft:paper',
         'minecraft:bamboo'
     ])
+
+    event.add("twr:fertilizer", [
+        'frostedheart:basic_increasing_fertilizer',
+        'frostedheart:basic_accelerated_fertilizer',
+        'frostedheart:basic_preserved_fertilizer',
+        'frostedheart:advanced_increasing_fertilizer',
+        'frostedheart:advanced_accelerated_fertilizer',
+        'frostedheart:advanced_preserved_fertilizer',
+        'frostedheart:ultimate_increasing_fertilizer',
+        'frostedheart:ultimate_accelerated_fertilizer',
+        'frostedheart:ultimate_preserved_fertilizer'
+    ])
 })

@@ -1,0 +1,21 @@
+{
+  "id": "fertilizer_2",
+  "category": "",
+  "nextTip": "fertilizer_3",
+  "image": "",
+  "clickAction": "",
+  "clickActionContent": "",
+  "alwaysVisible": false,
+  "onceOnly": false,
+  "hide": false,
+  "pin": false,
+  "displayTime": 15000,
+  "fontColor": "FFC6FCFF",
+  "backgroundColor": "FF000000",
+  "contents": [
+    "tips.frostedheart.fertilizer.title",
+    "tips.frostedheart.fertilizer.desc2",
+    " ",
+    "tips.frostedheart.fertilizer.desc3"
+  ]
+}

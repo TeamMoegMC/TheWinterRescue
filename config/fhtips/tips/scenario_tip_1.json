@@ -14,5 +14,8 @@
     "tips.frostedheart.scenario_tip.title",
     "tips.frostedheart.scenario_tip.desc2",
     "tips.frostedheart.scenario_tip.desc3"
+  ],
+  "children": [
+    "scenario_tip_2"
   ]
 }
