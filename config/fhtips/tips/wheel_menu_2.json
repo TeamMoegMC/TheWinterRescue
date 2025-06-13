@@ -1,6 +1,6 @@
 {
-  "id": "death",
-  "category": "tips.frostedheart.category.game_mechanics",
+  "id": "wheel_menu_2",
+  "category": "tips.frostedheart.category.control",
   "nextTip": "",
   "image": "",
   "clickAction": "",
@@ -9,11 +9,12 @@
   "onceOnly": true,
   "hide": false,
   "pin": false,
-  "displayTime": 30000,
+  "displayTime": 20000,
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "quest.twr.25E712ACCAB68E99.title",
-    "quest.twr.25E712ACCAB68E99.description.1"
-  ]
+    "tips.frostedheart.wheel_menu.title",
+    "tips.frostedheart.wheel_menu.desc2"
+  ],
+  "children": []
 }

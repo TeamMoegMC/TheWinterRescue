@@ -1,7 +1,7 @@
 {
-  "id": "fertilizer_3",
+  "id": "infrared_view",
   "category": "tips.frostedheart.category.plant",
-  "nextTip": "",
+  "nextTip": "shelter_and_light",
   "image": "",
   "clickAction": "",
   "clickActionContent": "",
@@ -9,11 +9,12 @@
   "onceOnly": false,
   "hide": false,
   "pin": false,
-  "displayTime": 10000,
+  "displayTime": 12000,
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "tips.frostedheart.fertilizer.title",
-    "tips.frostedheart.fertilizer.desc3"
-  ]
+    "tips.frostedheart.infrared_view.title",
+    "tips.frostedheart.infrared_view.desc1"
+  ],
+  "children": []
 }

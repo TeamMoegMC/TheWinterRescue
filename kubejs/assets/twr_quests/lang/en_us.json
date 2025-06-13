@@ -936,7 +936,7 @@
 	"quest.twr.76E0A57CE55FFCEA.description.3": "When your body temperature starts to drop, your experience bar will be replaced by a &bTemperature Indicator Bar&r. Once it turns completely full, you will gain the &bHypothermia effect&r and start &btaking damage&r.",
 	"quest.twr.76E0A57CE55FFCEA.description.4": "If body temperature changes too quickly, you will also get scalded or frostbitten.",
 	"quest.twr.76E0A57CE55FFCEA.description.5": "",
-	"quest.twr.76E0A57CE55FFCEA.description.6": "You cannot view detailed body temperature values until you craft a thermometer.",
+	"quest.twr.76E0A57CE55FFCEA.description.6": "You cannot view detailed body temperature values until you craft a {item.frostedheart.mercury_body_thermometer}.",
 	"quest.twr.76E0A57CE55FFCEA.title": "Body Temperature",
 	"quest.twr.770CD4281B427FDC.description.1": "Pressed from sawdust, high quality and low price.",
 	"quest.twr.770CD4281B427FDC.subtitle": "Non-Fired Charcoal",

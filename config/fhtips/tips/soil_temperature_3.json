@@ -1,7 +1,7 @@
 {
-  "id": "death",
-  "category": "tips.frostedheart.category.game_mechanics",
-  "nextTip": "",
+  "id": "soil_temperature_3",
+  "category": "tips.frostedheart.category.plant",
+  "nextTip": "infrared_view",
   "image": "",
   "clickAction": "",
   "clickActionContent": "",
@@ -13,7 +13,8 @@
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "quest.twr.25E712ACCAB68E99.title",
-    "quest.twr.25E712ACCAB68E99.description.1"
-  ]
+    "tips.frostedheart.soil_temperature.title",
+    "tips.frostedheart.soil_temperature.desc4"
+  ],
+  "children": []
 }

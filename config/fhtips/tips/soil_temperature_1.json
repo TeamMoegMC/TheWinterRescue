@@ -1,23 +1,24 @@
 {
-  "id": "fertilizer",
+  "id": "soil_temperature",
   "category": "tips.frostedheart.category.plant",
-  "nextTip": "fertilizer_2",
-  "image": "frostedheart:textures/item/advanced_increasing_fertilizer.png",
+  "nextTip": "soil_temperature_2",
+  "image": "",
   "clickAction": "",
   "clickActionContent": "",
   "alwaysVisible": false,
   "onceOnly": true,
   "hide": false,
   "pin": false,
-  "displayTime": 10000,
+  "displayTime": 12000,
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "tips.frostedheart.fertilizer.title",
-    "tips.frostedheart.fertilizer.desc1"
+    "tips.frostedheart.soil_temperature.title",
+    "tips.frostedheart.soil_temperature.desc1"
   ],
   "children": [
-    "fertilizer_2",
-    "fertilizer_3"
+    "soil_temperature_2",
+    "soil_temperature_3",
+    "soil_thermometer"
   ]
 }

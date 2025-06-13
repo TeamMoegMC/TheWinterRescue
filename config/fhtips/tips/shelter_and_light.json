@@ -1,6 +1,6 @@
 {
-  "id": "murderer",
-  "category": "tips.frostedheart.category.town",
+  "id": "shelter_and_light",
+  "category": "tips.frostedheart.category.plant",
   "nextTip": "",
   "image": "",
   "clickAction": "",
@@ -13,12 +13,8 @@
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "tips.frostedheart.murderer.title",
-    "tips.frostedheart.murderer.desc1",
-    "tips.frostedheart.murderer.desc2",
-    "tips.frostedheart.murderer.desc3"
+    "tips.frostedheart.shelter_and_light.title",
+    "tips.frostedheart.shelter_and_light.desc1"
   ],
-  "children": [
-    "maniac"
-  ]
+  "children": []
 }

@@ -936,7 +936,7 @@
 	"quest.twr.76E0A57CE55FFCEA.description.3": "当体温开始降低时，你的经验条会被&b温度指示条&r替换，温度指示条涨满后你会获得&b失温效果&r并开始&b受到伤害&r。",
 	"quest.twr.76E0A57CE55FFCEA.description.4": "体温变化速率过高时也会被烫伤或冻伤。",
 	"quest.twr.76E0A57CE55FFCEA.description.5": "",
-	"quest.twr.76E0A57CE55FFCEA.description.6": "在做出水银体温计前你无法查看详细体温数值。",
+	"quest.twr.76E0A57CE55FFCEA.description.6": "在做出{item.frostedheart.mercury_body_thermometer}前你无法查看详细体温数值。",
 	"quest.twr.76E0A57CE55FFCEA.title": "体温",
 	"quest.twr.770CD4281B427FDC.description.1": "用木屑压制而成，物美价廉。",
 	"quest.twr.770CD4281B427FDC.subtitle": "免烧木炭",

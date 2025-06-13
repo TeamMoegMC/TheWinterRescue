@@ -1,8 +1,8 @@
 {
   "id": "body_temperature_2",
-  "category": "temperature",
+  "category": "tips.frostedheart.category.body_temperature",
   "nextTip": "body_temperature_3",
-  "image": "",
+  "image": "twr_tips:textures/temp_bar.png",
   "clickAction": "",
   "clickActionContent": "",
   "alwaysVisible": false,

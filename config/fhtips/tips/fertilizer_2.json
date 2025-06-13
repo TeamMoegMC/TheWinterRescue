@@ -1,6 +1,6 @@
 {
   "id": "fertilizer_2",
-  "category": "",
+  "category": "tips.frostedheart.category.plant",
   "nextTip": "fertilizer_3",
   "image": "",
   "clickAction": "",
@@ -14,8 +14,6 @@
   "backgroundColor": "FF000000",
   "contents": [
     "tips.frostedheart.fertilizer.title",
-    "tips.frostedheart.fertilizer.desc2",
-    " ",
-    "tips.frostedheart.fertilizer.desc3"
+    "tips.frostedheart.fertilizer.desc2"
   ]
 }

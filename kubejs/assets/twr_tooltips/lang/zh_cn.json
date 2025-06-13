@@ -242,7 +242,7 @@
 
   "item.frostedheart.basic_preserved_fertilizer.tooltip.summary": "有机覆盖层，可适度保持土壤温度。",
   "item.frostedheart.basic_preserved_fertilizer.tooltip.condition1": "施用于农田或泥土时",
-  "item.frostedheart.basic_preserved_fertilizer.tooltip.behaviour1": "使土壤保温，对应作物不会死亡，并放宽生长温度下限5℃。",
+  "item.frostedheart.basic_preserved_fertilizer.tooltip.behaviour1": "使土壤保温，对应作物不会死亡，并放宽生长温度下限5°C。",
 
   "item.frostedheart.advanced_increasing_fertilizer.tooltip.summary": "高级肥料，可大幅提高产量。",
   "item.frostedheart.advanced_increasing_fertilizer.tooltip.condition1": "施用于农田或泥土时",
@@ -254,7 +254,7 @@
 
   "item.frostedheart.advanced_preserved_fertilizer.tooltip.summary": "灵活的覆盖层，可大幅保持土壤温度。",
   "item.frostedheart.advanced_preserved_fertilizer.tooltip.condition1": "施用于农田或泥土时",
-  "item.frostedheart.advanced_preserved_fertilizer.tooltip.behaviour1": "使土壤保温，对应作物不会死亡，并放宽生长温度下限10℃。",
+  "item.frostedheart.advanced_preserved_fertilizer.tooltip.behaviour1": "使土壤保温，对应作物不会死亡，并放宽生长温度下限10°C。",
 
   "item.frostedheart.ultimate_increasing_fertilizer.tooltip.summary": "现代肥料，可显著提高产量。",
   "item.frostedheart.ultimate_increasing_fertilizer.tooltip.condition1": "施用于农田或泥土时",
@@ -266,6 +266,6 @@
 
   "item.frostedheart.ultimate_preserved_fertilizer.tooltip.summary": "绝热覆盖层，可显著保持土壤温度。",
   "item.frostedheart.ultimate_preserved_fertilizer.tooltip.condition1": "施用于农田或泥土时",
-  "item.frostedheart.ultimate_preserved_fertilizer.tooltip.behaviour1": "使土壤保温，对应作物不会死亡，并放宽生长温度下限20℃。"
+  "item.frostedheart.ultimate_preserved_fertilizer.tooltip.behaviour1": "使土壤保温，对应作物不会死亡，并放宽生长温度下限20°C。"
 }
   

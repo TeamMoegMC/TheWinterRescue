@@ -1,6 +1,6 @@
 {
   "id": "body_temperature",
-  "category": "temperature",
+  "category": "tips.frostedheart.category.body_temperature",
   "nextTip": "body_temperature_2",
   "image": "",
   "clickAction": "",

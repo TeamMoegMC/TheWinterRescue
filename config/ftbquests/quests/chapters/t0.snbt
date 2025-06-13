@@ -155,6 +155,8 @@
 			hide_until_deps_visible: false
 			icon: "caupona:plump_snail"
 			id: "24E7D1E02BE55A8E"
+			invisible: true
+			optional: true
 			shape: "hexagon"
 			subtitle: "{quest.twr.24E7D1E02BE55A8E.subtitle}"
 			tasks: [{
@@ -163,7 +165,7 @@
 				type: "checkmark"
 			}]
 			x: -6.5d
-			y: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["56E5FD2809882B5F"]
@@ -519,7 +521,6 @@
 				"{quest.twr.36960F1D7CDC8B30.description.5}"
 				"{quest.twr.36960F1D7CDC8B30.description.6}"
 			]
-			hide_dependency_lines: true
 			icon: "minecraft:campfire"
 			id: "36960F1D7CDC8B30"
 			shape: "hexagon"
@@ -529,7 +530,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.36960F1D7CDC8B30.title}"
-			x: 20.5d
+			x: 18.5d
 			y: 4.0d
 		}
 		{
@@ -703,6 +704,7 @@
 				"{quest.twr.28F313C8E1312A2B.description.2}"
 				"{quest.twr.28F313C8E1312A2B.description.3}"
 			]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			icon: {
@@ -728,7 +730,7 @@
 				}
 			]
 			title: "{quest.twr.28F313C8E1312A2B.title}"
-			x: 18.5d
+			x: 20.0d
 			y: 4.0d
 		}
 		{
@@ -740,7 +742,6 @@
 				"{quest.twr.660F95E6765CD77A.description.5}"
 				"{quest.twr.660F95E6765CD77A.description.6}"
 				"{quest.twr.660F95E6765CD77A.description.7}"
-				"{quest.twr.660F95E6765CD77A.description.8}"
 			]
 			hide_until_deps_visible: false
 			icon: "minecraft:light_gray_candle"
@@ -767,6 +768,8 @@
 			]
 			icon: "frostedheart:mercury_body_thermometer"
 			id: "76E0A57CE55FFCEA"
+			invisible: true
+			optional: true
 			shape: "hexagon"
 			tasks: [{
 				id: "6D6B476F48C9D98E"
@@ -775,7 +778,7 @@
 			}]
 			title: "{quest.twr.76E0A57CE55FFCEA.title}"
 			x: -5.0d
-			y: 2.5d
+			y: 5.0d
 		}
 		{
 			description: [
@@ -791,6 +794,8 @@
 			hide_until_deps_visible: false
 			icon: "frostedheart:soil_thermometer"
 			id: "797D120146136A5C"
+			invisible: true
+			optional: true
 			shape: "hexagon"
 			subtitle: "{quest.twr.797D120146136A5C.subtitle}"
 			tasks: [{
@@ -800,7 +805,7 @@
 			}]
 			title: "{quest.twr.797D120146136A5C.title}"
 			x: -5.0d
-			y: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1D7F2824DAF3BB7B"]
@@ -861,6 +866,8 @@
 			hide_dependency_lines: true
 			icon: "minecraft:soul_campfire"
 			id: "49C0A13F97114740"
+			invisible: true
+			optional: true
 			shape: "hexagon"
 			tasks: [{
 				id: "2864531689489974"
@@ -868,7 +875,7 @@
 				type: "checkmark"
 			}]
 			x: -5.0d
-			y: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4B6FFA5A9140019F"]
@@ -950,7 +957,7 @@
 			}]
 			title: "{quest.twr.125F6ADB0DEA3EEA.title}"
 			x: -5.0d
-			y: 4.5d
+			y: 1.5d
 		}
 		{
 			description: [

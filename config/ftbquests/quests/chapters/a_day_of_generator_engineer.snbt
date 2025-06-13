@@ -36,6 +36,12 @@
 					team_reward: true
 					type: "frostedheart:insight"
 				}
+				{
+					auto: "enabled"
+					fh_tip: "infrared_view"
+					id: "75810B853E0BB2D3"
+					type: "frostedheart:tip"
+				}
 			]
 			shape: "gear"
 			size: 2.5d

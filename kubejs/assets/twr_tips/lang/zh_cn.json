@@ -1,4 +1,10 @@
 {
+  "tips.frostedheart.category.body_temperature" : "维持体温",
+  "tips.frostedheart.category.control" : "操作和控制",
+  "tips.frostedheart.category.game_mechanics" : "游戏机制",
+  "tips.frostedheart.category.plant" : "种植",
+  "tips.frostedheart.category.town" : "城镇与难民",
+
   "tips.frostedheart.scenario_tip.title": "提示",
   "tips.frostedheart.scenario_tip.desc1": "按下 &6[T]&r 打开聊天栏，使用鼠标选择选项",
   "tips.frostedheart.scenario_tip.desc2": "按下 &6[Z]&r 跳过文本动画",
@@ -7,7 +13,7 @@
   "tips.frostedheart.sensible_temperature.title": "体感温度",
   "tips.frostedheart.sensible_temperature.desc1": "在屏幕下方的圆球显示的是你的&6体感温度&r，它反映了你在当前环境中会感到&b&l冷&r还是&6&l热&r。",
   "tips.frostedheart.sensible_temperature.desc2": " ",
-  "tips.frostedheart.sensible_temperature.desc3": "请注意&6体感温度&l不是&r&6体温&r，而是综合气温、体温、衣物等因素计算得出的结果。 最适宜的体感温度是人体体温，也就是37摄氏度(98.6华氏度)。",
+  "tips.frostedheart.sensible_temperature.desc3": "请注意&6体感温度&l不是&r&6体温&r，而是综合环境温度、体温、衣物等因素计算得出的结果。 最适宜的体感温度大约在&630°C&r左右 (&686°F&r)。",
 
   "tips.frostedheart.murderer.title": "凶手",
   "tips.frostedheart.murderer.desc1": "你杀死了一名没有恶意的人类，很明显这对你和他们的关系没有什么好处。",
@@ -17,13 +23,92 @@
   "tips.frostedheart.maniac.title": "杀人狂",
   "tips.frostedheart.maniac.desc1": "你的&c事迹&r已经在他们之间传开了…",
 
-  "tips.frostedheart.fertilizer.title": "肥料",
-  "tips.frostedheart.fertilizer.desc1": "肥料有三种类型：加速，增产和保温，同时分为三个等级：低级，高级和先进。",
-  "tips.frostedheart.fertilizer.desc2": "右键土壤或作物即可施肥，作物会获得对应的增益效果。",
-  "tips.frostedheart.fertilizer.desc3": "一个土壤最多能添加两份相同的肥料。",
-  "tips.frostedheart.fertilizer.desc4": "手持{item.frostedheart.soil_thermometer}即可查看作物的详细信息。",
+  "tips.frostedheart.plant.title": "种植",
+  "tips.frostedheart.plant.desc1": "直接把种子撒在雪地里并期待它长出什么明显不现实，现在作物需要&b合适的环境&r才会生长。",
+  "tips.frostedheart.plant.desc2": "在物品栏中对准作物按住 &6[S]&r 即可查看作物的种植信息。",
 
-  "tips.frostedheart.social.title": " ",
-  "tips.frostedheart.social.desc1": "加入我们的QQ群和其他玩家一起讨论整合包: 1014376904",
-  "tips.frostedheart.social.link": "https://qm.qq.com/q/ANgcIvK53O"
+  "tips.frostedheart.soil_temperature.title": "土壤温度",
+  "tips.frostedheart.soil_temperature.desc1": "作物生长需要合适的土壤温度。土壤温度超过存活区间时作物会开始枯萎，而合适的温度能加快作物的生长速度。",
+  "tips.frostedheart.soil_temperature.desc2": "土壤温度会被&b天气&r，&b海拔&r，&b生物群系&r等自然因素影响。",
+  "tips.frostedheart.soil_temperature.desc3": "营火和火把这种热源并不会影响土壤温度，只有&6更高级的加热设备&r才能加热土壤。",
+  "tips.frostedheart.soil_temperature.desc4": "土壤温度不会直接显示，你需要研究解锁{item.frostedheart.soil_thermometer}后才能测量。",
+
+  "tips.frostedheart.shelter_and_light.title": "遮蔽与光照",
+  "tips.frostedheart.shelter_and_light.desc1": "大部分作物都需要&b自然光照&r才能正常生长，但在暴风雪等恶劣天气里露天的作物可能会被摧毁，你可能需要使用玻璃等&b透明方块&r为作物建造遮蔽。",
+
+  "tips.frostedheart.fertilizer.title": "肥料",
+  "tips.frostedheart.fertilizer.desc1": "肥料能为作物提供不同的生长增益，在物品栏中对准肥料按住 &6[Shift]&r 即可查看具体效果。",
+  "tips.frostedheart.fertilizer.desc2": "肥料共有三种类型：加速，增产和保温，同时分为三个等级：低级，高级和先进，更高级的肥料的效果也更强。",
+  "tips.frostedheart.fertilizer.desc3": "手持肥料右键土壤或作物即可施肥。每块土壤最多能添加2份相同的肥料，在作物生长时会被逐渐消耗。",
+
+  "tips.frostedheart.soil_thermometer.desc1": "手持{item.frostedheart.soil_thermometer}对准作物即可查看作物的详细信息。",
+
+  "tips.frostedheart.infrared_view.title": "红外视野",
+  "tips.frostedheart.infrared_view.desc1": "你的镜片内置了红外视野功能，按下 &6[I]&r 即可查看温度区域变化。",
+
+  "tips.frostedheart.ponder.title": "思索",
+  "tips.frostedheart.ponder.desc1": "思索能帮助你直观的了解一个物品或方块的用途。当物品有思索提示时长按 &6[W]&r 即可进入思索场景。",
+
+  "tips.frostedheart.wheel_menu.title": "轮盘菜单",
+  "tips.frostedheart.wheel_menu.desc1": "按住 &6[Tab]&r 打开轮盘菜单即可选择一系列便捷功能，选择 &b[档案]&r 可查看所有已获取的提示。",
+  "tips.frostedheart.wheel_menu.desc2": "键位不够用? 选择 &b[编辑轮盘菜单]&r 可以添加自定义选项，包括快捷键和自定义指令，还能隐藏或调整选项顺序。",
+
+  "tips.frostedheart.campfire.title": "营火 WIP 营火需要添加燃料，热辐射，搭建壁炉结构",
+
+  "tips.frostedheart.water.title": "饮水 WIP 介绍饮水值，补充途径，获取水，烧水",
+
+  "tips.frostedheart.food_source.title": "寻找食物 WIP 介绍前期食物来源",
+
+  "tips.frostedheart.briquette_mushroom.title": "菌床 WIP 食物来源",
+
+  "tips.frostedheart.wet.title": "潮湿 WIP 潮湿buff效果，下水指南",
+
+  "tips.frostedheart.pottery_kiln.title": "陶窑 WIP 看思索",
+
+  "tips.frostedheart.ignite.title": "生火 WIP 生火的几种方法",
+
+  "tips.frostedheart.insight.title": "见闻 WIP 介绍见闻，用途，获取来源",
+
+  "tips.frostedheart.cloth.title": "衣物 WIP 介绍如何打开衣物界面，内衬数值效果，内外影响，衣柜",
+
+  "tips.frostedheart.find_ore.title": "寻找矿物 WIP 介绍前期如何获取矿物",
+
+  "tips.frostedheart.biome.title": "新群系 WIP",
+
+  "tips.frostedheart.research.title": "研究 WIP 看任务书",
+
+  "tips.frostedheart.prospecting.title": "勘探矿物 WIP 介绍勘探工具",
+
+  "tips.frostedheart.fishing_net.title": "渔网 WIP 有没有人做冰钓啊",
+
+  "tips.frostedheart.bloomery.title": "炼铁 WIP 看思索",
+
+  "tips.frostedheart.sledding.title": "雪橇 WIP 箱子，栓狗",
+
+  "tips.frostedheart.stewing.title": "煮汤 WIP 烧水，煮汤，营养加成",
+
+  "tips.frostedheart.create.title": "机械动力 WIP 看思索",
+
+  "tips.frostedheart.mechanical_calculator.title": "机械计算器 WIP",
+
+  "tips.frostedheart.rubber_dandelion.title": "橡胶草 WIP 乳胶来源，橡胶",
+
+  "tips.frostedheart.generator.title": "能量塔 WIP",
+
+  "tips.frostedheart.heat_network.title": "热能网络 WIP",
+
+  "tips.frostedheart.radiator.title": "加热器 WIP",
+
+  "tips.frostedheart.sauna.title": "桑拿 WIP",
+
+  "tips.frostedheart.incubator.title": "培养箱 WIP",
+
+  "tips.frostedheart.heater_vest.title": "加热背心 WIP",
+
+  "tips.frostedheart.domesticating.title": "驯养家畜 WIP",
+
+  "tips.frostedheart.villagers.title": "村民 WIP",
+
+  "tips.frostedheart.trading.title": "交易 WIP"
+
 }

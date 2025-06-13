@@ -1,6 +1,6 @@
 {
   "id": "scenario_tip",
-  "category": "",
+  "category": "tips.frostedheart.category.control",
   "nextTip": "",
   "image": "",
   "alwaysVisible": false,

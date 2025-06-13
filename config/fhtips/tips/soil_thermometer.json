@@ -1,19 +1,20 @@
 {
-  "id": "fertilizer_3",
+  "id": "soil_thermometer",
   "category": "tips.frostedheart.category.plant",
   "nextTip": "",
-  "image": "",
+  "image": "twr_tips:textures/soil_thermometer.png",
   "clickAction": "",
   "clickActionContent": "",
   "alwaysVisible": false,
-  "onceOnly": false,
+  "onceOnly": true,
   "hide": false,
   "pin": false,
   "displayTime": 10000,
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "tips.frostedheart.fertilizer.title",
-    "tips.frostedheart.fertilizer.desc3"
-  ]
+    "item.frostedheart.soil_thermometer",
+    "tips.frostedheart.soil_thermometer.desc1"
+  ],
+  "children": []
 }

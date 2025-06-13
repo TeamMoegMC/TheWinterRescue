@@ -1,7 +1,7 @@
 {
-  "id": "death",
-  "category": "tips.frostedheart.category.game_mechanics",
-  "nextTip": "",
+  "id": "plant",
+  "category": "tips.frostedheart.category.plant",
+  "nextTip": "plant_2",
   "image": "",
   "clickAction": "",
   "clickActionContent": "",
@@ -9,11 +9,14 @@
   "onceOnly": true,
   "hide": false,
   "pin": false,
-  "displayTime": 30000,
+  "displayTime": 12000,
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "quest.twr.25E712ACCAB68E99.title",
-    "quest.twr.25E712ACCAB68E99.description.1"
+    "tips.frostedheart.plant.title",
+    "tips.frostedheart.plant.desc1"
+  ],
+  "children": [
+    "plant_2"
   ]
 }
