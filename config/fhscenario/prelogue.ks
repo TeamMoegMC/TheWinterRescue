@@ -15,8 +15,8 @@ Do you want to skip the prologue story cinematic?[r]
 @er
 @setCookie k="preloguePlayed" exp="1"
 @sendCookie
-@mobEffect e="frostedheart:insulation" a=0 t=3600 hide=1
 *begintext
+@mobEffect e="frostedheart:insulation" a=0 t=3600 hide=1
 @stopbgm
 Ouch, Ouch, where am I? What am I doing? [l][er]
 This is ... shuttle cabin. I am ...[delay t=20]I am ...[l][er]
@@ -29,6 +29,7 @@ This is ... shuttle cabin. I am ...[delay t=20]I am ...[l][er]
 @wr
 @bgm n="frostedheart:the_fall_of_arcana"
 @wtr
+
 @startLayer
 @FillRect n=bg clr=0xFFFFFFFF z=-999
 @TextLayer n=tl text="&0I am...&r" resize=72 x=916 y=540
@@ -208,9 +209,10 @@ A miracle that was my fantasy — that was their narrative. Thus I embark on a l
 @wr
 @er
 @wtr
+
 *intitle
+@er
 @fullScreenDialog show=1
-@delay t=40
 @startLayer
 @FillRect n=bg clr=0xFF000000 z=-999
 @ImageLayer n=layer1 s=twr_scenario:twr_logo_title.png x=512 y=200 w=1024 h=256
@@ -225,6 +227,7 @@ A miracle that was my fantasy — that was their narrative. Thus I embark on a l
 @freeLayer n=tl
 @showLayer t=40 trans=fadeout
 @wtr
+@delay t=60
 @fullScreenDialog show=0
 @stopbgm
 @speed v=2
@@ -271,7 +274,6 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 [link l=*cla]&e[Click to continue]&r[endlink]
 @wa
 *cla
-@er
 @hudDialog show=0
 @p
 [NoWait]Me：[EndNoWait]Before I leave, I should check out resources and tools I have.[l]
@@ -295,15 +297,6 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @r
 （Press [E] to open Inventory. You obtained Insulation, unaffected by any temperature effect for five minutes.）
 @r
-[link l=infrared_tutorial]&e[Understood, click to continue check resources.]&r[endlink]@wa
-
-@label name=infrared_tutorial
-# equivalent to @l then @er
-@p
-[NoWait]Me：[EndNoWait]My glasses are equipped with Infrared View, perhaps useful.[l]
-@r
-（Press [I] to turn on Infrared View, enabling vision for soil temperature.）
-@r
 [link l=water_tutorial]&e[Understood, click to continue check resources.]&r[endlink]@wa
 
 @label name=water_tutorial
@@ -324,6 +317,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @r
 （Press [E] to open Inventory, move the mouse over a food, and press [N] to view its nutrition.）
 @r
+@displayTip id="wheel_menu"
 （Press [TAB] to open Wheel Menu, select Health Info to check Nutrition Level.）
 @r
 （When kept in a healthy range, you can prevent disease and gain buffs.）
@@ -371,7 +365,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @showTitle t="Chapter 1 Act 1" st="Completed"
 @actTitle t="" st=""
 You can follow the Quest Book, or follow the next Tutorial Act.@p
+@displayTip id="sensible_temperature"
 @s
 # @call s="quest:744D35762CD9BD26?call"
 @p
-@displayTip id="sensible_temperature"

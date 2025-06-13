@@ -34,6 +34,7 @@
 @FillRect n=bg clr=0xFFFFFF z=-999
 @TextLayer n=tl text="&0我是…&r" resize=72 x=916 y=540 clr=0xFF000000
 @showLayer t=20 trans=fadein
+
 @wtr
 @speed v=0.7
 @startLayer
@@ -228,6 +229,7 @@
 @wtr
 @delay t=60
 @fullScreenDialog show=0
+@stopbgm
 @speed v=1
 *endcutsence
 @delay t=20
@@ -295,15 +297,6 @@
 @r
 （按下 [E] 打开背包，您已获得「极温抗性」，五分钟内不受任何温度影响。）
 @r
-[link l=infrared_tutorial]&e[已了解，点击继续整理物资]&r[endlink]@wa
-
-@label name=infrared_tutorial
-# equivalent to @l then @er
-@p
-[NoWait]我：[EndNoWait]我的镜片还内置了红外视野功能，以后或许用的上。[l]
-@r
-（按下 [I] 打开「红外视野」，可以看到土壤温度的变化。）
-@r
 [link l=water_tutorial]&e[已了解，点击继续整理物资]&r[endlink]@wa
 
 @label name=water_tutorial
@@ -324,6 +317,7 @@
 @r
 （按 [E] 打开背包，将鼠标移至在食品上按 [N]，查看营养内容。）
 @r
+@displayTip id="wheel_menu"
 （按下 [TAB] 打开轮盘，选择「健康信息」，查看营养水平。）
 @r
 （营养处于健康的范围内，就能避免疾病，获得正面增益。）
@@ -371,7 +365,7 @@
 @showTitle t="第一章 第一节" st="已完成"
 @actTitle t="" st=""
 您可以查看任务书度过后续剧情，也可以跟随下一幕的引导。@p
+@displayTip id="sensible_temperature"
 @s
 # @call s="quest:744D35762CD9BD26?call"
 @p
-@displayTip id="sensible_temperature"
