@@ -143,7 +143,8 @@ saves_old/
 chorda.client.dat.old
 chorda.client.dat
 config/fhtips/tip_states.json
-config/wheelmenu-visibility.json
+/TWR-DEV-natives
+TWR-DEV.jar
 /config/chunky
 /config/xaerominimap.txt
 /config/xaerominimap-common.txt
@@ -153,3 +154,7 @@ config/wheelmenu-visibility.json
 /config/xaeroworldmap-common.txt
 /xaero
 /config/DistantHorizons.toml
+/hotbar.nbt
+/natives-windows-x86_64/
+/log4j2.xml
+/hmclversion.cfg
