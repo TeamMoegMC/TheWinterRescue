@@ -6,7 +6,7 @@
   "clickAction": "",
   "clickActionContent": "",
   "alwaysVisible": false,
-  "onceOnly": true,
+  "onceOnly": false,
   "hide": false,
   "pin": false,
   "displayTime": 15000,

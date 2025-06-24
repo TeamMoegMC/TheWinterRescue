@@ -10,10 +10,10 @@
   "tips.frostedheart.scenario_tip.desc2": "Press &6[Z]&r to skip text animation",
   "tips.frostedheart.scenario_tip.desc3": "Press &6[ESC]&r five times to skip cinematic",
 
-  "tips.frostedheart.sensible_temperature.title": "Sensible Temperature",
-  "tips.frostedheart.sensible_temperature.desc1": "The orb at the bottom of your screen displays your &6Sensible Temperature&r, which reflects whether you feel &b&lcold&r or &6&lhot&r in the current environment.",
+  "tips.frostedheart.sensible_temperature.title": "Apparent Temperature",
+  "tips.frostedheart.sensible_temperature.desc1": "The orb at the bottom of your screen displays your &6Apparent Temperature&r, which reflects whether you feel &b&lcold&r or &6&lhot&r in the current environment.",
   "tips.frostedheart.sensible_temperature.desc2": " ",
-  "tips.frostedheart.sensible_temperature.desc3": "Note that &6Sensible Temperature &lis NOT&r &6Body Temperature&r, but rather a calculation result combining factors like ambient temperature, body heat, and clothing. The most comfortable perceived temperature is around &630°C&r (&686°F&r).",
+  "tips.frostedheart.sensible_temperature.desc3": "Note that &6Apparent Temperature &lis NOT&r &6Body Temperature&r, but rather a calculation result combining factors like ambient temperature, body heat, and clothing. The most comfortable perceived temperature is around &630°C&r (&686°F&r).",
 
   "tips.frostedheart.murderer.title": "Murderer",
   "tips.frostedheart.murderer.desc1": "You killed a non-hostile human being. Clearly, this won't do any good to your relationship with them.",
@@ -25,7 +25,7 @@
 
   "tips.frostedheart.plant.title": "Planting",
   "tips.frostedheart.plant.desc1": "Simply scattering seeds on snow and expecting growth is clearly unrealistic. Crops now require &bsuitable environmental conditions&r to grow.",
-  "tips.frostedheart.plant.desc2": "In the inventory, hold &6[S]&r while targeting a crop to view its planting information.",
+  "tips.frostedheart.plant.desc2": "Hold &6[S]&r while hovering seed in the inventory to view its planting information.",
 
   "tips.frostedheart.soil_temperature.title": "Soil Temperature",
   "tips.frostedheart.soil_temperature.desc1": "Crops require suitable soil temperatures to grow. When soil temperature exceeds the survival range, crops will begin to wither, while suitable temperatures accelerate growth.",
@@ -34,10 +34,10 @@
   "tips.frostedheart.soil_temperature.desc4": "Soil temperature is not directly displayed. You must research and unlock the {item.frostedheart.soil_thermometer} to measure it.",
 
   "tips.frostedheart.shelter_and_light.title": "Shelter and Light",
-  "tips.frostedheart.shelter_and_light.desc1": "Most crops require &bnatural light&r to grow properly. However, during severe weather like blizzards, exposed crops may be destroyed. You may need to build shelters using &btransparent blocks&r like glass to protect them.",
+  "tips.frostedheart.shelter_and_light.desc1": "Most crops require &bSunlight (Sky Light)&r to grow properly. However, during severe weather like blizzards, exposed crops may be destroyed. You may need to build shelters using &btransparent blocks&r like glass to protect them.",
 
   "tips.frostedheart.fertilizer.title": "Fertilizer",
-  "tips.frostedheart.fertilizer.desc1": "Fertilizers provide various growth benefits to crops. Hold &6[Shift]&r while targeting fertilizer in the inventory to view specific effects.",
+  "tips.frostedheart.fertilizer.desc1": "Fertilizers provide various growth benefits to crops. Hold &6[Shift]&r while hovering fertilizer in the inventory to view specific effects.",
   "tips.frostedheart.fertilizer.desc2": "There are three types of fertilizer: Growth Acceleration, Yield Booster, and Preserved, each with three tiers: Basic, Advanced, and Modern. Higher-tier fertilizers offer stronger effects.",
   "tips.frostedheart.fertilizer.desc3": "Hold fertilizer and right-click on soil or crops to apply it. Each soil block can hold up to 2 units of the same fertilizer, which are gradually consumed as crops grow.",
 
@@ -51,5 +51,5 @@
 
   "tips.frostedheart.wheel_menu.title": "Radial Menu",
   "tips.frostedheart.wheel_menu.desc1": "Hold &6[Tab]&r to open the radial menu and access various quick functions. Select &b[Archive]&r to view all obtained tips.",
-  "tips.frostedheart.wheel_menu.desc2": "Not enough keys? Select &b[Edit Radial Menu]&r to add custom options—including shortcuts and commands—and hide or rearrange selections."
+  "tips.frostedheart.wheel_menu.desc2": "Not enough keys? Select &b[Edit Radial Menu]&r to add custom options, including Key Binds and Commands, and hide or rearrange selections."
 }

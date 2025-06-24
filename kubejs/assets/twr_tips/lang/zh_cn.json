@@ -6,9 +6,9 @@
   "tips.frostedheart.category.town" : "城镇与难民",
 
   "tips.frostedheart.scenario_tip.title": "提示",
-  "tips.frostedheart.scenario_tip.desc1": "按下 &6[T]&r 打开聊天栏，使用鼠标选择选项",
-  "tips.frostedheart.scenario_tip.desc2": "按下 &6[Z]&r 跳过文本动画",
-  "tips.frostedheart.scenario_tip.desc3": "按下 &6[ESC]&r 五次跳过电影场景",
+  "tips.frostedheart.scenario_tip.desc1": "按下&6[T]&r打开聊天栏，使用鼠标选择选项",
+  "tips.frostedheart.scenario_tip.desc2": "按下&6[Z]&r跳过文本动画",
+  "tips.frostedheart.scenario_tip.desc3": "按下&6[ESC]&r五次跳过电影场景",
 
   "tips.frostedheart.sensible_temperature.title": "体感温度",
   "tips.frostedheart.sensible_temperature.desc1": "在屏幕下方的圆球显示的是你的&6体感温度&r，它反映了你在当前环境中会感到&b&l冷&r还是&6&l热&r。",
@@ -25,7 +25,7 @@
 
   "tips.frostedheart.plant.title": "种植",
   "tips.frostedheart.plant.desc1": "直接把种子撒在雪地里并期待它长出什么明显不现实，现在作物需要&b合适的环境&r才会生长。",
-  "tips.frostedheart.plant.desc2": "在物品栏中对准作物按住 &6[S]&r 即可查看作物的种植信息。",
+  "tips.frostedheart.plant.desc2": "在物品栏中对准作物按住&6[S]&r即可查看作物的种植信息。",
 
   "tips.frostedheart.soil_temperature.title": "土壤温度",
   "tips.frostedheart.soil_temperature.desc1": "作物生长需要合适的土壤温度。土壤温度超过存活区间时作物会开始枯萎，而合适的温度能加快作物的生长速度。",
@@ -34,24 +34,24 @@
   "tips.frostedheart.soil_temperature.desc4": "土壤温度不会直接显示，你需要研究解锁{item.frostedheart.soil_thermometer}后才能测量。",
 
   "tips.frostedheart.shelter_and_light.title": "遮蔽与光照",
-  "tips.frostedheart.shelter_and_light.desc1": "大部分作物都需要&b自然光照&r才能正常生长，但在暴风雪等恶劣天气里露天的作物可能会被摧毁，你可能需要使用玻璃等&b透明方块&r为作物建造遮蔽。",
+  "tips.frostedheart.shelter_and_light.desc1": "大部分作物都需要&b阳光(天空光)&r才能正常生长，但在暴风雪等恶劣天气里露天的作物可能会被摧毁，你可能需要使用玻璃等&b透明方块&r为作物建造遮蔽。",
 
   "tips.frostedheart.fertilizer.title": "肥料",
-  "tips.frostedheart.fertilizer.desc1": "肥料能为作物提供不同的生长增益，在物品栏中对准肥料按住 &6[Shift]&r 即可查看具体效果。",
+  "tips.frostedheart.fertilizer.desc1": "肥料能为作物提供不同的生长增益，在物品栏中对准肥料按住&6[Shift]&r即可查看具体效果。",
   "tips.frostedheart.fertilizer.desc2": "肥料共有三种类型：加速，增产和保温，同时分为三个等级：低级，高级和先进，更高级的肥料的效果也更强。",
   "tips.frostedheart.fertilizer.desc3": "手持肥料右键土壤或作物即可施肥。每块土壤最多能添加2份相同的肥料，在作物生长时会被逐渐消耗。",
 
   "tips.frostedheart.soil_thermometer.desc1": "手持{item.frostedheart.soil_thermometer}对准作物即可查看作物的详细信息。",
 
   "tips.frostedheart.infrared_view.title": "红外视野",
-  "tips.frostedheart.infrared_view.desc1": "你的镜片内置了红外视野功能，按下 &6[I]&r 即可查看温度区域变化。",
+  "tips.frostedheart.infrared_view.desc1": "你的镜片内置了红外视野功能，按下&6[I]&r即可查看温度区域变化。",
 
   "tips.frostedheart.ponder.title": "思索",
-  "tips.frostedheart.ponder.desc1": "思索能帮助你直观的了解一个物品或方块的用途。当物品有思索提示时长按 &6[W]&r 即可进入思索场景。",
+  "tips.frostedheart.ponder.desc1": "思索能帮助你直观的了解一个物品或方块的用途。当物品有思索提示时长按&6[W]&r即可进入思索场景。",
 
   "tips.frostedheart.wheel_menu.title": "轮盘菜单",
-  "tips.frostedheart.wheel_menu.desc1": "按住 &6[Tab]&r 打开轮盘菜单即可选择一系列便捷功能，选择 &b[档案]&r 可查看所有已获取的提示。",
-  "tips.frostedheart.wheel_menu.desc2": "键位不够用? 选择 &b[编辑轮盘菜单]&r 可以添加自定义选项，包括快捷键和自定义指令，还能隐藏或调整选项顺序。",
+  "tips.frostedheart.wheel_menu.desc1": "按住&6[Tab]&r打开轮盘菜单即可选择一系列便捷功能，选择&b[档案]&r可查看所有已获取的提示。",
+  "tips.frostedheart.wheel_menu.desc2": "键位不够用? 选择&b[编辑轮盘菜单]&r可以添加自定义选项，包括快捷键和自定义指令，还能隐藏或调整选项顺序。",
 
   "tips.frostedheart.campfire.title": "营火 WIP 营火需要添加燃料，热辐射，搭建壁炉结构",
 

@@ -259,7 +259,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @startLayer
 @DrawLine name=l1 sx="@1024+(uiScale)*16;" sy="@1152-(uiScale)*83;" dx=1224 dy=700 w="@uiScale*2;" clr=0xffeeee00
 @DrawLine name=l2 sx=1224 sy=700 dx=1324 dy=700 w="@uiScale*2;" clr=0xffeeee00
-@TextLayer n=tl text="&eEffective temperature" x=1330 y=684 resize=18 shadow=1
+@TextLayer n=tl text="&eApparent temperature" x=1330 y=684 resize=18 shadow=1
 @DrawLine name=l3 sx=1094 sy="@20*uiScale;" dx=1224 dy=250 w="@uiScale*2;" clr=0xffeeee00
 @DrawLine name=l4 sx=1224 sy=250 dx=1324 dy=250 w="@uiScale*2;" clr=0xffeeee00
 @TextLayer n=t2 text="&eweather forecast within 5 days" x=1330 y=234 resize=18 shadow=1
@@ -318,7 +318,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 （Press [E] to open Inventory, move the mouse over a food, and press [N] to view its nutrition.）
 @r
 @displayTip id="wheel_menu"
-（Press [TAB] to open Wheel Menu, select Health Info to check Nutrition Level.）
+（Press [TAB] to open Radial Menu, select Health Info to check Nutrition Level.）
 @r
 （When kept in a healthy range, you can prevent disease and gain buffs.）
 @r
@@ -329,7 +329,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @p
 [NoWait]Me：[EndNoWait]This pair of Rabbit Fur Gloves are the gift from my best friend before I leave.[l]
 @r
-（Press [TAB] to open Wheel Menu, select View Clothing, and place Rabbit Fur Gloves on both hands.）
+（Press [TAB] to open Radial Menu, select View Clothing, and place Rabbit Fur Gloves on both hands.）
 @r
 [link l=clothing_properties]&e[Completed, click to continue.]&r[endlink]@wa
 

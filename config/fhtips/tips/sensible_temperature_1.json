@@ -6,7 +6,7 @@
   "clickAction": "",
   "clickActionContent": "",
   "alwaysVisible": false,
-  "onceOnly": true,
+  "onceOnly": false,
   "hide": false,
   "pin": false,
   "displayTime": 15000,
@@ -14,6 +14,7 @@
   "backgroundColor": "FF000000",
   "contents": [
     "tips.frostedheart.sensible_temperature.title",
+    "quest.twr.125F6ADB0DEA3EEA.subtitle",
     "tips.frostedheart.sensible_temperature.desc1"
   ],
   "children": [
