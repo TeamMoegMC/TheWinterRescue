@@ -12,7 +12,13 @@
 	}
 	id: "0A016090E53DFA3B"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "044702209DC29EC5"
+		linked_quest: "3BBB2213C574F333"
+		shape: "gear"
+		x: -8.5d
+		y: -0.5d
+	}]
 	quests: [
 		{
 			dependencies: ["6A22E2D62D4719BE"]
@@ -124,8 +130,8 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 1.0d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["391E30AD9CB7147F"]
@@ -330,7 +336,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["1938FC4AAD99137E"]
+			dependencies: ["1340B00283A4D085"]
 			description: [
 				"{quest.twr.4D3FCF56475C0CD7.description.1}"
 				"{quest.twr.4D3FCF56475C0CD7.description.2}"
@@ -343,7 +349,6 @@
 				"{quest.twr.4D3FCF56475C0CD7.description.9}"
 				"{image:twr_quests:textures/quest/research_game.png width:243 height:170 align:1 fit:true}"
 			]
-			hide_dependency_lines: true
 			icon: "supplementaries:sign_post_spruce"
 			id: "4D3FCF56475C0CD7"
 			subtitle: "{quest.twr.4D3FCF56475C0CD7.subtitle}"
@@ -352,8 +357,8 @@
 				title: "{quest.twr.4D3FCF56475C0CD7.74EA581650245E6D.title}"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1938FC4AAD99137E"]

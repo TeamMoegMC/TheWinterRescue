@@ -6,7 +6,13 @@
 	icon: "steampowered:steel_flywheel"
 	id: "3A3B51CF7F606665"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [{
+		id: "40C5F4DE8E12AF24"
+		linked_quest: "58EF2132D0431323"
+		shape: "hexagon"
+		x: -19.5d
+		y: -0.5d
+	}]
 	quests: [
 		{
 			dependencies: ["3549A50510878505"]
@@ -64,7 +70,7 @@
 				item: "immersiveengineering:blastbrick"
 				type: "item"
 			}]
-			x: -16.5d
+			x: -15.0d
 			y: 1.0d
 		}
 		{
@@ -88,7 +94,7 @@
 				item: "frostedheart:cast_iron_ingot"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -13.0d
 			y: 1.0d
 		}
 		{
@@ -166,7 +172,7 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
+			x: -6.5d
 			y: -2.0d
 		}
 		{
@@ -195,7 +201,7 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
+			x: -5.0d
 			y: 2.5d
 		}
 		{
@@ -231,7 +237,7 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -243,6 +249,7 @@
 			]
 			hide_until_deps_visible: false
 			id: "29DCBBB54EE90E51"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -263,7 +270,7 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: -16.0d
+			x: -14.5d
 			y: 2.5d
 		}
 		{
@@ -284,7 +291,7 @@
 				item: "steampowered:cast_iron_cogwheel"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -2.0d
 			y: 2.5d
 		}
 		{
@@ -306,7 +313,7 @@
 				type: "item"
 			}]
 			title: "{quest.twr.4600CF7553C26ED0.title}"
-			x: -12.5d
+			x: -9.5d
 			y: 1.0d
 		}
 		{
@@ -335,7 +342,7 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 0.5d
 			y: -1.5d
 		}
 		{
@@ -356,8 +363,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -0.5d
+			x: -11.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3E8F565DE61309B2"]
@@ -416,7 +423,7 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 0.5d
 			y: 2.5d
 		}
 		{
@@ -425,6 +432,7 @@
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			id: "15B365E3F3EAFE79"
+			optional: true
 			rewards: [{
 				id: "097F264F817D2E56"
 				insight: 1
@@ -437,7 +445,7 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			x: -15.0d
+			x: -13.5d
 			y: 3.0d
 		}
 		{
@@ -589,7 +597,7 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -3.5d
 			y: -0.5d
 		}
 		{
@@ -628,7 +636,7 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
+			x: -8.0d
 			y: 1.0d
 		}
 		{
@@ -647,7 +655,7 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -6.5d
 			y: 1.0d
 		}
 		{
@@ -664,7 +672,7 @@
 				item: "immersiveengineering:blastfurnace_preheater"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -678,8 +686,6 @@
 				"{quest.twr.19038BB5A9E42055.description.2}"
 				"{quest.twr.19038BB5A9E42055.description.3}"
 				"{quest.twr.19038BB5A9E42055.description.4}"
-				"{quest.twr.19038BB5A9E42055.description.5}"
-				"{quest.twr.19038BB5A9E42055.description.6}"
 			]
 			hide_until_deps_visible: false
 			icon: "immersiveindustry:crucible"
@@ -716,7 +722,7 @@
 				}
 			]
 			title: "{quest.twr.19038BB5A9E42055.title}"
-			x: 2.5d
+			x: 5.5d
 			y: 2.5d
 		}
 		{
@@ -730,7 +736,7 @@
 				item: "frostedheart:high_refractory_brick"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -750,7 +756,7 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
@@ -771,7 +777,7 @@
 				item: "immersiveengineering:capacitor_lv"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -1.0d
 			y: -3.5d
 		}
 		{
@@ -792,7 +798,7 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 0.5d
 			y: -3.5d
 		}
 		{
@@ -826,7 +832,7 @@
 				item: "immersiveengineering:circuit_board"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 5.5d
 			y: -3.5d
 		}
 		{
@@ -852,6 +858,7 @@
 			]
 			hide_until_deps_visible: false
 			id: "41D8E04627E55A86"
+			optional: true
 			rewards: [
 				{
 					count: 8
@@ -871,7 +878,7 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: -14.0d
+			x: -12.5d
 			y: 3.0d
 		}
 		{
@@ -910,7 +917,7 @@
 				}
 			]
 			title: "{quest.twr.55BE6F159CF89342.title}"
-			x: 0.0d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -973,7 +980,7 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
+			x: -7.5d
 			y: -3.5d
 		}
 		{
@@ -1007,7 +1014,7 @@
 			}]
 			title: "{quest.twr.3A91A02EB59A7919.title}"
 			x: -16.5d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4CC5E16EFDE1368C"]
@@ -1027,7 +1034,7 @@
 				item: "create:gearbox"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -11.5d
 			y: 2.5d
 		}
 		{
@@ -1051,7 +1058,7 @@
 				item: "create:clockwork_bearing"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -5.5d
 			y: -3.5d
 		}
 		{
@@ -1079,7 +1086,7 @@
 				}
 				type: "item"
 			}]
-			x: -9.5d
+			x: -6.5d
 			y: -3.5d
 		}
 		{
@@ -1099,7 +1106,7 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -3.5d
 			y: 2.5d
 		}
 		{
@@ -1109,6 +1116,7 @@
 				"{quest.twr.289D04E29639F155.description.2}"
 				"{quest.twr.289D04E29639F155.description.3}"
 			]
+			hide_dependency_lines: false
 			icon: "minecraft:white_wool"
 			id: "289D04E29639F155"
 			shape: "hexagon"
@@ -1119,22 +1127,6 @@
 			}]
 			title: "{quest.twr.289D04E29639F155.title}"
 			x: -21.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4CC5E16EFDE1368C"]
-			description: ["{quest.twr.7D2BB5CE05B6723F.description.1}"]
-			hide_dependency_lines: true
-			hide_until_deps_visible: false
-			icon: "immersiveengineering:electron_tube"
-			id: "7D2BB5CE05B6723F"
-			shape: "hexagon"
-			tasks: [{
-				id: "74E26CF35B0C0C6E"
-				title: "{quest.twr.7D2BB5CE05B6723F.74E26CF35B0C0C6E.title}"
-				type: "checkmark"
-			}]
-			x: -11.0d
 			y: 2.5d
 		}
 		{
@@ -1160,13 +1152,15 @@
 				title: "{quest.twr.64BD0FE7784B0BEB.1B6C447B300EEE7B.title}"
 				type: "checkmark"
 			}]
-			x: -6.5d
+			x: -3.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4CC5E16EFDE1368C"]
+			hide_dependency_lines: true
 			icon: "supplementaries:slice_map"
 			id: "013DCE6D04AC8284"
+			optional: true
 			rewards: [{
 				command: "/ftbchunks admin extra_claim_chunks @s set 5"
 				elevate_perms: true

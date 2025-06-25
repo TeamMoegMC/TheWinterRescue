@@ -11,7 +11,7 @@
 		}
 	}
 	id: "683664CACFD52C99"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -606,6 +606,11 @@
 		}
 		{
 			id: "1CF26B79A48F33A6"
+			rewards: [{
+				id: "1337A2848C3C6C9D"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "662C810758753912"
 				item: "frostedheart:condensed_ball_iron_ore"

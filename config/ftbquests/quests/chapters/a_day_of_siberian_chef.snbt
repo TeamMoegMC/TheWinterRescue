@@ -6,7 +6,44 @@
 	icon: "caupona:stew_pot"
 	id: "715FF1EB059BCACF"
 	order_index: 4
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "08267D180B656B8D"
+			linked_quest: "03711E7D7FF74B83"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "253DD256699E5B7B"
+			linked_quest: "0CA87739C86BB0C6"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "7B2661ABD484F5DC"
+			linked_quest: "027E793362A7ECBE"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "7C6722D4DAC88293"
+			linked_quest: "4E2FF1AFA626A42B"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "10B3BC60A9D2E1F7"
+			linked_quest: "6D01046E549A087E"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "1C82D6C825F5F4E9"
+			linked_quest: "11A33F924E78C874"
+			x: -1.5d
+			y: -4.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["4E2FF1AFA626A42B"]
@@ -16,8 +53,8 @@
 				item: "frostedheart:rye_flour"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["68CF06AA926D32E6"]
@@ -32,47 +69,8 @@
 				item: "frostedheart:black_bread"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["68CF06AA926D32E6"]
-			description: [
-				"{quest.twr.04E9589E45C56536.description.1}"
-				"{quest.twr.04E9589E45C56536.description.2}"
-			]
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			id: "04E9589E45C56536"
-			invisible: true
-			subtitle: "{quest.twr.04E9589E45C56536.subtitle}"
-			tasks: [{
-				id: "51B73D2F2CAC1ADF"
-				item: "frostedheart:rye_porridge"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["68CF06AA926D32E6"]
-			description: [
-				"{quest.twr.5C3681B30ADB26B9.description.1}"
-				"{quest.twr.5C3681B30ADB26B9.description.2}"
-				"{quest.twr.5C3681B30ADB26B9.description.3}"
-			]
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			id: "5C3681B30ADB26B9"
-			invisible: true
-			subtitle: "{quest.twr.5C3681B30ADB26B9.subtitle}"
-			tasks: [{
-				id: "7F10637F61BD5539"
-				item: "frostedheart:rye_sawdust_porridge"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["68CF06AA926D32E6"]
@@ -84,29 +82,8 @@
 				item: "frostedheart:rye_bread"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["69D939596ED4C0AF"]
-			description: ["{quest.twr.6D01046E549A087E.description.1}"]
-			id: "6D01046E549A087E"
-			rewards: [{
-				id: "75B62C2BB6660780"
-				insight: 1
-				team_reward: true
-				type: "frostedheart:insight"
-			}]
-			shape: "rsquare"
-			subtitle: "{quest.twr.6D01046E549A087E.subtitle}"
-			tasks: [{
-				id: "39F9E5D1C778E5DB"
-				item: "frostedheart:white_turnip_block"
-				type: "item"
-			}]
-			title: "{quest.twr.6D01046E549A087E.title}"
-			x: -7.5d
-			y: 0.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7887EB905BAA7BEF"]
@@ -127,35 +104,8 @@
 				type: "item"
 			}]
 			title: "{quest.twr.20F1DD1209093059.title}"
-			x: -7.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["69D939596ED4C0AF"]
-			description: ["{quest.twr.4E2FF1AFA626A42B.description.1}"]
-			id: "4E2FF1AFA626A42B"
-			rewards: [{
-				id: "5C850DE70FC70A2B"
-				insight: 1
-				team_reward: true
-				type: "frostedheart:insight"
-			}]
-			shape: "rsquare"
-			subtitle: "{quest.twr.4E2FF1AFA626A42B.subtitle}"
-			tasks: [
-				{
-					id: "7CE2CD33F7053CF1"
-					item: "frostedheart:rye"
-					type: "item"
-				}
-				{
-					id: "00A5E07CA11B3131"
-					item: "frostedheart:rye_block"
-					type: "item"
-				}
-			]
-			x: -7.5d
-			y: -1.0d
+			x: 1.5d
+			y: -4.5d
 		}
 		{
 			hide_until_deps_visible: false
@@ -179,60 +129,8 @@
 				item: "caupona:meat_soup_aspic"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 0.5d
-		}
-		{
-			description: ["{quest.twr.32DB7CCD0A73D98F.description.1}"]
-			hide_until_deps_visible: false
-			id: "32DB7CCD0A73D98F"
-			rewards: [{
-				id: "3A5F819809C24406"
-				insight: 1
-				team_reward: true
-				type: "frostedheart:insight"
-			}]
-			subtitle: "{quest.twr.32DB7CCD0A73D98F.subtitle}"
-			tasks: [{
-				id: "5E578602513E85BA"
-				item: "kubejs:wet_straw_briquette"
-				type: "item"
-			}]
-			title: "{quest.twr.32DB7CCD0A73D98F.title}"
-			x: -7.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["32DB7CCD0A73D98F"]
-			description: [
-				"{quest.twr.0CA87739C86BB0C6.description.1}"
-				"{quest.twr.0CA87739C86BB0C6.description.2}"
-				"{quest.twr.0CA87739C86BB0C6.description.3}"
-			]
-			hide_until_deps_visible: false
-			id: "0CA87739C86BB0C6"
-			rewards: [{
-				id: "209908756C87B917"
-				insight: 1
-				team_reward: true
-				type: "frostedheart:insight"
-			}]
-			subtitle: "{quest.twr.0CA87739C86BB0C6.subtitle}"
-			tasks: [{
-				id: "3890274B4A2DD114"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "frostedheart:mushroom_base"
-					}
-				}
-				title: "{quest.twr.0CA87739C86BB0C6.3890274B4A2DD114.title}"
-				type: "item"
-			}]
-			title: "{quest.twr.0CA87739C86BB0C6.title}"
-			x: -6.0d
-			y: -4.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0CA87739C86BB0C6"]
@@ -259,49 +157,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.0d
-		}
-		{
-			description: [
-				"{quest.twr.64B11670694B854C.description.1}"
-				"{quest.twr.64B11670694B854C.description.2}"
-			]
-			hide_until_deps_visible: false
-			id: "64B11670694B854C"
-			rewards: [{
-				id: "23304C4540F19132"
-				insight: 1
-				team_reward: true
-				type: "frostedheart:insight"
-			}]
-			subtitle: "{quest.twr.64B11670694B854C.subtitle}"
-			tasks: [{
-				id: "1B12095312E36420"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -7.0d
-		}
-		{
-			description: ["{quest.twr.529E18F00974DC2D.description.1}"]
-			hide_until_deps_visible: false
-			id: "529E18F00974DC2D"
-			rewards: [{
-				id: "35FC765982958275"
-				insight: 1
-				team_reward: true
-				type: "frostedheart:insight"
-			}]
-			subtitle: "{quest.twr.529E18F00974DC2D.subtitle}"
-			tasks: [{
-				id: "1E62175F01B70310"
-				item: "caupona:walnut"
-				type: "item"
-			}]
-			x: -7.5d
-			y: -5.5d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			can_repeat: true
@@ -334,8 +191,8 @@
 				type: "item"
 			}]
 			title: "{quest.twr.516392D8FE0C7E91.title}"
-			x: -9.0d
-			y: -7.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -363,39 +220,13 @@
 				item: "frostedheart:compressed_biscuits"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"7A992B9F9DB079E6"
-				"047F11A29F16A270"
-				"42D8CA1487A024B8"
-			]
-			dependency_requirement: "one_completed"
-			description: [
-				"{quest.twr.027E793362A7ECBE.description.1}"
-				"{quest.twr.027E793362A7ECBE.description.2}"
-				"{quest.twr.027E793362A7ECBE.description.3}"
-				"{quest.twr.027E793362A7ECBE.description.4}"
-				"{quest.twr.027E793362A7ECBE.description.5}"
-			]
-			icon: "frostedheart:incubator"
-			id: "027E793362A7ECBE"
-			subtitle: "{quest.twr.027E793362A7ECBE.subtitle}"
-			tasks: [{
-				id: "5362C596638D62E7"
-				item: "frostedheart:incubator"
-				type: "item"
-			}]
-			title: "{quest.twr.027E793362A7ECBE.title}"
-			x: -6.0d
-			y: -2.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["027E793362A7ECBE"]
 			description: ["{quest.twr.2292AB368EF121C2.description.1}"]
-			icon: "minecraft:mushroom_stem"
+			icon: "minecraft:red_mushroom_block"
 			id: "2292AB368EF121C2"
 			rewards: [{
 				id: "69AB5F1F4765E636"
@@ -417,8 +248,8 @@
 				type: "item"
 			}]
 			title: "{quest.twr.2292AB368EF121C2.title}"
-			x: -4.5d
-			y: -2.5d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -443,31 +274,8 @@
 				item: "frostedheart:chocolate"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
-		}
-		{
-			description: [
-				"{quest.twr.42D8CA1487A024B8.description.1}"
-				"{quest.twr.42D8CA1487A024B8.description.2}"
-			]
-			id: "42D8CA1487A024B8"
-			rewards: [{
-				id: "5E437A614332D23F"
-				insight: 1
-				team_reward: true
-				type: "frostedheart:insight"
-			}]
-			subtitle: "{quest.twr.42D8CA1487A024B8.subtitle}"
-			tasks: [{
-				id: "75525042F72AA878"
-				item: "minecraft:brown_mushroom"
-				title: "{quest.twr.42D8CA1487A024B8.75525042F72AA878.title}"
-				type: "item"
-			}]
-			title: "{quest.twr.42D8CA1487A024B8.title}"
-			x: -7.5d
-			y: -2.5d
+			x: 4.5d
+			y: -1.5d
 		}
 		{
 			id: "0C1E48645515E20B"
@@ -482,8 +290,8 @@
 				item: "caupona:redstone_ladle"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -2.5d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			id: "61799B65137B2BE1"
@@ -498,8 +306,8 @@
 				item: "caupona:portable_brazier"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -4.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			id: "4C0F3C30AEC6208B"
@@ -514,8 +322,8 @@
 				item: "caupona:copper_frying_pan"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -2.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			id: "388ACA1406EE3413"
@@ -524,8 +332,8 @@
 				item: "caupona:iron_frying_pan"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -1.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			id: "56963E242860E06F"
@@ -534,8 +342,8 @@
 				item: "caupona:lead_frying_pan"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 0.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			id: "3BB231C26533D4C1"
@@ -550,8 +358,8 @@
 				item: "caupona:lead_stew_pot"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -5.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			id: "608D5EAAC3814275"
@@ -566,8 +374,8 @@
 				item: "caupona:situla"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -1.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			id: "7D976C4229099FE3"
@@ -582,8 +390,8 @@
 				item: "caupona:mud_counter_with_dolium"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -2.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			id: "19A1AA8AD7A9BE0D"
@@ -592,8 +400,8 @@
 				item: "caupona:tessellation_workbench"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -1.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			id: "121CC99EBE8CC8B7"
@@ -602,8 +410,8 @@
 				item: "caupona:wolf_statue"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -5.5d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
 			id: "2D14006D8BDA6B3C"
@@ -624,8 +432,8 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: -5.5d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "504C87A39C8FF591"
@@ -640,8 +448,8 @@
 				item: "caupona:stone_griddle"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -4.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			id: "5A5D277E44CDA1AB"
@@ -662,31 +470,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: -4.0d
-		}
-		{
-			description: ["{quest.twr.03711E7D7FF74B83.description.1}"]
-			id: "03711E7D7FF74B83"
-			rewards: [{
-				id: "20DA62C51E62D81B"
-				insight: 1
-				type: "frostedheart:insight"
-			}]
-			tasks: [
-				{
-					id: "53EFB72FC87C5D8F"
-					item: "minecraft:beetroot"
-					type: "item"
-				}
-				{
-					id: "79FB186D946CDF0B"
-					item: "minecraft:beetroot_seeds"
-					type: "item"
-				}
-			]
-			x: -7.5d
-			y: 2.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["03711E7D7FF74B83"]
@@ -702,79 +487,37 @@
 				item: "minecraft:sugar"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 2.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
-			description: ["要想给作物施肥，不能再用简单的骨粉了！你需要采用富含氮、磷、钾的三种物质，以不同比例混合，得到不同肥料！"]
-			id: "41B5A9396D23D0CE"
-			tasks: [
-				{
-					id: "2C351452237B7A79"
-					item: "frostedheart:basic_increasing_fertilizer"
-					type: "item"
-				}
-				{
-					id: "3C5BA1992AF6C547"
-					item: "frostedheart:basic_accelerated_fertilizer"
-					type: "item"
-				}
-				{
-					id: "78F5BE73132026A3"
-					item: "frostedheart:basic_preserved_fertilizer"
-					type: "item"
-				}
+			description: [
+				"{quest.twr.42D8CA1487A024B8.description.1}"
+				"{quest.twr.42D8CA1487A024B8.description.2}"
 			]
-			title: "低级肥料"
-			x: -7.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["41B5A9396D23D0CE"]
-			id: "22927212578FD12E"
-			tasks: [
-				{
-					id: "7734C9B0CBF2E85A"
-					item: "frostedheart:advanced_increasing_fertilizer"
-					type: "item"
+			id: "42D8CA1487A024B8"
+			rewards: [{
+				id: "5E437A614332D23F"
+				insight: 1
+				team_reward: true
+				type: "frostedheart:insight"
+			}]
+			subtitle: "{quest.twr.42D8CA1487A024B8.subtitle}"
+			tasks: [{
+				id: "75525042F72AA878"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:mushrooms"
+					}
 				}
-				{
-					id: "4AD8C976D3C8C332"
-					item: "frostedheart:advanced_accelerated_fertilizer"
-					type: "item"
-				}
-				{
-					id: "25FD9CE1F39903B6"
-					item: "frostedheart:advanced_preserved_fertilizer"
-					type: "item"
-				}
-			]
-			title: "高级肥料"
-			x: -6.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["22927212578FD12E"]
-			id: "2E8EB1DBE5675D2A"
-			tasks: [
-				{
-					id: "5F0168A41BF7111D"
-					item: "frostedheart:ultimate_increasing_fertilizer"
-					type: "item"
-				}
-				{
-					id: "3027E2AFEFBEEF5E"
-					item: "frostedheart:ultimate_accelerated_fertilizer"
-					type: "item"
-				}
-				{
-					id: "7C92EB18C69DC571"
-					item: "frostedheart:ultimate_preserved_fertilizer"
-					type: "item"
-				}
-			]
-			x: -4.5d
-			y: 3.5d
+				title: "{quest.twr.42D8CA1487A024B8.75525042F72AA878.title}"
+				type: "item"
+			}]
+			title: "{quest.twr.42D8CA1487A024B8.title}"
+			x: 1.5d
+			y: -3.0d
 		}
 	]
 	subtitle: ["{chapter.twr.715FF1EB059BCACF.subtitle}"]

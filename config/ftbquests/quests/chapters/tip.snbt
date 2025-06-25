@@ -40,8 +40,21 @@
 			y: 5.0d
 		}
 	]
-	order_index: 6
-	quest_links: [ ]
+	order_index: 7
+	quest_links: [
+		{
+			id: "5FE2780CE76DEA13"
+			linked_quest: "1837531DB19C9023"
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			id: "2387605D677F535C"
+			linked_quest: "689BB00EC2454F1F"
+			x: -7.5d
+			y: -7.0d
+		}
+	]
 	quests: [
 		{
 			id: "600194958AED706C"
@@ -182,36 +195,6 @@
 			y: -8.5d
 		}
 		{
-			id: "5461F2723FCA7674"
-			rewards: [{
-				fh_tip: "ponder"
-				id: "25F9B6881A596CE0"
-				type: "frostedheart:tip"
-			}]
-			tasks: [
-				{
-					id: "75D79F5A3B87D1DB"
-					item: "charcoal_pit:straw"
-					type: "item"
-				}
-				{
-					id: "7D709CFEE4DDB310"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:cobblestone"
-						}
-					}
-					title: "Any #forge:cobblestone"
-					type: "item"
-				}
-			]
-			title: "{tips.frostedheart.ponder.title}"
-			x: -8.5d
-			y: -7.0d
-		}
-		{
 			id: "0C99D3CBF219121F"
 			rewards: [{
 				fh_tip: "wet"
@@ -233,28 +216,6 @@
 			title: "{tips.frostedheart.wet.title}"
 			x: 2.5d
 			y: -5.5d
-		}
-		{
-			id: "01BAFD38D1D15F65"
-			rewards: [{
-				fh_tip: "campfire"
-				id: "682B91440F1A466D"
-				type: "frostedheart:tip"
-			}]
-			tasks: [
-				{
-					id: "33DA946826CC0A03"
-					item: "minecraft:campfire"
-					type: "item"
-				}
-				{
-					id: "75ED74E866FC2883"
-					type: "checkmark"
-				}
-			]
-			title: "{tips.frostedheart.campfire.title}"
-			x: -7.5d
-			y: -7.0d
 		}
 		{
 			id: "12ECB70E3EF1B882"
@@ -543,6 +504,53 @@
 			title: "{tips.frostedheart.trading.title}"
 			x: -7.5d
 			y: 4.5d
+		}
+		{
+			id: "52A2EE5B2340CF54"
+			rewards: [{
+				fh_tip: "refugees"
+				id: "4991EC3402EB5B5C"
+				type: "frostedheart:tip"
+			}]
+			tasks: [
+				{
+					id: "1AB76761A724C610"
+					observe_type: 5
+					timer: 0L
+					to_observe: "frostedheart:wandering_refugee"
+					type: "observation"
+				}
+				{
+					id: "2CA1371B3F50FE4E"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "327BF86CE38B9B08"
+			rewards: [{
+				fh_tip: "campfire"
+				id: "5ACF377FCA0A6237"
+				type: "frostedheart:tip"
+			}]
+			tasks: [
+				{
+					id: "089B575122EC7DB6"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:campfire"
+					type: "observation"
+				}
+				{
+					id: "77B21F2CB8D8207E"
+					type: "checkmark"
+				}
+			]
+			title: "{block.minecraft.campfire}"
+			x: 3.5d
+			y: -7.0d
 		}
 	]
 	title: "Tip"

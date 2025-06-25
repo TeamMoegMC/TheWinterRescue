@@ -32,7 +32,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.6667AA13CA3DAC9B.title}"
-			x: -2.0d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -41,9 +41,8 @@
 				"{quest.twr.1F615C38B1A015E5.description.2}"
 				"{quest.twr.1F615C38B1A015E5.description.3}"
 				"{quest.twr.1F615C38B1A015E5.description.4}"
+				"{quest.twr.1F615C38B1A015E5.description.3}"
 				"{quest.twr.1F615C38B1A015E5.description.5}"
-				"{quest.twr.1F615C38B1A015E5.description.6}"
-				"{quest.twr.1F615C38B1A015E5.description.7}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: false
@@ -57,7 +56,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.1F615C38B1A015E5.title}"
-			x: -6.5d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -115,7 +114,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.33B6E7B60783C72B.title}"
-			x: -6.5d
+			x: -7.5d
 			y: 1.5d
 		}
 		{
@@ -138,7 +137,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.215BC2E7271F1478.title}"
-			x: -6.5d
+			x: -7.5d
 			y: 2.5d
 		}
 		{
@@ -164,8 +163,8 @@
 				title: "{quest.twr.24E7D1E02BE55A8E.047874DA9F5AB4B1.title}"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: 6.0d
+			x: -7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["56E5FD2809882B5F"]
@@ -190,45 +189,6 @@
 			title: "{quest.twr.32E5D942F1FE8645.title}"
 			x: 3.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["55C39831FBBB94D8"]
-			description: ["{quest.twr.3102993072F3C8B9.description.1}"]
-			hide_dependency_lines: false
-			hide_until_deps_complete: true
-			hide_until_deps_visible: false
-			icon: "stone_age:flint_workbench"
-			id: "3102993072F3C8B9"
-			optional: true
-			rewards: [{
-				id: "163A03C91746986A"
-				item: "minecraft:torch"
-				type: "item"
-			}]
-			shape: "gear"
-			subtitle: "{quest.twr.3102993072F3C8B9.subtitle}"
-			tasks: [
-				{
-					id: "5EAF6B48C8FA678E"
-					item: "stone_age:flint_workbench"
-					title: "{quest.twr.3102993072F3C8B9.5EAF6B48C8FA678E.title}"
-					type: "item"
-				}
-				{
-					id: "60B41A72313BFBD3"
-					item: {
-						Count: 1
-						id: "stone_age:flint_knife"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "{quest.twr.3102993072F3C8B9.title}"
-			x: 5.5d
-			y: -1.5d
 		}
 		{
 			dependencies: ["32E5D942F1FE8645"]
@@ -508,8 +468,8 @@
 				}
 			]
 			title: "{quest.twr.76B2B1A3EC6D92CD.title}"
-			x: 14.0d
-			y: 4.0d
+			x: 15.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["20E34B234337C28A"]
@@ -521,6 +481,7 @@
 				"{quest.twr.36960F1D7CDC8B30.description.5}"
 				"{quest.twr.36960F1D7CDC8B30.description.6}"
 			]
+			hide_dependency_lines: true
 			icon: "minecraft:campfire"
 			id: "36960F1D7CDC8B30"
 			shape: "hexagon"
@@ -599,6 +560,12 @@
 			dependencies: ["45E2EF843333B846"]
 			description: ["{quest.twr.1837531DB19C9023.description.1}"]
 			id: "1837531DB19C9023"
+			rewards: [{
+				auto: "invisible"
+				fh_tip: "ponder"
+				id: "174644EA218A4DD4"
+				type: "frostedheart:tip"
+			}]
 			shape: "gear"
 			tasks: [{
 				count: 8L
@@ -615,7 +582,7 @@
 			description: ["{quest.twr.56E5FD2809882B5F.description.1}"]
 			icon: "minecraft:book"
 			id: "56E5FD2809882B5F"
-			shape: "hexagon"
+			shape: "gear"
 			subtitle: "{quest.twr.56E5FD2809882B5F.subtitle}"
 			tasks: [{
 				id: "44FC3B35AD9FD776"
@@ -741,7 +708,6 @@
 				"{quest.twr.660F95E6765CD77A.description.4}"
 				"{quest.twr.660F95E6765CD77A.description.5}"
 				"{quest.twr.660F95E6765CD77A.description.6}"
-				"{quest.twr.660F95E6765CD77A.description.7}"
 			]
 			hide_until_deps_visible: false
 			icon: "minecraft:light_gray_candle"
@@ -754,7 +720,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.660F95E6765CD77A.title}"
-			x: -5.0d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -768,8 +734,6 @@
 			]
 			icon: "frostedheart:mercury_body_thermometer"
 			id: "76E0A57CE55FFCEA"
-			invisible: true
-			optional: true
 			shape: "hexagon"
 			tasks: [{
 				id: "6D6B476F48C9D98E"
@@ -777,35 +741,8 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.76E0A57CE55FFCEA.title}"
-			x: -5.0d
-			y: 5.0d
-		}
-		{
-			description: [
-				"{quest.twr.797D120146136A5C.description.1}"
-				"{quest.twr.797D120146136A5C.description.2}"
-				"{quest.twr.797D120146136A5C.description.3}"
-				"{quest.twr.797D120146136A5C.description.5}"
-				"{quest.twr.797D120146136A5C.description.6}"
-				"{quest.twr.797D120146136A5C.description.7}"
-				"{quest.twr.797D120146136A5C.description.8}"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_visible: false
-			icon: "frostedheart:soil_thermometer"
-			id: "797D120146136A5C"
-			invisible: true
-			optional: true
-			shape: "hexagon"
-			subtitle: "{quest.twr.797D120146136A5C.subtitle}"
-			tasks: [{
-				id: "1924CA73AA697024"
-				title: "{quest.twr.797D120146136A5C.1924CA73AA697024.title}"
-				type: "checkmark"
-			}]
-			title: "{quest.twr.797D120146136A5C.title}"
-			x: -5.0d
-			y: 6.0d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1D7F2824DAF3BB7B"]
@@ -855,29 +792,6 @@
 			y: 0.0d
 		}
 		{
-			description: [
-				"{quest.twr.49C0A13F97114740.description.1}"
-				"{quest.twr.49C0A13F97114740.description.2}"
-				"{quest.twr.49C0A13F97114740.description.3}"
-				"{quest.twr.49C0A13F97114740.description.4}"
-				"{quest.twr.49C0A13F97114740.description.5}"
-				"{quest.twr.49C0A13F97114740.description.6}"
-			]
-			hide_dependency_lines: true
-			icon: "minecraft:soul_campfire"
-			id: "49C0A13F97114740"
-			invisible: true
-			optional: true
-			shape: "hexagon"
-			tasks: [{
-				id: "2864531689489974"
-				title: "{quest.twr.49C0A13F97114740.2864531689489974.title}"
-				type: "checkmark"
-			}]
-			x: -5.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["4B6FFA5A9140019F"]
 			description: [
 				"{quest.twr.477565C132877FBA.description.1}"
@@ -909,7 +823,7 @@
 			}]
 			title: "{quest.twr.477565C132877FBA.title}"
 			x: 12.5d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["20E34B234337C28A"]
@@ -937,7 +851,7 @@
 				"{quest.twr.125F6ADB0DEA3EEA.description.5}"
 				"{quest.twr.125F6ADB0DEA3EEA.description.6}"
 				"{quest.twr.125F6ADB0DEA3EEA.description.7}"
-				"{quest.twr.125F6ADB0DEA3EEA.description.8}"
+				"{@pagebreak}"
 				"{quest.twr.125F6ADB0DEA3EEA.description.9}"
 			]
 			hide_until_deps_visible: false
@@ -956,14 +870,15 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.125F6ADB0DEA3EEA.title}"
-			x: -5.0d
-			y: 1.5d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			description: [
 				"{quest.twr.1B3C8681DF78AD16.description.1}"
 				"{quest.twr.1B3C8681DF78AD16.description.2}"
 				"{quest.twr.1B3C8681DF78AD16.description.3}"
+				"{ \"text\": \"https://wiki.teammoeg.com\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://wiki.teammoeg.com\" } }"
 			]
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
@@ -977,7 +892,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.1B3C8681DF78AD16.title}"
-			x: -8.0d
+			x: -9.0d
 			y: 3.5d
 		}
 		{
@@ -1015,7 +930,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.1CD9EB4A39925BB8.title}"
-			x: -8.0d
+			x: -9.0d
 			y: 1.5d
 		}
 		{
@@ -1023,6 +938,7 @@
 				"{quest.twr.543F5BC239D07C40.description.1}"
 				"{quest.twr.543F5BC239D07C40.description.2}"
 				"{quest.twr.543F5BC239D07C40.description.3}"
+				""
 				"{quest.twr.543F5BC239D07C40.description.4}"
 				"{quest.twr.543F5BC239D07C40.description.5}"
 				"{quest.twr.543F5BC239D07C40.description.6}"
@@ -1041,7 +957,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.543F5BC239D07C40.title}"
-			x: -8.0d
+			x: -9.0d
 			y: 2.5d
 		}
 		{
@@ -1050,7 +966,10 @@
 				"{quest.twr.7AFE32B08BB6CE6C.description.2}"
 				"{quest.twr.7AFE32B08BB6CE6C.description.3}"
 				"{quest.twr.7AFE32B08BB6CE6C.description.4}"
+				"{ \"text\": \"https://afdian.com/a/teammoeg\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://afdian.com/a/teammoeg\" } }"
+				""
 				"{quest.twr.7AFE32B08BB6CE6C.description.5}"
+				"{ \"text\": \"https://www.patreon.com/TeamMoegProjects\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.patreon.com/TeamMoegProjects\" } }"
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:paper"
@@ -1062,7 +981,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.7AFE32B08BB6CE6C.title}"
-			x: -8.0d
+			x: -9.0d
 			y: 0.0d
 		}
 		{
@@ -1172,6 +1091,23 @@
 			}]
 			x: 11.0d
 			y: -2.0d
+		}
+		{
+			description: [
+				"{tips.frostedheart.wheel_menu.desc1}"
+				""
+				"{tips.frostedheart.wheel_menu.desc2}"
+			]
+			icon: "storagedrawers:keyring"
+			id: "6E932D81FBAE1A71"
+			shape: "hexagon"
+			tasks: [{
+				id: "27F2055E0AAABFCC"
+				title: "{tips.frostedheart.wheel_menu.title}"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["{chapter.twr.0C07C58470EE031C.subtitle.0}"]

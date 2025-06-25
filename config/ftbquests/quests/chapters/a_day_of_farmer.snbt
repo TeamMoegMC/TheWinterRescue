@@ -1,0 +1,308 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_day_of_farmer"
+	group: "7668DAE31E3EF623"
+	icon: "frostedheart:random_seeds"
+	id: "40708938F7AB8302"
+	order_index: 3
+	quest_links: [
+		{
+			id: "446F2486D6C1420D"
+			linked_quest: "477565C132877FBA"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "659F70024065AC85"
+			linked_quest: "42D8CA1487A024B8"
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["03A553EBD453466A"]
+			id: "703015215CDDA12C"
+			tasks: [{
+				id: "7F3CA811FE03088E"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22927212578FD12E"]
+			id: "2E8EB1DBE5675D2A"
+			tasks: [
+				{
+					id: "5F0168A41BF7111D"
+					item: "frostedheart:ultimate_increasing_fertilizer"
+					type: "item"
+				}
+				{
+					id: "3027E2AFEFBEEF5E"
+					item: "frostedheart:ultimate_accelerated_fertilizer"
+					type: "item"
+				}
+				{
+					id: "7C92EB18C69DC571"
+					item: "frostedheart:ultimate_preserved_fertilizer"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41B5A9396D23D0CE"]
+			id: "22927212578FD12E"
+			tasks: [
+				{
+					id: "7734C9B0CBF2E85A"
+					item: "frostedheart:advanced_increasing_fertilizer"
+					type: "item"
+				}
+				{
+					id: "4AD8C976D3C8C332"
+					item: "frostedheart:advanced_accelerated_fertilizer"
+					type: "item"
+				}
+				{
+					id: "25FD9CE1F39903B6"
+					item: "frostedheart:advanced_preserved_fertilizer"
+					type: "item"
+				}
+			]
+			title: "高级肥料"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["要想给作物施肥，不能再用简单的骨粉了！你需要采用富含氮、磷、钾的三种物质，以不同比例混合，得到不同肥料！"]
+			id: "41B5A9396D23D0CE"
+			tasks: [
+				{
+					id: "2C351452237B7A79"
+					item: "frostedheart:basic_increasing_fertilizer"
+					type: "item"
+				}
+				{
+					id: "3C5BA1992AF6C547"
+					item: "frostedheart:basic_accelerated_fertilizer"
+					type: "item"
+				}
+				{
+					id: "78F5BE73132026A3"
+					item: "frostedheart:basic_preserved_fertilizer"
+					type: "item"
+				}
+			]
+			title: "低级肥料"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["{quest.twr.03711E7D7FF74B83.description.1}"]
+			id: "03711E7D7FF74B83"
+			rewards: [{
+				id: "20DA62C51E62D81B"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [
+				{
+					id: "53EFB72FC87C5D8F"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					id: "79FB186D946CDF0B"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69D939596ED4C0AF"]
+			description: ["{quest.twr.6D01046E549A087E.description.1}"]
+			id: "6D01046E549A087E"
+			rewards: [{
+				id: "75B62C2BB6660780"
+				insight: 1
+				team_reward: true
+				type: "frostedheart:insight"
+			}]
+			shape: "circle"
+			subtitle: "{quest.twr.6D01046E549A087E.subtitle}"
+			tasks: [{
+				id: "39F9E5D1C778E5DB"
+				item: "frostedheart:white_turnip_block"
+				type: "item"
+			}]
+			title: "{quest.twr.6D01046E549A087E.title}"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69D939596ED4C0AF"]
+			description: ["{quest.twr.4E2FF1AFA626A42B.description.1}"]
+			id: "4E2FF1AFA626A42B"
+			rewards: [{
+				id: "5C850DE70FC70A2B"
+				insight: 1
+				team_reward: true
+				type: "frostedheart:insight"
+			}]
+			shape: "circle"
+			subtitle: "{quest.twr.4E2FF1AFA626A42B.subtitle}"
+			tasks: [
+				{
+					id: "7CE2CD33F7053CF1"
+					item: "frostedheart:rye"
+					type: "item"
+				}
+				{
+					id: "00A5E07CA11B3131"
+					item: "frostedheart:rye_block"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: ["{quest.twr.32DB7CCD0A73D98F.description.1}"]
+			hide_until_deps_visible: false
+			id: "32DB7CCD0A73D98F"
+			rewards: [{
+				id: "3A5F819809C24406"
+				insight: 1
+				team_reward: true
+				type: "frostedheart:insight"
+			}]
+			subtitle: "{quest.twr.32DB7CCD0A73D98F.subtitle}"
+			tasks: [{
+				id: "5E578602513E85BA"
+				item: "kubejs:wet_straw_briquette"
+				type: "item"
+			}]
+			title: "{quest.twr.32DB7CCD0A73D98F.title}"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			description: ["{quest.twr.529E18F00974DC2D.description.1}"]
+			hide_until_deps_visible: false
+			id: "529E18F00974DC2D"
+			rewards: [{
+				id: "35FC765982958275"
+				insight: 1
+				team_reward: true
+				type: "frostedheart:insight"
+			}]
+			subtitle: "{quest.twr.529E18F00974DC2D.subtitle}"
+			tasks: [{
+				id: "1E62175F01B70310"
+				item: "caupona:walnut"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"{quest.twr.64B11670694B854C.description.1}"
+				"{quest.twr.64B11670694B854C.description.2}"
+			]
+			hide_until_deps_visible: false
+			id: "64B11670694B854C"
+			rewards: [{
+				id: "23304C4540F19132"
+				insight: 1
+				team_reward: true
+				type: "frostedheart:insight"
+			}]
+			subtitle: "{quest.twr.64B11670694B854C.subtitle}"
+			tasks: [{
+				id: "1B12095312E36420"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"32DB7CCD0A73D98F"
+				"42D8CA1487A024B8"
+			]
+			description: [
+				"{quest.twr.0CA87739C86BB0C6.description.1}"
+				"{quest.twr.0CA87739C86BB0C6.description.2}"
+				"{quest.twr.0CA87739C86BB0C6.description.3}"
+			]
+			hide_until_deps_visible: false
+			id: "0CA87739C86BB0C6"
+			rewards: [{
+				id: "209908756C87B917"
+				insight: 1
+				team_reward: true
+				type: "frostedheart:insight"
+			}]
+			subtitle: "{quest.twr.0CA87739C86BB0C6.subtitle}"
+			tasks: [{
+				id: "3890274B4A2DD114"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "frostedheart:mushroom_base"
+					}
+				}
+				title: "{quest.twr.0CA87739C86BB0C6.3890274B4A2DD114.title}"
+				type: "item"
+			}]
+			title: "{quest.twr.0CA87739C86BB0C6.title}"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1D0325923AB6FD28"
+				"42D8CA1487A024B8"
+				"6A22E2D62D4719BE"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{quest.twr.027E793362A7ECBE.description.1}"
+				"{quest.twr.027E793362A7ECBE.description.2}"
+				"{quest.twr.027E793362A7ECBE.description.3}"
+				"{quest.twr.027E793362A7ECBE.description.4}"
+				"{quest.twr.027E793362A7ECBE.description.5}"
+			]
+			hide_dependency_lines: false
+			icon: "frostedheart:incubator"
+			id: "027E793362A7ECBE"
+			rewards: [{
+				id: "09FFB10DE93D6238"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			subtitle: "{quest.twr.027E793362A7ECBE.subtitle}"
+			tasks: [{
+				id: "5362C596638D62E7"
+				item: "frostedheart:incubator"
+				type: "item"
+			}]
+			title: "{quest.twr.027E793362A7ECBE.title}"
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["{chapter.twr.40708938F7AB8302.subtitle}"]
+	title: "{chapter.twr.40708938F7AB8302.title}"
+}

@@ -50,6 +50,6 @@
   "tips.frostedheart.ponder.desc1": "Pondering helps you intuitively understand an item or block's functionality. When an item has a ponder prompt, hold &6[W]&r to enter the pondering scene.",
 
   "tips.frostedheart.wheel_menu.title": "Radial Menu",
-  "tips.frostedheart.wheel_menu.desc1": "Hold &6[Tab]&r to open the radial menu and access various quick functions. Select &b[Archive]&r to view all obtained tips.",
-  "tips.frostedheart.wheel_menu.desc2": "Not enough keys? Select &b[Edit Radial Menu]&r to add custom options, including Key Binds and Commands, and hide or rearrange selections."
+  "tips.frostedheart.wheel_menu.desc1": "Hold &6[Tab]&r to open the radial menu and access various quick functions. Select &b[{gui.frostedheart.wheel_menu.selection.archive}]&r to view all obtained tips.",
+  "tips.frostedheart.wheel_menu.desc2": "Not enough keys? Select &b[{gui.wheel_menu.editor.edit}]&r to add custom options, including Key Binds and Commands, and hide or rearrange selections."
 }
