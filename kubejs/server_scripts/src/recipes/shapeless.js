@@ -18,12 +18,10 @@ ServerEvents.recipes((event) => {
     })
     let addShapelessRecipes = [
         shapelessRecipe("2x frostedheart:raw_rye_bread", ["2x frostedheart:rye_flour", "minecraft:water_bucket"]),
-        shapelessRecipe("stone_age:raw_bread", ["3x stone_age:flour", "minecraft:water_bucket"]),
-        shapelessRecipe("2x stone_age:raw_bread", ["2x stone_age:flour", "2x minecraft:sugar", "minecraft:water_bucket"]),
+        shapelessRecipe("3x kubejs:sawdust_rye_dough", ["2x frostedheart:rye_flour", "#forge:dusts/wood", "minecraft:water_bucket"]),
 		shapelessRecipe("minecraft:flint", "3x minecraft:gravel"),
         shapelessRecipe("9x charcoal_pit:straw", "minecraft:hay_block"),
         shapelessRecipe("immersiveengineering:crate", "immersiveengineering:reinforced_crate"),
-        shapelessRecipe("2x frostedheart:black_bread", ["2x frostedheart:rye_flour", "#forge:dusts/wood", "minecraft:water_bucket"]),
         shapelessRecipe("minecraft:slime_ball", ["create:dough", "minecraft:lime_dye"]),
         shapelessRecipe(Item.of("frostedheart:straw_briquette_red_mushroom",1,{"Damage": 4800}), ["kubejs:wet_straw_briquette", "minecraft:red_mushroom"]),
         shapelessRecipe(Item.of("frostedheart:straw_briquette_brown_mushroom",1,{"Damage": 4800}), ["kubejs:wet_straw_briquette", "minecraft:brown_mushroom"]),

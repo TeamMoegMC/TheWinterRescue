@@ -6,6 +6,8 @@ JEIEvents.hideItems((event) => {
         "stone_age:thatch_block",
         "stone_age:flint_workbench",
         "stone_age:unlit_torch",
+        'stone_age:flour',
+        "stone_age:raw_bread",
 
         // charcoal pit
         "charcoal_pit:ash_block",
@@ -34,6 +36,7 @@ JEIEvents.hideItems((event) => {
         "create:piston_extension_pole",
         "create:cart_assembler",
 
+        // materials
         "create:crushed_raw_tin",
         "create:crushed_raw_aluminum",
         "immersiveengineering:raw_aluminum",

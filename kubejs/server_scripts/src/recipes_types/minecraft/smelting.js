@@ -17,14 +17,21 @@ ServerEvents.recipes((event) => {
         {output: 'frostedheart:bauxite_block', input: 'frostedheart:bauxite_permafrost'},
         {output: 'frostedheart:kaolin_block', input: 'frostedheart:kaolin_permafrost'}
     ]
-	minecraft.smelting('4x minecraft:red_dye', 'frostedheart:lead_oxide_dust')
-    minecraft.smelting("frostedheart:ceramic_bucket", "kubejs:clay_bucket")
-    minecraft.smelting("supplementaries:ash", "minecraft:dried_kelp")
-    minecraft.smelting("frostedheart:quicklime", "frostedheart:flux")
     recipes.forEach((recipe) => {
         minecraft.smelting(recipe.output, recipe.input)
         immersiveengineering.blast_furnace(recipe.output, recipe.input)
             .time(40)
     })
 
+    let furnaceOnly = [
+        {output: '4x minecraft:red_dye', input: 'frostedheart:lead_oxide_dust'},
+        {output: "frostedheart:ceramic_bucket", input: "kubejs:clay_bucket"},
+        {output: "supplementaries:ash", input: "minecraft:dried_kelp"},
+        {output: "frostedheart:quicklime", input: "frostedheart:flux"},
+        {output: "frostedheart:rye_bread", input: "frostedheart:raw_rye_bread"},
+        {output: "frostedheart:black_bread", input: "kubejs:sawdust_rye_dough"},
+    ]
+    furnaceOnly.forEach((recipe) => {
+        minecraft.smelting(recipe.output, recipe.input)
+    })
 })

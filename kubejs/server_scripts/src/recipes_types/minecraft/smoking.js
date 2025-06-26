@@ -1,7 +1,8 @@
 ServerEvents.recipes((event) => {
     let {minecraft} = event.recipes
     minecraft.smoking(Item.of('frostedheart:wooden_cup_drink', '{Fluid:{FluidName:"caupona:nail_soup",Amount:250}}'), Item.of('frostedheart:wooden_cup_drink', '{Fluid:{FluidName:"minecraft:water",Amount:250}}'))
-    minecraft.smoking('frostedheart:rye_bread', Item.of('frostedheart:raw_rye_bread'))
+    minecraft.smoking('frostedheart:rye_bread', 'frostedheart:raw_rye_bread')
+    minecraft.smoking('frostedheart:black_bread', 'kubejs:sawdust_rye_dough')
     minecraft.smoking('frostedheart:cooked_whale_meat', 'frostedheart:raw_whale_meat')
     minecraft.smoking('frostedheart:cooked_polar_bear_meat', 'frostedheart:polar_bear_meat')
     minecraft.smoking('frostedheart:cooked_fox_meat', 'frostedheart:fox_meat')

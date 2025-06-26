@@ -1252,7 +1252,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["3BF2DCE33791510B"]
+			dependencies: ["19603323EAAFF726"]
 			description: ["{quest.twr.03A553EBD453466A.description.1}"]
 			hide_until_deps_visible: false
 			id: "03A553EBD453466A"

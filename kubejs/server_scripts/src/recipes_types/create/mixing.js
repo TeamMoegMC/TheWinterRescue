@@ -30,12 +30,24 @@ ServerEvents.recipes((event) => {
             input: ["frostedheart:rye_flour", Fluid.of("minecraft:water", 250)]
         },
         {
-            output: ["minecraft:slime_ball"],
-            input: ["create:dough", "minecraft:lime_dye"]
+            output: ["3x frostedheart:raw_rye_bread"],
+            input: ["2x frostedheart:rye_flour", "minecraft:sugar", Fluid.of("minecraft:water", 500)]
         },
         {
-            output: ["stone_age:raw_bread"],
-            input: ["create:dough", "minecraft:sugar"]
+            output: ["3x kubejs:sawdust_rye_dough"],
+            input: ["2x frostedheart:rye_flour", "#forge:dusts/wood", Fluid.of("minecraft:water", 500)]
+        },
+        {
+            output: ["create:dough"],
+            input: ["create:wheat_flour", Fluid.of("minecraft:water", 250)]
+        },
+        {
+            output: ["3x create:dough"],
+            input: ["2x create:wheat_flour", "minecraft:sugar", Fluid.of("minecraft:water", 500)]
+        },
+        {
+            output: ["minecraft:slime_ball"],
+            input: ["create:dough", "minecraft:lime_dye"]
         },
         {
             output: ["kubejs:bounded_graphite"],

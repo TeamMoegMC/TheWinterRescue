@@ -134,7 +134,6 @@ ServerEvents.recipes((event) => {
 	event.remove({ input: "immersiveengineering:dust_wood", output: "minecraft:paper" })
 	event.remove({ output: "#minecraft:planks" })
 	event.remove({ output: "create:chromatic_compound" })
-	event.remove({ input: "create:dough" })
 	event.remove({ type: "minecraft:blasting", output: "immersiveengineering:ingot_hop_graphite" })
 	event.remove({ type: "minecraft:smelting", output: "immersiveengineering:ingot_hop_graphite" })
 
@@ -144,6 +143,9 @@ ServerEvents.recipes((event) => {
         "stone_age:thatch_block",
         "stone_age:flint_workbench",
         "stone_age:unlit_torch",
+        'stone_age:flour',
+        "stone_age:raw_bread",
+
 
         // charcoal pit
         "charcoal_pit:ash_block",
@@ -204,7 +206,6 @@ ServerEvents.recipes((event) => {
 		"immersiveengineering:refinery/resin",
 		"immersiveengineering:refinery/acetaldehyde",
         "create:milling/gravel",
-        "stone_age:raw_bread_shapeless",
         // "stone_age:grass_lead",
         // "stone_age:dried_grass",
         // "stone_age:fishing_net_meshes",
@@ -225,6 +226,8 @@ ServerEvents.recipes((event) => {
         "minecraft:stone_brick_walls_from_stone_stonecutting",
         "minecraft:stone_brick_stairs_from_stone_stonecutting",
         "minecraft:chiseled_stone_bricks_stone_from_stonecutting",
+        "create:splashing/wheat_flour",
+        "create:mixing/dough_by_mixing",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })
@@ -258,6 +261,7 @@ ServerEvents.recipes((event) => {
 
 	let inputItem = [
         "minecraft:nether_quartz_ore",
+        "stone_age:raw_bread",
 	]
     inputItem.forEach((removeItem) => {
         event.remove({ input : removeItem })

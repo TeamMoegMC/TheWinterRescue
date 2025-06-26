@@ -7,6 +7,7 @@ StartupEvents.registry("item", (event) => {
         "activated_carbon",
         "constantan_coil",
         "cut_stone",
+        "sawdust_rye_dough",
 
         // Frozen meats
         "frozen_auroch_meat",

@@ -107,6 +107,7 @@
 			description: ["{quest.twr.2B0D00CB09B96703.description.1}"]
 			hide_until_deps_visible: false
 			id: "2B0D00CB09B96703"
+			optional: true
 			rewards: [{
 				id: "5EE94D429D8BE889"
 				insight: 1

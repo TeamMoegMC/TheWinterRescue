@@ -78,11 +78,11 @@ ServerEvents.recipes((event) => {
             input: "minecraft:stick"
         },
         {
-            output: ["frostedheart:rye_flour", Item.of("charcoal_pit:straw").withChance(1), Item.of("2x frostedheart:rye_flour").withChance(0.25), Item.of("frostedheart:rye_block").withChance(0.1)],
+            output: ["frostedheart:rye_flour", Item.of("2x frostedheart:rye_flour").withChance(0.25), Item.of("frostedheart:rye_block").withChance(0.1), Item.of("charcoal_pit:straw").withChance(1)],
             input: "frostedheart:rye"
         },
         {
-            output: ["create:wheat_flour", Item.of("2x create:wheat_flour").withChance(0.25), Item.of("minecraft:wheat_seeds").withChance(0.25)],
+            output: ["create:wheat_flour", Item.of("2x create:wheat_flour").withChance(0.25), Item.of("minecraft:wheat_seeds").withChance(0.25), Item.of("charcoal_pit:straw").withChance(1)],
             input: "minecraft:wheat"
         },
         {
