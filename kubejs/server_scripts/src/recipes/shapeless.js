@@ -22,7 +22,6 @@ ServerEvents.recipes((event) => {
 		shapelessRecipe("minecraft:flint", "3x minecraft:gravel"),
         shapelessRecipe("9x charcoal_pit:straw", "minecraft:hay_block"),
         shapelessRecipe("immersiveengineering:crate", "immersiveengineering:reinforced_crate"),
-        shapelessRecipe("minecraft:slime_ball", ["create:dough", "minecraft:lime_dye"]),
         shapelessRecipe(Item.of("frostedheart:straw_briquette_red_mushroom",1,{"Damage": 4800}), ["kubejs:wet_straw_briquette", "minecraft:red_mushroom"]),
         shapelessRecipe(Item.of("frostedheart:straw_briquette_brown_mushroom",1,{"Damage": 4800}), ["kubejs:wet_straw_briquette", "minecraft:brown_mushroom"]),
         shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "4x frostedheart:generator_ash"]),
