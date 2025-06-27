@@ -57,7 +57,7 @@ ServerEvents.recipes((event) => {
             input: ["8x charcoal_pit:straw"]
         },
         {
-            output: ["3x frostedheart:packed_snow"],
+            output: ["2x frostedheart:packed_snow"],
             input: ["2x minecraft:snow_block"]
         }
     ]

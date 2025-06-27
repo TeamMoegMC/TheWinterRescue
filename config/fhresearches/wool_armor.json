@@ -1,64 +1,94 @@
 {
-  "icon": {
-    "type": "item",
-    "item": {
-      "id": "frostedheart:wool_hat",
-      "nbt": "{Damage:0}",
-      "Count": 1
-    }
-  },
-  "category": "frostedheart:living",
-  "parents": [
-    "generator_T1"
-  ],
+  "showAltDesc": true,
+  "points": 1500,
   "clues": [
     {
       "type": "item",
-      "value": 0.5,
       "id": "594fc6ab84b04b83",
+      "value": 0.5,
       "item": {
-        "count": 2,
         "base_ingredient": {
           "item": "minecraft:wheat"
-        }
+        },
+        "count": 2
       }
     },
     {
       "type": "item",
-      "value": 0.5,
       "id": "9a01e71a70584b34",
+      "value": 0.5,
       "item": {
-        "tag": "minecraft:wool"
+        "base_ingredient": {
+          "tag": "minecraft:wool"
+        },
+        "count": 1
       }
     }
   ],
   "ingredients": [
     {
-      "tag": "minecraft:wool"
+      "base_ingredient": {
+        "tag": "minecraft:wool"
+      },
+      "count": 1
     }
   ],
   "effects": [
     {
       "type": "recipe",
-      "id": "dcf9e7a37661446b",
-      "item": "frostedheart:wool_hat"
+      "item": {
+        "item": "frostedheart:wool_hat"
+      },
+      "id": "dcf9e7a37661446b"
     },
     {
       "type": "recipe",
-      "id": "fbdb8ce826944b4d",
-      "item": "frostedheart:wool_jacket"
+      "item": {
+        "item": "frostedheart:wool_jacket"
+      },
+      "id": "fbdb8ce826944b4d"
     },
     {
       "type": "recipe",
-      "id": "ff629805291048a5",
-      "item": "frostedheart:wool_pants"
+      "item": {
+        "item": "frostedheart:wool_pants"
+      },
+      "id": "ff629805291048a5"
     },
     {
       "type": "recipe",
-      "id": "78f3aa43627945eb",
-      "item": "frostedheart:wool_boots"
+      "item": {
+        "item": "frostedheart:wool_boots"
+      },
+      "id": "78f3aa43627945eb"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:wool_gloves"
+      },
+      "id": "7c2e8cbeead7442e"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:gambeson"
+      },
+      "id": "16006203c63d44fa"
     }
   ],
-  "points": 1500,
-  "showAltDesc": true
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:wool_hat",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      }
+    }
+  },
+  "category": "frostedresearch:living",
+  "parents": [
+    "generator_T1"
+  ]
 }

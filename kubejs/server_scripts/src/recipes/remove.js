@@ -215,6 +215,8 @@ ServerEvents.recipes((event) => {
         "minecraft:sugar",
         "immersiveindustry:electrolyzer/aluminum",
         "create:mixing/brass_ingot",
+        "immersiveengineering:alloysmelter/brass",
+        "immersiveengineering:arcfurnace/alloy_brass",
         "create:cutting/andesite_alloy",
         "create:crafting/kinetics/linear_chassis",
         "create:crafting/kinetics/radial_chassis",

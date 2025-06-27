@@ -263,8 +263,5 @@
 	"research.frostedresearch.villager_language.name": "Language Learning",
 	"research.frostedresearch.wool_armor.desc.0": "Wool seems to be the best option available at the moment, I'll have to find a way to domesticate sheep.",
 	"research.frostedresearch.wool_armor.desc_alt.0": "A snowstorm is approaching and this primitive clothing won't hold up for very long...I need to find more warm clothing options.",
-	"research.frostedresearch.wool_armor.name": "Wool Clothes",
-	"research.frostedresearch.wool_lining.desc.0": "This is a bit better, it's similar to the regular wool lining but its durability is much improved.",
-	"research.frostedresearch.wool_lining.desc_alt.0": "The wool lining doesn't provide much protection in a fight.",
-	"research.frostedresearch.wool_lining.name": "Wool Lining"
+	"research.frostedresearch.wool_armor.name": "Wool Clothes"
 }

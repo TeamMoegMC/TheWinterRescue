@@ -263,8 +263,5 @@
 	"research.frostedresearch.villager_language.name": "语言修习",
 	"research.frostedresearch.wool_armor.desc.0": "羊毛是一个好的选择，只是，目前，羊已经异化了，如果想要再次驯化需要消耗不少的精力，但是，目前，羊毛是可以获得的最好选择了。",
 	"research.frostedresearch.wool_armor.desc_alt.0": "暴风雪正在来临，仅仅凭借这单薄的干草衣物和粗糙的兽皮衣物并不足以使得我的生存条件得到充足的保证，更加保暖的衣物是一件非常必要的事情。",
-	"research.frostedresearch.wool_armor.name": "羊毛大衣",
-	"research.frostedresearch.wool_lining.desc.0": "虽然做好了，但是，和普通内衬一样，我必须补充内衬，但由于我加入的材料更好了，我的耐久也增加了一点。勉强称得上好用？",
-	"research.frostedresearch.wool_lining.desc_alt.0": "仅仅有大衣是完全不够的，毕竟单单一层羊毛没有任何防护能力。面对无处不在的威胁，将羊毛保暖层整合进防具里成为了一个重要的课题。",
-	"research.frostedresearch.wool_lining.name": "羊毛内衬"
+	"research.frostedresearch.wool_armor.name": "羊毛大衣"
 }

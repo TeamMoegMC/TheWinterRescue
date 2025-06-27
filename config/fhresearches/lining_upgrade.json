@@ -1,53 +1,238 @@
 {
-  "icon": {
-    "type": "item",
-    "item": {
-      "id": "frostedheart:buff_coat",
-      "nbt": "{Damage:0}",
-      "Count": 1
-    }
-  },
-  "category": "frostedheart:living",
+  "showAltDesc": true,
+  "points": 800,
   "clues": [
     {
       "type": "item",
-      "value": 0.5,
       "id": "aae45b8a643e4e72",
+      "value": 0.5,
       "item": {
-        "count": 4,
         "base_ingredient": {
           "item": "minecraft:leather"
-        }
+        },
+        "count": 4
       }
     },
     {
       "type": "item",
-      "value": 0.5,
       "id": "cbec03d3ebaf4b10",
+      "value": 0.5,
+      "consume": true,
       "item": {
-        "type": "forge:nbt",
-        "item": "frostedheart:straw_lining",
-        "count": 1,
-        "nbt": "{Damage:0}"
-      },
-      "consume": true
+        "base_ingredient": {
+          "type": "forge:nbt",
+          "item": "frostedheart:straw_lining",
+          "count": 1,
+          "nbt": "{Damage:0}"
+        },
+        "count": 1
+      }
     }
   ],
   "ingredients": [
     {
-      "type": "forge:nbt",
-      "item": "minecraft:leather_chestplate",
-      "count": 1,
-      "nbt": "{Damage:0}"
+      "base_ingredient": {
+        "type": "forge:nbt",
+        "item": "minecraft:leather_chestplate",
+        "count": 1,
+        "nbt": "{Damage:0}"
+      },
+      "count": 1
     }
   ],
   "effects": [
     {
       "type": "recipe",
-      "id": "1e686ddd06a84aad",
-      "item": "frostedheart:buff_coat"
+      "item": {
+        "item": "frostedheart:rabbit_fur_hat"
+      },
+      "id": "90e9a38a788941b3"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:rabbit_fur_jacket"
+      },
+      "id": "c38e377d566b41bd"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:rabbit_fur_pants"
+      },
+      "id": "18b0e86a85634d68"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:rabbit_fur_socks"
+      },
+      "id": "80470f0aa1e0481c"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:rabbit_fur_gloves"
+      },
+      "id": "266e6a8f784c4a8c"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:fox_fur_hat"
+      },
+      "id": "a9489f7e3b024310"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:fox_fur_jacket"
+      },
+      "id": "43ea9a4bf5a748cd"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:fox_fur_pants"
+      },
+      "id": "cd3e07c98c524353"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:fox_fur_socks"
+      },
+      "id": "d1e9e1d529694dbf"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:fox_fur_gloves"
+      },
+      "id": "5f3fd29303f94183"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:wolf_fur_hat"
+      },
+      "id": "8ff17e5ba0ed4b06"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:wolf_fur_jacket"
+      },
+      "id": "85bd439863cd4858"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:wolf_fur_pants"
+      },
+      "id": "9762207993fc4b61"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:wolf_fur_socks"
+      },
+      "id": "cb9637193ef744f0"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:wolf_fur_gloves"
+      },
+      "id": "d264c7ce999043f3"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:polar_bear_fur_hat"
+      },
+      "id": "5f4d58094a6429d"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:polar_bear_fur_jacket"
+      },
+      "id": "674e0097512341a9"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:polar_bear_fur_pants"
+      },
+      "id": "cdefe196e2cc45e3"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:polar_bear_fur_socks"
+      },
+      "id": "b2c97c91d39d4b7b"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:polar_bear_fur_gloves"
+      },
+      "id": "b968d00eb8e34eab"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:hide_hat"
+      },
+      "id": "eab38d3c100946b2"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:hide_jacket"
+      },
+      "id": "5a2dbb54a5a74465"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:hide_pants"
+      },
+      "id": "396b08eb5c134a17"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:hide_boots"
+      },
+      "id": "67dc52ba701b4150"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:hide_gloves"
+      },
+      "id": "fa4b73d135e34e02"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:buff_coat"
+      },
+      "id": "1e686ddd06a84aad"
     }
   ],
-  "points": 800,
-  "showAltDesc": true
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "frostedheart:buff_coat",
+      "Count": 1,
+      "tag": {
+        "Damage": 0
+      }
+    }
+  },
+  "category": "frostedresearch:living"
 }
