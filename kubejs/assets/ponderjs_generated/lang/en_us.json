@@ -30,6 +30,8 @@
   "kubejs.ponder.creosote_funnel_use.text_3": "Place a Log Pile in the center.",
   "kubejs.ponder.industrial_electrolyzer.header": "Industrial Electrolyzer",
   "kubejs.ponder.industrial_electrolyzer.text_1": "R-Click to assemble",
+  "kubejs.ponder.pottery_kiln_basic_usage.header": "",
+  "kubejs.ponder.pottery_kiln_basic_usage.text_1": "Put solid blocks all around, not necessarily limited to dirt",
   "kubejs.ponder.rotary_kiln.header": "Rotary Kiln",
   "kubejs.ponder.rotary_kiln.text_1": "R-Click to assemble",
   "kubejs.ponder.steam_turbine.header": "Steam Turbine",

@@ -1,7 +1,7 @@
 Ponder.registry((event) => {
     event.create(["charcoal_pit:clay_pot", "charcoal_pit:straw"])
         .tag("charcoal_pit:ponder")
-        .scene("basic_usage", "", "kubejs:pottery_kiln", (scene) => {
+        .scene("pottery_kiln_basic_usage", "", "kubejs:pottery_kiln", (scene) => {
             scene.showBasePlate()
             scene.idle(20)
 
