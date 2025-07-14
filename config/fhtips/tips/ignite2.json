@@ -1,0 +1,20 @@
+{
+  "id": "ignite2",
+  "category": "tips.frostedheart.category.initial_engineer_manual",
+  "nextTip": "",
+  "image": "",
+  "clickAction": "",
+  "clickActionContent": "",
+  "alwaysVisible": false,
+  "onceOnly": true,
+  "hide": false,
+  "pin": false,
+  "displayTime": 10000,
+  "fontColor": "FFC6FCFF",
+  "backgroundColor": "FF000000",
+  "contents": [
+    "tips.frostedheart.ignite.title",
+    "tips.frostedheart.ignite.title2"
+  ],
+  "children": []
+}
