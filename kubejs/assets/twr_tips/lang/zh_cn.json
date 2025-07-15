@@ -4,6 +4,7 @@
   "tips.frostedheart.category.game_mechanics" : "游戏机制",
   "tips.frostedheart.category.plant" : "种植",
   "tips.frostedheart.category.town" : "城镇与难民",
+  "tips.frostedheart.category.initial_engineer_manual" : "拾起已有的果实",
 
   "tips.frostedheart.scenario_tip.title": "提示",
   "tips.frostedheart.scenario_tip.desc1": "按下&6[T]&r打开聊天栏，使用鼠标选择选项",
@@ -60,6 +61,10 @@
   "tips.frostedheart.campfire.desc3": "",
 
   "tips.frostedheart.water.title": "饮水 WIP 介绍饮水值，补充途径，获取水，烧水",
+  "tips.frostedheart.water.title1":"人体约70%都是由水构成的，在皮水袋耗尽之前或许应该先想想水分如何补充。注意下方的半圆环&b蓝色&r进度条如果它清空后你会&c脱水&r",
+  "tips.frostedheart.water.title2":"当你遇见水源，可以应急蹲下来空手捧起生水补充&b[shift+鼠标右键]&r，但这并不长久。",
+  "tips.frostedheart.water.title3":"营火既然可以烤肉，为什么不能烧开水呢？制作木杯将它放置在营火上获取沸水吧！",
+  "tips.frostedheart.water.title3":"汤锅，我可以更方便的获取热水了。并且身上沾惹的雪球也有作用了，我可以将它放进汤锅这样就可以通过下方灶台的余温将它转化成水了",
 
   "tips.frostedheart.food_source.title": "寻找食物 WIP 介绍前期食物来源",
 
@@ -69,7 +74,10 @@
 
   "tips.frostedheart.pottery_kiln.title": "陶窑 WIP 看思索",
 
-  "tips.frostedheart.ignite.title": "生火 WIP 生火的几种方法",
+  "tips.frostedheart.ignite.title": "钻木取火",
+  "tips.frostedheart.ignite.title1": "手持燧石另一只手拿起镁粒，右击出你的第一个焰火吧！",
+  "tips.frostedheart.ignite.title2": "双持木棍起火更便捷但失败率也异常高，或许两根木棍加一片干草制作的起火器更有性价比！",
+  "tips.frostedheart.ignite.title3": "当你拥有高炉也就意味着你可以抛弃其他原始起火方式，去做一个更耐用且效率更高的打火石了。",
 
   "tips.frostedheart.insight.title": "见闻 WIP 介绍见闻，用途，获取来源",
 

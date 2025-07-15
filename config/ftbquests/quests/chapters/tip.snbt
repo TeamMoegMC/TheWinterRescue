@@ -277,9 +277,17 @@
 		}
 		{
 			id: "2A1D585652F97876"
+			rewards: [{
+				fh_tip: "ignite"
+				id: "1113F03EB5F693A2"
+				type: "frostedheart:tip"
+			}]
 			tasks: [{
-				id: "1E52F641F38FF3B9"
-				type: "checkmark"
+				id: "1AD9ADCC45267CA0"
+				observe_type: 0
+				timer: 0L
+				to_observe: "charcoal_pit:pottery_kiln"
+				type: "observation"
 			}]
 			title: "{tips.frostedheart.ignite.title}"
 			x: -5.5d
@@ -535,22 +543,31 @@
 				id: "5ACF377FCA0A6237"
 				type: "frostedheart:tip"
 			}]
-			tasks: [
-				{
-					id: "089B575122EC7DB6"
-					observe_type: 0
-					timer: 0L
-					to_observe: "minecraft:campfire"
-					type: "observation"
-				}
-				{
-					id: "77B21F2CB8D8207E"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "089B575122EC7DB6"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:campfire"
+				type: "observation"
+			}]
 			title: "{block.minecraft.campfire}"
 			x: 3.5d
 			y: -7.0d
+		}
+		{
+			id: "34DD593E5884D2E9"
+			rewards: [{
+				fh_tip: "ignite"
+				id: "5A11DD9A9F3B04BD"
+				type: "frostedheart:tip"
+			}]
+			tasks: [{
+				id: "73C6C4DDCB4E2AC4"
+				type: "checkmark"
+			}]
+			title: "{tips.frostedheart.ignite.title}"
+			x: -11.0d
+			y: 12.0d
 		}
 	]
 	title: "Tip"

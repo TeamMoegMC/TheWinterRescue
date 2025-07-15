@@ -1,0 +1,19 @@
+{
+  "id": "campfire",
+  "category": "tips.frostedheart.category.body_temperature",
+  "nextTip": "ignite",
+  "image": "",
+  "clickAction": "",
+  "clickActionContent": "",
+  "alwaysVisible": false,
+  "onceOnly": false,
+  "hide": false,
+  "pin": false,
+  "displayTime": 20000,
+  "fontColor": "FFC6FCFF",
+  "backgroundColor": "FF000000",
+  "contents": [
+    "tips.frostedheart.campfire.title"
+  ],
+  "children": []
+}
