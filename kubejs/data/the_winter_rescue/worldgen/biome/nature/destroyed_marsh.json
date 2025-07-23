@@ -101,7 +101,7 @@
     "creature": [
       {
         "type": "minecraft:wolf",
-        "maxCount": 8,
+        "maxCount": 7,
         "minCount": 1,
         "weight": 1
       },
@@ -114,6 +114,12 @@
       {
         "type": "minecraft:fox",
         "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "stone_age:boar",
+        "maxCount": 2,
         "minCount": 1,
         "weight": 1
       }

@@ -98,7 +98,7 @@
     "creature": [
       {
         "type": "minecraft:wolf",
-        "maxCount": 8,
+        "maxCount": 7,
         "minCount": 1,
         "weight": 1
       },
@@ -122,13 +122,13 @@
       },
       {
         "type": "stone_age:fowl",
-        "maxCount": 1,
+        "maxCount": 2,
         "minCount": 1,
         "weight": 1
       },
       {
         "type": "stone_age:auroch",
-        "maxCount": 1,
+        "maxCount": 2,
         "minCount": 1,
         "weight": 1
       },

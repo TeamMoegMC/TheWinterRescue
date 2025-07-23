@@ -12,6 +12,7 @@
     "minecraft:smooth_basalt",
     "minecraft:snow_block",
     "minecraft:snow",
-    "#minecraft:terracotta"
+    "#minecraft:terracotta",
+    "minecraft:moss_block"
   ]
 }

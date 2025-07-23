@@ -104,7 +104,19 @@
       },
       {
         "type": "stone_age:deer",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "stone_age:saber_tooth_tiger",
         "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "stone_age:fowl",
+        "maxCount": 2,
         "minCount": 1,
         "weight": 1
       }
