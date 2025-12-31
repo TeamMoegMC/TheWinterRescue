@@ -1,7 +1,8 @@
 ServerEvents.recipes((event) => {
 
     // TEMPORARY FIX: Disabled due to ClassCastException in multiplayer servers
-    // Issue: https://github.com/TeamMoegMC/TheWinterRescue/issues/XXX
+    // Crash Report: https://mclo.gs/E7Crw1B
+    // See KNOWN_ISSUES.md for details
     // The frostedheart mod's SurroundingTemperatureSimulator.java has a thread safety issue
     // where Vec3 objects get cast to BlockPos, causing server crashes in multiplayer
     // when multiple players interact with temperature-calculating blocks simultaneously.
