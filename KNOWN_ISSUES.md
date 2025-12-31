@@ -7,7 +7,7 @@ This file documents known issues and temporary workarounds in The Winter Rescue 
 **Status:** Temporarily Fixed (Workaround Applied)  
 **Severity:** Critical (Server Crash)  
 **Affects:** Multiplayer servers only  
-**Related Issue:** [Bug] 疑似多人服务器环境下计算温度的方块会出现转型问题
+**Original Report:** See crash report at https://mclo.gs/E7Crw1B
 
 ### Problem Description
 
