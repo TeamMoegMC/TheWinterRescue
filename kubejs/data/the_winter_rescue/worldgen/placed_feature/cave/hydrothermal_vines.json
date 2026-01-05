@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:cave_vine",
+    "feature": "minecraft:cave_vine",
   "placement": [
     {
       "type": "minecraft:count",

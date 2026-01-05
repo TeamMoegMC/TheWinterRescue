@@ -2,7 +2,8 @@
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:cave_extra_underground"
+      "minecraft:cave_extra_underground",
+      "the_winter_rescue:wide_cave"
     ]
   },
   "creature_spawn_probability": 0.01,
@@ -10,6 +11,10 @@
   "effects": {
     "fog_color": 14739967,
     "grass_color": 13029527,
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2,
@@ -21,6 +26,12 @@
       "min_delay": 12000,
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.stony_peaks"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.08
     },
     "sky_color": 7842047,
     "water_color": 7856375,
@@ -43,7 +54,7 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    ["the_winter_rescue:cave/hydrothermal_delta"],
     [],
     [
       "minecraft:ore_gravel",
@@ -64,7 +75,7 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "the_winter_rescue:cave/underwater_magma"
+      "the_winter_rescue:cave/hydrothermal_magma"
     ],
     [
       "the_winter_rescue:cave/calcite_strip",

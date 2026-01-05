@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "half_height": 0,
+
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 4
+      }
+    },
+    "state_provider": {
+      "rules": [],
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:magma_block"
+        }
+      }
+    },
+    "target": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:granite",
+          "minecraft:diorite",
+          "minecraft:andesite",
+          "minecraft:tuff",
+          "minecraft:dirt",
+          "minecraft:gravel",
+          "minecraft:sand",
+          "minecraft:basalt"
+        ]
+      }
+  }
+}
