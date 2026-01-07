@@ -20,7 +20,7 @@
       "options": {
         "type": "minecraft:lava"
       },
-      "probability": 0.0001
+      "probability": 0.0002
     },
     "sky_color": 0,
     "water_color": 1787600,

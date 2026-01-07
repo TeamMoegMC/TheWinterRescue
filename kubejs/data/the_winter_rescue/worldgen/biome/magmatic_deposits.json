@@ -3,29 +3,42 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon"
+      "minecraft:canyon",
+      "the_winter_rescue:wide_cave"
     ]
   },
   "creature_spawn_probability": 0.01,
   "downfall": 0.3,
   "effects": {
     "fog_color": 12638463,
+    "additions_sound": {
+      "sound": "minecraft:ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2,
-      "sound": "minecraft:ambient.cave",
+      "sound": "minecraft:ambient.basalt_deltas.mood",
       "tick_delay": 6000
     },
     "music": {
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.stony_peaks"
+      "sound": "minecraft:music.nether.basalt_deltas"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.118093334
     },
     "sky_color": 7776511,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
+
   "features": [
     [
       "the_winter_rescue:cave/basalt"
@@ -40,7 +53,10 @@
     [
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "the_winter_rescue:cave/magmatic_lava_delta",
+      "the_winter_rescue:cave/magmatic_basalt_columns"
+    ],
     [],
     [
       "the_winter_rescue:cave/cooled_magma_ore",
