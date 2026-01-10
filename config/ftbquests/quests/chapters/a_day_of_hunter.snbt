@@ -50,7 +50,10 @@
 			tasks: [{
 				count: 64L
 				id: "676CDB17C0670948"
-				item: { Count: 64, id: "minecraft:porkchop" }
+				item: {
+					Count: 64
+					id: "minecraft:porkchop"
+				}
 				type: "item"
 			}]
 			title: "{quest.twr.7AC1F59A495B58AE.title}"
@@ -583,7 +586,10 @@
 			tasks: [{
 				count: 64L
 				id: "1FE2BF0A9762F1EE"
-				item: { Count: 64, id: "minecraft:rabbit_hide" }
+				item: {
+					Count: 64
+					id: "minecraft:rabbit_hide"
+				}
 				type: "item"
 			}]
 			x: -1.5d
@@ -615,7 +621,10 @@
 			tasks: [{
 				count: 64L
 				id: "0C722EA7533407C9"
-				item: { Count: 64, id: "minecraft:cod" }
+				item: {
+					Count: 64
+					id: "minecraft:cod"
+				}
 				type: "item"
 			}]
 			x: -6.0d
@@ -708,7 +717,10 @@
 			tasks: [{
 				count: 64L
 				id: "414A38C6A4636B0A"
-				item: { Count: 64, id: "minecraft:salmon" }
+				item: {
+					Count: 64
+					id: "minecraft:salmon"
+				}
 				type: "item"
 			}]
 			x: -6.0d
@@ -794,7 +806,10 @@
 			tasks: [{
 				count: 64L
 				id: "025ECE6A322AC21E"
-				item: { Count: 64, id: "frostedheart:wolf_hide" }
+				item: {
+					Count: 64
+					id: "frostedheart:wolf_hide"
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -810,7 +825,10 @@
 			tasks: [{
 				count: 64L
 				id: "0403C8CFE2928B3E"
-				item: { Count: 64, id: "frostedheart:polar_bear_hide" }
+				item: {
+					Count: 64
+					id: "frostedheart:polar_bear_hide"
+				}
 				type: "item"
 			}]
 			x: -4.5d
@@ -864,7 +882,10 @@
 			tasks: [{
 				count: 64L
 				id: "4E6B7247876C701A"
-				item: { Count: 64, id: "frostedheart:squid_tentacles" }
+				item: {
+					Count: 64
+					id: "frostedheart:squid_tentacles"
+				}
 				type: "item"
 			}]
 			x: -7.5d

@@ -78,7 +78,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "WIP"
+			title: "{quest.twr.600194958AED706C.title}"
 			x: 1.5d
 			y: -7.0d
 		}
@@ -132,7 +132,7 @@
 						value: "minecraft:hoes"
 					}
 				}
-				title: "Any #minecraft:hoes"
+				title: "{quest.twr.2FE6878C8EDFE50A.36D4488AE0256AAD.title}"
 				type: "item"
 			}]
 			title: "{tips.frostedheart.plant.title}"
@@ -172,7 +172,7 @@
 						value: "twr:fertilizer"
 					}
 				}
-				title: "Any #twr:fertilizer"
+				title: "{quest.twr.2CD95B3D68DAC0D9.28E10A292B803A1B.title}"
 				type: "item"
 			}]
 			title: "{tips.frostedheart.fertilizer.title}"
@@ -553,5 +553,5 @@
 			y: -7.0d
 		}
 	]
-	title: "Tip"
+	title: "{chapter.twr.399300B8456AD19F.title}"
 }

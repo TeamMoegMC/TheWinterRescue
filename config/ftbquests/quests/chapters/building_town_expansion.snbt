@@ -11,8 +11,8 @@
 		{
 			dependencies: ["73380147BFC3799E"]
 			description: [
-				"城镇仓库是城镇的基本建筑之一，城镇的所有资源都需要仓库来储存。城镇产出的资源会进入城镇仓库，消耗的资源也是从城镇仓库中扣除。"
-				"具体结构请查看对应方块的思索。"
+				"{quest.twr.12E093D6147FF8C9.description.1}"
+				"{quest.twr.12E093D6147FF8C9.description.2}"
 			]
 			id: "12E093D6147FF8C9"
 			tasks: [{
@@ -20,24 +20,24 @@
 				item: "frostedheart:warehouse"
 				type: "item"
 			}]
-			title: "建造仓库"
+			title: "{quest.twr.12E093D6147FF8C9.title}"
 			x: -3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["73380147BFC3799E"]
 			description: [
-				"&l城镇住宅&r是城镇的基本建筑之一，城镇居民只有在有可用的&l城镇住宅&r居住时，才能在城镇中健康地生存下去。"
-				"具体结构请查看对应方块的思索。"
+				"{quest.twr.0560EAC2DD2033D7.description.1}"
+				"{quest.twr.0560EAC2DD2033D7.description.2}"
 			]
 			id: "0560EAC2DD2033D7"
-			subtitle: "首先，解决住房问题"
+			subtitle: "{quest.twr.0560EAC2DD2033D7.subtitle}"
 			tasks: [{
 				id: "52C0FB63368DE1AE"
 				item: "frostedheart:house"
 				type: "item"
 			}]
-			title: "建造住宅"
+			title: "{quest.twr.0560EAC2DD2033D7.title}"
 			x: -3.0d
 			y: 1.0d
 		}
@@ -45,8 +45,8 @@
 			dependencies: ["38ECFC96922145C7"]
 			dependency_requirement: "all_started"
 			description: [
-				"要让城镇居民进行采矿工作，需要&l矿工之家&r和&l矿井&r两个建筑，其中矿工之家需要建造在能量塔范围内，而矿场无需能量塔，但需要通过铁轨与矿场基地连接才能工作。"
-				"具体结构请查看对应方块的思索。"
+				"{quest.twr.3CA3A652FC6C7F7C.description.1}"
+				"{quest.twr.3CA3A652FC6C7F7C.description.2}"
 			]
 			id: "3CA3A652FC6C7F7C"
 			tasks: [
@@ -68,8 +68,8 @@
 			dependencies: ["38ECFC96922145C7"]
 			dependency_requirement: "all_started"
 			description: [
-				"要让城镇居民进行捕猎活动，需要&l猎人营地&r和&l猎人之家&r两种建筑。其中&l猎人之家&r需要在能量塔范围内，而&l猎人营地&r不需要。&l猎人营地&r与&l猎人之家&r之间不需要进行连接。"
-				"建筑具体结构请查看对应方块的思索。"
+				"{quest.twr.33E3884BF30AFDE8.description.1}"
+				"{quest.twr.33E3884BF30AFDE8.description.2}"
 			]
 			id: "33E3884BF30AFDE8"
 			tasks: [
@@ -128,15 +128,15 @@
 		{
 			dependencies: ["69D939596ED4C0AF"]
 			description: [
-				"寥寥几人的能力终究有限，如果再不扩充人手，后续的繁重工作将变得难以应对。"
-				"不过在有了&l能量塔&r之后，你就可以开始建设属于你自己的&l城镇&r了。"
-				"将居民招募进你的玩家城镇，并为他们提供温暖的住所和足够的食物，他们就可以开始工作。有了更多居民的帮助，你可以更顺利地进行各种工作，甚至可以让居民帮你进行超出你的知识范围而无法进行的研究（WIP）。"
+				"{quest.twr.73380147BFC3799E.description.1}"
+				"{quest.twr.73380147BFC3799E.description.2}"
+				"{quest.twr.73380147BFC3799E.description.3}"
 			]
 			id: "73380147BFC3799E"
-			subtitle: "你并非孤身一人"
+			subtitle: "{quest.twr.73380147BFC3799E.subtitle}"
 			tasks: [{
 				id: "674AEDADCD4D0F81"
-				title: "城镇"
+				title: "{quest.twr.73380147BFC3799E.674AEDADCD4D0F81.title}"
 				type: "checkmark"
 			}]
 			x: -4.5d
@@ -149,9 +149,9 @@
 			]
 			dependency_requirement: "all_started"
 			description: [
-				"在建造并开启&l能量塔&r后，在冰天雪地中艰难求生的&l流浪难民&r就可能被吸引到&l能量塔&r附近。"
-				"与他们交谈，可以与之交易，或是将他们招募进你的城镇，变为你城镇中的居民。"
-				"[ \"注意！只有当你的城镇中仍有未住满的\", { \"text\": \"城镇住宅\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0560EAC2DD2033D7\" } }, \"时，流浪难民才可被顺利招募。\" ]"
+				"{quest.twr.0CF09A0965515E7C.description.1}"
+				"{quest.twr.0CF09A0965515E7C.description.2}"
+				"{quest.twr.0CF09A0965515E7C.description.3}"
 			]
 			id: "0CF09A0965515E7C"
 			tasks: [{
@@ -159,25 +159,25 @@
 				id: "45E3A54D37452470"
 				observe_type: 5
 				timer: 0L
-				title: "找到流浪难民"
+				title: "{quest.twr.0CF09A0965515E7C.45E3A54D37452470.title}"
 				to_observe: "frostedheart:wandering_refugee"
 				type: "observation"
 			}]
-			title: "招募居民"
+			title: "{quest.twr.0CF09A0965515E7C.title}"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["73380147BFC3799E"]
 			description: [
-				"城镇的工作建筑是让城镇居民进行各种工作的必要条件。每天早上城镇会自动进行一次工作分配，为没有工作的居民分配适合的工作。"
-				"[ \"通常，你可以在工作建筑的主方块，或是城镇的\", { \"text\": \"管理界面\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4823FC15F9B62548\" } }, \"设置分配工作的优先级。\" ]"
-				"优先级的提高会让更多居民被分配到在此方块工作。"
+				"{quest.twr.38ECFC96922145C7.description.1}"
+				"{quest.twr.38ECFC96922145C7.description.2}"
+				"{quest.twr.38ECFC96922145C7.description.3}"
 			]
 			id: "38ECFC96922145C7"
 			tasks: [{
 				id: "328E1A74CBA00C8E"
-				title: "城镇工作建筑"
+				title: "{quest.twr.38ECFC96922145C7.328E1A74CBA00C8E.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -186,46 +186,46 @@
 		{
 			dependencies: ["0CF09A0965515E7C"]
 			description: [
-				"城镇居民具有多种属性，这些属性会对他们的工作效率产生影响。"
-				"居民的属性包括：&4生命&r、&5精神&r、&6力量&r、&b智力&r、&a教育等级&r 以及对各个工作的&2工作熟练度&r。在不同的工作中，居民的不同属性对工作效率的影响也不全相同。"
-				"*翻页以查看各属性详情*"
-				""
+				"{quest.twr.66FCBFC4EB72FB8F.description.1}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.2}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.3}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.4}"
 				"{@pagebreak}"
-				"&4生命&r是居民的基本属性之一，表明居民的身体健康程度，其范围为0-100。当生命小于5时，村民便会死亡。"
-				"给居民供应足够多的食物和温暖的住所，居民的生命便会缓慢回复，回复量与以下几个因素相关："
-				"1.仓库内食物的营养丰富程度。居民会选择尽可能均衡的饮食方案，食用的食物营养均衡程度越高，增加的生命越多。营养均衡程度对生命的影响较大。"
-				"[ \"2.仓库内食物的\", { \"text\": \"等级\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2D5AB78B7C01225C\" } }, \"。居民会尽可能食用更高等级的食物，食用食物的平均等级越高，增加\" ]的生命越多。食物等级对生命的影响较小。"
-				"[ \"3.住房的温度。居民所在\", { \"text\": \"城镇住宅\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0560EAC2DD2033D7\" } }, \"的温度越接近适宜温度（25摄氏度），增加的生命越多。\" ]"
-				""
-				"若提供的食物不够，或没有可用的住所，居民的生命会快速降低直到死亡。"
-				""
+				"{quest.twr.66FCBFC4EB72FB8F.description.6}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.7}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.8}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.9}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.10}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.11}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.12}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.13}"
 				"{@pagebreak}"
-				"&5精神&r是居民的基本属性之一，表明居民的幸福度，或者说是心理健康程度。当心理小于5时，居民便会离开城镇。"
-				"给居民供应足够多的食物和温暖的住所，居民的精神便会缓慢回复，回复量与以下几个因素相关："
-				"1.仓库内食物的营养丰富程度。居民会选择尽可能均衡的饮食方案，食用的食物营养均衡程度越高，增加的精神越多。营养均衡程度对精神的影响较小。"
-				"[ \"2.仓库内食物的\", { \"text\": \"等级\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2D5AB78B7C01225C\" } }, \"。居民会尽可能食用更高等级的食物，食用食物的平均等级越高，增加\" ]的精神越多。食物等级对精神的影响较大。"
-				"3.居民所在城镇住宅的综合评分，包括了住宅的平均空间、温度、装饰物种类和数量等因素。"
-				""
-				"若提供的食物不够，或没有可用的住所，居民的精神会快速降低直到离开城镇。"
-				""
+				"{quest.twr.66FCBFC4EB72FB8F.description.15}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.16}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.17}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.18}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.19}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.20}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.21}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.22}"
 				"{@pagebreak}"
-				"&6力量&r不是居民的基本属性，其数值不会导致居民死亡或离开，只会影响工作效率。力量的范围为0至正无穷大。"
-				"给居民供应足够多的食物和温暖的住所，居民的力量便会缓慢提升，提升量与食物营养均衡程度有关。"
-				"此外，居民进行一些需要力量工作的时候，其力量也会缓慢增长。"
-				""
+				"{quest.twr.66FCBFC4EB72FB8F.description.24}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.25}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.26}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.27}"
 				"{@pagebreak}"
-				"&2工作熟练度&r不是居民的基本属性，其数值不会导致居民死亡或离开，只会影响工作效率。居民对每种工作的工作熟练度是独立的，其数值范围均为0至无穷大。"
-				"居民进行某种工作时，其对应的工作熟练度会增长。"
-				""
+				"{quest.twr.66FCBFC4EB72FB8F.description.29}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.30}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.31}"
 				"{@pagebreak}"
-				"&b智力&r不是居民的基本属性，其数值不会导致居民死亡或离开，只会影响工作效率。实际上，截至2026年1月9日，智力暂时还不会影响任何工作。"
-				""
-				"&a教育等级&r不是居民的基本属性，其数值不会导致居民死亡或离开。截至2026年1月9日，教育等级暂时还不会影响任何工作。"
+				"{quest.twr.66FCBFC4EB72FB8F.description.33}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.34}"
+				"{quest.twr.66FCBFC4EB72FB8F.description.35}"
 			]
 			id: "66FCBFC4EB72FB8F"
 			tasks: [{
 				id: "2CC19E6C9927F401"
-				title: "居民属性"
+				title: "{quest.twr.66FCBFC4EB72FB8F.2CC19E6C9927F401.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -234,15 +234,15 @@
 		{
 			dependencies: ["12E093D6147FF8C9"]
 			description: [
-				"如果你按f3+h打开了显示详细信息，你或许会发现部分物品有形如town_resource_xxx_0的tag，这指示了物品在城镇中的属性，其中的xxx为物品的类型，而数字代表了物品在该类型的等级。"
-				"举个例子："
-				"town_resource_foods_grains_0表示该物品在城镇中属于0级谷物，"
-				"[ \"在居民消耗食物时便会依据种类和等级决定\", { \"text\": \"居民属性\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"66FCBFC4EB72FB8F\" } }, \"的变化。\" ]"
+				"{quest.twr.2D5AB78B7C01225C.description.1}"
+				"{quest.twr.2D5AB78B7C01225C.description.2}"
+				"{quest.twr.2D5AB78B7C01225C.description.3}"
+				"{quest.twr.2D5AB78B7C01225C.description.4}"
 			]
 			id: "2D5AB78B7C01225C"
 			tasks: [{
 				id: "7922C72339264D82"
-				title: "物品类型"
+				title: "{quest.twr.2D5AB78B7C01225C.7922C72339264D82.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -252,9 +252,9 @@
 			can_repeat: true
 			dependencies: ["0CF09A0965515E7C"]
 			description: [
-				"&n&l&4这里的任务奖励应为在此版本未加入的镇长印章！&r&r&r"
-				"当城镇的建筑和居民变多，逐一检查它们可能变得麻烦。"
-				"你可以通过手持镇长印章右键以总览城镇的所有建筑和居民。"
+				"{quest.twr.4823FC15F9B62548.description.1}"
+				"{quest.twr.4823FC15F9B62548.description.2}"
+				"{quest.twr.4823FC15F9B62548.description.3}"
 			]
 			id: "4823FC15F9B62548"
 			rewards: [{
@@ -266,10 +266,10 @@
 				}
 				type: "item"
 			}]
-			subtitle: "不是传国玉玺"
+			subtitle: "{quest.twr.4823FC15F9B62548.subtitle}"
 			tasks: [{
 				id: "407382A91DE891AF"
-				title: "城镇管理"
+				title: "{quest.twr.4823FC15F9B62548.407382A91DE891AF.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -278,10 +278,10 @@
 		{
 			dependencies: ["0CF09A0965515E7C"]
 			description: [
-				"城镇居民的生存需要两大基本条件："
-				"[ \"其一是充足的\", { \"text\": \"食物\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2D5AB78B7C01225C\" } }, \"。\" ]"
-				"[ \"其二是温暖的\", { \"text\": \"住所\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0560EAC2DD2033D7\" } }, \"。\" ]"
-				"[ \"任意一个基本条件的缺失都会使得居民的\", { \"text\": \"生命和精神\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"66FCBFC4EB72FB8F\" } }, \"快速减少，而当居民的生命或精神过低，居民便会死亡或离开城镇。\" ]"
+				"{quest.twr.6D8A647772B35E0E.description.1}"
+				"{quest.twr.6D8A647772B35E0E.description.2}"
+				"{quest.twr.6D8A647772B35E0E.description.3}"
+				"{quest.twr.6D8A647772B35E0E.description.4}"
 			]
 			id: "6D8A647772B35E0E"
 			rewards: [{
@@ -290,13 +290,13 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
-			subtitle: "活着"
+			subtitle: "{quest.twr.6D8A647772B35E0E.subtitle}"
 			tasks: [{
 				id: "0BDA4385001C4B37"
-				title: "如何养活居民"
+				title: "{quest.twr.6D8A647772B35E0E.0BDA4385001C4B37.title}"
 				type: "checkmark"
 			}]
-			title: "保证居民存活"
+			title: "{quest.twr.6D8A647772B35E0E.title}"
 			x: 0.5d
 			y: 0.0d
 		}
