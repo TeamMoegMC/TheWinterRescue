@@ -257,10 +257,7 @@
 				{
 					count: 16L
 					id: "21703FC750F7F18B"
-					item: {
-						Count: 16
-						id: "charcoal_pit:straw"
-					}
+					item: { Count: 16, id: "charcoal_pit:straw" }
 					type: "item"
 				}
 			]
@@ -455,7 +452,6 @@
 				item: "kubejs:charcoal_briquette"
 				type: "item"
 			}]
-			shape: "gear"
 			subtitle: "{quest.twr.76B2B1A3EC6D92CD.subtitle}"
 			tasks: [
 				{
@@ -471,8 +467,8 @@
 				}
 			]
 			title: "{quest.twr.76B2B1A3EC6D92CD.title}"
-			x: 15.5d
-			y: 2.0d
+			x: 14.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["20E34B234337C28A"]

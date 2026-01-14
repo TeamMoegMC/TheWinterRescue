@@ -1868,7 +1868,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.05,
@@ -2018,7 +2018,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.05,
@@ -4238,7 +4238,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -4268,7 +4268,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -4538,7 +4538,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -4568,7 +4568,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -6398,7 +6398,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -6428,7 +6428,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -6698,7 +6698,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -6728,7 +6728,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -8558,7 +8558,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -8588,7 +8588,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -8858,7 +8858,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -8888,7 +8888,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -10718,7 +10718,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -10748,7 +10748,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -11018,7 +11018,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.1333,
@@ -11048,7 +11048,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.05,
@@ -18278,7 +18278,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -18308,7 +18308,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -18338,7 +18338,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -18368,7 +18368,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -18878,7 +18878,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -18908,7 +18908,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -18938,7 +18938,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -18968,7 +18968,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -25718,7 +25718,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -25748,7 +25748,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -25778,7 +25778,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -25808,7 +25808,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -26318,7 +26318,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -26348,7 +26348,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -26378,7 +26378,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -26408,7 +26408,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -32438,7 +32438,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -32468,7 +32468,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -32498,7 +32498,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -32528,7 +32528,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -33038,7 +33038,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -33068,7 +33068,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -33098,7 +33098,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -33128,7 +33128,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -36518,7 +36518,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -36548,7 +36548,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -36578,7 +36578,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -36608,7 +36608,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -37118,7 +37118,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -37148,7 +37148,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -37178,7 +37178,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -37208,7 +37208,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -40598,7 +40598,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -40628,7 +40628,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -40658,7 +40658,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -40688,7 +40688,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -41198,7 +41198,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -1.0,
@@ -41228,7 +41228,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.4,
@@ -41258,7 +41258,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.1333,
@@ -41288,7 +41288,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.9333,
@@ -46358,7 +46358,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -46388,7 +46388,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -46418,7 +46418,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -46448,7 +46448,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -46958,7 +46958,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -46988,7 +46988,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -47018,7 +47018,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -47048,7 +47048,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -51158,7 +51158,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -51188,7 +51188,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -51218,7 +51218,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -51248,7 +51248,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -51758,7 +51758,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -51788,7 +51788,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -51818,7 +51818,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -51848,7 +51848,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -57878,7 +57878,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -57908,7 +57908,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -57938,7 +57938,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -57968,7 +57968,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -58478,7 +58478,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -58508,7 +58508,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -58538,7 +58538,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -58568,7 +58568,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -64598,7 +64598,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -64628,7 +64628,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -64658,7 +64658,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -64688,7 +64688,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -65198,7 +65198,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -65228,7 +65228,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -65258,7 +65258,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -65288,7 +65288,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -71318,7 +71318,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -71348,7 +71348,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -71378,7 +71378,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -71408,7 +71408,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -71918,7 +71918,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -71948,7 +71948,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -71978,7 +71978,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -72008,7 +72008,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -78038,7 +78038,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -78068,7 +78068,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -78098,7 +78098,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -78128,7 +78128,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -78638,7 +78638,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -78668,7 +78668,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -78698,7 +78698,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -78728,7 +78728,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -84758,7 +84758,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -84788,7 +84788,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -84818,7 +84818,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -84848,7 +84848,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -85358,7 +85358,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.9333,
@@ -85388,7 +85388,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.5667,
@@ -85418,7 +85418,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.4,
@@ -85448,7 +85448,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.7667,
@@ -88658,7 +88658,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -88688,7 +88688,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -88958,7 +88958,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -88988,7 +88988,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -92018,7 +92018,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -92048,7 +92048,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -92318,7 +92318,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -92348,7 +92348,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -95378,7 +95378,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -95408,7 +95408,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -95678,7 +95678,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -95708,7 +95708,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -98738,7 +98738,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -98768,7 +98768,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -99038,7 +99038,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -99068,7 +99068,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -102098,7 +102098,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -102128,7 +102128,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.5667,
@@ -102398,7 +102398,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   -0.7667,
@@ -102428,7 +102428,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:nature/snowy_shrubland",
+              "biome": "the_winter_rescue:frozen_forest",
               "parameters": {
                 "weirdness": [
                   0.5667,

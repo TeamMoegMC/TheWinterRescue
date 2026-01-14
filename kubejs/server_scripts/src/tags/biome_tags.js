@@ -25,6 +25,7 @@ ServerEvents.tags("worldgen/biome", (event) => {
         "the_winter_rescue:glacial_lakes",
         "the_winter_rescue:glacial_ices",
         "the_winter_rescue:nature/snowy_shrubland",
+        "the_winter_rescue:frozen_forest",
         "the_winter_rescue:tundra",
         "minecraft:snowy_plains",
         "minecraft:snowy_taiga",
