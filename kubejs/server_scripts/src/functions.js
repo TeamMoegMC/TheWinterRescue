@@ -2,38 +2,38 @@
 
 function IEIngredient(input) {
 
-	if(Array.isArray(input)){
-		var count=0;
-		var inps=[];
-		for(let i of input){
-			let inp=Item.of(i);
-			if(count==0)
-			count=inp.getCount();
-			inps.push(inp.withCount(1).toJson());
-		}
-		return {base_ingredient: inps, count: count}
-	}
+    if (Array.isArray(input)) {
+        var count = 0;
+        var inps = [];
+        for (let i of input) {
+            let inp = Item.of(i);
+            if (count == 0)
+                count = inp.getCount();
+            inps.push(inp.withCount(1).toJson());
+        }
+        return { base_ingredient: inps, count: count }
+    }
     let inp = Item.of(input)
-    return {base_ingredient: inp.withCount(1).toJson(), count: inp.getCount()}
+    return { base_ingredient: inp.withCount(1).toJson(), count: inp.getCount() }
 }
-function IEIngredientWithSize(input,amount) {
+function IEIngredientWithSize(input, amount) {
     let inp = Item.of(input)
-    return {base_ingredient: inp.withCount(1).toJson(), count: amount}
+    return { base_ingredient: inp.withCount(1).toJson(), count: amount }
 }
 function FluidTag(tag, amount) {
-    return {"tag": tag, "amount": amount}
+    return { "tag": tag, "amount": amount }
 }
 
 function shapedRecipe(result, pattern, key, id) {
-    return {result: result, pattern: pattern, key: key, id: id}
+    return { result: result, pattern: pattern, key: key, id: id }
 }
 
 function tree_stumpRecipe(result, ingredients, tool, chop, amount) {
-    return {result: result, ingredients: ingredients, tool: tool, chop: chop, amount: amount}
+    return { result: result, ingredients: ingredients, tool: tool, chop: chop, amount: amount }
 }
 
 function campfireRecipe(result, ingredients, time) {
-    return {result: result, ingredients: ingredients, time: time}
+    return { result: result, ingredients: ingredients, time: time }
 }
 
 function millstoneRecipe(result, ingredients, secondResult, secondChance, activateCount) {
@@ -47,11 +47,11 @@ function millstoneRecipe(result, ingredients, secondResult, secondChance, activa
 }
 
 function shapelessRecipe(result, ingredients, id) {
-    return {result: result, ingredients: ingredients, id: id}
+    return { result: result, ingredients: ingredients, id: id }
 }
 
 function shapelessRecipeGroup(result, ingredients, id, group) {
-    return {result: result, ingredients: ingredients, id: id, group: group}
+    return { result: result, ingredients: ingredients, id: id, group: group }
 }
 
 function inspireRecipe(input, result) {
@@ -61,40 +61,40 @@ function inspireRecipe(input, result) {
         amount: result
     }
 }
-function chemical(input,input_fluid,output,output_fluid,time){
-	let result={
-	"type": "immersiveindustry:chemical",
-	"time": time
-	}
-	if(input){
-		
-		result.inputs=[];
-		for(let i of input){
-			if(i.base_ingredient)
-				result.inputs.push(i)
-			else
-				result.inputs.push(IEIngredient(i));
-		}
-	}
-	if(input_fluid)
-	result.input_fluids=input_fluid;
-	if(output){
-		result.outputs=[];
-		for(let i of output)
-			result.outputs.push(Item.of(i));
-	}
-	if(output_fluid){
-		result.result_fluids=[];
-		for(let i of output_fluid){
-			let fluidOut={"fluid":i.id,"amount":i.amount};
-			
-			if(i.nbt)
-				fluidOut.tag=i.nbt
-			result.result_fluids.push(fluidOut);
-		}
-	}
+function chemical(input, input_fluid, output, output_fluid, time) {
+    let result = {
+        "type": "immersiveindustry:chemical",
+        "time": time
+    }
+    if (input) {
 
-	return result
+        result.inputs = [];
+        for (let i of input) {
+            if (i.base_ingredient)
+                result.inputs.push(i)
+            else
+                result.inputs.push(IEIngredient(i));
+        }
+    }
+    if (input_fluid)
+        result.input_fluids = input_fluid;
+    if (output) {
+        result.outputs = [];
+        for (let i of output)
+            result.outputs.push(Item.of(i));
+    }
+    if (output_fluid) {
+        result.result_fluids = [];
+        for (let i of output_fluid) {
+            let fluidOut = { "fluid": i.id, "amount": i.amount };
+
+            if (i.nbt)
+                fluidOut.tag = i.nbt
+            result.result_fluids.push(fluidOut);
+        }
+    }
+
+    return result
 }
 function incubateItemRecipe(input, catalyst, use_catalyst, result, time, water) {
     return {
@@ -167,28 +167,28 @@ function crucibleRecipe(inputs, output, time, temperature) {
 }
 
 function rotarykilnRecipe(input, output, time, energy) {
-    return rotarykilnRecipe2(input,output,time,energy)
+    return rotarykilnRecipe2(input, output, time, energy)
 }
 
 function rotarykilnRecipe2(input, output, time, energy, byproduct, chance) {
-    return rotarykilnRecipe3(input,output,null,time,energy,byproduct,chance)
+    return rotarykilnRecipe3(input, output, null, time, energy, byproduct, chance)
 }
 
 function rotarykilnRecipe3(input, output, output_fluid, time, energy, byproduct, chance) {
-	
-    var ret= {
+
+    var ret = {
         "type": "immersiveindustry:rotary_kiln",
         "input": IEIngredient(input),
         "time": time,
         "tickEnergy": energy
     }
-	if(byproduct!=null)
-		ret.byproduct={"output":Item.of(byproduct),"chance":chance};
-	if(output!=null)
-		ret.result= Item.of(output);
-	if(output_fluid!=null)
-		ret.result_fluid=output_fluid;
-	return ret;
+    if (byproduct != null)
+        ret.byproduct = { "output": Item.of(byproduct), "chance": chance };
+    if (output != null)
+        ret.result = Item.of(output);
+    if (output_fluid != null)
+        ret.result_fluid = output_fluid;
+    return ret;
 }
 
 function unificationBlacklistEntry(material, type) {
@@ -215,7 +215,7 @@ function getPreferredItemInTag(tag) {
     return utils
         .listOf(tag.stacks)
         .toArray()
-        .sort(({mod: a}, {mod: b}) => compareIndices(a, b, tag))[0] || Item.of(air)
+        .sort(({ mod: a }, { mod: b }) => compareIndices(a, b, tag))[0] || Item.of(air)
 }
 
 function compareIndices(a, b, tag) {
@@ -249,6 +249,15 @@ function getStrippedLogFrom(logBlock) {
         }
     })
     return result
+}
+
+
+function biomeMineResourceRecipe(biome, weights) {
+    return {
+        type: "frostedheart:biome_mine_resource",
+        biome: biome,
+        weights: weights
+    }
 }
 
 let unificationBlacklist = [
