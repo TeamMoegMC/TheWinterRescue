@@ -1,0 +1,32 @@
+{
+  "type": "frostedheart:shrub_tree",
+  "config": {
+    "log_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_log"
+      }
+    },
+
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    "branch_count": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 3,
+        "max_inclusive": 5
+      }
+    },
+    "branch_length": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    }
+  }
+}
