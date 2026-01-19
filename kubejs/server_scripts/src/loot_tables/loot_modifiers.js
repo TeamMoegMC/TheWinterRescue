@@ -3,7 +3,7 @@ LootJS.modifiers((event) => {
     event.addBlockLootModifier("#minecraft:leaves")
         .matchMainHand("#minecraft:swords")
         .randomChance(0.75)
-        .addLoot("minecraft:vine")
+        .addLoot("kubejs:plant_fibre")
         .randomChance(0.75)
         .addLoot("minecraft:stick")
     // ice chips

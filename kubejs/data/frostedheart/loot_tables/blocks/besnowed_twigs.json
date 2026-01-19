@@ -11,8 +11,18 @@
         },
         {
           "type": "minecraft:item",
+          "name": "kubejs:plant_fibre",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:vine",
-          "weight": 5
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dead_bush",
+          "weight": 1
         }
       ]
     }

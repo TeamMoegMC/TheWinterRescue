@@ -1404,6 +1404,37 @@
 			x: -5.0d
 			y: -5.0d
 		}
+		{
+			dependencies: ["03A553EBD453466A"]
+			description: [
+				"{quest.twr.76B2B1A3EC6D92CD.description.1}"
+				"{quest.twr.76B2B1A3EC6D92CD.description.2}"
+			]
+			icon: "minecraft:charcoal"
+			id: "76B2B1A3EC6D92CD"
+			rewards: [{
+				id: "641441D9B61C43FB"
+				item: "kubejs:charcoal_briquette"
+				type: "item"
+			}]
+			subtitle: "{quest.twr.76B2B1A3EC6D92CD.subtitle}"
+			tasks: [
+				{
+					id: "34D72F00CF39E4B0"
+					item: "charcoal_pit:log_pile"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2DB3C08BDDB3E260"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
+			title: "{quest.twr.76B2B1A3EC6D92CD.title}"
+			x: -5.5d
+			y: 1.5d
+		}
 	]
 	subtitle: ["{chapter.twr.0F108F94F3A03203.subtitle}"]
 	title: "{chapter.twr.0F108F94F3A03203.title}"

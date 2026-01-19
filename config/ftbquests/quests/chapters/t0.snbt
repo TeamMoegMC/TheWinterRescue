@@ -227,7 +227,7 @@
 				{
 					count: 16L
 					id: "3349CF3A5F68D6F5"
-					item: "minecraft:vine"
+					item: "kubejs:plant_fibre"
 					type: "item"
 				}
 				{
@@ -438,37 +438,6 @@
 			]
 			x: 14.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["6B7D4F59C921C1FC"]
-			description: [
-				"{quest.twr.76B2B1A3EC6D92CD.description.1}"
-				"{quest.twr.76B2B1A3EC6D92CD.description.2}"
-			]
-			icon: "minecraft:charcoal"
-			id: "76B2B1A3EC6D92CD"
-			rewards: [{
-				id: "641441D9B61C43FB"
-				item: "kubejs:charcoal_briquette"
-				type: "item"
-			}]
-			subtitle: "{quest.twr.76B2B1A3EC6D92CD.subtitle}"
-			tasks: [
-				{
-					id: "34D72F00CF39E4B0"
-					item: "charcoal_pit:log_pile"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "2DB3C08BDDB3E260"
-					item: "minecraft:charcoal"
-					type: "item"
-				}
-			]
-			title: "{quest.twr.76B2B1A3EC6D92CD.title}"
-			x: 14.0d
-			y: 4.0d
 		}
 		{
 			dependencies: ["20E34B234337C28A"]
