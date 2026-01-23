@@ -30,6 +30,10 @@ ServerEvents.recipes((event) => {
             input: "minecraft:vine"
         },
         {
+            output: [Item.of("frostedheart:biomass").withChance(0.5)],
+            input: "kubejs:plant_fibre"
+        },
+        {
             output: ["frostedheart:biomass", Item.of("frostedheart:biomass").withChance(0.5)],
             input: "minecraft:cactus"
         },

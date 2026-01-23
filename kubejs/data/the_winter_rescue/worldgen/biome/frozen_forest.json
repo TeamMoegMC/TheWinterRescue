@@ -2,43 +2,25 @@
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon",
-      "the_winter_rescue:wide_cave"
+      "minecraft:canyon"
     ]
   },
-  "creature_spawn_probability": 0.01,
-  "downfall": 0.3,
+  "creature_spawn_probability": 0.03,
+  "downfall": 0.5,
   "effects": {
-    "fog_color": 12638463,
-    "additions_sound": {
-      "sound": "minecraft:ambient.basalt_deltas.additions",
-      "tick_chance": 0.0111
-    },
-    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "fog_color": 13494015,
+    "foliage_color": 12162160,
+    "grass_color": 9663828,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2,
-      "sound": "minecraft:ambient.basalt_deltas.mood",
+      "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.nether.basalt_deltas"
-    },
-    "particle": {
-      "options": {
-        "type": "minecraft:white_ash"
-      },
-      "probability": 0.118093334
-    },
-    "sky_color": 7776511,
-    "water_color": 4159204,
+    "sky_color": 11653631,
+    "water_color": 4159136,
     "water_fog_color": 329011
   },
-
   "features": [
     [
     ],
@@ -50,19 +32,12 @@
       "minecraft:amethyst_geode"
     ],
     [
+      "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [
-      "the_winter_rescue:cave/magmatic_lava_delta",
-      "the_winter_rescue:cave/magmatic_basalt_columns"
-    ],
+    [],
     [],
     [
-      "the_winter_rescue:cave/cooled_magma_ore",
-      "the_winter_rescue:cave/large_cooled_magma_ore",
-      "the_winter_rescue:cave/magmatic_copper_ore",
-      "the_winter_rescue:cave/magmatic_iron_ore",
-      "the_winter_rescue:cave/magmatic_tin_ore",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -72,7 +47,6 @@
       "minecraft:ore_gold_lower",
       "minecraft:ore_redstone",
       "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
@@ -85,7 +59,18 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:glow_lichen"
+      "the_winter_rescue:nature/sparse_moss_patch",
+      "the_winter_rescue:nature/rare_pine_bushes",
+      "the_winter_rescue:nature/rare_bare_spruce_tree",
+      "the_winter_rescue:nature/random_dead_tree",
+      "minecraft:glow_lichen",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:trees_plains",
+      "minecraft:flower_plains",
+      "minecraft:patch_grass_plain",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_berry_rare"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -98,21 +83,35 @@
 
     ],
     "axolotls": [],
-    "creature": [],
-    "misc": [],
-    "monster": [
+    "creature": [
       {
-        "type": "minecraft:spider",
-        "maxCount": 1,
+        "type": "minecraft:wolf",
+        "maxCount": 6,
         "minCount": 1,
         "weight": 1
       },
       {
-        "type": "minecraft:creeper",
-        "maxCount": 1,
+        "type": "stone_age:auroch",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "stone_age:mouflon",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "stone_age:deer",
+        "maxCount": 2,
         "minCount": 1,
         "weight": 1
       }
+    ],
+    "misc": [],
+    "monster": [
+
     ],
     "underground_water_creature": [
       {
@@ -125,5 +124,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 1
+  "temperature": -0.2,
+  "temperature_modifier": "frozen"
 }

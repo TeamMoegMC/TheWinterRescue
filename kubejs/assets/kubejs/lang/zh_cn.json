@@ -61,6 +61,7 @@
   "item.kubejs.incomplete_large_bronze_cogwheel": "青铜大齿轮（半成品）",
   "item.kubejs.incomplete_large_cast_iron_cogwheel": "铸铁大齿轮（半成品）",
   "item.kubejs.incomplete_large_steel_cogwheel": "钢大齿轮（半成品）",
+  "item.kubejs.plant_fibre": "植物纤维",
   "itemGroup.kubejs.twr": "冬季救援",
   "message.kubejs.debug.getItemId": "Tag下的id以打印至\nlogs/kubejs/server.log",
   "message.kubejs.debug.getHardness": "这个方块的硬度是: %s",

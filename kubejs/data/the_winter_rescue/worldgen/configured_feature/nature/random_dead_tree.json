@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "feature": "the_winter_rescue:nature/frozen_tree",
+          "placement": [
+            {
+              "type": "minecraft:random_offset",
+              "xz_spread": 0,
+              "y_spread": -1
+            }
+          ]
+        },
+        "chance": 0.9
+      }
+    ],
+    "default": {
+        "feature": "the_winter_rescue:nature/shrub_tree",
+        "placement": []
+    }
+  }
+}

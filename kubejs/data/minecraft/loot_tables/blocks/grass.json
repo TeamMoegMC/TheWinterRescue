@@ -27,7 +27,7 @@
                   }
                 }
               ],
-              "name": "minecraft:vine"
+              "name": "kubejs:plant_fibre"
             },
             {
               "type": "minecraft:item",
