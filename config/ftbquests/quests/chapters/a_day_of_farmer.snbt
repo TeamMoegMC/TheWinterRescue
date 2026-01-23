@@ -75,12 +75,12 @@
 					type: "item"
 				}
 			]
-			title: "{quest.twr.22927212578FD12E.title}"
+			title: "高级肥料"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
-			description: ["{quest.twr.41B5A9396D23D0CE.description.1}"]
+			description: ["要想给作物施肥，不能再用简单的骨粉了！你需要采用富含氮、磷、钾的三种物质，以不同比例混合，得到不同肥料！"]
 			id: "41B5A9396D23D0CE"
 			tasks: [
 				{
@@ -99,7 +99,7 @@
 					type: "item"
 				}
 			]
-			title: "{quest.twr.41B5A9396D23D0CE.title}"
+			title: "低级肥料"
 			x: 1.5d
 			y: -1.5d
 		}

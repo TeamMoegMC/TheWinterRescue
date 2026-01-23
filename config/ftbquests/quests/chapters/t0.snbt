@@ -906,7 +906,7 @@
 				"{quest.twr.543F5BC239D07C40.description.1}"
 				"{quest.twr.543F5BC239D07C40.description.2}"
 				"{quest.twr.543F5BC239D07C40.description.3}"
-				"{quest.twr.543F5BC239D07C40.description.4}"
+				""
 				"{quest.twr.543F5BC239D07C40.description.4}"
 				"{quest.twr.543F5BC239D07C40.description.5}"
 				"{quest.twr.543F5BC239D07C40.description.6}"
@@ -935,7 +935,7 @@
 				"{quest.twr.7AFE32B08BB6CE6C.description.3}"
 				"{quest.twr.7AFE32B08BB6CE6C.description.4}"
 				"{ \"text\": \"https://afdian.com/a/teammoeg\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://afdian.com/a/teammoeg\" } }"
-				"{quest.twr.7AFE32B08BB6CE6C.description.6}"
+				""
 				"{quest.twr.7AFE32B08BB6CE6C.description.5}"
 				"{ \"text\": \"https://www.patreon.com/TeamMoegProjects\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.patreon.com/TeamMoegProjects\" } }"
 			]
@@ -1063,7 +1063,7 @@
 		{
 			description: [
 				"{tips.frostedheart.wheel_menu.desc1}"
-				"{quest.twr.6E932D81FBAE1A71.description.2}"
+				""
 				"{tips.frostedheart.wheel_menu.desc2}"
 			]
 			icon: "storagedrawers:keyring"
