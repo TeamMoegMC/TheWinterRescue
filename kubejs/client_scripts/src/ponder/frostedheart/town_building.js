@@ -173,6 +173,30 @@ Ponder.registry((event) => {
             scene.idle(20)
             scene.overlay.showOutline("white", {}, [2, 1, 2, 7, 4, 7], 30)
             scene.idle(60)
-        }
-        )
+        })
+        .scene("2_story_house", "Multi story houses", "kubejs:town_2_story_house", (scene, util) => {
+            scene.showBasePlate()
+            scene.idle(20)
+
+            scene.text(90, "你可以建造具有多层结构的房屋，以扩大有效面积").attachKeyFrame()
+            //显示结构
+            for (let i = 1; i < 11; i++) {
+                scene.world.showSection([0, i, 0, 9, i, 9], Direction.DOWN)
+            }
+            scene.text(60, "你可以用方块搭建楼梯来连接到其它楼层").attachKeyFrame()
+            for(let i = 0; i < 4; i++){
+                scene.world.setBlocks([6-i,2+i,7], "minecraft:oak_planks", true)
+                scene.idle(10)
+            }
+            scene.overlay.showOutline("white", {}, [2, 4, 2, 6, 4, 7], 30)
+            scene.idle(50)
+
+            scene.text(60, "你也可以使用梯子连接楼层").attachKeyFrame()
+            for(let i = 0; i < 4; i++){
+                scene.world.setBlocks([6-i,2+i,7], "minecraft:oak_planks", false)
+                scene.idle(10)
+            }
+            scene.world.setBlocks([2, 2, 7, 2, 5, 7], "minecraft:ladder", true)
+            scene.idle(60)
+})
 })
