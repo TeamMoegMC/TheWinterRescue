@@ -36,7 +36,7 @@ Ponder.registry((event) => {
             scene.world.modifyBlock([4, 3, 1], (state) => state.with("west", "true").with("east", "true"), true)
             scene.world.modifyBlock([5, 3, 1], (state) => state.with("west", "true").with("east", "true"), true)
             scene.world.modifyBlock([6, 3, 1], (state) => state.with("west", "true").with("east", "true"), true)
-            scene.idle(20)
+            scene.idle(30)
             scene.world.replaceBlocks([3, 2, 1, 6, 3, 1], "minecraft:oak_fence", true)
             scene.world.modifyBlock([3, 2, 1], (state) => state.with("west", "true").with("east", "true"), true)
             scene.world.modifyBlock([4, 2, 1], (state) => state.with("west", "true").with("east", "true"), true)
@@ -46,7 +46,7 @@ Ponder.registry((event) => {
             scene.world.modifyBlock([4, 3, 1], (state) => state.with("west", "true").with("east", "true"), true)
             scene.world.modifyBlock([5, 3, 1], (state) => state.with("west", "true").with("east", "true"), true)
             scene.world.modifyBlock([6, 3, 1], (state) => state.with("west", "true").with("east", "true"), true)
-            scene.idle(20)
+            scene.idle(30)
             scene.world.replaceBlocks([3, 2, 1, 6, 3, 1], "minecraft:oak_fence_gate", true)
             scene.world.modifyBlock([3, 2, 1], (state) => state.with("facing", "south"), true)
             scene.world.modifyBlock([4, 2, 1], (state) => state.with("facing", "south"), true)
@@ -56,7 +56,7 @@ Ponder.registry((event) => {
             scene.world.modifyBlock([4, 3, 1], (state) => state.with("facing", "south"), true)
             scene.world.modifyBlock([5, 3, 1], (state) => state.with("facing", "south"), true)
             scene.world.modifyBlock([6, 3, 1], (state) => state.with("facing", "south"), true)
-            scene.idle(20)
+            scene.idle(30)
             scene.world.replaceBlocks([3, 2, 1, 6, 3, 1], "minecraft:glass_pane", true)
             scene.world.modifyBlock([3, 2, 1], (state) => state.with("west", "true").with("east", "true"), true)
             scene.world.modifyBlock([4, 2, 1], (state) => state.with("west", "true").with("east", "true"), true)
@@ -93,13 +93,13 @@ Ponder.registry((event) => {
             scene.world.showSection([0, 0, 0, 9, 9, 9], Direction.UP)
             scene.world.replaceBlocks([0, 0, 0, 9, 0, 9], "supplementaries:checker_block", false)
             //演示改变大小和形状
-            scene.idle(20)
+            scene.idle(30)
             scene.world.setBlocks([6, 1, 1, 8, 4, 8], "minecraft:air", true)
             scene.world.setBlocks([5, 5, 1, 8, 5, 8], "minecraft:air", true)
             scene.world.setBlocks([5, 1, 1, 5, 4, 8], "minecraft:bricks", true)
-            scene.idle(40)
+            scene.idle(60)
             scene.addKeyframe()
-            scene.idle(30)
+            scene.idle(40)
             //移除3*3的天花板
             scene.world.setBlocks([2, 5, 2, 4, 5, 4], "minecraft:air", true)
             scene.world.setBlocks([1, 5, 1, 5, 7, 5], "minecraft:bricks", true)
@@ -110,8 +110,9 @@ Ponder.registry((event) => {
                     scene.world.modifyBlock([j, i, 1], (state) => state.with("west", "true").with("east", "true"), true)
                 }
             }
-            scene.idle(40)
+            scene.idle(60)
             scene.text(100, "但多个建筑的在xz面上的投影不可重叠，也就是不允许多个建筑共用一片区域，也不可在竖直方向上堆叠。").colored(PonderPalette.RED).attachKeyFrame()
+            scene.idle(20)
             scene.world.replaceBlocks([1, 2, 2], "frostedheart:house", true)
             scene.idle(10)
             scene.overlay.showOutline("red", {}, [1, 0, 1, 5, 7, 8], 30)
@@ -155,16 +156,16 @@ Ponder.registry((event) => {
             scene.world.setBlocks([1, 3, 2], "minecraft:stone_bricks", true)
             scene.world.setBlocks([6, 2, 1], "minecraft:stone_bricks", true)
             scene.world.setBlocks([3, 5, 4], "minecraft:stone_bricks", true)
+            scene.idle(10)
             scene.overlay.showOutline("green", {}, [1, 0, 1, 8, 5, 8], 30)
             scene.idle(50)
-
             
             scene.world.replaceBlocks([2, 1, 1, 9, 4, 1], "minecraft:glass", false)
             scene.world.replaceBlocks([1, 1, 1, 1, 4, 2], "minecraft:glass", false)
             scene.world.replaceBlocks([1, 1, 5, 1, 4, 9], "minecraft:glass", false)
             scene.world.replaceBlocks([1, 3, 3, 1, 4, 4], "minecraft:glass", false)
             scene.world.replaceBlocks([1, 4, 1], "minecraft:glass", false)
-            scene.idle(20)
+            scene.idle(60)
             scene.text(75, "与房屋方块旁的门连接的所有有效地板的数量会被判定为有效面积").attachKeyFrame()
             scene.idle(20)
             scene.overlay.showOutline("white", {}, [2, 0, 2, 7, 0, 7], 30)
@@ -178,25 +179,34 @@ Ponder.registry((event) => {
             scene.showBasePlate()
             scene.idle(20)
 
-            scene.text(90, "你可以建造具有多层结构的房屋，以扩大有效面积").attachKeyFrame()
+            scene.text(60, "你可以建造具有多层结构的房屋，以扩大有效面积").attachKeyFrame()
             //显示结构
             for (let i = 1; i < 11; i++) {
                 scene.world.showSection([0, i, 0, 9, i, 9], Direction.DOWN)
+                scene.idle(5)
             }
+            scene.idle(40)
             scene.text(60, "你可以用方块搭建楼梯来连接到其它楼层").attachKeyFrame()
-            for(let i = 0; i < 4; i++){
-                scene.world.setBlocks([6-i,2+i,7], "minecraft:oak_planks", true)
+            for(let i = 0; i < 3; i++){
+                scene.world.setBlocks([5,1+i,3+i], "minecraft:oak_planks", false)
                 scene.idle(10)
             }
-            scene.overlay.showOutline("white", {}, [2, 4, 2, 6, 4, 7], 30)
+            scene.idle(20)
+            scene.overlay.showOutline("white", {}, [2, 3, 2, 4, 3, 5], 30)
             scene.idle(50)
 
             scene.text(60, "你也可以使用梯子连接楼层").attachKeyFrame()
-            for(let i = 0; i < 4; i++){
-                scene.world.setBlocks([6-i,2+i,7], "minecraft:oak_planks", false)
+            for(let i = 0; i < 3; i++){
+                scene.world.setBlocks([5,1+i,3+i], "minecraft:air", false)
+                scene.idle(5)
+            }
+            scene.world.setBlocks([5, 1, 2, 5, 3, 2], "minecraft:ladder", true)
+            for(let i = 0; i < 3; i++){
+                scene.world.modifyBlock([5, 1+i, 2], (state) => state.with("facing", "west"), false)
                 scene.idle(10)
             }
-            scene.world.setBlocks([2, 2, 7, 2, 5, 7], "minecraft:ladder", true)
+            scene.idle(20)
+            scene.overlay.showOutline("white", {}, [2, 3, 2, 4, 3, 5], 30)
             scene.idle(60)
 })
 })
