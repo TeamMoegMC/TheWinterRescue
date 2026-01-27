@@ -1,5 +1,5 @@
 Ponder.registry((event) => {
-    event.create(["frostedheart:house"])
+    event.create(["frostedheart:house", "frostedheart:warehouse"])
         .tag("frostedheart:town_ponder")
         .scene("building_general", "Town Building General", "kubejs:town_building", (scene, util) => {
             //整个结构为10 * 10 * 10
@@ -15,6 +15,11 @@ Ponder.registry((event) => {
                 scene.idle(15)
             }
             scene.idle(30)
+
+            scene.text(30, "城镇建筑通常需要一扇门", [1, 2, 3.5]).attachKeyFrame()
+            scene.idle(40)
+            scene.text(40, "并将主方块放在门旁边", [1, 2.5, 4.5])
+            scene.idle(50)
 
             scene.text(70, "建筑的墙壁可以替换为任意具有完整碰撞箱的固体方块").attachKeyFrame()
             scene.idle(30)
@@ -124,8 +129,7 @@ Ponder.registry((event) => {
             scene.overlay.showOutline("green", {}, [1, 0, 1, 5, 7, 8], 30)
             scene.idle(60)
 
-        }
-        )
+        })
 
     //house特有
     event.create(["frostedheart:house"])
@@ -134,13 +138,13 @@ Ponder.registry((event) => {
             scene.showBasePlate()
             scene.idle(20)
 
-            scene.text(90, "一个合格的城镇房屋需要有一个拥有至少一扇门的完全封闭空间").attachKeyFrame().colored(PonderPalette.RED).attachKeyFrame()
+            scene.text(90, "一个合格的城镇房屋需要有一个完全封闭空间").attachKeyFrame().colored(PonderPalette.RED).attachKeyFrame()
             //显示结构
             for (let i = 1; i < 6; i++) {
                 scene.world.showSection([0, i, 0, 9, i, 9], Direction.DOWN)
                 scene.idle(20)
             }
-            scene.text(100, "任何与外界连通的部分都会导致结构判定失败").attachKeyFrame()
+            scene.text(100, "任何墙壁或天花板的破损都会导致结构判定失败").attachKeyFrame()
             scene.world.setBlocks([1, 3, 2], "minecraft:air", true)
             scene.idle(5)
             scene.world.setBlocks([6, 2, 1], "minecraft:air", true)
@@ -159,7 +163,7 @@ Ponder.registry((event) => {
             scene.idle(10)
             scene.overlay.showOutline("green", {}, [1, 0, 1, 8, 5, 8], 30)
             scene.idle(50)
-            
+
             scene.world.replaceBlocks([2, 1, 1, 9, 4, 1], "minecraft:glass", false)
             scene.world.replaceBlocks([1, 1, 1, 1, 4, 2], "minecraft:glass", false)
             scene.world.replaceBlocks([1, 1, 5, 1, 4, 9], "minecraft:glass", false)
@@ -170,16 +174,88 @@ Ponder.registry((event) => {
             scene.idle(20)
             scene.overlay.showOutline("white", {}, [2, 0, 2, 7, 0, 7], 30)
             scene.idle(60)
-            scene.text(80, "房屋内的所有空气方块会被判定为有效体积").attachKeyFrame()
+            scene.text(80, "封闭房屋内的所有空间会被判定为有效体积").attachKeyFrame()
             scene.idle(20)
             scene.overlay.showOutline("white", {}, [2, 1, 2, 7, 4, 7], 30)
             scene.idle(60)
         })
-        .scene("2_story_house", "Multi story houses", "kubejs:town_2_story_house", (scene, util) => {
+
+    event.create(["frostedheart:warehouse"])
+        .tag("frostedheart:town_ponder")
+        .scene("warehouse_structure", "Building a Warehouse", "kubejs:town_warehouse", (scene, util) => { 
             scene.showBasePlate()
             scene.idle(20)
 
-            scene.text(60, "你可以建造具有多层结构的房屋，以扩大有效面积").attachKeyFrame()
+            scene.text(90, "一个合格的城镇仓库不需要完全封闭的空间，但需要封闭的围墙以及完整的天花板").attachKeyFrame().colored(PonderPalette.RED).attachKeyFrame()
+            //显示结构
+            for (let i = 1; i < 6; i++) {
+                scene.world.showSection([0, i, 0, 7, i, 7], Direction.DOWN)
+                scene.idle(20)
+            }
+            scene.text(60, "结构内的任何有效地板上方不存在天花板时，结构会判定失败").attachKeyFrame()
+            scene.idle(10)
+            scene.world.setBlocks([3,4,3], "minecraft:air", true)
+            scene.idle(20)
+            scene.overlay.showOutline("red", {}, [3,4,3], 30)
+            scene.overlay.showOutline("red", {}, [1,0,1,6,4,6], 30)
+            scene.idle(30)
+            scene.world.setBlocks([3,4,3], "minecraft:stone_bricks", true)
+            scene.idle(20)
+            scene.text(60, "结构的墙壁上若有足够一人通过的缺口，结构会判定失败").attachKeyFrame()
+            scene.idle(10)
+            scene.world.setBlocks([1, 2, 2], "minecraft:air", true)
+            scene.idle(5)
+            scene.world.setBlocks([4, 1, 1, 4, 2, 1], "minecraft:air", true)
+            scene.idle(20)
+            scene.overlay.showOutline("red", {}, [1,2,2,1,3,2], 30)
+            scene.overlay.showOutline("red", {}, [4,1,1,4,2,1], 30)
+            scene.idle(5)
+            scene.overlay.showOutline("red", {}, [1,0,1,6,4,6], 30)
+            scene.idle(60)
+            scene.world.setBlocks([1, 2, 2], "minecraft:stone_bricks", true)
+            scene.idle(5)
+            scene.world.setBlocks([4, 1, 1, 4, 2, 1], "minecraft:stone_bricks", true)
+            scene.text(70, "墙壁上的缺口不足一人通过时，不影响结构判定").attachKeyFrame()
+            scene.idle(20)
+            scene.world.setBlocks([3,1,1], "minecraft:air", true)
+            scene.idle(10)
+            scene.world.setBlocks([5,2,1], "minecraft:air", true)
+            scene.world.setBlocks([5,3,1], "minecraft:stone_bricks", true)
+            scene.idle(20)
+            scene.overlay.showOutline("green", {}, [3,1,1], 30)
+            scene.overlay.showOutline("green", {}, [5,2,1], 30)
+            scene.idle(10)
+            scene.overlay.showOutline("green", {}, [1,0,1,6,4,6], 30)
+            scene.idle(60)
+
+            scene.addKeyframe()
+            scene.world.setBlocks([3,1,1], "minecraft:stone_bricks", false)
+            scene.world.setBlocks([5,2,1], "minecraft:stone_bricks", false)
+            scene.world.setBlocks([5,3,1], "minecraft:air", false)
+            
+            scene.world.replaceBlocks([1,1,1, 5,2,1], "minecraft:glass", false)
+            scene.world.replaceBlocks([1,1,2, 1,2,2], "minecraft:glass", false)
+            scene.world.replaceBlocks([1,1,4], "minecraft:glass", false)
+            scene.world.replaceBlocks([1,1,5, 1,2,5], "minecraft:glass", false)
+            scene.world.replaceBlocks([2,4,2,5,4,5], "minecraft:glass", false)
+            scene.idle(20)
+            scene.text(60, "与房屋方块旁的门连接的所有有效地板的数量会被判定为有效面积")
+            scene.overlay.showOutline("white", {}, [2, 0, 2, 5, 0, 5], 30)
+            scene.idle(70)
+            scene.text(60, "所有有效地板到有效天花板之间的空间会被判定为有效体积")
+            scene.overlay.showOutline("white", {}, [2, 1, 2, 5, 3, 5], 30)
+            scene.idle(60)
+        })
+        
+
+    //多层建筑
+    event.create(["frostedheart:house", "frostedheart:warehouse"])
+        .tag("frostedheart:town_ponder")
+        .scene("2_story_building", "Multi story building", "kubejs:town_2_story_house", (scene, util) => {
+            scene.showBasePlate()
+            scene.idle(20)
+
+            scene.text(60, "你可以建造具有多层结构的建筑，以扩大有效面积，以城镇房屋为例").attachKeyFrame()
             //显示结构
             for (let i = 1; i < 11; i++) {
                 scene.world.showSection([0, i, 0, 9, i, 9], Direction.DOWN)
@@ -187,8 +263,8 @@ Ponder.registry((event) => {
             }
             scene.idle(40)
             scene.text(60, "你可以用方块搭建楼梯来连接到其它楼层").attachKeyFrame()
-            for(let i = 0; i < 3; i++){
-                scene.world.setBlocks([5,1+i,3+i], "minecraft:oak_planks", false)
+            for (let i = 0; i < 3; i++) {
+                scene.world.setBlocks([5, 1 + i, 3 + i], "minecraft:oak_planks", false)
                 scene.idle(10)
             }
             scene.idle(20)
@@ -196,17 +272,16 @@ Ponder.registry((event) => {
             scene.idle(50)
 
             scene.text(60, "你也可以使用梯子连接楼层").attachKeyFrame()
-            for(let i = 0; i < 3; i++){
-                scene.world.setBlocks([5,1+i,3+i], "minecraft:air", false)
+            for (let i = 0; i < 3; i++) {
+                scene.world.setBlocks([5, 1 + i, 3 + i], "minecraft:air", false)
                 scene.idle(5)
             }
             scene.world.setBlocks([5, 1, 2, 5, 3, 2], "minecraft:ladder", true)
-            for(let i = 0; i < 3; i++){
-                scene.world.modifyBlock([5, 1+i, 2], (state) => state.with("facing", "west"), false)
-                scene.idle(10)
+            for (let i = 0; i < 3; i++) {
+                scene.world.modifyBlock([5, 1 + i, 2], (state) => state.with("facing", "west"), false)
             }
-            scene.idle(20)
+            scene.idle(40)
             scene.overlay.showOutline("white", {}, [2, 3, 2, 4, 3, 5], 30)
             scene.idle(60)
-})
+        })
 })

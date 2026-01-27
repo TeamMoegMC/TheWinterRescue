@@ -19,9 +19,14 @@
 	enableWaypoint = true
 	#Enables the tips rendering. 
 	enableTip = true
-	#Radius of the Wheel Menu. 
+	#Radius of the Radial Menu. 
 	#Range: > 60
 	wheelMenuRadius = 100
+	#Enables the cursor in the Radial Menu. 
+	enableWheelMenuCursor = false
+	#The theme color of most FH HUDs. 
+	#Range: > -2147483648
+	themeColor = -3736321
 
 ["Frozen Effects"]
 	#Enables the frozen overlay when player is freezing. 
