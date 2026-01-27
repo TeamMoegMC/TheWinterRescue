@@ -252,18 +252,13 @@
 			can_repeat: true
 			dependencies: ["0CF09A0965515E7C"]
 			description: [
-				"&n&l&4这里的任务奖励应为在此版本未加入的镇长印章！&r&r&r"
 				"当城镇的建筑和居民变多，逐一检查它们可能变得麻烦。"
 				"你可以通过手持镇长印章右键以总览城镇的所有建筑和居民。"
 			]
 			id: "4823FC15F9B62548"
 			rewards: [{
-				id: "1F724245B076C342"
-				item: {
-					Count: 1
-					id: "ftbquests:book"
-					tag: { }
-				}
+				id: "596FE5AA276E666A"
+				item: "frostedheart:mayors_seal"
 				type: "item"
 			}]
 			subtitle: "不是传国玉玺"
