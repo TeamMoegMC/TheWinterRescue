@@ -793,6 +793,17 @@ ServerEvents.recipes((event) => {
             B: "#forge:chests"
         }
         ],
+      [
+            "storagedrawers:portability_upgrade", [
+            "AAA",
+            "CBC",
+            "AAA"
+        ], {
+            A: "#forge:rods/aluminum",
+            B: "storagedrawers:upgrade_template",
+            C: "#forge:plates/aluminum"
+        }
+        ],
         [
             "storagedrawers:iron_storage_upgrade", [
             "AAA",

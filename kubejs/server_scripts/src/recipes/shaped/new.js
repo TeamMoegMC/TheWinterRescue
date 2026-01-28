@@ -1542,6 +1542,17 @@ ServerEvents.recipes((event) => {
                 A: "frostedheart:kaolin",
             }
         ],
+        [
+            'create:belt_connector', [
+                "CAC",
+                "BBB",
+                "CAC",
+            ], {
+                A: "minecraft:chain",
+                B: "#forge:wires/copper",
+                C: "#twr:plates/structural",
+            }
+        ],
 
     ]
     addShapedRecipes.forEach((recipe, index) => {
