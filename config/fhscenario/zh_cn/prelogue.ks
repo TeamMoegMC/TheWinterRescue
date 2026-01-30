@@ -3,8 +3,8 @@
 @showTitle t="第一章 第一节" st="霜星迫降"
 @delay t=60
 
-@displayTip id="scenario_tip"
 @if exp="client.preloguePlayed"
+@displayTip id="scenario_tip"
 是否跳过序章剧情？[r]
 [link l=*intitle][&e跳过&r][endlink][r]
 [link l=*beginprelogue][&e观看&r][endlink][r]

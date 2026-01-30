@@ -1013,6 +1013,11 @@
 			]
 			description: ["{quest.twr.20E34B234337C28A.description.1}"]
 			id: "20E34B234337C28A"
+			rewards: [{
+				fh_tip: "campfire"
+				id: "406A7AEAFA2D538F"
+				type: "frostedheart:tip"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "3A6F2A76403AAC25"
@@ -1076,6 +1081,18 @@
 			}]
 			x: -4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6B7D4F59C921C1FC"]
+			hide_dependency_lines: true
+			id: "40001BBC5DCA7071"
+			tasks: [{
+				id: "2450CCB5E85E8E8D"
+				item: "charcoal_pit:fire_starter"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["{chapter.twr.0C07C58470EE031C.subtitle.0}"]

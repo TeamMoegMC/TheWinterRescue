@@ -10,7 +10,6 @@ ServerEvents.recipes((event) => {
 		"immersiveengineering:circuit_table",
 		"immersiveengineering:watermill",
 		"immersiveengineering:windmill",
-		"immersiveengineering:windmill_blade",
 		"immersiveengineering:waterwheel_segment",
 		"immersiveengineering:sample_drill",
 		"immersiveengineering:thermoelectric_generator",
@@ -157,6 +156,8 @@ ServerEvents.recipes((event) => {
 		"immersiveengineering:toolbox",
 		"immersiveengineering:sorter",
 		"immersiveengineering:fluid_sorter",
+		'immersiveengineering:windmill_blade',
+		'immersiveengineering:windmill_sail',
 
 		// create power devices: we have steam power
 		"create:water_wheel",
@@ -166,10 +167,7 @@ ServerEvents.recipes((event) => {
 		"create:windmill_bearing",
 		"create:steam_engine",
 
-		// create: causes infinite power
-		"create:mechanical_piston",
-		"create:sticky_mechanical_piston",
-		"create:piston_extension_pole",
+		// create
 		"create:cart_assembler",
 
         // materials

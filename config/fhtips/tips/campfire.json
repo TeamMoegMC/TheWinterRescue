@@ -1,7 +1,7 @@
 {
-  "id": "plant",
-  "category": "tips.frostedheart.category.plant",
-  "nextTip": "plant_2",
+  "id": "campfire",
+  "category": "tips.frostedheart.category.survival",
+  "nextTip": "campfire_2",
   "image": "",
   "clickAction": "",
   "clickActionContent": "",
@@ -13,10 +13,12 @@
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "tips.frostedheart.plant.title",
-    "tips.frostedheart.plant.desc1"
+    "tips.frostedheart.campfire.title",
+    "tips.frostedheart.campfire.desc1"
   ],
   "children": [
-    "plant_2"
+    "campfire_2",
+    "campfire_3",
+    "campfire_4"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "body_temperature_2",
-  "category": "tips.frostedheart.category.body_temperature",
+  "category": "tips.frostedheart.category.survival",
   "nextTip": "body_temperature_3",
   "image": "twr_tips:textures/temp_bar.png",
   "clickAction": "",

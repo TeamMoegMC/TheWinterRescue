@@ -529,25 +529,20 @@
 			y: -7.0d
 		}
 		{
+			icon: "minecraft:campfire"
 			id: "327BF86CE38B9B08"
 			rewards: [{
 				fh_tip: "campfire"
 				id: "5ACF377FCA0A6237"
 				type: "frostedheart:tip"
 			}]
-			tasks: [
-				{
-					id: "089B575122EC7DB6"
-					observe_type: 0
-					timer: 0L
-					to_observe: "minecraft:campfire"
-					type: "observation"
-				}
-				{
-					id: "77B21F2CB8D8207E"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "089B575122EC7DB6"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:campfire"
+				type: "observation"
+			}]
 			title: "{block.minecraft.campfire}"
 			x: 3.5d
 			y: -7.0d

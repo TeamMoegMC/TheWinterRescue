@@ -1553,6 +1553,78 @@ ServerEvents.recipes((event) => {
                 C: "#twr:plates/structural",
             }
         ],
+        [
+            'minecraft:torch', 8, [
+                "A",
+                "B",
+            ], {
+                A: "stone_age:fat",
+                B: "minecraft:stick",
+            }
+        ],
+        [
+            'minecraft:bundle', [
+                "AC",
+                "B ",
+            ], {
+                A: "#forge:string",
+                B: "#twr:hide",
+                C: "stone_age:fish_bone",
+            }
+        ],
+        [
+            'minecraft:bundle', [
+                "AC",
+                "BB",
+            ], {
+                A: "#forge:string",
+                B: "#twr:small_hide",
+                C: "stone_age:fish_bone",
+            }
+        ],
+        [
+            'frostedheart:fabric_vawt', [
+                "A A",
+                "ABA",
+                " C ",
+            ], {
+                A: "immersiveengineering:hemp_fabric",
+                B: "immersiveengineering:treated_fence",
+                C: "create:shaft",
+            }
+        ],
+        [
+            'frostedheart:metal_vawt', [
+                "A A",
+                "ABA",
+                " C ",
+            ], {
+                A: "#forge:plates/iron",
+                B: "#forge:ingots/iron",
+                C: "create:shaft",
+            }
+        ],
+        [
+            'frostedheart:alloy_vawt', [
+                "A A",
+                "ABA",
+                " C ",
+            ], {
+                A: "#forge:plates/duralumin",
+                B: "#forge:ingots/duralumin",
+                C: "create:shaft",
+            }
+        ],
+        [
+            'create:andesite_casing', 4, [
+                " A ",
+                "ABA",
+                " A ",
+            ], {
+                A: "#forge:rods/cast_iron",
+                B: "#forge:stripped_logs"
+            }
+        ],
 
     ]
     addShapedRecipes.forEach((recipe, index) => {

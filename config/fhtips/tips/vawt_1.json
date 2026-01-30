@@ -1,7 +1,7 @@
 {
-  "id": "soil_temperature_3",
-  "category": "tips.frostedheart.category.plant",
-  "nextTip": "infrared_view",
+  "id": "vawt_1",
+  "category": "tips.frostedheart.category.machine",
+  "nextTip": "vawt_2",
   "image": "",
   "clickAction": "",
   "clickActionContent": "",
@@ -9,12 +9,12 @@
   "onceOnly": true,
   "hide": false,
   "pin": false,
-  "displayTime": 30000,
+  "displayTime": 12000,
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "tips.frostedheart.soil_temperature.title",
-    "tips.frostedheart.soil_temperature.desc4"
+    "tips.frostedheart.vawt.title",
+    "tips.frostedheart.vawt.desc2"
   ],
   "children": []
 }

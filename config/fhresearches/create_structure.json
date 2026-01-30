@@ -1,54 +1,89 @@
 {
-  "icon": "create:gantry_shaft",
-  "category": "frostedheart:production",
-  "parents": [
-    "steam_powerd"
-  ],
+  "showAltDesc": true,
+  "points": 2000,
   "clues": [
     {
       "type": "game",
-      "value": 0.65,
       "id": "121a09d3594f4163",
       "required": true,
+      "value": 0.65,
       "level": 1
     },
     {
       "type": "game",
-      "value": 0.35,
       "id": "3e8f0631d17949fa",
+      "value": 0.35,
       "level": 1
     }
   ],
   "ingredients": [
     {
-      "count": 8,
       "base_ingredient": {
         "item": "minecraft:redstone"
-      }
+      },
+      "count": 8
     }
   ],
   "effects": [
     {
       "type": "recipe",
-      "id": "d76e3f1a415f45a9",
-      "item": "create:gantry_shaft"
+      "item": {
+        "item": "create:super_glue"
+      },
+      "id": "eae55cce82b941a4"
     },
     {
       "type": "recipe",
-      "id": "668cc07c7c504f1a",
-      "item": "create:clockwork_bearing"
+      "item": {
+        "item": "create:clockwork_bearing"
+      },
+      "id": "668cc07c7c504f1a"
     },
     {
       "type": "recipe",
-      "id": "eae55cce82b941a4",
-      "item": "create:super_glue"
+      "item": {
+        "item": "create:gantry_carriage"
+      },
+      "id": "294543cb1944798"
     },
     {
       "type": "recipe",
-      "id": "294543cb1944798",
-      "item": "create:gantry_carriage"
+      "item": {
+        "item": "create:gantry_shaft"
+      },
+      "id": "d76e3f1a415f45a9"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "create:mechanical_piston"
+      },
+      "id": "1286aabc95a345ea"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "create:sticky_mechanical_piston"
+      },
+      "id": "f43984218b98436f"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "create:piston_extension_pole"
+      },
+      "id": "c16b776426974adc"
     }
   ],
-  "points": 2000,
-  "showAltDesc": true
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "create:gantry_shaft",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:production",
+  "parents": [
+    "steam_powerd"
+  ]
 }

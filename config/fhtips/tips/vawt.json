@@ -1,7 +1,7 @@
 {
-  "id": "plant",
-  "category": "tips.frostedheart.category.plant",
-  "nextTip": "plant_2",
+  "id": "vawt",
+  "category": "tips.frostedheart.category.machine",
+  "nextTip": "vawt_1",
   "image": "",
   "clickAction": "",
   "clickActionContent": "",
@@ -13,10 +13,8 @@
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "tips.frostedheart.plant.title",
-    "tips.frostedheart.plant.desc1"
+    "tips.frostedheart.vawt.title",
+    "tips.frostedheart.vawt.desc1"
   ],
-  "children": [
-    "plant_2"
-  ]
+  "children": ["vawt_1", "vawt_2", "vawt_3"]
 }

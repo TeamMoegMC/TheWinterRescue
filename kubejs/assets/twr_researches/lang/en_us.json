@@ -261,6 +261,9 @@
 	"research.frostedresearch.transmission_machinery.name": "Transmission Machinery",
 	"research.frostedresearch.villager_language.desc.0": "After spending some time with the refugees, I found they come from all over the world, speaking many languages. I might not become fluent in all of them, but if I study basic grammar and vocabulary and practice speaking, I think I can build good relationships—and profit in trade.",
 	"research.frostedresearch.villager_language.name": "Language Learning",
+  "research.frostedresearch.wind_utilize.desc.0": "Manual cranking is far too inefficient. At the moment, I need a temporary source of power, and readily available wind is undoubtedly the best choice.",
+  "research.frostedresearch.wind_utilize.desc_alt.0": "Vertical-axis wind turbines, though not as efficient as traditional horizontal-axis windmills, should be better suited to the harsh environment here.",
+  "research.frostedresearch.wind_utilize.name": "Wind Utilization",
 	"research.frostedresearch.wool_armor.desc.0": "Wool seems to be the best option available at the moment, I'll have to find a way to domesticate sheep.",
 	"research.frostedresearch.wool_armor.desc_alt.0": "A snowstorm is approaching and this primitive clothing won't hold up for very long...I need to find more warm clothing options.",
 	"research.frostedresearch.wool_armor.name": "Wool Clothes"

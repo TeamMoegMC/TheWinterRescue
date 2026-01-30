@@ -1169,7 +1169,38 @@ ServerEvents.recipes((event) => {
                 B: "#forge:glass_panes",
                 C: "minecraft:torch"
             }
-        ]
+        ],
+        [
+            "create:piston_extension_pole", [
+                "A",
+                "B",
+                "A"
+            ], {
+                A: "#minecraft:planks",
+                B: "#forge:rods/cast_iron"
+            }
+        ],
+        [
+            "create:gearbox", 2, [
+                " A ",
+                "ABA",
+                " A "
+            ], {
+                A: "#the_winter_rescue:cogwheels",
+                B: "create:andesite_casing"
+            }
+        ],
+        [
+            "create:vertical_gearbox", 2, [
+                "A A",
+                " B ",
+                "A A"
+            ], {
+                A: "#the_winter_rescue:cogwheels",
+                B: "create:andesite_casing"
+            }
+        ],
+
 
     ]
     changeShapedRecipes.forEach((recipe, index) => {

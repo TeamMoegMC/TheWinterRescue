@@ -716,4 +716,17 @@ ServerEvents.tags("item", (event) => {
         'frostedheart:ultimate_accelerated_fertilizer',
         'frostedheart:ultimate_preserved_fertilizer'
     ])
+
+    event.add("twr:small_hide", [
+        'minecraft:rabbit_hide',
+        'frostedheart:fox_hide'
+    ])
+
+    event.add("twr:hide", [
+        'frostedheart:wolf_hide',
+        'frostedheart:polar_bear_hide',
+        'frostedheart:synthetic_leather',
+        'minecraft:leather',
+        'stone_age:raw_hide'
+    ])
 })

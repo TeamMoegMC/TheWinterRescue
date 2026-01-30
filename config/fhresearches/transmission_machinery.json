@@ -1,53 +1,63 @@
 {
-  "icon": "steampowered:bronze_large_cogwheel",
-  "category": "frostedheart:production",
-  "parents": [
-    "workbench"
-  ],
+  "showAltDesc": true,
+  "points": 1500,
   "clues": [
     {
       "type": "game",
-      "value": 0.5,
       "id": "5196c8e264dc41e6",
       "required": true,
+      "value": 0.5,
       "level": 0
     },
     {
       "type": "item",
-      "value": 0.5,
       "id": "9c8abd778cc04c1a",
+      "value": 0.5,
+      "consume": true,
       "item": {
-        "count": 4,
         "base_ingredient": {
           "item": "frostedheart:bronze_ingot"
-        }
-      },
-      "consume": true
+        },
+        "count": 4
+      }
     }
   ],
-  "ingredients": [],
   "effects": [
     {
       "type": "recipe",
-      "id": "a6ea06ff08b4a27",
-      "item": "steampowered:bronze_large_cogwheel"
+      "item": {
+        "item": "steampowered:bronze_large_cogwheel"
+      },
+      "id": "a6ea06ff08b4a27"
     },
     {
       "type": "recipe",
-      "id": "afbec057af9c49af",
-      "item": "steampowered:bronze_cogwheel"
+      "item": {
+        "item": "steampowered:bronze_cogwheel"
+      },
+      "id": "afbec057af9c49af"
     },
     {
       "type": "recipe",
-      "id": "6aa606dd64b94197",
-      "item": "create:shaft"
+      "item": {
+        "item": "create:shaft"
+      },
+      "id": "6aa606dd64b94197"
     },
     {
       "type": "recipe",
-      "id": "7866174699b54cd8",
-      "item": "create:hand_crank"
+      "item": {
+        "item": "create:hand_crank"
+      },
+      "id": "7866174699b54cd8"
     }
   ],
-  "points": 1500,
-  "showAltDesc": true
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "steampowered:bronze_large_cogwheel",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:production"
 }

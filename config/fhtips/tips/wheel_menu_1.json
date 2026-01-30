@@ -6,10 +6,10 @@
   "clickAction": "",
   "clickActionContent": "",
   "alwaysVisible": false,
-  "onceOnly": false,
+  "onceOnly": true,
   "hide": false,
   "pin": false,
-  "displayTime": 16000,
+  "displayTime": 12000,
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
@@ -17,6 +17,7 @@
     "tips.frostedheart.wheel_menu.desc1"
   ],
   "children": [
-    "wheel_menu_2"
+    "wheel_menu_2",
+    "wheel_menu_3"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "sensible_temperature",
-  "category": "tips.frostedheart.category.body_temperature",
+  "category": "tips.frostedheart.category.survival",
   "nextTip": "sensible_temperature_2",
   "image": "twr_tips:textures/new_hud.png",
   "clickAction": "",

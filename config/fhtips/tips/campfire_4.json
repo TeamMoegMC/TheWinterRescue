@@ -1,20 +1,20 @@
 {
-  "id": "ponder",
-  "category": "tips.frostedheart.category.control",
+  "id": "campfire_4",
+  "category": "tips.frostedheart.category.survival",
   "nextTip": "",
   "image": "",
   "clickAction": "",
   "clickActionContent": "",
   "alwaysVisible": false,
-  "onceOnly": true,
+  "onceOnly": false,
   "hide": false,
   "pin": false,
-  "displayTime": 12000,
+  "displayTime": 6000,
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "tips.frostedheart.ponder.title",
-    "tips.frostedheart.ponder.desc1"
+    "tips.frostedheart.campfire.title",
+    "tips.frostedheart.campfire.desc4"
   ],
   "children": []
 }

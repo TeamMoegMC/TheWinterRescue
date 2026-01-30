@@ -1,19 +1,21 @@
 {
-  "tips.frostedheart.category.body_temperature" : "Stay Warm",
   "tips.frostedheart.category.control" : "Controls",
-  "tips.frostedheart.category.game_mechanics" : "Game Mechanics",
+  "tips.frostedheart.category.game_mechanics" : "Game Play",
   "tips.frostedheart.category.plant" : "Planting",
+  "tips.frostedheart.category.survival" : "Survival",
+  "tips.frostedheart.category.extra_utilities" : "Useful Items",
+  "tips.frostedheart.category.machine" : "Machines",
   "tips.frostedheart.category.town" : "Town and Refugees",
 
   "tips.frostedheart.scenario_tip.title": "Tips",
-  "tips.frostedheart.scenario_tip.desc1": "Press &6[T]&r to select choices",
-  "tips.frostedheart.scenario_tip.desc2": "Press &6[Z]&r to skip text animation",
-  "tips.frostedheart.scenario_tip.desc3": "Press &6[ESC]&r five times to skip cinematic",
+  "tips.frostedheart.scenario_tip.desc1": "Press&6 [T]&r to select choices",
+  "tips.frostedheart.scenario_tip.desc2": "Press&6 [Z]&r to skip text animation",
+  "tips.frostedheart.scenario_tip.desc3": "Press&6 [ESC]&r five times to skip cinematic",
 
   "tips.frostedheart.sensible_temperature.title": "Apparent Temperature",
-  "tips.frostedheart.sensible_temperature.desc1": "The orb at the bottom of your screen displays your &6Apparent Temperature&r, which reflects whether you feel &b&lcold&r or &6&lhot&r in the current environment.",
+  "tips.frostedheart.sensible_temperature.desc1": "The orb at the bottom of your screen displays your&6 Apparent Temperature&r, which reflects whether you feel&b&l cold&r or&6&l hot&r in the current environment.",
   "tips.frostedheart.sensible_temperature.desc2": " ",
-  "tips.frostedheart.sensible_temperature.desc3": "Note that &6Apparent Temperature &lis NOT&r &6Body Temperature&r, but rather a calculation result combining factors like ambient temperature, body heat, and clothing. The most comfortable perceived temperature is around &630°C&r (&686°F&r).",
+  "tips.frostedheart.sensible_temperature.desc3": "Please note that&6 Apparent Temperature&l is NOT&r&6 Body Temperature&r, but rather a calculation result combining factors like ambient temperature, body heat, and clothing. The most comfortable perceived temperature is around&6 30°C&r (&686°F&r).",
 
   "tips.frostedheart.murderer.title": "Murderer",
   "tips.frostedheart.murderer.desc1": "You killed a non-hostile human being. Clearly, this won't do any good to your relationship with them.",
@@ -21,35 +23,48 @@
   "tips.frostedheart.murderer.desc3": "If you continue doing this, they might refuse to trade or communicate with you.",
 
   "tips.frostedheart.maniac.title": "Maniac",
-  "tips.frostedheart.maniac.desc1": "Your &cdeeds&r have spread among them...",
+  "tips.frostedheart.maniac.desc1": "Your&c deeds&r have spread among them...",
 
   "tips.frostedheart.plant.title": "Planting",
-  "tips.frostedheart.plant.desc1": "Simply scattering seeds on snow and expecting growth is clearly unrealistic. Crops now require &bsuitable environmental conditions&r to grow.",
-  "tips.frostedheart.plant.desc2": "Hold &6[S]&r while hovering seed in the inventory to view its planting information.",
+  "tips.frostedheart.plant.desc1": "Simply scattering seeds on snow and expecting growth is clearly unrealistic. Crops now require&b suitable environmental conditions&r to grow.",
+  "tips.frostedheart.plant.desc2": "Hold&6 [S]&r while hovering seed in the inventory to view its planting information.",
 
   "tips.frostedheart.soil_temperature.title": "Soil Temperature",
   "tips.frostedheart.soil_temperature.desc1": "Crops require suitable soil temperatures to grow. When soil temperature exceeds the survival range, crops will begin to wither, while suitable temperatures accelerate growth.",
-  "tips.frostedheart.soil_temperature.desc2": "Soil temperature is influenced by natural factors such as &bweather&r, &baltitude&r, and &bbiome&r.",
-  "tips.frostedheart.soil_temperature.desc3": "Heat sources like campfires and torches do not affect soil temperature; only &6more advanced heating equipment&r can heat the soil.",
+  "tips.frostedheart.soil_temperature.desc2": "Soil temperature is influenced by natural factors such as&b weather&r,&b altitude&r, and&b biome&r.",
+  "tips.frostedheart.soil_temperature.desc3": "Heat sources like campfires and torches do not affect soil temperature; only&6 more advanced heating equipment&r can heat the soil.",
   "tips.frostedheart.soil_temperature.desc4": "Soil temperature is not directly displayed. You must research and unlock the {item.frostedheart.soil_thermometer} to measure it.",
 
   "tips.frostedheart.shelter_and_light.title": "Shelter and Light",
-  "tips.frostedheart.shelter_and_light.desc1": "Most crops require &bSunlight (Sky Light)&r to grow properly. However, during severe weather like blizzards, exposed crops may be destroyed. You may need to build shelters using &btransparent blocks&r like glass to protect them.",
+  "tips.frostedheart.shelter_and_light.desc1": "Most crops require&b Sunlight (Sky Light)&r to grow properly. However, during severe weather like blizzards, exposed crops may be destroyed. You may need to build shelters using&b transparent blocks&r like glass to protect them.",
 
   "tips.frostedheart.fertilizer.title": "Fertilizer",
-  "tips.frostedheart.fertilizer.desc1": "Fertilizers provide various growth benefits to crops. Hold &6[Shift]&r while hovering fertilizer in the inventory to view specific effects.",
+  "tips.frostedheart.fertilizer.desc1": "Fertilizers provide various growth benefits to crops. Hold&6 [Shift]&r while hovering fertilizer in the inventory to view specific effects.",
   "tips.frostedheart.fertilizer.desc2": "There are three types of fertilizer: Growth Acceleration, Yield Booster, and Preserved, each with three tiers: Basic, Advanced, and Modern. Higher-tier fertilizers offer stronger effects.",
   "tips.frostedheart.fertilizer.desc3": "Hold fertilizer and right-click on soil or crops to apply it. Each soil block can hold up to 2 units of the same fertilizer, which are gradually consumed as crops grow.",
 
   "tips.frostedheart.soil_thermometer.desc1": "Hold the {item.frostedheart.soil_thermometer} to view real-time information such as planting temperature and remaining fertilizer levels on the screen.",
 
   "tips.frostedheart.infrared_view.title": "Infrared Vision",
-  "tips.frostedheart.infrared_view.desc1": "Your glasses are equipped with infrared vision. Press &6[I]&r to view temperature area variations.",
+  "tips.frostedheart.infrared_view.desc1": "Your glasses are equipped with infrared vision. Press&6 [I]&r to view temperature area variations.",
 
   "tips.frostedheart.ponder.title": "Ponder",
-  "tips.frostedheart.ponder.desc1": "Pondering helps you intuitively understand an item or block's functionality. When an item has a ponder prompt, hold &6[W]&r to enter the pondering scene.",
+  "tips.frostedheart.ponder.desc1": "Pondering helps you intuitively understand an item or block's functionality. When an item has a ponder prompt, hold&6 [W]&r to enter the pondering scene.",
 
   "tips.frostedheart.wheel_menu.title": "Radial Menu",
-  "tips.frostedheart.wheel_menu.desc1": "Hold &6[Tab]&r to open the radial menu and access various quick functions. Select &b[{gui.frostedheart.wheel_menu.selection.archive}]&r to view all obtained tips.",
-  "tips.frostedheart.wheel_menu.desc2": "Not enough keys? Select &b[{gui.wheel_menu.editor.edit}]&r to add custom options, including Key Binds and Commands, and hide or rearrange selections."
+  "tips.frostedheart.wheel_menu.desc1": "Hold&6 [Tab]&r to open the radial menu and access various quick functions. Select&b [{gui.frostedheart.wheel_menu.selection.archive}]&r to view all obtained tips.",
+  "tips.frostedheart.wheel_menu.desc2": "Not enough keys? Select&b [{gui.wheel_menu.editor.edit}]&r to add custom options, including Key Binds and Commands, and hide or rearrange selections.",
+  "tips.frostedheart.wheel_menu.desc3": "You can also change the default key bind in [&bOptions&r →&b Controls&r →&b Keybinds&r →&b Frosted Heart&r]",
+
+  "tips.frostedheart.campfire.title": "Campfire",
+  "tips.frostedheart.campfire.desc1": "A burning campfire can provide warmth and can be used for &6cooking food&r and &6boiling water&r.",
+  "tips.frostedheart.campfire.desc2": "The campfire requires the addition of fuel. Press&6 [Q]&r to drop combustible items into the campfire, then ignite it using any igniter.",
+  "tips.frostedheart.campfire.desc3": "Lighting a campfire in an open environment is not very effective. Surround the campfire with blocks to create a structure similar to a&6 fireplace&r, which can concentrate the heat emitted by the campfire.",
+  "tips.frostedheart.campfire.desc4": "Don't get too close, as the high temperature may burn you!",
+
+  "tips.frostedheart.vawt.title": "VAWT",
+  "tips.frostedheart.vawt.desc1": "The Vertical Axis Wind Turbine, a structurally simple wind engine that converts &bwind energy&r into &6Stress&r, freeing you from manual cranking.",
+  "tips.frostedheart.vawt.desc2": "The wind turbine must be placed in &bopen terrain&r and &bcannot have other wind turbines nearby&r, or it will cease to function.",
+  "tips.frostedheart.vawt.desc3": "Over time, the wind turbine will wear out and eventually break down completely. You can then recycle it to recover some of the materials.",
+  "tips.frostedheart.vawt.desc4": "During blizzards, it generates more Stress, but the turbine will also degrade at an accelerated rate."
 }
