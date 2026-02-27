@@ -12,16 +12,98 @@
 	}
 	id: "683664CACFD52C99"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "571E7C198F8E0633"
+			linked_quest: "122E83F324DB80B7"
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			id: "489843FB8D7AA8B7"
+			linked_quest: "1120D6251E9B42C4"
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			id: "56B9A8E32A93662C"
+			linked_quest: "31ED006279866288"
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			id: "23D30A41D170DB08"
+			linked_quest: "6F39341180466270"
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			id: "78EAD207FB805683"
+			linked_quest: "61D23CC76588F126"
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			id: "1750E9526BB80C64"
+			linked_quest: "7D2807571451631F"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			id: "74C69787CD3ADD5A"
+			linked_quest: "73242CFC1E655F2D"
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			id: "6C37F824C13B3525"
+			linked_quest: "0ED9C71E91687BFA"
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			id: "2A9EE552CE1063E5"
+			linked_quest: "40254682DFE145B8"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			id: "487AA5F9B0652619"
+			linked_quest: "4D1B960E67D023C4"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			id: "5F55FFACDE7E69CE"
+			linked_quest: "6C49B6777A13CC02"
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			id: "36BF72BC3496BF66"
+			linked_quest: "2A8533418E3A8B06"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			id: "21CBD5C7B27E059D"
+			linked_quest: "7BF6873FAD829A65"
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			id: "1113D88166C658D6"
+			linked_quest: "15B593BC4399546E"
+			x: -4.5d
+			y: 13.0d
+		}
+	]
 	quests: [
 		{
 			description: [
 				"{quest.twr.181378ABF5CCD166.description.1}"
 				"{quest.twr.181378ABF5CCD166.description.2}"
 				"{quest.twr.181378ABF5CCD166.description.3}"
-				"{quest.twr.181378ABF5CCD166.description.4}"
-				"{quest.twr.181378ABF5CCD166.description.5}"
-				"{quest.twr.181378ABF5CCD166.description.6}"
 			]
 			hide_until_deps_visible: false
 			icon: "minecraft:grass_block"
@@ -38,10 +120,6 @@
 			y: 1.0d
 		}
 		{
-			description: [
-				"{quest.twr.7D2807571451631F.description.1}"
-				"{quest.twr.7D2807571451631F.description.2}"
-			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "7D2807571451631F"
@@ -56,14 +134,10 @@
 				item: "frostedheart:raw_tin"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
-			description: [
-				"{quest.twr.40254682DFE145B8.description.1}"
-				"{quest.twr.40254682DFE145B8.description.2}"
-			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "40254682DFE145B8"
@@ -78,14 +152,10 @@
 				item: "immersiveengineering:raw_nickel"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.0d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"{quest.twr.31ED006279866288.description.1}"
-				"{quest.twr.31ED006279866288.description.2}"
-			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "31ED006279866288"
@@ -100,14 +170,10 @@
 				item: "frostedheart:raw_pyrite"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.0d
+			x: -4.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"{quest.twr.72D5B725766622F4.description.1}"
-				"{quest.twr.72D5B725766622F4.description.2}"
-			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "72D5B725766622F4"
@@ -122,8 +188,8 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -140,8 +206,8 @@
 				item: "frostedheart:bauxite"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 8.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -164,14 +230,10 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 7.0d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
-			description: [
-				"{quest.twr.5907E1263E6D81E2.description.1}"
-				"{quest.twr.5907E1263E6D81E2.description.2}"
-			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "5907E1263E6D81E2"
@@ -186,14 +248,10 @@
 				item: "immersiveengineering:raw_lead"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.0d
+			x: -4.5d
+			y: 5.5d
 		}
 		{
-			description: [
-				"{quest.twr.3840FFD53990ECA2.description.1}"
-				"{quest.twr.3840FFD53990ECA2.description.2}"
-			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "3840FFD53990ECA2"
@@ -208,14 +266,10 @@
 				item: "minecraft:raw_gold"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.5d
+			x: -6.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"{quest.twr.6C49B6777A13CC02.description.1}"
-				"{quest.twr.6C49B6777A13CC02.description.2}"
-			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "6C49B6777A13CC02"
@@ -230,14 +284,10 @@
 				item: "immersiveengineering:raw_silver"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.5d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"{quest.twr.2A8533418E3A8B06.description.1}"
-				"{quest.twr.2A8533418E3A8B06.description.2}"
-			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "2A8533418E3A8B06"
@@ -253,14 +303,10 @@
 				item: "create:raw_zinc"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.0d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
-			description: [
-				"{quest.twr.1120D6251E9B42C4.description.1}"
-				"{quest.twr.1120D6251E9B42C4.description.2}"
-			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "1120D6251E9B42C4"
@@ -275,13 +321,14 @@
 				item: "frostedheart:raw_magnesite"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.5d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			hide_dependency_lines: true
 			hide_text_until_complete: false
 			id: "707E5C06843421A7"
+			invisible: true
 			rewards: [{
 				id: "1B5A3EAC2BF83187"
 				insight: 1
@@ -295,13 +342,9 @@
 			}]
 			title: "{quest.twr.707E5C06843421A7.title}"
 			x: -4.5d
-			y: 10.0d
+			y: 11.5d
 		}
 		{
-			description: [
-				"{quest.twr.4D1B960E67D023C4.description.1}"
-				"{quest.twr.4D1B960E67D023C4.description.2}"
-			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "4D1B960E67D023C4"
@@ -317,13 +360,9 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
-			description: [
-				"{quest.twr.0ED9C71E91687BFA.description.1}"
-				"{quest.twr.122E83F324DB80B7.description.2}"
-			]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "122E83F324DB80B7"
@@ -338,11 +377,10 @@
 				item: "frostedheart:raw_halite"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
-			description: ["{quest.twr.73242CFC1E655F2D.description.1}"]
 			hide_dependency_lines: true
 			hide_text_until_complete: true
 			id: "73242CFC1E655F2D"
@@ -357,8 +395,8 @@
 				item: "frostedheart:kaolin"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 8.5d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			id: "61D23CC76588F126"
@@ -373,8 +411,8 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 2.5d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			id: "5EAB0DA77FA7EB00"
@@ -389,8 +427,8 @@
 				item: "frostedheart:raw_sylvite"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.5d
+			x: -4.5d
+			y: 7.0d
 		}
 		{
 			id: "3B7A00F478CA4039"
@@ -406,8 +444,8 @@
 				item: "frostedheart:peat"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.0d
+			x: -5.5d
+			y: 8.5d
 		}
 		{
 			description: ["{quest.twr.4132A35DF97BFE3F.description.1}"]
@@ -424,8 +462,8 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 10.0d
+			x: -6.5d
+			y: 11.5d
 		}
 		{
 			id: "7BF6873FAD829A65"
@@ -441,8 +479,8 @@
 				item: "create:limestone"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.0d
+			x: -4.5d
+			y: 8.5d
 		}
 		{
 			id: "6D73A601A0C80710"
@@ -457,7 +495,7 @@
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
@@ -767,8 +805,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 11.5d
+			x: -6.5d
+			y: 13.0d
 		}
 		{
 			icon: "frostedheart:halite_ore"
@@ -785,7 +823,7 @@
 				type: "biome"
 			}]
 			x: -7.5d
-			y: 5.5d
+			y: 7.0d
 		}
 		{
 			icon: "caupona:fumarole_boulder"
@@ -802,7 +840,7 @@
 				type: "biome"
 			}]
 			x: -7.5d
-			y: 4.0d
+			y: 5.5d
 		}
 		{
 			icon: "minecraft:magma_block"
@@ -819,7 +857,7 @@
 				type: "biome"
 			}]
 			x: -7.5d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			icon: "frostedheart:rotten_wood_block"
@@ -836,7 +874,7 @@
 				type: "biome"
 			}]
 			x: -7.5d
-			y: 7.0d
+			y: 8.5d
 		}
 		{
 			description: ["{quest.twr.15B593BC4399546E.description.1}"]
@@ -846,8 +884,8 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 11.5d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
 			id: "4B8E6D9B513F69AE"
@@ -856,8 +894,8 @@
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			description: ["{quest.twr.3F9BFC660C5B817F.description.1}"]
@@ -875,7 +913,7 @@
 				type: "biome"
 			}]
 			x: -7.5d
-			y: 8.5d
+			y: 10.0d
 		}
 		{
 			id: "773FD399C0748380"
@@ -892,7 +930,7 @@
 				type: "biome"
 			}]
 			x: -7.5d
-			y: 11.5d
+			y: 13.0d
 		}
 		{
 			id: "7F1818D3AA235158"
@@ -906,8 +944,8 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 11.5d
+			x: -5.5d
+			y: 13.0d
 		}
 		{
 			id: "57A7C1A0DC906035"
@@ -924,7 +962,7 @@
 				type: "biome"
 			}]
 			x: -7.5d
-			y: 10.0d
+			y: 11.5d
 		}
 		{
 			id: "7C9987E1E9A6C2AA"
@@ -939,8 +977,28 @@
 				item: "minecraft:bone_block"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.0d
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			id: "3340A93C517B031E"
+			tasks: [{
+				id: "247A283BF6D3A807"
+				item: "frostedheart:cooled_magma_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "7E6751A6F230CF80"
+			tasks: [{
+				id: "5C23D8D871580B87"
+				item: "minecraft:basalt"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["{chapter.twr.683664CACFD52C99.subtitle.0}"]

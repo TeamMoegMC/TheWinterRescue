@@ -1,7 +1,7 @@
 {
   "id": "soil_temperature_3",
   "category": "tips.frostedheart.category.plant",
-  "nextTip": "infrared_view",
+  "nextTip": "shelter_and_light",
   "image": "",
   "clickAction": "",
   "clickActionContent": "",

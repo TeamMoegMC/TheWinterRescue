@@ -1,6 +1,6 @@
 {
-  "id": "infrared_view",
-  "category": "tips.frostedheart.category.plant",
+  "id": "gunpowder_barrel_4",
+  "category": "tips.frostedheart.category.extra_utilities",
   "nextTip": "",
   "image": "",
   "clickAction": "",
@@ -9,12 +9,12 @@
   "onceOnly": true,
   "hide": false,
   "pin": false,
-  "displayTime": 12000,
+  "displayTime": 15000,
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "tips.frostedheart.infrared_view.title",
-    "tips.frostedheart.infrared_view.desc1"
+    "tips.frostedheart.gunpowder_barrel.title",
+    "tips.frostedheart.gunpowder_barrel.desc4"
   ],
   "children": []
 }

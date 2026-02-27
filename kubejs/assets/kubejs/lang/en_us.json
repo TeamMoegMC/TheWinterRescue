@@ -62,6 +62,7 @@
   "item.kubejs.incomplete_large_cast_iron_cogwheel": "Incomplete Cast Iron Large Cogwheel",
   "item.kubejs.incomplete_large_steel_cogwheel": "Incomplete Steel Large Cogwheel",
   "item.kubejs.plant_fibre": "Plant Fibre",
+  "item.kubejs.he_gunpowder": "High Explosive Gunpowder",
   "itemGroup.kubejs.twr": "The Winter Rescue",
   "the_winter_rescue.ponder.tag.bloomery": "",
   "the_winter_rescue.ponder.tag.bloomery.description": "",
@@ -122,5 +123,6 @@
   "message.kubejs.checkCheating": "§bIt seems you have added the %s§b mod?\n§bPerhaps enjoying the content of the modpack as intended would be a better choice?",
   "message.kubejs.checkMultipleCheating": "§bIt seems you have added the following mods: %s§b\n§bPerhaps enjoying the content of the modpack as intended would be a better choice?",
   "text.kubejs.dev": "§0Dev only. See Release.",
-  "text.kubejs.player": "§0Test, not final."
+  "text.kubejs.player": "§0Test, not final.",
+  "tooltip.kubejs.gunpowder_barrel.crafting": "Craft again to increase the fortune effect."
 }

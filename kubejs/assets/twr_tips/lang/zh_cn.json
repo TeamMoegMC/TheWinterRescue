@@ -68,12 +68,19 @@
   "tips.frostedheart.vawt.desc3": "风力涡轮会随时间磨损，最终完全损坏。此时你可以将其回收以返还部分材料。",
   "tips.frostedheart.vawt.desc4": "风力涡轮在暴风雪天气能产生更多应力，但此时涡轮会加速损坏。",
 
-  "tips.frostedheart.water.title": "饮水 WIP 介绍饮水值，补充途径，获取水，烧水",
-  "tips.frostedheart.water.desc1": "",
-  "tips.frostedheart.water.desc2": "",
-  "tips.frostedheart.water.desc3": "",
-  "tips.frostedheart.water.desc4": "",
-  "tips.frostedheart.water.desc5": "",
+  "tips.frostedheart.clay_pot.title": "黏土罐",
+  "tips.frostedheart.clay_pot.desc1": "黏土罐可以用于冶炼矿物，也可烧制成容器储存物品。",
+  "tips.frostedheart.clay_pot_smelt.title": "冶炼矿物",
+  "tips.frostedheart.clay_pot_smelt.desc1": "手持黏土罐右键放入原矿和燃料，在陶窑中烧制完成后右键地面砸开就能获得成品。\n你可以在JEI中查看可用配方。",
+  "tips.frostedheart.clay_pot_ceramic.title": "陶罐",
+  "tips.frostedheart.clay_pot_ceramic.desc1": "如果不放入任何物品则可以烧制出&6陶罐&r。\n放置陶罐可作为小型容器，同时破坏后能&6保留内部物品&r。",
+
+  "tips.frostedheart.drinking_water.title": "饮水 WIP 介绍饮水值，补充途径，获取水，烧水",
+  "tips.frostedheart.drinking_water.desc1": "保持水分，屏幕下方的蓝色条是你的水分条，脱水会导致死亡。",
+  "tips.frostedheart.drinking_water.desc2": "[Shift+右键]水源可直接饮水，但烧水明显是更安全的选择。",
+  "tips.frostedheart.drinking_water.desc3": "",
+  "tips.frostedheart.drinking_water.desc4": "",
+  "tips.frostedheart.drinking_water.desc5": "",
 
   "tips.frostedheart.food_source.title": "寻找食物 WIP 介绍前期食物来源",
 
@@ -127,6 +134,12 @@
 
   "tips.frostedheart.villagers.title": "村民 WIP",
 
-  "tips.frostedheart.trading.title": "交易 WIP"
+  "tips.frostedheart.trading.title": "交易 WIP",
+
+  "tips.frostedheart.gunpowder_barrel.title": "炸药桶",
+  "tips.frostedheart.gunpowder_barrel.desc1": "炸药桶能破坏大范围的方块，将其放置在地上&6点燃&r或长按右键&6投掷&r。",
+  "tips.frostedheart.gunpowder_barrel.desc2": "合成材料决定了炸药桶的范围和时运等级。范围最大&67*7*7&r方块，时运最高&6IV级&r。",
+  "tips.frostedheart.gunpowder_barrel.desc3": "炸药桶能再次合成以增强时运效果，但不会增加范围。",
+  "tips.frostedheart.gunpowder_barrel.desc4": "与沙子合成能使炸药桶在点燃后下坠; 与水合成能使其爆炸不破坏方块。"
 
 }

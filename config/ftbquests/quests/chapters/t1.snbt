@@ -31,6 +31,12 @@
 			x: 2.0d
 			y: 1.5d
 		}
+		{
+			id: "3F51FC67C270A6BE"
+			linked_quest: "0CA87739C86BB0C6"
+			x: -4.5d
+			y: -1.0d
+		}
 	]
 	quests: [
 		{
@@ -40,12 +46,19 @@
 				"{quest.twr.689BB00EC2454F1F.description.2}"
 			]
 			id: "689BB00EC2454F1F"
-			rewards: [{
-				id: "71526EF727656848"
-				insight: 1
-				team_reward: true
-				type: "frostedheart:insight"
-			}]
+			rewards: [
+				{
+					id: "71526EF727656848"
+					insight: 1
+					team_reward: true
+					type: "frostedheart:insight"
+				}
+				{
+					fh_tip: "clay_pot"
+					id: "77CDC49B3B343314"
+					type: "frostedheart:tip"
+				}
+			]
 			shape: "gear"
 			subtitle: "{quest.twr.689BB00EC2454F1F.subtitle}"
 			tasks: [{
@@ -75,7 +88,7 @@
 				item: "stone_age:dried_grass_bed"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.5d
 			y: -1.0d
 		}
 		{
@@ -471,7 +484,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -5.0d
 			y: -5.0d
 		}
 		{
@@ -1335,7 +1348,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["03A553EBD453466A"]
+			dependencies: ["6A22E2D62D4719BE"]
 			description: [
 				"{quest.twr.5493DF2D38C0B27C.description.1}"
 				"{quest.twr.5493DF2D38C0B27C.description.2}"
@@ -1377,8 +1390,8 @@
 				type: "item"
 			}]
 			title: "{quest.twr.5493DF2D38C0B27C.title}"
-			x: -7.5d
-			y: -1.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["03A553EBD453466A"]
@@ -1393,7 +1406,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["4543F3B5F937E6B0"]
+			dependencies: ["4B6840707D77E2C0"]
 			id: "0FBDC5990CC853BA"
 			optional: true
 			tasks: [{
@@ -1401,8 +1414,8 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: -0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["03A553EBD453466A"]
@@ -1434,6 +1447,68 @@
 			title: "{quest.twr.76B2B1A3EC6D92CD.title}"
 			x: -5.5d
 			y: 1.5d
+		}
+		{
+			description: ["{quest.twr.7E68FC6215F4FADC.description.1}"]
+			hide_until_deps_visible: false
+			id: "7E68FC6215F4FADC"
+			optional: true
+			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
+			tasks: [{
+				id: "2BA166AB2BD842B1"
+				item: "kubejs:straw_briquette"
+				type: "item"
+			}]
+			title: "{quest.twr.7E68FC6215F4FADC.title}"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4543F3B5F937E6B0"]
+			id: "5A1D1E8A977FC911"
+			optional: true
+			tasks: [{
+				id: "0869CD0429A20152"
+				item: "caupona:stone_brick_kitchen_stove"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["75154C5A6E2F3257"]
+			id: "4D5CC56570156054"
+			tasks: [{
+				id: "78C6BCE5BF2593EB"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3078BCEE3E402DED"]
+			id: "4E8E00BE0A4CB8E9"
+			optional: true
+			rewards: [
+				{
+					id: "302EEA33F32388AD"
+					insight: 1
+					type: "frostedheart:insight"
+				}
+				{
+					fh_tip: "gunpowder_barrel"
+					id: "300DC654642E194E"
+					type: "frostedheart:tip"
+				}
+			]
+			tasks: [{
+				id: "4A7481B35ED6D50B"
+				item: "frostedheart:gunpowder_barrel"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
 		}
 	]
 	subtitle: ["{chapter.twr.0F108F94F3A03203.subtitle}"]

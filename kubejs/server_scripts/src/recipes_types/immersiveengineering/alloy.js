@@ -26,7 +26,19 @@ ServerEvents.recipes((event) => {
             input2: '#kubejs:kiln_dust',
             output: '2x frostedheart:tin_ingot',
             time: 240
-        }
+        },
+        {
+            input1: '2x #forge:crushed_raw_materials/copper',
+            input2: '#kubejs:kiln_dust',
+            output: '2x minecraft:copper_ingot',
+            time: 240
+        },
+        {
+            input1: '2x #forge:crushed_raw_materials/tin',
+            input2: '#kubejs:kiln_dust',
+            output: '2x frostedheart:tin_ingot',
+            time: 240
+        },
     ]
     recipes.forEach((recipe) => {
         immersiveengineering.alloy(recipe.output, recipe.input1, recipe.input2, recipe.time);

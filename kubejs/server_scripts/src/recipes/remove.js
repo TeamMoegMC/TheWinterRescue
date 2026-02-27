@@ -228,6 +228,9 @@ ServerEvents.recipes((event) => {
         "minecraft:chiseled_stone_bricks_stone_from_stonecutting",
         "create:splashing/wheat_flour",
         "create:mixing/dough_by_mixing",
+        "charcoal_pit:sandy_bricks",
+        "immersiveengineering:blastfurnace/steel_block",
+        "create:crafting/appliances/dough",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

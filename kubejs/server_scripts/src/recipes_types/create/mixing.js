@@ -218,7 +218,7 @@ ServerEvents.recipes((event) => {
         },
         {
             output: ["minecraft:sugar"],
-            input: ["4x minecraft:beetroot", Fluid.of("minecraft:water", 1000)]
+            input: ["2x minecraft:beetroot", Fluid.of("minecraft:water", 1000)]
         },
         {
             output: ["minecraft:sugar"],

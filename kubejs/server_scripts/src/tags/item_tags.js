@@ -36,6 +36,7 @@ ServerEvents.tags("item", (event) => {
     event.add("minecraft:shulker_box", "minecraft:shulker_box")
     event.add("forge:string", "stone_age:grass_lead")
     event.add("forge:string", "stone_age:leather_strip")
+    event.add("forge:string", "frostedheart:copper_wire")
 
     event.add("the_winter_rescue:raw_materials/oil", [
         "stone_age:fat"
@@ -695,7 +696,8 @@ ServerEvents.tags("item", (event) => {
 
     event.add("twr:advanced_string", [
         "minecraft:string",
-        "stone_age:leather_strip"
+        "stone_age:leather_strip",
+        "frostedheart:copper_wire"
     ])
 
     event.add("twr:basic_filament", [
@@ -728,5 +730,34 @@ ServerEvents.tags("item", (event) => {
         'frostedheart:synthetic_leather',
         'minecraft:leather',
         'stone_age:raw_hide'
+    ])
+
+    event.add("twr:vawt", [
+        "frostedheart:fabric_vawt",
+        "frostedheart:metal_vawt",
+        "frostedheart:alloy_vawt",
+        "frostedheart:dsp_vawt"
+    ])
+
+    event.add("twr:ink", [
+        "minecraft:ink_sac",
+        "minecraft:glow_ink_sac",
+        "frostedheart:generator_ash",
+    ])
+
+    event.add("twr:gunpowder_barrel_ingredient", [
+        "supplementaries:lapis_bricks",
+        "#forge:gunpowder",
+        "kubejs:he_gunpowder",
+        "#forge:ingots/cast_iron",
+        "minecraft:diamond"
+    ])
+
+    event.add("forge:gunpowder", [
+        "kubejs:he_gunpowder"
+    ])
+
+    event.add('minecraft:creeper_igniters', [
+        'charcoal_pit:fire_starter'
     ])
 })

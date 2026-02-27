@@ -530,7 +530,7 @@ ServerEvents.recipes((event) => {
             "create:whisk", [
             " A ",
             "BAB",
-            "BBB"
+            " B "
         ], {
             A: "#forge:rods/iron",
             B: "#forge:plates/iron"
@@ -703,12 +703,21 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "kubejs:wet_straw_briquette", [
+            "kubejs:straw_briquette", [
             "AAA",
             "A A",
             "AAA"
         ], {
             A: "charcoal_pit:straw"
+        }
+        ],
+        [
+            "kubejs:wet_straw_briquette", [
+            "AAA",
+            "A A",
+            "AAA"
+        ], {
+            A: "kubejs:plant_fibre"
         }
         ],
         [
@@ -1096,14 +1105,6 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "frostedresearch:charcoal", [
-            "A ",
-            " A"
-        ], {
-            A: "#forge:charcoal"
-        }
-        ],
-        [
             "comforts:sleeping_bag_brown", [
             "BBB",
             "ACA",
@@ -1410,7 +1411,6 @@ ServerEvents.recipes((event) => {
         [
             "supplementaries:rope", 2, [
                 "A",
-                "A",
                 "A"
             ], {
                 A: "stone_age:grass_lead"
@@ -1623,6 +1623,14 @@ ServerEvents.recipes((event) => {
             ], {
                 A: "#forge:rods/cast_iron",
                 B: "#forge:stripped_logs"
+            }
+        ],
+        [
+            'frostedheart:thin_ice', [
+                "AA",
+                "AA"
+            ], {
+                A: "frostedheart:ice_chip",
             }
         ],
 

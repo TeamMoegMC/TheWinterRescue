@@ -1,7 +1,7 @@
 {
-  "id": "infrared_view",
-  "category": "tips.frostedheart.category.plant",
-  "nextTip": "",
+  "id": "clay_pot",
+  "category": "tips.frostedheart.category.extra_utilities",
+  "nextTip": "clay_pot_smelt",
   "image": "",
   "clickAction": "",
   "clickActionContent": "",
@@ -13,8 +13,8 @@
   "fontColor": "FFC6FCFF",
   "backgroundColor": "FF000000",
   "contents": [
-    "tips.frostedheart.infrared_view.title",
-    "tips.frostedheart.infrared_view.desc1"
+    "tips.frostedheart.clay_pot.title",
+    "tips.frostedheart.clay_pot.desc1"
   ],
-  "children": []
+  "children": ["clay_pot_smelt", "clay_pot_ceramic"]
 }

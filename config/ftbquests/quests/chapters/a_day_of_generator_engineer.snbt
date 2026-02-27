@@ -42,6 +42,11 @@
 					id: "75810B853E0BB2D3"
 					type: "frostedheart:tip"
 				}
+				{
+					fh_tip: "plant"
+					id: "262E08C450D0F245"
+					type: "frostedheart:tip"
+				}
 			]
 			shape: "gear"
 			size: 2.5d

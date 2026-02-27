@@ -63,8 +63,21 @@
   "tips.frostedheart.campfire.desc4": "Don't get too close, as the high temperature may burn you!",
 
   "tips.frostedheart.vawt.title": "VAWT",
-  "tips.frostedheart.vawt.desc1": "The Vertical Axis Wind Turbine, a structurally simple wind engine that converts &bwind energy&r into &6Stress&r, freeing you from manual cranking.",
+  "tips.frostedheart.vawt.desc1": "The Vertical Axis Wind Turbine, a structurally simple wind generator that converts &bWind Energy&r into &6Stress&r, freeing you from manual cranking.",
   "tips.frostedheart.vawt.desc2": "The wind turbine must be placed in &bopen terrain&r and &bcannot have other wind turbines nearby&r, or it will cease to function.",
   "tips.frostedheart.vawt.desc3": "Over time, the wind turbine will wear out and eventually break down completely. You can then recycle it to recover some of the materials.",
-  "tips.frostedheart.vawt.desc4": "During blizzards, it generates more Stress, but the turbine will also degrade at an accelerated rate."
+  "tips.frostedheart.vawt.desc4": "During blizzards, it generates more Stress, but the turbine will also degrade at an accelerated rate.",
+
+  "tips.frostedheart.clay_pot.title": "Clay Pot",
+  "tips.frostedheart.clay_pot.desc1": "The clay pot can be used to smelt ores or fired into a container for storing items.",
+  "tips.frostedheart.clay_pot_smelt.title": "Smelting Ores",
+  "tips.frostedheart.clay_pot_smelt.desc1": "Hold the clay pot and right-click to put raw ore and fuel. After firing it, right-click on the ground to break it open and obtain the finished product.\nYou can view available recipes in JEI.",
+  "tips.frostedheart.clay_pot_ceramic.title": "Ceramic Pot",
+  "tips.frostedheart.clay_pot_ceramic.desc1": "If no items are placed inside, it can be fired into a &6Ceramic Pot&r.\nWhen placed, the ceramic pot acts as a small container, and it will &6retain its contents&r when you destroy it.",
+
+  "tips.frostedheart.gunpowder_barrel.title": "Gunpowder Barrel",
+  "tips.frostedheart.gunpowder_barrel.desc1": "The gunpowder barrel can destroy a large range of blocks. Place it on the ground and &6ignite&r it, or hold right-click to &6throw&r it.",
+  "tips.frostedheart.gunpowder_barrel.desc2": "The materials used to craft the gunpowder barrel determine its range and fortune level. The maximum range is &67*7*7&r blocks, and the maximum fortune level is &6IV&r.",
+  "tips.frostedheart.gunpowder_barrel.desc3": "The gunpowder barrel can be crafted again to enhance the fortune effect, but this will not increase its range.",
+  "tips.frostedheart.gunpowder_barrel.desc4": "Crafting the gunpowder barrel with sand will cause it to fall after ignition; crafting it with water will make its explosion not destroy blocks."
 }

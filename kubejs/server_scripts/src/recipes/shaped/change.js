@@ -22,8 +22,8 @@ ServerEvents.recipes((event) => {
             "CCC",
             "ABA"
         ], {
-            A: "immersiveengineering:treated_wood_horizontal",
-            B: "immersiveengineering:slab_treated_wood_horizontal",
+            A: "#forge:treated_wood",
+            B: "#forge:treated_wood_slab",
             C: "minecraft:leather"
         }
         ],
@@ -49,8 +49,7 @@ ServerEvents.recipes((event) => {
         [
             "charcoal_pit:sandy_collector", [
             "A A",
-            "ABA",
-            "AAA"
+            "ABA"
         ], {
             A: "charcoal_pit:sandy_brick_item",
             B: "minecraft:bucket"
@@ -59,21 +58,10 @@ ServerEvents.recipes((event) => {
         [
             "charcoal_pit:sandy_collector", [
             "A A",
-            "ABA",
-            "AAA"
+            "ABA"
         ], {
             A: "charcoal_pit:sandy_brick_item",
             B: "frostedheart:ceramic_bucket"
-        }
-        ],
-        [
-            "charcoal_pit:sandy_brick", [
-            "BAB",
-            "ABA",
-            "BAB"
-        ], {
-            A: "frostedheart:mortar",
-            B: "charcoal_pit:sandy_brick_item"
         }
         ],
         [
@@ -130,7 +118,7 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "immersiveengineering:alloybrick", 2, [
+            "immersiveengineering:alloybrick", 4, [
             "ABA",
             "B B",
             "ABA"
@@ -276,26 +264,6 @@ ServerEvents.recipes((event) => {
             A: "immersiveengineering:sheetmetal_steel",
             B: "#forge:plates/copper",
             C: "immersiveengineering:coil_mv"
-        }
-        ],
-        [
-            "frostedheart:refractory_bricks", 2, [
-            "ABA",
-            "BAB",
-            "ABA"
-        ], {
-            A: "frostedheart:refractory_brick",
-            B: "frostedheart:mortar"
-        }
-        ],
-        [
-            "frostedheart:high_refractory_bricks", 2, [
-            "ABA",
-            "BAB",
-            "ABA"
-        ], {
-            A: "frostedheart:high_refractory_brick",
-            B: "frostedheart:mortar"
         }
         ],
         [

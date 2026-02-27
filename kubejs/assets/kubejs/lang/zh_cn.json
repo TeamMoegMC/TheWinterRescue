@@ -61,6 +61,7 @@
   "item.kubejs.incomplete_large_bronze_cogwheel": "青铜大齿轮（半成品）",
   "item.kubejs.incomplete_large_cast_iron_cogwheel": "铸铁大齿轮（半成品）",
   "item.kubejs.incomplete_large_steel_cogwheel": "钢大齿轮（半成品）",
+  "item.kubejs.he_gunpowder": "高爆火药",
   "item.kubejs.plant_fibre": "植物纤维",
   "itemGroup.kubejs.twr": "冬季救援",
   "message.kubejs.debug.getItemId": "Tag下的id以打印至\nlogs/kubejs/server.log",
@@ -122,5 +123,6 @@
   "the_winter_rescue.ponder.generator_construction_t2.usage.text_2": "Export energy from the bottom of these locations",
   "the_winter_rescue.ponder.generator_construction_t2.usage.text_1": "Input heat medium from bottom center",
   "the_winter_rescue.ponder.pottery_kiln.basic_usage.header": "",
-  "the_winter_rescue.ponder.pottery_kiln.basic_usage.text_1": "Surrounding blocks can be ANY block, not just dirt."
+  "the_winter_rescue.ponder.pottery_kiln.basic_usage.text_1": "Surrounding blocks can be ANY block, not just dirt.",
+  "tooltip.kubejs.gunpowder_barrel.crafting": "可继续合成增强时运效果"
 }

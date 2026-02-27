@@ -57,7 +57,7 @@ JEIEvents.hideItems((event) => {
         'frostedheart:vegetable_sawdust_soup',
         'frostedheart:rye_sawdust_porridge',
         'frostedheart:rye_porridge',
-        'frostedheart:vegetable_soup'
+        'frostedheart:vegetable_soup',
 
         // incomplete item
         'kubejs:incomplete_bronze_cogwheel',
@@ -77,6 +77,8 @@ JEIEvents.hideItems((event) => {
             event.hide(disabledItem)
         }
     })
+
+    event.hide("#itemfilters:filters")
 
     regexHide.forEach((regexExpression) => {
         event.hide(regexExpression)

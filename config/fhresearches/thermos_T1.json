@@ -1,16 +1,16 @@
 {
   "showAltDesc": true,
   "points": 800,
-  "insight": 1,
   "clues": [
     {
       "type": "item",
-      "id": "9197c8058ebc486c",
+      "id": "250d2a5171cd4424",
+      "required": true,
       "value": 1.0,
       "consume": true,
       "item": {
         "base_ingredient": {
-          "tag": "forge:plates/copper"
+          "item": "create:copper_sheet"
         },
         "count": 2
       }
@@ -21,13 +21,13 @@
       "base_ingredient": {
         "item": "create:copper_sheet"
       },
-      "count": 4
+      "count": 2
     },
     {
       "base_ingredient": {
-        "tag": "minecraft:planks"
+        "tag": "minecraft:logs"
       },
-      "count": 1
+      "count": 4
     }
   ],
   "effects": [
@@ -37,12 +37,25 @@
         "item": "frostedheart:thermos"
       },
       "id": "915e5759ba344d58"
+    },
+    {
+      "type": "item",
+      "id": "2dbd730f61994041",
+      "rewards": [
+        {
+          "id": "frostedheart:thermos",
+          "Count": 1,
+          "tag": {
+            "Damage": 1500
+          }
+        }
+      ]
     }
   ],
   "icon": {
     "type": "item",
     "item": {
-      "id": "frostedheart:white_thermos",
+      "id": "frostedheart:orange_thermos",
       "Count": 1,
       "tag": {
         "Damage": 1500
