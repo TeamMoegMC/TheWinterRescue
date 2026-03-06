@@ -915,6 +915,22 @@
 			x: -9.0d
 			y: 1.5d
 		}
+		{
+			id: "774E933793E11550"
+			rewards: [{
+				id: "5FBE36D1F2F101CA"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "26AF2666E80A8E27"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
 	]
 	subtitle: ["{chapter.twr.75A05D5EAF6602DE.subtitle}"]
 	title: "{chapter.twr.75A05D5EAF6602DE.title}"

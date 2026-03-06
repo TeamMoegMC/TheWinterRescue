@@ -6,7 +6,12 @@
 	icon: "minecraft:campfire"
 	id: "0C07C58470EE031C"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "1FA2077C09B48CA6"
+		linked_quest: "4B9BC93A26B647BF"
+		x: 12.5d
+		y: 2.0d
+	}]
 	quests: [
 		{
 			description: [
@@ -139,32 +144,6 @@
 			title: "{quest.twr.215BC2E7271F1478.title}"
 			x: -7.5d
 			y: 2.5d
-		}
-		{
-			description: [
-				"{quest.twr.24E7D1E02BE55A8E.description.1}"
-				"{quest.twr.24E7D1E02BE55A8E.description.2}"
-				"{quest.twr.24E7D1E02BE55A8E.description.3}"
-				"{quest.twr.24E7D1E02BE55A8E.description.4}"
-				"{quest.twr.24E7D1E02BE55A8E.description.5}"
-				"{quest.twr.24E7D1E02BE55A8E.description.6}"
-				"{quest.twr.24E7D1E02BE55A8E.description.7}"
-				"{quest.twr.24E7D1E02BE55A8E.description.8}"
-			]
-			hide_until_deps_visible: false
-			icon: "caupona:plump_snail"
-			id: "24E7D1E02BE55A8E"
-			invisible: true
-			optional: true
-			shape: "hexagon"
-			subtitle: "{quest.twr.24E7D1E02BE55A8E.subtitle}"
-			tasks: [{
-				id: "047874DA9F5AB4B1"
-				title: "{quest.twr.24E7D1E02BE55A8E.047874DA9F5AB4B1.title}"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 4.5d
 		}
 		{
 			dependencies: ["56E5FD2809882B5F"]
@@ -464,22 +443,6 @@
 		}
 		{
 			dependencies: ["20E34B234337C28A"]
-			description: ["{quest.twr.7E68FC6215F4FADC.description.1}"]
-			hide_until_deps_visible: false
-			id: "7E68FC6215F4FADC"
-			optional: true
-			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
-			tasks: [{
-				id: "2BA166AB2BD842B1"
-				item: "kubejs:straw_briquette"
-				type: "item"
-			}]
-			title: "{quest.twr.7E68FC6215F4FADC.title}"
-			x: 17.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["20E34B234337C28A"]
 			description: [
 				"{quest.twr.04DC32D417FA819E.description.1}"
 				"{quest.twr.04DC32D417FA819E.description.2}"
@@ -493,7 +456,7 @@
 				item: "frostedheart:wooden_cup"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 17.0d
 			y: 4.0d
 		}
 		{
@@ -599,6 +562,7 @@
 			dependencies: ["5D803F0865A90DE0"]
 			description: ["{quest.twr.29C8077E15E6C418.description.1}"]
 			id: "29C8077E15E6C418"
+			optional: true
 			rewards: [
 				{
 					count: 16
@@ -776,6 +740,7 @@
 				}
 			}
 			id: "477565C132877FBA"
+			optional: true
 			shape: "hexagon"
 			subtitle: "{quest.twr.477565C132877FBA.subtitle}"
 			tasks: [{
@@ -791,7 +756,7 @@
 			}]
 			title: "{quest.twr.477565C132877FBA.title}"
 			x: 12.5d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["20E34B234337C28A"]
@@ -1013,6 +978,11 @@
 			]
 			description: ["{quest.twr.20E34B234337C28A.description.1}"]
 			id: "20E34B234337C28A"
+			rewards: [{
+				fh_tip: "campfire"
+				id: "406A7AEAFA2D538F"
+				type: "frostedheart:tip"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "3A6F2A76403AAC25"
@@ -1026,6 +996,7 @@
 			dependencies: ["5D803F0865A90DE0"]
 			description: ["{quest.twr.7F91A18F97F23E75.description.1}"]
 			id: "7F91A18F97F23E75"
+			optional: true
 			tasks: [{
 				id: "48A72D8F12880013"
 				item: {
@@ -1046,6 +1017,7 @@
 			dependencies: ["4B6FFA5A9140019F"]
 			description: ["{quest.twr.304FE45FE4655D95.description.1}"]
 			id: "304FE45FE4655D95"
+			optional: true
 			tasks: [{
 				id: "3657AF72E4990823"
 				item: {
@@ -1076,6 +1048,19 @@
 			}]
 			x: -4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6B7D4F59C921C1FC"]
+			hide_dependency_lines: true
+			id: "40001BBC5DCA7071"
+			optional: true
+			tasks: [{
+				id: "2450CCB5E85E8E8D"
+				item: "charcoal_pit:fire_starter"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["{chapter.twr.0C07C58470EE031C.subtitle.0}"]

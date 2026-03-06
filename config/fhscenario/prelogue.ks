@@ -3,8 +3,8 @@
 @showTitle t="Chapter 1 Act 1" st="Crashed in the frozen planet"
 @delay t=60
 
-@displayTip id="scenario_tip"
 @if exp="client.preloguePlayed"
+@displayTip id="scenario_tip"
 Do you want to skip the prologue story cinematic?[r]
 [link l=*intitle][&eSkip&r][endlink][r]
 [link l=*beginprelogue][&eWatch&r][endlink]

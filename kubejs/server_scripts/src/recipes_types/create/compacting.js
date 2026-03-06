@@ -59,6 +59,10 @@ ServerEvents.recipes((event) => {
         {
             output: ["2x frostedheart:packed_snow"],
             input: ["2x minecraft:snow_block"]
+        },
+        {
+            output: ["2x create:golden_sheet"],
+            input: ["3x #forge:ingots/gold"]
         }
     ]
     let heated = [

@@ -61,7 +61,7 @@
   "item.kubejs.broken_robot_1.tooltip.condition1": "When Inspected In Drawing Desk",
   "item.kubejs.broken_robot_1.tooltip.behaviour1": "Grants Significant _Insight_.",
 
-  "item.kubejs.broken_robot_2.tooltip.summary": "A line of small characters is carved at the place where it was discovered: \"What is consciousness?\"",
+  "item.kubejs.broken_robot_2.tooltip.summary": "A broken robot.",
   "item.kubejs.broken_robot_2.tooltip.condition1": "When Inspected In Drawing Desk",
   "item.kubejs.broken_robot_2.tooltip.behaviour1": "Grants Significant _Insight_.",
 
@@ -267,5 +267,10 @@
 
   "item.frostedheart.ultimate_preserved_fertilizer.tooltip.summary": "An insulated layer to significantly preserve soil temperature.",
   "item.frostedheart.ultimate_preserved_fertilizer.tooltip.condition1": "When Applied on Farmland or Dirt",
-  "item.frostedheart.ultimate_preserved_fertilizer.tooltip.behaviour1": "Insulates the soil such that crop no longer dies and relaxes the growth requirement for 20°C additional degrees of coldness."
+  "item.frostedheart.ultimate_preserved_fertilizer.tooltip.behaviour1": "Insulates the soil such that crop no longer dies and relaxes the growth requirement for 20°C additional degrees of coldness.",
+
+
+  "item.frostedheart.ice_chip.tooltip.summary": "A small piece of ice, melt it in the stew pot.",
+
+  "block.create.limestone.tooltip.summary": "Can be found at the riverbeds or in the caves."
 }

@@ -45,6 +45,8 @@ ServerEvents.recipes((event) => {
             Ingredient.of({"type":"chorda:tool","tool":"axe_dig"}), 2, 1),
         tree_stumpRecipe(Item.of('kubejs:creosoted_sawdust_briquette'), Item.of('kubejs:creosoted_sawdust'),
             Ingredient.of({"type":"chorda:tool","tool":"hammer_dig"}), 2, 1),
+        tree_stumpRecipe(Item.of('minecraft:stone_pressure_plate'), Item.of('minecraft:stone_slab'),
+            Ingredient.of({"type":"chorda:tool","tool":"hammer_dig"}), 2, 1),
         // tree_stumpRecipe(Item.of("stone_age:fish_bone", 3), Item.of('minecraft:bone'),
         //     Ingredient.of('#minecraft:swords'), 2, 1)
     ]

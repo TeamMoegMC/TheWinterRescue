@@ -1,0 +1,20 @@
+{
+  "id": "clay_pot",
+  "category": "tips.frostedheart.category.extra_utilities",
+  "nextTip": "clay_pot_smelt",
+  "image": "",
+  "clickAction": "",
+  "clickActionContent": "",
+  "alwaysVisible": false,
+  "onceOnly": true,
+  "hide": false,
+  "pin": false,
+  "displayTime": 12000,
+  "fontColor": "FFC6FCFF",
+  "backgroundColor": "FF000000",
+  "contents": [
+    "tips.frostedheart.clay_pot.title",
+    "tips.frostedheart.clay_pot.desc1"
+  ],
+  "children": ["clay_pot_smelt", "clay_pot_ceramic"]
+}

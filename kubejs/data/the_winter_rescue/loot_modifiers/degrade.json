@@ -18,6 +18,24 @@
         "tag": "forge:ingots/tin"
       },
       "to": "frostedheart:gray_tin_ingot"
+    },
+    {
+      "from": {
+        "tag": "forge:nuggets/iron"
+      },
+      "to": "frostedheart:rusted_iron_nugget"
+    },
+    {
+      "from": {
+        "tag": "forge:nuggets/copper"
+      },
+      "to": "frostedheart:rusted_copper_nugget"
+    },
+    {
+      "from": {
+        "tag": "forge:nuggets/tin"
+      },
+      "to": "frostedheart:rusted_tin_nugget"
     }
   ],
   "conditions": [

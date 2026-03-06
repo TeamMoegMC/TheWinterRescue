@@ -1,0 +1,20 @@
+{
+  "id": "clay_pot_smelt",
+  "category": "tips.frostedheart.category.extra_utilities",
+  "nextTip": "clay_pot_ceramic",
+  "image": "",
+  "clickAction": "ShowJeiUsages",
+  "clickActionContent": "frostedheart:condensed_ball_copper_ore",
+  "alwaysVisible": false,
+  "onceOnly": true,
+  "hide": false,
+  "pin": false,
+  "displayTime": 20000,
+  "fontColor": "FFC6FCFF",
+  "backgroundColor": "FF000000",
+  "contents": [
+    "tips.frostedheart.clay_pot_smelt.title",
+    "tips.frostedheart.clay_pot_smelt.desc1"
+  ],
+  "children": []
+}

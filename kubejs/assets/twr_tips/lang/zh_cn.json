@@ -1,8 +1,10 @@
 {
-  "tips.frostedheart.category.body_temperature" : "维持体温",
   "tips.frostedheart.category.control" : "操作和控制",
   "tips.frostedheart.category.game_mechanics" : "游戏机制",
   "tips.frostedheart.category.plant" : "种植",
+  "tips.frostedheart.category.survival" : "雪中求生",
+  "tips.frostedheart.category.extra_utilities" : "实用道具",
+  "tips.frostedheart.category.machine" : "机器",
   "tips.frostedheart.category.town" : "城镇与难民",
 
   "tips.frostedheart.scenario_tip.title": "提示",
@@ -52,14 +54,33 @@
   "tips.frostedheart.wheel_menu.title": "轮盘菜单",
   "tips.frostedheart.wheel_menu.desc1": "按住&6[Tab]&r打开轮盘菜单即可选择一系列便捷功能，选择&b[{gui.frostedheart.wheel_menu.selection.archive}]&r可查看所有已获取的提示。",
   "tips.frostedheart.wheel_menu.desc2": "键位不够用? 选择&b[{gui.wheel_menu.editor.edit}]&r可以添加自定义选项，包括快捷键和自定义指令，还能隐藏或调整选项顺序。",
-  "tips.frostedheart.wheel_menu.desc3": "在[选项→按键控制→按键绑定→寒霜之心]中更改默认键位设置",
+  "tips.frostedheart.wheel_menu.desc3": "你也可以在[&b选项&r→&b按键控制&r→&b按键绑定&r→&b寒霜之心&r]中更改默认键位设置",
 
-  "tips.frostedheart.campfire.title": "营火 WIP 营火需要添加燃料，热辐射，搭建壁炉结构",
-  "tips.frostedheart.campfire.desc1": "",
-  "tips.frostedheart.campfire.desc2": "",
-  "tips.frostedheart.campfire.desc3": "",
+  "tips.frostedheart.campfire.title": "营火",
+  "tips.frostedheart.campfire.desc1": "燃烧的营火能提供温暖，也可用于&6烹饪食物&r和&6烧水&r。",
+  "tips.frostedheart.campfire.desc2": "营火需要添加燃料，按&6[Q]&r将可燃烧的物品丢入营火，然后使用任意点火器点燃。",
+  "tips.frostedheart.campfire.desc3": "在空旷的环境中点燃营火效果不佳。用方块将营火包围，搭建一个类似&6壁炉&r的结构可以聚集营火散发的热量。",
+  "tips.frostedheart.campfire.desc4": "别靠太近，高温可能会烫伤你!",
 
-  "tips.frostedheart.water.title": "饮水 WIP 介绍饮水值，补充途径，获取水，烧水",
+  "tips.frostedheart.vawt.title": "垂直轴风力涡轮",
+  "tips.frostedheart.vawt.desc1": "一种结构简单的风力发动机，能将&b风能&r转化为&6应力&r，把你从手摇中解放出来。",
+  "tips.frostedheart.vawt.desc2": "风力涡轮需要被放置在&b地表开阔环境&r中，且&b周围不能有其他风力涡轮&r，否则无法工作。",
+  "tips.frostedheart.vawt.desc3": "风力涡轮会随时间磨损，最终完全损坏。此时你可以将其回收以返还部分材料。",
+  "tips.frostedheart.vawt.desc4": "风力涡轮在暴风雪天气能产生更多应力，但此时涡轮会加速损坏。",
+
+  "tips.frostedheart.clay_pot.title": "黏土罐",
+  "tips.frostedheart.clay_pot.desc1": "黏土罐可以用于冶炼矿物，也可烧制成容器储存物品。",
+  "tips.frostedheart.clay_pot_smelt.title": "冶炼矿物",
+  "tips.frostedheart.clay_pot_smelt.desc1": "手持黏土罐右键放入原矿和燃料，在陶窑中烧制完成后右键地面砸开就能获得成品。\n你可以在JEI中查看可用配方。",
+  "tips.frostedheart.clay_pot_ceramic.title": "陶罐",
+  "tips.frostedheart.clay_pot_ceramic.desc1": "如果不放入任何物品则可以烧制出&6陶罐&r。\n放置陶罐可作为小型容器，同时破坏后能&6保留内部物品&r。",
+
+  "tips.frostedheart.drinking_water.title": "饮水 WIP 介绍饮水值，补充途径，获取水，烧水",
+  "tips.frostedheart.drinking_water.desc1": "保持水分，屏幕下方的蓝色条是你的水分条，脱水会导致死亡。",
+  "tips.frostedheart.drinking_water.desc2": "[Shift+右键]水源可直接饮水，但烧水明显是更安全的选择。",
+  "tips.frostedheart.drinking_water.desc3": "",
+  "tips.frostedheart.drinking_water.desc4": "",
+  "tips.frostedheart.drinking_water.desc5": "",
 
   "tips.frostedheart.food_source.title": "寻找食物 WIP 介绍前期食物来源",
 
@@ -113,6 +134,12 @@
 
   "tips.frostedheart.villagers.title": "村民 WIP",
 
-  "tips.frostedheart.trading.title": "交易 WIP"
+  "tips.frostedheart.trading.title": "交易 WIP",
+
+  "tips.frostedheart.gunpowder_barrel.title": "炸药桶",
+  "tips.frostedheart.gunpowder_barrel.desc1": "炸药桶能破坏大范围的方块，将其放置在地上&6点燃&r或长按右键&6投掷&r。",
+  "tips.frostedheart.gunpowder_barrel.desc2": "合成材料决定了炸药桶的范围和时运等级。范围最大&67*7*7&r方块，时运最高&6IV级&r。",
+  "tips.frostedheart.gunpowder_barrel.desc3": "炸药桶能再次合成以增强时运效果，但不会增加范围。",
+  "tips.frostedheart.gunpowder_barrel.desc4": "与沙子合成能使炸药桶在点燃后下坠; 与水合成能使其爆炸不破坏方块。"
 
 }

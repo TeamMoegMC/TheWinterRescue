@@ -1,0 +1,20 @@
+{
+  "id": "gunpowder_barrel_3",
+  "category": "tips.frostedheart.category.extra_utilities",
+  "nextTip": "gunpowder_barrel_4",
+  "image": "twr_tips:textures/gunpowder_barrel_recipe.png",
+  "clickAction": "",
+  "clickActionContent": "",
+  "alwaysVisible": false,
+  "onceOnly": true,
+  "hide": false,
+  "pin": false,
+  "displayTime": 10000,
+  "fontColor": "FFC6FCFF",
+  "backgroundColor": "FF000000",
+  "contents": [
+    "tips.frostedheart.gunpowder_barrel.title",
+    "tips.frostedheart.gunpowder_barrel.desc3"
+  ],
+  "children": []
+}

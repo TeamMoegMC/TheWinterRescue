@@ -530,7 +530,7 @@ ServerEvents.recipes((event) => {
             "create:whisk", [
             " A ",
             "BAB",
-            "BBB"
+            " B "
         ], {
             A: "#forge:rods/iron",
             B: "#forge:plates/iron"
@@ -703,12 +703,21 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "kubejs:wet_straw_briquette", [
+            "kubejs:straw_briquette", [
             "AAA",
             "A A",
             "AAA"
         ], {
             A: "charcoal_pit:straw"
+        }
+        ],
+        [
+            "kubejs:wet_straw_briquette", [
+            "AAA",
+            "A A",
+            "AAA"
+        ], {
+            A: "kubejs:plant_fibre"
         }
         ],
         [
@@ -1096,14 +1105,6 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            "frostedresearch:charcoal", [
-            "A ",
-            " A"
-        ], {
-            A: "#forge:charcoal"
-        }
-        ],
-        [
             "comforts:sleeping_bag_brown", [
             "BBB",
             "ACA",
@@ -1410,7 +1411,6 @@ ServerEvents.recipes((event) => {
         [
             "supplementaries:rope", 2, [
                 "A",
-                "A",
                 "A"
             ], {
                 A: "stone_age:grass_lead"
@@ -1551,6 +1551,86 @@ ServerEvents.recipes((event) => {
                 A: "minecraft:chain",
                 B: "#forge:wires/copper",
                 C: "#twr:plates/structural",
+            }
+        ],
+        [
+            'minecraft:torch', 8, [
+                "A",
+                "B",
+            ], {
+                A: "stone_age:fat",
+                B: "minecraft:stick",
+            }
+        ],
+        [
+            'minecraft:bundle', [
+                "AC",
+                "B ",
+            ], {
+                A: "#forge:string",
+                B: "#twr:hide",
+                C: "stone_age:fish_bone",
+            }
+        ],
+        [
+            'minecraft:bundle', [
+                "AC",
+                "BB",
+            ], {
+                A: "#forge:string",
+                B: "#twr:small_hide",
+                C: "stone_age:fish_bone",
+            }
+        ],
+        [
+            'frostedheart:fabric_vawt', [
+                "A A",
+                "ABA",
+                " C ",
+            ], {
+                A: "immersiveengineering:hemp_fabric",
+                B: "immersiveengineering:treated_fence",
+                C: "create:shaft",
+            }
+        ],
+        [
+            'frostedheart:metal_vawt', [
+                "A A",
+                "ABA",
+                " C ",
+            ], {
+                A: "#forge:plates/iron",
+                B: "#forge:ingots/iron",
+                C: "create:shaft",
+            }
+        ],
+        [
+            'frostedheart:alloy_vawt', [
+                "A A",
+                "ABA",
+                " C ",
+            ], {
+                A: "#forge:plates/duralumin",
+                B: "#forge:ingots/duralumin",
+                C: "create:shaft",
+            }
+        ],
+        [
+            'create:andesite_casing', 4, [
+                " A ",
+                "ABA",
+                " A ",
+            ], {
+                A: "#forge:rods/cast_iron",
+                B: "#forge:stripped_logs"
+            }
+        ],
+        [
+            'frostedheart:thin_ice', [
+                "AA",
+                "AA"
+            ], {
+                A: "frostedheart:ice_chip",
             }
         ],
 

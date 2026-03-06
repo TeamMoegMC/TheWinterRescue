@@ -302,6 +302,19 @@
 			x: -3.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["1F94471C5310ECFA"]
+			description: ["{tips.frostedheart.soil_thermometer.desc1}"]
+			hide_dependency_lines: true
+			id: "79EBB6CB4BB55070"
+			tasks: [{
+				id: "3AEABC442D050092"
+				item: "frostedheart:soil_thermometer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
 	]
 	subtitle: ["{chapter.twr.40708938F7AB8302.subtitle}"]
 	title: "{chapter.twr.40708938F7AB8302.title}"

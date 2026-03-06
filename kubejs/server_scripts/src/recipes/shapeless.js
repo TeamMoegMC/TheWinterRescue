@@ -17,20 +17,17 @@ ServerEvents.recipes((event) => {
             .id(recipe.id?recipe.id:`the_winter_rescue:minecraft/crafting_shapeless/change/${index}`)
     })
     let addShapelessRecipes = [
-        shapelessRecipe("2x frostedheart:raw_rye_bread", ["2x frostedheart:rye_flour", "minecraft:water_bucket"]),
-        shapelessRecipe("3x kubejs:sawdust_rye_dough", ["2x frostedheart:rye_flour", "#forge:dusts/wood", "minecraft:water_bucket"]),
 		shapelessRecipe("minecraft:flint", "3x minecraft:gravel"),
         shapelessRecipe("9x charcoal_pit:straw", "minecraft:hay_block"),
         shapelessRecipe("immersiveengineering:crate", "immersiveengineering:reinforced_crate"),
         shapelessRecipe(Item.of("frostedheart:straw_briquette_red_mushroom",1,{"Damage": 4800}), ["kubejs:wet_straw_briquette", "minecraft:red_mushroom"]),
         shapelessRecipe(Item.of("frostedheart:straw_briquette_brown_mushroom",1,{"Damage": 4800}), ["kubejs:wet_straw_briquette", "minecraft:brown_mushroom"]),
-        shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "4x frostedheart:generator_ash"]),
-        shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "4x minecraft:ink_sac"]),
-        shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "4x minecraft:glow_ink_sac"]),
+        shapelessRecipe("frostedresearch:quill_and_ink", ["minecraft:feather", "minecraft:glass_bottle", "4x #twr:ink"]),
         shapelessRecipe("frostedresearch:rubbing_tool", ["2x frostedheart:generator_ash", "minecraft:paper", "frostedresearch:rubbing_pad"]),
         shapelessRecipe("2x stone_age:grass_lead", "3x charcoal_pit:straw" ),
         shapelessRecipe("2x frostedheart:packed_snow", ["2x minecraft:snowball", "2x minecraft:snow_block"]),
         shapelessRecipe("4x stone_age:leather_strip", "minecraft:leather"),
+        shapelessRecipe("4x minecraft:clay_ball","minecraft:clay"),
         shapelessRecipe("4x frostedheart:peat","frostedheart:peat_block"),
         shapelessRecipe("4x frostedheart:kaolin","frostedheart:kaolin_block"),
         shapelessRecipe("4x frostedheart:bauxite","frostedheart:bauxite_block"),
@@ -73,6 +70,15 @@ ServerEvents.recipes((event) => {
 		shapelessRecipe("6x create:copper_nugget", ["frostedheart:cable", "frostedheart:rust_remover"]),
 		shapelessRecipe("6x create:copper_nugget", ["frostedheart:deflection_coil", "frostedheart:rust_remover"]),
 		shapelessRecipe("6x create:copper_nugget", ["frostedheart:stator", "frostedheart:rust_remover"]),
+		shapelessRecipe("kubejs:plant_fibre", "#minecraft:saplings"),
+		shapelessRecipe("kubejs:plant_fibre", "minecraft:vine"),
+		shapelessRecipe("create:basin", "minecraft:cauldron"),
+		shapelessRecipe("charcoal_pit:sandy_brick", ["frostedheart:mortar", "4x charcoal_pit:sandy_brick_item"]),
+		shapelessRecipe("2x frostedheart:refractory_bricks", ["frostedheart:mortar", "4x frostedheart:refractory_brick"]),
+		shapelessRecipe("2x frostedheart:high_refractory_bricks", ["frostedheart:mortar", "4x frostedheart:high_refractory_brick"]),
+		shapelessRecipe("create:gearbox", "create:vertical_gearbox"),
+		shapelessRecipe("create:vertical_gearbox", "create:gearbox"),
+
     ]
     addShapelessRecipes.forEach((recipe, index) => {
 		if(!Array.isArray(recipe.ingredients)){

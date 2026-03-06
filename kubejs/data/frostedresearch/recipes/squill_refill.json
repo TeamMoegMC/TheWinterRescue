@@ -1,0 +1,10 @@
+{
+  "type": "chorda:modify_damage",
+  "tool": {
+    "item": "frostedresearch:quill_and_ink"
+  },
+  "item": {
+    "tag": "twr:ink"
+  },
+  "modify":25
+}

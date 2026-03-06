@@ -1,0 +1,20 @@
+{
+  "id": "campfire_4",
+  "category": "tips.frostedheart.category.survival",
+  "nextTip": "",
+  "image": "",
+  "clickAction": "",
+  "clickActionContent": "",
+  "alwaysVisible": false,
+  "onceOnly": false,
+  "hide": false,
+  "pin": false,
+  "displayTime": 6000,
+  "fontColor": "FFC6FCFF",
+  "backgroundColor": "FF000000",
+  "contents": [
+    "tips.frostedheart.campfire.title",
+    "tips.frostedheart.campfire.desc4"
+  ],
+  "children": []
+}

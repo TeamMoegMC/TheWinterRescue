@@ -4,7 +4,7 @@
   "nextTip": "",
   "image": "",
   "alwaysVisible": false,
-  "onceOnly": false,
+  "onceOnly": true,
   "hide": false,
   "pin": false,
   "displayTime": 12000,
