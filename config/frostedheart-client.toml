@@ -89,6 +89,8 @@
 	#Scenario rendering thread, Scenario screen are pre-rendered in seperate pool to prevent lag
 	#Range: 1 ~ 16
 	scenarioRenderThread = 2
+	#Scenario rendering Antialiasing, turn off to higher performance
+	scenarioAntiAliasing = true
 
 [other]
 	#Enable item tooltips
