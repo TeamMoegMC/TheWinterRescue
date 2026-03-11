@@ -344,7 +344,7 @@
 	[ores.nickel]
 		#The maximum Y coordinate this ore can spawn at
 		#Range: > -2147483648
-		max_y = 12
+		max_y = 15
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
 		vein_size = 6
@@ -361,7 +361,7 @@
 		air_exposure = 0.0
 		#The number of veins attempted to be generated per chunk
 		#Range: > 0
-		attempts_per_chunk = 7
+		attempts_per_chunk = 8
 
 	#Ore generation config - bauxite
 	[ores.bauxite]
