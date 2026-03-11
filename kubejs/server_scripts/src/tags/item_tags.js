@@ -760,4 +760,36 @@ ServerEvents.tags("item", (event) => {
     event.add('minecraft:creeper_igniters', [
         'charcoal_pit:fire_starter'
     ])
+
+          event.add("frostedheart:town_resource_resident_food_level_0", [
+                "caupona:fig",
+                "caupona:plump_snail",
+                "caupona:snail",
+                "caupona:walnut",
+                "caupona:wolfberries",
+                "create:chocolate_glazed_berries",
+                "create:honeyed_apple",
+                "create:sweet_roll",
+                "create:bar_of_chocolate",
+                "stone_age:auroch_meat",
+                "stone_age:boar_meat",
+                "stone_age:cooked_auroch_meat",
+                "stone_age:cooked_boar_meat",
+                "stone_age:cooked_fat",
+                "stone_age:cooked_fowl_meat",
+                "stone_age:cooked_mammoth_meat",
+                "stone_age:cooked_mouflon_meat",
+                "stone_age:cooked_rhino_meat",
+                "stone_age:cooked_tiger_meat",
+                "stone_age:cooked_venison",
+                "stone_age:fat",
+                "stone_age:fowl_meat",
+                "stone_age:mammoth_meat",
+                "stone_age:mouflon_meat",
+                "stone_age:rhino_meat",
+                "stone_age:tiger_meat",
+                "stone_age:venison",
+                "supplementaries:candy",
+                "supplementaries:pancake"
+                ])
 })
