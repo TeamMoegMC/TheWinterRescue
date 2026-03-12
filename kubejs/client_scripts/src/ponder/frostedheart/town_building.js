@@ -4,6 +4,8 @@ Ponder.registry((event) => {
         .scene("building_general", "Town Building General", "kubejs:town_building", (scene, util) => {
             //整个结构为10 * 10 * 10
             scene.showBasePlate()
+            scene.scaleSceneView(0.75)
+            scene.configureBasePlate(5, 5, 0)
             scene.idle(20)
 
             scene.text(50, "尽管城镇建筑的要求各不相同，但它们通常有一些共性").attachKeyFrame()
@@ -136,6 +138,7 @@ Ponder.registry((event) => {
         .tag("frostedheart:town_ponder")
         .scene("house_structure", "Building a House", "kubejs:town_building", (scene, util) => {
             scene.showBasePlate()
+            scene.scaleSceneView(0.75)
             scene.idle(20)
 
             scene.text(90, "一个合格的城镇房屋需要有一个完全封闭空间").attachKeyFrame().colored(PonderPalette.RED).attachKeyFrame()
@@ -417,7 +420,10 @@ Ponder.registry((event) => {
     event.create(["frostedheart:house", "frostedheart:warehouse"])
         .tag("frostedheart:town_ponder")
         .scene("2_story_building", "Multi story building", "kubejs:town_2_story_house", (scene, util) => {
+
             scene.showBasePlate()
+            scene.scaleSceneView(0.75)
+            scene.configureBasePlate(4, 4, 0)
             scene.idle(20)
 
             scene.text(60, "你可以建造具有多层结构的建筑，以扩大有效面积，以城镇房屋为例").attachKeyFrame()
