@@ -5,7 +5,9 @@ ServerEvents.recipes((event) => {
     const ChatFormatting = Java.loadClass("net.minecraft.ChatFormatting")
 
     // 炸药桶配方
-    let desc = FlatIcon.INFO.toCTextIcon().copy().append(" ").append(Text.translatable("tooltip.kubejs.gunpowder_barrel.crafting")).withStyle(ChatFormatting.GRAY)
+    let desc = Text.of("ℹ ")
+        .append(Text.translatable("tooltip.kubejs.gunpowder_barrel.crafting"))
+        .gray();
     let displayBarrel = Item.of("frostedheart:gunpowder_barrel").withLore(desc);
     let barrel = ["charcoal_pit:barrel", Item.of("frostedheart:gunpowder_barrel", {canCraft:true}).weakNBT()]
     kubejs.shapeless(displayBarrel, [barrel, "1x #twr:gunpowder_barrel_ingredient"]).modifyResult((grid, result) => {
