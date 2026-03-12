@@ -1,5 +1,5 @@
 Ponder.registry((event) => {
-    event.create(["frostedheart:house", "frostedheart:warehouse"])
+    event.create(["frostedheart:house", "frostedheart:warehouse", "frostedheart:mine_base"])
         .tag("frostedheart:town_ponder")
         .scene("building_general", "Town Building General", "kubejs:town_building", (scene, util) => {
             //整个结构为10 * 10 * 10
@@ -247,8 +247,26 @@ Ponder.registry((event) => {
             scene.idle(60)
         })
 
-    //MineBase
+    //矿场
+    event.create(["frostedheart:mine"])
+        .tag("frostedheart:town_ponder")
+        .scene("mine_structure", "Building a Mine", "kubejs:town_mine", (scene, util) => {
+            scene.rotateCameraY(-30)
+            scene.idle(20)
+            scene.text(80, "一个合格的矿场不需要常规的建筑结构").attachKeyFrame()
+            //显示结构
+            scene.world.showSection([0, 0, 0, 3, 4, 5], Direction.EAST)//todo: 好像方块不存在欸
+            scene.world.showSection([0, 0, 0, 1, 1, 1], Direction.EAST)
 
+            scene.idle(100)
+            scene.text(120, "只需要以矿场方块为中心，在 11×11×9 的检测范围内，若所有与矿场连通的空气方块的相邻位置中，存在至少 6 个石头或矿物方块即可。", [1.5, 1.5, 2.5])
+            scene.overlay.showOutline("white", {}, [-4, -3, -3, 6, 5, 7], 60)
+            scene.idle(140)
+            scene.text(80, "矿场方块本体所在的生物群系会影响城镇采矿的产物").attachKeyFrame()
+            scene.idle(100)
+        })
+
+    //MineBase
     event.create(["frostedheart:mine_base"])
         .tag("frostedheart:town_ponder")
         .scene("mine_base_structure", "Building a Mine Base", "kubejs:town_warehouse", (scene, util) => {
@@ -320,7 +338,6 @@ Ponder.registry((event) => {
         })
 
     //矿场与矿场基地的连接
-
     event.create(["frostedheart:mine_base", "frostedheart:mine"])
         .tag("frostedheart:town_ponder")
         .scene("connect_mine_and_base", "Connect Mine and Mine Base", "kubejs:connect_mine_and_base", (scene, util) => {
@@ -389,9 +406,9 @@ Ponder.registry((event) => {
             scene.world.replaceBlocks([3, 8, 13], "minecraft:air", true)
             scene.world.replaceBlocks(util.select.fromTo(3, 8, 8, 3, 10, 15), "minecraft:air", false)
             scene.idle(10)
-            scene.world.setBlocks([3,8,8,3,8,15], "minecraft:rail", true)
+            scene.world.setBlocks([3, 8, 8, 3, 8, 15], "minecraft:rail", true)
             scene.idle(30)
-            scene.overlay.showOutline("green", {}, [3,7,8,7,11,15], 30)
+            scene.overlay.showOutline("green", {}, [3, 7, 8, 7, 11, 15], 30)
             scene.idle(30)
         })
 
