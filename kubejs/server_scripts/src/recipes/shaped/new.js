@@ -1630,10 +1630,75 @@ ServerEvents.recipes((event) => {
                 "AA",
                 "AA"
             ], {
-                A: "frostedheart:ice_chip",
+                A: "frostedheart:ice_chip"
             }
         ],
-
+        [
+            'frostedheart:house', [
+                "BAB",
+                "ACA",
+                "BAB"
+            ], {
+                A: "#minecraft:planks",
+                B: "minecraft:stone_bricks",
+                C: "#forge:ingots/copper"
+            }
+        ],
+        [
+            'frostedheart:warehouse', [
+                "BAB",
+                "ACA",
+                "BAB"
+            ], {
+                A: "#minecraft:planks",
+                B: "minecraft:stone_bricks",
+                C: "#forge:chests/wooden"
+            }
+        ],
+        [
+            'frostedheart:mine', [
+                "BAB",
+                "ACA",
+                "BAB"
+            ], {
+                A: "#minecraft:planks",
+                B: "minecraft:stone_bricks",
+                C: "minecraft:iron_pickaxe"
+            }
+        ],
+        [
+            'frostedheart:mine_base', [
+                "BAB",
+                "ACA",
+                "BAB"
+            ], {
+                A: "#minecraft:planks",
+                B: "minecraft:stone_bricks",
+                C: "minecraft:iron_ingot"
+            }
+        ],
+        [
+            'frostedheart:hunting_camp', [
+                "BAB",
+                "ACA",
+                "BAB"
+            ], {
+                A: "#minecraft:planks",
+                B: "minecraft:stone_bricks",
+                C: "minecraft:bow"
+            }
+        ],
+        [
+            'frostedheart:hunting_base', [
+                "BAB",
+                "ACA",
+                "BAB"
+            ], {
+                A: "#minecraft:planks",
+                B: "minecraft:stone_bricks",
+                C: "#forge:fence_gates/wooden"
+            }
+        ],
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [
