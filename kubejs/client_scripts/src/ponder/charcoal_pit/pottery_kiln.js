@@ -1,18 +1,20 @@
 Ponder.registry((event) => {
     event.create(["charcoal_pit:clay_pot", "charcoal_pit:straw"])
         .tag("charcoal_pit:ponder")
-        .scene("basic_usage", "", "kubejs:pottery_kiln", (scene) => {
+        .scene("pottery_kiln", "", "kubejs:pottery_kiln", (scene) => {
             scene.showBasePlate()
             scene.idle(20)
 
             scene.addKeyframe()
-            scene.showControls(20, [2, 1.5, 2], "right")
+            scene.showControls(28, [2, 1.5, 2], "right")
                 .withItem("minecraft:cobblestone")
-                .rightClick()
-                .whileSneaking()
+            scene.overlay.showText(20)
+                .colored(PonderPalette.GREEN)
+                .text("Press C on the ground to place a Kiln")
+                .pointAt([2, 1, 2])
             scene.idle(20)
             scene.world.showSection([2, 1, 2], Direction.DOWN)
-            scene.idle(20)
+            scene.idle(30)
 
             scene.addKeyframe()
             scene.showControls(20, [2, 1.5, 2], "right")

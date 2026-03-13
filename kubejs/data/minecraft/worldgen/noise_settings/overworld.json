@@ -388,31 +388,10 @@
                     "surface_depth_multiplier": -1
                   },
                   "then_run": {
-                    "type": "minecraft:sequence",
-                    "sequence": [
-                      {
-                        "type": "minecraft:condition",
-                        "if_true": {
-                          "type": "minecraft:stone_depth",
-                          "add_surface_depth": false,
-                          "offset": 0,
-                          "secondary_depth_range": 0,
-                          "surface_type": "floor"
-                        },
-                        "then_run": {
-                          "type": "minecraft:block",
-                          "result_state": {
-                            "Name": "frostedheart:peat_block"
-                          }
-                        }
-                      },
-                      {
-                        "type": "minecraft:block",
-                        "result_state": {
-                          "Name": "frostedheart:peat_permafrost"
-                        }
-                      }
-                    ]
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "frostedheart:peat_permafrost"
+                    }
                   }
                 }
               }
