@@ -1,20 +1,8 @@
 {
   "id": "ponder",
-  "category": "tips.frostedheart.category.control",
-  "nextTip": "",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": true,
-  "hide": false,
-  "pin": false,
-  "displayTime": 12000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
   "contents": [
     "tips.frostedheart.ponder.title",
     "tips.frostedheart.ponder.desc1"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.control"
 }

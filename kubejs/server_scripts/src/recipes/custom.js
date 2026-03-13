@@ -1,8 +1,7 @@
 ServerEvents.recipes((event) => {
     let { kubejs } = event.recipes;
 
-    const FlatIcon = Java.loadClass("com.teammoeg.chorda.client.icon.FlatIcon")
-    const ChatFormatting = Java.loadClass("net.minecraft.ChatFormatting")
+    const CompoundTag = Java.loadClass("net.minecraft.nbt.CompoundTag");
 
     // 炸药桶配方
     let desc = Text.of("ℹ ")
@@ -38,7 +37,7 @@ ServerEvents.recipes((event) => {
     const ingredientEffects = new Map();
     ingredientEffects.set("minecraft:gunpowder",          [18, 10]);
     ingredientEffects.set("kubejs:he_gunpowder",          [45, 50]);
-    ingredientEffects.set('supplementaries:lapis_bricks', [0 , 12]);
+    ingredientEffects.set('minecraft:lapis_lazuli',       [0 , 12]);
     ingredientEffects.set("frostedheart:cast_iron_ingot", [0 , 25]);
     ingredientEffects.set("minecraft:diamond",            [0 , 80]);
     /**
@@ -85,12 +84,14 @@ ServerEvents.recipes((event) => {
             fortune -= fortuneLevel * 147;
         }
 
-        let nbt = {};
-        nbt.fortuneLeft = fortune;
-        nbt.range = range;
-        nbt.canCraft = true;
+        let nbt = new CompoundTag();
+        nbt.putInt("fortuneLeft", fortune);
+        nbt.putBoolean("canCraft", true);
+        if (range > 1) {
+            nbt.putInt("range", range);
+        }
         if (fortuneLevel > 0) {
-            nbt.fortuneLevel = fortuneLevel;
+            nbt.putInt("fortuneLevel", fortuneLevel);
         }
         return Item.of('frostedheart:gunpowder_barrel', nbt).withLore(desc);
     }
@@ -101,8 +102,8 @@ ServerEvents.recipes((event) => {
     function applyFortune(barrel, fortune) {
         let nbt = barrel.nbt.copy();
         fortune += nbt.fortuneLeft;
-        let range = nbt.range ?? 1;
-        let fortuneLevel = nbt.fortuneLevel ?? 0;
+        let range = nbt.range || 1;
+        let fortuneLevel = nbt.fortuneLevel || 0;
 
         if (range == 1) {
             fortune += fortuneLevel * 27;
@@ -113,13 +114,17 @@ ServerEvents.recipes((event) => {
         } else if (range == 3) {
             fortune += fortuneLevel * 147;
             fortuneLevel = Math.min(Math.floor(fortune / 147), 4);
+        } else {
+            return Item.empty;
         }
 
         nbt = barrel.getNbt();
         nbt.remove("display");
         nbt.remove("canCraft");
         nbt.remove("fortuneLeft");
-        nbt.putInt("fortuneLevel", fortuneLevel);
+        if (fortuneLevel > 0) {
+            nbt.putInt("fortuneLevel", fortuneLevel);
+        }
         return Item.of('frostedheart:gunpowder_barrel', nbt);
     }
     // 下落nbt

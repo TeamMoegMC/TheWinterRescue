@@ -2,31 +2,42 @@
 ["Frosted HUD"]
 	#Enables The Winter Rescue HUD. THIS IS MODPACK CORE FEATURE, DISABLING IS NOT RECOMMENDED. 
 	enableHUD = true
-	#Enables the temperature orb overlay. 
-	enableTemperatureOrb = true
-	#Use Fahrenheit temperature instead of celsus.
-	useFahrenheit = false
-	#Position of the temperature orb in game screen. 
-	#Allowed Values: MIDDLE, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
-	renderTempOrbAtCenter = "MIDDLE"
-	#X Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used. 
-	#Range: -4096 ~ 4096
-	tempOrbOffsetX = 0
-	#Y Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used.  
-	#Range: -4096 ~ 4096
-	tempOrbOffsetY = 0
-	#Enables the waypoints rendering. 
-	enableWaypoint = true
-	#Enables the tips rendering. 
-	enableTip = true
-	#Radius of the Radial Menu. 
-	#Range: > 60
-	wheelMenuRadius = 100
-	#Enables the cursor in the Radial Menu. 
-	enableWheelMenuCursor = false
 	#The theme color of most FH HUDs. 
 	#Range: > -2147483648
 	themeColor = -3736321
+
+	["Frosted HUD"."Temperature Orb"]
+		#Enables the temperature orb overlay. 
+		enableTemperatureOrb = true
+		#Use Fahrenheit temperature instead of celsus.
+		useFahrenheit = false
+		#Position of the temperature orb in game screen. 
+		#Allowed Values: MIDDLE_LEFT, MIDDLE, MIDDLE_RIGHT, TOP_LEFT, TOP_MIDDLE, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_MIDDLE, BOTTOM_RIGHT
+		renderTempOrbAtCenter = "MIDDLE"
+		#X Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used. 
+		#Range: -4096 ~ 4096
+		tempOrbOffsetX = 0
+		#Y Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used.  
+		#Range: -4096 ~ 4096
+		tempOrbOffsetY = 0
+
+	["Frosted HUD"."Wheel Menu"]
+		#Radius of the Radial Menu. 
+		#Range: > 60
+		wheelMenuRadius = 100
+		#Enables the cursor in the Radial Menu. 
+		enableWheelMenuCursor = false
+
+	["Frosted HUD".Tip]
+		#Enables the tips rendering. 
+		enableTip = true
+		#
+		#Allowed Values: MIDDLE_LEFT, MIDDLE, MIDDLE_RIGHT, TOP_LEFT, TOP_MIDDLE, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_MIDDLE, BOTTOM_RIGHT
+		tipPosition = "TOP_MIDDLE"
+
+	["Frosted HUD".Waypoint]
+		#Enables the waypoints rendering. 
+		enableWaypoint = true
 
 ["Frozen Effects"]
 	#Enables the frozen overlay when player is freezing. 

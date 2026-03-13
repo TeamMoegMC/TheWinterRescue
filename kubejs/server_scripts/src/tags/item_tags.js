@@ -746,7 +746,7 @@ ServerEvents.tags("item", (event) => {
     ])
 
     event.add("twr:gunpowder_barrel_ingredient", [
-        "supplementaries:lapis_bricks",
+        "#forge:gems/lapis",
         "#forge:gunpowder",
         "kubejs:he_gunpowder",
         "#forge:ingots/cast_iron",

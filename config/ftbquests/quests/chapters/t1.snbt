@@ -1497,6 +1497,7 @@
 					type: "frostedheart:insight"
 				}
 				{
+					auto: "invisible"
 					fh_tip: "gunpowder_barrel"
 					id: "300DC654642E194E"
 					type: "frostedheart:tip"
