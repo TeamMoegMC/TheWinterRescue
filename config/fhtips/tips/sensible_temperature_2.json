@@ -1,19 +1,12 @@
 {
-  "id": "sensible_temperature_2",
-  "category": "tips.frostedheart.category.survival",
+  "display": {
+    "displayTime": 15000
+  },
   "nextTip": "body_temperature",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": false,
-  "hide": false,
-  "pin": false,
-  "displayTime": 15000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
+  "id": "sensible_temperature_2",
   "contents": [
     "tips.frostedheart.sensible_temperature.title",
     "tips.frostedheart.sensible_temperature.desc3"
-  ]
+  ],
+  "category": "tips.frostedheart.category.survival"
 }

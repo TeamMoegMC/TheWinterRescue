@@ -1,20 +1,20 @@
 {
-  "id": "vawt_2",
-  "category": "tips.frostedheart.category.machine",
+  "display": {
+    "displayItems": [
+      {
+        "id": "frostedheart:metal_vawt",
+        "Count": 1,
+        "tag": {
+          "Damage": 14400000
+        }
+      }
+    ]
+  },
   "nextTip": "vawt_3",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": true,
-  "hide": false,
-  "pin": false,
-  "displayTime": 12000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
+  "id": "vawt_2",
   "contents": [
     "tips.frostedheart.vawt.title",
     "tips.frostedheart.vawt.desc3"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.machine"
 }

@@ -1,0 +1,12 @@
+{
+  "children": [
+    "plant_2"
+  ],
+  "nextTip": "plant_2",
+  "id": "plant",
+  "contents": [
+    "tips.frostedheart.plant.title",
+    "tips.frostedheart.plant.desc1"
+  ],
+  "category": "tips.frostedheart.category.plant"
+}

@@ -1,20 +1,8 @@
 {
   "id": "wheel_menu_3",
-  "category": "tips.frostedheart.category.control",
-  "nextTip": "",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": true,
-  "hide": false,
-  "pin": false,
-  "displayTime": 12000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
   "contents": [
     "tips.frostedheart.wheel_menu.title",
     "tips.frostedheart.wheel_menu.desc3"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.control"
 }

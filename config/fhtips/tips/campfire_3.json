@@ -1,20 +1,13 @@
 {
-  "id": "campfire_3",
-  "category": "tips.frostedheart.category.survival",
+  "display": {
+    "displayTime": 16000
+  },
   "nextTip": "campfire_4",
-  "image": "twr_tips:textures/campfire.png",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": false,
-  "hide": false,
-  "pin": false,
-  "displayTime": 12000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
+  "id": "campfire_3",
   "contents": [
     "tips.frostedheart.campfire.title",
     "tips.frostedheart.campfire.desc3"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.survival",
+  "image": "twr_tips:textures/campfire.png"
 }

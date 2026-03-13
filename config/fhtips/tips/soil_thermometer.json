@@ -1,20 +1,12 @@
 {
+  "display": {
+    "displayTime": 10000
+  },
   "id": "soil_thermometer",
-  "category": "tips.frostedheart.category.plant",
-  "nextTip": "",
-  "image": "twr_tips:textures/soil_thermometer.png",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": true,
-  "hide": false,
-  "pin": false,
-  "displayTime": 10000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
   "contents": [
     "item.frostedheart.soil_thermometer",
     "tips.frostedheart.soil_thermometer.desc1"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.plant",
+  "image": "twr_tips:textures/soil_thermometer.png"
 }

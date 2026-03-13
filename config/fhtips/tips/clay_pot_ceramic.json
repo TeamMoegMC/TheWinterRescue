@@ -1,20 +1,16 @@
 {
+  "display": {
+    "displayItems": [
+      {
+        "id": "charcoal_pit:ceramic_pot",
+        "Count": 1
+      }
+    ]
+  },
   "id": "clay_pot_ceramic",
-  "category": "tips.frostedheart.category.extra_utilities",
-  "nextTip": "",
-  "image": "",
-  "clickAction": "ShowJeiRecipe",
-  "clickActionContent": "charcoal_pit:ceramic_pot",
-  "alwaysVisible": false,
-  "onceOnly": true,
-  "hide": false,
-  "pin": false,
-  "displayTime": 20000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
   "contents": [
     "tips.frostedheart.clay_pot_ceramic.title",
     "tips.frostedheart.clay_pot_ceramic.desc1"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.extra_utilities"
 }

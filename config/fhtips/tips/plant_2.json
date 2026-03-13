@@ -1,20 +1,13 @@
 {
-  "id": "plant_2",
-  "category": "tips.frostedheart.category.plant",
+  "display": {
+    "displayTime": 14000
+  },
   "nextTip": "soil_temperature",
-  "image": "twr_tips:textures/temperature_info.png",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": true,
-  "hide": false,
-  "pin": false,
-  "displayTime": 10000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
+  "id": "plant_2",
   "contents": [
     "tips.frostedheart.plant.title",
     "tips.frostedheart.plant.desc2"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.plant",
+  "image": "twr_tips:textures/temperature_info.png"
 }

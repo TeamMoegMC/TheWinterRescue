@@ -1,20 +1,9 @@
 {
-  "id": "soil_temperature_3",
-  "category": "tips.frostedheart.category.plant",
   "nextTip": "shelter_and_light",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": true,
-  "hide": false,
-  "pin": false,
-  "displayTime": 30000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
+  "id": "soil_temperature_3",
   "contents": [
     "tips.frostedheart.soil_temperature.title",
     "tips.frostedheart.soil_temperature.desc4"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.plant"
 }

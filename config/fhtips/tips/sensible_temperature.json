@@ -1,0 +1,17 @@
+{
+  "children": [
+    "sensible_temperature_2"
+  ],
+  "display": {
+    "displayTime": 20000
+  },
+  "nextTip": "sensible_temperature_2",
+  "id": "sensible_temperature",
+  "contents": [
+    "tips.frostedheart.sensible_temperature.title",
+    "quest.twr.125F6ADB0DEA3EEA.subtitle",
+    "tips.frostedheart.sensible_temperature.desc1"
+  ],
+  "category": "tips.frostedheart.category.survival",
+  "image": "twr_tips:textures/new_hud.png"
+}

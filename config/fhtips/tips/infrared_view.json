@@ -1,20 +1,8 @@
 {
   "id": "infrared_view",
-  "category": "tips.frostedheart.category.plant",
-  "nextTip": "",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": true,
-  "hide": false,
-  "pin": false,
-  "displayTime": 12000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
   "contents": [
     "tips.frostedheart.infrared_view.title",
     "tips.frostedheart.infrared_view.desc1"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.plant"
 }

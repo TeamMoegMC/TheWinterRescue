@@ -1,20 +1,12 @@
 {
-  "id": "vawt_1",
-  "category": "tips.frostedheart.category.machine",
+  "display": {
+    "displayTime": 10000
+  },
   "nextTip": "vawt_2",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": true,
-  "hide": false,
-  "pin": false,
-  "displayTime": 12000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
+  "id": "vawt_1",
   "contents": [
     "tips.frostedheart.vawt.title",
     "tips.frostedheart.vawt.desc2"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.machine"
 }

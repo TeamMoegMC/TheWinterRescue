@@ -1,20 +1,14 @@
 {
-  "id": "body_temperature_2",
-  "category": "tips.frostedheart.category.survival",
+  "display": {
+    "displayTime": 20000
+  },
   "nextTip": "body_temperature_3",
-  "image": "twr_tips:textures/temp_bar.png",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": false,
-  "hide": false,
-  "pin": false,
-  "displayTime": 20000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
+  "id": "body_temperature_2",
   "contents": [
     "quest.twr.76E0A57CE55FFCEA.6D6B476F48C9D98E.title",
     "quest.twr.76E0A57CE55FFCEA.description.3",
     "quest.twr.76E0A57CE55FFCEA.description.4"
-  ]
+  ],
+  "category": "tips.frostedheart.category.survival",
+  "image": "twr_tips:textures/temp_bar.png"
 }

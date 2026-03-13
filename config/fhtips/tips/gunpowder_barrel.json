@@ -1,24 +1,22 @@
 {
-  "id": "gunpowder_barrel",
-  "category": "tips.frostedheart.category.extra_utilities",
-  "nextTip": "gunpowder_barrel_2",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": true,
-  "hide": false,
-  "pin": false,
-  "displayTime": 15000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
-  "contents": [
-    "tips.frostedheart.gunpowder_barrel.title",
-    "tips.frostedheart.gunpowder_barrel.desc1"
-  ],
   "children": [
     "gunpowder_barrel_2",
     "gunpowder_barrel_3",
     "gunpowder_barrel_4"
-  ]
+  ],
+  "display": {
+    "displayItems": [
+      {
+        "id": "frostedheart:gunpowder_barrel",
+        "Count": 1
+      }
+    ]
+  },
+  "nextTip": "gunpowder_barrel_2",
+  "id": "gunpowder_barrel",
+  "contents": [
+    "tips.frostedheart.gunpowder_barrel.title",
+    "tips.frostedheart.gunpowder_barrel.desc1"
+  ],
+  "category": "tips.frostedheart.category.extra_utilities"
 }

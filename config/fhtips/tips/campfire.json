@@ -1,24 +1,22 @@
 {
-  "id": "campfire",
-  "category": "tips.frostedheart.category.survival",
-  "nextTip": "campfire_2",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": true,
-  "hide": false,
-  "pin": false,
-  "displayTime": 12000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
-  "contents": [
-    "tips.frostedheart.campfire.title",
-    "tips.frostedheart.campfire.desc1"
-  ],
   "children": [
     "campfire_2",
     "campfire_3",
     "campfire_4"
-  ]
+  ],
+  "display": {
+    "displayItems": [
+      {
+        "id": "minecraft:campfire",
+        "Count": 1
+      }
+    ]
+  },
+  "nextTip": "campfire_2",
+  "id": "campfire",
+  "contents": [
+    "tips.frostedheart.campfire.title",
+    "tips.frostedheart.campfire.desc1"
+  ],
+  "category": "tips.frostedheart.category.survival"
 }
