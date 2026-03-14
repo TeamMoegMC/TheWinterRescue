@@ -89,9 +89,7 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_berry_rare"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "has_precipitation": true,
   "spawn_costs": {},

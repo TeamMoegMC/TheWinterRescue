@@ -72,9 +72,7 @@
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "has_precipitation": true,
   "spawn_costs": {},

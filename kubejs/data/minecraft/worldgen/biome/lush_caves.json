@@ -87,9 +87,7 @@
       "minecraft:spore_blossom",
       "minecraft:classic_vines_cave_feature"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "has_precipitation": true,
   "spawn_costs": {},
