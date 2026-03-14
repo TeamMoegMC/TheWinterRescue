@@ -25,7 +25,6 @@ ServerEvents.recipes((event) => {
 		"supplementaries:cog_block",
 		"supplementaries:spring_launcher",
 		"supplementaries:bellows",
-		"supplementaries:wind_vane",
 		"supplementaries:faucet",
 		"supplementaries:bomb",
 		"minecraft:green_dye",
