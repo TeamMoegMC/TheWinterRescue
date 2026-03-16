@@ -488,10 +488,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"5287CFB7B7D5285E"
-				"13AA30FB9CD620EB"
-			]
+			dependencies: ["13AA30FB9CD620EB"]
 			dependency_requirement: "one_completed"
 			description: [
 				"{quest.twr.1C8171C8FD1D0CD5.description.1}"
@@ -1236,6 +1233,7 @@
 					type: "frostedheart:insight"
 				}
 			]
+			size: 1.2d
 			subtitle: "{quest.twr.5287CFB7B7D5285E.subtitle}"
 			tasks: [{
 				count: 27L
