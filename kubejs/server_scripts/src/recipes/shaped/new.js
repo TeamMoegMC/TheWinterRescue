@@ -1543,7 +1543,7 @@ ServerEvents.recipes((event) => {
             }
         ],
         [
-            'create:belt_connector', [
+            'create:belt_connector', 2, [
                 "CAC",
                 "BBB",
                 "CAC",
