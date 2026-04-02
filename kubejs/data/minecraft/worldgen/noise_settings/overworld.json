@@ -1181,7 +1181,8 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "minecraft:snowy_plains"
+                                  "minecraft:snowy_plains",
+                                  "the_winter_rescue:jack_pine_woodland"
                                 ]
                               },
                               "then_run": {

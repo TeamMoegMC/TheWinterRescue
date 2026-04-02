@@ -2,28 +2,23 @@
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:cave_extra_underground",
       "minecraft:canyon"
     ]
   },
-  "creature_spawn_probability": 0.1,
+  "creature_spawn_probability": 0.03,
   "downfall": 0.5,
   "effects": {
-    "fog_color": 12638463,
+    "fog_color": 13494015,
+    "foliage_color": 12162160,
+    "grass_color": 9663828,
     "mood_sound": {
       "block_search_extent": 8,
-      "offset": 2.0,
+      "offset": 2,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.lush_caves"
-    },
-    "sky_color": 8103167,
-    "water_color": 7856375,
+    "sky_color": 11653631,
+    "water_color": 4159136,
     "water_fog_color": 329011
   },
   "features": [
@@ -43,15 +38,6 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_granite_upper",
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_andesite_upper",
-      "minecraft:ore_andesite_lower",
-      "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -64,11 +50,7 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:ore_clay",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:underwater_magma"
     ],
     [
     ],
@@ -77,15 +59,15 @@
       "minecraft:spring_lava"
     ],
     [
+      "the_winter_rescue:nature/rare_moss_patch",
+      "the_winter_rescue:nature/jack_pine_tree",
       "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:lush_caves_ceiling_vegetation",
-      "minecraft:cave_vines",
-      "minecraft:lush_caves_clay",
-      "minecraft:lush_caves_vegetation",
-      "minecraft:rooted_azalea_tree",
-      "minecraft:spore_blossom",
-      "minecraft:classic_vines_cave_feature"
+      "minecraft:trees_plains",
+      "minecraft:flower_plains",
+      "minecraft:patch_grass_plain",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_berry_rare"
     ],
     []
   ],
@@ -95,15 +77,14 @@
     "ambient": [
 
     ],
-    "axolotls": [
-      {
-        "type": "minecraft:axolotl",
-        "maxCount": 6,
-        "minCount": 4,
-        "weight": 10
-      }
-    ],
+    "axolotls": [],
     "creature": [
+      {
+        "type": "minecraft:wolf",
+        "maxCount": 6,
+        "minCount": 1,
+        "weight": 1
+      },
       {
         "type": "stone_age:auroch",
         "maxCount": 2,
@@ -125,18 +106,7 @@
     ],
     "misc": [],
     "monster": [
-      {
-        "type": "minecraft:slime",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:spider",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 10
-      }
+
     ],
     "underground_water_creature": [
       {
@@ -146,15 +116,9 @@
         "weight": 10
       }
     ],
-    "water_ambient": [
-      {
-        "type": "minecraft:tropical_fish",
-        "maxCount": 8,
-        "minCount": 8,
-        "weight": 25
-      }
-    ],
+    "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.5
+  "temperature": -0.2,
+  "temperature_modifier": "frozen"
 }
