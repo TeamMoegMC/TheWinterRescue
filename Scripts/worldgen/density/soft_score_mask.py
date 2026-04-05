@@ -214,12 +214,12 @@ def generate_single_file_region_mask_json(
     }
 
     DIMENSION_FN_REFS = {
-        "temperature": "minecraft:overworld/noise_router/temperature",
-        "humidity": "minecraft:overworld/noise_router/vegetation",
-        "continentalness": "minecraft:overworld/noise_router/continents",
-        "erosion": "minecraft:overworld/noise_router/erosion",
-        "depth": "minecraft:overworld/noise_router/depth",
-        "pv": "minecraft:overworld/noise_router/ridges"
+        "temperature": "minecraft:overworld/temperature",
+        "humidity": "minecraft:overworld/vegetation",
+        "continentalness": "minecraft:overworld/effective_continentalness",
+        "erosion": "minecraft:overworld/erosion",
+        "depth": "minecraft:overworld/depth",
+        "pv": "minecraft:overworld/ridges"
     }
 
     SOFTNESS_BY_DIM = {
@@ -619,14 +619,14 @@ def generate_single_file_region_mask_json(
 
 
 
-# 5) Example usage
+# 5) usage
 NOISE_ROUTER_INPUT_MAP = {
-    "minecraft:overworld/noise_router/temperature": "temperature",
-    "minecraft:overworld/noise_router/vegetation": "humidity",
-    "minecraft:overworld/noise_router/continents": "continentalness",
-    "minecraft:overworld/noise_router/erosion": "erosion",
-    "minecraft:overworld/noise_router/depth": "depth",
-    "minecraft:overworld/noise_router/ridges": "pv",
+    "minecraft:overworld/temperature": "temperature",
+    "minecraft:overworld/vegetation": "humidity",
+    "minecraft:overworld/effective_continentalness": "continentalness",
+    "minecraft:overworld/erosion": "erosion",
+    "minecraft:overworld/depth": "depth",
+    "minecraft:overworld/ridges": "pv",
 }
 
 
