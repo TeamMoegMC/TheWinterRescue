@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:noise",
+      "noise": "the_winter_rescue:gf_caves/gf_caves_chamber",
+      "xz_scale": 0.7,
+      "y_scale": 0.8
+    },
+    "min": 0.0,
+    "max": 1.0
+  },
+  "argument2": {
+    "type": "minecraft:constant",
+    "argument": 0.03
+  }
+}

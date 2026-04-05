@@ -278,246 +278,6 @@
               }
             },
             {
-              "biome": "the_winter_rescue:andesite_caves",
-              "parameters": {
-                "depth": [
-                  0.2,
-                  0.5
-                ],
-                "erosion": [
-                  -1.0,
-                  1.0
-                ],
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "temperature": [
-                  -1.0,
-                  0.2
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0,
-                "weirdness": [
-                  -1.0,
-                  -0.05
-                ]
-              }
-            },
-            {
-              "biome": "the_winter_rescue:andesite_caves",
-              "parameters": {
-                "depth": [
-                  0.2,
-                  0.5
-                ],
-                "erosion": [
-                  -1.0,
-                  1.0
-                ],
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "temperature": [
-                  -1.0,
-                  0.2
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0,
-                "weirdness": [
-                  0.05,
-                  1.0
-                ]
-              }
-            },
-            {
-              "biome": "the_winter_rescue:mycelium_caves",
-              "parameters": {
-                "depth": [
-                  0.2,
-                  0.5
-                ],
-                "erosion": [
-                  -1.0,
-                  1.0
-                ],
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "temperature": [
-                  0.2,
-                  0.75
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0,
-                "weirdness": [
-                  -1.0,
-                  -0.05
-                ]
-              }
-            },
-            {
-              "biome": "the_winter_rescue:mycelium_caves",
-              "parameters": {
-                "depth": [
-                  0.2,
-                  0.5
-                ],
-                "erosion": [
-                  -1.0,
-                  1.0
-                ],
-                "continentalness": [
-                  0.3,
-                  1.0
-                ],
-                "temperature": [
-                  0.2,
-                  0.75
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0,
-                "weirdness": [
-                  0.05,
-                  1.0
-                ]
-              }
-            },
-            {
-              "biome": "the_winter_rescue:ice_caves",
-              "parameters": {
-                "depth": [
-                  0.2,
-                  0.5
-                ],
-                "erosion": [
-                  -1.0,
-                  0.05
-                ],
-                "continentalness": [
-                  -0.19,
-                  0.3
-                ],
-                "temperature": [
-                  -1.0,
-                  0.2
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0,
-                "weirdness": [
-                  -1.0,
-                  -0.05
-                ]
-              }
-            },
-            {
-              "biome": "the_winter_rescue:ice_caves",
-              "parameters": {
-                "depth": [
-                  0.2,
-                  0.5
-                ],
-                "erosion": [
-                  -1.0,
-                  0.05
-                ],
-                "continentalness": [
-                  -0.19,
-                  0.3
-                ],
-                "temperature": [
-                  -1.0,
-                  0.2
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0,
-                "weirdness": [
-                  0.05,
-                  1.0
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:dripstone_caves",
-              "parameters": {
-                "depth": [
-                  0.2,
-                  0.5
-                ],
-                "erosion": [
-                  -1.0,
-                  0.05
-                ],
-                "continentalness": [
-                  -0.19,
-                  0.3
-                ],
-                "temperature": [
-                  0.2,
-                  0.75
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0,
-                "weirdness": [
-                  -1.0,
-                  -0.05
-                ]
-              }
-            },
-            {
-              "biome": "minecraft:dripstone_caves",
-              "parameters": {
-                "depth": [
-                  0.2,
-                  0.5
-                ],
-                "erosion": [
-                  -1.0,
-                  0.05
-                ],
-                "continentalness": [
-                  -0.19,
-                  0.3
-                ],
-                "temperature": [
-                  0.2,
-                  0.75
-                ],
-                "humidity": [
-                  -1.0,
-                  1.0
-                ],
-                "offset": 0,
-                "weirdness": [
-                  0.05,
-                  1.0
-                ]
-              }
-            },
-            {
               "biome": "the_winter_rescue:brine_deposits",
               "parameters": {
                 "depth": [
@@ -544,6 +304,1026 @@
                 "weirdness": [
                   -0.05,
                   0.05
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:andesite_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -1.0,
+                  -0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:andesite_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.4,
+                  -0.05
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:andesite_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.05,
+                  0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:andesite_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.9333,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:mycelium_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  0.2,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -1.0,
+                  -0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:mycelium_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  0.2,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.4,
+                  -0.05
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:mycelium_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  0.2,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.05,
+                  0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:mycelium_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  0.2,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.9333,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:ice_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -1.0,
+                  -0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:ice_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.4,
+                  -0.05
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:ice_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.05,
+                  0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:ice_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.9333,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:dripstone_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "temperature": [
+                  0.2,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -1.0,
+                  -0.9333
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:dripstone_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "temperature": [
+                  0.2,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.4,
+                  -0.05
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:dripstone_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "temperature": [
+                  0.2,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.05,
+                  0.4
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:dripstone_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "temperature": [
+                  0.2,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.9333,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:ice_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -1.0,
+                  -0.45
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:ice_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -1.0,
+                  -0.45
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:glacial_fungus_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -1.0,
+                  -0.15
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:glacial_fungus_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -1.0,
+                  -0.15
+                ],
+                "humidity": [
+                  -0.35,
+                  -0.1
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:ice_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -1.0,
+                  -0.15
+                ],
+                "humidity": [
+                  -0.1,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:ice_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -1.0,
+                  -0.15
+                ],
+                "humidity": [
+                  -0.1,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:glacial_fungus_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:glacial_fungus_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  -1.0,
+                  -0.35
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:dripstone_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -0.15,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:dripstone_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -0.15,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:ice_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  -0.11
+                ],
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:ice_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  -0.11
+                ],
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:dripstone_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  -0.11
+                ],
+                "temperature": [
+                  0.2,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "minecraft:dripstone_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  -1.0,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  -0.11
+                ],
+                "temperature": [
+                  0.2,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:andesite_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  0.05,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:andesite_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  0.05,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  -1.0,
+                  0.2
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:mycelium_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  0.05,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  0.2,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:mycelium_caves",
+              "parameters": {
+                "depth": [
+                  0.2,
+                  0.5
+                ],
+                "erosion": [
+                  0.05,
+                  1.0
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  0.2,
+                  0.75
+                ],
+                "humidity": [
+                  -1.0,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
                 ]
               }
             },
@@ -1318,6 +2098,36 @@
                 ],
                 "humidity": [
                   0.3,
+                  0.6
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.05,
+                  0.05
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.375
+                ],
+                "continentalness": [
+                  0.3,
+                  1.0
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
                   1.0
                 ],
                 "offset": 0,
@@ -1478,7 +2288,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -2428,6 +3238,36 @@
                 ],
                 "humidity": [
                   0.3,
+                  0.6
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.1333,
+                  0.1333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.375,
+                  0.55
+                ],
+                "continentalness": [
+                  0.03,
+                  1.0
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
                   1.0
                 ],
                 "offset": 0,
@@ -2588,7 +3428,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -6988,7 +7828,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -7018,7 +7858,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -7048,7 +7888,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -7078,6 +7918,126 @@
                 ],
                 "humidity": [
                   0.3,
+                  0.6
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.9333,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.78,
+                  -0.375
+                ],
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -1.0,
+                  -0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.78,
+                  -0.375
+                ],
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.4,
+                  -0.1333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.78,
+                  -0.375
+                ],
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.1333,
+                  0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.78,
+                  -0.375
+                ],
+                "continentalness": [
+                  -0.11,
+                  0.03
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
                   1.0
                 ],
                 "offset": 0,
@@ -7568,7 +8528,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -7598,7 +8558,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -7628,7 +8588,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -7658,7 +8618,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -10888,7 +11848,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -10918,7 +11878,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -10948,7 +11908,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -10978,6 +11938,126 @@
                 ],
                 "humidity": [
                   0.3,
+                  0.6
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.9333,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.375,
+                  -0.2225
+                ],
+                "continentalness": [
+                  -0.11,
+                  0.3
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -1.0,
+                  -0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.375,
+                  -0.2225
+                ],
+                "continentalness": [
+                  -0.11,
+                  0.3
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.4,
+                  -0.1333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.375,
+                  -0.2225
+                ],
+                "continentalness": [
+                  -0.11,
+                  0.3
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.1333,
+                  0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.375,
+                  -0.2225
+                ],
+                "continentalness": [
+                  -0.11,
+                  0.3
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
                   1.0
                 ],
                 "offset": 0,
@@ -11468,7 +12548,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -11498,7 +12578,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -11528,7 +12608,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -11558,7 +12638,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -14608,7 +15688,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -14638,7 +15718,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -14668,7 +15748,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -14698,6 +15778,126 @@
                 ],
                 "humidity": [
                   0.3,
+                  0.6
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.9333,
+                  1.0
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.2225,
+                  0.55
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -1.0,
+                  -0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.2225,
+                  0.55
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.4,
+                  -0.1333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.2225,
+                  0.55
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.1333,
+                  0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.2225,
+                  0.55
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
                   1.0
                 ],
                 "offset": 0,
@@ -15188,7 +16388,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -15218,7 +16418,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -15248,7 +16448,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -15278,7 +16478,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -19408,7 +20608,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -19438,7 +20638,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -19468,7 +20668,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -19498,6 +20698,126 @@
                 ],
                 "humidity": [
                   0.3,
+                  0.6
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.7667,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.78
+                ],
+                "continentalness": [
+                  -0.19,
+                  -0.11
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.7667
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.78
+                ],
+                "continentalness": [
+                  -0.19,
+                  -0.11
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.5667,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.78
+                ],
+                "continentalness": [
+                  -0.19,
+                  -0.11
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.5667
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -1.0,
+                  -0.78
+                ],
+                "continentalness": [
+                  -0.19,
+                  -0.11
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
                   1.0
                 ],
                 "offset": 0,
@@ -19988,7 +21308,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -20018,7 +21338,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -20048,7 +21368,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -20078,7 +21398,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -23488,7 +24808,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -23518,7 +24838,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -23548,7 +24868,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -23578,6 +24898,126 @@
                 ],
                 "humidity": [
                   0.3,
+                  0.6
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.7667,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.78,
+                  -0.375
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.03
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.7667
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.78,
+                  -0.375
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.03
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.5667,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.78,
+                  -0.375
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.03
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.5667
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.78,
+                  -0.375
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.03
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
                   1.0
                 ],
                 "offset": 0,
@@ -24068,7 +25508,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -24098,7 +25538,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -24128,7 +25568,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -24158,7 +25598,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -27988,7 +29428,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -28018,6 +29458,66 @@
                 ],
                 "humidity": [
                   0.3,
+                  0.6
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.375,
+                  -0.2225
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.03
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.375,
+                  -0.2225
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.03
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
                   1.0
                 ],
                 "offset": 0,
@@ -28268,7 +29768,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -28298,7 +29798,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -30388,7 +31888,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -30418,6 +31918,66 @@
                 ],
                 "humidity": [
                   0.3,
+                  0.6
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.2225,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  -0.2225,
+                  0.05
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.3
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
                   1.0
                 ],
                 "offset": 0,
@@ -30668,7 +32228,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -30698,7 +32258,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -32788,7 +34348,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -32818,6 +34378,66 @@
                 ],
                 "humidity": [
                   0.3,
+                  0.6
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  0.05,
+                  0.45
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.6
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  0.05,
+                  0.45
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.6
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
                   1.0
                 ],
                 "offset": 0,
@@ -33068,7 +34688,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -33098,7 +34718,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -35188,7 +36808,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -35218,6 +36838,66 @@
                 ],
                 "humidity": [
                   0.3,
+                  0.6
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  0.45,
+                  0.55
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.8
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  0.45,
+                  0.55
+                ],
+                "continentalness": [
+                  -0.19,
+                  0.8
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
                   1.0
                 ],
                 "offset": 0,
@@ -35468,7 +37148,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -35498,7 +37178,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -37648,7 +39328,7 @@
                 ],
                 "humidity": [
                   0.3,
-                  1.0
+                  0.6
                 ],
                 "offset": 0,
                 "weirdness": [
@@ -37678,6 +39358,66 @@
                 ],
                 "humidity": [
                   0.3,
+                  0.6
+                ],
+                "offset": 0,
+                "weirdness": [
+                  0.4,
+                  0.9333
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  0.55,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
+                  1.0
+                ],
+                "offset": 0,
+                "weirdness": [
+                  -0.9333,
+                  -0.4
+                ]
+              }
+            },
+            {
+              "biome": "the_winter_rescue:jack_pine_woodland",
+              "parameters": {
+                "depth": [
+                  -0.005,
+                  0.2
+                ],
+                "erosion": [
+                  0.55,
+                  1.0
+                ],
+                "continentalness": [
+                  -0.19,
+                  1.0
+                ],
+                "temperature": [
+                  -0.45,
+                  -0.15
+                ],
+                "humidity": [
+                  0.6,
                   1.0
                 ],
                 "offset": 0,
@@ -37928,7 +39668,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,
@@ -37958,7 +39698,7 @@
               }
             },
             {
-              "biome": "the_winter_rescue:jack_pine_woodland",
+              "biome": "the_winter_rescue:destroyed_forest",
               "parameters": {
                 "depth": [
                   -0.005,

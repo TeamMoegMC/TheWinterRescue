@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "the_winter_rescue:underground_biome_selector",
+  "min_inclusive": 1.0,
+  "max_exclusive": 2.0,
+  "when_in_range": 1.0,
+  "when_out_of_range": 0.0
+}
