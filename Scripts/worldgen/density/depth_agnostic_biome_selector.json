@@ -1,0 +1,312 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:range_choice",
+    "input": "minecraft:overworld/ridges",
+    "min_inclusive": -0.9333,
+    "max_exclusive": -0.4,
+    "when_in_range": {
+      "type": "minecraft:flat_cache",
+      "argument": {
+        "type": "minecraft:range_choice",
+        "input": "minecraft:overworld/erosion",
+        "min_inclusive": -1.0,
+        "max_exclusive": 0.05,
+        "when_in_range": {
+          "type": "minecraft:range_choice",
+          "input": "minecraft:overworld/effective_continentalness",
+          "min_inclusive": -0.19,
+          "max_exclusive": 1.0,
+          "when_in_range": {
+            "type": "minecraft:range_choice",
+            "input": "minecraft:overworld/temperature",
+            "min_inclusive": -1.0,
+            "max_exclusive": -0.45,
+            "when_in_range": {
+              "type": "minecraft:range_choice",
+              "input": "minecraft:overworld/vegetation",
+              "min_inclusive": -0.1,
+              "max_exclusive": 1.0,
+              "when_in_range": {
+                "type": "minecraft:constant",
+                "argument": 0.0
+              },
+              "when_out_of_range": {
+                "type": "minecraft:range_choice",
+                "input": "minecraft:overworld/vegetation",
+                "min_inclusive": -1.0,
+                "max_exclusive": -0.35,
+                "when_in_range": {
+                  "type": "minecraft:constant",
+                  "argument": 0.0
+                },
+                "when_out_of_range": {
+                  "type": "minecraft:range_choice",
+                  "input": "minecraft:overworld/vegetation",
+                  "min_inclusive": -0.35,
+                  "max_exclusive": -0.1,
+                  "when_in_range": {
+                    "type": "minecraft:constant",
+                    "argument": 1.0
+                  },
+                  "when_out_of_range": {
+                    "type": "minecraft:constant",
+                    "argument": 0.0
+                  }
+                }
+              }
+            },
+            "when_out_of_range": {
+              "type": "minecraft:range_choice",
+              "input": "minecraft:overworld/temperature",
+              "min_inclusive": -0.45,
+              "max_exclusive": -0.15,
+              "when_in_range": {
+                "type": "minecraft:range_choice",
+                "input": "minecraft:overworld/vegetation",
+                "min_inclusive": -0.1,
+                "max_exclusive": 1.0,
+                "when_in_range": {
+                  "type": "minecraft:constant",
+                  "argument": 0.0
+                },
+                "when_out_of_range": {
+                  "type": "minecraft:range_choice",
+                  "input": "minecraft:overworld/vegetation",
+                  "min_inclusive": -1.0,
+                  "max_exclusive": -0.1,
+                  "when_in_range": {
+                    "type": "minecraft:constant",
+                    "argument": 1.0
+                  },
+                  "when_out_of_range": {
+                    "type": "minecraft:constant",
+                    "argument": 0.0
+                  }
+                }
+              },
+              "when_out_of_range": {
+                "type": "minecraft:range_choice",
+                "input": "minecraft:overworld/temperature",
+                "min_inclusive": -0.15,
+                "max_exclusive": 1.0,
+                "when_in_range": {
+                  "type": "minecraft:constant",
+                  "argument": 0.0
+                },
+                "when_out_of_range": {
+                  "type": "minecraft:constant",
+                  "argument": 0.0
+                }
+              }
+            }
+          },
+          "when_out_of_range": {
+            "type": "minecraft:range_choice",
+            "input": "minecraft:overworld/effective_continentalness",
+            "min_inclusive": -1.05,
+            "max_exclusive": -0.19,
+            "when_in_range": {
+              "type": "minecraft:constant",
+              "argument": 0.0
+            },
+            "when_out_of_range": {
+              "type": "minecraft:constant",
+              "argument": 0.0
+            }
+          }
+        },
+        "when_out_of_range": {
+          "type": "minecraft:range_choice",
+          "input": "minecraft:overworld/erosion",
+          "min_inclusive": 0.05,
+          "max_exclusive": 1.0,
+          "when_in_range": {
+            "type": "minecraft:constant",
+            "argument": 0.0
+          },
+          "when_out_of_range": {
+            "type": "minecraft:constant",
+            "argument": 0.0
+          }
+        }
+      }
+    },
+    "when_out_of_range": {
+      "type": "minecraft:range_choice",
+      "input": "minecraft:overworld/ridges",
+      "min_inclusive": 0.4,
+      "max_exclusive": 0.9333,
+      "when_in_range": {
+        "type": "minecraft:flat_cache",
+        "argument": {
+          "type": "minecraft:range_choice",
+          "input": "minecraft:overworld/erosion",
+          "min_inclusive": -1.0,
+          "max_exclusive": 0.05,
+          "when_in_range": {
+            "type": "minecraft:range_choice",
+            "input": "minecraft:overworld/effective_continentalness",
+            "min_inclusive": -0.19,
+            "max_exclusive": 1.0,
+            "when_in_range": {
+              "type": "minecraft:range_choice",
+              "input": "minecraft:overworld/temperature",
+              "min_inclusive": -1.0,
+              "max_exclusive": -0.45,
+              "when_in_range": {
+                "type": "minecraft:range_choice",
+                "input": "minecraft:overworld/vegetation",
+                "min_inclusive": -0.1,
+                "max_exclusive": 1.0,
+                "when_in_range": {
+                  "type": "minecraft:constant",
+                  "argument": 0.0
+                },
+                "when_out_of_range": {
+                  "type": "minecraft:range_choice",
+                  "input": "minecraft:overworld/vegetation",
+                  "min_inclusive": -1.0,
+                  "max_exclusive": -0.35,
+                  "when_in_range": {
+                    "type": "minecraft:constant",
+                    "argument": 0.0
+                  },
+                  "when_out_of_range": {
+                    "type": "minecraft:range_choice",
+                    "input": "minecraft:overworld/vegetation",
+                    "min_inclusive": -0.35,
+                    "max_exclusive": -0.1,
+                    "when_in_range": {
+                      "type": "minecraft:constant",
+                      "argument": 1.0
+                    },
+                    "when_out_of_range": {
+                      "type": "minecraft:constant",
+                      "argument": 0.0
+                    }
+                  }
+                }
+              },
+              "when_out_of_range": {
+                "type": "minecraft:range_choice",
+                "input": "minecraft:overworld/temperature",
+                "min_inclusive": -0.45,
+                "max_exclusive": -0.15,
+                "when_in_range": {
+                  "type": "minecraft:range_choice",
+                  "input": "minecraft:overworld/vegetation",
+                  "min_inclusive": -0.1,
+                  "max_exclusive": 1.0,
+                  "when_in_range": {
+                    "type": "minecraft:constant",
+                    "argument": 0.0
+                  },
+                  "when_out_of_range": {
+                    "type": "minecraft:range_choice",
+                    "input": "minecraft:overworld/vegetation",
+                    "min_inclusive": -1.0,
+                    "max_exclusive": -0.1,
+                    "when_in_range": {
+                      "type": "minecraft:constant",
+                      "argument": 1.0
+                    },
+                    "when_out_of_range": {
+                      "type": "minecraft:constant",
+                      "argument": 0.0
+                    }
+                  }
+                },
+                "when_out_of_range": {
+                  "type": "minecraft:range_choice",
+                  "input": "minecraft:overworld/temperature",
+                  "min_inclusive": -0.15,
+                  "max_exclusive": 1.0,
+                  "when_in_range": {
+                    "type": "minecraft:constant",
+                    "argument": 0.0
+                  },
+                  "when_out_of_range": {
+                    "type": "minecraft:constant",
+                    "argument": 0.0
+                  }
+                }
+              }
+            },
+            "when_out_of_range": {
+              "type": "minecraft:range_choice",
+              "input": "minecraft:overworld/effective_continentalness",
+              "min_inclusive": -1.05,
+              "max_exclusive": -0.19,
+              "when_in_range": {
+                "type": "minecraft:constant",
+                "argument": 0.0
+              },
+              "when_out_of_range": {
+                "type": "minecraft:constant",
+                "argument": 0.0
+              }
+            }
+          },
+          "when_out_of_range": {
+            "type": "minecraft:range_choice",
+            "input": "minecraft:overworld/erosion",
+            "min_inclusive": 0.05,
+            "max_exclusive": 1.0,
+            "when_in_range": {
+              "type": "minecraft:constant",
+              "argument": 0.0
+            },
+            "when_out_of_range": {
+              "type": "minecraft:constant",
+              "argument": 0.0
+            }
+          }
+        }
+      },
+      "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "minecraft:overworld/ridges",
+        "min_inclusive": -0.4,
+        "max_exclusive": 0.4,
+        "when_in_range": {
+          "type": "minecraft:flat_cache",
+          "argument": {
+            "type": "minecraft:constant",
+            "argument": 0.0
+          }
+        },
+        "when_out_of_range": {
+          "type": "minecraft:range_choice",
+          "input": "minecraft:overworld/ridges",
+          "min_inclusive": -1.0,
+          "max_exclusive": -0.9333,
+          "when_in_range": {
+            "type": "minecraft:flat_cache",
+            "argument": {
+              "type": "minecraft:constant",
+              "argument": 0.0
+            }
+          },
+          "when_out_of_range": {
+            "type": "minecraft:range_choice",
+            "input": "minecraft:overworld/ridges",
+            "min_inclusive": 0.9333,
+            "max_exclusive": 1.0,
+            "when_in_range": {
+              "type": "minecraft:flat_cache",
+              "argument": {
+                "type": "minecraft:constant",
+                "argument": 0.0
+              }
+            },
+            "when_out_of_range": {
+              "type": "minecraft:constant",
+              "argument": 0.0
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,11 +1,8 @@
 {
   "type": "minecraft:range_choice",
-  "input": "the_winter_rescue:overworld/underground_biome_selector",
+  "input": "the_winter_rescue:overworld/depth_agnostic_biome_selector",
   "min_inclusive": 1.0,
   "max_exclusive": 2.0,
   "when_in_range": "the_winter_rescue:overworld/gf_caves/shape",
-  "when_out_of_range": {
-    "type": "minecraft:constant",
-    "argument": 0.0
-  }
+  "when_out_of_range": 0.0
 }

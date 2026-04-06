@@ -1,4 +1,4 @@
 {
-  "type": "minecraft:cache_once",
-  "argument": "the_winter_rescue:overworld/gf_caves/fault_profile"
+  "type": "minecraft:constant",
+  "argument": -10.0
 }
