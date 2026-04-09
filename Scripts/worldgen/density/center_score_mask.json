@@ -1,0 +1,345 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:min",
+    "argument1": {
+      "type": "minecraft:min",
+      "argument1": {
+        "type": "minecraft:min",
+        "argument1": {
+          "type": "minecraft:min",
+          "argument1": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "minecraft:constant",
+                "argument": 1.0
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": {
+                  "type": "minecraft:constant",
+                  "argument": -1.0
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": {
+                    "type": "minecraft:max",
+                    "argument1": {
+                      "type": "minecraft:add",
+                      "argument1": "minecraft:overworld/ridges",
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": {
+                          "type": "minecraft:constant",
+                          "argument": -1.0
+                        },
+                        "argument2": {
+                          "type": "minecraft:constant",
+                          "argument": 0.0
+                        }
+                      }
+                    },
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": {
+                        "type": "minecraft:constant",
+                        "argument": -1.0
+                      },
+                      "argument2": {
+                        "type": "minecraft:add",
+                        "argument1": "minecraft:overworld/ridges",
+                        "argument2": {
+                          "type": "minecraft:mul",
+                          "argument1": {
+                            "type": "minecraft:constant",
+                            "argument": -1.0
+                          },
+                          "argument2": {
+                            "type": "minecraft:constant",
+                            "argument": 0.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:constant",
+                    "argument": 1.0
+                  }
+                }
+              }
+            },
+            "min": 0.0,
+            "max": 1.0
+          },
+          "argument2": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "minecraft:constant",
+                "argument": 1.0
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": {
+                  "type": "minecraft:constant",
+                  "argument": -1.0
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": {
+                    "type": "minecraft:max",
+                    "argument1": {
+                      "type": "minecraft:add",
+                      "argument1": "minecraft:overworld/erosion",
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": {
+                          "type": "minecraft:constant",
+                          "argument": -1.0
+                        },
+                        "argument2": {
+                          "type": "minecraft:constant",
+                          "argument": 0.0
+                        }
+                      }
+                    },
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": {
+                        "type": "minecraft:constant",
+                        "argument": -1.0
+                      },
+                      "argument2": {
+                        "type": "minecraft:add",
+                        "argument1": "minecraft:overworld/erosion",
+                        "argument2": {
+                          "type": "minecraft:mul",
+                          "argument1": {
+                            "type": "minecraft:constant",
+                            "argument": -1.0
+                          },
+                          "argument2": {
+                            "type": "minecraft:constant",
+                            "argument": 0.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:constant",
+                    "argument": 1.0
+                  }
+                }
+              }
+            },
+            "min": 0.0,
+            "max": 1.0
+          }
+        },
+        "argument2": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:constant",
+              "argument": 1.0
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": {
+                "type": "minecraft:constant",
+                "argument": -1.0
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": {
+                  "type": "minecraft:max",
+                  "argument1": {
+                    "type": "minecraft:add",
+                    "argument1": "minecraft:overworld/effective_continentalness",
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": {
+                        "type": "minecraft:constant",
+                        "argument": -1.0
+                      },
+                      "argument2": {
+                        "type": "minecraft:constant",
+                        "argument": 0.405
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": {
+                      "type": "minecraft:constant",
+                      "argument": -1.0
+                    },
+                    "argument2": {
+                      "type": "minecraft:add",
+                      "argument1": "minecraft:overworld/effective_continentalness",
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": {
+                          "type": "minecraft:constant",
+                          "argument": -1.0
+                        },
+                        "argument2": {
+                          "type": "minecraft:constant",
+                          "argument": 0.405
+                        }
+                      }
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:constant",
+                  "argument": 1.680672268907563
+                }
+              }
+            }
+          },
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      "argument2": {
+        "type": "minecraft:clamp",
+        "input": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:constant",
+            "argument": 1.0
+          },
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": {
+              "type": "minecraft:constant",
+              "argument": -1.0
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": {
+                "type": "minecraft:max",
+                "argument1": {
+                  "type": "minecraft:add",
+                  "argument1": "minecraft:overworld/temperature",
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": {
+                      "type": "minecraft:constant",
+                      "argument": -1.0
+                    },
+                    "argument2": {
+                      "type": "minecraft:constant",
+                      "argument": -0.575
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": {
+                    "type": "minecraft:constant",
+                    "argument": -1.0
+                  },
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": "minecraft:overworld/temperature",
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": {
+                        "type": "minecraft:constant",
+                        "argument": -1.0
+                      },
+                      "argument2": {
+                        "type": "minecraft:constant",
+                        "argument": -0.575
+                      }
+                    }
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:constant",
+                "argument": 2.3529411764705883
+              }
+            }
+          }
+        },
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    "argument2": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:constant",
+          "argument": 1.0
+        },
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:constant",
+            "argument": -1.0
+          },
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": {
+              "type": "minecraft:max",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": "minecraft:overworld/vegetation",
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": {
+                    "type": "minecraft:constant",
+                    "argument": -1.0
+                  },
+                  "argument2": {
+                    "type": "minecraft:constant",
+                    "argument": -0.45
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": {
+                  "type": "minecraft:constant",
+                  "argument": -1.0
+                },
+                "argument2": {
+                  "type": "minecraft:add",
+                  "argument1": "minecraft:overworld/vegetation",
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": {
+                      "type": "minecraft:constant",
+                      "argument": -1.0
+                    },
+                    "argument2": {
+                      "type": "minecraft:constant",
+                      "argument": -0.45
+                    }
+                  }
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:constant",
+              "argument": 1.8181818181818181
+            }
+          }
+        }
+      },
+      "min": 0.0,
+      "max": 1.0
+    }
+  }
+}

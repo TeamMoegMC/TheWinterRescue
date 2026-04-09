@@ -1020,19 +1020,6 @@ def compress_biome_rows(rows, eps=1e-5, precision=4, verbose=False):
 # ============================================================
 # 7) Unified rows -> selector generator
 # Runtime-first atomic-cell compiler
-# ------------------------------------------------------------
-# 目标：
-# 1) 保留原 biome source / biome rows 的语义
-# 2) 不再使用不安全的 rows 递归折叠逻辑
-# 3) 改为：
-#       final continuous rows -> atomic partition cells -> runtime-optimized decision tree -> JSON
-# 4) 重点优化 Minecraft 运行时性能：
-#       - 在最终 continuous parameter space 上工作
-#       - 动态选择分裂维度
-#       - 顶层包一层 cache_once
-#       - 内部所有“最外层 Y 无关子树”包一层 flat_cache
-#
-# 输入 rows 应该是 convert(spec) / compress_biome_rows(...) 之后的最终 rows。
 # ============================================================
 def generate_unified_selector_code_json_from_rows_runtime_optimized(
     biome_rows,

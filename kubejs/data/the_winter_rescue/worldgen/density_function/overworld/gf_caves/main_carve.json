@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:mul",
-  "argument1": {
-    "type": "minecraft:mul",
-    "argument1": "the_winter_rescue:overworld/gf_caves/fault_band",
-    "argument2": "the_winter_rescue:overworld/gf_caves/vertical_mask"
-  },
-  "argument2": -2.4
-}
