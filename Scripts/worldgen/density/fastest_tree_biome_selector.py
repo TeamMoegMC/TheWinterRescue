@@ -1026,7 +1026,8 @@ def generate_unified_selector_code_json_from_rows_runtime_optimized(
     biome_code_map,
     output_path="unified_biome_selector.json",
     print_debug=True,
-    top_level_cache=True
+    top_level_cache=True,
+    ignore_depth=False
 ):
     """
     Compile final biome rows into a runtime-optimized hard-edged range_choice selector.
@@ -1047,10 +1048,25 @@ def generate_unified_selector_code_json_from_rows_runtime_optimized(
       function signature for compatibility with older call sites, but are not used
       in this simplified caching strategy.
     """
+    # ============================================================
+    # 如果忽略 depth，先预处理 rows
+    if ignore_depth:
+        # 获取 depth 的全局数值范围
+        depth_ranges = LABEL_RANGES["depth"]
+        depth_global_min = min(lo for lo, _ in depth_ranges)
+        depth_global_max = max(hi for _, hi in depth_ranges)
+        # 深拷贝并强制 depth 区间为全覆盖
+        biome_rows = deepcopy(biome_rows)
+        for row in biome_rows:
+            row["parameters"]["depth"] = [depth_global_min, depth_global_max]
 
     # ============================================================
     # A) Runtime dimensions / refs
-    DIM_ORDER = ["depth", "weirdness", "erosion", "continentalness", "temperature", "humidity"]
+    FULL_DIM_ORDER = ["depth", "weirdness", "erosion", "continentalness", "temperature", "humidity"]
+    if ignore_depth:
+        DIM_ORDER = [d for d in FULL_DIM_ORDER if d != "depth"]
+    else:
+        DIM_ORDER = FULL_DIM_ORDER[:]
 
     DIMENSION_FN_REFS = {
         "temperature": "minecraft:overworld/temperature",
@@ -1635,7 +1651,10 @@ def generate_unified_selector_code_json_from_rows_runtime_optimized(
     )
 
     if top_level_cache:
-        selector_json = df_cache_once(selector_json)
+        if ignore_depth:
+            selector_json = df_flat_cache(selector_json)
+        else:
+            selector_json = df_cache_once(selector_json)
 
     selector_json = simplify_expr(selector_json)
 
@@ -1891,8 +1910,9 @@ def print_selector_compile_stats(debug_info):
 # 11) usage
 if __name__ == "__main__":
 
-    target_biome = "the_winter_rescue:ice_cap"
+    target_biome = "the_winter_rescue:glacial_fungus_caves"
     proxy_biome = "the_winter_rescue:non_target_proxy"
+
     underground_spec = tree_to_spec(underground_tree)
     surface_spec = tree_to_spec(surface_tree)
     underground_rows_raw = convert(underground_spec)
@@ -1902,12 +1922,12 @@ if __name__ == "__main__":
 
     filtered_biome_rows = remap_rows_to_single_target(
         biome_rows,
-        target_biome="the_winter_rescue:ice_cap",
-        non_target_proxy="the_winter_rescue:non_target_proxy"
+        target_biome=target_biome,
+        non_target_proxy=proxy_biome
     )
     filtered_biome_code_map = {
-        "the_winter_rescue:ice_cap": 118,
-        "the_winter_rescue:non_target_proxy": 0
+        target_biome: 1,
+        proxy_biome: 0
     }
 
     selector_json, debug_info, decision_tree, table = generate_unified_selector_code_json_from_rows_runtime_optimized(
@@ -1915,7 +1935,8 @@ if __name__ == "__main__":
         biome_code_map=filtered_biome_code_map,
         output_path="fastest_biome_selector.json",
         print_debug=True,
-        top_level_cache=True
+        top_level_cache=True,
+        ignore_depth=True
     )
 
     print_density_tree_stats(

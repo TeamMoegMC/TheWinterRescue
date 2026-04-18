@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:cache_once",
+  "type": "minecraft:flat_cache",
   "argument": {
     "type": "minecraft:range_choice",
     "input": "minecraft:overworld/ridges",

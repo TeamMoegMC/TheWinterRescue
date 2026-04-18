@@ -1,8 +1,7 @@
 import json
 from collections import Counter, defaultdict
 from copy import deepcopy
-
-
+from functools import lru_cache
 
 # 1) Constants
 # --------------------------------------------------------------------
@@ -1018,356 +1017,6 @@ def compress_biome_rows(rows, eps=1e-5, precision=4, verbose=False):
     return working
 
 
-# ============================================================
-# 7) Unified rows -> selector generator
-def generate_unified_selector_code_json_from_rows(
-    biome_rows,
-    biome_code_map,
-    output_path="unified_biome_selector.json",
-    print_debug=True,
-    dim_order_override=None,
-    selector_mode="unified_selector_biome_code_from_rows"
-):
-    """
-    Compile unified biome rows into a hard-edged range_choice selector.
-
-    Input rows should already represent the final merged biome source semantics.
-    Leaves return biome code from biome_code_map.
-    Unmapped biomes default to 0.
-    """
-
-    DIM_ORDER = ["depth", "weirdness", "erosion", "continentalness", "temperature", "humidity"]
-    if dim_order_override is not None:
-        DIM_ORDER = dim_order_override
-
-    DIMENSION_FN_REFS = {
-        "temperature": "minecraft:overworld/temperature",
-        "humidity": "minecraft:overworld/vegetation",
-        "continentalness": "minecraft:overworld/effective_continentalness",
-        "erosion": "minecraft:overworld/erosion",
-        "depth": "minecraft:overworld/depth",
-        "weirdness": "minecraft:overworld/ridges"
-    }
-
-    compile_stats = {
-        "range_choice_by_dim": {dim: 0 for dim in DIM_ORDER},
-        "row_count_by_dim": {dim: 0 for dim in DIM_ORDER},
-        "segment_count_by_dim": {dim: 0 for dim in DIM_ORDER},
-        "compact_branch_count_by_dim": {dim: 0 for dim in DIM_ORDER},
-    }
-
-    def canonicalize_expr(expr):
-        if isinstance(expr, (int, float)):
-            return ("number", float(expr))
-        if isinstance(expr, str):
-            return ("string", expr)
-        if isinstance(expr, list):
-            return ("list", tuple(canonicalize_expr(x) for x in expr))
-        if isinstance(expr, dict):
-            items = tuple(sorted((k, canonicalize_expr(v)) for k, v in expr.items()))
-            return ("dict", items)
-        return ("other", repr(expr))
-
-    def expr_signature(expr):
-        return canonicalize_expr(expr)
-
-    def df_const(v):
-        return {
-            "type": "minecraft:constant",
-            "argument": float(v)
-        }
-
-    def df_range_choice(input_expr, low, high, when_in, when_out):
-        return {
-            "type": "minecraft:range_choice",
-            "input": input_expr,
-            "min_inclusive": float(low),
-            "max_exclusive": float(high),
-            "when_in_range": when_in,
-            "when_out_of_range": when_out
-        }
-
-    def df_cache_once(arg):
-        return {
-            "type": "minecraft:cache_once",
-            "argument": arg
-        }
-
-    def df_cache_2d(arg):
-        return {
-            "type": "minecraft:cache_2d",
-            "argument": arg
-        }
-
-    def df_flat_cache(arg):
-        return {
-            "type": "minecraft:flat_cache",
-            "argument": arg
-        }
-
-    def expr_node_count(expr):
-        if isinstance(expr, (int, float, str)):
-            return 1
-        if isinstance(expr, list):
-            return 1 + sum(expr_node_count(x) for x in expr)
-        if isinstance(expr, dict):
-            return 1 + sum(expr_node_count(v) for v in expr.values())
-        return 1
-
-    def reorder_branches_semantics_preserving(branches):
-        def branch_priority(branch):
-            low, high, child_expr = branch
-
-            is_constant = (
-                isinstance(child_expr, dict)
-                and child_expr.get("type") == "minecraft:constant"
-            )
-
-            complexity = expr_node_count(child_expr)
-            width = high - low
-
-            return (
-                1 if not is_constant else 0,
-                complexity,
-                width,
-                -low,
-                -high
-            )
-
-        return sorted(branches, key=branch_priority, reverse=True)
-
-    def merge_numeric_intervals(intervals, eps=1e-12):
-        if not intervals:
-            return []
-
-        normalized = [(min(a, b), max(a, b)) for a, b in intervals]
-        normalized.sort(key=lambda x: (x[0], x[1]))
-
-        merged = [list(normalized[0])]
-        for lo, hi in normalized[1:]:
-            cur_lo, cur_hi = merged[-1]
-            if lo <= cur_hi + eps:
-                merged[-1][1] = max(cur_hi, hi)
-            else:
-                merged.append([lo, hi])
-
-        return [tuple(x) for x in merged]
-
-    def merge_compiled_branches(branches, eps=1e-12):
-        if not branches:
-            return []
-
-        grouped = {}
-        child_examples = {}
-
-        for low, high, child_expr in branches:
-            sig = expr_signature(child_expr)
-            grouped.setdefault(sig, []).append((min(low, high), max(low, high)))
-            child_examples[sig] = child_expr
-
-        merged_output = []
-        for sig, intervals in grouped.items():
-            merged_intervals = merge_numeric_intervals(intervals, eps=eps)
-            child_expr = child_examples[sig]
-            for low, high in merged_intervals:
-                merged_output.append((low, high, child_expr))
-
-        merged_output.sort(key=lambda x: (x[0], x[1]))
-        return merged_output
-
-    def row_interval(row, dim_name):
-        lo, hi = row["parameters"][dim_name]
-        return (float(lo), float(hi))
-
-    def row_matches_segment(row, dim_name, seg_lo, seg_hi):
-        lo, hi = row_interval(row, dim_name)
-        return lo <= seg_lo and hi >= seg_hi
-
-    def collect_breakpoints(rows, dim_name):
-        points = set()
-        for row in rows:
-            lo, hi = row_interval(row, dim_name)
-            points.add(lo)
-            points.add(hi)
-        return sorted(points)
-
-    def build_segments(rows, dim_name):
-        points = collect_breakpoints(rows, dim_name)
-        if len(points) < 2:
-            return []
-
-        segments = []
-        for i in range(len(points) - 1):
-            lo = points[i]
-            hi = points[i + 1]
-            if hi > lo:
-                segments.append((lo, hi))
-        return segments
-
-    def get_full_dimension_domain(dim_name, rows):
-        points = collect_breakpoints(rows, dim_name)
-        if not points:
-            return None
-        return (points[0], points[-1])
-
-    def is_full_domain_interval(dim_name, low, high, rows, eps=1e-12):
-        domain = get_full_dimension_domain(dim_name, rows)
-        if domain is None:
-            return False
-        full_low, full_high = domain
-        return abs(low - full_low) < eps and abs(high - full_high) < eps
-
-    compile_cache = {}
-
-    def canonicalize_rows(rows):
-        normalized = []
-        for row in rows:
-            params = row["parameters"]
-            key = (
-                row["biome"],
-                tuple(sorted((k, tuple(v) if isinstance(v, list) else v) for k, v in params.items()))
-            )
-            normalized.append(key)
-        return tuple(sorted(normalized))
-
-    def clip_row_to_segment(row, dim_name, seg_lo, seg_hi, eps=1e-12):
-
-        lo, hi = row_interval(row, dim_name)
-        new_lo = max(lo, seg_lo)
-        new_hi = min(hi, seg_hi)
-
-        if new_hi <= new_lo + eps:
-            return None
-
-        old_params = row["parameters"]
-        new_params = dict(old_params)
-        new_params[dim_name] = [float(new_lo), float(new_hi)]
-
-        return {
-            "biome": row["biome"],
-            "parameters": new_params
-        }
-
-    def compile_rows(rows, dim_idx=0):
-        cache_key = (dim_idx, canonicalize_rows(rows))
-        if cache_key in compile_cache:
-            return compile_cache[cache_key]
-
-        if not rows:
-            result = df_const(0)
-            compile_cache[cache_key] = result
-            return result
-
-        biomes = sorted(set(row["biome"] for row in rows))
-        if len(biomes) == 1:
-            biome = biomes[0]
-            result = df_const(biome_code_map.get(biome, 0))
-            compile_cache[cache_key] = result
-            return result
-
-        if dim_idx >= len(DIM_ORDER):
-            biome = rows[0]["biome"]
-            result = df_const(biome_code_map.get(biome, 0))
-            compile_cache[cache_key] = result
-            return result
-
-        dim_name = DIM_ORDER[dim_idx]
-        input_expr = DIMENSION_FN_REFS[dim_name]
-
-        compile_stats["row_count_by_dim"][dim_name] += len(rows)
-
-        segments = build_segments(rows, dim_name)
-        compile_stats["segment_count_by_dim"][dim_name] += len(segments)
-
-        if not segments:
-            result = df_const(0)
-            compile_cache[cache_key] = result
-            return result
-
-        # ------------------------------------------------------------
-        # Safe + faster strategy:
-        # 1) clip rows to each segment
-        # 2) canonicalize clipped row-set
-        # 3) compile each distinct child subproblem only once
-        # ------------------------------------------------------------
-        grouped_segments = defaultdict(list)
-
-        for seg_lo, seg_hi in segments:
-            clipped_rows = []
-            for row in rows:
-                clipped = clip_row_to_segment(row, dim_name, seg_lo, seg_hi)
-                if clipped is not None:
-                    clipped_rows.append(clipped)
-
-            if not clipped_rows:
-                continue
-
-            child_sig = canonicalize_rows(clipped_rows)
-            grouped_segments[child_sig].append((seg_lo, seg_hi, clipped_rows))
-
-        branches = []
-        for child_sig, seg_group in grouped_segments.items():
-            sample_rows = seg_group[0][2]
-            child_expr = compile_rows(sample_rows, dim_idx + 1)
-
-            for seg_lo, seg_hi, _ in seg_group:
-                branches.append((seg_lo, seg_hi, child_expr))
-
-        if not branches:
-            result = df_const(0)
-            compile_cache[cache_key] = result
-            return result
-
-        # Safe optimization: merge same child expr across overlapping/adjacent intervals
-        compact_branches = merge_compiled_branches(branches)
-        compact_branches = reorder_branches_semantics_preserving(compact_branches)
-        compile_stats["compact_branch_count_by_dim"][dim_name] += len(compact_branches)
-
-
-        expr = df_const(0)
-        for low, high, child_expr in reversed(compact_branches):
-            compile_stats["range_choice_by_dim"][dim_name] += 1
-
-            wrapped_child = child_expr
-            if dim_name in ("depth", "weirdness"):
-                wrapped_child = df_flat_cache(child_expr)
-
-            expr = df_range_choice(
-                input_expr=input_expr,
-                low=low,
-                high=high,
-                when_in=wrapped_child,
-                when_out=expr
-            )
-
-        compile_cache[cache_key] = expr
-        return expr
-
-    selector_json = compile_rows(biome_rows, 0)
-    selector_json = df_cache_once(selector_json)
-
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(selector_json, f, ensure_ascii=False, indent=2)
-
-    all_leaf_biomes = sorted(set(row["biome"] for row in biome_rows))
-    missing_codes = [b for b in all_leaf_biomes if b not in biome_code_map]
-
-    debug_info = {
-        "output_path": output_path,
-        "mode": selector_mode,
-        "row_count": len(biome_rows),
-        "leaf_biome_count": len(all_leaf_biomes),
-        "missing_codes": missing_codes,
-        "compile_cache_size": len(compile_cache),
-        "compile_stats": compile_stats
-    }
-
-    if print_debug:
-        print("\n=== SELECTOR DEBUG INFO ===")
-        print(json.dumps(debug_info, ensure_ascii=False, indent=2))
-
-    return selector_json, debug_info
-
 
 # ============================================================
 def remap_rows_to_single_target(rows, target_biome, non_target_proxy):
@@ -1383,47 +1032,97 @@ def remap_rows_to_single_target(rows, target_biome, non_target_proxy):
         out.append(new_row)
     return out
 
-def drop_depth_from_rows(rows):
-    """
-    Drop the depth dimension from biome rows.
-    """
-    out = []
-    for row in rows:
-        new_row = deepcopy(row)
-        if "depth" in new_row["parameters"]:
-            del new_row["parameters"]["depth"]
-        out.append(new_row)
-    return out
 
-# 8) Helper: derive a single-biome 0/1 mask from selector code
-def generate_biome_mask_from_selector_code(
-    selector_ref,
-    biome_code,
-    output_path="biome_mask_from_selector.json"
+# ============================================================
+# 7) Unified rows -> selector generator
+# Runtime-first atomic-cell compiler
+# ============================================================
+def generate_smooth_hypercube_mask(
+    biome_rows=None,
+    target_biome=None,
+    intervals=None,
+    transition_width=1e-6,
+    output_path="smooth_hypercube_mask.json",
+    top_level_cache=True,
+    merge_rectangles=False,
+    ignore_dims=None
 ):
-    """
-    Build a 0/1 mask from a unified selector code density function.
-
-    selector_ref: density function ID string, e.g.
-        "the_winter_rescue:unified_biome_selector"
-
-    biome_code: numeric code assigned to the biome
-    """
-
-    mask_json = {
-        "type": "minecraft:range_choice",
-        "input": selector_ref,
-        "min_inclusive": float(biome_code),
-        "max_exclusive": float(biome_code + 1),
-        "when_in_range": 1.0,
-        "when_out_of_range": 0.0
+    DIM_ORDER = ["depth", "weirdness", "erosion", "continentalness", "temperature", "humidity"]
+    DIMENSION_FN_REFS = {
+        "depth": "minecraft:overworld/depth",
+        "weirdness": "minecraft:overworld/ridges",
+        "erosion": "minecraft:overworld/erosion",
+        "continentalness": "minecraft:overworld/effective_continentalness",
+        "temperature": "minecraft:overworld/temperature",
+        "humidity": "minecraft:overworld/vegetation",
     }
 
+    if ignore_dims is None:
+        ignore_dims = []
+    active_dims = [d for d in DIM_ORDER if d not in ignore_dims]
+
+    if intervals is not None:
+        rects = [intervals]
+    else:
+        if biome_rows is None or target_biome is None:
+            raise ValueError("必须提供 intervals 或 (biome_rows + target_biome)")
+        target_rows = [row for row in biome_rows if row["biome"] == target_biome]
+        if not target_rows:
+            raise ValueError(f"未找到目标群系: {target_biome}")
+        rects = [row["parameters"] for row in target_rows]
+
+    def make_rect_mask(rect):
+        if not active_dims:
+            return {"type": "minecraft:constant", "argument": 1.0}
+        dim_splines = []
+        for dim in active_dims:
+            lo, hi = rect[dim]
+            trans = max(transition_width, 1e-9)
+            left_start = lo - trans
+            right_end = hi + trans
+            points = [
+                {"location": -2.0, "value": 0.0, "derivative": 0.0},
+                {"location": left_start, "value": 0.0, "derivative": 0.0},
+                {"location": lo, "value": 1, "derivative": 0.0},
+                {"location": hi, "value": 1, "derivative": 0.0},
+                {"location": right_end, "value": 0.0, "derivative": 0.0},
+                {"location": 2.0, "value": 0.0, "derivative": 0.0},
+            ]
+            spl = {"type": "minecraft:spline", "spline": {"coordinate": DIMENSION_FN_REFS[dim], "points": points}}
+            dim_splines.append(spl)
+        min_expr = dim_splines[0]
+        for spl in dim_splines[1:]:
+            min_expr = {"type": "minecraft:min", "argument1": min_expr, "argument2": spl}
+        return min_expr
+
+    if merge_rectangles:
+        merged_rect = {}
+        for dim in DIM_ORDER:
+            if dim in ignore_dims:
+                continue
+            lows = [r[dim][0] for r in rects]
+            highs = [r[dim][1] for r in rects]
+            merged_rect[dim] = [min(lows), max(highs)]
+        if not merged_rect:
+            final_expr = {"type": "minecraft:constant", "argument": 1.0}
+        else:
+            final_expr = make_rect_mask(merged_rect)
+    else:
+        if not active_dims:
+            final_expr = {"type": "minecraft:constant", "argument": 1.0}
+        else:
+            rect_masks = [make_rect_mask(r) for r in rects]
+            final_expr = rect_masks[0]
+            for rm in rect_masks[1:]:
+                final_expr = {"type": "minecraft:max", "argument1": final_expr, "argument2": rm}
+
+    if top_level_cache:
+        final_expr = {"type": "minecraft:cache_once", "argument": final_expr}
+
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(mask_json, f, ensure_ascii=False, indent=2)
+        json.dump(final_expr, f, indent=2)
 
-    return mask_json
-
+    return final_expr
 
 # ============================================================
 # 9) Evaluator
@@ -1606,121 +1305,98 @@ def print_selector_compile_stats(debug_info):
     print("\n=== SELECTOR COMPILE STATS ===")
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 
+def scale_biome_rows_for_target(biome_rows, target_biome, dim_factors, global_ranges):
+    """
+    对目标群系的所有矩形，按 dim_factors 缩放每个维度的区间。
+    dim_factors: dict, e.g. {"depth": 0.0, "weirdness": 1.0, ...}
+    global_ranges: dict, 每个维度的全局范围（当 factor=0 时使用），例如
+        {"depth": [-0.005, 1.0], "weirdness": [-1.0, 1.0], ...}
+    """
+    import copy
+    new_rows = []
+    for row in biome_rows:
+        if row["biome"] != target_biome:
+            new_rows.append(row)
+            continue
+        # 对目标群系的每个矩形进行缩放
+        new_row = copy.deepcopy(row)
+        params = new_row["parameters"]
+        for dim, factor in dim_factors.items():
+            if dim not in params:
+                continue
+            lo, hi = params[dim]
+            center = (lo + hi) / 2.0
+            half_span = (hi - lo) / 2.0
+            if factor == 0.0:
+                # 忽略该维度 -> 设为全局范围
+                new_lo, new_hi = global_ranges[dim]
+            else:
+                new_half = half_span * factor
+                new_lo = center - new_half
+                new_hi = center + new_half
+            params[dim] = [new_lo, new_hi]
+        new_rows.append(new_row)
+    return new_rows
+
+
 
 # ============================================================
 # 11) usage
 if __name__ == "__main__":
 
-    # ocean_spec = tree_to_spec(ocean_tree)
+    target_biome = "the_winter_rescue:glacial_fungus_caves"
+    proxy_biome = "the_winter_rescue:non_target_proxy"
     underground_spec = tree_to_spec(underground_tree)
     surface_spec = tree_to_spec(surface_tree)
-
-    # ocean_rows_raw = convert(ocean_spec)
     underground_rows_raw = convert(underground_spec)
     surface_rows_raw = convert(surface_spec)
-
     biome_rows = underground_rows_raw + surface_rows_raw
     biome_rows = compress_biome_rows(biome_rows)
 
-    unified_biome_code_map = {
-        # underground
-        "the_winter_rescue:glacial_fungus_caves": 1,
-        "the_winter_rescue:ice_caves": 2,
-        "the_winter_rescue:dripstone_caves": 3,
-        "the_winter_rescue:andesite_caves": 4,
-        "the_winter_rescue:mycelium_caves": 5,
-        "the_winter_rescue:brine_deposits": 6,
-        "the_winter_rescue:lush_caves": 7,
-        "the_winter_rescue:darkfang_caves": 8,
-        "the_winter_rescue:magmatic_deposits": 9,
-        "the_winter_rescue:hydrothermal_deposits": 10,
-        "the_winter_rescue:crust_chasms": 11,
-        "the_winter_rescue:diorite_caves": 12,
-
-        # surface / ocean
-        "minecraft:deep_frozen_ocean": 101,
-        "minecraft:frozen_ocean": 102,
-        "minecraft:frozen_river": 103,
-        "minecraft:snowy_beach": 104,
-        "minecraft:snowy_plains": 105,
-        "minecraft:snowy_slopes": 106,
-        "minecraft:frozen_peaks": 107,
-        "minecraft:jagged_peaks": 108,
-        "minecraft:grove": 109,
-        "minecraft:ice_spikes": 110,
-        "minecraft:snowy_taiga": 111,
-        "minecraft:stony_shore": 112,
-        "minecraft:badlands": 113,
-        "minecraft:desert": 114,
-        "the_winter_rescue:nature/glacier": 115,
-        "the_winter_rescue:tidewater_glacier": 116,
-        "the_winter_rescue:valley_glacier": 117,
-        "the_winter_rescue:ice_cap": 118,
-        "the_winter_rescue:alpine_glacier": 119,
-        "the_winter_rescue:glacial_lakes": 120,
-        "the_winter_rescue:glacial_ices": 121,
-        "the_winter_rescue:tundra": 122,
-        "the_winter_rescue:frozen_forest": 123,
-        "the_winter_rescue:jack_pine_woodland": 124,
-        "the_winter_rescue:nature/frostbough_forest": 125,
-        "the_winter_rescue:nature/frostpine_grove": 126,
-        "the_winter_rescue:nature/ironwinter_hollow": 127,
-        "the_winter_rescue:nature/scree_pine_grove": 128,
-        "the_winter_rescue:nature/snowy_shrubland": 129,
-        "the_winter_rescue:fossil_deposits": 130,
-        "the_winter_rescue:active_volcano": 131,
-        "the_winter_rescue:underwater_volcano": 132,
-        "the_winter_rescue:destroyed_forest": 133,
-        "the_winter_rescue:nature/destroyed_birch_forest": 134,
-        "the_winter_rescue:nature/destroyed_marsh": 135,
-    }
     filtered_biome_rows = remap_rows_to_single_target(
         biome_rows,
-        target_biome="the_winter_rescue:ice_cap",
+        target_biome=target_biome,
         non_target_proxy="the_winter_rescue:non_target_proxy"
+    )
+
+    global_ranges = {
+        "depth": [-0.005, 1.0],
+        "weirdness": [-1.0, 1.0],
+        "erosion": [-1.0, 1.0],
+        "continentalness": [-1.2, 1.0],
+        "temperature": [-1.0, 1.0],
+        "humidity": [-1.0, 1.0],
+    }
+
+    dim_factors = {
+        "depth": 0.0,
+        "weirdness": 0.88,
+        "erosion": 0.88,
+        "continentalness": 0.88,
+        "temperature": 0.88,
+        "humidity": 0.88,
+    }
+
+    filtered_biome_rows = scale_biome_rows_for_target(
+        filtered_biome_rows,
+        target_biome=target_biome,
+        dim_factors=dim_factors,
+        global_ranges=global_ranges
     )
 
     filtered_biome_code_map = {
-        "the_winter_rescue:ice_cap": 118,
+        target_biome: 118,
         "the_winter_rescue:non_target_proxy": 0
     }
 
-    generate_biome_mask_from_selector_code(
-        selector_ref="the_winter_rescue:unified_biome_selector",
-        biome_code=1,
-        output_path="glacial_fungus_caves_mask.json"
+    for row in filtered_biome_rows:
+        if row["biome"] == target_biome:
+            print(row["parameters"])
+
+    generate_smooth_hypercube_mask(
+        biome_rows=filtered_biome_rows,
+        target_biome=target_biome,
+        transition_width=0.05,
+        output_path="glacial_fungus_caves_spline.json",
+        ignore_dims=["depth"]
     )
-
-    generate_biome_mask_from_selector_code(
-        selector_ref="the_winter_rescue:unified_biome_selector",
-        biome_code=118,
-        output_path="ice_cap_mask.json"
-    )
-
-    depth_agnostic_rows = drop_depth_from_rows(biome_rows)
-
-    filtered_depth_agnostic_rows = remap_rows_to_single_target(
-        depth_agnostic_rows,
-        target_biome="the_winter_rescue:glacial_fungus_caves",
-        non_target_proxy="the_winter_rescue:non_target_proxy"
-    )
-
-    filtered_depth_agnostic_biome_code_map = {
-        "the_winter_rescue:glacial_fungus_caves": 1,
-        "the_winter_rescue:non_target_proxy": 0
-    }
-
-    depth_agnostic_selector_json, depth_agnostic_debug_info = generate_unified_selector_code_json_from_rows(
-        biome_rows=filtered_depth_agnostic_rows,
-        biome_code_map=filtered_depth_agnostic_biome_code_map,
-        output_path="depth_agnostic_biome_selector.json",
-        print_debug=True,
-        dim_order_override=["weirdness", "erosion", "continentalness", "temperature", "humidity"],
-        selector_mode="depth_agnostic_selector_biome_code_from_rows"
-    )
-
-    print_selector_compile_stats(depth_agnostic_debug_info)
-
-    print("[info] surface_rows_raw =", len(surface_rows_raw))
-    print("[info] underground_rows_raw =", len(underground_rows_raw))
-    print("[info] biome_rows_compressed =", len(biome_rows))

@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "minecraft:y",
+  "min_inclusive": 40,
+  "max_exclusive": 120,
+  "when_in_range": {
+    "type": "minecraft:range_choice",
+    "input": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": 40,
+        "to_y": 120,
+        "from_value": 0.06,
+        "to_value": 0.10
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": -1,
+        "argument2": {
+          "type": "minecraft:min",
+          "argument1": {
+            "type": "minecraft:abs",
+            "argument": {
+              "type": "minecraft:noise",
+              "noise": "the_winter_rescue:gf_caves/rift_mask",
+              "xz_scale": 0.04,
+              "y_scale": 0
+            }
+          },
+          "argument2": 0.09
+        }
+      }
+    },
+    "min_inclusive": 0,
+    "max_exclusive": 1000,
+    "when_in_range": {
+      "type": "minecraft:mul",
+      "argument1": -0.8,
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:y_clamped_gradient",
+          "from_y": 40,
+          "to_y": 120,
+          "from_value": 0.2,
+          "to_value": 1
+        },
+        "argument2": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:mul",
+            "argument1": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_y": 40,
+                "to_y": 120,
+                "from_value": 0.06,
+                "to_value": 0.10
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": -1,
+                "argument2": {
+                  "type": "minecraft:min",
+                  "argument1": {
+                    "type": "minecraft:abs",
+                    "argument": {
+                      "type": "minecraft:noise",
+                      "noise": "the_winter_rescue:gf_caves/rift_mask",
+                      "xz_scale": 0.04,
+                      "y_scale": 0
+                    }
+                  },
+                  "argument2": 0.09
+                }
+              }
+            },
+            "argument2": 12
+          },
+          "min": 0,
+          "max": 1
+        }
+      }
+    },
+    "when_out_of_range": 100
+  },
+  "when_out_of_range": 100
+}

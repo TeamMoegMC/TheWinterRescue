@@ -1,0 +1,984 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:max",
+    "argument1": {
+      "type": "minecraft:max",
+      "argument1": {
+        "type": "minecraft:max",
+        "argument1": {
+          "type": "minecraft:min",
+          "argument1": {
+            "type": "minecraft:min",
+            "argument1": {
+              "type": "minecraft:min",
+              "argument1": {
+                "type": "minecraft:min",
+                "argument1": {
+                  "type": "minecraft:min",
+                  "argument1": {
+                    "type": "minecraft:spline",
+                    "spline": {
+                      "coordinate": "minecraft:overworld/depth",
+                      "points": [
+                        {
+                          "location": -2.0,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": -0.10500000000000001,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": -0.005,
+                          "value": 1,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": 1.0,
+                          "value": 1,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": 1.1,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": 2.0,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        }
+                      ]
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:spline",
+                    "spline": {
+                      "coordinate": "minecraft:overworld/ridges",
+                      "points": [
+                        {
+                          "location": -2.0,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": -1.006635,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": -0.906635,
+                          "value": 1,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": -0.42666499999999996,
+                          "value": 1,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": -0.326665,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": 2.0,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        }
+                      ]
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:spline",
+                  "spline": {
+                    "coordinate": "minecraft:overworld/erosion",
+                    "points": [
+                      {
+                        "location": -2.0,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": -1.0475,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": -0.9475,
+                        "value": 1,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": -0.0024999999999999467,
+                        "value": 1,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": 0.09750000000000006,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": 2.0,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      }
+                    ]
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:spline",
+                "spline": {
+                  "coordinate": "minecraft:overworld/effective_continentalness",
+                  "points": [
+                    {
+                      "location": -2.0,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": -0.23049999999999995,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": -0.13049999999999995,
+                      "value": 1,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 0.9405,
+                      "value": 1,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 1.0405,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 2.0,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    }
+                  ]
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:spline",
+              "spline": {
+                "coordinate": "minecraft:overworld/temperature",
+                "points": [
+                  {
+                    "location": -2.0,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -1.0575,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -0.9575,
+                    "value": 1,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -0.19249999999999995,
+                    "value": 1,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -0.09249999999999994,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 2.0,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  }
+                ]
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:spline",
+            "spline": {
+              "coordinate": "minecraft:overworld/vegetation",
+              "points": [
+                {
+                  "location": -2.0,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.4375,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.33749999999999997,
+                  "value": 1,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.11249999999999999,
+                  "value": 1,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.012499999999999983,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 2.0,
+                  "value": 0.0,
+                  "derivative": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:min",
+          "argument1": {
+            "type": "minecraft:min",
+            "argument1": {
+              "type": "minecraft:min",
+              "argument1": {
+                "type": "minecraft:min",
+                "argument1": {
+                  "type": "minecraft:min",
+                  "argument1": {
+                    "type": "minecraft:spline",
+                    "spline": {
+                      "coordinate": "minecraft:overworld/depth",
+                      "points": [
+                        {
+                          "location": -2.0,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": -0.10500000000000001,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": -0.005,
+                          "value": 1,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": 1.0,
+                          "value": 1,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": 1.1,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": 2.0,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        }
+                      ]
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:spline",
+                    "spline": {
+                      "coordinate": "minecraft:overworld/ridges",
+                      "points": [
+                        {
+                          "location": -2.0,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": 0.326665,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": 0.42666499999999996,
+                          "value": 1,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": 0.906635,
+                          "value": 1,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": 1.006635,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        },
+                        {
+                          "location": 2.0,
+                          "value": 0.0,
+                          "derivative": 0.0
+                        }
+                      ]
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:spline",
+                  "spline": {
+                    "coordinate": "minecraft:overworld/erosion",
+                    "points": [
+                      {
+                        "location": -2.0,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": -1.0475,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": -0.9475,
+                        "value": 1,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": -0.0024999999999999467,
+                        "value": 1,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": 0.09750000000000006,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": 2.0,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      }
+                    ]
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:spline",
+                "spline": {
+                  "coordinate": "minecraft:overworld/effective_continentalness",
+                  "points": [
+                    {
+                      "location": -2.0,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": -0.23049999999999995,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": -0.13049999999999995,
+                      "value": 1,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 0.9405,
+                      "value": 1,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 1.0405,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 2.0,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    }
+                  ]
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:spline",
+              "spline": {
+                "coordinate": "minecraft:overworld/temperature",
+                "points": [
+                  {
+                    "location": -2.0,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -1.0575,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -0.9575,
+                    "value": 1,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -0.19249999999999995,
+                    "value": 1,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -0.09249999999999994,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 2.0,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  }
+                ]
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:spline",
+            "spline": {
+              "coordinate": "minecraft:overworld/vegetation",
+              "points": [
+                {
+                  "location": -2.0,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.4375,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.33749999999999997,
+                  "value": 1,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.11249999999999999,
+                  "value": 1,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.012499999999999983,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 2.0,
+                  "value": 0.0,
+                  "derivative": 0.0
+                }
+              ]
+            }
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:min",
+        "argument1": {
+          "type": "minecraft:min",
+          "argument1": {
+            "type": "minecraft:min",
+            "argument1": {
+              "type": "minecraft:min",
+              "argument1": {
+                "type": "minecraft:min",
+                "argument1": {
+                  "type": "minecraft:spline",
+                  "spline": {
+                    "coordinate": "minecraft:overworld/depth",
+                    "points": [
+                      {
+                        "location": -2.0,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": -0.10500000000000001,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": -0.005,
+                        "value": 1,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": 1.0,
+                        "value": 1,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": 1.1,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": 2.0,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      }
+                    ]
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:spline",
+                  "spline": {
+                    "coordinate": "minecraft:overworld/ridges",
+                    "points": [
+                      {
+                        "location": -2.0,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": -1.006635,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": -0.906635,
+                        "value": 1,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": -0.42666499999999996,
+                        "value": 1,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": -0.326665,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      },
+                      {
+                        "location": 2.0,
+                        "value": 0.0,
+                        "derivative": 0.0
+                      }
+                    ]
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:spline",
+                "spline": {
+                  "coordinate": "minecraft:overworld/erosion",
+                  "points": [
+                    {
+                      "location": -2.0,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": -1.0475,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": -0.9475,
+                      "value": 1,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": -0.0024999999999999467,
+                      "value": 1,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 0.09750000000000006,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 2.0,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    }
+                  ]
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:spline",
+              "spline": {
+                "coordinate": "minecraft:overworld/effective_continentalness",
+                "points": [
+                  {
+                    "location": -2.0,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -0.23049999999999995,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -0.13049999999999995,
+                    "value": 1,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 0.9405,
+                    "value": 1,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 1.0405,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 2.0,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  }
+                ]
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:spline",
+            "spline": {
+              "coordinate": "minecraft:overworld/temperature",
+              "points": [
+                {
+                  "location": -2.0,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.535,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.43500000000000005,
+                  "value": 1,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.16499999999999995,
+                  "value": 1,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.06499999999999995,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 2.0,
+                  "value": 0.0,
+                  "derivative": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "minecraft:overworld/vegetation",
+            "points": [
+              {
+                "location": -2.0,
+                "value": 0.0,
+                "derivative": 0.0
+              },
+              {
+                "location": -1.0675000000000001,
+                "value": 0.0,
+                "derivative": 0.0
+              },
+              {
+                "location": -0.9675,
+                "value": 1,
+                "derivative": 0.0
+              },
+              {
+                "location": -0.3825,
+                "value": 1,
+                "derivative": 0.0
+              },
+              {
+                "location": -0.2825,
+                "value": 0.0,
+                "derivative": 0.0
+              },
+              {
+                "location": 2.0,
+                "value": 0.0,
+                "derivative": 0.0
+              }
+            ]
+          }
+        }
+      }
+    },
+    "argument2": {
+      "type": "minecraft:min",
+      "argument1": {
+        "type": "minecraft:min",
+        "argument1": {
+          "type": "minecraft:min",
+          "argument1": {
+            "type": "minecraft:min",
+            "argument1": {
+              "type": "minecraft:min",
+              "argument1": {
+                "type": "minecraft:spline",
+                "spline": {
+                  "coordinate": "minecraft:overworld/depth",
+                  "points": [
+                    {
+                      "location": -2.0,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": -0.10500000000000001,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": -0.005,
+                      "value": 1,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 1.0,
+                      "value": 1,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 1.1,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 2.0,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    }
+                  ]
+                }
+              },
+              "argument2": {
+                "type": "minecraft:spline",
+                "spline": {
+                  "coordinate": "minecraft:overworld/ridges",
+                  "points": [
+                    {
+                      "location": -2.0,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 0.326665,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 0.42666499999999996,
+                      "value": 1,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 0.906635,
+                      "value": 1,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 1.006635,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    },
+                    {
+                      "location": 2.0,
+                      "value": 0.0,
+                      "derivative": 0.0
+                    }
+                  ]
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:spline",
+              "spline": {
+                "coordinate": "minecraft:overworld/erosion",
+                "points": [
+                  {
+                    "location": -2.0,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -1.0475,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -0.9475,
+                    "value": 1,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": -0.0024999999999999467,
+                    "value": 1,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 0.09750000000000006,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  },
+                  {
+                    "location": 2.0,
+                    "value": 0.0,
+                    "derivative": 0.0
+                  }
+                ]
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:spline",
+            "spline": {
+              "coordinate": "minecraft:overworld/effective_continentalness",
+              "points": [
+                {
+                  "location": -2.0,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.23049999999999995,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": -0.13049999999999995,
+                  "value": 1,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 0.9405,
+                  "value": 1,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 1.0405,
+                  "value": 0.0,
+                  "derivative": 0.0
+                },
+                {
+                  "location": 2.0,
+                  "value": 0.0,
+                  "derivative": 0.0
+                }
+              ]
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:spline",
+          "spline": {
+            "coordinate": "minecraft:overworld/temperature",
+            "points": [
+              {
+                "location": -2.0,
+                "value": 0.0,
+                "derivative": 0.0
+              },
+              {
+                "location": -0.535,
+                "value": 0.0,
+                "derivative": 0.0
+              },
+              {
+                "location": -0.43500000000000005,
+                "value": 1,
+                "derivative": 0.0
+              },
+              {
+                "location": -0.16499999999999995,
+                "value": 1,
+                "derivative": 0.0
+              },
+              {
+                "location": -0.06499999999999995,
+                "value": 0.0,
+                "derivative": 0.0
+              },
+              {
+                "location": 2.0,
+                "value": 0.0,
+                "derivative": 0.0
+              }
+            ]
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "minecraft:overworld/vegetation",
+          "points": [
+            {
+              "location": -2.0,
+              "value": 0.0,
+              "derivative": 0.0
+            },
+            {
+              "location": -1.0675000000000001,
+              "value": 0.0,
+              "derivative": 0.0
+            },
+            {
+              "location": -0.9675,
+              "value": 1,
+              "derivative": 0.0
+            },
+            {
+              "location": -0.3825,
+              "value": 1,
+              "derivative": 0.0
+            },
+            {
+              "location": -0.2825,
+              "value": 0.0,
+              "derivative": 0.0
+            },
+            {
+              "location": 2.0,
+              "value": 0.0,
+              "derivative": 0.0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

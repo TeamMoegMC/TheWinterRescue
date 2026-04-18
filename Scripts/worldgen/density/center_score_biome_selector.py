@@ -1032,11 +1032,9 @@ def remap_rows_to_single_target(rows, target_biome, non_target_proxy):
         out.append(new_row)
     return out
 
-
 # ============================================================
 # 7) Unified rows -> selector generator
-# Runtime-first atomic-cell compiler
-# ============================================================
+
 def generate_fastest_center_score_mask_json(
     biome_rows,
     target_biome,
@@ -1048,28 +1046,13 @@ def generate_fastest_center_score_mask_json(
     square_output=False,
     cube_output=False,
     top_level_cache=True,
-    hard_boundary=False
+    hard_boundary=False,
+    multi_rect_max=True
 ):
     """
-    Generate a small continuous center-score density function for one target biome.
+    生成针对单一目标生物群系的中心得分掩码密度函数。
 
-    Strategy:
-      1) Collect all rows belonging to target_biome
-      2) For each runtime dimension, compute:
-           - support min
-           - support max
-           - center = (min + max) / 2
-           - radius = max((max - min)/2 * radius_scale, min_radius_by_dim[dim])
-      3) Build per-dimension linear score:
-           score_dim = clamp(1 - abs(x - center) / radius, 0, 1)
-      4) Combine by weighted average
-      5) Optional sharpening by square/cube
-      6) Output a small JSON density function
-
-    Returns:
-      (mask_json, debug_info)
     """
-
     DIM_ORDER = ["depth", "weirdness", "erosion", "continentalness", "temperature", "humidity"]
 
     DIMENSION_FN_REFS = {
@@ -1106,73 +1089,30 @@ def generate_fastest_center_score_mask_json(
         raise ValueError(f"No rows found for target biome: {target_biome}")
 
     # ------------------------------------------------------------
-    # JSON builders
+    # JSON 构造辅助函数
     def df_const(v):
-        return {
-            "type": "minecraft:constant",
-            "argument": float(v)
-        }
+        return {"type": "minecraft:constant", "argument": float(v)}
 
     def df_add(a, b):
-        return {
-            "type": "minecraft:add",
-            "argument1": a,
-            "argument2": b
-        }
+        return {"type": "minecraft:add", "argument1": a, "argument2": b}
 
     def df_mul(a, b):
-        return {
-            "type": "minecraft:mul",
-            "argument1": a,
-            "argument2": b
-        }
+        return {"type": "minecraft:mul", "argument1": a, "argument2": b}
 
     def df_min(a, b):
-        return {
-            "type": "minecraft:min",
-            "argument1": a,
-            "argument2": b
-        }
+        return {"type": "minecraft:min", "argument1": a, "argument2": b}
 
     def df_max(a, b):
-        return {
-            "type": "minecraft:max",
-            "argument1": a,
-            "argument2": b
-        }
+        return {"type": "minecraft:max", "argument1": a, "argument2": b}
 
     def df_clamp(inp, min_v=0.0, max_v=1.0):
-        return {
-            "type": "minecraft:clamp",
-            "input": inp,
-            "min": float(min_v),
-            "max": float(max_v)
-        }
+        return {"type": "minecraft:clamp", "input": inp, "min": float(min_v), "max": float(max_v)}
 
     def df_cache_once(arg):
-        return {
-            "type": "minecraft:cache_once",
-            "argument": arg
-        }
+        return {"type": "minecraft:cache_once", "argument": arg}
 
-    def df_flat_cache(arg):
-        return {
-            "type": "minecraft:flat_cache",
-            "argument": arg
-        }
-
-    # ------------------------------------------------------------
-    # Expression helpers
-    def expr_add_many(exprs):
-        if not exprs:
-            return df_const(0.0)
-        out = exprs[0]
-        for e in exprs[1:]:
-            out = df_add(out, e)
-        return out
-
+    # 表达式辅助
     def expr_abs(x):
-        # abs(x) = max(x, -x)
         return df_max(x, df_mul(df_const(-1.0), x))
 
     def expr_sub(a, b):
@@ -1181,100 +1121,130 @@ def generate_fastest_center_score_mask_json(
     def expr_div_by_const(a, c):
         return df_mul(a, df_const(1.0 / float(c)))
 
-    # ------------------------------------------------------------
-    # Collect center/radius per dim from target rows
-    # ------------------------------------------------------------
-    # Collect center/radius per dim from target rows
-    stats_by_dim = {}
-
-    for dim in DIM_ORDER:
-        lows = []
-        highs = []
-
-        for row in target_rows:
-            lo, hi = row["parameters"][dim]
-            lows.append(float(lo))
-            highs.append(float(hi))
-
-        support_min = min(lows)
-        support_max = max(highs)
-        center = (support_min + support_max) / 2.0
-        half_span = (support_max - support_min) / 2.0
-
-        # 硬边界模式：半径精确等于半宽，忽略缩放系数和最小半径
-        if hard_boundary:
-            radius = half_span
-            # 保证半径为正值（避免除零，至少设一个极小量）
-            if radius <= 0.0:
-                radius = 1e-6
-        else:
-            # 软边界模式：按原逻辑计算半径
-            radius = max(half_span * float(radius_scale), float(min_radius_by_dim[dim]))
-
-        stats_by_dim[dim] = {
-            "support_min": support_min,
-            "support_max": support_max,
-            "center": center,
-            "half_span": half_span,
-            "radius": radius,
-            "weight": float(dim_weights[dim]),
-        }
-
-
-    dim_score_exprs = {}
-
-    for dim in DIM_ORDER:
+    def build_dim_score_expr(dim, center, radius):
+        """生成单个维度的软掩码得分表达式（不含 cache_once）"""
         ref = DIMENSION_FN_REFS[dim]
-        center = stats_by_dim[dim]["center"]
-        radius = stats_by_dim[dim]["radius"]
-
         x_minus_center = expr_sub(ref, df_const(center))
         abs_dist = expr_abs(x_minus_center)
         normalized = expr_div_by_const(abs_dist, radius)
         one_minus = expr_sub(df_const(1.0), normalized)
-        score_dim = df_clamp(one_minus, 0.0, 1.0)
+        return df_clamp(one_minus, 0.0, 1.0)
 
-        dim_score_exprs[dim] = score_dim
+    # ------------------------------------------------------------
+    if multi_rect_max:
+        # 共享缓存字典：key = (dim, center, radius) → 带 cache_once 的表达式
+        shared_cache = {}
+        rect_exprs = []
 
-    active_scores = [
-        dim_score_exprs[dim]
-        for dim in DIM_ORDER
-        if stats_by_dim[dim]["weight"] > 0.0
-    ]
+        for row in target_rows:
+            dim_scores = []
+            for dim in DIM_ORDER:
+                if dim_weights.get(dim, 0.0) == 0.0:
+                    continue  # 权重为 0 的维度不参与得分，直接跳过
 
-    if not active_scores:
-        # 如果没有激活的维度，返回常量 0
-        final_expr = df_const(0.0)
+                lo, hi = row["parameters"][dim]
+                lo, hi = float(lo), float(hi)
+                half_span = (hi - lo) / 2.0
+                center = (lo + hi) / 2.0
+
+                if hard_boundary:
+                    radius = max(half_span, float(min_radius_by_dim[dim]))
+                else:
+                    radius = max(half_span * float(radius_scale), float(min_radius_by_dim[dim]))
+
+                if radius <= 0.0:
+                    radius = 1e-6  # 防止除零
+
+                # 使用保留6位小数的四舍五入作为缓存键，避免浮点误差导致重复
+                key = (dim, round(center, 6), round(radius, 6))
+                if key not in shared_cache:
+                    raw_expr = build_dim_score_expr(dim, center, radius)
+                    shared_cache[key] = df_cache_once(raw_expr)
+                dim_scores.append(shared_cache[key])
+
+            if not dim_scores:
+                continue  # 所有权重为0，该矩形无贡献
+            rect_score = dim_scores[0]
+            for s in dim_scores[1:]:
+                rect_score = df_min(rect_score, s)
+            rect_exprs.append(rect_score)
+
+        if not rect_exprs:
+            final_expr = df_const(0.0)
+        else:
+            final_expr = rect_exprs[0]
+            for s in rect_exprs[1:]:
+                final_expr = df_max(final_expr, s)
+
     else:
-        final_expr = active_scores[0]
-        for score_expr in active_scores[1:]:
-            final_expr = df_min(final_expr, score_expr)
+        #原始整体包络模式
+        stats_by_dim = {}
+        for dim in DIM_ORDER:
+            lows = []
+            highs = []
+            for row in target_rows:
+                lo, hi = row["parameters"][dim]
+                lows.append(float(lo))
+                highs.append(float(hi))
+            support_min = min(lows)
+            support_max = max(highs)
+            center = (support_min + support_max) / 2.0
+            half_span = (support_max - support_min) / 2.0
+            if hard_boundary:
+                radius = half_span
+                if radius <= 0.0:
+                    radius = 1e-6
+            else:
+                radius = max(half_span * float(radius_scale), float(min_radius_by_dim[dim]))
+            stats_by_dim[dim] = {
+                "support_min": support_min,
+                "support_max": support_max,
+                "center": center,
+                "half_span": half_span,
+                "radius": radius,
+                "weight": float(dim_weights[dim]),
+            }
 
-    # Optional sharpening
+        dim_score_exprs = {}
+        for dim in DIM_ORDER:
+            if stats_by_dim[dim]["weight"] == 0.0:
+                continue
+            center = stats_by_dim[dim]["center"]
+            radius = stats_by_dim[dim]["radius"]
+            dim_score_exprs[dim] = build_dim_score_expr(dim, center, radius)
+
+        active_scores = list(dim_score_exprs.values())
+        if not active_scores:
+            final_expr = df_const(0.0)
+        else:
+            final_expr = active_scores[0]
+            for score_expr in active_scores[1:]:
+                final_expr = df_min(final_expr, score_expr)
+
+    # 可选锐化
     if square_output:
         final_expr = df_mul(final_expr, deepcopy(final_expr))
     if cube_output:
         final_expr = df_mul(df_mul(final_expr, deepcopy(final_expr)), deepcopy(final_expr))
 
-    # Good default cache wrapping:
-    # - flat_cache because expression is Y-independent if depth were absent,
-    #   but here depth is included, so flat_cache is not appropriate globally.
-    # - top-level cache_once is still useful.
     if top_level_cache:
         final_expr = df_cache_once(final_expr)
 
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(final_expr, f, ensure_ascii=False, indent=2)
 
+    # 调试信息
     debug_info = {
         "output_path": output_path,
-        "mode": "fastest_center_score_mask",
+        "mode": "multi_rect_max" if multi_rect_max else "center_score_mask",
         "target_biome": target_biome,
         "row_count_for_target": len(target_rows),
         "radius_scale": radius_scale,
         "square_output": square_output,
         "cube_output": cube_output,
-        "stats_by_dim": stats_by_dim,
+        "multi_rect_max": multi_rect_max,
+        "shared_cache_size": len(shared_cache) if multi_rect_max else None,
+        "stats_by_dim": None if multi_rect_max else stats_by_dim,
     }
 
     if print_debug:
@@ -1469,7 +1439,7 @@ def print_selector_compile_stats(debug_info):
 # 11) usage
 if __name__ == "__main__":
 
-    target_biome = "the_winter_rescue:ice_cap"
+    target_biome = "the_winter_rescue:glacial_fungus_caves"
     proxy_biome = "the_winter_rescue:non_target_proxy"
     underground_spec = tree_to_spec(underground_tree)
     surface_spec = tree_to_spec(surface_tree)
@@ -1477,23 +1447,33 @@ if __name__ == "__main__":
     surface_rows_raw = convert(surface_spec)
     biome_rows = underground_rows_raw + surface_rows_raw
     biome_rows = compress_biome_rows(biome_rows)
+    # from collections import defaultdict
+    # by_biome = defaultdict(list)
+    # for row in biome_rows:
+    #     by_biome[row["biome"]].append(row)
+    #     merged_rows = []
+    #     for biome, rows in by_biome.items():
+    #         merged_rows.extend(merge_rectangles_for_biome(rows))
+    #         biome_rows = merged_rows
+
+
 
     filtered_biome_rows = remap_rows_to_single_target(
         biome_rows,
-        target_biome="the_winter_rescue:ice_cap",
+        target_biome="the_winter_rescue:glacial_fungus_caves",
         non_target_proxy="the_winter_rescue:non_target_proxy"
     )
     filtered_biome_code_map = {
-        "the_winter_rescue:ice_cap": 118,
+        "the_winter_rescue:glacial_fungus_caves": 118,
         "the_winter_rescue:non_target_proxy": 0
     }
 
     center_mask_json, center_debug_info = generate_fastest_center_score_mask_json(
         biome_rows=biome_rows,
-        target_biome="the_winter_rescue:ice_cap",
+        target_biome="the_winter_rescue:glacial_fungus_caves",
         output_path="center_score_mask.json",
         print_debug=True,
-        radius_scale=1.15,
+        radius_scale=1.25,
         min_radius_by_dim={
             "depth": 0.10,
             "weirdness": 0.12,
@@ -1507,13 +1487,14 @@ if __name__ == "__main__":
             "weirdness": 1.0,
             "erosion": 1.0,
             "continentalness": 1.0,
-            "temperature": 0.8,
-            "humidity": 0.8,
+            "temperature": 1.0,
+            "humidity": 1.0,
         },
         square_output=False,
         cube_output=False,
         top_level_cache=True,
-        hard_boundary=True
+        hard_boundary=False,
+        multi_rect_max=True
     )
 
     test_selector_value(

@@ -1,4 +1,6 @@
 {
+  "type": "minecraft:cache_once",
+  "argument": {
   "type": "minecraft:min",
   "argument1": {
     "type": "minecraft:squeeze",
@@ -140,4 +142,5 @@
     }
   },
   "argument2": "minecraft:overworld/caves/noodle"
+  }
 }
