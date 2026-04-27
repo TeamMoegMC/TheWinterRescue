@@ -22,7 +22,6 @@
 !/shaderpacks/ComplementaryUnbound_r5.2.2_TWR/
 /ambience_music/
 /backups/
-/config/spark/activity.json
 /patchouli_data.json
 /servers.dat_old
 /servers.dat
@@ -33,10 +32,8 @@
 /optionsof.txt
 /launcher_profiles.json
 /servers 3.dat_old
-/config/ambience-common.toml
 /servers 4.dat_old
 .DS_Store
-/config/jei/bookmarks.ini
 /optionsshaders.txt
 *.bak
 /.curseclient
@@ -45,9 +42,6 @@
 /kubejs/config/probe-settings.json
 hs_err_*
 replay_*
-/config/inventoryprofilesnext/
-config/.*
-config/jei/
 *.iml
 jsconfig.json
 .probe
@@ -86,7 +80,6 @@ betterfps*
 /whitelist.json
 /serverfiles/
 /mods-server/
-config/.twrp*
 /modernfix
 
 # editors
@@ -105,30 +98,16 @@ __pycache__/
 /confbackup/
 
 /*.zip
-/mods-server/
-__pycache__/
-config/.twrp*
 /*.json
 
 # MACOS Shit
-.DS_Store
 *.icloud
+
 icon.png
 rhino.local.properties
 fancymenu_data/last_world.fmdata
 kubejs/assets/ponderjs_generated/lang/en_us.json
-config/embeddium-fingerprint.json
-config/embeddium-mixins.properties
-config/embeddium-options.json
-config/oculus.properties
-config/jei/ingredient-list-mod-sort-order.ini
-config/jei/world/local/New_World__2/bookmarks.ini
-config/world_preview/config.json
-config/world_preview/missing-colors.json
-config/world_preview/missing-structures.json
-config/world_preview/renderConfig.json
 bookmarks.ini
-
 installer.sh
 installer.bat
 twr-installer.jar
@@ -142,19 +121,12 @@ IconRendererOutput/
 saves_old/
 chorda.client.dat.old
 chorda.client.dat
-config/fhtips/tip_states.json
 /TWR-DEV-natives
 TWR-DEV.jar
-/config/chunky
-/config/xaerominimap.txt
-/config/xaerominimap-common.txt
-/config/xaerominimap_entities.json
-/config/xaeropatreon.txt
-/config/xaeroworldmap.txt
-/config/xaeroworldmap-common.txt
 /xaero
-/config/DistantHorizons.toml
 /hotbar.nbt
 /natives-windows-x86_64/
 /log4j2.xml
 /hmclversion.cfg
+*.jfr
+*.sparkprofile
