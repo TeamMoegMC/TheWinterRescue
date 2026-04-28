@@ -1396,7 +1396,7 @@ if __name__ == "__main__":
     generate_smooth_hypercube_mask(
         biome_rows=filtered_biome_rows,
         target_biome=target_biome,
-        transition_width=0.05,
+        transition_width=0.06,
         output_path="glacial_fungus_caves_spline.json",
         ignore_dims=["depth"]
     )
