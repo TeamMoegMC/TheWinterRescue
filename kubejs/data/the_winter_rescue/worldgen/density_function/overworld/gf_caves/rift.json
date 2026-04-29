@@ -1,7 +1,7 @@
 {
   "type": "minecraft:range_choice",
   "input": "minecraft:y",
-  "min_inclusive": 40,
+  "min_inclusive": 38,
   "max_exclusive": 120,
   "when_in_range": {
     "type": "minecraft:add",
@@ -27,10 +27,10 @@
               "type": "minecraft:add",
               "argument1": {
                 "type": "minecraft:y_clamped_gradient",
-                "from_y": 40,
+                "from_y": 38,
                 "to_y": 120,
                 "from_value": 0.06,
-                "to_value": 0.1
+                "to_value": 0.095
               },
               "argument2": {
                 "type": "minecraft:mul",
