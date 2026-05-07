@@ -12,7 +12,7 @@
 		#Use Fahrenheit temperature instead of celsus.
 		useFahrenheit = false
 		#Position of the temperature orb in game screen. 
-		#Allowed Values: MIDDLE_LEFT, MIDDLE, MIDDLE_RIGHT, TOP_LEFT, TOP_MIDDLE, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_MIDDLE, BOTTOM_RIGHT
+		#Allowed Values: MIDDLE, TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
 		renderTempOrbAtCenter = "MIDDLE"
 		#X Offset of the temperature orb. The anchor point is defined by the tempOrbPosition value. Only when you set tempOrbPosition to value other than MIDDLE will this value be used. 
 		#Range: -4096 ~ 4096
@@ -31,13 +31,23 @@
 	["Frosted HUD".Tip]
 		#Enables the tips rendering. 
 		enableTip = true
-		#
-		#Allowed Values: MIDDLE_LEFT, MIDDLE, MIDDLE_RIGHT, TOP_LEFT, TOP_MIDDLE, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_MIDDLE, BOTTOM_RIGHT
-		tipPosition = "TOP_MIDDLE"
+		#The position where the tip display
+		#Allowed Values: TOP_LEFT, TOP_MIDDLE, TOP_RIGHT, MIDDLE_LEFT, MIDDLE, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_MIDDLE, BOTTOM_RIGHT
+		tipPosition = "MIDDLE_RIGHT"
 
 	["Frosted HUD".Waypoint]
 		#Enables the waypoints rendering. 
 		enableWaypoint = true
+
+	["Frosted HUD"."Key Hint"]
+		#Enable key hints
+		enableKeyHints = true
+		#Disable the hints you don't want to display
+		#Example: 'frostedheart:example'
+		disabledHints = []
+		#The position where the hint display
+		#Allowed Values: TOP_LEFT, TOP_MIDDLE, TOP_RIGHT, MIDDLE_LEFT, MIDDLE, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_MIDDLE, BOTTOM_RIGHT
+		hintPosition = "MIDDLE_LEFT"
 
 ["Frozen Effects"]
 	#Enables the frozen overlay when player is freezing. 
@@ -106,6 +116,4 @@
 [other]
 	#Enable item tooltips
 	enableTooltips = true
-	#Enables shaderpack compatibility module, switch this off if your shader does not load correctly
-	enableShaderCompatibility = true
 

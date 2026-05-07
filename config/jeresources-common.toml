@@ -5,7 +5,7 @@ itemsPerRow = 4
 diyData = true
 showDevData = false
 enchantsBlacklist = ["flimflam", "soulBound"]
-hiddenTabs = []
+hiddenTabs = ["villager"]
 dimensionsBlacklist = [-11]
 disableLootManagerReloading = false
 
