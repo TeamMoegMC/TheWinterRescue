@@ -2445,6 +2445,87 @@
         }
       },
       {
+        "type": "minecraft:condition",
+      "if_true": {
+        "type": "minecraft:biome",
+        "biome_is": [
+          "the_winter_rescue:glacial_fungus_caves",
+          "the_winter_rescue:fossil_deposits",
+          "the_winter_rescue:magmatic_deposits",
+          "the_winter_rescue:crust_chasms"
+        ]
+      },
+      "then_run": {
+        "type": "minecraft:sequence",
+        "sequence": [
+          {
+            "__comment__": "Glacial Fungus Cave",
+            "type": "minecraft:condition",
+            "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "the_winter_rescue:glacial_fungus_caves"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:y_above",
+                "anchor": {
+                  "above_bottom": 107
+                },
+                "surface_depth_multiplier": 0,
+                "add_stone_depth": false
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:not",
+                      "invert": {
+                        "type": "minecraft:vertical_gradient",
+                        "random_name": "minecraft:bedrock_roof",
+                        "true_at_and_below": {
+                          "above_bottom": 107
+                        },
+                        "false_at_and_above": {
+                          "above_bottom": 113
+                        }
+                      }
+                    },
+                    "then_run": {
+                      "type": "minecraft:sequence",
+                      "sequence": [
+                        {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:packed_ice",
+                            "Properties": {
+                              "axis": "y"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:blue_ice"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
         "__comment__": "Replace stone with limestone",
         "type": "minecraft:condition",
         "if_true": {
@@ -2465,28 +2546,31 @@
           ]
         }
       },
-      {
-        "__comment__": "Replace stone with basalt",
-        "type": "minecraft:condition",
-        "if_true": {
-          "type": "minecraft:biome",
-          "biome_is": [
-            "the_winter_rescue:magmatic_deposits",
-            "the_winter_rescue:crust_chasms"
-          ]
-        },
-        "then_run": {
-          "type": "minecraft:sequence",
-          "sequence": [
-            {
-              "type": "minecraft:block",
-              "result_state": {
-                "Name": "minecraft:basalt"
-              }
+          {
+            "__comment__": "Replace stone with basalt",
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "the_winter_rescue:magmatic_deposits",
+                "the_winter_rescue:crust_chasms"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:basalt"
+                  }
+                }
+              ]
             }
-          ]
-        }
-      },
+          }
+        ]
+      }
+    },
       {
         "__comment__": "Deepslate",
         "type": "minecraft:condition",

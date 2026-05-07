@@ -7,42 +7,45 @@
     "type": "minecraft:range_choice",
     "input": "the_winter_rescue:overworld/glacial_fungus_caves_spline",
     "min_inclusive": 0,
-    "max_exclusive": 0.98,
+    "max_exclusive": 0.99,
     "when_in_range": {
-      "type": "minecraft:add",
-      "argument1": {
+      "type": "minecraft:interpolated",
+      "argument": {
         "type": "minecraft:add",
         "argument1": {
           "type": "minecraft:add",
-          "argument1": 1,
+          "argument1": {
+            "type": "minecraft:add",
+            "argument1": 1,
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1,
+              "argument2": "the_winter_rescue:overworld/glacial_fungus_caves_spline"
+            }
+          },
           "argument2": {
             "type": "minecraft:mul",
-            "argument1": -1,
+            "argument1": "the_winter_rescue:overworld/gf_caves/rift",
             "argument2": "the_winter_rescue:overworld/glacial_fungus_caves_spline"
           }
         },
         "argument2": {
           "type": "minecraft:mul",
-          "argument1": "the_winter_rescue:overworld/gf_caves/rift",
-          "argument2": "the_winter_rescue:overworld/glacial_fungus_caves_spline"
-        }
-      },
-      "argument2": {
-        "type": "minecraft:mul",
-        "argument1": 1,
-        "argument2": {
-          "type": "minecraft:add",
-          "argument1": {
-            "type": "minecraft:y_clamped_gradient",
-            "from_y": 40,
-            "to_y": 120,
-            "from_value": 0.1,
-            "to_value": 0.005
-          },
+          "argument1": 1,
           "argument2": {
-            "type": "minecraft:mul",
-            "argument1": 0.1,
-            "argument2": "the_winter_rescue:overworld/gf_caves/rift"
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:y_clamped_gradient",
+              "from_y": 40,
+              "to_y": 120,
+              "from_value": 0.1,
+              "to_value": 0.005
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": 0.1,
+              "argument2": "the_winter_rescue:overworld/gf_caves/rift"
+            }
           }
         }
       }

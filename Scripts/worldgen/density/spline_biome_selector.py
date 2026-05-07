@@ -1370,11 +1370,11 @@ if __name__ == "__main__":
 
     dim_factors = {
         "depth": 0.0,
-        "weirdness": 0.88,
-        "erosion": 0.88,
-        "continentalness": 0.88,
-        "temperature": 0.88,
-        "humidity": 0.88,
+        "weirdness": 0.85,
+        "erosion": 0.85,
+        "continentalness": 0.85,
+        "temperature": 0.85,
+        "humidity": 0.85,
     }
 
     filtered_biome_rows = scale_biome_rows_for_target(
@@ -1396,7 +1396,7 @@ if __name__ == "__main__":
     generate_smooth_hypercube_mask(
         biome_rows=filtered_biome_rows,
         target_biome=target_biome,
-        transition_width=0.05,
+        transition_width=0.06,
         output_path="glacial_fungus_caves_spline.json",
         ignore_dims=["depth"]
     )
