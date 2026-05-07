@@ -288,15 +288,6 @@ ServerEvents.tags("item", (event) => {
     //     "create:andesite_alloy_block"
     // ])
 
-    // Why we disable ftb ultimine? We consider it have a bad impact on player experience, since it greatly reduce difficulty of this modpack and can easily cause bug or cheat.
-    // 为何要禁止连锁挖矿？我们以前认为使用连锁挖矿是个人行为，可以让后期不想挖矿的玩家偷懒。
-    // 但是部分玩家和游戏UP向各种所有玩家推荐连锁挖矿。
-    // 甚至一些新手玩家刚刚下载整合包就已经前来询问连锁挖矿相关问题，并直接安装连锁挖矿，而不是先体验整合包内容。
-    // 而新手玩家上手直接使用连锁挖矿显然是非常影响整体游戏体验的，也与我们设计的初衷相悖，因此我们被迫提高连锁挖矿的门槛。
-    // 如果你坚持要使用连锁挖矿，可以自行把对应的内容去除，但是出现任何问题后果自负。并且请不要向他人宣传连锁挖矿。
-    // 最终，我们是不推荐擅自修改整合包内容的，这样极大降低游戏体验。如果实在要爽，不如直接开创造。
-    event.add("ftbultimine:included_tools", "create:cogwheel")
-
 
     /*	let metalGroup = [
             "netherite",
@@ -676,6 +667,9 @@ ServerEvents.tags("item", (event) => {
             .add(`#forge:storage_blocks/${material}`)
     })*/
 
+    event.remove("forge:nuggets", 'create:experience_nugget')
+    event.remove("forge:leather", 'immersiveengineering:ersatz_leather')
+
     event.add("kubejs:fuel_items", [
         "kubejs:coal_dust",
         "kubejs:charcoal_dust",
@@ -761,35 +755,40 @@ ServerEvents.tags("item", (event) => {
         'charcoal_pit:fire_starter'
     ])
 
-          event.add("frostedheart:town_resource_resident_food_level_0", [
-                "caupona:fig",
-                "caupona:plump_snail",
-                "caupona:snail",
-                "caupona:walnut",
-                "caupona:wolfberries",
-                "create:chocolate_glazed_berries",
-                "create:honeyed_apple",
-                "create:sweet_roll",
-                "create:bar_of_chocolate",
-                "stone_age:auroch_meat",
-                "stone_age:boar_meat",
-                "stone_age:cooked_auroch_meat",
-                "stone_age:cooked_boar_meat",
-                "stone_age:cooked_fat",
-                "stone_age:cooked_fowl_meat",
-                "stone_age:cooked_mammoth_meat",
-                "stone_age:cooked_mouflon_meat",
-                "stone_age:cooked_rhino_meat",
-                "stone_age:cooked_tiger_meat",
-                "stone_age:cooked_venison",
-                "stone_age:fat",
-                "stone_age:fowl_meat",
-                "stone_age:mammoth_meat",
-                "stone_age:mouflon_meat",
-                "stone_age:rhino_meat",
-                "stone_age:tiger_meat",
-                "stone_age:venison",
-                "supplementaries:candy",
-                "supplementaries:pancake"
-                ])
+    event.add("frostedheart:town_resource_resident_food_level_0", [
+        "caupona:fig",
+        "caupona:plump_snail",
+        "caupona:snail",
+        "caupona:walnut",
+        "caupona:wolfberries",
+        "create:chocolate_glazed_berries",
+        "create:honeyed_apple",
+        "create:sweet_roll",
+        "create:bar_of_chocolate",
+        "stone_age:auroch_meat",
+        "stone_age:boar_meat",
+        "stone_age:cooked_auroch_meat",
+        "stone_age:cooked_boar_meat",
+        "stone_age:cooked_fat",
+        "stone_age:cooked_fowl_meat",
+        "stone_age:cooked_mammoth_meat",
+        "stone_age:cooked_mouflon_meat",
+        "stone_age:cooked_rhino_meat",
+        "stone_age:cooked_tiger_meat",
+        "stone_age:cooked_venison",
+        "stone_age:fat",
+        "stone_age:fowl_meat",
+        "stone_age:mammoth_meat",
+        "stone_age:mouflon_meat",
+        "stone_age:rhino_meat",
+        "stone_age:tiger_meat",
+        "stone_age:venison",
+        "supplementaries:candy",
+        "supplementaries:pancake"
+    ])
+
+    event.add("forge:dough", [
+        'frostedheart:raw_rye_bread',
+        'kubejs:sawdust_rye_dough'
+    ])
 })

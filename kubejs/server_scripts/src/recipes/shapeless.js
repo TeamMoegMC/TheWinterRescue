@@ -35,7 +35,7 @@ ServerEvents.recipes((event) => {
         shapelessRecipe("2x frostedheart:charcoal_stick","kubejs:charcoal_briquette"),
         shapelessRecipe("2x frostedheart:coal_stick","kubejs:coal_briquette"),
         shapelessRecipe("stone_age:raw_hide","4x minecraft:rabbit_hide"),
-        shapelessRecipe("stone_age:raw_hide","2x frostedheart:fox_hide"),
+        shapelessRecipe("stone_age:raw_hide","3x frostedheart:fox_hide"),
         shapelessRecipe("stone_age:raw_hide","2x frostedheart:wolf_hide"),
         shapelessRecipe("2x stone_age:raw_hide","1x frostedheart:polar_bear_hide"),
         shapelessRecipe("frostedheart:magnesite_block","9x frostedheart:raw_magnesite"),
@@ -78,6 +78,16 @@ ServerEvents.recipes((event) => {
 		shapelessRecipe("2x frostedheart:high_refractory_bricks", ["frostedheart:mortar", "4x frostedheart:high_refractory_brick"]),
 		shapelessRecipe("create:gearbox", "create:vertical_gearbox"),
 		shapelessRecipe("create:vertical_gearbox", "create:gearbox"),
+		shapelessRecipe('frostedheart:snow_sack_small', ["bundle", "snowball"]),
+		shapelessRecipe('2x white_dye', 'frostedheart:kaolin_dust'),
+		shapelessRecipe('immersiveengineering:lantern', 'lantern'),
+		shapelessRecipe('lantern', 'immersiveengineering:lantern'),
+		shapelessRecipe(Item.of('immersiveengineering:blueprint', '{blueprint:"components"}'), ['create:empty_schematic', 'immersiveengineering:circuit_board'], "twr:blueprint_components"),
+		shapelessRecipe(Item.of('immersiveengineering:blueprint', '{blueprint:"molds"}'), ['create:empty_schematic', '#forge:plates/steel'], "twr:blueprint_molds"),
+		shapelessRecipe(Item.of('immersiveengineering:blueprint', '{blueprint:"bullet"}'), ['create:empty_schematic', '#forge:plates/brass'], "twr:blueprint_bullet"),
+		shapelessRecipe(Item.of('immersiveengineering:blueprint', '{blueprint:"bannerpatterns"}'), ['create:empty_schematic', '#minecraft:banners'], "twr:blueprint_bannerpatterns"),
+        shapelessRecipe('slime_ball', ["#forge:dough", "#forge:dyes/lime"]),
+        shapelessRecipe('4x snowball', "snow_block"),
 
     ]
     addShapelessRecipes.forEach((recipe, index) => {

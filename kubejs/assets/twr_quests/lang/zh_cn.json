@@ -884,7 +884,7 @@
 	"quest.twr.76E0A57CE55FFCEA.6D6B476F48C9D98E.title": "体温",
 	"quest.twr.76E0A57CE55FFCEA.description.1": "体温变化速率受到&b环境温度&r和&6衣物保温数值&r影响。",
 	"quest.twr.76E0A57CE55FFCEA.description.2": "",
-	"quest.twr.76E0A57CE55FFCEA.description.3": "当体温开始降低时，你的经验条会被&b温度指示条&r替换，温度指示条涨满后你会获得&b失温效果&r并开始&b受到伤害&r。",
+	"quest.twr.76E0A57CE55FFCEA.description.3": "当体温开始降低时，你的经验条会被&b温度指示条&r替换，温度指示条达到最大值后你会获得&b失温效果&r并开始&b受到伤害&r。",
 	"quest.twr.76E0A57CE55FFCEA.description.4": "体温变化速率过高时也会被烫伤或冻伤。",
 	"quest.twr.76E0A57CE55FFCEA.description.5": "",
 	"quest.twr.76E0A57CE55FFCEA.description.6": "在做出{item.frostedheart.mercury_body_thermometer}前你无法查看详细体温数值。",

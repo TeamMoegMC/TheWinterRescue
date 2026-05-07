@@ -350,7 +350,7 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "minecraft:leather",
-            B: "stone_age:fish_bone",
+            B: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
             C: "#twr:advanced_string"
         }
         ],
@@ -361,7 +361,7 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "#minecraft:wool",
-            B: "stone_age:fish_bone",
+            B: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
             C: "#twr:advanced_string"
         }
         ],
@@ -372,7 +372,7 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "minecraft:dried_kelp",
-            B: "stone_age:fish_bone",
+            B: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
             C: "#forge:string"
         }
         ],
@@ -614,7 +614,7 @@ ServerEvents.recipes((event) => {
             "AAA"
         ], {
             A: "charcoal_pit:straw",
-            B: "stone_age:fish_bone",
+            B: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
             C: "#forge:string"
         }
         ],
@@ -728,7 +728,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "stone_age:raw_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -739,7 +739,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "stone_age:raw_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -750,7 +750,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "stone_age:raw_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -760,7 +760,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "stone_age:raw_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -769,7 +769,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "stone_age:raw_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         // rabbit
@@ -781,7 +781,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "minecraft:rabbit_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -792,7 +792,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "minecraft:rabbit_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -803,7 +803,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "minecraft:rabbit_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -813,7 +813,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "minecraft:rabbit_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -822,7 +822,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "minecraft:rabbit_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         // wolf
@@ -834,7 +834,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:wolf_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -845,7 +845,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:wolf_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -856,7 +856,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:wolf_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -866,7 +866,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:wolf_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -875,7 +875,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:wolf_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         // fox
@@ -887,7 +887,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:fox_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -898,7 +898,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:fox_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -909,7 +909,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:fox_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -919,7 +919,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:fox_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -928,7 +928,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:fox_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         // polar bear
@@ -940,7 +940,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:polar_bear_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -951,7 +951,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:polar_bear_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -962,7 +962,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:polar_bear_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -972,7 +972,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:polar_bear_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -981,7 +981,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "frostedheart:polar_bear_hide",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         // wool
@@ -993,7 +993,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#minecraft:wool",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -1004,7 +1004,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#minecraft:wool",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -1015,7 +1015,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#minecraft:wool",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -1025,7 +1025,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#minecraft:wool",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -1034,7 +1034,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#minecraft:wool",
             B: "#twr:advanced_string",
-            C: "stone_age:fish_bone"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -1248,15 +1248,15 @@ ServerEvents.recipes((event) => {
             "ABA",
             " A "
         ], {
-            A: "minecraft:leather",
+            A: "#forge:leather",
             B: "#forge:string"
         }
         ],
         [
             "frostedheart:iron_bottle", 1, [
-            "ABA",
+            " B ",
             "A A",
-            "AAA"
+            " A "
         ], {
             A: "#forge:plates/iron",
             B: "#forge:ingots/iron"
@@ -1297,18 +1297,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#forge:leather",
             B: "#forge:string",
-            C: "stone_age:fish_bone",
-        }
-        ],
-        [
-            "minecraft:leather_chestplate", 1, [
-            "ABA",
-            "ACA",
-            "AAA"
-        ], {
-            A: "#forge:leather",
-            B: "#forge:string",
-            C: "immersiveengineering:wirecutter"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -1319,18 +1308,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#forge:leather",
             B: "#forge:string",
-            C: "stone_age:fish_bone",
-        }
-        ],
-        [
-            "minecraft:leather_helmet", 1, [
-            "AAA",
-            "A A",
-            "B C"
-        ], {
-            A: "#forge:leather",
-            B: "#forge:string",
-            C: "immersiveengineering:wirecutter"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -1340,17 +1318,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#forge:leather",
             B: "#forge:string",
-            C: "stone_age:fish_bone",
-        }
-        ],
-        [
-            "minecraft:leather_boots", 1, [
-            "ABA",
-            "ACA"
-        ], {
-            A: "#forge:leather",
-            B: "#forge:string",
-            C: "immersiveengineering:wirecutter"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -1361,18 +1329,7 @@ ServerEvents.recipes((event) => {
         ], {
             A: "#forge:leather",
             B: "#forge:string",
-            C: "stone_age:fish_bone",
-        }
-        ],
-        [
-            "minecraft:leather_leggings", 1, [
-            "AAA",
-            "ABA",
-            "ACA"
-        ], {
-            A: "#forge:leather",
-            B: "#forge:string",
-            C: "immersiveengineering:wirecutter"
+            C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
         }
         ],
         [
@@ -1569,7 +1526,7 @@ ServerEvents.recipes((event) => {
             ], {
                 A: "#forge:string",
                 B: "#twr:hide",
-                C: "stone_age:fish_bone",
+                C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
             }
         ],
         [
@@ -1579,7 +1536,7 @@ ServerEvents.recipes((event) => {
             ], {
                 A: "#forge:string",
                 B: "#twr:small_hide",
-                C: "stone_age:fish_bone",
+                C: ["stone_age:fish_bone", "immersiveengineering:wirecutter"],
             }
         ],
         [
@@ -1678,17 +1635,6 @@ ServerEvents.recipes((event) => {
             }
         ],
         [
-            'frostedheart:hunting_camp', [
-                "BAB",
-                "ACA",
-                "BAB"
-            ], {
-                A: "#minecraft:planks",
-                B: "minecraft:stone_bricks",
-                C: "minecraft:bow"
-            }
-        ],
-        [
             'frostedheart:hunting_base', [
                 "BAB",
                 "ACA",
@@ -1697,6 +1643,35 @@ ServerEvents.recipes((event) => {
                 A: "#minecraft:planks",
                 B: "minecraft:stone_bricks",
                 C: "#forge:fence_gates/wooden"
+            }
+        ],
+        [
+            'frostedheart:snow_shovel', [
+                "  B",
+                " A ",
+                "A  "
+            ], {
+                A: "#forge:rods/wooden",
+                B: "#minecraft:planks"
+            }
+        ],
+        [
+            Item.of('frostedheart:snow_shovel', '{Damage:0}').enchant('minecraft:unbreaking', 3), [
+                "  B",
+                " A ",
+                "A  "
+            ], {
+                A: "#forge:rods/wooden",
+                B: "#twr:ingots/structural"
+            }
+        ],
+        [
+            "name_tag", [
+                " B",
+                "A "
+            ], {
+                A: "paper",
+                B: "#forge:nuggets"
             }
         ],
     ]

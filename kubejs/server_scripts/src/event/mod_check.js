@@ -22,7 +22,7 @@ PlayerEvents.loggedIn((event) => {
 
     // If a mod is detected, send a message and set the player's stage
     if (detectedMods.length > 0) {
-        let command = `tip displayCustom ${player.getUsername()} json "{\\"id\\":\\"vein_miner\\",\\"image\\":\\"twr_tips:textures/enjoyer.png\\",\\"alwaysVisible\\":true,\\"fontColor\\":\\"FFAFAFAF\\",\\"contents\\":[\\"\\"]}"`
+        let command = `tip displayCustom ${player.getUsername()} json "{\\"id\\":\\"vein_miner\\",\\"contents\\":[\\"?!\\"],\\"image\\":\\"twr_tips:textures/enjoyer.png\\",\\"display\\":{\\"fontColor\\":-5263441,\\"alwaysVisible\\":true}}"`
         Utils.server.runCommandSilent(command)
         // let getMod = detectedMods.join(", ")
         // let messageKey = detectedMods.length > 1 ? "message.kubejs.checkMultipleCheating" : "message.kubejs.checkCheating"

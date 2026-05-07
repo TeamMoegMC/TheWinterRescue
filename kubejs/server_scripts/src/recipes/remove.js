@@ -229,7 +229,9 @@ ServerEvents.recipes((event) => {
         "create:mixing/dough_by_mixing",
         "charcoal_pit:sandy_bricks",
         "immersiveengineering:blastfurnace/steel_block",
+        "immersiveengineering:crafting/lantern",
         "create:crafting/appliances/dough",
+		"create:crafting/appliances/slime_ball",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

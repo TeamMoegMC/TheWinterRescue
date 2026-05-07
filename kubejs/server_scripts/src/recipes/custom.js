@@ -1,5 +1,5 @@
 ServerEvents.recipes((event) => {
-    let { kubejs } = event.recipes;
+    let { kubejs, minecraft } = event.recipes;
 
     const CompoundTag = Java.loadClass("net.minecraft.nbt.CompoundTag");
 
@@ -165,7 +165,9 @@ ServerEvents.recipes((event) => {
 
     // 刀切割
     kubejs.shapeless("2x minecraft:bowl", ["#minecraft:planks", "#minecraft:planks", "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
-    kubejs.shapeless("frostedheart:wooden_cup", ["#minecraft:planks", "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
+    kubejs.shapeless("frostedheart:wooden_cup", [["#minecraft:planks"], "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
+    kubejs.shapeless("4x minecraft:bowl", ["#minecraft:logs", "#minecraft:logs", "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
+    kubejs.shapeless("2x frostedheart:wooden_cup", [["#minecraft:logs"], "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
     kubejs.shapeless("frostedresearch:charcoal", ["#forge:charcoal", "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
 
     // 钻头补充柴油

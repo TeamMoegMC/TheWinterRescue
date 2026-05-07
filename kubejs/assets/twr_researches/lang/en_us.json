@@ -266,5 +266,8 @@
   "research.frostedresearch.wind_utilize.name": "Wind Utilization",
 	"research.frostedresearch.wool_armor.desc.0": "Wool seems to be the best option available at the moment, I'll have to find a way to domesticate sheep.",
 	"research.frostedresearch.wool_armor.desc_alt.0": "A snowstorm is approaching and this primitive clothing won't hold up for very long...I need to find more warm clothing options.",
-	"research.frostedresearch.wool_armor.name": "Wool Clothes"
+	"research.frostedresearch.wool_armor.name": "Wool Clothes",
+  "research.frostedresearch.revolver.desc.0": "This one has been completely ruined due to disassembly, but the good news is I've successfully drawn up its blueprint.",
+  "research.frostedresearch.revolver.desc_alt.0": "I accidentally found a {item.immersiveengineering.revolver}. Perhaps I can try to replicate this type of old-era firearm?",
+  "research.frostedresearch.revolver.name": "Revolver"
 }

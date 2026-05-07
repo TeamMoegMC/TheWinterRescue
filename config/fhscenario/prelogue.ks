@@ -300,9 +300,9 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 [link l=water_tutorial]&e[Understood, click to continue check resources.]&r[endlink]@wa
 
 @label name=water_tutorial
-@giveItem i=frostedheart:leather_water_bag n="{Damage:0,Fluid:{FluidName:\"frostedheart:purified_water\",Amount:1000}}"
+@giveItem i=frostedheart:iron_bottle n="{Damage:0,Fluid:{FluidName:\"frostedheart:purified_water\",Amount:1000}}"
 @p
-[NoWait]Me：[EndNoWait]Water bag is also found. Clean water inside. But what about later?[l]
+[NoWait]Me：[EndNoWait]Water bottle is also found. Clean water inside. But what about later?[l]
 @r
 （The blue hemisphere on the right of the Feeling Temperature Orb represents Water Level in your body.）
 @r

@@ -4,7 +4,10 @@ ServerEvents.recipes((event) => {
     let recipes = [
         campfireRecipe(
             Item.of('frostedheart:wooden_cup_drink', "{Fluid:{FluidName:'caupona:nail_soup',Amount:250}}"),
-            Item.of('frostedheart:wooden_cup_drink', "{Fluid:{FluidName:'minecraft:water',Amount:250}}"), 200),
+            Item.of('frostedheart:wooden_cup_drink', "{Fluid:{FluidName:'minecraft:water',Amount:250}}").weakNBT(), 200),
+        campfireRecipe(
+            Item.of('frostedheart:iron_bottle', "{Fluid:{FluidName:'caupona:nail_soup',Amount:1000}}"),
+            Item.of('frostedheart:iron_bottle', "{Fluid:{FluidName:'minecraft:water',Amount:1000}}").weakNBT(), 600),
 
         // fuel
         campfireRecipe('kubejs:straw_briquette', 'kubejs:wet_straw_briquette', 200),

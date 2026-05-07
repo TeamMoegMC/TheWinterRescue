@@ -262,9 +262,12 @@
 	"research.frostedresearch.villager_language.desc.0": "经过一段时间的接触，我发现难民来自世界各地，说着不同的语言。虽然我没办法成为所有语言的大师，但是我如果修习一些基础的语法、单词，并且多加练习口语，我想我能和他们打好关系，在交易中获利。",
 	"research.frostedresearch.villager_language.name": "语言修习",
 	"research.frostedresearch.wind_utilize.desc.0": "垂直轴风力涡轮机，虽然效率比不上传统的水平轴风车，但它应该更适合这里的恶劣环境。",
-	"research.frostedresearch.wind_utilize.desc_alt.0": "手摇的效率实在是太低了，眼下我需要一种临时的动力来源，而随处可得的风力无遗是最好的选择。",
+	"research.frostedresearch.wind_utilize.desc_alt.0": "手摇的效率实在是太低了，眼下我需要一种临时的动力来源，而随处可得的风力无疑是最好的选择。",
 	"research.frostedresearch.wind_utilize.name": "风力利用",
 	"research.frostedresearch.wool_armor.desc.0": "羊毛是一个好的选择，只是，目前，羊已经异化了，如果想要再次驯化需要消耗不少的精力，但是，目前，羊毛是可以获得的最好选择了。",
 	"research.frostedresearch.wool_armor.desc_alt.0": "暴风雪正在来临，仅仅凭借这单薄的干草衣物和粗糙的兽皮衣物并不足以使得我的生存条件得到充足的保证，更加保暖的衣物是一件非常必要的事情。",
-	"research.frostedresearch.wool_armor.name": "羊毛大衣"
+	"research.frostedresearch.wool_armor.name": "羊毛大衣",
+	"research.frostedresearch.revolver.desc.0": "这把枪因为拆解已经彻底报废了，但好消息是我成功画出了它的蓝图。",
+	"research.frostedresearch.revolver.desc_alt.0": "我意外地找到了一把{item.immersiveengineering.revolver}，也许我可以尝试仿制这类旧时代枪械？",
+	"research.frostedresearch.revolver.name": "左轮手枪"
 }

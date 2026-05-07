@@ -23,6 +23,7 @@ JEIEvents.hideItems((event) => {
         "immersiveengineering:windmill",
 		'immersiveengineering:windmill_blade',
 		'immersiveengineering:windmill_sail',
+		'immersiveengineering:logic_circuit',
 
         // create power devices: we have steam power
         "create:water_wheel",
@@ -69,6 +70,7 @@ JEIEvents.hideItems((event) => {
         'kubejs:incomplete_capacitor_lv',
         'kubejs:incomplete_capacitor_mv',
         'kubejs:incomplete_capacitor_hv',
+        'kubejs:pcb_base',
     ]
 
     let regexHide = []
