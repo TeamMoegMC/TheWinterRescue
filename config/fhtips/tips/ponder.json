@@ -1,4 +1,12 @@
 {
+  "display": {
+    "displayItems": [
+      {
+        "id": "charcoal_pit:straw",
+        "Count": 1
+      }
+    ]
+  },
   "id": "ponder",
   "contents": [
     "tips.frostedheart.ponder.title",

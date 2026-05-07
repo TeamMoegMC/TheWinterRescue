@@ -1,0 +1,26 @@
+{
+  "children": [
+    "jei_2",
+    "jei_3"
+  ],
+  "display": {
+    "displayItems": [
+      {
+        "id": "frostedheart:makeshift_knife",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      }
+    ]
+  },
+  "nextTip": "jei_2",
+  "id": "jei",
+  "contents": [
+    "JEI",
+    "quest.twr.1F615C38B1A015E5.subtitle",
+    "quest.twr.1F615C38B1A015E5.description.1",
+    "quest.twr.1F615C38B1A015E5.description.2"
+  ],
+  "category": "tips.frostedheart.category.control"
+}

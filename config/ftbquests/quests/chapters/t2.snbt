@@ -1192,8 +1192,9 @@
 			description: ["{tips.frostedheart.vawt.desc1}"]
 			id: "5D968D01427EC48A"
 			rewards: [{
+				auto: "invisible"
 				fh_tip: "vawt"
-				id: "3F88C6D7BA2578C4"
+				id: "0BAAE6E6EC5B0384"
 				type: "frostedheart:tip"
 			}]
 			tasks: [{

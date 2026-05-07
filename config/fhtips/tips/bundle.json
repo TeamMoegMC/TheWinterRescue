@@ -1,0 +1,21 @@
+{
+  "children": [
+    "bundle_2"
+  ],
+  "display": {
+    "displayItems": [
+      {
+        "id": "minecraft:bundle",
+        "Count": 1
+      }
+    ]
+  },
+  "nextTip": "bundle_2",
+  "id": "bundle",
+  "contents": [
+    "item.minecraft.bundle",
+    "tips.frostedheart.bundle.desc1"
+  ],
+  "category": "tips.frostedheart.category.extra_utilities",
+  "image": "twr_tips:textures/bundle.png"
+}

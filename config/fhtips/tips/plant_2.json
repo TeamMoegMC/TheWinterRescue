@@ -1,5 +1,15 @@
 {
   "display": {
+    "displayItems": [
+      {
+        "id": "frostedheart:rye_block",
+        "Count": 1
+      },
+      {
+        "id": "immersiveengineering:seed",
+        "Count": 1
+      }
+    ],
     "displayTime": 14000
   },
   "nextTip": "soil_temperature",

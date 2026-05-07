@@ -1,0 +1,18 @@
+{
+  "display": {
+    "displayItems": [
+      {
+        "id": "frostedheart:snow_sack_small",
+        "Count": 1,
+        "tag": {}
+      }
+    ]
+  },
+  "nextTip": "shovel_and_sack_3",
+  "id": "shovel_and_sack_2",
+  "contents": [
+    "tips.frostedheart.shovel_and_sack.title",
+    "tips.frostedheart.shovel_and_sack.desc2"
+  ],
+  "category": "tips.frostedheart.category.extra_utilities"
+}

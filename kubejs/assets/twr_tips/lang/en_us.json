@@ -1,7 +1,7 @@
 {
   "tips.frostedheart.category.control" : "Controls",
   "tips.frostedheart.category.game_mechanics" : "Game Play",
-  "tips.frostedheart.category.plant" : "Planting",
+  "tips.frostedheart.category.plant" : "Farming",
   "tips.frostedheart.category.survival" : "Survival",
   "tips.frostedheart.category.extra_utilities" : "Useful Items",
   "tips.frostedheart.category.machine" : "Machines",
@@ -63,7 +63,7 @@
   "tips.frostedheart.campfire.desc4": "Don't get too close, as the high temperature may burn you!",
 
   "tips.frostedheart.vawt.title": "VAWT",
-  "tips.frostedheart.vawt.desc1": "The Vertical Axis Wind Turbine, a structurally simple wind generator that converts &bWind Energy&r into &6Stress&r, freeing you from manual cranking.",
+  "tips.frostedheart.vawt.desc1": "A Vertical Axis Wind Turbine! A structurally simple wind generator that converts &bWind Energy&r into &6Stress&r, freeing you from manual cranking.",
   "tips.frostedheart.vawt.desc2": "The wind turbine must be placed in &bopen terrain&r and &bcannot have other wind turbines nearby&r, or it will cease to function.",
   "tips.frostedheart.vawt.desc3": "Over time, the wind turbine will wear out and eventually break down completely. You can then recycle it to recover some of the materials.",
   "tips.frostedheart.vawt.desc4": "During blizzards, it generates more Stress, but the turbine will also degrade at an accelerated rate.",
@@ -74,6 +74,15 @@
   "tips.frostedheart.clay_pot_smelt.desc1": "Hold the clay pot and right-click to put raw ore and fuel. After firing it, right-click on the ground to break it open and obtain the finished product.\nYou can view available recipes in JEI.",
   "tips.frostedheart.clay_pot_ceramic.title": "Ceramic Pot",
   "tips.frostedheart.clay_pot_ceramic.desc1": "If no items are placed inside, it can be fired into a &6Ceramic Pot&r.\nWhen placed, the ceramic pot acts as a small container, and it will &6retain its contents&r when you destroy it.",
+
+  "tips.frostedheart.bundle.title": "{item.minecraft.bundle}",
+  "tips.frostedheart.bundle.desc1": "The {item.minecraft.bundle} can store &6a \"stack\"&r of items, but has &6no restrictions&r on item types, making it perfect for storing loose odds and ends.",
+  "tips.frostedheart.bundle.desc2": "In your &6inventory&r, pick up the bundle or an item and right-click to store it inside. Right-click again to take it out.",
+
+  "tips.frostedheart.shovel_and_sack.title": "Snow Shovel & Snow Sack",
+  "tips.frostedheart.shovel_and_sack.desc1": "The Snow Shovel helps you clear snow from your base quickly. Right-click to remove snow in a 3x3x2 area.",
+  "tips.frostedheart.shovel_and_sack.desc2": "The Snow Sack can store a large amount of snow with ease. Right-click while holding it to access its storage. You can also set it to automatically pick up snow or destroy any overflow.",
+  "tips.frostedheart.shovel_and_sack.desc3": "While holding the Snow Sack, right-click on a block to place a snow block directly.",
 
   "tips.frostedheart.gunpowder_barrel.title": "Gunpowder Barrel",
   "tips.frostedheart.gunpowder_barrel.desc1": "The gunpowder barrel can destroy a large range of blocks. Place it on the ground and &6ignite&r it, or hold right-click to &6throw&r it.",

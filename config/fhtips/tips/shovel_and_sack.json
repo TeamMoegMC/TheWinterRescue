@@ -1,0 +1,24 @@
+{
+  "children": [
+    "shovel_and_sack_2",
+    "shovel_and_sack_3"
+  ],
+  "display": {
+    "displayItems": [
+      {
+        "id": "frostedheart:snow_shovel",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      }
+    ]
+  },
+  "nextTip": "shovel_and_sack_2",
+  "id": "shovel_and_sack",
+  "contents": [
+    "tips.frostedheart.shovel_and_sack.title",
+    "tips.frostedheart.shovel_and_sack.desc1"
+  ],
+  "category": "tips.frostedheart.category.extra_utilities"
+}

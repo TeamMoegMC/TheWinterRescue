@@ -1,6 +1,7 @@
 {
   "children": [
-    "plant_2"
+    "plant_2",
+    "soil_thermometer"
   ],
   "nextTip": "plant_2",
   "id": "plant",
