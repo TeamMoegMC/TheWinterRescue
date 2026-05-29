@@ -43,6 +43,8 @@ ServerEvents.recipes((event) => {
             Ingredient.of({"type":"chorda:tool","tool":"axe_dig"}), 2, 1),
         tree_stumpRecipe(Item.of('immersiveengineering:slab_treated_wood_packaged', 2), Item.of('immersiveengineering:treated_wood_packaged'),
             Ingredient.of({"type":"chorda:tool","tool":"axe_dig"}), 2, 1),
+        tree_stumpRecipe(Item.of('minecraft:jungle_planks', 3), Item.of('frostedheart:jack_pine_log'),
+            Ingredient.of({"type":"chorda:tool","tool":"axe_dig"}), 2, 1),
         tree_stumpRecipe(Item.of('kubejs:creosoted_sawdust_briquette'), Item.of('kubejs:creosoted_sawdust'),
             Ingredient.of({"type":"chorda:tool","tool":"hammer_dig"}), 2, 1),
         tree_stumpRecipe(Item.of('minecraft:stone_pressure_plate'), Item.of('minecraft:stone_slab'),

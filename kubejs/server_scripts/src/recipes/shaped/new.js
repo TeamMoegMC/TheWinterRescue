@@ -1666,6 +1666,16 @@ ServerEvents.recipes((event) => {
             }
         ],
         [
+            'frostedheart:warehouse_storage_rack', [
+                "ABA",
+                "ABA",
+                "ABA"
+            ], {
+                A: "#forge:treated_wood",
+                B: "#forge:treated_wood_slab"
+            }
+        ],
+        [
             "name_tag", [
                 " B",
                 "A "

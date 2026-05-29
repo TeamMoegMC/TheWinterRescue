@@ -1,60 +1,98 @@
 {
   "type": "minecraft:range_choice",
-  "input": "the_winter_rescue:overworld/depth_agnostic_biome_selector",
-  "min_inclusive": 1,
-  "max_exclusive": 2,
-  "when_in_range": {
+  "input": "minecraft:y",
+  "min_inclusive": 128,
+  "max_exclusive": 4096,
+  "when_in_range": 100.0,
+  "when_out_of_range": {
     "type": "minecraft:range_choice",
-    "input": "the_winter_rescue:overworld/glacial_fungus_caves_spline",
-    "min_inclusive": 0,
-    "max_exclusive": 0.99,
+    "input": "the_winter_rescue:overworld/depth_agnostic_biome_selector",
+    "min_inclusive": 1,
+    "max_exclusive": 2,
     "when_in_range": {
-      "type": "minecraft:interpolated",
-      "argument": {
-        "type": "minecraft:add",
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
         "argument1": {
-          "type": "minecraft:add",
-          "argument1": {
+          "type": "minecraft:interpolated",
+          "argument": {
             "type": "minecraft:add",
-            "argument1": 1,
+            "argument1": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": 1,
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1,
+                  "argument2": "the_winter_rescue:overworld/glacial_fungus_caves_spline"
+                }
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": "the_winter_rescue:overworld/gf_caves/rift",
+                "argument2": "the_winter_rescue:overworld/glacial_fungus_caves_spline"
+              }
+            },
             "argument2": {
-              "type": "minecraft:mul",
-              "argument1": -1,
-              "argument2": "the_winter_rescue:overworld/glacial_fungus_caves_spline"
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_y": 40,
+                "to_y": 120,
+                "from_value": 0.1,
+                "to_value": 0.005
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": 0.1,
+                "argument2": "the_winter_rescue:overworld/gf_caves/rift"
+              }
             }
-          },
-          "argument2": {
-            "type": "minecraft:mul",
-            "argument1": "the_winter_rescue:overworld/gf_caves/rift",
-            "argument2": "the_winter_rescue:overworld/glacial_fungus_caves_spline"
           }
         },
         "argument2": {
-          "type": "minecraft:mul",
+          "type": "minecraft:add",
           "argument1": 1,
           "argument2": {
-            "type": "minecraft:add",
-            "argument1": {
-              "type": "minecraft:y_clamped_gradient",
-              "from_y": 40,
-              "to_y": 120,
-              "from_value": 0.1,
-              "to_value": 0.005
-            },
+            "type": "minecraft:mul",
+            "argument1": -1,
             "argument2": {
-              "type": "minecraft:mul",
-              "argument1": 0.1,
-              "argument2": "the_winter_rescue:overworld/gf_caves/rift"
+              "type": "minecraft:clamp",
+              "input": {
+                "type": "minecraft:mul",
+                "argument1": 30,
+                "argument2": {
+                  "type": "minecraft:add",
+                  "argument1": "the_winter_rescue:overworld/glacial_fungus_caves_spline",
+                  "argument2": -0.97
+                }
+              },
+              "min": 0,
+              "max": 1
             }
           }
         }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": "the_winter_rescue:overworld/gf_caves/rift",
+        "argument2": {
+          "type": "minecraft:clamp",
+          "input": {
+            "type": "minecraft:mul",
+            "argument1": 30,
+            "argument2": {
+              "type": "minecraft:add",
+              "argument1": "the_winter_rescue:overworld/glacial_fungus_caves_spline",
+              "argument2": -0.97
+            }
+          },
+          "min": 0,
+          "max": 1
+        }
       }
     },
-    "when_out_of_range": {
-      "type": "minecraft:add",
-      "argument1": 0,
-      "argument2": "the_winter_rescue:overworld/gf_caves/rift"
-    }
-  },
-  "when_out_of_range": 100
+    "when_out_of_range": 100
+  }
 }

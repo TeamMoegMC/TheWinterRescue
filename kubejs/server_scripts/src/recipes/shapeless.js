@@ -87,7 +87,7 @@ ServerEvents.recipes((event) => {
 		shapelessRecipe(Item.of('immersiveengineering:blueprint', '{blueprint:"bullet"}'), ['create:empty_schematic', '#forge:plates/brass'], "twr:blueprint_bullet"),
 		shapelessRecipe(Item.of('immersiveengineering:blueprint', '{blueprint:"bannerpatterns"}'), ['create:empty_schematic', '#minecraft:banners'], "twr:blueprint_bannerpatterns"),
         shapelessRecipe('slime_ball', ["#forge:dough", "#forge:dyes/lime"]),
-        shapelessRecipe('4x snowball', "snow_block"),
+        shapelessRecipe('4x snowball', "snow_block")
 
     ]
     addShapelessRecipes.forEach((recipe, index) => {

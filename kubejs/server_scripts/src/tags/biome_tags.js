@@ -11,6 +11,7 @@ ServerEvents.tags("worldgen/biome", (event) => {
       "the_winter_rescue:diorite_caves",
       "the_winter_rescue:mycelium_caves",
       "the_winter_rescue:ice_caves",
+      "the_winter_rescue:glacial_fungus_caves",
       "the_winter_rescue:crust_chasms",
       "minecraft:dripstone_caves",
       "minecraft:lush_caves"

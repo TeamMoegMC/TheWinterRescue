@@ -2475,7 +2475,7 @@
               "if_true": {
                 "type": "minecraft:y_above",
                 "anchor": {
-                  "above_bottom": 107
+                  "above_bottom": 112
                 },
                 "surface_depth_multiplier": 0,
                 "add_stone_depth": false
@@ -2491,10 +2491,10 @@
                         "type": "minecraft:vertical_gradient",
                         "random_name": "minecraft:bedrock_roof",
                         "true_at_and_below": {
-                          "above_bottom": 107
+                          "above_bottom": 112
                         },
                         "false_at_and_above": {
-                          "above_bottom": 113
+                          "above_bottom": 117
                         }
                       }
                     },
@@ -2521,6 +2521,119 @@
                   }
                 ]
               }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:y_above",
+                "anchor": { "below_top": 290 },
+                "surface_depth_multiplier": 0,
+                "add_stone_depth": false
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:stone_depth",
+                  "offset": 0,
+                  "add_surface_depth": false,
+                  "secondary_depth_range": 6,
+                  "surface_type": "floor"
+                },
+                "then_run": {
+                  "type": "minecraft:sequence",
+                  "sequence": [
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:noise_threshold",
+                        "noise": "minecraft:surface_secondary",
+                        "min_threshold": 0.8,
+                        "max_threshold": 1.0
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": { "Name": "minecraft:bone_block" }
+                      }
+                    },
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:noise_threshold",
+                        "noise": "minecraft:surface",
+                        "min_threshold": 0.5,
+                        "max_threshold": 1.0
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": { "Name": "minecraft:soul_sand" }
+                      }
+                    },
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:noise_threshold",
+                        "noise": "minecraft:surface",
+                        "min_threshold": 0.0,
+                        "max_threshold": 0.3
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": { "Name": "minecraft:rooted_dirt" }
+                      }
+                    },
+                    {
+                      "type": "minecraft:block",
+                      "result_state": { "Name": "minecraft:mud" }
+                    }
+                  ]
+                }
+              }
+            },
+
+
+            {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "minecraft:surface",
+                    "min_threshold": -0.4,
+                    "max_threshold": 0.0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": { "Name": "minecraft:moss_block" }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "minecraft:surface",
+                    "min_threshold": 0.6,
+                    "max_threshold": 0.8
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": { "Name": "minecraft:shroomlight" }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "minecraft:surface",
+                    "min_threshold": -0.7,
+                    "max_threshold": -0.4
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": { "Name": "minecraft:warped_wart_block" }
+                  }
+                }
+              ]
             }
           ]
         }

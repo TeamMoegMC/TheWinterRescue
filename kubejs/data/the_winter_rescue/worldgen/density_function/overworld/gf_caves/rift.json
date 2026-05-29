@@ -24,29 +24,39 @@
             "type": "minecraft:mul",
             "argument1": 12,
             "argument2": {
-              "type": "minecraft:add",
+              "type": "minecraft:mul",
               "argument1": {
                 "type": "minecraft:y_clamped_gradient",
-                "from_y": 38,
+                "from_y": 95,
                 "to_y": 120,
-                "from_value": 0.06,
-                "to_value": 0.095
+                "from_value": 1,
+                "to_value": 1.15
               },
               "argument2": {
-                "type": "minecraft:mul",
-                "argument1": -0.85,
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_y": 38,
+                  "to_y": 120,
+                  "from_value": 0.06,
+                  "to_value": 0.095
+                },
                 "argument2": {
-                  "type": "minecraft:min",
-                  "argument1": {
-                    "type": "minecraft:abs",
-                    "argument": {
-                      "type": "minecraft:noise",
-                      "noise": "the_winter_rescue:gf_caves/rift_mask",
-                      "xz_scale": 0.05,
-                      "y_scale": 0
-                    }
-                  },
-                  "argument2": 0.09
+                  "type": "minecraft:mul",
+                  "argument1": -0.85,
+                  "argument2": {
+                    "type": "minecraft:min",
+                    "argument1": {
+                      "type": "minecraft:abs",
+                      "argument": {
+                        "type": "minecraft:noise",
+                        "noise": "the_winter_rescue:gf_caves/rift_mask",
+                        "xz_scale": 0.05,
+                        "y_scale": 0
+                      }
+                    },
+                    "argument2": 0.09
+                  }
                 }
               }
             }

@@ -791,4 +791,8 @@ ServerEvents.tags("item", (event) => {
         'frostedheart:raw_rye_bread',
         'kubejs:sawdust_rye_dough'
     ])
+
+    event.add("minecraft:logs", [
+         'frostedheart:jack_pine_log'
+    ])
 })
