@@ -89,8 +89,7 @@
       "the_winter_rescue:snowy/layer/first",
       "the_winter_rescue:snowy/layer/second",
       "the_winter_rescue:snowy/layer/third",
-      "the_winter_rescue:snowy/fix_snow",
-      "the_winter_rescue:snowy/fix_grass"
+      "the_winter_rescue:snowy/fix_snow"
     ]
   ],
   "has_precipitation": true,
