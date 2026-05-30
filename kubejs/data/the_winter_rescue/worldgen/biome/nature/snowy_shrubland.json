@@ -79,6 +79,7 @@
       "minecraft:patch_berry_rare"
     ],
     [
+      "frostedheart:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,

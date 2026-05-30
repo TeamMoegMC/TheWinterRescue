@@ -80,6 +80,7 @@
       "minecraft:red_mushroom_normal"
     ],
     [
+      "frostedheart:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,

@@ -17,7 +17,7 @@ ServerEvents.tags("worldgen/biome", (event) => {
       "minecraft:lush_caves"
     ])
 
-    event.add("frostedheart:not_winter", [
+    event.add("frostedheart:not_improved_winter", [
         "the_winter_rescue:hydrothermal_deposits",
         "the_winter_rescue:magmatic_deposits",
         "the_winter_rescue:active_volcano",
@@ -29,7 +29,7 @@ ServerEvents.tags("worldgen/biome", (event) => {
         "the_winter_rescue:tundra",
         "minecraft:snowy_plains",
         "minecraft:snowy_taiga",
-        "minecraft:desert",
+        "minecraft:desert"
     ])
 
     // TODO: make certain biomes only partially covered with snow
