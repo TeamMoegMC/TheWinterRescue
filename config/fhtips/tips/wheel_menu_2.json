@@ -1,20 +1,9 @@
 {
+  "nextTip": "wheel_menu_3",
   "id": "wheel_menu_2",
-  "category": "tips.frostedheart.category.control",
-  "nextTip": "",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": false,
-  "hide": false,
-  "pin": false,
-  "displayTime": 20000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
   "contents": [
     "tips.frostedheart.wheel_menu.title",
     "tips.frostedheart.wheel_menu.desc2"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.control"
 }

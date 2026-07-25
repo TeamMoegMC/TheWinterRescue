@@ -1,0 +1,29 @@
+{
+  "display": {
+    "displayItems": [
+      {
+        "id": "charcoal_pit:barrel",
+        "Count": 1
+      },
+      {
+        "id": "minecraft:gunpowder",
+        "Count": 1
+      },
+      {
+        "id": "minecraft:lapis_lazuli",
+        "Count": 1
+      },
+      {
+        "id": "minecraft:diamond",
+        "Count": 1
+      }
+    ]
+  },
+  "nextTip": "gunpowder_barrel_3",
+  "id": "gunpowder_barrel_2",
+  "contents": [
+    "tips.frostedheart.gunpowder_barrel.title",
+    "tips.frostedheart.gunpowder_barrel.desc2"
+  ],
+  "category": "tips.frostedheart.category.extra_utilities"
+}

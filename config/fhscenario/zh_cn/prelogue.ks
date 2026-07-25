@@ -3,8 +3,8 @@
 @showTitle t="第一章 第一节" st="霜星迫降"
 @delay t=60
 
-@displayTip id="scenario_tip"
 @if exp="client.preloguePlayed"
+@displayTip id="scenario_tip"
 是否跳过序章剧情？[r]
 [link l=*intitle][&e跳过&r][endlink][r]
 [link l=*beginprelogue][&e观看&r][endlink][r]
@@ -300,9 +300,9 @@
 [link l=water_tutorial]&e[已了解，点击继续整理物资]&r[endlink]@wa
 
 @label name=water_tutorial
-@giveItem i=frostedheart:leather_water_bag n="{Damage:0,Fluid:{FluidName:\"frostedheart:purified_water\",Amount:1000}}"
+@giveItem i=frostedheart:iron_bottle n="{Damage:0,Fluid:{FluidName:\"frostedheart:purified_water\",Amount:1000}}"
 @p
-[NoWait]我：[EndNoWait]水袋也找到了，里面的水很干净，但以后怎么办呢？[l]
+[NoWait]我：[EndNoWait]水杯也找到了，里面的水很干净，但以后怎么办呢？[l]
 @r
 （「体感温度球」右侧的蓝色半球代表了您身体中的「水分」。）
 @r

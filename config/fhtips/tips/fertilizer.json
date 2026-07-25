@@ -1,0 +1,13 @@
+{
+  "children": [
+    "fertilizer_2",
+    "fertilizer_3"
+  ],
+  "nextTip": "fertilizer_2",
+  "id": "fertilizer",
+  "contents": [
+    "tips.frostedheart.fertilizer.title",
+    "tips.frostedheart.fertilizer.desc1"
+  ],
+  "category": "tips.frostedheart.category.plant"
+}

@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stick",
-          "weight": 5
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -16,8 +16,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:vine",
+          "name": "frostedheart:frozen_seeds",
           "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vine",
+          "weight": 1
         },
         {
           "type": "minecraft:item",

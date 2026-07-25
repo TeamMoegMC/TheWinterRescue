@@ -28,9 +28,9 @@ ServerEvents.recipes((event) => {
     Ingredient.of("#minecraft:logs")
         .getItemIds()
         .forEach((name) => {
-            if (name.indexOf("caupona") != -1) {
+            if (name.startsWith("caupona:") || name.startsWith("frostedheart:")) {
 
-            } else if (name.indexOf("stripped_") !== -1) {
+                } else if (name.indexOf("stripped_") !== -1) {
                 if (name.indexOf("log") !== -1) {
                     create.cutting("4x " + name.replace("_log", "").replace("stripped_", "") + "_planks", name);
                 } else if (name.indexOf("stem") !== -1) {

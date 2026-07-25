@@ -1,0 +1,15 @@
+{
+  "children": [
+    "scenario_tip_2"
+  ],
+  "display": {
+    "hide": true
+  },
+  "id": "scenario_tip",
+  "contents": [
+    "tips.frostedheart.scenario_tip.title",
+    "tips.frostedheart.scenario_tip.desc2",
+    "tips.frostedheart.scenario_tip.desc3"
+  ],
+  "category": "tips.frostedheart.category.control"
+}

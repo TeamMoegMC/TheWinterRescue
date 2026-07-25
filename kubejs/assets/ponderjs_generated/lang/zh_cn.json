@@ -43,5 +43,8 @@
 	"charcoal_pit.ponder.tag.ponder": "木炭坑",
 	"charcoal_pit.ponder.tag.ponder.description": "思索目录",
 	"immersiveindustry.ponder.tag.ponder": "沉浸工业",
-	"immersiveindustry.ponder.tag.ponder.description": "思索目录"
+	"immersiveindustry.ponder.tag.ponder.description": "思索目录",
+  "kubejs.ponder.pottery_kiln.header": "",
+  "kubejs.ponder.pottery_kiln.text_1": "按C键在地上放置陶窑",
+  "kubejs.ponder.pottery_kiln.text_2": "四周放置实心块，不一定限于泥土"
 }

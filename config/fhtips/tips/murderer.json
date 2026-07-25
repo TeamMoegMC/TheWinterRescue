@@ -1,24 +1,13 @@
 {
+  "children": [
+    "maniac"
+  ],
   "id": "murderer",
-  "category": "tips.frostedheart.category.town",
-  "nextTip": "",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": false,
-  "hide": false,
-  "pin": false,
-  "displayTime": 30000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
   "contents": [
     "tips.frostedheart.murderer.title",
     "tips.frostedheart.murderer.desc1",
     "tips.frostedheart.murderer.desc2",
     "tips.frostedheart.murderer.desc3"
   ],
-  "children": [
-    "maniac"
-  ]
+  "category": "tips.frostedheart.category.town"
 }

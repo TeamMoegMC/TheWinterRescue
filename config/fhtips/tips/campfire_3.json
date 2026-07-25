@@ -1,0 +1,13 @@
+{
+  "display": {
+    "displayTime": 16000
+  },
+  "nextTip": "campfire_4",
+  "id": "campfire_3",
+  "contents": [
+    "tips.frostedheart.campfire.title",
+    "tips.frostedheart.campfire.desc3"
+  ],
+  "category": "tips.frostedheart.category.survival",
+  "image": "twr_tips:textures/campfire.png"
+}

@@ -777,8 +777,8 @@
 				item: "immersiveengineering:capacitor_lv"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.5d
+			x: 0.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["17F033FB5ACAACFB"]
@@ -908,11 +908,18 @@
 				{
 					id: "44801E41AF525D71"
 					item: "minecraft:dandelion"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "20C1D77B269515BD"
 					item: "frostedheart:rubber_dandelion"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "279E770E87D591DC"
+					item: "frostedheart:vulcanized_rubber"
 					type: "item"
 				}
 			]
@@ -1179,6 +1186,32 @@
 			title: "{quest.twr.013DCE6D04AC8284.title}"
 			x: -13.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["3E8F565DE61309B2"]
+			description: ["{tips.frostedheart.vawt.desc1}"]
+			id: "5D968D01427EC48A"
+			rewards: [{
+				auto: "invisible"
+				fh_tip: "vawt"
+				id: "0BAAE6E6EC5B0384"
+				type: "frostedheart:tip"
+			}]
+			tasks: [{
+				id: "56662905BDDE4F2A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "twr:vawt"
+					}
+				}
+				title: "Any #twr:vawt"
+				type: "item"
+			}]
+			title: "{tips.frostedheart.vawt.title}"
+			x: -24.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["{chapter.twr.3A3B51CF7F606665.subtitle.0}"]

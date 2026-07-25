@@ -73,9 +73,7 @@
       "the_winter_rescue:nature/bare_oak_tree",
       "minecraft:glow_lichen"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "has_precipitation": true,
   "spawn_costs": {},

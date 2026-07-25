@@ -1,0 +1,20 @@
+{
+  "display": {
+    "displayItems": [
+      {
+        "id": "frostedheart:metal_vawt",
+        "Count": 1,
+        "tag": {
+          "Damage": 14400000
+        }
+      }
+    ]
+  },
+  "nextTip": "vawt_3",
+  "id": "vawt_2",
+  "contents": [
+    "tips.frostedheart.vawt.title",
+    "tips.frostedheart.vawt.desc3"
+  ],
+  "category": "tips.frostedheart.category.machine"
+}

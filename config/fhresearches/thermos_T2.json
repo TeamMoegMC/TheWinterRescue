@@ -1,7 +1,6 @@
 {
   "showAltDesc": true,
   "points": 4000,
-  "insight": 1,
   "clues": [
     {
       "type": "game",
@@ -81,6 +80,7 @@
   },
   "category": "frostedresearch:living",
   "parents": [
-    "electrolyzer"
+    "electrolyzer",
+    "thermos_T1"
   ]
 }

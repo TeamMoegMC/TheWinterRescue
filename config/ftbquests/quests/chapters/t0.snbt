@@ -6,7 +6,12 @@
 	icon: "minecraft:campfire"
 	id: "0C07C58470EE031C"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "1FA2077C09B48CA6"
+		linked_quest: "4B9BC93A26B647BF"
+		x: 12.5d
+		y: 2.0d
+	}]
 	quests: [
 		{
 			description: [
@@ -33,30 +38,6 @@
 			}]
 			title: "{quest.twr.6667AA13CA3DAC9B.title}"
 			x: -2.5d
-			y: 0.0d
-		}
-		{
-			description: [
-				"{quest.twr.1F615C38B1A015E5.description.1}"
-				"{quest.twr.1F615C38B1A015E5.description.2}"
-				"{quest.twr.1F615C38B1A015E5.description.3}"
-				"{quest.twr.1F615C38B1A015E5.description.4}"
-				"{quest.twr.1F615C38B1A015E5.description.3}"
-				"{quest.twr.1F615C38B1A015E5.description.5}"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_visible: false
-			icon: "minecraft:book"
-			id: "1F615C38B1A015E5"
-			shape: "hexagon"
-			subtitle: "{quest.twr.1F615C38B1A015E5.subtitle}"
-			tasks: [{
-				id: "0758A45D51C54F20"
-				title: "{quest.twr.1F615C38B1A015E5.0758A45D51C54F20.title}"
-				type: "checkmark"
-			}]
-			title: "{quest.twr.1F615C38B1A015E5.title}"
-			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -114,8 +95,8 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.33B6E7B60783C72B.title}"
-			x: -7.5d
-			y: 1.5d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -137,40 +118,20 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.215BC2E7271F1478.title}"
-			x: -7.5d
-			y: 2.5d
-		}
-		{
-			description: [
-				"{quest.twr.24E7D1E02BE55A8E.description.1}"
-				"{quest.twr.24E7D1E02BE55A8E.description.2}"
-				"{quest.twr.24E7D1E02BE55A8E.description.3}"
-				"{quest.twr.24E7D1E02BE55A8E.description.4}"
-				"{quest.twr.24E7D1E02BE55A8E.description.5}"
-				"{quest.twr.24E7D1E02BE55A8E.description.6}"
-				"{quest.twr.24E7D1E02BE55A8E.description.7}"
-				"{quest.twr.24E7D1E02BE55A8E.description.8}"
-			]
-			hide_until_deps_visible: false
-			icon: "caupona:plump_snail"
-			id: "24E7D1E02BE55A8E"
-			invisible: true
-			optional: true
-			shape: "hexagon"
-			subtitle: "{quest.twr.24E7D1E02BE55A8E.subtitle}"
-			tasks: [{
-				id: "047874DA9F5AB4B1"
-				title: "{quest.twr.24E7D1E02BE55A8E.047874DA9F5AB4B1.title}"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 4.5d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["56E5FD2809882B5F"]
 			description: ["{quest.twr.32E5D942F1FE8645.description.1}"]
 			icon: "minecraft:flint"
 			id: "32E5D942F1FE8645"
+			rewards: [{
+				auto: "invisible"
+				fh_tip: "jei"
+				id: "20B02C356F42A517"
+				type: "frostedheart:tip"
+			}]
 			shape: "gear"
 			subtitle: "{quest.twr.32E5D942F1FE8645.subtitle}"
 			tasks: [{
@@ -231,7 +192,7 @@
 					type: "item"
 				}
 				{
-					count: 16L
+					count: 8L
 					id: "0CD029EF2E6CB4B8"
 					item: "minecraft:stick"
 					type: "item"
@@ -265,63 +226,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1D7F2824DAF3BB7B"]
-			description: ["{quest.twr.70E6A4B9946F263A.description.1}"]
-			hide_until_deps_visible: false
-			id: "70E6A4B9946F263A"
-			optional: true
-			subtitle: "{quest.twr.70E6A4B9946F263A.subtitle}"
-			tasks: [
-				{
-					id: "40247F135ED27933"
-					item: {
-						Count: 1
-						id: "frostedheart:hay_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4534C9BC963F1C50"
-					item: {
-						Count: 1
-						id: "frostedheart:hay_jacket"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "36D2F43EB4ED8714"
-					item: {
-						Count: 1
-						id: "frostedheart:hay_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "038ECB1D1693CE6C"
-					item: {
-						Count: 1
-						id: "frostedheart:hay_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: 9.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["4B6FFA5A9140019F"]
+			dependencies: ["6B7D4F59C921C1FC"]
 			description: [
 				"{quest.twr.3B7B7A0BC0CF3CE0.description.1}"
 				"{quest.twr.3B7B7A0BC0CF3CE0.description.2}"
@@ -372,7 +277,7 @@
 				}
 			]
 			title: "{quest.twr.3B7B7A0BC0CF3CE0.title}"
-			x: 18.5d
+			x: 15.5d
 			y: 2.0d
 		}
 		{
@@ -464,22 +369,6 @@
 		}
 		{
 			dependencies: ["20E34B234337C28A"]
-			description: ["{quest.twr.7E68FC6215F4FADC.description.1}"]
-			hide_until_deps_visible: false
-			id: "7E68FC6215F4FADC"
-			optional: true
-			subtitle: "{quest.twr.643B93BCE91A0BB9.subtitle}"
-			tasks: [{
-				id: "2BA166AB2BD842B1"
-				item: "kubejs:straw_briquette"
-				type: "item"
-			}]
-			title: "{quest.twr.7E68FC6215F4FADC.title}"
-			x: 17.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["20E34B234337C28A"]
 			description: [
 				"{quest.twr.04DC32D417FA819E.description.1}"
 				"{quest.twr.04DC32D417FA819E.description.2}"
@@ -493,7 +382,7 @@
 				item: "frostedheart:wooden_cup"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 17.0d
 			y: 4.0d
 		}
 		{
@@ -531,7 +420,7 @@
 			rewards: [{
 				auto: "invisible"
 				fh_tip: "ponder"
-				id: "174644EA218A4DD4"
+				id: "5313DE68BE9C5DA6"
 				type: "frostedheart:tip"
 			}]
 			shape: "gear"
@@ -599,6 +488,7 @@
 			dependencies: ["5D803F0865A90DE0"]
 			description: ["{quest.twr.29C8077E15E6C418.description.1}"]
 			id: "29C8077E15E6C418"
+			optional: true
 			rewards: [
 				{
 					count: 16
@@ -688,7 +578,7 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.660F95E6765CD77A.title}"
-			x: -6.0d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -709,8 +599,8 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.76E0A57CE55FFCEA.title}"
-			x: -6.0d
-			y: 1.5d
+			x: -6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1D7F2824DAF3BB7B"]
@@ -776,6 +666,7 @@
 				}
 			}
 			id: "477565C132877FBA"
+			optional: true
 			shape: "hexagon"
 			subtitle: "{quest.twr.477565C132877FBA.subtitle}"
 			tasks: [{
@@ -791,13 +682,12 @@
 			}]
 			title: "{quest.twr.477565C132877FBA.title}"
 			x: 12.5d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["20E34B234337C28A"]
 			description: ["{quest.twr.654627121432688E.description.1}"]
 			hide_dependency_lines: true
-			hide_until_deps_visible: false
 			icon: "minecraft:campfire"
 			id: "654627121432688E"
 			shape: "hexagon"
@@ -838,8 +728,8 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.125F6ADB0DEA3EEA.title}"
-			x: -6.0d
-			y: 2.5d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -860,8 +750,8 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.1B3C8681DF78AD16.title}"
-			x: -9.0d
-			y: 3.5d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
 			id: "4E2B2FEBD5031A2C"
@@ -898,15 +788,15 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.1CD9EB4A39925BB8.title}"
-			x: -9.0d
-			y: 1.5d
+			x: -8.5d
+			y: -1.0d
 		}
 		{
 			description: [
 				"{quest.twr.543F5BC239D07C40.description.1}"
 				"{quest.twr.543F5BC239D07C40.description.2}"
 				"{quest.twr.543F5BC239D07C40.description.3}"
-				"{quest.twr.543F5BC239D07C40.description.4}"
+				""
 				"{quest.twr.543F5BC239D07C40.description.4}"
 				"{quest.twr.543F5BC239D07C40.description.5}"
 				"{quest.twr.543F5BC239D07C40.description.6}"
@@ -925,8 +815,8 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.543F5BC239D07C40.title}"
-			x: -9.0d
-			y: 2.5d
+			x: -8.0d
+			y: -2.0d
 		}
 		{
 			description: [
@@ -935,7 +825,7 @@
 				"{quest.twr.7AFE32B08BB6CE6C.description.3}"
 				"{quest.twr.7AFE32B08BB6CE6C.description.4}"
 				"{ \"text\": \"https://afdian.com/a/teammoeg\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://afdian.com/a/teammoeg\" } }"
-				"{quest.twr.7AFE32B08BB6CE6C.description.6}"
+				""
 				"{quest.twr.7AFE32B08BB6CE6C.description.5}"
 				"{ \"text\": \"https://www.patreon.com/TeamMoegProjects\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.patreon.com/TeamMoegProjects\" } }"
 			]
@@ -949,8 +839,8 @@
 				type: "checkmark"
 			}]
 			title: "{quest.twr.7AFE32B08BB6CE6C.title}"
-			x: -9.0d
-			y: 0.0d
+			x: -8.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4BD8236FEEBD7D3A"]
@@ -1013,6 +903,12 @@
 			]
 			description: ["{quest.twr.20E34B234337C28A.description.1}"]
 			id: "20E34B234337C28A"
+			rewards: [{
+				auto: "invisible"
+				fh_tip: "campfire"
+				id: "59D56E80FEF9DA0F"
+				type: "frostedheart:tip"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "3A6F2A76403AAC25"
@@ -1026,6 +922,7 @@
 			dependencies: ["5D803F0865A90DE0"]
 			description: ["{quest.twr.7F91A18F97F23E75.description.1}"]
 			id: "7F91A18F97F23E75"
+			optional: true
 			tasks: [{
 				id: "48A72D8F12880013"
 				item: {
@@ -1046,6 +943,7 @@
 			dependencies: ["4B6FFA5A9140019F"]
 			description: ["{quest.twr.304FE45FE4655D95.description.1}"]
 			id: "304FE45FE4655D95"
+			optional: true
 			tasks: [{
 				id: "3657AF72E4990823"
 				item: {
@@ -1061,21 +959,37 @@
 			y: -2.0d
 		}
 		{
-			description: [
-				"{tips.frostedheart.wheel_menu.desc1}"
-				"{quest.twr.6E932D81FBAE1A71.description.2}"
-				"{tips.frostedheart.wheel_menu.desc2}"
-			]
-			icon: "storagedrawers:keyring"
-			id: "6E932D81FBAE1A71"
-			shape: "hexagon"
+			dependencies: ["6B7D4F59C921C1FC"]
+			hide_dependency_lines: true
+			id: "40001BBC5DCA7071"
+			optional: true
 			tasks: [{
-				id: "27F2055E0AAABFCC"
-				title: "{tips.frostedheart.wheel_menu.title}"
-				type: "checkmark"
+				id: "2450CCB5E85E8E8D"
+				item: "charcoal_pit:fire_starter"
+				type: "item"
 			}]
-			x: -4.5d
-			y: 0.0d
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4B6FFA5A9140019F"]
+			description: ["{tips.frostedheart.bundle.desc1}"]
+			hide_dependency_lines: true
+			id: "6952764D2332EE5F"
+			optional: true
+			rewards: [{
+				auto: "invisible"
+				fh_tip: "bundle"
+				id: "433C1F89F046F357"
+				type: "frostedheart:tip"
+			}]
+			tasks: [{
+				id: "0FADFCAC3530D8EC"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["{chapter.twr.0C07C58470EE031C.subtitle.0}"]

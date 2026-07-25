@@ -1,19 +1,8 @@
 {
   "id": "fertilizer_3",
-  "category": "tips.frostedheart.category.plant",
-  "nextTip": "",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": false,
-  "hide": false,
-  "pin": false,
-  "displayTime": 10000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
   "contents": [
     "tips.frostedheart.fertilizer.title",
     "tips.frostedheart.fertilizer.desc3"
-  ]
+  ],
+  "category": "tips.frostedheart.category.plant"
 }

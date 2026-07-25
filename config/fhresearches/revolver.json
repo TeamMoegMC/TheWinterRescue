@@ -1,0 +1,122 @@
+{
+  "showAltDesc": true,
+  "hideEffects": true,
+  "points": 2000,
+  "clues": [
+    {
+      "type": "game",
+      "id": "fe82fec03a7464e",
+      "required": true,
+      "value": 0.5,
+      "level": 1
+    },
+    {
+      "type": "item",
+      "id": "c60cc2588d5e4fc0",
+      "required": true,
+      "value": 0.25,
+      "item": {
+        "base_ingredient": {
+          "item": "immersiveengineering:component_steel"
+        },
+        "count": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "adcb93c288f741d0",
+      "required": true,
+      "value": 0.15,
+      "item": {
+        "base_ingredient": {
+          "item": "frostedheart:steel_sheet"
+        },
+        "count": 2
+      }
+    },
+    {
+      "type": "item",
+      "id": "8450066ee314554",
+      "required": true,
+      "value": 0.1,
+      "consume": true,
+      "item": {
+        "base_ingredient": {
+          "tag": "forge:treated_wood"
+        },
+        "count": 1
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "base_ingredient": {
+        "item": "immersiveengineering:revolver"
+      },
+      "count": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "item": {
+        "item": "immersiveengineering:revolver"
+      },
+      "id": "36dfee993cb46f2"
+    },
+    {
+      "type": "recipe",
+      "item": [
+        {
+          "item": "immersiveengineering:gunpart_barrel"
+        },
+        {
+          "item": "immersiveengineering:gunpart_hammer"
+        },
+        {
+          "item": "immersiveengineering:gunpart_drum"
+        }
+      ],
+      "id": "437faddc4e4c404a"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "immersiveengineering:empty_casing"
+      },
+      "id": "7841e9254adc439d"
+    },
+    {
+      "type": "recipe",
+      "recipes": [
+        "twr:blueprint_bullet"
+      ],
+      "icon": {
+        "type": "combined",
+        "base": {
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:casull",
+            "Count": 1
+          }
+        },
+        "small": {
+          "type": "item",
+          "item": {
+            "id": "immersiveengineering:blueprint",
+            "Count": 1
+          }
+        }
+      },
+      "id": "ae699bf8d0024376"
+    }
+  ],
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "immersiveengineering:revolver",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:exploration"
+}

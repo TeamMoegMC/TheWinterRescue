@@ -1,0 +1,69 @@
+{
+  "showAltDesc": true,
+  "points": 1000,
+  "clues": [
+    {
+      "type": "game",
+      "id": "454a04a145cb47d4",
+      "required": true,
+      "value": 0.5,
+      "level": 0
+    },
+    {
+      "type": "item",
+      "id": "f0a8474f816842ae",
+      "value": 0.5,
+      "item": {
+        "base_ingredient": {
+          "item": "immersiveengineering:hemp_fabric"
+        },
+        "count": 1
+      }
+    },
+    {
+      "type": "item",
+      "id": "1290c4e433e242c0",
+      "value": 0.5,
+      "item": {
+        "base_ingredient": {
+          "item": "create:iron_sheet"
+        },
+        "count": 1
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:fabric_vawt"
+      },
+      "id": "f3eb31321cca49c9"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:metal_vawt"
+      },
+      "id": "be2cd0f43eb04c91"
+    },
+    {
+      "type": "recipe",
+      "item": {
+        "item": "frostedheart:alloy_vawt"
+      },
+      "id": "7254ca1d4c3a4bfa"
+    }
+  ],
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "immersiveengineering:windmill",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:production",
+  "parents": [
+    "transmission_machinery"
+  ]
+}

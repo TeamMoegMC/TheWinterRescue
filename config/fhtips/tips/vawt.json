@@ -1,0 +1,32 @@
+{
+  "children": [
+    "vawt_1",
+    "vawt_2",
+    "vawt_3"
+  ],
+  "display": {
+    "displayItems": [
+      {
+        "id": "frostedheart:fabric_vawt",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      {
+        "id": "frostedheart:metal_vawt",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      }
+    ]
+  },
+  "nextTip": "vawt_1",
+  "id": "vawt",
+  "contents": [
+    "tips.frostedheart.vawt.title",
+    "tips.frostedheart.vawt.desc1"
+  ],
+  "category": "tips.frostedheart.category.machine"
+}

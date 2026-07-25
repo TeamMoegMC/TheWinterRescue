@@ -19,7 +19,9 @@ ServerEvents.recipes((event) => {
     event.replaceOutput({}, "immersiveengineering:plate_steel", "frostedheart:steel_sheet")
 
     event.replaceOutput({type: "immersiveengineering:blast_furnace"}, "frostedheart:steel_block", "frostedheart:cast_iron_block")
+    event.replaceOutput({}, 'immersiveengineering:ersatz_leather', 'frostedheart:synthetic_leather')
     // event.replaceInput({},"#forge:mushrooms","#forge:edible_mushrooms")
 
     event.replaceInput({mod: "caupona"}, "minecraft:dirt", "#minecraft:dirt")
+    event.replaceInput({output: 'create:wooden_bracket'}, "#forge:ingots/cast_iron", "#forge:nuggets/cast_iron")
 })

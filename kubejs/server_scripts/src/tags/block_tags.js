@@ -28,5 +28,12 @@ ServerEvents.tags('block', (event) => {
         "frostedheart:thin_ice"
     ])
 
+    event.add("twr:vawt", [
+        "frostedheart:fabric_vawt",
+        "frostedheart:metal_vawt",
+        "frostedheart:alloy_vawt",
+        "frostedheart:dsp_vawt"
+    ])
+
 
 })

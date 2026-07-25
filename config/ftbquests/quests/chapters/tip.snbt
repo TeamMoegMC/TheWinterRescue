@@ -54,6 +54,30 @@
 			x: -7.5d
 			y: -7.0d
 		}
+		{
+			id: "1A003CC1FD09B095"
+			linked_quest: "5D968D01427EC48A"
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			id: "1EBCD7F85DB9C5EB"
+			linked_quest: "4E8E00BE0A4CB8E9"
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			id: "039566EC0B408D8B"
+			linked_quest: "20E34B234337C28A"
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			id: "7A5F98E58034A678"
+			linked_quest: "32E5D942F1FE8645"
+			x: -8.5d
+			y: -6.0d
+		}
 	]
 	quests: [
 		{
@@ -78,7 +102,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "{quest.twr.600194958AED706C.title}"
+			title: "WIP"
 			x: 1.5d
 			y: -7.0d
 		}
@@ -132,7 +156,7 @@
 						value: "minecraft:hoes"
 					}
 				}
-				title: "{quest.twr.2FE6878C8EDFE50A.36D4488AE0256AAD.title}"
+				title: "Any #minecraft:hoes"
 				type: "item"
 			}]
 			title: "{tips.frostedheart.plant.title}"
@@ -172,7 +196,7 @@
 						value: "twr:fertilizer"
 					}
 				}
-				title: "{quest.twr.2CD95B3D68DAC0D9.28E10A292B803A1B.title}"
+				title: "Any #twr:fertilizer"
 				type: "item"
 			}]
 			title: "{tips.frostedheart.fertilizer.title}"
@@ -529,29 +553,66 @@
 			y: -7.0d
 		}
 		{
+			icon: "minecraft:campfire"
 			id: "327BF86CE38B9B08"
 			rewards: [{
 				fh_tip: "campfire"
 				id: "5ACF377FCA0A6237"
 				type: "frostedheart:tip"
 			}]
-			tasks: [
-				{
-					id: "089B575122EC7DB6"
-					observe_type: 0
-					timer: 0L
-					to_observe: "minecraft:campfire"
-					type: "observation"
-				}
-				{
-					id: "77B21F2CB8D8207E"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "089B575122EC7DB6"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:campfire"
+				type: "observation"
+			}]
 			title: "{block.minecraft.campfire}"
-			x: 3.5d
-			y: -7.0d
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "frostedheart:metal_vawt"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "11B9EA23C975D9E0"
+			rewards: [{
+				fh_tip: "vawt"
+				id: "516F67FF647D51A8"
+				type: "frostedheart:tip"
+			}]
+			tasks: [{
+				id: "6EB6F98FDC61BF2B"
+				observe_type: 1
+				timer: 0L
+				to_observe: "twr:vawt"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			icon: "frostedheart:gunpowder_barrel"
+			id: "3489956D17995443"
+			rewards: [{
+				fh_tip: "gunpowder_barrel"
+				id: "5AF7597126B87672"
+				type: "frostedheart:tip"
+			}]
+			tasks: [{
+				id: "3CE32EA263738895"
+				observe_type: 0
+				timer: 0L
+				to_observe: "frostedheart:gunpowder_barrel"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: -6.0d
 		}
 	]
-	title: "{chapter.twr.399300B8456AD19F.title}"
+	title: "Tip"
 }

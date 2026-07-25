@@ -5,6 +5,7 @@ Ponder.tags((event) => {
     event.createTag("charcoal_pit:ponder", "minecraft:charcoal", "Charcoal Pit", "Ponder Index")
     // Frosted Heart
     event.createTag("frostedheart:ponder", "frostedheart:energy_core", "Frosted Heart", "Ponder Index")
+    event.createTag("frostedheart:town_ponder", "frostedheart:house", "Town Ponder", "Ponder Index")
     // Steam Powered
     event.createTag("steampowered:ponder", "steampowered:cast_iron_steam_engine", "Steam Powered", "Ponder Index", [
         "steampowered:bronze_boiler",

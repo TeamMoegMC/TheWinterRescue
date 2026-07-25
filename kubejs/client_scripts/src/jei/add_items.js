@@ -1,6 +1,6 @@
 JEIEvents.addItems((event) => {
-    let items = []
+    let items = ["minecraft:bundle"]
     items.forEach((item) => {
-        event.add(item)
+        event.add(item);
     })
 })

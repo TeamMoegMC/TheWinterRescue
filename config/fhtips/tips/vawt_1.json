@@ -1,0 +1,12 @@
+{
+  "display": {
+    "displayTime": 10000
+  },
+  "nextTip": "vawt_2",
+  "id": "vawt_1",
+  "contents": [
+    "tips.frostedheart.vawt.title",
+    "tips.frostedheart.vawt.desc2"
+  ],
+  "category": "tips.frostedheart.category.machine"
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "displayItems": [
+      {
+        "id": "minecraft:raw_copper",
+        "Count": 1
+      },
+      {
+        "id": "minecraft:charcoal",
+        "Count": 1
+      },
+      {
+        "id": "charcoal_pit:cracked_pot",
+        "Count": 1
+      }
+    ]
+  },
+  "nextTip": "clay_pot_ceramic",
+  "id": "clay_pot_smelt",
+  "contents": [
+    "tips.frostedheart.clay_pot_smelt.title",
+    "tips.frostedheart.clay_pot_smelt.desc1"
+  ],
+  "category": "tips.frostedheart.category.extra_utilities"
+}

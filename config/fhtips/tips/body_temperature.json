@@ -1,0 +1,16 @@
+{
+  "children": [
+    "body_temperature_2",
+    "body_temperature_3"
+  ],
+  "display": {
+    "displayTime": 10000
+  },
+  "nextTip": "body_temperature_2",
+  "id": "body_temperature",
+  "contents": [
+    "quest.twr.76E0A57CE55FFCEA.6D6B476F48C9D98E.title",
+    "quest.twr.76E0A57CE55FFCEA.description.1"
+  ],
+  "category": "tips.frostedheart.category.survival"
+}

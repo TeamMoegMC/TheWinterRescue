@@ -1,20 +1,8 @@
 {
   "id": "shelter_and_light",
-  "category": "tips.frostedheart.category.plant",
-  "nextTip": "",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": false,
-  "hide": false,
-  "pin": false,
-  "displayTime": 30000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
   "contents": [
     "tips.frostedheart.shelter_and_light.title",
     "tips.frostedheart.shelter_and_light.desc1"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.plant"
 }

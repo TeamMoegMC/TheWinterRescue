@@ -87,9 +87,7 @@
       "minecraft:spore_blossom",
       "minecraft:classic_vines_cave_feature"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "has_precipitation": true,
   "spawn_costs": {},
@@ -105,7 +103,26 @@
         "weight": 10
       }
     ],
-    "creature": [],
+    "creature": [
+      {
+        "type": "stone_age:auroch",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "stone_age:mouflon",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "stone_age:deer",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 1
+      }
+    ],
     "misc": [],
     "monster": [
       {

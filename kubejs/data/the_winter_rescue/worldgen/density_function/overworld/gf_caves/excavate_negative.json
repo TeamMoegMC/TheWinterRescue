@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:mul",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": -0.8,
+    "argument2": {
+      "type": "minecraft:clamp",
+      "input": {
+        "type": "minecraft:add",
+        "argument1": 1.0,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": -20.0,
+          "argument2": {
+            "type": "minecraft:abs",
+            "argument": {
+              "type": "minecraft:noise",
+              "noise": "the_winter_rescue:gf_caves/rift_mask",
+              "xz_scale": 0.005,
+              "y_scale": 0
+            }
+          }
+        }
+      },
+      "min": 0,
+      "max": 1
+    }
+  },
+  "argument2": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:mul",
+      "argument1": "minecraft:y",
+      "argument2": 0.0125
+    },
+    "min": 0,
+    "max": 1
+  }
+}

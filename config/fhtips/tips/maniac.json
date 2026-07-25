@@ -1,19 +1,8 @@
 {
   "id": "maniac",
-  "category": "tips.frostedheart.category.town",
-  "nextTip": "",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": false,
-  "hide": false,
-  "pin": false,
-  "displayTime": 30000,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
   "contents": [
     "tips.frostedheart.maniac.title",
     "tips.frostedheart.maniac.desc1"
-  ]
+  ],
+  "category": "tips.frostedheart.category.town"
 }

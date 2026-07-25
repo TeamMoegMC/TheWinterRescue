@@ -22,8 +22,8 @@ ServerEvents.recipes((event) => {
             "CCC",
             "ABA"
         ], {
-            A: "immersiveengineering:treated_wood_horizontal",
-            B: "immersiveengineering:slab_treated_wood_horizontal",
+            A: "#forge:treated_wood",
+            B: "#forge:treated_wood_slab",
             C: "minecraft:leather"
         }
         ],
@@ -49,8 +49,7 @@ ServerEvents.recipes((event) => {
         [
             "charcoal_pit:sandy_collector", [
             "A A",
-            "ABA",
-            "AAA"
+            "ABA"
         ], {
             A: "charcoal_pit:sandy_brick_item",
             B: "minecraft:bucket"
@@ -59,21 +58,10 @@ ServerEvents.recipes((event) => {
         [
             "charcoal_pit:sandy_collector", [
             "A A",
-            "ABA",
-            "AAA"
+            "ABA"
         ], {
             A: "charcoal_pit:sandy_brick_item",
             B: "frostedheart:ceramic_bucket"
-        }
-        ],
-        [
-            "charcoal_pit:sandy_brick", [
-            "BAB",
-            "ABA",
-            "BAB"
-        ], {
-            A: "frostedheart:mortar",
-            B: "charcoal_pit:sandy_brick_item"
         }
         ],
         [
@@ -117,20 +105,7 @@ ServerEvents.recipes((event) => {
         }
         ],
         [
-            [
-                "immersiveengineering:blueprint", {blueprint: "molds"}
-            ], [
-            "A A",
-            "CBC",
-            "CCC"
-        ], {
-            A: "minecraft:ink_sac",
-            B: "#forge:plates/steel",
-            C: "minecraft:paper"
-        }
-        ],
-        [
-            "immersiveengineering:alloybrick", 2, [
+            "immersiveengineering:alloybrick", 4, [
             "ABA",
             "B B",
             "ABA"
@@ -276,26 +251,6 @@ ServerEvents.recipes((event) => {
             A: "immersiveengineering:sheetmetal_steel",
             B: "#forge:plates/copper",
             C: "immersiveengineering:coil_mv"
-        }
-        ],
-        [
-            "frostedheart:refractory_bricks", 2, [
-            "ABA",
-            "BAB",
-            "ABA"
-        ], {
-            A: "frostedheart:refractory_brick",
-            B: "frostedheart:mortar"
-        }
-        ],
-        [
-            "frostedheart:high_refractory_bricks", 2, [
-            "ABA",
-            "BAB",
-            "ABA"
-        ], {
-            A: "frostedheart:high_refractory_brick",
-            B: "frostedheart:mortar"
         }
         ],
         [
@@ -793,6 +748,17 @@ ServerEvents.recipes((event) => {
             B: "#forge:chests"
         }
         ],
+      [
+            "storagedrawers:portability_upgrade", [
+            "AAA",
+            "CBC",
+            "AAA"
+        ], {
+            A: "#forge:rods/aluminum",
+            B: "storagedrawers:upgrade_template",
+            C: "#forge:plates/aluminum"
+        }
+        ],
         [
             "storagedrawers:iron_storage_upgrade", [
             "AAA",
@@ -816,11 +782,11 @@ ServerEvents.recipes((event) => {
         ],
         [
             "minecraft:compass", [
-            " A ",
-            "ABA",
-            " C "
+            "B",
+            "C",
+            "A"
         ], {
-            A: "#twr:ingots/structural",
+            A: "#twr:plates/structural",
             B: "minecraft:redstone",
             C: "#twr:rods/magnetic"
         }
@@ -1076,17 +1042,6 @@ ServerEvents.recipes((event) => {
             }
         ],
         [
-            "immersiveengineering:lantern", 4, [
-                " A ",
-                "CBC",
-                " A ",
-            ], {
-                A: "#forge:plates/iron",
-                B: "minecraft:lantern",
-                C: "minecraft:glass_pane",
-            }
-        ],
-        [
             "supplementaries:redstone_illuminator", [
                 " A ",
                 "ABA",
@@ -1158,7 +1113,98 @@ ServerEvents.recipes((event) => {
                 B: "#forge:glass_panes",
                 C: "minecraft:torch"
             }
+        ],
+        [
+            "create:piston_extension_pole", [
+                "A",
+                "B",
+                "A"
+            ], {
+                A: "#minecraft:planks",
+                B: "#forge:rods/cast_iron"
+            }
+        ],
+        [
+            "create:gearbox", 2, [
+                " A ",
+                "ABA",
+                " A "
+            ], {
+                A: "#the_winter_rescue:cogwheels",
+                B: "create:andesite_casing"
+            }
+        ],
+        [
+            "create:vertical_gearbox", 2, [
+                "A A",
+                " B ",
+                "A A"
+            ], {
+                A: "#the_winter_rescue:cogwheels",
+                B: "create:andesite_casing"
+            }
+        ],
+        [
+            "create:clipboard", 1, [
+                "A",
+                "B",
+                "C"
+            ], {
+                A: "#forge:nuggets",
+                B: "paper",
+                C: "#minecraft:planks"
+            }
+        ],
+        [
+            "chain", 1, [
+                "A",
+                "A",
+                "A"
+            ], {
+                A: "#forge:nuggets/iron"
+            }
+        ],
+//        [
+//            'frostedheart:synthetic_leather', 1, [
+//                "AAA",
+//                "ABA",
+//                "AAA"
+//            ], {
+//                A: 'immersiveengineering:hemp_fabric',
+//                B: "honeycomb"
+//            }
+//        ],
+        [
+            "immersiveindustry:car_kiln_brick", 2, [
+                "AAA",
+                "ABA",
+                "CCC"
+            ], {
+                A: 'immersiveindustry:refractory_kiln_brick',
+                B: 'kubejs:constantan_coil',
+                C: "#forge:plates/steel"
+            }
+        ],
+        [
+            "immersiveengineering:metal_ladder_none", 7, [
+                "A A",
+                "AAA",
+                "A A"
+            ], {
+                A: "#forge:rods/all_metal"
+            }
+        ],
+        [
+            "create:metal_bracket", 4, [
+                "AAA",
+                "BCB"
+            ], {
+                A: "#twr:nuggets/structural",
+                B: "#twr:ingots/structural",
+                C: "#forge:nuggets/cast_iron",
+            }
         ]
+
 
     ]
     changeShapedRecipes.forEach((recipe, index) => {

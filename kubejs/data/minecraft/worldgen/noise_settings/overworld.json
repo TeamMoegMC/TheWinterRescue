@@ -19,17 +19,17 @@
   },
   "noise_router": {
     "barrier": "minecraft:overworld/noise_router/barrier",
-    "continents": "minecraft:overworld/noise_router/continents",
-    "depth": "minecraft:overworld/noise_router/depth",
-    "erosion": "minecraft:overworld/noise_router/erosion",
-    "final_density": "minecraft:overworld/noise_router/vanilla/final_density",
+    "continents": "minecraft:overworld/effective_continentalness",
+    "depth": "minecraft:overworld/depth",
+    "erosion": "minecraft:overworld/erosion",
+    "final_density": "the_winter_rescue:overworld/noise_router/twr_final_density",
     "fluid_level_floodedness": "minecraft:overworld/noise_router/fluid_level_floodedness",
     "fluid_level_spread": "minecraft:overworld/noise_router/fluid_level_spread",
     "initial_density_without_jaggedness": "minecraft:overworld/noise_router/initial_density_without_jaggedness",
     "lava": "minecraft:overworld/noise_router/lava",
-    "ridges": "minecraft:overworld/noise_router/ridges",
-    "temperature": "minecraft:overworld/noise_router/temperature",
-    "vegetation": "minecraft:overworld/noise_router/vegetation",
+    "ridges": "minecraft:overworld/ridges",
+    "temperature": "minecraft:overworld/temperature",
+    "vegetation": "minecraft:overworld/vegetation",
     "vein_gap": "minecraft:overworld/noise_router/vein_gap",
     "vein_ridged": "minecraft:overworld/noise_router/vein_ridged",
     "vein_toggle": "minecraft:overworld/noise_router/vein_toggle"
@@ -388,31 +388,10 @@
                     "surface_depth_multiplier": -1
                   },
                   "then_run": {
-                    "type": "minecraft:sequence",
-                    "sequence": [
-                      {
-                        "type": "minecraft:condition",
-                        "if_true": {
-                          "type": "minecraft:stone_depth",
-                          "add_surface_depth": false,
-                          "offset": 0,
-                          "secondary_depth_range": 0,
-                          "surface_type": "floor"
-                        },
-                        "then_run": {
-                          "type": "minecraft:block",
-                          "result_state": {
-                            "Name": "frostedheart:peat_block"
-                          }
-                        }
-                      },
-                      {
-                        "type": "minecraft:block",
-                        "result_state": {
-                          "Name": "frostedheart:peat_permafrost"
-                        }
-                      }
-                    ]
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "frostedheart:peat_permafrost"
+                    }
                   }
                 }
               }
@@ -448,15 +427,25 @@
                       {
                         "type": "minecraft:condition",
                         "if_true": {
-                          "type": "minecraft:noise_threshold",
-                          "max_threshold": 0.6,
-                          "min_threshold": 0.35,
-                          "noise": "minecraft:powder_snow"
+                          "type": "minecraft:stone_depth",
+                          "add_surface_depth": false,
+                          "offset": 2,
+                          "secondary_depth_range": 0,
+                          "surface_type": "floor"
                         },
                         "then_run": {
-                          "type": "minecraft:block",
-                          "result_state": {
-                            "Name": "minecraft:powder_snow"
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "max_threshold": 0.6,
+                            "min_threshold": 0.5,
+                            "noise": "minecraft:powder_snow"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:powder_snow"
+                            }
                           }
                         }
                       },
@@ -1192,7 +1181,8 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "minecraft:snowy_plains"
+                                  "minecraft:snowy_plains",
+                                  "the_winter_rescue:jack_pine_woodland"
                                 ]
                               },
                               "then_run": {
@@ -2455,6 +2445,200 @@
         }
       },
       {
+        "type": "minecraft:condition",
+      "if_true": {
+        "type": "minecraft:biome",
+        "biome_is": [
+          "the_winter_rescue:glacial_fungus_caves",
+          "the_winter_rescue:fossil_deposits",
+          "the_winter_rescue:magmatic_deposits",
+          "the_winter_rescue:crust_chasms"
+        ]
+      },
+      "then_run": {
+        "type": "minecraft:sequence",
+        "sequence": [
+          {
+            "__comment__": "Glacial Fungus Cave",
+            "type": "minecraft:condition",
+            "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "the_winter_rescue:glacial_fungus_caves"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:y_above",
+                "anchor": {
+                  "above_bottom": 112
+                },
+                "surface_depth_multiplier": 0,
+                "add_stone_depth": false
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:not",
+                      "invert": {
+                        "type": "minecraft:vertical_gradient",
+                        "random_name": "minecraft:bedrock_roof",
+                        "true_at_and_below": {
+                          "above_bottom": 112
+                        },
+                        "false_at_and_above": {
+                          "above_bottom": 117
+                        }
+                      }
+                    },
+                    "then_run": {
+                      "type": "minecraft:sequence",
+                      "sequence": [
+                        {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:packed_ice",
+                            "Properties": {
+                              "axis": "y"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:blue_ice"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:y_above",
+                "anchor": { "below_top": 290 },
+                "surface_depth_multiplier": 0,
+                "add_stone_depth": false
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:stone_depth",
+                  "offset": 0,
+                  "add_surface_depth": false,
+                  "secondary_depth_range": 6,
+                  "surface_type": "floor"
+                },
+                "then_run": {
+                  "type": "minecraft:sequence",
+                  "sequence": [
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:noise_threshold",
+                        "noise": "minecraft:surface_secondary",
+                        "min_threshold": 0.8,
+                        "max_threshold": 1.0
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": { "Name": "minecraft:bone_block" }
+                      }
+                    },
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:noise_threshold",
+                        "noise": "minecraft:surface",
+                        "min_threshold": 0.5,
+                        "max_threshold": 1.0
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": { "Name": "minecraft:soul_sand" }
+                      }
+                    },
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:noise_threshold",
+                        "noise": "minecraft:surface",
+                        "min_threshold": 0.0,
+                        "max_threshold": 0.3
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": { "Name": "minecraft:rooted_dirt" }
+                      }
+                    },
+                    {
+                      "type": "minecraft:block",
+                      "result_state": { "Name": "minecraft:mud" }
+                    }
+                  ]
+                }
+              }
+            },
+
+
+            {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "minecraft:surface",
+                    "min_threshold": -0.4,
+                    "max_threshold": 0.0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": { "Name": "minecraft:moss_block" }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "minecraft:surface",
+                    "min_threshold": 0.6,
+                    "max_threshold": 0.8
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": { "Name": "minecraft:shroomlight" }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "minecraft:surface",
+                    "min_threshold": -0.7,
+                    "max_threshold": -0.4
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": { "Name": "minecraft:warped_wart_block" }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
         "__comment__": "Replace stone with limestone",
         "type": "minecraft:condition",
         "if_true": {
@@ -2475,28 +2659,31 @@
           ]
         }
       },
-      {
-        "__comment__": "Replace stone with basalt",
-        "type": "minecraft:condition",
-        "if_true": {
-          "type": "minecraft:biome",
-          "biome_is": [
-            "the_winter_rescue:magmatic_deposits",
-            "the_winter_rescue:crust_chasms"
-          ]
-        },
-        "then_run": {
-          "type": "minecraft:sequence",
-          "sequence": [
-            {
-              "type": "minecraft:block",
-              "result_state": {
-                "Name": "minecraft:basalt"
-              }
+          {
+            "__comment__": "Replace stone with basalt",
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "the_winter_rescue:magmatic_deposits",
+                "the_winter_rescue:crust_chasms"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:basalt"
+                  }
+                }
+              ]
             }
-          ]
-        }
-      },
+          }
+        ]
+      }
+    },
       {
         "__comment__": "Deepslate",
         "type": "minecraft:condition",

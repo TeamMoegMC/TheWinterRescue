@@ -10,7 +10,6 @@ ServerEvents.recipes((event) => {
 		"immersiveengineering:circuit_table",
 		"immersiveengineering:watermill",
 		"immersiveengineering:windmill",
-		"immersiveengineering:windmill_blade",
 		"immersiveengineering:waterwheel_segment",
 		"immersiveengineering:sample_drill",
 		"immersiveengineering:thermoelectric_generator",
@@ -26,7 +25,6 @@ ServerEvents.recipes((event) => {
 		"supplementaries:cog_block",
 		"supplementaries:spring_launcher",
 		"supplementaries:bellows",
-		"supplementaries:wind_vane",
 		"supplementaries:faucet",
 		"supplementaries:bomb",
 		"minecraft:green_dye",
@@ -157,6 +155,8 @@ ServerEvents.recipes((event) => {
 		"immersiveengineering:toolbox",
 		"immersiveengineering:sorter",
 		"immersiveengineering:fluid_sorter",
+		'immersiveengineering:windmill_blade',
+		'immersiveengineering:windmill_sail',
 
 		// create power devices: we have steam power
 		"create:water_wheel",
@@ -166,10 +166,7 @@ ServerEvents.recipes((event) => {
 		"create:windmill_bearing",
 		"create:steam_engine",
 
-		// create: causes infinite power
-		"create:mechanical_piston",
-		"create:sticky_mechanical_piston",
-		"create:piston_extension_pole",
+		// create
 		"create:cart_assembler",
 
         // materials
@@ -230,6 +227,11 @@ ServerEvents.recipes((event) => {
         "minecraft:chiseled_stone_bricks_stone_from_stonecutting",
         "create:splashing/wheat_flour",
         "create:mixing/dough_by_mixing",
+        "charcoal_pit:sandy_bricks",
+        "immersiveengineering:blastfurnace/steel_block",
+        "immersiveengineering:crafting/lantern",
+        "create:crafting/appliances/dough",
+		"create:crafting/appliances/slime_ball",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

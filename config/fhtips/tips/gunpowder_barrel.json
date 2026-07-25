@@ -1,0 +1,22 @@
+{
+  "children": [
+    "gunpowder_barrel_2",
+    "gunpowder_barrel_3",
+    "gunpowder_barrel_4"
+  ],
+  "display": {
+    "displayItems": [
+      {
+        "id": "frostedheart:gunpowder_barrel",
+        "Count": 1
+      }
+    ]
+  },
+  "nextTip": "gunpowder_barrel_2",
+  "id": "gunpowder_barrel",
+  "contents": [
+    "tips.frostedheart.gunpowder_barrel.title",
+    "tips.frostedheart.gunpowder_barrel.desc1"
+  ],
+  "category": "tips.frostedheart.category.extra_utilities"
+}

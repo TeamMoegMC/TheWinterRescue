@@ -1,0 +1,10 @@
+{
+  "nextTip": "gunpowder_barrel_4",
+  "id": "gunpowder_barrel_3",
+  "contents": [
+    "tips.frostedheart.gunpowder_barrel.title",
+    "tips.frostedheart.gunpowder_barrel.desc3"
+  ],
+  "category": "tips.frostedheart.category.extra_utilities",
+  "image": "twr_tips:textures/gunpowder_barrel_recipe.png"
+}

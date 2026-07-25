@@ -1,0 +1,21 @@
+{
+  "display": {
+    "displayItems": [
+      {
+        "id": "minecraft:spruce_log",
+        "Count": 1
+      },
+      {
+        "id": "charcoal_pit:fire_starter",
+        "Count": 1
+      }
+    ]
+  },
+  "nextTip": "campfire_3",
+  "id": "campfire_2",
+  "contents": [
+    "tips.frostedheart.campfire.title",
+    "tips.frostedheart.campfire.desc2"
+  ],
+  "category": "tips.frostedheart.category.survival"
+}

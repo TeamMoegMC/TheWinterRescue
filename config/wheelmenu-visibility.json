@@ -1,1 +1,16 @@
-{"displayed":["ftb_quests:open_book","frostedheart:health","wheel_menu:edit","frostedheart:clothing","frostedheart:archive"],"hidden":["tetra:holo","curios:open_gui","frostedheart:waypoint/quick_waypoint","frostedheart:debug"]}
+{
+    "displayed": [
+        "frostedheart:archive",
+        "ftb_quests:open_book",
+        "frostedheart:health",
+        "wheel_menu:edit",
+        "frostedheart:clothing"
+    ],
+    "hidden": [
+        "tetra:holo",
+        "curios:open_gui",
+        "frostedheart:debug",
+        "frostedheart:waypoint/quick_waypoint",
+        "frostedheart:waypoint/del_quick_waypoint"
+    ]
+}

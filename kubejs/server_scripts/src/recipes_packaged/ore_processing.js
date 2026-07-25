@@ -46,21 +46,23 @@ ServerEvents.recipes((event) => {
 
 
     let normalSmeltingRecipes = [
-		["minecraft:copper_ingot", "#forge:dusts/copper", 100, false],
-		["frostedheart:lead_ingot", "#forge:dusts/lead", 100, false],
-		["frostedheart:tin_ingot", "#forge:dusts/tin", 100, false],
-		["create:zinc_ingot", "#forge:dusts/zinc", 100, false],
+		["minecraft:copper_ingot", "#forge:dusts/copper", 50, false],
+		["frostedheart:lead_ingot", "#forge:dusts/lead", 50, false],
+		["frostedheart:tin_ingot", "#forge:dusts/tin", 50, false],
+		["create:zinc_ingot", "#forge:dusts/zinc", 50, false],
 		
         ["frostedheart:silver_ingot", "#forge:raw_materials/silver", 200, true],
         ["frostedheart:silver_ingot", "#forge:crushed_raw_materials/silver", 150, true],
-        ["frostedheart:silver_ingot", "#forge:dusts/silver", 200, false],
+        ["frostedheart:silver_ingot", "#forge:dusts/silver", 50, false],
+        ["frostedheart:silver_ingot", "frostedheart:silver_slurry", 100, true],
 
         ["minecraft:gold_ingot", "#forge:raw_materials/gold", 200, true],
         ["minecraft:gold_ingot", "#forge:crushed_raw_materials/gold", 150, true],
-        ["minecraft:gold_ingot", "#forge:dusts/gold", 200, false],
+        ["minecraft:gold_ingot", "#forge:dusts/gold", 50, false],
+        ["minecraft:gold_ingot", "frostedheart:gold_slurry", 100, true],
 
-        ["frostedheart:electrum_ingot", "#forge:dusts/electrum", 200, false],
-        ["frostedheart:alumina_dust", "#forge:dusts/aluminum_hydroxide", 40, false],
+        ["frostedheart:electrum_ingot", "#forge:dusts/electrum", 150, false],
+        ["frostedheart:alumina_dust", "#forge:dusts/aluminum_hydroxide", 50, false],
 
         ["minecraft:paper", "frostedheart:pulp", 40, false]
 
@@ -71,7 +73,8 @@ ServerEvents.recipes((event) => {
 		event.remove({"type":"minecraft:smelting","output":output})
 		event.remove({"type":"minecraft:blasting","output":output})
         minecraft.smelting(output, input)
-		minecraft.blasting(output, input)
+		// minecraft.blasting(output, input)
+        minecraft.blasting(output, input, 0, time*1.5)
         if (slag) {
             immersiveengineering.blast_furnace(output, input, "immersiveengineering:slag")
                 .time(time)
@@ -85,36 +88,40 @@ ServerEvents.recipes((event) => {
 	    ["minecraft:copper_ingot", "#forge:raw_materials/copper", 200, true],
         ["minecraft:copper_ingot", "#forge:crushed_raw_materials/copper", 150, true],
         ["minecraft:copper_ingot", "#forge:dusts/copper_oxide", 100, true],
-        
         ["minecraft:copper_ingot", "#twr:rusted_copper", 50, true],
+		["minecraft:copper_ingot", "frostedheart:copper_slurry", 50, true],
 
         ["frostedheart:lead_ingot", "#forge:raw_materials/lead", 200, true],
         ["frostedheart:lead_ingot", "#forge:crushed_raw_materials/lead", 150, true],
-        
+		["frostedheart:lead_ingot", "frostedheart:lead_slurry", 100, true],
 
         ["frostedheart:tin_ingot", "#forge:raw_materials/tin", 200, true],
         ["frostedheart:tin_ingot", "#forge:crushed_raw_materials/tin", 150, true],
         ["frostedheart:tin_ingot", "#forge:ingots/gray_tin", 50, true],
-        
+		["frostedheart:tin_ingot", "frostedheart:tin_slurry", 50, true],
 
         ["create:zinc_ingot", "#forge:raw_materials/zinc", 200, true],
         ["create:zinc_ingot", "#forge:crushed_raw_materials/zinc", 150, true],
-        
         ["create:zinc_ingot", "#forge:dusts/zinc_oxide", 100, true],
+		["create:zinc_ingot", "frostedheart:zinc_slurry", 100, true],
+
         ["frostedheart:aluminum_ingot", "#forge:dusts/aluminum", 800, false],
 
         ["minecraft:iron_ingot", "#forge:raw_materials/iron", 400, true],
         ["minecraft:iron_ingot", "#forge:crushed_raw_materials/iron", 300, true],
         ["minecraft:iron_ingot", "#twr:rusted_iron", 200, true],
         ["minecraft:iron_ingot", "#forge:dusts/iron", 100, false],
+		["minecraft:iron_ingot", "frostedheart:iron_slurry", 150, true],
 
         ["minecraft:iron_ingot", "#forge:raw_materials/pyrite", 400, true],
         ["minecraft:iron_ingot", "#forge:crushed_raw_materials/pyrite", 300, true],
+        ["minecraft:iron_ingot", "frostedheart:pyrite_slurry", 150, true],
 
         ["frostedheart:nickel_ingot", "#forge:raw_materials/nickel", 400, true],
         ["frostedheart:nickel_ingot", "create:crushed_raw_nickel", 300, true],
         ["frostedheart:nickel_ingot", "frostedheart:nickel_matte", 200, true],
         ["frostedheart:nickel_ingot", "#forge:dusts/nickel", 200, false],
+        ["frostedheart:nickel_ingot", "frostedheart:nickel_slurry", 150, false],
 
         ["frostedheart:sodium_chloride_dust", "#forge:raw_materials/halite", 400, true],
         ["frostedheart:sodium_chloride_dust", "#forge:crushed_raw_materials/halite", 300, true],
@@ -155,6 +162,44 @@ ServerEvents.recipes((event) => {
     ]
     kilnRecipes.forEach((recipe) => {
         event.custom(recipe);
+    })
+
+    let snow = [
+        'iron',
+        'copper',
+        'gold',
+        'zinc',
+        'silver',
+        'tin',
+        'pyrite',
+        'nickel',
+        'lead',
+    ]
+
+    snow.forEach((material) => {
+        let snowball = "frostedheart:condensed_ball_" + material + "_ore";
+        let snowblock = "frostedheart:condensed_" + material + "_ore_block";
+        let slurry = "frostedheart:" + material + "_slurry";
+
+        minecraft.crafting_shaped("2x frostedheart:condensed_" + material + "_ore", [
+            "AA",
+        ], {
+            A: snowball
+        });
+        minecraft.crafting_shaped(snowblock, [
+            "AA",
+            "AA"
+        ], {
+            A: snowball
+        });
+        minecraft.crafting_shapeless("4x " + snowball, snowblock);
+
+        minecraft.smelting(slurry, snowblock);
+        minecraft.blasting(slurry, snowblock, 0, 150);
+        minecraft.campfire_cooking(slurry, snowblock, 0, 400);
+        immersiveengineering.blast_furnace(slurry, snowblock).time(70);
+        create.mixing([slurry, Fluid.of("water", 250)], snowblock, 30).heated();
+        create.mixing([slurry, Fluid.of("water", 250)], "4x " + snowball, 30).heated();
     })
     
 })

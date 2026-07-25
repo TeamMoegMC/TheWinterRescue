@@ -38,7 +38,6 @@
 			hide_until_deps_visible: true
 			icon: "minecraft:blackstone"
 			id: "2246C8C7B6F953D7"
-			invisible: true
 			rewards: [{
 				id: "77CD7346CBC3833E"
 				insight: 15
@@ -166,6 +165,17 @@
 			]
 			x: -1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["4B6FFA5A9140019F"]
+			id: "4B9BC93A26B647BF"
+			tasks: [{
+				id: "46CD1C4DD493D53F"
+				item: "supplementaries:rope"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
 		}
 	]
 	subtitle: ["{chapter.twr.5E14F9D22A78E620.subtitle.0}"]

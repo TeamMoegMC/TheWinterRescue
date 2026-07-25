@@ -84,9 +84,8 @@
       "minecraft:patch_berry_rare"
     ],
     [
-      "minecraft:freeze_top_layer",
-      "the_winter_rescue:snowy/fix_snow",
-      "the_winter_rescue:snowy/fix_grass"
+      "the_winter_rescue:snowy/layer/snow_random",
+      "frostedheart:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,

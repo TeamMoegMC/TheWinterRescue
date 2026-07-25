@@ -42,5 +42,8 @@
   "charcoal_pit.ponder.tag.ponder": "Charcoal Pit",
   "charcoal_pit.ponder.tag.ponder.description": "Ponder Index",
   "immersiveindustry.ponder.tag.ponder": "Immersive Industry",
-  "immersiveindustry.ponder.tag.ponder.description": "Ponder Index"
+  "immersiveindustry.ponder.tag.ponder.description": "Ponder Index",
+  "kubejs.ponder.pottery_kiln.header": "",
+  "kubejs.ponder.pottery_kiln.text_1": "Press C on the ground to place a Kiln",
+  "kubejs.ponder.pottery_kiln.text_2": "Put solid blocks all around, not necessarily limited to dirt"
 }

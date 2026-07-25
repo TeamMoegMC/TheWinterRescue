@@ -1,0 +1,14 @@
+{
+  "children": [
+    "soil_temperature_2",
+    "soil_temperature_3",
+    "soil_thermometer"
+  ],
+  "nextTip": "soil_temperature_2",
+  "id": "soil_temperature",
+  "contents": [
+    "tips.frostedheart.soil_temperature.title",
+    "tips.frostedheart.soil_temperature.desc1"
+  ],
+  "category": "tips.frostedheart.category.plant"
+}

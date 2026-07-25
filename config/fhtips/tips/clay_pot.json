@@ -1,0 +1,21 @@
+{
+  "children": [
+    "clay_pot_smelt",
+    "clay_pot_ceramic"
+  ],
+  "display": {
+    "displayItems": [
+      {
+        "id": "charcoal_pit:clay_pot",
+        "Count": 1
+      }
+    ]
+  },
+  "nextTip": "clay_pot_smelt",
+  "id": "clay_pot",
+  "contents": [
+    "tips.frostedheart.clay_pot.title",
+    "tips.frostedheart.clay_pot.desc1"
+  ],
+  "category": "tips.frostedheart.category.extra_utilities"
+}

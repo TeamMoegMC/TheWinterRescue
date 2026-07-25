@@ -1,0 +1,13 @@
+{
+  "children": [
+    "wheel_menu_2",
+    "wheel_menu_3"
+  ],
+  "nextTip": "wheel_menu_2",
+  "id": "wheel_menu",
+  "contents": [
+    "tips.frostedheart.wheel_menu.title",
+    "tips.frostedheart.wheel_menu.desc1"
+  ],
+  "category": "tips.frostedheart.category.control"
+}

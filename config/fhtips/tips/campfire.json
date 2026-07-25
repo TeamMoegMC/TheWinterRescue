@@ -1,0 +1,22 @@
+{
+  "children": [
+    "campfire_2",
+    "campfire_3",
+    "campfire_4"
+  ],
+  "display": {
+    "displayItems": [
+      {
+        "id": "minecraft:campfire",
+        "Count": 1
+      }
+    ]
+  },
+  "nextTip": "campfire_2",
+  "id": "campfire",
+  "contents": [
+    "tips.frostedheart.campfire.title",
+    "tips.frostedheart.campfire.desc1"
+  ],
+  "category": "tips.frostedheart.category.survival"
+}

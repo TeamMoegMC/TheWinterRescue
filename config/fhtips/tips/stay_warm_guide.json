@@ -1,17 +1,5 @@
 {
   "id": "stay_warm_guide",
-  "category": "tips.frostedheart.category.body_temperature",
-  "nextTip": "",
-  "image": "",
-  "clickAction": "",
-  "clickActionContent": "",
-  "alwaysVisible": false,
-  "onceOnly": false,
-  "hide": false,
-  "pin": false,
-  "displayTime": 0,
-  "fontColor": "FFC6FCFF",
-  "backgroundColor": "FF000000",
   "contents": [
     "quest.twr.125F6ADB0DEA3EEA.title",
     "quest.twr.125F6ADB0DEA3EEA.description.1",
@@ -20,5 +8,5 @@
     "quest.twr.125F6ADB0DEA3EEA.description.7",
     "quest.twr.125F6ADB0DEA3EEA.description.9"
   ],
-  "children": []
+  "category": "tips.frostedheart.category.survival"
 }

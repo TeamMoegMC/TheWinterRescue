@@ -1,0 +1,16 @@
+{
+  "display": {
+    "displayItems": [
+      {
+        "id": "charcoal_pit:ceramic_pot",
+        "Count": 1
+      }
+    ]
+  },
+  "id": "clay_pot_ceramic",
+  "contents": [
+    "tips.frostedheart.clay_pot_ceramic.title",
+    "tips.frostedheart.clay_pot_ceramic.desc1"
+  ],
+  "category": "tips.frostedheart.category.extra_utilities"
+}

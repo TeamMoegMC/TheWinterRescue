@@ -9,6 +9,7 @@ StartupEvents.registry("item", (event) => {
         "cut_stone",
         "plant_fibre",
         "sawdust_rye_dough",
+        "he_gunpowder",
 
         // Frozen meats
         "frozen_auroch_meat",

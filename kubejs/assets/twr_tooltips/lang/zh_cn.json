@@ -97,11 +97,11 @@
   "item.kubejs.broken_robot_1.tooltip.condition1": "当在绘图台中使用时",
   "item.kubejs.broken_robot_1.tooltip.behaviour1": "获得_大量见闻_。",
 
-  "item.kubejs.broken_robot_2.tooltip.summary": "在发现它的地方，刻着一行小字：‘意识是什么？’",
+  "item.kubejs.broken_robot_2.tooltip.summary": "一个破损的机器人",
   "item.kubejs.broken_robot_2.tooltip.condition1": "当在绘图台中使用时",
   "item.kubejs.broken_robot_2.tooltip.behaviour1": "获得_大量见闻_。",
 
-  "item.frostedresearch.intelligence.tooltip.summary": "一份来自各地的零散记录，包含未公开的实验数据、地方传闻和未证实的技术草案。也许并不完整，但足以开启新的思路。\n",
+  "item.frostedresearch.intelligence.tooltip.summary": "一份来自各地的零散记录，包含未公开的实验数据、地方传闻和未证实的技术草案。也许并不完整，但足以开启新的思路。",
   "item.frostedresearch.intelligence.tooltip.condition1": "当在绘图台中使用时",
   "item.frostedresearch.intelligence.tooltip.behaviour1": "获得_大量见闻_。",
 
@@ -266,6 +266,10 @@
 
   "item.frostedheart.ultimate_preserved_fertilizer.tooltip.summary": "绝热覆盖层，可显著保持土壤温度。",
   "item.frostedheart.ultimate_preserved_fertilizer.tooltip.condition1": "施用于农田或泥土时",
-  "item.frostedheart.ultimate_preserved_fertilizer.tooltip.behaviour1": "使土壤保温，对应作物不会死亡，并放宽生长温度下限20°C。"
+  "item.frostedheart.ultimate_preserved_fertilizer.tooltip.behaviour1": "使土壤保温，对应作物不会死亡，并放宽生长温度下限20°C。",
+
+  "item.frostedheart.ice_chip.tooltip.summary": "一小块冰，在汤锅中将其融化成水。",
+
+  "block.create.limestone.tooltip.summary": "可在河床底部或洞穴中找到。"
 }
   

@@ -3,8 +3,8 @@
 @showTitle t="Chapter 1 Act 1" st="Crashed in the frozen planet"
 @delay t=60
 
-@displayTip id="scenario_tip"
 @if exp="client.preloguePlayed"
+@displayTip id="scenario_tip"
 Do you want to skip the prologue story cinematic?[r]
 [link l=*intitle][&eSkip&r][endlink][r]
 [link l=*beginprelogue][&eWatch&r][endlink]
@@ -300,9 +300,9 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 [link l=water_tutorial]&e[Understood, click to continue check resources.]&r[endlink]@wa
 
 @label name=water_tutorial
-@giveItem i=frostedheart:leather_water_bag n="{Damage:0,Fluid:{FluidName:\"frostedheart:purified_water\",Amount:1000}}"
+@giveItem i=frostedheart:iron_bottle n="{Damage:0,Fluid:{FluidName:\"frostedheart:purified_water\",Amount:1000}}"
 @p
-[NoWait]Me：[EndNoWait]Water bag is also found. Clean water inside. But what about later?[l]
+[NoWait]Me：[EndNoWait]Water bottle is also found. Clean water inside. But what about later?[l]
 @r
 （The blue hemisphere on the right of the Feeling Temperature Orb represents Water Level in your body.）
 @r

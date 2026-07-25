@@ -1,58 +1,75 @@
 {
-  "icon": "immersiveengineering:blast_furnace",
-  "category": "frostedheart:production",
-  "parents": [
-    "mixer"
-  ],
+  "showAltDesc": true,
+  "points": 1500,
   "clues": [
     {
       "type": "game",
-      "value": 0.5,
       "id": "7b0380fa39924e97",
       "required": true,
+      "value": 0.5,
       "level": 0
     },
     {
       "type": "item",
-      "value": 0.25,
       "id": "8990547adf2b4f07",
+      "value": 0.25,
       "item": {
-        "count": 4,
         "base_ingredient": {
           "item": "frostedheart:invar_ingot"
-        }
+        },
+        "count": 4
       }
     },
     {
       "type": "item",
-      "value": 0.25,
       "id": "67c2d1728d8a4af1",
+      "value": 0.25,
       "item": {
-        "count": 4,
         "base_ingredient": {
-          "item": "frostedheart:fire_clay_ball"
-        }
+          "item": "frostedheart:refractory_bricks"
+        },
+        "count": 1
       }
     }
   ],
   "ingredients": [
     {
-      "item": "frostedheart:refractory_bricks"
+      "base_ingredient": {
+        "item": "frostedheart:fire_clay_ball"
+      },
+      "count": 4
     }
   ],
   "effects": [
     {
       "type": "multiblock",
-      "icon": "immersiveengineering:blast_furnace",
+      "icon": {
+        "type": "item",
+        "item": {
+          "id": "immersiveengineering:blast_furnace",
+          "Count": 1
+        }
+      },
       "id": "8a9d01be7d574eaa",
       "multiblock": "immersiveengineering:multiblocks/blast_furnace"
     },
     {
       "type": "recipe",
-      "id": "7a59b074753747e6",
-      "item": "immersiveengineering:blastbrick"
+      "item": {
+        "item": "immersiveengineering:blastbrick"
+      },
+      "id": "7a59b074753747e6"
     }
   ],
-  "points": 1500,
-  "showAltDesc": true
+  "icon": {
+    "type": "item",
+    "item": {
+      "id": "immersiveengineering:blast_furnace",
+      "Count": 1
+    }
+  },
+  "category": "frostedresearch:production",
+  "parents": [
+    "mixer"
+  ]
 }

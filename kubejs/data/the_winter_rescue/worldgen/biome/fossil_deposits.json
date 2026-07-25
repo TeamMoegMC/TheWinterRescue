@@ -69,9 +69,7 @@
       "the_winter_rescue:nature/sparse_bare_rotten_tree",
       "minecraft:glow_lichen"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "has_precipitation": true,
   "spawn_costs": {},
