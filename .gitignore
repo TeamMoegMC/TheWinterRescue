@@ -130,3 +130,4 @@ TWR-DEV.jar
 /hmclversion.cfg
 *.jfr
 *.sparkprofile
+/.hmcl/

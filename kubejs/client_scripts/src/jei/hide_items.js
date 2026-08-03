@@ -1,51 +1,7 @@
 JEIEvents.hideItems((event) => {
 
+    // client only hide
     let itemsToHide = [
-        // stone age
-        "stone_age:dried_grass",
-        "stone_age:thatch_block",
-        "stone_age:flint_workbench",
-        "stone_age:unlit_torch",
-        'stone_age:flour',
-        "stone_age:raw_bread",
-
-        // charcoal pit
-        "charcoal_pit:ash_block",
-        "charcoal_pit:ash",
-        "charcoal_pit:coke_block",
-        "charcoal_pit:fertilizer",
-
-        // ie
-        "immersiveengineering:toolbox",
-        "immersiveengineering:sorter",
-        "immersiveengineering:fluid_sorter",
-        "immersiveengineering:watermill",
-        "immersiveengineering:windmill",
-		'immersiveengineering:windmill_blade',
-		'immersiveengineering:windmill_sail',
-		'immersiveengineering:logic_circuit',
-
-        // create power devices: we have steam power
-        "create:water_wheel",
-        "create:large_water_wheel",
-        "create:cogwheel",
-        "create:large_cogwheel",
-        "create:windmill_bearing",
-        "create:steam_engine",
-
-        // create
-        "create:cart_assembler",
-
-        // materials
-        "create:crushed_raw_tin",
-        "create:crushed_raw_aluminum",
-        "immersiveengineering:raw_aluminum",
-        "immersiveengineering:raw_block_aluminum",
-        "immersiveengineering:ore_aluminum",
-        "immersiveengineering:deepslate_ore_aluminum",
-
-        "supplementaries:end_stone_lamp",
-
         // nutrition items
         'kubejs:fruits_and_vegs',
         'kubejs:grains',
@@ -73,8 +29,13 @@ JEIEvents.hideItems((event) => {
         'kubejs:pcb_base',
     ]
 
-    let regexHide = []
     itemsToHide.forEach((disabledItem) => {
+        if (!Item.of(disabledItem).isEmpty()) {
+            event.hide(disabledItem)
+        }
+    })
+
+    global.DISABLED_ITEM.forEach((disabledItem) => {
         if (!Item.of(disabledItem).isEmpty()) {
             event.hide(disabledItem)
         }
@@ -82,6 +43,7 @@ JEIEvents.hideItems((event) => {
 
     event.hide("#itemfilters:filters")
 
+    let regexHide = []
     regexHide.forEach((regexExpression) => {
         event.hide(regexExpression)
     })

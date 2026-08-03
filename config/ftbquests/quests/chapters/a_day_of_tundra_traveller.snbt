@@ -133,6 +133,11 @@
 		{
 			dependencies: ["47F9EC8C18040D6D"]
 			id: "213C44450AF53A99"
+			rewards: [{
+				id: "5F3B298217F48CF7"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "42563E5DC0CD2F66"
 				item: {
@@ -150,6 +155,11 @@
 		{
 			dependencies: ["1C8171C8FD1D0CD5"]
 			id: "08D1466D734CE39C"
+			rewards: [{
+				id: "2B88934DB19F7E34"
+				insight: 2
+				type: "frostedheart:insight"
+			}]
 			tasks: [
 				{
 					id: "613A24F1C38D2323"
@@ -169,6 +179,11 @@
 		{
 			dependencies: ["4B6FFA5A9140019F"]
 			id: "4B9BC93A26B647BF"
+			rewards: [{
+				id: "2F13D80BB20CE077"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "46CD1C4DD493D53F"
 				item: "supplementaries:rope"

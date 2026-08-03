@@ -52,16 +52,7 @@ ServerEvents.recipes((event) => {
             "ABA"
         ], {
             A: "charcoal_pit:sandy_brick_item",
-            B: "minecraft:bucket"
-        }
-        ],
-        [
-            "charcoal_pit:sandy_collector", [
-            "A A",
-            "ABA"
-        ], {
-            A: "charcoal_pit:sandy_brick_item",
-            B: "frostedheart:ceramic_bucket"
+            B: ["frostedheart:ceramic_bucket", "minecraft:bucket"]
         }
         ],
         [
@@ -819,17 +810,6 @@ ServerEvents.recipes((event) => {
         ], {
             A: "immersiveengineering:wirecoil_steel",
             B: "#forge:rods/aluminum"
-        }
-        ],
-        [
-            "charcoal_pit:sandy_tuyere", [
-            "BAB",
-            "ACA",
-            "BAB"
-        ], {
-            A: "frostedheart:mortar",
-            B: "charcoal_pit:sandy_brick_item",
-            C: "#forge:plates/bronze"
         }
         ],
         [

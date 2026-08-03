@@ -640,8 +640,22 @@
 					type: "item"
 				}
 				{
+					count: 6L
 					id: "5E9CB377F75B89E4"
 					item: "charcoal_pit:straw"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6100366B6FD38862"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any #minecraft:logs"
 					type: "item"
 				}
 			]
@@ -850,24 +864,11 @@
 			id: "7E3F0C805E2BBB9F"
 			shape: "gear"
 			subtitle: "{quest.twr.7E3F0C805E2BBB9F.subtitle}"
-			tasks: [
-				{
-					id: "78D4D4C0E2691057"
-					item: "stone_age:tree_stump"
-					type: "item"
-				}
-				{
-					id: "4552904E6A237EC5"
-					item: {
-						Count: 1
-						id: "frostedheart:stone_hammer"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "78D4D4C0E2691057"
+				item: "stone_age:tree_stump"
+				type: "item"
+			}]
 			title: "{quest.twr.7E3F0C805E2BBB9F.title}"
 			x: 20.5d
 			y: 0.0d

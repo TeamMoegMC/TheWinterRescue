@@ -101,12 +101,20 @@
 				"{quest.twr.0A9A5166127945AB.description.5}"
 			]
 			id: "0A9A5166127945AB"
-			rewards: [{
-				id: "586E2E112FF73A27"
-				insight: 1
-				team_reward: true
-				type: "frostedheart:insight"
-			}]
+			rewards: [
+				{
+					id: "586E2E112FF73A27"
+					insight: 1
+					team_reward: true
+					type: "frostedheart:insight"
+				}
+				{
+					auto: "invisible"
+					fh_tip: "keyhint"
+					id: "1D73AD4109A039A9"
+					type: "frostedheart:tip"
+				}
+			]
 			shape: "gear"
 			subtitle: "{quest.twr.0A9A5166127945AB.subtitle}"
 			tasks: [{
@@ -123,7 +131,7 @@
 				type: "item"
 			}]
 			title: "{quest.twr.0A9A5166127945AB.title}"
-			x: -2.5d
+			x: -3.5d
 			y: 0.5d
 		}
 		{
@@ -135,14 +143,28 @@
 			id: "586D66C71A378A82"
 			shape: "gear"
 			subtitle: "{quest.twr.586D66C71A378A82.subtitle}"
-			tasks: [{
-				id: "6B7F88BC9CA233E8"
-				item: "create:copper_sheet"
-				title: "{quest.twr.586D66C71A378A82.6B7F88BC9CA233E8.title}"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6B7F88BC9CA233E8"
+					item: "create:copper_sheet"
+					title: "{quest.twr.586D66C71A378A82.6B7F88BC9CA233E8.title}"
+					type: "item"
+				}
+				{
+					id: "54B2B9DB3DEA8EE8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:hammers"
+						}
+					}
+					title: "Any #forge:hammers"
+					type: "item"
+				}
+			]
 			title: "{quest.twr.586D66C71A378A82.title}"
-			x: -0.5d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -213,8 +235,8 @@
 				title: "{quest.twr.4B6840707D77E2C0.17B92F392AAC3C15.title}"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.5d
+			x: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["689BB00EC2454F1F"]
@@ -238,8 +260,8 @@
 				type: "item"
 			}]
 			title: "{quest.twr.3C4CEEBFF8DCF448.title}"
-			x: -3.5d
-			y: 1.5d
+			x: -2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -362,12 +384,11 @@
 				item: "minecraft:bucket"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3078BCEE3E402DED"]
-			dependency_requirement: "all_started"
 			description: [
 				"{quest.twr.4543F3B5F937E6B0.description.1}"
 				"{quest.twr.4543F3B5F937E6B0.description.2}"
@@ -594,8 +615,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.5d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4B6840707D77E2C0"]
@@ -624,8 +645,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["689BB00EC2454F1F"]
@@ -889,8 +910,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.5d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6A22E2D62D4719BE"]
@@ -1001,7 +1022,7 @@
 				type: "checkmark"
 			}]
 			x: -6.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["03A553EBD453466A"]
@@ -1413,8 +1434,8 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.5d
+			x: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["03A553EBD453466A"]
@@ -1574,6 +1595,7 @@
 			dependencies: ["03A553EBD453466A"]
 			hide_dependency_lines: true
 			id: "4AEC4A839310CA0C"
+			optional: true
 			rewards: [
 				{
 					auto: "invisible"

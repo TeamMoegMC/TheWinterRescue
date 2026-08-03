@@ -2,16 +2,69 @@ ServerEvents.recipes((event) => {
 
     let {immersiveengineering, create, minecraft} = event.recipes
 
+    let allFurnace = [
+        oreProcessRecipe("copper", "copper_ingot", 200, true, true),
+        oreProcessRecipe("tin", "frostedheart:tin_ingot", 200, true, true),
+        oreProcessRecipe("gold", "gold_ingot", 200, true, true),
+        oreProcessRecipe("silver", "frostedheart:silver_ingot", 200, true, true),
+        oreProcessRecipe("lead", "frostedheart:lead_ingot", 200, true, true),
+        oreProcessRecipe("zinc", "create:zinc_ingot", 200, true, true),
+
+        oreProcessRecipe("iron", "iron_ingot", 800, false, true),
+        oreProcessRecipe("pyrite", "iron_ingot", 800, false, false),
+        oreProcessRecipe("nickel", "frostedheart:nickel_ingot", 800, false, true),
+
+        oreProcessRecipe("electrum", "frostedheart:electrum_ingot", 800, false, true),
+    ]
+
+    allFurnace.forEach((recipe) => {
+		event.remove({"type":"minecraft:smelting","output":recipe.output})
+		event.remove({"type":"minecraft:blasting","output":recipe.output})
+    })
+    allFurnace.forEach((recipe) => {
+        let map = new Map()
+        if (recipe.isElement) {
+            let dust = Item.of("frostedheart:" + recipe.name + "_dust")
+            dust = dust.isEmpty() ? Item.of("immersiveengineering:dust_" + recipe.name) : dust
+            map.set(dust, 0.5)
+        }
+        let slurry = Item.of("frostedheart:" + recipe.name + "_slurry")
+        if (!slurry.isEmpty()) {
+            addSlurryRecipes(recipe.name)
+            map.set(slurry, 0.75)
+        }
+        let rawCrushed = getItem("crushed_raw_" + recipe.name, ["create", "frostedheart"]);
+        if (!rawCrushed.isEmpty()) {
+            map.set(rawCrushed, 0.75)
+        }
+        let raw = getItem("raw_" + recipe.name, ["minecraft", "create", "frostedheart", "immersiveengineering"])
+        if (!raw.isEmpty()) {
+            map.set(raw, 1)
+        }
+
+        map.forEach((impurity, input) => {
+            if (!input.isEmpty()) {
+                let time = recipe.processTime * impurity
+                if (recipe.lowMelting) {
+                    let xp = impurity <= 0.5 ? 0 : impurity;
+                    minecraft.smelting(recipe.output, input).xp(xp).cookingTime(recipe.processTime)
+                    minecraft.blasting(recipe.output, input, xp, time * 0.75)
+                }
+                let bf = immersiveengineering.blast_furnace(recipe.output, input).time(time * 0.5)
+                if (impurity > 0.5) {
+                    bf.slag("immersiveengineering:slag")
+                }
+            }
+        })
+    })
+
     let removedSmeltingAndBlasting = [
-        "minecraft:iron_ingot",
         "frostedheart:steel_ingot",
-        "frostedheart:nickel_ingot",
         "immersiveengineering:ingot_uranium",
         "frostedheart:constantan_ingot",
         "frostedheart:aluminum_ingot",
         "frostedheart:magnesium_ingot"
     ]
-
     removedSmeltingAndBlasting.forEach((result) => {
         event.remove({ type: "minecraft:smelting", output: result })
         event.remove({ type: "minecraft:blasting", output: result })
@@ -24,7 +77,6 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:storage_steel",
         "immersiveengineering:ingot_uranium"
     ]
-
     removedBlastFurnace.forEach((result) => {
         event.remove({ type: "immersiveengineering:blast_furnace", output: result })
     })
@@ -37,7 +89,6 @@ ServerEvents.recipes((event) => {
 		"create:zinc_nugget",
 		"immersiveengineering:uranium_nugget"
     ]
-
     removedSplashing.forEach((result) => {
         event.remove({ type: "create:splashing", output: result })
     })
@@ -46,21 +97,6 @@ ServerEvents.recipes((event) => {
 
 
     let normalSmeltingRecipes = [
-		["minecraft:copper_ingot", "#forge:dusts/copper", 50, false],
-		["frostedheart:lead_ingot", "#forge:dusts/lead", 50, false],
-		["frostedheart:tin_ingot", "#forge:dusts/tin", 50, false],
-		["create:zinc_ingot", "#forge:dusts/zinc", 50, false],
-		
-        ["frostedheart:silver_ingot", "#forge:raw_materials/silver", 200, true],
-        ["frostedheart:silver_ingot", "#forge:crushed_raw_materials/silver", 150, true],
-        ["frostedheart:silver_ingot", "#forge:dusts/silver", 50, false],
-        ["frostedheart:silver_ingot", "frostedheart:silver_slurry", 100, true],
-
-        ["minecraft:gold_ingot", "#forge:raw_materials/gold", 200, true],
-        ["minecraft:gold_ingot", "#forge:crushed_raw_materials/gold", 150, true],
-        ["minecraft:gold_ingot", "#forge:dusts/gold", 50, false],
-        ["minecraft:gold_ingot", "frostedheart:gold_slurry", 100, true],
-
         ["frostedheart:electrum_ingot", "#forge:dusts/electrum", 150, false],
         ["frostedheart:alumina_dust", "#forge:dusts/aluminum_hydroxide", 50, false],
 
@@ -85,46 +121,15 @@ ServerEvents.recipes((event) => {
     })
 
     let blastFurnaceRecipes = [
-	    ["minecraft:copper_ingot", "#forge:raw_materials/copper", 200, true],
-        ["minecraft:copper_ingot", "#forge:crushed_raw_materials/copper", 150, true],
-        ["minecraft:copper_ingot", "#forge:dusts/copper_oxide", 100, true],
         ["minecraft:copper_ingot", "#twr:rusted_copper", 50, true],
-		["minecraft:copper_ingot", "frostedheart:copper_slurry", 50, true],
-
-        ["frostedheart:lead_ingot", "#forge:raw_materials/lead", 200, true],
-        ["frostedheart:lead_ingot", "#forge:crushed_raw_materials/lead", 150, true],
-		["frostedheart:lead_ingot", "frostedheart:lead_slurry", 100, true],
-
-        ["frostedheart:tin_ingot", "#forge:raw_materials/tin", 200, true],
-        ["frostedheart:tin_ingot", "#forge:crushed_raw_materials/tin", 150, true],
         ["frostedheart:tin_ingot", "#forge:ingots/gray_tin", 50, true],
-		["frostedheart:tin_ingot", "frostedheart:tin_slurry", 50, true],
-
-        ["create:zinc_ingot", "#forge:raw_materials/zinc", 200, true],
-        ["create:zinc_ingot", "#forge:crushed_raw_materials/zinc", 150, true],
-        ["create:zinc_ingot", "#forge:dusts/zinc_oxide", 100, true],
-		["create:zinc_ingot", "frostedheart:zinc_slurry", 100, true],
-
         ["frostedheart:aluminum_ingot", "#forge:dusts/aluminum", 800, false],
-
-        ["minecraft:iron_ingot", "#forge:raw_materials/iron", 400, true],
-        ["minecraft:iron_ingot", "#forge:crushed_raw_materials/iron", 300, true],
         ["minecraft:iron_ingot", "#twr:rusted_iron", 200, true],
-        ["minecraft:iron_ingot", "#forge:dusts/iron", 100, false],
-		["minecraft:iron_ingot", "frostedheart:iron_slurry", 150, true],
-
-        ["minecraft:iron_ingot", "#forge:raw_materials/pyrite", 400, true],
-        ["minecraft:iron_ingot", "#forge:crushed_raw_materials/pyrite", 300, true],
-        ["minecraft:iron_ingot", "frostedheart:pyrite_slurry", 150, true],
-
-        ["frostedheart:nickel_ingot", "#forge:raw_materials/nickel", 400, true],
-        ["frostedheart:nickel_ingot", "create:crushed_raw_nickel", 300, true],
         ["frostedheart:nickel_ingot", "frostedheart:nickel_matte", 200, true],
-        ["frostedheart:nickel_ingot", "#forge:dusts/nickel", 200, false],
-        ["frostedheart:nickel_ingot", "frostedheart:nickel_slurry", 150, false],
 
         ["frostedheart:sodium_chloride_dust", "#forge:raw_materials/halite", 400, true],
         ["frostedheart:sodium_chloride_dust", "#forge:crushed_raw_materials/halite", 300, true],
+
 		['frostedheart:lead_ingot', '#forge:dusts/lead_oxide', 80, true],
         ["frostedheart:magnesia_dust", "frostedheart:crushed_raw_magnesite", 200, true],
         ["frostedheart:constantan_ingot", "#forge:dusts/constantan", 400, false],
@@ -164,19 +169,27 @@ ServerEvents.recipes((event) => {
         event.custom(recipe);
     })
 
-    let snow = [
-        'iron',
-        'copper',
-        'gold',
-        'zinc',
-        'silver',
-        'tin',
-        'pyrite',
-        'nickel',
-        'lead',
-    ]
 
-    snow.forEach((material) => {
+    
+    /**
+     * @param {string} name 
+     * @param {string} output 
+     * @param {integer} processTime 
+     * @param {boolean} lowMelting 
+     * @param {boolean} isElement
+     * @returns 
+     */
+    function oreProcessRecipe(name, output, processTime, lowMelting, isElement) {
+        return {
+            name: name,
+            output: output,
+            processTime: processTime,
+            lowMelting: lowMelting,
+            isElement: isElement
+        }
+    }
+
+    function addSlurryRecipes(material) {
         let snowball = "frostedheart:condensed_ball_" + material + "_ore";
         let snowblock = "frostedheart:condensed_" + material + "_ore_block";
         let slurry = "frostedheart:" + material + "_slurry";
@@ -200,6 +213,5 @@ ServerEvents.recipes((event) => {
         immersiveengineering.blast_furnace(slurry, snowblock).time(70);
         create.mixing([slurry, Fluid.of("water", 250)], snowblock, 30).heated();
         create.mixing([slurry, Fluid.of("water", 250)], "4x " + snowball, 30).heated();
-    })
-    
+    }
 })

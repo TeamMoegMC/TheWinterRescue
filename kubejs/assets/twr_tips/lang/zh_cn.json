@@ -52,7 +52,7 @@
   "tips.frostedheart.ponder.desc1": "思索能帮助你直观的了解一个物品或方块的用途。当物品有思索提示时长按&6[W]&r即可进入思索场景。",
 
   "tips.frostedheart.wheel_menu.title": "轮盘菜单",
-  "tips.frostedheart.wheel_menu.desc1": "按住&6[Tab]&r打开轮盘菜单即可选择一系列便捷功能，选择&b[{gui.frostedheart.wheel_menu.selection.archive}]&r可查看所有已获取的提示。",
+  "tips.frostedheart.wheel_menu.desc1": "按住&6[R]&r打开轮盘菜单即可选择一系列便捷功能，选择&b[{gui.frostedheart.wheel_menu.selection.archive}]&r可查看所有已获取的提示。",
   "tips.frostedheart.wheel_menu.desc2": "键位不够用？ 选择&b[{gui.wheel_menu.editor.edit}]&r可以添加自定义选项，包括快捷键和自定义指令，还能隐藏或调整选项顺序。",
   "tips.frostedheart.wheel_menu.desc3": "你也可以在[&b选项&r→&b按键控制&r→&b按键绑定&r→&b寒霜之心&r]中更改默认键位设置",
 
@@ -77,19 +77,21 @@
 
   "tips.frostedheart.bundle.title": "{item.minecraft.bundle}",
   "tips.frostedheart.bundle.desc1": "{item.minecraft.bundle}能储存&6“一组”&r物品，但对物品种类&6没有限制&r，因此它非常适合用来收纳零散的物品。",
-  "tips.frostedheart.bundle.desc2": "在&6背包中&r拿起拿起收纳袋或物品，右键即可将其存入，再次右键取出。",
+  "tips.frostedheart.bundle.desc2": "在&6背包中&r拿起拿起{item.minecraft.bundle}或物品，右键即可将其存入，再次右键取出。",
 
   "tips.frostedheart.shovel_and_sack.title": "铲雪锹 & 雪袋",
   "tips.frostedheart.shovel_and_sack.desc1": "{item.frostedheart.snow_shovel}，一把专门用来除雪的铲子，右键可清扫 &63x3x2&r 范围。",
   "tips.frostedheart.shovel_and_sack.desc2": "除雪获得的大量雪球可用雪袋储存。手持右键打开存取或取出，也可以设置是否&6自动拾取&r或&6销毁溢出&r的雪。",
   "tips.frostedheart.shovel_and_sack.desc3": "手持雪袋右键方块可直接放置雪块。",
 
+  "tips.frostedheart.keyhint.title": "按键提示",
+  "tips.frostedheart.keyhint.desc1": "不想看见某些提示？打开轮盘菜单，进入&b[{gui.frostedheart.edit_configs_client}]&r->&b[{hint.frostedheart.edit}]&r即可开关所有提示。",
+
   "tips.frostedheart.drinking_water.title": "饮水",
-  "tips.frostedheart.drinking_water.desc1": "保持水分，屏幕下方的蓝色条是你的水分条。和饥饿一样，脱水也会导致死亡。",
-  "tips.frostedheart.drinking_water.desc2": "对着水源按下&6[C]&r可直接饮水，但烧水明显是更安全的选择。",
-  "tips.frostedheart.drinking_water.desc3": "",
-  "tips.frostedheart.drinking_water.desc4": "",
-  "tips.frostedheart.drinking_water.desc5": "",
+  "tips.frostedheart.drinking_water.desc1": "民以食为天，但喝水也同样重要。\n温度球右侧的蓝条是你的&6水分条&r，和饱食度类似，脱水也会导致死亡。",
+  "tips.frostedheart.drinking_water.desc2": "如果你手头没有合适的容器，对着水源按下&6[C]&r可以直接饮用生水，不过烧水明显是更安全的选择。",
+  "tips.frostedheart.drinking_water.desc3": "手持&6{item.frostedheart.iron_bottle}&r对准水源右键将其装满水，在营火上煮开后就能安全饮用。",
+  "tips.frostedheart.drinking_water.desc4": "如果你不小心把&6{item.frostedheart.iron_bottle}&r丢掉了……\n用小刀削几个&6{item.frostedheart.wooden_cup}&r吧，它也能用来煮水。",
 
   "tips.frostedheart.food_source.title": "寻找食物 WIP 介绍前期食物来源",
 

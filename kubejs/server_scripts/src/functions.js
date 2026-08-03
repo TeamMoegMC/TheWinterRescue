@@ -260,6 +260,20 @@ function biomeMineResourceRecipe(biome, weights) {
     }
 }
 
+/**
+ * @returns {Internal.ItemStack}
+ */
+function getItem(name, possiblePrefixes) {
+    for (const prefix of possiblePrefixes) {
+        let item = Item.of(prefix + ":" + name)
+        if (!item.isEmpty()) {
+            return item
+        }
+    }
+    console.log("No item was found with given prefixes: " + name)
+    return Item.of("air")
+}
+
 let unificationBlacklist = [
     // unificationBlacklistEntry("quartz", "gem"),
     // unificationBlacklistEntry("quartz", "storage_block")

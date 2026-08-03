@@ -35,6 +35,11 @@
 		{
 			dependencies: ["22927212578FD12E"]
 			id: "2E8EB1DBE5675D2A"
+			rewards: [{
+				id: "288D013EB478F26A"
+				insight: 8
+				type: "frostedheart:insight"
+			}]
 			tasks: [
 				{
 					id: "5F0168A41BF7111D"
@@ -58,6 +63,11 @@
 		{
 			dependencies: ["41B5A9396D23D0CE"]
 			id: "22927212578FD12E"
+			rewards: [{
+				id: "40E9C10E38FFBB12"
+				insight: 4
+				type: "frostedheart:insight"
+			}]
 			tasks: [
 				{
 					id: "7734C9B0CBF2E85A"
@@ -82,6 +92,11 @@
 		{
 			description: ["要想给作物施肥，不能再用简单的骨粉了！你需要采用富含氮、磷、钾的三种物质，以不同比例混合，得到不同肥料！"]
 			id: "41B5A9396D23D0CE"
+			rewards: [{
+				id: "67FEDB8733F2D8CA"
+				insight: 2
+				type: "frostedheart:insight"
+			}]
 			tasks: [
 				{
 					id: "2C351452237B7A79"

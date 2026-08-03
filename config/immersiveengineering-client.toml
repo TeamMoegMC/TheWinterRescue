@@ -9,7 +9,7 @@ manualGuiScale = 4
 #Set this to true if you suffer from bad eyesight. The Engineer's manual will be switched to a bold and darker text to improve readability.
 badEyesight = false
 #Controls if item tooltips should contain the tags names of items. These tooltips are only visible in advanced tooltip mode (F3+H)
-tagTooltips = true
+tagTooltips = false
 #Increase the distance at which certain TileEntities (specifically windmills) are still visible. This is a modifier, so set it to 1 for default render distance, to 2 for doubled distance and so on.
 #Range: 0.0 ~ 1.7976931348623157E308
 increasedTileRenderdistance = 1.5

@@ -73,7 +73,8 @@ ServerEvents.recipes((event) => {
 		shapelessRecipe("kubejs:plant_fibre", "#minecraft:saplings"),
 		shapelessRecipe("kubejs:plant_fibre", "minecraft:vine"),
 		shapelessRecipe("create:basin", "minecraft:cauldron"),
-		shapelessRecipe("charcoal_pit:sandy_brick", ["frostedheart:mortar", "4x charcoal_pit:sandy_brick_item"]),
+		shapelessRecipe("charcoal_pit:sandy_tuyere", ["charcoal_pit:sandy_brick", "#forge:plates/bronze", "frostedheart:mortar"]),
+		shapelessRecipe("2x charcoal_pit:sandy_brick", ["frostedheart:mortar", "4x charcoal_pit:sandy_brick_item"]),
 		shapelessRecipe("2x frostedheart:refractory_bricks", ["frostedheart:mortar", "4x frostedheart:refractory_brick"]),
 		shapelessRecipe("2x frostedheart:high_refractory_bricks", ["frostedheart:mortar", "4x frostedheart:high_refractory_brick"]),
 		shapelessRecipe("create:gearbox", "create:vertical_gearbox"),
@@ -87,7 +88,15 @@ ServerEvents.recipes((event) => {
 		shapelessRecipe(Item.of('immersiveengineering:blueprint', '{blueprint:"bullet"}'), ['create:empty_schematic', '#forge:plates/brass'], "twr:blueprint_bullet"),
 		shapelessRecipe(Item.of('immersiveengineering:blueprint', '{blueprint:"bannerpatterns"}'), ['create:empty_schematic', '#minecraft:banners'], "twr:blueprint_bannerpatterns"),
         shapelessRecipe('slime_ball', ["#forge:dough", "#forge:dyes/lime"]),
-        shapelessRecipe('4x snowball', "snow_block")
+        shapelessRecipe('4x snowball', "snow_block"),
+        shapelessRecipe('frostedheart:metal_scaffolding', "frostedheart:metal_scaffolding_stairs"),
+        shapelessRecipe('frostedheart:metal_scaffolding_stairs', "frostedheart:metal_scaffolding"),
+        shapelessRecipe('frostedheart:wooden_scaffolding', "frostedheart:wooden_scaffolding_stairs"),
+        shapelessRecipe('frostedheart:wooden_scaffolding_stairs', "frostedheart:wooden_scaffolding"),
+        shapelessRecipe('frostedheart:timber_metal_scaffolding', "frostedheart:timber_metal_scaffolding_stairs"),
+        shapelessRecipe('frostedheart:timber_metal_scaffolding_stairs', "frostedheart:timber_metal_scaffolding"),
+        shapelessRecipe("2x frostedheart:timber_metal_scaffolding", ['frostedheart:metal_scaffolding', 'frostedheart:wooden_scaffolding']),
+        shapelessRecipe("2x frostedheart:timber_metal_scaffolding_stairs", ['frostedheart:metal_scaffolding_stairs', 'frostedheart:wooden_scaffolding_stairs']),
 
     ]
     addShapelessRecipes.forEach((recipe, index) => {
@@ -130,4 +139,24 @@ ServerEvents.recipes((event) => {
     create.splashing("kubejs:wet_coal_dust", [
         "kubejs:limed_coal"
     ])
+
+    // 面团配方
+    kubejs.shapeless("create:dough", ["#forge:flour/wheat", global.WATER_BUCKETS])
+    .replaceIngredient('minecraft:water_bucket', 'minecraft:bucket')
+    .replaceIngredient('frostedheart:ceramic_bucket', 'frostedheart:ceramic_bucket')
+
+    kubejs.shapeless("2x frostedheart:raw_rye_bread", ["2x frostedheart:rye_flour", global.WATER_BUCKETS])
+    .replaceIngredient('minecraft:water_bucket', 'minecraft:bucket')
+    .replaceIngredient('frostedheart:ceramic_bucket', 'frostedheart:ceramic_bucket')
+
+    kubejs.shapeless("3x kubejs:sawdust_rye_dough", ["2x frostedheart:rye_flour", "#forge:dusts/wood", global.WATER_BUCKETS])
+    .replaceIngredient('minecraft:water_bucket', 'minecraft:bucket')
+    .replaceIngredient('frostedheart:ceramic_bucket', 'frostedheart:ceramic_bucket')
+
+    // 刀切割
+    kubejs.shapeless("2x minecraft:bowl", ["#minecraft:planks", "#minecraft:planks", "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
+    kubejs.shapeless("frostedheart:wooden_cup", [["#minecraft:planks"], "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
+    kubejs.shapeless("4x minecraft:bowl", ["#minecraft:logs", "#minecraft:logs", "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
+    kubejs.shapeless("2x frostedheart:wooden_cup", [["#minecraft:logs"], "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
+    kubejs.shapeless("frostedresearch:charcoal", ["#forge:charcoal", "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
 })

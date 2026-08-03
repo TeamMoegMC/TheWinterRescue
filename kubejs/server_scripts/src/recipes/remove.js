@@ -1,9 +1,13 @@
 //priority = 800
 
 ServerEvents.recipes((event) => {
+
+	global.DISABLED_ITEM.forEach((disabledItem) => {
+		event.remove({ output: disabledItem })
+	})
+
 	let workbench = [
 		"supplementaries:lunch_basket",
-		"immersiveengineering:cloche",
 		"immersiveengineering:dynamo",
 		"immersiveengineering:drillhead_iron",
 		"immersiveengineering:drillhead_steel",
@@ -43,29 +47,6 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:fertilizer",
 	]
 
-	/*let Pot = [
-		"potato_souffle",
-		"perogies",
-		"moqueca",
-		"gazpacho",
-		"asparagus_soup",
-		"tea",
-		"veg_stinger",
-		"bone_soup",
-		"surf_n_turf",
-		"hot_cocoa",
-		"seafood_gumbo",
-		"tropical_bouillabaisse",
-		"mushy_cake",
-		"ceviche",
-		"avaj",
-		"iced_tea",
-		"california_roll",
-		"monster_tartare"
-	]
-	Pot.forEach((Item) => {
-		event.remove({id: "crock_pot:crock_pot_cooking/"+Item})
-	})*/
 	let shaped = [
 		"#elevatorid:elevators"
 	]
@@ -120,6 +101,7 @@ ServerEvents.recipes((event) => {
 	event.remove({ type: "immersiveengineering:turn_and_copy", output: "immersiveengineering:rs_engineering" })
 	event.remove({ type: "immersiveengineering:hammer_crushing" })
 	event.remove({ type: "immersiveengineering:generated_list" })
+	event.remove({ type: "immersiveengineering:cloche" })
 	event.remove({ type: "minecraft:crafting_shapeless", input: "immersiveengineering:hammer" })
 	event.remove({ type: "create:splashing", input: "minecraft:gravel" })
 	event.remove({ type: "create:splashing", input: "minecraft:red_sand" })
@@ -134,54 +116,6 @@ ServerEvents.recipes((event) => {
 	event.remove({ output: "create:chromatic_compound" })
 	event.remove({ type: "minecraft:blasting", output: "immersiveengineering:ingot_hop_graphite" })
 	event.remove({ type: "minecraft:smelting", output: "immersiveengineering:ingot_hop_graphite" })
-
-	let disabledItems = [
-		// stone age
-        "stone_age:dried_grass",
-        "stone_age:thatch_block",
-        "stone_age:flint_workbench",
-        "stone_age:unlit_torch",
-        'stone_age:flour',
-        "stone_age:raw_bread",
-
-
-        // charcoal pit
-        "charcoal_pit:ash_block",
-        "charcoal_pit:ash",
-        "charcoal_pit:coke_block",
-        "charcoal_pit:fertilizer",
-
-		// ie
-		"immersiveengineering:toolbox",
-		"immersiveengineering:sorter",
-		"immersiveengineering:fluid_sorter",
-		'immersiveengineering:windmill_blade',
-		'immersiveengineering:windmill_sail',
-
-		// create power devices: we have steam power
-		"create:water_wheel",
-		"create:large_water_wheel",
-		"create:cogwheel",
-		"create:large_cogwheel",
-		"create:windmill_bearing",
-		"create:steam_engine",
-
-		// create
-		"create:cart_assembler",
-
-        // materials
-        "create:crushed_raw_tin",
-        "create:crushed_raw_aluminum",
-        "immersiveengineering:raw_aluminum",
-        "immersiveengineering:raw_block_aluminum",
-        "immersiveengineering:ore_aluminum",
-        "immersiveengineering:deepslate_ore_aluminum",
-
-        "supplementaries:end_stone_lamp",
-	]
-	disabledItems.forEach((disabledItem) => {
-		event.remove({ output: disabledItem })
-	})
 
 	let recipeID = [
 		"minecraft:bucket",
@@ -232,6 +166,9 @@ ServerEvents.recipes((event) => {
         "immersiveengineering:crafting/lantern",
         "create:crafting/appliances/dough",
 		"create:crafting/appliances/slime_ball",
+		"create:copycat_step_from_ingots_zinc_stonecutting",
+		"create:copycat_panel_from_ingots_zinc_stonecutting",
+		"charcoal_pit:sandy_tuyere",
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

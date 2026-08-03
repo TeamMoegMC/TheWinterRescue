@@ -1,0 +1,1 @@
+global.WATER_BUCKETS = [Item.of('frostedheart:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').weakNBT(), "minecraft:water_bucket"]

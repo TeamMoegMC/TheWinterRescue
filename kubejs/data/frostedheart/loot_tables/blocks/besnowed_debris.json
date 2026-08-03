@@ -34,12 +34,6 @@
           "type": "minecraft:item",
           "name": "frostedheart:frozen_seeds",
           "weight": 3
-        },
-        {
-          "type": "minecraft:tag",
-          "name": "frostedheart:condensed_balls",
-          "expand": true,
-          "weight": 1
         }
       ]
     }

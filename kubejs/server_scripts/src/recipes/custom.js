@@ -137,8 +137,7 @@ ServerEvents.recipes((event) => {
         return Item.of('frostedheart:gunpowder_barrel', nbt);
     });
     // 无破坏nbt
-    let waterBuckets = [Item.of('frostedheart:ceramic_bucket', '{Fluid:{Amount:1000,FluidName:"minecraft:water"}}').weakNBT(), "minecraft:water_bucket"]
-    kubejs.shapeless(Item.of("frostedheart:gunpowder_barrel", {wontDestroyBlock: true}), ["frostedheart:gunpowder_barrel", waterBuckets])
+    kubejs.shapeless(Item.of("frostedheart:gunpowder_barrel", {wontDestroyBlock: true}), ["frostedheart:gunpowder_barrel", global.WATER_BUCKETS])
     .keepIngredient("minecraft:water_bucket")
     .keepIngredient("frostedheart:ceramic_bucket")
     .modifyResult((grid, result) => {
@@ -150,25 +149,17 @@ ServerEvents.recipes((event) => {
 
     // ------------------------------------
 
-    // 面团配方
-    kubejs.shapeless("create:dough", ["#forge:flour/wheat", waterBuckets])
-    .replaceIngredient('minecraft:water_bucket', 'minecraft:bucket')
-    .replaceIngredient('frostedheart:ceramic_bucket', 'frostedheart:ceramic_bucket')
+    kubejs.shapeless('2x create:filter', ["create:filter", "create:filter"])
+    .modifyResult((grid, result) => {
+        return grid.find('create:filter').withCount(2)
+    })
+    .id("the_winter_rescue:minecraft/crafting_shapeless/new/filter_copy")
 
-    kubejs.shapeless("2x frostedheart:raw_rye_bread", ["2x frostedheart:rye_flour", waterBuckets])
-    .replaceIngredient('minecraft:water_bucket', 'minecraft:bucket')
-    .replaceIngredient('frostedheart:ceramic_bucket', 'frostedheart:ceramic_bucket')
-
-    kubejs.shapeless("3x kubejs:sawdust_rye_dough", ["2x frostedheart:rye_flour", "#forge:dusts/wood", waterBuckets])
-    .replaceIngredient('minecraft:water_bucket', 'minecraft:bucket')
-    .replaceIngredient('frostedheart:ceramic_bucket', 'frostedheart:ceramic_bucket')
-
-    // 刀切割
-    kubejs.shapeless("2x minecraft:bowl", ["#minecraft:planks", "#minecraft:planks", "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
-    kubejs.shapeless("frostedheart:wooden_cup", [["#minecraft:planks"], "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
-    kubejs.shapeless("4x minecraft:bowl", ["#minecraft:logs", "#minecraft:logs", "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
-    kubejs.shapeless("2x frostedheart:wooden_cup", [["#minecraft:logs"], "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
-    kubejs.shapeless("frostedresearch:charcoal", ["#forge:charcoal", "#minecraft:swords"]).damageIngredient("#minecraft:swords", 1)
+    kubejs.shapeless("2x create:attribute_filter", ["create:attribute_filter", "create:attribute_filter"])
+    .modifyResult((grid, result) => {
+        return grid.find('create:attribute_filter').withCount(2)
+    })
+    .id("the_winter_rescue:minecraft/crafting_shapeless/new/attribute_filter_copy")
 
     // 钻头补充柴油
     // let displayDrill = Item.of("immersiveengineering:drill", {Fluid: {Amount: 1000, FluidName: "immersiveengineering:biodiesel"}});

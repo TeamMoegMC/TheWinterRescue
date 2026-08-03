@@ -1684,6 +1684,15 @@ ServerEvents.recipes((event) => {
                 B: "#forge:nuggets"
             }
         ],
+        [
+            "frostedheart:wooden_scaffolding", 2, [
+                "A",
+                "B"
+            ], {
+                A: "#forge:treated_wood",
+                B: "#forge:rods/treated_wood"
+            }
+        ],
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [

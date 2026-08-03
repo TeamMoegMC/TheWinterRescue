@@ -97,6 +97,12 @@
 			x: -4.5d
 			y: 13.0d
 		}
+		{
+			id: "6F90CD8611D4C443"
+			linked_quest: "05D1A52195707FA9"
+			x: -6.5d
+			y: 13.0d
+		}
 	]
 	quests: [
 		{
@@ -805,15 +811,15 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: 13.0d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			icon: "frostedheart:halite_ore"
 			id: "6A8763AC1CB99741"
 			rewards: [{
 				id: "08029C60D7BE3555"
-				insight: 1
+				insight: 3
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -830,7 +836,7 @@
 			id: "0B2F3CAC5B03D4E4"
 			rewards: [{
 				id: "59C30F3CA802944B"
-				insight: 1
+				insight: 3
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -847,7 +853,7 @@
 			id: "07B02C16818048BE"
 			rewards: [{
 				id: "1A6578E63CBF91C7"
-				insight: 1
+				insight: 3
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -864,7 +870,7 @@
 			id: "3B50BED67850F724"
 			rewards: [{
 				id: "6C482F650ED4D4E2"
-				insight: 1
+				insight: 3
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -879,6 +885,11 @@
 		{
 			description: ["{quest.twr.15B593BC4399546E.description.1}"]
 			id: "15B593BC4399546E"
+			rewards: [{
+				id: "3102495CF9EB6297"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "20CF64F5BDA772A9"
 				item: "minecraft:diamond"
@@ -889,6 +900,11 @@
 		}
 		{
 			id: "4B8E6D9B513F69AE"
+			rewards: [{
+				id: "6F4BC2C7B497FDA7"
+				insight: 1
+				type: "frostedheart:insight"
+			}]
 			tasks: [{
 				id: "72C0615E2496F335"
 				item: "minecraft:amethyst_shard"
@@ -902,7 +918,7 @@
 			id: "3F9BFC660C5B817F"
 			rewards: [{
 				id: "5C6BE35358342BF7"
-				insight: 1
+				insight: 3
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -919,7 +935,7 @@
 			id: "773FD399C0748380"
 			rewards: [{
 				id: "15140E80F7E3E251"
-				insight: 1
+				insight: 3
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -951,7 +967,7 @@
 			id: "57A7C1A0DC906035"
 			rewards: [{
 				id: "09B71C5D2A098E0A"
-				insight: 1
+				insight: 2
 				type: "frostedheart:insight"
 			}]
 			tasks: [{
@@ -979,16 +995,6 @@
 			}]
 			x: -3.5d
 			y: 8.5d
-		}
-		{
-			id: "3340A93C517B031E"
-			tasks: [{
-				id: "247A283BF6D3A807"
-				item: "frostedheart:cooled_magma_block"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 4.0d
 		}
 		{
 			id: "7E6751A6F230CF80"
