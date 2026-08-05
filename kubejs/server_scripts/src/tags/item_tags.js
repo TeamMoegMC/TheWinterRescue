@@ -80,7 +80,9 @@ ServerEvents.tags("item", (event) => {
         "#charcoal_pit:ceramic_pots",
         "charcoal_pit:clay_pot",
         "#storagedrawers:drawers",
-        "storagedrawers:compacting_drawers_3"
+        "storagedrawers:compacting_drawers_3",
+        "supplementaries:sack",
+//        "bundle"
     ])
     event.add("kubejs:fuel_stick", [
         "frostedheart:charcoal_stick",

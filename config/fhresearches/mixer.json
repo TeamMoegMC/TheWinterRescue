@@ -39,13 +39,6 @@
     {
       "type": "recipe",
       "item": {
-        "item": "create:whisk"
-      },
-      "id": "abe4ca652c6e435f"
-    },
-    {
-      "type": "recipe",
-      "item": {
         "item": "create:mechanical_mixer"
       },
       "id": "ffd2c74f98494956"
