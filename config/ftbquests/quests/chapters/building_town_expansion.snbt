@@ -72,18 +72,11 @@
 				"建筑具体结构请查看对应方块的思索。"
 			]
 			id: "33E3884BF30AFDE8"
-			tasks: [
-				{
-					id: "56D759E65CD28039"
-					item: "frostedheart:hunting_camp"
-					type: "item"
-				}
-				{
-					id: "0DCD65655BC867A2"
-					item: "frostedheart:hunting_base"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0DCD65655BC867A2"
+				item: "frostedheart:hunting_base"
+				type: "item"
+			}]
 			x: 4.0d
 			y: 2.0d
 		}

@@ -1693,6 +1693,32 @@ ServerEvents.recipes((event) => {
                 B: "#forge:rods/treated_wood"
             }
         ],
+        [
+            'frostedheart:warehouse_interface', [
+                "ABA",
+                "CDC",
+                "AEA"
+            ], {
+                A: "#forge:plates/iron",
+                B: "create:brass_funnel",
+                C: "#forge:treated_wood",
+                D: "kubejs:servo_core",
+                E: "minecraft:hopper"
+            }
+        ],
+        [
+            'frostedheart:warehouse_level_emitter', [
+                "ABA",
+                "CDC",
+                "AEA"
+            ], {
+                A: "#forge:plates/iron",
+                B: "minecraft:redstone_torch",
+                C: "#forge:wires/copper",
+                D: "minecraft:comparator",
+                E: "create:electron_tube"
+            }
+        ],
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [

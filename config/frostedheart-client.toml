@@ -34,6 +34,8 @@
 		#The position where the tip display
 		#Allowed Values: TOP_LEFT, TOP_MIDDLE, TOP_RIGHT, MIDDLE_LEFT, MIDDLE, MIDDLE_RIGHT, BOTTOM_LEFT, BOTTOM_MIDDLE, BOTTOM_RIGHT
 		tipPosition = "MIDDLE_RIGHT"
+		#Enables transient town event tips. 
+		enableTownEventTips = true
 
 	["Frosted HUD".Waypoint]
 		#Enables the waypoints rendering. 
