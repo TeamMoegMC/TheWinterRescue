@@ -1702,7 +1702,7 @@ ServerEvents.recipes((event) => {
                 A: "#forge:plates/iron",
                 B: "create:brass_funnel",
                 C: "#forge:treated_wood",
-                D: "kubejs:servo_core",
+                D: "create:electron_tube",
                 E: "minecraft:hopper"
             }
         ],
