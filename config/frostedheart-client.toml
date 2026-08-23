@@ -119,3 +119,9 @@
 	#Enable item tooltips
 	enableTooltips = true
 
+["Citizen Rendering"]
+	#Maximum awake citizens rendered through the vanilla-quality client entity path.
+	#Other visible citizens continue through the batched crowd renderer. Zero disables detailed citizen entities.
+	#Range: 0 ~ 128
+	maxDetailedCitizenEntities = 64
+

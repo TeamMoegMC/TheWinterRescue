@@ -1,9 +1,7 @@
 {
   "icon": "charcoal_pit:mechanical_bellows",
   "category": "frostedheart:ars",
-  "parents": [
-    "workbench"
-  ],
+  "parents": [],
   "clues": [
     {
       "type": "item",

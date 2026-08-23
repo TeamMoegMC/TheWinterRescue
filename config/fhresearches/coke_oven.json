@@ -1,9 +1,7 @@
 {
   "icon": "immersiveengineering:coal_coke",
   "category": "frostedheart:ars",
-  "parents": [
-    "workbench"
-  ],
+  "parents": [],
   "clues": [
     {
       "type": "game",

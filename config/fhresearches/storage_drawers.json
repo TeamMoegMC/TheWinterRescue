@@ -5,9 +5,7 @@
     "small": "frostedheart:biomass"
   },
   "category": "frostedheart:ars",
-  "parents": [
-    "workbench"
-  ],
+  "parents": [],
   "clues": [
     {
       "type": "item",

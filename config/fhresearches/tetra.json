@@ -5,9 +5,7 @@
     "small": "frostedheart:bronze_pickaxe"
   },
   "category": "frostedheart:ars",
-  "parents": [
-    "workbench"
-  ],
+  "parents": [],
   "clues": [
     {
       "type": "game",
