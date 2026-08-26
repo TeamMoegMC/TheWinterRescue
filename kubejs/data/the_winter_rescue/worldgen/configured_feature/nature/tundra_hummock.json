@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:moss_block"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "frostedheart:peat_permafrost"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "frostedheart:coarse_dirt_permafrost"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "frostedheart:gravel_permafrost"
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

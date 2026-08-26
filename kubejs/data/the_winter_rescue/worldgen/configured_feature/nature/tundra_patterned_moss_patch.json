@@ -11,45 +11,51 @@
           "data": {
             "Name": "minecraft:moss_block"
           },
-          "weight": 4
+          "weight": 5
         },
         {
           "data": {
             "Name": "minecraft:mud"
           },
-          "weight": 1
+          "weight": 2
         },
         {
           "data": {
             "Name": "frostedheart:mud_permafrost"
           },
-          "weight": 1
+          "weight": 2
         },
         {
           "data": {
             "Name": "frostedheart:peat"
           },
-          "weight": 1
+          "weight": 2
         },
         {
           "data": {
             "Name": "frostedheart:peat_permafrost"
           },
-          "weight": 1
+          "weight": 2
         },
         {
           "data": {
-            "Name": "frostedheart:rotten_wood_block"
+            "Name": "frostedheart:coarse_dirt_permafrost"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "frostedheart:gravel_permafrost"
           },
           "weight": 1
         }
       ]
     },
-    "replaceable": "#minecraft:moss_replaceable",
+    "replaceable": "#the_winter_rescue:tundra_moss_replaceable",
     "surface": "floor",
-    "vegetation_chance": 0.8,
+    "vegetation_chance": 0.3,
     "vegetation_feature": {
-      "feature": "the_winter_rescue:nature/tundra_moss_vegetation",
+      "feature": "the_winter_rescue:nature/tundra_low_vegetation",
       "placement": []
     },
     "vertical_range": 5,
@@ -57,8 +63,8 @@
       "type": "minecraft:clamped_normal",
       "value": {
         "deviation": 2,
-        "max_inclusive": 10,
-        "mean": 4,
+        "max_inclusive": 8,
+        "mean": 3,
         "min_inclusive": 1
       }
     }

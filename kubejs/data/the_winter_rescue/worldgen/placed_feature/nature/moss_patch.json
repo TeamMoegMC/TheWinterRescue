@@ -1,9 +1,9 @@
 {
-  "feature": "the_winter_rescue:nature/tundra_moss_patch",
+  "feature": "the_winter_rescue:nature/tundra_patterned_moss_patch",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 125
+      "count": 12
     },
     {
       "type": "minecraft:in_square"

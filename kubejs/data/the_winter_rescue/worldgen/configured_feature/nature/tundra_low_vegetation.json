@@ -8,31 +8,31 @@
           "data": {
             "Name": "minecraft:moss_carpet"
           },
-          "weight": 300
+          "weight": 120
         },
         {
           "data": {
             "Name": "frostedheart:besnowed_twigs"
           },
-          "weight": 10
+          "weight": 15
         },
         {
           "data": {
             "Name": "frostedheart:besnowed_debris"
           },
-          "weight": 20
+          "weight": 25
         },
         {
           "data": {
             "Name": "minecraft:snow"
           },
-          "weight": 300
+          "weight": 60
         },
         {
           "data": {
             "Name": "minecraft:grass"
           },
-          "weight": 30
+          "weight": 25
         },
         {
           "data": {
@@ -44,22 +44,13 @@
           "data": {
             "Name": "frostedheart:rotten_wood_block"
           },
-          "weight": 5
+          "weight": 3
         },
         {
           "data": {
             "Name": "minecraft:dead_bush"
           },
-          "weight": 5
-        },
-        {
-          "data": {
-            "Name": "minecraft:sweet_berry_bush",
-            "Properties": {
-              "age": "3"
-            }
-          },
-          "weight": 1
+          "weight": 8
         },
         {
           "data": {

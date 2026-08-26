@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:moss_replaceable",
+    "frostedheart:dirt_permafrost",
+    "frostedheart:coarse_dirt_permafrost",
+    "frostedheart:gravel_permafrost",
+    "frostedheart:mud_permafrost",
+    "frostedheart:peat_permafrost"
+  ]
+}

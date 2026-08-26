@@ -1407,6 +1407,129 @@
                           }
                         },
                         {
+                          "__comment__": "Tundra patterned ground: stone, frost-sorted gravel, wet peat, moss and exposed permafrost.",
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:biome",
+                            "biome_is": [
+                              "the_winter_rescue:tundra"
+                            ]
+                          },
+                          "then_run": {
+                            "type": "minecraft:sequence",
+                            "sequence": [
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:steep"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:stone"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "max_threshold": 0.06,
+                                  "min_threshold": -0.06,
+                                  "noise": "the_winter_rescue:tundra/detail"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "frostedheart:gravel_permafrost"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "max_threshold": -0.58,
+                                  "min_threshold": -1e+308,
+                                  "noise": "the_winter_rescue:tundra/detail"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:snow_block"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "max_threshold": 1e+308,
+                                  "min_threshold": 0.55,
+                                  "noise": "the_winter_rescue:tundra/detail"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:cobblestone"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "max_threshold": 1e+308,
+                                  "min_threshold": 0.48,
+                                  "noise": "the_winter_rescue:tundra/patches"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "frostedheart:mud_permafrost"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "max_threshold": 0.48,
+                                  "min_threshold": 0.28,
+                                  "noise": "the_winter_rescue:tundra/patches"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "frostedheart:peat_permafrost"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:condition",
+                                "if_true": {
+                                  "type": "minecraft:noise_threshold",
+                                  "max_threshold": 0.28,
+                                  "min_threshold": -0.18,
+                                  "noise": "the_winter_rescue:tundra/patches"
+                                },
+                                "then_run": {
+                                  "type": "minecraft:block",
+                                  "result_state": {
+                                    "Name": "minecraft:moss_block"
+                                  }
+                                }
+                              },
+                              {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                  "Name": "frostedheart:dirt_permafrost"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
                           "__comment__": "Default grass block placement. Place dirt if underwater.",
                           "type": "minecraft:sequence",
                           "sequence": [
