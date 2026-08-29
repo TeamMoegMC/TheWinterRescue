@@ -1,6 +1,6 @@
 
-@actTitle t="Crashed in the frozen planet" st="Finish dialog"
-@showTitle t="Chapter 1 Act 1" st="Crashed in the frozen planet"
+@actTitle t="Crashed on the frozen planet" st="Finish dialog"
+@showTitle t="Chapter 1 Act 1" st="Crashed on the frozen planet"
 @delay t=60
 
 @if exp="client.preloguePlayed"
@@ -18,7 +18,7 @@ Do you want to skip the prologue story cinematic?[r]
 *begintext
 @mobEffect e="frostedheart:insulation" a=0 t=3600 hide=1
 @stopbgm
-Ouch, Ouch, where am I? What am I doing? [l][er]
+Ouch, Ouch, where am I? What happened? [l][er]
 This is ... shuttle cabin. I am ...[delay t=20]I am ...[l][er]
 
 *tesst
@@ -47,7 +47,7 @@ This is ... shuttle cabin. I am ...[delay t=20]I am ...[l][er]
 @ImageLayer n=layer1 s=twr_scenario:1.jpg
 @showLayer t=20 trans=fadein
 @wtr
-Since I could remember, the Earth is white. [l]
+Ever since I could remember, the Earth was white. [l]
 @startLayer
 @freeLayer n=layer1
 @showLayer t=20 trans=fadeout
@@ -58,14 +58,14 @@ Since I could remember, the Earth is white. [l]
 @showLayer t=20 trans=fadeout
 @wr
 
-I live in Columbiat along with a million of others. [l]It prides as the largest among all. A self-sustaining space settlement orbiting the once-blue planet.[l][delay t=40]
+I live on Columbiat along with a million others. [l]It prides itself on being the largest among all. A self-sustaining space settlement orbiting the once-blue planet.[l][delay t=40]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:3.jpg
 @FillRect n=overlay clr=0xFF000000 w=1024 x=1024
 @showLayer t=60 trans=overdown
 @wr
 @er
-It was meant to be an ark, but it never lasts.[l]
+It was meant to be an ark, but that never lasted.[l]
 @startLayer
 @freeLayer n=overlay
 @showLayer t=60 trans=overup
@@ -76,7 +76,7 @@ It became a paradise for the few, floating above the frozen hell underneath, whe
 @showLayer t=40 trans=left
 @wr
 @er
-Memory fades too. People, the New Generation, started to forget the Apocalypse that froze everything. The bill has passed[l] - no support is going to Earth people again.[l]
+Memory fades too. People, the New Generation, started to forget the Apocalypse that froze everything. The bill has passed[l] - no support was going to Earth's people again.[l]
 @startLayer
 @freeLayer n=layer1
 @showLayer t=20 trans=fadeout
@@ -99,7 +99,7 @@ All my loved ones were taken by the frost.[l]
 @freeLayer n=overlay2
 @showLayer t=40 trans=overup
 @wr
-Thousands of others lived with same sorrow.[l]
+Thousands of others lived with the same sorrow.[l]
 @startLayer
 @freeLayer n=layer1
 @FillRect n=bg clr=0xFF000000 z=-999
@@ -113,12 +113,12 @@ Thousands of others lived with same sorrow.[l]
 @wtr
 @delay t=20
 @startLayer
-@TextLayer n=tl text="And I know, there is still a hope, " resize=18 y=567 x=688 clr=0xFFFFFFFF
+@TextLayer n=tl text="And I know, there is still hope, " resize=18 y=567 x=688 clr=0xFFFFFFFF
 @showLayer t=20 trans=fadein
 @wtr
 @delay t=20 
 @startLayer
-@TextLayer n=tl text="And I know, there is still a hope, a faint hope." resize=18 y=567 x=688 clr=0xFFFFFFFF
+@TextLayer n=tl text="And I know, there is still hope, a faint hope." resize=18 y=567 x=688 clr=0xFFFFFFFF
 @showLayer t=20 trans=fadein
 @wtr
 @delay t=40 
@@ -132,7 +132,7 @@ Thousands of others lived with same sorrow.[l]
 @ImageLayer n=layer1 s=twr_scenario:6.jpg
 @showLayer t=80 trans=overup
 @wr
-Twenty years ago, the bravest of humanity led an expedition of no return into the crust of Earth. Their leader was my mother, whom I never said goodbye too.[l]
+Twenty years ago, the bravest of humanity led an expedition of no return into the crust of the Earth. Their leader was my mother, whom I never said goodbye to.[l]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:7.jpg
 @FillRect n=overlay1 clr=0xFF000000 w=566
@@ -166,7 +166,7 @@ but only left us with prolonged despair.[l]
 @showLayer t=40 trans=fadein
 @wr
 @er
-I don’t trust miracles, as I grow up as a scientist.[wc]
+I don’t believe in miracles, as I grew up as a scientist.[wc]
 @startLayer
 @freeLayer n=overlay1
 @showLayer t=20 trans=fadeout
@@ -181,7 +181,7 @@ morse code, ASCII characters.[wc]
 @freeLayer n=overlay3
 @showLayer t=20 trans=fadeout
 @wr
-It was a simple word — my nickname — that only two people in the world knows.[l]
+It was a simple word — my nickname — the one only two people in the world knew.[l]
 *half
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:9.jpg
@@ -190,7 +190,7 @@ It was a simple word — my nickname — that only two people in the world knows
 @er
 I know it is her calling me… I’ve been waiting for twenty years.[l]
 @wr
-The anomaly was above the Yellowstone, now a dangerous frost land above an ever-active volcano.[l]
+The anomaly was above Yellowstone, now a dangerous frost land above an ever-active volcano.[l]
 @startLayer
 @ImageLayer n=layer1 s=twr_scenario:10.jpg
 @showLayer t=60 trans=right
@@ -202,7 +202,7 @@ A miracle that was my fantasy — that was their narrative. Thus I embark on a l
 @showLayer t=40 trans=up
 @wr
 @er
-“CS Frosted Heart” — the shuttle we onboard. But our hearts were never frozen — our hearts were burning as coal.[l]
+“CS Frosted Heart” — that was the name of the shuttle we boarded. But our hearts were never frozen — our hearts were burning like coal.[l]
 @startLayer
 @freeLayer n=layer1
 @showLayer t=40 trans=fadeout
@@ -234,8 +234,8 @@ A miracle that was my fantasy — that was their narrative. Thus I embark on a l
 *endcutsence
 @delay t=20
 [NoWait] :[EndNoWait]Finally you are awake.@p
-[NoWait]Me: [EndNoWait]Who? @p 
-[NoWait] :[EndNoWait]I'm your Integrated Intelligent Assistant, also as IIA. Crash detected, perform crashed checklist? @p
+[NoWait]Me: [EndNoWait]Who are you? @p 
+[NoWait] :[EndNoWait]I'm your Integrated Intelligent Assistant, also known as IIA. Crash detected, perform crash checklist? @p
 [NoWait]Me :[EndNoWait]Perform.@p
 *chk
 [NoWait]IIA :[EndNoWait]Thrusters :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Navigation :[delay t=20][NoWait]&cNo response. &r[EndNoWait]
@@ -246,14 +246,14 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @wa
 *sel1
 @p
-[NoWait]IIA :[EndNoWait]Reinitiating crashed checklist...@p
+[NoWait]IIA :[EndNoWait]Reinitiating crash checklist...@p
 @jump l=*chk
 *sel2
 @p
-[NoWait]Me :[EndNoWait]Well, we have to abandon ship, before that, let's take down the intact radar. Hopefully it can provide us a basic weather forecast. [l]Ok, let's turn it on. [wc][setResearchAttribute k=has_forecast v=1]@p
-[NoWait]Me :[EndNoWait]Weather forecast is now available, seems a snowstorm is coming in three days, what should we do? @p
-[NoWait]IIA :[EndNoWait]Suggest: seek for rescue.@p
-[NoWait]Me :[EndNoWait]No one could save us, we have to save ourselves@p
+[NoWait]Me :[EndNoWait]Well, we have to abandon ship, before that, let's take down the intact radar. Hopefully it can provide us with a basic weather forecast. [l]Ok, let's turn it on. [wc][setResearchAttribute k=has_forecast v=1]@p
+[NoWait]Me :[EndNoWait]Weather forecast is now available, looks like a snowstorm is coming in three days, what should we do? @p
+[NoWait]IIA :[EndNoWait]Suggestion: seek rescue.@p
+[NoWait]Me :[EndNoWait]No one can save us, we have to save ourselves@p
 *demotemperature
 @hudDialog show=1
 @startLayer
@@ -276,9 +276,9 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 *cla
 @hudDialog show=0
 @p
-[NoWait]Me：[EndNoWait]Before I leave, I should check out resources and tools I have.[l]
+[NoWait]Me：[EndNoWait]Before I leave, I should check what resources and tools I have.[l]
 @r
-（Checking out the ship...）
+（Checking the ship...）
 @delay t=40
 @p
 
@@ -293,61 +293,61 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @label name=heat_tutorial
 @mobEffect e="frostedheart:insulation" a=0 t=6000 hide=1
 @p
-[NoWait]Me：[EndNoWait]Spacesuit is severely broken, but the battery can still keep me warm fro five minutes.[l]
+[NoWait]Me：[EndNoWait]The spacesuit is severely damaged, but the battery can still keep me warm for five minutes.[l]
 @r
 （Press [E] to open Inventory. You obtained Insulation, unaffected by any temperature effect for five minutes.）
 @r
-[link l=water_tutorial]&e[Understood, click to continue check resources.]&r[endlink]@wa
+[link l=water_tutorial]&e[Understood, click to continue checking for resources.]&r[endlink]@wa
 
 @label name=water_tutorial
 @giveItem i=frostedheart:iron_bottle n="{Damage:0,Fluid:{FluidName:\"frostedheart:purified_water\",Amount:1000}}"
 @p
-[NoWait]Me：[EndNoWait]Water bottle is also found. Clean water inside. But what about later?[l]
+[NoWait]Me：[EndNoWait]I also found a water bottle. There's clean water inside. But what about later?[l]
 @r
-（The blue hemisphere on the right of the Feeling Temperature Orb represents Water Level in your body.）
+（The blue hemisphere on the right of the Feeling Temperature Orb represents the Water Level in your body.）
 @r
-（Sneak-R-Click a water source to drink unclean water, but you may get poisoned.）
+（You can Sneak-R-Click a water source to drink unclean water, but you may get poisoned.）
 @r
-[link l=nutrition_tutorial]&e[Understood, click to continue check resources.]&r[endlink]@wa
+[link l=nutrition_tutorial]&e[Understood, click to continue checking for resources.]&r[endlink]@wa
 
 @label name=nutrition_tutorial
 @giveItem i=frostedheart:military_rations c=16
 @p
-[NoWait]Me：[EndNoWait]Military Rations from Columbiat aren't best, but can keep me healthy for some time.[l]
+[NoWait]Me：[EndNoWait]Military Rations from Columbiat aren't the best, but they can keep me healthy for some time.[l]
 @r
-（Press [E] to open Inventory, move the mouse over a food, and press [N] to view its nutrition.）
+（Press [E] to open Inventory, move the mouse over the food item, and press [N] to view its nutritional info.）
 @r
 @displayTip id="wheel_menu"
-（Press [TAB] to open Radial Menu, select Health Info to check Nutrition Level.）
+（Press [TAB] to open the Radial Menu, select Health Info to check your Nutrition Level.）
 @r
-（When kept in a healthy range, you can prevent disease and gain buffs.）
+（Keeping it in a healthy range can prevent disease and provide buffs.）
 @r
-[link l=clothing_tutorial]&e[Completed, click to continue check resources.]&r[endlink]@wa
+[link l=clothing_tutorial]&e[Completed, click to continue checking for resources.]&r[endlink]@wa
 
 @label name=clothing_tutorial
 @giveItem i=frostedheart:rabbit_fur_gloves c=1
 @p
-[NoWait]Me：[EndNoWait]This pair of Rabbit Fur Gloves are the gift from my best friend before I leave.[l]
+[NoWait]Me：[EndNoWait]This pair of Rabbit Fur Gloves were a gift from my best friend before I left.[l]
 @r
-（Press [TAB] to open Radial Menu, select View Clothing, and place Rabbit Fur Gloves on both hands.）
+（Press [TAB] to open the Radial Menu, select View Clothing, and place the Rabbit Fur Gloves on both hands.）
 @r
 [link l=clothing_properties]&e[Completed, click to continue.]&r[endlink]@wa
 
 @label name=clothing_properties
 @p
-(On every body part, outer clothes weigh more on Fluid Resistance, better when encountering Water or Wind.)@p
+(On any body part, outer clothes have a greater effect on Fluid Resistance, which can help when encountering Water or Wind.)@p
 @r
-(On contrary, inner clothes weigh more on Insulation. You should design your outfit based on different properties.)@p
+(On the contrary, inner clothes have a greater effect on Insulation. You should design your outfit based on different properties.)@p
 @r
-[link l=tools_tutorial]&e[Understood, click to continue check resources.]&r[endlink]@wa
+[link l=tools_tutorial]&e[Understood, click to continue checking for resources.]&r[endlink]@wa
 
 @label name=tools_tutorial
 @giveItem i=minecraft:iron_shovel
 @giveItem i=frostedheart:magnesium_nugget c=3
 @p
-[NoWait]Me：[EndNoWait]This piece of Fire Shovel has been in the corner for a while. Time to take it.[l]
+[NoWait]Me：[EndNoWait]This Fire Shovel has been in the corner for a while. Time to take it.[l]
 @r
-[NoWait]Me：[EndNoWait]Here are also few Magnesium Nuggets, useful for making a fire.[l]
+[NoWait]Me：[EndNoWait]There are also some Magnesium Nuggets, useful for making a fire.[l]
 @r
 （Shovels can uncover Besnowed Twigs and Debris.）
 @r
