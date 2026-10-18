@@ -1719,6 +1719,17 @@ ServerEvents.recipes((event) => {
                 E: "create:electron_tube"
             }
         ],
+        [
+            'frostedheart:transport_station', [
+                "BAB",
+                "ACA",
+                "BAB"
+            ], {
+                A: "#minecraft:planks",
+                B: "minecraft:stone_bricks",
+                C: "minecraft:minecart"
+            }
+        ],
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [
