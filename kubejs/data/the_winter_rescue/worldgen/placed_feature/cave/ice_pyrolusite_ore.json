@@ -3,7 +3,7 @@
     "type": "frostedheart:cave_pyrolusite",
     "config": {
       "discard_chance_on_air_exposure": 0,
-      "size": 30,
+      "size": 21,
       "targets": [
         {
           "state": {

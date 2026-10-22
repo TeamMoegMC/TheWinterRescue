@@ -26,9 +26,7 @@
     "water_fog_color": 329011
   },
   "features": [
-    [
-      "the_winter_rescue:cave/icicle"
-    ],
+    [],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
@@ -85,16 +83,19 @@
     ],
     [
       "minecraft:glow_lichen",
-      "the_winter_rescue:cave/ice_cave_surface"
+      "the_winter_rescue:cave/ice_cave_surface",
+      "the_winter_rescue:cave/ice_cave_ice_blob",
+      "the_winter_rescue:cave/ice_cave_large_ice",
+      "the_winter_rescue:cave/ice_cave_spike",
+      "the_winter_rescue:cave/ice_cave_trap",
+      "the_winter_rescue:cave/ice_cave_decoration"
     ],
     []
   ],
   "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [
-
-    ],
+    "ambient": [],
     "axolotls": [],
     "creature": [],
     "misc": [],
