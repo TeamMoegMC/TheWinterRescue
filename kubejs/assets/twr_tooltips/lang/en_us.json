@@ -272,5 +272,23 @@
 
   "item.frostedheart.ice_chip.tooltip.summary": "A small piece of ice, melt it in the stew pot.",
 
-  "block.create.limestone.tooltip.summary": "Can be found at the riverbeds or in the caves."
+  "block.create.limestone.tooltip.summary": "Can be found at the riverbeds or in the caves.",
+
+  "item.frostedheart.warm_stone.tooltip.summary": "A _Wearable Thermal Reservoir_ that exchanges heat with its wearer.",
+  "item.frostedheart.warm_stone.tooltip.condition1": "When Equipped In The Dedicated Warm Stone Curios Slot",
+  "item.frostedheart.warm_stone.tooltip.behaviour1": "Exchanges heat with the body in _Both Directions_.",
+  "item.frostedheart.warm_stone.tooltip.condition2": "When Dropped Beside A Registered Physical Heat Source",
+  "item.frostedheart.warm_stone.tooltip.behaviour2": "Charges from the environment, such as a burning _Campfire_.",
+  "item.frostedheart.warm_stone.tooltip.condition3": "When Stored In An Unticked Container",
+  "item.frostedheart.warm_stone.tooltip.behaviour3": "Its temperature evolution _Pauses_.",
+
+  "item.frostedheart.hot_water_bag.tooltip.summary": "A larger _Wearable Thermal Reservoir_ for carrying stored warmth.",
+  "item.frostedheart.hot_water_bag.tooltip.condition1": "When Equipped In The Dedicated Warm Stone Curios Slot",
+  "item.frostedheart.hot_water_bag.tooltip.behaviour1": "Exchanges heat with the body in _Both Directions_.",
+  "item.frostedheart.hot_water_bag.tooltip.condition2": "When Filled With A Cup Of Hot Water",
+  "item.frostedheart.hot_water_bag.tooltip.behaviour2": "Its core and surface begin at _60 degC_.",
+  "item.frostedheart.hot_water_bag.tooltip.condition3": "When Dropped Beside A Registered Physical Heat Source",
+  "item.frostedheart.hot_water_bag.tooltip.behaviour3": "Charges from the environment, such as a burning _Campfire_.",
+  "item.frostedheart.hot_water_bag.tooltip.condition4": "When Stored In An Unticked Container",
+  "item.frostedheart.hot_water_bag.tooltip.behaviour4": "Its temperature evolution _Pauses_."
 }

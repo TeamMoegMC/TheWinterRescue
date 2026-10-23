@@ -270,6 +270,23 @@
 
   "item.frostedheart.ice_chip.tooltip.summary": "一小块冰，在汤锅中将其融化成水。",
 
-  "block.create.limestone.tooltip.summary": "可在河床底部或洞穴中找到。"
+  "block.create.limestone.tooltip.summary": "可在河床底部或洞穴中找到。",
+
+  "item.frostedheart.warm_stone.tooltip.summary": "可穿戴的_热库_，会与佩戴者交换热量。",
+  "item.frostedheart.warm_stone.tooltip.condition1": "装备在专用_暖石_饰品槽时",
+  "item.frostedheart.warm_stone.tooltip.behaviour1": "会与身体_双向_交换热量。",
+  "item.frostedheart.warm_stone.tooltip.condition2": "丢在已注册的物理热源旁时",
+  "item.frostedheart.warm_stone.tooltip.behaviour2": "会从环境充热，例如点燃的_篝火_。",
+  "item.frostedheart.warm_stone.tooltip.condition3": "放在不会 tick 的容器中时",
+  "item.frostedheart.warm_stone.tooltip.behaviour3": "温度演化会_暂停_。",
+
+  "item.frostedheart.hot_water_bag.tooltip.summary": "热容更大的可穿戴_热库_，可携带储存的温暖。",
+  "item.frostedheart.hot_water_bag.tooltip.condition1": "装备在专用_暖石_饰品槽时",
+  "item.frostedheart.hot_water_bag.tooltip.behaviour1": "会与身体_双向_交换热量。",
+  "item.frostedheart.hot_water_bag.tooltip.condition2": "用一杯热水灌装时",
+  "item.frostedheart.hot_water_bag.tooltip.behaviour2": "内部和表面均以_60 degC_开始。",
+  "item.frostedheart.hot_water_bag.tooltip.condition3": "丢在已注册的物理热源旁时",
+  "item.frostedheart.hot_water_bag.tooltip.behaviour3": "会从环境充热，例如点燃的_篝火_。",
+  "item.frostedheart.hot_water_bag.tooltip.condition4": "放在不会 tick 的容器中时",
+  "item.frostedheart.hot_water_bag.tooltip.behaviour4": "温度演化会_暂停_。"
 }
-  

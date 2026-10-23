@@ -1720,6 +1720,56 @@ ServerEvents.recipes((event) => {
             }
         ],
         [
+            'frostedheart:shipping_terminal', [
+                "ABA",
+                "CDC",
+                "AEA"
+            ], {
+                A: "#forge:plates/iron",
+                B: "create:brass_funnel",
+                C: "#forge:wires/copper",
+                D: "kubejs:servo_core",
+                E: "minecraft:hopper"
+            }
+        ],
+        [
+            'frostedheart:receiving_terminal', [
+                "AEA",
+                "CDC",
+                "ABA"
+            ], {
+                A: "#forge:plates/iron",
+                B: "create:brass_funnel",
+                C: "#forge:wires/copper",
+                D: "kubejs:servo_core",
+                E: "minecraft:hopper"
+            }
+        ],
+        [
+            'frostedheart:bidirectional_logistics_terminal', [
+                "ABA",
+                "CDC",
+                "AEA"
+            ], {
+                A: "#forge:plates/iron",
+                B: "frostedheart:shipping_terminal",
+                C: "#forge:wires/copper",
+                D: "create:electron_tube",
+                E: "frostedheart:receiving_terminal"
+            }
+        ],
+        [
+            'frostedheart:freight_route_card', [
+                " A ",
+                "BCB",
+                " A "
+            ], {
+                A: "#forge:wires/copper",
+                B: "minecraft:paper",
+                C: "minecraft:redstone"
+            }
+        ],
+        [
             'frostedheart:transport_station', [
                 "BAB",
                 "ACA",

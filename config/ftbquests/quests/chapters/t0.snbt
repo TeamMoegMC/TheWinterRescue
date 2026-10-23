@@ -992,6 +992,35 @@
 			x: 14.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["20E34B234337C28A"]
+			description: [
+				"{quest.twr.6A97729E570341EF.description.1}"
+				"{quest.twr.6A97729E570341EF.description.2}"
+				"{quest.twr.6A97729E570341EF.description.3}"
+				"{quest.twr.6A97729E570341EF.description.4}"
+			]
+			hide_until_deps_visible: false
+			icon: "frostedheart:warm_stone"
+			id: "6A97729E570341EF"
+			optional: true
+			subtitle: "{quest.twr.6A97729E570341EF.subtitle}"
+			tasks: [
+				{
+					id: "8B23B7EE648A4E0C"
+					item: "frostedheart:warm_stone"
+					type: "item"
+				}
+				{
+					id: "4B4914E91A3A4F79"
+					item: "frostedheart:hot_water_bag"
+					type: "item"
+				}
+			]
+			title: "{quest.twr.6A97729E570341EF.title}"
+			x: 19.5d
+			y: 2.0d
+		}
 	]
 	subtitle: ["{chapter.twr.0C07C58470EE031C.subtitle.0}"]
 	title: "{chapter.twr.0C07C58470EE031C.title}"
