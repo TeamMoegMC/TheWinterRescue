@@ -26,9 +26,7 @@
     "water_fog_color": 329011
   },
   "features": [
-    [
-      "the_winter_rescue:cave/icicle"
-    ],
+    [],
     [
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
@@ -40,9 +38,17 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "the_winter_rescue:cave/ice_cave_spring"
+    ],
     [],
     [
+      "the_winter_rescue:cave/ice_pyrite_ore",
+      "the_winter_rescue:cave/ice_pyrolusite_ore",
+      "the_winter_rescue:cave/ice_pyrolusite_ore_generic",
+      "the_winter_rescue:cave/ice_zinc_ore",
+      "the_winter_rescue:cave/ice_lead_ore",
+      "the_winter_rescue:cave/ice_silver_ore",
       "minecraft:ore_gravel",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
@@ -76,16 +82,21 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "the_winter_rescue:cave/ice_cave_surface",
+      "the_winter_rescue:cave/ice_cave_ice_blob",
+      "the_winter_rescue:cave/ice_cave_large_ice",
+      "the_winter_rescue:cave/ice_cave_spike",
+      "the_winter_rescue:cave/ice_cave_trap",
+      "the_winter_rescue:cave/ice_cave_decoration",
+      "the_winter_rescue:cave/ice_cave_small_crystal"
     ],
     []
   ],
   "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [
-
-    ],
+    "ambient": [],
     "axolotls": [],
     "creature": [],
     "misc": [],

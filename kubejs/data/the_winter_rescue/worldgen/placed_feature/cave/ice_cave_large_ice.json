@@ -1,0 +1,64 @@
+{
+  "feature": {
+    "type": "frostedheart:ice_cave_large_ice",
+    "config": {
+      "floor_to_ceiling_search_range": 40,
+      "column_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 3,
+          "max_inclusive": 5
+        }
+      },
+      "height_scale": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0.6,
+          "max_exclusive": 1.1
+        }
+      },
+      "max_column_radius_to_cave_height_ratio": 0.25,
+      "stalactite_bluntness": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0.7,
+          "max_exclusive": 1.5
+        }
+      },
+      "stalagmite_bluntness": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0.7,
+          "max_exclusive": 1.5
+        }
+      },
+      "wind_speed": 0.0,
+      "min_radius_for_wind": 6,
+      "min_bluntness_for_wind": 0.9
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 10
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -48
+        },
+        "max_inclusive": {
+          "absolute": 60
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
