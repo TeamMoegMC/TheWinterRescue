@@ -318,7 +318,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 （Press [E] to open Inventory, move the mouse over a food, and press [N] to view its nutrition.）
 @r
 @displayTip id="wheel_menu"
-（Press [TAB] to open Radial Menu, select Health Info to check Nutrition Level.）
+（Press [R] to open Radial Menu, select Health Info to check Nutrition Level.）
 @r
 （When kept in a healthy range, you can prevent disease and gain buffs.）
 @r
@@ -329,7 +329,7 @@ Reactors :[delay t=20][NoWait]&cNo response. &r[EndNoWait]Radio :[delay t=20][No
 @p
 [NoWait]Me：[EndNoWait]This pair of Rabbit Fur Gloves are the gift from my best friend before I leave.[l]
 @r
-（Press [TAB] to open Radial Menu, select View Clothing, and place Rabbit Fur Gloves on both hands.）
+（Press [R] to open Radial Menu, select View Clothing, and place Rabbit Fur Gloves on both hands.）
 @r
 [link l=clothing_properties]&e[Completed, click to continue.]&r[endlink]@wa
 

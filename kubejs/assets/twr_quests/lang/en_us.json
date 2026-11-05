@@ -307,7 +307,7 @@
 	"quest.twr.2148082183BBDF76.description.3": "The calculator &chas no interface&r. &eAfter starting research&r, &cright-click&r the calculator to get the internal tech points, but this will reset the current ongoing calculation. Wearing goggles allows you to view the working status and accumulated tech points.",
 	"quest.twr.2148082183BBDF76.subtitle": "Increasing Computational Power is the First Priority",
 	"quest.twr.2148082183BBDF76.title": "{block.frostedresearch.mechanical_calculator}",
-	"quest.twr.215BC2E7271F1478.description.1": "Press &6[TAB]&r to open the wheel and select to view nutrition values.",
+	"quest.twr.215BC2E7271F1478.description.1": "Press &6[R]&r to open the radial menu and select to view nutrition values.",
 	"quest.twr.215BC2E7271F1478.description.2": " ",
 	"quest.twr.215BC2E7271F1478.description.3": "Increasing nutrition values can &aincrease maximum health&r and grant some &apositive effects&r.",
 	"quest.twr.215BC2E7271F1478.description.4": "Too low nutrition values will cause &creduced maximum health&r and grant &cnegative effects&r.",

@@ -307,7 +307,7 @@
 	"quest.twr.2148082183BBDF76.description.3": "计算器&c没有界面&r。&e在开始研究后&r，&c右键&r计算器取得内部科技点，但是会重置当前正在进行的运算。佩戴护目镜可以查看工作情况和科技点累积数量。",
 	"quest.twr.2148082183BBDF76.subtitle": "提升算力是第一要务",
 	"quest.twr.2148082183BBDF76.title": "{block.frostedresearch.mechanical_calculator}",
-	"quest.twr.215BC2E7271F1478.description.1": "按&6[TAB]&r打开轮盘，可以选择查看营养值。",
+	"quest.twr.215BC2E7271F1478.description.1": "按&6[R]&r打开轮盘，可以选择查看营养值。",
 	"quest.twr.215BC2E7271F1478.description.2": " ",
 	"quest.twr.215BC2E7271F1478.description.3": "营养值提升能&a提升血量上限&r并获得一些&a正面效果&r，",
 	"quest.twr.215BC2E7271F1478.description.4": "营养值过低会导致&c血量上限降低&r并获得&c负面效果&r。",
