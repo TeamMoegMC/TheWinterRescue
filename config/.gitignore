@@ -1,13 +1,15 @@
 # 此处为白名单
 *
+!*/
+
 !.gitignore
-!/almostunified/
-!/fancymenu/
-!/fancymenu_assets/
-!/fhresearches/
-!/fhscenario/
-!/fhtips/
-!/ftbquests/
+!/almostunified/**
+!/fancymenu/**
+!/fancymenu_assets/**
+!/fhresearches/**
+!/fhscenario/**
+!/fhtips/tips/**
+!/ftbquests/**
 !/jade/jade.json
 !/.twrlastversion
 !charcoal_pit-common.toml
