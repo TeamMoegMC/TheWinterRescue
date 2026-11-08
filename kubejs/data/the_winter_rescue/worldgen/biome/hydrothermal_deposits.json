@@ -54,7 +54,9 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    ["the_winter_rescue:cave/hydrothermal_delta"],
+    [
+      "the_winter_rescue:cave/hydrothermal_delta"
+    ],
     [],
     [
       "minecraft:ore_gravel",
@@ -93,9 +95,7 @@
   "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [
-
-    ],
+    "ambient": [],
     "axolotls": [],
     "creature": [],
     "misc": [],

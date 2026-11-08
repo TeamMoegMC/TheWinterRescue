@@ -30,7 +30,8 @@
           {
             "type": "minecraft:matching_blocks",
             "blocks": [
-              "minecraft:air"
+              "minecraft:air",
+              "minecraft:cave_air"
             ],
             "offset": [
               0,
@@ -41,7 +42,8 @@
           {
             "type": "minecraft:matching_blocks",
             "blocks": [
-              "minecraft:air"
+              "minecraft:air",
+              "minecraft:cave_air"
             ],
             "offset": [
               0,

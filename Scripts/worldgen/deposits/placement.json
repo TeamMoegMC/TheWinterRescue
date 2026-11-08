@@ -1,0 +1,8 @@
+{
+  "cell_size": 512,
+  "jitter": 32,
+  "chance": 0.35,
+  "min_y": -40,
+  "max_y": -32,
+  "salt": 48151623
+}

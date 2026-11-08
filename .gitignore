@@ -131,3 +131,7 @@ TWR-DEV.jar
 *.jfr
 *.sparkprofile
 /.hmcl/
+
+# Retired local world-generation experiments, outside the pack runtime/export path.
+/Scripts/worldgen/biome_scale/
+/Scripts/worldgen/edge_transition/

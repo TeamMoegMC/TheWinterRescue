@@ -1,0 +1,13 @@
+{
+  "type": "frostedheart:deposit_regions",
+  "input": "minecraft:overworld/depth",
+  "seed_noise": "the_winter_rescue:deposits/regions",
+  "settings": {
+    "cell_size": 512,
+    "jitter": 32,
+    "chance": 0.35,
+    "min_y": -40,
+    "max_y": -32,
+    "salt": 48151623
+  }
+}

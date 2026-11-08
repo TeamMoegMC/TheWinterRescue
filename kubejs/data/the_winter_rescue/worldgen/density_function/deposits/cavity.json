@@ -1,0 +1,6 @@
+{
+  "type": "frostedheart:deposit_terrain",
+  "input": 0,
+  "regions": "the_winter_rescue:deposits/regions",
+  "field": "cavity"
+}

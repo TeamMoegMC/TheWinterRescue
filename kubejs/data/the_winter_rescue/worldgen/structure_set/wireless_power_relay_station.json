@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "the_winter_rescue:wireless_power_relay_station",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 92020,
+    "spacing": 48,
+    "separation": 32
+  }
+}

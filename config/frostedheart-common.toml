@@ -7,3 +7,7 @@
 	#Enable update reminder if later snapshot was found, DONT TOUCH UNLESS INSTRUCTED BY DEV TEAM.
 	enableUpdateReminder = true
 
+["Thermal Runtime"]
+	#Ordinary stored heat approaches the natural temperature with this half-life in game seconds.
+	dormantTemperatureHalfLifeSeconds = 30.0
+
