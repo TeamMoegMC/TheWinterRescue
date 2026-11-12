@@ -1,0 +1,86 @@
+{
+  "title": "knowledge.the_winter_rescue.earthen_smelter.project.title",
+  "body": "knowledge.the_winter_rescue.earthen_smelter.project.body",
+  "results": [
+    "the_winter_rescue:earthen_smelter_design",
+    "the_winter_rescue:earthen_smelter_construction"
+  ],
+  "access": {
+    "conditions": {
+      "idea": {
+        "kind": "idea",
+        "definition": "the_winter_rescue:earthen_smelting",
+        "title": "knowledge.the_winter_rescue.earthen_smelter.idea.title"
+      },
+      "clay_material": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.earthen_smelter.clay",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "minecraft:clay_ball"
+            }
+          }
+        ]
+      },
+      "sand_material": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.earthen_smelter.sand",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "minecraft:sand"
+            }
+          }
+        ]
+      }
+    },
+    "start_all": [
+      "idea",
+      "clay_material",
+      "sand_material"
+    ],
+    "groups": [
+      {
+        "id": "materials",
+        "reveal_any": [
+          "idea"
+        ],
+        "conditions": [
+          "idea",
+          "clay_material",
+          "sand_material"
+        ]
+      }
+    ]
+  },
+  "requirements": [
+    {
+      "id": "submit_intact",
+      "type": "sample",
+      "title": "knowledge.the_winter_rescue.earthen_smelter.submit",
+      "sample": {
+        "experiment": "frostedresearch:trial_kiln",
+        "item": "frostedresearch:fired_trial_kiln"
+      }
+    }
+  ],
+  "legacy_replacement": {
+    "research": "alloy_kiln",
+    "effects": {
+      "350c485a4b92425c": "the_winter_rescue:earthen_smelter_design",
+      "1bb68ce233ef4f21": "the_winter_rescue:earthen_smelter_construction"
+    },
+    "partial_idea": "the_winter_rescue:earthen_smelting"
+  }
+}

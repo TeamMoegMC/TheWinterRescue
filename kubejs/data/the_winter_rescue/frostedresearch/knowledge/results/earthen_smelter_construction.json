@@ -1,0 +1,12 @@
+{
+  "title": "knowledge.the_winter_rescue.earthen_smelter.construction.title",
+  "body": "knowledge.the_winter_rescue.earthen_smelter.construction.body",
+  "understanding": [],
+  "result": {
+    "type": "construction",
+    "id": "the_winter_rescue:earthen_smelter_construction",
+    "multiblocks": [
+      "immersiveengineering:multiblocks/alloy_smelter"
+    ]
+  }
+}

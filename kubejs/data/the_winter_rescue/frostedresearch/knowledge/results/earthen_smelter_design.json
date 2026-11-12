@@ -1,0 +1,12 @@
+{
+  "title": "knowledge.the_winter_rescue.earthen_smelter.design.title",
+  "body": "knowledge.the_winter_rescue.earthen_smelter.design.body",
+  "understanding": [],
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:earthen_smelter_design",
+    "recipes": [
+      "the_winter_rescue:research/alloybrick"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "knowledge.the_winter_rescue.earthen_smelter.idea.title": "土制冶炼炉的构想",
+  "knowledge.the_winter_rescue.earthen_smelter.idea.body": "铜、锡矿物可以在窑坑中处理。也许能用黏土和沙制成更方便的专用炉体。此构想正常自动入档，也可通过联络取得。观察黏土球和沙，保留记录后在绘图台手动学习，再开始研究；只有确实留在来件中未学的条目才需手动学习。",
+  "knowledge.the_winter_rescue.earthen_smelter.project.title": "土制冶炼炉",
+  "knowledge.the_winter_rescue.earthen_smelter.project.body": "一、准备材料：构想正常自动入档；观察黏土球和沙，保留记录后在绘图台手动学习这两项观察，再开始研究。冻黏土可在营火上解冻成黏土球；腐木可合成木棍。\n二、试烧：随身2×2合成黏土球与沙为3:1、1:3或2:2的小炉。放下后持4根木棍右键，试烧20秒；2:2配比完好，其余开裂。只需本次成功样，不必遍历坏炉。务必先开始研究，再投入燃料关联本次试烧。\n三、提交：空手收取完好小炉，放入绘图台“抄录台”的物件槽，返回研究页提交（消耗1件），再完成研究，两项成果正常自动入档，立即取得炉砖配方和正式炉成型权限；只有确实留在来件中未学的条目才需手动学习。样品不必检视或学习；旧样、坏样不算本次成功样。之后可制作土制炉砖，并用工程锤组装正式土制冶炼炉。",
+  "knowledge.the_winter_rescue.earthen_smelter.clay": "已学习黏土球观察",
+  "knowledge.the_winter_rescue.earthen_smelter.sand": "已学习沙观察",
+  "knowledge.the_winter_rescue.earthen_smelter.link.hint": "从黏土与沙的配比出发，构思一座土制冶炼炉。",
+  "knowledge.the_winter_rescue.earthen_smelter.submit": "提交本次试烧的完好小炉（消耗1件）",
+  "knowledge.the_winter_rescue.earthen_smelter.design.title": "土制炉砖设计",
+  "knowledge.the_winter_rescue.earthen_smelter.design.body": "已掌握土制炉砖的制作方法。按原有配方准备砖和结构金属板，不需要把试验小炉当作炉砖原料。",
+  "knowledge.the_winter_rescue.earthen_smelter.construction.title": "土制冶炼炉建造",
+  "knowledge.the_winter_rescue.earthen_smelter.construction.body": "已掌握土制冶炼炉的组装方法。将土制炉砖按多方块结构摆放，用工程锤成型；完成本研究时，“土制炉砖设计”也正常自动入档，同时开放炉砖配方。"
+}

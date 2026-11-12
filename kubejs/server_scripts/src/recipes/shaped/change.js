@@ -1212,6 +1212,8 @@ ServerEvents.recipes((event) => {
 
         // Add new Recipes
         kubejs.shaped(output, pattern, keys)
-            .id(`the_winter_rescue:minecraft/crafting_shaped/change/${index}`)
+            .id(recipe[0] === "immersiveengineering:alloybrick"
+                ? "the_winter_rescue:research/alloybrick"
+                : `the_winter_rescue:minecraft/crafting_shaped/change/${index}`)
     })
 })

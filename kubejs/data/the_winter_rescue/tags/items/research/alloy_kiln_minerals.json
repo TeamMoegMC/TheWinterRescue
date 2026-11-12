@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:raw_materials/copper",
+    "#forge:raw_materials/tin",
+    "#forge:crushed_raw_materials/copper",
+    "#forge:crushed_raw_materials/tin"
+  ]
+}
