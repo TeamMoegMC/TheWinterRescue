@@ -7,7 +7,51 @@
 	#Enable update reminder if later snapshot was found, DONT TOUCH UNLESS INSTRUCTED BY DEV TEAM.
 	enableUpdateReminder = true
 
+#Restart the client or dedicated server after changing thermal runtime values.
 ["Thermal Runtime"]
-	#Ordinary stored heat approaches the natural temperature with this half-life in game seconds.
+	#Sensible temperature half-life in game seconds for dormant Air and materials approaching natural temperature. Material latent heat is retained; no offline source simulation.
+	#Range: 1.0 ~ 604800.0
 	dormantTemperatureHalfLifeSeconds = 30.0
+	#Automatically use the whole-region coarse air grid when regional work exceeds its service allowance.
+	continuousAirOverloadProtection = true
+	#Soft allowance for summed active time of thermal tasks, in milliseconds per wall-clock second, shared across dimensions and workers. One period's allowance permits short bursts; idle time cannot accumulate more. Queue waits are excluded; preemption and GC during execution count. Control/cleanup can continue beyond the allowance. This is not a physical CPU-core limit; the legacy configuration key is retained.
+	#Range: 1 ~ 4000
+	continuousAirCpuBudgetMsPerSecond = 1000
+	#Server-wide target for optional detailed thermal work in MiB, shared across dimensions. Real source recording, accepted world updates, coarse work, saves and result publication can exceed it to complete and remain accounted. Structural concurrency and Page/source counts bound ownership. This is not a JVM heap limit. Restart required.
+	#Range: 16 ~ 16384
+	thermalMemoryTargetMiB = 128
+	#Prepare regional thermal checkpoints ahead of chunk unloads through vanilla's queue. Ordinary saves also use regional snapshots when this option is disabled. Restart required.
+	continuousAirNativeCheckpoint = true
+	#Maximum normalized residual in degrees Celsius for Air energy projection during a rebuild. This is not a bound on total model or transport error. Restart required.
+	#Range: 1.0E-12 ~ 0.001
+	continuousAirCorrectionToleranceC = 1.0E-5
+	#Effective Air heat capacity per block in J/K.
+	#Range: 1.0 ~ 1000000.0
+	airHeatCapacityJPerBlockK = 1200.0
+	#Effective Air mixing conductance in W/(block*K).
+	#Range: 0.001 ~ 1000000.0
+	airMixingWPerBlockK = 96.0
+	#Base conductance from exposed Air boundaries to natural temperature in W/K.
+	#Range: 0.001 ~ 1.0E9
+	farFieldConductanceWPerK = 7747.2298793470545
+	#Total thermal power of a lit campfire in W.
+	#Range: 0.0 ~ 1.0E9
+	campfirePowerW = 8000.0
+	#Fraction of campfire power emitted as direct radiation; the remainder heats Air.
+	#Range: 0.0 ~ 1.0
+	campfireRadiationShare = 0.2
+	#Enable read-only direct player radiation from static fire and exposed lava.
+	enableStaticBlockRadiation = true
+	#Effective lava radiation temperature in degrees Celsius.
+	#Range: -273.0 ~ 5000.0
+	lavaRadiationTemperatureC = 1000.0
+	#Gameplay-scaled lava emissivity used for direct radiation.
+	#Range: 0.0 ~ 1.0
+	effectiveLavaEmissivity = 0.01
+	#Reference environment temperature for lava radiation in degrees Celsius.
+	#Range: -273.0 ~ 5000.0
+	radiationReferenceTemperatureC = 20.0
+	#Direct radiant power of an ordinary fire block in W.
+	#Range: 0.0 ~ 1.0E9
+	fireRadiantPowerW = 1000.0
 

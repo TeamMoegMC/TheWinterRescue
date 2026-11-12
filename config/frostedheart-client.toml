@@ -62,13 +62,6 @@
 	enableBreathParticle = true
 	#Enables the frozen sound when player is freezing. 
 	enableFrozenSound = true
-	#The binding offset of the UBO for the infrared view shader.
-	#Partial shaders and mods may occupy the position as well.
-	#We will use default offset (7) for some known mods here. However, it is not guaranteed to be always compatible with all mods / shaders.
-	#In this case, player have to modify the config to specify the offset.
-	#No worries, from my experience, offset 7 is compatible with 99% mods / shaders.
-	#Range: > 0
-	infraredViewUBOOffset = 7
 
 [Weather]
 	#Enables weather rendering changes.
@@ -94,6 +87,9 @@
 	#How visually dense the snow weather effect is. Normally, vanilla sets this to 5 with fast graphics, and 10 with fancy graphics.
 	#Range: 1 ~ 15
 	blizzardDensity = 15
+	#Selects the fixed weather renderer. This choice is never changed automatically from measured FPS.
+	#Allowed Values: COMPATIBILITY, SPATIAL_V1_FAST, SPATIAL_V1_FANCY
+	weatherRenderingMode = "SPATIAL_V1_FAST"
 
 [Scenario]
 	#Enables the scenario act hud rendering. 

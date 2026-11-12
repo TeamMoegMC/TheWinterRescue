@@ -1007,7 +1007,7 @@
 			subtitle: "{quest.twr.6A97729E570341EF.subtitle}"
 			tasks: [
 				{
-					id: "8B23B7EE648A4E0C"
+					id: "08C4EA7BDD372738"
 					item: "frostedheart:warm_stone"
 					type: "item"
 				}
