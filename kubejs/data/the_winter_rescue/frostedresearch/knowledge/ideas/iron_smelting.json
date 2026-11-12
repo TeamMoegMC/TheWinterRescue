@@ -1,0 +1,54 @@
+{
+  "title": "knowledge.the_winter_rescue.iron_bloomery.idea.title",
+  "body": "knowledge.the_winter_rescue.iron_bloomery.idea.body",
+  "understanding": [],
+  "projects": [
+    "the_winter_rescue:iron_bloomery"
+  ],
+  "acquisition": {
+    "required": [],
+    "optional": [
+      {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.iron_bloomery.copper",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "the_winter_rescue:research/iron_copper_or_bronze"
+          }
+        ]
+      },
+      {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.iron_bloomery.carbon",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "the_winter_rescue:research/iron_carbon_fuel"
+          }
+        ]
+      }
+    ],
+    "triggers": [
+      {
+        "event": "frostedresearch:item_obtained",
+        "subject": {
+          "kind": "observation",
+          "observation_type": "item",
+          "title": "knowledge.the_winter_rescue.iron_bloomery.materials",
+          "conditions": [
+            {
+              "field": "object",
+              "operator": "tag",
+              "tag": "the_winter_rescue:research/iron_materials"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

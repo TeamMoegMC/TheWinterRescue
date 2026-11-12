@@ -5,6 +5,9 @@
 ServerEvents.recipes((event) => {
     let {create, kubejs, minecraft} = event.recipes
 
+    // Remove native/conditional same-output aliases, including sandy_tuyere2.
+    event.remove({output: "charcoal_pit:sandy_tuyere"})
+
     let changeShapelessRecipes = [
 
     ]
@@ -73,7 +76,7 @@ ServerEvents.recipes((event) => {
 		shapelessRecipe("kubejs:plant_fibre", "#minecraft:saplings"),
 		shapelessRecipe("kubejs:plant_fibre", "minecraft:vine"),
 		shapelessRecipe("create:basin", "minecraft:cauldron"),
-		shapelessRecipe("charcoal_pit:sandy_tuyere", ["charcoal_pit:sandy_brick", "#forge:plates/bronze", "frostedheart:mortar"]),
+		shapelessRecipe("charcoal_pit:sandy_tuyere", ["charcoal_pit:sandy_brick", "#forge:plates/bronze", "frostedheart:mortar"], "the_winter_rescue:research/sandy_tuyere"),
 		shapelessRecipe("2x charcoal_pit:sandy_brick", ["frostedheart:mortar", "4x charcoal_pit:sandy_brick_item"]),
 		shapelessRecipe("2x frostedheart:refractory_bricks", ["frostedheart:mortar", "4x frostedheart:refractory_brick"]),
 		shapelessRecipe("2x frostedheart:high_refractory_bricks", ["frostedheart:mortar", "4x frostedheart:high_refractory_brick"]),

@@ -1,0 +1,122 @@
+{
+  "title": "knowledge.the_winter_rescue.iron_bloomery.project.title",
+  "body": "knowledge.the_winter_rescue.iron_bloomery.project.body",
+  "results": [
+    "the_winter_rescue:iron_bloomery_design"
+  ],
+  "access": {
+    "conditions": {
+      "idea": {
+        "kind": "idea",
+        "definition": "the_winter_rescue:iron_smelting",
+        "title": "knowledge.the_winter_rescue.iron_bloomery.idea.title"
+      },
+      "copper_or_bronze": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.iron_bloomery.copper",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "the_winter_rescue:research/iron_copper_or_bronze"
+          }
+        ]
+      },
+      "carbon_fuel": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.iron_bloomery.carbon",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "the_winter_rescue:research/iron_carbon_fuel"
+          }
+        ]
+      }
+    },
+    "start_all": [
+      "idea",
+      "copper_or_bronze",
+      "carbon_fuel"
+    ],
+    "groups": [
+      {
+        "id": "from_idea",
+        "reveal_any": [
+          "idea"
+        ],
+        "conditions": [
+          "idea",
+          "copper_or_bronze",
+          "carbon_fuel"
+        ]
+      }
+    ]
+  },
+  "stages": [
+    {
+      "id": "airflow",
+      "title": "knowledge.the_winter_rescue.iron_bloomery.airflow.title",
+      "objective": "knowledge.the_winter_rescue.iron_bloomery.airflow.objective",
+      "method": "knowledge.the_winter_rescue.iron_bloomery.airflow.method",
+      "conclusion": "knowledge.the_winter_rescue.iron_bloomery.airflow.conclusion",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "airflow_win",
+            "type": "minigame",
+            "title": "knowledge.the_winter_rescue.iron_bloomery.airflow.task",
+            "game": "frostedresearch:airflow"
+          }
+        }
+      ],
+      "completion_recipes": [
+        "the_winter_rescue:research/prototype_tuyere"
+      ]
+    },
+    {
+      "id": "trial",
+      "title": "knowledge.the_winter_rescue.iron_bloomery.trial.title",
+      "objective": "knowledge.the_winter_rescue.iron_bloomery.trial.objective",
+      "method": "knowledge.the_winter_rescue.iron_bloomery.trial.method",
+      "conclusion": "knowledge.the_winter_rescue.iron_bloomery.trial.conclusion",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "observe_tuyere",
+            "type": "observation",
+            "title": "knowledge.the_winter_rescue.iron_bloomery.trial.task",
+            "observation": {
+              "experiment": "frostedresearch:tuyere_trial",
+              "team_current_run": true,
+              "condition": {
+                "kind": "observation",
+                "observation_type": "block",
+                "conditions": [
+                  {
+                    "field": "object",
+                    "operator": "eq",
+                    "value": {
+                      "state": "known",
+                      "type": "string",
+                      "text": "charcoal_pit:sandy_tuyere"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "legacy_replacement": {
+    "research": "iron",
+    "effects": {
+      "c520be3259914225": "the_winter_rescue:iron_bloomery_design"
+    },
+    "partial_idea": "the_winter_rescue:iron_smelting"
+  }
+}

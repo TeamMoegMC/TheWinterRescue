@@ -1,0 +1,13 @@
+{
+  "title": "knowledge.the_winter_rescue.iron_bloomery.result.title",
+  "body": "knowledge.the_winter_rescue.iron_bloomery.result.body",
+  "understanding": [],
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:iron_bloomery_design",
+    "recipes": [
+      "the_winter_rescue:research/main_bloomery",
+      "the_winter_rescue:research/sandy_tuyere"
+    ]
+  }
+}
