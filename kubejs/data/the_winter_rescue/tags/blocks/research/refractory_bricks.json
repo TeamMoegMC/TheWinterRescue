@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "frostedheart:refractory_bricks",
+    "frostedheart:high_refractory_bricks",
+    {
+      "id": "immersiveindustry:refractory_kiln_brick",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "SFS",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:clay_ball"
+    },
+    "S": {
+      "item": "minecraft:sand"
+    },
+    "F": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "result": {
+    "item": "frostedresearch:controlled_furnace",
+    "count": 1
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "filename": "research_practical_guide",
+  "id": "4A8E1F92C73B605D",
+  "group": "121B12860A7D323A",
+  "order_index": 1,
+  "icon": "frostedresearch:drawing_desk",
+  "title": "{chapter.twr.4A8E1F92C73B605D.title}",
+  "subtitle": [
+    "{chapter.twr.4A8E1F92C73B605D.subtitle}"
+  ],
+  "default_hide_dependency_lines": false,
+  "quests": [
+    {
+      "id": "507C594CBE4EDD30",
+      "title": "{quest.twr.507C594CBE4EDD30.title}",
+      "subtitle": "{quest.twr.507C594CBE4EDD30.subtitle}",
+      "description": [
+        "{quest.twr.507C594CBE4EDD30.description.1}",
+        "{quest.twr.507C594CBE4EDD30.description.2}",
+        "{quest.twr.507C594CBE4EDD30.description.3}"
+      ],
+      "icon": "frostedresearch:magnifying_glass",
+      "hide_until_deps_visible": false,
+      "tasks": [
+        {
+          "id": "6BFB50E612FEEFA8",
+          "type": "checkmark",
+          "title": "{quest.twr.507C594CBE4EDD30.6BFB50E612FEEFA8.title}"
+        }
+      ],
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "56B3257EE1F12A5B",
+      "title": "{quest.twr.56B3257EE1F12A5B.title}",
+      "subtitle": "{quest.twr.56B3257EE1F12A5B.subtitle}",
+      "description": [
+        "{quest.twr.56B3257EE1F12A5B.description.1}",
+        "{quest.twr.56B3257EE1F12A5B.description.2}",
+        "{quest.twr.56B3257EE1F12A5B.description.3}"
+      ],
+      "icon": "frostedresearch:drawing_desk",
+      "hide_until_deps_visible": false,
+      "tasks": [
+        {
+          "id": "6969EBC707C9BA65",
+          "type": "checkmark",
+          "title": "{quest.twr.56B3257EE1F12A5B.6969EBC707C9BA65.title}"
+        }
+      ],
+      "x": 2,
+      "y": 0
+    },
+    {
+      "id": "564A135A9DC0E980",
+      "title": "{quest.twr.564A135A9DC0E980.title}",
+      "subtitle": "{quest.twr.564A135A9DC0E980.subtitle}",
+      "description": [
+        "{quest.twr.564A135A9DC0E980.description.1}",
+        "{quest.twr.564A135A9DC0E980.description.2}",
+        "{quest.twr.564A135A9DC0E980.description.3}"
+      ],
+      "icon": "frostedresearch:trial_kiln_balanced",
+      "hide_until_deps_visible": false,
+      "tasks": [
+        {
+          "id": "61A77086F9D440BA",
+          "type": "checkmark",
+          "title": "{quest.twr.564A135A9DC0E980.61A77086F9D440BA.title}"
+        }
+      ],
+      "x": 0,
+      "y": 2
+    },
+    {
+      "id": "594A74A3D9A1A554",
+      "title": "{quest.twr.594A74A3D9A1A554.title}",
+      "subtitle": "{quest.twr.594A74A3D9A1A554.subtitle}",
+      "description": [
+        "{quest.twr.594A74A3D9A1A554.description.1}",
+        "{quest.twr.594A74A3D9A1A554.description.2}",
+        "{quest.twr.594A74A3D9A1A554.description.3}"
+      ],
+      "icon": "charcoal_pit:sandy_tuyere",
+      "hide_until_deps_visible": false,
+      "tasks": [
+        {
+          "id": "6B84177A6E09EC76",
+          "type": "checkmark",
+          "title": "{quest.twr.594A74A3D9A1A554.6B84177A6E09EC76.title}"
+        }
+      ],
+      "x": 2,
+      "y": 2
+    },
+    {
+      "id": "5A6E8872E26A30E3",
+      "title": "{quest.twr.5A6E8872E26A30E3.title}",
+      "subtitle": "{quest.twr.5A6E8872E26A30E3.subtitle}",
+      "description": [
+        "{quest.twr.5A6E8872E26A30E3.description.1}",
+        "{quest.twr.5A6E8872E26A30E3.description.2}",
+        "{quest.twr.5A6E8872E26A30E3.description.3}"
+      ],
+      "icon": "frostedheart:refractory_brick",
+      "hide_until_deps_visible": false,
+      "tasks": [
+        {
+          "id": "661E956841023E9D",
+          "type": "checkmark",
+          "title": "{quest.twr.5A6E8872E26A30E3.661E956841023E9D.title}"
+        }
+      ],
+      "x": 4,
+      "y": 2
+    }
+  ]
+}

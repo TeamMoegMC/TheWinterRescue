@@ -1,0 +1,12 @@
+{
+  "title": "knowledge.the_winter_rescue.refractory_brick.result.title",
+  "body": "knowledge.the_winter_rescue.refractory_brick.result.body",
+  "understanding": [],
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:controlled_refractory_production",
+    "recipes": [
+      "the_winter_rescue:research/refractory_brick_batch"
+    ]
+  }
+}

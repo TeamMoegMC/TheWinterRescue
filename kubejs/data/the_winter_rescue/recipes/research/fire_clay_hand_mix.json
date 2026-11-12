@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "frostedheart:kaolin_dust"
+    },
+    {
+      "item": "frostedheart:kaolin_dust"
+    },
+    {
+      "item": "frostedheart:kaolin_dust"
+    },
+    {
+      "item": "frostedheart:kaolin_dust"
+    },
+    {
+      "item": "frostedheart:bauxite_dust"
+    },
+    {
+      "item": "frostedheart:bauxite_dust"
+    },
+    {
+      "item": "frostedheart:bauxite_dust"
+    },
+    {
+      "item": "frostedheart:bauxite_dust"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    }
+  ],
+  "result": {
+    "item": "frostedheart:fire_clay_ball",
+    "count": 1
+  }
+}

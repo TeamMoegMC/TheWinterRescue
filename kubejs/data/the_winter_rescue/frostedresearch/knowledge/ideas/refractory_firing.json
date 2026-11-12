@@ -1,0 +1,108 @@
+{
+  "title": "knowledge.the_winter_rescue.refractory_brick.idea.title",
+  "body": "knowledge.the_winter_rescue.refractory_brick.idea.body",
+  "understanding": [],
+  "projects": [
+    "the_winter_rescue:refractory_brick"
+  ],
+  "acquisition": {
+    "required": [],
+    "optional": [
+      {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.refractory_brick.kaolin",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "frostedheart:kaolin"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.refractory_brick.bauxite",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "frostedheart:bauxite"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.refractory_brick.clay",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "minecraft:clay_ball"
+            }
+          }
+        ]
+      }
+    ],
+    "triggers": [
+      {
+        "event": "frostedresearch:item_obtained",
+        "subject": {
+          "kind": "observation",
+          "observation_type": "item",
+          "conditions": [
+            {
+              "field": "object",
+              "operator": "tag",
+              "tag": "the_winter_rescue:research/refractory_raw_materials"
+            }
+          ]
+        }
+      },
+      {
+        "event": "frostedresearch:observation_completed",
+        "subject": {
+          "kind": "observation",
+          "observation_type": "item",
+          "conditions": [
+            {
+              "field": "object",
+              "operator": "tag",
+              "tag": "the_winter_rescue:research/refractory_bricks"
+            }
+          ]
+        }
+      },
+      {
+        "event": "frostedresearch:observation_completed",
+        "subject": {
+          "kind": "observation",
+          "observation_type": "block",
+          "conditions": [
+            {
+              "field": "object",
+              "operator": "tag",
+              "tag": "the_winter_rescue:research/refractory_bricks"
+            }
+          ]
+        }
+      },
+      {
+        "event": "frostedresearch:refractory_component_observed"
+      }
+    ]
+  }
+}

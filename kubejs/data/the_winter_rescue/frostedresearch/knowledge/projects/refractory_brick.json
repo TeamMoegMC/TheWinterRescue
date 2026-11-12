@@ -1,0 +1,177 @@
+{
+  "title": "knowledge.the_winter_rescue.refractory_brick.project.title",
+  "body": "knowledge.the_winter_rescue.refractory_brick.project.body",
+  "results": [
+    "the_winter_rescue:controlled_refractory_production"
+  ],
+  "access": {
+    "conditions": {
+      "idea": {
+        "kind": "idea",
+        "definition": "the_winter_rescue:refractory_firing",
+        "title": "knowledge.the_winter_rescue.refractory_brick.idea.title"
+      },
+      "kaolin": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.refractory_brick.kaolin",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "frostedheart:kaolin"
+            }
+          }
+        ]
+      },
+      "bauxite": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.refractory_brick.bauxite",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "frostedheart:bauxite"
+            }
+          }
+        ]
+      },
+      "clay": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.refractory_brick.clay",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "minecraft:clay_ball"
+            }
+          }
+        ]
+      }
+    },
+    "start_all": [
+      "idea",
+      "kaolin",
+      "bauxite",
+      "clay"
+    ],
+    "groups": [
+      {
+        "id": "materials",
+        "reveal_any": [
+          "idea"
+        ],
+        "conditions": [
+          "idea",
+          "kaolin",
+          "bauxite",
+          "clay"
+        ]
+      }
+    ]
+  },
+  "stages": [
+    {
+      "id": "prepare",
+      "title": "knowledge.the_winter_rescue.refractory_brick.prepare.title",
+      "objective": "knowledge.the_winter_rescue.refractory_brick.prepare.objective",
+      "method": "knowledge.the_winter_rescue.refractory_brick.prepare.method",
+      "conclusion": "knowledge.the_winter_rescue.refractory_brick.prepare.conclusion",
+      "tasks": []
+    },
+    {
+      "id": "firing",
+      "title": "knowledge.the_winter_rescue.refractory_brick.firing.title",
+      "objective": "knowledge.the_winter_rescue.refractory_brick.firing.objective",
+      "method": "knowledge.the_winter_rescue.refractory_brick.method.default",
+      "conclusion": "knowledge.the_winter_rescue.refractory_brick.firing.conclusion",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "observe_fired_brick",
+            "type": "observation",
+            "title": "knowledge.the_winter_rescue.refractory_brick.firing.task",
+            "observation": {
+              "experiment": "frostedresearch:refractory_trial",
+              "team_current_run": true,
+              "condition": {
+                "kind": "observation",
+                "observation_type": "item",
+                "title": "knowledge.the_winter_rescue.refractory_brick.firing.task",
+                "conditions": [
+                  {
+                    "field": "object",
+                    "operator": "eq",
+                    "value": {
+                      "state": "known",
+                      "type": "string",
+                      "text": "frostedheart:refractory_brick"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "variants": [
+        {
+          "id": "reference_item",
+          "when": {
+            "knowledge_all": [
+              {
+                "kind": "observation",
+                "observation_type": "item",
+                "conditions": [
+                  {
+                    "field": "object",
+                    "operator": "tag",
+                    "tag": "the_winter_rescue:research/refractory_bricks"
+                  }
+                ]
+              }
+            ]
+          },
+          "omit_tasks": [],
+          "method": "knowledge.the_winter_rescue.refractory_brick.method.reference"
+        },
+        {
+          "id": "reference_block",
+          "when": {
+            "knowledge_all": [
+              {
+                "kind": "observation",
+                "observation_type": "block",
+                "conditions": [
+                  {
+                    "field": "object",
+                    "operator": "tag",
+                    "tag": "the_winter_rescue:research/refractory_bricks"
+                  }
+                ]
+              }
+            ]
+          },
+          "omit_tasks": [],
+          "method": "knowledge.the_winter_rescue.refractory_brick.method.reference"
+        },
+        {
+          "id": "default",
+          "omit_tasks": [],
+          "method": "knowledge.the_winter_rescue.refractory_brick.method.default"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "frostedresearch:controlled_firing",
+  "input": {
+    "item": "frostedheart:fire_clay_ball",
+    "count": 1
+  },
+  "fuel": {
+    "item": "minecraft:charcoal",
+    "count": 1
+  },
+  "temperature_min": 1050,
+  "temperature_max": 1150,
+  "duration": 400,
+  "result": {
+    "item": "frostedheart:refractory_brick",
+    "count": 1
+  },
+  "failure": {
+    "item": "frostedresearch:cracked_refractory_brick",
+    "count": 1
+  },
+  "experiment": "frostedresearch:refractory_trial"
+}
