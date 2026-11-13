@@ -1027,7 +1027,7 @@
   "quest.twr.564A135A9DC0E980.61A77086F9D440BA.title": "Read the guide (does not advance research)",
   "quest.twr.564A135A9DC0E980.description.1": "1. Obtain copper/tin minerals accepted by the smelter or use linking for the idea. Observe a clay ball and sand, keep and learn both records, then start Earthen Smelter research.",
   "quest.twr.564A135A9DC0E980.description.2": "2. Craft clay balls and sand in 3:1, 1:3 or 2:2 ratios in your 2x2 grid. Place the kiln and right-click with 4 sticks to fire for 20 seconds. The 2:2 mix stays intact; the others break. Only the successful sample is required.",
-  "quest.twr.564A135A9DC0E980.description.3": "3. Collect the intact kiln with an empty hand. Put it in the drawing desk transcription/tools item slot, return to research, submit it (consumes one), then finish. Brick crafting and formation results are normally learned automatically. Cracked or earlier-research samples cannot count: fire a new one after starting this research. Do not learn the physical sample.",
+  "quest.twr.564A135A9DC0E980.description.3": "3. Collect the intact kiln with an empty hand. Keep it in your inventory or hotbar, submit it in research details (consumes one), then finish. The drawing desk item slot also works. Brick crafting and formation results are normally learned automatically. Cracked or earlier-research samples cannot count: fire a new one after starting this research. Do not learn the physical sample.",
   "quest.twr.594A74A3D9A1A554.title": "Bloomery",
   "quest.twr.594A74A3D9A1A554.subtitle": "Airflow, bellows, and on-site observation",
   "quest.twr.594A74A3D9A1A554.6B84177A6E09EC76.title": "Read the guide (does not advance research)",
