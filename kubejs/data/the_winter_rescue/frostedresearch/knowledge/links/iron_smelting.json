@@ -1,19 +1,22 @@
 {
   "inputs": [
     {
-      "name": "material_1",
       "kind": "observation",
       "observation_type": "item",
       "conditions": [
         {
           "field": "object",
-          "operator": "tag",
-          "tag": "the_winter_rescue:research/iron_copper_or_bronze"
+          "operator": "eq",
+          "value": {
+            "state": "known",
+            "type": "string",
+            "text": "minecraft:raw_iron"
+          }
         }
-      ]
+      ],
+      "name": "raw_iron"
     },
     {
-      "name": "material_2",
       "kind": "observation",
       "observation_type": "item",
       "conditions": [
@@ -22,11 +25,27 @@
           "operator": "tag",
           "tag": "the_winter_rescue:research/iron_carbon_fuel"
         }
-      ]
+      ],
+      "name": "carbon_fuel"
     }
   ],
   "output": "the_winter_rescue:iron_smelting",
   "hints": [
     "knowledge.the_winter_rescue.iron_bloomery.link"
+  ],
+  "required_knowledge": [],
+  "optional_knowledge": [
+    {
+      "kind": "observation",
+      "observation_type": "item",
+      "title": "knowledge.the_winter_rescue.iron_bloomery.copper",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "tag",
+          "tag": "the_winter_rescue:research/iron_copper_or_bronze"
+        }
+      ]
+    }
   ]
 }

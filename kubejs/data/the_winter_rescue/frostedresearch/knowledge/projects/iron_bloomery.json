@@ -34,12 +34,29 @@
             "tag": "the_winter_rescue:research/iron_carbon_fuel"
           }
         ]
+      },
+      "raw_iron": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.iron_bloomery.raw_iron",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "minecraft:raw_iron"
+            }
+          }
+        ]
       }
     },
     "start_all": [
       "idea",
       "copper_or_bronze",
-      "carbon_fuel"
+      "carbon_fuel",
+      "raw_iron"
     ],
     "groups": [
       {
@@ -50,7 +67,8 @@
         "conditions": [
           "idea",
           "copper_or_bronze",
-          "carbon_fuel"
+          "carbon_fuel",
+          "raw_iron"
         ]
       }
     ]

@@ -58,13 +58,26 @@
             }
           }
         ]
+      },
+      "sandy_brick": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.refractory_brick.sandy_brick",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "the_winter_rescue:research/sandy_bricks"
+          }
+        ]
       }
     },
     "start_all": [
       "idea",
       "kaolin",
       "bauxite",
-      "clay"
+      "clay",
+      "sandy_brick"
     ],
     "groups": [
       {
@@ -76,7 +89,8 @@
           "idea",
           "kaolin",
           "bauxite",
-          "clay"
+          "clay",
+          "sandy_brick"
         ]
       }
     ]

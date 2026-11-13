@@ -43,12 +43,29 @@
             }
           }
         ]
+      },
+      "raw_copper": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.earthen_smelter.raw_copper",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "minecraft:raw_copper"
+            }
+          }
+        ]
       }
     },
     "start_all": [
       "idea",
       "clay_material",
-      "sand_material"
+      "sand_material",
+      "raw_copper"
     ],
     "groups": [
       {
@@ -59,7 +76,8 @@
         "conditions": [
           "idea",
           "clay_material",
-          "sand_material"
+          "sand_material",
+          "raw_copper"
         ]
       }
     ]
