@@ -1,5 +1,54 @@
 {
-  "inputs": [],
+  "inputs": [
+    {
+      "name": "material_1",
+      "kind": "observation",
+      "observation_type": "item",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "eq",
+          "value": {
+            "state": "known",
+            "type": "string",
+            "text": "frostedheart:kaolin"
+          }
+        }
+      ]
+    },
+    {
+      "name": "material_2",
+      "kind": "observation",
+      "observation_type": "item",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "eq",
+          "value": {
+            "state": "known",
+            "type": "string",
+            "text": "frostedheart:bauxite"
+          }
+        }
+      ]
+    },
+    {
+      "name": "material_3",
+      "kind": "observation",
+      "observation_type": "item",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "eq",
+          "value": {
+            "state": "known",
+            "type": "string",
+            "text": "minecraft:clay_ball"
+          }
+        }
+      ]
+    }
+  ],
   "output": "the_winter_rescue:refractory_firing",
   "hints": [
     "knowledge.the_winter_rescue.refractory_brick.link"

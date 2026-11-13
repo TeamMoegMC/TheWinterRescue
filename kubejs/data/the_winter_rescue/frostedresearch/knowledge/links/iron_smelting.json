@@ -1,5 +1,30 @@
 {
-  "inputs": [],
+  "inputs": [
+    {
+      "name": "material_1",
+      "kind": "observation",
+      "observation_type": "item",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "tag",
+          "tag": "the_winter_rescue:research/iron_copper_or_bronze"
+        }
+      ]
+    },
+    {
+      "name": "material_2",
+      "kind": "observation",
+      "observation_type": "item",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "tag",
+          "tag": "the_winter_rescue:research/iron_carbon_fuel"
+        }
+      ]
+    }
+  ],
   "output": "the_winter_rescue:iron_smelting",
   "hints": [
     "knowledge.the_winter_rescue.iron_bloomery.link"
