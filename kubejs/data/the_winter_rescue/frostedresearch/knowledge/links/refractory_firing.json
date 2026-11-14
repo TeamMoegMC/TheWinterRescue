@@ -26,12 +26,8 @@
       "conditions": [
         {
           "field": "object",
-          "operator": "eq",
-          "value": {
-            "state": "known",
-            "type": "string",
-            "text": "frostedheart:kaolin"
-          }
+          "operator": "tag",
+          "tag": "the_winter_rescue:research/kaolin_materials"
         }
       ]
     },
@@ -42,12 +38,8 @@
       "conditions": [
         {
           "field": "object",
-          "operator": "eq",
-          "value": {
-            "state": "known",
-            "type": "string",
-            "text": "frostedheart:bauxite"
-          }
+          "operator": "tag",
+          "tag": "the_winter_rescue:research/bauxite_materials"
         }
       ]
     },

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "frostedheart:kaolin",
-    "frostedheart:bauxite",
+    "#the_winter_rescue:research/kaolin_materials",
+    "#the_winter_rescue:research/bauxite_materials",
     "frostedheart:fire_clay_ball"
   ]
 }

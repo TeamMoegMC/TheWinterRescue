@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:raw_materials/kaolin",
+    "#forge:crushed_raw_materials/kaolin",
+    "#forge:dusts/kaolin",
+    "#forge:kaolin",
+    "frostedheart:kaolin_permafrost"
+  ]
+}

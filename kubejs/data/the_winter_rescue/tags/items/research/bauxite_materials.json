@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:raw_materials/bauxite",
+    "#forge:crushed_raw_materials/bauxite",
+    "#forge:dusts/bauxite",
+    "#forge:bauxite",
+    "frostedheart:bauxite_permafrost"
+  ]
+}
