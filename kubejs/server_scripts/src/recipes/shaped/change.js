@@ -1183,8 +1183,26 @@ ServerEvents.recipes((event) => {
                 B: "#twr:ingots/structural",
                 C: "#forge:nuggets/cast_iron",
             }
-        ]
-
+        ],
+        [
+            "immersiveengineering:earmuffs", 1, [
+                " A ",
+                "A A",
+                "B B"
+            ], {
+                A: "#forge:rods/iron",
+                B: ["#minecraft:wool", "immersiveengineering:hemp_fabric"]
+            }
+        ],
+        [
+            'white_bed', 1, [
+                "BBB",
+                "AAA"
+            ], {
+                A: "#minecraft:planks",
+                B: ["white_wool", "immersiveengineering:hemp_fabric"]
+            }
+        ],
 
     ]
     changeShapedRecipes.forEach((recipe, index) => {
