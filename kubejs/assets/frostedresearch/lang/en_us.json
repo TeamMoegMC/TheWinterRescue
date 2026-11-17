@@ -24,7 +24,6 @@
   "knowledge.the_winter_rescue.iron_bloomery.airflow.title": "Plan the Airflow",
   "knowledge.the_winter_rescue.iron_bloomery.airflow.objective": "Send cool air through the charcoal bed and out the furnace top",
   "knowledge.the_winter_rescue.iron_bloomery.airflow.method": "Click Plan Air Passage below. Starting at the small inlet cavity, hold and drag the left mouse button to carve through the sandy bricks. Lead air through the charcoal bed to the upper outlet. If cold air escapes through another boundary first, reset and try again.\nAfter success, return to research and click Enter Next Stage to test the tuyere.",
-  "knowledge.the_winter_rescue.iron_bloomery.airflow.conclusion": "Air has crossed the charcoal bed and exited at the furnace top. The prototype recipe is temporarily available; advance to the next stage.",
   "knowledge.the_winter_rescue.iron_bloomery.airflow.task": "Plan the charcoal-bed airflow",
   "knowledge.the_winter_rescue.iron_bloomery.trial.title": "Test the Tuyere",
   "knowledge.the_winter_rescue.iron_bloomery.trial.objective": "Build and test a Prototype Tuyere",

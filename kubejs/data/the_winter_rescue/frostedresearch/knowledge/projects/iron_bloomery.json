@@ -79,7 +79,6 @@
       "title": "knowledge.the_winter_rescue.iron_bloomery.airflow.title",
       "objective": "knowledge.the_winter_rescue.iron_bloomery.airflow.objective",
       "method": "knowledge.the_winter_rescue.iron_bloomery.airflow.method",
-      "conclusion": "knowledge.the_winter_rescue.iron_bloomery.airflow.conclusion",
       "tasks": [
         {
           "requirement": {

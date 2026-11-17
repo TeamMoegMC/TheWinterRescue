@@ -24,7 +24,6 @@
   "knowledge.the_winter_rescue.iron_bloomery.airflow.title": "规划风道",
   "knowledge.the_winter_rescue.iron_bloomery.airflow.objective": "让冷风通过炭床并从炉顶排出",
   "knowledge.the_winter_rescue.iron_bloomery.airflow.method": "点击下方“规划风道”，从入口旁的小空腔开始，按住左键拖动凿开砂砖，让气流经过炭床并通往炉顶出口。冷风若先从其它边界漏出，就需重置重试。\n成功后返回研究，点击“进入下一阶段”开始试吹。",
-  "knowledge.the_winter_rescue.iron_bloomery.airflow.conclusion": "气流已通过炭床并从炉顶排出，原型配方临时开放。点击进入下一阶段。",
   "knowledge.the_winter_rescue.iron_bloomery.airflow.task": "规划炭床风道",
   "knowledge.the_winter_rescue.iron_bloomery.trial.title": "试吹鼓风口",
   "knowledge.the_winter_rescue.iron_bloomery.trial.objective": "制作并试吹鼓风口原型",
