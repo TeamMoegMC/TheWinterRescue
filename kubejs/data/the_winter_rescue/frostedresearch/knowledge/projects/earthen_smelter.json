@@ -82,107 +82,6 @@
       }
     ]
   },
-  "requirements": [
-    {
-      "id": "observe_clay_rich",
-      "type": "observation",
-      "title": "knowledge.the_winter_rescue.earthen_smelter.observe.clay_rich",
-      "observation": {
-        "experiment": "frostedresearch:trial_kiln/clay_rich",
-        "team_current_run": true,
-        "condition": {
-          "kind": "observation",
-          "observation_type": "item",
-          "conditions": [
-            {
-              "field": "object",
-              "operator": "eq",
-              "value": {
-                "state": "known",
-                "type": "string",
-                "text": "frostedresearch:cracked_trial_kiln"
-              }
-            },
-            {
-              "field": "item.trial_kiln_variant",
-              "operator": "eq",
-              "value": {
-                "state": "known",
-                "type": "string",
-                "text": "clay_rich"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "observe_sand_rich",
-      "type": "observation",
-      "title": "knowledge.the_winter_rescue.earthen_smelter.observe.sand_rich",
-      "observation": {
-        "experiment": "frostedresearch:trial_kiln/sand_rich",
-        "team_current_run": true,
-        "condition": {
-          "kind": "observation",
-          "observation_type": "item",
-          "conditions": [
-            {
-              "field": "object",
-              "operator": "eq",
-              "value": {
-                "state": "known",
-                "type": "string",
-                "text": "frostedresearch:cracked_trial_kiln"
-              }
-            },
-            {
-              "field": "item.trial_kiln_variant",
-              "operator": "eq",
-              "value": {
-                "state": "known",
-                "type": "string",
-                "text": "sand_rich"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "id": "submit_intact",
-      "type": "observation",
-      "title": "knowledge.the_winter_rescue.earthen_smelter.observe.balanced",
-      "observation": {
-        "experiment": "frostedresearch:trial_kiln/balanced",
-        "team_current_run": true,
-        "condition": {
-          "kind": "observation",
-          "observation_type": "item",
-          "conditions": [
-            {
-              "field": "object",
-              "operator": "eq",
-              "value": {
-                "state": "known",
-                "type": "string",
-                "text": "frostedresearch:fired_trial_kiln"
-              }
-            },
-            {
-              "field": "item.trial_kiln_variant",
-              "operator": "eq",
-              "value": {
-                "state": "known",
-                "type": "string",
-                "text": "balanced"
-              }
-            }
-          ]
-        }
-      }
-    }
-  ],
   "legacy_replacement": {
     "research": "alloy_kiln",
     "effects": {
@@ -190,5 +89,122 @@
       "1bb68ce233ef4f21": "the_winter_rescue:earthen_smelter_construction"
     },
     "partial_idea": "the_winter_rescue:earthen_smelting"
-  }
+  },
+  "stages": [
+    {
+      "id": "main",
+      "title": "knowledge.the_winter_rescue.earthen_smelter.trial.title",
+      "method": "knowledge.the_winter_rescue.earthen_smelter.trial.method",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "observe_clay_rich",
+            "type": "observation",
+            "title": "knowledge.the_winter_rescue.earthen_smelter.observe.clay_rich",
+            "observation": {
+              "experiment": "frostedresearch:trial_kiln/clay_rich",
+              "team_current_run": true,
+              "condition": {
+                "kind": "observation",
+                "observation_type": "item",
+                "conditions": [
+                  {
+                    "field": "object",
+                    "operator": "eq",
+                    "value": {
+                      "state": "known",
+                      "type": "string",
+                      "text": "frostedresearch:cracked_trial_kiln"
+                    }
+                  },
+                  {
+                    "field": "item.trial_kiln_variant",
+                    "operator": "eq",
+                    "value": {
+                      "state": "known",
+                      "type": "string",
+                      "text": "clay_rich"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "method": "knowledge.the_winter_rescue.earthen_smelter.trial.clay_rich"
+        },
+        {
+          "requirement": {
+            "id": "observe_sand_rich",
+            "type": "observation",
+            "title": "knowledge.the_winter_rescue.earthen_smelter.observe.sand_rich",
+            "observation": {
+              "experiment": "frostedresearch:trial_kiln/sand_rich",
+              "team_current_run": true,
+              "condition": {
+                "kind": "observation",
+                "observation_type": "item",
+                "conditions": [
+                  {
+                    "field": "object",
+                    "operator": "eq",
+                    "value": {
+                      "state": "known",
+                      "type": "string",
+                      "text": "frostedresearch:cracked_trial_kiln"
+                    }
+                  },
+                  {
+                    "field": "item.trial_kiln_variant",
+                    "operator": "eq",
+                    "value": {
+                      "state": "known",
+                      "type": "string",
+                      "text": "sand_rich"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "method": "knowledge.the_winter_rescue.earthen_smelter.trial.sand_rich"
+        },
+        {
+          "requirement": {
+            "id": "submit_intact",
+            "type": "observation",
+            "title": "knowledge.the_winter_rescue.earthen_smelter.observe.balanced",
+            "observation": {
+              "experiment": "frostedresearch:trial_kiln/balanced",
+              "team_current_run": true,
+              "condition": {
+                "kind": "observation",
+                "observation_type": "item",
+                "conditions": [
+                  {
+                    "field": "object",
+                    "operator": "eq",
+                    "value": {
+                      "state": "known",
+                      "type": "string",
+                      "text": "frostedresearch:fired_trial_kiln"
+                    }
+                  },
+                  {
+                    "field": "item.trial_kiln_variant",
+                    "operator": "eq",
+                    "value": {
+                      "state": "known",
+                      "type": "string",
+                      "text": "balanced"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "method": "knowledge.the_winter_rescue.earthen_smelter.trial.balanced"
+        }
+      ]
+    }
+  ]
 }
