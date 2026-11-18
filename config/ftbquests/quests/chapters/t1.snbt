@@ -914,14 +914,13 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6A22E2D62D4719BE"]
+			dependencies: ["03A553EBD453466A"]
 			description: [
 				"{quest.twr.7887EB905BAA7BEF.description.1}"
 				"{quest.twr.7887EB905BAA7BEF.description.2}"
 				"{quest.twr.7887EB905BAA7BEF.description.3}"
 				"{quest.twr.7887EB905BAA7BEF.description.4}"
 				"{quest.twr.7887EB905BAA7BEF.description.5}"
-				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
 			hide_until_deps_visible: false
 			id: "7887EB905BAA7BEF"
