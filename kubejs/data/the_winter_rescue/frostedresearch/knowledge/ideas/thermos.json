@@ -1,0 +1,41 @@
+{
+  "title": "knowledge.the_winter_rescue.thermos.idea.title",
+  "body": "knowledge.the_winter_rescue.thermos.idea.body",
+  "projects": [
+    "the_winter_rescue:thermos"
+  ],
+  "acquisition": {
+    "triggers": [
+      {
+        "event": "frostedheart:drank_cold_water",
+        "subject": {
+          "kind": "observation",
+          "observation_type": "item",
+          "conditions": [
+            {
+              "field": "object",
+              "operator": "tag",
+              "tag": "the_winter_rescue:research/cold_water_containers"
+            }
+          ]
+        }
+      }
+    ],
+    "optional": [
+      {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.thermos.observe.thermos",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "frostedheart:thermos"
+          }
+        ]
+      }
+    ],
+    "chance": 0.05,
+    "optional_bonus": 0.45
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "title": "knowledge.the_winter_rescue.prospecting.idea.title",
+  "body": "knowledge.the_winter_rescue.prospecting.idea.body",
+  "projects": [
+    "the_winter_rescue:prospecting"
+  ],
+  "acquisition": {
+    "required": [],
+    "optional": [
+      {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.prospecting.observe.pick",
+        "conditions": [
+          {
+            "field": "item.prospector_pick",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "true"
+            }
+          }
+        ]
+      },
+      {
+        "kind": "observation",
+        "observation_type": "block",
+        "title": "knowledge.the_winter_rescue.prospecting.observe.ore",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "forge:ores"
+          }
+        ]
+      },
+      {
+        "kind": "observation",
+        "observation_type": "block",
+        "title": "knowledge.the_winter_rescue.prospecting.observe.stone",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "forge:stone"
+          }
+        ]
+      }
+    ],
+    "triggers": [
+      {
+        "event": "frostedheart:ore_mined_after_copper"
+      }
+    ],
+    "chance": 0.01,
+    "optional_bonus": 0.01
+  }
+}

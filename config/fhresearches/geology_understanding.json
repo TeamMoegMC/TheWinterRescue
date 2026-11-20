@@ -21,25 +21,6 @@
       }
     }
   ],
-  "effects": [
-    {
-      "type": "recipe",
-      "item": {
-        "item": "frostedheart:copper_pro_pick"
-      },
-      "icon": {
-        "type": "combined",
-        "base": {
-          "type": "ingredient",
-          "ingredient": {
-            "item": "frostedheart:copper_pro_pick"
-          }
-        },
-        "small": "minecraft:crafting_table"
-      },
-      "id": "e1b61496f49f4857"
-    }
-  ],
   "icon": "frostedheart:copper_pro_pick",
   "category": "frostedheart:exploration"
 }

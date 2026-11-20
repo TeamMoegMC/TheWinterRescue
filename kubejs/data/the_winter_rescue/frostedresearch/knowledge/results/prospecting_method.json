@@ -1,0 +1,11 @@
+{
+  "title": "knowledge.the_winter_rescue.prospecting.result.title",
+  "body": "knowledge.the_winter_rescue.prospecting.result.body",
+  "result": {
+    "type": "procedure",
+    "id": "the_winter_rescue:prospecting_method",
+    "tool_actions": [
+      "prospector_pick"
+    ]
+  }
+}

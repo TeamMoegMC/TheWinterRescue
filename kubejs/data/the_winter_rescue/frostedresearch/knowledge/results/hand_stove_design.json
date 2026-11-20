@@ -1,0 +1,11 @@
+{
+  "title": "knowledge.the_winter_rescue.hand_warmer.result.title",
+  "body": "knowledge.the_winter_rescue.hand_warmer.result.body",
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:hand_stove_design",
+    "recipes": [
+      "the_winter_rescue:research/hand_stove"
+    ]
+  }
+}

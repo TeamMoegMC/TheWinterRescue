@@ -1,0 +1,62 @@
+{
+  "inputs": [
+    {
+      "name": "copper",
+      "kind": "observation",
+      "observation_type": "item",
+      "title": "knowledge.the_winter_rescue.hand_warmer.observe.copper",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "tag",
+          "tag": "forge:ingots/copper"
+        }
+      ]
+    },
+    {
+      "name": "cold_carbon",
+      "kind": "observation",
+      "observation_type": "item",
+      "title": "knowledge.the_winter_rescue.hand_warmer.observe.cold_carbon",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "tag",
+          "tag": "the_winter_rescue:research/hand_stove_carbon"
+        },
+        {
+          "field": "temperature",
+          "operator": "lt",
+          "value": {
+            "state": "known",
+            "type": "number",
+            "number": 0
+          }
+        }
+      ]
+    }
+  ],
+  "output": "the_winter_rescue:hand_warmer",
+  "hints": [
+    "knowledge.the_winter_rescue.hand_warmer.link.hint"
+  ],
+  "required_knowledge": [],
+  "optional_knowledge": [
+    {
+      "kind": "observation",
+      "observation_type": "item",
+      "title": "knowledge.the_winter_rescue.hand_warmer.observe.straw",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "eq",
+          "value": {
+            "state": "known",
+            "type": "string",
+            "text": "kubejs:straw_briquette"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "title": "knowledge.the_winter_rescue.hand_warmer.project.title",
+  "body": "knowledge.the_winter_rescue.hand_warmer.project.body",
+  "results": [
+    "the_winter_rescue:hand_stove_design"
+  ],
+  "access": {
+    "conditions": {
+      "idea": {
+        "kind": "idea",
+        "definition": "the_winter_rescue:hand_warmer",
+        "title": "knowledge.the_winter_rescue.hand_warmer.idea.title"
+      },
+      "copper": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.hand_warmer.observe.copper",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "forge:ingots/copper"
+          }
+        ]
+      },
+      "cold_carbon": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.hand_warmer.observe.cold_carbon",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "the_winter_rescue:research/hand_stove_carbon"
+          },
+          {
+            "field": "temperature",
+            "operator": "lt",
+            "value": {
+              "state": "known",
+              "type": "number",
+              "number": 0
+            }
+          }
+        ]
+      }
+    },
+    "start_all": [
+      "idea",
+      "copper",
+      "cold_carbon"
+    ],
+    "groups": [
+      {
+        "id": "observations",
+        "reveal_any": [
+          "idea"
+        ],
+        "conditions": [
+          "idea",
+          "copper",
+          "cold_carbon"
+        ]
+      }
+    ]
+  },
+  "legacy_replacement": {
+    "research": "hand_warmer",
+    "effects": {
+      "69684c4aa1f4d7a": "the_winter_rescue:hand_stove_design"
+    },
+    "partial_idea": "the_winter_rescue:hand_warmer"
+  },
+  "stages": [
+    {
+      "id": "main",
+      "title": "knowledge.the_winter_rescue.hand_warmer.experiment.title",
+      "tasks": [
+        {
+          "method": "knowledge.the_winter_rescue.hand_warmer.experiment.method.standard",
+          "requirement": {
+            "id": "hand_stove_trial_standard",
+            "type": "experiment",
+            "title": "knowledge.the_winter_rescue.hand_warmer.experiment.title",
+            "duration": 600,
+            "materials": [
+              {
+                "tag": "forge:plates/copper",
+                "count": 8
+              },
+              {
+                "tag": "forge:clay",
+                "count": 1
+              }
+            ],
+            "result": {
+              "item": "frostedheart:hand_stove",
+              "count": 1
+            }
+          }
+        },
+        {
+          "method": "knowledge.the_winter_rescue.hand_warmer.experiment.method.clay",
+          "requirement": {
+            "id": "hand_stove_trial_clay",
+            "type": "experiment",
+            "title": "knowledge.the_winter_rescue.hand_warmer.experiment.title",
+            "duration": 600,
+            "materials": [
+              {
+                "tag": "forge:plates/copper",
+                "count": 4
+              },
+              {
+                "tag": "forge:clay",
+                "count": 1
+              }
+            ],
+            "result": {
+              "item": "frostedheart:hand_stove",
+              "count": 1
+            }
+          }
+        }
+      ],
+      "variants": [
+        {
+          "id": "clay",
+          "when": {
+            "knowledge_all": [
+              {
+                "kind": "observation",
+                "observation_type": "item",
+                "title": "knowledge.the_winter_rescue.hand_warmer.observe.clay",
+                "conditions": [
+                  {
+                    "field": "object",
+                    "operator": "tag",
+                    "tag": "forge:clay"
+                  }
+                ]
+              }
+            ]
+          },
+          "omit_tasks": [
+            "hand_stove_trial_standard"
+          ]
+        },
+        {
+          "id": "standard",
+          "omit_tasks": [
+            "hand_stove_trial_clay"
+          ]
+        }
+      ]
+    }
+  ]
+}

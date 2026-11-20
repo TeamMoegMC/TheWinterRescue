@@ -1,0 +1,78 @@
+{
+  "title": "knowledge.the_winter_rescue.thermos.project.title",
+  "body": "knowledge.the_winter_rescue.thermos.project.body",
+  "results": [
+    "the_winter_rescue:thermos_design"
+  ],
+  "access": {
+    "conditions": {
+      "idea": {
+        "kind": "idea",
+        "definition": "the_winter_rescue:thermos",
+        "title": "knowledge.the_winter_rescue.thermos.idea.title"
+      },
+      "wooden_cup": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.thermos.observe.wooden_cup",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "the_winter_rescue:research/wooden_drinking_cups"
+          }
+        ]
+      }
+    },
+    "discover_any": [
+      "idea",
+      "wooden_cup"
+    ],
+    "start_all": [
+      "idea"
+    ],
+    "groups": [
+      {
+        "id": "discovery",
+        "reveal_any": ["idea", "wooden_cup"],
+        "conditions": ["idea", "wooden_cup"]
+      }
+    ]
+  },
+  "legacy_replacement": {
+    "research": "thermos_T1",
+    "effects": {
+      "915e5759ba344d58": "the_winter_rescue:thermos_design"
+    },
+    "partial_idea": "the_winter_rescue:thermos"
+  },
+  "stages": [
+    {
+      "id": "main",
+      "title": "knowledge.the_winter_rescue.thermos.experiment.title",
+      "tasks": [
+        {
+          "method": "knowledge.the_winter_rescue.thermos.experiment.method",
+          "requirement": {
+            "id": "assemble_thermos",
+            "type": "experiment",
+            "title": "knowledge.the_winter_rescue.thermos.experiment.title",
+            "duration": 200,
+            "materials": [
+              {
+                "tag": "forge:plates/copper"
+              },
+              {
+                "tag": "minecraft:planks"
+              }
+            ],
+            "result": {
+              "item": "frostedheart:thermos",
+              "count": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -687,7 +687,6 @@
 				"{quest.twr.1DF200F6772308C7.description.1}"
 				"{quest.twr.1DF200F6772308C7.description.2}"
 				"{quest.twr.1DF200F6772308C7.description.3}"
-				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
 			hide_until_deps_visible: false
 			id: "1DF200F6772308C7"
@@ -704,9 +703,6 @@
 				item: {
 					Count: 1
 					id: "frostedheart:copper_pro_pick"
-					tag: {
-						Damage: 0
-					}
 				}
 				type: "item"
 			}]
@@ -717,7 +713,6 @@
 			dependencies: ["6A22E2D62D4719BE"]
 			description: [
 				"{quest.twr.1974619E18DB754A.description.1}"
-				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
 			hide_until_deps_visible: false
 			id: "1974619E18DB754A"
@@ -774,13 +769,7 @@
 			subtitle: "{quest.twr.1974619E18DB754A.subtitle}"
 			tasks: [{
 				id: "32B7DFCCB85B7F9E"
-				item: {
-					Count: 1
-					id: "frostedheart:thermos"
-					tag: {
-						Damage: 1500
-					}
-				}
+				item: "frostedheart:thermos"
 				type: "item"
 			}]
 			x: 5.0d
@@ -947,7 +936,6 @@
 				"{quest.twr.0E067BFAE2FB5441.description.2}"
 				"{quest.twr.0E067BFAE2FB5441.description.3}"
 				"{quest.twr.0E067BFAE2FB5441.description.4}"
-				"{quest.twr.162264AE4B9EE1A9.description.4}"
 			]
 			hide_until_deps_visible: false
 			icon: {

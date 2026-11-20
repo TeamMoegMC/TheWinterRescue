@@ -1,0 +1,118 @@
+{
+  "title": "knowledge.the_winter_rescue.prospecting.project.title",
+  "body": "knowledge.the_winter_rescue.prospecting.project.body",
+  "results": [
+    "the_winter_rescue:prospecting_method"
+  ],
+  "access": {
+    "conditions": {
+      "idea": {
+        "kind": "idea",
+        "definition": "the_winter_rescue:prospecting",
+        "title": "knowledge.the_winter_rescue.prospecting.idea.title"
+      },
+      "pick": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.prospecting.observe.pick",
+        "conditions": [
+          {
+            "field": "item.prospector_pick",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "true"
+            }
+          }
+        ]
+      },
+      "ore": {
+        "kind": "observation",
+        "observation_type": "block",
+        "title": "knowledge.the_winter_rescue.prospecting.observe.ore",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "forge:ores"
+          }
+        ]
+      },
+      "stone": {
+        "kind": "observation",
+        "observation_type": "block",
+        "title": "knowledge.the_winter_rescue.prospecting.observe.stone",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "forge:stone"
+          }
+        ]
+      }
+    },
+    "start_all": [
+      "idea",
+      "pick",
+      "ore",
+      "stone"
+    ],
+    "groups": [
+      {
+        "id": "observations",
+        "reveal_any": [
+          "idea"
+        ],
+        "conditions": [
+          "idea",
+          "pick",
+          "ore",
+          "stone"
+        ]
+      }
+    ]
+  },
+  "legacy_replacement": {
+    "research": "geology_understanding",
+    "effects": {
+      "e1b61496f49f4857": "the_winter_rescue:prospecting_method"
+    },
+    "partial_idea": "the_winter_rescue:prospecting"
+  },
+  "stages": [
+    {
+      "id": "main",
+      "title": "knowledge.the_winter_rescue.prospecting.experiment.title",
+      "method": "knowledge.the_winter_rescue.prospecting.experiment.method",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "prospecting_trial",
+            "type": "experiment",
+            "title": "knowledge.the_winter_rescue.prospecting.experiment.title",
+            "duration": 600,
+            "materials": [
+              {
+                "tool_action": "prospector_pick",
+                "return_on_complete": true
+              }
+            ],
+            "space": {
+              "blocks": [
+                {
+                  "tag": "forge:stone",
+                  "count": 16
+                },
+                {
+                  "tag": "forge:ores",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

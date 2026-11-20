@@ -1808,9 +1808,10 @@ ServerEvents.recipes((event) => {
         // Replace all native/conditional bloomery routes with this researched route.
         if (recipe[0] === "charcoal_pit:main_bloomery") event.remove({output: "charcoal_pit:main_bloomery"})
         // Add new Recipes
-        kubejs.shaped(output, pattern, keys)
-            .id(recipe[0] === "charcoal_pit:main_bloomery"
-                ? "the_winter_rescue:research/main_bloomery"
-                : `the_winter_rescue:minecraft/crafting_shaped/new/${index}`)
+        let id = `the_winter_rescue:minecraft/crafting_shaped/new/${index}`
+        if (recipe[0] === "charcoal_pit:main_bloomery") id = "the_winter_rescue:research/main_bloomery"
+        if (recipe[0] === "frostedheart:hand_stove") id = "the_winter_rescue:research/hand_stove"
+        if (recipe[0] === "frostedheart:thermos") id = "the_winter_rescue:research/thermos"
+        kubejs.shaped(output, pattern, keys).id(id)
     })
 })

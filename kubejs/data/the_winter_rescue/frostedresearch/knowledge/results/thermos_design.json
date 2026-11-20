@@ -1,0 +1,12 @@
+{
+  "title": "knowledge.the_winter_rescue.thermos.result.title",
+  "body": "knowledge.the_winter_rescue.thermos.result.body",
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:thermos_design",
+    "recipes": [
+      "the_winter_rescue:research/thermos",
+      "frostedheart:crafting/thermos_from_dyed"
+    ]
+  }
+}

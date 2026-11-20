@@ -1,0 +1,52 @@
+{
+  "inputs": [
+    {
+      "kind": "observation",
+      "observation_type": "item",
+      "title": "knowledge.the_winter_rescue.prospecting.observe.pick",
+      "conditions": [
+        {
+          "field": "item.prospector_pick",
+          "operator": "eq",
+          "value": {
+            "state": "known",
+            "type": "string",
+            "text": "true"
+          }
+        }
+      ],
+      "name": "pick"
+    }
+  ],
+  "output": "the_winter_rescue:prospecting",
+  "hints": [
+    "knowledge.the_winter_rescue.prospecting.link.hint"
+  ],
+  "required_knowledge": [],
+  "optional_knowledge": [
+    {
+      "kind": "observation",
+      "observation_type": "block",
+      "title": "knowledge.the_winter_rescue.prospecting.observe.ore",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "tag",
+          "tag": "forge:ores"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "observation_type": "block",
+      "title": "knowledge.the_winter_rescue.prospecting.observe.stone",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "tag",
+          "tag": "forge:stone"
+        }
+      ]
+    }
+  ]
+}
