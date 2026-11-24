@@ -1,0 +1,50 @@
+{
+  "inputs": [
+    {
+      "name": "piston",
+      "kind": "observation",
+      "observation_type": "block",
+      "title": "knowledge.the_winter_rescue.mechanical_bellows.piston",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "eq",
+          "value": {
+            "state": "known",
+            "type": "string",
+            "text": "minecraft:piston"
+          }
+        }
+      ]
+    },
+    {
+      "name": "bellows",
+      "kind": "observation",
+      "observation_type": "block",
+      "title": "knowledge.the_winter_rescue.mechanical_bellows.bellows",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "eq",
+          "value": {
+            "state": "known",
+            "type": "string",
+            "text": "charcoal_pit:bellows"
+          }
+        }
+      ]
+    }
+  ],
+  "output": "the_winter_rescue:mechanical_bellows",
+  "hints": [
+    "knowledge.the_winter_rescue.mechanical_bellows.link.hint"
+  ],
+  "required_knowledge": [],
+  "optional_knowledge": [
+    {
+      "kind": "result",
+      "definition": "the_winter_rescue:bronze_cogwheel_design",
+      "title": "knowledge.the_winter_rescue.transmission_machinery.result.bronze_cogwheel_design.title"
+    }
+  ]
+}

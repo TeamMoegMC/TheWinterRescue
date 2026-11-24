@@ -87,5 +87,19 @@
   "knowledge.the_winter_rescue.hand_warmer.experiment.method.standard": "Select this research at the experiment table, add eight copper sheets and one clay, and start the experiment. After 30 seconds, collect the hand stove from the output slot.",
   "knowledge.the_winter_rescue.hand_warmer.experiment.method.clay": "Select this research at the experiment table, add four copper sheets and one clay, and start the experiment. After 30 seconds, collect the hand stove from the output slot.",
   "knowledge.the_winter_rescue.hand_warmer.result.title": "Copper Hand Stove Design",
-  "knowledge.the_winter_rescue.hand_warmer.result.body": "Craft a copper hand stove with four copper sheets and one clay. Refill it with a straw briquette, coal stick, or charcoal stick."
+  "knowledge.the_winter_rescue.hand_warmer.result.body": "Craft a copper hand stove with four copper sheets and one clay. Refill it with a straw briquette, coal stick, or charcoal stick.",
+  "knowledge.the_winter_rescue.mechanical_bellows.idea.title": "A piston-driven bellows",
+  "knowledge.the_winter_rescue.mechanical_bellows.idea.body": "Each stroke takes a hand off the furnace. A piston could press the bellows on command.",
+  "knowledge.the_winter_rescue.mechanical_bellows.piston": "Observe a piston",
+  "knowledge.the_winter_rescue.mechanical_bellows.bellows": "Observe a hand bellows",
+  "knowledge.the_winter_rescue.mechanical_bellows.link.hint": "What could press the bellows in place of your hand?",
+  "knowledge.the_winter_rescue.mechanical_bellows.project.title": "Mechanical Bellows",
+  "knowledge.the_winter_rescue.mechanical_bellows.project.body": "Lay out the parts, then inspect a piston and a hand bellows in the laboratory.",
+  "knowledge.the_winter_rescue.mechanical_bellows.assembly.title": "Lay out the bellows parts",
+  "knowledge.the_winter_rescue.mechanical_bellows.assembly.method": "Rotate and fit all the diagram pieces inside the outline, then submit the drawing.",
+  "knowledge.the_winter_rescue.mechanical_bellows.inspection.title": "Inspect the piston and bellows",
+  "knowledge.the_winter_rescue.mechanical_bellows.inspection.method": "Place one regular piston and one hand bellows in the enclosed room with the experiment table. Leave at least one side of each block exposed to room air, then start the experiment.",
+  "knowledge.the_winter_rescue.mechanical_bellows.inspection.conclusion": "A piston can take over the pressing stroke. The finished bellows compresses on power and resets after power is cut.",
+  "knowledge.the_winter_rescue.mechanical_bellows.result.title": "Mechanical Bellows Design",
+  "knowledge.the_winter_rescue.mechanical_bellows.result.body": "Craft a mechanical bellows from six stone, one piston and one hand bellows. Power it to blow, cut power to reset it, then power it again."
 }

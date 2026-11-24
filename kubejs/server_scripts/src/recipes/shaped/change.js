@@ -1187,6 +1187,10 @@ ServerEvents.recipes((event) => {
 
 
     ]
+    const researchRecipeIds = {
+        "charcoal_pit:mechanical_bellows": "mechanical_bellows",
+        "immersiveengineering:alloybrick": "alloybrick"
+    }
     changeShapedRecipes.forEach((recipe, index) => {
         let [
             output,
@@ -1211,9 +1215,10 @@ ServerEvents.recipes((event) => {
         event.remove({output: output, type: "minecraft:crafting_shapeless"})
 
         // Add new Recipes
+        const researchRecipe = researchRecipeIds[recipe[0]]
         kubejs.shaped(output, pattern, keys)
-            .id(recipe[0] === "immersiveengineering:alloybrick"
-                ? "the_winter_rescue:research/alloybrick"
+            .id(researchRecipe
+                ? `the_winter_rescue:research/${researchRecipe}`
                 : `the_winter_rescue:minecraft/crafting_shaped/change/${index}`)
     })
 })

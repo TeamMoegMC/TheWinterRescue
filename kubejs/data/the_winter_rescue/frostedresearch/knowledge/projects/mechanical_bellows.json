@@ -1,0 +1,89 @@
+{
+  "title": "knowledge.the_winter_rescue.mechanical_bellows.project.title",
+  "body": "knowledge.the_winter_rescue.mechanical_bellows.project.body",
+  "results": [
+    "the_winter_rescue:mechanical_bellows_design"
+  ],
+  "access": {
+    "conditions": {
+      "idea": {
+        "kind": "idea",
+        "definition": "the_winter_rescue:mechanical_bellows",
+        "title": "knowledge.the_winter_rescue.mechanical_bellows.idea.title"
+      },
+      "gear": {
+        "kind": "result",
+        "definition": "the_winter_rescue:bronze_cogwheel_design",
+        "title": "knowledge.the_winter_rescue.transmission_machinery.result.bronze_cogwheel_design.title"
+      }
+    },
+    "start_all": [
+      "idea",
+      "gear"
+    ],
+    "groups": [
+      {
+        "id": "opening",
+        "reveal_any": [
+          "idea"
+        ],
+        "conditions": [
+          "idea",
+          "gear"
+        ]
+      }
+    ]
+  },
+  "legacy_replacement": {
+    "research": "mechanical_bellows",
+    "effects": {
+      "b814b77435e341c5": "the_winter_rescue:mechanical_bellows_design"
+    },
+    "partial_idea": "the_winter_rescue:mechanical_bellows"
+  },
+  "stages": [
+    {
+      "id": "assembly",
+      "title": "knowledge.the_winter_rescue.mechanical_bellows.assembly.title",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "assembly",
+            "type": "minigame",
+            "game": "frostedresearch:nesting_pack",
+            "title": "knowledge.the_winter_rescue.mechanical_bellows.assembly.title"
+          },
+          "method": "knowledge.the_winter_rescue.mechanical_bellows.assembly.method"
+        }
+      ]
+    },
+    {
+      "id": "inspection",
+      "title": "knowledge.the_winter_rescue.mechanical_bellows.inspection.title",
+      "method": "knowledge.the_winter_rescue.mechanical_bellows.inspection.method",
+      "conclusion": "knowledge.the_winter_rescue.mechanical_bellows.inspection.conclusion",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "inspect_parts",
+            "type": "experiment",
+            "title": "knowledge.the_winter_rescue.mechanical_bellows.inspection.title",
+            "duration": 100,
+            "space": {
+              "blocks": [
+                {
+                  "block": "minecraft:piston",
+                  "count": 1
+                },
+                {
+                  "block": "charcoal_pit:bellows",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

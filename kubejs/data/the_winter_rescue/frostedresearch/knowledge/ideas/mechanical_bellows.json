@@ -1,0 +1,55 @@
+{
+  "title": "knowledge.the_winter_rescue.mechanical_bellows.idea.title",
+  "body": "knowledge.the_winter_rescue.mechanical_bellows.idea.body",
+  "projects": [
+    "the_winter_rescue:mechanical_bellows"
+  ],
+  "acquisition": {
+    "triggers": [
+      {
+        "event": "frostedheart:manual_bellows_blow"
+      }
+    ],
+    "chance": 0.01,
+    "weighted_bonuses": [
+      {
+        "condition": {
+          "kind": "observation",
+          "observation_type": "block",
+          "title": "knowledge.the_winter_rescue.mechanical_bellows.bellows",
+          "conditions": [
+            {
+              "field": "object",
+              "operator": "eq",
+              "value": {
+                "state": "known",
+                "type": "string",
+                "text": "charcoal_pit:bellows"
+              }
+            }
+          ]
+        },
+        "bonus": 0.02
+      },
+      {
+        "condition": {
+          "kind": "observation",
+          "observation_type": "block",
+          "title": "knowledge.the_winter_rescue.mechanical_bellows.piston",
+          "conditions": [
+            {
+              "field": "object",
+              "operator": "eq",
+              "value": {
+                "state": "known",
+                "type": "string",
+                "text": "minecraft:piston"
+              }
+            }
+          ]
+        },
+        "bonus": 0.1
+      }
+    ]
+  }
+}

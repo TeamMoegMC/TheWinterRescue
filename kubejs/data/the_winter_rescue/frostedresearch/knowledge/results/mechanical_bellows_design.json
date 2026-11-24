@@ -1,0 +1,12 @@
+{
+  "title": "knowledge.the_winter_rescue.mechanical_bellows.result.title",
+  "body": "knowledge.the_winter_rescue.mechanical_bellows.result.body",
+  "understanding": [],
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:mechanical_bellows_design",
+    "recipes": [
+      "the_winter_rescue:research/mechanical_bellows"
+    ]
+  }
+}

@@ -87,5 +87,19 @@
   "knowledge.the_winter_rescue.hand_warmer.experiment.method.standard": "在实验台选择本研究，放入 8 块铜板和 1 份黏土，开始实验。等待 30 秒后，从领取槽取出铜制手炉。",
   "knowledge.the_winter_rescue.hand_warmer.experiment.method.clay": "在实验台选择本研究，放入 4 块铜板和 1 份黏土，开始实验。等待 30 秒后，从领取槽取出铜制手炉。",
   "knowledge.the_winter_rescue.hand_warmer.result.title": "铜制手炉图纸",
-  "knowledge.the_winter_rescue.hand_warmer.result.body": "在工作台用 4 块铜板和 1 份黏土制作铜制手炉。用干草块、煤炭棒或木炭棒为手炉补充燃料。"
+  "knowledge.the_winter_rescue.hand_warmer.result.body": "在工作台用 4 块铜板和 1 份黏土制作铜制手炉。用干草块、煤炭棒或木炭棒为手炉补充燃料。",
+  "knowledge.the_winter_rescue.mechanical_bellows.idea.title": "让风箱自己压下去",
+  "knowledge.the_winter_rescue.mechanical_bellows.idea.body": "每次送风都要腾出手来压风箱。也许可以用活塞来压，让红石信号控制送风。",
+  "knowledge.the_winter_rescue.mechanical_bellows.piston": "观察普通活塞",
+  "knowledge.the_winter_rescue.mechanical_bellows.bellows": "观察普通风箱",
+  "knowledge.the_winter_rescue.mechanical_bellows.link.hint": "什么东西能代替手压下风箱？",
+  "knowledge.the_winter_rescue.mechanical_bellows.project.title": "机械风箱",
+  "knowledge.the_winter_rescue.mechanical_bellows.project.body": "先排布部件，再在实验室检查普通活塞和普通风箱。",
+  "knowledge.the_winter_rescue.mechanical_bellows.assembly.title": "风箱部件排样",
+  "knowledge.the_winter_rescue.mechanical_bellows.assembly.method": "旋转图纸上的部件，将它们全部放入轮廓内，再提交图纸。",
+  "knowledge.the_winter_rescue.mechanical_bellows.inspection.title": "检查活塞和风箱",
+  "knowledge.the_winter_rescue.mechanical_bellows.inspection.method": "在实验台所在的封闭房间内摆放一个普通活塞和一个普通风箱。每个方块至少留一面接触室内空气，然后启动实验。",
+  "knowledge.the_winter_rescue.mechanical_bellows.inspection.conclusion": "活塞可以代替手压下风箱。制成后，通电压下送风，断电复位。",
+  "knowledge.the_winter_rescue.mechanical_bellows.result.title": "机械风箱图纸",
+  "knowledge.the_winter_rescue.mechanical_bellows.result.body": "用六块石头、一个普通活塞和一个普通风箱合成。通电送风，断电复位后可以再次通电送风。"
 }
