@@ -46,6 +46,7 @@
             "type": "observation",
             "title": "knowledge.the_winter_rescue.transmission_machinery.observe.iron_rod.title",
             "observation": {
+              "accept_recorded": true,
               "condition": {
                 "kind": "observation",
                 "observation_type": "item",
@@ -71,6 +72,7 @@
             "type": "observation",
             "title": "knowledge.the_winter_rescue.transmission_machinery.observe.bronze_sheet.title",
             "observation": {
+              "accept_recorded": true,
               "condition": {
                 "kind": "observation",
                 "observation_type": "item",
