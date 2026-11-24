@@ -1,0 +1,11 @@
+{
+  "title": "item.frostedheart.copper_core_spade",
+  "body": "knowledge.the_winter_rescue.prospecting.design.body",
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:copper_core_spade_design",
+    "recipes": [
+      "the_winter_rescue:research/copper_core_spade"
+    ]
+  }
+}

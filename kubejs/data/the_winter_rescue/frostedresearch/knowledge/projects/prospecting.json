@@ -2,7 +2,15 @@
   "title": "knowledge.the_winter_rescue.prospecting.project.title",
   "body": "knowledge.the_winter_rescue.prospecting.project.body",
   "results": [
-    "the_winter_rescue:prospecting_method"
+    "the_winter_rescue:prospecting_method",
+    "the_winter_rescue:copper_core_spade_design",
+    "the_winter_rescue:copper_geologists_hammer_design",
+    "the_winter_rescue:iron_pro_pick_design",
+    "the_winter_rescue:iron_core_spade_design",
+    "the_winter_rescue:iron_geologists_hammer_design",
+    "the_winter_rescue:steel_pro_pick_design",
+    "the_winter_rescue:steel_core_spade_design",
+    "the_winter_rescue:steel_geologists_hammer_design"
   ],
   "access": {
     "conditions": {
@@ -73,13 +81,35 @@
       }
     ]
   },
-  "legacy_replacement": {
-    "research": "geology_understanding",
-    "effects": {
-      "e1b61496f49f4857": "the_winter_rescue:prospecting_method"
+  "legacy_replacement": [
+    {
+      "research": "geology_understanding",
+      "effects": {
+        "e1b61496f49f4857": "the_winter_rescue:prospecting_method"
+      },
+      "partial_idea": "the_winter_rescue:prospecting"
     },
-    "partial_idea": "the_winter_rescue:prospecting"
-  },
+    {
+      "research": "advanced_geological_tools",
+      "effects": {
+        "43a44e2e25ed4931": "the_winter_rescue:copper_core_spade_design",
+        "15ebf6acdd874eef": "the_winter_rescue:copper_geologists_hammer_design"
+      },
+      "partial_idea": "the_winter_rescue:prospecting"
+    },
+    {
+      "research": "prospecting_upgrade",
+      "effects": {
+        "571084a34e5b48c4": "the_winter_rescue:iron_pro_pick_design",
+        "2307b43b389b496e": "the_winter_rescue:iron_core_spade_design",
+        "7c42cfa996594af6": "the_winter_rescue:iron_geologists_hammer_design",
+        "97d96966722040d0": "the_winter_rescue:steel_pro_pick_design",
+        "efe5ab6ad2754cff": "the_winter_rescue:steel_core_spade_design",
+        "9bc96ef91aef4a3c": "the_winter_rescue:steel_geologists_hammer_design"
+      },
+      "partial_idea": "the_winter_rescue:prospecting"
+    }
+  ],
   "stages": [
     {
       "id": "main",
