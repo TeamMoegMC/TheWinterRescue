@@ -1,4 +1,6 @@
 {
+  "locked": true,
+  "hidden": true,
   "points": 1000,
   "insight": 1,
   "clues": [
@@ -22,50 +24,6 @@
         "item": "immersiveengineering:stick_treated"
       },
       "count": 1
-    }
-  ],
-  "effects": [
-    {
-      "type": "recipe",
-      "item": {
-        "item": "frostedheart:iron_pro_pick"
-      },
-      "id": "571084a34e5b48c4"
-    },
-    {
-      "type": "recipe",
-      "item": {
-        "item": "frostedheart:iron_core_spade"
-      },
-      "id": "2307b43b389b496e"
-    },
-    {
-      "type": "recipe",
-      "item": {
-        "item": "frostedheart:iron_geologists_hammer"
-      },
-      "id": "7c42cfa996594af6"
-    },
-    {
-      "type": "recipe",
-      "item": {
-        "item": "frostedheart:steel_pro_pick"
-      },
-      "id": "97d96966722040d0"
-    },
-    {
-      "type": "recipe",
-      "item": {
-        "item": "frostedheart:steel_core_spade"
-      },
-      "id": "efe5ab6ad2754cff"
-    },
-    {
-      "type": "recipe",
-      "item": {
-        "item": "frostedheart:steel_geologists_hammer"
-      },
-      "id": "9bc96ef91aef4a3c"
     }
   ],
   "icon": {

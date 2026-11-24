@@ -1,4 +1,6 @@
 {
+  "locked": true,
+  "hidden": true,
   "showAltDesc": true,
   "points": 800,
   "insight": 1,
@@ -25,22 +27,6 @@
   "ingredients": [
     {
       "tag": "forge:plates/copper"
-    }
-  ],
-  "effects": [
-    {
-      "type": "recipe",
-      "item": {
-        "item": "frostedheart:copper_core_spade"
-      },
-      "id": "43a44e2e25ed4931"
-    },
-    {
-      "type": "recipe",
-      "item": {
-        "item": "frostedheart:copper_geologists_hammer"
-      },
-      "id": "15ebf6acdd874eef"
     }
   ],
   "icon": "frostedheart:copper_geologists_hammer",
