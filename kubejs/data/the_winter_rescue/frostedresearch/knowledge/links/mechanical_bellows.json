@@ -3,11 +3,10 @@
     {
       "name": "piston",
       "kind": "observation",
-      "observation_type": "block",
       "title": "knowledge.the_winter_rescue.mechanical_bellows.piston",
       "conditions": [
         {
-          "field": "object",
+          "field": "block_object",
           "operator": "eq",
           "value": {
             "state": "known",
@@ -20,11 +19,10 @@
     {
       "name": "bellows",
       "kind": "observation",
-      "observation_type": "block",
       "title": "knowledge.the_winter_rescue.mechanical_bellows.bellows",
       "conditions": [
         {
-          "field": "object",
+          "field": "block_object",
           "operator": "eq",
           "value": {
             "state": "known",

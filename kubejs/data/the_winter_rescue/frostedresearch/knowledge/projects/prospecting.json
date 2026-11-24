@@ -29,11 +29,10 @@
       },
       "ore": {
         "kind": "observation",
-        "observation_type": "block",
         "title": "knowledge.the_winter_rescue.prospecting.observe.ore",
         "conditions": [
           {
-            "field": "object",
+            "field": "block_object",
             "operator": "tag",
             "tag": "forge:ores"
           }
@@ -41,11 +40,10 @@
       },
       "stone": {
         "kind": "observation",
-        "observation_type": "block",
         "title": "knowledge.the_winter_rescue.prospecting.observe.stone",
         "conditions": [
           {
-            "field": "object",
+            "field": "block_object",
             "operator": "tag",
             "tag": "forge:stone"
           }
