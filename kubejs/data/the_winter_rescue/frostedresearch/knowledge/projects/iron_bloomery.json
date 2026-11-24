@@ -11,18 +11,6 @@
         "definition": "the_winter_rescue:iron_smelting",
         "title": "knowledge.the_winter_rescue.iron_bloomery.idea.title"
       },
-      "copper_or_bronze": {
-        "kind": "observation",
-        "observation_type": "item",
-        "title": "knowledge.the_winter_rescue.iron_bloomery.copper",
-        "conditions": [
-          {
-            "field": "object",
-            "operator": "tag",
-            "tag": "the_winter_rescue:research/iron_copper_or_bronze"
-          }
-        ]
-      },
       "carbon_fuel": {
         "kind": "observation",
         "observation_type": "item",
@@ -42,19 +30,14 @@
         "conditions": [
           {
             "field": "object",
-            "operator": "eq",
-            "value": {
-              "state": "known",
-              "type": "string",
-              "text": "minecraft:raw_iron"
-            }
+            "operator": "tag",
+            "tag": "the_winter_rescue:research/iron_ore_materials"
           }
         ]
       }
     },
     "start_all": [
       "idea",
-      "copper_or_bronze",
       "carbon_fuel",
       "raw_iron"
     ],
@@ -66,7 +49,6 @@
         ],
         "conditions": [
           "idea",
-          "copper_or_bronze",
           "carbon_fuel",
           "raw_iron"
         ]

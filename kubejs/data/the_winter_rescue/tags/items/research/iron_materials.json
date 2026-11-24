@@ -1,13 +1,10 @@
 {
   "replace": false,
   "values": [
-    "#forge:ores/iron",
-    "#forge:raw_materials/iron",
-    "#forge:crushed_raw_materials/iron",
+    "#the_winter_rescue:research/iron_ore_materials",
     "#forge:ingots/iron",
     "#forge:plates/iron",
     "#forge:rods/iron",
-    "#forge:dusts/iron",
     "#forge:nuggets/iron",
     "#forge:storage_blocks/iron",
     "#the_winter_rescue:bloom_iron",

@@ -6,12 +6,8 @@
       "conditions": [
         {
           "field": "object",
-          "operator": "eq",
-          "value": {
-            "state": "known",
-            "type": "string",
-            "text": "minecraft:raw_iron"
-          }
+          "operator": "tag",
+          "tag": "the_winter_rescue:research/iron_ore_materials"
         }
       ],
       "name": "raw_iron"

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ores/iron",
+    "#forge:ores/pyrite",
+    "#forge:raw_materials/iron",
+    "#forge:raw_materials/pyrite",
+    "#forge:crushed_raw_materials/iron",
+    "#forge:crushed_raw_materials/pyrite",
+    "#forge:dusts/iron",
+    "minecraft:raw_iron_block",
+    "frostedheart:condensed_iron_ore",
+    "frostedheart:condensed_iron_ore_block",
+    "frostedheart:condensed_ball_iron_ore",
+    "frostedheart:condensed_pyrite_ore",
+    "frostedheart:condensed_pyrite_ore_block",
+    "frostedheart:condensed_ball_pyrite_ore",
+    "frostedheart:iron_sludge",
+    "frostedheart:iron_sludge_block",
+    "frostedheart:iron_slurry"
+  ]
+}
