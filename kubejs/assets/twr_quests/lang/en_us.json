@@ -1025,7 +1025,7 @@
   "quest.twr.564A135A9DC0E980.title": "Earthen Smelter",
   "quest.twr.564A135A9DC0E980.subtitle": "Compare all three fired mixtures",
   "quest.twr.564A135A9DC0E980.61A77086F9D440BA.title": "Read the guide (does not advance research)",
-  "quest.twr.564A135A9DC0E980.description.1": "1. Obtain copper or tin minerals for a chance of inspiration, or link a raw copper observation. Learn raw copper, clay and sand item observations, then start Earthen Smelter research.",
+  "quest.twr.564A135A9DC0E980.description.1": "1. Obtain copper or tin minerals for a chance of inspiration, or link a raw copper observation. Learn item observations of raw copper and clay balls, and observe sand in the world or as an item. Learn the sand observation to start Earthen Smelter research.",
   "quest.twr.564A135A9DC0E980.description.2": "2. Fill the kiln wall outline and stamp it to unlock the three kiln recipes. Advance to firing. In your 2x2 grid, craft clay-and-sand kilns at 3:1, 1:3 and 2:2 ratios. Place each kiln and right-click with 4 sticks to fire for 20 seconds. Two mixtures crack and one stays intact.",
   "quest.twr.564A135A9DC0E980.description.3": "3. Collect all three samples with an empty hand, check their mixture tooltips and observe both cracked samples and the intact one. Return to the drawing desk to finish. Observations count immediately without keeping, archiving or consuming samples. Lost samples can be fired again; unbound or previous-research samples cannot substitute. Completion unlocks kiln bricks and smelter formation.",
   "quest.twr.594A74A3D9A1A554.title": "Bloomery",

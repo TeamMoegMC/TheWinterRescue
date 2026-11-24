@@ -30,11 +30,10 @@
       },
       "sand_material": {
         "kind": "observation",
-        "observation_type": "item",
         "title": "knowledge.the_winter_rescue.earthen_smelter.sand",
         "conditions": [
           {
-            "field": "object",
+            "field": "block_object",
             "operator": "eq",
             "value": {
               "state": "known",
