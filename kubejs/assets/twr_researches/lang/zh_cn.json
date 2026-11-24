@@ -121,7 +121,7 @@
 	"research.frostedresearch.generator_T2.desc_alt.0": "我已经掌握了蒸汽的原理，有没有可能将能量核心的力量与之融合呢？",
 	"research.frostedresearch.generator_T2.name": "蒸汽能量塔",
 	"research.frostedresearch.generator_efficiency_1.desc.0": "通过加装新的燃烧室和鼓风模块，能量塔的燃烧效率永久提升了。",
-	"research.frostedresearch.generator_efficiency_1.desc_alt.0": "我似乎发现只要改善能量塔的燃烧室并提供足量氧气供其充分燃烧，就可以提高它的燃烧效率。",
+	"research.frostedresearch.generator_efficiency_1.desc_alt.0": "改善燃烧室和供风能让燃料烧得更久。先完成「机械风箱」研究并制作一件机械风箱，再把它带到绘图台检视。",
 	"research.frostedresearch.generator_efficiency_1.name": "能量塔效率提升1",
 	"research.frostedresearch.generator_efficiency_2.desc.0": "加装了保温装置后，能量塔燃烧效率永久提升了。",
 	"research.frostedresearch.generator_efficiency_2.desc_alt.0": "在设计电窑的过程中，我意识到可以把窑炉的保温装置安装在能量塔上，这样可以进一步提升能量塔的燃烧效率。",

@@ -1343,7 +1343,10 @@
 				"72D5B725766622F4"
 				"29533DFBD579CA2F"
 			]
-			description: ["{quest.twr.4D0ECD01E0CC7C8C.description.1}"]
+			description: [
+				"{quest.twr.4D0ECD01E0CC7C8C.description.1}"
+				"{quest.twr.4D0ECD01E0CC7C8C.description.2}"
+			]
 			id: "4D0ECD01E0CC7C8C"
 			optional: true
 			tasks: [{
