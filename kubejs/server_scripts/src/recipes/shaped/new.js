@@ -1812,6 +1812,7 @@ ServerEvents.recipes((event) => {
         if (recipe[0] === "charcoal_pit:main_bloomery") id = "the_winter_rescue:research/main_bloomery"
         if (recipe[0] === "frostedheart:hand_stove") id = "the_winter_rescue:research/hand_stove"
         if (recipe[0] === "frostedheart:thermos") id = "the_winter_rescue:research/thermos"
+        if (recipe[0] === "frostedheart:generator_core_t1") id = "the_winter_rescue:research/generator_core_t1"
         if (recipe[0] === "create:shaft") id = "the_winter_rescue:research/shaft_from_iron_rods"
         const prospectingTool = /^frostedheart:((?:copper|iron|steel)_(?:core_spade|geologists_hammer)|(?:iron|steel)_pro_pick)$/.exec(recipe[0])
         if (prospectingTool) id = "the_winter_rescue:research/" + prospectingTool[1]

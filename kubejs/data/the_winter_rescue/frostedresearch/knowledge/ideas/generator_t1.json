@@ -1,0 +1,26 @@
+{
+  "title": "knowledge.the_winter_rescue.generator_t1.idea.title",
+  "body": "knowledge.the_winter_rescue.generator_t1.idea.body",
+  "projects": [
+    "the_winter_rescue:generator_t1"
+  ],
+  "acquisition": {
+    "triggers": [
+      {
+        "event": "frostedresearch:item_obtained",
+        "subject": {
+          "kind": "observation",
+          "observation_type": "item",
+          "conditions": [
+            {
+              "field": "object",
+              "operator": "tag",
+              "tag": "forge:ingots/copper"
+            }
+          ]
+        }
+      }
+    ],
+    "chance": 1
+  }
+}

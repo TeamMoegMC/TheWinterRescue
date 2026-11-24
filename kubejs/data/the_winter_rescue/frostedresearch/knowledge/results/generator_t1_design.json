@@ -1,0 +1,11 @@
+{
+  "title": "knowledge.the_winter_rescue.generator_t1.design.title",
+  "body": "knowledge.the_winter_rescue.generator_t1.design.body",
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:generator_t1_design",
+    "recipes": [
+      "the_winter_rescue:research/generator_core_t1"
+    ]
+  }
+}

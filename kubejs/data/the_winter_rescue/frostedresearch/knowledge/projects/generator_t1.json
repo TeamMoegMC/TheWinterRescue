@@ -1,0 +1,71 @@
+{
+  "title": "knowledge.the_winter_rescue.generator_t1.project.title",
+  "body": "knowledge.the_winter_rescue.generator_t1.project.body",
+  "results": [
+    "the_winter_rescue:generator_t1_design",
+    "the_winter_rescue:generator_t1_construction"
+  ],
+  "access": {
+    "conditions": {
+      "idea": {
+        "kind": "idea",
+        "definition": "the_winter_rescue:generator_t1",
+        "title": "knowledge.the_winter_rescue.generator_t1.idea.title"
+      }
+    },
+    "start_all": [
+      "idea"
+    ],
+    "groups": [
+      {
+        "id": "idea",
+        "reveal_any": ["idea"],
+        "conditions": ["idea"]
+      }
+    ]
+  },
+  "legacy_replacement": {
+    "research": "generator_T1",
+    "effects": {
+      "158adfb5d2a649d0": "the_winter_rescue:generator_t1_design",
+      "91c6a3ae87914f7a": "the_winter_rescue:generator_t1_construction"
+    },
+    "partial_idea": "the_winter_rescue:generator_t1",
+    "carry_item_rewards": true
+  },
+  "stages": [
+    {
+      "id": "heat_path",
+      "title": "knowledge.the_winter_rescue.generator_t1.heat_path.title",
+      "conclusion": "knowledge.the_winter_rescue.generator_t1.heat_path.conclusion",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "heat_path",
+            "type": "minigame",
+            "game": "frostedresearch:foldline",
+            "level": 1,
+            "title": "knowledge.the_winter_rescue.generator_t1.heat_path.title"
+          },
+          "method": "knowledge.the_winter_rescue.generator_t1.heat_path.method"
+        }
+      ]
+    },
+    {
+      "id": "fit_fragments",
+      "title": "knowledge.the_winter_rescue.generator_t1.fit_fragments.title",
+      "conclusion": "knowledge.the_winter_rescue.generator_t1.fit_fragments.conclusion",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "fit_fragments",
+            "type": "minigame",
+            "game": "frostedresearch:nesting_fill",
+            "title": "knowledge.the_winter_rescue.generator_t1.fit_fragments.title"
+          },
+          "method": "knowledge.the_winter_rescue.generator_t1.fit_fragments.method"
+        }
+      ]
+    }
+  ]
+}

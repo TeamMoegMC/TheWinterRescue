@@ -1,0 +1,11 @@
+{
+  "title": "knowledge.the_winter_rescue.generator_t1.construction.title",
+  "body": "knowledge.the_winter_rescue.generator_t1.construction.body",
+  "result": {
+    "type": "construction",
+    "id": "the_winter_rescue:generator_t1_construction",
+    "multiblocks": [
+      "frostedheart:multiblocks/generator"
+    ]
+  }
+}
