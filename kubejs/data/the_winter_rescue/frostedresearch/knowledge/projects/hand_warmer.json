@@ -73,6 +73,22 @@
   },
   "stages": [
     {
+      "id": "drawing",
+      "title": "knowledge.the_winter_rescue.hand_warmer.drawing.title",
+      "method": "knowledge.the_winter_rescue.hand_warmer.drawing.method",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "hand_stove_drawing",
+            "type": "minigame",
+            "game": "frostedresearch:foldline",
+            "level": 0,
+            "title": "knowledge.the_winter_rescue.hand_warmer.drawing.title"
+          }
+        }
+      ]
+    },
+    {
       "id": "main",
       "title": "knowledge.the_winter_rescue.hand_warmer.experiment.title",
       "tasks": [

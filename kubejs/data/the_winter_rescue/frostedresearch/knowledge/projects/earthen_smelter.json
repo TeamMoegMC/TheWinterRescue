@@ -92,6 +92,26 @@
   },
   "stages": [
     {
+      "id": "drawing",
+      "title": "knowledge.the_winter_rescue.earthen_smelter.drawing.title",
+      "method": "knowledge.the_winter_rescue.earthen_smelter.drawing.method",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "kiln_wall_drawing",
+            "type": "minigame",
+            "title": "knowledge.the_winter_rescue.earthen_smelter.drawing.title",
+            "game": "frostedresearch:nesting_fill"
+          }
+        }
+      ],
+      "completion_recipes": [
+        "frostedresearch:trial_kiln_clay_rich",
+        "frostedresearch:trial_kiln_sand_rich",
+        "frostedresearch:trial_kiln_balanced"
+      ]
+    },
+    {
       "id": "main",
       "title": "knowledge.the_winter_rescue.earthen_smelter.trial.title",
       "method": "knowledge.the_winter_rescue.earthen_smelter.trial.method",

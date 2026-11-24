@@ -48,6 +48,21 @@
   },
   "stages": [
     {
+      "id": "drawing",
+      "title": "knowledge.the_winter_rescue.thermos.drawing.title",
+      "method": "knowledge.the_winter_rescue.thermos.drawing.method",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "thermos_drawing",
+            "type": "minigame",
+            "game": "frostedresearch:nesting_pack",
+            "title": "knowledge.the_winter_rescue.thermos.drawing.title"
+          }
+        }
+      ]
+    },
+    {
       "id": "main",
       "title": "knowledge.the_winter_rescue.thermos.experiment.title",
       "tasks": [

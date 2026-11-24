@@ -19,7 +19,9 @@
   "knowledge.the_winter_rescue.thermos.observe.thermos": "Thermos",
   "knowledge.the_winter_rescue.thermos.link.hint": "Observe a wooden cup and link the observation at the drawing desk. Drinking cold water can also inspire the idea.",
   "knowledge.the_winter_rescue.thermos.project.title": "Basic Insulated Container",
-  "knowledge.the_winter_rescue.thermos.project.body": "Make your first thermos at the experiment table. Finish the research so your team can craft more.",
+  "knowledge.the_winter_rescue.thermos.project.body": "Arrange the thermos parts at the drawing desk, then make your first thermos at the experiment table. Finish the research so your team can craft more.",
+  "knowledge.the_winter_rescue.thermos.drawing.title": "Arrange the Thermos Parts",
+  "knowledge.the_winter_rescue.thermos.drawing.method": "Fit every part in the tray into the thermos outline. Empty spaces are fine. Stamp the drawing and advance to assemble the wooden shell and copper liner.",
   "knowledge.the_winter_rescue.thermos.experiment.title": "Assemble a Wooden Shell and Copper Liner",
   "knowledge.the_winter_rescue.thermos.experiment.method": "Select this experiment at the experiment table, add one copper sheet and one plank, and start. After 10 seconds, take the empty thermos from the output slots and finish the research at the drawing desk.",
   "knowledge.the_winter_rescue.thermos.result.title": "Thermos Design",
@@ -64,4 +66,3 @@
   "biome.the_winter_rescue.jack_pine_woodland": "Jack Pine Woodland",
   "biome.the_winter_rescue.glacial_fungus_caves": "Glacial Fungus Caves"
 }
-
