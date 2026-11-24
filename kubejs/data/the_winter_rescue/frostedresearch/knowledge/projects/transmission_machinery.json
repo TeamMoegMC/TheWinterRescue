@@ -1,0 +1,134 @@
+{
+  "title": "knowledge.the_winter_rescue.transmission_machinery.project.title",
+  "body": "knowledge.the_winter_rescue.transmission_machinery.project.body",
+  "results": [
+    "the_winter_rescue:shaft_design",
+    "the_winter_rescue:hand_crank_design",
+    "the_winter_rescue:bronze_cogwheel_design",
+    "the_winter_rescue:bronze_large_cogwheel_design"
+  ],
+  "access": {
+    "conditions": {
+      "bloomery": {
+        "kind": "result",
+        "definition": "the_winter_rescue:iron_bloomery_design"
+      },
+      "legacy": {
+        "kind": "idea",
+        "definition": "the_winter_rescue:transmission_machinery"
+      }
+    },
+    "discover_any": [
+      "bloomery",
+      "legacy"
+    ]
+  },
+  "legacy_replacement": {
+    "research": "transmission_machinery",
+    "effects": {
+      "6aa606dd64b94197": "the_winter_rescue:shaft_design",
+      "7866174699b54cd8": "the_winter_rescue:hand_crank_design",
+      "afbec057af9c49af": "the_winter_rescue:bronze_cogwheel_design",
+      "a6ea06ff08b4a27": "the_winter_rescue:bronze_large_cogwheel_design"
+    },
+    "partial_idea": "the_winter_rescue:transmission_machinery"
+  },
+  "stages": [
+    {
+      "id": "drawing",
+      "title": "knowledge.the_winter_rescue.transmission_machinery.drawing.title",
+      "method": "knowledge.the_winter_rescue.transmission_machinery.drawing.method",
+      "conclusion": "knowledge.the_winter_rescue.transmission_machinery.drawing.conclusion",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "observe_iron_rod",
+            "type": "observation",
+            "title": "knowledge.the_winter_rescue.transmission_machinery.observe.iron_rod.title",
+            "observation": {
+              "condition": {
+                "kind": "observation",
+                "observation_type": "item",
+                "conditions": [
+                  {
+                    "field": "object",
+                    "operator": "eq",
+                    "value": {
+                      "state": "known",
+                      "type": "string",
+                      "text": "frostedheart:iron_rod"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "method": "knowledge.the_winter_rescue.transmission_machinery.observe.iron_rod.method"
+        },
+        {
+          "requirement": {
+            "id": "observe_bronze_sheet",
+            "type": "observation",
+            "title": "knowledge.the_winter_rescue.transmission_machinery.observe.bronze_sheet.title",
+            "observation": {
+              "condition": {
+                "kind": "observation",
+                "observation_type": "item",
+                "conditions": [
+                  {
+                    "field": "object",
+                    "operator": "eq",
+                    "value": {
+                      "state": "known",
+                      "type": "string",
+                      "text": "frostedheart:bronze_sheet"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "method": "knowledge.the_winter_rescue.transmission_machinery.observe.bronze_sheet.method"
+        },
+        {
+          "requirement": {
+            "id": "fit_transmission_parts",
+            "type": "minigame",
+            "game": "frostedresearch:nesting_pack",
+            "title": "knowledge.the_winter_rescue.transmission_machinery.puzzle.title"
+          },
+          "method": "knowledge.the_winter_rescue.transmission_machinery.puzzle.method"
+        }
+      ],
+      "completion_recipes": [
+        "the_winter_rescue:research/shaft_from_iron_rods"
+      ]
+    },
+    {
+      "id": "trial",
+      "title": "knowledge.the_winter_rescue.transmission_machinery.trial.title",
+      "conclusion": "knowledge.the_winter_rescue.transmission_machinery.trial.conclusion",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "run_transmission_trial",
+            "type": "experiment",
+            "title": "knowledge.the_winter_rescue.transmission_machinery.trial.title",
+            "duration": 200,
+            "materials": [
+              {
+                "item": "frostedheart:bronze_sheet",
+                "count": 10
+              },
+              {
+                "item": "create:shaft",
+                "count": 1
+              }
+            ]
+          },
+          "method": "knowledge.the_winter_rescue.transmission_machinery.trial.method"
+        }
+      ]
+    }
+  ]
+}

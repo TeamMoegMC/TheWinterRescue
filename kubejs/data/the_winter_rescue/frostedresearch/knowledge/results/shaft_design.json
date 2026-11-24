@@ -1,0 +1,14 @@
+{
+  "title": "knowledge.the_winter_rescue.transmission_machinery.result.shaft_design.title",
+  "body": "knowledge.the_winter_rescue.transmission_machinery.result.shaft_design.body",
+  "understanding": [],
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:shaft_design",
+    "recipes": [
+      "the_winter_rescue:research/shaft_from_iron_rods",
+      "the_winter_rescue:research/shaft_from_cast_iron_rods",
+      "the_winter_rescue:research/shaft_from_cast_iron_cutting"
+    ]
+  }
+}

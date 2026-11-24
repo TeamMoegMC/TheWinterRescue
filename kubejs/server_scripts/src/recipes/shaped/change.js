@@ -1189,7 +1189,11 @@ ServerEvents.recipes((event) => {
     ]
     const researchRecipeIds = {
         "charcoal_pit:mechanical_bellows": "mechanical_bellows",
-        "immersiveengineering:alloybrick": "alloybrick"
+        "immersiveengineering:alloybrick": "alloybrick",
+        "create:shaft": "shaft_from_cast_iron_rods",
+        "create:hand_crank": "hand_crank",
+        "steampowered:bronze_cogwheel": "bronze_cogwheel",
+        "steampowered:bronze_large_cogwheel": "bronze_large_cogwheel"
     }
     changeShapedRecipes.forEach((recipe, index) => {
         let [

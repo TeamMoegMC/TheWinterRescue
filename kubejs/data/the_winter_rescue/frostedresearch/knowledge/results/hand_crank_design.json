@@ -1,0 +1,12 @@
+{
+  "title": "knowledge.the_winter_rescue.transmission_machinery.result.hand_crank_design.title",
+  "body": "knowledge.the_winter_rescue.transmission_machinery.result.hand_crank_design.body",
+  "understanding": [],
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:hand_crank_design",
+    "recipes": [
+      "the_winter_rescue:research/hand_crank"
+    ]
+  }
+}

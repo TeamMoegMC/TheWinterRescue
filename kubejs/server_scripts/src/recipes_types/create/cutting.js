@@ -10,12 +10,13 @@ ServerEvents.recipes((event) => {
             { output: '9x minecraft:netherite_ingot', input: 'minecraft:netherite_block' },
             { output: '4x frostedheart:charcoal_stick', input: 'kubejs:charcoal_briquette' },
             { output: '4x frostedheart:coal_stick', input: 'kubejs:coal_briquette' },
-            { output: '12x create:shaft', input: 'frostedheart:cast_iron_ingot' },
+            { output: '12x create:shaft', input: 'frostedheart:cast_iron_ingot', id: 'the_winter_rescue:research/shaft_from_cast_iron_cutting' },
         ]
     };
 
     // 批量注册切割配方
     data.recipes.forEach((recipe) => {
-        create.cutting(recipe.output, recipe.input);
+        const cuttingRecipe = create.cutting(recipe.output, recipe.input);
+        if (recipe.id) cuttingRecipe.id(recipe.id);
     });
 });
