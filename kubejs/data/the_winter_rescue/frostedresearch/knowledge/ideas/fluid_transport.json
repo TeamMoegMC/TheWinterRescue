@@ -5,18 +5,21 @@
     "the_winter_rescue:fluid_transport"
   ],
   "acquisition": {
-    "required": [
-      {
-        "kind": "result",
-        "definition": "the_winter_rescue:bronze_cogwheel_design",
-        "title": "knowledge.the_winter_rescue.transmission_machinery.result.bronze_cogwheel_design.title"
-      }
-    ],
     "triggers": [
       {
         "event": "frostedresearch:water_collected"
       }
     ],
-    "chance": 1
+    "chance": 0.05,
+    "weighted_bonuses": [
+      {
+        "condition": {
+          "kind": "result",
+          "definition": "the_winter_rescue:bronze_cogwheel_design",
+          "title": "knowledge.the_winter_rescue.transmission_machinery.result.bronze_cogwheel_design.title"
+        },
+        "bonus": 0.20
+      }
+    ]
   }
 }
