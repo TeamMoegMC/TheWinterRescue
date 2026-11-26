@@ -1188,6 +1188,7 @@ ServerEvents.recipes((event) => {
 
     ]
     const researchRecipeIds = {
+        "create:fluid_tank": "fluid_tank",
         "charcoal_pit:mechanical_bellows": "mechanical_bellows",
         "immersiveengineering:alloybrick": "alloybrick",
         "create:shaft": "shaft_from_cast_iron_rods",

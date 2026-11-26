@@ -1,0 +1,50 @@
+{
+  "inputs": [
+    {
+      "name": "container",
+      "kind": "observation",
+      "observation_type": "item",
+      "conditions": [
+        {
+          "field": "item.filled_container",
+          "operator": "eq",
+          "value": {
+            "state": "known",
+            "type": "string",
+            "text": "true"
+          }
+        }
+      ]
+    },
+    {
+      "name": "cogwheel",
+      "kind": "observation",
+      "observation_type": "item",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "tag",
+          "tag": "the_winter_rescue:cogwheels"
+        }
+      ]
+    },
+    {
+      "name": "copper_plate",
+      "kind": "observation",
+      "observation_type": "item",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "tag",
+          "tag": "forge:plates/copper"
+        }
+      ]
+    }
+  ],
+  "output": "the_winter_rescue:fluid_transport",
+  "hints": [
+    "knowledge.the_winter_rescue.fluid_transport.link.hint"
+  ],
+  "required_knowledge": [],
+  "optional_knowledge": []
+}

@@ -1,0 +1,120 @@
+{
+  "title": "knowledge.the_winter_rescue.fluid_transport.project.title",
+  "body": "knowledge.the_winter_rescue.fluid_transport.project.body",
+  "results": [
+    "the_winter_rescue:fluid_pipe_design",
+    "the_winter_rescue:mechanical_pump_design",
+    "the_winter_rescue:fluid_tank_design"
+  ],
+  "access": {
+    "conditions": {
+      "idea": {
+        "kind": "idea",
+        "definition": "the_winter_rescue:fluid_transport",
+        "title": "knowledge.the_winter_rescue.fluid_transport.idea.title"
+      },
+      "gear": {
+        "kind": "result",
+        "definition": "the_winter_rescue:bronze_cogwheel_design",
+        "title": "knowledge.the_winter_rescue.transmission_machinery.result.bronze_cogwheel_design.title"
+      }
+    },
+    "start_all": [
+      "idea",
+      "gear"
+    ],
+    "groups": [
+      {
+        "id": "opening",
+        "reveal_any": [
+          "idea"
+        ],
+        "conditions": [
+          "idea",
+          "gear"
+        ]
+      }
+    ]
+  },
+  "legacy_replacement": {
+    "research": "fluid_transport",
+    "effects": {
+      "bb870b08370d472f": "the_winter_rescue:fluid_pipe_design",
+      "9bb14fc7e47640d6": "the_winter_rescue:mechanical_pump_design",
+      "31145c0bc7d4435b": "the_winter_rescue:fluid_tank_design"
+    },
+    "partial_idea": "the_winter_rescue:fluid_transport"
+  },
+  "stages": [
+    {
+      "id": "drawing",
+      "title": "knowledge.the_winter_rescue.fluid_transport.drawing.title",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "drawing",
+            "type": "minigame",
+            "game": "frostedresearch:drafting/four_blade_pump",
+            "title": "knowledge.the_winter_rescue.fluid_transport.drawing.title"
+          }
+        }
+      ]
+    },
+    {
+      "id": "assembly",
+      "title": "knowledge.the_winter_rescue.fluid_transport.assembly.title",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "assembly",
+            "type": "minigame",
+            "game": "frostedresearch:nesting_pack",
+            "title": "knowledge.the_winter_rescue.fluid_transport.assembly.title"
+          }
+        }
+      ]
+    },
+    {
+      "id": "trial",
+      "title": "knowledge.the_winter_rescue.fluid_transport.trial.title",
+      "method": "knowledge.the_winter_rescue.fluid_transport.trial.method",
+      "conclusion": "knowledge.the_winter_rescue.fluid_transport.trial.conclusion",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "test_fluid_transport",
+            "type": "experiment",
+            "title": "knowledge.the_winter_rescue.fluid_transport.trial.title",
+            "duration": 100,
+            "materials": [
+              {
+                "tag": "forge:plates/copper",
+                "count": 3
+              },
+              {
+                "tag": "forge:ingots/copper",
+                "count": 1
+              },
+              {
+                "tag": "the_winter_rescue:cogwheels",
+                "count": 1
+              }
+            ],
+            "space": {
+              "blocks": [
+                {
+                  "block": "create:hand_crank",
+                  "count": 1
+                },
+                {
+                  "block": "minecraft:water",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

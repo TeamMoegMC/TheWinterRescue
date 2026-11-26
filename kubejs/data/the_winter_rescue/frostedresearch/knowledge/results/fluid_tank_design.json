@@ -1,0 +1,12 @@
+{
+  "title": "knowledge.the_winter_rescue.fluid_transport.result.fluid_tank_design.title",
+  "body": "knowledge.the_winter_rescue.fluid_transport.result.fluid_tank_design.body",
+  "understanding": [],
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:fluid_tank_design",
+    "recipes": [
+      "the_winter_rescue:research/fluid_tank"
+    ]
+  }
+}

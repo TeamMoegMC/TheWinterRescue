@@ -1,0 +1,13 @@
+{
+  "title": "knowledge.the_winter_rescue.fluid_transport.result.fluid_pipe_design.title",
+  "body": "knowledge.the_winter_rescue.fluid_transport.result.fluid_pipe_design.body",
+  "understanding": [],
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:fluid_pipe_design",
+    "recipes": [
+      "create:crafting/kinetics/fluid_pipe",
+      "create:crafting/kinetics/fluid_pipe_vertical"
+    ]
+  }
+}

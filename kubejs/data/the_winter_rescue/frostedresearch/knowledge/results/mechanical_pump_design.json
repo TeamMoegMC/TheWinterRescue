@@ -1,0 +1,12 @@
+{
+  "title": "knowledge.the_winter_rescue.fluid_transport.result.mechanical_pump_design.title",
+  "body": "knowledge.the_winter_rescue.fluid_transport.result.mechanical_pump_design.body",
+  "understanding": [],
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:mechanical_pump_design",
+    "recipes": [
+      "create:crafting/kinetics/mechanical_pump"
+    ]
+  }
+}
