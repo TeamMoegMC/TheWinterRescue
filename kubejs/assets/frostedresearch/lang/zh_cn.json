@@ -1,4 +1,7 @@
 {
+  "#the_winter_rescue:cogwheels": "任意普通齿轮",
+  "#forge:ingots/copper": "铜锭",
+  "#forge:plates/copper": "铜板",
   "knowledge.the_winter_rescue.fluid_transport.idea.title": "流体运输",
   "knowledge.the_winter_rescue.fluid_transport.idea.body": "每次用桶搬水只能运一桶。把水路接起来，也许能用曲柄带动泵，让水自己沿管道流过去。",
   "knowledge.the_winter_rescue.fluid_transport.project.title": "流体运输",
@@ -6,7 +9,7 @@
   "knowledge.the_winter_rescue.fluid_transport.drawing.title": "绘制机械泵图纸",
   "knowledge.the_winter_rescue.fluid_transport.assembly.title": "排列泵的零件",
   "knowledge.the_winter_rescue.fluid_transport.trial.title": "试验流体运输",
-  "knowledge.the_winter_rescue.fluid_transport.trial.method": "在封闭实验室内放置手摇曲柄和一格水。把 3 块铜板、1 块铜锭和 1 个小齿轮放进实验台，开始试验。",
+  "knowledge.the_winter_rescue.fluid_transport.trial.method": "在封闭实验室内放置手摇曲柄和一格水。把 3 块铜板、1 块铜锭和 1 个任意普通齿轮放进实验台，开始试验。",
   "knowledge.the_winter_rescue.fluid_transport.trial.conclusion": "可以用机械泵带动管路中的流体，再用储罐接收。",
   "knowledge.the_winter_rescue.fluid_transport.link.hint": "把盛液体的容器、小齿轮和铜板的观察放在一起，想想怎么让液体沿管道流过去。",
   "knowledge.the_winter_rescue.fluid_transport.result.fluid_pipe_design.title": "流体管道设计",

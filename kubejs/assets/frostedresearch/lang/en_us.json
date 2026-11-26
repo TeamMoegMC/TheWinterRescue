@@ -1,4 +1,7 @@
 {
+  "#the_winter_rescue:cogwheels": "Any Regular Cogwheel",
+  "#forge:ingots/copper": "Copper Ingot",
+  "#forge:plates/copper": "Copper Sheet",
   "knowledge.the_winter_rescue.fluid_transport.idea.title": "Fluid Transport",
   "knowledge.the_winter_rescue.fluid_transport.idea.body": "A bucket can only carry so much. With a crank to drive a pump, a pipe could carry the water for us.",
   "knowledge.the_winter_rescue.fluid_transport.project.title": "Fluid Transport",
@@ -6,7 +9,7 @@
   "knowledge.the_winter_rescue.fluid_transport.drawing.title": "Draw the Mechanical Pump",
   "knowledge.the_winter_rescue.fluid_transport.assembly.title": "Fit the Pump Parts",
   "knowledge.the_winter_rescue.fluid_transport.trial.title": "Test Fluid Transport",
-  "knowledge.the_winter_rescue.fluid_transport.trial.method": "Place a Hand Crank and one block of Water in an enclosed lab. Put 3 Copper Sheets, 1 Copper Ingot, and 1 Small Cogwheel into the Experiment Table and start the trial.",
+  "knowledge.the_winter_rescue.fluid_transport.trial.method": "Place a Hand Crank and one block of Water in an enclosed lab. Put 3 Copper Sheets, 1 Copper Ingot, and 1 of any regular cogwheel into the Experiment Table and start the trial.",
   "knowledge.the_winter_rescue.fluid_transport.trial.conclusion": "A mechanical pump can move fluid through pipes into a storage tank.",
   "knowledge.the_winter_rescue.fluid_transport.link.hint": "Connect observations of a filled container, a small cogwheel, and a copper sheet to find a way to move fluid through pipes.",
   "knowledge.the_winter_rescue.fluid_transport.result.fluid_pipe_design.title": "Fluid Pipe Design",
