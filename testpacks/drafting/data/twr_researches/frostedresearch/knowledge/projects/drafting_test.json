@@ -1,0 +1,26 @@
+{
+  "title": "尺规绘图试验",
+  "body": "按尺寸绘制泵壳、轮毂和四片桨叶。",
+  "results": [
+    "twr_researches:drafting_test"
+  ],
+  "stages": [
+    {
+      "id": "draft",
+      "title": "试绘四叶泵",
+      "method": "在绘图台打开图纸。",
+      "conclusion": "四片桨叶的轮廓已经校验。",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "draw_pump",
+            "type": "minigame",
+            "game": "frostedresearch:drafting/four_blade_pump",
+            "title": "绘制四叶螺旋桨泵"
+          },
+          "method": "作图并校验轮廓。"
+        }
+      ]
+    }
+  ]
+}
