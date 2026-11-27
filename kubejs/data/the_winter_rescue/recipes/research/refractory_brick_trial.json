@@ -8,8 +8,5 @@
   "duration": 400,
   "result": {
     "item": "frostedheart:refractory_brick"
-  },
-  "failure": {
-    "item": "frostedresearch:cracked_refractory_brick"
   }
 }

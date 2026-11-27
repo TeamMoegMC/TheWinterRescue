@@ -1,0 +1,12 @@
+{
+  "type": "frostedresearch:controlled_firing",
+  "input": {
+    "item": "frostedheart:fire_clay_ball"
+  },
+  "temperature_min": 600,
+  "temperature_max": 1049,
+  "duration": 400,
+  "result": {
+    "item": "frostedresearch:cracked_refractory_brick"
+  }
+}
