@@ -10,45 +10,10 @@
         "kind": "idea",
         "definition": "the_winter_rescue:hand_warmer",
         "title": "knowledge.the_winter_rescue.hand_warmer.idea.title"
-      },
-      "copper": {
-        "kind": "observation",
-        "observation_type": "item",
-        "title": "knowledge.the_winter_rescue.hand_warmer.observe.copper",
-        "conditions": [
-          {
-            "field": "object",
-            "operator": "tag",
-            "tag": "forge:ingots/copper"
-          }
-        ]
-      },
-      "cold_carbon": {
-        "kind": "observation",
-        "observation_type": "item",
-        "title": "knowledge.the_winter_rescue.hand_warmer.observe.cold_carbon",
-        "conditions": [
-          {
-            "field": "object",
-            "operator": "tag",
-            "tag": "the_winter_rescue:research/hand_stove_carbon"
-          },
-          {
-            "field": "temperature",
-            "operator": "lt",
-            "value": {
-              "state": "known",
-              "type": "number",
-              "number": 0
-            }
-          }
-        ]
       }
     },
     "start_all": [
-      "idea",
-      "copper",
-      "cold_carbon"
+      "idea"
     ],
     "groups": [
       {
@@ -57,9 +22,7 @@
           "idea"
         ],
         "conditions": [
-          "idea",
-          "copper",
-          "cold_carbon"
+          "idea"
         ]
       }
     ]

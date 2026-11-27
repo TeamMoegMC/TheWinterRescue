@@ -10,51 +10,10 @@
         "kind": "idea",
         "definition": "the_winter_rescue:prospecting",
         "title": "knowledge.the_winter_rescue.prospecting.idea.title"
-      },
-      "pick": {
-        "kind": "observation",
-        "observation_type": "item",
-        "title": "knowledge.the_winter_rescue.prospecting.observe.pick",
-        "conditions": [
-          {
-            "field": "item.prospector_pick",
-            "operator": "eq",
-            "value": {
-              "state": "known",
-              "type": "string",
-              "text": "true"
-            }
-          }
-        ]
-      },
-      "ore": {
-        "kind": "observation",
-        "title": "knowledge.the_winter_rescue.prospecting.observe.ore",
-        "conditions": [
-          {
-            "field": "block_object",
-            "operator": "tag",
-            "tag": "forge:ores"
-          }
-        ]
-      },
-      "stone": {
-        "kind": "observation",
-        "title": "knowledge.the_winter_rescue.prospecting.observe.stone",
-        "conditions": [
-          {
-            "field": "block_object",
-            "operator": "tag",
-            "tag": "forge:stone"
-          }
-        ]
       }
     },
     "start_all": [
-      "idea",
-      "pick",
-      "ore",
-      "stone"
+      "idea"
     ],
     "groups": [
       {
@@ -63,10 +22,7 @@
           "idea"
         ],
         "conditions": [
-          "idea",
-          "pick",
-          "ore",
-          "stone"
+          "idea"
         ]
       }
     ]

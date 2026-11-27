@@ -10,66 +10,10 @@
         "kind": "idea",
         "definition": "the_winter_rescue:refractory_firing",
         "title": "knowledge.the_winter_rescue.refractory_brick.idea.title"
-      },
-      "kaolin": {
-        "kind": "observation",
-        "observation_type": "item",
-        "title": "knowledge.the_winter_rescue.refractory_brick.kaolin",
-        "conditions": [
-          {
-            "field": "object",
-            "operator": "tag",
-            "tag": "the_winter_rescue:research/kaolin_materials"
-          }
-        ]
-      },
-      "bauxite": {
-        "kind": "observation",
-        "observation_type": "item",
-        "title": "knowledge.the_winter_rescue.refractory_brick.bauxite",
-        "conditions": [
-          {
-            "field": "object",
-            "operator": "tag",
-            "tag": "the_winter_rescue:research/bauxite_materials"
-          }
-        ]
-      },
-      "clay": {
-        "kind": "observation",
-        "observation_type": "item",
-        "title": "knowledge.the_winter_rescue.refractory_brick.clay",
-        "conditions": [
-          {
-            "field": "object",
-            "operator": "eq",
-            "value": {
-              "state": "known",
-              "type": "string",
-              "text": "minecraft:clay_ball"
-            }
-          }
-        ]
-      },
-      "sandy_brick": {
-        "kind": "observation",
-        "observation_type": "item",
-        "title": "knowledge.the_winter_rescue.refractory_brick.sandy_brick",
-        "conditions": [
-          {
-            "field": "object",
-            "operator": "tag",
-            "tag": "the_winter_rescue:research/sandy_bricks"
-          }
-        ]
       }
     },
     "start_all": [
-      "idea",
-      "kaolin",
-      "bauxite",
-      "clay",
-      "sandy_brick"
+      "idea"
     ],
     "groups": [
       {
@@ -78,11 +22,7 @@
           "idea"
         ],
         "conditions": [
-          "idea",
-          "kaolin",
-          "bauxite",
-          "clay",
-          "sandy_brick"
+          "idea"
         ]
       }
     ]

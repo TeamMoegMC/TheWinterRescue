@@ -10,36 +10,10 @@
         "kind": "idea",
         "definition": "the_winter_rescue:iron_smelting",
         "title": "knowledge.the_winter_rescue.iron_bloomery.idea.title"
-      },
-      "carbon_fuel": {
-        "kind": "observation",
-        "observation_type": "item",
-        "title": "knowledge.the_winter_rescue.iron_bloomery.carbon",
-        "conditions": [
-          {
-            "field": "object",
-            "operator": "tag",
-            "tag": "the_winter_rescue:research/iron_carbon_fuel"
-          }
-        ]
-      },
-      "raw_iron": {
-        "kind": "observation",
-        "observation_type": "item",
-        "title": "knowledge.the_winter_rescue.iron_bloomery.raw_iron",
-        "conditions": [
-          {
-            "field": "object",
-            "operator": "tag",
-            "tag": "the_winter_rescue:research/iron_ore_materials"
-          }
-        ]
       }
     },
     "start_all": [
-      "idea",
-      "carbon_fuel",
-      "raw_iron"
+      "idea"
     ],
     "groups": [
       {
@@ -48,9 +22,7 @@
           "idea"
         ],
         "conditions": [
-          "idea",
-          "carbon_fuel",
-          "raw_iron"
+          "idea"
         ]
       }
     ]
