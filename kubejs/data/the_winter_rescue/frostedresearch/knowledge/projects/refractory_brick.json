@@ -109,8 +109,6 @@
             "type": "observation",
             "title": "knowledge.the_winter_rescue.refractory_brick.firing.task",
             "observation": {
-              "experiment": "frostedresearch:refractory_trial",
-              "team_current_run": true,
               "condition": {
                 "kind": "observation",
                 "observation_type": "item",

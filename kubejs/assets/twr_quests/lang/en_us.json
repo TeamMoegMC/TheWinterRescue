@@ -1039,7 +1039,7 @@
   "quest.twr.5A6E8872E26A30E3.subtitle": "Set the temperature and observe the brick",
   "quest.twr.5A6E8872E26A30E3.661E956841023E9D.title": "Read the guide (does not advance research)",
   "quest.twr.5A6E8872E26A30E3.description.1": "1. Obtain the idea and learn item observations of a sandy brick item or block item, kaolin, bauxite and clay. Hand-mix 4 kaolin dust + 4 bauxite dust + 1 clay ball into one fire clay ball. Craft the furnace with 6 clay + 2 sand + 1 campfire. Start research and advance to firing. Raw, crushed, dust, block and frozen-block item observations are interchangeable within each mineral family.",
-  "quest.twr.5A6E8872E26A30E3.description.2": "2. Trial firing uses 1 fire clay ball and 1 charcoal for 20 seconds; try 1100°C. The successful range is 1050–1150°C inclusive. Existing ordinary/high refractory brick observations only affect the hint when entering the stage, not start requirements. Deliberate failure is unnecessary.",
-  "quest.twr.5A6E8872E26A30E3.description.3": "3. A current team member freshly observes this research’s successful brick to finish the task. Do not submit or consume it. After failure, adjust the temperature and prepare another firing. The result enables 16 blanks and 2 charcoal for a 30-second batch. Existing brick processes and old blast furnace permissions remain unchanged."
+  "quest.twr.5A6E8872E26A30E3.description.2": "2. Load one fire clay ball per specimen slot and one charcoal in the fuel slot. Try 1100 °C and 21 seconds. At 1050–1150 °C inclusive, firing for more than 20 seconds produces an intact brick in the same slot when the furnace stops.",
+  "quest.twr.5A6E8872E26A30E3.description.3": "3. In the firing stage, use the magnifying glass to observe an intact refractory brick. If the clay is unchanged, fire it longer. If the brick cracks, adjust the temperature."
 
 }
