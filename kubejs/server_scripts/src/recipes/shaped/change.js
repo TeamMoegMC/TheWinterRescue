@@ -1194,7 +1194,11 @@ ServerEvents.recipes((event) => {
         "create:shaft": "shaft_from_cast_iron_rods",
         "create:hand_crank": "hand_crank",
         "steampowered:bronze_cogwheel": "bronze_cogwheel",
-        "steampowered:bronze_large_cogwheel": "bronze_large_cogwheel"
+        "steampowered:bronze_large_cogwheel": "bronze_large_cogwheel",
+        "steampowered:cast_iron_cogwheel": "cast_iron_cogwheel",
+        "steampowered:cast_iron_large_cogwheel": "cast_iron_large_cogwheel",
+        "steampowered:steel_cogwheel": "steel_cogwheel",
+        "steampowered:steel_large_cogwheel": "steel_large_cogwheel"
     }
     changeShapedRecipes.forEach((recipe, index) => {
         let [

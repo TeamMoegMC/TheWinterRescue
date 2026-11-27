@@ -4,8 +4,7 @@
   "results": [
     "the_winter_rescue:shaft_design",
     "the_winter_rescue:hand_crank_design",
-    "the_winter_rescue:bronze_cogwheel_design",
-    "the_winter_rescue:bronze_large_cogwheel_design"
+    "the_winter_rescue:bronze_cogwheel_design"
   ],
   "access": {
     "conditions": {
@@ -29,7 +28,7 @@
       "6aa606dd64b94197": "the_winter_rescue:shaft_design",
       "7866174699b54cd8": "the_winter_rescue:hand_crank_design",
       "afbec057af9c49af": "the_winter_rescue:bronze_cogwheel_design",
-      "a6ea06ff08b4a27": "the_winter_rescue:bronze_large_cogwheel_design"
+      "a6ea06ff08b4a27": "the_winter_rescue:bronze_cogwheel_design"
     },
     "partial_idea": "the_winter_rescue:transmission_machinery"
   },

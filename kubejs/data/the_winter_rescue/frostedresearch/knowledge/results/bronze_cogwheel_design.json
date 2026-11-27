@@ -1,12 +1,17 @@
 {
-  "title": "knowledge.the_winter_rescue.transmission_machinery.result.bronze_cogwheel_design.title",
-  "body": "knowledge.the_winter_rescue.transmission_machinery.result.bronze_cogwheel_design.body",
+  "title": "knowledge.the_winter_rescue.transmission_machinery.result.cogwheel_design.title",
+  "body": "knowledge.the_winter_rescue.transmission_machinery.result.cogwheel_design.body",
   "understanding": [],
   "result": {
     "type": "design",
     "id": "the_winter_rescue:bronze_cogwheel_design",
     "recipes": [
-      "the_winter_rescue:research/bronze_cogwheel"
+      "the_winter_rescue:research/bronze_cogwheel",
+      "the_winter_rescue:research/bronze_large_cogwheel",
+      "the_winter_rescue:research/cast_iron_cogwheel",
+      "the_winter_rescue:research/cast_iron_large_cogwheel",
+      "the_winter_rescue:research/steel_cogwheel",
+      "the_winter_rescue:research/steel_large_cogwheel"
     ]
   }
 }

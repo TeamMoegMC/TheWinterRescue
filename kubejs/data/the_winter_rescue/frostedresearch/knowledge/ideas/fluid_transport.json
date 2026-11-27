@@ -16,7 +16,7 @@
         "condition": {
           "kind": "result",
           "definition": "the_winter_rescue:bronze_cogwheel_design",
-          "title": "knowledge.the_winter_rescue.transmission_machinery.result.bronze_cogwheel_design.title"
+          "title": "knowledge.the_winter_rescue.transmission_machinery.result.cogwheel_design.title"
         },
         "bonus": 0.20
       }
