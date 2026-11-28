@@ -1,0 +1,32 @@
+{
+  "title": "knowledge.the_winter_rescue.coke_oven.idea.title",
+  "body": "knowledge.the_winter_rescue.coke_oven.idea.body",
+  "projects": [
+    "the_winter_rescue:coke_oven"
+  ],
+  "acquisition": {
+    "triggers": [
+      {
+        "event": "frostedresearch:charcoal_pit_harvest"
+      }
+    ],
+    "chance": 0.01,
+    "weighted_bonuses": [
+      {
+        "condition": {
+          "kind": "observation",
+          "observation_type": "item",
+          "title": "knowledge.the_winter_rescue.coke_oven.observe.bricks",
+          "conditions": [
+            {
+              "field": "object",
+              "operator": "tag",
+              "tag": "the_winter_rescue:research/sandy_bricks"
+            }
+          ]
+        },
+        "bonus": 0.1
+      }
+    ]
+  }
+}

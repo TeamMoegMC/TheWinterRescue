@@ -124,5 +124,11 @@
   "message.kubejs.checkMultipleCheating": "§bIt seems you have added the following mods: %s§b\n§bPerhaps enjoying the content of the modpack as intended would be a better choice?",
   "text.kubejs.dev": "§0Dev only. See Release.",
   "text.kubejs.player": "§0Test, not final.",
-  "tooltip.kubejs.gunpowder_barrel.crafting": "Craft again to increase the fortune effect."
+  "tooltip.kubejs.gunpowder_barrel.crafting": "Craft again to increase the fortune effect.",
+  "item.kubejs.underfired_charcoal_sample": "Underfired Charcoal Sample",
+  "item.kubejs.fired_charcoal_sample": "Fully Fired Charcoal Sample",
+  "item.kubejs.overfired_charcoal_sample": "Overfired Charcoal Sample",
+  "item.kubejs.underfired_coke_sample": "Underfired Coke Sample",
+  "item.kubejs.fired_coke_sample": "Fully Fired Coke Sample",
+  "item.kubejs.overfired_coke_sample": "Overfired Coke Sample"
 }

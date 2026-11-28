@@ -124,5 +124,11 @@
   "the_winter_rescue.ponder.generator_construction_t2.usage.text_1": "Input heat medium from bottom center",
   "the_winter_rescue.ponder.pottery_kiln.basic_usage.header": "",
   "the_winter_rescue.ponder.pottery_kiln.basic_usage.text_1": "Surrounding blocks can be ANY block, not just dirt.",
-  "tooltip.kubejs.gunpowder_barrel.crafting": "可继续合成增强时运效果"
+  "tooltip.kubejs.gunpowder_barrel.crafting": "可继续合成增强时运效果",
+  "item.kubejs.underfired_charcoal_sample": "未烧透的木炭试样",
+  "item.kubejs.fired_charcoal_sample": "烧透的木炭试样",
+  "item.kubejs.overfired_charcoal_sample": "烧过头的木炭试样",
+  "item.kubejs.underfired_coke_sample": "未烧透的焦煤试样",
+  "item.kubejs.fired_coke_sample": "烧透的焦煤试样",
+  "item.kubejs.overfired_coke_sample": "烧过头的焦煤试样"
 }

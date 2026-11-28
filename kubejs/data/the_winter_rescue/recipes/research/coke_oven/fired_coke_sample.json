@@ -1,0 +1,13 @@
+{
+  "type": "frostedresearch:controlled_firing",
+  "input": {
+    "item": "minecraft:coal"
+  },
+  "temperature_min": 400,
+  "temperature_max": 1400,
+  "duration": 1800,
+  "duration_max": 3600,
+  "result": {
+    "item": "kubejs:fired_coke_sample"
+  }
+}

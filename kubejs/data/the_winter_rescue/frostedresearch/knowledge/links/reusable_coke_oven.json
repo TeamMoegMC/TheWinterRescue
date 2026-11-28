@@ -1,0 +1,81 @@
+{
+  "inputs": [
+    {
+      "name": "charcoal",
+      "kind": "observation",
+      "observation_type": "item",
+      "title": "knowledge.the_winter_rescue.coke_oven.observe.charcoal",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "eq",
+          "value": {
+            "state": "known",
+            "type": "string",
+            "text": "minecraft:charcoal"
+          }
+        }
+      ]
+    },
+    {
+      "name": "coke",
+      "kind": "observation",
+      "observation_type": "item",
+      "title": "knowledge.the_winter_rescue.coke_oven.observe.coke",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "tag",
+          "tag": "forge:coal_coke"
+        }
+      ]
+    }
+  ],
+  "output": "the_winter_rescue:reusable_coke_oven",
+  "hints": [
+    "knowledge.the_winter_rescue.coke_oven.link.hint"
+  ],
+  "required_knowledge": [],
+  "optional_knowledge": [
+    {
+      "kind": "observation",
+      "observation_type": "item",
+      "title": "knowledge.the_winter_rescue.coke_oven.observe.logs",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "tag",
+          "tag": "minecraft:logs"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "observation_type": "item",
+      "title": "knowledge.the_winter_rescue.coke_oven.observe.coal",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "eq",
+          "value": {
+            "state": "known",
+            "type": "string",
+            "text": "minecraft:coal"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "observation_type": "item",
+      "title": "knowledge.the_winter_rescue.coke_oven.observe.bricks",
+      "conditions": [
+        {
+          "field": "object",
+          "operator": "tag",
+          "tag": "the_winter_rescue:research/sandy_bricks"
+        }
+      ]
+    }
+  ]
+}

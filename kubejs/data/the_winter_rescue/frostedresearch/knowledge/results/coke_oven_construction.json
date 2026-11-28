@@ -1,0 +1,11 @@
+{
+  "title": "knowledge.the_winter_rescue.coke_oven.construction.title",
+  "body": "knowledge.the_winter_rescue.coke_oven.construction.body",
+  "result": {
+    "type": "construction",
+    "id": "the_winter_rescue:coke_oven_construction",
+    "multiblocks": [
+      "immersiveengineering:multiblocks/coke_oven"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "knowledge.the_winter_rescue.coke_oven.design.title",
+  "body": "knowledge.the_winter_rescue.coke_oven.design.body",
+  "result": {
+    "type": "design",
+    "id": "the_winter_rescue:coke_brick_design",
+    "recipes": [
+      "the_winter_rescue:research/coke_brick"
+    ]
+  }
+}

@@ -1188,6 +1188,7 @@ ServerEvents.recipes((event) => {
 
     ]
     const researchRecipeIds = {
+        "immersiveengineering:cokebrick": "coke_brick",
         "create:fluid_tank": "fluid_tank",
         "charcoal_pit:mechanical_bellows": "mechanical_bellows",
         "immersiveengineering:alloybrick": "alloybrick",

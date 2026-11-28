@@ -1,0 +1,131 @@
+{
+  "title": "knowledge.the_winter_rescue.coke_oven.project.title",
+  "body": "knowledge.the_winter_rescue.coke_oven.project.body",
+  "results": [
+    "the_winter_rescue:coke_brick_design",
+    "the_winter_rescue:coke_oven_construction"
+  ],
+  "access": {
+    "conditions": {
+      "idea": {
+        "kind": "idea",
+        "definition": "the_winter_rescue:reusable_coke_oven",
+        "title": "knowledge.the_winter_rescue.coke_oven.idea.title"
+      },
+      "charcoal": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.coke_oven.observe.charcoal",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "eq",
+            "value": {
+              "state": "known",
+              "type": "string",
+              "text": "minecraft:charcoal"
+            }
+          }
+        ]
+      },
+      "coke": {
+        "kind": "observation",
+        "observation_type": "item",
+        "title": "knowledge.the_winter_rescue.coke_oven.observe.coke",
+        "conditions": [
+          {
+            "field": "object",
+            "operator": "tag",
+            "tag": "forge:coal_coke"
+          }
+        ]
+      }
+    },
+    "start_all": [
+      "idea",
+      "charcoal",
+      "coke"
+    ],
+    "groups": [
+      {
+        "id": "opening",
+        "reveal_any": [
+          "idea"
+        ],
+        "conditions": [
+          "idea",
+          "charcoal",
+          "coke"
+        ]
+      }
+    ]
+  },
+  "legacy_replacement": {
+    "research": "coke_oven",
+    "effects": {
+      "5938110ad0154232": "the_winter_rescue:coke_brick_design",
+      "6d782276c0774dd4": "the_winter_rescue:coke_oven_construction"
+    },
+    "partial_idea": "the_winter_rescue:reusable_coke_oven"
+  },
+  "stages": [
+    {
+      "id": "firing",
+      "title": "knowledge.the_winter_rescue.coke_oven.firing.title",
+      "method": "knowledge.the_winter_rescue.coke_oven.firing.method",
+      "conclusion": "knowledge.the_winter_rescue.coke_oven.firing.conclusion",
+      "tasks": [
+        {
+          "requirement": {
+            "id": "observe_fired_charcoal",
+            "type": "observation",
+            "title": "knowledge.the_winter_rescue.coke_oven.firing.charcoal",
+            "observation": {
+              "condition": {
+                "kind": "observation",
+                "observation_type": "item",
+                "title": "knowledge.the_winter_rescue.coke_oven.observe.fired_charcoal",
+                "conditions": [
+                  {
+                    "field": "object",
+                    "operator": "eq",
+                    "value": {
+                      "state": "known",
+                      "type": "string",
+                      "text": "kubejs:fired_charcoal_sample"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "requirement": {
+            "id": "observe_fired_coke",
+            "type": "observation",
+            "title": "knowledge.the_winter_rescue.coke_oven.firing.coke",
+            "observation": {
+              "condition": {
+                "kind": "observation",
+                "observation_type": "item",
+                "title": "knowledge.the_winter_rescue.coke_oven.observe.fired_coke",
+                "conditions": [
+                  {
+                    "field": "object",
+                    "operator": "eq",
+                    "value": {
+                      "state": "known",
+                      "type": "string",
+                      "text": "kubejs:fired_coke_sample"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

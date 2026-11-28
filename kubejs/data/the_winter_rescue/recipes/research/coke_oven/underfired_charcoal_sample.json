@@ -1,0 +1,13 @@
+{
+  "type": "frostedresearch:controlled_firing",
+  "input": {
+    "tag": "minecraft:logs"
+  },
+  "temperature_min": 400,
+  "temperature_max": 1400,
+  "duration": 400,
+  "duration_max": 900,
+  "result": {
+    "item": "kubejs:underfired_charcoal_sample"
+  }
+}
