@@ -25,7 +25,8 @@
       "allowed_search_condition": {
         "type": "minecraft:matching_blocks",
         "blocks": [
-          "minecraft:air"
+          "minecraft:air",
+          "minecraft:cave_air"
         ]
       },
       "direction_of_search": "down",

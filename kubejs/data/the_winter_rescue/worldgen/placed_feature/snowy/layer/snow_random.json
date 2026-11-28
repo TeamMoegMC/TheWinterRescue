@@ -26,14 +26,6 @@
             "type": "minecraft:matching_blocks",
             "blocks": ["minecraft:air", "minecraft:snow"],
             "offset": [0, 0, 0]
-          },
-          {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "blocks": ["minecraft:air"],
-              "offset": [0, -2, 0]
-            }
           }
         ]
       }

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#the_winter_rescue:deposit_generation",
+  "features": "the_winter_rescue:deposits/main",
+  "step": "local_modifications"
+}

@@ -169,6 +169,7 @@ ServerEvents.recipes((event) => {
 		"create:copycat_step_from_ingots_zinc_stonecutting",
 		"create:copycat_panel_from_ingots_zinc_stonecutting",
 		"charcoal_pit:sandy_tuyere",
+		"create:crafting/kinetics/white_seat"
 	]
 	recipeID.forEach((Item) => {
 		event.remove({ id: Item })

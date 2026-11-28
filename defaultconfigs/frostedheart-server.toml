@@ -77,12 +77,12 @@
 	weaknessEffectAmplifier = 0
 	#It decides if players' water level would reset in death.
 	resetWaterLevelInDeath = true
-	#The rate of nutrition consumption.
-	#Range: 0.0 ~ 10.0
-	nutritionConsumptionRate = 0.0003
-	#The rate of nutrition gain by eating food.
-	#Range: 0.0 ~ 100.0
-	nutritionGainRate = 0.0003
+	#Nutrition percentage points lost per hunger point.
+	#Range: 0.0 ~ 1000.0
+	nutritionConsumptionRate = 0.03
+	#Nutrition percentage points gained per effective hunger at a 100% food profile.
+	#Range: 0.0 ~ 40000.0
+	nutritionGainRate = 0.12
 
 [Worldgen]
 	#Enables snow accumulation during snow weather.

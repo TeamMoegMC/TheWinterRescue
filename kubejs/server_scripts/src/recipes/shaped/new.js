@@ -1780,6 +1780,28 @@ ServerEvents.recipes((event) => {
                 C: "minecraft:minecart"
             }
         ],
+        [
+            'frostedheart:research_institute', [
+                "BAB",
+                "ACA",
+                "BAB"
+            ], {
+                A: "#minecraft:planks",
+                B: "minecraft:stone_bricks",
+                C: "minecraft:bookshelf"
+            }
+        ],
+        [
+            'create:rope_pulley', [
+                " A ",
+                "BBB",
+                " C "
+            ], {
+                A: "create:andesite_casing",
+                B: "supplementaries:rope",
+                C: "#forge:plates/iron"
+            }
+        ],
     ]
     addShapedRecipes.forEach((recipe, index) => {
         let [

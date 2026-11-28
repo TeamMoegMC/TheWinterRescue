@@ -28,7 +28,7 @@
           },
           {
             "type": "minecraft:matching_blocks",
-            "blocks": ["minecraft:air", "minecraft:snow"]
+            "blocks": ["minecraft:air"]
           },
           {
             "type": "minecraft:not",

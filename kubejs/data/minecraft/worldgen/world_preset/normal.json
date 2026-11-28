@@ -5,7 +5,7 @@
       "generator": {
         "type": "minecraft:noise",
         "biome_source": {
-          "type": "minecraft:multi_noise",
+          "type": "frostedheart:deposit_biomes",
           "biomes": [
             {
               "biome": "the_winter_rescue:active_volcano",
@@ -41227,9 +41227,10 @@
                 ]
               }
             }
-          ]
+          ],
+          "biome": "the_winter_rescue:hydrothermal_deposits"
         },
-        "settings": "minecraft:overworld"
+        "settings": "the_winter_rescue:regional_overworld"
       }
     },
     "minecraft:the_end": {

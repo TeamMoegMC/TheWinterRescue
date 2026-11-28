@@ -1,0 +1,17 @@
+# Local client captures and generated evidence stay on disk, outside source commits.
+/results/
+/terrain_proof/results/
+/proof/results/*.log
+
+# Retired native prototypes and their old local acceptance drivers.
+/proof/
+/terrain_proof/
+/DepositClimateEvidence.java
+/acceptance.gradle
+/prepare_acceptance.py
+/review_saved_terrain.py
+/run_climate_probe.ps1
+/run_visual_validation.py
+/summarize_acceptance.py
+/visual_acceptance.gradle
+/README.md

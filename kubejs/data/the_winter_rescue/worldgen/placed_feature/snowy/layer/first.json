@@ -28,7 +28,7 @@
           },
           {
             "type": "minecraft:matching_blocks",
-            "blocks": ["minecraft:air", "minecraft:snow"],
+            "blocks": ["minecraft:air"],
             "offset": [0, 0, 0]
           },
           {

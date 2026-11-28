@@ -100,6 +100,8 @@ ServerEvents.recipes((event) => {
         shapelessRecipe('frostedheart:timber_metal_scaffolding_stairs', "frostedheart:timber_metal_scaffolding"),
         shapelessRecipe("2x frostedheart:timber_metal_scaffolding", ['frostedheart:metal_scaffolding', 'frostedheart:wooden_scaffolding']),
         shapelessRecipe("2x frostedheart:timber_metal_scaffolding_stairs", ['frostedheart:metal_scaffolding_stairs', 'frostedheart:wooden_scaffolding_stairs']),
+        shapelessRecipe('2x stone_age:grass_lead', ["supplementaries:flax", "supplementaries:flax"]),
+        shapelessRecipe("create:white_seat", [["white_wool", "immersiveengineering:hemp_fabric"], "#minecraft:wooden_slabs"]),
 
     ]
     addShapelessRecipes.forEach((recipe, index) => {

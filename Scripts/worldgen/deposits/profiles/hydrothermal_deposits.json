@@ -1,0 +1,12 @@
+{
+  "biome": "the_winter_rescue:hydrothermal_deposits",
+  "mineral": {
+    "Name": "minecraft:calcite"
+  },
+  "secondary": {
+    "Name": "create:limestone"
+  },
+  "rock": {
+    "Name": "minecraft:deepslate"
+  }
+}

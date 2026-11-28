@@ -1,0 +1,957 @@
+{
+  "worldgen/biome/hydrothermal_deposits.json": {
+    "carvers": {
+      "air": [
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "the_winter_rescue:wide_cave"
+      ]
+    },
+    "creature_spawn_probability": 0.01,
+    "downfall": 0.6,
+    "effects": {
+      "fog_color": 14739967,
+      "grass_color": 13029527,
+      "additions_sound": {
+        "sound": "minecraft:ambient.basalt_deltas.additions",
+        "tick_chance": 0.0111
+      },
+      "mood_sound": {
+        "block_search_extent": 8,
+        "offset": 2,
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000
+      },
+      "music": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "replace_current_music": false,
+        "sound": "minecraft:music.overworld.stony_peaks"
+      },
+      "particle": {
+        "options": {
+          "type": "minecraft:white_ash"
+        },
+        "probability": 0.08
+      },
+      "sky_color": 7842047,
+      "water_color": 7856375,
+      "water_fog_color": 329011
+    },
+    "features": [
+      [
+        "the_winter_rescue:cave/diorite"
+      ],
+      [
+        "minecraft:lake_lava_underground",
+        "minecraft:lake_lava_surface",
+        "the_winter_rescue:cave/hydrothermal_lake"
+      ],
+      [
+        "minecraft:amethyst_geode",
+        "the_winter_rescue:cave/hydrothermal_geode"
+      ],
+      [
+        "minecraft:monster_room",
+        "minecraft:monster_room_deep"
+      ],
+      [
+        "the_winter_rescue:cave/hydrothermal_delta"
+      ],
+      [],
+      [
+        "minecraft:ore_gravel",
+        "the_winter_rescue:cave/hydrothermal_nickel_ore",
+        "the_winter_rescue:cave/hydrothermal_pyrite_ore",
+        "the_winter_rescue:cave/hydrothermal_zinc_ore",
+        "the_winter_rescue:cave/hydrothermal_lead_ore",
+        "the_winter_rescue:cave/hydrothermal_silver_ore",
+        "minecraft:ore_coal_upper",
+        "minecraft:ore_coal_lower",
+        "minecraft:ore_iron_upper",
+        "minecraft:ore_iron_middle",
+        "minecraft:ore_iron_small",
+        "minecraft:ore_gold",
+        "minecraft:ore_gold_lower",
+        "minecraft:ore_redstone",
+        "minecraft:ore_redstone_lower",
+        "minecraft:ore_lapis",
+        "minecraft:ore_lapis_buried",
+        "minecraft:ore_copper",
+        "the_winter_rescue:cave/hydrothermal_magma"
+      ],
+      [
+        "the_winter_rescue:cave/calcite_strip",
+        "the_winter_rescue:cave/hydrothermal_vines"
+      ],
+      [
+        "minecraft:spring_water",
+        "minecraft:spring_lava"
+      ],
+      [
+        "minecraft:glow_lichen"
+      ],
+      []
+    ],
+    "has_precipitation": true,
+    "spawn_costs": {},
+    "spawners": {
+      "ambient": [],
+      "axolotls": [],
+      "creature": [],
+      "misc": [],
+      "monster": [
+        {
+          "type": "minecraft:spider",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 1
+        },
+        {
+          "type": "minecraft:creeper",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 1
+        }
+      ],
+      "underground_water_creature": [
+        {
+          "type": "minecraft:glow_squid",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 1
+        }
+      ],
+      "water_ambient": [],
+      "water_creature": []
+    },
+    "temperature": 0.24775
+  },
+  "worldgen/configured_carver/wide_cave.json": {
+    "type": "minecraft:cave",
+    "config": {
+      "probability": 0.15,
+      "replaceable": "#minecraft:overworld_carver_replaceables",
+      "lava_level": {
+        "absolute": -54
+      },
+      "y": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -64
+        },
+        "max_inclusive": {
+          "absolute": 25
+        }
+      },
+      "yScale": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0.5,
+          "max_exclusive": 1.0
+        }
+      },
+      "xScale": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1.5,
+          "max_exclusive": 4.0
+        }
+      },
+      "floor_level": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": -1.0,
+          "max_exclusive": 0.0
+        }
+      },
+      "vertical_radius_multiplier": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0.9,
+          "max_exclusive": 1.0
+        }
+      },
+      "horizontal_radius_multiplier": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0.9,
+          "max_exclusive": 1.0
+        }
+      }
+    }
+  },
+  "worldgen/placed_feature/cave/hydrothermal_vines.json": {
+    "feature": "minecraft:cave_vine",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 75
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": 128
+          },
+          "min_inclusive": {
+            "above_bottom": 0
+          }
+        }
+      },
+      {
+        "type": "minecraft:environment_scan",
+        "allowed_search_condition": {
+          "type": "minecraft:matching_blocks",
+          "blocks": "minecraft:air"
+        },
+        "direction_of_search": "up",
+        "max_steps": 12,
+        "target_condition": {
+          "type": "minecraft:has_sturdy_face",
+          "direction": "down"
+        }
+      },
+      {
+        "type": "minecraft:random_offset",
+        "xz_spread": 0,
+        "y_spread": -1
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/placed_feature/cave/calcite_strip.json": {
+    "feature": "the_winter_rescue:cave/calcite_strip",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 30
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": 35
+          },
+          "min_inclusive": {
+            "absolute": -32
+          }
+        }
+      },
+      {
+        "type": "minecraft:environment_scan",
+        "allowed_search_condition": {
+          "type": "minecraft:matching_blocks",
+          "blocks": [
+            "minecraft:air"
+          ]
+        },
+        "direction_of_search": "down",
+        "max_steps": 20,
+        "target_condition": {
+          "type": "minecraft:solid"
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/configured_feature/cave/calcite_strip.json": {
+    "type": "minecraft:vegetation_patch",
+    "config": {
+      "depth": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 6
+        }
+      },
+      "extra_bottom_block_chance": 0.5,
+      "extra_edge_column_chance": 0.5,
+      "ground_state": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:calcite"
+        }
+      },
+      "replaceable": "#minecraft:base_stone_overworld",
+      "surface": "floor",
+      "vegetation_chance": 0.001,
+      "vegetation_feature": {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "config": {
+            "to_place": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:air"
+              }
+            }
+          }
+        },
+        "placement": []
+      },
+      "vertical_range": 5,
+      "xz_radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 3
+        }
+      }
+    }
+  },
+  "worldgen/placed_feature/cave/hydrothermal_magma.json": {
+    "feature": "the_winter_rescue:cave/hydrothermal_magma",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 50,
+            "max_inclusive": 100
+          }
+        }
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": 40
+          },
+          "min_inclusive": {
+            "absolute": -54
+          }
+        }
+      },
+      {
+        "type": "minecraft:environment_scan",
+        "direction_of_search": "down",
+        "max_steps": 32,
+        "target_condition": {
+          "type": "minecraft:has_sturdy_face",
+          "direction": "up"
+        },
+        "allowed_search_condition": {
+          "type": "minecraft:any_of",
+          "predicates": [
+            {
+              "type": "minecraft:matching_blocks",
+              "blocks": "minecraft:air"
+            },
+            {
+              "type": "minecraft:matching_fluids",
+              "fluids": "minecraft:water"
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:matching_fluids",
+          "offset": [
+            0,
+            1,
+            0
+          ],
+          "fluids": "minecraft:water"
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/configured_feature/cave/hydrothermal_magma.json": {
+    "type": "minecraft:disk",
+    "config": {
+      "half_height": 0,
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 4
+        }
+      },
+      "state_provider": {
+        "rules": [],
+        "fallback": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:magma_block"
+          }
+        }
+      },
+      "target": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:stone",
+          "minecraft:deepslate",
+          "minecraft:granite",
+          "minecraft:diorite",
+          "minecraft:andesite",
+          "minecraft:tuff",
+          "minecraft:dirt",
+          "minecraft:gravel",
+          "minecraft:sand",
+          "minecraft:basalt"
+        ]
+      }
+    }
+  },
+  "worldgen/placed_feature/cave/hydrothermal_silver_ore.json": {
+    "feature": {
+      "type": "minecraft:ore",
+      "config": {
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 20,
+        "targets": [
+          {
+            "state": {
+              "Name": "immersiveengineering:ore_silver"
+            },
+            "target": {
+              "predicate_type": "minecraft:tag_match",
+              "tag": "minecraft:stone_ore_replaceables"
+            }
+          },
+          {
+            "state": {
+              "Name": "immersiveengineering:deepslate_ore_silver"
+            },
+            "target": {
+              "predicate_type": "minecraft:tag_match",
+              "tag": "minecraft:deepslate_ore_replaceables"
+            }
+          }
+        ]
+      }
+    },
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 1
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": 0
+          },
+          "min_inclusive": {
+            "absolute": -64
+          }
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/placed_feature/cave/hydrothermal_lead_ore.json": {
+    "feature": {
+      "type": "minecraft:ore",
+      "config": {
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 20,
+        "targets": [
+          {
+            "state": {
+              "Name": "immersiveengineering:ore_lead"
+            },
+            "target": {
+              "predicate_type": "minecraft:tag_match",
+              "tag": "minecraft:stone_ore_replaceables"
+            }
+          },
+          {
+            "state": {
+              "Name": "immersiveengineering:deepslate_ore_lead"
+            },
+            "target": {
+              "predicate_type": "minecraft:tag_match",
+              "tag": "minecraft:deepslate_ore_replaceables"
+            }
+          }
+        ]
+      }
+    },
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 2
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": 0
+          },
+          "min_inclusive": {
+            "absolute": -64
+          }
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/placed_feature/cave/hydrothermal_zinc_ore.json": {
+    "feature": {
+      "type": "minecraft:ore",
+      "config": {
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 20,
+        "targets": [
+          {
+            "state": {
+              "Name": "create:zinc_ore"
+            },
+            "target": {
+              "predicate_type": "minecraft:tag_match",
+              "tag": "minecraft:stone_ore_replaceables"
+            }
+          },
+          {
+            "state": {
+              "Name": "create:deepslate_zinc_ore"
+            },
+            "target": {
+              "predicate_type": "minecraft:tag_match",
+              "tag": "minecraft:deepslate_ore_replaceables"
+            }
+          }
+        ]
+      }
+    },
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 6
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": 35
+          },
+          "min_inclusive": {
+            "absolute": -48
+          }
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/placed_feature/cave/hydrothermal_pyrite_ore.json": {
+    "feature": {
+      "type": "minecraft:ore",
+      "config": {
+        "discard_chance_on_air_exposure": 0.0,
+        "size": 30,
+        "targets": [
+          {
+            "state": {
+              "Name": "frostedheart:pyrite_ore"
+            },
+            "target": {
+              "predicate_type": "minecraft:tag_match",
+              "tag": "minecraft:stone_ore_replaceables"
+            }
+          },
+          {
+            "state": {
+              "Name": "frostedheart:deepslate_pyrite_ore"
+            },
+            "target": {
+              "predicate_type": "minecraft:tag_match",
+              "tag": "minecraft:deepslate_ore_replaceables"
+            }
+          }
+        ]
+      }
+    },
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 6
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": 35
+          },
+          "min_inclusive": {
+            "absolute": -48
+          }
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/placed_feature/cave/hydrothermal_nickel_ore.json": {
+    "feature": "the_winter_rescue:cave/hydrothermal_nickel_ore",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 5
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": 0
+          },
+          "min_inclusive": {
+            "absolute": -64
+          }
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/configured_feature/cave/hydrothermal_nickel_ore.json": {
+    "type": "minecraft:ore",
+    "config": {
+      "discard_chance_on_air_exposure": 0.0,
+      "size": 25,
+      "targets": [
+        {
+          "state": {
+            "Name": "immersiveengineering:ore_nickel"
+          },
+          "target": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "minecraft:stone_ore_replaceables"
+          }
+        },
+        {
+          "state": {
+            "Name": "immersiveengineering:deepslate_ore_nickel"
+          },
+          "target": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "minecraft:deepslate_ore_replaceables"
+          }
+        }
+      ]
+    }
+  },
+  "worldgen/placed_feature/cave/hydrothermal_delta.json": {
+    "feature": "the_winter_rescue:cave/hydrothermal_delta",
+    "placement": [
+      {
+        "type": "minecraft:count_on_every_layer",
+        "count": 40
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "min_inclusive": {
+            "absolute": -54
+          },
+          "max_inclusive": {
+            "absolute": 20
+          }
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/configured_feature/cave/hydrothermal_delta.json": {
+    "type": "minecraft:delta_feature",
+    "config": {
+      "contents": {
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
+      },
+      "rim": {
+        "Name": "create:limestone"
+      },
+      "rim_size": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 2
+        }
+      },
+      "size": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 8
+        }
+      }
+    }
+  },
+  "worldgen/placed_feature/cave/hydrothermal_geode.json": {
+    "feature": "the_winter_rescue:cave/hydrothermal_geode",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": {
+          "type": "minecraft:weighted_list",
+          "distribution": [
+            {
+              "data": 1,
+              "weight": 3
+            },
+            {
+              "data": 2,
+              "weight": 2
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": 35
+          },
+          "min_inclusive": {
+            "absolute": -48
+          }
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/configured_feature/cave/hydrothermal_geode.json": {
+    "type": "minecraft:geode",
+    "config": {
+      "blocks": {
+        "filling_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "immersiveengineering:ore_lead"
+          }
+        },
+        "inner_layer_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "frostedheart:pyrite_ore"
+          }
+        },
+        "alternate_inner_layer_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "immersiveengineering:ore_silver"
+          }
+        },
+        "middle_layer_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:tuff"
+          }
+        },
+        "outer_layer_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:tuff"
+          }
+        },
+        "cannot_replace": "#minecraft:features_cannot_replace",
+        "invalid_blocks": "#minecraft:geode_invalid_blocks",
+        "inner_placements": [
+          {
+            "Name": "immersiveengineering:ore_silver"
+          }
+        ]
+      },
+      "crack": {
+        "base_crack_size": 0.5,
+        "crack_point_offset": 2,
+        "generate_crack_chance": 0.5
+      },
+      "layers": {
+        "filling": 1,
+        "inner_layer": 1.5,
+        "middle_layer": 2.5,
+        "outer_layer": 3.2
+      },
+      "invalid_blocks_threshold": 1,
+      "use_alternate_layer0_chance": 0.4,
+      "use_potential_placements_chance": 0.35
+    }
+  },
+  "worldgen/placed_feature/cave/hydrothermal_lake.json": {
+    "feature": "the_winter_rescue:cave/hydrothermal_lake",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 6
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "absolute": 25
+          },
+          "min_inclusive": {
+            "absolute": -30
+          }
+        }
+      },
+      {
+        "type": "minecraft:environment_scan",
+        "direction_of_search": "up",
+        "max_steps": 10,
+        "target_condition": {
+          "type": "minecraft:all_of",
+          "predicates": [
+            {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:air"
+              ],
+              "offset": [
+                0,
+                1,
+                0
+              ]
+            },
+            {
+              "type": "minecraft:matching_blocks",
+              "blocks": [
+                "minecraft:air"
+              ],
+              "offset": [
+                0,
+                2,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  },
+  "worldgen/configured_feature/cave/hydrothermal_lake.json": {
+    "type": "minecraft:lake",
+    "config": {
+      "fluid": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:water",
+          "Properties": {
+            "level": "0"
+          }
+        }
+      },
+      "barrier": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:tuff"
+        }
+      }
+    }
+  },
+  "worldgen/placed_feature/cave/diorite.json": {
+    "feature": {
+      "type": "minecraft:netherrack_replace_blobs",
+      "config": {
+        "radius": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 5,
+            "max_inclusive": 12
+          }
+        },
+        "state": {
+          "Name": "minecraft:diorite"
+        },
+        "target": {
+          "Name": "minecraft:stone"
+        }
+      }
+    },
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 75
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "min_inclusive": {
+            "above_bottom": 0
+          },
+          "max_inclusive": {
+            "absolute": 72
+          }
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+}

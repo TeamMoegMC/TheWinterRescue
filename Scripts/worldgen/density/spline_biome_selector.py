@@ -2,6 +2,7 @@ import json
 from collections import Counter, defaultdict
 from copy import deepcopy
 from functools import lru_cache
+from pathlib import Path
 
 # 1) Constants
 # --------------------------------------------------------------------
@@ -1037,6 +1038,73 @@ def remap_rows_to_single_target(rows, target_biome, non_target_proxy):
 # 7) Unified rows -> selector generator
 # Runtime-first atomic-cell compiler
 # ============================================================
+def factor_minmax(expr):
+    """Factor finite-valued min/max expressions without changing their leaves."""
+    def flatten(node, operation):
+        if isinstance(node, dict) and node.get("type") == operation:
+            return flatten(node["argument1"], operation) + flatten(node["argument2"], operation)
+        return [node]
+
+    def combine(operation, operands):
+        unique = {}
+        for operand in operands:
+            for node in flatten(operand, operation):
+                unique.setdefault(canonicalize_expr(node), node)
+        operands = list(unique.values())
+        if len(operands) == 1:
+            return operands[0]
+
+        inner_operation = "minecraft:max" if operation == "minecraft:min" else "minecraft:min"
+        terms = [flatten(operand, inner_operation) for operand in operands]
+        keys = [{canonicalize_expr(node) for node in term} for term in terms]
+        # Absorption: max(A, min(A, B)) = A, and the corresponding min/max dual.
+        keep = [i for i, key in enumerate(keys) if not any(other < key for other in keys)]
+        operands = [operands[i] for i in keep]
+        terms = [terms[i] for i in keep]
+        keys = [keys[i] for i in keep]
+        if len(operands) == 1:
+            return operands[0]
+
+        frequencies = Counter(key for term in keys for key in term)
+        repeated = list(dict.fromkeys(
+            canonicalize_expr(node) for term in terms for node in term
+            if frequencies[canonicalize_expr(node)] > 1
+        ))
+        if repeated:
+            # Break ties by first appearance, so generation is deterministic.
+            factor = max(repeated, key=frequencies.get)
+            selected = [i for i, key in enumerate(keys) if factor in key]
+            common = set.intersection(*(keys[i] for i in selected))
+            common_nodes = [node for node in terms[selected[0]] if canonicalize_expr(node) in common]
+            remainders = [[node for node in terms[i] if canonicalize_expr(node) not in common]
+                          for i in selected]
+            if any(not term for term in remainders):
+                factored = combine(inner_operation, common_nodes)
+            else:
+                alternatives = combine(operation, [combine(inner_operation, term) for term in remainders])
+                factored = combine(inner_operation, common_nodes + [alternatives])
+
+            # Keep the relative order of the surviving branches.
+            remaining = [factored if i == selected[0] else operand
+                         for i, operand in enumerate(operands)
+                         if i == selected[0] or i not in selected]
+            return combine(operation, remaining) if len(remaining) > 1 else remaining[0]
+
+        result = operands[0]
+        for operand in operands[1:]:
+            result = {"type": operation, "argument1": result, "argument2": operand}
+        return result
+
+    if isinstance(expr, list):
+        return [factor_minmax(value) for value in expr]
+    if not isinstance(expr, dict):
+        return expr
+    result = {key: factor_minmax(value) for key, value in expr.items()}
+    if result.get("type") in ("minecraft:min", "minecraft:max"):
+        return combine(result["type"], [result["argument1"], result["argument2"]])
+    return result
+
+
 def generate_smooth_hypercube_mask(
     biome_rows=None,
     target_biome=None,
@@ -1045,8 +1113,16 @@ def generate_smooth_hypercube_mask(
     output_path="smooth_hypercube_mask.json",
     top_level_cache=True,
     merge_rectangles=False,
-    ignore_dims=None
+    ignore_dims=None,
+    cache_type="minecraft:cache_once"
 ):
+    """Generate a factored union of smooth climate-region masks.
+
+    flat_cache is an explicit option for the pack's already flat-cached 2D climate
+    inputs. Masks using depth retain cache_once; their results vary with height.
+    merge_rectangles keeps its existing bounding-box behavior and is independent
+    of the exact min/max factoring performed here.
+    """
     DIM_ORDER = ["depth", "weirdness", "erosion", "continentalness", "temperature", "humidity"]
     DIMENSION_FN_REFS = {
         "depth": "minecraft:overworld/depth",
@@ -1060,6 +1136,11 @@ def generate_smooth_hypercube_mask(
     if ignore_dims is None:
         ignore_dims = []
     active_dims = [d for d in DIM_ORDER if d not in ignore_dims]
+    if top_level_cache:
+        if cache_type not in ("minecraft:cache_once", "minecraft:flat_cache"):
+            raise ValueError(f"Unsupported mask cache type: {cache_type}")
+        if cache_type == "minecraft:flat_cache" and "depth" in active_dims:
+            raise ValueError("flat_cache requires ignore_dims to include depth")
 
     if intervals is not None:
         rects = [intervals]
@@ -1116,10 +1197,12 @@ def generate_smooth_hypercube_mask(
             for rm in rect_masks[1:]:
                 final_expr = {"type": "minecraft:max", "argument1": final_expr, "argument2": rm}
 
-    if top_level_cache:
-        final_expr = {"type": "minecraft:cache_once", "argument": final_expr}
+    final_expr = factor_minmax(final_expr)
 
-    with open(output_path, "w", encoding="utf-8") as f:
+    if top_level_cache:
+        final_expr = {"type": cache_type, "argument": final_expr}
+
+    with open(output_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(final_expr, f, indent=2)
 
     return final_expr
@@ -1393,10 +1476,20 @@ if __name__ == "__main__":
         if row["biome"] == target_biome:
             print(row["parameters"])
 
-    generate_smooth_hypercube_mask(
+    script_dir = Path(__file__).resolve().parent
+    generated_mask = generate_smooth_hypercube_mask(
         biome_rows=filtered_biome_rows,
         target_biome=target_biome,
         transition_width=0.06,
-        output_path="glacial_fungus_caves_spline.json",
-        ignore_dims=["depth"]
+        output_path=script_dir / "glacial_fungus_caves_spline.json",
+        ignore_dims=["depth"],
+        cache_type="minecraft:flat_cache"
     )
+    runtime_path = script_dir.parents[2] / (
+        "kubejs/data/the_winter_rescue/worldgen/density_function/overworld/"
+        "glacial_fungus_caves_spline.json"
+    )
+    with runtime_path.open("w", encoding="utf-8", newline="\n") as f:
+        json.dump(generated_mask, f, indent=2)
+    print("Wrote", script_dir / "glacial_fungus_caves_spline.json")
+    print("Wrote", runtime_path)
